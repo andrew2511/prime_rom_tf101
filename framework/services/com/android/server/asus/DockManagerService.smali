@@ -875,7 +875,7 @@
     invoke-virtual {v0, v13, v6}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 363
-    const v2, 0x10804bc
+    const v2, 0x10805a7
 
     .line 364
     .local v2, icon:I
@@ -884,7 +884,7 @@
     if-ne v6, v14, :cond_a9
 
     .line 365
-    const v2, 0x10804ca
+    const v2, 0x10805a8
 
     .line 367
     :cond_a9

@@ -3662,6 +3662,8 @@
     <public type="drawable" name="selected_day_background" id="0x010805a4" />
     <public type="drawable" name="screen_background_holo_light" id="0x010805a5" />
     <public type="drawable" name="screen_background_holo_dark" id="0x010805a6" />
+    <public type="drawable" name="stat_sys_battery_dock" id="0x010805a7" />
+    <public type="drawable" name="stat_sys_battery_charge_dock" id="0x010805a8" />
     <public type="drawable" name="arrow_down_float" id="0x01080002" />
     <public type="drawable" name="arrow_up_float" id="0x01080003" />
     <public type="drawable" name="btn_star_big_off" id="0x0108000b" />

@@ -267,7 +267,7 @@
     <string name="power_off">Sluk</string>
     <string name="shutdown_progress">Lukker ned ...</string>
     <string name="shutdown_confirm">Din tabletcomputer slukkes nu.</string>
-    <string name="shutdown_confirm_question">Vil du slukke?</string>
+    <string name="shutdown_confirm_question">Hvad vil du gerne gøre?</string>
     <string name="recent_tasks_title">Seneste</string>
     <string name="no_recent_tasks">Der er ingen nye applikationer.</string>
     <string name="global_actions">Valgmuligheder for tabletcomputeren</string>
@@ -990,4 +990,8 @@ Prøv venligst igen."</string>
     <string name="keyguard_password_enter_new_pin_code">Indtast ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Bekræft ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN er ikke ens.</string>
+    <string name="buttonTxtContinue">Fortsæt</string>
+    <string name="reboot_recovery">Komme sig</string>
+    <string name="shutdown">Sluk</string>
+    <string name="reboot">Genstart</string>
 </resources>

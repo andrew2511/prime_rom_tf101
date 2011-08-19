@@ -267,7 +267,7 @@
     <string name="power_off">Apagar</string>
     <string name="shutdown_progress">Apagando...</string>
     <string name="shutdown_confirm">El tablet se apagará.</string>
-    <string name="shutdown_confirm_question">¿Quieres apagar el teléfono?</string>
+    <string name="shutdown_confirm_question">¿Qué le gustaría hacer?</string>
     <string name="recent_tasks_title">Reciente</string>
     <string name="no_recent_tasks">No hay aplicaciones recientes</string>
     <string name="global_actions">Opciones del tablet</string>
@@ -990,4 +990,8 @@ No quite la base de conexiones móvil ni apague del dispositivo.
     <string name="keyguard_password_enter_new_pin_code">Insertar nuevo PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Confirmar nuevo PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">El PIN no coincide.</string>
+    <string name="buttonTxtContinue">Continuar</string>
+    <string name="reboot_recovery">Recuperación</string>
+    <string name="shutdown">Apagar</string>
+    <string name="reboot">Reiniciar</string>
 </resources>

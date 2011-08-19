@@ -267,7 +267,7 @@
     <string name="power_off">Stäng av</string>
     <string name="shutdown_progress">Avslutar…</string>
     <string name="shutdown_confirm">Din pekdator stängs av.</string>
-    <string name="shutdown_confirm_question">Vill du stänga av?</string>
+    <string name="shutdown_confirm_question">Välj den åtgärd du vill utföra.</string>
     <string name="recent_tasks_title">Senaste</string>
     <string name="no_recent_tasks">Inga nya appar.</string>
     <string name="global_actions">Alternativ för pekdatorn</string>
@@ -990,4 +990,8 @@ Försök igen."</string>
     <string name="keyguard_password_enter_new_pin_code">Ange ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Bekräfta ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN matchar inte.</string>
+    <string name="buttonTxtContinue">Fortsätt</string>
+    <string name="reboot_recovery">Återställning</string>
+    <string name="shutdown">Avstängning</string>
+    <string name="reboot">Omstart</string>
 </resources>

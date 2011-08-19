@@ -267,7 +267,7 @@
     <string name="power_off">Slå av</string>
     <string name="shutdown_progress">Avslutter…</string>
     <string name="shutdown_confirm">Nettbrettet slås av.</string>
-    <string name="shutdown_confirm_question">Vil du slå av?</string>
+    <string name="shutdown_confirm_question">Hva vil du gjøre?</string>
     <string name="recent_tasks_title">Nylig</string>
     <string name="no_recent_tasks">Ingen nylig brukte applikasjoner.</string>
     <string name="global_actions">Innstillinger for nettbrett</string>
@@ -990,4 +990,8 @@ Prøv igjen."</string>
     <string name="keyguard_password_enter_new_pin_code">Skriv inn ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Bekrefte ny PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN samsvarer ikke.</string>
+    <string name="buttonTxtContinue">Fortsett</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="shutdown">Strøm av</string>
+    <string name="reboot">Reboot</string>
 </resources>

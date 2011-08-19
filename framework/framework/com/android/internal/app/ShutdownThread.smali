@@ -30,6 +30,8 @@
 
 .field private static mRebootReason:Ljava/lang/String;
 
+.field public static mRebootTrigger:I
+
 .field private static final sInstance:Lcom/android/internal/app/ShutdownThread;
 
 .field private static sIsStarted:Z
@@ -482,9 +484,33 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 440
+    sget v1, Lcom/android/internal/app/ShutdownThread;->mRebootTrigger:I
+
+    const/4 v2, 0x1
+
+    if-eq v1, v2, :cond_30
+
+    const/4 v2, 0x2
+
+    if-eq v1, v2, :cond_37
+
     invoke-static {}, Landroid/os/Power;->shutdown()V
 
     .line 441
+    return-void
+
+    :cond_30
+    const-string v4, "recovery"
+
+    invoke-static {v4}, Landroid/os/Power;->reboot(Ljava/lang/String;)V
+
+    return-void
+
+    :cond_37
+    const-string v4, "now"
+
+    invoke-static {v4}, Landroid/os/Power;->reboot(Ljava/lang/String;)V
+
     return-void
 
     .line 418
@@ -652,7 +678,7 @@
 
     move-result-object v4
 
-    const v5, 0x104011a
+    const v5, 0x1040115
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -662,7 +688,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040013
+    const v5, 0x104042b
 
     new-instance v6, Lcom/android/internal/app/ShutdownThread$1;
 
@@ -672,9 +698,21 @@
 
     move-result-object v4
 
-    const v5, 0x1040009
+    const v5, 0x1040429
 
-    const/4 v6, 0x0
+    new-instance v6, Lcom/android/internal/app/ShutdownThread$5;
+
+    invoke-direct {v6, p0}, Lcom/android/internal/app/ShutdownThread$5;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v4
+
+    const v5, 0x104042a
+
+    new-instance v6, Lcom/android/internal/app/ShutdownThread$6;
+
+    invoke-direct {v6, p0}, Lcom/android/internal/app/ShutdownThread$6;-><init>(Landroid/content/Context;)V
 
     invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

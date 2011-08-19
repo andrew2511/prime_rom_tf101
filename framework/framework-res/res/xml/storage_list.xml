@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StorageList
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <storage android:mountPoint="/mnt/sdcard" android:storageDescription="@string/storage_internal" android:primary="true" android:removable="false" android:emulated="true" android:mtpReserve="100" />
+    <storage android:mountPoint="/Removable/MicroSD" android:storageDescription="@string/storage_microsd" android:primary="false" android:removable="true" />
+    <storage android:mountPoint="/Removable/USBdisk1" android:storageDescription="@string/storage_usbdisk1" android:primary="false" android:removable="true" />
+    <storage android:mountPoint="/Removable/USBdisk2" android:storageDescription="@string/storage_usbdisk2" android:primary="false" android:removable="true" />
+    <storage android:mountPoint="/Removable/SD" android:storageDescription="@string/storage_sdreader" android:primary="false" android:removable="true" />
+</StorageList>

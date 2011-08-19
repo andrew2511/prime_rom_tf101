@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Holo.DialogWhenLarge" parent="@style/Theme.Holo.Dialog.MinWidth">
+        <item name="preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Holo.DialogWhenLarge.NoActionBar" parent="@style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+        <item name="preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Holo.Light.DialogWhenLarge" parent="@style/Theme.Holo.Light.Dialog.MinWidth" />
+    <style name="Theme.Holo.Light.DialogWhenLarge.NoActionBar" parent="@style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth" />
+    <style name="PreferencePanel">
+        <item name="background">?detailsElementBackground</item>
+        <item name="layout_marginLeft">@dimen/preference_screen_side_margin</item>
+        <item name="layout_marginTop">48.0dip</item>
+        <item name="layout_marginRight">@dimen/preference_screen_side_margin</item>
+        <item name="layout_marginBottom">48.0dip</item>
+    </style>
+</resources>

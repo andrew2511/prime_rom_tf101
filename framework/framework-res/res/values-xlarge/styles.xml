@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StatusBarNotificationText">
+        <item name="textSize">16.0sp</item>
+        <item name="textColor">#ff999999</item>
+    </style>
+</resources>

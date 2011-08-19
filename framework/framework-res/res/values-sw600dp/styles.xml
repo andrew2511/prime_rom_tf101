@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Title" parent="@style/TextAppearance.StatusBar">
+        <item name="textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Icon" parent="@style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="textSize">14.0sp</item>
+        <item name="textColor">#ff999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="textColor">?textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.StatusBar" parent="@style/TextAppearance">
+        <item name="textAppearance">?textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Ticker" parent="@style/TextAppearance.StatusBar" />
+</resources>

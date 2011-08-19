@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="status_bar_height">48.0dip</dimen>
+    <dimen name="status_bar_icon_size">32.0dip</dimen>
+    <dimen name="status_bar_content_number_size">48.0sp</dimen>
+</resources>

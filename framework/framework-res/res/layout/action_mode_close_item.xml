@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/action_mode_close_button" android:background="@drawable/btn_cab_done" android:paddingLeft="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_cab_close_holo" android:scaleType="center" />
+    <TextView android:textAppearance="@style/TextAppearance.Holo.Medium" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/action_mode_done" />
+</LinearLayout>

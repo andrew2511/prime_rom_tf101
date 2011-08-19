@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.view.menu.ActionMenuItemView android:gravity="center" android:layout_gravity="center" android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:minHeight="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/imageButton" android:background="@null" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:minHeight="56.0dip" />
+    <Button android:textAppearance="?actionMenuTextAppearance" android:textColor="?actionMenuTextColor" android:layout_gravity="center" android:id="@id/textButton" android:background="@null" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/buttonStyleSmall" />
+</com.android.internal.view.menu.ActionMenuItemView>

@@ -1,0 +1,292 @@
+.class public Lcom/android/commands/svc/WifiCommand;
+.super Lcom/android/commands/svc/Svc$Command;
+.source "WifiCommand.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .prologue
+    .line 28
+    const-string v0, "wifi"
+
+    invoke-direct {p0, v0}, Lcom/android/commands/svc/Svc$Command;-><init>(Ljava/lang/String;)V
+
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public longHelp()Ljava/lang/String;
+    .registers 3
+
+    .prologue
+    .line 36
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p0}, Lcom/android/commands/svc/WifiCommand;->shortHelp()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "usage: svc wifi [enable|disable]\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "         Turn Wi-Fi on or off.\n\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "       svc wifi prefer\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "          Set Wi-Fi as the preferred data network\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public run([Ljava/lang/String;)V
+    .registers 10
+    .parameter "args"
+
+    .prologue
+    const/4 v7, 0x1
+
+    .line 45
+    const/4 v3, 0x0
+
+    .line 46
+    .local v3, validCommand:Z
+    array-length v5, p1
+
+    const/4 v6, 0x2
+
+    if-lt v5, v6, :cond_7d
+
+    .line 47
+    const/4 v2, 0x0
+
+    .line 48
+    .local v2, flag:Z
+    const-string v5, "enable"
+
+    aget-object v6, p1, v7
+
+    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_23
+
+    .line 49
+    const/4 v2, 0x1
+
+    .line 50
+    const/4 v3, 0x1
+
+    .line 64
+    :cond_13
+    :goto_13
+    if-eqz v3, :cond_7d
+
+    .line 65
+    const-string v5, "wifi"
+
+    invoke-static {v5}, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
+
+    move-result-object v5
+
+    invoke-static {v5}, Landroid/net/wifi/IWifiManager$Stub;->asInterface(Landroid/os/IBinder;)Landroid/net/wifi/IWifiManager;
+
+    move-result-object v4
+
+    .line 68
+    .local v4, wifiMgr:Landroid/net/wifi/IWifiManager;
+    :try_start_1f
+    invoke-interface {v4, v2}, Landroid/net/wifi/IWifiManager;->setWifiEnabled(Z)Z
+    :try_end_22
+    .catch Landroid/os/RemoteException; {:try_start_1f .. :try_end_22} :catch_63
+
+    .line 77
+    .end local v2           #flag:Z
+    .end local v4           #wifiMgr:Landroid/net/wifi/IWifiManager;
+    :goto_22
+    return-void
+
+    .line 51
+    .restart local v2       #flag:Z
+    :cond_23
+    const-string v5, "disable"
+
+    aget-object v6, p1, v7
+
+    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_30
+
+    .line 52
+    const/4 v2, 0x0
+
+    .line 53
+    const/4 v3, 0x1
+
+    goto :goto_13
+
+    .line 54
+    :cond_30
+    const-string v5, "prefer"
+
+    aget-object v6, p1, v7
+
+    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_13
+
+    .line 55
+    const-string v5, "connectivity"
+
+    invoke-static {v5}, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
+
+    move-result-object v5
+
+    invoke-static {v5}, Landroid/net/IConnectivityManager$Stub;->asInterface(Landroid/os/IBinder;)Landroid/net/IConnectivityManager;
+
+    move-result-object v0
+
+    .line 58
+    .local v0, connMgr:Landroid/net/IConnectivityManager;
+    const/4 v5, 0x1
+
+    :try_start_45
+    invoke-interface {v0, v5}, Landroid/net/IConnectivityManager;->setNetworkPreference(I)V
+    :try_end_48
+    .catch Landroid/os/RemoteException; {:try_start_45 .. :try_end_48} :catch_49
+
+    goto :goto_22
+
+    .line 59
+    :catch_49
+    move-exception v1
+
+    .line 60
+    .local v1, e:Landroid/os/RemoteException;
+    sget-object v5, Ljava/lang/System;->err:Ljava/io/PrintStream;
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "Failed to set preferred network: "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    goto :goto_22
+
+    .line 70
+    .end local v0           #connMgr:Landroid/net/IConnectivityManager;
+    .end local v1           #e:Landroid/os/RemoteException;
+    .restart local v4       #wifiMgr:Landroid/net/wifi/IWifiManager;
+    :catch_63
+    move-exception v1
+
+    .line 71
+    .restart local v1       #e:Landroid/os/RemoteException;
+    sget-object v5, Ljava/lang/System;->err:Ljava/io/PrintStream;
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "Wi-Fi operation failed: "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    goto :goto_22
+
+    .line 76
+    .end local v1           #e:Landroid/os/RemoteException;
+    .end local v2           #flag:Z
+    .end local v4           #wifiMgr:Landroid/net/wifi/IWifiManager;
+    :cond_7d
+    sget-object v5, Ljava/lang/System;->err:Ljava/io/PrintStream;
+
+    invoke-virtual {p0}, Lcom/android/commands/svc/WifiCommand;->longHelp()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    goto :goto_22
+.end method
+
+.method public shortHelp()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 32
+    const-string v0, "Control the Wi-Fi manager"
+
+    return-object v0
+.end method

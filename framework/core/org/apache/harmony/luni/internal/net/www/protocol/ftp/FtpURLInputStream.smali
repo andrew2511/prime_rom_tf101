@@ -1,0 +1,206 @@
+.class Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;
+.super Ljava/io/InputStream;
+.source "FtpURLInputStream.java"
+
+
+# instance fields
+.field private controlSocket:Ljava/net/Socket;
+
+.field private is:Ljava/io/InputStream;
+
+
+# direct methods
+.method public constructor <init>(Ljava/io/InputStream;Ljava/net/Socket;)V
+    .registers 3
+    .parameter "is"
+    .parameter "controlSocket"
+
+    .prologue
+    .line 35
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
+
+    .line 36
+    iput-object p1, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    .line 37
+    iput-object p2, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->controlSocket:Ljava/net/Socket;
+
+    .line 38
+    return-void
+.end method
+
+
+# virtual methods
+.method public available()I
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 73
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->available()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public close()V
+    .registers 2
+
+    .prologue
+    .line 67
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-static {v0}, Llibcore/io/IoUtils;->closeQuietly(Ljava/io/Closeable;)V
+
+    .line 68
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->controlSocket:Ljava/net/Socket;
+
+    invoke-static {v0}, Llibcore/io/IoUtils;->closeQuietly(Ljava/net/Socket;)V
+
+    .line 69
+    return-void
+.end method
+
+.method public declared-synchronized mark(I)V
+    .registers 3
+    .parameter "limit"
+
+    .prologue
+    .line 57
+    monitor-enter p0
+
+    :try_start_1
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1}, Ljava/io/InputStream;->mark(I)V
+    :try_end_6
+    .catchall {:try_start_1 .. :try_end_6} :catchall_8
+
+    .line 58
+    monitor-exit p0
+
+    return-void
+
+    .line 57
+    :catchall_8
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public markSupported()Z
+    .registers 2
+
+    .prologue
+    .line 62
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->markSupported()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public read()I
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 42
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->read()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public read([BII)I
+    .registers 5
+    .parameter "buf"
+    .parameter "off"
+    .parameter "nbytes"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 47
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public declared-synchronized reset()V
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 52
+    monitor-enter p0
+
+    :try_start_1
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->reset()V
+    :try_end_6
+    .catchall {:try_start_1 .. :try_end_6} :catchall_8
+
+    .line 53
+    monitor-exit p0
+
+    return-void
+
+    .line 52
+    :catchall_8
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public skip(J)J
+    .registers 5
+    .parameter "byteCount"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 78
+    iget-object v0, p0, Lorg/apache/harmony/luni/internal/net/www/protocol/ftp/FtpURLInputStream;->is:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1, p2}, Ljava/io/InputStream;->skip(J)J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method

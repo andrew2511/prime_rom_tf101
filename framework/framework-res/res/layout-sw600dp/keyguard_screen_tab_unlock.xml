@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="134.0dip" layout="@layout/keyguard_screen_status_port" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceMedium" android:layout_gravity="center" android:id="@id/screenLocked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="12.0dip" android:drawablePadding="4.0dip" android:layout_below="@id/status2" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/emergencyCallText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="5.0dip" android:text="@string/emergency_calls_only" android:layout_below="@id/carrier" android:layout_alignParentRight="true" />
+        <com.android.internal.widget.WaveView android:layout_gravity="center" android:id="@id/wave_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center" android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="90.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" style="@style/Widget.Button.Transparent" />
+    </LinearLayout>
+</LinearLayout>

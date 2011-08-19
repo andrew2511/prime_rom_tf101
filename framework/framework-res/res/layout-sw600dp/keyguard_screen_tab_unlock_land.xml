@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="102.0dip" android:layout_marginTop="320.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/keyguard_screen_status_land" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/screenLocked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:drawablePadding="4.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:textColor="@color/white" android:id="@id/emergencyCallText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/emergency_calls_only" android:layout_below="@id/screenLocked" android:layout_centerHorizontal="true" />
+        <com.android.internal.widget.WaveView android:id="@id/wave_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="0.0dip" android:layout_weight="1.0" android:layout_centerInParent="true" />
+        <Button android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" android:layout_below="@id/emergencyCallText" android:layout_centerHorizontal="true" style="@style/Widget.Button.Transparent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">48.0dip</dimen>
+    <dimen name="thumbnail_height">0.0dip</dimen>
+    <dimen name="thumbnail_width">0.0dip</dimen>
+    <item type="dimen" name="dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="dialog_min_width_minor">94.99999%</item>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="config_prefDialogWidth">0.0px</dimen>
+    <dimen name="toast_y_offset">64.0dip</dimen>
+    <dimen name="status_bar_height">25.0dip</dimen>
+    <dimen name="system_bar_height">48.0dip</dimen>
+    <dimen name="status_bar_icon_size">25.0dip</dimen>
+    <dimen name="system_bar_icon_size">32.0dip</dimen>
+    <dimen name="status_bar_edge_ignore">5.0dip</dimen>
+    <dimen name="fastscroll_overlay_size">104.0dip</dimen>
+    <dimen name="fastscroll_thumb_width">64.0dip</dimen>
+    <dimen name="fastscroll_thumb_height">52.0dip</dimen>
+    <dimen name="min_xlarge_screen_width">800.0dip</dimen>
+    <dimen name="password_keyboard_key_height_alpha">56.0dip</dimen>
+    <dimen name="password_keyboard_key_height_numeric">56.0dip</dimen>
+    <dimen name="password_keyboard_spacebar_vertical_correction">4.0dip</dimen>
+    <dimen name="preference_screen_side_margin">0.0dip</dimen>
+    <dimen name="preference_screen_side_margin_negative">0.0dip</dimen>
+    <dimen name="preference_screen_top_margin">0.0dip</dimen>
+    <dimen name="preference_screen_bottom_margin">0.0dip</dimen>
+    <dimen name="preference_widget_width">48.0dip</dimen>
+    <dimen name="preference_fragment_padding_bottom">0.0dip</dimen>
+    <dimen name="preference_fragment_padding_side">0.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingLeft">0.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingRight">0.0dip</dimen>
+    <dimen name="preference_icon_minWidth">0.0dip</dimen>
+    <dimen name="search_view_text_min_width">160.0dip</dimen>
+    <dimen name="alert_dialog_title_height">48.0dip</dimen>
+    <dimen name="alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="action_bar_home_up_margin">-4.0dip</dimen>
+    <dimen name="action_bar_home_image_padding">8.0dip</dimen>
+</resources>

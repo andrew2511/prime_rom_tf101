@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/tab_indicator_holo" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_weight="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/tab_indicator_left_spacer" android:layout_width="16.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/icon" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tab_indicator_left_spacer" android:layout_centerVertical="true" />
+    <TextView android:id="@id/title" android:paddingLeft="0.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="?android:attr/tabWidgetStyle" />
+</RelativeLayout>

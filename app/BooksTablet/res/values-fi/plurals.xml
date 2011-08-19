@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d/%2$2$d kirjaa</item>
+        <item quantity="one">Yksi kirja</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Tätä kirjaa voi lukea yhtä aikaa vain %1$d laitteella tai tietokoneella, ja olet saavuttanut tämän rajan. Sulje kirja muissa lukulaitteissa, odota muutama minuutti ja yritä uudelleen.</item>
+        <item quantity="one">Tätä kirjaa voi lukea yhtä aikaa vain yhdellä laitteella tai tietokoneella, ja olet saavuttanut tämän rajan. Sulje kirja muissa lukulaitteissa, odota muutama minuutti ja yritä uudelleen.</item>
+    </plurals>
+</resources>

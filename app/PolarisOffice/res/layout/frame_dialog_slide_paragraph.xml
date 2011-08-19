@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow>
+                <LinearLayout android:id="@id/holder_edit_word_paragraph_preview" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_span="2" />
+            </TableRow>
+            <TableRow android:layout_marginBottom="@dimen/dialog_word_paragraph_alignment_layout_margin_bottom">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="2">
+                    <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_paragraph_common_textview_layout_height" android:layout_marginBottom="@dimen/dialog_word_paragraph_common_textview_margin_bottom" android:text="@string/string_word_paragraph_alignment" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/holder_togglebuttongroup_word_paragraph_alignment_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:layout_marginRight="24.0px" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/holder_togglebuttongroup_word_paragraph_alignment_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+                <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dialog_word_paragraph_group_layout_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dialog_word_paragraph_group_spacer_width" android:layout_column="0" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_paragraph_common_textview_layout_height" android:layout_marginBottom="@dimen/dialog_word_paragraph_common_textview_margin_bottom" android:text="@string/string_word_paragraph_indent" />
+                    <TableLayout android:background="@drawable/group_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_paragraph_group_layout_height" android:stretchColumns="0">
+                        <TableRow android:layout_marginBottom="@dimen/dialog_word_paragraph_common_view_margin_vertical">
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:id="@id/textview_word_indent_left" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_indent_left" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_indent_left" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                        <TableRow android:layout_marginBottom="@dimen/dialog_word_paragraph_common_view_margin_vertical">
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:id="@id/textview_word_indent_right" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_indent_right" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_indent_right" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:id="@id/textview_word_indent_firstline" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_indent_firstline" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_indent_firstline" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dialog_word_paragraph_group_layout_width" android:layout_height="wrap_content" android:layout_weight="0.0">
+                    <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_paragraph_common_textview_layout_height" android:layout_marginBottom="@dimen/dialog_word_paragraph_common_textview_margin_bottom" android:text="@string/string_word_paragraph_spacing" />
+                    <TableLayout android:background="@drawable/group_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_paragraph_group_layout_height" android:stretchColumns="0">
+                        <TableRow android:layout_marginBottom="@dimen/dialog_word_paragraph_common_view_margin_vertical">
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_spacing_linespacing" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_spacing_line" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                        <TableRow android:layout_marginBottom="@dimen/dialog_word_paragraph_common_view_margin_vertical">
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_spacing_before_paragraph" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_spacing_before" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:textSize="@dimen/dialog_word_paragraph_common_textview_text_size_small" android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" android:text="@string/string_word_paragraph_spacing_after_paragraph" />
+                            <LinearLayout android:id="@id/holder_edit_word_paragraph_spacing_after" android:layout_width="@dimen/dialog_word_paragraph_common_view_layout_width" android:layout_height="@dimen/dialog_word_paragraph_common_view_layout_height" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

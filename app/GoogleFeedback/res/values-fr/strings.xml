@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Agent commentaires Market</string>
+    <string name="feedback">Commentaires</string>
+    <string name="report_feedback">Signaler une erreur</string>
+    <string name="report_error_in">Signaler une erreur dans %s</string>
+    <string name="system_log">Journal système</string>
+    <string name="event_log">Journal des événements</string>
+    <string name="preview">Aperçu</string>
+    <string name="back">Retour</string>
+    <string name="cancel">Annuler</string>
+    <string name="send">Envoyer</string>
+    <string name="preview_feedback">Aperçu des commentaires</string>
+    <string name="no_data">Aucune donnée</string>
+    <string name="fetching_system_log">Récupération du journal système...</string>
+    <string name="fetching_event_log">Récupération du journal des événements...</string>
+    <string name="privacy">Confidentialité</string>
+    <string name="include_system_data">Inclure les données système</string>
+    <string name="this_will_help">Pour un meilleur diagnostic du problème, communiquez les données système à Google.</string>
+    <string name="privacy_policy"><a href="notused">Règles de confidentialité</a></string>
+    <string name="unknown_app">Application inconnue</string>
+    <string name="cant_save_report">"Impossible d'enregistrer le rapport d'erreurs. Espace insuffisant sur le périphérique."</string>
+    <string name="report_being_sent">"Merci. Votre rapport est en cours d'envoi."</string>
+    <string name="optional_description">Description (facultatif)</string>
+    <string name="tos_activity_title">Infos légales Google</string>
+    <string name="tos_activity_unsuccessful_message">"Votre téléphone n'est connecté à aucun service de données. Pour consulter ces informations maintenant, accédez à l'adresse %s depuis un ordinateur connecté à Internet."</string>
+    <string name="tos_accept">Accepter</string>
+    <string name="tos_decline">Refuser</string>
+</resources>

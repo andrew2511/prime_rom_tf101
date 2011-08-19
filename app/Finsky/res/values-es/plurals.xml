@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d resultados</item>
+        <item quantity="one">%1$d resultado</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">aproximadamente %1$d resultados encontrados</item>
+        <item quantity="one">aproximadamente %1$d resultado encontrado</item>
+    </plurals>
+</resources>

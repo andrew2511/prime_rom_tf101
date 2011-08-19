@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pakkeinstallationsprogram</string>
+    <string name="install">Installer</string>
+    <string name="done">Udfør</string>
+    <string name="security_settings_desc">Tillad, at denne applikation:</string>
+    <string name="cancel">Annuller</string>
+    <string name="unknown">Ukendt</string>
+    <string name="installing">Installerer ...</string>
+    <string name="install_done">Programmet er installeret</string>
+    <string name="install_confirm_question">Ønsker du at installere denne applikation?</string>
+    <string name="install_failed">Programmet er ikke installeret</string>
+    <string name="install_failed_invalid_apk">Pakken ser ud til at være beskadiget.</string>
+    <string name="install_failed_inconsistent_certificates">Der er allerede installeret en eksisterende pakke med det samme navn og en modstridende signatur.</string>
+    <string name="install_failed_older_sdk">Pakken virker kun på nyere versioner af Android.</string>
+    <string name="install_failed_cpu_abi_incompatible">Denne applikation er ikke kompatibelt med denne tablets CPU.</string>
+    <string name="install_failed_msg">%1$s kunne ikke installeres på denne tablet.</string>
+    <string name="launch">Åbn</string>
+    <string name="unknown_apps_dlg_title">Installationen er blokeret</string>
+    <string name="unknown_apps_dlg_text">Tabletten kan af hensyn til din sikkerhed ikke installere applikationer fra andre steder end Marked.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Indstillinger</string>
+    <string name="manage_applications">Administ. applikationer</string>
+    <string name="dlg_app_replacement_title">Erstat applikationen</string>
+    <string name="dlg_app_replacement_statement">"Den applikation, du installerer, erstatter en anden applikation.
+
+Alle tidligere brugerdata gemmes."</string>
+    <string name="dlg_sys_app_replacement_statement">"Dette er et systemprogram. Ønsker du stadig at erstatte det?
+
+Alle tidligere brugerdata gemmes."</string>
+    <string name="out_of_space_dlg_title">Der er ikke mere plads</string>
+    <string name="out_of_space_dlg_text">%1$s kunne ikke installeres. Frigør lagerplads, og prøv igen.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Programmet blev ikke fundet</string>
+    <string name="app_not_found_dlg_text">Programmet blev ikke fundet på listen over installerede applikationer.</string>
+    <string name="uninstall_application_title">Afinstaller applikation</string>
+    <string name="uninstall_update_title">Afinstaller opdatering</string>
+    <string name="uninstall_activity_text">%1$s er en del af følgende applikation:</string>
+    <string name="uninstall_application_text">Denne applikation afinstalleres.</string>
+    <string name="uninstall_update_text">Programmet erstattes med fabriksversionen.</string>
+    <string name="uninstalling">Afinstallerer ...</string>
+    <string name="uninstall_done">Afinstallationen er afsluttet</string>
+    <string name="uninstall_failed">Afinstallationen mislykkedes</string>
+    <string name="uninstall_failed_device_policy_manager">Der kan ikke afinstalleres. Denne pakke er en aktiv enhedsadministrator.</string>
+    <string name="manage_device_administrators">Administrer enhedsadministratorer</string>
+    <string name="uninstall_failed_msg">%1$s kunne ikke afinstalleres</string>
+    <string name="Parse_error_dlg_title">Parsingfejl</string>
+    <string name="Parse_error_dlg_text">Der er problemer med at parse pakken.</string>
+</resources>

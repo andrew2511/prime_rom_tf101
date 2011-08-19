@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="35" android:versionName="5.0.2" android:installLocation="auto" package="com.layar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:theme="@style/LayarTitleTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:name=".App" android:debuggable="false">
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:theme="@style/MainScreenTheme" android:label="@string/app_name" android:name=".Main" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="layar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="layarshare" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="m.layar.com" path="open/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeSequenceActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".MyLayersActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".RecentActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".MainSettingsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/LayarTitleTheme.Black" android:name=".GalleryActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".FeaturedListActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".PopularListActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".CategoriesListActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".CategoryLayersListActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".TestLayersActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".NewLayersActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".VariantDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".GroupLayersListActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/LayarTitleTheme.Black" android:name=".SearchLayersActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateVisible" />
+        <activity android:theme="@style/FullScreenTheme" android:name=".CameraActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/ARTheme" android:name=".OneLayer3DActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/StandartButtonsTheme" android:name=".OneLayerMapActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/StandartButtonsTheme" android:name=".LayarListActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/StandartButtonsTheme" android:name=".PoiDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".SettingsActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".LayerInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".DetailsViewActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/FullScreenTheme" android:name=".ScreenshotActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/FilterTheme" android:name=".FilterSettingsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/FullScreenTheme" android:name="VideoActivity" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden" />
+        <activity android:theme="@style/SmartDialogTheme" android:name="AudioActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/terms_and_conditions" android:name=".TermsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_login" android:name=".UserLoginActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_welcome_title2" android:name=".UserWelcomeActivity" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="layarinternal" android:host="get_token" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_create_title" android:name=".UserCreateActivity" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_create_title" android:name=".UserCreateConfirmationActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_add_account" android:name=".UserAddAccountsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_forgot_password_title" android:name=".UserForgotPasswordActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_forgot_password_title" android:name=".UserForgotPasswordConfirmationActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_verification_prompt_title" android:name=".UserVerificationPromptActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/menu_settings" android:name=".UserSettingsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/purchase_layer" android:name=".PaymentProviderChooserActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".WebviewActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".SocialActionActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".UserInviteSourcesActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".UserInviteFriendsActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/IntroTheme" android:name=".ShareSocialActivity" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@style/IntroTheme" android:label="@string/user_twitter_email_title" android:name="TwitterEmailActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".EmailContactChooserActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".LayarInternalHandler" android:taskAffinity="android.task.browser">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="layarinternal" android:host="purchase_result" />
+                <data android:scheme="layarinternal" android:host="twitter_callback" />
+                <data android:scheme="layarinternal" android:host="facebook_callback" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".OnUpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" android:path="com.layar" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.layar.provider.LayarProvider" android:authorities="com.layar.provider.layarprovider" />
+        <meta-data android:name="ADMOB_PUBLISHER_ID" android:value="a14d87a96502c65" />
+        <receiver android:name="com.google.ads.InstallReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.camera" />
+</manifest>

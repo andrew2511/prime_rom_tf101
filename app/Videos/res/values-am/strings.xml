@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_personal_videos">የግል ቪዲዮዎች</string>
+    <string name="menu_shop">ሸምት</string>
+    <string name="menu_manage_offline">ከመስመር ውጪ ኪራዮች አደራጅ</string>
+    <string name="menu_help">እገዛ</string>
+    <string name="menu_settings">ቅንብሮች</string>
+    <string name="make_offline">ከመስመር ውጪ አድርግ</string>
+    <string name="problem_playing_local">\"%1$s\" ለማጫወት ችግር ነበር</string>
+    <string name="loading">በመስቀል ላይ…</string>
+    <string name="cancel">ይቅር</string>
+    <string name="confirm">አረጋግጥ</string>
+    <string name="retry">እንደገና ሞክር</string>
+    <string name="recent">አዲስ</string>
+    <string name="done">ተከናውኗል</string>
+    <string name="tap_to_retry">ድጋሚ ለመሞከር ንካ</string>
+    <string name="from_recommended">"ከ&lt;b>&lt;font color='white'>ተመካሪዎች&lt;/font>&lt;/b>"</string>
+    <string name="from_subscriptions">"ከ&lt;b>&lt;font color='white'>ምዝገባዎች&lt;/font>&lt;/b>"</string>
+    <string name="from_featured">"ከ&lt;b>&lt;font color='white'>ተወዳጅ ቪዲዮዎች&lt;/font>&lt;/b>"</string>
+    <string name="from_most_popular">"ከ&lt;b>&lt;font color='white'>በጣም ታዋቂ&lt;/font>&lt;/b>"</string>
+    <string name="from_most_discussed">"ከ&lt;b>&lt;font color='white'>በጣም የተወያየ&lt;/font>&lt;/b>"</string>
+    <string name="event_video_rated">%1$s ለቪዲዮ ደረጃ ሰጥተዋል</string>
+    <string name="event_video_shared">%1$s ቪዲዮ ተጋርቷል</string>
+    <string name="event_video_favorited">%1$sቪዲዮ መርጠዋል</string>
+    <string name="event_video_commented">%1$sበ ቪዲዮዉ ላይ አስተያየት ሰጥተዋል</string>
+    <string name="event_video_uploaded">%1$s አዲስ ቪዲዮ ሰቅልዋል</string>
+    <string name="event_friend_added">%1$s ከጋር ጓደኛ ሆነዋል፡፡</string>
+    <string name="event_user_subscription_added">%1$s ለ ተመዝግበዋል፡፡</string>
+    <string name="pref_general_category">ጠቅላላ ቅንብሮች</string>
+    <string name="pref_subtitles_size_title">የመግለጫ ጽሑፍ ቅርጸ ቁምፊ መጠን</string>
+    <string name="pref_subtitles_size_summary">ለመግለጫ ጽሁፍ ለመጠቀም ቅርጸ ቁምፊ መጠንን አዘጋጅ</string>
+    <string name="accounts_title">ግባ</string>
+    <string name="other_account">መለያ ያክሉ</string>
+    <string name="processing_video">ይህ ቪዲዮ ተካሂዷል</string>
+    <string name="video_was_deleted">ይህ ቪዲዮ በባለቤቱ ተሰርዞ ነበር</string>
+    <string name="video_not_available">ይህ የመለያ ስም ስለተያዘ መጠቀም አይቻልም</string>
+    <string name="problem_while_playing">በማጫወት ጊዜ ችግር ነበር</string>
+    <string name="video_infringes_copyright">ይህ ቪዲዮ ቅጂ መብት ጥሷል</string>
+    <string name="video_was_judged_inappropriate">ይህ ቪዲዮ ተገቢ ያልሆነ ፍርድ ተደርጎበት ነበር</string>
+    <string name="duplicate_upload">ይህ ቪዲዮ ተቀባይነትን አላገኘም(ስቀል አባዛ) ነበር</string>
+    <string name="video_violated_terms_of_use">ይህ ቪዲዮ የአጠቃቀም ውሎችን ይጋፋል</string>
+    <string name="uploader_account_suspended">የሰቃዮች መለያ ታግዶ ነበር</string>
+    <string name="video_too_long">ይህ ቪዲዮ በጣም ረጅም ነው</string>
+    <string name="blocked_by_content_owner">በይዘት ባለቤቱ የታገደ</string>
+    <string name="video_not_available_in_your_country">በእርስዎ አገር የለም</string>
+    <string name="video_not_available_on_mobile">ይህ ቪዲዮ በዚህ ድረ ገጽ ላይ አይገኝም፡፡</string>
+    <string name="video_is_private">ይህ ቪዲዮ የግል ነው፡፡</string>
+    <string name="video_couldnt_be_processed">ይህ ቪዲዮ መቀየር አይችልም</string>
+    <string name="video_is_in_an_invalid_format">ይህ ቪዲዮ ትክክለኛ ባልሆነ ፋይል ቅርፀት ውስጥ ነው</string>
+    <string name="video_uses_an_unsupported_codec">ይህ ቪዲዮ የማይደገፍ ኮዴክ ይጠቀማል</string>
+    <string name="video_is_empty">ይህ ቪዲዮ ባዶ ነው።</string>
+    <string name="video_is_too_small">ይህ ቪዲዮ በጣም ትንሽ ነው</string>
+    <string name="adult_content_intro">"ይህ ቪዲዮ ወይም ቡድን ለአንዳንድ ተጠቃሚዎች ተገቢ ያልሆነ ይዘት ይዞ ሊሆን ይችላል፣  በYouTube ተጠቃሚ ማህበረሰብ እንደ ተሰነደቀው ። 
+
+"</string>
+    <string name="adult_content_login">ይህን ቪዲዮ ለማየት፣ እባክዎ 18 ዓመት ወይም ከዚያ በላይ መሆንዎን በመግባት ያጣሩ።</string>
+    <string name="adult_content_confirm">\"አረጋግጥ\" በመንካት፣ ሁሉም በYouTube ማህበረሰብ የተሰነደቁ ቪዲዮዎች ወይም ቡድኖች በዚህ መለያ የሚታዩ መሆናቸውን እየተስማሙ ነው።</string>
+    <string name="adult_content_underage">እናዝናለን፣ ይህን ቪዲዮ ወይም ቡድን ለማየት 18 ዓመት በላይ መሆን አለብዎት፡፡</string>
+    <string name="error_network">በአውታረ መረቡ ላይ ችግር ነበር</string>
+    <string name="error_connection">ወደ አውታረ መረቡ ለማያያዝ ችግር ነበር</string>
+    <string name="error_http">[%1$s] አውታረ መረቡ ላይ ችግር ነበር</string>
+    <string name="error_response">በአውታረ መረቡ ምላሽ ላይ ችግር ነበር</string>
+    <string name="error_dev_reg">ለማስነሳት ችርግ ነበር። እባክዎ የአውታረ መረብዎን ትይይዝ እና የስርዓት ሰዓትን ይመልከቱ።</string>
+    <string name="error_authenticating">በማረጋገጥ ላይ ችግር ነበር</string>
+    <string name="error_no_linked_youtube_account">መለያዎ ለYouTube መለያአልተገናኘም።እባክዎ መለያዎችዎን ያገናኙ እና እንደገና ይሞክሩ።</string>
+    <string name="error_forbidden_action">ይህ እርምጃ አይፈቀድም</string>
+    <string name="error_forbidden_list_access">ይህ ዝርዝር መታየት አይችልም</string>
+    <string name="error_posting_comment">አስተያየትዎን ለማውጣት ችግር ነበር</string>
+    <string name="error_generic">ያልታወቀ ስህተት አጋጥሟል</string>
+    <string name="time_filter_dialog_title">ጊዜ አጣራ</string>
+    <string name="time_filter_today">ዛሬ</string>
+    <string name="time_filter_this_week">በዚህ ሣምንት</string>
+    <string name="time_filter_this_month">በዚህ ወር</string>
+    <string name="time_filter_all_time">የምን ጊዜም</string>
+    <string name="subtitles">አጭር መግለጫዎች</string>
+    <string name="turn_off_subtitles">ፅሁፍ መግለጫ አጥፋ</string>
+    <string name="no_subtitles">ለዚህ ቪዲዮ ምንም መግለጫ ጽሁፍ የለም</string>
+    <string name="advertisement">ማስታወቂያ</string>
+    <string name="all_categories">ሁሉም</string>
+    <string name="share_subject">በዩቲዩብ ላይ \"%s\" ተመልከት</string>
+    <string name="title_watch">ተመልከት</string>
+    <string name="video_info">መረጃ</string>
+</resources>

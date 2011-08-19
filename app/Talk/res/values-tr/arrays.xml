@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Yok</item>
+        <item>Sesli sohbet</item>
+        <item>Görüntülü sohbet</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Her zaman</item>
+        <item>Yalnızca sessizken</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>İletişim kutusu aç</item>
+        <item>Sistem çubuğu bildirimi</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>İletişim kutusu aç</item>
+        <item>Sistem çubuğu bildirimi</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Mutlu</item>
+        <item>Üzgün</item>
+        <item>Göz Kırpma</item>
+        <item>Dil çıkarmış</item>
+        <item>Şaşırmış</item>
+        <item>Öpücük</item>
+        <item>Bağırma</item>
+        <item>Sakin</item>
+        <item>Para ağızlı</item>
+        <item>Ayak ağızda</item>
+        <item>Mahçup</item>
+        <item>Melek</item>
+        <item>Kararsız</item>
+        <item>Ağlama</item>
+        <item>Dudakları mühürlü</item>
+        <item>Gülme</item>
+        <item>Sersemlemiş</item>
+        <item>Sırıtma</item>
+        <item>Kızgın</item>
+        <item>Poker surat</item>
+        <item>Kalp</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Her zaman</item>
+        <item>Hiçbir zaman</item>
+        <item>Otomatik olarak</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>En popüler</item>
+        <item>Tümü</item>
+        <item>Bazı</item>
+        <item>Sadece soğukkanlı çocuklar</item>
+    </string-array>
+</resources>

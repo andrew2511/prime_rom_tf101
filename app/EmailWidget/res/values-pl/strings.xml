@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">Poczta</string>
+    <string name="multiple_mails">Poczta</string>
+    <string name="go_to">Do skrz. odb.</string>
+</resources>

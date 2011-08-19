@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/fill"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.gesture.GestureOverlayView android:id="@id/gestures" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gestureColor="#00000000" android:uncertainGestureColor="#00000000" android:eventsInterceptionEnabled="false">
+        <ListView android:id="@id/list" style="@style/fill" />
+    </android.gesture.GestureOverlayView>
+</FrameLayout>

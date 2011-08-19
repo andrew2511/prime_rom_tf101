@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">صورة الشارع</string>
+    <string name="go_to_map">الانتقال إلى الخريطة</string>
+    <string name="report_inappropriate_image">الإبلاغ عن صورة</string>
+    <string name="toggle_compass_mode">وضع البوصلة</string>
+    <string name="compass_mode_on">تم تشغيل وضع البوصلة.</string>
+    <string name="compass_mode_off">تم إيقاف تشغيل وضع البوصلة.</string>
+    <string name="waiting_for_network">تم فقد اتصال البيانات، وجارٍ إعادة المحاولة…</string>
+    <string name="panorama_disabled">الصورة غير متوفرة</string>
+    <string name="service_unavailable">خدمة صورة الشارع غير متوفرة.</string>
+    <string name="loading">تحميل</string>
+    <string name="no_panorama_data">لم يتم تعيين بيانات بانوراما.</string>
+    <string name="invalid_panorama_data">بيانات بانوراما غير صالحة.</string>
+    <string name="click_to_go_toast">اسحب رمز الدليل إلى المكان الذي تريد الانتقال إليه.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">يتطلب هذا البرنامج اتصالاً بالبيانات، وسيعيد محاولة الاتصال تلقائيًا. الرجاء التحقق من قوة الإشارة. هل تم تشغيل وضع الطائرة؟ هل تم تعطيل بيانات التجوال؟</string>
+    <string name="whats_new_header">ما الجديد في صورة الشارع؟</string>
+    <string name="whats_new_c2g">يمكنك الطيران إلى أي مكان تراه. اسحب الدليل من أسفل اليمين وأفلته في أي مكان تريد الانتقال إليه.</string>
+    <string name="terms_and_privacy">البنود والخصوصية</string>
+    <string name="terms_and_conditions">البنود والشروط</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+</resources>

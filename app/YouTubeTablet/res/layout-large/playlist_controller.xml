@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <TextView android:textSize="@dimen/extra_large_font_size" android:textColor="@color/white" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="32.0dip" android:singleLine="true" />
+    <TextView android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:id="@id/details" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:singleLine="true" />
+    <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/light_grey" android:ellipsize="end" android:id="@id/summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:maxLines="4" />
+    <com.google.android.youtube.core.ui.PagedGridView android:id="@id/videos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/video_status_item" yt:horizontalSpacing="@dimen/video_grid_horizontal_spacing" yt:verticalSpacing="@dimen/video_grid_vertical_spacing" yt:numColumns="@integer/video_grid_full_width_columns" />
+</LinearLayout>

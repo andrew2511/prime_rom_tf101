@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Időjárás minialkalmazás beállításai</string>
+    <string name="refreshBtn">Frissítés</string>
+    <string name="saveBtn">Mentés</string>
+    <string name="cancelBtn">Mégse</string>
+    <string name="nocityfound">Nem található város</string>
+    <string name="humidity">Páratartalom</string>
+    <string name="winds">Szél</string>
+    <string name="infor1">Nem érhető el</string>
+    <string name="searchlistviewtitle">Válasszon várost</string>
+    <string name="wait">Várjon...</string>
+    <string name="refreshFail">Sikertelen frissítés. Kérjük, próbálja meg újra.</string>
+    <string name="searchFail">Sikertelen keresés. Kérjük, próbálja meg újra.</string>
+    <string name="dirN">É</string>
+    <string name="dirNNE">É-Ék</string>
+    <string name="dirNE">Ék</string>
+    <string name="dirENE">K-Ék</string>
+    <string name="dirE">K</string>
+    <string name="dirESE">K-Dk</string>
+    <string name="dirSE">Dk</string>
+    <string name="dirSSE">D-Dk</string>
+    <string name="dirS">D</string>
+    <string name="dirSSW">D-DNy</string>
+    <string name="dirSW">DNy</string>
+    <string name="dirWSW">Ny-DNy</string>
+    <string name="dirW">Ny</string>
+    <string name="dirWNW">Ny-ÉNy</string>
+    <string name="dirNW">ÉNy</string>
+    <string name="dirNNW">É-ÉNy</string>
+    <string name="entercityname">Kérjük, adjon meg egy várost:</string>
+    <string name="manualtitle">Helyszín kézi beállítása</string>
+    <string name="refreshprogresstitle">Időjárás információk frissítése</string>
+    <string name="refreshprogresscontent">Azonnali frissítés. Várjon...</string>
+    <string name="searchprogresstitle">Város keresése</string>
+    <string name="searchprogresscontent">Azonnali keresés. Várjon...</string>
+    <string name="no_network">A hálózat nem elérhető. Az időjárás-információ nem frissíthető.</string>
+    <string name="no_provider">Nem minden tartózkodásihely-információ engedélyezett. Kapcsolja be a vezeték nélküli hálózatokat és GPS műholdakat a Location and Security Setting (Tartózkodásihely- és biztonsági beállítások) menüben a gyorsabb és pontosabb helymeghatározás érdekében.</string>
+    <string name="title_location">Helyszín</string>
+    <string name="content_autorefreshed">Jelenlegi tartózkodási helyem automata frissítése</string>
+    <string name="content_manual">Manuális keresés</string>
+    <string name="title_updatefreq">Frissítés gyakorisága</string>
+    <string name="content_updatetime">Utolsó frissítés ideje</string>
+    <string name="content_selectfreq">Jelölje ki a frissítés gyakoriságát</string>
+    <string name="title_others">Egyéb</string>
+    <string name="content_tempunit">Hőmérséklet egység</string>
+</resources>

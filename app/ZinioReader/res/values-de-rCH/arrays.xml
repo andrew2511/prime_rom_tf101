@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Sie können die Ausgaben nach Datum oder Titel sortieren. Wählen Sie dazu die gewünschten Einstellungen auf den Registerkarten am oberen Bildschirmrand.</item>
+        <item>"Sie brauchen mehr Lesestoff?
+Dann klicken Sie unten am Bildschirm auf die Schaltfläche, um zu unserem Onlineshop mit aktuellen Zeitschriften und Artikeln zu gelangen."</item>
+        <item>Im Menü finden Sie weitere Optionen, beispielsweise Shop, Mehr Titel, Löschen und Abmelden.</item>
+        <item>Die gewählte Ausgabe wird beim Lesen automatisch heruntergeladen. Sie können aber auch auf Download klicken, um die Ausgabe lokal zu speichern und später zu lesen.</item>
+    </string-array>
+</resources>

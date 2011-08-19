@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d yhteystietoa</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d yhteystietoa, %2$2$d joissa puhelinnumero</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d yhteystietoa, joissa puhelinnumero</item>
+        <item quantity="one">1 yhteystieto, jossa puhelinnumero</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d yhteystietoa</item>
+        <item quantity="one">1 yhteystieto</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Löytyi %d</item>
+        <item quantity="one">Löytyi 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Löytyi %d</item>
+        <item quantity="one">Löytyi 1</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">%d vastaanottajaa valittu</item>
+        <item quantity="one">1 vastaanottaja valittu</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">yhdistetty %0$d lähteestä</item>
+        <item quantity="one">ei yhdistetty</item>
+    </plurals>
+</resources>

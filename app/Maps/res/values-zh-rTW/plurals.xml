@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">在 %1$s 公里處</item>
+        <item quantity="one">在 1 公里處</item>
+        <item quantity="few">在 %1$s 公里處</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">繼續行駛 %1$s 公里</item>
+        <item quantity="one">繼續行駛 1 公里</item>
+        <item quantity="few">繼續行駛 %1$s 公里</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">繼續行駛%1$2$s %2$1$s 公里</item>
+        <item quantity="one">在%2$s繼續行駛 1 公里</item>
+        <item quantity="few">繼續行駛%1$2$s %2$1$s 公里</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">在 %1$s 英里處</item>
+        <item quantity="one">在 1 英里處</item>
+        <item quantity="few">在 %1$s 英里處</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">繼續行駛 %1$s 英里</item>
+        <item quantity="one">繼續行駛 1 英里</item>
+        <item quantity="few">繼續行駛 %1$s 英里</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">繼續行駛%1$2$s %2$1$s 英里</item>
+        <item quantity="one">在%2$s繼續行駛 1 英里</item>
+        <item quantity="few">繼續行駛%1$2$s %2$1$s 英里</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s 則評論</item>
+        <item quantity="one">%1$s 則評論</item>
+        <item quantity="few">%1$s 則評論</item>
+    </plurals>
+</resources>

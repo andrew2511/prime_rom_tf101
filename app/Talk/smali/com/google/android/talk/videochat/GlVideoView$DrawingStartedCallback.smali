@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/google/android/talk/videochat/GlVideoView$DrawingStartedCallback;
+.super Ljava/lang/Object;
+.source "GlVideoView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/talk/videochat/GlVideoView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DrawingStartedCallback"
+.end annotation
+
+
+# virtual methods
+.method public abstract onDrawingStarted()V
+.end method

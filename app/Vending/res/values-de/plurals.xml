@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">%1$d Anwendungen wiederhergestellt.</item>
+        <item quantity="one">%1$d Anwendung wiederhergestellt.</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">%1$s Bewertungen</item>
+        <item quantity="one">%1$s Bewertung</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">%1$1$d Ergebnisse für \"%2$2$s\"</item>
+        <item quantity="one">%1$1$d Ergebnis für \"%2$2$s\"</item>
+    </plurals>
+</resources>

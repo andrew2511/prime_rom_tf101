@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">PC-adatok szinkronizálása</string>
+    <string name="searchingPCSideSyncTool">%s keresése a számítógépen...</string>
+    <string name="connectionFailMessage" formatted="false">A(z) %s nincs telepítve vagy elindítva a számítógépen. Kérjük, töltse le a(z) %s programot az ASUS támogatási webhelyéről - http://support.asus.com. (Megjegyzés: csak Windows operációs rendszerhez.) A kilépéshez nyomja meg a(z) \"%s\" gombot. A(z) \"%s\" gomb megnyomásával újra csatlakozhat a(z) %s programhoz.</string>
+    <string name="connectionFailTitle">Csatlakozás sikertelen</string>
+    <string name="tryAgain">Próbálja újra</string>
+    <string name="cancel">Mégse</string>
+</resources>

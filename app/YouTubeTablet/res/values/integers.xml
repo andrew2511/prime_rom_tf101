@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="playlist_thumbnail_stack_size">5</integer>
+    <integer name="playlist_thumbnail_scale">80</integer>
+</resources>

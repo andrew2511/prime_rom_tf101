@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.PreviewFrameLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/control_panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/preview_border" android:background="@drawable/border_preview_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/video_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/review_thumbnail" />
+        <TextView android:gravity="center" android:id="@id/recording_time" android:visibility="gone" android:drawableLeft="@drawable/ic_recording_indicator_small" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/OnViewfinderLabel" />
+        <include layout="@layout/review_control" />
+        <TextView android:id="@id/time_lapse_label" android:visibility="gone" android:text="@string/time_lapse_title" android:layout_toLeftOf="@id/recording_time" android:layout_below="@id/review_control" android:layout_alignWithParentIfMissing="true" style="@style/OnViewfinderLabel" />
+        <LinearLayout android:background="@drawable/bg_text_on_preview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/btn_play" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:src="@drawable/btn_ic_review_play" style="@style/ReviewControlIcon" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.camera.PreviewFrameLayout>

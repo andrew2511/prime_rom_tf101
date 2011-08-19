@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Sää-Windows-elementtiasetus</string>
+    <string name="refreshBtn">Päivitä</string>
+    <string name="saveBtn">Tallenna</string>
+    <string name="cancelBtn">Peruuta</string>
+    <string name="nocityfound">Kaupunkeja ei löydy</string>
+    <string name="humidity">Kosteus</string>
+    <string name="winds">Tuulet</string>
+    <string name="infor1">Ei käytössä</string>
+    <string name="searchlistviewtitle">Valitse kaupunki</string>
+    <string name="wait">Odota...</string>
+    <string name="refreshFail">Päivitys epäonnistui. Yritä uudelleen.</string>
+    <string name="searchFail">Haku epäonnistui. Yritä uudelleen.</string>
+    <string name="dirN">N (Pohjoinen)</string>
+    <string name="dirNNE">NNE (Pohjois-koillinen)</string>
+    <string name="dirNE">NE (Koillinen)</string>
+    <string name="dirENE">ENE (Itä-koillinen)</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE (Itä-kaakko)</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE (Etelä-kaakko)</string>
+    <string name="dirS">S (Etelä)</string>
+    <string name="dirSSW">SSW (Etelä-lounas)</string>
+    <string name="dirSW">SW (Lounas)</string>
+    <string name="dirWSW">WSW (Länsi-lounas)</string>
+    <string name="dirW">W (Länsi)</string>
+    <string name="dirWNW">WNW (Länsi-luode)</string>
+    <string name="dirNW">NW (Luode)</string>
+    <string name="dirNNW">NNW (Pohjois-luode)</string>
+    <string name="entercityname">Syötä kaupunki:</string>
+    <string name="manualtitle">Aseta sijainti manuaalisesti</string>
+    <string name="refreshprogresstitle">Päivitä säätiedot</string>
+    <string name="refreshprogresscontent">Päivitä nyt. Odota...</string>
+    <string name="searchprogresstitle">Hae kaupunki</string>
+    <string name="searchprogresscontent">Hae nyt. Odota...</string>
+    <string name="no_network">Verkko ei ole käytettävissä. Säätietoja ei voi päivittää.</string>
+    <string name="no_provider">Kaikki sijaintitiedot eivät ole tällä hetkellä käytössä. Kytke langattomat verkot ja GPS-satelliitit päälle kohdassa Sijainti ja Suojausasetus nopeampaa ja tarkempaa sijainnintunnistusta varten.</string>
+    <string name="title_location">Sijainti</string>
+    <string name="content_autorefreshed">Päivitä automaattisesti nykyinen sijaintini</string>
+    <string name="content_manual">Manuaalinen haku</string>
+    <string name="title_updatefreq">Päivitystaajuus</string>
+    <string name="content_updatetime">Päivitetty viimeksi</string>
+    <string name="content_selectfreq">Valitse päivitystaajuus</string>
+    <string name="title_others">Muuta</string>
+    <string name="content_tempunit">Lämpötilayksikkö</string>
+</resources>

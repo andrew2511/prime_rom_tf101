@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">%1$d개의 애플리케이션이 복원되었습니다.</item>
+        <item quantity="one">%1$d개의 애플리케이션이 복원되었습니다.</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">%1$s명의 평가</item>
+        <item quantity="one">%1$s명의 평가</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">"'%1$2$s'에 대한 검색결과 %2$1$d개"</item>
+        <item quantity="one">"'%1$2$s'에 대한 %2$1$d개의 결과"</item>
+    </plurals>
+</resources>

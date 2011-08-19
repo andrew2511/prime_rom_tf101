@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>pn</item>
+        <item>pn-wsch</item>
+        <item>wsch</item>
+        <item>pd-wsch</item>
+        <item>pd</item>
+        <item>pd-zach</item>
+        <item>zach</item>
+        <item>pn-zach</item>
+    </string-array>
+</resources>

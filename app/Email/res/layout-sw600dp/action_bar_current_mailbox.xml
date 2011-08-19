@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/text_ternary_color" android:ellipsize="end" android:gravity="left|center" android:id="@id/mailbox_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/action_bar_mailbox_name_max_width" android:singleLine="true" />
+    <TextView android:gravity="center" android:id="@id/unread_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" style="@style/action_bar_unread_count" />
+</LinearLayout>

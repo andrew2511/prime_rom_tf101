@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.PackageItem android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/check_buy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.Holo.CompoundButton.RadioButton" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/desc" android:layout_width="250.0px" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/currency" android:layout_width="100.0px" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/price" android:layout_width="100.0px" android:layout_height="wrap_content" />
+</com.asus.reader.ui.PackageItem>

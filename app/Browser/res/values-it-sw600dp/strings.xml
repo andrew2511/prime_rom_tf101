@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nuova scheda</string>
+    <string name="new_incognito_tab">Nuova scheda in incognito</string>
+    <string name="active_tabs">Schede</string>
+    <string name="open_all_in_new_window">Apri tutto in nuove schede</string>
+    <string name="contextmenu_openlink_newwindow">Apri in nuova scheda</string>
+    <string name="contextmenu_openlink_newwindow_background">Apri in una nuova scheda in secondo piano</string>
+    <string name="pref_content_open_in_background_summary">Apri le nuove schede dietro la scheda corrente</string>
+</resources>

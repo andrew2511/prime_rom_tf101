@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frame_activity_word_editor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:background="@color/doc_bg_color" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/holder_toolbar_word_maintoolbar" android:background="@color/doc_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@color/doc_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/holder_panel_common_left" android:background="@color/doc_bg_color" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:background="@color/doc_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/holder_layout_functionbar" android:background="@drawable/fx_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+            <RelativeLayout android:id="@id/holder_layout_word_document_view" android:background="@color/doc_bg_color" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+                <com.infraware.common.UxSurfaceView android:id="@id/UiCoreView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:id="@id/holder_button_thumbnailview_handle_holder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <LinearLayout android:layout_gravity="left" android:id="@id/holder_layout_thumbnailview_border_upper" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <LinearLayout android:layout_gravity="left" android:id="@id/holder_layout_thumbnailview_border_lower" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:id="@id/holder_button_thumbnailview_handle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <FrameLayout android:id="@id/UiSlideNoteBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <FrameLayout android:id="@id/UiSlideNoteView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:id="@id/UiSlideNoteIsolateView" android:background="@color/doc_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <HorizontalScrollView android:id="@id/frame_sheetbar_scroll" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                <LinearLayout android:orientation="horizontal" android:id="@id/holder_layout_sheetbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+        </LinearLayout>
+        <LinearLayout android:id="@id/holder_panel_common_right" android:background="@color/doc_bg_color" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/holder_toolbar_common_searchbar" android:background="@drawable/find_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

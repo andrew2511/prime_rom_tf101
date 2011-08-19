@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="67.0px" xt9:keyHeight="97.0px" xt9:horizontalGap="4.0px" xt9:verticalGap="19.0px" xt9:kdbId="65535" xt9:paddingLeft="15" xt9:paddingTop="19" xt9:paddingRight="8"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="ㄅ" />
+        <Key xt9:keyLabel="ㄉ" />
+        <Key xt9:codes="-9" xt9:keyLabel="ˇ" />
+        <Key xt9:codes="-10" xt9:keyLabel="ˋ" />
+        <Key xt9:keyLabel="ㄓ" />
+        <Key xt9:codes="-8" xt9:keyLabel="ˊ" />
+        <Key xt9:codes="-11" xt9:keyLabel="˙" />
+        <Key xt9:keyLabel="ㄚ" />
+        <Key xt9:keyLabel="ㄞ" />
+        <Key xt9:keyLabel="ㄢ" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="ㄥ" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="ㄆ" />
+        <Key xt9:keyLabel="ㄊ" />
+        <Key xt9:keyLabel="ㄍ" />
+        <Key xt9:keyLabel="ㄐ" />
+        <Key xt9:keyLabel="ㄔ" />
+        <Key xt9:keyLabel="ㄗ" />
+        <Key xt9:keyLabel="ㄧ" />
+        <Key xt9:keyLabel="ㄛ" />
+        <Key xt9:keyLabel="ㄟ" />
+        <Key xt9:keyLabel="ㄣ" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="ㄦ" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="ㄇ" />
+        <Key xt9:keyLabel="ㄋ" />
+        <Key xt9:keyLabel="ㄎ" />
+        <Key xt9:keyLabel="ㄑ" />
+        <Key xt9:keyLabel="ㄕ" />
+        <Key xt9:keyLabel="ㄘ" />
+        <Key xt9:keyLabel="ㄨ" />
+        <Key xt9:keyLabel="ㄜ" />
+        <Key xt9:keyLabel="ㄠ" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="ㄤ" />
+    </Row>
+    <Row>
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="ㄈ" />
+        <Key xt9:keyLabel="ㄌ" />
+        <Key xt9:keyLabel="ㄏ" />
+        <Key xt9:keyLabel="ㄒ" />
+        <Key xt9:keyLabel="ㄖ" />
+        <Key xt9:keyLabel="ㄙ" />
+        <Key xt9:keyLabel="ㄩ" />
+        <Key xt9:keyLabel="ㄝ" />
+        <Key xt9:keyLabel="ㄡ" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:keyWidth="138.0px" xt9:shadowY="-1" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:keyIcon="@drawable/btn_asus_ep_dele_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_normal" xt9:shadowY="-1">
+        <Key xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:labelTextColor="@color/white" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:labelTextColor="@color/white" xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="213.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:keyOutputText="，" xt9:keyLabel="，" />
+        <Key xt9:keyOutputText="。" xt9:keyLabel="。" />
+        <Key xt9:keyWidth="138.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go1_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_im" xt9:shadowY="-1">
+        <Key xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:labelTextColor="@color/white" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:labelTextColor="@color/white" xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="213.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:keyOutputText="，" xt9:keyLabel="，" />
+        <Key xt9:keyOutputText="。" xt9:keyLabel="。" />
+        <Key xt9:keyWidth="138.0px" xt9:popupKeyboard="@xml/popup_smileys" xt9:keyEdgeFlags="right" xt9:keyOutputText=":-) " xt9:keyLabel=":-)" />
+    </Row>
+    <HardwareKey xt9:keyLabel="ㄅ" xt9:keyCode="8" />
+    <HardwareKey xt9:keyLabel="ㄉ" xt9:keyCode="9" />
+    <HardwareKey xt9:keyLabel="ㄍ" xt9:keyCode="33" />
+    <HardwareKey xt9:keyLabel="ㄐ" xt9:keyCode="46" />
+    <HardwareKey xt9:keyLabel="ㄓ" xt9:keyCode="12" />
+    <HardwareKey xt9:keyLabel="ㄗ" xt9:keyCode="53" />
+    <HardwareKey xt9:keyLabel="ㄦ" xt9:keyCode="69" />
+    <HardwareKey xt9:keyLabel="ㄚ" xt9:keyCode="15" />
+    <HardwareKey xt9:keyLabel="ㄞ" xt9:keyCode="16" />
+    <HardwareKey xt9:keyLabel="ㄢ" xt9:keyCode="7" />
+    <HardwareKey xt9:keyLabel="ㄆ" xt9:keyCode="45" />
+    <HardwareKey xt9:keyLabel="ㄊ" xt9:keyCode="51" />
+    <HardwareKey xt9:keyLabel="ㄎ" xt9:keyCode="32" />
+    <HardwareKey xt9:keyLabel="ㄑ" xt9:keyCode="34" />
+    <HardwareKey xt9:keyLabel="ㄔ" xt9:keyCode="48" />
+    <HardwareKey xt9:keyLabel="ㄘ" xt9:keyCode="36" />
+    <HardwareKey xt9:keyLabel="ㄧ" xt9:keyCode="49" />
+    <HardwareKey xt9:keyLabel="ㄛ" xt9:keyCode="37" />
+    <HardwareKey xt9:keyLabel="ㄟ" xt9:keyCode="43" />
+    <HardwareKey xt9:keyLabel="ㄣ" xt9:keyCode="44" />
+    <HardwareKey xt9:keyLabel="ㄇ" xt9:keyCode="29" />
+    <HardwareKey xt9:keyLabel="ㄋ" xt9:keyCode="47" />
+    <HardwareKey xt9:keyLabel="ㄏ" xt9:keyCode="31" />
+    <HardwareKey xt9:keyLabel="ㄒ" xt9:keyCode="50" />
+    <HardwareKey xt9:keyLabel="ㄕ" xt9:keyCode="35" />
+    <HardwareKey xt9:keyLabel="ㄙ" xt9:keyCode="42" />
+    <HardwareKey xt9:keyLabel="ㄨ" xt9:keyCode="38" />
+    <HardwareKey xt9:keyLabel="ㄜ" xt9:keyCode="39" />
+    <HardwareKey xt9:keyLabel="ㄠ" xt9:keyCode="40" />
+    <HardwareKey xt9:keyLabel="ㄤ" xt9:keyCode="74" />
+    <HardwareKey xt9:keyLabel="ㄈ" xt9:keyCode="54" />
+    <HardwareKey xt9:keyLabel="ㄌ" xt9:keyCode="52" />
+    <HardwareKey xt9:keyLabel="ㄖ" xt9:keyCode="30" />
+    <HardwareKey xt9:keyLabel="ㄩ" xt9:keyCode="41" />
+    <HardwareKey xt9:keyLabel="ㄝ" xt9:keyCode="55" />
+    <HardwareKey xt9:keyLabel="ㄡ" xt9:keyCode="56" />
+    <HardwareKey xt9:keyLabel="ㄥ" xt9:keyCode="76" />
+    <HardwareKey xt9:codes="-8" xt9:keyLabel="ˊ" xt9:keyCode="13" />
+    <HardwareKey xt9:codes="-9" xt9:keyLabel="ˇ" xt9:keyCode="10" />
+    <HardwareKey xt9:codes="-10" xt9:keyLabel="ˋ" xt9:keyCode="11" />
+    <HardwareKey xt9:codes="-11" xt9:keyLabel="˙" xt9:keyCode="14" />
+    <HardwareKey xt9:codes="-5" xt9:keyCode="67" />
+    <HardwareKey xt9:codes="32" xt9:keyCode="62" />
+</KeyboardEx>

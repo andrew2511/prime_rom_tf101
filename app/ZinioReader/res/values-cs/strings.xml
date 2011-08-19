@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">opakovat</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">Síťové připojení je nestabilní. Chcete opakovat pokus nebo použít aplikaci v režimu offline?</string>
+    <string name="cancel">storno</string>
+    <string name="change_password">změnit heslo</string>
+    <string name="close">zavřít</string>
+    <string name="confirm_new_password">potvrďte nové heslo</string>
+    <string name="create_account">vytvořit účet</string>
+    <string name="create_an_account">vytvořit účet</string>
+    <string name="date">datum</string>
+    <string name="delete">odstranit</string>
+    <string name="delete_all">odstranit vše</string>
+    <string name="delete_mode_caption">Režim odstranění – klepněte na položku pro odstranění</string>
+    <string name="email_address">e-mailová adresa</string>
+    <string name="exit">konec</string>
+    <string name="faq">Časté dotazy</string>
+    <string name="first_name">jméno</string>
+    <string name="free">volný</string>
+    <string name="forgot_password">zapomenuté heslo</string>
+    <string name="last_name">příjmení</string>
+    <string name="learn_more">Další informace</string>
+    <string name="legal_notices">právní upozornění</string>
+    <string name="library">knihovna</string>
+    <string name="manage_tips">správa tipů</string>
+    <string name="more">další</string>
+    <string name="more_options">další možnosti</string>
+    <string name="my_magazines">Moje časopisy – klepněte pro zobrazení nebo stažení</string>
+    <string name="new_password">nové heslo (5–20 znaků)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">staré heslo</string>
+    <string name="password">heslo</string>
+    <string name="required">vyžadované</string>
+    <string name="required_first_name">jméno je vyžadováno</string>
+    <string name="required_last_name">příjmení je vyžadováno</string>
+    <string name="required_email_address">e-mailová adresa je vyžadována</string>
+    <string name="required_password">heslo je vyžadováno</string>
+    <string name="retype_password">znovu napište heslo</string>
+    <string name="sign_in">přihlásit</string>
+    <string name="sign_out">odhlásit</string>
+    <string name="share">sdílet</string>
+    <string name="shop">nakupovat</string>
+    <string name="text">text</string>
+    <string name="title">titul</string>
+    <string name="turn_on_wifi">Zapnout Wi-Fi</string>
+    <string name="uninstall">odinstalovat</string>
+    <string name="email_non_lower_case">E-mail</string>
+    <string name="sd_card_non_lower_case">SD karta</string>
+    <string name="show_password_non_lower_case">Zobrazit heslo</string>
+    <string name="show_tips_non_lower_case">Zobrazit tipy</string>
+    <string name="forgot_password_underlined"><u>Zapomněli jste heslo?</u></string>
+    <string name="terms_of_service_underlined"><u>Podmínky poskytování služby</u></string>
+    <string name="label_share_email1">četl(a) článek od</string>
+    <string name="label_share_email2">"a chtěl(a) by jej sdílet s vámi!
+
+Původní článek je přiložen k této zprávě.
+
+Další digitální publikace najdete na www.zinio.com"</string>
+    <string name="label_receive_from_partners">Chci dostávat speciální nabídky od partnerů Zinio.</string>
+    <string name="label_receive_from_zinio">Chci dostávat speciální nabídky od Zinio.</string>
+    <string name="label_status_calculating">Probíhá výpočet...</string>
+    <string name="label_status_new">Nový</string>
+    <string name="label_status_not_downloaded">Nestaženo</string>
+    <string name="label_status_downloading">Staženo %s%%</string>
+    <string name="label_tip_hide">Vypnout tipy. Lze je nastavit v nabídce Další nastavení.</string>
+    <string name="toast_change_password_success">Heslo úspěšně změněno.</string>
+    <string name="toast_issue_download_complete_left">Stahování pro</string>
+    <string name="toast_issue_download_complete_right">dokončeno</string>
+    <string name="toast_no_articles">Na aktuální stránce nejsou žádné články.</string>
+    <string name="toast_register_success">Účet úspěšně vytvořen.</string>
+    <string name="toast_no_email_client">Upozornění:: E-mailový klient není nakonfigurován</string>
+    <string name="progress_dialog_wait_msg">Prosím čekejte...</string>
+    <string name="dialog_warning_title">Výstraha</string>
+    <string name="dialog_no_connectivity_warning">Tato obrazovka vyžaduje přístup k Internetu. Zkontrolujte připojení nebo nastavení režimu V letadle.</string>
+    <string name="dialog_passwords_not_matching_warning">Hesla se neshodují.</string>
+    <string name="dialog_password_length_warning">Heslo musí mít od 5 do 20 znaků.</string>
+    <string name="dialog_service_exception_warning">Došlo k potížím se serverem. Opakujte pokus za chvíli.</string>
+    <string name="dialog_uninstall_warning">Tato akce odstraní všechna data knihovny Zinio bez možnosti obnovení. Budete si muset opět stáhnout své publikace.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Nesjet připojeni a nemůžete stahovat publikace.
+
+Publikace můžete stáhnout po obnovení připojení."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Staré a nové heslo se musí lišit.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Staré heslo je nesprávné.</string>
+    <string name="dialog_library_no_connectivity_warning">"Pro stažení publikací je vyžadováno připojení.
+
+Můžete i nadále číst publikace ve své knihovně a stáhnout si publikace po obnovení připojení."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Uživatelské jméno nebo heslo je nesprávné.
+
+Opakujte pokus."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Tento účet má maximální počet oprávněných zařízení. Zrušte oprávnění pro některé zařízení a opakujte pokus.</string>
+    <string name="dialog_register_account_already_exists">E-mailová adresa již existuje. Vyberte jinou adresu.</string>
+    <string name="dialog_register_empty_email_error">Zadejte e-mailovou adresu.</string>
+    <string name="dialog_register_first_name_short_error">Zadejte jméno.</string>
+    <string name="dialog_register_first_name_long_error">Jméno může mít maximálně 80 znaků.</string>
+    <string name="dialog_register_invalid_email_error">Zadejte platnou e-mailovou adresu.</string>
+    <string name="dialog_register_last_name_short_error">Zadejte příjmení.</string>
+    <string name="dialog_register_last_name_long_error">Příjmení může mít maximálně 80 znaků.</string>
+    <string name="dialog_register_other_error">Došlo k chybě. Opakujte pokus.</string>
+    <string name="dialog_register_password_empty">Zadejte nové heslo.</string>
+    <string name="dialog_sign_out_disabled_warning">Uživatel není přihlášen; nelze se odhlásit.</string>
+    <string name="dialog_app_version_not_supported_title">K dispozici je aktualizace</string>
+    <string name="dialog_app_version_not_supported_msg">K dispozici je novější verze aplikace Zinio Reader. Tato verze již není podporována. Aktualizujte na nejnovější verzi aplikace Zinio Reader</string>
+    <string name="dialog_delete_all_title">Odstranit vše</string>
+    <string name="dialog_delete_all_msg">"Uvedli jste, že chcete odstranit všechny publikace ze své knihovny.
+
+To neznamená nevratnou ztrátu dat.
+
+Data budou odstraněna pouze z vašeho zařízení. V případě potřeby si publikace budete moci stáhnout znovu."</string>
+    <string name="dialog_not_enough_space_title">Nedostatek místa</string>
+    <string name="dialog_not_enough_space_msg">Na tomto zařízení není dostatek úložného prostoru pro stažení vybrané publikace. Uvolněte alespoň %d MB a opakujte pokus.</string>
+    <string name="dialog_sd_card_not_available_title">SD karta není k dispozici</string>
+    <string name="dialog_sd_card_not_available_msg">SD karta byla vyjmuta. Aplikace Zinio se ukončí. Vložte SD kartu a opět spusťte aplikaci.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD karta je zaplněna</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD karta je zaplněna Uvolněte místo na kartě.</string>
+    <string name="dialog_shop_no_connectivity_title">Obchod je nedostupný.</string>
+    <string name="dialog_shop_no_connectivity_msg">Pro přístup k obchodu je vyžadováno připojení. Zkontrolujte připojení nebo nastavení režimu V letadle.</string>
+    <string name="dialog_sign_out_title">Odhlásit</string>
+    <string name="dialog_sign_out_msg">"Opravdu se chcete odhlásit?
+
+Pro přístup k aplikaci Zinio budete vyzváni k přihlášení."</string>
+    <string name="dialog_tip_title">Tip</string>
+    <string name="dialog_manage_tips_title">Správa tipů</string>
+    <string name="non_supported_device_tip_title">Vítá vás Zinio</string>
+    <string name="non_supported_device_tip_msg">"Bohatý obsah Zinio se nejlépe čte na zařízení s displejem alespoň 800x480.
+
+Klidně používejte aplikaci i nadále, ale mějte na paměti, že váš zážitek nemusí být optimální."</string>
+    <string name="no_text_tip_msg">Některé publikace nemají textové články. Pro nalezení hledané stránky použijte obsah nebo vizuální rejstřík.</string>
+    <string name="page_tip0_1">"Jedním klepnutím zobrazíte nabídku panelu nástrojů.
+Můžete zvolit vizuální nebo textový obsah."</string>
+    <string name="page_tip1">"Tipy pro začátek:
+
+* Otáčejte stránky posunem doprava nebo doleva
+* Poklepáním na displej zvětšíte zobrazení
+* Výběrem tlačítka text na první stránce zahájíte čtení."</string>
+    <string name="wifi_connection_tip">"Zjištěno připojení k síti 3G.
+
+Publikace lze stahovat i přes síť 3G, ale pro optimální zážitek doporučujeme připojení Wi-Fi."</string>
+    <string name="dialog_available_memory_not_enough_title">Nedostatečná velikost dynamické paměti</string>
+    <string name="dialog_available_memory_not_enough_msg">Nedostatek zásobníkové paměti.</string>
+    <string name="dialog_delete_title">Odstranit</string>
+    <string name="delete_done">Dokončeno</string>
+    <string name="dialog_delete_from_library">Opravdu chcete odstranit %s?</string>
+    <string name="internet_connection_tip">Pro stažení publikací je vyžadováno připojení k Internetu. Aktivujte připojení k Internetu a opakujte akci.</string>
+    <string name="dialog_change_password_old_password_empty">Zadejte původní heslo</string>
+    <string name="server_error_app_version_not_supported_message">K dispozici je aktualizace K dispozici je novější verze aplikace Zinio Reader. Tato verze již není podporována. Aktualizujte na nejnovější verzi aplikace Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Uživatelské jméno nebo heslo je nesprávné.
+
+Opakujte pokus. Staré heslo je nesprávné."</string>
+    <string name="server_error_device_not_authorized">Toto zařízení nemá správné oprávnění pro použití s vaším účtem Zinio. Pro opětovné zavedení oprávnění se odhlaste z aplikace a opět se přihlaste. Pokud budete mít i nadále potíže, kontaktujte zákaznickou podporu Zinio.</string>
+    <string name="server_error_invalid_login">E-mailová adresa je neplatná. Zadejte platnou e-mailovou adresu.</string>
+    <string name="server_error_invalid_new_password">Heslo je neplatné. Vyberte jiné heslo.</string>
+    <string name="server_error_issue_not_supported_for_device">Neplatné vydání. Kontaktujte zákaznickou podporu na adrese support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Tento účet má maximální počet oprávněných zařízení. Zrušte oprávnění pro některé zařízení a opakujte pokus.</string>
+    <string name="server_error_packing_list_not_found">Chybí seznam položek. Kontaktujte zákaznickou podporu na adrese support@zinio.com.</string>
+    <string name="server_error_login_exists">E-mailová adresa již existuje. Vyberte jinou adresu.</string>
+    <string name="server_error_system_error">Došlo k chybě serveru. Opakujte pokus později.</string>
+    <string name="server_error_system_not_available">Některé části aplikace nemusí být momentálně dostupné. Nemáte-li k některým částem přístup, zkuste to znovu později.</string>
+    <string name="server_error_no_items_in_library">Momentálně nemáte žádné tituly. Dostupné tituly naleznete na záložce Obchod.</string>
+    <string name="server_error_user_not_entitled">Uživatel nemá oprávnění. Kontaktujte zákaznickou podporu na adrese support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Chcete nyní ohodnotit aplikaci Zinio Reader?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Staré vydání bylo odebráno a bude opět staženo.</string>
+    <string name="dialog_review_msg">Vaše názory jsou pro nás důležité. Prosím napište svůj komentář.</string>
+    <string name="dialog_review_title">Prosím napište svůj komentář.</string>
+    <string name="server_error_invalid_newstand">Neplatný novinový stánek. Kontaktujte zákaznickou podporu na adrese support@zinio.com.</string>
+</resources>

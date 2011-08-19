@@ -1,0 +1,202 @@
+.class public final Lcom/amazon/topaz/styles/Style;
+.super Lcom/amazon/topaz/styles/AbstractStyle;
+.source "Style.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/amazon/topaz/styles/Style$1;,
+        Lcom/amazon/topaz/styles/Style$Builder;
+    }
+.end annotation
+
+
+# static fields
+.field public static final EMPTY:Lcom/amazon/topaz/styles/Style; = null
+
+.field private static final serialVersionUID:J = 0x1L
+
+
+# instance fields
+.field private final attribs:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 22
+    new-instance v0, Lcom/amazon/topaz/styles/Style;
+
+    invoke-direct {v0}, Lcom/amazon/topaz/styles/Style;-><init>()V
+
+    sput-object v0, Lcom/amazon/topaz/styles/Style;->EMPTY:Lcom/amazon/topaz/styles/Style;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .prologue
+    .line 38
+    invoke-direct {p0}, Lcom/amazon/topaz/styles/AbstractStyle;-><init>()V
+
+    .line 39
+    new-instance v0, Ljava/util/TreeMap;
+
+    invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
+
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/amazon/topaz/styles/Style;->attribs:Ljava/util/Map;
+
+    .line 40
+    return-void
+.end method
+
+.method private constructor <init>(Lcom/amazon/topaz/styles/Style$Builder;)V
+    .locals 1
+    .parameter "builder"
+
+    .prologue
+    .line 47
+    invoke-direct {p0}, Lcom/amazon/topaz/styles/AbstractStyle;-><init>()V
+
+    .line 48
+    iget-object v0, p1, Lcom/amazon/topaz/styles/Style$Builder;->attribs:Ljava/util/Map;
+
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/amazon/topaz/styles/Style;->attribs:Ljava/util/Map;
+
+    .line 49
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/amazon/topaz/styles/Style$Builder;Lcom/amazon/topaz/styles/Style$1;)V
+    .locals 0
+    .parameter "x0"
+    .parameter "x1"
+
+    .prologue
+    .line 18
+    invoke-direct {p0, p1}, Lcom/amazon/topaz/styles/Style;-><init>(Lcom/amazon/topaz/styles/Style$Builder;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic equals(Ljava/lang/Object;)Z
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    .line 18
+    invoke-super {p0, p1}, Lcom/amazon/topaz/styles/AbstractStyle;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    .line 18
+    invoke-super {p0, p1}, Lcom/amazon/topaz/styles/AbstractStyle;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method protected getAttribs()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .prologue
+    .line 57
+    iget-object v0, p0, Lcom/amazon/topaz/styles/Style;->attribs:Ljava/util/Map;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic hasAttribute(Ljava/lang/String;)Z
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    .line 18
+    invoke-super {p0, p1}, Lcom/amazon/topaz/styles/AbstractStyle;->hasAttribute(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public bridge synthetic hasAttribute(Ljava/lang/String;Ljava/lang/String;)Z
+    .locals 1
+    .parameter "x0"
+    .parameter "x1"
+
+    .prologue
+    .line 18
+    invoke-super {p0, p1, p2}, Lcom/amazon/topaz/styles/AbstractStyle;->hasAttribute(Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public bridge synthetic hashCode()I
+    .locals 1
+
+    .prologue
+    .line 18
+    invoke-super {p0}, Lcom/amazon/topaz/styles/AbstractStyle;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public bridge synthetic toString()Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 18
+    invoke-super {p0}, Lcom/amazon/topaz/styles/AbstractStyle;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

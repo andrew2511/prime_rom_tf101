@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Длина выбранного текста превышает предел, содержимое может быть усечено.</string>
+    <string name="post_successfully">Сообщение успешно размещено</string>
+</resources>

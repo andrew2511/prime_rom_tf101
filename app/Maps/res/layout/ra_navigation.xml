@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ra_mainFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ra_top_bar_height" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/ra_topBarShadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/top_bar_shadow" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <FrameLayout android:paddingBottom="@dimen/ra_status_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.maps.rideabout.view.LineSchematicScrollView android:enabled="true" android:id="@id/ra_lineScrollView" android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ffffffff" />
+            <RelativeLayout android:id="@id/ra_buttonBar" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:id="@id/ra_locationDotPath" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <ViewFlipper android:gravity="center_horizontal" android:id="@id/ra_knownLocationMarker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:flipInterval="1000" android:autoStart="false">
+                        <ImageView android:gravity="center_horizontal" android:id="@id/ra_blueDotOn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rideabout_location_on" />
+                        <ImageView android:gravity="center_horizontal" android:id="@id/ra_blueDotOff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rideabout_location_off" />
+                    </ViewFlipper>
+                    <ViewFlipper android:gravity="center_horizontal" android:id="@id/ra_staleLocationMarker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:flipInterval="1000" android:autoStart="false">
+                        <ImageView android:gravity="center_horizontal" android:id="@id/ra_grayDotOn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rideabout_location_stale_on" />
+                        <ImageView android:gravity="center_horizontal" android:id="@id/ra_grayDotOff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rideabout_location_stale_off" />
+                    </ViewFlipper>
+                </LinearLayout>
+                <ImageView android:id="@id/ra_seeOnMapButton" android:background="@drawable/on_map_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_show_map" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <include layout="@layout/ra_bottom_bar" />
+    </RelativeLayout>
+    <include layout="@layout/ra_top_bar" />
+</merge>

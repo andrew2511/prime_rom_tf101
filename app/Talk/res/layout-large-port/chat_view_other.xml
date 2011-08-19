@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff999999" android:autoLink="all" android:linksClickable="true" android:id="@id/message_view" android:paddingTop="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/text_sent_time" android:gravity="left" android:autoLink="none" android:linksClickable="false" android:id="@id/sent_at" android:paddingTop="16.0dip" android:paddingRight="64.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

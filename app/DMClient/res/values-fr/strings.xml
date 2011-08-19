@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minutes</string>
+    <string name="postpone">Reporter</string>
+    <string name="update">Mettre à jour</string>
+    <string name="firmware_update_title">Mise à jour du firmware</string>
+    <string name="firmware_update_fail">"Échec de la mise à jour.
+
+Votre appareil va restaurer la configuration originale."</string>
+    <string name="low_battery_warning">"Le système nécessite une charge minimum de %1$d%% pour continuer le processus de mise à jour.
+ Veuillez recharger la batterie avant de continuer."</string>
+    <string name="confirmDownload_textok">"Cette mise à jour permet d'améliorer la stabilité et ne supprimera aucunes de vos données. Une mise à jour vers cette version est fortement conseillée.
+Appuyez sur OUI pour accepter la mise à jour."</string>
+    <string name="confirmDownload_textcancel">Appuyez sur NON pour ignorer la mise à jour.</string>
+    <string name="confirmDownload_textwifi">"Il est recommandé d'utiliser un point d'accès Wi-Fi public (gratuit) pour télécharger cette mise à jour."</string>
+    <string name="confirmDownload_textwifi2">"Si vous choisissez de mettre à jour l'appareil ultérieurement, vous pouvez relancer le téléchargement à tout moment en sélectionnant cette notification."</string>
+    <string name="btn_text_later">Plus tard</string>
+    <string name="confirmDownload_dialog_title">Attention ! Vous êtes en itinérance.</string>
+    <string name="downloading">Firmware en cours de téléchargement...</string>
+    <string name="install_time">"Temps d'installation approximatif :"</string>
+    <string name="postponetime_text">Délai de report :</string>
+    <string name="install">Installer</string>
+    <string name="reach_max_net_fail">Téléchargement annulé par le serveur. Veuilez réessayer ultérieurement.</string>
+    <string name="dlg_title_checking">"Vérification d'intégrité"</string>
+    <string name="dlg_msg_checking">"Vérification de l'intégrité du fichier firmware."</string>
+    <string name="cannot_set_to_browser">Non applicable au navigateur.</string>
+    <string name="upgrade_error">Erreur de mise à jour. Veuillez re-télécharger le pack de mise à jour.</string>
+    <string name="start_to_download">Démarrage du téléchargement de mise à jour critique.</string>
+    <string name="start_to_upgrade">"Démarrage de l'installation de mise à jour critique."</string>
+    <string name="start_NI_dmSession">"Le réseau est en cours d'initialisation du client de téléchargement. Accepter ?"</string>
+    <string name="download_finished">Téléchargement du firmware terminé.</string>
+    <string name="download_in_progress">Téléchargement de nouveau firmware en cours</string>
+    <string name="out_of_mem_warning">"Espace insuffisant.
+Veuillez libérer de l'espace puis réessayer."</string>
+    <string name="ui_alert_input_hint">Veuillez entrer votre texte</string>
+    <string name="ui_alert_input_numeric_hint">Veuillez entrer votre texte</string>
+    <string name="ui_alert_input_phone_number_hint">Veuillez entrer un numéro de téléphone</string>
+    <string name="check_for_update">Rechercher des mises à jour</string>
+    <string name="no_new_fota_update">"Aucune mise à jour n'est actuellement disponible pour votre appareil."</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Annuler</string>
+    <string name="confirm_download_btn_Yes">예</string>
+    <string name="confirm_download_btn_No">Non</string>
+    <string name="confirm_update_title">Mise à jour de firmware ASUS</string>
+    <string name="asus_received_title">Service de mise à jour du firmware ASUS</string>
+    <string name="received_message">Une nouvelle mise à jour du firmware est disponible. Appuyez pour mettre à jour.</string>
+    <string name="low_battery_title">Mise à jour du firmware terminée</string>
+    <string name="dl_received_ticker">Une nouvelle mise à jour du firmware est disponible.</string>
+    <string name="dl_received_message">Une nouvelle mise à jour du firmware est disponible. Appuyez pour la télécharger.</string>
+    <string name="confirmDownload_text1">Souhaitez-vous télécharger la mise à jour de firmware suivante ?</string>
+    <string name="received_ticker">Une nouvelle mise à jour du firmware est disponible.</string>
+    <string name="update_dialog_text">"Une nouvelle mise à jour du firmware a été téléchargée. L'installer maintenant ?
+"</string>
+    <string name="prepare_dm_download">Préparation du téléchargement de la mise à jour...</string>
+    <string name="system_update_activity">Mise à jour du firmware système</string>
+    <string name="has_new_fota_update">Une nouvelle mise à jour du firmware est disponible. Veuillez vérifier vos notifications.</string>
+    <string name="update_dialog_text2">"Cette mise à jour du firmware permet d'améliorer la stabilité du système sans pour autant supprimer les données. Il est fortement recommandé de mettre à jour votre appareil sur cette version."</string>
+</resources>

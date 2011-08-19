@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_height="fill_parent" class="com.android.contacts.widget.FullHeightLinearLayout" style="@style/ContactPickerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:iconifiedByDefault="false" class="android.widget.SearchView" />
+    <FrameLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/cancel" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</view>

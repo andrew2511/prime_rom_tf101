@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="read_perm_label">Les Google Mail</string>
+    <string name="read_perm_desc">Tillater at dette programmet kan lese e-post i Google Mail-kontoen din.</string>
+    <string name="write_perm_label">Endre Google Mail</string>
+    <string name="write_perm_desc">Gi dette programmet tillatelse til å endre Google Mail, blant annet sende og slette e-post.</string>
+    <string name="auto_send_perm_label">Send Google-mail</string>
+    <string name="auto_send_perm_desc">Tillat at denne appen sender Gmail-meldinger uten å åpne Google Mail-appen.</string>
+    <string name="provider_label">Google Mail</string>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Google-e-post</string>
+    <string name="activity_about">Om Google Mail</string>
+    <string name="about_desc">Google Mail er basert på ideen om at e-post kan være mer nyttig, intuitivt og effektivt. Og kanskje til og med morsomt.</string>
+    <string name="whats_new_title">Hva er nytt i Gmail?</string>
+    <string name="activity_create_label_shortcut">Gmail-etiketter</string>
+    <string name="preferences_sync_status">Google Mail-synkronisering for denne kontoen er %s</string>
+    <string name="search_title">Gmail</string>
+    <string name="invalid_account">Kontoen %s er ikke en gyldig Gmail-konto.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">完成</string>
+    <string name="username">电子邮件地址</string>
+    <string name="captcha_message_string">虚假尝试次数过多。</string>
+    <string name="signed_in">登录成功</string>
+    <string name="account_linked_message">已登录到 %s 帐户，正在同步数据。</string>
+    <string name="account_setup_title">Google 帐户</string>
+    <string name="account_created_message">已创建新帐户：%s</string>
+    <string name="login_activity_title">使用您的 Google 帐户登录</string>
+    <string name="show_error_activity_title">Google 帐户登录失败</string>
+    <string name="login_activity_task_title">正在登录...</string>
+    <string name="sync_intro_activity_title_first_account">备份和还原</string>
+    <string name="sync_intro_activity_title_first_created_account">帐户已创建</string>
+    <string name="sync_intro_activity_title">帐户登录成功</string>
+</resources>

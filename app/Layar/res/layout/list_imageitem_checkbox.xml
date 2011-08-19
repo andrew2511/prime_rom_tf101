@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_add_favorite_background_x" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBox android:id="@id/image" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" />
+        <TextView android:gravity="left|center" android:id="@id/text" android:paddingRight="20.0dip" android:focusable="false" android:visibility="invisible" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TitleText" />
+        <CheckBox android:id="@id/check" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/divider" />
+</LinearLayout>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainAppBackground">
+        <item name="android:background">#ff171b1e</item>
+    </style>
+    <style name="BoxedSectionHeading">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/section_heading</item>
+        <item name="android:paddingLeft">18.0dip</item>
+        <item name="android:paddingTop">14.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BoxedSectionBody">
+        <item name="android:background">@drawable/section_body</item>
+    </style>
+    <style name="SectionHeading">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3.0dip</item>
+    </style>
+    <style name="SectionHeading.Green" parent="@style/SectionHeading">
+        <item name="android:textColor">#ff76b900</item>
+    </style>
+    <style name="TopCapsule">
+        <item name="android:background">@drawable/phone_spotlight_highlight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="FeatureBackground">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/phone_spotlight_highlight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="TopCapsuleDeveloperName">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">35.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+    </style>
+    <style name="TopCapsuleAppName">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-5.0sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TopCapsuleReviews">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0sp</item>
+        <item name="android:layout_marginBottom">2.0sp</item>
+        <item name="android:layout_alignParentRight">false</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+    </style>
+    <style name="TopCapsuleBuyNow">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffefefef</item>
+    </style>
+    <style name="TopCapsuleShareThis">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffefefef</item>
+    </style>
+    <style name="minisiteBody">
+        <item name="android:padding">0.0dip</item>
+    </style>
+    <style name="minisiteBody.quoteText" parent="@style/minisiteBody">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+        <item name="android:layout_marginBottom">2.0dip</item>
+        <item name="android:lineSpacingExtra">3.0sp</item>
+    </style>
+    <style name="minisiteBody.featureText" parent="@style/minisiteBody">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="articleText">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:padding">14.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+        <item name="android:lineSpacingExtra">3.0sp</item>
+    </style>
+    <style name="capsuleTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">190.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="newsTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">210.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="appTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">210.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="articleTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">14.0dip</item>
+        <item name="android:paddingRight">14.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="commentTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="capsuleLabel">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5.0px</item>
+    </style>
+    <style name="newsLabel">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="developerTitle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">210.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="appcapsuleReviews">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="appcapsulePrice">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="reviewsDesc">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:lineSpacingExtra">3.0sp</item>
+    </style>
+    <style name="reviewsDesc.green" parent="@style/reviewsDesc">
+        <item name="android:textColor">#ff76b900</item>
+    </style>
+    <style name="articleDate">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14.0dip</item>
+    </style>
+    <style name="commentDesc">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:lineSpacingExtra">3.0sp</item>
+    </style>
+    <style name="GalleryCapsuleDeveloperName">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GalleryCapsuleAppName">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">180.0dip</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="GalleryCapsuleReviews">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GalleryCapsulePrice">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="featuredTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+    </style>
+    <style name="dividerTopShadow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/phone_featured_games_bottom_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="genericDivider">
+        <item name="android:background">@drawable/phone_divider_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="gradientBackground">
+        <item name="android:background">@drawable/capsule_gradient_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="tabBottomBar">
+        <item name="android:background">@drawable/phone_nav_footer_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="appMasthead">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/phone_masthead</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="spinner">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffefefef</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ratingStars" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">18.0dip</item>
+        <item name="android:progressDrawable">@drawable/phone_star_green_full</item>
+        <item name="android:minHeight">18.0dip</item>
+    </style>
+    <style name="ratingStarsSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:maxHeight">18.0px</item>
+        <item name="android:progressDrawable">@drawable/phone_star_green_small</item>
+        <item name="android:minHeight">18.0px</item>
+    </style>
+    <style name="greenLink">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff77bf03</item>
+        <item name="android:maxHeight">18.0px</item>
+    </style>
+    <style name="smallOffWhiteText">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffefefef</item>
+    </style>
+    <style name="largeButton">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0px</item>
+        <item name="android:layout_marginBottom">5.0px</item>
+    </style>
+    <style name="featuredShortDescription">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">4</item>
+    </style>
+    <style name="commentText">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+</resources>

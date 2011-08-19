@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyAppsButton" parent="@android:style/Widget.Holo.Button" />
+    <style name="MyAppsButtonTextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>

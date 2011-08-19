@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="da_layer_marker_anchor_x">16.0px</dimen>
+    <dimen name="da_layer_marker_anchor_y">52.0px</dimen>
+    <dimen name="da_marker_destination_anchor_x">16.0px</dimen>
+    <dimen name="da_marker_destination_anchor_y">52.0px</dimen>
+    <dimen name="da_mylocation_chevron_size">86.0dip</dimen>
+</resources>

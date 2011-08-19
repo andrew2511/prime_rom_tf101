@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Widget.PagedGridView" parent="@android:style/Widget.GridView">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:listSelector">@color/full_transparent</item>
+        <item name="android:cacheColorHint">@color/full_transparent</item>
+    </style>
+    <style name="Metadata_Label" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+    </style>
+    <style name="Metadata_Content" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+</resources>

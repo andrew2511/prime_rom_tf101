@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="13" android:versionName="1.5.0" package="com.asus.mygazine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:hardwareAccelerated="true">
+        <receiver android:label="@string/app_name1" android:icon="@drawable/icon" android:name=".MyGazineWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.mygazine.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.appwidget.action.RESIZE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/mygazine_widget_provider" />
+        </receiver>
+        <receiver android:label="@string/app_name2" android:icon="@drawable/icon" android:name=".MyGazineWidget2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.mygazine.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.appwidget.action.RESIZE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/mygazine_widget_provider_2" />
+        </receiver>
+        <receiver android:name=".UtilsReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.music.playstatechanged" />
+                <action android:name="com.android.music.playbackcomplete" />
+                <action android:name="com.android.music.metachanged" />
+                <action android:name="com.android.music.updatemygazine" />
+                <action android:name="com.asus.mygazine.UPDATE_EVENT" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="com.asus.weather.weatherIntentAction" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="content" android:host="com.android.calendar" />
+                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".WidgetService" android:enabled="true" />
+        <activity android:label="@string/app_settings" android:name=".MyGazineSettings" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.asus.mygazine.launchSetting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

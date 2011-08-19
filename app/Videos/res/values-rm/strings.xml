@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">YouTube</string>
+    <string name="loading">Chargiar…</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Interrumper</string>
+    <string name="confirm">Confermar</string>
+    <string name="pref_general_category">Parameters generals</string>
+    <string name="pref_subtitles_size_title">Grondezza dals suttitels</string>
+    <string name="pref_subtitles_size_summary">Definescha la grondezza da la scrittira dals suttitels.</string>
+    <string name="logout">Sortir</string>
+    <string name="accounts_title">Contos YouTube</string>
+    <string name="other_account">Agiuntar in conto</string>
+    <string name="processing_video">Quest video vegn elavurà.</string>
+    <string name="video_was_deleted">Quest video è vegnì stizzà dal proprietari.</string>
+    <string name="video_not_available">"Quest video n'è betg disponibel."</string>
+    <string name="problem_while_playing">Cun preschentar è cumparì in problem.</string>
+    <string name="video_infringes_copyright">"Cun la publicaziun da quest video èn vegnids violads dretgs d'autur."</string>
+    <string name="video_was_judged_inappropriate">Quest video è vegnì valità sco nuncommensurà.</string>
+    <string name="duplicate_upload">Quest video è vegnì refusà (publicaziun dubla).</string>
+    <string name="video_violated_terms_of_use">"Cuntravenziun cunter las cundiziuns d'utilisaziun"</string>
+    <string name="uploader_account_suspended">"Il conto da l'utilisader che ha transferì il video è vegnì bloccà."</string>
+    <string name="video_too_long">Il video è memia lung.</string>
+    <string name="blocked_by_content_owner">Bloccà dal proprietari dal cuntegn</string>
+    <string name="video_not_available_in_your_country">"Quest video n'è betg disponibel en Voss pajais."</string>
+    <string name="video_not_available_on_mobile">"Quest video n'è betg disponibel sin telefonins."</string>
+    <string name="video_is_private">Quest video è privat.</string>
+    <string name="video_couldnt_be_processed">Impussibel da converter quest video.</string>
+    <string name="video_is_in_an_invalid_format">Format da datoteca nunvalid.</string>
+    <string name="video_uses_an_unsupported_codec">Il codec da quest video na vegn betg sustegnì.</string>
+    <string name="video_is_empty">Quest video è vid.</string>
+    <string name="video_is_too_small">Quest video è memia pitschen.</string>
+    <string name="adult_content_intro">"\"Quest video po vegnir recepì sco nuncommensurà, el è vegnì annunzià dad utilisaders.
+
+\""</string>
+    <string name="adult_content_login">"Per guardar quest video stuais Vus confermar che Vus avais 18 onns. S'annunziai per plaschair."</string>
+    <string name="adult_content_confirm">Cun smatgar sin «Confermar» acceptais Vus che tut ils videos annunziads da la communitad da YouTube èn accessibels cun quest conto.</string>
+    <string name="adult_content_underage">\"Stgisa, per vesair quest video stos ti avair almain 18 onns.\"</string>
+    <string name="time_filter_dialog_title">Filtrar tenor temp</string>
+    <string name="subtitles">Suttitels</string>
+    <string name="turn_off_subtitles">Deactivar ils suttitels</string>
+    <string name="no_subtitles">"Per quest video n'èn nagins suttitels disponibels."</string>
+    <string name="no_network">"Actualmain n'è nagina connexiun a la rait disponibla. Empruvai per plaschair pli tard anc ina giada."</string>
+    <string name="send_video">Cundivider il video cun agid da</string>
+    <string name="share_subject">Guardar «%s» sin YouTube!</string>
+    <string name="pick_video_to_upload">Tscherni in video per transferir</string>
+</resources>

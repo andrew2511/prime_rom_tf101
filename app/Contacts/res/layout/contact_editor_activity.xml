@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/contact_editor_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.editor.ContactEditorFragment" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip">
+        <Button android:id="@id/done" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/menu_done" />
+        <Button android:id="@id/revert" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/menu_doNotSave" />
+    </LinearLayout>
+</FrameLayout>

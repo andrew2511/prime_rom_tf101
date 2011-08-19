@@ -1,0 +1,590 @@
+  status: 0
+  mode: 1
+  requested_date_time <
+    secs_since_epoch: 1286957760
+    time_zone_offset_min: 1080
+  >
+  WaypointFeedback {
+    status: 0
+    waypoint <
+      query: "37.513293, 127.100154"
+      geocode <
+        type: 5
+        efficient_map_point <
+          latitude: 75026586
+          longitude: 254200308
+        >
+      >
+      query_refinement_token: "FU1oPAId-mSTBw"
+    >
+  }
+  WaypointFeedback {
+    status: 0
+    waypoint <
+      query: "37.503099, 127.041493"
+      geocode <
+        type: 5
+        efficient_map_point <
+          latitude: 75006198
+          longitude: 254082986
+        >
+      >
+      query_refinement_token: "FXtAPAId1X-SBw"
+    >
+  }
+  Trip {
+    route <
+      duration_seconds: 726
+      OffsetPolyline {
+        absolute_point <
+          type: 5
+          efficient_map_point <
+            latitude: 75026580
+            longitude: 254200302
+          >
+        >
+        relative_points: "\004\031\ufffd\ufffd\ufffd\001\032\ufffd`\000=\ufffd\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffd\ufffdX\ufffdI\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd\ufffd\001T\ufffd\ufffd\ufffd\ufffd\ufffde\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdX\ufffda\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd#\ufffdf\ufffd\ufffd\ufffd"
+      }
+      step <
+        step_type: 2
+        instructions: "Walk to \uc7a0\uc2e4\uc5ed"
+        duration_seconds: 142
+        departure_point_index: 0
+        departure_address: ""
+        arrival_address: "\uc7a0\uc2e4\uc5ed"
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "2 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37513290
+            longitude: 127100150
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514340
+            longitude: 127099000
+          >
+        >
+      >
+      step <
+        step_type: 1
+        instructions: "8001 - \uacbd\uae30 \uac04\uc120\uae09\ud589"
+        duration_seconds: 368
+        departure_point_index: 1
+        departure_address: "\uc7a0\uc2e4\uc5ed"
+        arrival_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        departure_interval_seconds: 1200
+        direction: "\ub300\uc131\ub9ac-\uac15\ub0a8\uc5ed"
+        icon_id: 102
+        icon_summary_text: "8001"
+        transit_agency_index: 0
+        deprecated_duration: "6 mins"
+        line_color: 0xfd2705
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514339
+            longitude: 127099004
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\ub9ac\uc13c\uce20\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108762"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511991
+              longitude: 127091329
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc5d8\uc2a4\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108543"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511911
+              longitude: 127083243
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc885\ud569\uc6b4\ub3d9\uc7a5"
+          id: "kr-arointech:STOP_B108178"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511040
+              longitude: 127072179
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uac15\ub0a8\uacbd\ucc30\uc11c.\uba74\ud5c8\uc2dc\ud5d8\uc7a5"
+          id: "kr-arointech:STOP_B107915"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37509909
+              longitude: 127065757
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud55c\uad6d\ubb34\uc5ed\uc13c\ud130\uc0bc\uc131\uc5ed"
+          id: "kr-arointech:STOP_B107786"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37508687
+              longitude: 127061667
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud3ec\uc2a4\ucf54\uac74\ub108\ud3b8"
+          id: "kr-arointech:STOP_B107506"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37506717
+              longitude: 127055391
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc120\ub989\uc5ed"
+          id: "kr-arointech:STOP_B107285"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37505182
+              longitude: 127050412
+            >
+          >
+        >
+      >
+      step <
+        step_type: 2
+        instructions: "Walk to 37.503099, 127.041493"
+        duration_seconds: 216
+        departure_point_index: 17
+        departure_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        arrival_address: ""
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "3 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503100
+            longitude: 127041490
+          >
+        >
+      >
+      mode: 1
+      deprecated_duration: "12 mins"
+    >
+  }
+  Trip {
+    route <
+      duration_seconds: 831
+      OffsetPolyline {
+        absolute_point <
+          type: 5
+          efficient_map_point <
+            latitude: 75026580
+            longitude: 254200302
+          >
+        >
+        relative_points: "\004\031\ufffd\ufffd\ufffd\001\032\ufffd`\000=\ufffd\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffd\ufffdX\ufffdI\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\001T\ufffd\017\ufffd\ufffd\ufffde\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdX\ufffda\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd#\ufffdf\ufffd\ufffd\ufffd"
+      }
+      step <
+        step_type: 2
+        instructions: "Walk to \uc7a0\uc2e4\uc5ed"
+        duration_seconds: 142
+        departure_point_index: 0
+        departure_address: ""
+        arrival_address: "\uc7a0\uc2e4\uc5ed"
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "2 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37513290
+            longitude: 127100150
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514340
+            longitude: 127099000
+          >
+        >
+      >
+      step <
+        step_type: 1
+        instructions: "1700 - \uacbd\uae30 \uc9c1\ud589\uc88c\uc11d"
+        duration_seconds: 473
+        departure_point_index: 1
+        departure_address: "\uc7a0\uc2e4\uc5ed"
+        arrival_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        departure_interval_seconds: 1200
+        direction: "\ub3c4\uace1\ub9ac\ucda9\uc804\uc18c-\uac15\ub0a8\uc5ed"
+        icon_id: 102
+        icon_summary_text: "1700"
+        transit_agency_index: 0
+        deprecated_duration: "7 mins"
+        line_color: 0xfd2705
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514339
+            longitude: 127099004
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\ub9ac\uc13c\uce20\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108762"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511991
+              longitude: 127091329
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc5d8\uc2a4\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108543"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511911
+              longitude: 127083243
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc885\ud569\uc6b4\ub3d9\uc7a5"
+          id: "kr-arointech:STOP_B108178"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511040
+              longitude: 127072179
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uac15\ub0a8\uacbd\ucc30\uc11c.\uba74\ud5c8\uc2dc\ud5d8\uc7a5"
+          id: "kr-arointech:STOP_B107915"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37509909
+              longitude: 127065757
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud55c\uad6d\ubb34\uc5ed\uc13c\ud130\uc0bc\uc131\uc5ed"
+          id: "kr-arointech:STOP_B107786"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37508687
+              longitude: 127061667
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud3ec\uc2a4\ucf54\uac74\ub108\ud3b8"
+          id: "kr-arointech:STOP_B107506"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37506717
+              longitude: 127055391
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc120\ub989\uc5ed"
+          id: "kr-arointech:STOP_B107285"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37505182
+              longitude: 127050412
+            >
+          >
+        >
+      >
+      step <
+        step_type: 2
+        instructions: "Walk to 37.503099, 127.041493"
+        duration_seconds: 216
+        departure_point_index: 18
+        departure_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        arrival_address: ""
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "3 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503100
+            longitude: 127041490
+          >
+        >
+      >
+      mode: 1
+      deprecated_duration: "13 mins"
+    >
+  }
+  Trip {
+    route <
+      duration_seconds: 880
+      OffsetPolyline {
+        absolute_point <
+          type: 5
+          efficient_map_point <
+            latitude: 75026580
+            longitude: 254200302
+          >
+        >
+        relative_points: "\004\031\ufffd\ufffd\ufffd\001\032\ufffd`\000=\ufffd\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffd\ufffdX\ufffdI\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\001T\ufffd\017\ufffd\ufffd\ufffde\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdX\ufffda\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd#\ufffdf\ufffd\ufffd\ufffd"
+      }
+      step <
+        step_type: 2
+        instructions: "Walk to \uc7a0\uc2e4\uc5ed"
+        duration_seconds: 142
+        departure_point_index: 0
+        departure_address: ""
+        arrival_address: "\uc7a0\uc2e4\uc5ed"
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "2 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37513290
+            longitude: 127100150
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514340
+            longitude: 127099000
+          >
+        >
+      >
+      step <
+        step_type: 1
+        instructions: "1100 - \uacbd\uae30 \uc9c1\ud589\uc88c\uc11d"
+        duration_seconds: 522
+        departure_point_index: 1
+        departure_address: "\uc7a0\uc2e4\uc5ed"
+        arrival_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        departure_interval_seconds: 600
+        direction: "\ucc28\uc0b0\ub9ac-\uac15\ub0a8\uc5ed"
+        icon_id: 102
+        icon_summary_text: "1100"
+        transit_agency_index: 0
+        deprecated_duration: "8 mins"
+        line_color: 0xfd2705
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37514339
+            longitude: 127099004
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\ub9ac\uc13c\uce20\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108762"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511991
+              longitude: 127091329
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc5d8\uc2a4\uc544\ud30c\ud2b8\uc55e"
+          id: "kr-arointech:STOP_B108543"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511911
+              longitude: 127083243
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc7a0\uc2e4\uc885\ud569\uc6b4\ub3d9\uc7a5"
+          id: "kr-arointech:STOP_B108178"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37511040
+              longitude: 127072179
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uac15\ub0a8\uacbd\ucc30\uc11c.\uba74\ud5c8\uc2dc\ud5d8\uc7a5"
+          id: "kr-arointech:STOP_B107915"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37509909
+              longitude: 127065757
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud55c\uad6d\ubb34\uc5ed\uc13c\ud130\uc0bc\uc131\uc5ed"
+          id: "kr-arointech:STOP_B107786"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37508687
+              longitude: 127061667
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\ud3ec\uc2a4\ucf54\uac74\ub108\ud3b8"
+          id: "kr-arointech:STOP_B107506"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37506717
+              longitude: 127055391
+            >
+          >
+        >
+        intermediate_stops <
+          name: "\uc120\ub989\uc5ed"
+          id: "kr-arointech:STOP_B107285"
+          location <
+            type: 5
+            efficient_map_point <
+              latitude: 37505182
+              longitude: 127050412
+            >
+          >
+        >
+      >
+      step <
+        step_type: 2
+        instructions: "Walk to 37.503099, 127.041493"
+        duration_seconds: 216
+        departure_point_index: 18
+        departure_address: "\uc11c\uc6b8\uc0c1\ub85d\ud68c\uad00.\ud55c\uad6d\uae30\uc220\uc13c\ud130"
+        arrival_address: ""
+        icon_id: 152
+        icon_summary_text: ""
+        deprecated_duration: "3 mins"
+        departure_stop_id: ""
+        arrival_stop_id: ""
+        departure_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503150
+            longitude: 127043750
+          >
+        >
+        arrival_location <
+          type: 5
+          efficient_map_point <
+            latitude: 37503100
+            longitude: 127041490
+          >
+        >
+      >
+      mode: 1
+      deprecated_duration: "14 mins"
+    >
+  }
+  icons <
+    icon_version: 4
+    IconDefinition {
+      id: 102
+      image: "\ufffdPNG\r\n\032\n\000\000\000\rIHDR\000\000\000\017\000\000\000\017\b\006\000\000\000;\u0595J\000\000\000\006bKGD\000\ufffd\000\ufffd\000\ufffd\ufffd\ufffd\ufffd\ufffd\000\000\001\ufffdIDAT(\ufffdmS\ufffd+Ca\034^\ufffd\017I\ufffd\ufffd1\\\ufffd\ufffd\ufffdP\ufffd\037.\ufffdW\ufffd\013\027>\032\ufffd\\r\ufffd;7H\ufffdF\ufffd\ufffdl\ufffd\ufffd\ufffd-\ufffd\030\ufffd\ufffd9v\ufffd\\Lx\ufffd\ufffd\ufffd\ufffdc\ufffdz\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd}-\r\ufffd\ufffd2\ufffdE\ufffd\ufffd\ufffdJ\ufffd\005l\016E\ufffd\ufffd+r\ufffdu]GX\u03d7Y\u010fS\000D\ufffd\037\ufffd\ufffd\036\ufffd0\ufffd\027\ufffd\ufffd#\ufffdIN\ufffd~!\ufffd\036\ufffd\ufffdB\ufffdi\ufffd\000K\ufffd7X\r<`\ufffd$\ufffd\udcd4\ufffd\ufffd\ufffd\ufffd\027= \u03b2\u05a0?\u0679\023\003\ufffdF(\ufffd\ufffd\ufffd+\ufffdn\ufffd\ufffd$\ufffd\u03dc^\ufffd,\ufffd\177D\ufffd\017{\ufffdi\ufffd\ufffd/\ufffd6\027@\ufffd\ufffd\004\ufffd\002\ufffd\ufffd\ufffd\ufffd3g\ufffd-\ufffdF\ufffd.^G\ufffd\ufffd\ufffd\017\ufffd:\ufffd\ufffdX\006\u0229\ufffdg\ufffdTf\ufffd\ufffd\031\ufffd/\ufffd\021/*\ufffd<\ufffd*\0029u\ufffd\ufffd1o*w\ufffd'G\036\ufffdp\ufffd\ufffd\ufffd\362'a\ufffd\ufffd:}\ufffdJ\u02ad\ufffdGHg\ufffdr\ufffdoQ\ufffd\ufffd\\I\ufffd{\ufffd\r\ufffdQ1\ufffd\ufffd\ufffd[\ufffdT$\ufffdN\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffd\017\ufffd%4|~}\ufffd\ufffd\ufffd\ufffd\ufffd3W\\\ufffd\ufffd\034\n\ufffd\ufffd\017q~\ufffd*\ufffdOoy\004\ufffd_\020\ufffdg\ufffd$\ufffd\ufffd\034\ufffd}\ufffd'\ufffd*\ufffd\ufffd\ufffd\025\ufffd\ufffd\ufffdc-\ufffd\ufffd=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3W|\ufffdLg\ufffde\ufffd\b\ufffdS~c?9\u0269\ufffdw\ufffdM\ufffdJ\u07a2\t\ufffd-\ufffd\ufffd\ufffd\ufffd[\ufffd\003\ufffdZg!x\ufffdYV\000\000\000\000IEND\ufffdB`\ufffd"
+    }
+    IconDefinition {
+      id: 128
+      image: "\ufffdPNG\r\n\032\n\000\000\000\rIHDR\000\000\000\017\000\000\000\017\b\006\000\000\000;\u0595J\000\000\000\006bKGD\000\ufffd\000\ufffd\000\ufffd\ufffd\ufffd\ufffd\ufffd\000\000\001\ufffdIDAT(\ufffduSM/\003Q\024m\ufffd\b\ufffd\ufffd\ufffdE\033\ufffd+\ufffd\"\ufffdg\ufffd\ufffd Qt\ufffd#\004;\033K\ufffd\ufffdB\212\ufffd&\ufffdHK\"bAD%\u06884\ufffdbb\u06aaN\ufffdz\ufffd\ufffdt&S\ufffd%w\ufffd\ufffd{\u03b9\ufffd\ufffd\ufffd\ufffd\\\ufffd\ufffdZ\ufffd\u062a\ufffd\037\ufffdqO\ufffdtZ\u06d4\ufffdK\ufffd6\ufffd\026F\036\ufffd\u0539\ufffd\ufffd1\ufffd\ufffd\ufffd\020A_\ufffd\ufffdMk\020\ufffd\ufffd-\ufffdW\ufffd\ufffdsI\ufffd\ufffdo>\ufffdG=\017\u38e8le\ufffd\036\ufffdc\ufffdJ\ufffd4~\ufffd\ufffd\ufffd[\033#\ufffd|\ufffd(6\ufffd\ufffd\ufffd,\ufffdZ\027q\003\ufffd\023\u01d0r\ufffd\036\ufffd\ufffdm\ufffd<\ufffdX\ufffd\354\ufffd\ufffd\ufffd\030\\:C\ufffd\byJ\u0681\ufffdW\021\ufffd8\ufffd/\ufffd\ufffd\025\021Mf\025)\ufffd\023E\ufffdH\020\ufffd\ufffd\ufffd\ufffdO\ufffdM\ufffd\n%I\\\ufffd+f9O\ufffd\ufffd\ufffd\ufffd\007E\u07bb|F\ufffd\ufffd\001\ufffd\"\t\ufffdo\ufffd&\ufffd|3\ufffdeW\ufffd_\ufffd\005\fm\\\ufffd\f\ufffdd\n\ufffdJ\ufffd>\ufffdCY|V@\ufffd\ufffd\ufffd%\r,\ufffd\"&\002\ufffd\ufffd`\\\022\ufffd\021{\u0261_\ufffd\ufffdk\ufffdi\ufffd\001\r\ufffd\ufffdI%\ufffd~\u050e\ufffd[\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd*\u0779Xr\ufffd\ufffd\ufffd\023\ufffd>\ufffd\ufffd_\ufffdz\ufffd\ufffd\ufffd\r#\ufffd/\ufffd}\ufffd0fq\ufffd}V\023\ufffd?I\ufffd\ufffd{\ufffd\ufffd\021N\ufffd\ufffd\ufffdv\ufffdf\ufffd2\ufffd\ufffdcO\ufffds\ufffd\ufffd\ufffd\ufffdd\ufffd$\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd[\ufffd\017\ufffd7\ufffd\ufffd\ufffd\ufffdE\036G\ufffd\ufffd\ufffdV}\003\ufffd\ufffd\f\ufffd\ufffd\ufffd\000\000\000\000IEND\ufffdB`\ufffd"
+    }
+    IconDefinition {
+      id: 152
+      image: "\ufffdPNG\r\n\032\n\000\000\000\rIHDR\000\000\000\017\000\000\000\017\b\006\000\000\000;\u0595J\000\000\000\006bKGD\000\ufffd\000\ufffd\000\ufffd\ufffd\ufffd\ufffd\ufffd\000\000\001\ufffdIDAT(\u03c5\ufffd\ufffdKBQ\024\u01a5\ufffd\ufffdE\ufffd\ufffdY\ufffdZD\ufffdZ\ufffd\037\004\ufffd\ufffd6m\ufffd\n\ufffd\ufffd\njQ\024m\ufffd\ufffd\"\ufffd\001\ufffdhU\ufffd\026\n\ufffd3\ufffd\"\ufffd\006\033!+-\ufffd\"\ufffd\024\ufffd\ufffd\u05f9\027\ufffd\ufffdg=\ufffd\036\ufffd{\ufffd\ufffds\ufffd{\ufffd\ufffd\ufffd\u05dcB\032#\ufffd\ufffd\ufffd\ufffd*V\013~\ufffd&f\ufffd$\032\ufffd\"\ufffd\ufffd(\tR\"\b\025\ufffd\ufffd(\ufffd\u07c2\"q\177\ufffd\ufffd.)\ufffd\ufffd\ufffd\004e\ufffd\031O\ufffd\020\ufffduW\ufffdj7\ufffd\u01f8\030,\ufffd^T\ufffdr;\ufffd<[\u04d2\023\ufffd\ufffdw\ufffd\ufffd\ufffd#\ufffd\ufffd\024\017\ufffd\ufffdh\037?\ufffd,\ufffdv\u048e\ufffd\ufffd \ufffd#\ufffd\ufffdQ9dE^g\002\uc3c1\ufffd\ufffdc\031e<\ufffd\006\ufffdn\ufffd!\024\ufffd\ufffd\ufffdg\004\ufffd\013?\ufffd\ufffd\ufffd\ufffd\024\u03a7M\u054c\003Z\ufffd\ufffd\t\ufffd\025\u03fc`\ufffd`\ufffd\ufffd\u019e\ufffd\005\ufffdi;\ufffd\ufffd\ufffd\025\ufffd\u032c\ufffdG2\ufffd=\ufffd\ufffd3\ufffd5\ufffdQ=\ufffd\ufffd\ufffda+\ufffdjA\032f\ufffd\ufffd0\ufffdA{\ufffd\b\ufffd\ufffd5\f\ufffd\ufffd\023\ufffdkDa\ufffd\ufffd\033\ufffd\ufffd3Z\rX\ufffd\ufffd\ufffd\ufffd\035@\u0344\ufffd\ufffd\u077c\ufffd\ufffd'\ufffda\ufffdt\ufffd\ufffd\033Z\ufffd\ufffd\ufffd\u06a8\306\ufffd\001\ufffd\ufffd^d\ufffd\031$\ufffds\u03a1\ufffd\ufffd6/\ufffd\026\ufffd\ufffd\ufffdT\u014a\ufffd.\031,\ufffdL\030sr\ufffdx\ufffd\ufffd);\ufffd\ufffd\ufffdTi\ufffdm\ufffdd\023\0263\ufffd\ufffd\007Ed\ufffd2\ufffd~\ufffd}K\ufffd\ufffd\ufffd\ufffdJ\ufffd\021\ufffd\ufffdn\ufffd7\ufffdF?\2000G\ufffd\000\000\000\000IEND\ufffdB`\ufffd"
+    }
+  >
+  agency <
+    name: "\uacbd\uae30\ub3c4\ubc84\uc2a4\uc6b4\uc1a1\uc0ac\uc5c5\uc870\ud569"
+    main_url: "http://www.odsay.com/bus/Kyeonggi_Main.asp?CID=1&LMenu=1"
+  >
+  agency <
+    name: "\uc11c\uc6b8\uba54\ud2b8\ub85c"
+    main_url: "http://www.odsay.com/Subway/LineInfo.asp?CID=1000&LMenu=2/"
+  >
+  recommended_distance_units: 1
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Terbitan dapat diurutkan berdasarkan tanggal atau judul. Pilih ini dari tab di bagian atas layar.</item>
+        <item>"Ingin membaca selengkapnya?
+Pilih tombol belanja di bagian bawah layar untuk mengunjungi toko online dan memeriksa publikasi dan artikel terbaru."</item>
+        <item>Pilih menu untuk melihat lebih banyak opsi - seperti belanja, selengkapnya, hapus, dan keluar.</item>
+        <item>Pilih terbitan yang akan di-download secara otomatis saat Anda membaca ATAU Anda dapat memilih tombol Download untuk menyimpannya secara lokal untuk dibaca nanti.</item>
+    </string-array>
+</resources>

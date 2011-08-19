@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Msg_SpaceOver">ไม่สามารถอัปโหลดได้ เนื่องจากที่เก็บข้อมูลไม่เพียงพอ! โปรดอัปเกรดความจุที่เก็บข้อมูลของคุณ หรือลบไฟล์ที่ไม่ต้องการบน ASUS WebStorage ทิ้งไป</string>
+    <string name="home_title">ยินดีต้อนรับสู่ ASUS WebStorage</string>
+    <string name="common_register_ID_fail">ควรประกอบด้วยอักขระ 3-16 ตัว มีทั้งตัวอักษร (ตามตัวพิมพ์) และตัวเลข ชื่อบัญชีไม่สามารถเปลี่ยนแปลงได้</string>
+    <string name="common_register_pwd_fail">นี่เป็นรหัสผ่านที่คุณใช้เพื่อล็อกอินเข้าใน ASUS WebStorage ในอนาคต รหัสผ่านของคุณควรประกอบด้วยอักขระ 6-12 ตัว มีทั้งตัวอักษร (ตามตัวพิมพ์) และตัวเลข</string>
+    <string name="common_login_username">WebStorage ID</string>
+    <string name="present_accname">WebStorage ID</string>
+    <string name="present_sotring_by_date">วันที่ปรับแต่ง</string>
+</resources>

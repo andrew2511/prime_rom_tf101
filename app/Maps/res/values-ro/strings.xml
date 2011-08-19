@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Hărţi Google</string>
+    <string name="da_google_maps_navigation">Navigare Hărţi Google</string>
+    <string name="da_net_fail_title">Eroare de reţea</string>
+    <string name="da_net_fail_body">Această aplicaţie necesită o conexiune de date funcţională.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Destinaţie</string>
+    <string name="da_toward">către %1$s</string>
+    <string name="da_onto">pe %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"apoi
+%1$s"</string>
+    <string name="da_continue_for_distance">Continuaţi încă %1$s</string>
+    <string name="da_destination_will_be_on_the_left">destinaţia dvs. va fi pe partea stângă.</string>
+    <string name="da_destination_will_be_on_the_right">destinaţia dvs. va fi pe partea dreaptă.</string>
+    <string name="da_you_will_reach_destination">veţi ajunge la destinaţie.</string>
+    <string name="da_destination_on_the_left">Destinaţia dvs. este pe partea stângă.</string>
+    <string name="da_destination_on_the_right">Destinaţia dvs. este pe partea dreaptă.</string>
+    <string name="da_destination_reached">Aţi sosit.</string>
+    <string name="da_speech_lost_gps">S-a pierdut semnalul GPS</string>
+    <string name="da_speech_lost_data_connection">S-a pierdut conexiunea de date</string>
+    <string name="da_speech_navigation_resumed">Navigare reluată</string>
+    <string name="da_speech_please_describe_problem">Vă rugăm să descrieţi problema</string>
+    <string name="da_on_left">pe stânga</string>
+    <string name="da_on_right">pe dreapta</string>
+    <string name="da_stay_on_road_primary">Rămâneţi pe %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">De la %1$s până la %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">De la %1$s până la %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0} mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} ft</string>
+    <string name="da_distance_format_feet_compressed">{0} ft</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0} yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s z %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s ore %2$s minute</string>
+    <string name="da_time_format_minutes">%1$s min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigare</string>
+    <string name="da_search_label">Căutaţi</string>
+    <string name="da_layers">Straturi</string>
+    <string name="da_agreement">"Navigarea Hărţi Google este în vers. beta. Aveţi grijă.
+
+Nu utilizaţi aplicaţia în timp ce conduceţi. Datele de trafic nu sunt în timp real, iar indicaţiile de orientare pot fi eronate, periculoase, interzise sau pot implica utilizarea feribotului. Respectaţi legile aplicabile.
+
+Fiţi atent(ă) la drum!"</string>
+    <string name="da_agreement_with_walking">"Navigarea Hărţi Google este în vers. beta. Aveţi grijă.
+
+Nu utilizaţi aplicaţia în timp ce conduceţi. Datele de trafic nu sunt în timp real, iar indicaţiile de orientare pot fi eronate, periculoase, interzise sau pot implica utilizarea feribotului. Din traseele pe jos pot lipsi trotuare sau alei pietonale. Respectaţi legile aplicabile.
+
+Fiţi atent(ă) la drum!"</string>
+    <string name="da_disclaimer_checkbox">Afişaţi acest mesaj data viitoare</string>
+    <string name="da_show_list">Listă de indicaţii rutiere</string>
+    <string name="da_route_overview">Informaţii despre traseu</string>
+    <string name="da_show_map">Afişaţi harta</string>
+    <string name="da_satellite">Satelit</string>
+    <string name="da_traffic_view">Vizualizare trafic</string>
+    <string name="da_no_traffic_here">Nu există info. de trafic</string>
+    <string name="da_traffic">Trafic</string>
+    <string name="da_area_view">Afişare zonă</string>
+    <string name="da_mute">Dezactivaţi sunetul</string>
+    <string name="da_unmute">Activaţi sunetul</string>
+    <string name="da_settings">Setări</string>
+    <string name="da_help">Ajutor</string>
+    <string name="da_terms_privacy_notices">Confidenţialitate</string>
+    <string name="da_terms_and_conditions">Termeni şi condiţii</string>
+    <string name="da_privacy_policy">Politica de confidenţialitate</string>
+    <string name="da_legal_notices">Menţiuni legale</string>
+    <string name="da_navigation_suspended">Navigare suspendată</string>
+    <string name="da_exit_navigation">Ieşiţi din navigare</string>
+    <string name="da_email_me_when_resolved">Doresc e-mail când se rezolvă</string>
+    <string name="da_problem_reported">Problema a fost semnalată</string>
+    <string name="da_one_button_map_issue_reporting">Semnalaţi o problema cu un singur clic</string>
+    <string name="da_attention">Atenţie</string>
+    <string name="da_rmi_warning">"Opţiunea Semnalaţi o problemă vă permite să înregistraţi un mesaj vocal scurt descriind o problemă cu harta sau traseul. După 15 secunde, mesajul va fi trimis automat către Google cu locaţia şi traseul curente. 
+
+Puteţi activa o comandă rapidă, cu un singur clic, în setările aplicaţiei.
+
+ Dacă doriţi actualizări pe e-mail la remedierea problemei, până în acel moment, adresa de e-mail va fi stocată împreună cu locaţia şi comentariile dvs."</string>
+    <string name="da_report_a_problem">Semnalaţi o problemă</string>
+    <string name="da_report_a_problem_dialog_title">Semnalaţi probl.</string>
+    <string name="da_rmi_preference_trackball_summary">Dacă este activată opţiunea şi apăsaţi pe trackball veţi începe semnalarea problemei.</string>
+    <string name="da_rmi_preference_camera_summary">Dacă este activată opţiunea şi apăsaţi pe butonul camerei veţi începe semnalarea problemei.</string>
+    <string name="da_rmi_preference_no_button_summary">Nu există butoane fizice disponibile.</string>
+    <string name="da_rmi_preference_bad_location_summary">Semnalarea problemei nu este disponibilă în locaţia actuală.</string>
+    <string name="da_destination_not_here_warning">Vă mulţumim pentru că ne-aţi semnalat că avem locaţia greşită pentru destinaţia dvs. Destinaţia şi locaţia dvs. curente vor fi transmise la Google pentru a ajuta la îmbunătăţirea exactităţii datelor noastre.</string>
+    <string name="da_destination_not_here_title">Raportaţi o problemă</string>
+    <string name="da_searching_for_gps">Se caută GPS...</string>
+    <string name="da_data_connection_lost">S-a pierdut conexiunea de date...</string>
+    <string name="da_follow_the_route">Urmaţi traseul</string>
+    <string name="da_waiting_for_directions">Se obţin indicaţii rutiere</string>
+    <string name="da_waiting_for_walking_directions">Se obţin indicaţiile de mers pe jos</string>
+    <string name="da_waiting_for_location">Se aşteaptă locaţia</string>
+    <string name="da_checking_navigation_availability">Se verifică dispon. pt. navigare</string>
+    <string name="da_loading_route_details">Se încarcă detaliile traseului</string>
+    <string name="da_loading_image">Se încarcă imaginea</string>
+    <string name="da_waiting_for_alternates">Se caută trasee alternative</string>
+    <string name="da_waiting_for_details">Se încarcă</string>
+    <string name="da_no_details">Nu există detalii disponibile</string>
+    <string name="da_gps_is_disabled">GPS dezactivat</string>
+    <string name="da_turn_on_gps">Doriţi să fie afişate setările locaţiei?</string>
+    <string name="da_voice_guidance">Ghid vocal</string>
+    <string name="da_install_voice_guidance_prompt">Pentru navigare vocală, instalaţi suportul de transformare a textului în vorbire de pe Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Ignoraţi</string>
+    <string name="da_dialog_cancel">Anulaţi</string>
+    <string name="da_dialog_done">Terminat</string>
+    <string name="da_dialog_accept">Accept</string>
+    <string name="da_dialog_install">Instalaţi</string>
+    <string name="da_dialog_dont_accept">Nu accept</string>
+    <string name="da_dialog_go">Accesaţi</string>
+    <string name="da_dialog_get_directions">Obţineţi indicaţii de orientare</string>
+    <string name="da_map">Hartă</string>
+    <string name="da_clear_layers">Curăţaţi harta</string>
+    <string name="da_layer_name_parking">Parcare</string>
+    <string name="da_layer_name_attractions">Atracţii</string>
+    <string name="da_layer_name_gas_stations">Benzinării</string>
+    <string name="da_layer_name_restaurants">Restaurante</string>
+    <string name="da_layer_name_supermarkets">Supermarketuri</string>
+    <string name="da_layer_name_atms_and_banks">Bancomate şi bănci</string>
+    <string name="da_layer_name_convenience_stores">Magazine universale</string>
+    <string name="da_query_banks_and_atms">Bănci şi bancomate</string>
+    <string name="da_rerouting">Se reconfigurează traseul...</string>
+    <string name="da_via">Via %s</string>
+    <string name="da_to_destination">destinaţie: %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Înregistraţi feedbackul</string>
+    <string name="da_destination_not_here">Destinaţia nu este aici</string>
+    <string name="da_new_destination">Destinaţia următoare</string>
+    <string name="da_reroute_to_destination">Înapoi la destinaţie</string>
+    <string name="da_change_destination">Setaţi destinaţia</string>
+    <string name="da_search_for_destination">Căutaţi...</string>
+    <string name="da_point_on_map">Punct pe hartă</string>
+    <string name="da_volume">Volum navigare</string>
+    <string name="da_exit">Ieşiţi</string>
+    <string name="da_did_you_mean">Aţi dorit să scrieţi:</string>
+    <string name="da_did_you_say">Aţi spus:</string>
+    <string name="da_for_your_end_point">Pentru punctul final</string>
+    <string name="da_unnamed_road">Drum fără nume</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, apoi %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Peste %1$s de metri</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Peste un kilometru şi jumătate</string>
+    <string name="da_speech_continue_for_x_meters">Continuaţi încă %1$s (de) metri</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Continuaţi încă un kilometru şi jumătate</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Continuaţi pe %2$s pe o distanţă de %1$s (de) metri</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Continuaţi pe %1$s pe o distanţă de un kilometru şi jumătate</string>
+    <string name="da_speech_generic_continue">Mergeţi înainte</string>
+    <string name="da_speech_in_x_feet">Peste %1$s de picioare</string>
+    <string name="da_speech_in_x_yards">Peste %1$s (de) yarzi</string>
+    <string name="da_speech_in_a_quarter_mile">Peste un sfert de milă</string>
+    <string name="da_speech_in_a_half_mile">Peste o jumătate de milă</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Peste trei sferturi de milă</string>
+    <string name="da_speech_in_one_and_a_half_miles">Peste o milă şi jumătate</string>
+    <string name="da_speech_continue_for_x_feet">Continuaţi încă %1$s (de) picioare</string>
+    <string name="da_speech_continue_for_x_yards">Continuaţi încă %1$s (de) yarzi</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Continuaţi încă un sfert de milă</string>
+    <string name="da_speech_continue_for_a_half_mile">Continuaţi încă o jumătate de milă</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Continuaţi încă trei sferturi de milă</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Continuaţi încă o milă şi jumătate</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Continuaţi pe %2$s pe o distanţă de %1$s (de) picioare</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Continuaţi pe %2$s pe o distanţă de %1$s (de) yarzi</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Continuaţi pe %1$s pe o distanţă de un sfert de milă</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Continuaţi pe %1$s pe o distanţă de jumătate de milă</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Continuaţi pe %1$s pe o distanţă de trei sferturi de milă</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Continuaţi pe %1$s pe o distanţă de o milă şi jumătate</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SV,V,NV</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SV,V,NV,Bd..,Bd.,Var.,Cent.,Intr.,Şos.,E,A,A,B,Al.,Loc.,Dr.,Str.,A,Cal.</string>
+    <string name="da_no_route">Nicio rută nu a fost găsită</string>
+    <string name="da_route_not_found">Nu am găsit un traseu către destinaţia dvs.</string>
+    <string name="da_destination_not_found">Nu am înţeles destinaţia.</string>
+    <string name="da_navigation_not_supported">Navigarea la destinaţia dvs. nu este disponibilă.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Navigarea Hărţi Google nu este disponibilă deocamdată în această locaţie.</string>
+    <string name="da_launch_maps">Lansaţi Hărţi Google</string>
+    <string name="da_no_image_available">Nicio imagine nu este disponibilă.</string>
+    <string name="da_image_error">Eroare la încărcarea imaginii.</string>
+    <string name="da_no_alternate_routes">Nu am găsit trasee alternative către destinaţia dvs.</string>
+    <string name="da_picker_type_destination">Introduceţi destinaţia</string>
+    <string name="da_picker_speak_destination">Rostiţi destinaţia</string>
+    <string name="da_picker_contacts">Agendă</string>
+    <string name="da_picker_starred_items">Locaţii cu stea</string>
+    <string name="da_picker_new_contact">Contact nou</string>
+    <string name="da_picker_recent_destinations">Destinaţii recente</string>
+    <string name="da_picker_choose_destination">Alegeţi destinaţia</string>
+    <string name="da_navigate_to">Navigaţi la</string>
+    <string name="da_picker_search_hint">Destinaţie</string>
+    <string name="da_route_options">Opţiuni pt. traseu</string>
+    <string name="da_updating_directions">Actualizarea indicaţiilor de orientare</string>
+    <string name="da_picker_no_starred_items">"Nu aveţi nicio locaţie cu stea.
+
+Locaţiile cu stea sunt sincronizate automat cu maps.google.com.
+
+Puteţi marca cu stea rezultatele căutării în Hărţi Google atingând pictograma stea din dreptul adresei."</string>
+    <string name="da_picker_no_contacts">"Nu aveţi nicio intrare în agendă cu adresă.
+
+Puteţi adăuga intrări noi sau puteţi seta adresele pentru cele existente în aplicaţia Agendă."</string>
+    <string name="da_driving">Cu maşina</string>
+    <string name="da_walking">Pe jos</string>
+    <string name="da_quoted_text">„%1$s”</string>
+    <string name="da_more_info">Mai multe informaţii</string>
+    <string name="da_search_maps">Căutaţi pe Hărţi</string>
+    <string name="da_walking_warning">Mers pe jos (beta): atenţie</string>
+    <string name="da_calibrate_compass_title">Calibrare busolă</string>
+    <string name="da_calibrate_compass">Busola nu este calibrată. Pentru calibrare, mişcaţi dispozitivul în forma cifrei 8 de câteva ori.</string>
+    <string name="da_confirm_exit_title">Ieşiţi din navigare?</string>
+    <string name="da_confirm_exit_text">Veţi opri indicaţiile de traseu.</string>
+    <string name="da_route_includes_tolls">Traseul include taxe</string>
+    <string name="da_avoid_tolls">Fără taxe</string>
+    <string name="da_avoiding_tolls">Se evită taxele</string>
+    <string name="da_avoiding_highways">Se evită autostrăzile</string>
+    <string name="da_route_includes_unavoidable_tolls">Traseul include taxe.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Traseul include taxe. Dezact. traseele cu taxe în %1$s%2$s mai jos.</string>
+    <string name="da_seasonally_closed">Traseul poate fi închis pe sezoane</string>
+    <string name="da_direction_north">nord</string>
+    <string name="da_direction_north_west">nord-vest</string>
+    <string name="da_direction_west">vest</string>
+    <string name="da_direction_south_west">sud-vest</string>
+    <string name="da_direction_south">sud</string>
+    <string name="da_direction_south_east">sud-est</string>
+    <string name="da_direction_east">est</string>
+    <string name="da_direction_north_east">nord-est</string>
+    <string name="da_step_depart">Îndreptaţi-vă spre %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Îndreptaţi-vă spre %1$s pe %2$s</string>
+    <string name="da_step_slight_left">Uşor la stânga</string>
+    <string name="da_step_slight_right">Uşor la dreapta</string>
+    <string name="da_step_turn_left">Viraţi la stânga</string>
+    <string name="da_step_turn_right">Viraţi la dreapta</string>
+    <string name="da_step_sharp_left">Viraţi strâns la stânga</string>
+    <string name="da_step_sharp_right">Viraţi strâns la dreapta</string>
+    <string name="da_step_slight_left_onto">Uşor la stânga pe %1$s</string>
+    <string name="da_step_slight_right_onto">Uşor la dreapta pe %1$s</string>
+    <string name="da_step_turn_left_onto">Viraţi la stânga pe %1$s</string>
+    <string name="da_step_turn_right_onto">Viraţi la dreapta pe %1$s</string>
+    <string name="da_step_sharp_left_onto">Viraţi strâns la stânga pe %1$s</string>
+    <string name="da_step_sharp_right_onto">Viraţi strâns la dreapta pe %1$s</string>
+    <string name="da_step_fork_left">Ţineţi stânga la bifurcaţie</string>
+    <string name="da_step_fork_right">Ţineţi dreapta la bifurcaţie</string>
+    <string name="da_step_continue_onto">Continuaţi pe %1$s</string>
+    <string name="da_step_continue_straight">Mergeţi înainte</string>
+    <string name="da_step_u_turn">Întoarceţi-vă</string>
+    <string name="da_step_take_the_ramp">Urmaţi rampa</string>
+    <string name="da_step_take_the_ramp_onto">Urmaţi rampa pe %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Urmaţi rampa din stânga</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Urmaţi rampa din stânga pe %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Urmaţi rampa din dreapta</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Urmaţi rampa din dreapta pe %1$s</string>
+    <string name="da_step_take_the_exit">Urmaţi ieşirea</string>
+    <string name="da_step_take_the_exit_on_the_left">Urmaţi ieşirea din stânga</string>
+    <string name="da_step_take_the_exit_on_the_right">Urmaţi ieşirea din dreapta</string>
+    <string name="da_step_take_the_exit_onto">Urmaţi ieşirea pe %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Urmaţi ieşirea din stânga pe %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Urmaţi ieşirea din dreapta pe %1$s</string>
+    <string name="da_step_take_exit_n">Urmaţi ieşirea %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Imagini ©%2$d %3$s, Date hartă ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Imagini ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Date hartă ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Acasă</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Indicaţii de orientare şi de navigare</string>
+    <string name="EXIT_COMMAND">Ieşire</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} ar dori să vă înregistraţi</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Solicitare de înregistrare pe Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Introduceţi o adresă</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Pictograma comenzii rapide</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Salvaţi</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Destinaţie</string>
+    <string name="GOHOME_SHORTCUT_NAME">Numele comenzii rapide</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navigare viraj cu viraj</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Desch. setările</string>
+    <string name="HOTPOT_LOADING">Se încarcă...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Widgetul Evaluaţi locaţii necesită ca dvs. să activaţi „Utilizaţi reţele wireless” (din Setări de locaţie şi securitate) şi Wi-Fi (din Setări wireless şi de reţea).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Activaţi „Utilizaţi reţele wireless” din Setări de locaţie şi securitate, pentru a utiliza widgetul Evaluaţi locaţii.</string>
+    <string name="HOTPOT_NO_LOCATION">Nicio info. de locaţie</string>
+    <string name="HOTPOT_SEARCH">Căutaţi</string>
+    <string name="HOTPOT_SEARCHED_FOR">"S-a căutat: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Căutaţi din nou</string>
+    <string name="HOTPOT_SELECT_PLACE">Selectaţi o locaţie pentru evaluare</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Selectaţi o locaţie: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Locaţie necunoscută</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Se reîmpr. locaţia...</string>
+    <string name="HOTPOT_WIDGET_NAME">Evaluaţi locaţiile</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Postează public ca {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Spuneţi mai multe</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Actualizată la {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Activaţi Wi-Fi în setările wireless şi de reţea pentru a îmbunătăţi acurateţea detectării locaţiei pentru widgetul Evaluaţi locaţii.</string>
+    <string name="HOTPOT_YOU_RATED">"Aţi evaluat: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">La {0}; locaţie distribuită către {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Înregistrat(ă) la {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Vă cazaţi la {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Vă cazaţi la?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Atingeţi pentru a vă conecta la serviciul Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Momentul ultimei actualizări: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Locaţie necunoscută</string>
+    <string name="LOADING">Se încarcă</string>
+    <string name="MAPS_APP_NAME">Hărţi</string>
+    <string name="NEED_NET_BODY">Această aplicaţie nu poate fi utilizată până nu-i permiteţi să trimită şi să primească date prin reţea.</string>
+    <string name="NEED_NET_TITLE">Este nevoie de acces la reţea</string>
+    <string name="NETWORK_DATA_ERROR">Aveţi nevoie de o conexiune de date pentru această aplicaţie. Contactaţi furnizorul dvs. de servicii.</string>
+    <string name="NET_FAIL_BODY">Această aplicaţie necesită o conexiune de date funcţională.</string>
+    <string name="NET_FAIL_TITLE">Eroare de reţea</string>
+    <string name="NET_UNAVAILABLE_TITLE">Reţea indisponibilă</string>
+    <string name="PLACES_APP_NAME">Locaţii</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">„De ex., spaghete bologneze, cocteiluri, muzică”</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">„Ce iese in evidenta?”</string>
+    <string name="RATINGS_OPTIN_CANCEL">Anulaţi</string>
+    <string name="RATINGS_OPTIN_CLOSE">Închideţi</string>
+    <string name="RATINGS_OPTIN_FAILED">Actual. a eşuat. Încerc. mai târziu.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Socializaţi!&lt;/b> Accesaţi &lt;b>{0}&lt;/b> de pe computer pentru a adăuga prieteni şi a descoperi locaţii pe care aceştia le adoră.</string>
+    <string name="RATINGS_OPTIN_HEADING">Setaţi pseudonimul pub. Google Locaţii.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Nume sau pseudonim: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Evaluaţi restaurantele, cafenelele şi alte locaţii preferate ale dvs. pentru a primi recomandări în rezultatele căutării conform propriilor gusturi.</string>
+    <string name="RATINGS_OPTIN_SAVE">Începeţi</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Evaluările dvs. pt. locaţii sunt &lt;b>publice pe web&lt;/b> cu acest pseudonim. &lt;a href=#>Aflaţi mai multe&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Postează public pe web ca {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Se postează public pe web.</string>
+    <string name="RATINGS_RATE_PLACES">De ce eval. loc.?</string>
+    <string name="RATINGS_SET_APPEARANCE">Setaţi aspectul</string>
+    <string name="RATINGS_WAIT">Aşteptaţi...</string>
+    <string name="SEARCH_HINT">Căutaţi pe Hărţi</string>
+    <string name="SHORT_APP_NAME">Hărţi Google</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Punct de sosire</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trafic</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Nume obiect widget</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Salvaţi</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Punct de plecare</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Eroare gravă.  Ieşiţi şi reporniţi."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Eroare necunoscută</string>
+    <string name="UPGRADE_BODY">Trebuie să instalaţi o nouă versiune pentru a utiliza această aplicaţie.</string>
+    <string name="UPGRADE_TITLE">Actualizare software</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Tapet Hărţi Google live</string>
+    <string name="WALLPAPER_MAP_MODE">Mod Hartă</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelit</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Modul de afişare a hărţii, de ex., Satelit</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Teren</string>
+    <string name="WALLPAPER_SETTINGS">Setări tapet Hărţi Google live</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Afişaţi traficul</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Se afişează vremea curentă pe hartă. Trebuie să aveţi instalat widgetul pentru vreme.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Condiţiile meteo</string>
+</resources>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Mapsin navigointi</string>
+    <string name="da_net_fail_title">Verkkovirhe</string>
+    <string name="da_net_fail_body">Tämä sovellus edellyttää toimivaa tietoliikenneyhteyttä.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Kohde</string>
+    <string name="da_toward">Kohti väylää %1$s</string>
+    <string name="da_onto">väylälle %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"sen jälkeen 
+%1$s"</string>
+    <string name="da_continue_for_distance">Jatka väylällä %1$s</string>
+    <string name="da_destination_will_be_on_the_left">määränpää on vasemmalla</string>
+    <string name="da_destination_will_be_on_the_right">määränpää on oikealla</string>
+    <string name="da_you_will_reach_destination">saavut määränpäähäsi.</string>
+    <string name="da_destination_on_the_left">Määränpääsi on vasemmalla.</string>
+    <string name="da_destination_on_the_right">Määränpääsi on oikealla.</string>
+    <string name="da_destination_reached">Olet perillä.</string>
+    <string name="da_speech_lost_gps">GPS-signaalia ei löydy</string>
+    <string name="da_speech_lost_data_connection">Tietoyhteys katkennut</string>
+    <string name="da_speech_navigation_resumed">Navigointia jatketaan</string>
+    <string name="da_speech_please_describe_problem">Kuvaile ongelmaa</string>
+    <string name="da_on_left">vasemmalla</string>
+    <string name="da_on_right">oikealla</string>
+    <string name="da_stay_on_road_primary">Pysy väylällä %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s – %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s – %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mailia</string>
+    <string name="da_distance_format_miles_compressed">{0} mailia</string>
+    <string name="da_distance_format_feet_abbreviated">{0} jalkaa</string>
+    <string name="da_distance_format_feet_compressed">{0} jalkaa</string>
+    <string name="da_distance_format_yards_abbreviated">{0} ja</string>
+    <string name="da_distance_format_yards_compressed">{0}ja</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s pv %2$s t</string>
+    <string name="da_time_format_hours" formatted="false">%1$s t %2$s min</string>
+    <string name="da_time_format_minutes">%1$s minuuttia</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s – %2$s</string>
+    <string name="da_navigation">Navigointi</string>
+    <string name="da_search_label">Haku</string>
+    <string name="da_layers">Kerrokset</string>
+    <string name="da_agreement">"Google Maps -navigointi on beta-vaiheessa. Käytä sitä varoen.
+
+Älä käsittele tätä sovellusta ajamisen aikana. Liikennetiedot eivät ole reaaliaikaisia, ja reittiohjeet voivat olla vääriä, vaarallisia, kiellettyjä, tai ne voivat sisältää lauttamatkoja. Noudata paikallisia lakeja.
+
+Pidä katseesi tiessä!"</string>
+    <string name="da_agreement_with_walking">"Google Maps -navigointi on beta-vaiheessa. Käytä sitä varoen.
+
+Älä käsittele tätä sovellusta ajamisen aikana. Liikennetiedot eivät ole reaaliaikaisia, ja reittiohjeet voivat olla vääriä, vaarallisia tai kiellettyjä tai ne voivat sisältää lauttamatkoja. Kävelyreiteiltä voi puuttua jalkakäytäviä tai kävelykatuja. Noudata paikallisia lakeja.
+
+Pidä katseesi tiessä!"</string>
+    <string name="da_disclaimer_checkbox">Näytä tämä viesti ensi kerralla</string>
+    <string name="da_show_list">Reittiohjelista</string>
+    <string name="da_route_overview">Reittitiedot</string>
+    <string name="da_show_map">Näytä kartta</string>
+    <string name="da_satellite">Satelliittinäkymä</string>
+    <string name="da_traffic_view">Liikennenäkymä</string>
+    <string name="da_no_traffic_here">Ei liikennetietoja</string>
+    <string name="da_traffic">Liikenne</string>
+    <string name="da_area_view">Aluenäkymä</string>
+    <string name="da_mute">Mykistä</string>
+    <string name="da_unmute">Poista mykistys</string>
+    <string name="da_settings">Asetukset</string>
+    <string name="da_help">Ohje</string>
+    <string name="da_terms_privacy_notices">Ehdot ja tietosuoja</string>
+    <string name="da_terms_and_conditions">Käyttöehdot</string>
+    <string name="da_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="da_legal_notices">Oikeudelliset ilmoitukset</string>
+    <string name="da_navigation_suspended">Navigointi keskeytetty</string>
+    <string name="da_exit_navigation">Poistu navigoinnista</string>
+    <string name="da_email_me_when_resolved">Ilmoita sähköpostilla, kun ratkaistu</string>
+    <string name="da_problem_reported">Ongelmasta ilmoitettu</string>
+    <string name="da_one_button_map_issue_reporting">1 napsautuksen ongelmaraportti</string>
+    <string name="da_attention">Huomio</string>
+    <string name="da_rmi_warning">"Voit ilmoittaa ongelmasta tallentamalla lyhyen ääniviestin, jossa kuvailet karttaa tai reittiäsi koskevaa ongelmaa. Viesti, nykyinen sijaintisi ja reittisi lähetetään Googlelle automaattisesti 15 sekunnin kuluttua.
+
+Voit ottaa sovellusasetuksissa käyttöön yhden napsautuksen pikanäppäimen.
+
+Jos haluat saada sähköpostipäivityksen kun ongelma on selvitetty, sähköpostiosoitettasi, sijaintiasi ja kommenttejasi säilytetään, kunnes ongelma on ratkaistu."</string>
+    <string name="da_report_a_problem">Ilmoita ongelmasta</string>
+    <string name="da_report_a_problem_dialog_title">Ilmoita ongelmasta</string>
+    <string name="da_rmi_preference_trackball_summary">Jos käytössä, ohjauspallon painaminen aloittaa ongelmaraportin.</string>
+    <string name="da_rmi_preference_camera_summary">Jos käytössä, kamerapainikkeen painaminen aloittaa ongelmaraportin.</string>
+    <string name="da_rmi_preference_no_button_summary">Ei fyysisiä painikkeita käytettävissä.</string>
+    <string name="da_rmi_preference_bad_location_summary">Ongelmanraportointi ei käytettävissä nykyisessä sijainnissa.</string>
+    <string name="da_destination_not_here_warning">Kiitos ilmoituksestasi, että meillä on väärä sijainti määränpäällesi. Nykyinen kohde ja sijainti lähetetään Googlelle, jotta voimme parantaa tietojemme tarkkuutta.</string>
+    <string name="da_destination_not_here_title">Ilmoita ongelmasta</string>
+    <string name="da_searching_for_gps">Haetaan...</string>
+    <string name="da_data_connection_lost">Tietoyhteys katkennut...</string>
+    <string name="da_follow_the_route">Seuraa reittiä</string>
+    <string name="da_waiting_for_directions">Reittiohjeiden haku</string>
+    <string name="da_waiting_for_walking_directions">Haetaan kävelyreittiohjeita</string>
+    <string name="da_waiting_for_location">Odotetaan sijaintia</string>
+    <string name="da_checking_navigation_availability">Navigointikykyä tarkistetaan</string>
+    <string name="da_loading_route_details">Ladataan reittitietoja</string>
+    <string name="da_loading_image">Ladataan kuvaa</string>
+    <string name="da_waiting_for_alternates">Haetaan vaihtoehtoisia reittejä</string>
+    <string name="da_waiting_for_details">Ladataan</string>
+    <string name="da_no_details">Tietoja ei ole saatavissa</string>
+    <string name="da_gps_is_disabled">GPS on pois käytöstä</string>
+    <string name="da_turn_on_gps">Näytetäänkö sijaintiasetukset?</string>
+    <string name="da_voice_guidance">Puheohjaus</string>
+    <string name="da_install_voice_guidance_prompt">Ääniohjattua navigointia varten on asennettava tekstinlukutuki Android Marketista.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Ohita</string>
+    <string name="da_dialog_cancel">Peruuta</string>
+    <string name="da_dialog_done">Valmis</string>
+    <string name="da_dialog_accept">Hyväksyn</string>
+    <string name="da_dialog_install">Asenna</string>
+    <string name="da_dialog_dont_accept">Älä hyväksy</string>
+    <string name="da_dialog_go">Aloita</string>
+    <string name="da_dialog_get_directions">Reittiohjehaku</string>
+    <string name="da_map">Kartta</string>
+    <string name="da_clear_layers">Tyhjennä kartta</string>
+    <string name="da_layer_name_parking">Pysäköinti</string>
+    <string name="da_layer_name_attractions">Nähtävyydet</string>
+    <string name="da_layer_name_gas_stations">Huoltoasemat</string>
+    <string name="da_layer_name_restaurants">Ravintolat</string>
+    <string name="da_layer_name_supermarkets">Supermarketit</string>
+    <string name="da_layer_name_atms_and_banks">Pankkiautomaatit ja pankit</string>
+    <string name="da_layer_name_convenience_stores">Päivittäistavarakaupat</string>
+    <string name="da_query_banks_and_atms">Pankit ja pankkiautomaatit</string>
+    <string name="da_rerouting">Määritetään reitti uudelleen...</string>
+    <string name="da_via">Väylän %s kautta</string>
+    <string name="da_to_destination">– %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Tallenna palaute</string>
+    <string name="da_destination_not_here">Määränpää ei ole täällä</string>
+    <string name="da_new_destination">Seuraava määränpää</string>
+    <string name="da_reroute_to_destination">Takaisin määränpäähän</string>
+    <string name="da_change_destination">Aseta kohde</string>
+    <string name="da_search_for_destination">Haku...</string>
+    <string name="da_point_on_map">Karttapiste</string>
+    <string name="da_volume">Äänenvoimakkuus</string>
+    <string name="da_exit">Poistu</string>
+    <string name="da_did_you_mean">Tarkoititko:</string>
+    <string name="da_did_you_say">Sanoitko:</string>
+    <string name="da_for_your_end_point">Päätepiste</string>
+    <string name="da_unnamed_road">Nimetön tie</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s ja sen jälkeen %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s metrin päästä</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Puolentoista kilometrin päästä</string>
+    <string name="da_speech_continue_for_x_meters">Jatka %1$s metriä</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Jatka 1,5 kilometriä</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Jatka tiellä %2$s %1$s metriä</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Jatka tiellä %1$s 1,5 kilometriä</string>
+    <string name="da_speech_generic_continue">Jatka suoraan</string>
+    <string name="da_speech_in_x_feet">%1$s jalan päästä</string>
+    <string name="da_speech_in_x_yards">%1$s jaardin päästä</string>
+    <string name="da_speech_in_a_quarter_mile">200 metrin päästä</string>
+    <string name="da_speech_in_a_half_mile">800 metrin päästä</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Kolmen neljännesmailin päästä</string>
+    <string name="da_speech_in_one_and_a_half_miles">Puolentoista mailin päästä</string>
+    <string name="da_speech_continue_for_x_feet">Jatka %1$s jalkaa</string>
+    <string name="da_speech_continue_for_x_yards">Jatka %1$s jaardia</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Jatka 200 metriä</string>
+    <string name="da_speech_continue_for_a_half_mile">Jatka 800 metriä</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Jatka 1,2 kilometriä</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Jatka 2,4 kilometriä</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Jatka tiellä %2$s %1$s jalkaa</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Jatka tiellä %2$s %1$s jaardia</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Jatka tiellä %1$s 200 metriä</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Jatka tiellä %1$s 800 metriä</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Jatka tiellä %1$s 1,2 kilometriä</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Jatka tiellä %1$s 2,4 kilometriä</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SW,W,NW</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SW,W,NW,k,t,tie,katu</string>
+    <string name="da_no_route">Reittiä ei löydy</string>
+    <string name="da_route_not_found">Emme löytäneet reittiä määränpäähäsi.</string>
+    <string name="da_destination_not_found">Emme ymmärtäneet määränpäätä.</string>
+    <string name="da_navigation_not_supported">Navigointia valitsemaasi määränpäähän ei ole saatavissa.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps -navigointi ei ole vielä käytettävissä tässä sijannissa.</string>
+    <string name="da_launch_maps">Avaa Maps</string>
+    <string name="da_no_image_available">Kuvaa ei ole saatavissa.</string>
+    <string name="da_image_error">Virhe kuvan latauksessa.</string>
+    <string name="da_no_alternate_routes">Emme löytäneet vaihtoehtoisia reittejä määränpäähäsi.</string>
+    <string name="da_picker_type_destination">Kirjoita kohde</string>
+    <string name="da_picker_speak_destination">Puhu kohde</string>
+    <string name="da_picker_contacts">Yhteystiedot</string>
+    <string name="da_picker_starred_items">Tähtikohteet</string>
+    <string name="da_picker_new_contact">Uusi yhteystieto</string>
+    <string name="da_picker_recent_destinations">Uusimmat määränpäät</string>
+    <string name="da_picker_choose_destination">Valitse määränpää</string>
+    <string name="da_navigate_to">Navigoi kohteeseen</string>
+    <string name="da_picker_search_hint">Kohde</string>
+    <string name="da_route_options">Reittivalinnat</string>
+    <string name="da_updating_directions">Päivitetään reittiohjeita</string>
+    <string name="da_picker_no_starred_items">"Sinulla ei ole tähdellä merkittyjä kohteita.
+
+Tähdellä merkityt kohteet synkronoidaan maps.google.comin kanssa automaattisesti.
+
+Voit hakea tähtituloksia Google Mapsissa napauttamalla osoitteen vieressä olevaa tähtikuvaketta."</string>
+    <string name="da_picker_no_contacts">"Sinulla ei ole yhteystietoja, joilla on osoitteita.
+
+Voit lisätä uusia yhteystietoja tai asettaa osoitteita olemassa oleville yhteystiedoille Yhteystiedot-sovelluksessa."</string>
+    <string name="da_driving">Autolla</string>
+    <string name="da_walking">Kävellen</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Lisätietoja</string>
+    <string name="da_search_maps">Hae Mapsista</string>
+    <string name="da_walking_warning">Kävelyohjeet (beta): ole varovainen</string>
+    <string name="da_calibrate_compass_title">Kompassin kalibrointi</string>
+    <string name="da_calibrate_compass">Kompassia ei ole kalibroitu. Kalibroi heiluttamalla laitetta kahdeksikon muotoista liikerataa muutaman kerran.</string>
+    <string name="da_confirm_exit_title">Poistu navigoinnista?</string>
+    <string name="da_confirm_exit_text">Reittiohjeiden antaminen lopetetaan.</string>
+    <string name="da_route_includes_tolls">Reitillä on tulleja</string>
+    <string name="da_avoid_tolls">Vältä tulleja</string>
+    <string name="da_avoiding_tolls">Tullit vältetty</string>
+    <string name="da_avoiding_highways">Moottoritiet vältetty</string>
+    <string name="da_route_includes_unavoidable_tolls">Tällä reitillä on tulleja.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Reitillä on tulleja. Poista tullireitit käytöstä kohdasta %1$s%2$s.</string>
+    <string name="da_seasonally_closed">Reitti voi olla suljettu kausittain</string>
+    <string name="da_direction_north">pohjoiseen</string>
+    <string name="da_direction_north_west">luoteeseen</string>
+    <string name="da_direction_west">länteen</string>
+    <string name="da_direction_south_west">lounaaseen</string>
+    <string name="da_direction_south">etelään</string>
+    <string name="da_direction_south_east">kaakkoon</string>
+    <string name="da_direction_east">itään</string>
+    <string name="da_direction_north_east">koilliseen</string>
+    <string name="da_step_depart">Aja suuntaan %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Aja suuntaan %1$s tiellä %2$s</string>
+    <string name="da_step_slight_left">Loivasti vasemmalle</string>
+    <string name="da_step_slight_right">Loivasti oikealle</string>
+    <string name="da_step_turn_left">Käänny vasemmalle</string>
+    <string name="da_step_turn_right">Käänny oikealle</string>
+    <string name="da_step_sharp_left">Jyrkästi vasemmalle</string>
+    <string name="da_step_sharp_right">Jyrkästi oikealle</string>
+    <string name="da_step_slight_left_onto">Loivasti vasemmalle tielle %1$s</string>
+    <string name="da_step_slight_right_onto">Loivasti oikealle tielle %1$s</string>
+    <string name="da_step_turn_left_onto">Käänny vasemmalle tielle %1$s</string>
+    <string name="da_step_turn_right_onto">Käänny oikealle tielle %1$s</string>
+    <string name="da_step_sharp_left_onto">Jyrkästi vasemmalle tielle %1$s</string>
+    <string name="da_step_sharp_right_onto">Jyrkästi oikealle tielle %1$s</string>
+    <string name="da_step_fork_left">Pysy vasemmalla kaistalla risteyksessä</string>
+    <string name="da_step_fork_right">Pysy oikealla kaistalla risteyksessä</string>
+    <string name="da_step_continue_onto">Jatka tielle %1$s</string>
+    <string name="da_step_continue_straight">Jatka suoraan</string>
+    <string name="da_step_u_turn">Tee U-käännös</string>
+    <string name="da_step_take_the_ramp">Liity tielle rampista</string>
+    <string name="da_step_take_the_ramp_onto">Liity rampista tielle %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Liity tielle vasemmanpuoleisesta rampista</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Liity tielle %1$s vasemmanpuoleisesta rampista</string>
+    <string name="da_step_take_the_ramp_on_the_right">Liity tielle oikeanpuoleisesta rampista</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Liity tielle %1$s oikeanpuoleisesta rampista</string>
+    <string name="da_step_take_the_exit">Poistu tieltä rampista</string>
+    <string name="da_step_take_the_exit_on_the_left">Poistu tieltä vasemmanpuoleisesta rampista</string>
+    <string name="da_step_take_the_exit_on_the_right">Poistu tieltä oikeanpuoleisesta rampista</string>
+    <string name="da_step_take_the_exit_onto">Poistu rampista tielle %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Poistu tielle %1$s vasemmanpuoleisesta rampista</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Poistu tielle %1$s oikeanpuoleisesta rampista</string>
+    <string name="da_step_take_exit_n">Poistu tieltä rampista %1$s</string>
+    <string name="dav_map_copyrights_google_only">%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">%1$d Google – Kuvat ©%2$d %3$s, Karttatiedot ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Kuvat ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Karttatiedot ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Koti</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Reittiohjeet &amp; navigointi</string>
+    <string name="EXIT_COMMAND">Poistu</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} pyytää sinua kirjautumaan</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Latituden kirjautumispyyntö</string>
+    <string name="GOHOME_DESTINATION_HINT">Anna osoite</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Pikanäppäinkuvake</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Tallenna</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Kohde</string>
+    <string name="GOHOME_SHORTCUT_NAME">Pikanäppäimen nimi</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Käännös käännökseltä -navigointi</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Avaa asetukset</string>
+    <string name="HOTPOT_LOADING">Ladataan...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Arvioi paikkoja -widget vaatii käyttöön asetukset Käytä langattomia verkkoja (Sijainti ja tietosuoja -asetuksista) sekä Wi-Fi (Langaton ja verkot -asetuksista).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Ota Käytä langattomia verkkoja -asetus käyttöön Sijainti ja tietosuoja-asetuksista, jos haluat käyttää Arvioi paikkoja -widgetiä.</string>
+    <string name="HOTPOT_NO_LOCATION">Ei sijaintitietoja</string>
+    <string name="HOTPOT_SEARCH">Haku</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Haku termillä: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Hae uudelleen</string>
+    <string name="HOTPOT_SELECT_PLACE">Valitse arvioitava paikka</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Valitse paikka: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Tuntematon sijainti</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Sijaintia päivitetään...</string>
+    <string name="HOTPOT_WIDGET_NAME">Arvioi paikkoja</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Julkaistaan nimellä {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Kerro lisää</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Päivitetty {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Ota langaton yhteys käyttöön ja tarkista verkkoasetukset parantaaksesi Rate Places -widgetin sijaintitarkkuutta.</string>
+    <string name="HOTPOT_YOU_RATED">"Arvostelusi: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Paikassa {0}, jaettu ryhmien {1} kanssa</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Kirjautunut paikkaan {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Valitaanko {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Valitaanko?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Kirj. Latitudeen napsautt.</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Viim. päivitys: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Tuntematon sijainti</string>
+    <string name="LOADING">Ladataan</string>
+    <string name="MAPS_APP_NAME">Maps</string>
+    <string name="NEED_NET_BODY">Tätä sovellusta ei voida käyttää ennen kuin sille annetaan lupa lähettää ja vastaanottaa tietoa verkosta.</string>
+    <string name="NEED_NET_TITLE">Verkkoyhteys on pakollinen</string>
+    <string name="NETWORK_DATA_ERROR">Tämä sovellus vaatii tietoyhteyden. Ota yhteys operaattoriisi.</string>
+    <string name="NET_FAIL_BODY">Tämä sovellus edellyttää toimivaa tietoliikenneyhteyttä.</string>
+    <string name="NET_FAIL_TITLE">Verkkovirhe</string>
+    <string name="NET_UNAVAILABLE_TITLE">Verkko ei käytettävissä</string>
+    <string name="PLACES_APP_NAME">Places</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Esim. Spagetti bolognese, cocktaileja, musiikkia</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Mikä tekee arvostelusta erottuvan?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Peruuta</string>
+    <string name="RATINGS_OPTIN_CLOSE">Sulje</string>
+    <string name="RATINGS_OPTIN_FAILED">Päivitys epäonnistui, yritä myöhemmin.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Pidä yhteyttä kavereihisi!&lt;/b> Siirry tietokoneellasi osoitteeseen &lt;b>{0}&lt;/b>, lisää ystäviäsi ja tutustu paikkoihin, joista he pitävät.</string>
+    <string name="RATINGS_OPTIN_HEADING">Määritä julkinen Google Places -lempinimesi.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Nimi tai lempinimi: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Arvostele suosikkiravintoloitasi, kahviloita ja muita paikkoja, niin saat hakutuloksissa itsellesi sopivia ehdotuksia.</string>
+    <string name="RATINGS_OPTIN_SAVE">Käytön aloitus</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Paikka-arviosi näkyvät &lt;b>julkisesti verkossa&lt;/b> tämän lempinimen kanssa. &lt;a href=#>Lisätietoja&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Julkaistaan verkossa nimellä {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Julkaistaan verkossa.</string>
+    <string name="RATINGS_RATE_PLACES">Miksi arvioida paikkoja?</string>
+    <string name="RATINGS_SET_APPEARANCE">Aseta näkyvyys</string>
+    <string name="RATINGS_WAIT">Odota...</string>
+    <string name="SEARCH_HINT">Hae Mapsista</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Päätepiste</string>
+    <string name="TRAFFIC_WIDGET_NAME">Liikenne</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Widgetin nimi</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Tallenna</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Alkupiste</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Vakava virhe.  Lopeta ja käynnistä uudelleen."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Tuntematon virhe</string>
+    <string name="UPGRADE_BODY">Asenna uusi versio, jotta voit käyttää tätä sovellusta.</string>
+    <string name="UPGRADE_TITLE">Ohjelmistopäivitys</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Mapsin reaaliaikainen taustakuva</string>
+    <string name="WALLPAPER_MAP_MODE">Karttatila</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normaali</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelliitti</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Kartan tila, esim. Satelliitti</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Maasto</string>
+    <string name="WALLPAPER_SETTINGS">Mapsin reaaaliaikaisen taustakuvan asetukset</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Näytä liikenne</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Näytä nykyinen sää kartalla. Sääwidgetin tulee olla asennettuna.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Sää</string>
+</resources>

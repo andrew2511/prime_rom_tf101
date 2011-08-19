@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">حافظه مخاطبین</string>
+    <string name="provider_label">مخاطبین</string>
+    <string name="upgrade_out_of_memory_notification_ticker">برای ارتقاء مخاطب به حافظه بیشتری نیاز است</string>
+    <string name="upgrade_out_of_memory_notification_title">ارتقا حافظه مخاطب</string>
+    <string name="upgrade_out_of_memory_notification_text">برای کامل کردن ارتقا انتخاب کنید.</string>
+    <string name="default_directory">مخاطبین</string>
+    <string name="local_invisible_directory">سایر موارد</string>
+</resources>

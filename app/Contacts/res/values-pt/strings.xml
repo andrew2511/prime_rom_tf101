@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Principais aplicativos do Android</string>
+    <string name="contactsList">Contatos</string>
+    <string name="launcherDialer">Telefone</string>
+    <string name="shortcutContact">Contato</string>
+    <string name="shortcutDialContact">Discagem direta</string>
+    <string name="shortcutMessageContact">Mensagem direta</string>
+    <string name="shortcutActivityTitle">Escolha o atalho para um contato</string>
+    <string name="callShortcutActivityTitle">Escolha um número a ser chamado</string>
+    <string name="messageShortcutActivityTitle">Escolha um número para enviar uma mensagem</string>
+    <string name="contactPickerActivityTitle">Selecionar um contato</string>
+    <string name="starredList">Com estrela</string>
+    <string name="frequentList">Frequente</string>
+    <string name="strequentList">Favoritos</string>
+    <string name="viewContactTitle">Detalhes do contato</string>
+    <string name="viewContactDesription">Ver contato</string>
+    <string name="editContactDescription">Editar contato</string>
+    <string name="insertContactDescription">Criar contato</string>
+    <string name="searchHint">Pesquisar contatos</string>
+    <string name="menu_search">Pesquisa</string>
+    <string name="menu_newContact">Novo contato</string>
+    <string name="menu_viewContact">Ver contato</string>
+    <string name="menu_callNumber">Chamar %s</string>
+    <string name="menu_addStar">Adicionar aos favoritos</string>
+    <string name="menu_removeStar">Remover dos favoritos</string>
+    <string name="menu_editContact">Editar contato</string>
+    <string name="menu_deleteContact">Excluir contato</string>
+    <string name="menu_call">Chamar contato</string>
+    <string name="menu_sendSMS">Enviar SMS/MMS para o contato</string>
+    <string name="menu_makeDefaultEmail">Tornar o e-mail padrão</string>
+    <string name="menu_splitAggregate">Separar</string>
+    <string name="menu_renameGroup">Renomear grupo</string>
+    <string name="menu_deleteGroup">Excluir grupo</string>
+    <string name="menu_new_contact_action_bar">Novo</string>
+    <string name="splitConfirmation_title">Separar contato</string>
+    <string name="splitConfirmation">Tem certeza de que deseja separar este único contato em diversos contatos, um para cada conjunto de informações de contato unificado?</string>
+    <string name="menu_joinAggregate">Unir</string>
+    <string name="titleJoinContactDataWith">Unir contatos</string>
+    <string name="blurbJoinContactDataWith">Selecione o contato que deseja mesclar com %s.</string>
+    <string name="showAllContactsJoinItem">Mostrar todos os contatos</string>
+    <string name="separatorJoinAggregateSuggestions">Contatos sugeridos</string>
+    <string name="separatorJoinAggregateAll">Todos os contatos</string>
+    <string name="contactsJoinedMessage">Contatos unificados</string>
+    <string name="menu_contactOptions">Opções</string>
+    <string name="contactOptionsTitle">Opções</string>
+    <string name="deleteConfirmation_title">Excluir</string>
+    <string name="readOnlyContactWarning">Não é possível excluir os contatos das contas somente de leitura, mas você pode ocultá-los nas suas listas de contatos.</string>
+    <string name="readOnlyContactDeleteConfirmation">Este contato contém informações de diversas contas. As informações de contas somente de leitura ficarão ocultas nas suas listas de contatos, mas não serão excluídas.</string>
+    <string name="multipleContactDeleteConfirmation">Excluir este contato irá excluir informações de várias contas.</string>
+    <string name="deleteConfirmation">Este contato será excluído.</string>
+    <string name="menu_done">Concluído</string>
+    <string name="menu_doNotSave">Cancelar</string>
+    <string name="editContact_title_edit">Editar contato</string>
+    <string name="editContact_title_insert">Novo contato</string>
+    <string name="label_phonetic_name">Fonética</string>
+    <string name="label_notes">Observações</string>
+    <string name="label_sip_address">Chamada da internet</string>
+    <string name="label_ringtone">Toque</string>
+    <string name="ghostData_phonetic_name">Nome fonético</string>
+    <string name="ghostData_company">Empresa</string>
+    <string name="ghostData_title">Título</string>
+    <string name="invalidContactMessage">O contato não existe.</string>
+    <string name="pickerNewContactHeader">Criar novo contato</string>
+    <string name="phoneLabelsGroup">Telefone</string>
+    <string name="emailLabelsGroup">E-mail</string>
+    <string name="imLabelsGroup">Mensagem instantânea</string>
+    <string name="postalLabelsGroup">Endereço</string>
+    <string name="photoPickerNotFoundText">Nenhuma imagem disponível no tablet.</string>
+    <string name="attach_photo_dialog_title">Foto do contato</string>
+    <string name="customLabelPickerTitle">Personalizar nome do marcador</string>
+    <string name="menu_displayGroup">Opções de exibição</string>
+    <string name="send_to_voicemail_checkbox">Enviar chamadas diretamente para o correio de voz</string>
+    <string name="default_ringtone">Padrão</string>
+    <string name="removePhoto">Remover foto</string>
+    <string name="noContacts">Nenhum contato.</string>
+    <string name="noMatchingContacts">Nenhum contato correspondente foi encontrado.</string>
+    <string name="noContactsWithPhoneNumbers">Nenhum contato com números de telefone.</string>
+    <string name="showFilterPhones">Apenas contatos com telefones</string>
+    <string name="showFilterPhonesDescrip">Exibir apenas os contatos com números de telefone</string>
+    <string name="headerContactGroups">Escolha os contatos para exibir</string>
+    <string name="savingContact">Salvando contato…</string>
+    <string name="savingDisplayGroups">Salvando opções de exibição…</string>
+    <string name="contactSavedToast">Contato salvo.</string>
+    <string name="contactSavedErrorToast">Erro: não é possível salvar as alterações do contato.</string>
+    <string name="listTotalPhoneContactsZero">Nenhum contato com números de telefone</string>
+    <string name="listTotalAllContactsZero">Nenhum contato</string>
+    <string name="listTotalAllContactsZeroCustom">Não há contatos visíveis</string>
+    <string name="listTotalAllContactsZeroStarred">Nenhum contato com estrela</string>
+    <string name="listTotalAllContactsZeroGroup">Nenhum contato em %s</string>
+    <string name="foundTooManyContacts">mais de %d encontrados</string>
+    <string name="listFoundAllContactsZero">Não encontrado</string>
+    <string name="contactsIconLabel">Contatos</string>
+    <string name="contactsFavoritesLabel">Favoritos</string>
+    <string name="dialerIconLabel">Telefone</string>
+    <string name="recentCallsIconLabel">Chamadas</string>
+    <string name="liveFolderAll">Todos os contatos</string>
+    <string name="liveFolderFavorites">Contatos com estrela</string>
+    <string name="liveFolderPhone">Contatos com números de telefone</string>
+    <string name="menu_sendTextMessage">Enviar SMS/MMS</string>
+    <string name="recentCalls_callNumber">Chamar %s</string>
+    <string name="recentCalls_editNumberBeforeCall">Editar número antes da chamada</string>
+    <string name="recentCalls_addToContact">Adicionar aos contatos</string>
+    <string name="recentCalls_removeFromRecentList">Remover do registro de chamadas</string>
+    <string name="recentCalls_deleteAll">Limpar registro de chamadas</string>
+    <string name="recentCalls_empty">O registro de chamadas está vazio.</string>
+    <string name="clearCallLogConfirmation_title">Limpar registro de chamadas</string>
+    <string name="clearCallLogConfirmation">Tem certeza de que deseja limpar o registro de chamadas?</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
+    <string name="voicemail">Correio de voz</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="private_num">Número privado</string>
+    <string name="payphone">Orelhão</string>
+    <string name="dialerKeyboardHintText">Use o teclado para discar</string>
+    <string name="dialerDialpadHintText">Discar para adicionar uma chamada</string>
+    <string name="simContacts_emptyLoading">Carregando do cartão SIM...</string>
+    <string name="simContacts_title">Contatos do cartão SIM</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">Você não tem contatos para exibir. Se você acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.</string>
+    <string name="noContactsHelpTextForCreateShortcut">Você não tem contatos para exibir.</string>
+    <string name="noContactsHelpText">"Você não tem contatos para exibir.
+
+Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do chip ou cartão SD
+"</li></font></b></string>
+    <string name="noContactsHelpTextWithSync">"Você não tem contatos para exibir. Caso tenha acabado de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
+
+Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos ficam visíveis
+"</li></font></b>" 
+"<font fgcolor="#ffffffff"><li>Novo <b>contato</b>" para criar um novo contato do início
+"</li></font>" 
+"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do chip ou cartão SD
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpText">"Você não tem contatos para exibir.
+
+Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do cartão SD
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Você não tem contatos para exibir. Sse acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
+
+Para adicionar contatos, pressione "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos ficam visíveis
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importar/Exportar para importar contatos do cartão SD
+"</li></font></b></string>
+    <string name="noFavoritesHelpText">"Você não tem nenhum favorito.
+
+Para adicionar um contato à sua lista de favoritos:
+
+        "<li>Toque na guia <b>Contatos</b>"
+"</li>" 
+"<li>"Toque no contato que deseja adicionar aos seus favoritos
+"</li>" 
+"<li>"Toque na estrela ao lado do nome do contato
+"</li></string>
+    <string name="liveFolder_all_label">Todos os contatos</string>
+    <string name="liveFolder_favorites_label">Com estrela</string>
+    <string name="liveFolder_phones_label">Telefones</string>
+    <string name="dialer_useDtmfDialpad">Usar teclado multifrequencial</string>
+    <string name="dialer_returnToInCallScreen">Retornar para a chamada em espera</string>
+    <string name="dialer_addAnotherCall">Ad. cham.</string>
+    <string name="callDetailTitle">Detalhes da chamada</string>
+    <string name="toast_call_detail_error">Não foi possível ler os detalhes para a chamada solicitada.</string>
+    <string name="type_incoming">Recebendo chamada</string>
+    <string name="type_outgoing">Chamada enviada</string>
+    <string name="type_missed">Chamada perdida</string>
+    <string name="actionIncomingCall">Chamadas recebidas</string>
+    <string name="callBack">Retornar chamada</string>
+    <string name="callAgain">Chamar novamente</string>
+    <string name="returnCall">Retornar chamada</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s min. %s s</string>
+    <string name="favoritesFrquentSeparator">Chamados frequentemente</string>
+    <string name="add_contact_dlg_title">Adicionar contato</string>
+    <string name="add_contact_dlg_message_fmt">Adicionar \"%s\" aos contatos?</string>
+    <string name="description_image_button_one">um</string>
+    <string name="description_image_button_two">dois</string>
+    <string name="description_image_button_three">três</string>
+    <string name="description_image_button_four">quatro</string>
+    <string name="description_image_button_five">cinco</string>
+    <string name="description_image_button_six">seis</string>
+    <string name="description_image_button_seven">sete</string>
+    <string name="description_image_button_eight">oito</string>
+    <string name="description_image_button_nine">nove</string>
+    <string name="description_image_button_star">estrela</string>
+    <string name="description_image_button_zero">zero</string>
+    <string name="description_image_button_pound">libra</string>
+    <string name="description_voicemail_button">correio de voz</string>
+    <string name="description_dial_button">discar</string>
+    <string name="description_delete_button">backspace</string>
+    <string name="description_digits_edittext">número para discagem</string>
+    <string name="description_contact_photo">foto do contato</string>
+    <string name="description_minus_button">menos</string>
+    <string name="description_plus_button">mais</string>
+    <string name="searching_vcard_title">Pesquisando vCard</string>
+    <string name="import_from_sim">Importar do cartão SIM</string>
+    <string name="share_visible_contacts">Compartilhar contatos visíveis</string>
+    <string name="import_one_vcard_string">Importar um arquivo do vCard</string>
+    <string name="import_multiple_vcard_string">Importar vários arquivos do vCard</string>
+    <string name="import_all_vcard_string">Importar todos os arquivos do vCard</string>
+    <string name="fail_reason_io_error">Erro E/S</string>
+    <string name="fail_reason_low_memory_during_import">Memória insuficiente (o arquivo talvez seja muito grande)</string>
+    <string name="fail_reason_vcard_parse_error">Falha ao analisar o vCard por razão inesperada</string>
+    <string name="fail_reason_not_supported">O formato não é suportado.</string>
+    <string name="vcard_import_failed">Falha ao importar vCard</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Falha ao coletar metainformações dos arquivos de vCard fornecidos.</string>
+    <string name="fail_reason_failed_to_read_files">Falha na importação de um ou mais arquivos (%s).</string>
+    <string name="fail_reason_unknown">Erro desconhecido</string>
+    <string name="select_vcard_title">Selecionar arquivo do vCard</string>
+    <string name="caching_vcard_title">Armazenando vCard(s) em cache no armazenamento temporário local</string>
+    <string name="caching_vcard_message">O importador está armazenando vCard(s) em cache no armazenamento temporário local. A importação real começará em breve.</string>
+    <string name="progress_notifier_message" formatted="false">Importando %s/%s: %s</string>
+    <string name="importing_vcard_description">Importando %s</string>
+    <string name="reading_vcard_failed_title">Falha ao ler dados de vCard</string>
+    <string name="reading_vcard_canceled_title">A leitura dos dados do vCard foi cancelada</string>
+    <string name="importing_vcard_finished_title">Importação de vCard concluída %s</string>
+    <string name="importing_vcard_canceled_title">Importação do %s cancelada</string>
+    <string name="vcard_import_will_start_message">%s será importado em breve.</string>
+    <string name="vcard_import_will_start_message_with_default_name">O arquivo será importado em breve.</string>
+    <string name="vcard_import_request_rejected_message">A solicitação de importação do vCard foi rejeitada. Tente novamente mais tarde.</string>
+    <string name="vcard_export_will_start_message">%s será exportado em breve.</string>
+    <string name="vcard_export_request_rejected_message">A solicitação de exportação do vCard foi rejeitada. Tente novamente mais tarde.</string>
+    <string name="vcard_unknown_filename">contato</string>
+    <string name="percentage">%s%%</string>
+    <string name="confirm_export_title">Confirmar exportação</string>
+    <string name="confirm_export_message">Tem certeza de que deseja exportar a sua lista de contatos para \"%s\"?</string>
+    <string name="exporting_contact_failed_title">Falha ao exportar dados do contato</string>
+    <string name="exporting_contact_failed_message">"Falha ao exportar dados dos contatos.
+Motivo da falha: \"%s\""</string>
+    <string name="fail_reason_no_exportable_contact">Não há contatos exportáveis</string>
+    <string name="fail_reason_too_long_filename">O nome de arquivo exigido é muito longo (\"%s\")</string>
+    <string name="exporting_vcard_finished_title">Exportação concluída %s</string>
+    <string name="exporting_vcard_canceled_title">Exportação do %s foi cancelada</string>
+    <string name="exporting_contact_list_title">Exportando dados do contato</string>
+    <string name="exporting_contact_list_message">Exportando dados do contato para \"%s\"</string>
+    <string name="fail_reason_could_not_initialize_exporter">Não foi possível iniciar o exportador: \"%s\"</string>
+    <string name="fail_reason_error_occurred_during_export">Ocorreu um erro durante a exportação: \"%s\"</string>
+    <string name="composer_failed_to_get_database_infomation">Falha ao acessar informações do banco de dados</string>
+    <string name="composer_has_no_exportable_contact">Não há contatos exportáveis. Se você realmente tiver contatos em seu tablet, talvez a exportação não seja permitida por alguns provedores de dados.</string>
+    <string name="composer_not_initialized">O vCard não foi iniciado corretamente</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Não foi possível abrir \"%s\": %s</string>
+    <string name="exporting_contact_list_progress" formatted="false">%s de %s contatos</string>
+    <string name="cancel_import_confirmation_title">Cancelando a importação do vCard</string>
+    <string name="cancel_import_confirmation_message">Tem certeza de que deseja cancelar a importação do %s?</string>
+    <string name="cancel_export_confirmation_title">Cancelando a exportação do vCard</string>
+    <string name="cancel_export_confirmation_message">Tem certeza de que deseja cancelar a exportação do %s?</string>
+    <string name="cancel_vcard_import_or_export_failed">Falha ao cancelar impor./expor. do vCard</string>
+    <string name="search_settings_description">Nomes dos seus contatos</string>
+    <string name="add_2sec_pause">Adicionar pausa de 2 segundos</string>
+    <string name="add_wait">Adicionar espera</string>
+    <string name="call_disambig_title">Chamar usando</string>
+    <string name="sms_disambig_title">Enviar SMS usando</string>
+    <string name="make_primary">Lembrar desta escolha</string>
+    <string name="quickcontact_missing_app">Nenhum aplicativo foi encontrado para executar esta ação.</string>
+    <string name="quickcontact_remember_choice">Lembrar desta escolha</string>
+    <string name="quickcontact_missing_name">Desconhecido</string>
+    <string name="quickcontact_no_data">Nenhum dado</string>
+    <string name="quickcontact_clear_defaults_description">Limpar padrão</string>
+    <string name="quickcontact_clear_defaults_caption">Padrões definidos para este contato:</string>
+    <string name="quickcontact_clear_defaults_button">Limpar</string>
+    <string name="menu_accounts">Contas</string>
+    <string name="menu_import_export">Importar/Exportar</string>
+    <string name="dialog_import_export">Importar/Exportar contatos</string>
+    <string name="menu_share">Compartilhar contato</string>
+    <string name="share_via">Compartilhar contato via</string>
+    <string name="share_error">Este contato não pode ser compartilhado.</string>
+    <string name="nameLabelsGroup">Nome</string>
+    <string name="nicknameLabelsGroup">Apelido</string>
+    <string name="organizationLabelsGroup">Organização</string>
+    <string name="websiteLabelsGroup">Site</string>
+    <string name="eventLabelsGroup">Evento</string>
+    <string name="relationLabelsGroup">Relacionamento</string>
+    <string name="groupsLabel">Grupos</string>
+    <string name="type_short_home">H</string>
+    <string name="type_short_mobile">M</string>
+    <string name="type_short_work">W</string>
+    <string name="type_short_pager">P</string>
+    <string name="type_short_other">O</string>
+    <string name="dialog_new_contact_account">Criar contato na conta</string>
+    <string name="menu_sync_remove">Remover sincronização do grupo</string>
+    <string name="dialog_sync_add">Adicionar grupo sincronizado</string>
+    <string name="display_more_groups">Mais grupos…</string>
+    <string name="display_ungrouped">Todos os outros contatos</string>
+    <string name="display_all_contacts">Todos os contatos</string>
+    <string name="display_warn_remove_ungrouped">"A remoção de '%s' da sincronização também removerá todos os contatos não agrupados da sincronização."</string>
+    <string name="account_phone">Somente tablet, não sincronizado</string>
+    <string name="call_custom">Chamar %s</string>
+    <string name="call_home">Chamar residência</string>
+    <string name="call_mobile">Chamar celular</string>
+    <string name="call_work">Chamar o trabalho</string>
+    <string name="call_fax_work">Chamar fax comercial</string>
+    <string name="call_fax_home">Chamar fax residencial</string>
+    <string name="call_pager">Chamar pager</string>
+    <string name="call_other">Chamar</string>
+    <string name="call_callback">Retornar chamada</string>
+    <string name="call_car">Chamar carro</string>
+    <string name="call_company_main">Chamar empresa (principal)</string>
+    <string name="call_isdn">Chamar ISDN</string>
+    <string name="call_main">Chamar o principal</string>
+    <string name="call_other_fax">Chamar fax</string>
+    <string name="call_radio">Chamar rádio</string>
+    <string name="call_telex">Chamar telex</string>
+    <string name="call_tty_tdd">Chamar TTY/TDD</string>
+    <string name="call_work_mobile">Chamar celular comercial</string>
+    <string name="call_work_pager">Chamar pager comercial</string>
+    <string name="call_assistant">Chamar %s</string>
+    <string name="call_mms">Chamar MMS</string>
+    <string name="sms_custom">Enviar SMS para %s</string>
+    <string name="sms_home">Enviar SMS para resid.</string>
+    <string name="sms_mobile">Enviar SMS para celular</string>
+    <string name="sms_work">Enviar SMS para tel. comercial</string>
+    <string name="sms_fax_work">Enviar SMS para fax com.</string>
+    <string name="sms_fax_home">Enviar SMS para fax resid.</string>
+    <string name="sms_pager">Enviar SMS para o pager</string>
+    <string name="sms_other">Enviar SMS</string>
+    <string name="sms_callback">Enviar SMS para retorno de chamada</string>
+    <string name="sms_car">Enviar SMS para o carro</string>
+    <string name="sms_company_main">Enviar SMS para empresa (principal)</string>
+    <string name="sms_isdn">Mandar mensagem de texto para ISDN</string>
+    <string name="sms_main">Enviar SMS para núm. principal</string>
+    <string name="sms_other_fax">Enviar SMS para fax</string>
+    <string name="sms_radio">Enviar SMS para o rádio</string>
+    <string name="sms_telex">Enviar SMS para telex</string>
+    <string name="sms_tty_tdd">Enviar SMS para TTY/TDD</string>
+    <string name="sms_work_mobile">Enviar SMS para cel. comercial</string>
+    <string name="sms_work_pager">Enviar SMS para pager com.</string>
+    <string name="sms_assistant">Enviar SMS para %s</string>
+    <string name="sms_mms">Enviar texto MMS</string>
+    <string name="email_home">E-mail (residencial)</string>
+    <string name="email_mobile">Enviar e-mail para celular</string>
+    <string name="email_work">E-mail (comercial)</string>
+    <string name="email_other">E-mail</string>
+    <string name="email_custom">Enviar e-mail para %s</string>
+    <string name="email">E-mail</string>
+    <string name="map_home">Ver endereço residencial</string>
+    <string name="map_work">Ver endereço comercial</string>
+    <string name="map_other">Visualizar endereço</string>
+    <string name="map_custom">Visualizar endereço de %s</string>
+    <string name="chat_aim">Bater papo usando o AIM</string>
+    <string name="chat_msn">Bater papo usando o Windows Live</string>
+    <string name="chat_yahoo">Bater papo usando o Yahoo</string>
+    <string name="chat_skype">Bater papo usando o Skype</string>
+    <string name="chat_qq">Bater papo usando o QQ</string>
+    <string name="chat_gtalk">Bater papo usando o Google Talk</string>
+    <string name="chat_icq">Bater papo usando o ICQ</string>
+    <string name="chat_jabber">Bater papo usando o Jabber</string>
+    <string name="chat">Bate-papo</string>
+    <string name="postal_address">Endereço</string>
+    <string name="postal_street">Rua</string>
+    <string name="postal_pobox">Caixa postal</string>
+    <string name="postal_neighborhood">Vizinhança</string>
+    <string name="postal_city">Cidade</string>
+    <string name="postal_region">Estado</string>
+    <string name="postal_postcode">CEP</string>
+    <string name="postal_country">País</string>
+    <string name="full_name">Nome</string>
+    <string name="name_given">Nome</string>
+    <string name="name_family">Sobrenome</string>
+    <string name="name_prefix">Prefixo do nome</string>
+    <string name="name_middle">Nome do meio</string>
+    <string name="name_suffix">Sufixo do nome</string>
+    <string name="name_phonetic_given">Nome fonético</string>
+    <string name="name_phonetic_middle">Nome do meio fonético</string>
+    <string name="name_phonetic_family">Sobrenome fonético</string>
+    <string name="name_phonetic">Nome fonético</string>
+    <string name="account_type_format">Contato de %1$s</string>
+    <string name="from_account_format">de %1$s</string>
+    <string name="use_photo_as_primary">Usar esta foto</string>
+    <string name="contact_read_only">As informações de contato de %1$s não podem ser editadas neste aparelho.</string>
+    <string name="no_contact_details">Não há informações adicionais para este contato</string>
+    <string name="display_options_sort_list_by">Classificar lista por</string>
+    <string name="display_options_sort_by_given_name">Nome</string>
+    <string name="display_options_sort_by_family_name">Sobrenome</string>
+    <string name="display_options_view_names_as">Visualizar nomes de contato como</string>
+    <string name="display_options_view_given_name_first">Nome primeiro</string>
+    <string name="display_options_view_family_name_first">Sobrenome primeiro</string>
+    <string name="search_bar_hint">Pesquisar contatos</string>
+    <string name="search_for_all_contacts">Pesquisar em todos os contatos</string>
+    <string name="take_photo">Tirar foto</string>
+    <string name="take_new_photo">Tirar outra foto</string>
+    <string name="pick_photo">Selecionar foto da Galeria</string>
+    <string name="pick_new_photo">Selecionar nova foto da Galeria</string>
+    <string name="locale_change_in_progress">A lista de contatos está sendo atualizada para incorporar a alteração do idioma.</string>
+    <string name="upgrade_in_progress">A lista de contatos está sendo atualizada.</string>
+    <string name="upgrade_out_of_memory">"Os contatos estão sendo atualizados. 
+
+O processo de atualização requer aproximadamente %s Mb de memória interna. 
+
+Escolha uma das seguintes opções:"</string>
+    <string name="upgrade_out_of_memory_uninstall">Desinstalar alguns aplicativos</string>
+    <string name="upgrade_out_of_memory_retry">Tentar atualizar novamente</string>
+    <string name="search_results_searching">Pesquisando...</string>
+    <string name="menu_display_selected">Mostrar selecionados</string>
+    <string name="menu_display_all">Mostrar todos</string>
+    <string name="menu_select_all">Selecionar todos</string>
+    <string name="menu_select_none">Desmarcar todos</string>
+    <string name="no_contacts_selected">Nenhum contato selecionado.</string>
+    <string name="add_field">Adicionar outro campo</string>
+    <string name="contact_status_update_attribution">por meio de %1$s</string>
+    <string name="contact_status_update_attribution_with_date" formatted="false">%1$s via %2$s</string>
+    <string name="description_star">favorito</string>
+    <string name="edit_contact">Editar contato</string>
+    <string name="local_invisible_directory">Outros</string>
+    <string name="aggregation_suggestion_join_dialog_title">Unir contatos</string>
+    <string name="aggregation_suggestion_join_dialog_message">Unir o contato atual ao contato selecionado?</string>
+    <string name="aggregation_suggestion_edit_dialog_title">Editar contatos selecionados</string>
+    <string name="aggregation_suggestion_edit_dialog_message">Alternar para a edição do contato selecionado? As informações inseridas até agora serão copiadas.</string>
+    <string name="menu_copyContact">Copiar para meus contatos</string>
+    <string name="contact_directory_description">Diretório %1$s</string>
+    <string name="search_label">Pesquisando todos os contatos</string>
+    <string name="directory_search_label">Diretório</string>
+    <string name="local_search_label">Contatos</string>
+    <string name="toast_making_personal_copy">Como criar uma cópia pessoal</string>
+    <string name="list_filter_prompt">Escolher lista de contatos</string>
+    <string name="list_filter_all_accounts">Todos os contatos</string>
+    <string name="list_filter_all_starred">Com estrela</string>
+    <string name="list_filter_custom">Personalizado</string>
+    <string name="list_filter_customize">Personalizar...</string>
+    <string name="list_filter_phones">Contatos com números de telefone</string>
+    <string name="list_filter_single">Contato</string>
+    <string name="custom_list_filter">Definir exibição personalizada</string>
+    <string name="activity_title_settings">Configurações</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="preference_displayOptions">Opções de exibição</string>
+    <string name="organization_company_and_title" formatted="false">%2$s, %1$s</string>
+    <string name="hint_findContacts">Localizar contatos</string>
+    <string name="non_phone_caption">Número de telefone</string>
+    <string name="non_phone_add_to_contacts">Adicionar aos contatos</string>
+    <string name="non_phone_close">Fechar</string>
+    <string name="widget_name_and_phonetic" formatted="false">%1$s (%2$s)</string>
+    <string name="date_year_toggle">Informe um ano</string>
+    <string name="social_widget_label">Contato</string>
+    <string name="social_widget_loading">Carregando…</string>
+    <string name="contacts_unavailable_create_contact">Criar um novo contato</string>
+    <string name="contacts_unavailable_add_account">Faça login em uma conta</string>
+    <string name="contacts_unavailable_import_contacts">Importar contatos de um arquivo</string>
+    <string name="create_group_dialog_title">Criar um novo grupo</string>
+    <string name="create_group_item_label">[Criar um novo grupo]</string>
+    <string name="rename_group_dialog_title">Renomear grupo</string>
+    <string name="delete_group_dialog_title">Excluir grupo</string>
+    <string name="delete_group_dialog_message">Tem certeza de que deseja excluir o grupo \"%1$s\"? Os contatos não serão excluídos.</string>
+    <string name="toast_join_with_empty_contact">Insira o nome do contato antes de unificá-lo com outro contato.</string>
+    <string name="indicator_joined_contact">Contato unificado</string>
+    <string name="toast_text_copied">Texto copiado</string>
+    <string name="cancel_confirmation_dialog_title">Descartar alterações</string>
+    <string name="cancel_confirmation_dialog_message">Deseja realmente descartar as alterações?</string>
+    <string name="discard">Descartar</string>
+</resources>

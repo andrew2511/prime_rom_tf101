@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Accesaţi harta</string>
+    <string name="report_inappropriate_image">Raportaţi imaginea</string>
+    <string name="toggle_compass_mode">Modul busolă</string>
+    <string name="compass_mode_on">Modul busolă este activat.</string>
+    <string name="compass_mode_off">Modul busolă este dezactivat.</string>
+    <string name="waiting_for_network">Conexiune pierdută; se reînc…</string>
+    <string name="panorama_disabled">Imaginea nu mai este disponibilă.</string>
+    <string name="service_unavailable">Serviciul Street View nu este disponibil.</string>
+    <string name="loading">Se încarcă</string>
+    <string name="no_panorama_data">Nu au fost setate datele de panoramare.</string>
+    <string name="invalid_panorama_data">Panoramă nevalidă.</string>
+    <string name="click_to_go_toast">Trageţi pictograma Pegman unde doriţi să mergeţi.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Acest program necesită o conexiune de date şi va reîncerca automat. Verificaţi puterea semnalului. Sunteţi în modul Avion? Aveţi dezactivată conexiunea de date în roaming?</string>
+    <string name="whats_new_header">Ce este nou în Street View?</string>
+    <string name="whats_new_c2g">Zburaţi oriunde vedeţi cu ochii. Trageţi-l pe Pegman din stânga jos şi plasaţi-l unde doriţi să vă deplasaţi.</string>
+    <string name="terms_and_privacy">Termeni şi confidenţialitate</string>
+    <string name="terms_and_conditions">Termeni şi condiţii</string>
+    <string name="privacy_policy">Politica de confidenţialitate</string>
+</resources>

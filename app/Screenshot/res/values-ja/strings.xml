@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">スクリーンショット</string>
+    <string name="screenshot_dialog_message">スクリーンショットは保存されました。スクリーンショットモードを継続しますか？</string>
+    <string name="screenshot_dialog_yes">はい</string>
+    <string name="screenshot_dialog_no">いいえ</string>
+    <string name="screenshot_toast_message_saved">スクリーンショットは保存されました。</string>
+    <string name="screenshot_toast_message_failed">ファイル転送モード中に、スクリーンショットの保存に失敗しました。</string>
+    <string name="screenshot_toast_message_failed_save">スクリーンショットの保存に失敗しました。</string>
+    <string name="screenshot_toast_message_full">スクリーンショットの保存に失敗しました。メモリー不足です。</string>
+</resources>

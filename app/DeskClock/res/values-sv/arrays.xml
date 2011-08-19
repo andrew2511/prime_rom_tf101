@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarmet ringer om mindre än 1 minut från och med nu.</item>
+        <item>Alarmet ringer om %1$s från och med nu.</item>
+        <item>Alarmet ringer om %2$s från och med nu.</item>
+        <item>Alarmet ringer om %1$1$s och %2$2$s från och med nu.</item>
+        <item>Alarmet ringer om %3$s från och med nu.</item>
+        <item>Alarmet ringer om %1$1$s och %2$3$s från och med nu.</item>
+        <item>Alarmet ringer om %1$2$s och %2$3$s från och med nu.</item>
+        <item>Alarmet ringer om %1$1$s, %2$2$s och %3$3$s från och med nu.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>20 minuter</item>
+        <item>25 minuter</item>
+        <item>30 minuter</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Av</item>
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>20 minuter</item>
+        <item>25 minuter</item>
+        <item>30 minuter</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Ingen</item>
+        <item>Snooze</item>
+        <item>Ta bort permanent</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

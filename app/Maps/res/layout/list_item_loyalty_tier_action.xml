@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.googlenav.ui.android.TemplateViewWithLoyaltyTier android:gravity="left|center" android:layout_gravity="left|center" android:orientation="horizontal" android:id="@id/listItemLoyaltyTierAction" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|left|center" android:layout_gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/template_left_image_tier" />
+        <include layout="@layout/template_left_image_custom_tier" />
+        <include layout="@layout/template_left_image" />
+    </LinearLayout>
+    <include layout="@layout/template_text_parent" />
+</com.google.googlenav.ui.android.TemplateViewWithLoyaltyTier>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Háttérkép kiválasztása</string>
+    <string name="wallpaper_chooser_empty">Nincs elérhető háttérkép</string>
+    <string name="wallpaper_cancel">Mégse</string>
+</resources>

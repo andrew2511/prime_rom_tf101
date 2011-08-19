@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Uusi välilehti</string>
+    <string name="new_incognito_tab">Uusi incognito-välilehti</string>
+    <string name="active_tabs">Välilehdet</string>
+    <string name="open_all_in_new_window">Avaa kaikki uusiin välilehtiin</string>
+    <string name="contextmenu_openlink_newwindow">Avaa uudessa välilehdessä</string>
+    <string name="contextmenu_openlink_newwindow_background">Avaa uudessa välilehdessä taustalla</string>
+    <string name="pref_content_open_in_background_summary">Avaa uudet välilehdet nykyisen taakse</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Row latin:keyWidth="10.000002%p" latin:rowEdgeFlags="bottom">
+        <switch>
+            <case latin:hasSettingsKey="false">
+                <Key latin:keyWidth="20.000004%p" latin:keyEdgeFlags="left" latin:keyStyle="toSymbolKeyStyle" />
+                <include latin:keyboardLayout="@xml/kbd_qwerty_f1" />
+                <switch>
+                    <case latin:webInput="true">
+                        <Key latin:keyWidth="20.000004%p" latin:keyStyle="spaceKeyStyle" />
+                        <Key latin:keyWidth="20.000004%p" latin:keyStyle="tabKeyStyle" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="39.999996%p" latin:keyStyle="spaceKeyStyle" />
+                    </default>
+                </switch>
+                <Key latin:popupCharacters="@string/alternates_for_punctuation" latin:maxPopupKeyboardColumn="7" latin:keyLabel="." latin:keyHintIcon="@drawable/hint_popup" latin:keyStyle="functionalKeyStyle" />
+                <switch>
+                    <case latin:mode="im">
+                        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="smileyKeyStyle" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" />
+                    </default>
+                </switch>
+            </case>
+            <case latin:hasSettingsKey="true">
+                <Key latin:keyWidth="14.999998%p" latin:keyEdgeFlags="left" latin:keyStyle="toSymbolKeyStyle" />
+                <Key latin:keyStyle="settingsKeyStyle" />
+                <include latin:keyboardLayout="@xml/kbd_qwerty_f1" />
+                <switch>
+                    <case latin:webInput="true">
+                        <Key latin:keyWidth="29.999996%p" latin:keyStyle="spaceKeyStyle" />
+                        <Key latin:keyStyle="tabKeyStyle" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="29.999996%p" latin:keyStyle="spaceKeyStyle" />
+                    </default>
+                </switch>
+                <Key latin:popupCharacters="@string/alternates_for_punctuation" latin:maxPopupKeyboardColumn="7" latin:keyLabel="." latin:keyHintIcon="@drawable/hint_popup" latin:keyStyle="functionalKeyStyle" />
+                <switch>
+                    <case latin:mode="im">
+                        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="smileyKeyStyle" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" />
+                    </default>
+                </switch>
+            </case>
+        </switch>
+    </Row>
+</merge>

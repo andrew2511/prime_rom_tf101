@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="54" android:versionName="1.0.18.3539" android:installLocation="preferExternal" package="com.ecareme.epad.mear"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <original-package android:name="com.ecareme.mear" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/mearicon" android:name="com.ecareme.mear.Mear" android:debuggable="false">
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.common.SplashActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.common.LoginActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.common.RegisterActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.present.InitActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.navigate.PlayListActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.navigate.OffLinePlayListActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="net.yostore.aws.view.navigate.LibActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.CategoryTab" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.OffLineCategoryTab" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.SettingActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.test.TestActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.OffLineSettingActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.search.SearchActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.PlayerActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:name="net.yostore.aws.view.present.DlQueueActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <service android:name="net.yostore.aws.service.PlayerService" android:enabled="true">
+            <intent-filter>
+                <action android:name="net.yostore.aws.service.PlayerServiceInterface" />
+            </intent-filter>
+        </service>
+        <service android:name="net.yostore.aws.service.PlayListService" android:enabled="true">
+            <intent-filter>
+                <action android:name="net.yostore.aws.service.PlayListServiceInterface" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <receiver android:label="NetworkConnection" android:name="net.yostore.utility.ConnectionChangeReceiver">
+        <intent-filter>
+            <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        </intent-filter>
+    </receiver>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

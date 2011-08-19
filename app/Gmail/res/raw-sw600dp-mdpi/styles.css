@@ -1,0 +1,551 @@
+/* Copyright (C) 2010 Google Inc. All Rights Reserved */
+
+/* Absolute size values for MDPI are 2/3rds of the corresponding HDPI values. */
+
+body {
+  margin: 0;
+  /* The "new notification" bar in layout/html_conversation.xml relies on these
+   * padding values. */
+  padding: 0 0 48px;
+}
+
+.gm-conversation-header {
+  padding: 18px 16px;
+  margin: 0 16px;
+  border-bottom: 2px solid #CCC;
+  display: -webkit-box;
+}
+
+#gm_subject {
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+}
+
+.gm-labels {
+  text-align: right;
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.gm-not-important > .gm-important-indicator {
+  display: none;
+}
+
+.gm-important-indicator {
+  display: inline-block;
+  vertical-align: middle;
+  background: url(file:///android_res/drawable/ic_email_caret_none_important_unread.png) center no-repeat;
+  height: 20px;
+  width: 24px;
+}
+
+.gm-label {
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 3px 8px;
+}
+
+.gm-label.gm-empty-marker {
+  border-color: transparent;
+  background-color: #eeeeee;
+}
+
+.gm-message {
+  position: relative;
+  /* first message must clear any float from gm_subject */
+  clear: both;
+  margin: 0 32px;
+}
+
+.gm-message.gm-collapsed + .gm-message.gm-collapsed, .gm-super-collapsed-block + .gm-message {
+  padding-top: 1px;
+}
+
+.gm-conversation-header + .gm-message, .gm-message.gm-expanded, .gm-message.gm-expanded + .gm-message.gm-collapsed {
+  padding-top: 16px;
+}
+
+.gm-message.gm-collapsed + .gm-super-collapsed-block {
+  margin-top: 1px;
+}
+
+.gm-conversation-header + .gm-super-collapsed-block, .gm-message.gm-expanded + .gm-super-collapsed-block {
+  padding-top: 0;
+  margin-top: 16px;
+}
+
+.gm-header {
+  font-size: 14px;
+  color: #737373;
+}
+
+.gm-top-header {
+  position: relative;
+  background: url(file:///android_res/drawable/header_convo_view_sender_bg_holo.png) repeat-x;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  padding-right: 4px;
+}
+
+.gm-collapsed > .gm-header > .gm-top-header {
+  background: url(file:///android_res/drawable/header_convo_view_thread_bg_holo.png) repeat-x;
+}
+
+.gm-collapse-highlight {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.gm-contact-overlay {
+  height: 64px;
+  width: 64px;
+  background: url(file:///android_res/drawable/quickcontact_badge_overlay_normal_light.png) right bottom no-repeat;
+}
+
+.gm-draft > .gm-header > .gm-top-header > .gm-contact {
+  display: none;
+}
+
+/* The draft envelope icon that appears on the left side of the header. */
+.gm-draft-icon {
+  background: url( file:///android_res/drawable/ic_gmail_draft.png) center no-repeat;
+  display: none;
+  margin: 14px; /* Makes this the same size as contact icon. */
+  height: 36px;
+  width: 36px;
+}
+
+.gm-draft > .gm-header > .gm-top-header > .gm-draft-icon {
+  display: block;
+}
+
+.gm-action-strip {
+  vertical-align: middle;
+  display: none;
+  width: auto;
+}
+
+.gm-action-button, .gm-attachment-icon {
+  height: 64px;
+  width: 56px;
+}
+
+
+#gm_fixed_header > .gm-header > .gm-top-header > .gm-action-strip,
+.gm-expanded > .gm-header > .gm-top-header > .gm-action-strip {
+  display: table;
+}
+
+.gm-draft-action {
+  display: none;
+}
+
+.gm-draft > .gm-header > .gm-top-header > .gm-action-strip .gm-draft-action {
+  display: table-cell;
+}
+
+.gm-reply-action {
+  background: url(file:///android_res/drawable/ic_reply_holo_light.png) center no-repeat;
+}
+
+.gm-replyall-action {
+  background: url(file:///android_res/drawable/ic_reply_all_holo_light.png) center no-repeat;
+}
+
+.gm-forward-action {
+  background: url(file:///android_res/drawable/ic_forward_holo_light.png) center no-repeat;
+}
+
+.gm-draft-action {
+  width: 48px;
+  background: url(file:///android_res/drawable/ic_edit_normal_holo_light.png) center no-repeat;
+}
+
+.gm-draft-action:focus {
+  width: 48px;
+  background: url(file:///android_res/drawable/ic_edit_focused_holo_light.png) center no-repeat;
+}
+
+#gm_fixed_header > .gm-header > .gm-top-header > .gm-collapsed-star,
+.gm-expanded > .gm-header > .gm-top-header > .gm-collapsed-star {
+    display:none;
+}
+
+.gm-draft > .gm-header > .gm-top-header > .gm-action-strip .gm-reply-action,
+.gm-draft > .gm-header > .gm-top-header > .gm-action-strip .gm-replyall-action,
+.gm-draft > .gm-header > .gm-top-header > .gm-action-strip .gm-strip-more,
+.gm-draft > .gm-header > .gm-top-header > .gm-action-strip .gm-forward-action {
+  display: none;
+}
+
+.gm-star-icon {
+  background: url(file:///android_res/drawable/btn_star_off_normal_gmail_holo_light.png) center no-repeat;
+}
+
+.gm-starred .gm-star-icon {
+  background: url(file:///android_res/drawable/btn_star_on_normal_gmail_holo_light.png) center no-repeat;
+}
+
+.gm-strip-more {
+  background: url(file:///android_res/drawable/arrow_more_left.png) center no-repeat;
+  width: 18px;
+}
+
+.gm-action-strip-expanded .gm-strip-more {
+  background: url(file:///android_res/drawable/arrow_more_right.png) center no-repeat;
+}
+
+.gm-header > .gm-top-header > .gm-collapse-highlight > .gm-date-time {
+  /* need some bottom margin to align baseline with sender name */
+  margin: 0 12px 10px;
+}
+
+.gm-bottom-header > .gm-date-time {
+  margin: 16px 80px 0 0;
+}
+
+#gm_fixed_header > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-date-time,
+.gm-expanded > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-date-time {
+  display: none;
+}
+
+.gm-presence-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  margin: 2px 8px 16px;
+}
+
+.gm-draft > .gm-header > .gm-top-header > .gm-contact {
+  display: none;
+}
+
+/* This leaves the correct spacing */
+.gm-draft > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-presence-icon {
+  background: none;
+}
+
+.gm-offline {
+  display: inline-block;
+  background-image: url(file:///android_res/drawable/presence_offline.png);
+}
+
+.gm-invisible {
+  display: inline-block;
+  background-image: url(file:///android_res/drawable/presence_invisible.png);
+}
+
+.gm-away,
+.gm-idle {
+  display: inline-block;
+  background-image: url(file:///android_res/drawable/presence_away.png);
+}
+
+.gm-busy {
+  display: inline-block;
+  background-image: url(file:///android_res/drawable/presence_busy.png);
+}
+
+.gm-online {
+  display: inline-block;
+  background-image: url(file:///android_res/drawable/presence_online.png);
+}
+
+.gm-attachment > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-attachment-icon {
+  background: url(file:///android_res/drawable/ic_menu_attachment_holo_light.png) center no-repeat;
+}
+
+.gm-attachment.gm-expanded > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-attachment-icon {
+  display: none;
+}
+
+.gm-sender-wrapper {
+  -webkit-box-flex: 1.0;
+}
+
+.gm-sender-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.gm-sender-name {
+  color: black;
+}
+
+.gm-collapsed > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-sender-wrapper > .gm-sender-name {
+  color: inherit;
+}
+
+.gm-collapsed > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-sender-wrapper > .gm-sender-email,
+.gm-expanded > .gm-header > .gm-top-header > .gm-collapse-highlight > .gm-sender-wrapper > .gm-snippet {
+  display: none;
+}
+
+.gm-sender-email, .gm-snippet {
+  display: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.gm-bottom-header {
+  display: none;
+}
+
+.gm-expanded > .gm-header > .gm-bottom-header {
+  display: -webkit-box;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  padding: 0 14px;
+}
+
+.gm-recipients {
+  -webkit-box-flex: 1;
+  padding: 16px 0;
+}
+
+.gm-recipients-summary {
+  display: inline-block;
+  max-width: 100%;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gm-recipients-sublist {
+  margin-right: 4px;
+}
+
+.gm-recipients-sublist-heading {
+  font-weight: bold;
+}
+
+.gm-recipient-title {
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+.gm-recipient-heading {
+  /* vertical space between To, CC recipient headings */
+  padding-top: 12px;
+}
+
+.gm-recipient {
+  /* vertical space between individual recipients */
+  padding-top: 8px;
+}
+
+.gm-recipient-list {
+  /* vertical difference between heading padding and individual recipient padding */
+  padding-top: 4px;
+}
+
+a.gm-email {
+  text-decoration: none;
+}
+
+.gm-details-icon {
+  background: url(file:///android_res/drawable/ic_menu_expander_minimized_holo_light.png);
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
+  margin-right: 2px;
+}
+
+.gm-details-icon.expanded {
+  background: url(file:///android_res/drawable/ic_menu_expander_maximized_holo_light.png);
+}
+
+.gm-body {
+  display: none;
+  font-size: 14px;
+}
+
+.gm-expanded > .gm-body {
+  display: block;
+  padding-bottom: 8px; /* Make sure we don't reveal content as the fixed header animates out. */
+}
+
+.gm-show-pictures-wrapper {
+  border-bottom: 1px solid #CCC;
+  font-size: 14px;
+  color: #737373;
+  display: -webkit-box;
+  -webkit-box-pack: end;
+}
+
+.gm-show-pictures {
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.gm-show-pictures-text {
+  margin-right: 8px;
+}
+
+.gm-show-pictures-icon {
+  background: url(file:///android_res/drawable/ic_show_images_holo_light.png);
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.gm-message-content {
+  padding: 14px 14px 8px;
+  font-size: 14px;
+}
+
+#gm_fixed_header {
+  left: 0;
+  right: 0;
+  position: fixed;
+  top: 0;
+}
+
+#gm_fixed_header > .gm-header {
+  padding: 16px 32px 0;
+  background: white;
+}
+
+.gm-super-collapsed-block {
+  background: url(file:///android_res/drawable/header_convo_view_thread_bg_holo.png) repeat-x;
+  height: 64px;
+  padding: 0 16px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  color: #737373;
+}
+
+.gm-super-collapsed-count {
+  font-size: 36px;
+}
+
+.gm-super-collapsed-label {
+  font-size: 16px;
+  -webkit-box-flex: 1;
+}
+
+.elided-text {
+  display: none;
+}
+
+.elided-text,
+.quoted-text {
+  color: purple;
+}
+
+.gm-elided-text {
+  color: #666;
+  font: bold 12px "Droid Sans", Arial, sans-serif;
+  padding: 0.5em 0;
+}
+
+.gm-loading {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+.gm-attachments {
+  height: 64px;
+  border-bottom: 1px solid #ccc;
+  background: #f5f5f5;
+  margin: 0 14px;
+  margin-top: 16px;
+}
+
+.gm-attachments + .gm-attachments {
+  margin-top: 0;
+}
+
+.gm-attachment-preview {
+  float: left;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  background: #e5e5e5;
+}
+
+.gm-attachment-preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.gm-attachment-progressbar-frame {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 64px;
+  height: 4px;
+}
+
+.gm-attachment-progressbar {
+  width: 0;
+  height: 4px;
+  background: #99cc00;
+}
+
+.gm-attachment-info {
+  /* This padding-left have to include the width of gm-attachment-preview. */
+  padding-left: 80px;
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+.gm-attachment-name {
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gm-attachment-status, .gm-attachment-type, .gm-attachment-status-progress {
+  color: #888;
+  display: inline;
+}
+
+.gm-attachment-buttons {
+  float: right;
+  margin-right: 16px;
+  margin-top: 12px;
+}
+
+.gm-attachment-button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 8px;
+  width: 120px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.gm-attachment-hidden {
+  display: none;
+}
+
+.gm-contact {
+  height: 64px;
+  width: 64px;
+  background-image: url( file:///android_res/drawable/ic_contact_picture.png);
+  background-size: cover;
+}
+
+/* TODO(attila): Clean up the legacy styles below this line. */
+
+span.highlight {
+  font-size: inherit;
+  background-color: yellow;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listHeader" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/headerButtonPanel" android:background="@drawable/header_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" android:layout_weight="9999.0">
+            <TextView android:textAppearance="@style/LatitudeTitle" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/headerButton1Divider" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/headerButton1" android:background="@drawable/header_bar_button" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_latitude_checkin" android:scaleType="center" />
+        <View android:id="@id/headerButton2Divider" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/headerButton2" android:background="@drawable/header_bar_button" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_latitude_add_friends" android:scaleType="center" />
+        <View android:id="@id/headerButton3Divider" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/headerButton3" android:background="@drawable/header_bar_button" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_latitude_refresh_friends" android:scaleType="center" />
+        <LinearLayout android:gravity="center" android:id="@id/progress" android:background="@drawable/header_bar_button" android:visibility="gone" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        </LinearLayout>
+        <View android:id="@id/headerButton4Divider" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/headerButton4" android:background="@drawable/header_bar_button" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_latitude_refresh_friends" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

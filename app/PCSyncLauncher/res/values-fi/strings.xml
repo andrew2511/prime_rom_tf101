@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Synkronoitavan tietokoneen tiedot</string>
+    <string name="searchingPCSideSyncTool">Haetaan kohdetta %s tietokoneeltasi...</string>
+    <string name="connectionFailMessage" formatted="false">Tietokoneelle ei ole asennettu kohdetta %s tai sitä ei ole käynnistetty. Lataa %s ASUS-tukisivulta - http://support.asus.com. (Huomautus: vain Windowsille.) Voit lopettaa painamalla \"%s\" -painiketta tai muodostaa uudelleen yhteyden kohteeseen \"%s\" painamalla \"%s\" -painiketta.</string>
+    <string name="connectionFailTitle">Yhteyden muodostaminen epäonnistui</string>
+    <string name="tryAgain">Yritä uudelleen</string>
+    <string name="cancel">Peruuta</string>
+</resources>

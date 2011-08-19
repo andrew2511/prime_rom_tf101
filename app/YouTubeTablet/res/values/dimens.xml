@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_font_size">12.0dip</dimen>
+    <dimen name="small_font_size">13.0dip</dimen>
+    <dimen name="medium_font_size">15.0dip</dimen>
+    <dimen name="large_font_size">18.0dip</dimen>
+    <dimen name="extra_large_font_size">22.0sp</dimen>
+    <dimen name="thumbnail_requested_width">120.0px</dimen>
+    <dimen name="thumbnail_width">80.0dip</dimen>
+    <dimen name="thumbnail_height">60.0dip</dimen>
+    <dimen name="avatar_width">76.0dip</dimen>
+    <dimen name="avatar_height">76.0dip</dimen>
+    <dimen name="small_thumbnail_width">40.0dip</dimen>
+    <dimen name="small_thumbnail_height">40.0dip</dimen>
+    <dimen name="list_item_padding">6.0dip</dimen>
+    <dimen name="status_spinner_width">25.0dip</dimen>
+    <dimen name="status_spinner_height">25.0dip</dimen>
+    <dimen name="header_height">51.0dip</dimen>
+    <dimen name="header_text_horizontal_padding">6.0dip</dimen>
+    <dimen name="playback_buttons_hdelta">140.0dip</dimen>
+    <dimen name="playlist_thumbnail_stack_delta">4.0px</dimen>
+    <dimen name="playlist_thumbnail_width">224.0px</dimen>
+    <dimen name="playlist_thumbnail_height">160.0px</dimen>
+    <dimen name="playlist_thumbnail_stack_offset_x">4.0px</dimen>
+    <dimen name="playlist_thumbnail_stack_offset_y">12.0px</dimen>
+    <dimen name="playlist_thumbnail_outer_border">10.0px</dimen>
+    <dimen name="playlist_thumbnail_inner_border">4.0px</dimen>
+    <dimen name="playlist_thumbnail_bitmap_width">224.0px</dimen>
+    <dimen name="playlist_thumbnail_bitmap_height">128.0px</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:style/Widget.ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/action_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_menu_delete" android:layout_alignParentRight="true" style="?android:attr/actionButtonStyle" />
+    <ImageView android:id="@id/sep_1" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="?android:dividerVertical" android:scaleType="fitXY" android:layout_toLeftOf="@id/action_remove" />
+    <ImageButton android:id="@id/action_duck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:src="@drawable/ic_menu_duck" android:layout_toLeftOf="@id/sep_1" style="?android:attr/actionButtonStyle" />
+    <ImageView android:id="@id/sep_2" android:background="?android:dividerVertical" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitXY" android:layout_toLeftOf="@id/action_duck" />
+    <SeekBar android:id="@id/action_volume" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:max="100" android:layout_toLeftOf="@id/sep_2" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:ellipsize="end" android:id="@id/action_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/action_volume" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

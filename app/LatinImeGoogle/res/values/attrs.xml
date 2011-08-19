@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyboardViewStyle" format="reference" />
+    <attr name="keyBackground" format="reference" />
+    <attr name="keyLetterSize" format="dimension" />
+    <attr name="labelTextSize" format="dimension" />
+    <attr name="keyTextColor" format="color" />
+    <attr name="keyTextColorDisabled" format="color" />
+    <attr name="keyPreviewLayout" format="reference" />
+    <attr name="keyPreviewOffset" format="dimension" />
+    <attr name="keyPreviewHeight" format="dimension" />
+    <attr name="keyHysteresisDistance" format="dimension" />
+    <attr name="verticalCorrection" format="dimension" />
+    <attr name="popupLayout" format="reference" />
+    <attr name="shadowColor" format="color" />
+    <attr name="shadowRadius" format="float" />
+    <attr name="backgroundDimAmount" format="float" />
+    <attr name="keyLetterStyle">
+        <enum name="normal" value="0" />
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="boldItalic" value="3" />
+    </attr>
+    <attr name="colorScheme">
+        <enum name="white" value="0" />
+        <enum name="black" value="1" />
+    </attr>
+    <attr name="keyboardHeight" format="dimension" />
+    <attr name="maxKeyboardHeight" format="dimension|fraction" />
+    <attr name="keyWidth" format="dimension|fraction" />
+    <attr name="rowHeight" format="dimension|fraction" />
+    <attr name="horizontalGap" format="dimension|fraction" />
+    <attr name="verticalGap" format="dimension|fraction" />
+    <attr name="popupKeyboardTemplate" format="reference" />
+    <attr name="code" format="integer" />
+    <attr name="popupCharacters" format="string" />
+    <attr name="maxPopupKeyboardColumn" format="integer" />
+    <attr name="keyEdgeFlags">
+        <flag name="left" value="0x00000001" />
+        <flag name="right" value="0x00000002" />
+    </attr>
+    <attr name="isModifier" format="boolean" />
+    <attr name="isSticky" format="boolean" />
+    <attr name="isRepeatable" format="boolean" />
+    <attr name="iconPreview" format="reference" />
+    <attr name="keyOutputText" format="string" />
+    <attr name="keyLabel" format="string" />
+    <attr name="keyLabelOption">
+        <flag name="alignLeft" value="0x00000001" />
+        <flag name="alignRight" value="0x00000002" />
+        <flag name="alignBottom" value="0x00000008" />
+        <flag name="fontNormal" value="0x00000010" />
+    </attr>
+    <attr name="manualTemporaryUpperCaseCode" format="integer" />
+    <attr name="keyIcon" format="reference" />
+    <attr name="keyHintIcon" format="reference" />
+    <attr name="manualTemporaryUpperCaseHintIcon" format="reference" />
+    <attr name="keyStyle" format="string" />
+    <attr name="shiftedIcon" format="reference" />
+    <attr name="enabled" format="boolean" />
+    <attr name="keyXPos" format="dimension|fraction" />
+    <attr name="rowEdgeFlags">
+        <flag name="top" value="0x00000004" />
+        <flag name="bottom" value="0x00000008" />
+    </attr>
+    <attr name="keyboardLayout" format="reference" />
+    <attr name="mode">
+        <enum name="text" value="0" />
+        <enum name="url" value="1" />
+        <enum name="email" value="2" />
+        <enum name="im" value="3" />
+        <enum name="phone" value="4" />
+        <enum name="number" value="5" />
+    </attr>
+    <attr name="webInput" format="boolean" />
+    <attr name="passwordInput" format="boolean" />
+    <attr name="hasSettingsKey" format="boolean" />
+    <attr name="f2KeyMode">
+        <enum name="none" value="0" />
+        <enum name="settings" value="1" />
+        <enum name="shortcutIme" value="2" />
+        <enum name="shortcutImeOrSettings" value="3" />
+    </attr>
+    <attr name="clobberSettingsKey" format="boolean" />
+    <attr name="voiceKeyEnabled" format="boolean" />
+    <attr name="hasVoiceKey" format="boolean" />
+    <attr name="imeAction">
+        <flag name="actionUnspecified" value="0x00000000" />
+        <flag name="actionNone" value="0x00000001" />
+        <flag name="actionGo" value="0x00000002" />
+        <flag name="actionSearch" value="0x00000003" />
+        <flag name="actionSend" value="0x00000004" />
+        <flag name="actionNext" value="0x00000005" />
+        <flag name="actionDone" value="0x00000006" />
+        <flag name="actionPrevious" value="0x00000007" />
+    </attr>
+    <attr name="languageCode" format="string" />
+    <attr name="countryCode" format="string" />
+    <attr name="styleName" format="string" />
+    <attr name="parentStyle" format="string" />
+</resources>

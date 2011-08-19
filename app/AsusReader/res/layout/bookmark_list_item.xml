@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/bookmark_item" android:background="@null" android:paddingLeft="62.0px" android:paddingTop="19.0px" android:paddingBottom="8.0px" android:layout_width="fill_parent" android:layout_height="99.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

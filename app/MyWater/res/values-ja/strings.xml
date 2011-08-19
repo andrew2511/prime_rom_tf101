@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUSデフォルトのライブ壁紙です。</string>
+    <string name="mywater_setting">ASUS MyWater 設定</string>
+    <string name="enable_rotation">ウォーターローテーションを有効にします。</string>
+    <string name="enable_rotation_description">デバイスを回転させると、水も回転します。</string>
+</resources>

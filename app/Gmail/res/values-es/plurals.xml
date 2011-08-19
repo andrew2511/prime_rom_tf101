@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">¿Deseas suprimir estas %1$d conversaciones?</item>
+        <item quantity="one">¿Quieres suprimir esta conversación?</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">¿Quieres descartar estos %1$d borradores?</item>
+        <item quantity="one">¿Quieres descartar este borrador?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">¿Deseas archivar estas %1$d conversaciones?</item>
+        <item quantity="one">¿Deseas archivar esta conversación?</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Borradores</item>
+        <item quantity="one">Borrador</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">+ %s más</item>
+        <item quantity="one">+ %s más</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">Silenciando %1$d conversaciones...</item>
+        <item quantity="one">Silenciando %1$d conversación...</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">Enviando notificación de spam de %1$d conversaciones...</item>
+        <item quantity="one">Enviando notificación de spam de %1$d conversación...</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">Archivando %1$d conversaciones</item>
+        <item quantity="one">Archivando %1$d conversación</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">Eliminando %1$d conversaciones</item>
+        <item quantity="one">Eliminando %1$d conversación</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">Marcando %1$d conversaciones como leídas</item>
+        <item quantity="one">Marcando %1$d conversación como leída</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">Marcando %1$d conversaciones como no leídas</item>
+        <item quantity="one">Marcando %1$d conversación como no leída</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">Destacando %1$d conversaciones</item>
+        <item quantity="one">Destacando %1$d conversación</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">%1$d conversaciones sin destacar</item>
+        <item quantity="one">%1$d conversación sin destacar</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">Esperando a la acción en %1$d conversaciones</item>
+        <item quantity="one">Esperando a una acción en %1$d conversación</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Se han silenciado %1$d conversaciones.</item>
+        <item quantity="one">Se ha silenciado %1$d conversación.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Se han calificado de spam %1$d conversaciones.</item>
+        <item quantity="one">Se ha calificado de spam %1$d conversación.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Se han archivado %1$d conversaciones.</item>
+        <item quantity="one">Se ha archivado %1$d conversación.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">Se han movido %1$d conversaciones a la carpeta Recibidos.</item>
+        <item quantity="one">Se ha movido %1$d conversación a la carpeta Recibidos.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Se han eliminado %1$d conversaciones.</item>
+        <item quantity="one">Se ha eliminado %1$d conversación.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">Se han movido %1$1$d conversaciones a %2$2$s.</item>
+        <item quantity="one">Se ha movido %1$1$d conversación a %2$2$s.</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">%1$d conversaciones marcadas como importantes.</item>
+        <item quantity="one">%1$d conversación marcada como importante</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">%1$d conversaciones marcadas como no importantes</item>
+        <item quantity="one">%1$d conversaciones marcadas como no importantes</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">Se han marcado %1$d conversaciones como leídas.</item>
+        <item quantity="one">Se ha marcado %1$d conversación como leída.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">Se han marcado %1$d conversaciones como no leídas.</item>
+        <item quantity="one">"Se ha  marcado %1$d conversación como no leída."</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">Etiquetas cambiadas en %1$d conversaciones</item>
+        <item quantity="one">Etiquetas cambiadas en la conversación</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sincronizar %1$d días</item>
+        <item quantity="one">Sincronizar %1$d día</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">%1$d conversaciones no leídas</item>
+        <item quantity="one">%1$d conversación no leída</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d días</item>
+        <item quantity="one">Un día</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Días</item>
+        <item quantity="one">Día</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">%1$d cuentas</item>
+        <item quantity="one">%1$d cuenta</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Mover %1$d conversaciones</item>
+        <item quantity="one">Mover una conversación</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Error en el archivo adjunto de la cuenta %s</item>
+        <item quantity="one">Error en el archivo adjunto</item>
+    </plurals>
+</resources>

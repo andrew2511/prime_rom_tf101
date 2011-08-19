@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_currency_key_styles" />
+    <Row latin:keyWidth="9.000004%p">
+        <Key latin:popupCharacters="¹,½,⅓,¼,⅛" latin:keyLabel="1" />
+        <Key latin:popupCharacters="²,⅔" latin:keyLabel="2" />
+        <Key latin:popupCharacters="³,¾,⅜" latin:keyLabel="3" />
+        <Key latin:popupCharacters="⁴" latin:keyLabel="4" />
+        <Key latin:popupCharacters="⅝" latin:keyLabel="5" />
+        <Key latin:keyLabel="6" />
+        <Key latin:popupCharacters="⅞" latin:keyLabel="7" />
+        <Key latin:keyLabel="8" />
+        <Key latin:keyLabel="9" />
+        <Key latin:popupCharacters="ⁿ,∅" latin:keyLabel="0" />
+        <Key latin:keyWidth="-10.000002%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" latin:keyXPos="-10.000002%p" />
+    </Row>
+    <Row latin:keyWidth="9.000004%p">
+        <Key latin:keyLabel="\#" latin:keyXPos="4.4999957%p" />
+        <Key latin:keyStyle="currencyKeyStyle" />
+        <Key latin:popupCharacters="‰" latin:keyLabel="%" />
+        <Key latin:keyLabel="&amp;" />
+        <Key latin:popupCharacters="†,‡,★" latin:keyLabel="*" />
+        <Key latin:popupCharacters="_,–,—" latin:keyLabel="-" />
+        <Key latin:popupCharacters="±" latin:keyLabel="+" />
+        <Key latin:popupCharacters="[,{,&lt;" latin:keyLabel="(" />
+        <Key latin:popupCharacters="],},>" latin:keyLabel=")" />
+        <Key latin:keyWidth="-14.600002%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" latin:keyXPos="-14.600002%p" />
+    </Row>
+    <Row latin:keyWidth="8.899999%p">
+        <Key latin:keyWidth="10.000002%p" latin:keyEdgeFlags="left" latin:keyStyle="moreKeyStyle" />
+        <Key latin:popupCharacters="≤,«,‹" latin:keyLabel="&lt;" />
+        <Key latin:popupCharacters="≥,»,›" latin:keyLabel=">" />
+        <Key latin:popupCharacters="≠,≈" latin:keyLabel="=" />
+        <switch>
+            <case latin:languageCode="ru">
+                <Key latin:keyLabel=":" />
+            </case>
+            <case latin:mode="url">
+                <Key latin:popupCharacters="‘,’,‚,‛" latin:keyLabel="'" />
+            </case>
+            <default>
+                <Key latin:keyLabel=":" />
+            </default>
+        </switch>
+        <Key latin:keyLabel=";" />
+        <switch>
+            <case latin:languageCode="ru">
+                <Key latin:popupCharacters="‘,’,‚,‛" latin:keyLabel="'" />
+                <Key latin:popupCharacters="“,”,«,»" latin:keyLabel="&quot;" />
+                <Key latin:keyLabel="." />
+                <Key latin:keyLabel="," />
+            </case>
+            <default>
+                <Key latin:keyLabel="," />
+                <Key latin:keyLabel="." />
+                <Key latin:popupCharacters="¡" latin:keyLabel="!" />
+                <Key latin:popupCharacters="¿" latin:keyLabel="\?" />
+            </default>
+        </switch>
+        <Key latin:keyWidth="0.0%p" latin:keyLabel="/" />
+    </Row>
+    <Row latin:keyWidth="8.899999%p">
+        <Key latin:keyWidth="13.0%p" latin:keyEdgeFlags="left" latin:keyLabelOption="alignLeft" latin:keyStyle="toAlphaKeyStyle" />
+        <Key latin:keyStyle="tabKeyStyle" />
+        <Key latin:keyLabel="\@" />
+        <Key latin:keyWidth="39.750004%p" latin:keyStyle="spaceKeyStyle" latin:keyXPos="30.75%p" />
+        <switch>
+            <case latin:languageCode="ru">
+                <Key latin:keyWidth="9.749996%p" latin:keyLabel="_" />
+                <Key latin:keyWidth="9.749996%p" latin:keyLabel="-" />
+            </case>
+            <default>
+                <Key latin:keyWidth="9.749996%p" latin:popupCharacters="“,”,«,»,‘,’,‚,‛" latin:keyLabel="&quot;" />
+                <Key latin:keyWidth="9.749996%p" latin:keyLabel="_" />
+            </default>
+        </switch>
+        <Spacer latin:keyWidth="0.0dip" latin:keyXPos="-10.000002%p" />
+        <include latin:keyboardLayout="@xml/kbd_qwerty_f2" />
+    </Row>
+</Keyboard>

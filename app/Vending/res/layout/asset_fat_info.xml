@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/asset_fat_info" android:background="@drawable/transparent" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingRight="@dimen/asset_info_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnail" android:background="@drawable/asset_thumbnail_frame" android:layout_width="@dimen/asset_info_image_width" android:layout_height="@dimen/asset_info_image_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:id="@id/thumbnail_spacer" android:layout_width="0.0dip" android:layout_height="@dimen/asset_fat_thumbnail_bottom_padding" android:layout_below="@id/thumbnail" android:layout_alignParentLeft="true" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/thumbnail_spacer" android:layout_alignParentLeft="true" style="@style/HeaderText" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/app_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:singleLine="true" android:layout_below="@id/app_title" android:layout_alignParentLeft="true" style="@style/HeaderText" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/asset_info_image_width" android:layout_alignTop="@id/thumbnail" android:layout_alignBottom="@id/thumbnail_spacer" android:layout_alignParentRight="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/fat_label_text_size" android:textColor="@android:color/primary_text_light" android:gravity="bottom|center" android:id="@id/install_label" android:background="@color/transparent" android:padding="0.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" android:layout_weight="0.0" />
+        <com.android.vending.velvet.SmartButton android:textStyle="bold" android:id="@id/positive_button" style="@style/FatHeaderButton" />
+        <View android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <com.android.vending.velvet.SmartButton android:id="@id/negative_button" style="@style/FatHeaderButton" />
+        <View android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <RatingBar android:id="@id/rating" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="?android:attr/ratingBarStyleSmall" />
+    </LinearLayout>
+</RelativeLayout>

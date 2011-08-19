@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$2$d/%2$1$d könyv</item>
+        <item quantity="one">Egy könyv</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Sajnáljuk, de ezen könyv egyidejű olvasása %1$d eszközre vagy számítógépre van korlátozva, és Ön elérte ezt a korlátot. Kérjük, zárja be a könyvet más olvasókban, várjon pár percet, majd próbálja újra.</item>
+        <item quantity="one">Sajnáljuk, de ezen könyv egyidejű olvasása egy eszközre vagy számítógépre van korlátozva, és Ön elérte ezt a korlátot. Kérjük, zárja be a könyvet más olvasókban, várjon pár percet, majd próbálja újra.</item>
+    </plurals>
+</resources>

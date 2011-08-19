@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="more_movies_count">7</integer>
+    <integer name="more_movies_grid_columns">7</integer>
+    <integer name="watch_suggestions_columns">3</integer>
+    <integer name="local_carousel_visible_slots">4</integer>
+</resources>

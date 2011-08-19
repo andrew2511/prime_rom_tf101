@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.asus.dm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <permission android:name="com.asus.dm.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.asus.dm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:name="DMApp">
+        <activity android:label="@string/app_name" android:name=".DMClient" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/system_update_activity" android:name=".SystemUpdateActivity" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.settings.ASUS_SYSTEM_UPDATE_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mmi.dialog.AlertBatteryDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertConfirmDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertDisplayDialog" android:launchMode="singleTop" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertFirmwareUpgradeFail" android:launchMode="singleTop" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertInputDateDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertInputDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertInputTimeDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertMultiChoiceDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.AlertSingleChoiceDialog" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.ConfirmDLDialog" android:launchMode="singleTop" android:configChanges="orientation" />
+        <activity android:name=".mmi.dialog.ConfirmUPDialog" android:launchMode="singleTask" android:configChanges="orientation" />
+        <service android:name="DMService">
+            <intent-filter>
+                <action android:name="com.asus.dm.IDMService" />
+                <action android:name="com.asus.dm.IStatusNotifyRegister" />
+                <action android:name="com.asus.provisioningclient.persister.IDmPersister" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.asus.dm.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.asus.dm.ni.NetworkInitialReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.syncml.notification" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".c2dm.C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.asus.dm" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.asus.dm" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

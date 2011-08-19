@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">แท็บใหม่</string>
+    <string name="new_incognito_tab">แท็บใหม่ที่ไม่ระบุตัวตน</string>
+    <string name="active_tabs">แท็บ</string>
+    <string name="open_all_in_new_window">เปิดทั้งหมดในแท็บใหม่</string>
+    <string name="contextmenu_openlink_newwindow">เปิดในแท็บใหม่</string>
+    <string name="contextmenu_openlink_newwindow_background">เปิดในแท็บพื้นหลังใหม่</string>
+    <string name="pref_content_open_in_background_summary">เปิดแท็บใหม่หลังแท็บปัจจุบัน</string>
+</resources>

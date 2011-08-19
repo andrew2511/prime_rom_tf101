@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="carouselBackgroundDrawable" format="reference" />
+    <attr name="actionBarDrawable" format="reference" />
+    <attr name="navigationColor" format="reference" />
+    <attr name="menuShopDrawable" format="reference" />
+    <attr name="menuAboutDrawable" format="reference" />
+    <attr name="menuAccountsDrawable" format="reference" />
+    <attr name="menuDeleteDrawable" format="reference" />
+    <attr name="menuPinDrawable" format="reference" />
+    <attr name="menuSearchDrawable" format="reference" />
+    <attr name="menuSettingsDrawable" format="reference" />
+    <attr name="menuTocDrawable" format="reference" />
+    <attr name="scrubberDrawable" format="reference" />
+    <attr name="scrubberCalloutDrawable" format="reference" />
+    <attr name="scrubberTrackDrawable" format="reference" />
+    <attr name="nightMode" format="boolean" />
+    <attr name="key" format="string" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+</resources>

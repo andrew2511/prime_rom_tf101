@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Näyttökuva</string>
+    <string name="screenshot_dialog_message">Näyttökuva on tallennettu. Haluatko pysyä näyttökuvatilassa?</string>
+    <string name="screenshot_dialog_yes">Kyllä</string>
+    <string name="screenshot_dialog_no">Ei</string>
+    <string name="screenshot_toast_message_saved">Näyttökuva on tallennettu.</string>
+    <string name="screenshot_toast_message_failed">Näyttökuvan tallennus epäonnistui tiedostonsiirtotilassa.</string>
+    <string name="screenshot_toast_message_failed_save">Näyttökuvan tallentaminen epäonnistui.</string>
+    <string name="screenshot_toast_message_full">Näyttökuvan tallentaminen epäonnistui. Muisti ei riitä.</string>
+</resources>

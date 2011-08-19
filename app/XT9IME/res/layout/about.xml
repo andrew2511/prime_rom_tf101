@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@android:drawable/toast_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="#ffffffff" android:gravity="center" android:id="@id/product_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/xt9_core_version_info_frame" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/xt9_logo" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/xt9_big_logo" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/xt9_core_version" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/xt9_logo" android:layout_alignBaseline="@id/xt9_logo" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/t9trace_core_version_info_frame" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/t9_trace_logo" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/t9_trace_logo" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/t9trace_core_version" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/t9_trace_logo" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/t9write_core_version_info_frame" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/t9_write_logo" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/t9_write_logo" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/t9write_chinese_core_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:singleLine="true" android:layout_toRightOf="@id/t9_write_logo" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/t9write_alpha_core_version" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/t9_write_logo" android:layout_above="@id/t9write_chinese_core_version" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+        </RelativeLayout>
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="#ffffffff" android:gravity="center" android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

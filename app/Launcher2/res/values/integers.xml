@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_allAppsFadeInTime">700</integer>
+    <integer name="config_allAppsFadeOutTime">700</integer>
+    <integer name="config_allAppsBatchLoadDelay">0</integer>
+    <integer name="config_allAppsBatchSize">0</integer>
+    <integer name="config_crosshairsFadeInTime">600</integer>
+    <integer name="config_dragViewExtraPixels">40</integer>
+    <integer name="config_dragViewOffsetX">20</integer>
+    <integer name="config_dragViewOffsetY">20</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    <integer name="config_dragOutlineMaxAlpha">128</integer>
+    <integer name="config_dropAnimMaxDuration">400</integer>
+    <integer name="config_dropAnimMaxDist">800</integer>
+    <integer name="config_workspaceScreenBitmapCacheScale">20</integer>
+    <integer name="config_maxScaleForUsingWorkspaceScreenBitmapCache">50</integer>
+</resources>

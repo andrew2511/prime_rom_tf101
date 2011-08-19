@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vending="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="horizontal" android:id="@id/content" android:background="@drawable/pinstripe_tile" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/list_background" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+            <ListView android:id="@id/list_view" android:background="@drawable/list_background_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:gravity="center" android:id="@id/list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty_downloads" />
+        </FrameLayout>
+        <include android:id="@id/asset_content" android:visibility="invisible" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:layout_weight="2.0" layout="@layout/asset_overview_panel" />
+    </LinearLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fullscreen_loading_indicator_large" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 Std</item>
+        <item>2 Std</item>
+        <item>4 Std</item>
+        <item>8 Std</item>
+        <item>12 Std</item>
+        <item>Manuell</item>
+    </string-array>
+</resources>

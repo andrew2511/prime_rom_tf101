@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modeemin laiteohjelmistopäivitys onnistui</string>
+    <string name="update_fail">Modeemin laiteohjelmistopäivitys epäonnistui</string>
+    <string name="update_quz" formatted="false">"Päivitys kestää noin 3-5 minuuttia ja vaatii vähintään 15 %:n akun varaustasoa.
+
+Varmista ennen päivitystä, että akun varaustaso on vähintään 15 %.
+
+Haluatko päivittää modeemin laiteohjelmiston nyt?"</string>
+    <string name="notify_title">Asus-päivityspalvelu</string>
+    <string name="notify">Modeemin laiteohjelmistopäivitys on saatavana.</string>
+    <string name="warning_title">Varoitus</string>
+    <string name="warning">"ÄLÄ sammuta laitetta päivityksen aikana.
+
+Kaikki odottamattomat virtakatkokset aiheuttavat peruuttamatonta vahinkoa.
+
+Haluatko päivittää modeemin laiteohjelmiston nyt?"</string>
+    <string name="battery_low" formatted="false">"Toimenpide vaatii vähintään 15 %:n akun varaustason.
+
+Varmista ennen päivityksen aloittamista, että akun varaustaso on vähintään 15 %."</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

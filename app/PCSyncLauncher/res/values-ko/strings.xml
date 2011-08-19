@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">PC 동기화 정보</string>
+    <string name="searchingPCSideSyncTool">사용자의 컴퓨터에서 %s 검색 중...</string>
+    <string name="connectionFailMessage" formatted="false">컴퓨터에 %s 이(가) 설치되어 있지 않습니다. ASUS 지원 웹사이트 - http://support.asus.com으로부터 %s 을(를) 다운로드하십시오(주의: Windows 에서만 가능). 종료하려면 \" 버튼을 누르고\"%s\" 에 다시 연결하려면 \"%s\" 버튼을 누르십시오 %s.</string>
+    <string name="connectionFailTitle">연결 실패</string>
+    <string name="tryAgain">다시 시도</string>
+    <string name="cancel">취소</string>
+</resources>

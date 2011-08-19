@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">已接受：%s</string>
+    <string name="meeting_declined">已拒絕：%s</string>
+    <string name="meeting_tentative">未定：%s</string>
+    <string name="meeting_canceled">已取消：%s</string>
+    <string name="meeting_updated">已更新：%s</string>
+    <string name="meeting_when">登入時間：%s</string>
+    <string name="meeting_where">地點：%s</string>
+    <string name="meeting_recurring">時間：%s (週期性)</string>
+    <string name="notification_exchange_calendar_added">已新增 Exchange 日曆</string>
+    <string name="app_name">Exchange 服務</string>
+    <string name="exception_cancel">已將 %s 時的此活動取消</string>
+    <string name="exception_updated">已變更此活動於 %s 時的詳細資料</string>
+</resources>

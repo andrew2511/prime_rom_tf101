@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Odpowiedz</item>
+        <item>Odpowiedz wszystkim</item>
+        <item>Przekaż dalej</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Archiwizuj</item>
+        <item>Usuń</item>
+        <item>Wyślij</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Nowszy wątek</item>
+        <item>Starszy wątek</item>
+        <item>Lista wątków</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Pokazuj nowszy wątek po usunięciu, archiwizacji itp.</item>
+        <item>Pokazuj starszy wątek po usunięciu, archiwizacji itp.</item>
+        <item>Pokazuj listę wątków po usunięciu, archiwizacji itp.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Bardzo mały</item>
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Duży</item>
+        <item>Wielki</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Wyświetlaj treść wiadomości bardzo małym tekstem</item>
+        <item>Wyświetlaj treść wiadomości małym tekstem</item>
+        <item>Wyświetlaj treść wiadomości normalnym tekstem</item>
+        <item>Wyświetlaj treść wiadomości dużym tekstem</item>
+        <item>Wyświetlaj treść wiadomości wielkim tekstem</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Zawsze</item>
+        <item>Tylko po wyciszeniu</item>
+        <item>Nigdy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/mainmenu_common_group_default">
+        <item android:icon="@drawable/ico_menu_viewmode" android:id="@id/mainmenu_sheeteditor_mainmenu_viewmode" android:title="@string/string_sheeteditor_mainmenu_viewmode" />
+        <item android:icon="@drawable/ico_menu_save" android:id="@id/mainmenu_sheeteditor_mainmenu_save" android:title="@string/string_sheeteditor_mainmenu_save" />
+        <item android:icon="@drawable/ico_menu_viewmode" android:id="@id/mainmenu_sheeteditor_mainmenu_saveas" android:title="@string/string_sheeteditor_mainmenu_saveas" />
+        <item android:icon="@drawable/ico_menu_zoom" android:id="@id/mainmenu_sheeteditor_mainmenu_zoom" android:title="@string/string_sheeteditor_mainmenu_zoom" />
+        <item android:icon="@drawable/ico_menu_find" android:id="@id/mainmenu_sheeteditor_mainmenu_findreplace" android:title="@string/string_common_mainmenu_findreplace" />
+        <item android:icon="@drawable/ico_menu_insert" android:id="@id/mainmenu_sheeteditor_mainmenu_insert" android:title="@string/string_sheeteditor_mainmenu_insert" />
+        <item android:icon="@drawable/ico_menu_format" android:id="@id/mainmenu_sheeteditor_mainmenu_format" android:title="@string/string_sheeteditor_mainmenu_format" />
+        <item android:icon="@drawable/ico_menu_tools" android:id="@id/mainmenu_sheeteditor_mainmenu_tools" android:title="@string/string_sheeteditor_mainmenu_tools" />
+    </group>
+</menu>

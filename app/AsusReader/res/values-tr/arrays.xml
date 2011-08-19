@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Vurguyu Kaldır</item>
+        <item>İptal</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Vurgu Ekle</item>
+        <item>Çeviri</item>
+        <item>Metinden Konuşmaya</item>
+        <item>İptal</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>İngilizce</item>
+        <item>Fransızca</item>
+        <item>Japonca</item>
+        <item>Çince</item>
+        <item>Almanca</item>
+        <item>Basitleştirilmiş Çince</item>
+        <item>Rusça</item>
+        <item>İspanyolca</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>İngilizce - Çince</item>
+        <item>İngilizce - Fransızca</item>
+        <item>İngilizce - Rusça</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Bu alarm, şu andan itibaren bir dakikadan kısa süre içinde çalacaktır.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %1$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %2$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %1$1$s ve %2$2$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %3$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %1$1$s ve %2$3$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %1$2$s ve %2$3$s var.</item>
+        <item>Bu alarmın çalmasına şu andan itibaren %1$1$s, %2$2$s ve %3$3$s var.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>25 dakika</item>
+        <item>30 dakika</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Kapalı</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>25 dakika</item>
+        <item>30 dakika</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Yok</item>
+        <item>Ertele</item>
+        <item>Kapat</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

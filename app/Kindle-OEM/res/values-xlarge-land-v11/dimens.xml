@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="definition_popup_left_margin">70.0dip</dimen>
+    <dimen name="definiton_popup_width">718.0dip</dimen>
+    <dimen name="definiton_popup_height">135.0dip</dimen>
+</resources>

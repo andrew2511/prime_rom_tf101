@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="@drawable/pixbg_02" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:background="@drawable/pixbg_01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/logo" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_2" android:id="@id/textView1" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_head_dsp" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout3" android:paddingLeft="30.0dip" android:paddingTop="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/brown_2" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_add" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="@string/help_add_dsp1" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="21.0sp" android:textColor="@color/brown_1" android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_add_dsp2" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="21.0sp" android:textColor="@color/brown_1" android:id="@id/textView6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_add_dsp3" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout4" android:paddingLeft="30.0dip" android:paddingTop="40.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/brown_2" android:id="@id/textView8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_album" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_album_dsp" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout5" android:paddingLeft="30.0dip" android:paddingTop="40.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/brown_2" android:id="@id/textView10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_note" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_note_dsp" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout6" android:paddingLeft="30.0dip" android:paddingTop="40.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/brown_2" android:id="@id/textView12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_slideshow" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/brown_1" android:id="@id/textView13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_slideshow_dsp" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#ff191919</color>
+    <color name="grid_dark_background">#eb191919</color>
+    <color name="bubble_dark_background">#20000000</color>
+    <color name="delete_color_filter">#a5ff0000</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="snag_callout_color">#ff444444</color>
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+    <color name="app_info_filter">#a50000fe</color>
+    <color name="dimmed_view_color">#ff7f7f7f</color>
+    <color name="drag_outline_color">#ff6595f9</color>
+    <color name="workspace_item_pressed_outline_color">#ff6595f9</color>
+    <color name="workspace_item_pressed_glow_color">#ff0997ff</color>
+    <color name="workspace_item_focused_outline_color">#ff6595f9</color>
+    <color name="workspace_item_focused_glow_color">#ff0997ff</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#ccffffff</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#a0000000</color>
+    <color name="workspace_delete_zone_drag_text_color">#ffff0000</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/texture_end" android:background="?android:colorBackground" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <ImageView android:id="@id/cover" android:layout_width="wrap_content" android:layout_height="@dimen/end_of_volume_thumbnail_height" android:layout_marginRight="30.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:id="@id/author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" />
+                <Button android:id="@id/btn_about_this_book" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/btn_about_this_book" />
+                <Button android:id="@id/btn_buy" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/btn_buy" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

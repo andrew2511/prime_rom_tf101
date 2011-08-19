@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="320.0px" android:layout_height="wrap_content" android:layout_marginBottom="29.0px">
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_slide_shape_fill_color" />
+        <LinearLayout android:id="@id/holder_spinner_slide_shape_fill_color" android:layout_width="fill_parent" android:layout_height="42.0px" android:layout_marginBottom="14.0px" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_slide_shape_line_style" />
+        <LinearLayout android:id="@id/holder_spinner_slide_shape_line_style" android:layout_width="fill_parent" android:layout_height="42.0px" android:layout_marginBottom="15.0px" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_slide_shape_line_color" />
+        <LinearLayout android:id="@id/holder_spinner_slide_shape_line_color" android:layout_width="fill_parent" android:layout_height="42.0px" android:layout_marginBottom="15.0px" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_slide_shape_line_dashes" />
+        <LinearLayout android:id="@id/holder_spinner_slide_shape_line_dashes" android:layout_width="fill_parent" android:layout_height="42.0px" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d éléments sélectionnés</item>
+        <item quantity="one">%1$d élément sélectionné</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d albums sélectionnés</item>
+        <item quantity="one">%1$d album sélectionné</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Activation consultation albums hors connexion</item>
+        <item quantity="one">Activation consultation album hors connexion</item>
+    </plurals>
+</resources>

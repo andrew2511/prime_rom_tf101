@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.vending.velvet.SlimFlatView android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/slim_title" />
+    </com.android.vending.velvet.SlimFlatView>
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/title_bar_shadow" android:layout_weight="1.0">
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/content_rating_label" android:background="@color/section_header_background" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/content_filtering_label" />
+            <TextView android:id="@id/content_rating_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/content_filtering_description" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/content_rating_selection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/unlock_button" android:background="@drawable/btn_square" android:paddingLeft="4.0dip" android:paddingTop="9.0dip" android:paddingRight="2.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:src="@drawable/settings_lock" />
+                <Button android:id="@id/content_filtering_choices" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/select_filtering_level" android:layout_weight="1.0" style="?android:attr/spinnerStyle" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:background="@color/section_header_background" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/notifications" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/notification_description" />
+            <Spinner android:id="@id/notification_choices" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:gravity="center_vertical" android:id="@id/hotpot_search_bailout" android:paddingLeft="7.0dip" android:paddingTop="3.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HOTPOT_SEARCH" android:singleLine="true" android:drawableLeft="@drawable/ic_menu_search" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

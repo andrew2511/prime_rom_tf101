@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Tyhjennä kaikki</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ei internetyhteyttä</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wifi yhdistetty</string>
+    <string name="gps_notification_searching_text">Haetaan GPS-yhteyttä</string>
+    <string name="gps_notification_found_text">Sijainti määritetty GPS:n avulla</string>
+    <string name="notifications_off_title">Ilmoitukset pois käytöstä</string>
+    <string name="notifications_off_text">Ota ilmoitukset uudelleen käyttöön napauttamalla tätä.</string>
+</resources>

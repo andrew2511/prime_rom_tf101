@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instalador de actualizaciones</string>
+    <string name="TITLE_DETECTED">Detectado archivo de actualización de sistema</string>
+    <string name="TITLE_SYSTEM_UPDATE">Actualización del sistema</string>
+    <string name="BUTTON_OK">Aceptar</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Actualización de sistema disponible</string>
+    <string name="MSG_PRELIMINARY">"La actualización del sistema tardará 10 minutos aproximadamente. No podrá utilizar su dispositivo durante la actualización, incluyendo las llamadas de emergencia.
+
+Conecte la fuente de alimentación o asegúrese de que la batería está como mínimo al 15%.
+
+¿Quiere continuar con el proceso de actualización del sistema?"</string>
+    <string name="BUTTON_CANCEL">Cancelar</string>
+    <string name="MSG_RESUME">Pulse para comenzar la actualización del sistema.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Actualización del sistema finalizada</string>
+    <string name="MSG_UPDATE_DONE">El sistema ha sido actualizado con éxito.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">No existe archivo de actualización.</string>
+    <string name="MSG_UPDATE_FAIL">Fallo en la actualización del sistema.</string>
+    <string name="MSG_UPDATE_RESTORE">El sistema ha restaurado la configuración anterior</string>
+    <string name="MSG_BATTERY_LOW">"La actualización del sistema se ha detenido debido a que la batería está baja.
+
+Conecte la fuente de alimentación antes de la actualización del sistema."</string>
+    <string name="TITLE_SELECT_FILE">Seleccione el paquete de actualizaciones</string>
+    <string name="MSG_UPDATE_FAIL_SKU">El paquete de actualización no es compatible con su software actual, compruebe la versión de su software y el número de versión en Configuración y pruebe con la actualización correcta del paquete.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">El paquete de actualización es anterior a su actual versión del software, pruebe con un paquete de actualización más reciente.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Error desconocido.</string>
+</resources>

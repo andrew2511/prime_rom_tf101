@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Eliminar todos</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Sin conexión a Int.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WiFi conectado</string>
+    <string name="gps_notification_searching_text">Buscando GPS</string>
+    <string name="gps_notification_found_text">La ubicación se estableció por GPS.</string>
+    <string name="notifications_off_title">Notificaciones desactivadas</string>
+    <string name="notifications_off_text">Presiona aquí para volver a activar las notificaciones.</string>
+</resources>

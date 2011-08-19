@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <include android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/workspace" />
+    <include android:layout_gravity="top" android:id="@id/all_apps_button_cluster" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" layout="@layout/button_bar" />
+    <include android:layout_gravity="top" android:id="@id/all_apps_view" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/all_apps_tabbed" />
+    <include android:layout_gravity="bottom" android:id="@id/customization_drawer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/customization_drawer" />
+</com.android.launcher2.DragLayer>

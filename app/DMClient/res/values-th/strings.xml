@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">นาที</string>
+    <string name="postpone">เลื่อน</string>
+    <string name="update">อัปเดต</string>
+    <string name="firmware_update_title">การอัปเดตเฟิร์มแวร์</string>
+    <string name="firmware_update_fail">"อัปเดตล้มเหลว
+
+อุปกรณ์ของคุณจะกลับสู่ค่าที่กำหนดไว้เดิม"</string>
+    <string name="low_battery_warning">"ระบบต้องการพลังงานแบตเตอรี่อย่างน้อย %1$d%% เพื่อดำเนินกระบวนการอัปเดตระบบ
+โปรดชาร์จแบตเตอรี่ก่อนการอัปเดตระบบ"</string>
+    <string name="confirmDownload_textok">"อัปเดตนี้จะปรับปรุงความมีเสถียรภาพและไม่ล้างข้อมูลใดๆ ของคุณ เราแนะนำให้คุณอัปเกรดเป็นเวอร์ชั่นนี้
+กด ใช่ เพื่อยอมรับการอัปเดต"</string>
+    <string name="confirmDownload_textcancel">กด NO (ไม่) เพื่อยกเลิกการอัปเดต</string>
+    <string name="confirmDownload_textwifi">เราแนะนำให้ใช้ Wi-Fi ฮ็อตสป็อตฟรีเพื่อดาวน์โหลดอัปเดต</string>
+    <string name="confirmDownload_textwifi2">ถ้าคุณกด ภายหลัง คุณสามารถดำเนินการดาวน์โหลดได้ตลอดเวลาโดยการกดการแจ้งเตือน</string>
+    <string name="btn_text_later">ภายหลัง</string>
+    <string name="confirmDownload_dialog_title">ระวัง คุณกำลังใช้บริการข้ามแดน</string>
+    <string name="downloading">กำลังดาวน์โหลดเฟิร์มแวร์...</string>
+    <string name="install_time">เวลาการติดตั้งโดยประมาณ:</string>
+    <string name="postponetime_text">เลื่อนเวลา:</string>
+    <string name="install">ติดตั้ง</string>
+    <string name="reach_max_net_fail">เซิร์ฟเวอร์ยกเลิกการดาวน์โหลด โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="dlg_title_checking">ตรวจสอบความสมบูรณ์</string>
+    <string name="dlg_msg_checking">กำลังตรวจสอบความสมบูรณ์ของไฟล์เฟิร์มแวร์ของคุณ</string>
+    <string name="cannot_set_to_browser">ไม่สามารถตั้งค่าไปยังเบราเซอร์</string>
+    <string name="upgrade_error">การอัปเกรดผิดพลาด โปรดดาวน์โหลดแพคเกจอัปเดตอีกครั้ง</string>
+    <string name="start_to_download">เริ่มการดาวน์โหลดแพคเกจอัปเดตที่สำคัญ</string>
+    <string name="start_to_upgrade">เริ่มการอัปเกรดแพคเกจอัปเดต</string>
+    <string name="start_NI_dmSession">เครือข่ายกำลังตั้งค่าเริ่มต้นเซสชั่น DM, ยอมรับหรือไม่?</string>
+    <string name="download_finished">ดาวน์โหลดเฟิร์มแวร์เสร็จ...</string>
+    <string name="download_in_progress">กำลังอยู่ระหว่างการดาวน์โหลดเฟิร์มแวร์ใหม่</string>
+    <string name="out_of_mem_warning">"พื้นที่ไม่เพียงพอ
+โปรดถอนการติดตั้งแอปพลิเคชั่นบางอย่าง แล้วลองใหม่"</string>
+    <string name="ui_alert_input_hint">โปรดป้อนข้อความ</string>
+    <string name="ui_alert_input_numeric_hint">โปรดป้อนตัวเลข</string>
+    <string name="ui_alert_input_phone_number_hint">โปรดป้อนหมายเลขโทรศัพท์</string>
+    <string name="check_for_update">ตรวจสอบอัปเดต</string>
+    <string name="no_new_fota_update">ขณะนี้ไม่มีอัปเดตที่ใช้ได้สำหรับอุปกรณ์ของคุณ</string>
+    <string name="ok">ตกลง</string>
+    <string name="yes">ตกลง</string>
+    <string name="no">ยกเลิก</string>
+    <string name="confirm_download_btn_Yes">ใช่</string>
+    <string name="confirm_download_btn_No">ไม่</string>
+    <string name="confirm_update_title">อัพเดตเฟิร์มแวร์ ASUS</string>
+    <string name="asus_received_title">บริการอัพเดปเฟิร์มแวร์ระบบของ Asus</string>
+    <string name="received_message">มีอัปเดตเฟิร์มแวร์ระบบใหม่ กดเพื่ออัปเกรด</string>
+    <string name="low_battery_title">สิ้นสุดการอัปเดตเฟิร์มแวร์ระบบ</string>
+    <string name="dl_received_ticker">มีอัปเดตเฟิร์มแวร์ระบบใหม่</string>
+    <string name="dl_received_message">มีอัปเดตเฟิร์มแวร์ระบบใหม่ กดเพื่อดาวน์โหลด</string>
+    <string name="confirmDownload_text1">คุณต้องการดาวน์โหลดอัปเดตเฟิร์มแวร์ระบบต่อไปนี้หรือไม่?</string>
+    <string name="received_ticker">มีอัปเดตเฟิร์มแวร์ระบบใหม่</string>
+    <string name="update_dialog_text">"อัปเดตเฟิร์มแวร์ระบบใหม่สำหรับอุปกรณ์ของคุณถูกดาวน์โหลดมาแล้ว ติดตั้งเดี๋ยวนี้? 
+"</string>
+    <string name="prepare_dm_download">กำลังเตรียมดาวน์โหลดเฟิร์มแวร์ระบบ...</string>
+    <string name="system_update_activity">อัปเดตเฟิร์มแวร์ระบบ</string>
+    <string name="has_new_fota_update">มีอัปเดตเฟิร์มแวร์ระบบสำหรับอุปกรณ์ของคุณ โปรดตรวจสอบการแจ้งเตือน</string>
+    <string name="update_dialog_text2">อัปเดตเฟิร์มแวร์ระบบนี้ จะปรับปรุงความมีเสถียรภาพ และจะไม่ลบข้อมูลใดๆ ของคุณ เราแนะนำให้คุณอัปเกรดเป็นเวอร์ชั่นนี้</string>
+</resources>

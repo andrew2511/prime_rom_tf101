@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Az Ön által kiválasztott szöveg hossza meghaladja a korlátot. Egyes tartalom csonkítva jelenhet meg.</string>
+    <string name="post_successfully">Sikeres közzététel</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS default live wallpaper.</string>
+    <string name="mywater_setting">ASUS MyWater Settings</string>
+    <string name="enable_rotation">Enable water rotation</string>
+    <string name="enable_rotation_description">Water will rotate along with device rotation.</string>
+    <string name="about">About</string>
+    <string name="app_name">ASUS MyWater</string>
+    <string name="app_name2">My Water (GL version)</string>
+    <string name="legal_information">Legal Information:</string>
+    <string name="legal_content">"Use this software is subject to terms and
+conditions on ASUS Website:
+(http://www.asus.com)"</string>
+    <string name="copy_right">Copyright 2010-2011 ASUS Tek computer Inc.</string>
+    <string name="version">Version</string>
+</resources>

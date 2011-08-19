@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tocview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/toc_view_toolbar" />
+    <ViewSwitcher android:id="@id/tocview_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/tocview_pages" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#00000000" />
+        <ListView android:id="@id/tocview_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ViewSwitcher>
+</LinearLayout>

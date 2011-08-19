@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.xt9.input.AlphaHandWritingContainerView android:orientation="vertical" android:id="@id/alpha_handwriting_container" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/alpha_handwriting_area" android:layout_width="fill_parent" android:layout_height="160.0dip" />
+    <FrameLayout android:id="@id/alpha_handwriting_key_area" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.nuance.xt9.input.AlphaHandWritingContainerView>

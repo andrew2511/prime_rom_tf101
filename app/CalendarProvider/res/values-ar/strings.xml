@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">تخزين التقويم</string>
+    <string name="calendar_default_name">افتراضي</string>
+    <string name="calendar_info">معلومات التقويم</string>
+    <string name="calendar_info_error">خطأ</string>
+    <string name="calendar_info_no_calendars">بلا تقاويم</string>
+    <string name="calendar_info_events">الأحداث: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">الأحداث: %1$d، غير المحفوظة: %2$d</string>
+    <string name="provider_label">التقويم</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/menu_item_background</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">30.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onMenuItemClicked</item>
+    </style>
+    <style name="MenuItemImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+    <style name="MenuItemText">
+        <item name="android:textColor">@drawable/menu_item_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CalendarTR">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CalendarTH">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CalendarTD">
+        <item name="android:textColor">@drawable/menu_item_text</item>
+    </style>
+    <style name="CalendarTD.Current" parent="@style/CalendarTD">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CalendarTD.Selected" parent="@style/CalendarTD">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

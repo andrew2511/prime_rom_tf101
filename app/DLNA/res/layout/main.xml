@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/asus_ep_index_top_bg" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <TextView android:textSize="32.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/DLNAtext" android:focusable="false" android:layout_width="338.0dip" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:text="@string/app_name" android:singleLine="true" />
+        <TabWidget android:gravity="center_vertical" android:id="@id/buttonbar" android:layout_width="450.0dip" android:layout_height="52.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:tabStripEnabled="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="20.0sp" android:textColor="@color/tab_indicator_text" android:gravity="center" android:id="@id/musictab" android:background="@drawable/ic_tab_music" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="0.0dip" android:text="@string/musictype" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="20.0sp" android:textColor="@color/tab_indicator_text" android:gravity="center" android:id="@id/phototab" android:background="@drawable/ic_tab_photo" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="0.0dip" android:text="@string/imagetype" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="20.0sp" android:textColor="@color/tab_indicator_text" android:gravity="center" android:id="@id/videotab" android:background="@drawable/ic_tab_video" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="0.0dip" android:text="@string/videotype" android:layout_weight="1.0" />
+        </TabWidget>
+        <ImageButton android:id="@id/menuoption" android:background="#00000000" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/asus_ep_menu_option" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/asus_ep_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/devicelistLL" android:layout_width="375.0dip" android:layout_height="fill_parent" android:layout_marginBottom="45.0dip">
+            <ListView android:textSize="26.0sp" android:gravity="center_vertical" android:id="@id/devicelist" android:paddingLeft="0.0dip" android:focusable="false" android:scrollbars="none" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="70.0dip" android:layout_toRightOf="@id/devicelistLL">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="74.0dip">
+                <ImageButton android:textSize="26.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/backbtn" android:background="@drawable/ic_btn_back" android:layout_width="75.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/asus_ep_path_back_icon" android:singleLine="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/folderpath" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/backbtn" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <ListView android:textSize="26.0sp" android:gravity="center_vertical" android:id="@id/contentlist" android:paddingLeft="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <include layout="@layout/controlpannel" />
+    </RelativeLayout>
+</LinearLayout>

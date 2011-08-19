@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/inbox_settings_heading" android:key="inbox-settings">
+        <CheckBoxPreference android:title="@string/preferences_priority_inbox" android:key="priority-inbox-key" android:summary="@string/preferences_priority_inbox_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings_sync_heading">
+        <PreferenceScreen android:title="@string/preferences_sync_status" android:key="sync_status" android:summary="@string/preferences_sync_summary">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/preferences_labels_title" android:summary="@string/preferences_synchronization_summary">
+            <intent android:targetPackage="com.google.android.gm" android:action="android.intent.action.MAIN" android:targetClass="com.google.android.gm.LabelsSynchronizationSettings" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:title="@string/preference_prefetch_attachments_title" android:key="prefetch-attachments" android:summary="@string/preference_prefetch_attachments_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings_notifications_heading" android:key="notification-settings">
+        <CheckBoxPreference android:title="@string/preferences_notifications_enable" android:key="enable-notifications" android:summary="@string/preferences_notifications_summary" android:defaultValue="true" />
+        <com.google.android.gm.preference.GmailRingtonePreference android:title="@string/preferences_ringtone_title" android:key="ringtone" android:dependency="enable-notifications" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <ListPreference android:entries="@array/prefEntries_vibrateWhen" android:title="@string/preferences_vibrateWhen" android:key="vibrateWhen" android:summary="@string/preferences_vibrateWhen_summary" android:dependency="enable-notifications" android:defaultValue="@string/prefDefault_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_vibrateWhen" />
+        <CheckBoxPreference android:title="@string/preferences_unobtrusive_enable" android:key="unobtrusive" android:summary="@string/preferences_unobtrusive_summary" android:dependency="enable-notifications" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_activity_signature_view_text">
+        <EditTextPreference android:singleLine="false" android:title="@string/preferences_signature_title" android:key="signature" android:summary="@string/preferences_signature_summary" android:dialogTitle="@string/preferences_signature_dialog_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

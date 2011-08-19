@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">Welcome to ^1</string>
+    <string name="welcome_message_tablet">Welcome</string>
+    <string name="setup_wizard_title">Setup Wizard</string>
+    <string name="error_dialog_title">Attention</string>
+    <string name="next_button_label">Next</string>
+    <string name="back_button_label">Back</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="gmail_host_name">\@gmail.com</string>
+    <string name="done">OK</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="retry_button_label">Retry</string>
+    <string name="done_button_label">Finish setup</string>
+    <string name="try_again_button_label">Try again</string>
+    <string name="close_button_label">Close</string>
+    <string name="edit_text_help">Touch any text box to start typing</string>
+    <string name="add_a_google_account">Add a Google Account</string>
+    <string name="add_apn">Wireless settings</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="setup_device_title">Setting up your ^1</string>
+    <string name="open_keyboard_message_to_continue">Slide keyboard open to continue.</string>
+    <string name="emergency_dial">Emergency dial</string>
+    <string name="change_language">Change language</string>
+    <string name="close_keyboard_message">Slide keyboard back to continue.</string>
+    <string name="is_not_available"><b>^1</b> is not available.</string>
+    <string name="hint_size"><b>^1</b> contains less than 6 or more than 30 characters.</string>
+    <string name="hint_numbers_only"><b>^1</b> does not contain any letters.</string>
+    <string name="hint_illegal_chars"><b>^1</b>" can contain only letters,
+numbers, and periods."</string>
+    <string name="android_privacy_policy_title">Additional Privacy Policy</string>
+    <string name="google_terms_of_service_title">Google Terms of Service</string>
+    <string name="google_privacy_policy_title">Google Privacy Policy</string>
+    <string name="url_load_unsuccessful_message">Your phone is not connected to a mobile data service. To view this information now, go to %s in a web browser.</string>
+    <string name="restore_disable">Disable restore</string>
+    <string name="restore_enable">Enable restore</string>
+    <string name="restore_enabled">If you have previously backed up your settings, they will be restored.</string>
+    <string name="restore_disabled">Your settings will not be restored from backup.</string>
+    <string name="webview_progress_title">Connecting to domain...</string>
+    <string name="webview_progress_verbose_message">"Your company's servers are sending sign-in information to your phone. This may take a few minutes.
+Your company's sign-in page will appear when this is complete."</string>
+    <string name="enterprise_unmanaged_domain">This domain is not using Google Apps. Please check the domain name and try again.</string>
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="you_can_use_your_google_account">You can use your Google Account to back up your apps, settings (such as bookmarks and Wi-Fi passwords), and other data. If you previously backed up with this account, you can restore it to this device now.</string>
+    <string name="restore_from_my_google_account">Restore from my Google Account to this device</string>
+    <string name="keep_this_device_backed_up">Keep this device backed up with my Google Account</string>
+    <string name="touch_to_begin">Touch the android to begin.</string>
+    <string name="delayed_gaia_agreement">By continuing, you agree to the <annotation id="google_privacy">Google</annotation> and <annotation id="android_privacy">Additional</annotation> Privacy Policies.</string>
+    <string name="select_language">Language:</string>
+    <string name="start">Start</string>
+    <string name="activation_title">Activate mobile data service</string>
+    <string name="activation_title_searching">Searching for service...</string>
+    <string name="activation_title_activating">Activating on %s...</string>
+    <string name="activation_default_network_name">mobile network</string>
+    <string name="activation_text">Touch <b>Activate</b>" to activate your mobile service now. (It may take a couple of minutes.)
+
+Or touch "<b>Skip</b> to set up your phone using a Wi-Fi connection instead.</string>
+    <string name="activation_text_standalone">Touch <b>Activate</b> to activate your mobile service now. (It may take a couple of minutes.)</string>
+    <string name="activation_title_confirm_skip">Skip mobile data service activation?</string>
+    <string name="activation_skip_confirmation">"Are you sure you want to continue without activating your mobile data service?
+
+If you do, you must connect to a Wi-Fi network in the next step."</string>
+    <string name="activation_continue_skip_label">Continue</string>
+    <string name="activation_button_label">Activate</string>
+    <string name="activation_progress_before_connect">Touch <b>Skip</b> to complete setup using a Wi-Fi connection instead</string>
+    <string name="activation_progress">Activation can take a few minutes. Touch <b>Skip</b> to complete setup using a Wi-Fi connection instead.</string>
+    <string name="activation_progress_before_connect_standalone">Activation can take a few minutes.</string>
+    <string name="activation_progress_standalone">Activation can take a few minutes.</string>
+    <string name="activation_success_title">Activation complete</string>
+    <string name="activation_success_text">Touch <b>Next</b> to continue with setup.</string>
+    <string name="activation_success_text_standalone">Touch <b>Next</b>" to continue.
+
+Activation successful, but it may take a few minutes for the mobile data network to become available."</string>
+    <string name="activation_failure_title">Activation failed</string>
+    <string name="activation_failure_text">Unable to activate mobile data service. To try activation again touch <b>Back</b>".
+
+Touch "<b>Next</b>" to complete setup using a Wi-Fi connection.
+
+You can activate your mobile data service later in Settings under "<b>Wireless &amp; networks > Mobile networks</b></string>
+    <string name="activation_failure_text_standalone">Unable to activate mobile data service. To try activation again touch <b>Try again</b>".
+
+You can activate your mobile data service later in Settings under "<b>Wireless &amp; networks > Mobile networks</b></string>
+    <string name="activation_cancel_title">Cancel requested</string>
+    <string name="activation_cancel_text">Canceling activation...this might take 5-10 seconds.</string>
+    <string name="activation_canceled_title">Activation canceled</string>
+    <string name="activation_canceled_text">Are you sure you want to cancel activation? You must activate your mobile network service before you can use it to connect to the Internet. To try activation again touch <b>Back</b>".
+
+Touch "<b>Next</b>" to complete setup using a Wi-Fi connection.
+
+You can activate your mobile network service later in Settings under "<b>Wireless &amp; networks > Mobile networks</b>.</string>
+    <string name="activation_canceled_text_standalone">"Activation canceled.
+
+You can activate your mobile data service later in Settings under "<b>Wireless &amp; networks > Mobile networks</b>.</string>
+    <string name="activation_spc_failure_text">An error occurred that requires shutting down and restarting your phone before another activation attempt can be made. Your phone will shut down automatically in 60 seconds, or you can touch <b>Shut down now</b>".
+
+Once your phone is shut down, press its Power button to restart it."</string>
+    <string name="shutdown_button_label">Shut down now</string>
+    <string name="notification_update_title">Your account must be updated</string>
+    <string name="notification_update_message">Touch here to re-run Setup Wizard</string>
+    <string name="location_sharing_title">"Use Google's location service"</string>
+    <string name="location_sharing_message">"Google's location service uses Wi-Fi and mobile networks to provide apps with your approximate location without using GPS. You can change these settings later with the "<b>Location &amp; security</b> and Google Search settings.</string>
+    <string name="yes_agree">"Use Wi-Fi and mobile networks to determine my location. This allows Google's location service to collect anonymous location data. Collection will occur even when no applications are running."</string>
+    <string name="explain_yes_agree">"Allow Google's location service to collect anonymous location data. Collection will occur even when no applications are running."</string>
+    <string name="yes_agree_use_location">Use my location for improved Google Search results and other Google services.</string>
+    <string name="explain_yes_agree_use_location">Allow Google to use location for improved search results and other services.</string>
+</resources>

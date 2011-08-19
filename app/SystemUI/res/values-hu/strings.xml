@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Rendszer UI</string>
+    <string name="status_bar_clear_all_button">Törlés</string>
+    <string name="status_bar_do_not_disturb_button">Ne zavarjanak</string>
+    <string name="status_bar_please_disturb_button">Értesítések megjelenítése</string>
+    <string name="status_bar_no_notifications_title">Nincs értesítés</string>
+    <string name="status_bar_ongoing_events_title">Folyamatban van</string>
+    <string name="status_bar_latest_events_title">Értesítések</string>
+    <string name="battery_low_title">Kérjük, csatlakoztassa a töltőt</string>
+    <string name="battery_low_subtitle">Az akkufeszültség alacsony.</string>
+    <string name="battery_low_percent_format">%d%% maradt</string>
+    <string name="invalid_charger">"Az USB-n keresztüli töltés nincs támogatva.
+Használja a kapott töltőt."</string>
+    <string name="battery_low_why">Akkumulátorhasználat</string>
+    <string name="status_bar_settings_settings_button">Beállítások</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Repülőgép üzemmód</string>
+    <string name="status_bar_settings_auto_rotation">Képernyő automatikus forgatása</string>
+    <string name="status_bar_settings_mute_label">NÉMÍT</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Értesítések</string>
+    <string name="recent_tasks_title">Legutóbbiak</string>
+    <string name="recent_tasks_empty">Nincsenek nemrég használt alkalmazások</string>
+    <string name="recent_tasks_app_label">Alkalmazások</string>
+    <string name="bluetooth_tethered">Bluetooth megosztva</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Beviteli módok konfigurálása</string>
+    <string name="status_bar_use_physical_keyboard">Valódi bill. használata</string>
+    <string name="usb_device_permission_prompt">%1$s alkalmazás hozzáférhet az USB-eszközhöz?</string>
+    <string name="usb_accessory_permission_prompt">%1$s alkalmazás hozzáférhet az USB-kiegészítőhöz?</string>
+    <string name="usb_device_confirm_prompt">%1$s megnyitása, ha USB-kiegészítő csatlakoztatva van?</string>
+    <string name="usb_accessory_confirm_prompt">%1$s megnyitása, ha ez az USB-kiegészítő csatlakoztatva van?</string>
+    <string name="usb_accessory_uri_prompt">A telepített alkalmazások nem működnek ezzel az USB-kiegészítővel. Bővebben: %1$s</string>
+    <string name="title_usb_accessory">USB-kellék</string>
+    <string name="label_view">Megtekintés</string>
+    <string name="always_use_device">Alapértelmezett használat ehhez az USB-eszközhöz</string>
+    <string name="always_use_accessory">Alapértelmezett használat ehhez az USB-kiegészítőhöz</string>
+</resources>

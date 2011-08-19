@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="10.000002%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <Row latin:rowEdgeFlags="top">
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="~" />
+        <Key latin:keyLabel="`" />
+        <Key latin:keyLabel="|" />
+        <Key latin:popupCharacters="♪,♥,♠,♦,♣" latin:keyLabel="•" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="√" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:popupCharacters="Π" latin:keyLabel="π" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="÷" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="×" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="{" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyLabel="}" />
+    </Row>
+    <Row>
+        <Key latin:keyEdgeFlags="left" latin:keyStyle="nonSpecialBackgroundTabKeyStyle" />
+        <Key latin:keyLabel="£" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="¢" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="€" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:popupCharacters="′,″" latin:keyLabel="°" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:popupCharacters="↑,↓,←,→" latin:keyLabel="^" />
+        <Key latin:keyLabel="_" />
+        <Key latin:popupCharacters="≠,≈,∞" latin:keyLabel="=" />
+        <Key latin:keyLabel="[" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyLabel="]" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="14.999998%p" latin:keyEdgeFlags="left" latin:keyStyle="shiftKeyStyle" />
+        <Key latin:keyLabel="™" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="®" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="©" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:popupCharacters="§" latin:keyLabel="¶" latin:keyStyle="nonPasswordSymbolKeyStyle" />
+        <Key latin:keyLabel="\\" />
+        <Key latin:popupCharacters="≤,«,‹" latin:keyLabel="&lt;" />
+        <Key latin:popupCharacters="≥,»,›" latin:keyLabel=">" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" />
+    </Row>
+    <include latin:keyboardLayout="@xml/kbd_symbols_shift_row4" />
+</Keyboard>

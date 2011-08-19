@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Готово</string>
+    <string name="signed_in">Вход выполнен</string>
+    <string name="account_linked_message">Выполнен вход в аккаунт %s, данные синхронизируются.</string>
+    <string name="account_setup_title">Аккаунт Google</string>
+    <string name="account_created_message">Создан новый аккаунт: %s</string>
+    <string name="login_activity_title">Войдите в свой аккаунт Google</string>
+    <string name="show_error_activity_title">Ошибка входа в аккаунт Google</string>
+    <string name="login_activity_task_title">Вход...</string>
+    <string name="sync_intro_activity_title_first_account">Резервное копирование и восстановление</string>
+    <string name="sync_intro_activity_title_first_created_account">Аккаунт создан</string>
+    <string name="sync_intro_activity_title">Вход в аккаунт выполнен</string>
+</resources>

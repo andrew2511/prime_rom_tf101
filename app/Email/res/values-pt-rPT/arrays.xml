@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Mostrar conteúdo das mensagens em texto de tamanho muito pequeno</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho pequeno</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho normal</item>
+        <item>Mostrar o conteúdo das mensagens em texto de tamanho grande</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho muito grande</item>
+    </string-array>
+</resources>

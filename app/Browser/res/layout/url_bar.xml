@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/autologin" android:background="#fffbf0a0" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/taburlbar">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/primary_text_light" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autologin_bar_text" />
+        <Spinner android:id="@id/autologin_account" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Light.Spinner" />
+        <Button android:id="@id/autologin_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/autologin_bar_login_text" style="@android:style/Widget.Holo.Light.Button" />
+        <ProgressBar android:id="@id/autologin_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffdd6826" android:id="@id/autologin_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autologin_bar_error" />
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/autologin_close" android:background="@null" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/btn_close" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/taburlbar" android:background="@drawable/bg_urlbar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/navbuttons" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/back" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back_holo_dark" style="@style/HoloButton" />
+            <ImageButton android:id="@id/forward" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_forward_holo_dark" style="@style/HoloButton" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/stop" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_stop_holo_dark" style="@style/HoloButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/urlbar_focused" android:background="@drawable/url_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/url_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_web_holo_dark" style="@style/HoloIcon" />
+            <ImageView android:id="@id/lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/HoloIcon" />
+            <com.android.browser.UrlInputView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/url_focused" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:hint="@string/search_hint" android:lines="1" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:inputType="textUri" android:imeOptions="actionGo" style="@style/Suggestions" />
+            <ImageButton android:id="@id/star" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_imageview_star" style="@style/HoloButton" />
+            <ImageButton android:id="@id/clear" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_stop_holo_dark" style="@style/HoloButton" />
+        </LinearLayout>
+        <ImageButton android:gravity="center_vertical" android:id="@id/go" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_go_holo_dark" style="@style/HoloButton" />
+        <ImageButton android:id="@id/voicesearch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_voice_search_holo_dark" style="@style/HoloButton" />
+        <ImageButton android:gravity="center_vertical" android:id="@id/search" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_search_holo_dark" style="@style/HoloButton" />
+        <ImageButton android:id="@id/all_btn" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_bookmarks_history_holo_dark" android:scaleType="center" style="@style/HoloButton" />
+    </LinearLayout>
+    <com.android.browser.PageProgressView android:id="@id/progress" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginTop="-11.0dip" android:src="@drawable/progress" android:layout_below="@id/taburlbar" />
+</RelativeLayout>

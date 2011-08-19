@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minuuttia</string>
+    <string name="postpone">Lykkää</string>
+    <string name="update">Päivitä</string>
+    <string name="firmware_update_title">Laiteohjelmiston päivitys</string>
+    <string name="firmware_update_fail">"Päivitys epäonnistui.
+
+Laitteesi palauttaa alkuperäiset määritykset."</string>
+    <string name="low_battery_warning">"Järjestelmä vaatii vähintään %1$d %% akkuvarausta jatkaakseen järjestelmän päivitystä.
+Lataa akku ennen järjestelmän päivitystä."</string>
+    <string name="confirmDownload_textok">"Tämä päivitys parantaa vakautta eikä poista mitään tietojasi. Suosittelemme vahvasti, että päivität tähän versioon.
+Hyväksy päivitys painalla Kyllä."</string>
+    <string name="confirmDownload_textcancel">Hylkää päivitys painamalla EI.</string>
+    <string name="confirmDownload_textwifi">On suositeltavaa käyttää ilmaisia langattoman Wi-Fi-verkon tukiasemia päivityksen lataamiseen.</string>
+    <string name="confirmDownload_textwifi2">Jos painat Myöhemmin, voit jatkaa lataamista milloin tahansa painamalla ilmoitusta.</string>
+    <string name="btn_text_later">Myöhemmin</string>
+    <string name="confirmDownload_dialog_title">Huomio, olet verkkovierailussa.</string>
+    <string name="downloading">Ladataan laiteohjelmistoa...</string>
+    <string name="install_time">Arvioitu asennusaika:</string>
+    <string name="postponetime_text">Lykkäysaika:</string>
+    <string name="install">Asenna</string>
+    <string name="reach_max_net_fail">Palvelin keskeytti latauksen. Yritä myöhemmin uudelleen.</string>
+    <string name="dlg_title_checking">Eheystarkistus.</string>
+    <string name="dlg_msg_checking">Tarkistetaan laiteohjelmistotiedoston eheys.</string>
+    <string name="cannot_set_to_browser">Selaimeen ei voi asettaa.</string>
+    <string name="upgrade_error">Päivitysvirhe. Lataa päivityspaketti uudelleen.</string>
+    <string name="start_to_download">Aloita kriittisen päivityspaketin lataaminen.</string>
+    <string name="start_to_upgrade">Aloita päivityspaketin päivittäminen.</string>
+    <string name="start_NI_dmSession">Verkko alustaa DM-istuntoa. Hyväksytkö sen?</string>
+    <string name="download_finished">Laiteohjelmiston lataus valmis...</string>
+    <string name="download_in_progress">Uuden laiteohjelmiston lataus käynnissä</string>
+    <string name="out_of_mem_warning">"Tila ei riitä,
+poista joidenkin sovellusten asennus ja yritä uudelleen."</string>
+    <string name="ui_alert_input_hint">Näppäile teksti</string>
+    <string name="ui_alert_input_numeric_hint">Näppäile numeerinen arvo</string>
+    <string name="ui_alert_input_phone_number_hint">Näppäile puhelinnumero</string>
+    <string name="check_for_update">Tarkista päivitys</string>
+    <string name="no_new_fota_update">Järjestelmälle ei ole saatavana päivitystä nyt.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Peruuta</string>
+    <string name="confirm_download_btn_Yes">Kyllä</string>
+    <string name="confirm_download_btn_No">Ei</string>
+    <string name="confirm_update_title">ASUS-laiteohjelmistopäivitys.</string>
+    <string name="asus_received_title">Asus-järj. laiteohjelmistopäivityspalvelu</string>
+    <string name="received_message">Uusi järj. laiteohj.päivitys saatavana. Päivitä painamalla.</string>
+    <string name="low_battery_title">Järjest. laiteohjelmistopäivitys päättyi</string>
+    <string name="dl_received_ticker">Uusi järjest. laiteohj.päivitys saatavana.</string>
+    <string name="dl_received_message">Uusi järjest. laiteohj.päivitys saatavana. Lataa painamalla.</string>
+    <string name="confirmDownload_text1">Haluatko ladata seuraavan järjestelmän laiteohjelmistopäivityksen?</string>
+    <string name="received_ticker">Uusi järjest. laiteohj.päivitys saatavana.</string>
+    <string name="update_dialog_text">"Laitettasi varten on ladattu uusi järjestelmän laiteohjelmistopäivitys. Asenna? 
+"</string>
+    <string name="prepare_dm_download">Valmistellaan järj. laiteohj. latausta...</string>
+    <string name="system_update_activity">Järj. laiteohj.päivitys</string>
+    <string name="has_new_fota_update">Laitteelle on saatavana järj. laiteohjelmistopäivitys. Tarkista ilmoitukset.</string>
+    <string name="update_dialog_text2">Tämä järjestelmän laiteohjelmistopäivitys parantaa vakautta eikä poista mitään tietojasi. On vahvasti suositeltavaa päivittää tähän versioon.</string>
+</resources>

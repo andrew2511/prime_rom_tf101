@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rowHeight" format="dimension" />
+    <attr name="maxItemsPerRow" format="integer" />
+    <attr name="maxRows" format="integer" />
+    <attr name="trackHeight" format="dimension" />
+    <attr name="clickReceiver" format="reference" />
+    <attr name="passDrawableStateChange" format="reference" />
+    <attr name="pauseImage" format="integer" />
+    <attr name="playImage" format="integer" />
+    <attr name="stopImage" format="integer" />
+</resources>

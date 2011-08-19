@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Alapértelmezett ASUS élő háttérkép.</string>
+    <string name="mywater_setting">ASUS MyWater beállítások</string>
+    <string name="enable_rotation">Forgás engedélyezése</string>
+    <string name="enable_rotation_description">A víz az eszköz forgatásának megfelelően forog.</string>
+</resources>

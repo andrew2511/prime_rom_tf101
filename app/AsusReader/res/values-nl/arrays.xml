@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Markering verwijderen</item>
+        <item>Annuleren</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Markering toevoegen</item>
+        <item>Vertaling</item>
+        <item>Tekst naar spraak</item>
+        <item>Annuleren</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Engels</item>
+        <item>Frans</item>
+        <item>Japans</item>
+        <item>Chinees</item>
+        <item>Duits</item>
+        <item>Vereenvoudigd Chinees</item>
+        <item>Russisch</item>
+        <item>Spaans</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Engels naar Chinees</item>
+        <item>Engels naar Frans</item>
+        <item>Engels naar Russisch</item>
+    </string-array>
+</resources>

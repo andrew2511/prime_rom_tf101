@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε λιγότερο από 1 λεπτό από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %1$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %2$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %1$1$s και σε %2$2$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %3$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %1$1$s και σε %2$3$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %1$2$s και σε %2$3$s από τώρα.</item>
+        <item>Το ξυπνητήρι αυτό έχει οριστεί σε %1$1$s, %2$2$sκαι %3$3$s από τώρα.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Απενεργοποίηση</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Καμία</item>
+        <item>Αφύπνιση</item>
+        <item>Παράβλεψη</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

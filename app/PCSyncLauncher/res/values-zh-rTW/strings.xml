@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">電腦同步資訊</string>
+    <string name="searchingPCSideSyncTool">在您的電腦上搜尋%s...</string>
+    <string name="connectionFailMessage" formatted="false">您並未在電腦上安裝或啟動%s。請至華碩技術支援網站(http://support.asus.com)下載%s。(註：僅支援Windows作業系統)」 您可以按下\"%s\"鍵離開，或是按下\"%s\"鍵嘗試重新連接%s。</string>
+    <string name="connectionFailTitle">連接失敗</string>
+    <string name="tryAgain">重試</string>
+    <string name="cancel">取消</string>
+</resources>

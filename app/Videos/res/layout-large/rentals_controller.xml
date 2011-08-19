@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vid="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <View android:id="@id/popup_placement" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.google.android.youtube.core.honeycomb.ui.PagedCarouselView android:id="@id/my_rentals" android:layout_width="fill_parent" android:layout_height="390.0dip" android:layout_alignParentTop="true" vid:textWhenEmpty="@string/no_my_purchases_found" vid:statusView="@layout/movie_grid_status_item" vid:renderscript="@raw/carousel2" vid:rowCount="1" vid:slotCount="110" vid:visibleSlots="4" vid:cameraZ="-40.0" vid:radius="50.0" vid:cardWidth="164.0dip" vid:cardHeight="345.0dip" vid:detailWidth="196.0dip" vid:detailHeight="116.0dip" vid:splitDetailViews="true" />
+    <include android:visibility="gone" layout="@layout/offline_footer" />
+</RelativeLayout>

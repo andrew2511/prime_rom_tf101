@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">H.hạn sau %1$d ngày</item>
+        <item quantity="one">Hết hạn sau 1 ngày</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Hết hạn sau %1$d giờ</item>
+        <item quantity="one">Hết hạn sau 1 giờ</item>
+    </plurals>
+</resources>

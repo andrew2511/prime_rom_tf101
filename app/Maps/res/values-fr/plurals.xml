@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Dans %1$s kilomètres</item>
+        <item quantity="one">Dans un kilomètre</item>
+        <item quantity="few">Dans %1$s kilomètres</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Continuer pendant %1$s kilomètres</item>
+        <item quantity="one">Continuer pendant un kilomètre</item>
+        <item quantity="few">Continuer pendant %1$s kilomètres</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Continuer sur %1$2$s pendant %2$1$s kilomètres</item>
+        <item quantity="one">Continuer sur %2$s pendant un kilomètre</item>
+        <item quantity="few">Continuer sur %1$2$s pendant %2$1$s kilomètres</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Dans %1$s miles</item>
+        <item quantity="one">Dans un mile</item>
+        <item quantity="few">Dans %1$s miles</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Continuer pendant %1$s miles</item>
+        <item quantity="one">Continuer pendant un mile</item>
+        <item quantity="few">Continuer pendant %1$s miles</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Continuer sur %1$2$s pendant %2$1$s miles</item>
+        <item quantity="one">Continuer sur %2$s pendant un mile</item>
+        <item quantity="few">Continuer sur %1$2$s pendant %2$1$s miles</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s avis</item>
+        <item quantity="one">%1$s avis</item>
+        <item quantity="few">%1$s avis</item>
+    </plurals>
+</resources>

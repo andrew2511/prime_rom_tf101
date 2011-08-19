@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Expire dans %1$d jours</item>
+        <item quantity="one">Expire dans un jour</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Expire dans %1$d heures</item>
+        <item quantity="one">Expire dans une heure</item>
+    </plurals>
+</resources>

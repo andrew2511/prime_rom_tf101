@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include layout="@layout/popup_header" />
+        <ScrollView android:background="@drawable/popup_center_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/ratings_setappearance" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/ratings_heading" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceInverse" />
+                    <TextView android:id="@id/ratings_subheading" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceInverse" />
+                    <TextView android:id="@id/ratings_identitylabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceMediumInverse" />
+                    <EditText android:id="@id/ratings_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="250.0dip" android:singleLine="true" android:imeOptions="actionDone" style="?android:attr/textAppearanceMediumInverse" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ratings_rateplaces" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/ratings_subheading2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmallInverse" />
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotpot_optin_graphic" />
+                    <TextView android:id="@id/ratings_gotoplaces" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceSmallInverse" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center" android:background="@drawable/popup_bottom_bright" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/ratings_save" android:background="@drawable/btn_default" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/ratings_cancel" android:background="@drawable/btn_default" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/ratings_close" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

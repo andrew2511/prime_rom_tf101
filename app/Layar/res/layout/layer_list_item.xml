@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/layer_list_item" android:background="@drawable/list_cell_background_x" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/layer_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/stubHolder" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ViewStub android:id="@id/stub_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/stubHolder" android:layout_alignParentLeft="true" layout="@layout/layer_list_item_info_area" />
+</RelativeLayout>

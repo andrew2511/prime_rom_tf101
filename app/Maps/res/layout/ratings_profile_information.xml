@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/profile_pic" android:paddingRight="@dimen/default_gratisfaction_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:gravity="center_vertical" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_weight="1.0" android:layout_alignParentTop="true" style="@style/PlacePageSecondary" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/default_gratisfaction_padding">
+            <TextView android:gravity="center" android:id="@id/reviews_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlacePageSecondary" />
+            <TextView android:gravity="center" android:id="@id/reviews_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/reviews_label" style="@style/PlacePageSecondary" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:gravity="center" android:id="@id/ratings_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlacePageSecondary" />
+                <TextView android:gravity="center" android:id="@id/ratings_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlacePageSecondary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

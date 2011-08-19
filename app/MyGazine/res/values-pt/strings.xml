@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSITE</string>
+    <string name="music_title_str">MÚSICA</string>
+    <string name="web_tag_str">Sem URL</string>
+    <string name="music_tag_album">Sem álbum</string>
+    <string name="music_tag_song">Sem música</string>
+    <string name="music_tag_artist">Sem artista</string>
+    <string name="date_text_str">Sem data</string>
+    <string name="cal_event_str">Sem último evento</string>
+    <string name="weather_info_str">Sem informações climáticas</string>
+    <string name="weather_content_str">Sem conteúdo climático</string>
+    <string name="photo_date_str">Sem data de foto</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Vento ENE</string>
+    <string name="humidity">Umidade</string>
+    <string name="email_unit">E-mails</string>
+    <string name="email_unit_single">E-mail</string>
+    <string name="event_unit">Eventos</string>
+    <string name="event_unit_single">Evento</string>
+    <string name="book_unit">Livros</string>
+    <string name="book_unit_single">Livro</string>
+    <string name="weather_city_str">Sem cidade</string>
+    <string name="date_format_title">Formato de Data</string>
+    <string name="preference_header_title">Preferência</string>
+    <string name="slideshow_header_title">Apresentação de slides</string>
+    <string name="picture_number_title">Número da imagem da apresentação de slides</string>
+    <string name="slide_show_interval_title">Intervalo da apresentação de slides</string>
+    <string name="transition_effect_title">Efeito de transição</string>
+    <string name="enable">Habilitar</string>
+    <string name="disable">Desabilitar</string>
+    <string name="app_settings">Configurações de MeuZine ASUS</string>
+    <string name="unit_picture">imagens</string>
+    <string name="unit_second">segs</string>
+    <string name="Image_headline">Imagem</string>
+    <string name="display_headline">Exibir</string>
+    <string name="date_headline">Data</string>
+    <string name="logo_display_title">Logo de MeuZine ASUS</string>
+    <string name="date_display_title">Data/horário</string>
+    <string name="photo_date_display_title">Criar data das imagens</string>
+    <string name="event_display_title">Próximo evento</string>
+    <string name="weather_display_title">Status do clima</string>
+    <string name="scale_type_title">Apresentação de imagem</string>
+</resources>

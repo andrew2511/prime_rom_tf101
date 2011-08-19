@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/awsbgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_header" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="2.0">
+            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back" android:onClick="backFunction" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/headertext" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_search_butt" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:text="Please input keyword" style="@style/SettingSubTitle" />
+            <EditText android:id="@id/search_edit" android:background="@drawable/bg_input1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:hint="@string/aty_search_input_keyword" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/stp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <RadioButton android:textColor="#ff000000" android:id="@id/stp_sqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/btn_radio" android:text="@string/aty_search_filename" />
+                <RadioButton android:textColor="#ff000000" android:id="@id/stp_fts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/btn_radio" android:text="@string/aty_search_fulltext" />
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_input1" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iconid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_list_txt" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff4b78bb" android:id="@id/toptext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aty_search_select_doc" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_doc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/btn_check" />
+                </LinearLayout>
+                <LinearLayout style="@style/SettingLine01" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iconid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_list_music" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff4b78bb" android:id="@id/toptext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aty_search_select_music" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_mus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/btn_check" />
+                </LinearLayout>
+                <LinearLayout style="@style/SettingLine01" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iconid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_list_photo" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff4b78bb" android:id="@id/toptext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aty_search_select_pic" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/btn_check" />
+                </LinearLayout>
+                <LinearLayout style="@style/SettingLine01" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iconid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_list_video" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff4b78bb" android:id="@id/toptext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aty_search_select_movie" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cb_mov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/btn_check" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:id="@id/dosearch" android:text="@string/aty_search_butt" android:onClick="dosearchFunction" style="@style/SettingGreenBtn" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

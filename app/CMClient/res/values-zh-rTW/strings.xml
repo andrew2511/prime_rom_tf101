@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">10分鐘的時間</string>
+    <string name="postpone">稍後</string>
+    <string name="update">更新</string>
+    <string name="asus_received_title">Asus更新服務</string>
+    <string name="received_message">有新的更新</string>
+    <string name="firmware_update_title">韌體更新</string>
+    <string name="firmware_update_fail">更新失敗，您的裝置將回復預設值。</string>
+    <string name="low_battery_title">系統更新結束</string>
+    <string name="low_battery_warning">系統需要至少50%的電力進行更新程序，請在進行更新前為您的裝置充電。</string>
+    <string name="confirmDownload_text1">您確定要下載以下的更新嗎？</string>
+    <string name="confirmDownload_textok">請點選是以進行更新。</string>
+    <string name="confirmDownload_textcancel">請點選否以放棄更新。</string>
+    <string name="confirmDownload_textwifi">建議您使用免費的WiFi熱點或資料傳輸量不受限的資費方案來下載此更新。</string>
+    <string name="confirmDownload_textwifi2">否則您可能需要負擔資料傳輸費用。</string>
+    <string name="btn_text_later">稍後</string>
+    <string name="confirmDownload_dialog_title">注意，您正在漫遊中。</string>
+    <string name="update_dialog_text">軟體更新已下載完成，是否進行安裝？</string>
+    <string name="downloading">下載韌體...</string>
+    <string name="install_time">估計安裝時間:</string>
+    <string name="install">安裝</string>
+    <string name="received_ticker">有新的更新</string>
+    <string name="dl_received_ticker">有新的更新</string>
+    <string name="dl_received_message">請點選此處以下載更新。</string>
+    <string name="postponetime_text">所需時間:</string>
+    <string name="reach_max_net_fail">伺服器未回應，請稍後再試。</string>
+    <string name="dlg_title_checking">完整性檢查</string>
+    <string name="dlg_msg_checking">檢查韌體檔案</string>
+    <string name="cannot_set_to_browser">無法設置至瀏覽器</string>
+    <string name="upgrade_error">更新錯誤，請重新下載更新檔案。</string>
+    <string name="start_to_download">開始下載主要更新軟體</string>
+    <string name="start_to_upgrade">開始升級更新軟體</string>
+    <string name="Start_NI_DmSession">是否接受網路初始會話協定(Network Initial DMSession)?</string>
+    <string name="prepare_dm_download">準備下載...</string>
+    <string name="download_finished">韌體下載完成...</string>
+    <string name="download_notification_title">T-Mobile更新服務</string>
+    <string name="download_in_progress">新韌體正在下載中</string>
+    <string name="out_of_mem_warning">剩餘空間不足，請移除其他應用程式後稍後再試。</string>
+    <string name="btn_register">註冊C2DM</string>
+    <string name="btn_unregister">反註冊C2DM</string>
+    <string name="ui_alert_input_hint">請輸入文字</string>
+    <string name="ui_alert_input_numeric_hint">請輸入數字</string>
+    <string name="ui_alert_input_phone_number_hint">電話號碼</string>
+</resources>

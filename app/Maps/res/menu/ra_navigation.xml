@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <item a:icon="@drawable/ic_menu_exit_navigation" a:id="@id/ra_menu_exit" a:alphabeticShortcut="x" />
+    <item a:enabled="false" a:id="@id/ra_menu_playback" a:visible="false" a:title="Playback" a:alphabeticShortcut="p" />
+    <item a:enabled="false" a:id="@id/ra_menu_mocked_tracking" a:visible="false" a:title="Play mock" a:alphabeticShortcut="m" />
+</menu>

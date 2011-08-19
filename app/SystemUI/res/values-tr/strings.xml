@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Sist Arayüzü</string>
+    <string name="status_bar_clear_all_button">Temizle</string>
+    <string name="status_bar_do_not_disturb_button">Rahatsız etmeyin</string>
+    <string name="status_bar_please_disturb_button">Bildirimleri göster</string>
+    <string name="status_bar_no_notifications_title">Bildirim yok</string>
+    <string name="status_bar_ongoing_events_title">Sürüyor</string>
+    <string name="status_bar_latest_events_title">Bildirimler</string>
+    <string name="battery_low_title">Lütfen şarj cihazını takın</string>
+    <string name="battery_low_subtitle">Pil azalıyor.</string>
+    <string name="battery_low_percent_format">%d%% kaldı</string>
+    <string name="invalid_charger">"USB üzerinden şarj desteklenmiyor.
+Yalnızca ürünle birlikte verilen şarj cihazını kullanın."</string>
+    <string name="battery_low_why">Pil kullanımı</string>
+    <string name="status_bar_settings_settings_button">Ayarlar</string>
+    <string name="status_bar_settings_wifi_button">Kablosuz</string>
+    <string name="status_bar_settings_airplane">Uçak modu</string>
+    <string name="status_bar_settings_auto_rotation">Ekranı otomatik döndür</string>
+    <string name="status_bar_settings_mute_label">KAPAT</string>
+    <string name="status_bar_settings_auto_brightness_label">OTOMTK</string>
+    <string name="status_bar_settings_notifications">Bildirimler</string>
+    <string name="recent_tasks_title">En Son Görevler</string>
+    <string name="recent_tasks_empty">Hiçbir yeni uygulama yok.</string>
+    <string name="recent_tasks_app_label">Uygulamalar</string>
+    <string name="bluetooth_tethered">Bluetooth paylaşımı tamam</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Giriş yöntemlerini yapılandır</string>
+    <string name="status_bar_use_physical_keyboard">Fiziksel klavyeyi kullan</string>
+    <string name="usb_device_permission_prompt">%1$s uygulamasının bu USB cihazına erişmesine izin verilsin mi?</string>
+    <string name="usb_accessory_permission_prompt">%1$s uygulamasının bu USB aksesuarına erişmesine izin verilsin mi?</string>
+    <string name="usb_device_confirm_prompt">Bu USB cihaz bağlandığında %1$s açılsın mı?</string>
+    <string name="usb_accessory_confirm_prompt">Bu USB aksesuarı bağlandığında %1$s açılsın mı?</string>
+    <string name="usb_accessory_uri_prompt">Hiçbir yüklü uyg bu USB aksesuarıyla çalışmıyor. Bu aksesuar hakknd daha fazla bilgi için: %1$s</string>
+    <string name="title_usb_accessory">USB aksesuarı</string>
+    <string name="label_view">Görüntüle</string>
+    <string name="always_use_device">Bu USB cihazı için varsayılan olarak kullan</string>
+    <string name="always_use_accessory">Bu USB aksesuar için varsayılan olarak kullan</string>
+</resources>

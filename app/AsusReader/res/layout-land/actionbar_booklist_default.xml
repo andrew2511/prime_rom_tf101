@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/booklist_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line1" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/store_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0px" android:text="@string/at_vibe_bookstore" android:drawableLeft="@drawable/asus_ep_vibe_icon" android:drawablePadding="5.0px" android:layout_toLeftOf="@id/line1" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+    <ImageButton android:id="@id/edit_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/edit" android:minWidth="64.0px" android:layout_toLeftOf="@id/store_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+    <Button android:id="@id/all_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0px" android:text="@string/all_books" android:drawableLeft="@drawable/all_books" android:drawablePadding="5.0px" android:layout_toLeftOf="@id/edit_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+    <View android:id="@id/line2" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_toLeftOf="@id/all_button" android:layout_centerVertical="true" />
+    <Button android:id="@id/order_by" android:layout_width="200.0dip" android:layout_height="fill_parent" android:divider="?android:listDividerAlertDialog" android:layout_toLeftOf="@id/line2" android:layout_centerVertical="true" />
+    <View android:id="@id/line3" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_toLeftOf="@id/order_by" android:layout_centerVertical="true" />
+    <SearchView android:id="@id/search_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/line3" android:layout_centerVertical="true" />
+</RelativeLayout>

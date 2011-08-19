@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Launcher</string>
+    <string name="TITLE_DETECTED">זוהה קובץ עדכון מערכת</string>
+    <string name="TITLE_SYSTEM_UPDATE">עדכון מערכת</string>
+    <string name="BUTTON_OK">אישור</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">עדכון מערכת חדש זמין</string>
+    <string name="MSG_PRELIMINARY">"עדכון המערכת ייארך כ-‏10 דקות. במהלך העדכון לא תוכל להשתמש במכשיר ולא תוכל לבצע שיחות חירום.
+
+חבר את המכשיר לשקע החשמל או ודא שקיבולת הסוללה היא 15% לפחות .
+
+האם להמשיך בעדכון המערכת?"</string>
+    <string name="BUTTON_CANCEL">ביטול</string>
+    <string name="MSG_RESUME">גע להתחלת עדכון המערכת.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">עדכון המערכת הופסק</string>
+    <string name="MSG_UPDATE_DONE">המערכת עודכנה בהצלחה.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">קובץ העדכון לא קיים.</string>
+    <string name="MSG_UPDATE_FAIL">עדכון המערכת נכשל.</string>
+    <string name="MSG_UPDATE_RESTORE">המערכת משוחזרת לתצורה הקודמת</string>
+    <string name="MSG_BATTERY_LOW">"תהליך עדכון המערכת הופסק משום שהסוללה חלשה.
+
+חבר את המכשיר לשקע חשמל לפני שתבצע עדכון מערכת."</string>
+    <string name="TITLE_SELECT_FILE">בחר חבילת עדכון</string>
+    <string name="MSG_UPDATE_FAIL_SKU">חבילת העדכון אינה תואמת לתוכנה הנוכחית שלך, אנא בדוק את גרסת התוכנה ומספר הגרסה בהגדרות ונסה את חבילת העדכון הנכונה.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">חבילת העדכון קודמת לגרסת התוכנה הנוכחית שלך, אנא נסה חבילת עדכון חדשה.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">שגיאה לא ידועה.</string>
+</resources>

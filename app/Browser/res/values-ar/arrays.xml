@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_development_ua_choices">
+        <item>كمبيوتر لوحي</item>
+        <item>كمبيوتر مكتبي</item>
+        <item>هاتف محمول</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>تشغيل دومًا</item>
+        <item>عند الطلب</item>
+        <item>إيقاف</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>صغير</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>ضخم</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>بعيد</item>
+        <item>متوسط</item>
+        <item>إغلاق</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>اللاتينية-1 (ISO-8859-1)</item>
+        <item>Unicode ‏(UTF-8)</item>
+        <item>الصينية (GBK)</item>
+        <item>الصينية (Big5)</item>
+        <item>اليابانية (ISO-2022-JP)</item>
+        <item>اليابانية (SHIFT_JIS)</item>
+        <item>اليابانية (EUC-JP)</item>
+        <item>الكورية (EUC-KR)</item>
+    </string-array>
+</resources>

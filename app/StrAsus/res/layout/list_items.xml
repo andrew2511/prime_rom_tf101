@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pc_default" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingRight="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item_image" android:layout_centerVertical="true">
+        <TextView android:id="@id/item_title" style="@style/server_name" />
+        <TextView android:textColor="@color/gray" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/gray" android:id="@id/item_addr" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/item_btn_layout" android:background="@drawable/editbg_selector" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:background="@drawable/broken_line" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/item_btn" android:background="@drawable/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

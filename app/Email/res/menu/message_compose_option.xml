@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_send_holo_light" android:id="@id/send" android:title="@string/send_action" android:alphabeticShortcut="s" android:showAsAction="always|withText" />
+    <item android:id="@id/save" android:title="@string/save_draft_action" android:alphabeticShortcut="d" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_trash_holo_light" android:id="@id/discard" android:title="@string/discard_action" android:alphabeticShortcut="q" android:showAsAction="always" />
+</menu>

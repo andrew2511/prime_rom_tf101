@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center_vertical" android:id="@id/sync" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" />
+    <View android:id="@id/color" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/calendar" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/sync" android:layout_toRightOf="@id/color" style="?android:attr/textAppearanceLarge" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/status" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/sync" android:layout_below="@id/calendar" android:layout_alignLeft="@id/calendar" />
+</RelativeLayout>

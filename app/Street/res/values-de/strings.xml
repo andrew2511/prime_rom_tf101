@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Zur Karte wechseln</string>
+    <string name="report_inappropriate_image">Bild melden</string>
+    <string name="toggle_compass_mode">Kompassmodus</string>
+    <string name="compass_mode_on">Kompassmodus ist eingeschaltet.</string>
+    <string name="compass_mode_off">Kompassmodus ist ausgeschaltet.</string>
+    <string name="waiting_for_network">Datenverbindung unterbrochen, Versuch wird wiederholt...</string>
+    <string name="panorama_disabled">Das Bild ist nicht mehr verfügbar.</string>
+    <string name="service_unavailable">Street View steht nicht zur Verfügung.</string>
+    <string name="loading">Wird geladen...</string>
+    <string name="no_panorama_data">Es wurden keine Panoramadaten festgelegt.</string>
+    <string name="invalid_panorama_data">Ungültiges Panorama.</string>
+    <string name="click_to_go_toast">Ziehen Sie Pegman an die gewünschte Stelle.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Dieses Programm erfordert eine Datenverbindung, es wird automatisch erneut versucht, diese herzustellen. Überprüfen Sie die Signalstärke. Ist der Flugmodus aktiviert? Ist Roaming deaktiviert?</string>
+    <string name="whats_new_header">Was ist neu bei Street View?</string>
+    <string name="whats_new_c2g">Fliegen Sie beliebige angezeigte Orte an. Ziehen Sie Pegman von links unten an den gewünschten Ort.</string>
+    <string name="terms_and_privacy">Nutzungsbedingungen und Datenschutz</string>
+    <string name="terms_and_conditions">Nutzungsbedingungen</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+</resources>

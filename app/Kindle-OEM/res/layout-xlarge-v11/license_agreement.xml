@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/fill_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/license_agreement" android:text="@string/license_agreement" style="@style/sign_in_account_links.sublink" />
+    <TextView android:id="@id/license_agreement_link" android:focusable="true" android:clickable="true" android:text="@string/license_agreement_link" android:onClick="onClickHandler" style="@style/sign_in_account_links.sublink" />
+</LinearLayout>

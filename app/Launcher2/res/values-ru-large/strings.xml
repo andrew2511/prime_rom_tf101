@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Выберите обои</string>
+    <string name="wallpaper_chooser_empty">Нет доступных обоев</string>
+    <string name="wallpaper_cancel">Отмена</string>
+</resources>

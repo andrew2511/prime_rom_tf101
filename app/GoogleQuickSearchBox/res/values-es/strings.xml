@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Búsqueda de Google</string>
+    <string name="remove_from_history">Eliminar del historial de búsqueda</string>
+    <string name="remove_from_history_failed">Error al eliminar el elemento del historial</string>
+    <string name="menu_settings">Ajustes de búsqueda</string>
+    <string name="search_settings">Ajustes búsqueda Google</string>
+    <string name="google_settings_category_title">Búsqueda de Google</string>
+    <string name="device_settings_category_title">Búsqueda dispositivos</string>
+    <string name="search_sources">Elementos de búsqueda</string>
+    <string name="search_sources_summary">Elegir lo que se quiere buscar en el teléfono</string>
+    <string name="clear_shortcuts">Borrar accesos directos</string>
+    <string name="clear_shortcuts_summary">Borrar los accesos directos a las sugerencias de búsqueda seleccionadas recientemente</string>
+    <string name="clear_shortcuts_prompt">"Se borrarán todos los accesos directos a las sugerencias de búsqueda seleccionadas recientemente.
+
+(Para borrar el historial del navegador, utiliza las opciones de configuración del mismo)."</string>
+    <string name="clear_shortcuts_agree">Borrar accesos directos</string>
+    <string name="clear_shortcuts_disagree">No borrar accesos directos</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Búsqueda de Google</string>
+    <string name="google_search_description">Sugerencias de búsqueda de Google</string>
+    <string name="first_run_title">Búsqueda de Google</string>
+    <string name="tos_button_text">Leer Condiciones del servicio</string>
+    <string name="yes_agree_use_location">Utilizar Mi ubicación para los resultados de búsqueda de Google y otros servicios de Google</string>
+    <string name="first_run_tos">Según las Condiciones del servicio de Google para móviles</string>
+    <string name="use_location_title">Utilizar Mi ubicación</string>
+    <string name="search_history">Búsqueda personalizada</string>
+    <string name="search_history_summary_no_account">No se ha configurado ninguna cuenta.</string>
+    <string name="search_history_summary_enabled">Uso del historial de búsqueda y otros elementos personalizados para %1$s</string>
+    <string name="search_history_summary_disabled">No se utiliza el historial de búsqueda ni otros elementos personalizados.</string>
+    <string name="manage_search_history">Administrar historial de búsqueda</string>
+    <string name="manage_search_history_summary_no_account">No se ha configurado ninguna cuenta.</string>
+    <string name="manage_search_history_summary">Accede como %1$s al navegador y abre el historial web.</string>
+    <string name="select_google_account">Cuenta de Google</string>
+    <string name="select_google_account_summary_no_accounts">No se ha configurado ninguna cuenta.</string>
+    <string name="settings_tos_title">Condiciones del servicio</string>
+    <string name="manage_search_history_authenticating_title">Accediendo</string>
+    <string name="manage_search_history_authenticating_message">Accediendo como %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Cancelar</string>
+    <string name="use_google_com">Utilizar siempre google.com</string>
+    <string name="current_search_base_url">%1$s en uso</string>
+    <string name="fetching_search_base_url">Extrayendo URL de búsqueda...</string>
+    <string name="use_psychic">Habilitar Instant</string>
+    <string name="use_psychic_summary_on">Instant está activado (escribe para buscar)</string>
+    <string name="use_psychic_summary_off">Instant está desactivado (pulsa Intro para buscar)</string>
+    <string name="web_suggest_updating">actualizando...</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+</resources>

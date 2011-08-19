@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Innstilling for værwidget</string>
+    <string name="refreshBtn">Oppdater</string>
+    <string name="saveBtn">Lagre</string>
+    <string name="cancelBtn">Avbryt</string>
+    <string name="nocityfound">Ingen by ble funnet</string>
+    <string name="humidity">Fuktighet</string>
+    <string name="winds">Vind</string>
+    <string name="infor1">Ikke tilgjengelig</string>
+    <string name="searchlistviewtitle">Velg en by</string>
+    <string name="wait">Vent litt ...</string>
+    <string name="refreshFail">Oppdatering mislyktes. Vennligst prøv igjen!</string>
+    <string name="searchFail">Søk mislyktes. Vennligst prøv igjen!</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNØ</string>
+    <string name="dirNE">NØ</string>
+    <string name="dirENE">ØNØ</string>
+    <string name="dirE">Ø</string>
+    <string name="dirESE">ØSØ</string>
+    <string name="dirSE">SØ</string>
+    <string name="dirSSE">SSØ</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSV</string>
+    <string name="dirSW">SV</string>
+    <string name="dirWSW">VSV</string>
+    <string name="dirW">V</string>
+    <string name="dirWNW">VNV</string>
+    <string name="dirNW">NV</string>
+    <string name="dirNNW">NNV</string>
+    <string name="entercityname">Skriv inn en by:</string>
+    <string name="manualtitle">Manuelt innstilt plassering</string>
+    <string name="refreshprogresstitle">Oppdater værinformasjon</string>
+    <string name="refreshprogresscontent">Oppdater nå. Vent litt ...</string>
+    <string name="searchprogresstitle">Søk by</string>
+    <string name="searchprogresscontent">Søk nå. Vent litt ...</string>
+    <string name="no_network">Intet nettverk tilgjengelig. Værinformasjon kan ikke bli oppdatert.</string>
+    <string name="no_provider">All posisjonsinformasjon er ikke for øyeblikket aktivert. Skru på trådløse nettverk og GPS-satellitter i innstillinger for posisjon og sikkerhet for raskere og nøyaktigere posisjonsangivelse.</string>
+    <string name="title_location">Plassering</string>
+    <string name="content_autorefreshed">Auto-oppdater min gjeldende plassering</string>
+    <string name="content_manual">Manuelt søk</string>
+    <string name="title_updatefreq">Oppdateringsfrekvens</string>
+    <string name="content_updatetime">Sist oppdatert</string>
+    <string name="content_selectfreq">Velg oppdateringsfrekvens</string>
+    <string name="title_others">Annet</string>
+    <string name="content_tempunit">Temperaturenhet</string>
+</resources>

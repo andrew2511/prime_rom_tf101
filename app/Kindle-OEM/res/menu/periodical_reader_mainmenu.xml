@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_home" android:id="@id/menuitem_home" android:title="@string/menuitem_home" />
+    <item android:icon="@drawable/ic_menu_front_page" android:id="@id/menuitem_front_page" />
+    <item android:icon="@drawable/ic_menu_articles" android:id="@id/menuitem_articles" android:title="@string/menuitem_articles" />
+    <item android:icon="@drawable/ic_menu_view_options" android:id="@id/menuitem_viewoptions" android:title="@string/menuitem_viewoptions" />
+    <item android:icon="@drawable/ic_menu_previous" android:id="@id/menuitem_prev_article" android:title="@string/menuitem_prev_article" />
+    <item android:icon="@drawable/ic_menu_next" android:id="@id/menuitem_next_article" android:title="@string/menuitem_next_article" />
+</menu>

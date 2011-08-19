@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="book_reader_title_on_page">false</bool>
+    <bool name="limit_article_count">true</bool>
+    <bool name="definition_popup_in_bottom_margin">false</bool>
+    <bool name="transient_screen_translucent_mode">false</bool>
+    <bool name="show_unified_library">false</bool>
+    <bool name="dim_archived_item_covers">false</bool>
+    <bool name="immersive_reading_mode">false</bool>
+    <bool name="reader_location_color_changes">false</bool>
+    <bool name="reader_sync_message_floats">true</bool>
+    <bool name="sync_message_color_changes">false</bool>
+    <bool name="update_theme_on_color_change">false</bool>
+    <bool name="dual_panel_periodical_view_supported">false</bool>
+    <bool name="library_default_to_grid_view">false</bool>
+    <bool name="lock_store_orientation">false</bool>
+</resources>

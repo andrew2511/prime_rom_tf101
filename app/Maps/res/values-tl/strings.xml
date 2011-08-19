@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Pag-navigate sa Google Maps</string>
+    <string name="da_net_fail_title">Kabiguan ng network</string>
+    <string name="da_net_fail_body">Nangangailangan ang application na ito ng gumaganang koneksyon ng data.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Destinasyon</string>
+    <string name="da_toward">patungong %1$s</string>
+    <string name="da_onto">sa %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"pagkatapos ay
+%1$s"</string>
+    <string name="da_continue_for_distance">Magpatuloy ng %1$s</string>
+    <string name="da_destination_will_be_on_the_left">makikita mo sa kaliwa ang iyong patutunguhan.</string>
+    <string name="da_destination_will_be_on_the_right">makikita mo sa kanan ang iyong patutunguhan.</string>
+    <string name="da_you_will_reach_destination">makakarating ka sa iyong patutunguhan.</string>
+    <string name="da_destination_on_the_left">Nasa kaliwa ang iyong patutunguhan.</string>
+    <string name="da_destination_on_the_right">Nasa kanan ang iyong patutunguhan.</string>
+    <string name="da_destination_reached">Nakarating ka na.</string>
+    <string name="da_speech_lost_gps">Nawala ang signal ng GPS</string>
+    <string name="da_speech_lost_data_connection">Nawala ang koneksyon ng data</string>
+    <string name="da_speech_navigation_resumed">Ipinagpatuloy ang navigation</string>
+    <string name="da_speech_please_describe_problem">Mangyaring ilarawan ang problema</string>
+    <string name="da_on_left">sa kaliwa</string>
+    <string name="da_on_right">sa kanan</string>
+    <string name="da_stay_on_road_primary">Manatili sa %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s hanggang %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s hanggang sa %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} (na) mi</string>
+    <string name="da_distance_format_miles_compressed">{0} (na) mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} (na) talampakan</string>
+    <string name="da_distance_format_feet_compressed">{0} ft</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0}yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} (na) km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} (na) km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} (na) m</string>
+    <string name="da_distance_format_meters_compressed">{0} (na) m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s hr</string>
+    <string name="da_time_format_hours" formatted="false">%1$s hr %2$s min</string>
+    <string name="da_time_format_minutes">%1$s (na) min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Nabigasyon</string>
+    <string name="da_search_label">Maghanap</string>
+    <string name="da_layers">Mga Layer</string>
+    <string name="da_agreement">"Nasa beta ang Google Maps Navigation. Mag-ingat.
+
+Huwag gamitin ang application na ito habang nagmamaneho. Hindi real-time ang data ng trapiko, at maaaring mali, mapanganib, ipinagbabawal, o may sangkot na mga ferry ang mga direksyon. Sumunod sa mga nalalapat na batas.
+
+Manatiling nakatingin sa kalsada!"</string>
+    <string name="da_agreement_with_walking">"Nasa beta ang Google Maps Navigation. Mag-ingat.
+
+Huwag gamitin ang application na ito habang nagmamaneho. Hindi real-time ang data ng trapiko, at maaaring mali, mapanganib, ipinagbabawal, o may sangkot na mga ferry ang mga direksyon. Maaaring may nawawalang mga bangketa o tawiran sa mga ruta sa paglalakad. Sumunod sa mga nalalapat na batas.
+
+Manatiling nakatingin sa kalsada!"</string>
+    <string name="da_disclaimer_checkbox">Ipakita ang mensaheng ito sa susunod</string>
+    <string name="da_show_list">Listahan ng Mga Direksyon</string>
+    <string name="da_route_overview">Impormasyon ng Ruta</string>
+    <string name="da_show_map">Ipakita ng Mapa</string>
+    <string name="da_satellite">Satellite</string>
+    <string name="da_traffic_view">View ng trapiko</string>
+    <string name="da_no_traffic_here">Walang impormasyon ng trapiko dito</string>
+    <string name="da_traffic">Trapiko</string>
+    <string name="da_area_view">View ng Lugar</string>
+    <string name="da_mute">I-mute</string>
+    <string name="da_unmute">I-unmute</string>
+    <string name="da_settings">Mga Setting</string>
+    <string name="da_help">Tulong</string>
+    <string name="da_terms_privacy_notices">Mga Tuntunin at Privacy</string>
+    <string name="da_terms_and_conditions">Tuntunin/Kundisyon</string>
+    <string name="da_privacy_policy">Patakaran sa Privacy</string>
+    <string name="da_legal_notices">Mga Abisong Legal</string>
+    <string name="da_navigation_suspended">Nasuspinde ang nabigasyon</string>
+    <string name="da_exit_navigation">Lumabas sa Nabigasyon</string>
+    <string name="da_email_me_when_resolved">I-email ako kapag nalutas na</string>
+    <string name="da_problem_reported">Iniulat na problema</string>
+    <string name="da_one_button_map_issue_reporting">1-click na pag-uulat ng problema</string>
+    <string name="da_attention">Paunawa</string>
+    <string name="da_rmi_warning">"Nagbibigay-daan sa iyo ang pag-ulat ng problema na mag-record ng isang maikling voice message na naglalarawan ng isang isyu sa mapa o sa iyong ruta. Makalipas ang 15 segundo, awtomatikong maipapadala ang iyong mensahe sa Google kasama ang iyong kasalukuyang lokasyon at ruta.
+
+Ang 1-click na shortcut ay maaaring mapagana sa mga setting ng application.
+
+ Kung pinili mong makatanggap ng mga update sa email kapag nalutas ang isyu, maiimbak ang iyong email address kasama ang lokasyon at iyong mga komento hanggang sa malutas ang problema."</string>
+    <string name="da_report_a_problem">Mag-ulat ng Problema</string>
+    <string name="da_report_a_problem_dialog_title">Mag-ulat ng problema</string>
+    <string name="da_rmi_preference_trackball_summary">Kung pinagana, ang pagpindot sa trackball ay magsisimula ng pag-ulat ng problema.</string>
+    <string name="da_rmi_preference_camera_summary">Kung pinagana, ang pagpindot sa pindutan ng kamera ay magsisimula ng pag-ulat sa problema.</string>
+    <string name="da_rmi_preference_no_button_summary">Walang magagamit na mga aktwal na pindutan.</string>
+    <string name="da_rmi_preference_bad_location_summary">Hindi magagamit ang pag-uulat ng problema sa iyong kasalukuyang lokasyon.</string>
+    <string name="da_destination_not_here_warning">Salamat sa pag-uulat na mali ang lokasyon namin sa iyong patutunguhan. Ang iyong kasalukuyang patutunguhan at lokasyon ay ipapadala sa Google upang matulungang mapahusay ang katumpakan ng aming data.</string>
+    <string name="da_destination_not_here_title">Mag-ulat ng problema</string>
+    <string name="da_searching_for_gps">Naghahanap ng GPS...</string>
+    <string name="da_data_connection_lost">Nawala ang koneksyon ng data...</string>
+    <string name="da_follow_the_route">Sundin ang ruta</string>
+    <string name="da_waiting_for_directions">Kumukuha ng mga direksyon sa pagmamaneho</string>
+    <string name="da_waiting_for_walking_directions">Kumukuha ng mga direksyon sa paglalakad</string>
+    <string name="da_waiting_for_location">Naghihintay ng lokasyon</string>
+    <string name="da_checking_navigation_availability">Sinusuri ang kakayahang magamit ang nabigasyon</string>
+    <string name="da_loading_route_details">Nilo-load ang mga detalye ng ruta</string>
+    <string name="da_loading_image">Nilo-load ang larawan</string>
+    <string name="da_waiting_for_alternates">Naghahanap ng mga kahaliling ruta</string>
+    <string name="da_waiting_for_details">Naglo-load</string>
+    <string name="da_no_details">Walang magagamit na mga detalye</string>
+    <string name="da_gps_is_disabled">Hindi pinagana ang GPS</string>
+    <string name="da_turn_on_gps">Ipakita ang mga setting ng lokasyon?</string>
+    <string name="da_voice_guidance">Gabay na boses</string>
+    <string name="da_install_voice_guidance_prompt">Para sa mga voice-guided na nabigasyon, kailangan mong i-install ang supportang text-to-speech mula sa Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Laktawan</string>
+    <string name="da_dialog_cancel">Kanselahin</string>
+    <string name="da_dialog_done">Tapos na</string>
+    <string name="da_dialog_accept">Tanggapin</string>
+    <string name="da_dialog_install">I-install</string>
+    <string name="da_dialog_dont_accept">Huwag Tanggapin</string>
+    <string name="da_dialog_go">Pumunta</string>
+    <string name="da_dialog_get_directions">Kumuha ng Mga Direksyon</string>
+    <string name="da_map">Mapa</string>
+    <string name="da_clear_layers">Linisin ang Mapa</string>
+    <string name="da_layer_name_parking">Paradahan</string>
+    <string name="da_layer_name_attractions">Attractions</string>
+    <string name="da_layer_name_gas_stations">Mga Gasolinahan</string>
+    <string name="da_layer_name_restaurants">Restaurant</string>
+    <string name="da_layer_name_supermarkets">Mga Supermarket</string>
+    <string name="da_layer_name_atms_and_banks">Mga ATM at Bangko</string>
+    <string name="da_layer_name_convenience_stores">Mga Convenience Store</string>
+    <string name="da_query_banks_and_atms">Mga Bangko at ATM</string>
+    <string name="da_rerouting">Nagre-reroute...</string>
+    <string name="da_via">Sa %s</string>
+    <string name="da_to_destination">hanggang sa %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Magtala ng Feedback</string>
+    <string name="da_destination_not_here">Hindi dito ang patutunguhan</string>
+    <string name="da_new_destination">Susunod na Patutunguhan</string>
+    <string name="da_reroute_to_destination">Bumalik sa Patutunguhan</string>
+    <string name="da_change_destination">Itakda ang Patutunguhan</string>
+    <string name="da_search_for_destination">Maghanap...</string>
+    <string name="da_point_on_map">Ituro sa mapa</string>
+    <string name="da_volume">Volume ng Navigation</string>
+    <string name="da_exit">Mag-exit</string>
+    <string name="da_did_you_mean">Ibig mo bang sabihin ay:</string>
+    <string name="da_did_you_say">Ang sinabi mo ba ay:</string>
+    <string name="da_for_your_end_point">Para sa iyong end point</string>
+    <string name="da_unnamed_road">Walang pangalang kalsada</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, pagkatapos ay %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Sa %1$s (na) metro</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">"Sa isa't kalahating kilometro"</string>
+    <string name="da_speech_continue_for_x_meters">Magpatuloy nang %1$s metro</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">"Magpatuloy nang isa't kalahating kilometro"</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Magpatuloy sa %2$s nang hanggang %1$s metro</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">"Magpatuloy sa %1$s para sa isa't kalahating kilometro"</string>
+    <string name="da_speech_generic_continue">Dumiretso</string>
+    <string name="da_speech_in_x_feet">Sa %1$s(na) talampakan</string>
+    <string name="da_speech_in_x_yards">sa %1$s (na) yarda</string>
+    <string name="da_speech_in_a_quarter_mile">Sa isang-kapat na milya</string>
+    <string name="da_speech_in_a_half_mile">Sa kalahating milya</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Sa tatlong-kapat na milya</string>
+    <string name="da_speech_in_one_and_a_half_miles">"Sa isa't kalahating milya"</string>
+    <string name="da_speech_continue_for_x_feet">Magpatuloy nang %1$s talampakan</string>
+    <string name="da_speech_continue_for_x_yards">Magpatuloy nang %1$s yarda</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Magpatuloy nang isang-kapat na milya</string>
+    <string name="da_speech_continue_for_a_half_mile">Magpatuloy nang kalahating milya</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Magpatuloy nang tatlong-kapat na milya</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">"Magpatuloy nang isa't kalahating milya"</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Magpatuloy sa %2$s nang hanggang %1$s talampakan</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Magpatuloy sa %2$s nang hanggang %1$s yarda</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Magpatuloy sa %1$s nang isang-kapat na milya</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Magpatuloy sa %1$s nang kalahating milya</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Magpatuloy sa %1$s nang tatlong-kapat na milya</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">"Magpatuloy sa %1$s nang isa't kalahating milya"</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SW,W,NW</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SW,W,NW,Ave,Blvd,Byp,Cir,Ct,Dr,Expy,Fwy,Hwy,Ln,Pkwy,Pl,Rd,St,Thrwy,Way</string>
+    <string name="da_no_route">Walang natagpuang ruta</string>
+    <string name="da_route_not_found">Hindi kami makahanap ng ruta patungo sa iyong patutunguhan.</string>
+    <string name="da_destination_not_found">Hindi namin maunawaan ang patutunguhan.</string>
+    <string name="da_navigation_not_supported">Hindi magagamit ang Nabigasyon sa iyong patutunguhan.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Ang Google Maps Navigation ay hindi pa magagamit sa lokasyong ito.</string>
+    <string name="da_launch_maps">Ilunsad ang Maps</string>
+    <string name="da_no_image_available">Walang magagamit na larawan.</string>
+    <string name="da_image_error">Error sa pag-load ng larawan.</string>
+    <string name="da_no_alternate_routes">Hindi kami makahanap ng mga kahaliling ruta patungo sa iyong patutunguhan.</string>
+    <string name="da_picker_type_destination">Ilagay ang Patutunguhan</string>
+    <string name="da_picker_speak_destination">Sabihin ang Patutunguhan</string>
+    <string name="da_picker_contacts">Mga Contact</string>
+    <string name="da_picker_starred_items">May Star na Lugar</string>
+    <string name="da_picker_new_contact">Bagong Contact</string>
+    <string name="da_picker_recent_destinations">Pinakakamakailang Mga Patutunguhan</string>
+    <string name="da_picker_choose_destination">Pumili ng Patutunguhan</string>
+    <string name="da_navigate_to">Mag-navigate sa</string>
+    <string name="da_picker_search_hint">Patutunguhan</string>
+    <string name="da_route_options">Mga pagpipiliang ruta</string>
+    <string name="da_updating_directions">Pag-update ng mga direksyon</string>
+    <string name="da_picker_no_starred_items">"Wala kang anumang mga naka-star na lugar.
+
+Ang mga naka-star na lugar ay awtomatikong sini-synchronize sa maps.google.com.
+
+Maaari mong malagyan ng star ang mga resulta ng paghahanap sa Google Maps sa pamamagitan ng pag-tap sa icon ng star malapit sa address."</string>
+    <string name="da_picker_no_contacts">"Wala kang anumang mga contact na may mga address.
+
+Makakapagdagdag ka ng mga bagong contact o makakapagtakda ng mga address para sa umiiral na mga contact sa Contacts app."</string>
+    <string name="da_driving">Pagmamaneho</string>
+    <string name="da_walking">Naglalakad</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Higit pang impormasyon</string>
+    <string name="da_search_maps">Hanapan ang Maps</string>
+    <string name="da_walking_warning">Paglalakad (beta): gumamit ng babala</string>
+    <string name="da_calibrate_compass_title">Pagtatama ng compass</string>
+    <string name="da_calibrate_compass">Hindi naka-calibrate ang iyong compass. Upang i-calibrate mangyaring iwagayway ang device sa figure 8 pattern nang ilang beses.</string>
+    <string name="da_confirm_exit_title">Lumabas sa nabigasyon?</string>
+    <string name="da_confirm_exit_text">Tatapusin nito ang lahat ng alituntunin ng ruta.</string>
+    <string name="da_route_includes_tolls">Kabilang sa ruta ang mga toll</string>
+    <string name="da_avoid_tolls">Iwasan ang mga toll</string>
+    <string name="da_avoiding_tolls">Pag-iwas sa mga toll</string>
+    <string name="da_avoiding_highways">Pag-iwas sa mga highway</string>
+    <string name="da_route_includes_unavoidable_tolls">Kasama ng rutang ito ang mga toll.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Kasama ng rutang ito ang mga toll. Huwag paganahin ang mga ruta ng toll sa %1$s%2$s sa ibaba.</string>
+    <string name="da_seasonally_closed">Maaaring nakasara kung minsan ang ruta</string>
+    <string name="da_direction_north">hilaga</string>
+    <string name="da_direction_north_west">hilagang-kanluran</string>
+    <string name="da_direction_west">kanluran</string>
+    <string name="da_direction_south_west">timog-kanluran</string>
+    <string name="da_direction_south">timog</string>
+    <string name="da_direction_south_east">timog-silangan</string>
+    <string name="da_direction_east">silangan</string>
+    <string name="da_direction_north_east">hilagang-silangan</string>
+    <string name="da_step_depart">Tumungo sa %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Tumungo sa %1$s sa %2$s</string>
+    <string name="da_step_slight_left">Lumiko nang bahagya pakaliwa</string>
+    <string name="da_step_slight_right">Lumiko nang bahagya pakanan</string>
+    <string name="da_step_turn_left">Lumiko pakaliwa</string>
+    <string name="da_step_turn_right">Lumiko pakanan</string>
+    <string name="da_step_sharp_left">Biglang kaliwa</string>
+    <string name="da_step_sharp_right">Biglang kanan</string>
+    <string name="da_step_slight_left_onto">Bahagyang lumiko pakaliwa papunta sa %1$s</string>
+    <string name="da_step_slight_right_onto">Lumiko nang bahagya pakanan papunta sa %1$s</string>
+    <string name="da_step_turn_left_onto">Lumiko pakaliwa papunta sa %1$s</string>
+    <string name="da_step_turn_right_onto">Lumiko pakanan papunta sa %1$s</string>
+    <string name="da_step_sharp_left_onto">Biglang kaliwa papunta sa %1$s</string>
+    <string name="da_step_sharp_right_onto">Biglang kanan papunta sa %1$s</string>
+    <string name="da_step_fork_left">Manatiling nasa kaliwa kapag nahati ang kalye</string>
+    <string name="da_step_fork_right">Manatiling nasa kanan kapag nahati ang kalye</string>
+    <string name="da_step_continue_onto">Magpatuloy papunta sa %1$s</string>
+    <string name="da_step_continue_straight">Dumiretso</string>
+    <string name="da_step_u_turn">Mag-U-turn</string>
+    <string name="da_step_take_the_ramp">Gamitin ang ramp</string>
+    <string name="da_step_take_the_ramp_onto">Gamitin ang ramp papunta sa %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Gamitin ang ramp sa kaliwa</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Gamitin ang ramp sa kaliwa papunta sa %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Gamitin ang ramp sa kanan</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Gamitin ang ramp sa kanan papunta sa %1$s</string>
+    <string name="da_step_take_the_exit">Lumabas sa exit</string>
+    <string name="da_step_take_the_exit_on_the_left">Lumabas sa exit sa kaliwa</string>
+    <string name="da_step_take_the_exit_on_the_right">Lumabas sa exit sa kanan</string>
+    <string name="da_step_take_the_exit_onto">Lumabas sa exit papunta sa %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Lumabas sa exit sa kaliwa papunta sa %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">lumabas sa exit sa kanan papunta sa %1$s</string>
+    <string name="da_step_take_exit_n">Lumabas sa exit %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Koleksyon ng Imahe ©%2$d %3$s, Data ng mapa ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Koleksyon ng Imahe ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Data ng mapa ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Home</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Mga Direksyon at Nabigasyon</string>
+    <string name="EXIT_COMMAND">Lumabas</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">Gusto ni {0} na mag-check in ka.</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Kahilingan sa pag-check in sa Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Magpasok ng address</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Icon ng shortcut</string>
+    <string name="GOHOME_SAVE_SHORTCUT">I-save</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Patutunguhan</string>
+    <string name="GOHOME_SHORTCUT_NAME">Pangalan ng shortcut</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Nabigasyon sa bawat pagliko</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Magbukas ng Mga Setting</string>
+    <string name="HOTPOT_LOADING">Naglo-load...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Hinihiningi ng widget ng I-rate ang Places na paganahin mo angGumamit ng mga wireless network (sa mga setting ng Lokasyon Seguridad) at Wi-Fi (sa mga setting ng Wireless at network).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Mangyaring paganahin ang Gumamit ng mga wireless network sa mga setting ng Lokasyon at Seguridad, upang magamit ang widget ng I-rate ang Places.</string>
+    <string name="HOTPOT_NO_LOCATION">Walang impormasyon ng lokasyon</string>
+    <string name="HOTPOT_SEARCH">Maghanap</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Maghanap para sa: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Maghanap Muli</string>
+    <string name="HOTPOT_SELECT_PLACE">Pumili ng lugar upang i-rate</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Pumili ng lugar: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Di-kilalang lokasyon</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Nire-refresh ang Lokasyon...</string>
+    <string name="HOTPOT_WIDGET_NAME">I-rate ang Places</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Pag-po-post sa publiko bilang {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Magsabi pa</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Na-update noong {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Paki-on ang Wi-Fi sa mga setting ng Wireless at network upang pagbutihin ang katumpakan sa lokasyon ng widget ng Rate Places</string>
+    <string name="HOTPOT_YOU_RATED">"Nai-rate mo ang: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Sa {0} at ibinahagi kina {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Naka-check in sa {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Naka-check in sa {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">"Mag-check in sa? "</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Tapikin upang mag-sign in sa Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Huling Na-update noong: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Di-kilalang lokasyon</string>
+    <string name="LOADING">Naglo-load</string>
+    <string name="MAPS_APP_NAME">Maps</string>
+    <string name="NEED_NET_BODY">"Ang application na ito ay hindi maaaring magamit hangga't hindi mo ito pinahihintulutan na magpadala at tumanggap ng data sa pamamagitan ng network."</string>
+    <string name="NEED_NET_TITLE">Kinakailangan ng network access</string>
+    <string name="NETWORK_DATA_ERROR">Kailangan ng application na ito ng koneksyon sa data. Mangyaring makipag-ugnayan sa iyong carrier.</string>
+    <string name="NET_FAIL_BODY">Nangangailangan ang application na ito ng gumaganang koneksyon ng data.</string>
+    <string name="NET_FAIL_TITLE">Kabiguan ng network</string>
+    <string name="NET_UNAVAILABLE_TITLE">Hindi maaaring magamit ang Network</string>
+    <string name="PLACES_APP_NAME">Places</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">hal. Spaghetti Bolognese, Mga Cocktail, Musika</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Ano ang mas kapansin-pansin?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Kanselahin</string>
+    <string name="RATINGS_OPTIN_CLOSE">Isara</string>
+    <string name="RATINGS_OPTIN_FAILED">Nabigo ang pag-update, pakisubukang muli sa ibang pagkakataon.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Gawin itong social!&lt;/b> Pumunta sa &lt;b>{0}&lt;/b> sa iyong computer upang magdagdag ng mga kaibigan at tuklasin ang mga lugar na gusto nila.</string>
+    <string name="RATINGS_OPTIN_HEADING">Itakda ang iyong pampublikong nickname sa Google Places.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Pangalan o palayaw: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">I-rate ang iyong mga paboritong restaurant, cafe at iba pang mga lugar upang kumuha ng mga rekomendasyon sa mga resulta ng paghahanap batay sa iyong mga personal na panlasa.</string>
+    <string name="RATINGS_OPTIN_SAVE">Magsimula</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Ang iyong mga rating ng mga lugar ay &lt;b>publiko sa web&lt;/b> na may nickname na ito.&lt;a href=#>Matuto nang higit pa&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Pag-po-post sa publiko sa web bilang {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Pag-po-post sa publiko sa web.</string>
+    <string name="RATINGS_RATE_PLACES">Bakit kailangan i-rate ang mga lugar?</string>
+    <string name="RATINGS_SET_APPEARANCE">Itakda ang hitsura</string>
+    <string name="RATINGS_WAIT">Pakihintay lamang...</string>
+    <string name="SEARCH_HINT">Hanapan ang Maps</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Dulo</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trapiko</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Pangalan ng widget</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">I-save</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Panimulang puwesto</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Seryosong error :  Mangyaring lumabas at mag-restart."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Hindi kilalang error</string>
+    <string name="UPGRADE_BODY">Kailangan mong mag-install ng bagong bersyon upang magamit ang application na ito.</string>
+    <string name="UPGRADE_TITLE">Pag-upgrade ng Software</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Maps live wallpaper</string>
+    <string name="WALLPAPER_MAP_MODE">Mode ng mapa</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satellite</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Ang mode ng mapa hal. Satellite</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Terrain</string>
+    <string name="WALLPAPER_SETTINGS">Mga setting sa maps live wallpaper</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Ipakita ang trapiko</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Ipakita ang kasalukuyang panahon sa mapa. Kailangan may naka-install kang widget sa panahon.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Panahon</string>
+</resources>

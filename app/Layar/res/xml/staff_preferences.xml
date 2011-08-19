@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="Debug">
+        <CheckBoxPreference android:layout="@layout/preference_check" android:title="Skyhook debug" android:key="skyhook.debug" android:summary="Show the accuracy and distance moved since last position" android:defaultValue="false" />
+        <EditTextPreference android:layout="@layout/preference_dialog" android:title="Add favorites" android:key="test.add.favorites" android:summary="How much favorite layers need to be added while fake adding" android:defaultValue="100" />
+    </PreferenceCategory>
+</PreferenceScreen>

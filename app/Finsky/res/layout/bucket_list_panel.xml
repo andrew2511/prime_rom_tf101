@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/panel_horizontal_margin" android:layout_marginRight="@dimen/panel_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/bucket_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_results_view" />
+</FrameLayout>

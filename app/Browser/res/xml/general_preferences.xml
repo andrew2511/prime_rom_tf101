@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.browser.BrowserHomepagePreference android:hint="@string/http" android:title="@string/pref_content_homepage" android:key="homepage" android:inputType="textMultiLine|textUri" />
+    <PreferenceCategory android:title="@string/pref_general_sync_title">
+        <Preference android:title="@string/pref_personal_sync_with_chrome" android:key="sync_with_chrome" android:summary="@string/pref_personal_sync_with_chrome_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_general_autofill_title">
+        <CheckBoxPreference android:title="@string/pref_autofill_enabled" android:key="autofill_enabled" android:summary="@string/pref_autofill_enabled_summary" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/pref_autofill_profile_editor" android:key="autofill_profile" android:summary="@string/pref_autofill_profile_editor_summary" android:fragment="com.android.browser.AutoFillSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

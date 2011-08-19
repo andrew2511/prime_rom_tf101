@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>แสดงเนื้อหาของข้อความเป็นตัวอักษรขนาดเล็กมาก</item>
+        <item>แสดงเนื้อหาของข้อความเป็นตัวอักษรขนาดเล็ก</item>
+        <item>แสดงเนื้อหาของข้อความเป็นตัวอักษรขนาดปกติ</item>
+        <item>แสดงเนื้อหาของข้อความเป็นตัวอักษรขนาดใหญ่</item>
+        <item>แสดงเนื้อหาของข้อความเป็นตัวอักษรขนาดใหญ่มาก</item>
+    </string-array>
+</resources>

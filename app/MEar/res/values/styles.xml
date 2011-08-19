@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="List_over" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/btn_over</item>
+    </style>
+</resources>

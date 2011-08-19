@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Limpar td</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Sem ligação internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ligado</string>
+    <string name="gps_notification_searching_text">A procurar GPS</string>
+    <string name="gps_notification_found_text">Localização definida por GPS</string>
+    <string name="notifications_off_title">Notificações desativadas</string>
+    <string name="notifications_off_text">Toque aqui para voltar a ativar as notificações.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.googlenav.ui.TabRow android:id="@id/tabrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:background="@drawable/btn_tab_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.google.googlenav.ui.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

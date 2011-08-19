@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">重試</string>
+    <string name="offline">離線</string>
+    <string name="retry_offline_content">網路連接不穩定，重試還是以離線模式使用本程式？</string>
+    <string name="cancel">取消</string>
+    <string name="change_password">更改密碼</string>
+    <string name="close">關閉</string>
+    <string name="confirm_new_password">確認新密碼</string>
+    <string name="create_account">建立帳戶</string>
+    <string name="create_an_account">建立帳戶</string>
+    <string name="date">日期</string>
+    <string name="delete">刪除</string>
+    <string name="delete_all">刪除所有</string>
+    <string name="delete_mode_caption">刪除模式 - 點按要刪除的項目</string>
+    <string name="email_address">電子郵件地址</string>
+    <string name="exit">退出</string>
+    <string name="faq">常見問題</string>
+    <string name="first_name">名字</string>
+    <string name="free">免費</string>
+    <string name="forgot_password">忘記密碼</string>
+    <string name="last_name">姓氏</string>
+    <string name="learn_more">瞭解更多内容</string>
+    <string name="legal_notices">法律聲明</string>
+    <string name="library">圖書館</string>
+    <string name="manage_tips">管理提示</string>
+    <string name="more">更多</string>
+    <string name="more_options">更多選項</string>
+    <string name="my_magazines">我的雜誌 - 點按即可檢視或下載</string>
+    <string name="new_password">新密碼（5-20 個字符）</string>
+    <string name="ok">確定</string>
+    <string name="old_password">舊密碼</string>
+    <string name="password">密碼</string>
+    <string name="required">必填</string>
+    <string name="required_first_name">必填的名字</string>
+    <string name="required_last_name">必填的姓氏</string>
+    <string name="required_email_address">必填的電子郵件地址</string>
+    <string name="required_password">必填的密碼</string>
+    <string name="retype_password">重新輸入密碼</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_out">登出</string>
+    <string name="share">共享</string>
+    <string name="shop">書店</string>
+    <string name="text">文字</string>
+    <string name="title">標題</string>
+    <string name="turn_on_wifi">開啟 WiFi</string>
+    <string name="uninstall">卸載</string>
+    <string name="welcome_to_zinio">歡迎光臨 Zinio</string>
+    <string name="email_non_lower_case">電郵</string>
+    <string name="sd_card_non_lower_case">SD 卡</string>
+    <string name="show_password_non_lower_case">顯示密碼</string>
+    <string name="show_tips_non_lower_case">顯示提示</string>
+    <string name="forgot_password_underlined"><u>是否忘記密碼？</u></string>
+    <string name="terms_of_service_underlined"><u>服務條款</u></string>
+    <string name="label_share_email1">閱讀摘自以下刊物的文章：</string>
+    <string name="label_share_email2">"並想與您分享佳作！
+
+本郵件的附件包含原始文章。
+
+關於更多出版物，歡迎訪問 www.zinio.com"</string>
+    <string name="label_receive_from_partners">請給我發送 Zinio 的信託合作夥伴提供的特惠產品。</string>
+    <string name="label_receive_from_zinio">請透過電子郵件告訴我 Zinio 提供的特惠產品。</string>
+    <string name="label_status_calculating">正在計算...</string>
+    <string name="label_status_new">新增</string>
+    <string name="label_status_not_downloaded">未下載</string>
+    <string name="label_status_downloading">已下載 %s%%</string>
+    <string name="label_tip_hide">關閉提示。 可透過「更多設置」對其進行管理。</string>
+    <string name="toast_change_password_success">密碼更改成功。</string>
+    <string name="toast_issue_download_complete_left">下載用於</string>
+    <string name="toast_issue_download_complete_right">完成</string>
+    <string name="toast_no_articles">當前頁面沒有文章。</string>
+    <string name="toast_register_success">已成功建立賬戶。</string>
+    <string name="toast_no_email_client">通知： 未配置電郵客戶端</string>
+    <string name="progress_dialog_wait_msg">請稍候...</string>
+    <string name="dialog_warning_title">警告</string>
+    <string name="dialog_no_connectivity_warning">本畫面需要網際網路存取。 請檢查您的連接或飛機模式設置。</string>
+    <string name="dialog_passwords_not_matching_warning">密碼不符。</string>
+    <string name="dialog_password_length_warning">密碼應當包含 5 到 20 個字符。</string>
+    <string name="dialog_service_exception_warning">遇到伺服器問題。 請稍後重試。</string>
+    <string name="dialog_uninstall_warning">本操作將刪除所有 Zinio 圖書館資料，並且不能恢復。 您將需要重新下載您的出版物。</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"您沒有連接，因此無法下載任何出版物。
+
+您可在恢復連接後下載出版物。"</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">新舊密碼必須是不一樣的。</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">舊密碼有誤。</string>
+    <string name="dialog_library_no_connectivity_warning">"需要連接才能下載出版物。
+
+您仍可閱讀您的圖書館中現有的內容，並在恢復連接後下載出版物。"</string>
+    <string name="dialog_login_incorrect_credentials_warning">"您的使用者名稱或密碼有誤。
+
+請重試。"</string>
+    <string name="dialog_login_max_user_devices_reached_warning">本帳戶已達到授權設備數量上限。 請取消對某個設備的授權，然後重試。</string>
+    <string name="dialog_register_account_already_exists">電子郵件地址已經存在。 請選擇不同的地址。</string>
+    <string name="dialog_register_empty_email_error">請輸入電子郵件地址。</string>
+    <string name="dialog_register_first_name_short_error">請輸入名字。</string>
+    <string name="dialog_register_first_name_long_error">名字不得超過 80 個字符。</string>
+    <string name="dialog_register_invalid_email_error">請輸入有效的電子郵件地址。</string>
+    <string name="dialog_register_last_name_short_error">請輸入姓氏。</string>
+    <string name="dialog_register_last_name_long_error">姓氏不得超過 80 個字符。</string>
+    <string name="dialog_register_other_error">出現錯誤。 請重試。</string>
+    <string name="dialog_register_password_empty">請輸入新密碼。</string>
+    <string name="dialog_sign_out_disabled_warning">沒有已登入的使用者，不能登出。</string>
+    <string name="dialog_app_version_not_supported_title">有升級可用</string>
+    <string name="dialog_app_version_not_supported_msg">有更新版本的 Zinio Reader 提供。 已不再支援此版本。 請升級至最新的 Zinio Reader</string>
+    <string name="dialog_delete_all_title">刪除所有</string>
+    <string name="dialog_delete_all_msg">"您已經表示想從您的圖書館中刪除所有出版物。
+
+別擔心，您不會永久丟失任何內容。
+
+刪除過程只是從您的設備清除內容。 您仍可根據需要重新下載出版物。"</string>
+    <string name="dialog_not_enough_space_title">空間不足</string>
+    <string name="dialog_not_enough_space_msg">本設備磁碟空間不足，無法下載選定的出版物。 請騰出至少 %d MB，然後重試。</string>
+    <string name="dialog_sd_card_not_available_title">SD 卡不可用</string>
+    <string name="dialog_sd_card_not_available_msg">已移除 SD 卡。 Zinio 應用程式即將退出。 請插入 SD 卡，然後重新啟動應用程式。</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD 卡已滿</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD 可已滿。 請騰出一些空間。</string>
+    <string name="dialog_shop_no_connectivity_title">書店不可用</string>
+    <string name="dialog_shop_no_connectivity_msg">需要連接才能存取書店。 請檢查您的連接或飛機模式設置。</string>
+    <string name="dialog_sign_out_title">登出</string>
+    <string name="dialog_sign_out_msg">"您確定要登出嗎？
+
+您將需要重新登入才能存取 Zinio 應用程式。"</string>
+    <string name="dialog_tip_title">提示</string>
+    <string name="dialog_manage_tips_title">管理提示</string>
+    <string name="non_supported_device_tip_title">歡迎光臨 Zinio</string>
+    <string name="non_supported_device_tip_msg">"在設備上閱讀 Zinio 的富內容時，最好使用至少 800x480 的螢幕。
+
+您可繼續使用該應用程式，但請注意，可能無法享受最佳體驗。"</string>
+    <string name="no_text_tip_msg">有些出版物並沒有文本文章， 您可以使用「目錄」或「可視索引」來找到自己要查找的頁面。</string>
+    <string name="page_tip0_1">"單擊查看工具欄。
+您可選擇圖像或文字型的目錄。"</string>
+    <string name="page_tip1">"新手入門技巧：
+
+* 向左或向右刷進行翻頁
+* 雙擊畫面進行縮放
+* 選擇文章首頁的「文字」按鈕進行閱讀。"</string>
+    <string name="wifi_connection_tip">"已檢測到 3G 網路連接。
+
+雖然仍可透過 3G 下載出版物，但如欲享受最佳體驗，建議使用 wifi。"</string>
+    <string name="dialog_available_memory_not_enough_title">堆棧大小 不足</string>
+    <string name="dialog_available_memory_not_enough_msg">堆棧大小不足。</string>
+    <string name="dialog_delete_title">刪除</string>
+    <string name="delete_done">完成</string>
+    <string name="dialog_delete_from_library">您真想刪除 %s</string>
+    <string name="internet_connection_tip">需要網際網路連接才能下載出版物。請開啟網路連接，然後重試。</string>
+    <string name="dialog_change_password_old_password_empty">請輸入舊密碼。</string>
+    <string name="server_error_app_version_not_supported_message">有升級可用 有更新版本的 Zinio Reader 提供。 已不再支援此版本。 請升級至最新的 Zinio Reader</string>
+    <string name="server_error_authentication_failed">"您的使用者名稱或密碼有誤。
+
+請重試。舊密碼有誤。"</string>
+    <string name="server_error_device_not_authorized">此設備尚未獲得使用您的 Zinio 帳戶的適當授權。 若要重新授權您的設備，請先登出應用程式並重新登入。若仍有問題，請聯絡 Zinio 客戶支援。</string>
+    <string name="server_error_invalid_login">電子郵件地址無效。 請輸入有效的電子郵件地址。</string>
+    <string name="server_error_invalid_new_password">密碼無效，請選擇其他密碼。</string>
+    <string name="server_error_issue_not_supported_for_device">期刊無效。 請聯絡客戶服務，地址： support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">本帳戶已達到授權設備數量上限。 請取消對某個設備的授權，然後重試。</string>
+    <string name="server_error_packing_list_not_found">缺少裝箱單。 請聯絡客戶服務，地址： support@zinio.com.</string>
+    <string name="server_error_login_exists">電子郵件地址已經存在。 請選擇不同的地址。</string>
+    <string name="server_error_system_error">發生伺服器錯誤。 請稍後重試。</string>
+    <string name="server_error_system_not_available">應用程式的某些部分目前可能不可用。 如果您無法存取某些內容，請稍後重試。</string>
+    <string name="server_error_no_items_in_library">您目前沒有雜誌。 「書店」選項卡上列有可用的雜誌。</string>
+    <string name="server_error_user_not_entitled">使用者未經授權。 請聯絡客戶服務，地址： support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">是否想現在對 Zinio Reader 做出評價？</string>
+    <string name="dialog_outofdate_issue_removed_msg">過往期刊已被移除，並將重新下載。</string>
+    <string name="dialog_review_msg">您的回饋意見對我們非常重要，請現在做出評論。</string>
+    <string name="dialog_review_title">請做出評論。</string>
+    <string name="server_error_invalid_newstand">書店無效。 請聯絡客戶服務，地址： support@zinio.com.</string>
+</resources>

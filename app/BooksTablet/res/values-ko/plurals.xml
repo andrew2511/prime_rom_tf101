@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">총 %1$2$d권 중 %2$1$d권</item>
+        <item quantity="one">도서 1권</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">죄송합니다. 이 도서의 동시 읽기는 휴대기기 또는 컴퓨터 %1$d대로 제한됩니다. 다른 리더에서 이 도서를 닫고 몇 분 정도 기다린 후에 다시 시도해 주세요.</item>
+        <item quantity="one">죄송합니다. 이 도서의 동시 읽기는 휴대기기 또는 컴퓨터 한 대로 제한됩니다. 다른 리더에서 이 도서를 닫고 몇 분 정도 기다린 후에 다시 시도해 주세요.</item>
+    </plurals>
+</resources>

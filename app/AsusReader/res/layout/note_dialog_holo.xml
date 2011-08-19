@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/translate_scv1" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_alignParentLeft="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/note_input_text" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+</ScrollView>

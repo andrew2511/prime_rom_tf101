@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Πρόγραμμα εκκίνησης ενημερώσεων</string>
+    <string name="TITLE_DETECTED">Εντοπίστηκε αρχείο ενημέρωσης συστήματος</string>
+    <string name="TITLE_SYSTEM_UPDATE">Ενημέρωση συστήματος</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Διατίθεται ενημέρωση συστήματος</string>
+    <string name="MSG_PRELIMINARY">"Για την Ενημέρωση συστήματος θα χρειαστούν περίπου 10 λεπτά. Δεν θα μπορείτε να χρησιμοποιήσετε τη συσκευή σας κατά τη διάρκεια της ενημέρωσης, συμπεριλαμβανομένων και των επειγουσών κλήσεων.
+
+Συνδέστε το καλώδιο τροφοδοσίας ή βεβαιωθείτε ότι το επίπεδο της μπαταρίας είναι τουλάχιστον 15%.
+
+Θέλετε να συνεχίσετε με την ενημέρωση του συστήματος;"</string>
+    <string name="BUTTON_CANCEL">Ακύρωση</string>
+    <string name="MSG_RESUME">Αγγίξτε για να ξεκινήσει η ενημέρωση συστήματος.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Ολοκληρώθηκε η Ενημέρωση συστήματος</string>
+    <string name="MSG_UPDATE_DONE">Το σύστημα έχει ενημερωθεί με επιτυχία.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Το αρχείο ενημέρωσης δεν υπάρχει.</string>
+    <string name="MSG_UPDATE_FAIL">Απέτυχε η ενημέρωση συστήματος.</string>
+    <string name="MSG_UPDATE_RESTORE">Το σύστημα επανήλθε στην προηγούμενη ρύθμιση παραμέτρων</string>
+    <string name="MSG_BATTERY_LOW">"Η διαδικασία ενημέρωσης του συστήματος διακόπηκε λόγω χαμηλού επιπέδου μπαταρίας.
+
+Συνδέστε το καλώδιο τροφοδοσίας πριν την ενημέρωση του συστήματος."</string>
+    <string name="TITLE_SELECT_FILE">Επιλογή Πακέτου ενημέρωσης</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Το πακέτο ενημέρωσης δεν είναι συμβατό με το τρέχον λογισμικό σας, ελέγξτε την έκδοση του λογισμικού και τον αριθμό έκδοσης στις Ρυθμίσεις και δοκιμάστε το σωστό πακέτο ενημέρωσης.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Το πακέτο ενημέρωσης είναι προγενέστερο της τρέχουσας έκδοσης λογισμικού που χρησιμοποιείτε, δοκιμάστε ένα πακέτο ενημέρωσης νεότερης έκδοσης.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Άγνωστο σφάλμα.</string>
+</resources>

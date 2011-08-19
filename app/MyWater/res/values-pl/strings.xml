@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Domyślna żywa tapeta firmy ASUS.</string>
+    <string name="mywater_setting">Ustawienia ASUS MyWater</string>
+    <string name="enable_rotation">Włącz zawirowania wody</string>
+    <string name="enable_rotation_description">Woda wiruje wraz z obracaniem urządzenia.</string>
+</resources>

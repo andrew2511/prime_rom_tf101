@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.voicesearch.RecognitionDialog android:orientation="vertical" android:id="@id/recognition_dialog" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recognition_dialog_marginTop" style="@style/positioned_dialog" />
+    <FrameLayout android:id="@id/init_spinny" android:layout_width="@dimen/spinny_size" android:layout_height="@dimen/spinny_size" android:layout_alignLeft="@id/recognition_dialog" android:layout_alignTop="@id/recognition_dialog">
+        <include layout="@layout/spinny" />
+    </FrameLayout>
+</RelativeLayout>

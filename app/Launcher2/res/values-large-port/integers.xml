@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="customization_drawer_contents_wallpaperCellSpanX">3</integer>
+    <integer name="customization_drawer_contents_wallpaperCellCountX">9</integer>
+    <integer name="customization_drawer_contents_widgetCellCountX">9</integer>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Hvis den valgte teksten overskrider grensen, kan noe av innholdet bli avkortet.</string>
+    <string name="post_successfully">Innlegg vellykket</string>
+</resources>

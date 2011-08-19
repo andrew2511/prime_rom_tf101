@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d iš %2$2$d knyg.</item>
+        <item quantity="one">Viena knyga</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Apgailestaujame, tačiau šią knygą vienu metu galima skaityti naudojant %1$d įrenginius (-ių) ar kompiuterius (-ių), o jūs pasiekėte šį apribojimą. Uždarykite šią knygą kitose skaitymo programose, palaukite kelias minutes ir bandykite dar kartą.</item>
+        <item quantity="one">Apgailestaujame, tačiau šią knygą vienu metu galima skaityti naudojant vieną įrenginį ar kompiuterį, o jūs pasiekėte šį apribojimą. Uždarykite šią knygą kitose skaitymo programose, palaukite kelias minutes ir bandykite dar kartą.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">การตั้งค่าวิดเจ็ทสภาพอากาศ</string>
+    <string name="refreshBtn">รีเฟรช</string>
+    <string name="saveBtn">บันทึก</string>
+    <string name="cancelBtn">ยกเลิก</string>
+    <string name="nocityfound">ไม่พบเมือง</string>
+    <string name="humidity">ความชื้น</string>
+    <string name="winds">ลม</string>
+    <string name="infor1">ไม่มี</string>
+    <string name="searchlistviewtitle">เลือกเมือง</string>
+    <string name="wait">โปรดรอสักครู่...</string>
+    <string name="refreshFail">รีเฟรชล้มเหลว โปรดลองใหม่อีกครั้ง</string>
+    <string name="searchFail">ค้นหาล้มเหลว โปรดลองใหม่อีกครั้ง</string>
+    <string name="dirN">ทางเหนือ</string>
+    <string name="dirNNE">ทางเหนือและตะวันออกเฉียงเหนือ</string>
+    <string name="dirNE">ทางตะวันออกเฉียงเหนือ</string>
+    <string name="dirENE">ทางตะวันออกและตะวันออกเฉียงเหนือ</string>
+    <string name="dirE">ทางตะวันออก</string>
+    <string name="dirESE">ทางตะวันออกและตะวันออกเฉียงใต้</string>
+    <string name="dirSE">ทางตะวันออกเฉียงใต้</string>
+    <string name="dirSSE">ทางใต้และตะวันออกเฉียงใต้</string>
+    <string name="dirS">ทางใต้</string>
+    <string name="dirSSW">ทางใต้และตะวันตกเฉียงใต้</string>
+    <string name="dirSW">ทางตะวันตกเฉียงใต้</string>
+    <string name="dirWSW">ทางตะวันตกและตะวันตกเฉียงใต้</string>
+    <string name="dirW">ทางตะวันตตก</string>
+    <string name="dirWNW">ทางตะวันตกและตะวันตกเฉียงเหนือ</string>
+    <string name="dirNW">ทางตะวันตกเฉียงเหนือ</string>
+    <string name="dirNNW">ทางเหนือและตะวันตกเฉียงเหนือ</string>
+    <string name="entercityname">โปรดป้อนเมือง:</string>
+    <string name="manualtitle">ตั้งค่าสถานที่ด้วยตนเอง</string>
+    <string name="refreshprogresstitle">อัพเดตข้อมูลสภาพอากาศ</string>
+    <string name="refreshprogresscontent">รีเฟรชเดี๋ยวนี้ โปรดรอสักครู่...</string>
+    <string name="searchprogresstitle">ค้นหาเมือง</string>
+    <string name="searchprogresscontent">ค้นหาเดี๋ยวนี้ โปรดรอสักครู่...</string>
+    <string name="no_network">เครือข่ายใช้ไม่ได้ ข้อมูลสภาพอากาศไม่สามารถอัปเดตได้</string>
+    <string name="no_provider">ไม่ใช่ข้อมูลตำแหน่งทั้งหมดที่เปิดทำงานอยู่ในขณะนี้ โปรดเปิดเครือข่ายไร้สาย และดาวเทียม GPS ในตำแหน่ง และการตั้งค่าความปลอดภัย เพื่อการตรวจจับตำแหน่งที่แม่นยำและรวดเร็วขึ้น</string>
+    <string name="title_location">สถานที่</string>
+    <string name="content_autorefreshed">รีเฟรชสถานที่ปัจจุบันของฉันอัตโนมัติ</string>
+    <string name="content_manual">ค้นหาด้วยตนเอง</string>
+    <string name="title_updatefreq">ความถี่การอัปเดต</string>
+    <string name="content_updatetime">เวลาอัปเดตล่าสุด</string>
+    <string name="content_selectfreq">เลือกความถี่การอัปเดต</string>
+    <string name="title_others">อื่นๆ</string>
+    <string name="content_tempunit">หน่วยอุณหภูมิ</string>
+</resources>

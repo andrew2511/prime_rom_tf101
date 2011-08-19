@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/da_search_label" android:hint="@string/da_picker_search_hint" android:searchSuggestAuthority="com.google.android.maps.SuggestionProvider" android:searchSuggestSelection="field =?" android:searchSuggestIntentAction="android.intent.action.SEARCH"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

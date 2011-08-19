@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Archiviazione calendario</string>
+    <string name="calendar_default_name">Predefinito</string>
+    <string name="calendar_info">Info calendario</string>
+    <string name="calendar_info_error">Errore</string>
+    <string name="calendar_info_no_calendars">Nessun calendario</string>
+    <string name="calendar_info_events">Eventi: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">Eventi: %1$d, Non salvati: %2$d</string>
+    <string name="provider_label">Calendario</string>
+</resources>

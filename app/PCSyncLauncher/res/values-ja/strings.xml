@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">PC情報の同期</string>
+    <string name="searchingPCSideSyncTool">コンピューターで%sを検索しています...</string>
+    <string name="connectionFailMessage" formatted="false">コンピュータに%sがインストールされていない、または起動していません。ASUSサポートページ（http://support.asus.com）から%sをダウンロードしてください(注: Windows専用)。\"%s\"ボタンを押して終了するか、\"%s\"ボタンを押して%sに再接続してください。</string>
+    <string name="connectionFailTitle">接続に失敗</string>
+    <string name="tryAgain">再試行してください</string>
+    <string name="cancel">キャンセル</string>
+</resources>

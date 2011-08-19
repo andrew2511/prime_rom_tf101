@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">"La longueur du texte excède la limite autorisée. Il se peut qu'une partie du texte soit tronquée."</string>
+    <string name="post_successfully">Publication sur Facebook réussie</string>
+</resources>

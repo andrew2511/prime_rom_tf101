@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/da_ic_menu_add" android:id="@id/da_menu_new_contact" android:title="@string/da_picker_new_contact" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/da_btn_show_map" android:id="@id/da_menu_show_map" android:title="@string/da_map" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/da_btn_route_options" android:id="@id/da_menu_route_options" android:title="@string/da_route_options" android:showAsAction="ifRoom" />
+</menu>

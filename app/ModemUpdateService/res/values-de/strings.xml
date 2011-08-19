@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modem-Firmware-Aktualisierung erfolgreich</string>
+    <string name="update_fail">Modem-Firmware-Aktualisierung fehlgeschlagen</string>
+    <string name="update_quz" formatted="false">"Der Aktualisierungsvorgang dauert ca. 3-5 Minuten und erfordert 15% oder mehr Akkukapazität.
+
+Bitte vergewissern Sie sich, dass Ihre Akkukapazität mehr als 15% beträgt, bevor Sie die Aktualisierung durchführen.
+
+Wollen Sie Ihre Modem-Firmware jetzt aktualisieren?"</string>
+    <string name="notify_title">ASUS Aktualisierungsservice</string>
+    <string name="notify">Modem-Firmware-Aktualisierung verfügbar</string>
+    <string name="warning_title">Warnung</string>
+    <string name="warning">"Schalten Sie das Gerät während der Aktualisierung NICHT aus.
+
+Jede unerwartete Unterbrechung kann nicht rückgängig zu machenden Beschädigungen hervorrufen.
+
+Wollen Sie Ihre Modem-Firmware jetzt aktualisieren?"</string>
+    <string name="battery_low" formatted="false">"Der Aktualisierungsvorgang erfordert 15% oder mehr Akkukapazität.
+
+Bitte vergewissern Sie sich, dass Ihre Akkukapazität mehr als 15% beträgt, bevor Sie die Aktualisierung durchführen."</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">Ok</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

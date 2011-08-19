@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minuten duren</string>
+    <string name="postpone">Uitstellen</string>
+    <string name="update">Updaten</string>
+    <string name="asus_received_title">Asus-updateservice</string>
+    <string name="received_message">Nieuwe update beschikbaar.</string>
+    <string name="firmware_update_title">Firmware-update</string>
+    <string name="firmware_update_fail">"Update mislukt.
+
+Uw apparaat zal de originele configuratie herstellen."</string>
+    <string name="low_battery_title">Beëindiging systeemupdate</string>
+    <string name="low_battery_warning">"Het systeem vereist minstens 50% batterijvermogen om door te gaan met de systeemupdate.
+Vervang de batterij voordat u de systeemupdate uitvoert."</string>
+    <string name="confirmDownload_text1">Wilt u de volgende systeemupgrade downloaden?</string>
+    <string name="confirmDownload_textok">Druk op JA om deze update te accepteren.</string>
+    <string name="confirmDownload_textcancel">Druk op NEE om deze update te annuleren.</string>
+    <string name="confirmDownload_textwifi">Wij raden u aan een gratis WiFi-hotspot of een onbeperkt gegevensplan te gebruiken voor het downloaden van deze update.</string>
+    <string name="confirmDownload_textwifi2">Indien dat niet het geval is, kunnen standaardkosten voor de gegevensverbinding worden aangerekend.</string>
+    <string name="btn_text_later">Later</string>
+    <string name="confirmDownload_dialog_title">Let op bij roaming.</string>
+    <string name="update_dialog_text">"Er is een nieuwe softwareupdate voor uw telefoon gedownload. Nu installeren? 
+"</string>
+    <string name="downloading">Bezig met downloaden van firmware...</string>
+    <string name="install_time">Geschatte installatietijd:</string>
+    <string name="install">Installeren</string>
+    <string name="received_ticker">Nieuwe update beschikbaar.</string>
+    <string name="dl_received_ticker">Nieuwe update beschikbaar.</string>
+    <string name="dl_received_message">Er is een update. Druk hier om deze te downloaden.</string>
+    <string name="postponetime_text">Uitsteltijd:</string>
+    <string name="reach_max_net_fail">Annuleer het downloaden van de server. Probeer het later opnieuw.</string>
+    <string name="dlg_title_checking">Integriteitscontrole.</string>
+    <string name="dlg_msg_checking">De integriteit van uw firmwarebestand controleren.</string>
+    <string name="cannot_set_to_browser">Kan niet instellen op browser.</string>
+    <string name="upgrade_error">Upgradefout. Download het upgradepakket opnieuw.</string>
+    <string name="start_to_download">Downloaden van kritiek updatepakket starten.</string>
+    <string name="start_to_upgrade">Upgrade van updatepakket starten.</string>
+    <string name="Start_NI_DmSession">Eerste DMSession netwerk. Accepteren?</string>
+    <string name="prepare_dm_download">Bezig met voorbereiden van download...</string>
+    <string name="download_finished">Downloaden van firmware mislukt...</string>
+    <string name="download_notification_title">T-Mobile-updateservice</string>
+    <string name="download_in_progress">Nieuwe firmwaredownload bezig</string>
+    <string name="out_of_mem_warning">"Onvoldoende vrije ruimte op telefoon.
+Verwijder enkele toepassingen en probeer het opnieuw."</string>
+    <string name="btn_register">C2DM registreren</string>
+    <string name="btn_unregister">Registratie C2DM opheffen</string>
+    <string name="ui_alert_input_hint">Voer tekst in</string>
+    <string name="ui_alert_input_numeric_hint">Voer cijfer in</string>
+    <string name="ui_alert_input_phone_number_hint">Telefoonnummer</string>
+</resources>

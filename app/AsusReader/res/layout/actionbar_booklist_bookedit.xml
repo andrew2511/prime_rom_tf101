@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/booklist_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line1" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/bookedit_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0px" android:minWidth="64.0px" android:text="@string/cancel" android:layout_toLeftOf="@id/line1" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+    <View android:id="@id/line2" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_marginRight="10.0px" android:layout_toLeftOf="@id/bookedit_cancel" android:layout_centerVertical="true" />
+    <Button android:id="@id/bookedit_done" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0px" android:minWidth="64.0px" android:text="@string/done" android:drawableLeft="@drawable/done" android:drawablePadding="5.0px" android:layout_toLeftOf="@id/line2" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+</RelativeLayout>

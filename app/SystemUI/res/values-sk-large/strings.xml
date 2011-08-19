@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Vymazať všetko</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Bez prip. na Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi: pripojené</string>
+    <string name="gps_notification_searching_text">Vyhľadávanie satelitov GPS</string>
+    <string name="gps_notification_found_text">Poloha nastavená pomocou GPS</string>
+    <string name="notifications_off_title">Upozornenia sú vypnuté</string>
+    <string name="notifications_off_text">Klepnutím sem upozornenia znova povolíte.</string>
+</resources>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Χάρτες Google</string>
+    <string name="da_google_maps_navigation">Πλοήγηση Χαρτών Google</string>
+    <string name="da_net_fail_title">Αστοχία δικτύου</string>
+    <string name="da_net_fail_body">Η εφαρμογή αυτή απαιτεί μια σύνδεση δεδομένων εργασίας.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Προορισμός</string>
+    <string name="da_toward">προς %1$s</string>
+    <string name="da_onto">προς %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"στη συνέχεια
+%1$s"</string>
+    <string name="da_continue_for_distance">Συνεχίστε για %1$s</string>
+    <string name="da_destination_will_be_on_the_left">ο προορισμός σας θα βρίσκεται στα αριστερά.</string>
+    <string name="da_destination_will_be_on_the_right">ο προορισμός σας θα βρίσκεται στα δεξιά.</string>
+    <string name="da_you_will_reach_destination">θα φτάσετε στον προορισμό σας.</string>
+    <string name="da_destination_on_the_left">Ο προορισμός σας βρίσκεται στα αριστερά.</string>
+    <string name="da_destination_on_the_right">Ο προορισμός σας βρίσκεται στα δεξιά.</string>
+    <string name="da_destination_reached">Φτάσατε.</string>
+    <string name="da_speech_lost_gps">Χάθηκε το σήμα GPS</string>
+    <string name="da_speech_lost_data_connection">Απώλεια δεδομένων σύνδεσης</string>
+    <string name="da_speech_navigation_resumed">Επαναφορά πλοήγησης</string>
+    <string name="da_speech_please_describe_problem">Περιγράψτε το πρόβλημα</string>
+    <string name="da_on_left">στα αριστερά</string>
+    <string name="da_on_right">στα δεξιά</string>
+    <string name="da_stay_on_road_primary">Παραμείνετε στο %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s προς %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s προς %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} μι</string>
+    <string name="da_distance_format_miles_compressed">{0}μι</string>
+    <string name="da_distance_format_feet_abbreviated">{0} πόδια</string>
+    <string name="da_distance_format_feet_compressed">{0}πόδια</string>
+    <string name="da_distance_format_yards_abbreviated">{0} γιάρδες</string>
+    <string name="da_distance_format_yards_compressed">{0} γιάρδες</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} χλμ</string>
+    <string name="da_distance_format_kilometers_compressed">{0}χλμ</string>
+    <string name="da_distance_format_meters_abbreviated">{0} μ</string>
+    <string name="da_distance_format_meters_compressed">{0}μ</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s ημέρες %2$s ώρες</string>
+    <string name="da_time_format_hours" formatted="false">%1$s ώρες %2$s λεπτά</string>
+    <string name="da_time_format_minutes">%1$s λεπτά</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Πλοήγηση</string>
+    <string name="da_search_label">Αναζήτηση</string>
+    <string name="da_layers">Επίπεδα</string>
+    <string name="da_agreement">"Η Πλοήγηση των Χαρτών Google είναι σε έκδοση beta. Να είστε προσεκτικοί.
+
+Μην χρησιμοποιείτε αυτή την εφαρμογή κατά την οδήγηση. Τα δεδομένα κυκλοφορίας δεν είναι πραγματικού χρόνου και οι οδηγίες μπορεί να είναι λανθασμένες, επικίνδυνες, απαγορευμένες ή να περιλαμβάνουν μετάβαση σε φέρι μποτ. Τηρείτε τους ισχύοντες νόμους.
+
+Έχετε τα μάτια σας στο δρόμο!"</string>
+    <string name="da_agreement_with_walking">"Η Πλοήγηση των Χαρτών Google είναι σε έκδοση beta. Να είστε προσεκτικοί.
+
+Μην χρησιμοποιείτε αυτήν την εφαρμογή κατά την οδήγηση. Τα δεδομένα κυκλοφορίας δεν είναι πραγματικού χρόνου και οι οδηγίες μπορεί να είναι λανθασμένες, επικίνδυνες, απαγορευμένες ή να περιλαμβάνουν μετάβαση σε φέρι μποτ. Στις διαδρομές για πεζούς ενδέχεται να μην περιλαμβάνονται πεζοδρόμια ή πεζόδρομοι. Τηρείτε τους ισχύοντες νόμους.
+
+Έχετε τα μάτια σας στο δρόμο!"</string>
+    <string name="da_disclaimer_checkbox">Προβολή αυτού του μηνύματος την επόμενη φορά</string>
+    <string name="da_show_list">Λίστα οδηγιών</string>
+    <string name="da_route_overview">Πληροφορίες διαδρομής</string>
+    <string name="da_show_map">Εμφάνιση χάρτη</string>
+    <string name="da_satellite">Δορυφόρος</string>
+    <string name="da_traffic_view">Προβολή κυκλοφορίας</string>
+    <string name="da_no_traffic_here">Δεν υπάρχουν πληροφορίες για την κυκλοφορία σε αυτή την περιοχή</string>
+    <string name="da_traffic">Κυκλοφορία</string>
+    <string name="da_area_view">Προβολή περιοχής</string>
+    <string name="da_mute">Αθόρυβο</string>
+    <string name="da_unmute">Μη αθόρυβο</string>
+    <string name="da_settings">Ρυθμίσεις</string>
+    <string name="da_help">Βοήθεια</string>
+    <string name="da_terms_privacy_notices">Όροι και Απόρρητο</string>
+    <string name="da_terms_and_conditions">Όροι και Προϋποθέσεις</string>
+    <string name="da_privacy_policy">Πολιτική Απορρήτου</string>
+    <string name="da_legal_notices">Νομικές ειδοποιήσεις</string>
+    <string name="da_navigation_suspended">Η πλοήγηση παρατάθηκε</string>
+    <string name="da_exit_navigation">Έξοδος από πλοήγηση</string>
+    <string name="da_email_me_when_resolved">Στείλτε μου ένα μήνυμα ηλεκτρονικού ταχυδρομείου όταν επιλυθεί το πρόβλημα</string>
+    <string name="da_problem_reported">Το πρόβλημα αναφέρθηκε</string>
+    <string name="da_one_button_map_issue_reporting">Αναφορά προβ. με 1 κλικ</string>
+    <string name="da_attention">Προσοχή</string>
+    <string name="da_rmi_warning">"Η Αναφορά προβλήματος σάς επιτρέπει να καταγράψετε ένα σύντομο φωνητικό μήνυμα με την περιγραφή ενός προβλήματος που σχετίζεται με το χάρτη ή τη διαδρομή. Μετά από 15 δευτερόλεπτα, το μήνυμά σας θα σταλεί αυτομάτως στην Google, μαζί με την τρέχουσα τοποθεσία σας και τη διαδρομή σας.
+
+Μπορεί να ενεργοποιηθεί μια συντόμευση με 1 κλικ στις ρυθμίσεις της εφαρμογής.
+
+ Εάν επιλέξετε τη λήψη ενημερώσεων μέσω ηλεκτρονικού ταχυδρομείου στην περίπτωση που επιλυθεί το ζήτημα, η διεύθυνση ηλεκτρονικού ταχυδρομείου που διαθέτετε θα αποθηκευτεί μαζί με την τοποθεσία και τα σχόλιά σας μέχρι να επιλυθεί το πρόβλημα."</string>
+    <string name="da_report_a_problem">Αναφορά προβλήματος</string>
+    <string name="da_report_a_problem_dialog_title">Αναφορά προβλήματος</string>
+    <string name="da_rmi_preference_trackball_summary">Εάν ενεργοποιηθεί, η αναφορά προβλήματος θα ξεκινήσει με το πάτημα του trackball.</string>
+    <string name="da_rmi_preference_camera_summary">Εάν ενεργοποιηθεί, η αναφορά προβλήματος θα ξεκινήσει με το πάτημα του κουμπιού της φωτογραφικής μηχανής.</string>
+    <string name="da_rmi_preference_no_button_summary">Δεν υπάρχουν διαθέσιμα φυσικά πλήκτρα</string>
+    <string name="da_rmi_preference_bad_location_summary">Η αναφορά προβλήματος δεν είναι διαθέσιμη στην τρέχουσα τοποθεσία σας.</string>
+    <string name="da_destination_not_here_warning">Ευχαριστούμε που αναφέρατε ότι έχουμε λάθος θέση για τον προορισμό σας. Ο τρέχων προορισμός και η θέση σας θα σταλούν στη Google για τη βελτίωση της ακρίβειας των δεδομένων μας.</string>
+    <string name="da_destination_not_here_title">Αναφέρετε κάποιο πρόβλημα</string>
+    <string name="da_searching_for_gps">Αναζήτηση GPS...</string>
+    <string name="da_data_connection_lost">Απώλεια δεδομένων σύνδεσης...</string>
+    <string name="da_follow_the_route">Ακολουθήστε εδώ</string>
+    <string name="da_waiting_for_directions">Λάβετε οδηγίες κατεύθυνσης</string>
+    <string name="da_waiting_for_walking_directions">Λήψη οδηγιών για πορεία</string>
+    <string name="da_waiting_for_location">Αναμονή για τοποθεσία</string>
+    <string name="da_checking_navigation_availability">Έλεγχος διαθεσιμότητας πλοήγησης</string>
+    <string name="da_loading_route_details">Φόρτωση λεπτομερειών διαδρομής</string>
+    <string name="da_loading_image">Φόρτωση εικόνας</string>
+    <string name="da_waiting_for_alternates">Αναζήτηση για εναλλακτικές διαδρομές</string>
+    <string name="da_waiting_for_details">Φόρτωση</string>
+    <string name="da_no_details">Δεν υπάρχουν διαθέσιμες λεπτομέρειες</string>
+    <string name="da_gps_is_disabled">Το GPS είναι απενεργοποιημένο</string>
+    <string name="da_turn_on_gps">Εμφάνιση ρυθμίσεων τοποθεσίας;</string>
+    <string name="da_voice_guidance">Φωνητική καθοδήγηση</string>
+    <string name="da_install_voice_guidance_prompt">Για φωνητική πλοήγηση, θα πρέπει να εγκαταστήσετε την υποστήριξη κειμένου-σε-ομιλία από το Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Υπερπήδηση</string>
+    <string name="da_dialog_cancel">Ακύρωση</string>
+    <string name="da_dialog_done">Ολοκλήρωση</string>
+    <string name="da_dialog_accept">Αποδοχή</string>
+    <string name="da_dialog_install">Εγκατάσταση</string>
+    <string name="da_dialog_dont_accept">Να μην γίνει αποδοχή</string>
+    <string name="da_dialog_go">Μετάβ.</string>
+    <string name="da_dialog_get_directions">Λήψη οδηγιών</string>
+    <string name="da_map">Χάρτης</string>
+    <string name="da_clear_layers">Διαγραφή χάρτη</string>
+    <string name="da_layer_name_parking">Στάθμευση</string>
+    <string name="da_layer_name_attractions">Αξιοθέατα</string>
+    <string name="da_layer_name_gas_stations">Βενζινάδικα</string>
+    <string name="da_layer_name_restaurants">Εστιατόρια</string>
+    <string name="da_layer_name_supermarkets">Σούπερ μάρκετ</string>
+    <string name="da_layer_name_atms_and_banks">ΑΤΜ και τράπεζες</string>
+    <string name="da_layer_name_convenience_stores">Μικροκαταστήματα</string>
+    <string name="da_query_banks_and_atms">Τράπεζες και ΑΤΜ</string>
+    <string name="da_rerouting">Υπολογισμός διαδρομής...</string>
+    <string name="da_via">Μέσω %s</string>
+    <string name="da_to_destination">προς %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Εγγραφή πληροφορίας</string>
+    <string name="da_destination_not_here">Ο προορισμός δεν είναι εδώ</string>
+    <string name="da_new_destination">Επόμενος προορισμός</string>
+    <string name="da_reroute_to_destination">Πίσω στον προορισμό</string>
+    <string name="da_change_destination">Ορισμός προορισμού</string>
+    <string name="da_search_for_destination">Αναζήτηση...</string>
+    <string name="da_point_on_map">Σημείο στον χάρτη</string>
+    <string name="da_volume">Ένταση ήχου πλοήγησης</string>
+    <string name="da_exit">Έξοδος</string>
+    <string name="da_did_you_mean">Μήπως εννοείτε:</string>
+    <string name="da_did_you_say">Μήπως είπατε:</string>
+    <string name="da_for_your_end_point">Για το σημείο προορισμού σας</string>
+    <string name="da_unnamed_road">Δρόμος χωρίς ονομασία</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, στη συνέχεια %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Σε %1$s μέτρα</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Σε ενάμιση χιλιόμετρο</string>
+    <string name="da_speech_continue_for_x_meters">Συνεχίστε για %1$s μέτρα</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Συνεχίστε για άλλο ενάμισι χιλιόμετρο</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Συνεχίστε στην %2$s για %1$s μέτρα</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Συνεχίστε στην %1$s για άλλο ενάμισι χιλιόμετρο</string>
+    <string name="da_speech_generic_continue">Συνεχίστε ευθεία</string>
+    <string name="da_speech_in_x_feet">Σε %1$s πόδια</string>
+    <string name="da_speech_in_x_yards">Σε %1$s γιάρδες</string>
+    <string name="da_speech_in_a_quarter_mile">Σε 1/4 του μιλίου</string>
+    <string name="da_speech_in_a_half_mile">Σε μισό μίλι</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Σε 3/4 του μιλίου</string>
+    <string name="da_speech_in_one_and_a_half_miles">Σε ενάμιση μίλι</string>
+    <string name="da_speech_continue_for_x_feet">Συνεχίστε για %1$s πόδια</string>
+    <string name="da_speech_continue_for_x_yards">Συνεχίστε για %1$s γιάρδες</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Συνεχίστε για 1/4 του μιλίου</string>
+    <string name="da_speech_continue_for_a_half_mile">Συνεχίστε για μισό μίλι</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Συνεχίστε για 3/4 του μιλίου</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Συνεχίστε για άλλο ενάμισι μίλι</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Συνεχίστε στην %2$s για %1$s πόδια</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Συνεχίστε στην %2$s για %1$s γιάρδες</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Συνεχίστε στην %1$s για 1/4 του μιλίου</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Συνεχίστε στην %1$s για μισό μίλι</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Συνεχίστε σε %1$s για 3/4 του μιλίου</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Συνεχίστε στην %1$s για ενάμισι μίλι</string>
+    <string name="da_route_prefixes">Β,ΒΑ,Α,ΝΑ,Ν,ΝΔ,Δ,ΒΔ</string>
+    <string name="da_route_suffixes">Β,ΒΑ,Α,ΝΑ,Ν,ΝΔ,Δ,ΒΔ,Λεωφ,Αστ. λεωφ,Παρ/ψη,Κυκλ,Συνδ.μετ,Αυτ.ταχ.κυκλ,Αυτ.υπερταχ.κυκλ,αυτοκινητόδρ,μονοπ,επαρχ.δρ,Μέρ,Δρ,Σταθ,Ταχ. κυκλ,πορ.</string>
+    <string name="da_no_route">Δεν βρέθηκε διαδρομή</string>
+    <string name="da_route_not_found">Δεν μπορέσαμε να βρούμε μία διαδρομή για τον προορισμό σας.</string>
+    <string name="da_destination_not_found">Δεν μπορέσαμε να καταλάβουμε τον προορισμό.</string>
+    <string name="da_navigation_not_supported">Η πλοήγηση προς τον προορισμό σας δεν είναι διαθέσιμη.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Η Πλοήγηση Χαρτών Google δεν είναι διαθέσιμη σε αυτήν την τοποθεσία.</string>
+    <string name="da_launch_maps">Εκκίνηση Χαρτών</string>
+    <string name="da_no_image_available">Δεν υπάρχει διαθέσιμη εικόνα.</string>
+    <string name="da_image_error">Σφάλμα φόρτωσης εικόνας.</string>
+    <string name="da_no_alternate_routes">Δεν μπορέσαμε να βρούμε εναλλακτικές διαδρομές για τον προορισμό σας.</string>
+    <string name="da_picker_type_destination">Πληκτρολογήστε τον προορισμό</string>
+    <string name="da_picker_speak_destination">Πείτε τον προορισμό σας</string>
+    <string name="da_picker_contacts">Επαφές</string>
+    <string name="da_picker_starred_items">Μέρη με αστέρι</string>
+    <string name="da_picker_new_contact">Νέα επαφή</string>
+    <string name="da_picker_recent_destinations">Πρόσφατοι προορισμοί</string>
+    <string name="da_picker_choose_destination">Επιλογή προορισμού</string>
+    <string name="da_navigate_to">Πλοήγηση προς</string>
+    <string name="da_picker_search_hint">Προορισμός</string>
+    <string name="da_route_options">Επιλογές διαδρομής</string>
+    <string name="da_updating_directions">Ενημέρωση οδηγιών</string>
+    <string name="da_picker_no_starred_items">"Δεν έχετε τοποθεσίες με αστέρι.
+
+ Οι τοποθεσίες με αστέρι συγχρονίζονται αυτόματα με το maps.google.com.
+
+Μπορείτε να πραγματοποιήσετε αναζήτηση αποτελεσμάτων με αστέρι στους Χάρτες Google, πατώντας στο εικονίδιο του αστεριού κοντά στη διεύθυνση."</string>
+    <string name="da_picker_no_contacts">"Δεν έχετε επαφές με διευθύνσεις.
+
+Μπορείτε να προσθέσετε νέες επαφές ή να ορίσετε διευθύνσεις για τις υπάρχουσες επαφές στην εφαρμογή \"Επαφές\"."</string>
+    <string name="da_driving">Αυτ/το</string>
+    <string name="da_walking">Πορεία</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Περισσότερες πληροφορίες</string>
+    <string name="da_search_maps">Αναζήτηση</string>
+    <string name="da_walking_warning">Πορεία (beta): προσοχή</string>
+    <string name="da_calibrate_compass_title">Διαβάθμιση πυξίδας</string>
+    <string name="da_calibrate_compass">Δεν έχει γίνει βαθμονόμηση της πυξίδας. Για να πραγματοποιήσετε βαθμονόμηση, κουνήστε μερικές φορές τη συσκευή σχηματίζοντας το σχήμα του αριθμού 8.</string>
+    <string name="da_confirm_exit_title">Έξοδος από την πλοήγηση;</string>
+    <string name="da_confirm_exit_text">Θα ολοκληρωθεί η καθοδήγηση διαδρομής.</string>
+    <string name="da_route_includes_tolls">Η διαδρομή περιλαμβάνει διόδια</string>
+    <string name="da_avoid_tolls">Αποφυγή διοδίων</string>
+    <string name="da_avoiding_tolls">Αποφυγή διοδίων</string>
+    <string name="da_avoiding_highways">Αποφυγή αυτοκινητοδρόμων</string>
+    <string name="da_route_includes_unavoidable_tolls">Αυτή η διαδρομή περιλαμβάνει διόδια.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Αυτή η διαδρομή περιλαμβάνει διόδια. Απενεργοποιήστε τις διαδρομές με διόδια στην επιλογή %1$s%2$s παρακάτω.</string>
+    <string name="da_seasonally_closed">Η διαδρομή ενδέχεται να είναι κλειστή ανάλογα με την εποχή</string>
+    <string name="da_direction_north">βόρεια</string>
+    <string name="da_direction_north_west">βορειοδυτικά</string>
+    <string name="da_direction_west">δυτικά</string>
+    <string name="da_direction_south_west">νοτιοδυτικά</string>
+    <string name="da_direction_south">νότια</string>
+    <string name="da_direction_south_east">νοτιοανατολικά</string>
+    <string name="da_direction_east">ανατολικά</string>
+    <string name="da_direction_north_east">βορειοανατολικά</string>
+    <string name="da_step_depart">Κατευθυνθείτε %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Κατευθυνθείτε %1$s στην οδό %2$s</string>
+    <string name="da_step_slight_left">Ανοιχτή στροφή αριστερά</string>
+    <string name="da_step_slight_right">Ανοιχτή στροφή δεξιά</string>
+    <string name="da_step_turn_left">Στρίψτε αριστερά</string>
+    <string name="da_step_turn_right">Στρίψτε δεξιά</string>
+    <string name="da_step_sharp_left">Κλειστή στροφή αριστερά</string>
+    <string name="da_step_sharp_right">Κλειστή στροφή δεξιά</string>
+    <string name="da_step_slight_left_onto">Ανοιχτή στροφή αριστερά στην οδό %1$s</string>
+    <string name="da_step_slight_right_onto">Ανοιχτή στροφή δεξιά στην οδό %1$s</string>
+    <string name="da_step_turn_left_onto">Στρίψτε αριστερά στην οδό %1$s</string>
+    <string name="da_step_turn_right_onto">Στρίψτε δεξιά στην οδό %1$s</string>
+    <string name="da_step_sharp_left_onto">Κλειστή στροφή αριστερά στην οδό %1$s</string>
+    <string name="da_step_sharp_right_onto">Κλειστή στροφή δεξιά στην οδό %1$s</string>
+    <string name="da_step_fork_left">Μείνετε αριστερά στη διακλάδωση</string>
+    <string name="da_step_fork_right">Μείνετε δεξιά στη διακλάδωση</string>
+    <string name="da_step_continue_onto">Συνεχίστε στην οδό %1$s</string>
+    <string name="da_step_continue_straight">Συνεχίστε ευθεία</string>
+    <string name="da_step_u_turn">Κάντε αναστροφή</string>
+    <string name="da_step_take_the_ramp">Πάρτε τη ράμπα</string>
+    <string name="da_step_take_the_ramp_onto">Πάρτε τη ράμπα στην %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Πάρτε τη ράμπα στα αριστερά</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Πάρτε τη ράμπα στα αριστερά στην %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Πάρτε τη ράμπα στα δεξιά</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Πάρτε τη ράμπα στα δεξιά στην %1$s</string>
+    <string name="da_step_take_the_exit">Πάρτε την έξοδο</string>
+    <string name="da_step_take_the_exit_on_the_left">Πάρτε την έξοδο στα αριστερά</string>
+    <string name="da_step_take_the_exit_on_the_right">Πάρτε την έξοδο στα δεξιά</string>
+    <string name="da_step_take_the_exit_onto">Πάρτε την έξοδο στην %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Πάρτε την έξοδο στα αριστερά στην %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Πάρτε την έξοδο στα δεξιά στην %1$s</string>
+    <string name="da_step_take_exit_n">Πάρτε την έξοδο %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Εικόνες ©%2$d%3$s, Δεδομένα χάρτη ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Εικόνες ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Δεδομένα χάρτη ©%2$d%3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Σπίτι</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Οδηγίες και πλοήγηση</string>
+    <string name="EXIT_COMMAND">Έξοδος</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">Ο χρήστης {0} θα ήθελε να κάνετε check in</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Αίτημα check-in του Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Εισαγ. μια διεύθυνση</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Εικονίδιο συντόμευσης</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Αποθήκευση</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Προορισμός</string>
+    <string name="GOHOME_SHORTCUT_NAME">Όνομα συντόμευσης</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Πλοήγηση με οδηγίες βήμα προς βήμα</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Άνοιγμα ρυθμίσεων</string>
+    <string name="HOTPOT_LOADING">Φόρτωση...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Το γραφικό στοιχείο Αξιολόγηση μερών απαιτεί να ενεργοποιήσετε τις επιλογές Χρήση ασύρματων δικτύων (στις ρυθμίσεις Τοποθεσία και ασφάλεια) και Wi-Fi (στις ρυθμίσεις Ασύρματο και δίκτυα).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Ενεργοποιήστε τη Χρήση ασύρματων δικτύων στις ρυθμίσεις Τοποθεσία και ασφάλεια, για να χρησιμοποιήσετε το γραφικό στοιχείο Αξιολόγηση μερών.</string>
+    <string name="HOTPOT_NO_LOCATION">Δεν υπάρχουν πληροφορίες τοποθεσίας</string>
+    <string name="HOTPOT_SEARCH">Αναζήτηση</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Έγινε αναζήτηση για: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Επανάληψη αναζήτησης</string>
+    <string name="HOTPOT_SELECT_PLACE">Επιλέξτε μέρος για αξιολόγηση</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Επιλογή μέρους: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Άγνωστη τοποθεσία</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Ανανέωση τοποθεσίας...</string>
+    <string name="HOTPOT_WIDGET_NAME">Αξιολόγηση μερών</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Δημόσια ανάρτηση ως {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Σχολιάστε</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Ενημερώθηκε {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Ενεργοποίηση του Wi-Fi στις ρυθμίσεις ασύρματου και ενσύρματου δικτύου για να βελτιωθεί η ακρίβεια τοποθεσίας του widget Rate Places</string>
+    <string name="HOTPOT_YOU_RATED">"Η βαθμολογία σας: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Στο μέρος {0} και σε κοινή χρήση με τους εξής χρήστες: {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Πραγματοποιήθηκε check-in στο μέρος {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Να γίνει έλεγχος εισόδου σε {0};</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Έλεγχος εισόδου σε;</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Πατήστε για να συνδεθείτε στο Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Τελευταία ενημέρωση: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Άγνωστη τοποθεσία</string>
+    <string name="LOADING">Φόρτωση</string>
+    <string name="MAPS_APP_NAME">Χάρτες</string>
+    <string name="NEED_NET_BODY">Η εφαρμογή αυτή δεν μπορεί να χρησιμοποιηθεί αν δεν της επιτρέψετε να αποστέλλει και να λαμβάνει δεδομένα μέσω του δικτύου.</string>
+    <string name="NEED_NET_TITLE">Απαιτείται πρόσβαση σε δίκτυο</string>
+    <string name="NETWORK_DATA_ERROR">Αυτή η εφαρμογή απαιτεί σύνδεση δεδομένων. Παρακαλώ επικοινωνήστε με τον πάροχο υπηρεσιών σας.</string>
+    <string name="NET_FAIL_BODY">Η εφαρμογή αυτή απαιτεί μια σύνδεση δεδομένων εργασίας.</string>
+    <string name="NET_FAIL_TITLE">Αστοχία δικτύου</string>
+    <string name="NET_UNAVAILABLE_TITLE">Δίκτυο μη διαθέσιμο</string>
+    <string name="PLACES_APP_NAME">Places</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Π.χ. Μακαρόνια Bolognese, κοκτέιλ, Μουσική</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Τι ξεχωρίζει;</string>
+    <string name="RATINGS_OPTIN_CANCEL">Ακύρωση</string>
+    <string name="RATINGS_OPTIN_CLOSE">Κλείσιμο</string>
+    <string name="RATINGS_OPTIN_FAILED">Η ενημέρωση απέτυχε. Δοκιμάστε αργότερα.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Μοιραστείτε το!&lt;/b> Μεταβείτε στο &lt;b>{0}&lt;/b> στον υπολογιστή σας, για να προσθέσετε φίλους και να ανακαλύψετε μέρη που τους αρέσουν.</string>
+    <string name="RATINGS_OPTIN_HEADING">Ορίστε το δημόσιο ψευδώνυμό σας στα Μέρη Google.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Όνομα ή ψευδώνυμο: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Αξιολογήστε τα αγαπημένα σας εστιατόρια, καφετέριες και άλλα μέρη για να λάβετε συστάσεις στα αποτελέσματα αναζήτησης, βάσει των προσωπικών σας προτιμήσεων.</string>
+    <string name="RATINGS_OPTIN_SAVE">Ξεκινήστε</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Οι αξιολογήσεις των μερών που πραγματοποιείτε είναι &lt;b>δημόσιες στον ιστό&lt;/b> με αυτό το ψευδώνυμο. &lt;a href=#>Μάθετε περισσότερα&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Δημόσια ανάρτηση στο ιστό ως {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Δημόσια ανάρτηση στο ιστό.</string>
+    <string name="RATINGS_RATE_PLACES">Γιατί να κάνω αξιολόγηση μερών;</string>
+    <string name="RATINGS_SET_APPEARANCE">Ορισμός εμφάνισης</string>
+    <string name="RATINGS_WAIT">Περιμένετε...</string>
+    <string name="SEARCH_HINT">Αναζήτηση</string>
+    <string name="SHORT_APP_NAME">Χάρτες Google</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Σημείο προορισμού</string>
+    <string name="TRAFFIC_WIDGET_NAME">Κυκλοφορία</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Όνομα γραφικού στοιχείου</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Αποθήκευση</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Σημείο εκκίνησης</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Σοβαρό σφάλμα.  Πραγματοποιήστε έξοδο και επανεκκίνηση."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Άγνωστο σφάλμα</string>
+    <string name="UPGRADE_BODY">Πρέπει να εγκαταστήσετε μια νέα έκδοση για να χρησιμοποιήσετε αυτήν την εφαρμογή.</string>
+    <string name="UPGRADE_TITLE">Αναβάθμιση λογισμικού</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Ζωντανή ταπετσαρία Χαρτών</string>
+    <string name="WALLPAPER_MAP_MODE">Λειτουργία χάρτη</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Κανονική</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Δορυφόρος</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Η λειτουργία του χάρτη π.χ. Δορυφόρος</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Έδαφος</string>
+    <string name="WALLPAPER_SETTINGS">Ρυθμίσεις ζωντανής ταπετσαρίας Χαρτών</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Εμφάνιση κυκλοφορίας</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Εμφάνιση του τρέχοντος καιρού στο χάρτη. Θα πρέπει να έχετε εγκαταστήσει το γραφικό στοιχείο του καιρού.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Καιρός</string>
+</resources>

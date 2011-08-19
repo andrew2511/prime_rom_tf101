@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Mapy Google</string>
+    <string name="da_google_maps_navigation">Navigácia Máp Google</string>
+    <string name="da_net_fail_title">Zlyhanie siete</string>
+    <string name="da_net_fail_body">Aplikácia vyžaduje funkčné dátové pripojenie.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Cieľ</string>
+    <string name="da_toward">smerom k %1$s</string>
+    <string name="da_onto">smerom na %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"potom 
+%1$s"</string>
+    <string name="da_continue_for_distance">Pokračujte ďalších %1$s</string>
+    <string name="da_destination_will_be_on_the_left">váš cieľ bude vľavo.</string>
+    <string name="da_destination_will_be_on_the_right">váš cieľ bude vpravo.</string>
+    <string name="da_you_will_reach_destination">prídete do cieľa.</string>
+    <string name="da_destination_on_the_left">Váš cieľ sa nachádza vľavo.</string>
+    <string name="da_destination_on_the_right">Váš cieľ sa nachádza vpravo.</string>
+    <string name="da_destination_reached">Prišli ste do cieľa.</string>
+    <string name="da_speech_lost_gps">Výpadok signálu GPS</string>
+    <string name="da_speech_lost_data_connection">Dátové spojenie bolo prerušené</string>
+    <string name="da_speech_navigation_resumed">Navigácia bola znova spustená</string>
+    <string name="da_speech_please_describe_problem">Popíšte problém</string>
+    <string name="da_on_left">vľavo</string>
+    <string name="da_on_right">vpravo</string>
+    <string name="da_stay_on_road_primary">Pokračujte po %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s do %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s do %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} míľ</string>
+    <string name="da_distance_format_miles_compressed">{0} míľ</string>
+    <string name="da_distance_format_feet_abbreviated">{0} stôp</string>
+    <string name="da_distance_format_feet_compressed">{0} stôp</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd.</string>
+    <string name="da_distance_format_yards_compressed">{0} yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">,</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$s min.</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s–%2$s</string>
+    <string name="da_navigation">Navigácia</string>
+    <string name="da_search_label">Hľadať</string>
+    <string name="da_layers">Vrstvy</string>
+    <string name="da_agreement">"Navigácia v Mapách Google je vo verzii beta. Buďte pri jej používaní opatrní.
+
+Nemanipulujte s aplikáciou počas šoférovania. Údaje o premávke nie sú zobrazované v reálnom čase a trasa môže byť chybná, nebezpečná, zakázaná alebo môže zahŕňať trajektovú prepravu. Dodržiavajte platné zákony.
+
+Nespúšťajte zrak z vozovky!"</string>
+    <string name="da_agreement_with_walking">"Navigácia v Mapách Google je vo verzii beta. Buďte pri jej používaní opatrní.
+
+Nemanipulujte s aplikáciou počas šoférovania. Údaje o premávke nie sú zobrazované v reálnom čase a trasa môže byť chybná, nebezpečná, zakázaná alebo môže zahŕňať trajektovú prepravu. Pri peších trasách môžu chýbať chodníky alebo cesty pre chodcov. Dodržiavajte platné zákony.
+
+Nespúšťajte zrak z vozovky."</string>
+    <string name="da_disclaimer_checkbox">Zobraziť správu aj nabudúce</string>
+    <string name="da_show_list">Zoznam inštrukcií</string>
+    <string name="da_route_overview">Informácie o trase</string>
+    <string name="da_show_map">Zobraziť mapu</string>
+    <string name="da_satellite">Satelitné zobrazenie</string>
+    <string name="da_traffic_view">Premávka z vtáčej perspektívy</string>
+    <string name="da_no_traffic_here">Informácie o premávke nie sú k dispozícii</string>
+    <string name="da_traffic">Premávka</string>
+    <string name="da_area_view">Zobrazenie oblasti</string>
+    <string name="da_mute">Stlmiť</string>
+    <string name="da_unmute">Zrušiť stlmenie</string>
+    <string name="da_settings">Nastavenia</string>
+    <string name="da_help">Pomocník</string>
+    <string name="da_terms_privacy_notices">Podmienky, ochrana údajov</string>
+    <string name="da_terms_and_conditions">Zmluvné podmienky</string>
+    <string name="da_privacy_policy">Ochrana osobných údajov</string>
+    <string name="da_legal_notices">Právne vyhlásenia</string>
+    <string name="da_navigation_suspended">Navigácia pozastavená</string>
+    <string name="da_exit_navigation">Ukončiť navigáciu</string>
+    <string name="da_email_me_when_resolved">Po vyriešení problému mi pošlite e-mail</string>
+    <string name="da_problem_reported">Problém bol nahlásený</string>
+    <string name="da_one_button_map_issue_reporting">Nahlásiť problém jedným kliknutím</string>
+    <string name="da_attention">Pozor</string>
+    <string name="da_rmi_warning">"Funkcia Nahlásiť problém vám umožňuje zaznamenať krátku hlasovú správu popisujúcu problém s mapou alebo trasou. Po 15 sekundách sa správa automaticky odošle spoločnosti Google spolu s vašou aktuálnou polohou a trasou.
+
+Skratku na odoslanie správy jediným kliknutím je možné povoliť v nastaveniach aplikácie.
+
+ Ak zvolíte zasielanie e-mailových aktualizácií o vyriešení problému, bude vaša e-mailová adresa uložená spolu s polohou a vašimi komentármi, kým sa problém nevyrieši."</string>
+    <string name="da_report_a_problem">Nahlásiť problém</string>
+    <string name="da_report_a_problem_dialog_title">Nahlásenie problému</string>
+    <string name="da_rmi_preference_trackball_summary">Ak je táto možnosť povolená, stlačením tlačidla trackball spustíte nahlásenie problému.</string>
+    <string name="da_rmi_preference_camera_summary">Ak je táto možnosť povolená, stlačením tlačidla fotoaparátu spustíte nahlásenie problému.</string>
+    <string name="da_rmi_preference_no_button_summary">K dispozícii nie sú žiadne fyzické tlačidlá.</string>
+    <string name="da_rmi_preference_bad_location_summary">Nahlásenie problému nie je na mieste vašej aktuálnej polohy k dispozícii.</string>
+    <string name="da_destination_not_here_warning">Ďakujeme, že ste nás upozornili na nesprávne umiestnenie vášho cieľa. Váš súčasný cieľ a poloha budú odoslané spoločnosti Google a pomôžu nám pri spresnení našich údajov.</string>
+    <string name="da_destination_not_here_title">Nahlásiť problém</string>
+    <string name="da_searching_for_gps">Hľadanie signálu GPS...</string>
+    <string name="da_data_connection_lost">Dátové spojenie bolo prerušené...</string>
+    <string name="da_follow_the_route">Choďte po ceste</string>
+    <string name="da_waiting_for_directions">Získavanie trasy cesty</string>
+    <string name="da_waiting_for_walking_directions">Prijímanie peších trás</string>
+    <string name="da_waiting_for_location">Čakanie na zistenie polohy</string>
+    <string name="da_checking_navigation_availability">Prebieha kontrola dostupnosti navigácie</string>
+    <string name="da_loading_route_details">Načítavanie podrobností trasy</string>
+    <string name="da_loading_image">Načítava sa obrázok</string>
+    <string name="da_waiting_for_alternates">Hľadajú sa náhradné trasy</string>
+    <string name="da_waiting_for_details">Načítavanie</string>
+    <string name="da_no_details">Podrobnosti nie sú k dispozícii</string>
+    <string name="da_gps_is_disabled">GPS je zakázané</string>
+    <string name="da_turn_on_gps">Zobraziť nastavenia polohy?</string>
+    <string name="da_voice_guidance">Hlasové navádzanie</string>
+    <string name="da_install_voice_guidance_prompt">Ak chcete používať hlasovú navigáciu, musíte nainštalovať podporu prevodu textu na reč zo služby Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Preskočiť</string>
+    <string name="da_dialog_cancel">Zrušiť</string>
+    <string name="da_dialog_done">Hotovo</string>
+    <string name="da_dialog_accept">Prijať</string>
+    <string name="da_dialog_install">Inštalovať</string>
+    <string name="da_dialog_dont_accept">Neprijať</string>
+    <string name="da_dialog_go">Spustiť</string>
+    <string name="da_dialog_get_directions">Vyhľadať trasu</string>
+    <string name="da_map">Mapa</string>
+    <string name="da_clear_layers">Vyčistiť mapu</string>
+    <string name="da_layer_name_parking">Parkovanie</string>
+    <string name="da_layer_name_attractions">Atrakcie</string>
+    <string name="da_layer_name_gas_stations">Čerpacie stanice</string>
+    <string name="da_layer_name_restaurants">Reštaurácie</string>
+    <string name="da_layer_name_supermarkets">Supermarkety</string>
+    <string name="da_layer_name_atms_and_banks">bankomaty a banky</string>
+    <string name="da_layer_name_convenience_stores">Obchody so zmiešaným tovarom</string>
+    <string name="da_query_banks_and_atms">Banky a bankomaty</string>
+    <string name="da_rerouting">Hľadanie novej trasy...</string>
+    <string name="da_via">Po %s</string>
+    <string name="da_to_destination">do %s</string>
+    <string name="da_via_name_separator">" a "</string>
+    <string name="da_record_feedback">Nahrať spätnú väzbu</string>
+    <string name="da_destination_not_here">Cieľ sa tu nenachádza</string>
+    <string name="da_new_destination">Ďalší cieľ</string>
+    <string name="da_reroute_to_destination">Späť na cieľ</string>
+    <string name="da_change_destination">Nastaviť cieľ</string>
+    <string name="da_search_for_destination">Hľadať...</string>
+    <string name="da_point_on_map">Bod na mape</string>
+    <string name="da_volume">Hlasitosť navigácie</string>
+    <string name="da_exit">Ukončiť</string>
+    <string name="da_did_you_mean">Mysleli ste:</string>
+    <string name="da_did_you_say">Chceli ste povedať:</string>
+    <string name="da_for_your_end_point">Pre váš koncový bod</string>
+    <string name="da_unnamed_road">Cesta bez názvu</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, potom %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Po vzdialenosti %1$s metrov</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Po vzdialenosti jeden a pol kilometra</string>
+    <string name="da_speech_continue_for_x_meters">Pokračujte %1$s metrov</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Pokračujte jeden a pol kilometra</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Pokračujte po ceste %2$s %1$s metrov</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Pokračujte po ceste %1$s jeden a pol kilometra</string>
+    <string name="da_speech_generic_continue">Pokračujte rovno</string>
+    <string name="da_speech_in_x_feet">Po vzdialenosti %1$s stôp</string>
+    <string name="da_speech_in_x_yards">O %1$s yardov</string>
+    <string name="da_speech_in_a_quarter_mile">O štvrť míle</string>
+    <string name="da_speech_in_a_half_mile">O pol míle</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">O tri štvrte míle</string>
+    <string name="da_speech_in_one_and_a_half_miles">O jednu a pol míle</string>
+    <string name="da_speech_continue_for_x_feet">Pokračujte %1$s stôp</string>
+    <string name="da_speech_continue_for_x_yards">Pokračujte %1$s yardov</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Pokračujte štvrť míle</string>
+    <string name="da_speech_continue_for_a_half_mile">Pokračujte pol míle</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Pokračujte tri štvrte míle</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Pokračujte jeden a pol míle</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Pokračujte po ceste %2$s %1$s stôp</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Pokračujte po ceste %2$s %1$s yardov</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Pokračujte po ceste %1$s štvrť míle</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Pokračujte po ceste %1$s pol míle</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Pokračujte po ceste %1$s tri štvrte míle</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Pokračujte po ceste %1$s jeden a pol míle</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SW,W,NW</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SW,W,NW,Ave,Blvd,Byp,Cir,Ct,Dr,Expy,Fwy,Hwy,Ln,Pkwy,Pl,Rd,St,Thrwy,Way</string>
+    <string name="da_no_route">Nepodarilo sa nájsť žiadnu cestu</string>
+    <string name="da_route_not_found">Nepodarilo sa nájsť cestu k vášmu cieľu.</string>
+    <string name="da_destination_not_found">Nepodarilo sa nájsť polohu cieľa.</string>
+    <string name="da_navigation_not_supported">Navigácia k vášmu cieľu nie je k dispozícii.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Navigácia aplikácie Mapy Google zatiaľ nie je na tomto mieste k dispozícii.</string>
+    <string name="da_launch_maps">Spustiť Mapy</string>
+    <string name="da_no_image_available">K dispozícii nie je žiadny obrázok.</string>
+    <string name="da_image_error">Chyba načítavania obrázku.</string>
+    <string name="da_no_alternate_routes">Nepodarilo sa nájsť náhradné trasy k vášmu cieľu.</string>
+    <string name="da_picker_type_destination">Zadať cieľ</string>
+    <string name="da_picker_speak_destination">Vysloviť názov cieľa</string>
+    <string name="da_picker_contacts">Kontakty.</string>
+    <string name="da_picker_starred_items">Miesta s hviezdičkou</string>
+    <string name="da_picker_new_contact">Nový kontakt</string>
+    <string name="da_picker_recent_destinations">Posledné ciele</string>
+    <string name="da_picker_choose_destination">Zvoliť cieľ</string>
+    <string name="da_navigate_to">Navigovať na</string>
+    <string name="da_picker_search_hint">Cieľ</string>
+    <string name="da_route_options">Možnosti trasy</string>
+    <string name="da_updating_directions">Prebieha aktualizácia trasy</string>
+    <string name="da_picker_no_starred_items">"Nemáte žiadne miesta označené hviezdičkou.
+
+Miesta označené hviezdičkou sú automaticky synchronizované s webom maps.google.sk.
+
+Výsledky vyhľadávania v službe Mapy Google označíte hviezdičkou tak, že poklepete na ikonu hviezdičky vedľa adresy."</string>
+    <string name="da_picker_no_contacts">"Nemáte žiadne kontakty s adresami.
+
+V aplikácii Kontakty môžete pridať nové kontakty alebo nastaviť adresy pre existujúce kontakty."</string>
+    <string name="da_driving">Autom</string>
+    <string name="da_walking">Pešo</string>
+    <string name="da_quoted_text">„%1$s“</string>
+    <string name="da_more_info">Ďalšie informácie</string>
+    <string name="da_search_maps">Prehľadať Mapy</string>
+    <string name="da_walking_warning">Pešie trasy (beta): používajte opatrne</string>
+    <string name="da_calibrate_compass_title">Kalibrácia kompasu</string>
+    <string name="da_calibrate_compass">Kompas nie je nakalibrovaný. Nakalibrujete ho tak, že zariadením vo vzduchu niekoľkokrát opíšete osmičku.</string>
+    <string name="da_confirm_exit_title">Ukončiť navigáciu?</string>
+    <string name="da_confirm_exit_text">Týmto sa ukončí všetko plánovanie trasy.</string>
+    <string name="da_route_includes_tolls">Trasa zahŕňa mýto</string>
+    <string name="da_avoid_tolls">Vyhnúť sa mýtu</string>
+    <string name="da_avoiding_tolls">Trasy s mýtom boli vynechané</string>
+    <string name="da_avoiding_highways">Diaľnice boli vynechané</string>
+    <string name="da_route_includes_unavoidable_tolls">Táto trasa zahŕňa mýto.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Táto trasa zahŕňa mýto. Trasy s mýtom môžete zakázať v možnostiach %1$s%2$s nižšie.</string>
+    <string name="da_seasonally_closed">Cesta môže byť v niektorých častiach roka uzavretá</string>
+    <string name="da_direction_north">sever</string>
+    <string name="da_direction_north_west">severozápad</string>
+    <string name="da_direction_west">západ</string>
+    <string name="da_direction_south_west">juhozápad</string>
+    <string name="da_direction_south">juh</string>
+    <string name="da_direction_south_east">juhovýchod</string>
+    <string name="da_direction_east">východ</string>
+    <string name="da_direction_north_east">severovýchod</string>
+    <string name="da_step_depart">Smer %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Zamierte smerom %1$s na cestu %2$s</string>
+    <string name="da_step_slight_left">Mierne doľava</string>
+    <string name="da_step_slight_right">Mierne doprava</string>
+    <string name="da_step_turn_left">Odbočiť doľava</string>
+    <string name="da_step_turn_right">Odbočte doprava</string>
+    <string name="da_step_sharp_left">Ostro doľava</string>
+    <string name="da_step_sharp_right">Ostro doprava</string>
+    <string name="da_step_slight_left_onto">Mierne doľava na cestu %1$s</string>
+    <string name="da_step_slight_right_onto">Mierne doprava na cestu %1$s</string>
+    <string name="da_step_turn_left_onto">Odbočiť doľava na cestu %1$s</string>
+    <string name="da_step_turn_right_onto">Odbočiť doprava na cestu %1$s</string>
+    <string name="da_step_sharp_left_onto">Ostro doľava na cestu %1$s</string>
+    <string name="da_step_sharp_right_onto">Ostro doprava na cestu %1$s</string>
+    <string name="da_step_fork_left">Na križovatke pokračujte doľava</string>
+    <string name="da_step_fork_right">Na križovatke pokračujte doľava</string>
+    <string name="da_step_continue_onto">Pokračujte na cestu %1$s</string>
+    <string name="da_step_continue_straight">Pokračujte rovno</string>
+    <string name="da_step_u_turn">Otočte sa o 180 stupňov</string>
+    <string name="da_step_take_the_ramp">Prejdite na nájazd</string>
+    <string name="da_step_take_the_ramp_onto">Prejdite na nájazd na %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Prejdite na nájazd vľavo</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Prejdite na nájazd vľavo na %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Prejdite na nájazd vpravo</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Prejdite na nájazd vpravo na %1$s</string>
+    <string name="da_step_take_the_exit">Prejdite na výjazd</string>
+    <string name="da_step_take_the_exit_on_the_left">Prejdite na výjazd vľavo</string>
+    <string name="da_step_take_the_exit_on_the_right">Prejdite na výjazd vpravo</string>
+    <string name="da_step_take_the_exit_onto">Prejdite na výjazd na cestu %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Prejdite na výjazd vľavo na cestu %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Prejdite na výjazd vpravo na cestu %1$s</string>
+    <string name="da_step_take_exit_n">Prejdite na výjazd %1$s</string>
+    <string name="dav_map_copyrights_google_only">© %1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">© %1$d Google - snímky © %2$d %3$s, mapové údaje © %4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">© %1$d Google - snímky © %2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">© %1$d Google - mapové údaje © %2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Domov</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Trasa a navigácia</string>
+    <string name="EXIT_COMMAND">Ukončiť</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} chce, aby ste sa nahlásili</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Žiadosť o nahlásenie v službe Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Zadať adresu</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Ikona odkazu</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Uložiť</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Cieľ</string>
+    <string name="GOHOME_SHORTCUT_NAME">Názov odkazu</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navigácia odbočka za odbočkou</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Otvoriť nastavenia</string>
+    <string name="HOTPOT_LOADING">Prebieha načítavanie...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Miniaplikácia Hodnotenia miest vyžaduje povolenie možnosti „Použiť bezdrôtové siete“ (v nastaveniach Poloha a zabezpečenie) a povolenie siete Wi-Fi (v nastaveniach Bezdrôtové pripojenia a sieť).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Ak chcete používať miniaplikáciu Hodnotenie miest, povoľte v nastaveniach Poloha a zabezpečenie možnosť „Použiť bezdrôtové siete“.</string>
+    <string name="HOTPOT_NO_LOCATION">Žiadne informácie o polohe</string>
+    <string name="HOTPOT_SEARCH">Hľadať</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Hľadaný dopyt: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Hľadať znova</string>
+    <string name="HOTPOT_SELECT_PLACE">Vybrať miesto, ktoré má byť hodnotené</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Vyberte miesto: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Neznáma poloha</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Prebieha obnovenie polohy...</string>
+    <string name="HOTPOT_WIDGET_NAME">Hodnotenia miest</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Uverejňované pod menom {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Povedzte viac</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Posledná aktualizácia: {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"Presnosť miniaplikácie Rate Places zvýšite zapnutím Wi-Fi v časti Bezdrôtové a sieťové nastavenia "</string>
+    <string name="HOTPOT_YOU_RATED">"Vaše hodnotenie: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">V mieste: {0}, zdieľané so skupinami: {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Nahlásený/-á v mieste {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Nahlásiť sa v mieste {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Kde sa chcete nahlásiť?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Klepnutím sa prihláste do Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Dátum poslednej aktualizácie: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Neznáma poloha</string>
+    <string name="LOADING">Načítava sa</string>
+    <string name="MAPS_APP_NAME">Mapy</string>
+    <string name="NEED_NET_BODY">Túto aplikáciu nie je možné použiť, kým jej neudelíte práva na odosielanie a príjem údajov po sieti.</string>
+    <string name="NEED_NET_TITLE">Je potrebný prístup k sieti</string>
+    <string name="NETWORK_DATA_ERROR">Táto aplikácia vyžaduje dátové pripojenie. Kontaktujte svojho operátora.</string>
+    <string name="NET_FAIL_BODY">Aplikácia vyžaduje funkčné dátové pripojenie.</string>
+    <string name="NET_FAIL_TITLE">Zlyhanie siete</string>
+    <string name="NET_UNAVAILABLE_TITLE">Sieť nie je k dispozícii</string>
+    <string name="PLACES_APP_NAME">Miesta</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">„napr. boloňské špagety, koktejly, hudba“</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">„Čo je výnimočné?“</string>
+    <string name="RATINGS_OPTIN_CANCEL">Zrušiť</string>
+    <string name="RATINGS_OPTIN_CLOSE">Zavrieť</string>
+    <string name="RATINGS_OPTIN_FAILED">Aktualizácia zlyhala, skúste znova neskôr.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Zapojte sa do sociálnej siete!&lt;/b> Prejdite vo svojom počítači na stránku &lt;b>{0}&lt;/b>, pridajte si priateľov a objavte miesta, ktoré majú radi.</string>
+    <string name="RATINGS_OPTIN_HEADING">Nastaviť verejnú prezývku pre Miesta Google.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Meno alebo prezývka: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Ohodnoťte viac svojich obľúbených reštaurácií, kaviarní a ostatných miest. Odporúčania vo výsledkoch vyhľadávania tak budú založené na vašom osobnom vkuse.</string>
+    <string name="RATINGS_OPTIN_SAVE">Začať</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Vaše hodnotenia miest sú pod touto prezývkou &lt;b>uverejňované na webe&lt;/b> a prispôsobujú sa im vaše výsledky vyhľadávania. &lt;a href=#>Viac informácií&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Uverejňované na webe pod menom {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Uverejňované na webe.</string>
+    <string name="RATINGS_RATE_PLACES">Aký význam má hodnotenie miest?</string>
+    <string name="RATINGS_SET_APPEARANCE">Nastaviť vzhľad</string>
+    <string name="RATINGS_WAIT">Čakajte...</string>
+    <string name="SEARCH_HINT">Prehľadať Mapy</string>
+    <string name="SHORT_APP_NAME">Mapy Google</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Cieľový bod</string>
+    <string name="TRAFFIC_WIDGET_NAME">Premávka</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Názov miniaplikácie</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Uložiť</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Začiatočný bod</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Vážna chyba. Ukončite aplikáciu a reštartujte ju.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Neznáma chyba</string>
+    <string name="UPGRADE_BODY">V prípade, že chcete použiť túto aplikáciu, musíte nainštalovať novú verziu.</string>
+    <string name="UPGRADE_TITLE">Aktualizácia softvéru</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Tapeta Mapy v priamom prenose</string>
+    <string name="WALLPAPER_MAP_MODE">Režim mapy</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normálne</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelitný</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Režim mapy – napr. Satelitný</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Terén</string>
+    <string name="WALLPAPER_SETTINGS">Nastavenia tapety Mapy v priamom prenose</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Zobraziť premávku</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Zobraziť aktuálne počasie na mape. Musíte mať nainštalovanú miniaplikáciu počasie.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Počasie</string>
+</resources>

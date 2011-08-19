@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">إعداد برنامج الطقس</string>
+    <string name="refreshBtn">تحديث</string>
+    <string name="saveBtn">حفظ</string>
+    <string name="cancelBtn">إلغاء</string>
+    <string name="nocityfound">لم يتم العثور على مدينة</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="winds">الرياح</string>
+    <string name="infor1">غير متاح</string>
+    <string name="searchlistviewtitle">اختر مدينة</string>
+    <string name="wait">يرجى الانتظار...</string>
+    <string name="refreshFail">تعذر التحديث. يرجى إعادة المحاولة مجددًا.</string>
+    <string name="searchFail">تعذر البحث. يرجى إعادة المحاولة مجددًا.</string>
+    <string name="dirN">شمال</string>
+    <string name="dirNNE">شمال شمال شرقي</string>
+    <string name="dirNE">شمال شرقي</string>
+    <string name="dirENE">شرق شمال شرقي</string>
+    <string name="dirE">شرق</string>
+    <string name="dirESE">شرق جنوب شرقي</string>
+    <string name="dirSE">جنوب شرقي</string>
+    <string name="dirSSE">جنوب جنوب شرقي</string>
+    <string name="dirS">جنوب</string>
+    <string name="dirSSW">جنوب جنوب غربي</string>
+    <string name="dirSW">جنوب غربي</string>
+    <string name="dirWSW">غرب جنوب غربي</string>
+    <string name="dirW">غرب</string>
+    <string name="dirWNW">غرب شمال غربي</string>
+    <string name="dirNW">شمال غربي</string>
+    <string name="dirNNW">شمال شمال غربي</string>
+    <string name="entercityname">يرجى إدخال مدينة:</string>
+    <string name="manualtitle">ضبط الموقع يدويًا</string>
+    <string name="refreshprogresstitle">تحديث معلومات الطقس</string>
+    <string name="refreshprogresscontent">إجراء التحديث الآن. يرجى الانتظار...</string>
+    <string name="searchprogresstitle">البحث عن المدينة</string>
+    <string name="searchprogresscontent">إجراء البحث الآن. يرجى الانتظار...</string>
+    <string name="no_network">الشبكة غير متاحة. لا يمكن تحديث معلومات الطقس.</string>
+    <string name="no_provider">لا تتوافر حاليًا معلومات لكل المواقع. يُرجى تشغيل شبكات لاسلكية والأقمار الصناعية GPS الموجودة في إعدادات الأمان والموقع للكشف عن المواقع على نحو أسرع وأدق.</string>
+    <string name="title_location">الموقع</string>
+    <string name="content_autorefreshed">التحديث التلقائي لموقعي الحالي</string>
+    <string name="content_manual">بحث يدوي</string>
+    <string name="title_updatefreq">معدل التحديث</string>
+    <string name="content_updatetime">آخر وقت للتحديث</string>
+    <string name="content_selectfreq">حدد معدل التحديث</string>
+    <string name="title_others">أخرى</string>
+    <string name="content_tempunit">وحدة الحرارة</string>
+</resources>

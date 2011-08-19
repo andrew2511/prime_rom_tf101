@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="100.0px" xt9:keyHeight="74.0px" xt9:horizontalGap="3.0px" xt9:verticalGap="2.0px" xt9:kdbId="2334" xt9:paddingLeft="18" xt9:paddingTop="12" xt9:paddingRight="12"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="+" />
+        <Key xt9:keyLabel="๑" />
+        <Key xt9:keyLabel="๒" />
+        <Key xt9:keyLabel="๓" />
+        <Key xt9:keyLabel="๔" />
+        <Key xt9:keyLabel="ู" />
+        <Key xt9:keyLabel="฿" />
+        <Key xt9:keyLabel="๕" />
+        <Key xt9:keyLabel="๖" />
+        <Key xt9:keyLabel="๗" />
+        <Key xt9:keyLabel="๘" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="๙" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="๐" />
+        <Key xt9:keyLabel="“" />
+        <Key xt9:keyLabel="ฎ" />
+        <Key xt9:keyLabel="ฑ" />
+        <Key xt9:keyLabel="ธ" />
+        <Key xt9:keyLabel="ํ" />
+        <Key xt9:keyLabel="๊" />
+        <Key xt9:keyLabel="ณ" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_thai_1" xt9:keyLabel="ฯ" />
+        <Key xt9:keyLabel="ญ" />
+        <Key xt9:keyLabel="ฐ" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="," />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="ฤ" />
+        <Key xt9:keyLabel="ฆ" />
+        <Key xt9:keyLabel="ฏ" />
+        <Key xt9:keyLabel="โ" />
+        <Key xt9:keyLabel="ฌ" />
+        <Key xt9:keyLabel="็" />
+        <Key xt9:keyLabel="๋" />
+        <Key xt9:keyLabel="ษ" />
+        <Key xt9:keyLabel="ศ" />
+        <Key xt9:keyLabel="ซ" />
+        <Key xt9:keyLabel="ฅ" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="." />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:shadowY="-1" xt9:codes="-1" xt9:keyEdgeFlags="left" xt9:isModifier="true" xt9:isSticky="true" xt9:keyIcon="@drawable/asus_ep_shift1" />
+        <Key xt9:keyLabel="(" />
+        <Key xt9:keyLabel=")" />
+        <Key xt9:keyLabel="ฉ" />
+        <Key xt9:keyLabel="ฮ" />
+        <Key xt9:keyLabel="ฺ" />
+        <Key xt9:keyLabel="์" />
+        <Key xt9:keyLabel="\?" />
+        <Key xt9:keyLabel="ฒ" />
+        <Key xt9:keyLabel="ฬ" />
+        <Key xt9:keyLabel="ฦ" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:shadowY="-1" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:keyIcon="@drawable/btn_asus_ep_dele_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_normal" xt9:shadowY="-1">
+        <Key xt9:keyWidth="154.0px" xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:labelTextColor="@color/white" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="412.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:codes="44" xt9:keyLabel="," />
+        <Key xt9:codes="46" xt9:popupKeyboard="@xml/popup_punctuation" xt9:keyLabel="." />
+        <Key xt9:keyWidth="154.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_url" xt9:shadowY="-1">
+        <Key xt9:keyWidth="154.0px" xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="412.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:keyOutputText=".com" xt9:keyLabel=".com" />
+        <Key xt9:codes="46" xt9:keyLabel="." />
+        <Key xt9:keyWidth="154.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_email" xt9:shadowY="-1">
+        <Key xt9:keyWidth="154.0px" xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="412.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:codes="64" xt9:keyLabel="\@" />
+        <Key xt9:keyOutputText=".com" xt9:keyLabel=".com" />
+        <Key xt9:keyWidth="154.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_im" xt9:shadowY="-1">
+        <Key xt9:keyWidth="154.0px" xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_symbol_cht_key" />
+        <Key xt9:codes="-12" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="412.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:codes="44" xt9:keyLabel="," />
+        <Key xt9:keyOutputText=".com" xt9:keyLabel=".com" />
+        <Key xt9:keyWidth="154.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go_icon" />
+    </Row>
+    <Row xt9:keyboardMode="@id/keys_substitution">
+        <Key xt9:codes="-20" xt9:keyLabel="," />
+    </Row>
+    <HardwareKey xt9:codes="48" xt9:keyLabel="0" xt9:keyCode="7" />
+    <HardwareKey xt9:codes="49" xt9:keyLabel="1" xt9:keyCode="8" />
+    <HardwareKey xt9:codes="50" xt9:keyLabel="2" xt9:keyCode="9" />
+    <HardwareKey xt9:codes="51" xt9:keyLabel="3" xt9:keyCode="10" />
+    <HardwareKey xt9:codes="52" xt9:keyLabel="4" xt9:keyCode="11" />
+    <HardwareKey xt9:codes="53" xt9:keyLabel="5" xt9:keyCode="12" />
+    <HardwareKey xt9:codes="54" xt9:keyLabel="6" xt9:keyCode="13" />
+    <HardwareKey xt9:codes="55" xt9:keyLabel="7" xt9:keyCode="14" />
+    <HardwareKey xt9:codes="56" xt9:keyLabel="8" xt9:keyCode="15" />
+    <HardwareKey xt9:codes="57" xt9:keyLabel="9" xt9:keyCode="16" />
+    <HardwareKey xt9:keyLabel="й" xt9:keyCode="45" />
+    <HardwareKey xt9:keyLabel="ц" xt9:keyCode="51" />
+    <HardwareKey xt9:keyLabel="у" xt9:keyCode="33" />
+    <HardwareKey xt9:keyLabel="к" xt9:keyCode="46" />
+    <HardwareKey xt9:keyLabel="е" xt9:keyCode="48" />
+    <HardwareKey xt9:keyLabel="н" xt9:keyCode="53" />
+    <HardwareKey xt9:keyLabel="г" xt9:keyCode="49" />
+    <HardwareKey xt9:keyLabel="ш" xt9:keyCode="37" />
+    <HardwareKey xt9:keyLabel="щ" xt9:keyCode="43" />
+    <HardwareKey xt9:keyLabel="з" xt9:keyCode="44" />
+    <HardwareKey xt9:keyLabel="х" xt9:keyCode="71" />
+    <HardwareKey xt9:keyLabel="Ъ" xt9:keyCode="72" />
+    <HardwareKey xt9:keyLabel="ф" xt9:keyCode="29" />
+    <HardwareKey xt9:keyLabel="ы" xt9:keyCode="47" />
+    <HardwareKey xt9:keyLabel="в" xt9:keyCode="32" />
+    <HardwareKey xt9:keyLabel="а" xt9:keyCode="34" />
+    <HardwareKey xt9:keyLabel="п" xt9:keyCode="35" />
+    <HardwareKey xt9:keyLabel="р" xt9:keyCode="36" />
+    <HardwareKey xt9:keyLabel="о" xt9:keyCode="38" />
+    <HardwareKey xt9:keyLabel="л" xt9:keyCode="39" />
+    <HardwareKey xt9:keyLabel="д" xt9:keyCode="40" />
+    <HardwareKey xt9:keyLabel="ж" xt9:keyCode="74" />
+    <HardwareKey xt9:keyLabel="э" xt9:keyCode="75" />
+    <HardwareKey xt9:keyLabel="я" xt9:keyCode="54" />
+    <HardwareKey xt9:keyLabel="ч" xt9:keyCode="52" />
+    <HardwareKey xt9:keyLabel="с" xt9:keyCode="31" />
+    <HardwareKey xt9:keyLabel="м" xt9:keyCode="50" />
+    <HardwareKey xt9:keyLabel="и" xt9:keyCode="30" />
+    <HardwareKey xt9:keyLabel="т" xt9:keyCode="42" />
+    <HardwareKey xt9:keyLabel="ь" xt9:keyCode="41" />
+    <HardwareKey xt9:keyLabel="б" xt9:keyCode="55" />
+    <HardwareKey xt9:keyLabel="ю" xt9:keyCode="56" />
+    <HardwareKey xt9:codes="-5" xt9:keyCode="67" />
+    <HardwareKey xt9:codes="32" xt9:keyCode="62" />
+</KeyboardEx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/ic_market_widget_star_full_holo" />
+    </item>
+    <item android:left="32.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/ic_market_widget_star_full_holo" />
+    </item>
+    <item android:left="64.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/ic_market_widget_star_full_holo" />
+    </item>
+    <item android:left="96.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/ic_market_widget_star_half_holo" />
+    </item>
+    <item android:left="128.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/ic_market_widget_star_empty_holo" />
+    </item>
+</layer-list>

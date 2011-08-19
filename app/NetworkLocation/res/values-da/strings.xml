@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Netværksplacering</string>
+    <string name="location_warning_title">Placeringssamtykke</string>
+    <string name="location_warning_message">Tillader, at Googles placeringstjeneste indsamler anonyme placeringsdata. Indsamlingen sker også, når der ikke kører nogle applikationer.</string>
+    <string name="agree">Accepterer</string>
+    <string name="disagree">Accepterer ikke</string>
+</resources>

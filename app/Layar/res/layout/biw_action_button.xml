@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/actionButton" android:background="@drawable/btn_large_x" android:padding="2.0dip" android:clickable="true" android:layout_width="124.0dip" android:layout_height="28.0dip" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="22.0dip" android:layout_height="22.0dip" />
+    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:id="@id/text" android:layout_width="96.0dip" android:layout_height="wrap_content" android:text="Take me there" android:singleLine="true" />
+</LinearLayout>

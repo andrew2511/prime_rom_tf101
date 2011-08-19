@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">天気ウィジェット設定</string>
+    <string name="refreshBtn">更新</string>
+    <string name="saveBtn">保存</string>
+    <string name="cancelBtn">キャンセル</string>
+    <string name="nocityfound">都市が見つかりません</string>
+    <string name="humidity">湿度</string>
+    <string name="winds">風</string>
+    <string name="infor1">利用できません</string>
+    <string name="searchlistviewtitle">都市の選択</string>
+    <string name="wait">お待ちください...</string>
+    <string name="refreshFail">更新に失敗しました。再試行してください。</string>
+    <string name="searchFail">検索に失敗しました。再試行してください。</string>
+    <string name="dirN">北</string>
+    <string name="dirNNE">北北東</string>
+    <string name="dirNE">北東</string>
+    <string name="dirENE">東北東</string>
+    <string name="dirE">東</string>
+    <string name="dirESE">東南東</string>
+    <string name="dirSE">南東</string>
+    <string name="dirSSE">南南東</string>
+    <string name="dirS">南</string>
+    <string name="dirSSW">南南西</string>
+    <string name="dirSW">南西</string>
+    <string name="dirWSW">西南西</string>
+    <string name="dirW">西</string>
+    <string name="dirWNW">西北西</string>
+    <string name="dirNW">北西</string>
+    <string name="dirNNW">北北西</string>
+    <string name="entercityname">都市を入力してください：</string>
+    <string name="manualtitle">場所の手動設定</string>
+    <string name="refreshprogresstitle">お天気情報の更新</string>
+    <string name="refreshprogresscontent">更新中です、少々お待ちください.</string>
+    <string name="searchprogresstitle">都市検索</string>
+    <string name="searchprogresscontent">検索中です、少々お待ちください...</string>
+    <string name="no_network">ネットワークが利用できません。お天気情報を更新できません。</string>
+    <string name="no_provider">情報が利用できない地点もあります。 ワイヤレスネットワークをONにし、 「Location and Security Setting」でGPSサテライトを有効にし、より正確な情報を短時間で取得することができます。</string>
+    <string name="title_location">場所</string>
+    <string name="content_autorefreshed">現在地の自動更新</string>
+    <string name="content_manual">手動検索</string>
+    <string name="title_updatefreq">更新頻度</string>
+    <string name="content_updatetime">前回の更新時間</string>
+    <string name="content_selectfreq">更新頻度の選択</string>
+    <string name="title_others">その他</string>
+    <string name="content_tempunit">温度単位</string>
+</resources>

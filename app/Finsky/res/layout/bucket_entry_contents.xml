@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/li_thumbnail" android:layout_alignParentTop="true" style="@style/ContentEntryIcon" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/li_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/li_thumbnail" android:layout_alignParentTop="true">
+        <TextView android:id="@id/li_title" android:layout_alignParentTop="true" style="@style/ContentEntryTitle" />
+        <TextView android:id="@id/li_creator" android:layout_below="@id/li_title" style="@style/ContentEntrySubtitle" />
+    </RelativeLayout>
+    <TextView android:id="@id/li_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bucket_entry_price_button_margin" android:layout_marginBottom="@dimen/bucket_entry_price_button_margin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/BuyButton" />
+</merge>

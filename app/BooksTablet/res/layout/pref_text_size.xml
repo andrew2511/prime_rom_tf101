@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:id="@id/pref_text_size" android:layout_width="fill_parent" android:layout_height="wrap_content" books:key="textSize" class="com.google.android.apps.books.preference.RadioGroupPreference"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:books="http://schemas.android.com/apk/res/com.google.android.apps.books">
+    <RadioGroup android:orientation="horizontal" android:id="@id/pref_text_size_content" android:tag="textSize" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Preference.RadioGroup">
+        <RadioButton android:tag="-1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_settings_textsize_small" style="@style/Preference.RadioButton.IconOnly" />
+        <RadioButton android:tag="0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_settings_textsize_medium" style="@style/Preference.RadioButton.IconOnly" />
+        <RadioButton android:tag="1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_settings_textsize_large" style="@style/Preference.RadioButton.IconOnly" />
+    </RadioGroup>
+</view>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:stretchColumns="1" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:id="@id/what_label" style="@style/TextAppearance.EditEvent_Label" />
+        <EditText android:textSize="24.0sp" android:textStyle="bold" android:id="@id/title" android:focusable="true" android:layout_width="wrap_content" android:hint="@string/hint_what" android:capitalize="sentences" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/calendar_selector_group" android:focusable="true">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:text="@string/edit_event_calendar_label" style="@style/TextAppearance.EditEvent_Label" />
+        <Spinner android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/calendars_spinner" android:prompt="@string/edit_event_calendar_label" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/calendar_group" android:focusable="true">
+        <TextView android:text="@string/edit_event_calendar_label" style="@style/TextAppearance.EditEvent_Label" />
+        <TextView android:id="@id/calendar_textview" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/when_row" android:focusable="true" android:visibility="gone">
+        <TextView android:id="@id/when_label" android:text="@string/when_label" style="@style/TextAppearance.EditEvent_Label" />
+        <TextView android:id="@id/when" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/from_row">
+        <TextView android:id="@id/from_label" android:text="@string/edit_event_from_label" style="@style/TextAppearance.EditEvent_Label" />
+        <LinearLayout android:orientation="horizontal" android:animateLayoutChanges="false">
+            <Button android:id="@id/start_date" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="7.0" style="@style/TextAppearance.EditEvent_Spinner" />
+            <Button android:id="@id/start_time" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="4.0" style="@style/TextAppearance.EditEvent_Spinner" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@id/from_row_home" android:focusable="true" android:visibility="gone">
+        <TextView />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="8.0dip">
+            <TextView android:gravity="left|center" android:id="@id/start_date_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="7.0" style="@style/TextAppearance.EditEvent_homeTime" />
+            <TextView android:gravity="right|center" android:id="@id/start_time_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4.0" style="@style/TextAppearance.EditEvent_homeTime" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@id/to_row">
+        <TextView android:id="@id/to_label" android:text="@string/edit_event_to_label" style="@style/TextAppearance.EditEvent_Label" />
+        <LinearLayout android:orientation="horizontal" android:animateLayoutChanges="false">
+            <Button android:id="@id/end_date" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="7.0" style="@style/TextAppearance.EditEvent_Spinner" />
+            <Button android:id="@id/end_time" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="4.0" style="@style/TextAppearance.EditEvent_Spinner" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@id/to_row_home" android:focusable="true" android:visibility="gone">
+        <TextView />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="8.0dip">
+            <TextView android:gravity="left|center" android:id="@id/end_date_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="7.0" style="@style/TextAppearance.EditEvent_homeTime" />
+            <TextView android:gravity="right|center" android:id="@id/end_time_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4.0" style="@style/TextAppearance.EditEvent_homeTime" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@id/timezone_textview_row" android:focusable="true" android:visibility="gone">
+        <TextView android:text="@string/timezone_label" style="@style/TextAppearance.EditEvent_Label" />
+        <TextView android:id="@id/timezone_textView" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/timezone_button_row">
+        <TextView android:id="@id/timezone_label" android:text="@string/timezone_label" style="@style/TextAppearance.EditEvent_Label" />
+        <Button android:gravity="left|center" android:id="@id/timezone_button" style="@style/TextAppearance.EditEvent_Spinner" />
+    </TableRow>
+    <TableRow android:id="@id/all_day_row">
+        <TextView android:id="@id/is_all_day_label" android:layout_height="fill_parent" android:text="@string/edit_event_all_day_label" style="@style/TextAppearance.EditEvent_Label" />
+        <CheckBox android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/is_all_day" android:layout_height="fill_parent" />
+    </TableRow>
+    <TableRow android:id="@id/where_row" android:focusable="true">
+        <TextView android:text="@string/where_label" style="@style/TextAppearance.EditEvent_Label" />
+        <EditText android:id="@id/location" android:hint="@string/hint_where" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/description_row" android:focusable="true">
+        <TextView android:id="@id/description_label" android:text="@string/description_label" style="@style/TextAppearance.EditEvent_Label" />
+        <EditText android:id="@id/description" android:layout_width="wrap_content" android:hint="@string/hint_description" android:capitalize="sentences" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:focusable="true">
+        <TextView android:id="@id/repeats_label" android:text="@string/repeats_label" style="@style/TextAppearance.EditEvent_Label" />
+        <Spinner android:id="@id/repeats" android:prompt="@string/repeats_label" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/reminders_row" android:focusable="true">
+        <TextView android:id="@id/reminders_label" android:text="@string/reminders_label" style="@style/TextAppearance.EditEvent_Label" />
+        <LinearLayout android:orientation="horizontal">
+            <LinearLayout android:orientation="vertical" android:id="@id/reminder_items_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageButton android:gravity="right|center" android:id="@id/reminder_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlusButton" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@id/availability_row">
+        <TextView android:id="@id/presence_label" android:text="@string/presence_label" style="@style/TextAppearance.EditEvent_Label" />
+        <Spinner android:entries="@array/availability" android:id="@id/availability" android:prompt="@string/presence_label" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+    <TableRow android:id="@id/visibility_row">
+        <TextView android:id="@id/privacy_label" android:text="@string/privacy_label" style="@style/TextAppearance.EditEvent_Label" />
+        <Spinner android:entries="@array/visibility" android:id="@id/visibility" android:prompt="@string/privacy_label" style="@style/TextAppearance.EditEvent_Value" />
+    </TableRow>
+</TableLayout>

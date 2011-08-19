@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Netzwerkstandort</string>
+    <string name="location_warning_title">Standortfreigabe</string>
+    <string name="location_warning_message">Ermöglicht dem Google-Standortservice, anonyme Standortdaten zu erfassen. Die Erfassung erfolgt auch, wenn gerade keine Anwendungen ausgeführt werden.</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Ablehnen</string>
+</resources>

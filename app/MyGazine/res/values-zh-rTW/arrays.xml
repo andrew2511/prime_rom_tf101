@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>完整圖片</item>
+        <item>符合顯示區域(圖片可能會被裁切)</item>
+    </string-array>
+</resources>

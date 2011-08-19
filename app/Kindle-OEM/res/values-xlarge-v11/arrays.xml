@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="font_size_array">
+        <item>17</item>
+        <item>20</item>
+        <item>24</item>
+        <item>29</item>
+        <item>35</item>
+        <item>42</item>
+    </integer-array>
+</resources>

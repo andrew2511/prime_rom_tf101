@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSITE</string>
+    <string name="music_title_str">MUZIEK</string>
+    <string name="web_tag_str">Geen URL</string>
+    <string name="music_tag_album">Geen album</string>
+    <string name="music_tag_song">Geen nummer</string>
+    <string name="music_tag_artist">Geen artiest</string>
+    <string name="date_text_str">Geen datum</string>
+    <string name="cal_event_str">Geen meest recente gebeurtenis</string>
+    <string name="weather_info_str">Geen weersinformatie</string>
+    <string name="weather_content_str">Geen weerinhoud</string>
+    <string name="photo_date_str">Geen datum foto</string>
+    <string name="miles_per_hour">km/p/u</string>
+    <string name="windspeed">Wind ONO</string>
+    <string name="humidity">Vochtigheid</string>
+    <string name="email_unit">E-mails</string>
+    <string name="email_unit_single">E-mail</string>
+    <string name="event_unit">Voorval</string>
+    <string name="event_unit_single">Voorvallen</string>
+    <string name="book_unit">Boeken</string>
+    <string name="book_unit_single">Boek</string>
+    <string name="weather_city_str">Geen stad</string>
+    <string name="date_format_title">Datumnotatie</string>
+    <string name="preference_header_title">Voorkeur</string>
+    <string name="slideshow_header_title">Diavoorstelling</string>
+    <string name="picture_number_title">Nummer foto in diavoorstelling</string>
+    <string name="slide_show_interval_title">Interval diavoorstelling</string>
+    <string name="transition_effect_title">Overgangseffect</string>
+    <string name="enable">Inschakelen</string>
+    <string name="disable">uitschakelen</string>
+    <string name="app_settings">Instellingen ASUS MyZine</string>
+    <string name="unit_picture">"Foto's"</string>
+    <string name="unit_second">sec</string>
+    <string name="Image_headline">Afbeelding</string>
+    <string name="display_headline">Beeld</string>
+    <string name="date_headline">Datum</string>
+    <string name="logo_display_title">logo ASUS MyZine</string>
+    <string name="date_display_title">Datum/tijd</string>
+    <string name="photo_date_display_title">Aanmaakdatum afbeeldingen</string>
+    <string name="event_display_title">Aankomende gebeurtenis</string>
+    <string name="weather_display_title">Weer</string>
+    <string name="scale_type_title">Presentatie afbeeldingen</string>
+</resources>

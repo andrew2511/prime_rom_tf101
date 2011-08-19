@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Kabul edildi: %s</string>
+    <string name="meeting_declined">Reddedildi: %s</string>
+    <string name="meeting_tentative">Kararsız: %s</string>
+    <string name="meeting_canceled">İptal Edildi: %s</string>
+    <string name="meeting_updated">Güncellendi: %s</string>
+    <string name="meeting_when">Zaman: %s</string>
+    <string name="meeting_where">Yer: %s</string>
+    <string name="meeting_recurring">Zaman: %s (yinelenen)</string>
+    <string name="notification_exchange_calendar_added">Exchange takvimi eklendi</string>
+    <string name="app_name">Exchange Hizmetleri</string>
+    <string name="exception_cancel">Bu olay şu tarih için iptal edildi: %s</string>
+    <string name="exception_updated">Bu olayın ayrıntıları değiştirildi: %s</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Widok ulicy</string>
+    <string name="go_to_map">Przejdź do mapy</string>
+    <string name="report_inappropriate_image">Zgłoś obraz</string>
+    <string name="toggle_compass_mode">Tryb kompasu</string>
+    <string name="compass_mode_on">Tryb kompasu włączony</string>
+    <string name="compass_mode_off">Tryb kompasu wyłączony</string>
+    <string name="waiting_for_network">Połączenie zostało zerwane. Ponawianie próby…</string>
+    <string name="panorama_disabled">Obraz już jest niedostępny</string>
+    <string name="service_unavailable">Widok ulicy jest niedostępny.</string>
+    <string name="loading">Ładowanie</string>
+    <string name="no_panorama_data">Nie ustawiono danych panoramy.</string>
+    <string name="invalid_panorama_data">Nieprawidłowa panorama</string>
+    <string name="click_to_go_toast">Przeciągnij Pegmana do miejsca, w które chcesz się udać.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Dla tego programu wymagane jest połączenie transmisji danych. Próba nawiązania połączenia będzie ponawiana automatycznie. Sprawdź siłę sygnału. Czy jest włączony tryb samolotowy? Czy jest wyłączony roaming danych?</string>
+    <string name="whats_new_header">Co nowego w widoku ulicy?</string>
+    <string name="whats_new_c2g">Poleć w dowolne miejsce. Przeciągnij Pegmana z lewego dolnego rogu i upuść go w miejscu, do którego chcesz przejść.</string>
+    <string name="terms_and_privacy">Warunki korzystania z usługi i prywatność</string>
+    <string name="terms_and_conditions">Warunki korzystania z usługi</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+</resources>

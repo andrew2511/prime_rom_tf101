@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">تنتهي الصلاحية في %1$d يوم</item>
+        <item quantity="one">تنتهي الصلاحية في يوم واحد</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">تنتهي الصلاحية في %1$d ساعة</item>
+        <item quantity="one">تنتهي الصلاحية في ساعة واحدة</item>
+    </plurals>
+</resources>

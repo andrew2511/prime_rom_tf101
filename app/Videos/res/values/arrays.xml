@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="playlist_thumbnail_rotation_angles">
+        <item>0</item>
+        <item>-9</item>
+        <item>8</item>
+        <item>-7</item>
+        <item>6</item>
+    </integer-array>
+    <array name="download_policy_entries">
+        <item>@string/download_when_on_wifi</item>
+        <item>@string/download_on_any_network</item>
+    </array>
+    <array name="download_policy_values">
+        <item>@string/wifi</item>
+        <item>@string/any</item>
+    </array>
+    <string-array name="subtitles_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="subtitles_size_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Market Feedback Agent</string>
+    <string name="feedback">Feedback</string>
+    <string name="report_feedback">Fehler melden</string>
+    <string name="report_error_in">Fehler in %s melden</string>
+    <string name="system_log">Systemprotokoll</string>
+    <string name="event_log">Ereignisprotokoll</string>
+    <string name="preview">Vorschau</string>
+    <string name="back">Zurück</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="send">Senden</string>
+    <string name="preview_feedback">Feedback-Vorschau</string>
+    <string name="no_data">Keine Daten</string>
+    <string name="fetching_system_log">Systemprotokoll wird abgerufen...</string>
+    <string name="fetching_event_log">Ereignisprotokoll wird abgerufen...</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="include_system_data">Systemdaten einschließen</string>
+    <string name="this_will_help">Systemdaten zur besseren Problemdiagnose an Google weiterleiten</string>
+    <string name="privacy_policy"><a href="notused">Datenschutzbestimmungen</a></string>
+    <string name="unknown_app">Unbekannte Anwendung</string>
+    <string name="cant_save_report">Fehlerbericht konnte nicht gespeichert werden. Auf dem Gerät ist kein Speicherplatz verfügbar.</string>
+    <string name="report_being_sent">Vielen Dank. Ihr Bericht wird gesendet.</string>
+    <string name="optional_description">Beschreibung (optional)</string>
+    <string name="tos_activity_title">Rechtliche Hinweise</string>
+    <string name="tos_activity_unsuccessful_message">Ihr Telefon ist mit keinem Datendienst verbunden. Um diese Informationen jetzt anzuzeigen, rufen Sie %s von einem beliebigen, mit dem Internet verbundenen Computer auf.</string>
+    <string name="tos_accept">Akzeptieren</string>
+    <string name="tos_decline">Ablehnen</string>
+</resources>

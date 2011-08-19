@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_margin_left">40.0dip</dimen>
+    <dimen name="search_margin_top">80.0dip</dimen>
+    <dimen name="edit_event_left_margin">100.0dip</dimen>
+    <dimen name="edit_event_right_margin">100.0dip</dimen>
+    <dimen name="edit_event_top_margin">12.0dip</dimen>
+    <dimen name="edit_event_bottom_margin">12.0dip</dimen>
+    <dimen name="edit_event_top_padding">32.0dip</dimen>
+    <dimen name="edit_event_bottom_padding">32.0dip</dimen>
+    <dimen name="edit_event_bg_left_margin">50.0dip</dimen>
+    <dimen name="edit_event_bg_right_margin">50.0dip</dimen>
+    <dimen name="edit_event_bg_top_margin">12.0dip</dimen>
+    <dimen name="edit_event_bg_bottom_margin">12.0dip</dimen>
+    <dimen name="edit_event_text_left_margin">50.0dip</dimen>
+    <dimen name="edit_event_text_right_margin">50.0dip</dimen>
+    <dimen name="edit_event_text_top_margin">12.0dip</dimen>
+    <dimen name="edit_event_text_bottom_margin">12.0dip</dimen>
+    <dimen name="edit_event_chip_top_margin">7.0dip</dimen>
+    <dimen name="edit_event_chip_left_margin">45.0dip</dimen>
+    <dimen name="edit_event_chip_width">50.0dip</dimen>
+    <dimen name="edit_event_chip_height">50.0dip</dimen>
+    <dimen name="event_info_width">500.0dip</dimen>
+    <dimen name="event_info_height">600.0dip</dimen>
+    <dimen name="month_full_padding_left">12.0dip</dimen>
+    <dimen name="month_full_padding_right">12.0dip</dimen>
+    <dimen name="month_events_day_number_size">32.0dip</dimen>
+    <dimen name="month_events_bottom_padding">15.0dip</dimen>
+    <dimen name="month_event_x_offset_land">44.0dip</dimen>
+    <dimen name="month_event_y_offset_port">18.0dip</dimen>
+    <dimen name="day_activity_right_margin">16.0dip</dimen>
+    <dimen name="day_view_min_hours_width">96.0dip</dimen>
+    <dimen name="day_view_min_cell_width_for_text">27.0dip</dimen>
+    <dimen name="day_view_hours_left_margin">30.0dip</dimen>
+    <dimen name="date_range_padding">26.0dip</dimen>
+</resources>

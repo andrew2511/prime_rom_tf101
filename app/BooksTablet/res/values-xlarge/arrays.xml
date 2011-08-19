@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="detail_texture_offset_y_landscape">
+        <item>460</item>
+    </integer-array>
+    <integer-array name="detail_texture_offset_y_portrait">
+        <item>490</item>
+        <item>1010</item>
+    </integer-array>
+</resources>

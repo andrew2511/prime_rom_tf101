@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.googlenav.ui.android.TemplateViewRealtimeScheduleTransitStation android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/ListHeaderTitle" android:id="@id/alertsTitle" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/alertsList" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/alertsDivider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@id/realtimeScheduleTitleLayout" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ListHeaderTitle" android:id="@id/realtimeScheduleTitle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/PlacePageSecondaryGrey" android:gravity="right" android:id="@id/inMin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.googlenav.ui.android.SelfMeasuredListView android:id="@id/realtimeSchedules" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/PlacePageSecondaryGrey" android:layout_gravity="right" android:id="@id/lastRefreshTime" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/realtimeScheduleDivider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ListHeaderTitle" android:id="@id/scheduleTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:id="@id/schedulesUnknownHint" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.googlenav.ui.android.SelfMeasuredListView android:id="@id/schedules" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/schedulesDivider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ListHeaderTitle" android:id="@id/lineTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.googlenav.ui.android.SelfMeasuredListView android:id="@id/longNameLines" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.googlenav.ui.android.SelfMeasuredGridView android:id="@id/shortNameLines" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="7.0dip" />
+        <View android:id="@id/nearbyStationDivider" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ListHeaderTitle" android:id="@id/nearbyStationTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/nearbyStations" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</com.google.googlenav.ui.android.TemplateViewRealtimeScheduleTransitStation>

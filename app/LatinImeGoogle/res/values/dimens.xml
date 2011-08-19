@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_touch_noise_threshold_distance">2.0mm</dimen>
+    <dimen name="keyboardHeight">1.2649841in</dimen>
+    <dimen name="key_bottom_gap">0.034999967in</dimen>
+    <dimen name="key_horizontal_gap">0.0in</dimen>
+    <dimen name="popup_key_height">0.32500005in</dimen>
+    <dimen name="keyboard_top_padding">0.0in</dimen>
+    <dimen name="keyboard_bottom_padding">0.059999943in</dimen>
+    <dimen name="key_preview_height">80.0sp</dimen>
+    <dimen name="mini_keyboard_key_horizontal_padding">8.0dip</dimen>
+    <dimen name="mini_keyboard_slide_allowance">0.39in</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-0.32500005in</dimen>
+    <dimen name="key_letter_size">0.13in</dimen>
+    <dimen name="key_label_text_size">0.082999945in</dimen>
+    <dimen name="key_preview_text_size_large">40.0sp</dimen>
+    <dimen name="key_label_horizontal_alignment_padding">0.13in</dimen>
+    <dimen name="key_preview_offset">0.0in</dimen>
+    <dimen name="keyboard_vertical_correction">-0.049999952in</dimen>
+    <dimen name="candidate_strip_height">42.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
+    <dimen name="candidate_strip_padding">0.0dip</dimen>
+    <dimen name="candidate_min_width">0.30000007in</dimen>
+    <dimen name="candidate_padding">6.0dip</dimen>
+    <dimen name="candidate_text_size">18.0dip</dimen>
+    <dimen name="spacebar_vertical_correction">4.0dip</dimen>
+    <dimen name="max_height_for_fullscreen">2.5in</dimen>
+    <dimen name="key_hysteresis_distance">0.049999952in</dimen>
+</resources>

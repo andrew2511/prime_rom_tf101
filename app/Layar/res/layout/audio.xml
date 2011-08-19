@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/audioLayout" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="9.0dip" android:layout_width="300.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btnPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_media_play" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/timeline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_below="@id/btnPlay" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:gravity="left" android:id="@id/currentPosistion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" android:layout_alignTop="@id/timeline" android:layout_alignParentLeft="true" />
+    <TextView android:gravity="center" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" android:layout_alignTop="@id/timeline" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/progressLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/audio_loading" android:layout_below="@id/progressLoading" android:layout_centerHorizontal="true" />
+</RelativeLayout>

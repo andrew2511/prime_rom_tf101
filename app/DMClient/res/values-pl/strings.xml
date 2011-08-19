@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minuty</string>
+    <string name="postpone">Przełóż</string>
+    <string name="update">Aktualizuj</string>
+    <string name="firmware_update_title">Aktualizacja oprogramowania układowego</string>
+    <string name="firmware_update_fail">"Aktualizacja nie powiodła się.
+
+Przywrócona zostanie oryginalna konfiguracja urządzenia."</string>
+    <string name="low_battery_warning">"Do wykonania aktualizacji system wymaga co najmniej %1$d%% naładowania baterii.
+Naładuj baterię przed rozpoczęciem aktualizacji systemu."</string>
+    <string name="confirmDownload_textok">"Ta aktualizacja poprawia stabilność i nie usuwa żadnych danych, zalecamy aktualizację do tej wersji.
+Naciśnij TAK, aby zaakceptować aktualizację."</string>
+    <string name="confirmDownload_textcancel">Naciśnij NIE, aby odrzucić aktualizację.</string>
+    <string name="confirmDownload_textwifi">Do pobrania aktualizacji zalecamy użycie bezpłatnego hotspotu Wi-Fi.</string>
+    <string name="confirmDownload_textwifi2">Po naciśnięciu Później, można kontynuować pobieranie w dowolnym czasie, poprzez naciśnięcie powiadomienia.</string>
+    <string name="btn_text_later">Później</string>
+    <string name="confirmDownload_dialog_title">Ostrzeżenie, aktywna usługa roamingu.</string>
+    <string name="downloading">Pobieranie oprogramowania układowego...</string>
+    <string name="install_time">Szacowany czas instalacji:</string>
+    <string name="postponetime_text">Czas przełożenia:</string>
+    <string name="install">Zainstaluj</string>
+    <string name="reach_max_net_fail">Pobieranie przerwane przez serwer; spróbuj ponownie później.</string>
+    <string name="dlg_title_checking">Kontrola integralności.</string>
+    <string name="dlg_msg_checking">Sprawdzanie integralności pliku oprogramowania układowego.</string>
+    <string name="cannot_set_to_browser">Nie można ustawić na przeglądarkę.</string>
+    <string name="upgrade_error">Błąd aktualizacji; pobierz ponownie pakiet aktualizacji.</string>
+    <string name="start_to_download">Rozpocznij pobieranie pakietu aktualizacji krytycznej.</string>
+    <string name="start_to_upgrade">Rozpocznij uaktualnianie pakietu aktualizacji.</string>
+    <string name="start_NI_dmSession">Sieć zainicjowała sesję DM; zaakceptować?</string>
+    <string name="download_finished">Zakończono pobieranie oprogramowania układowego...</string>
+    <string name="download_in_progress">Trwa pobieranie nowego oprogramowania układowego</string>
+    <string name="out_of_mem_warning">"Za mało miejsca;
+odinstaluj część aplikacji i spróbuj ponownie."</string>
+    <string name="ui_alert_input_hint">Wprowadź tekst</string>
+    <string name="ui_alert_input_numeric_hint">Wprowadź wartość numeryczną</string>
+    <string name="ui_alert_input_phone_number_hint">Wprowadź numer telefoniczny</string>
+    <string name="check_for_update">Sprawdź aktualizację</string>
+    <string name="no_new_fota_update">Aktualnie brak jest dostępnych aktualizacji dla tego urządzenia.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Anuluj</string>
+    <string name="confirm_download_btn_Yes">Tak</string>
+    <string name="confirm_download_btn_No">Nie</string>
+    <string name="confirm_update_title">Aktualizacja oprogramowania ASUS.</string>
+    <string name="asus_received_title">Usługa aktualizacji firmware systemu Asus</string>
+    <string name="received_message">Dostępna jest nowa aktualizacja firmware systemu, naciśnij w celu aktualizacji.</string>
+    <string name="low_battery_title">Zakończona aktualizacja firmware systemu</string>
+    <string name="dl_received_ticker">Dostępna jest nowa aktualizacja firmware systemu.</string>
+    <string name="dl_received_message">Dostępna jest nowa aktualizacja firmware systemu, naciśnij w celu pobrania.</string>
+    <string name="confirmDownload_text1">Czy chcesz pobrać następującą aktualizację firmware systemu?</string>
+    <string name="received_ticker">Dostępna jest nowa aktualizacja firmware systemu.</string>
+    <string name="update_dialog_text">"Pobrana została nowa aktualizacja firmware systemu dla posiadanego urządzenia. Zainstalować teraz? 
+"</string>
+    <string name="prepare_dm_download">Przygotowanie pobierania firmware systemu...</string>
+    <string name="system_update_activity">Aktualizacja firmware systemu</string>
+    <string name="has_new_fota_update">Dostępna jest aktualizacja firmware systemu dla posiadanego urządzenia. Sprawdź powiadomienia.</string>
+    <string name="update_dialog_text2">Ta aktualizacja firmware systemu poprawia stabilność i nie spowoduje usunięcia żadnych danych, usilnie zalecamy aktualizację do tej wetrsji.</string>
+</resources>

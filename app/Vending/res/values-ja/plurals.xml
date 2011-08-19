@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">%1$d個のアプリケーションが復元されました。</item>
+        <item quantity="one">%1$d個のアプリケーションが復元されました。</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">%1$s件の評価</item>
+        <item quantity="one">%1$s件の評価</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">「%1$2$s」の検索結果%2$1$d件</item>
+        <item quantity="one">「%1$2$s」の検索結果%2$1$d件</item>
+    </plurals>
+</resources>

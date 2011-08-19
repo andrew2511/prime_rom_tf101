@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.xt9.input.SpellPhraseViewContainer android:orientation="horizontal" android:background="@drawable/keyboard_suggest_strip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tool_bar_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/spell_layout_window" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/spell_candidate_left" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_left_arrow" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+        </LinearLayout>
+        <com.nuance.xt9.input.SpellListView android:id="@id/spell_candidates" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+            <ImageButton android:id="@id/spell_candidate_right" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/phrase_layout_window" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/phrase_candidate_left" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_left_arrow" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+        </LinearLayout>
+        <com.nuance.xt9.input.CandidatesListView android:id="@id/phrase_candidates" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_suggest_strip_divider" />
+            <ImageButton android:id="@id/phrase_candidate_right" android:background="@drawable/ic_suggest_scroll_background" android:clickable="true" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_strip_scroll_right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nuance.xt9.input.SpellPhraseViewContainer>

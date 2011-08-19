@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Tamat dlm %1$d hari</item>
+        <item quantity="one">Tmt tempoh dlm 1 hr</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Tamat dlm %1$d jam</item>
+        <item quantity="one">Tmt tempoh dlm 1 jam</item>
+    </plurals>
+</resources>

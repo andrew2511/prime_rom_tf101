@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minuuttia</string>
+    <string name="postpone">Lykkää</string>
+    <string name="update">Päivitä</string>
+    <string name="asus_received_title">Asus-päivityskeskus</string>
+    <string name="received_message">Uusi päivitys saatavana.</string>
+    <string name="firmware_update_title">Laiteohjelmiston päivitys</string>
+    <string name="firmware_update_fail">"Päivitys epäonnistui.
+
+Laitteesi palauttaa alkuperäiset märitykset."</string>
+    <string name="low_battery_title">Järjestelmän päivityksen päättäminen</string>
+    <string name="low_battery_warning">"Järjestelmä vaatii vähintään 50 % akkuvarausta jatkaakseen järjestelmän päivitystä.
+Lataa akku ennen järjestelmän päivitystä."</string>
+    <string name="confirmDownload_text1">Haluatko ladata seuraavan järjestelmäpäivityksen?</string>
+    <string name="confirmDownload_textok">Hyväksy tämä päivitys painamalla YES (Kyllä).</string>
+    <string name="confirmDownload_textcancel">Hylkää tämä päivitys painamalla NO (Ei).</string>
+    <string name="confirmDownload_textwifi">On suositeltavaa käyttää ilmaista Wi-Fi-tukiasemaa tai rajoittamatonta tietoliikennesopimusta tämän päivityksen lataamiseen.</string>
+    <string name="confirmDownload_textwifi2">Jollei sellaisia ole, voidaan soveltaa vakiotiedonsiirtoyhteyden maksuja.</string>
+    <string name="btn_text_later">Myöhemmin</string>
+    <string name="confirmDownload_dialog_title">Huomio, olet verkkovierailussa.</string>
+    <string name="update_dialog_text">"Puhelintasi varten on ladattu uusi ohjelmistopäivitys. Asennetaanko se nyt? 
+"</string>
+    <string name="downloading">Ladataan laiteohjelmistoa...</string>
+    <string name="install_time">Arvioitu asennusaika:</string>
+    <string name="install">Asenna</string>
+    <string name="received_ticker">Uusi päivitys saatavana.</string>
+    <string name="dl_received_ticker">Uusi päivitys saatavana.</string>
+    <string name="dl_received_message">Päivitys on saatavana. Lataa painamalla tätä.</string>
+    <string name="postponetime_text">Lykkäysaika:</string>
+    <string name="reach_max_net_fail">Keskeytä lataus palvelimelta. Yritä myöhemmin uudelleen.</string>
+    <string name="dlg_title_checking">Eheystarkistus.</string>
+    <string name="dlg_msg_checking">Tarkistetaan laiteohjelmistotiedoston eheys.</string>
+    <string name="cannot_set_to_browser">Selainta ei voi asettaa.</string>
+    <string name="upgrade_error">Päivitysvirhe. Lataa päivityspaketti uudelleen.</string>
+    <string name="start_to_download">Aloita kriittisen päivityspaketin lataaminen.</string>
+    <string name="start_to_upgrade">Aloita päivityspaketin päivittäminen.</string>
+    <string name="Start_NI_DmSession">Verkon ensimmäinen DMSession. Hyväksytkö?</string>
+    <string name="prepare_dm_download">Valmistellaan latausta...</string>
+    <string name="download_finished">Laiteohjelmiston lataus valmis...</string>
+    <string name="download_notification_title">T-Mobile-päivityspalvelu</string>
+    <string name="download_in_progress">Uuden laiteohjelmiston lataus käynnissä</string>
+    <string name="out_of_mem_warning">"Puhelimen vapaa tila ei riitä.
+Poista joidenkin sovellusten asennus ja yritä uudelleen."</string>
+    <string name="btn_register">rekisteröi C2DM</string>
+    <string name="btn_unregister">poista C2DM:n rekisteröinti</string>
+    <string name="ui_alert_input_hint">Näppäile tekstiä</string>
+    <string name="ui_alert_input_numeric_hint">Näppäilen numeroita</string>
+    <string name="ui_alert_input_phone_number_hint">Puhelinnumero</string>
+</resources>

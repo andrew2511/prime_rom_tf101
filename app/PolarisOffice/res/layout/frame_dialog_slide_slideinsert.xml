@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0px" android:layout_width="fill_parent" android:layout_height="28.0px" android:layout_marginBottom="4.0px" android:text="@string/string_slide_layout" />
+    <TableLayout android:background="@drawable/group_bg" android:paddingLeft="14.0px" android:paddingTop="17.0px" android:paddingRight="14.0px" android:paddingBottom="18.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_marginBottom="11.0px">
+            <LinearLayout android:id="@id/holder_imagebutton_slide_none" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_marginRight="13.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_slide_title_n_subtitle" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_marginRight="13.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_slide_title" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <LinearLayout android:id="@id/holder_imagebutton_slide_title_n_text" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_marginRight="13.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_slide_title_n_2text" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_marginRight="13.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_slide_text" android:layout_width="166.0px" android:layout_height="129.0px" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

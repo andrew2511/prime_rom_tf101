@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">Контактов: %0$d</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">Контактов: %1$1$d; с тел. номерами: %2$2$d</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Контакты с номерами телефонов: %d</item>
+        <item quantity="one">Контакты с номерами телефона: 1</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Контактов: %d</item>
+        <item quantity="one">Контактов: 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Найдено: %d</item>
+        <item quantity="one">Найдено: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено: %d</item>
+        <item quantity="one">Найдено: 1</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">Выбрано получателей: %d</item>
+        <item quantity="one">Выбран 1 получатель</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">объединено из нескольких источников (%0$d)</item>
+        <item quantity="one">не объединен</item>
+    </plurals>
+</resources>

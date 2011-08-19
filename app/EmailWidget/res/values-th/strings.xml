@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">เมล</string>
+    <string name="multiple_mails">เมล</string>
+    <string name="go_to">ไปกล่องขาเข้า</string>
+</resources>

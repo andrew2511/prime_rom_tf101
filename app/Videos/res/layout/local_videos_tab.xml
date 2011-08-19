@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="@string/tab_personal_videos" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/local_videos" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/local_video_grid_horizontal_spacing" android:verticalSpacing="@dimen/local_video_grid_horizontal_spacing" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/empty_view" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_local_videos_found" />
+</FrameLayout>

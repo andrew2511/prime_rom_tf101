@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Rimuovi testo evidenziato</item>
+        <item>Annulla</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Aggiungi testo evidenziato</item>
+        <item>Traduzione</item>
+        <item>Sintesi vocale</item>
+        <item>Annulla</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Inglese</item>
+        <item>Francese</item>
+        <item>Giapponese</item>
+        <item>Cinese</item>
+        <item>Tedesco</item>
+        <item>Cinese semplificato</item>
+        <item>Russo</item>
+        <item>Spagnolo</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Da inglese a cinese</item>
+        <item>Da inglese a francese</item>
+        <item>Da inglese a russo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ra_header" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ra_directions_top_bar" android:background="@drawable/ra_header_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/ra_action_bar_height">
+        <RelativeLayout android:id="@id/ra_travel_mode_button" android:background="@drawable/ra_header_bar_button" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ra_travel_mode_down_arrow" android:paddingLeft="8.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_drop_down_menu_arrow" android:scaleType="center" android:layout_alignLeft="@id/ra_mode_icon" android:layout_alignRight="@id/ra_mode_icon" android:layout_alignParentBottom="true" />
+            <include layout="@layout/ra_travel_mode_item" />
+        </RelativeLayout>
+        <View android:background="@drawable/ra_header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ra_see_on_map_button" android:background="@drawable/ra_header_bar_button" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:background="@drawable/ra_header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="@dimen/ra_action_bar_icon_width" android:layout_height="fill_parent" android:src="@drawable/ra_btn_show_map" android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ra_directions_start_end_box" android:background="@drawable/ra_start_end_box" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="7.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ra_directions_start_box" android:background="@drawable/ra_header_bar_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/ra_gray" android:gravity="right" android:layout_gravity="top|left|center" android:id="@id/ra_from" android:layout_width="42.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ra_start_location" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-2.0sp" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="right|center" android:background="@drawable/ra_more_options" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@drawable/ra_start_end_horizonal_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="3.0dip" android:layout_marginBottom="6.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ra_directions_end_box" android:background="@drawable/ra_header_bar_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/ra_gray" android:gravity="right" android:layout_gravity="top|left|center" android:id="@id/ra_to" android:layout_width="42.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ra_end_location" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-2.0sp" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="right|center" android:background="@drawable/ra_more_options" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ra_alert_message" android:background="@drawable/ra_list_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_bright" />
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="22.0dip" android:layout_height="20.0dip" android:src="@drawable/ra_alert" android:scaleType="fitXY" />
+            <TextView android:id="@id/ra_alert_text" android:paddingLeft="9.0dip" style="@style/RAAlertTextAppearance" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_bright" />
+    </LinearLayout>
+</LinearLayout>

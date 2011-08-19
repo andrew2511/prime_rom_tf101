@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scroll_zone">100.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutWidthGap">36.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutHeightGap">6.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutPaddingTop">20.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutPaddingBottom">14.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutPaddingLeft">40.0dip</dimen>
+    <dimen name="all_apps_view_pageLayoutPaddingRight">40.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutWidthGap">32.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutHeightGap">12.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutPaddingTop">20.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutPaddingBottom">20.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutPaddingLeft">40.0dip</dimen>
+    <dimen name="customization_drawer_contents_pageLayoutPaddingRight">40.0dip</dimen>
+</resources>

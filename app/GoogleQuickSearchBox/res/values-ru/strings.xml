@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск Google</string>
+    <string name="remove_from_history">Удалить из истории поиска</string>
+    <string name="remove_from_history_failed">Не получилось удалить элемент из истории</string>
+    <string name="menu_settings">Настройки поиска</string>
+    <string name="search_settings">Настройки поиска Google</string>
+    <string name="google_settings_category_title">Поиск Google</string>
+    <string name="device_settings_category_title">Поиск на устройстве</string>
+    <string name="search_sources">Источники поиска</string>
+    <string name="search_sources_summary">Выберите источники, по которым будет осуществляться поиск.</string>
+    <string name="clear_shortcuts">Удалить ярлыки</string>
+    <string name="clear_shortcuts_summary">Очистить список ярлыков для недавно выбранных поисковых подсказок</string>
+    <string name="clear_shortcuts_prompt">"Все ярлыки для выбранных недавно поисковых подсказок будут удалены.
+
+(Чтобы очистить историю браузера, воспользуйтесь настройками браузера.)"</string>
+    <string name="clear_shortcuts_agree">Удалить ярлыки</string>
+    <string name="clear_shortcuts_disagree">Не очищать ярлыки</string>
+    <string name="menu_help">Справка</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Поиск Google</string>
+    <string name="google_search_description">Поисковые подсказки Google</string>
+    <string name="first_run_title">Поиск Google</string>
+    <string name="tos_button_text">Читать Условия использования Google</string>
+    <string name="yes_agree_use_location">Использовать функцию \"Мое местоположение\" в поиске и других службах Google</string>
+    <string name="first_run_tos">Подпадает под действие Условий использования Google для мобильных устройств.</string>
+    <string name="use_location_title">Мое местоположение.</string>
+    <string name="search_history">Персонализированный поиск</string>
+    <string name="search_history_summary_no_account">Нет настроенных аккаунтов</string>
+    <string name="search_history_summary_enabled">Аккаунт %1$s использует историю поиска и другие пользовательские настройки</string>
+    <string name="search_history_summary_disabled">Без использования истории поиска и других персонализированных настроек</string>
+    <string name="manage_search_history">Управление историей поиска</string>
+    <string name="manage_search_history_summary_no_account">Нет настроенных аккаунтов</string>
+    <string name="manage_search_history_summary">Войдите с помощью браузера в аккаунт %1$s и откройте историю веб-поиска</string>
+    <string name="select_google_account">Аккаунт Google</string>
+    <string name="select_google_account_summary_no_accounts">Ни один аккаунт не настроен</string>
+    <string name="settings_tos_title">Условия использования</string>
+    <string name="manage_search_history_authenticating_title">Выполняется вход...</string>
+    <string name="manage_search_history_authenticating_message">Выполняется вход в аккаунт %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Отмена</string>
+    <string name="use_google_com">Всегда использовать google.com</string>
+    <string name="current_search_base_url">Используется %1$s</string>
+    <string name="fetching_search_base_url">Получение URL поисковой системы...</string>
+    <string name="use_psychic">Включить Живой поиск</string>
+    <string name="use_psychic_summary_on">Живой поиск включен (поиск начнется сразу при наборе запроса)</string>
+    <string name="use_psychic_summary_off">Живой поиск отключен (после набора нажмите клавишу Enter)</string>
+    <string name="web_suggest_updating">обновление...</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+</resources>

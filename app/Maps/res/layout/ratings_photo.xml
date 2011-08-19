@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="3.0dip" android:paddingTop="6.0dip" android:paddingRight="3.0dip" android:paddingBottom="6.0dip" android:layout_width="@dimen/rating_photos_thumbnail_size" android:layout_height="@dimen/rating_photos_thumbnail_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ratings_photo_view" android:background="@color/photo_border" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0px" android:scaleType="centerInside" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/ratings_photo_moderation_failed_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/negative_rating_on" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/ratings_photo_moderation_pending_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/positive_rating_off" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/ratings_photo_moderation_passed_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/positive_rating_on" android:scaleType="fitXY" />
+</FrameLayout>

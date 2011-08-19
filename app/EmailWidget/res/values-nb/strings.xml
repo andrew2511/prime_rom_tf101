@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">e-post</string>
+    <string name="multiple_mails">e-poster</string>
+    <string name="go_to">Gå til innboks</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_personal_videos">Video za Kibinafsi</string>
+    <string name="menu_shop">Duka</string>
+    <string name="menu_manage_offline">Dhibiti ukodishaji nje ya mtandao</string>
+    <string name="menu_help">Msaada</string>
+    <string name="menu_settings">Mipangilio</string>
+    <string name="make_offline">Fanya ipatikane nje ya mtandao</string>
+    <string name="problem_playing_local">Kulikuwa na tatizo la kucheza \"%1$s\"</string>
+    <string name="loading">Inapakia…</string>
+    <string name="cancel">Ghairi</string>
+    <string name="confirm">Thibitisha</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="recent">Mpya</string>
+    <string name="done">Kwisha</string>
+    <string name="tap_to_retry">Guza kujaribu tena</string>
+    <string name="from_recommended">"kutoka &lt;b>&lt;font color='white'>Mapendekezo&lt;/font>&lt;/b>"</string>
+    <string name="from_subscriptions">"kutoka &lt;b>&lt;font color='white'>Usajili&lt;/font>&lt;/b>"</string>
+    <string name="from_featured">"kutoka &lt;b>&lt;font color='white'>Video Zilizoangaziwa&lt;/font>&lt;/b>"</string>
+    <string name="from_most_popular">"kutoka &lt;b>&lt;font color='white'>Maarufu Zaidi&lt;/font>&lt;/b>"</string>
+    <string name="from_most_discussed">"kutoka &lt;b>&lt;font color='white'>Iliyojadiliwa Zaidi&lt;/font>&lt;/b>"</string>
+    <string name="event_video_rated">%1$s alitathmini video</string>
+    <string name="event_video_shared">%1$sshiriki video</string>
+    <string name="event_video_favorited">%1$s aliashiria video kuwa kipendwa</string>
+    <string name="event_video_commented">%1$s alitolea maoni mojawapo ya video</string>
+    <string name="event_video_uploaded">%1$s alipakia video</string>
+    <string name="event_friend_added">%1$s alikuwa rafiki na</string>
+    <string name="event_user_subscription_added">%1$s walijisajili kwenye</string>
+    <string name="pref_general_category">Mipangilio ya kawaida</string>
+    <string name="pref_subtitles_size_title">Ukubwa wa fonti ya maelezo mafupi</string>
+    <string name="pref_subtitles_size_summary">Weka ukubwa wea fonti ya kutumia ya maelezo mafupi</string>
+    <string name="accounts_title">Ingia</string>
+    <string name="other_account">Ongeza akaunti</string>
+    <string name="processing_video">Video hii inashughulikiwa</string>
+    <string name="video_was_deleted">Video hii ilifutwa na mmiliki</string>
+    <string name="video_not_available">" Video hii haipatikani"</string>
+    <string name="problem_while_playing">Kulikuwa na tatizo wakati wa kuchezesha</string>
+    <string name="video_infringes_copyright">Video hii iliharibu hati miliki</string>
+    <string name="video_was_judged_inappropriate">Video hii iliamuliwa kwa njia isiyofaa</string>
+    <string name="duplicate_upload">Video ilikataliwa (rudufu nakala)</string>
+    <string name="video_violated_terms_of_use">Video hii ilienda kinyume na masharti ya kutumia</string>
+    <string name="uploader_account_suspended">Akaunti ya mpakizaji ilisimamishwa</string>
+    <string name="video_too_long">Video hii ni ndefu zaidi</string>
+    <string name="blocked_by_content_owner">Imezuiliwa kwa mmiliki wa maudhui</string>
+    <string name="video_not_available_in_your_country">Haipatikani kwenye nchi yako</string>
+    <string name="video_not_available_on_mobile">Video hii haipatikani kwenye simu</string>
+    <string name="video_is_private">Video hii ni ya ufaragha</string>
+    <string name="video_couldnt_be_processed">Video hii hainge geuzwa</string>
+    <string name="video_is_in_an_invalid_format">Video hii iko katika umbizo la faili batili</string>
+    <string name="video_uses_an_unsupported_codec">Video hii inatumia kodeki isiyosaidiwa</string>
+    <string name="video_is_empty">Video hii ni tupu</string>
+    <string name="video_is_too_small">Video hii ni ndogo zaidi</string>
+    <string name="adult_content_intro">"Video hii au kikundi hiki huenda kikawa na maudhui yasiyofaa kwa watumiaji wengine, kama kilivyoalamishwa na jumuia ya watumiaji wa YouTube
+
+"</string>
+    <string name="adult_content_login">Ili kutazama video hii, tafadhali thimbitisha kuwa una miaka 18 au zaidi kwakuingia</string>
+    <string name="adult_content_confirm">Kwa kugusa &amp;;Thibitisha&amp;quot;, unakubali kuwa video zote au vikundi vyote vilivyoalamishwa na jumuia ya YouTube vitaonekana na akaunti hii</string>
+    <string name="adult_content_underage">" Samahani, ni lazima uwe na miaka 18 au zaidi ili kuona video hii."</string>
+    <string name="error_network">Kulikuwa na tatizo la mtandao</string>
+    <string name="error_connection">Kulikuwa na tatizo la kuunganisha kwa mtandao</string>
+    <string name="error_http">Kulikuwa na tatizo la mtandao%1$s</string>
+    <string name="error_response">Kulikuwa na tatizo la mwitikio wa mtandao</string>
+    <string name="error_dev_reg">Kulikuwa na tatizo la kuanza. tafadhali angalia muunganisho wa mtandao wako na saa ya mfumo.</string>
+    <string name="error_authenticating">Kulikuwa na tatizo la uhalalishaji</string>
+    <string name="error_no_linked_youtube_account">Akaunti yako haijaunganishwa kwa akaunti ya YouTube. Tafadhali unganisha akaunti zako na ujaribu tena.</string>
+    <string name="error_forbidden_action">Kitendo hiki hakiruhusiwi</string>
+    <string name="error_forbidden_list_access">Orodha hii haiwezi kuonyeshwa</string>
+    <string name="error_posting_comment">Kulikuwa na tatizo la kuweka maoni yako</string>
+    <string name="error_generic">Hitilafu imetokea</string>
+    <string name="time_filter_dialog_title">Muda wa kuchuja</string>
+    <string name="time_filter_today">Leo</string>
+    <string name="time_filter_this_week">Wiki hii</string>
+    <string name="time_filter_this_month">Mwezi huu</string>
+    <string name="time_filter_all_time">Jumla</string>
+    <string name="subtitles">Maelezo mafupi</string>
+    <string name="turn_off_subtitles">Lemaza maelezo</string>
+    <string name="no_subtitles">Hakuna maelezo mafupi yanayopatikana ya video hii</string>
+    <string name="advertisement">Matangazo</string>
+    <string name="all_categories">Zote</string>
+    <string name="share_subject">tazama \"%s\" kwenye YouTube</string>
+    <string name="title_watch">Tazama</string>
+    <string name="video_info">Maelezo</string>
+</resources>

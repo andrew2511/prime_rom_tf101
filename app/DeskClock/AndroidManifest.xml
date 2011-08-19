@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="203" android:versionName="2.0.3" package="com.android.deskclock"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <original-package android:name="com.android.alarmclock" />
+    <original-package android:name="com.android.deskclock" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <application android:label="@string/app_label" android:icon="@mipmap/ic_launcher_alarmclock">
+        <provider android:name="AlarmProvider" android:exported="false" android:authorities="com.android.deskclock" />
+        <activity android:theme="@android:style/Theme.Wallpaper.NoTitleBar" android:label="@string/app_label" android:icon="@mipmap/ic_launcher_alarmclock" android:name="DeskClock" android:launchMode="singleInstance" android:configChanges="keyboard|keyboardHidden|navigation|orientation"> >
+<meta-data android:name="android.dock_home" android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DESK_DOCK" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AlarmClockTheme" android:label="@string/alarm_list_title" android:name="AlarmClock" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|navigation|orientation" />
+        <activity-alias android:name="com.android.alarmclock.AlarmClock" android:exported="true" android:targetActivity="com.android.deskclock.AlarmClock" />
+        <activity android:label="@string/settings" android:name="SettingsActivity" android:taskAffinity="" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/SetAlarmTheme" android:label="@string/set_alarm" android:name="SetAlarm" android:configChanges="keyboard|keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog" android:name="AlarmAlert" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboard|keyboardHidden|navigation|orientation" />
+        <activity android:theme="@style/AlarmAlertFullScreenTheme" android:name="AlarmAlertFullScreen" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboard|keyboardHidden|navigation|orientation" />
+        <receiver android:name="AlarmReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.deskclock.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@android:style/Theme.NoDisplay" android:name="HandleSetAlarm" android:permission="com.android.alarm.permission.SET_ALARM" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="AlarmKlaxon" android:exported="false" android:description="@string/alarm_klaxon_service_desc">
+            <intent-filter>
+                <action android:name="com.android.deskclock.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+        <receiver android:name="AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/analog_gadget" android:icon="@mipmap/ic_widget_analog_clock" android:name="com.android.alarmclock.AnalogAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.AnalogAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_appwidget" />
+        </receiver>
+        <receiver android:label="@string/digital_gadget" android:name="com.android.alarmclock.DigitalAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/digital_appwidget" />
+        </receiver>
+        <service android:label="UpdateService" android:name="com.android.alarmclock.DigitalAppWidgetProvider$UpdateService">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_TEXT_UPDATE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

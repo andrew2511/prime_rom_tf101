@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/fill"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pages_container" style="@style/fill" />
+    <include android:id="@id/text_sizes_dropdown" layout="@layout/text_sizes" />
+    <include android:id="@id/brightness_textcolors_options" layout="@layout/brightness_textcolors_layout" />
+</FrameLayout>

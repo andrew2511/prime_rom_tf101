@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/settings_showhintscreen" android:key="HINTCHECK" android:summary="@string/settings_showhintscreen_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/settings_allowautolock" android:key="AUTOLOCK" android:summary="@string/settings_allowautolock_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/settings_allowusertracking" android:key="USRTRACK" android:summary="@string/settings_allowusertracking_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/settings_antialiasing" android:key="ANTIALIASING" android:summary="@string/settings_antialiasing_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/opt_reconnect" android:key="INT_HANDLING" android:summary="@string/opt_reconnect_msg" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/opt_reconnect_pwd" android:key="INT_HANDLING_PWD" android:summary="@string/opt_reconnect_pwd_msg" android:defaultValue="true" />
+</PreferenceScreen>

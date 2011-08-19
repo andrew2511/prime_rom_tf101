@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_ep_zip_icon_new" android:id="@id/zip_action" android:visible="false" android:title="@string/action_zip" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_copy_icon_new" android:id="@id/copy_action" android:title="@string/action_copy" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_cut_icon_new" android:id="@id/cut_action" android:title="@string/action_cut" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_delete_icon_new" android:id="@id/delete_action" android:title="@string/action_delete" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_select_all" android:id="@id/select_all_action" android:title="@string/select_all" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_deselect_all" android:id="@id/clear_all_action" android:title="@string/deselect_all" android:showAsAction="always|withText" />
+</menu>

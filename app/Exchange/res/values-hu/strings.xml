@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Elfogadva: %s</string>
+    <string name="meeting_declined">Elutasítva: %s</string>
+    <string name="meeting_tentative">Feltételes: %s</string>
+    <string name="meeting_canceled">Lemondva: %s</string>
+    <string name="meeting_updated">Frissítve: %s</string>
+    <string name="meeting_when">Időpont: %s</string>
+    <string name="meeting_where">Helyszín: %s</string>
+    <string name="meeting_recurring">Időpont: %s (ismétlődő)</string>
+    <string name="notification_exchange_calendar_added">Exchange-naptár hozzáadva</string>
+    <string name="app_name">Exchange szolgáltatások</string>
+    <string name="exception_cancel">Ezt az eseményt törölték: %s</string>
+    <string name="exception_updated">Az esemény részletei a következőre módosultak: %s</string>
+</resources>

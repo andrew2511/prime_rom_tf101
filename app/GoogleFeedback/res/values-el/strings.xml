@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Παράγοντας σχολίων Market</string>
+    <string name="feedback">Σχόλια</string>
+    <string name="report_feedback">Αναφορά σφάλματος</string>
+    <string name="report_error_in">Αναφορά σφάλματος στο %s</string>
+    <string name="system_log">Αρχείο καταγραφής συστήματος</string>
+    <string name="event_log">Αρχείο καταγραφής συμβάντων</string>
+    <string name="preview">Προεπισκόπηση</string>
+    <string name="back">Πίσω</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="send">Αποστολή</string>
+    <string name="preview_feedback">Προεπισκόπηση σχολίων</string>
+    <string name="no_data">Δεν υπάρχουν δεδομένα</string>
+    <string name="fetching_system_log">Ανάκτηση αρχείου καταγραφής συστήματος...</string>
+    <string name="fetching_event_log">Ανάκτηση αρχείου καταγραφής συμβάντων...</string>
+    <string name="privacy">Απόρρητο</string>
+    <string name="include_system_data">Να συμπεριλαμβάνονται δεδομένα συστήματος</string>
+    <string name="this_will_help">Μοιραστείτε δεδομένα συστήματος με την Google, για καλύτερη διάγνωση του προβλήματος.</string>
+    <string name="privacy_policy"><a href="notused">Πολιτική Απορρήτου</a></string>
+    <string name="unknown_app">Άγνωστη εφαρμογή</string>
+    <string name="cant_save_report">Δεν ήταν δυνατή η αποθήκευση αναφοράς σφαλμάτων. Δεν υπάρχει χώρος στη συσκευή.</string>
+    <string name="report_being_sent">Σας ευχαριστούμε, έγινε αποστολή της αναφοράς σας.</string>
+    <string name="optional_description">Περιγραφή (προαιρετική)</string>
+    <string name="tos_activity_title">Νομικές πληροφορίες Google</string>
+    <string name="tos_activity_unsuccessful_message">Το τηλέφωνό σας δεν είναι συνδεδεμένο σε υπηρεσία δεδομένων. Για να προβάλετε τώρα αυτές τις πληροφορίες, μεταβείτε στη διεύθυνση %s από οποιονδήποτε υπολογιστή με σύνδεση στο Διαδίκτυο.</string>
+    <string name="tos_accept">Αποδοχή</string>
+    <string name="tos_decline">Απόρριψη</string>
+</resources>

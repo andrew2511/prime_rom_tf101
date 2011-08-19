@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">承諾しました: %s</string>
+    <string name="meeting_declined">辞退しました: %s</string>
+    <string name="meeting_tentative">仮承諾: %s</string>
+    <string name="meeting_canceled">辞退しました: %s</string>
+    <string name="meeting_updated">更新されました: %s</string>
+    <string name="meeting_when">日時: %s</string>
+    <string name="meeting_where">場所: %s</string>
+    <string name="meeting_recurring">日時: %s（定期的）</string>
+    <string name="notification_exchange_calendar_added">Exchangeカレンダーを追加しました</string>
+    <string name="app_name">Exchangeサービス</string>
+    <string name="exception_cancel">この予定はキャンセルされました: %s</string>
+    <string name="exception_updated">この予定の詳細が変更されました: %s</string>
+</resources>

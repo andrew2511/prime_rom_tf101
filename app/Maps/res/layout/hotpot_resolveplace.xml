@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/hotpot_resolveplace" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/hotpot_stp_listings" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:drawable/divider_horizontal_bright" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/hotpot_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HOTPOT_LOADING" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Gå til kort</string>
+    <string name="report_inappropriate_image">Rapporter billede</string>
+    <string name="toggle_compass_mode">Kompas-tilstand</string>
+    <string name="compass_mode_on">Kompas-tilstand tændt.</string>
+    <string name="compass_mode_off">Kompas-tilstand slukket.</string>
+    <string name="waiting_for_network">Dataforbindelsen blev tabt, prøver igen…</string>
+    <string name="panorama_disabled">Billedet er ikke længere tilgængeligt</string>
+    <string name="service_unavailable">Street View-tjenesten er ikke tilgængelig.</string>
+    <string name="loading">Indlæser</string>
+    <string name="no_panorama_data">Der er ikke angivet nogen panorama-data.</string>
+    <string name="invalid_panorama_data">Ugyldigt panorama.</string>
+    <string name="click_to_go_toast">Træk manden til det ønskede sted.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Dette program kræver en dataforbindelse og vil automatisk prøve igen. Kontroller dit signal. Er du i flytilstand? Har du deaktiveret roamingdata?</string>
+    <string name="whats_new_header">Nyheder i Street View</string>
+    <string name="whats_new_c2g">Flyv hen, hvor du vil. Træk Pegman op fra nederste venstre hjørne og slip ham der, hvor du vil hen.</string>
+    <string name="terms_and_privacy">Vilkår og Beskyttelse af personlige oplysninger</string>
+    <string name="terms_and_conditions">Vilkår og betingelser</string>
+    <string name="privacy_policy">Politik til beskyttelse af personlige oplysninger</string>
+</resources>

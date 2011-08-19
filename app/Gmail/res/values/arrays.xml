@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="conversation_heights">
+        <item>61</item>
+        <item>77</item>
+        <item>77</item>
+    </integer-array>
+    <integer-array name="checkmark_left_paddings">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="checkmark_right_paddings">
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+    </integer-array>
+    <integer-array name="star_left_paddings">
+        <item>16</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="star_right_paddings">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="right_paddings">
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+    </integer-array>
+    <integer-array name="vertical_text_paddings">
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="senders_font_sizes">
+        <item>16</item>
+        <item>14</item>
+        <item>14</item>
+    </integer-array>
+    <integer-array name="subject_font_sizes">
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+    </integer-array>
+    <integer-array name="subject_lengths">
+        <item>50</item>
+        <item>50</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="more_menu_actions">
+        <item>Report spam</item>
+        <item>Mute</item>
+        <item>Mark unread</item>
+    </string-array>
+    <string-array name="prefEntries_importantBehavior">
+        <item>Important</item>
+        <item>Important and Inbox</item>
+        <item>Important, Inbox and Unread</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>Reply</item>
+        <item>Reply All</item>
+        <item>Forward</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Archive</item>
+        <item>Delete</item>
+        <item>Send</item>
+    </string-array>
+    <string-array name="prefValues_confirmActions">
+        <item>archive</item>
+        <item>delete</item>
+        <item>send</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Newer conversation</item>
+        <item>Older conversation</item>
+        <item>Conversation list</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Show newer conversation after you delete, archive, etc.</item>
+        <item>Show older conversation after you delete, archive, etc.</item>
+        <item>Show the conversation list after you delete, archive, etc.</item>
+    </string-array>
+    <string-array name="prefValues_autoAdvance">
+        <item>newer</item>
+        <item>older</item>
+        <item>list</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Display content of messages in tiny-sized text</item>
+        <item>Display content of messages in small-sized text</item>
+        <item>Display content of messages in normal-sized text</item>
+        <item>Display content of messages in large-sized text</item>
+        <item>Display content of messages in huge-sized text</item>
+    </string-array>
+    <string-array name="prefValues_messageTextSize">
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Always</item>
+        <item>Only when silent</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

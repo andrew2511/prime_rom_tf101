@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Novo separador</string>
+    <string name="new_incognito_tab">Novo separador de nav. anónima</string>
+    <string name="active_tabs">Separadores</string>
+    <string name="open_all_in_new_window">Abrir tudo em separadores novos</string>
+    <string name="contextmenu_openlink_newwindow">Abrir num separador novo</string>
+    <string name="contextmenu_openlink_newwindow_background">Abrir num separador novo em segundo plano</string>
+    <string name="pref_content_open_in_background_summary">Abrir novos separadores atrás do atual</string>
+</resources>

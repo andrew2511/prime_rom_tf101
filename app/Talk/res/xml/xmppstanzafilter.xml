@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmppstanzafilter
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <session type="iq" xmlns="http://www.google.com/session" />
+    <query type="iq" xmlns="google:jingleinfo" />
+</xmppstanzafilter>

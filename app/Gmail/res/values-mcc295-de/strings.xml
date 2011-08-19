@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Gmail</string>
+    <string name="activity_create_label_shortcut">Gmail-Label</string>
+    <string name="search_title">Gmail</string>
+    <string name="read_attachment_preview_label">Anhang-Vorschau in Gmail lesen</string>
+    <string name="read_attachment_preview_desc">Erlaubt der Anwendung, die Anhang-Vorschau in Gmail zu lesen.</string>
+</resources>

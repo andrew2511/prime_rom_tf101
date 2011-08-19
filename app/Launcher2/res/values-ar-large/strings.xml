@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">تحديد خلفية</string>
+    <string name="wallpaper_chooser_empty">لا تتوفر أية خلفيات</string>
+    <string name="wallpaper_cancel">إلغاء</string>
+</resources>

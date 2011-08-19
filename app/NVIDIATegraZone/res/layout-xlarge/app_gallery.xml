@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/appGalleryView" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textview" android:text="Browse Games" style="@style/BoxedSectionHeading" />
+    <LinearLayout android:id="@id/browseGamesIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="18.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/textview" style="@style/BoxedSectionBody">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="45.0sp">
+            <Spinner android:id="@id/spinner" android:background="@drawable/spinner_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:drawSelectorOnTop="true" android:minWidth="175.0dip" android:prompt="@string/app_category_prompt" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+                <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+                <EditText android:id="@id/app_search_input" android:layout_width="175.0dip" android:layout_height="wrap_content" android:hint="Search" android:maxLines="1" android:imeOptions="actionSearch" />
+                <Button android:id="@id/app_search_clear" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="10.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Gallery android:gravity="top" android:id="@id/appGallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animationDuration="0" android:spacing="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

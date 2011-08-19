@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:id="@id/cell1" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell4" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell7" layout="@layout/app_gallery_cell" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:id="@id/cell2" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell5" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell8" layout="@layout/app_gallery_cell" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:id="@id/cell3" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell6" layout="@layout/app_gallery_cell" />
+        <include android:id="@id/cell9" layout="@layout/app_gallery_cell" />
+    </LinearLayout>
+</LinearLayout>

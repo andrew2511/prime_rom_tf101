@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modem Firmware update success</string>
+    <string name="update_fail">Modem Firmware update failed</string>
+    <string name="update_quz" formatted="false">"The update process will take approximately 3-5 minutes and require 15% or higher battery life.
+
+Please make sure the battery life is higher than 15% before updating.
+
+Do you want to update your Modem Firmware now?"</string>
+    <string name="notify_title">Asus Update Service</string>
+    <string name="notify">Modem Firmware Update is available.</string>
+    <string name="warning_title">Warning</string>
+    <string name="warning">"DO NOT shut down the device in updating.
+
+Any unexpected interruption would cause the irreversible damage.
+
+Do you want to update your Modem Firmware now?"</string>
+    <string name="battery_low" formatted="false">"The process would require 15% or higher Battery life.
+
+Please make sure the battery life is higher than 15% before start updating."</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

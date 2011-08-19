@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Beidzas pēc %1$d d.</item>
+        <item quantity="one">Derīg. term. — 1 d.</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Beidzas pēc %1$d st.</item>
+        <item quantity="one">Derīg. term. — 1 st.</item>
+    </plurals>
+</resources>

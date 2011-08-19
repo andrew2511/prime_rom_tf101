@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.DragFrame android:id="@id/frame_layout" android:layout_width="1280.0px" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/rightbar" android:layout_width="26.0px" android:layout_height="fill_parent" android:layout_marginLeft="349.0px" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/book_linear" android:layout_width="959.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <include android:id="@id/vibe_function_bar" android:layout_width="fill_parent" android:layout_height="74.0px" layout="@layout/vibe_function_bar" />
+        <com.asus.reader.ui.BookGrid android:layout_gravity="right" android:id="@id/bookgrid" android:paddingBottom="22.0px" android:fadingEdge="none" android:layout_width="933.0px" android:layout_height="fill_parent" android:horizontalSpacing="0.0px" android:verticalSpacing="0.0px" android:stretchMode="none" android:numColumns="5" />
+    </LinearLayout>
+    <View android:id="@id/category_background" android:layout_width="375.0px" android:layout_height="fill_parent" />
+    <com.asus.reader.ui.CategoryListView android:id="@id/category_list" android:scrollbars="none" android:fadingEdge="none" android:longClickable="true" android:layout_width="375.0px" android:layout_height="fill_parent" android:listSelector="@drawable/transparent_background" android:drawSelectorOnTop="false" android:groupIndicator="@null" android:childIndicator="@null" android:divider="@null" />
+    <include android:id="@id/progress_circle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/loading" />
+</com.asus.reader.ui.DragFrame>

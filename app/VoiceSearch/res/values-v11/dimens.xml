@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recognition_dialog_width">433.0dip</dimen>
+    <dimen name="recognition_dialog_height">360.0dip</dimen>
+    <dimen name="hint_bubble_offset">-45.0dip</dimen>
+    <dimen name="dialog_corner_radius">2.0px</dimen>
+</resources>

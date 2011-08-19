@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mycontent_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/my_content_noaws" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget31" android:paddingRight="50.0sp" android:layout_width="fill_parent" android:layout_height="74.0sp">
+                <ImageView android:id="@id/widget31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:src="@drawable/asus_ep_cloud" />
+                <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0sp" android:text="@string/t_title_3" />
+            </LinearLayout>
+            <ScrollView android:layout_width="fill_parent" android:layout_height="604.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:paddingTop="28.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/t_body_3_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0sp" android:layout_marginTop="25.0sp" android:layout_marginRight="30.0sp" android:text="@string/t_body_3_1" android:lineSpacingExtra="25.0sp" />
+                    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0sp" android:layout_marginTop="25.0sp" android:layout_marginRight="30.0sp" android:text="@string/t_body_3_2" android:lineSpacingExtra="25.0sp" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0sp">
+                        <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/Button02" android:background="@drawable/rollover_login" android:paddingLeft="20.0sp" android:paddingRight="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0sp" android:text="@string/t_body_3_sign" android:onClick="gologin" />
+                        <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/Button03" android:background="@drawable/rollover_login" android:paddingLeft="20.0sp" android:paddingRight="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0sp" android:text="@string/t_body_3_new" android:onClick="goregist" />
+                    </LinearLayout>
+                    <TextView android:textSize="18.0sp" android:textColor="#ff0eacf5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0sp" android:layout_marginTop="25.0sp" android:layout_marginRight="30.0sp" android:text="@string/t_body_3_new_note" android:lineSpacingExtra="25.0sp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/my_content_nobody" android:background="@drawable/mycontent_vision" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="600.0sp" android:layout_height="wrap_content" android:layout_marginLeft="35.0sp" android:layout_marginTop="25.0sp" android:layout_marginBottom="50.0sp" android:text="@string/my_cloud_nobody_title" />
+            <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:layout_width="500.0sp" android:layout_height="wrap_content" android:layout_marginLeft="35.0sp" android:text="@string/my_cloud_nobody_msg" />
+            <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:id="@id/my_cloud_learnmore" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0sp" android:layout_marginBottom="120.0sp" android:text="@string/my_cloud_nobody_learnmore" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0sp" android:layout_marginBottom="60.0sp">
+                <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_cloud_nobody" />
+                <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/Button01" android:background="@drawable/rollover_login" android:paddingLeft="40.0sp" android:paddingRight="40.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0sp" android:text="@string/my_cloud_nobody_btn" android:onClick="startAWS" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0sp" android:layout_marginBottom="50.0sp">
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/my_cloud_nobody_dlmsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0sp" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff0eacf5" android:paddingLeft="5.0sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_cloud_nobody_dlurl" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/my_cnontent_body" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/ref_aws_music_row" />
+            <include layout="@layout/ref_aws_photo_row" />
+            <include layout="@layout/ref_aws_file_row" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

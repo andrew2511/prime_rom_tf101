@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">스크린샷</string>
+    <string name="screenshot_dialog_message">스크린샷이 저장되었습니다. 스크린샷 모드를 유지하시겠습니까?</string>
+    <string name="screenshot_dialog_yes">네</string>
+    <string name="screenshot_dialog_no">아니오</string>
+    <string name="screenshot_toast_message_saved">스크린샷이 저장되었습니다.</string>
+    <string name="screenshot_toast_message_failed">파일 전송 모드 내에서 스크린샷 저장이 실패했습니다.</string>
+    <string name="screenshot_toast_message_failed_save">스크린샷 저장에 실패했습니다.</string>
+    <string name="screenshot_toast_message_full">스크린샷 저장에 실패했습니다. 메모리가 부족합니다.</string>
+</resources>

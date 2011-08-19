@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.asus.setupwizard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.BACKUP" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <application android:label="@string/setup_wizard_title" android:icon="@drawable/logo_android" android:allowClearUserData="false" android:hardwareAccelerated="true">
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:label="@string/setup_wizard_title" android:name=".SetupWizardActivity" android:excludeFromRecents="true" android:launchMode="singleTop" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation" android:immersive="true">
+            <intent-filter android:priority="2">
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.DEVICE_INITIALIZATION_WIZARD" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:name=".DataConnectSetupWizard" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

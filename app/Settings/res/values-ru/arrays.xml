@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Америка</item>
+        <item>Европа</item>
+        <item>Африка</item>
+        <item>Азия</item>
+        <item>Австралия</item>
+        <item>Тихий океан</item>
+        <item>Все</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Без анимации</item>
+        <item>Использовать анимацию иногда</item>
+        <item>Использовать анимацию всегда</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Анимация в окне не отображается</item>
+        <item>В окне отображается некоторая часть анимации</item>
+        <item>Плавные переходы при переключении между окнами</item>
+    </string-array>
+    <array name="screen_timeout_entries">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+        <item>@string/never_timeout_entry</item>
+    </array>
+    <string-array name="lock_after_timeout_entries">
+        <item>немедленно</item>
+        <item>5 сек</item>
+        <item>15 сек</item>
+        <item>30 сек</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 минут</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Очень медленная</item>
+        <item>Медленная</item>
+        <item>Обычная</item>
+        <item>Быстрая</item>
+        <item>Очень быстрая</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Очень низкий</item>
+        <item>Низкий</item>
+        <item>Обычный</item>
+        <item>Высокий</item>
+        <item>Очень высокий</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Английский (США)</item>
+        <item>Английский (Великобритания)</item>
+        <item>Французский</item>
+        <item>Немецкий</item>
+        <item>Итальянский</item>
+        <item>Испанский</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Поиск...</item>
+        <item>Подключение...</item>
+        <item>Аутентификация...</item>
+        <item>Получение IP-адреса...</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение...</item>
+        <item>Нет подключения</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Поиск...</item>
+        <item>Соединение с сетью %1$s…</item>
+        <item>Аутентификация в сети %1$s...</item>
+        <item>Получение IP-адреса от %1$s…</item>
+        <item>Подключено к %1$s</item>
+        <item>Приостановлено</item>
+        <item>Отключение от %1$s…</item>
+        <item>Нет подключения</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Не защищена</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>1 час</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Слабый</item>
+        <item>Хороший</item>
+        <item>Хороший</item>
+        <item>Отличный</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>При выключении экрана (более активно используется мобильная сеть)</item>
+        <item>Никогда, если есть питание от сети</item>
+        <item>Никогда (повысится расход заряда батареи)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>При выключении экрана</item>
+        <item>Никогда при питании от сети</item>
+        <item>Никогда (выше расход энергии)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Авто</item>
+        <item>Только 5 ГГц</item>
+        <item>Только 2,4 ГГц</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Время использования</item>
+        <item>Начать подсчет</item>
+        <item>Название приложения</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Нет</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Ручная настройка</item>
+        <item>Кнопка WPS</item>
+        <item>PIN-код WPS от точки доступа</item>
+        <item>PIN-код WPS от этого устройства</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Статический</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Нет</item>
+        <item>Вручную</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Выкл.</item>
+        <item>Оповещение</item>
+        <item>Виброзвонок</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Нет</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP или CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Внутренняя память устройства</item>
+        <item>Съемная SD-карта</item>
+        <item>На усмотрение системы</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Всегда</item>
+        <item>Никогда</item>
+        <item>Только в режиме без звука</item>
+        <item>Только не в режиме без звука</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Небольшой</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Никогда не проверять</item>
+        <item>Проверять только содержание DRM</item>
+        <item>Всегда проверять</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Не использовать проверку HDCP</item>
+        <item>Использовать проверку HDCP только для содержания DRM</item>
+        <item>Всегда использовать проверку HDCP</item>
+    </string-array>
+</resources>

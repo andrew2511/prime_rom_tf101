@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView android:orientation="vertical" android:id="@id/gestures" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gestureColor="#00000000" android:uncertainGestureColor="#00000000" android:gestureStrokeType="single" android:eventsInterceptionEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@id/android_logo" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/android_button" android:layout_weight="1.0" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="28.0dip" android:textColor="#ffa6c839" android:gravity="center" android:layout_gravity="center" android:id="@id/welcome_title" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_message" />
+                <View android:layout_gravity="center" android:background="@color/divider_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touch_to_begin" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="bottom|center" android:id="@id/android_agreement" android:paddingTop="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delayed_gaia_agreement" />
+            </LinearLayout>
+            <RelativeLayout android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/welcome_emergency_dial" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/emergency_dial" android:drawableLeft="@drawable/ic_btn_emergency" android:drawablePadding="3.0dip" android:layout_alignParentLeft="true" />
+                <Button android:id="@id/change_language_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/change_language" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/the_hand" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</android.gesture.GestureOverlayView>

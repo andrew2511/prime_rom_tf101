@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_levels">
+        <item>필터링 안함</item>
+        <item>보통</item>
+        <item>엄격</item>
+    </string-array>
+    <string-array name="subtitles_size_entries">
+        <item>작게</item>
+        <item>보통</item>
+        <item>크게</item>
+        <item>아주 크게</item>
+    </string-array>
+</resources>

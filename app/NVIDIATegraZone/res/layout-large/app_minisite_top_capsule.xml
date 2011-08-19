@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_minisite_top_capsule_id" android:background="@drawable/app_minisite_top_capsule_background" android:paddingTop="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/icon" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="12.0dip" android:layout_alignParentTop="true" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_appicon_95" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buyingArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/icon">
+        <TextView android:id="@id/firstAppLine" android:layout_marginTop="10.0dip" android:text="Developer Name/Company" style="@style/TopCapsuleDeveloperName" />
+        <TextView android:id="@id/secondAppLine" android:text="" style="@style/TopCapsuleAppName" />
+        <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+        <TextView android:id="@id/thirdAppLine" android:layout_marginLeft="0.0dip" android:layout_marginTop="3.0dip" android:text="@string/reviewAndCommentCount" style="@style/TopCapsuleReviews" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/thirdAppLine">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/priceOrReleaseDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/buyApp" android:background="@drawable/green_button" android:layout_width="90.0dip" android:layout_height="35.0dip" android:text="@string/getItNow" style="@style/TopCapsuleBuyNow" />
+            <Button android:id="@id/shareBttn" android:background="@drawable/share_button" android:layout_width="90.0dip" android:layout_height="35.0dip" android:text="@string/social_capsule_share" style="@style/TopCapsuleShareThis" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/buyingArea">
+        <TextView android:id="@id/quote" android:layout_marginTop="10.0dip" android:text="" style="@style/minisiteBody.quoteText" />
+        <TextView android:gravity="right" android:id="@id/quoteSource" android:text="" android:layout_below="@id/quote" android:layout_alignParentRight="true" style="@style/minisiteBody.quoteText" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Mag-expire %1$d araw</item>
+        <item quantity="one">Mag-expire sa 1 araw</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Mag-expire %1$d oras</item>
+        <item quantity="one">Mag-expire sa 1 oras</item>
+    </plurals>
+</resources>

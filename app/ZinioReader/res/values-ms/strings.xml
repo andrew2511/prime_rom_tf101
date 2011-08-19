@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">cuba semula</string>
+    <string name="offline">luar talian</string>
+    <string name="retry_offline_content">Sambungan rangkaian tidak stabil, adakah anda mahu mencuba semula atau menggunakan aplikasi dalam mod luar talian?</string>
+    <string name="cancel">batal</string>
+    <string name="change_password">tukar kata laluan</string>
+    <string name="close">tutup</string>
+    <string name="confirm_new_password">sahkan kata laluan baru</string>
+    <string name="create_account">buat akaun</string>
+    <string name="create_an_account">buat akaun</string>
+    <string name="date">pemberian</string>
+    <string name="delete">padam</string>
+    <string name="delete_all">padam semua</string>
+    <string name="delete_mode_caption">Mod padam - ketuk item untuk memadam</string>
+    <string name="email_address">alamat e-mel</string>
+    <string name="exit">keluar</string>
+    <string name="faq">SOALAN LAZIM</string>
+    <string name="first_name">nama pertama</string>
+    <string name="free">percuma</string>
+    <string name="forgot_password">terlupa kata laluan</string>
+    <string name="last_name">nama akhir</string>
+    <string name="learn_more">Ketahui Lg</string>
+    <string name="legal_notices">notis sah</string>
+    <string name="library">pustaka</string>
+    <string name="manage_tips">urus panduan</string>
+    <string name="more">lagi</string>
+    <string name="more_options">lebih pilihan</string>
+    <string name="my_magazines">Magazin Saya - ketuk untuk melihat atau memuat turun</string>
+    <string name="new_password">kata laluan (5-20 aksara)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">kata laluan lama</string>
+    <string name="password">kata laluan</string>
+    <string name="required">diperlukan</string>
+    <string name="required_first_name">nama pertama diperlukan</string>
+    <string name="required_last_name">nama akhir diperlukan</string>
+    <string name="required_email_address">alamat e-mel diperlukan</string>
+    <string name="required_password">kata laluan diperlukan</string>
+    <string name="retype_password">taip semula kata laluan</string>
+    <string name="sign_in">daftar masuk</string>
+    <string name="sign_out">daftar keluar</string>
+    <string name="share">kongsi</string>
+    <string name="shop">kedai</string>
+    <string name="text">teks</string>
+    <string name="title">tajuk</string>
+    <string name="turn_on_wifi">Hidupkn WiFi</string>
+    <string name="uninstall">tidak dipasang</string>
+    <string name="welcome_to_zinio">selamat datang ke zinio</string>
+    <string name="email_non_lower_case">E-mel</string>
+    <string name="sd_card_non_lower_case">Kad SD</string>
+    <string name="show_password_non_lower_case">Tunjukkan Kata Laluan</string>
+    <string name="show_tips_non_lower_case">Tunjukkan Panduan</string>
+    <string name="forgot_password_underlined"><u>Terlupa Kata Laluan?</u></string>
+    <string name="terms_of_service_underlined"><u>Syarat Perkhidmatan</u></string>
+    <string name="label_share_email1">baca rencana dari</string>
+    <string name="label_share_email2">"dan ingin berkongsinya dengan anda!
+
+Rencana asal disertakan sebagai lampiran pada mesej ini.
+
+Untuk mendapatkan penerbitan selanjutnya baca secara digital di www.zinio.com"</string>
+    <string name="label_receive_from_partners">Sila hantar kepada tawaran istimewa daripada rakan kongsi Zinio yang dipercayai.</string>
+    <string name="label_receive_from_zinio">Sila hantarkan e-mel kepada saya mengenai tawaran istimewa daripada Zinio.</string>
+    <string name="label_status_calculating">Sedang mengira...</string>
+    <string name="label_status_new">Baru</string>
+    <string name="label_status_not_downloaded">Tidak dimuat turun</string>
+    <string name="label_status_downloading">%s%% Dimuat turun</string>
+    <string name="label_tip_hide">Matikan panduan. Ia boleh diuruskan melalui tetapan Lagi.</string>
+    <string name="toast_change_password_success">Kata laluan berjaya ditukar.</string>
+    <string name="toast_issue_download_complete_left">Muat turun untuk</string>
+    <string name="toast_issue_download_complete_right">selesai</string>
+    <string name="toast_no_articles">Tiada rencana pada halaman ini.</string>
+    <string name="toast_register_success">Topik berjaya dicipta.</string>
+    <string name="toast_no_email_client">Perhatian: Pelanggan e-mel tidak dikonfigurasi</string>
+    <string name="progress_dialog_wait_msg">Sila tunggu...</string>
+    <string name="dialog_warning_title">Amaran</string>
+    <string name="dialog_no_connectivity_warning">Skrin ini memerlukan akses Internet. Sila periksa tetapan kesambungan atau mod kapal terbang anda.</string>
+    <string name="dialog_passwords_not_matching_warning">Kata laluan tidak sepadan.</string>
+    <string name="dialog_password_length_warning">Kata laluan hendaklah mengandungi antara 5 dan 20 aksara.</string>
+    <string name="dialog_service_exception_warning">Mengalami isu dengan pelayan. Sila cuba lagi kemudian.</string>
+    <string name="dialog_uninstall_warning">Ini akan memadam semua data pustaka Zinio dan tidak boleh dipulihkan. Anda perlu memuat turun penerbitan anda lagi.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Anda tidak mempunyai kesambungan dan tidak boleh memuat turun sebarang penerbitan.
+
+Anda boleh memuat turun penerbitan anda semasa kesambungan dipulihkan."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Kata laluan lama dan baru mesti berlainan.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">kata laluan lama tidak tepat.</string>
+    <string name="dialog_library_no_connectivity_warning">"Sambungan diperlukan untuk memuat turun penerbitan.
+
+Anda masih boleh membaca apa yang ada pada masa itu dalam pustaka anda dan memuat turun penerbitan apabila kesambungan telah dipulihkan."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Nama pengguna atau kata laluan anda salah.
+
+Sila cuba lagi."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Akaun ini telah mencapai bilangan maksimum peranti yang disahkan. Sila nyahsahkan peranti dan cuba lagi.</string>
+    <string name="dialog_register_account_already_exists">Alamat e-mel telah wujud. Sila pilih yang lain.</string>
+    <string name="dialog_register_empty_email_error">Sila masukkan alamat e-mel.</string>
+    <string name="dialog_register_first_name_short_error">Sila masukkan nama pertama.</string>
+    <string name="dialog_register_first_name_long_error">Nama pertama hendaklah tidak melebihi 80 aksara.</string>
+    <string name="dialog_register_invalid_email_error">Sila masukkan alamat e-mel yang sah.</string>
+    <string name="dialog_register_last_name_short_error">Sila masukkan nama akhir.</string>
+    <string name="dialog_register_last_name_long_error">Nama akhir hendaklah tidak melebihi 80 aksara.</string>
+    <string name="dialog_register_other_error">Ralat berlaku. Sila cuba lagi.</string>
+    <string name="dialog_register_password_empty">Sila masukkan kata laluan.</string>
+    <string name="dialog_sign_out_disabled_warning">Tidak dilog masuk dalam pengguna untuk mendaftar keluar.</string>
+    <string name="dialog_app_version_not_supported_title">Naik Taraf Tersedia</string>
+    <string name="dialog_app_version_not_supported_msg">Terdapat versi terbaru Zinio Reader tersedia. Versi ini tidak lagi disokong. Sila tingkatkan kepada Zinio Reader terkini</string>
+    <string name="dialog_delete_all_title">Padam Semua</string>
+    <string name="dialog_delete_all_msg">"Anda telah menyatakan bahawa anda mahu memadam semua penerbitan dari pustaka anda.
+
+Jangan bimbang, anda tidak akan kehilangan apa-apa secara kekal.
+
+Memadam akan memadamnya dari peranti anda. Anda akan dapat memuat turun penerbitan lagi jika perlu."</string>
+    <string name="dialog_not_enough_space_title">Ruang tidak mencukupi</string>
+    <string name="dialog_not_enough_space_msg">Peranti ini tidak mempunyai ruang cakera yang mencukupi untuk memuat turun penerbitan yang dipilih. Sila bebaskan sekurang-kurangnya %d MB dan cuba lagi.</string>
+    <string name="dialog_sd_card_not_available_title">Kad SD tidak tersedia</string>
+    <string name="dialog_sd_card_not_available_msg">Kad SD telah dikeluarkan. Aplikasi Zinio akan berhenti. Sila masukkan Kad SD dan mulakan aplikasi sekali lagi.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Kad SD Penuh</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">Kad SD penuh. Sila bebaskan ruang.</string>
+    <string name="dialog_shop_no_connectivity_title">Kedai tidak tersedia</string>
+    <string name="dialog_shop_no_connectivity_msg">Sambungan diperlukan untuk mengakses kedai. Sila periksa tetapan kesambungan atau mod kapal terbang anda.</string>
+    <string name="dialog_sign_out_title">Daftar Keluar</string>
+    <string name="dialog_sign_out_msg">"Adakah anda pasti hendak mendaftar keluar?
+
+Anda akan diminta untuk mendaftar masuk lagi untuk mengakses aplikasi Zinio."</string>
+    <string name="dialog_tip_title">Petua</string>
+    <string name="dialog_manage_tips_title">Urus Panduan</string>
+    <string name="non_supported_device_tip_title">Selamat Datang ke zinio</string>
+    <string name="non_supported_device_tip_msg">"Kandungan kaya Zinio sebaik-baiknya dibaca pada peranti yang menggunakan sekurangnya skrin 800x480.
+
+Anda boleh teruskan menggunakan aplikasi tetapi sila ketahui bahawa pengalamannya mungkin tidak optimum."</string>
+    <string name="no_text_tip_msg">Sesetengah penerbitan tidak mempunyai rencana teks. Daftar Kandungan atau Indeks Visual boleh digunakan untuk melihat halaman yang sedang anda cari.</string>
+    <string name="page_tip0_1">"Ketuk sekali untuk melihat menu bar alat.
+Anda bolegh memilih Daftar Kandungan visual atau berasaskan teks."</string>
+    <string name="page_tip1">"Panduan untuk membantu anda bermula:
+
+* Selak halaman dengan meleret ke kanan atau ke kiri
+* Ketuk dua kali pada skrin untuk mengezum
+* Pilih butang 'teks', yang boleh dilihat pada halaman pertama rencana tersebut, untuk membaca."</string>
+    <string name="wifi_connection_tip">"Sambungan rangkaian 3G dikesan.
+
+Penerbitan mungkin perlu dimuat turun melalui 3G, tetapi untuk pengalaman optimum, wifi disyorkan."</string>
+    <string name="dialog_available_memory_not_enough_title">Saiz timbunan Yang Tidak Mencukupi</string>
+    <string name="dialog_available_memory_not_enough_msg">Saiz Timbunan Tidak Mencukupi.</string>
+    <string name="dialog_delete_title">Padam</string>
+    <string name="delete_done">Selesai</string>
+    <string name="dialog_delete_from_library">Adakah anda pasti hendak memadamkan %s</string>
+    <string name="internet_connection_tip">Sambungan Internet diperlukan untuk memuat turun penerbitan. Sila hidupkan sambungan Internet dan cuba sekali lagi.</string>
+    <string name="dialog_change_password_old_password_empty">Sila masukkan kata laluan lama.</string>
+    <string name="server_error_app_version_not_supported_message">Naik Taraf Tersedia. Terdapat versi terbaru Zinio Reader tersedia. Versi ini tidak lagi disokong. Sila tingkatkan kepada Zinio Reader terkini</string>
+    <string name="server_error_authentication_failed">"Nama pengguna atau kata laluan anda salah.
+
+Sila cuba lagi. kata laluan lama tidak tepat."</string>
+    <string name="server_error_device_not_authorized">Peranti ini telah disahkan dengan betul untuk digunakan dengan akaun Zinio anda. Untuk mengesahkan semula peranti anda, sila daftar keluar daripada aplikasi dan kemudian daftar masuk semula. Jika anda terus menghadapi kesulitan, sila hubungi Sokongan Pelanggan Zinio.</string>
+    <string name="server_error_invalid_login">Alamat e-mel tidak sah. Sila masukkan alamat e-mel yang sah.</string>
+    <string name="server_error_invalid_new_password">Kata laluan ini tidak sah, sila pilih satu lagi.</string>
+    <string name="server_error_issue_not_supported_for_device">Isu tidak sah. Sila hubungi khidmat pelanggan di support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Akaun ini telah mencapai bilangan maksimum peranti yang disahkan. Sila nyahsahkan peranti dan cuba lagi.</string>
+    <string name="server_error_packing_list_not_found">Senarai pembungkusan tiada Sila hubungi khidmat pelanggan di support@zinio.com.</string>
+    <string name="server_error_login_exists">Alamat e-mel telah wujud. Sila pilih yang lain.</string>
+    <string name="server_error_system_error">Ralat pelayan telah berlaku. Sila cuba sekali lagi kemudian.</string>
+    <string name="server_error_system_not_available">Bahagian aplikasi berkenaan mungkin tidak tersedia pada masa ini. Jika anda tidak dapat mengakses sesuatu, sila cuba lagi kemudian.</string>
+    <string name="server_error_no_items_in_library">Anda kini tiada tajuk. Tajuk tersedia boleh ditemui pada tab Kedai.</string>
+    <string name="server_error_user_not_entitled">Pengguna tidak berhak. Sila hubungi khidmat pelanggan di support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Adakah anda hendak menilai Pembaca Zinio sekarang?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Isu lapuk telah dikeluarkan dan akan dimuat turun lagi.</string>
+    <string name="dialog_review_msg">Maklum balas anda penting kepada kami, sila berikan komen anda sekarang.</string>
+    <string name="dialog_review_title">Sila berikan komen anda.</string>
+    <string name="server_error_invalid_newstand">Gerai berita tidak sah. Sila hubungi khidmat pelanggan di support@zinio.com.</string>
+</resources>

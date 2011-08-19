@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mp3_dialog_items">
+        <item>Add to Playlist</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="plalist_dialog_items">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="plalist_mp3_dialog_items">
+        <item>Delete</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="currentplalist_dialog_items">
+        <item>Delete</item>
+        <item>Add to Playlist</item>
+    </string-array>
+    <string-array name="common_home_disp">
+        <item>MySyncFolder</item>
+        <item>Saved Search</item>
+        <item>Starred</item>
+        <item>More...</item>
+        <item>Upload</item>
+        <item>Group Shared Folders</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="common_more_disp">
+        <item>My Collection</item>
+        <item>Backed-up Data</item>
+    </string-array>
+    <string-array name="capture_selector_disp">
+        <item>Photo</item>
+        <item>Video</item>
+        <item>Audio</item>
+        <item>Note</item>
+        <item>File</item>
+    </string-array>
+    <string-array name="capture_family_selector_disp">
+        <item>Camera</item>
+        <item>Note</item>
+    </string-array>
+    <string-array name="register_switch_disp">
+        <item>Get New Account</item>
+        <item>I already have an account</item>
+    </string-array>
+    <string-array name="register_mac_switch_disp">
+        <item>Get New Account</item>
+        <item>I already have an account</item>
+        <item>Change MAC add.</item>
+    </string-array>
+    <string-array name="share_content_disp">
+        <item>I enjoy listening %1$s with MEar http://www.asuswestorage.com/mear/ Curious about music on the Cloud? Try it!</item>
+        <item>I enjoy listening %1$s with MEar http://www.asuswestorage.com/mear/ Never miss another favorite music again, try your own personal stereo over the Cloud now!</item>
+        <item>I enjoy listening %1$s with MEar http://www.asuswestorage.com/mear/ What more could you ask for when you have your very own personal stereo on the go!</item>
+        <item>I enjoy listening %1$s with MEar http://www.asuswestorage.com/mear/ Play your favor MP3 with MEar without the hassle of transferring files.</item>
+    </string-array>
+</resources>

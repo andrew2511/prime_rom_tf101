@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="layout_root">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="top_divider">false</item>
+    <item type="id" name="bottom_divider">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="localepicker">false</item>
+    <item type="id" name="layout_start">false</item>
+</resources>

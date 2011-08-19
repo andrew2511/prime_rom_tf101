@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Snímek obrazovky</string>
+    <string name="screenshot_dialog_message">Snímek obrazovky je uložen. Zůstat v režimu Snímek obrazovky?</string>
+    <string name="screenshot_dialog_yes">Ano</string>
+    <string name="screenshot_dialog_no">Ne</string>
+    <string name="screenshot_toast_message_saved">Snímek obrazovky je uložen.</string>
+    <string name="screenshot_toast_message_failed">Nepodařilo se uložit snímek obrazovky v režimu Přenos souborů.</string>
+    <string name="screenshot_toast_message_failed_save">Nepodařilo se uložit snímek obrazovky.</string>
+    <string name="screenshot_toast_message_full">Nepodařilo se uložit snímek obrazovky. Nedostatek paměti.</string>
+</resources>

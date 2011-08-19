@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">레이아</string>
+    <string name="layer">레이어</string>
+    <string name="layers">레이어들</string>
+    <string name="spots">지점</string>
+    <string name="no_layers_popular">"음..
+ 현 위치에는 레이어가 없습니다."</string>
+    <string name="no_layers_popular2">"
+상단 탭에서 검색범위를 올리세요."</string>
+    <string name="share_bottom">공유</string>
+    <string name="add_to_favorites_bottom_button">즐겨찾기에 추가</string>
+    <string name="ok">확인</string>
+    <string name="save">저장</string>
+    <string name="close">닫기</string>
+    <string name="cancel">취소</string>
+    <string name="accept">동의</string>
+    <string name="decline">거절</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="apply">적용</string>
+    <string name="retry">재시도</string>
+    <string name="share">공유</string>
+    <string name="delete">삭제</string>
+    <string name="login">로그인</string>
+    <string name="done">완료</string>
+    <string name="submit">제출</string>
+    <string name="search">검색</string>
+    <string name="more">더 보기</string>
+    <string name="back">이전</string>
+    <string name="next">다음 ></string>
+    <string name="skip">건너뛰기</string>
+    <string name="continueButton">계속</string>
+    <string name="use">사용</string>
+    <string name="intro">인트로</string>
+    <string name="yes_i_do">네</string>
+    <string name="no_i_dont">"아니오't"</string>
+    <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="toast_gps_disabled">GPS 비활성</string>
+    <string name="openGPSSettingPrompt">GPS가 비활성화되어 있는 것 같습니다. 활성화하시겠습니까?</string>
+    <string name="camera_failed">카메라 장치에 접속이 안됨</string>
+    <string name="error_no_connection">연결 불가능</string>
+    <string name="error_no_active_connection">연결 할 수 없습니다</string>
+    <string name="unable_to_connect">레이아 서버로 연결 불가능, 잠시 후 시도해 주십시오.</string>
+    <string name="error_out_of_memory">애플리케이션 구동을 위한 메모리가 충분하지 않습니다. 다른 애플리케이션을 종료 후 다시 시도해 주십시오.</string>
+    <string name="error_layer_deleted">이 레이어는 더 이상 존재하지 않습니다.</string>
+    <string name="error_cant_access_layer">죄송합니다, 지금은 이 레이어에 연결할 수가 없습니다.</string>
+    <string name="error_maintenance">서버 보수 중입니다. 잠시 후, 서비스를 시작하겠습니다</string>
+    <string name="error_maintenance_title">보수작업</string>
+    <string name="camera_blocking_message">타 앱에 의해서 카메라가 작동되지 않습니다. 초기화 시도 중입니다</string>
+    <string name="camera_impossible_to_initialize">카메라를 초기화 할 수 없습니다. 레이어를 다시 시작해 주십시오</string>
+    <string name="terms_and_conditions">이용약관</string>
+    <string name="view_reality">리얼리티</string>
+    <string name="view_map">지도</string>
+    <string name="view_list">목록</string>
+    <string name="menu_edit">편집</string>
+    <string name="menu_add">추가</string>
+    <string name="menu_nearby">@string/nearby</string>
+    <string name="menu_yours">사용자</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_filter">필터 설정</string>
+    <string name="menu_share">공유</string>
+    <string name="menu_refresh">새로 고침</string>
+    <string name="menu_layer_info">레이어 정보</string>
+    <string name="menu_screenshot">스크린샷</string>
+    <string name="menu_about">레이아에 대해서</string>
+    <string name="menu_user">계정</string>
+    <string name="menu_goto_ar">리얼리티 뷰</string>
+    <string name="menu_goto_ar_2">카메라뷰</string>
+    <string name="menu_reset">모두 초기화</string>
+    <string name="menu_favorite">즐겨찾기에 추가</string>
+    <string name="menu_unfavorite">즐겨찾기에서 제거</string>
+    <string name="menu_view_map">지도 보기</string>
+    <string name="menu_launch_layer">레이아 실행</string>
+    <string name="menu_remove_all">모두 제거</string>
+    <string name="menu_new_search">새로 검색</string>
+    <string name="menu_clear_recent">최근 삭제</string>
+    <string name="menu_options">옵션</string>
+    <string name="dialog_remove_all_title">@string/menu_remove_all</string>
+    <string name="dialog_remove_all_message">모든 아이템을 삭제하시겠습니까?</string>
+    <string name="trigger_always">묻고 실행</string>
+    <string name="trigger_launch">묻지 않고 실행</string>
+    <string name="trigger_never">실행하지 않음</string>
+    <string name="trigger_available">이 오브젝트에는 자동 액션이 있습니다.</string>
+    <string name="trigger_dont_show">이 경고를 다시 표시하지 마십시오</string>
+    <string name="trigger_do_launch_action">실행</string>
+    <string name="trigger_dont_launch_action">비실행</string>
+    <string name="trigger_title">자동액션</string>
+    <string name="trigger_name">경고 표시</string>
+    <string name="trigger_summary2">웹페이지 비디오, 사운드</string>
+    <string name="action_chooser_title">애플리케이션을 선택하십시오</string>
+    <string name="action_context_menu_title">액션을 선택하십시오</string>
+    <string name="prefs_user_settings">사용자 설정</string>
+    <string name="prefs_grid_category">카메라뷰 그리드</string>
+    <string name="prefs_grid">그리드 보기</string>
+    <string name="prefs_hide_grid">격자 감추기</string>
+    <string name="prefs_hide_grid_summary">리얼리티 뷰에서 격자를 감추기</string>
+    <string name="prefs_hide_grid_summary2">카메라뷰에서 그리드를 감춥니다</string>
+    <string name="prefs_trigger">자동 실행</string>
+    <string name="prefs_trigger_summary">확인 없이 자동 실행 기능 사용 유무</string>
+    <string name="prefs_trigger_help">카메라뷰에서 거리가 가까워지면 자동동작을 작동 시켜, 웹페이지나 사운드, 비디오 등을 재생합니다。</string>
+    <string name="prefs_trigger_tel">전화 하기</string>
+    <string name="prefs_trigger_sms">문자메시지 보내기</string>
+    <string name="prefs_trigger_mailto">이메일 보내기</string>
+    <string name="prefs_trigger_http">웹페이지 열기</string>
+    <string name="prefs_trigger_audio">오디오 재생하기</string>
+    <string name="prefs_trigger_video">비디오 재생하기</string>
+    <string name="prefs_developer_settings">개발자용</string>
+    <string name="prefs_screenshot_nocamera">투명 스크린샷 생성</string>
+    <string name="prefs_screenshot_nocamera_summary">스크린샷에 카메라 이미지 사용하지 않음</string>
+    <string name="prefs_location_settings">위치 설정</string>
+    <string name="prefs_location_fixed">고정 위치 사용하기</string>
+    <string name="prefs_location_fixed_summary">고정 위치로 개발용 레이어 실험</string>
+    <string name="prefs_location_lat">위도</string>
+    <string name="prefs_location_lon">경도</string>
+    <string name="prefs_location_countrycode">국가</string>
+    <string name="prefs_location_country">국가선택</string>
+    <string name="gallery_title">카탈로그</string>
+    <string name="gallery_favorites">즐겨찾기</string>
+    <string name="gallery_recent">최근</string>
+    <string name="gallery_catalog">@string/layers</string>
+    <string name="gallery_settings">@string/menu_settings</string>
+    <string name="gallery_local">현지역</string>
+    <string name="gallery_intl">전세계</string>
+    <string name="gallery_nearby">@string/nearby</string>
+    <string name="gallery_featured">특집</string>
+    <string name="gallery_polular">인기</string>
+    <string name="gallery_new">최신</string>
+    <string name="gallery_all">전체</string>
+    <string name="gallery_paid">유료</string>
+    <string name="gallery_free">무료</string>
+    <string name="gallery_dev">테스트</string>
+    <string name="gallery_purchased">구매</string>
+    <string name="gallery_launch">@string/gallery_free</string>
+    <string name="gallery_loading">레이어 로딩 중...</string>
+    <string name="gallery_waiting_location">위치정보 수신 중...</string>
+    <string name="gallery_category">Categories > %name%</string>
+    <string name="share_chooser_title">이 레이어 공유하기</string>
+    <string name="share_layer">레이어 공유</string>
+    <string name="share_layer_email">이메일로 공유</string>
+    <string name="share_layer_socials">소셜네트워크에 공유</string>
+    <string name="share_screenshot">스크린샷 공유</string>
+    <string name="share_success">레이어가 공유되었습니다</string>
+    <string name="share_success_message">성공적으로 공유되었습니다!</string>
+    <string name="share_fail">공유 중에 문제가 발생했습니다!</string>
+    <string name="share_message_template" formatted="false">Layer Reality Browser 앱에서 %layername%를(을) 확인해 보세요!</string>
+    <string name="share_screenshot_template" formatted="false">이 이미지는 Layar Reality Browser 앱에 있는 %layername%에서 만들었습니다!</string>
+    <string name="share_add_location">위치 추가</string>
+    <string name="share_location_fail">그 위치를 찾을 수 없습니다</string>
+    <string name="share_subject">이 멋진 레이어를 확인해 보세요!</string>
+    <string name="share_button">레이어 공유</string>
+    <string name="share_text">추천 레이어 확인하기 [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="layer_details_subject" formatted="false">Layer Reality Browser 앱에서 % title%를(을) 확인해 보세요!</string>
+    <string name="layer_details_body" formatted="false">"나는 %android%에서 Layar Reality Browser 앱을 사용하고 있습니다. 이 앱에서 발견한 레이어를 공유하고 싶습니다! 
+
+%name% 
+
+%description% 
+퍼블리셔: %publisher% 
+가격: %price% 
+연결: %link% 
+더 많은 레이어를 보거나 Layar Reality Brower 앱을 다운받기 원하시면 http://www.layar.com/을 방문해 주십시오"</string>
+    <string name="wow_message">와! 이 레이어가 정말 좋습니다!</string>
+    <string name="sharing_message_twitter_succeful">Twitter에 레이어가 공유되었습니다!</string>
+    <string name="sharing_message_facebook_succeful">Facebook에 레이어가 공유되었습니다!</string>
+    <string name="sharing_message_twitter_fail">Twitter에 공유 중 문제발생:</string>
+    <string name="sharing_message_facebook_fail">Facebook에 공유 중 문제발생:</string>
+    <string name="sharing_facebook">Facebook에 공유하기</string>
+    <string name="sharing_twitter">Twitter에 공유하기</string>
+    <string name="share_purpose">계정 중 하나에 연결해 주십시오:</string>
+    <string name="twitter_email_info">Layar 계정이 없다면, Twitter 이메일 주소로 로그인 하세요.</string>
+    <string name="congratulations">축하합니다!</string>
+    <string name="share_status">공유상태</string>
+    <string name="share_login_alert_dialog">소셜네트워크에 연결하면 Layar 계정이 생성됩니다. 이미 Layar 계정을 가지고 있습니까?</string>
+    <string name="share_login_alert_dialog_title">Do you have a Layar account</string>
+    <string name="screenshot_hold_steady">스크린샷 촬영 중, 움직이지 마십시오...</string>
+    <string name="screenshot_processsing">스크린샷 작성 중</string>
+    <string name="screenshot_chooser_title">이 스크린샷 공유하기</string>
+    <string name="screenshot_subject">\#layar #screenshot %title%</string>
+    <string name="screenshot_text">이 멋진 #layar #screenshot를 보세요! [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="screenshot_subject_nearby">\#layar #screenshot 내 주변에 무엇이 있는지 보세요</string>
+    <string name="screenshot_text_nearby">내 주변에 있는 멋진 #layar #screenshot를 보세요!</string>
+    <string name="screenshot_camera_format">죄송합니다. 이 카메라 이미지 포맷이 지원되지 않아 스크린샷에 보이지 않을 것입니다.</string>
+    <string name="screenshot_no_sdcard">저장용 SD카드가 없습니다</string>
+    <string name="screenshot_out_of_memory">메모리가 충분하지 않아 스크린샷을 만들 수 없습니다. 열려있는 다른 어플리케이션을 닫고 다시 시도해 주십시오.</string>
+    <string name="screenshot_saved_as">저장됨: %path%</string>
+    <string name="screenshot_retake">재촬영</string>
+    <string name="screenshot_preview">미리보기</string>
+    <string name="screenshot_send_email">이메일로 보내기</string>
+    <string name="screenshot_save_to_library">라이브러리에 저장하기</string>
+    <string name="no_result_recent">최근에 사용한 레이어가 없습니다</string>
+    <string name="no_result_search" formatted="false">%query% 결과가 없습니다</string>
+    <string name="search_hint">레이아 검색</string>
+    <string name="search_hint2">레이어와 지점 검색</string>
+    <string name="search_hint3">레이어 검색</string>
+    <string name="search_results" formatted="false">검색결과 \"%query%\"</string>
+    <string name="search_no_results">검색결과 없음, 다른 키워드를 시도하십시오</string>
+    <string name="local_no_results">지역 레이어가 없음</string>
+    <string name="category_no_results">해당 카테고리에 레이어 없음</string>
+    <string name="search_no_results_without_try">결과 없음...</string>
+    <string name="gallery_no_results">레이어 없음</string>
+    <string name="search_no_spots">지점이 없음</string>
+    <string name="search_no_layers">@string/gallery_no_results</string>
+    <string name="search_layers_result" formatted="false">레이어 (%num%)</string>
+    <string name="search_result" formatted="false">%query%에 관한 %num%개의 결과</string>
+    <string name="search_spots_result" formatted="false">지점 (%num%)</string>
+    <string name="poi_action_directions">길안내 하기</string>
+    <string name="poi_action_directions2">방향</string>
+    <string name="poi_action_lock">정보 고정하기</string>
+    <string name="poi_action_unlock">고정 해제하기</string>
+    <string name="actions">액션</string>
+    <string name="distance_label">거리</string>
+    <string name="distance_unit">거리 단위</string>
+    <string name="distance_unit_metric">킬로미터</string>
+    <string name="distance_unit_us">마일</string>
+    <string name="upgrade">레이아 업그레이드</string>
+    <string name="upgrade_pos">업그레이드 시작하기</string>
+    <string name="upgrade_neg">나중에 하기</string>
+    <string name="favorites_title">즐겨찾기</string>
+    <string name="favorites_add">@string/menu_favorite</string>
+    <string name="favorites_remove">@string/menu_unfavorite</string>
+    <string name="favorites_dialog_add">즐겨찾기에 레이어를 추가하시겠습니까?</string>
+    <string name="favorites_dialog_remove">즐겨찾기에서 레이어를 제거하시겠습니까?</string>
+    <string name="favorites_add_button_text">즐겨찾기에 레이어 추가</string>
+    <string name="favorites_edit_alert_title">변경 저장 않음</string>
+    <string name="favorites_edit_alert_message">변경된 사항이 저장되지 않습니다. 계속 진행하겠습니까?</string>
+    <string name="audio_loading">오디오 로딩 중</string>
+    <string name="audio_error">죄송합니다, 오디오를 재생할 수 없습니다.</string>
+    <string name="audio_error_title">오디오 재생불가</string>
+    <string name="video_loading">비디오 로딩 중</string>
+    <string name="details_no_content">내용 없음</string>
+    <string name="details_loading">로딩 중...</string>
+    <string name="copy_link">링크복사</string>
+    <string name="copy_message">링크가 복사되었습니다</string>
+    <string name="copy_message_fail">복사된 것이 없습니다</string>
+    <string name="filter_settings_title">필터 설정</string>
+    <string name="filter_auto_range">자동 범위조정</string>
+    <string name="main_showing_terms">이용약관 보기</string>
+    <string name="main_downloading_categories">카테고리 업데이트 중</string>
+    <string name="main_check_updates">업데이트 확인 중</string>
+    <string name="main_ready">레이어 완료</string>
+    <string name="status_range">범위</string>
+    <string name="status_accuracy">정확도</string>
+    <string name="status_not_available">불가</string>
+    <string name="status_waiting_location">위치정보 수신 중...</string>
+    <string name="status_authentication_required">레이어 사용을 위해서 인증을 해 주십시오</string>
+    <string name="status_progress_get_results">결과 수신 중...</string>
+    <string name="status_progress_loading_image">이미지 로딩 중...</string>
+    <string name="status_progress_loading_3dmodel">3D 모델 로딩 중...</string>
+    <string name="status_progress_failed_3dmodel">3D 모델 로딩에 실패했습니다. 새로고침 해 주십시오!</string>
+    <string name="status_results_found" formatted="false">%num%개 결과 수신</string>
+    <string name="status_no_results_found">결과 없음</string>
+    <string name="status_something_went_wrong">미확인 오류. 다시 시도해 주십시오!</string>
+    <string name="status_layer_unpublished">소유자에 의해서 이 레이어는 발행중지 되었습니다</string>
+    <string name="progress_searching">검색 중...</string>
+    <string name="progress_processing">진행 중...</string>
+    <string name="progress_loading">로딩 중...</string>
+    <string name="progress_loading_layer">레이어 로딩 중...</string>
+    <string name="user_username">아이디</string>
+    <string name="user_email">이메일</string>
+    <string name="user_username_or_email">아이디 또는 이메일</string>
+    <string name="user_password">패스워드</string>
+    <string name="user_login">로그인</string>
+    <string name="user_invite_button">친구초대</string>
+    <string name="user_invite_facebook">Facebook</string>
+    <string name="user_invite_twitter">Twitter</string>
+    <string name="user_invite_phone">주소록에서 초대</string>
+    <string name="user_invite_have_friends_template" formatted="false">당신은 이미 %num%명의 Layar 친구가 있습니다</string>
+    <string name="user_invite_more_friends">즐거움을 위해 더 많은 친구를 초대하세요</string>
+    <string name="user_invite_nobody_added">초대한 친구가 없습니다</string>
+    <string name="user_invite_pending_template" formatted="false">%num%명의 친구가 수락대기 중입니다</string>
+    <string name="user_invite_default_message">친구를 초대하겠습니까?</string>
+    <string name="user_invite_no_friends">당신의 네트워크에는 친구가 없습니다. 통과 중...</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">이메일</string>
+    <string name="connect_account">계정 연결</string>
+    <string name="user_add_account">계정 추가</string>
+    <string name="user_add_account_text">당신의 Layar 계정을 Facebook과 Twitter 계정에 연결하세요!</string>
+    <string name="user_add_account_cancel">아니오, 다음 기회에...</string>
+    <string name="user_add_facebook">Facebook 계정을 추가</string>
+    <string name="user_add_twitter">Twitter 계정을 추가</string>
+    <string name="user_add_social" formatted="false">%socialname% 계정을 추가</string>
+    <string name="user_remove_social" formatted="false">%socialname% 계정 해제</string>
+    <string name="user_twitter_email_title">Twitter에 연결</string>
+    <string name="social_associating">연결 중...</string>
+    <string name="social_associating_error">죄송합니다. 계정 연결에 문제가 있습니다</string>
+    <string name="social_disconnected" formatted="false">당신의 계정은 %type%에서 연결해제 되었습니다</string>
+    <string name="social_disconnecting" formatted="false">당신의 계정을 %type%에서 연결해제 중입니다</string>
+    <string name="social_disconnect_fail" formatted="false">%type%에서 연결해제에 실패했습니다</string>
+    <string name="social_disconnect_title">연결해제?</string>
+    <string name="social_disconnect_message" formatted="false">%type% 계정과 연결해제 하시겠습니까?</string>
+    <string name="social_associating_success">당신의 계정과 연결되었습니다</string>
+    <string name="social_associating_dialog">재시도 하겠습니까?</string>
+    <string name="add_email">이메일 추가</string>
+    <string name="add_email_error_exists">이 이메일 주소는 이미 추가되어 있습니다</string>
+    <string name="select_email">Select email</string>
+    <string name="selected_contacts">contacts selected</string>
+    <string name="user_welcome_title">레이아 리얼리티 브라우저</string>
+    <string name="user_welcome_title2">@string/menu_user</string>
+    <string name="user_welcome_text">유료 레이어를 구매하시려면 계정이 필요합니다...</string>
+    <string name="user_welcome_create_account">계정 만들기</string>
+    <string name="user_welcome_facebook">Facebook 연결하기</string>
+    <string name="user_welcome_social" formatted="false">%socialname%로 로긴</string>
+    <string name="user_welcome_not_now">나중에 만들기</string>
+    <string name="user_welcome_never">다시 묻지 않기</string>
+    <string name="setting_up_social_connection" formatted="false">%socialname% 연결로 세팅 중...</string>
+    <string name="you_are_logged_in_with_social" formatted="false">당신의 %socialname% 계정으로 로그인되었습니다</string>
+    <string name="social_connect_didnt_work" formatted="false">죄송합니다. %socialname%로 로그인 되지 않습니다</string>
+    <string name="user_create_title">계정 생성</string>
+    <string name="user_create_keep_informed">레이아에 대한 소식을 받습니다</string>
+    <string name="user_create_keep_informed2">이메일 뉴스와 업데이트</string>
+    <string name="user_create_create">계정 만들기</string>
+    <string name="user_create_privacy2">아래 버튼을 눌러 개인정보정책 <a>privacy policy</a>에 동의해 주십시오.</string>
+    <string name="user_create_privacy3">"당신의 사용자이름은 다른 사용자에게 보여집니다. 
+당신의 이메일은 절대로 배포/공유 안 합니다. 
+당신에게 스팸을 발송하지 않습니다. 
+ www.layar.com/legal/privacy/ 에서 개인정보 보호정책 보기"</string>
+    <string name="user_exists_title">사용중인 아이디</string>
+    <string name="user_exists">사용중인 아이디입니다. 다른 아이디를 선택해 주십시오.</string>
+    <string name="user_email_exists_title">등록된 이메일</string>
+    <string name="user_email_exists">같은 이메일로 계정이 이미 생성되어 있습니다.</string>
+    <string name="user_twitter_email_exists_message">Twitter에 연결하기 전에 Layar에 로그인 해주세요.</string>
+    <string name="user_email_invalid_title">잘못된 형식의 이메일</string>
+    <string name="user_email_invalid">정확한 형식의 이메일을 입력해 주십시오.</string>
+    <string name="user_username_length_title">잘못된 형식의 아이디</string>
+    <string name="user_username_length">아이디는 최소 4자로 입력해야 합니다.</string>
+    <string name="user_invalid_username">사용자이름은 반드시 알파벳 또는 숫자의 조합이어야 하며, 최소 4자에서 최대 16자 이내여야 합니다.</string>
+    <string name="user_password_length_title">잘못된 형식의 패스워드</string>
+    <string name="user_password_length">패스워드는 최소 6자로 입력해야 합니다.</string>
+    <string name="user_invalid_password">암호는 반드시 최소 6자에서 최대 12자 이내여야 합니다.</string>
+    <string name="success_user_create"><b>계정생성 완료!</b> 마지막 절차가 남았습니다...</string>
+    <string name="user_creation_confirmation_text">유료 레이어를 구매하려면 계정을 인증 받아야 합니다. 등록하신 이메일로 인증 링크를 보냈으니 확인해 주십시오.</string>
+    <string name="account_creation_confirmation_text">계정을 인증 받아야 합니다. 등록하신 이메일로 인증 링크를 보냈으니 확인해 주십시오.</string>
+    <string name="wrong_username_password">로그인 불가. 아이디, 이메일, 또는 패스워드가 일치하지 않습니다.</string>
+    <string name="account_suspended">죄송합니다. 계정이 차단되었습니다. 다른 계정으로 로그인 하거나 취소를 눌러 주십시오.</string>
+    <string name="error_logging_in">죄송합니다. 로그인 과정에서 문제가 발생했습니다. 나중에 다시 시도해 주십시오.</string>
+    <string name="error_creating_user">죄송합니다. 계정을 생성하는 과정에서 문제가 발생했습니다. 다시 시도해 주십시오.</string>
+    <string name="status_logging_in">로그인 중...</string>
+    <string name="user_forgot_password_title">패스워드 분실</string>
+    <string name="user_forgot_password_link_text"><u>패스워드를 잊으셨나요?</u></string>
+    <string name="user_forgot_password_header_text">등록된 이메일 주소를 입력해 주시면, 패스워드를 초기화 할 수 있는 링크를 보내드립니다.</string>
+    <string name="user_forgot_password_sent_confirmation_text">이메일 주소로 패스워드를 초기화 할 수 있는 방법을 보냈습니다.</string>
+    <string name="user_error_recovery_password">죄송합니다. 패스워드를 초기화 하는 과정에서 문제가 발생했습니다. 다시 시도해 주십시오.</string>
+    <string name="user_error_nonexistant_email">이 이메일 주소로 등록된 계정이 없습니다.</string>
+    <string name="user_verification_prompt_title">유저 인증</string>
+    <string name="user_verification_prompt_text">죄송합니다. 구매하기 전에 계정을 인증 받아야 합니다.</string>
+    <string name="user_verification_prompt_send_again">인증링크 다시 보내기</string>
+    <string name="user_verification_prompt_login_another">다른 계정으로 로그인 하기</string>
+    <string name="user_verification_prompt_login_incorrect">죄송합니다. 이 계정은 인증되지 않았습니다. 인증된 계정을 사용해 주십시오.</string>
+    <string name="user_login_prompt_for_purchase">레이어를 구매하기 위해서는 계정이 필요합니다.</string>
+    <string name="account_verified">귀하의 계정이 인증되었습니다.</string>
+    <string name="account_not_verified">귀하의 계정은 인증되지 않았습니다..</string>
+    <string name="send_verification"><u>인증링크 다시 보내기</u></string>
+    <string name="error_sending_verification_link">인증링크를 보내는 과정에서 오류가 발생했습니다.</string>
+    <string name="account_verification_link_sent">귀하의 계정을 인증 할 수 있는 링크를 이메일로 보냈습니다.</string>
+    <string name="multiple_login_title">재 로그인</string>
+    <string name="multiple_login_message">기록에 의하면, 귀하는 다른 기기에서 최근에 로그인 하였습니다. 보안을 위해 다시 로그인 해 주십시오...</string>
+    <string name="multiple_login_warning">귀하의 계정이 타인에 의해 불법적으로 사용되고 있다고 생각하십니까?</string>
+    <string name="multiple_login_let_us_know"><u>신고하기</u></string>
+    <string name="layer_actions">레이어 액션</string>
+    <string name="layer_action_launch">실행</string>
+    <string name="layer_action_purchase">구매</string>
+    <string name="logged_in_as" formatted="false">귀하는 %name%로 로그인 되었습니다.</string>
+    <string name="logout">로그아웃</string>
+    <string name="user_logged_out">로그아웃 되었습니다.</string>
+    <string name="error_logging_out">로그아웃 되지 않았습니다. 다시 시도해 주십시오.</string>
+    <string name="development_mode_description">테스트용 레이어를 선택할 수 있는 개발자 모드로 로그인 되었습니다.</string>
+    <string name="account_needed_do_this">이 액션을 실행하려면 계정이 필요합니다...</string>
+    <string name="account_needed_view_content">이 페이지를 보려면 로그인 하거나 계정을 생성해 주십시오.</string>
+    <string name="purchase_layer">레이어 구매</string>
+    <string name="error_retrieving_providers">결제업체 목록 수신 오류</string>
+    <string name="initiating_payment">결제 시도...</string>
+    <string name="error_initiating_payment">결제 시도 실패</string>
+    <string name="purchase_failed_description">죄송합니다. 알수 없는 오류로 결제가 완료되지 못했습니다.</string>
+    <string name="purchase_failed_description2">죄송합니다. 구매가 완료되지 않았습니다. 다시 시도해 주십시오.</string>
+    <string name="try_purchase_again" formatted="false">%paymentprovider%로 다시 시도하기</string>
+    <string name="choose_another_payment_provider">다른 결제업체 선택하기</string>
+    <string name="purchase_succeeded_description">결제성공! 레이어를 구매해 주셔서 감사합니다.</string>
+    <string name="payment_provider_limitation">죄송합니다만, 현재는 <b>미국</b>, <b>영국</b>, <b>호주</b>, or <b>캐나다</b> Paypal 계정만 구매를 할 수 있습니다. 조만간 다른 나라들도 추가될 예정입니다.</string>
+    <string name="pay_with">결제 with</string>
+    <string name="purchase_message_one" formatted="false">%publisher%의 %layername% 레이어를 구매 할 수 있습니다. 아래를 클릭하여 구매를 시작하세요.</string>
+    <string name="purchase_message_more" formatted="false">%publisher%의 %layername% 레이어를 구매합니다. 당신의 결제 제공업체를 아래에서 선택하여 구매를 시작하세요.</string>
+    <string name="welcome_skip_dialog_title">생성된 계정이 없습니다</string>
+    <string name="welcome_skip_dialog_message">나중에 계정을 생성하시겠습니까?</string>
+    <string name="welcome_skip_dialog_message2">유료 레이어를 구매하시려면 계정을 생성해야 합니다.</string>
+    <string name="welcome_skip_dialog_remind">나중에 알려주기</string>
+    <string name="welcome_skip_dialog_dontask">묻지않기</string>
+    <string name="ratings_rate_layer">이 레이어 평가하기</string>
+    <string name="ratings_stars_1">매우 불만</string>
+    <string name="ratings_stars_2">불만</string>
+    <string name="ratings_stars_3">보통</string>
+    <string name="ratings_stars_4">만족</string>
+    <string name="ratings_stars_5">매우 만족</string>
+    <string name="ratings_rate">만족도</string>
+    <string name="layer_report_problem">문제 보고하기</string>
+    <string name="nearby">내주변</string>
+    <string name="details">상세보기</string>
+    <string name="favorite_spot">나의 지점으로 추가</string>
+    <string name="unfavorite_spot">나의 지점에서 삭제</string>
+    <string name="open_layer">레이어 열기</string>
+    <string name="loading_more2">로딩...</string>
+    <string name="loading_more">추가 로딩 중...</string>
+    <string name="hide_this_layer">레이어 감추기</string>
+    <string name="unhide_this_layer">레이어 보이기</string>
+    <string name="no_description">상세보기 없음</string>
+    <string name="poidetails_more_items_message" formatted="false">이 레이어에서 주변에 %num%개의 유사한 아이템이 더 있습니다.</string>
+    <string name="poidetails_one_more_item_message">이 레이어에서 주변에 1개의 유사한 아이템이 더 있습니다</string>
+    <string name="spot_actions">지점 액션</string>
+    <string name="filter_title">필터</string>
+    <string name="filter_select_all">전체선택</string>
+    <string name="filter_item_categories">카테고리</string>
+    <string name="filter_item_categories_empty">카테고리가 설정되지 않았슴</string>
+    <string name="filter_item_categories_more" formatted="false">%0%, %1% 및 그 외 %n%개가 선택됨</string>
+    <string name="filter_item_categories_all">전체 선택</string>
+    <string name="filter_item_hidden_layer">숨겨진 레이어</string>
+    <string name="filter_item_hidden_layer_empty">숨겨진 레이어 없음</string>
+    <string name="filter_item_hidden_layer_more" formatted="false">%0%, %1% 및 그 외 %n%개가 숨겨짐</string>
+    <string name="filter_item_hidden_layer_unhide">레이어를 눌러 보기</string>
+    <string name="filter_item_range">지정 범위</string>
+    <string name="filter_item_range_default">기본 범위 사용</string>
+    <string name="filter_item_range_message" formatted="false">%value% 보다 먼 지점은 감추기</string>
+    <string name="filter_item_paid">유료 컨텐츠 보기</string>
+    <string name="filter_item_paid_true">유료 레이어 지점 보기</string>
+    <string name="filter_item_paid_false">유료 레이어 지점 감추기</string>
+    <string name="filter_reset">필터 재설정</string>
+    <string name="custom_filter_range_settings">@string/status_range</string>
+    <string name="custom_filter_range_text" formatted="false">지점들을 반경 %value% 표시</string>
+    <string name="custom_filter_layer_settings">레이어 설정</string>
+    <string name="custom_filter_camera_settings">카메라뷰 설정</string>
+    <string name="custom_filter_camera_bird_eye">버드뷰 시점</string>
+    <string name="custom_filter_camera_hide_grid">@string/prefs_hide_grid</string>
+    <string name="notification_auto_refresh">새로 고침</string>
+    <string name="poi" />
+    <string name="prefs_developer_enable" />
+    <string name="prefs_developer_id" />
+    <string name="help">도움말</string>
+    <string name="user_create_privacy" />
+    <string name="prefs_developer_key" />
+    <string name="prefs_developer_enable_summary" />
+    <string name="select_layer" />
+    <string name="welcome_title">레이아 리얼리티 브라우저</string>
+    <string name="welcome_intro">레이아 리얼리티 브라우저는 기존에 못 보았던 것을 볼 수 있게 해 주는, 멋지고 신나는 증강현실 앱 입니다.</string>
+    <string name="welcome_tip1">귀하가 선택한 레이어로 증강현실의 <b>세상을 보세요</b>.</string>
+    <string name="welcome_tip2"><b>카탈로그</b>에서 수많은 유/무료 레이어를 선택할 수 있습니다.</string>
+    <string name="welcome_tip3"><b>계정</b>을 생성하면 감춰진 레이아의 기능을 사용할 수 있습니다.</string>
+    <string name="welcome_tip4"><b>내주변</b>. 레이아스트림을 이용하여 내 주변의 새로운 지점들을 발견하고 검색하세요.</string>
+    <string name="welcome_skip2"><u>지금 레이아 실행하기</u></string>
+    <string name="welcome_start_app">Layar 사용하기 ></string>
+    <string name="welcome_back_app">Layar 돌아가기 ></string>
+    <string name="ws_text_000">Layar는 당신 주변 세계의 정보를 알려줍니다.</string>
+    <string name="ws_text_001">카탈로그에는 이미 2천개가 넘는 레이어가 준비되어 있습니다.</string>
+    <string name="ws_text_002">당신의 디바이스에서 레이어를 통해, 새로운 세계를 경험해 보세요!</string>
+    <string name="ws_title_0031">즐겨찾기</string>
+    <string name="ws_title_0032">스크린샷</string>
+    <string name="ws_title_0033">공유하기</string>
+    <string name="ws_text_0031">마음에 드는 레이어를 리스트에 저장하여 사용하세요</string>
+    <string name="ws_text_0032">언제든지 카메라뷰에서 찍은 사진을 공유하세요</string>
+    <string name="ws_text_0033">소셜미디어, 이메일과 SMS을 사용하여 좋아하는 레이어를 전세계에 알려주세요</string>
+</resources>

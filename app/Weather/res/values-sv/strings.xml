@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Vädermanickinställning</string>
+    <string name="refreshBtn">Uppdatera</string>
+    <string name="saveBtn">Spara</string>
+    <string name="cancelBtn">Avbryt</string>
+    <string name="nocityfound">Ingen stad hittades.</string>
+    <string name="humidity">Luftfuktighet</string>
+    <string name="winds">Vind</string>
+    <string name="infor1">Inte tillgänglig</string>
+    <string name="searchlistviewtitle">Välj en stad</string>
+    <string name="wait">Vänta...</string>
+    <string name="refreshFail">Uppdatering misslyckades. Försök igen.</string>
+    <string name="searchFail">Sökning misslyckades. Försök igen.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNÖ</string>
+    <string name="dirNE">NÖ</string>
+    <string name="dirENE">ÖNÖ</string>
+    <string name="dirE">Ö</string>
+    <string name="dirESE">ÖSÖ</string>
+    <string name="dirSE">SÖ</string>
+    <string name="dirSSE">SSÖ</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSV</string>
+    <string name="dirSW">SV</string>
+    <string name="dirWSW">VSV</string>
+    <string name="dirW">V</string>
+    <string name="dirWNW">VNV</string>
+    <string name="dirNW">NV</string>
+    <string name="dirNNW">NNV</string>
+    <string name="entercityname">Ange en stad:</string>
+    <string name="manualtitle">Manuell inställning av plats</string>
+    <string name="refreshprogresstitle">Uppdatera väderinformation</string>
+    <string name="refreshprogresscontent">Uppdatera nu. Vänta...</string>
+    <string name="searchprogresstitle">Sök stad</string>
+    <string name="searchprogresscontent">Sök nu. Vänta...</string>
+    <string name="no_network">Nätverket är inte tillgängligt. Det går inte att uppdatera väderinformationen.</string>
+    <string name="no_provider">All platsinformation är för tillfället inte aktiverad. Aktivera trådlösa nätverk och GPS-satelliter i inställningen Plats och säkerhet för snabbare och noggrannare platsidentifiering.</string>
+    <string name="title_location">Plats</string>
+    <string name="content_autorefreshed">Autouppdatera min nuvarande plats</string>
+    <string name="content_manual">Manuell sökning</string>
+    <string name="title_updatefreq">Uppdatera frekvens</string>
+    <string name="content_updatetime">Senaste uppdateringstid</string>
+    <string name="content_selectfreq">Senaste uppdateringsfrekvens</string>
+    <string name="title_others">Övrigt</string>
+    <string name="content_tempunit">Temperaturenhet</string>
+</resources>

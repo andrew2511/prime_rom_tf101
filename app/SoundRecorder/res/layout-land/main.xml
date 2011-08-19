@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/timerViewLayout" android:background="@drawable/gradient_bg" android:layout_width="fill_parent" android:layout_height="134.0dip">
+        <TextView android:textSize="115.0dip" android:id="@id/timerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" style="@android:style/TextAppearance.Large" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/stateMessage2Layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:baselineAligned="false" android:layout_alignParentLeft="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/stateLED" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/stateMessage2" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:text="@string/recording" style="@android:style/TextAppearance.Medium" />
+        </LinearLayout>
+        <TextView android:id="@id/stateMessage1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_below="@id/stateMessage2Layout" style="@android:style/TextAppearance.Small" />
+        <ProgressBar android:orientation="horizontal" android:id="@id/stateProgressBar" android:layout_width="135.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:max="100" android:progress="0" android:layout_alignParentLeft="true" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/exitButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <Button android:id="@id/acceptButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="2.0dip" android:text="@string/save" android:layout_weight="1.0" />
+            <Button android:id="@id/discardButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="50.0dip" android:text="@string/discard" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.soundrecorder.VUMeter android:id="@id/uvMeter" android:layout_width="150.0px" android:layout_height="60.0px" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+            <ImageButton android:id="@id/recordButton" android:layout_height="fill_parent" android:src="@drawable/record" style="@style/MediaButton" />
+            <ImageButton android:id="@id/playButton" android:layout_height="fill_parent" android:src="@drawable/play" style="@style/MediaButton" />
+            <ImageButton android:id="@id/stopButton" android:layout_height="fill_parent" android:src="@drawable/stop" style="@style/MediaButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

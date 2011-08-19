@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/headerButtonPanel" android:background="@drawable/header_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/LatitudeTitle" android:gravity="center_vertical" android:layout_gravity="fill_vertical" android:id="@id/headerTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="9999.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/headerButtonLayout" android:layout_width="wrap_content" android:layout_height="@dimen/action_bar_height" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip">
+        <View android:id="@id/headerRefreshDivider" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/headerProgress" android:background="@drawable/header_bar_button" android:visibility="gone" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        </LinearLayout>
+        <ImageView android:id="@id/headerRefreshButton" android:background="@drawable/header_bar_button" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_latitude_refresh_friends" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

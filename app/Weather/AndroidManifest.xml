@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.asus.weather"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/weather">
+        <provider android:name=".WeatherContentProvider" android:authorities="com.asus.weather.provider" />
+        <activity android:label="@string/app_name" android:name=".WeatherListViewActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".WeatherManualActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".WeatherReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.asus.weather.weatherIntentAction" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".WeatherService" />
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name=".WeatherFragmentSettings" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.asus.weather.launchSetting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/app_name" android:name=".WeatherWidgetProvider" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.weather.weatherIntentAction" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/weather_provider" />
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+</manifest>

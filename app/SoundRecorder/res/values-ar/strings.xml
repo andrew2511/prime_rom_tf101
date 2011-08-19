@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مسجِّل الصوت</string>
+    <string name="record_your_message">تسجيل رسالتك</string>
+    <string name="message_recorded">تم تسجيل الرسالة</string>
+    <string name="review_message">مراجعة الرسالة</string>
+    <string name="recording">جارٍ التسجيل</string>
+    <string name="recording_stopped">توقف التسجيل</string>
+    <string name="storage_is_full">السعة التخزينية ممتلئة</string>
+    <string name="max_length_reached">تم بلوغ الحد الأقصى للطول</string>
+    <string name="min_available">يتوفر %d دقيقة</string>
+    <string name="sec_available">يتوفر %d ثانية</string>
+    <string name="accept">استخدام هذا التسجيل</string>
+    <string name="discard">إلغاء</string>
+    <string name="button_ok">موافق</string>
+    <string name="audio_db_artist_name">تسجيلاتك</string>
+    <string name="audio_db_album_name">التسجيلات الصوتية</string>
+    <string name="audio_db_playlist_name">تسجيلاتي</string>
+    <string name="error_app_internal">خطأ داخلي بالتطبيق</string>
+    <string name="error_mediadb_new_record">يتعذر حفظ الصوت المسجّل</string>
+    <string name="save">حفظ</string>
+</resources>

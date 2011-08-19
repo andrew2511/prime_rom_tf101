@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ภาพพื้นหลังแบบมีชีวิตชีวาที่เป็นค่าเริ่มต้นของ ASUS</string>
+    <string name="mywater_setting">การตั้งค่า ASUS MyWater</string>
+    <string name="enable_rotation">เปิดทำงานการหมุนของน้ำ</string>
+    <string name="enable_rotation_description">น้ำจะหมุนไปพร้อมกับการหมุนอุปกรณ์</string>
+</resources>

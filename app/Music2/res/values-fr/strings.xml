@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Aucune connexion réseau</string>
+    <string name="authentication_failure_no_network">"Vous devez être connecté à Internet afin d'authentifier votre compte et de l'utiliser avec Music."</string>
+    <string name="authentication_failure">"Échec de l'authentification"</string>
+    <string name="authentication_failure_error">"Impossible d'authentifier votre compte pour l'utiliser avec Music."</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Annuler</string>
+    <string name="save_button_text">Enregistrer</string>
+    <string name="not_save_button_text">Annuler</string>
+    <string name="shuffle_all">Lecture aléatoire</string>
+    <string name="play_all">Tout lire</string>
+    <string name="songs_all">Toutes les chansons</string>
+    <string name="shuffle">Lecture aléatoire</string>
+    <string name="search">Rechercher</string>
+    <string name="settings">Paramètres</string>
+    <string name="library_options">Options de la bibliothèque</string>
+    <string name="manage_music">Activer la consultation hors connexion</string>
+    <string name="available_offline">Disp. hors connexion</string>
+    <string name="hide_labels">Masquer les libellés</string>
+    <string name="show_labels">Afficher les libellés</string>
+    <string name="refresh">Actualiser</string>
+    <string name="shop_artist">Par artiste</string>
+    <string name="show_offline_music_only">Morceaux hors conn. uniq.</string>
+    <string name="gadget_all_songs_by_artist">Tous les morceaux de %s</string>
+    <string name="list_title_all_songs_by_artist">"Tous les morceaux de 
+%s"</string>
+    <string name="new_playlist_title">Nom de la playlist</string>
+    <string name="add_to_playlist_title">Nom de la playlist</string>
+    <string name="rename_playlist_title">Renommer \"%s\" en</string>
+    <string name="all_music">Toute la musique</string>
+    <string name="only_kept">Uniquement hors connexion</string>
+    <string name="search_section_header_artists">ARTISTES</string>
+    <string name="search_section_header_albums">ALBUMS</string>
+    <string name="search_section_header_songs">MORCEAUX</string>
+    <string name="search_section_header_playlists">PLAYLISTS</string>
+    <string name="shuffle_all_songs">Lecture aléatoire</string>
+    <string name="stream_settings">"Paramètres d'écoute en continu"</string>
+    <string name="streamed_music_category">Musique diffusée en continu</string>
+    <string name="refresh_title">Actualiser</string>
+    <string name="refresh_summary">Actualiser les morceaux de Music (Bêta)</string>
+    <string name="account_settings_title">Compte Google</string>
+    <string name="no_account_selected_summary">"Touchez l'écran pour sélectionner un compte"</string>
+    <string name="account_selected_summary">"Se connecter à Music (bêta) à l'aide du compte %s"</string>
+    <string name="hide_when_not_connected_title">Masquer la musique indisponible</string>
+    <string name="hide_when_not_connected_summary">Afficher uniquement la musique disponible hors connexion</string>
+    <string name="stream_only_on_wifi_title">Écoute via Wi-Fi uniquement</string>
+    <string name="stream_only_on_wifi_summary">Écouter de la musique en streaming uniquement via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_title">Télécharger uniquement via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Télécharger de la musique disponible hors connexion uniquement via Wi-Fi</string>
+    <string name="cache_streamed_title">Musique en cache</string>
+    <string name="cache_streamed_summary">Stocker temporairement la musique écoutée en streaming</string>
+    <string name="download_queue_title">"Télécharger la file d'attente"</string>
+    <string name="download_queue_summary">Afficher les morceaux en cours de téléchargement</string>
+    <string name="help_title">Aide</string>
+    <string name="help_summary">"Utilisation de l'application Music et de Music (bêta) de Google"</string>
+    <string name="library_help_title">Aide</string>
+    <string name="library_help_summary">Dépannage des problèmes de connexion</string>
+    <string name="add_account_title">Ajouter un compte</string>
+    <string name="accounts_title">Comptes</string>
+    <string name="account_status_connected">connecté</string>
+    <string name="account_status_not_connected">non connecté</string>
+    <string name="show_no_downloads_title">Aucun morceau en attente de téléchargement</string>
+    <string name="music_version_title">Version musicale</string>
+    <string name="music_version_summary">Version inconnue</string>
+    <string name="list_status_summary_no_items">Aucun élément</string>
+    <string name="list_status_summary_loading">Chargement...</string>
+    <string name="stream_accounts_title">Comptes de diffusion en continu</string>
+    <string name="library_status_title">État de la bibliothèque de diffusion en continu</string>
+    <string name="nowplaying_title">En écoute</string>
+    <string name="artists_title">Artistes</string>
+    <string name="albums_title">Albums</string>
+    <string name="genres_title">Genres</string>
+    <string name="tracks_title">Chansons</string>
+    <string name="playlists_title">Playlists</string>
+    <string name="recent_title">Récents</string>
+    <string name="search_title">Rechercher</string>
+    <string name="no_tracks_title">Aucune chanson</string>
+    <string name="no_videos_title">Aucune vidéo trouvée</string>
+    <string name="delete_playlist_menu">Supprimer</string>
+    <string name="edit_playlist_menu">Modifier</string>
+    <string name="rename_playlist_menu">Renommer</string>
+    <string name="playlist_delete_confirmation">La playlist \"%s\" va être supprimée.</string>
+    <string name="delete_playlist_button_confirm">Supprimer</string>
+    <string name="playlist_deleted_message">La playlist a été supprimée.</string>
+    <string name="playlist_created_message">Playlist \"%s\" créée</string>
+    <string name="playlist_renamed_message">La playlist a été renommée en \"%s\".</string>
+    <string name="recentlyadded">Ajoutés récemment</string>
+    <string name="recentlyadded_title">Playlist récente</string>
+    <string name="podcasts_listitem">Podcasts</string>
+    <string name="podcasts_title">Podcasts</string>
+    <string name="unknown_artist_name">Artiste inconnu</string>
+    <string name="unknown_album_name">Album inconnu</string>
+    <string name="unknown_playlist_name">Playlist inconnue</string>
+    <string name="shuffle_on_notif">La lecture aléatoire est activée.</string>
+    <string name="shuffle_off_notif">La lecture aléatoire est désactivée.</string>
+    <string name="repeat_off_notif">La lecture en boucle est désactivée.</string>
+    <string name="repeat_current_notif">Lecture en boucle de la chanson en écoute.</string>
+    <string name="repeat_all_notif">Lecture en boucle de toutes les chansons</string>
+    <string name="play_selection">Lire</string>
+    <string name="add_to_playlist">Ajouter à la playlist</string>
+    <string name="rename_playlist_menu_item">Renommer</string>
+    <string name="add_to_playlist_selector_title">Ajouter à la playlist</string>
+    <string name="queue">Playlist actuelle</string>
+    <string name="new_playlist_for_content">Nouvelle playlist...</string>
+    <string name="new_empty_playlist">Nouvelle playlist</string>
+    <string name="new_playlist_name_template">Playlist %d</string>
+    <string name="playlist_too_many_songs">Trop de morceaux. Nombre maximal par playlist : %d</string>
+    <string name="emptyplaylist">La playlist sélectionnée est vide.</string>
+    <string name="playlist_edit_label">NOM</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">Renommer</string>
+    <string name="service_start_error_title">Erreur de lecture</string>
+    <string name="service_start_error_msg">"Désolé, la chanson n'a pas pu être lue."</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">OK</string>
+    <string name="weekpicker_title">Définir la durée</string>
+    <string name="save_as_playlist">Enregistrer comme playlist</string>
+    <string name="musicbrowserlabel">Musique</string>
+    <string name="musicshortcutlabel">Playlist musicale</string>
+    <string name="mediaplaybacklabel">Musique</string>
+    <string name="playback_failed">Erreur lors de la lecture de la piste demandée.</string>
+    <string name="cancel">Annuler</string>
+    <string name="remove_from_playlist">Supprimer de la playlist</string>
+    <string name="streamloadingtext">Connexion à %s</string>
+    <string name="mediasearch">"Rechercher %s à l'aide de :"</string>
+    <string name="search_hint">Recherchez musique</string>
+    <string name="working_artists">Artistes…</string>
+    <string name="working_albums">Albums…</string>
+    <string name="working_songs">Chansons…</string>
+    <string name="working_playlists">Playlists…</string>
+    <string name="working_genres">Genres...</string>
+    <string name="loading">Chargement</string>
+    <string name="sort_by_track">Pistes</string>
+    <string name="music_picker_title">Sélectionner une piste</string>
+    <string name="gadget_track">Piste %d</string>
+    <string name="fail_to_start_stream">Échec de la lecture du flux demandé</string>
+    <string name="search_settings_description">Artistes, albums et morceaux</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">Bibliothèque musicale</string>
+    <string name="music_shop">Acheter</string>
+    <string name="pick">Choisir</string>
+    <string name="artist_unknown">Artiste inconnu</string>
+    <string name="playlists_label">Playlists</string>
+    <string name="playlist_label">Playlist</string>
+    <string name="faux_art_all_songs_label">Tous les morceaux</string>
+    <string name="faux_art_playlist_label">Playlist</string>
+    <string name="loading_new">Chargement de nouvelles musiques</string>
+    <string name="no_items">Aucun élément dans votre collection.</string>
+    <string name="buffering">Mise en mémoire tampon</string>
+    <string name="keep_on_phone">Disponible hors connexion</string>
+    <string name="sort_order_prompt">Choisir un ordre de tri</string>
+    <string name="provider_label">Musique</string>
+    <string name="tutorial_set_up_usb">En savoir plus</string>
+    <string name="no_music_heading">Votre bibliothèque musicale est vide</string>
+    <string name="no_music_setup_uploader_heading">Écoutez votre musique en streaming</string>
+    <string name="no_music_setup_uploader_body">Écoutez le contenu de votre bibliothèque musicale personnelle en streaming avec Music (bêta) de Google.</string>
+    <string name="no_music_setup_usb_heading">Copiez de la musique sur votre appareil</string>
+    <string name="no_music_setup_usb_body">"Copiez des morceaux sur votre téléphone à l'aide d'un câble USB."</string>
+    <string name="no_local_music_heading">Aucun morceau disponible localement</string>
+    <string name="no_local_music_body">"En mode Uniquement hors connexion, seuls les morceaux stockés sur votre appareil s'affichent. Pour modifier ces paramètres, utilisez l'option Activer la consultation hors connexion."</string>
+    <string name="no_music_learn_more">En savoir plus</string>
+    <string name="tutorial_set_up_streaming">Configurer diff. continue</string>
+    <string name="no_playlists_heading">Votre bibliothèque ne contient aucune playlist.</string>
+    <string name="no_playlists_body">"Vous pouvez créer une playlist en accédant à la liste Morceaux, puis en sélectionnant Ajouter à la playlist dans le menu contextuel d'un morceau."</string>
+    <string name="tutorial_account_heading">Bienvenue</string>
+    <string name="tutorial_account_body">"Vous êtes invité à utiliser Music (bêta) de Google. Ce lecteur vous permet d'accéder instantanément aux morceaux ajoutés sur Music (bêta), ainsi qu'aux autres fichiers musicaux copiés sur votre appareil Android."</string>
+    <string name="tutorial_account_list_header">"Pour commencer, sélectionnez un compte Google afin d'associer ce lecteur à Music (bêta) :"</string>
+    <string name="tutorial_done_heading">Amusez-vous bien !</string>
+    <string name="tutorial_done_body">"Le lecteur Music est désormais associé à votre compte Google.
+
+Si vous avez déjà ajouté votre bibliothèque musicale sur Music (bêta), son contenu va bientôt s'afficher sur ce lecteur.
+
+Dans le cas contraire, commencez par accéder à notre site Web depuis votre ordinateur :"</string>
+    <string name="tutorial_back">Retour</string>
+    <string name="tutorial_skip">Ignorer</string>
+    <string name="tutorial_next">Suivant</string>
+    <string name="tutorial_done">OK</string>
+    <string name="help_heading">Aide</string>
+    <string name="spinner_carousel">Sélections récentes</string>
+    <string name="spinner_album">Albums</string>
+    <string name="spinner_artist">Artistes</string>
+    <string name="spinner_songs">Chansons</string>
+    <string name="spinner_playlists">Playlists</string>
+    <string name="spinner_genres">Genres</string>
+    <string name="sort_by_title">Trier de A à Z</string>
+    <string name="sort_by_artist">Trier par artiste</string>
+    <string name="sort_by_album">Trier par album</string>
+    <string name="more_by_artist">"Plus d'albums du même artiste"</string>
+    <string name="make_available_offline">Activer consult. hors connexion</string>
+    <string name="search_web">Rechercher sur le Web</string>
+    <string name="manage_done">OK</string>
+    <string name="too_many_items_title">"Trop d'éléments"</string>
+    <string name="too_many_items_body">"Vous avez sélectionné trop d'éléments à conserver. Veuillez en désélectionner pour libérer de l'espace."</string>
+    <string name="save_manage_music_change_title">Enregistrer les modifications ?</string>
+    <string name="save_manage_music_change_body">Voulez-vous enregistrer les modifications apportées pour activer la lecture hors connexion des morceaux sélectionnés ?</string>
+    <string name="not_all_items_can_be_kept_body">"Vous avez sélectionné trop d'éléments à conserver. Ils ne seront pas tous téléchargés."</string>
+    <string name="free_space_overfull">Mém. pleine (%s en trop)</string>
+    <string name="free_space">%s DISPONIBLE(S)</string>
+    <string name="stream_error_no_space_available">Aucun espace disponible</string>
+    <string name="stream_error_server_not_found">Impossible de se connecter au serveur.</string>
+    <string name="stream_error_only_on_wifi">Vous devez être connecté à un réseau Wi-Fi pour lire ce morceau.</string>
+    <string name="stream_error_no_connection">Vous devez être en ligne pour lire ce morceau.</string>
+    <string name="stream_error_unauthorized">"Nom d'utilisateur ou mot de passe incorrect"</string>
+    <string name="stream_error_another_stream_being_played">Musique interrompue, car vous écoutez le contenu de votre bibliothèque sur un autre appareil.</string>
+    <string name="stream_error_rate_limit_reached">Musique momentanément indisponible. Veuillez vous assurer que vous ne lisez pas le contenu de votre bibliothèque sur plusieurs appareil à la fois.</string>
+    <string name="stream_error_device_not_authorized">"Huit ordinateurs ou appareils sont connectés à ce compte. Vous devez annuler l'autorisation de l'un d'entre eux avant d'en ajouter un autre."</string>
+    <string name="stream_error_another_stream_being_played_short">Musique momentanément interrompue</string>
+    <string name="stream_error_rate_limit_reached_short">Musique momentanément indisponible</string>
+    <string name="stream_error_device_not_authorized_short">"Vous avez connecté trop d'appareils à ce compte."</string>
+    <string name="hide_now_playing_bar">Masquer barre En cours de lecture</string>
+    <string name="show_now_playing_bar">Afficher barre En cours de lecture</string>
+    <string name="show_options">Afficher les options</string>
+    <string name="hide_options">Masquer les options</string>
+    <string name="all_songs_in_genre">"Tous les morceaux du genre : 
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Écouter la musique hors connexion</string>
+    <string name="notification_downloading_when_on_wifi">Le chargement des morceaux marqués comme disponibles hors connexion démarre une fois que vous êtes connecté à un réseau Wi-Fi.</string>
+    <string name="notification_downloading_excessive_errors">Impossible de télécharger des morceaux pour le moment. Vérifiez votre connexion Internet.</string>
+    <string name="notification_downloading_done">Certains morceaux sont maintenant disponibles hors connexion.</string>
+    <string name="carousel_label_shuffle_all">Lecture aléatoire tous morceaux</string>
+    <string name="song_label">MORCEAU</string>
+    <string name="artist_label">ARTISTE</string>
+    <string name="album_label">ALBUM</string>
+    <string name="effectspanel">Effets sonores</string>
+    <string name="menu_make_instant_mix">Créer mix instantané</string>
+    <string name="instant_mix_default_name">Mix %s</string>
+    <string name="creating_instant_mix">"Ajout d'un mix instantané
+aux playlists"</string>
+    <string name="creating_instant_mix_with_seed">"Ajout d'un mix instantané
+aux playlists, créé à partir de
+%s."</string>
+    <string name="create_instant_mix_failed">Impossible de créer le mix instantané. Veuillez réessayer.</string>
+    <string name="create_instant_mix_failed_insufficient_results">Votre bibliothèque ne contient pas assez de morceaux similaires pour créer un mix instantané à partir de \"%s\". Veuillez réessayer avec un autre morceau.</string>
+    <string name="create_instant_mix_sync_timeout">"Le mix instantané a été
+créé. Il va bientôt apparaître dans
+vos playlists."</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm_delete_local_only">Voulez-vous vraiment supprimer \"%s\" ?</string>
+    <string name="confirm_delete_has_remote">\"%s\" a été transféré, puis ajouté à Google Music. Seuls les éléments transférés seront supprimés. Voulez-vous vraiment les supprimer ?</string>
+</resources>

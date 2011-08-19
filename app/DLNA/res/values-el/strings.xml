@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Προηγούμενο</string>
+    <string name="localdevice">Τοπικό</string>
+    <string name="playto">Αναπαραγωγή σε</string>
+    <string name="chooserenderdevice">Επιλέξτε μία συσκευή προς προβολή</string>
+    <string name="mediatype">Τύπος μέσου</string>
+    <string name="choosemediatype">Επιλέξτε έναν από τους τύπους μέσων</string>
+    <string name="musictype">Μουσική</string>
+    <string name="imagetype">Φωτογραφία</string>
+    <string name="videotype">Βίντεο</string>
+    <string name="cant_connect_to_server">Αποτυχία σύνδεσης με διακομιστή. Ελέγξτε ξανά τη σύνδεσή σας.</string>
+    <string name="internet_exception">Χωρίς σύνδεση δικτύου</string>
+    <string name="internet_exception_message">Ελέγξτε τη σύνδεση δικτύου σας…</string>
+    <string name="nodlnadevice">Ενεργοποιήστε συσκευές με ενεργοποιημένο DLNA εντός του ίδιου δικτύου Wi-Fi.</string>
+    <string name="notagain">Να μην εμφανιστεί ξανά.</string>
+    <string name="shardms">Θέλετε να κάνετε κοινή χρήση των αρχείων πολυμέσων σε άλλες συσκευές;</string>
+    <string name="server">Διακομιστής</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="dms">Διακομιστής Ψηφιακών Μέσων</string>
+    <string name="dmssettings">Ρυθμίσεις Διακομιστή Ψηφιακών Μέσων</string>
+    <string name="enable">Ενεργοποίηση</string>
+    <string name="disable">Disable</string>
+    <string name="sharemediatype">Επιλέξτε τους τύπους μέσων για κοινή χρήση</string>
+    <string name="selectplayer">Επιλέξτε συσκευή προς αναπαραγωγή</string>
+    <string name="shareto">Κοινή χρήση μέσω</string>
+    <string name="dms_settings_adv">Ρυθμίσεις για προχωρημένους</string>
+    <string name="desc_share">Αλλαγή κοινού φακέλου</string>
+    <string name="title_share">Κοινόχρηστος φάκελος</string>
+    <string name="desc_friendlyname">Αλλάξτε το εμφανιζόμενο όνομα της συσκευής σας</string>
+    <string name="title_friendlyname">Εμφανιζόμενο όνομα</string>
+    <string name="msgbox_title_error">Σφάλμα</string>
+    <string name="msgbox_msg_error_no_wifi">Πρώτα ενεργοποιήστε το Wi-Fi.</string>
+    <string name="msgbox_msg_error_friendlyname">Δεν είναι δυνατή η αλλαγή του ονόματος εμφάνισης.</string>
+    <string name="msgbox_msg_error_sharefolder">Δεν είναι δυνατή η αλλαγή του κοινόχρηστου φακέλου.</string>
+    <string name="msgbox_msg_error_mediatype">Δεν είναι δυνατή η αλλαγή του τύπου πολυμέσων κοινής χρήσης.</string>
+    <string name="enable_dms">Ενεργοποίηση Διακομιστή Ψηφιακών Μέσων</string>
+    <string name="disable_dms">Απενεργοποίηση Διακομιστή Ψηφιακών Μέσων</string>
+    <string name="about_title">Πληροφορίες</string>
+    <string name="toast_srvbusy">Ο διακομιστής είναι απασχολημένος, ξαναπροσπαθήστε αργότερα.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Αναπαραγωγή σε εξέλιξη</string>
+    <string name="play_all">Αναπαραγωγή όλων</string>
+    <string name="party_shuffle">Πάρτι – τυχ.αναπαρ.</string>
+    <string name="shuffle_all">Τυχ.αναπαρ.όλων</string>
+    <string name="wifi_quick_toggle_summary">Ενεργοποίηση Wi-Fi</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="slide_show">Προβολή διαφανειών</string>
+    <string name="wait">Περιμένετε...</string>
+    <string name="fail_to_load">Αποτυχία φόρτωσης</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Εσωτερικός αποθηκευτικός χώρος</string>
+</resources>

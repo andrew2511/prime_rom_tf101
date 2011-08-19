@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CM-klient</string>
+    <string name="minutes">minutter</string>
+    <string name="postpone">Udsæt</string>
+    <string name="update">Opdater</string>
+    <string name="asus_received_title">Asus opdateringstjeneste</string>
+    <string name="received_message">Ny opdatering til rådighed.</string>
+    <string name="firmware_update_title">Firmwareopdatering</string>
+    <string name="firmware_update_fail">"Opdateringen mislykkedes.
+
+Din enhed gendanner til den originale konfiguration."</string>
+    <string name="low_battery_title">Afslutning af systemopdatering</string>
+    <string name="low_battery_warning">"Systemet kræver at batteriet er opladet mindst 50%, for at du kan fortsætte med systemopdateringen.
+Oplad venligst batteriet før du begynder opdateringen."</string>
+    <string name="confirmDownload_text1">Ønsker du at downloade følgende systemopgradering?</string>
+    <string name="confirmDownload_textok">Tryk venligst på JA for at acceptere denne opdatering.</string>
+    <string name="confirmDownload_textcancel">Tryk på NEJ for at afvise opdateringen.</string>
+    <string name="confirmDownload_textwifi">Vi anbefaler at du bruger en gratis WiFi hotspot, eller en ubegrænset dataplan for at downloade denne opdatering.</string>
+    <string name="confirmDownload_textwifi2">Hvis du ikke har dette, kan du blive krævet en standard internettakst.</string>
+    <string name="btn_text_later">Senere</string>
+    <string name="confirmDownload_dialog_title">Vigtig, du roamer.</string>
+    <string name="update_dialog_text">"En ny softwareopdatering til din telefon er blevet downloadet. Installer nu? 
+"</string>
+    <string name="downloading">Downloader firmware...</string>
+    <string name="install_time">Anslået installeringstid:</string>
+    <string name="install">Installer</string>
+    <string name="received_ticker">Ny opdatering til rådighed.</string>
+    <string name="dl_received_ticker">Ny opdatering til rådighed.</string>
+    <string name="dl_received_message">Der er en opdatering klar, tryk her for at downloade.</string>
+    <string name="postponetime_text">Udsættelsestid:</string>
+    <string name="reach_max_net_fail">Download afbrudt af server, prøv venligst igen senere.</string>
+    <string name="dlg_title_checking">Kontrollering af integritet</string>
+    <string name="dlg_msg_checking">Kontrollerer integriteten af din firmware-fil.</string>
+    <string name="cannot_set_to_browser">Kan ikke indstille til browser</string>
+    <string name="upgrade_error">Opgraderingsfejl, download venligst opgraderingspakken igen.</string>
+    <string name="start_to_download">Begynd at downloade kritisk opdateringspakke.</string>
+    <string name="start_to_upgrade">Begynd at opgradere opgraderingspakken.</string>
+    <string name="Start_NI_DmSession">Netværk starter DMSession, Accepter?</string>
+    <string name="prepare_dm_download">Forbereder download...</string>
+    <string name="download_finished">Download af firmware udført...</string>
+    <string name="download_notification_title">T-Mobile opdateringstjeneste</string>
+    <string name="download_in_progress">Download af nyt firmware igang</string>
+    <string name="out_of_mem_warning">"Ikke nok ledig plads på telefonen, 
+afinstaller venligst nogle programmer og prøv igen."</string>
+    <string name="btn_register">register C2DM</string>
+    <string name="btn_unregister">afregister C2DM</string>
+    <string name="ui_alert_input_hint">Indtast venligst tekst</string>
+    <string name="ui_alert_input_numeric_hint">Indtast venligst nummer</string>
+    <string name="ui_alert_input_phone_number_hint">Telefonnummer</string>
+</resources>

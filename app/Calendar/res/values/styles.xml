@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Alert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="MinusButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:src">@drawable/ic_menu_remove_field_holo_light</item>
+    </style>
+    <style name="PlusButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:src">@drawable/ic_menu_add_field_holo_light</item>
+    </style>
+    <style name="MonthView_DayLabel">
+        <item name="android:textAppearance">@style/TextAppearance.MonthView_DayLabel</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">29.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="MonthView_MiniMonthLabel">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_mini_day_number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.SelectCalendar_Name" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.MonthView_MiniDayLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_other_month_day_number</item>
+    </style>
+    <style name="TextAppearance.MonthView_DayLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/month_day_names_color</item>
+        <item name="android:paddingLeft">2.0dip</item>
+    </style>
+    <style name="TextAppearance.AgendaView_ValueLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff888888</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">144.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">top|left|center</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Value" parent="@style/TextAppearance.EditEvent">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Spinner" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_homeTime" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.EventInfo_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">2.0dip</item>
+    </style>
+    <style name="EditEvent_Layout" parent="@android:style/Theme.Holo.Light">
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+    </style>
+    <style name="TextAppearance.Date_Range_Title" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/calendar_date_range_color</item>
+    </style>
+    <style name="CalendarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/calendar_background_holo_light</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2036</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="CalendarTheme.WithActionBarWallpaper" parent="@style/CalendarTheme.WithActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="MultiStateButton">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="WidgetDayOfWeekStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WidgetDayStyle">
+        <item name="android:textSize">46.0sp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-9.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WidgetMonthStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

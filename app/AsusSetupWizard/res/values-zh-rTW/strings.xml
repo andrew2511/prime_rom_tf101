@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">網路連線</string>
+    <string name="mobile_wifi_title">行動網路與WiFi</string>
+    <string name="wifi_title">僅WiFi連線</string>
+    <string name="setup_wizard_title">設定精靈</string>
+    <string name="next_button_label">下一步</string>
+    <string name="welecome_title">歡迎</string>
+    <string name="btn_start_text">開始</string>
+</resources>

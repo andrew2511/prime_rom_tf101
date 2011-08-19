@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">خرائط Google</string>
+    <string name="da_google_maps_navigation">ميزة التنقل في تطبيق خرائط Google</string>
+    <string name="da_net_fail_title">فشل الاتصال بالشبكة</string>
+    <string name="da_net_fail_body">يتطلب هذا التطبيق اتصالاً جاريًا بالبيانات.</string>
+    <string name="da_beta">تجريبية</string>
+    <string name="da_destination">وجهة</string>
+    <string name="da_toward">باتجاه %1$s</string>
+    <string name="da_onto">في %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">"، "</string>
+    <string name="da_then_next_step">"ثم
+%1$s"</string>
+    <string name="da_continue_for_distance">استمر في القيادة لمسافة %1$s.</string>
+    <string name="da_destination_will_be_on_the_left">ستكون وجهتك على اليسار.</string>
+    <string name="da_destination_will_be_on_the_right">ستكون وجهتك على اليمين.</string>
+    <string name="da_you_will_reach_destination">وستصل إلى وجهتك.</string>
+    <string name="da_destination_on_the_left">وجهتك على اليسار.</string>
+    <string name="da_destination_on_the_right">وجهتك على اليمين.</string>
+    <string name="da_destination_reached">لقد وصلت إلى وجهتك.</string>
+    <string name="da_speech_lost_gps">انقطاع إشارة GPS</string>
+    <string name="da_speech_lost_data_connection">انقطاع اتصال البيانات</string>
+    <string name="da_speech_navigation_resumed">تم استئناف التنقل.</string>
+    <string name="da_speech_please_describe_problem">الرجاء وصف المشكلة</string>
+    <string name="da_on_left">على اليسار</string>
+    <string name="da_on_right">على اليمين</string>
+    <string name="da_stay_on_road_primary">استمر في القيادة على الطريق %1$s.</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s إلى %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s إلى %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} ميل</string>
+    <string name="da_distance_format_miles_compressed">{0} ميل</string>
+    <string name="da_distance_format_feet_abbreviated">{0} قدم</string>
+    <string name="da_distance_format_feet_compressed">{0} قدم</string>
+    <string name="da_distance_format_yards_abbreviated">{0} ياردة</string>
+    <string name="da_distance_format_yards_compressed">{0} ياردة</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} كم</string>
+    <string name="da_distance_format_kilometers_compressed">{0} كم</string>
+    <string name="da_distance_format_meters_abbreviated">{0} م</string>
+    <string name="da_distance_format_meters_compressed">{0} م</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s يوم %2$s ساعة</string>
+    <string name="da_time_format_hours" formatted="false">%1$s ساعة %2$s دقيقة</string>
+    <string name="da_time_format_minutes">%1$s دقيقة</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">التنقل</string>
+    <string name="da_search_label">بحث</string>
+    <string name="da_layers">الطبقات</string>
+    <string name="da_agreement">"لا يزال التنقل من خلال خرائط Google خدمة تجريبية، فكن حذرًا.
+
+يجب عدم التعامل مع هذا التطبيق أثناء القيادة، ويشار إلى أن بيانات حركة المرور ليست فورية، كما قد تكون الاتجاهات خاطئة، أو تقود إلى أماكن خطرة أو محظورة أو قد تتضمن اتجاهات لا وجود لها من الأساس. اتبع القوانين المعمول بها.
+
+راقب الطريق جيدًا."</string>
+    <string name="da_agreement_with_walking">"لا يزال التنقل من خلال خرائط Google خدمة تجريبية، فكن حذرًا.
+
+يجب عدم التعامل مع هذا التطبيق أثناء القيادة، ويشار إلى أن بيانات حركة المرور ليست فورية، كما قد تكون الاتجاهات خاطئة أو تقود إلى أماكن خطرة أو محظورة أو قد تتضمن اتجاهات لا وجود لها من الأساس. قد تفتقد مسارات المشي إلى أرصفة أو مسارات للمشاة. اتبع القوانين المعمول بها.
+
+راقب الطريق جيدًا."</string>
+    <string name="da_disclaimer_checkbox">عرض هذه الرسالة في المرة التالية</string>
+    <string name="da_show_list">قائمة الاتجاهات</string>
+    <string name="da_route_overview">معلومات المسار</string>
+    <string name="da_show_map">عرض الخريطة</string>
+    <string name="da_satellite">قمر صناعي</string>
+    <string name="da_traffic_view">عرض حركة المرور</string>
+    <string name="da_no_traffic_here">لا تتوفر معلومات هنا عن حركة المرور</string>
+    <string name="da_traffic">حركة المرور</string>
+    <string name="da_area_view">عرض المنطقة</string>
+    <string name="da_mute">كتم الصوت</string>
+    <string name="da_unmute">إلغاء كتم الصوت</string>
+    <string name="da_settings">إعدادات</string>
+    <string name="da_help">مساعدة</string>
+    <string name="da_terms_privacy_notices">البنود والخصوصية</string>
+    <string name="da_terms_and_conditions">البنود والشروط</string>
+    <string name="da_privacy_policy">سياسة الخصوصية</string>
+    <string name="da_legal_notices">إشعارات قانونية</string>
+    <string name="da_navigation_suspended">التنقل مُعلق</string>
+    <string name="da_exit_navigation">الخروج من التنقل</string>
+    <string name="da_email_me_when_resolved">إرسال رسالة إلكترونية إلي عند حل المشكلة</string>
+    <string name="da_problem_reported">تم الإبلاغ عن المشكلة</string>
+    <string name="da_one_button_map_issue_reporting">الإبلاغ عن مشكلة بنقرة واحدة</string>
+    <string name="da_attention">تنبيه</string>
+    <string name="da_rmi_warning">"يسمح لك الإبلاغ عن مشكلة بتسجيل رسالة صوتية قصيرة لوصف مشكلة الخريطة أو المسار. بعد 15 ثانية، يتم إرسال رسالتك تلقائيًا إلى Google مع الإشارة إلى موقعك ومسارك الحاليين.
+
+يمكن تمكين اختصار من نقرة واحدة في إعدادات التطبيق.
+
+ إذا اخترت تلقي تحديثات عبر البريد الإلكتروني عند حل المشكلة، فسيتم تخزين عنوان بريدك الإلكتروني مع الموقع والتعليقات إلى أن يتم حل المشكلة."</string>
+    <string name="da_report_a_problem">الإبلاغ عن مشكلة</string>
+    <string name="da_report_a_problem_dialog_title">الإبلاغ عن مشكلة</string>
+    <string name="da_rmi_preference_trackball_summary">عند التمكين، سيؤدي الضغط على كرة التتبع إلى بدء الإبلاغ عن المشكلة.</string>
+    <string name="da_rmi_preference_camera_summary">عند التمكين، سيؤدي الضغط على زر الكاميرا إلى بدء الإبلاغ عن المشكلة.</string>
+    <string name="da_rmi_preference_no_button_summary">لا تتوفر أزرار فعلية.</string>
+    <string name="da_rmi_preference_bad_location_summary">لا تتوفر ميزة الإبلاغ عن المشكلات في موقعك.</string>
+    <string name="da_destination_not_here_warning">شكرًا على إبلاغنا بأن لدينا موقعًا غير صحيح لوجهتك. سيتم إرسال وجهتك وموقعك الحاليين إلى Google للمساعدة على تحسين دقة بياناتنا.</string>
+    <string name="da_destination_not_here_title">الإبلاغ عن مشكلة</string>
+    <string name="da_searching_for_gps">جارٍ البحث عن إشارة GPS...</string>
+    <string name="da_data_connection_lost">انقطاع اتصال البيانات...</string>
+    <string name="da_follow_the_route">اتبع المسار.</string>
+    <string name="da_waiting_for_directions">الحصول على اتجاهات القيادة</string>
+    <string name="da_waiting_for_walking_directions">الحصول على اتجاهات المشي</string>
+    <string name="da_waiting_for_location">في انتظار تحديد الموقع</string>
+    <string name="da_checking_navigation_availability">التحقق من توفر التنقل</string>
+    <string name="da_loading_route_details">جارٍ تحميل تفاصيل المسار.</string>
+    <string name="da_loading_image">جارٍ تحميل الصورة.</string>
+    <string name="da_waiting_for_alternates">البحث عن مسارات بديلة</string>
+    <string name="da_waiting_for_details">تحميل</string>
+    <string name="da_no_details">التفاصيل غير متوفرة</string>
+    <string name="da_gps_is_disabled">تم تعطيل نظام تحديد المواقع العالمي.</string>
+    <string name="da_turn_on_gps">عرض إعدادات الموقع</string>
+    <string name="da_voice_guidance">الإرشاد الصوتي</string>
+    <string name="da_install_voice_guidance_prompt">للحصول على إرشادات التنقل من خلال الصوت، تحتاج إلى تثبيت الدعم لبرنامج تحويل النص المكتوب إلى ملف صوتي مسموع من سوق Android Market.</string>
+    <string name="da_dialog_ok">موافق</string>
+    <string name="da_dialog_skip">تخطي</string>
+    <string name="da_dialog_cancel">إلغاء</string>
+    <string name="da_dialog_done">تم</string>
+    <string name="da_dialog_accept">موافقة</string>
+    <string name="da_dialog_install">تثبيت</string>
+    <string name="da_dialog_dont_accept">لا أقبل</string>
+    <string name="da_dialog_go">انتقال</string>
+    <string name="da_dialog_get_directions">الحصول على الاتجاهات</string>
+    <string name="da_map">خريطة</string>
+    <string name="da_clear_layers">مسح نتائج البحث من الخريطة</string>
+    <string name="da_layer_name_parking">الانتظار</string>
+    <string name="da_layer_name_attractions">معالم سياحية</string>
+    <string name="da_layer_name_gas_stations">محطات الوقود</string>
+    <string name="da_layer_name_restaurants">مطاعم</string>
+    <string name="da_layer_name_supermarkets">الأسواق المركزية</string>
+    <string name="da_layer_name_atms_and_banks">ماكينات الصرافة الآلية والبنوك</string>
+    <string name="da_layer_name_convenience_stores">المحلات الصغيرة</string>
+    <string name="da_query_banks_and_atms">البنوك وماكينات الصرف الآلي</string>
+    <string name="da_rerouting">إعادة التوجيه...</string>
+    <string name="da_via">من خلال %s</string>
+    <string name="da_to_destination">إلى %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">سجِّل الملاحظات.</string>
+    <string name="da_destination_not_here">الوجهة ليست هنا</string>
+    <string name="da_new_destination">الوجهة التالية</string>
+    <string name="da_reroute_to_destination">الرجوع إلى الوجهة</string>
+    <string name="da_change_destination">تعيين وجهة</string>
+    <string name="da_search_for_destination">بحث...</string>
+    <string name="da_point_on_map">نقطة على الخريطة</string>
+    <string name="da_volume">مستوى صوت التنقل</string>
+    <string name="da_exit">خروج</string>
+    <string name="da_did_you_mean">هل كنت تقصد:</string>
+    <string name="da_did_you_say">هل تقصد:</string>
+    <string name="da_for_your_end_point">لنقطة نهايتك</string>
+    <string name="da_unnamed_road">طريق بدون اسم</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s، ثم %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s، %2$s</string>
+    <string name="da_speech_in_x_meters">على بعد %1$s من الأمتار</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">على بعد كيلومتر ونصف</string>
+    <string name="da_speech_continue_for_x_meters">استمر لمسافة %1$s متر</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">استمر لمسافة كيلومتر ونصف</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">استمر في %2$s لمسافة %1$s متر</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">استمر في %1$s لمسافة كيلومتر ونصف</string>
+    <string name="da_speech_generic_continue">المتابعة بشكل مستقيم</string>
+    <string name="da_speech_in_x_feet">على بعد %1$s من الأقدام</string>
+    <string name="da_speech_in_x_yards">على بعد %1$s ياردة</string>
+    <string name="da_speech_in_a_quarter_mile">على بعد ربع ميل</string>
+    <string name="da_speech_in_a_half_mile">على بعد نصف ميل</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">على بعد ثلاثة أرباع ميل</string>
+    <string name="da_speech_in_one_and_a_half_miles">على بعد ميل ونصف</string>
+    <string name="da_speech_continue_for_x_feet">استمر لمسافة %1$s قدم</string>
+    <string name="da_speech_continue_for_x_yards">استمر لمسافة %1$s ياردة</string>
+    <string name="da_speech_continue_for_a_quarter_mile">استمر لمسافة ربع ميل</string>
+    <string name="da_speech_continue_for_a_half_mile">استمر لمسافة نصف ميل</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">استمر لمسافة ثلاثة أرباع ميل</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">استمر لمسافة ميل ونصف</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">استمر في %2$s لمسافة %1$s قدم</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">استمر في %2$s لمسافة %1$s ياردة</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">استمر في %1$s لمسافة ربع ميل</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">استمر في %1$s لمسافة نصف ميل</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">استمر في %1$s لمسافة ثلاثة أرباع ميل</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">استمر في %1$s لمسافة ميل ونصف</string>
+    <string name="da_route_prefixes">الشمال، الشمال الشرقي، الشرق، الجنوب الشرقي، الجنوب، الجنوب الغربي، الغرب، الشمال الغربي</string>
+    <string name="da_route_suffixes">الشمال، الشمال الشرقي، الشرق، الجنوب الشرقي، الجنوب، الجنوب الغربي، الغرب، الشمال الغربي، طريق، طريق رئيسية، طريق جانبية، طريق دائرية، طريق قصيرة، طريق سريعة، طريق سريعة، طريق سريعة، حارة، طريق محاطة بأشجار، مكان، طريق، شارع، طريق سريعة، طريق</string>
+    <string name="da_no_route">لم يتم العثور على أي مسار.</string>
+    <string name="da_route_not_found">تعذر العثور على مسار إلى وجهتك.</string>
+    <string name="da_destination_not_found">تعذر تحديد مكان الوجهة.</string>
+    <string name="da_navigation_not_supported">التنقل إلى وجهتك ليس متوفرًا.</string>
+    <string name="da_navigation_not_supported_at_current_loc">لا تتوفر خدمة التنقل من خلال خرائط Google في هذا الموقع حتى الآن.</string>
+    <string name="da_launch_maps">تشغيل الخرائط</string>
+    <string name="da_no_image_available">لا تتوفر أية صورة.</string>
+    <string name="da_image_error">حدث خطأ أثناء تحميل الصورة.</string>
+    <string name="da_no_alternate_routes">تعذر العثور على مسارات بديلة إلى وجهتك.</string>
+    <string name="da_picker_type_destination">اكتب الوجهة</string>
+    <string name="da_picker_speak_destination">انطق وجهتك</string>
+    <string name="da_picker_contacts">جهات الاتصال</string>
+    <string name="da_picker_starred_items">الأماكن المميزة بنجمة</string>
+    <string name="da_picker_new_contact">جهة اتصال جديدة</string>
+    <string name="da_picker_recent_destinations">الوجهات الحديثة</string>
+    <string name="da_picker_choose_destination">اختيار الوجهة</string>
+    <string name="da_navigate_to">الانتقال إلى</string>
+    <string name="da_picker_search_hint">وجهة</string>
+    <string name="da_route_options">خيارات المسار</string>
+    <string name="da_updating_directions">تحديث الاتجاهات</string>
+    <string name="da_picker_no_starred_items">"ليس هناك أي أماكن مميزة بنجمة.
+
+تتم مزامنة الأماكن المميزة بنجمة تلقائيًا مع maps.google.com.
+
+يمكنك وضع نجمة على نتائج البحث في خرائط Google من خلال النقر على رمز النجمة بجوار العنوان."</string>
+    <string name="da_picker_no_contacts">"ليس هناك أية جهات اتصال بعناوين.
+
+يمكنك إضافة جهات اتصال جديدة أو تعيين عناوين لجهات الاتصال الحالية في تطبيق جهات الاتصال."</string>
+    <string name="da_driving">القيادة</string>
+    <string name="da_walking">مشيًا</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">مزيد من المعلومات</string>
+    <string name="da_search_maps">البحث في الخرائط</string>
+    <string name="da_walking_warning">المشي (تجريبي): كن حريصًا</string>
+    <string name="da_calibrate_compass_title">معايرة البوصلة</string>
+    <string name="da_calibrate_compass">لم تتم معايرة البوصلة. للمعايرة، يرجى التلويح بالهاتف بنمط حركة يتخذ الشكل 8 بضع مرات.</string>
+    <string name="da_confirm_exit_title">الخروج من التنقل؟</string>
+    <string name="da_confirm_exit_text">يؤدي هذا إلى إنهاء إرشادات المسار.</string>
+    <string name="da_route_includes_tolls">يشتمل المسار على رسوم</string>
+    <string name="da_avoid_tolls">تجنب الرسوم</string>
+    <string name="da_avoiding_tolls">تجنب الرسوم</string>
+    <string name="da_avoiding_highways">تجنب الطرق السريعة</string>
+    <string name="da_route_includes_unavoidable_tolls">يشتمل هذا المسار على رسوم.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">يشتمل هذا المسار على رسوم. تعطيل مسارات الرسوم في %1$s%2$s أدناه.</string>
+    <string name="da_seasonally_closed">قد يكون المسار مغلقًا حسب الموسم</string>
+    <string name="da_direction_north">الاتجاه إلى الشمال</string>
+    <string name="da_direction_north_west">الاتجاه إلى الشمال الغربي</string>
+    <string name="da_direction_west">الاتجاه إلى الغرب</string>
+    <string name="da_direction_south_west">الاتجاه إلى الجنوب الغربي</string>
+    <string name="da_direction_south">الاتجاه إلى الجنوب</string>
+    <string name="da_direction_south_east">الاتجاه إلى الجنوب الشرقي</string>
+    <string name="da_direction_east">الاتجاه إلى الشرق</string>
+    <string name="da_direction_north_east">الاتجاه إلى الشمال الشرقي</string>
+    <string name="da_step_depart">الاتجاه إلى %1$s</string>
+    <string name="da_step_depart_on" formatted="false">الاتجاه إلى %1$s في %2$s</string>
+    <string name="da_step_slight_left">الاتجاه إلى اليسار قليلا</string>
+    <string name="da_step_slight_right">الاتجاه إلى اليمين قليلا</string>
+    <string name="da_step_turn_left">الانعطاف لليسار</string>
+    <string name="da_step_turn_right">الانعطاف لليمين</string>
+    <string name="da_step_sharp_left">الاتجاه إلى أقصى اليسار</string>
+    <string name="da_step_sharp_right">الاتجاه إلى أقصى اليمين</string>
+    <string name="da_step_slight_left_onto">الاتجاه إلى اليسار قليلا في %1$s</string>
+    <string name="da_step_slight_right_onto">الاتجاه إلى اليمين قليلا في %1$s</string>
+    <string name="da_step_turn_left_onto">الانعطاف لليسار في %1$s</string>
+    <string name="da_step_turn_right_onto">الانعطاف لليمين في %1$s</string>
+    <string name="da_step_sharp_left_onto">الاتجاه إلى أقصى اليسار في %1$s</string>
+    <string name="da_step_sharp_right_onto">الاتجاه إلى أقصى اليمين في %1$s</string>
+    <string name="da_step_fork_left">الالتزام باليسار عند مفترق الطرق</string>
+    <string name="da_step_fork_right">الالتزام باليمين عند مفترق الطرق</string>
+    <string name="da_step_continue_onto">متابعة السير في %1$s</string>
+    <string name="da_step_continue_straight">المتابعة بشكل مستقيم</string>
+    <string name="da_step_u_turn">إجراء دوران للاتجاه المعاكس</string>
+    <string name="da_step_take_the_ramp">الاتجاه نحو الطريق المنحدرة</string>
+    <string name="da_step_take_the_ramp_onto">الاتجاه نحو الطريق المنحدرة إلى %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">الاتجاه نحو الطريق المنحدرة إلى اليسار</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">"الاتجاه نحو  الطريق المنحدرة إلى اليسار في %1$s"</string>
+    <string name="da_step_take_the_ramp_on_the_right">"الاتجاه نحو  الطريق المنحدرة على اليمين"</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">"الاتجاه نحو  الطريق المنحدرة إلى اليمين في %1$s"</string>
+    <string name="da_step_take_the_exit">الاتجاه نحو المخرج</string>
+    <string name="da_step_take_the_exit_on_the_left">الاتجاه نحو مخرج إلى اليسار</string>
+    <string name="da_step_take_the_exit_on_the_right">الاتجاه نحو المخرج على اليمين</string>
+    <string name="da_step_take_the_exit_onto">الاتجاه نحو المخرج إلى %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">الاتجاه نحو المخرج على اليسار إلى %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">"الاتجاه نحو  المخرج إلى اليمين في %1$s"</string>
+    <string name="da_step_take_exit_n">الاتجاه نحو المخرج%1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - صور ©%2$d%3$s، بيانات الخريطة ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - صور ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - بيانات الخريطة ©%2$d%3$s</string>
+</resources>

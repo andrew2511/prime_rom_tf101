@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مشغِّل التحديث</string>
+    <string name="TITLE_DETECTED">تم اكتشاف ملف تحديث النظام</string>
+    <string name="TITLE_SYSTEM_UPDATE">تحديث النظام</string>
+    <string name="BUTTON_OK">موافق</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">يوجد تحديث متوافر للنظام</string>
+    <string name="MSG_PRELIMINARY">"سوف يستغرق تحديث النظام 10 دقائق تقريبًا. لن تتمكن من استخدام الجهاز أثناء التحديث، بما في ذلك إجراء مكالمات الطوارئ.
+
+الرجاء توصيل كبل الطاقة أو التأكد من توفر 15% على الأقل من طاقة البطارية.
+
+ هل ترغب في متابعة تحديث النظام؟"</string>
+    <string name="BUTTON_CANCEL">إلغاء</string>
+    <string name="MSG_RESUME">المس لبدء تحديث النظام.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">تم إنهاء تحديث النظام</string>
+    <string name="MSG_UPDATE_DONE">تم تحديث النظام بنجاح.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">ملف التحديث غير موجود.</string>
+    <string name="MSG_UPDATE_FAIL">فشل تحديث النظام.</string>
+    <string name="MSG_UPDATE_RESTORE">تمت استعادة النظام إلى التهيئة السابقة</string>
+    <string name="MSG_BATTERY_LOW">"تم إيقاف عملية تحديث النظام نظرًا لانخفاض مستوى شحن البطارية.
+
+الرجاء توصيل كبل الطاقة قبل تحديث النظام."</string>
+    <string name="TITLE_SELECT_FILE">اختيار حزمة التحديثات</string>
+    <string name="MSG_UPDATE_FAIL_SKU">حزمة التحديثات غير متوافقة مع البرنامج الحالي، يرجى التحقق من إصدار البرنامج ورقم الإصدار من الإعدادات ثم جرب حزمة التحديثات الصحيحة.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">حزمة التحديثات أقدم من إصدار البرنامج الحالي، يرجى تجربة حزمة تحديثات أكثر حداثة.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">خطأ غير معروف.</string>
+</resources>

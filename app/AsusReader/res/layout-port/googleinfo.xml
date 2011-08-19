@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.GoogleInfo android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/book_info_icon" android:background="@drawable/asus_ep_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="70.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/book_cover" android:layout_width="75.0px" android:layout_height="112.0px" android:layout_marginLeft="71.0px" android:layout_marginTop="86.0px" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="28.0px" android:textColor="#ffffffff" android:id="@id/book_info_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="178.0px" android:layout_marginTop="68.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/book_info_misc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="178.0px" android:layout_below="@id/book_info_label" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/vertical_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150.0px" android:src="@drawable/asus_ep_reader_line" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="178.0px" android:layout_alignBottom="@id/vertical_line" android:layout_alignParentLeft="true">
+                <Button android:textSize="18.0px" android:textColor="#ffffffff" android:id="@id/button_preview" android:background="@drawable/gbs_preview_button1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Button android:textSize="18.0px" android:textColor="#ffffffff" android:id="@id/button_link" android:background="@drawable/asus_ep_btn" android:layout_width="wrap_content" android:layout_height="50.0px" android:layout_marginLeft="10.0px" android:text="@string/infolink" />
+                <Button android:textSize="18.0px" android:textColor="#ffffffff" android:id="@id/button_pdf" android:background="@drawable/asus_ep_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0px" android:layout_marginLeft="10.0px" android:text="@string/get_pdf" />
+                <Button android:textSize="18.0px" android:textColor="#ffffffff" android:id="@id/button_epub" android:background="@drawable/asus_ep_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0px" android:layout_marginLeft="10.0px" android:text="@string/get_epub" />
+            </LinearLayout>
+            <TextView android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/book_info_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_below="@id/vertical_line" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </ScrollView>
+</com.asus.reader.ui.GoogleInfo>

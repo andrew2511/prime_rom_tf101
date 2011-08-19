@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internet-kapcsolat</string>
+    <string name="mobile_wifi_title">Mobilhálózat és WiFi</string>
+    <string name="wifi_title">Csak WiFi-kapcsolat</string>
+    <string name="setup_wizard_title">Beállító varázsló</string>
+    <string name="next_button_label">Következő</string>
+    <string name="welecome_title">Üdvözöljük!</string>
+    <string name="btn_start_text">Start</string>
+</resources>

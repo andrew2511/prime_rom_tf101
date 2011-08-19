@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_slideshow_holo_light" android:id="@id/action_slideshow" android:title="@string/slideshow" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_share_holo_light" android:id="@id/action_share" android:title="@string/share" android:showAsAction="always">
+        <menu />
+    </item>
+    <item android:icon="@drawable/ic_menu_trash_holo_light" android:id="@id/action_delete" android:title="@string/delete" android:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/ic_menu_trash_holo_light" android:id="@id/action_confirm_delete" android:title="@string/confirm_delete" />
+            <item android:icon="@drawable/ic_menu_cancel_holo_light" android:id="@id/action_cancel_delete" android:title="@string/cancel" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_ptp_holo_light" android:id="@id/action_import" android:visible="false" android:title="@string/Import" android:showAsAction="always|withText" />
+    <item android:id="@id/action_details" android:title="@string/details" android:showAsAction="never" />
+    <item android:id="@id/action_show_on_map" android:title="@string/show_on_map" android:showAsAction="never" />
+    <item android:id="@id/action_rotate_ccw" android:title="@string/rotate_left" android:showAsAction="never" />
+    <item android:id="@id/action_rotate_cw" android:title="@string/rotate_right" android:showAsAction="never" />
+    <item android:id="@id/action_setas" android:title="@string/set_image" android:showAsAction="never" />
+    <item android:id="@id/action_crop" android:title="@string/crop" android:showAsAction="never" />
+    <item android:id="@id/action_edit" android:visible="false" android:title="@string/edit" android:showAsAction="never" />
+</menu>

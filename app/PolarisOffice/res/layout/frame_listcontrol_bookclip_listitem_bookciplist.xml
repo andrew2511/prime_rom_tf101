@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="@dimen/panel_common_bookmark_bookmarklist_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="23.0px" android:textColor="@color/listcontrol_bookclip_listitem_name" android:ellipsize="end" android:gravity="left|center" android:id="@id/name" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/edit_common_bookmark_bookmarktext_margine_left" android:layout_marginRight="@dimen/edit_common_bookmark_bookmarktext_margine_right" android:singleLine="true" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="right|center" android:id="@id/exitbutton" android:background="@drawable/bookclip_delete_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

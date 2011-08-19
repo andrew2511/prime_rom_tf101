@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/normal_grp">
+        <item android:icon="@android:drawable/ic_dialog_info" android:id="@id/debug_screen_item" android:title="@string/debug_info" />
+        <item android:id="@id/notifications_menu_item" android:title="@string/notify_menu_item" android:checkable="true" android:showAsAction="never" />
+        <item android:id="@id/shortcut_menu_item" android:title="@string/add_shortcut_menu_item" android:checkable="true" android:showAsAction="never" />
+    </group>
+</menu>

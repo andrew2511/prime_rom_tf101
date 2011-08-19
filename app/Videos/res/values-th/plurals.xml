@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">หมดอายุใน %1$d วัน</item>
+        <item quantity="one">หมดอายุในอีก 1 วัน</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">หมดอายุใน %1$d ชั่วโมง</item>
+        <item quantity="one">หมดอายุในอีก 1 ชั่วโมง</item>
+    </plurals>
+</resources>

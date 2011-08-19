@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/pinstripe_tile_light_gray" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/home_promo_panel" android:visibility="gone" layout="@layout/promo_strip" />
+    <LinearLayout android:id="@id/home_content_panel" android:paddingTop="@dimen/first_bucket_header_compensation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="-9.0dip" android:layout_marginRight="8.0dip">
+        <include android:id="@id/home_browse_panel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/bucket_list_panel" />
+        <include android:id="@id/home_list_panel" android:visibility="gone" layout="@layout/category_panel" />
+    </LinearLayout>
+</LinearLayout>

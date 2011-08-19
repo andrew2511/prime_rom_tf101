@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Za %1$s km</item>
+        <item quantity="one">Za jeden kilometr</item>
+        <item quantity="few">Za %1$s km</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Jedź dalej przez %1$s km</item>
+        <item quantity="one">Jedź dalej jeden kilometr</item>
+        <item quantity="few">Jedź dalej przez %1$s km</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Jedź dalej %1$2$s przez %2$1$s km</item>
+        <item quantity="one">Jedź dalej jeden kilometr drogą %2$s</item>
+        <item quantity="few">Jedź dalej %1$2$s przez %2$1$s km</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Za %1$s mil</item>
+        <item quantity="one">Za jedną milę</item>
+        <item quantity="few">Za %1$s mil</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Jedź dalej przez następującą liczbę mil: %1$s</item>
+        <item quantity="one">Jedź dalej jedną milę</item>
+        <item quantity="few">Jedź dalej przez następującą liczbę mil: %1$s</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Jedź dalej %1$2$s przez następującą liczbę mil: %2$1$s</item>
+        <item quantity="one">Jedź dalej jedną milę drogą %2$s</item>
+        <item quantity="few">Jedź dalej %1$2$s przez następującą liczbę mil: %2$1$s</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">Liczba recenzji: %1$s</item>
+        <item quantity="one">%1$s recenzja</item>
+        <item quantity="few">Liczba recenzji: %1$s</item>
+    </plurals>
+</resources>

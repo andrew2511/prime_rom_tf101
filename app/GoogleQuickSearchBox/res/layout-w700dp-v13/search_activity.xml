@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.googlequicksearchbox.ui.SearchActivityViewTablet android:id="@id/search_activity_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dismiss_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="80.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <include android:layout_gravity="top|right|center" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/menu_button" />
+    <RelativeLayout android:id="@id/panes" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/menu_button" android:splitMotionEvents="true">
+        <RelativeLayout android:id="@id/left_pane" android:layout_width="@dimen/suggestions_width" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <view android:id="@id/suggestions" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_below="@id/search_plate" class="com.google.android.googlequicksearchbox.ui.SuggestionsView" style="@style/SuggestionsList.Web" />
+            <include android:id="@id/search_plate" android:layout_width="0.0dip" android:layout_height="@dimen/search_plate_height" android:layout_marginLeft="@dimen/search_plate_margin_left" android:layout_marginTop="@dimen/search_plate_margin_top" android:layout_marginRight="@dimen/search_plate_margin_right" android:layout_marginBottom="@dimen/search_plate_margin_bottom" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/search_plate" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/summons_pane" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/left_pane">
+            <com.google.android.googlequicksearchbox.ui.SuggestionsView android:id="@id/summons" android:layout_width="@dimen/summons_width" android:layout_height="wrap_content" android:layout_below="@id/summons_title" android:layout_alignParentLeft="true" style="@style/SuggestionsList.Summons" />
+            <RelativeLayout android:id="@id/summons_title" android:background="@drawable/section_header" android:layout_width="@dimen/summons_width" android:layout_height="47.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.google.android.googlequicksearchbox.ui.SearchActivityViewTablet>

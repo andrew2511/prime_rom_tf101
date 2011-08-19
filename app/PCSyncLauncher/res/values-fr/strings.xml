@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Infos de synchro.</string>
+    <string name="searchingPCSideSyncTool">Recherche de %s sur votre ordinateur...</string>
+    <string name="connectionFailMessage" formatted="false">"L'application %s n'est pas installée ou exécutée sur votre ordinateur. Veuillez télécharger %s sur le site de support d'ASUS - http://support.asus.com. (Remarque : uniquement disponible sous Windows.) Vous pouvez appuyer sur le bouton \"%s\" pour quitter, ou sur le bouton \"%s\" pour vous reconnecter à %s."</string>
+    <string name="connectionFailTitle">Échec de la connexion</string>
+    <string name="tryAgain">Réessayer</string>
+    <string name="cancel">Annuler</string>
+</resources>

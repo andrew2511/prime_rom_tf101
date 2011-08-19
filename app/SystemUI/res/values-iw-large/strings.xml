@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">נקה הכל</string>
+    <string name="status_bar_settings_signal_meter_disconnected">אין חיבור לאינטרנט</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi מחובר</string>
+    <string name="gps_notification_searching_text">מחפש GPS</string>
+    <string name="gps_notification_found_text">מיקום מוגדר על ידי GPS</string>
+    <string name="notifications_off_title">מצב התראות כבוי</string>
+    <string name="notifications_off_text">הקש כאן כדי להפעיל מחדש את ההתראות.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Ir para mapa</string>
+    <string name="report_inappropriate_image">Denunciar imagem</string>
+    <string name="toggle_compass_mode">Modo de bússola</string>
+    <string name="compass_mode_on">Modo de bússola ativado.</string>
+    <string name="compass_mode_off">Modo de bússola desativado.</string>
+    <string name="waiting_for_network">Conexão de dados perdida. Tentando novamente...</string>
+    <string name="panorama_disabled">A imagem não está mais disponível</string>
+    <string name="service_unavailable">O serviço do Street View não está disponível.</string>
+    <string name="loading">Carregando</string>
+    <string name="no_panorama_data">Nenhum dado de panorama configurado.</string>
+    <string name="invalid_panorama_data">Panorama inválido.</string>
+    <string name="click_to_go_toast">Arraste o Pegman para onde você deseja ir.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Este programa requer uma conexão de dados e tentará se conectar automaticamente. Verifique a intensidade do seu sinal. O modo de avião está ativado? Os dados de roaming estão desativados?</string>
+    <string name="whats_new_header">O que há de novo no Street View?</string>
+    <string name="whats_new_c2g">Voe para todos os cantos. Arraste o Pegman do canto inferior esquerdo e solte-o onde você quiser ir.</string>
+    <string name="terms_and_privacy">Termos e Privacidade</string>
+    <string name="terms_and_conditions">Termos e Condições</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+</resources>

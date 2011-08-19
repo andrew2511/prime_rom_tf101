@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="da_TravelModePrimaryText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="da_Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="da_DestinationPickerTheme" parent="@style/da_Theme" />
+    <style name="Theme.Maps" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Maps</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="Theme.Maps.NoBackground" parent="@style/Theme.Maps">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.DirectionsInputDialog" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="RefinementBanner" parent="@style/WhiteBold">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="Widget.Holo.ActionBar.Maps" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/header_bar_bg_80_percent_black</item>
+    </style>
+</resources>

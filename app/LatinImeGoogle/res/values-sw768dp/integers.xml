@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_delay_before_fadeout_language_on_spacebar">1200</integer>
+    <integer name="config_max_popup_keyboard_column">5</integer>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="10.000002%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <Row latin:rowEdgeFlags="top">
+        <Spacer latin:keyWidth="4.999995%p" />
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="ק" />
+        <Key latin:keyLabel="ר" />
+        <Key latin:keyLabel="א" />
+        <Key latin:keyLabel="ט" />
+        <Key latin:keyLabel="ו" />
+        <Key latin:keyLabel="ן" />
+        <Key latin:keyLabel="ם" />
+        <Key latin:keyLabel="פ" />
+        <Spacer latin:keyWidth="1.2500048%p" />
+        <Key latin:keyWidth="13.750005%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" />
+    </Row>
+    <Row>
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="ש" />
+        <Key latin:keyLabel="ד" />
+        <Key latin:keyLabel="ג" />
+        <Key latin:keyLabel="כ" />
+        <Key latin:keyLabel="ע" />
+        <Key latin:keyLabel="י" />
+        <Key latin:keyLabel="ח" />
+        <Key latin:keyLabel="ל" />
+        <Key latin:keyLabel="ך" />
+        <Key latin:keyEdgeFlags="right" latin:keyLabel="ף" />
+    </Row>
+    <Row>
+        <Spacer latin:keyWidth="4.999995%p" />
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="ז" />
+        <Key latin:keyLabel="ס" />
+        <Key latin:keyLabel="ב" />
+        <Key latin:keyLabel="ה" />
+        <Key latin:keyLabel="נ" />
+        <Key latin:keyLabel="מ" />
+        <Key latin:keyLabel="צ" />
+        <Key latin:keyLabel="ת" />
+        <Key latin:keyEdgeFlags="right" latin:keyLabel="ץ" />
+    </Row>
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row4" />
+</Keyboard>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minut</string>
+    <string name="postpone">Odložit</string>
+    <string name="update">Aktualizovat</string>
+    <string name="firmware_update_title">Aktualizace firmwaru</string>
+    <string name="firmware_update_fail">"Aktualizace selhala.
+
+Obnoví se původní konfigurace zařízení."</string>
+    <string name="low_battery_warning">"Systém provede aktualizaci jen pokud je baterie nabita nejméně na %1$d%%.
+Před aktualizací systémů nabijte baterii."</string>
+    <string name="confirmDownload_textok">"Tato aktualizace zlepšuje stabilitu a nevymaže žádná vaše data, silně doporučujeme ji nainstalovat.
+Stiskem Ano potvrdíte aktualizaci."</string>
+    <string name="confirmDownload_textcancel">Stiskem NE zrušte aktualizaci..</string>
+    <string name="confirmDownload_textwifi">Doporučujeme stahovat aktualizaci přes zdarma dostupný Wi-Fi přístupový bod.</string>
+    <string name="confirmDownload_textwifi2">Pokud stisknete Později, můžete aktualizaci stáhnout později, klepnutím na upozornění.</string>
+    <string name="btn_text_later">Později</string>
+    <string name="confirmDownload_dialog_title">Pozor, využíváte roaming.</string>
+    <string name="downloading">Stahování firmwaru...</string>
+    <string name="install_time">Odhad času instalace:</string>
+    <string name="postponetime_text">Čas odložení:</string>
+    <string name="install">Instalovat</string>
+    <string name="reach_max_net_fail">Stahování přerušeno serverem, zkuste to znovu později</string>
+    <string name="dlg_title_checking">Kontrola integrity</string>
+    <string name="dlg_msg_checking">Kontrola integrity souboru firmwaru.</string>
+    <string name="cannot_set_to_browser">Nelze nastavit na prohlížeč.</string>
+    <string name="upgrade_error">Chyba upgradu, stáhněte aktualizaci znovu.</string>
+    <string name="start_to_download">Zahájit stahování balíku kritické aktualizace.</string>
+    <string name="start_to_upgrade">Zahájit aktualizaci.</string>
+    <string name="start_NI_dmSession">Síť iniciuje relaci DM, přijmout?</string>
+    <string name="download_finished">Stažení firmwaru dokončeno...</string>
+    <string name="download_in_progress">Probíhá stahování nového firmwaru</string>
+    <string name="out_of_mem_warning">"Nedostatek místa,
+odinstalujte část aplikací a zkuste to znovu."</string>
+    <string name="ui_alert_input_hint">Zadejte text</string>
+    <string name="ui_alert_input_numeric_hint">Zadejte číslici</string>
+    <string name="ui_alert_input_phone_number_hint">Zadejte telefonní číslo</string>
+    <string name="check_for_update">Zkontrolovat aktualizace</string>
+    <string name="no_new_fota_update">Pro vaše zařízení nyní není dostupná žádná aktualizace.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Zrušit</string>
+    <string name="confirm_download_btn_Yes">Ano</string>
+    <string name="confirm_download_btn_No">Ne</string>
+    <string name="confirm_update_title">Aktualizace firmwaru ASUS.</string>
+    <string name="asus_received_title">Služba aktualizace firmwaru systému Asus</string>
+    <string name="received_message">K dispozici je nový firmware systému, stiskem aktualizujte.</string>
+    <string name="low_battery_title">Aktualizace firmwaru systému ukončena</string>
+    <string name="dl_received_ticker">K dispozici je nový firmware systému.</string>
+    <string name="dl_received_message">K dispozici je nový firmware systému, stiskem stáhněte.</string>
+    <string name="confirmDownload_text1">Chcete stáhnout následující aktualizaci firmwaru systému?</string>
+    <string name="received_ticker">K dispozici je nový firmware systému.</string>
+    <string name="update_dialog_text">"Byla stažena nová aktualizace firmwaru systému pro vaše zařízení. Instalovat nyní? 
+"</string>
+    <string name="prepare_dm_download">Příprava stahování firmwaru systému...</string>
+    <string name="system_update_activity">Aktualizace firmwaru systému</string>
+    <string name="has_new_fota_update">Pro vaše zařízení je dostupná aktualizace firmwaru systému. Čtěte oznámení.</string>
+    <string name="update_dialog_text2">Tato aktualizace firmwaru systému zvyšuje stabilitu a nevymaže žádná data, silně doporučujeme, abyste jí instalovali.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">新分頁</string>
+    <string name="new_incognito_tab">新無痕式分頁</string>
+    <string name="active_tabs">分頁</string>
+    <string name="open_all_in_new_window">於新分頁開啟所有書籤</string>
+    <string name="contextmenu_openlink_newwindow">於新分頁開啟連結</string>
+    <string name="contextmenu_openlink_newwindow_background">在新背景分頁中開啟連結</string>
+    <string name="pref_content_open_in_background_summary">在目前分頁的後面開啟新分頁</string>
+</resources>

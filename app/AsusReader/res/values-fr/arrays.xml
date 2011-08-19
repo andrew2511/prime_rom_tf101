@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Supprimer le surlignage</item>
+        <item>Annuler</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Ajouter surlignage</item>
+        <item>Traduction</item>
+        <item>Synthèse vocale</item>
+        <item>Annuler</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Japonais</item>
+        <item>Chinois</item>
+        <item>Allemand</item>
+        <item>Chinois simplifié</item>
+        <item>Russe</item>
+        <item>SEspagnol</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Anglais à Chinois</item>
+        <item>Anglais à Français</item>
+        <item>Anglais à Russe</item>
+    </string-array>
+</resources>

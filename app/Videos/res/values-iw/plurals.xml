@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">התוקף יפוג בעוד %1$d ימים</item>
+        <item quantity="one">התוקף פג תוך יום</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">התוקף יפוג בעוד %1$d שעות</item>
+        <item quantity="one">התוקף פג תוך שעה</item>
+    </plurals>
+</resources>

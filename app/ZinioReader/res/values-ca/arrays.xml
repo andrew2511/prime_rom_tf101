@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Els números poden ser ordenats per data o títol. Seleccioneu-los de les pestanyes a la part superior de la pantalla.</item>
+        <item>"Heu de llegir més?
+Seleccioneu el botó de botiga a la part inferior de la pantalla per anar a la botiga en línia dels últims articles i publicacions."</item>
+        <item>Seleccioneu menú per veure més opcions - com botiga, més, eliminar i tancar sessió.</item>
+        <item>Seleccioneu un número per baixar-lo automàticament mentre llegiu O podeu seleccionar el botó de baixades per desar-lo localment i llegir-lo més tard.</item>
+    </string-array>
+</resources>

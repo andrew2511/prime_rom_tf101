@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_gravity="center" android:id="@id/imageButton" android:layout_width="wrap_content" android:layout_height="fill_parent" class="com.google.android.apps.books.widget.TableOfContentsActionItem" style="?android:attr/actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

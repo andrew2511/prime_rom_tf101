@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyTextSize="19.0sp" xt9:keyWidth="10.000002%p" xt9:keyHeight="@dimen/key_height" xt9:horizontalGap="0.0px" xt9:verticalGap="0.0px" xt9:kdbId="65535"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row>
+        <Key xt9:keyEdgeFlags="left" xt9:keyLabel="q" />
+        <Key xt9:keyLabel="w" />
+        <Key xt9:keyLabel="e" />
+        <Key xt9:keyLabel="r" />
+        <Key xt9:keyLabel="t" />
+        <Key xt9:keyLabel="y" />
+        <Key xt9:keyLabel="u" />
+        <Key xt9:keyLabel="i" />
+        <Key xt9:keyLabel="o" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="p" />
+    </Row>
+    <Row>
+        <Key xt9:horizontalGap="4.999995%p" xt9:keyEdgeFlags="left" xt9:keyLabel="a" />
+        <Key xt9:keyLabel="s" />
+        <Key xt9:keyLabel="d" />
+        <Key xt9:keyLabel="f" />
+        <Key xt9:keyLabel="g" />
+        <Key xt9:keyLabel="h" />
+        <Key xt9:keyLabel="j" />
+        <Key xt9:keyLabel="k" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyLabel="l" />
+    </Row>
+    <Row>
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="13.0%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_fullwidth_question_mark" xt9:keyEdgeFlags="left" xt9:keyLabel="？" />
+        <Key xt9:horizontalGap="1.9999981%p" xt9:keyLabel="z" />
+        <Key xt9:keyLabel="x" />
+        <Key xt9:keyLabel="c" />
+        <Key xt9:keyLabel="v" />
+        <Key xt9:keyLabel="b" />
+        <Key xt9:keyLabel="n" />
+        <Key xt9:keyLabel="m" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="13.0%p" xt9:horizontalGap="1.9999981%p" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_delete" xt9:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="20.000004%p" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_normal">
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_fullwidth_comma" xt9:keyLabel="，" />
+        <Key xt9:keyWidth="29.999996%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_ideographic_full_stop" xt9:keyLabel="。" />
+        <Key xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/sym_keyboard_feedback_return" xt9:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="20.000004%p" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_im">
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_fullwidth_comma" xt9:keyLabel="，" />
+        <Key xt9:keyWidth="29.999996%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_ideographic_full_stop" xt9:keyLabel="。" />
+        <Key xt9:popupKeyboard="@xml/popup_smileys" xt9:keyEdgeFlags="right" xt9:keyOutputText=":-) " xt9:keyLabel=":-)" />
+    </Row>
+    <HardwareKey xt9:keyLabel="q" xt9:keyCode="45" />
+    <HardwareKey xt9:keyLabel="w" xt9:keyCode="51" />
+    <HardwareKey xt9:keyLabel="e" xt9:keyCode="33" />
+    <HardwareKey xt9:keyLabel="r" xt9:keyCode="46" />
+    <HardwareKey xt9:keyLabel="t" xt9:keyCode="48" />
+    <HardwareKey xt9:keyLabel="y" xt9:keyCode="53" />
+    <HardwareKey xt9:keyLabel="u" xt9:keyCode="49" />
+    <HardwareKey xt9:keyLabel="i" xt9:keyCode="37" />
+    <HardwareKey xt9:keyLabel="o" xt9:keyCode="43" />
+    <HardwareKey xt9:keyLabel="p" xt9:keyCode="44" />
+    <HardwareKey xt9:keyLabel="a" xt9:keyCode="29" />
+    <HardwareKey xt9:keyLabel="s" xt9:keyCode="47" />
+    <HardwareKey xt9:keyLabel="d" xt9:keyCode="32" />
+    <HardwareKey xt9:keyLabel="f" xt9:keyCode="34" />
+    <HardwareKey xt9:keyLabel="g" xt9:keyCode="35" />
+    <HardwareKey xt9:keyLabel="h" xt9:keyCode="36" />
+    <HardwareKey xt9:keyLabel="j" xt9:keyCode="38" />
+    <HardwareKey xt9:keyLabel="k" xt9:keyCode="39" />
+    <HardwareKey xt9:keyLabel="l" xt9:keyCode="40" />
+    <HardwareKey xt9:keyLabel="z" xt9:keyCode="54" />
+    <HardwareKey xt9:keyLabel="x" xt9:keyCode="52" />
+    <HardwareKey xt9:keyLabel="c" xt9:keyCode="31" />
+    <HardwareKey xt9:keyLabel="v" xt9:keyCode="50" />
+    <HardwareKey xt9:keyLabel="b" xt9:keyCode="30" />
+    <HardwareKey xt9:keyLabel="n" xt9:keyCode="42" />
+    <HardwareKey xt9:keyLabel="m" xt9:keyCode="41" />
+    <HardwareKey xt9:codes="-5" xt9:keyCode="67" />
+    <HardwareKey xt9:codes="32" xt9:keyCode="62" />
+</KeyboardEx>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="3149" android:versionName="2.03.3149" package="com.zinio.mobile.android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@style/ZinioBlack" android:label="@string/app_title" android:icon="@drawable/icon" android:name="com.zinio.mobile.android.App" android:debuggable="@bool/app_debug">
+        <activity android:name="com.zinio.mobile.android.view.SplashScreenActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.SPLASH_SCREEN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.WelcomeActivity" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.WELCOME_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.FAQActivity" android:excludeFromRecents="true" android:configChanges="locale|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.FAQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.RegisterActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.REGISTER_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.LoginActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.LOGIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.ChangePasswordActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.CHANGE_PASSWORD_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.VideoPlayerActivity" android:excludeFromRecents="true" android:configChanges="orientation" android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.VIDEO_PLAYER_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.LibraryActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.LIBRARY_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.LibraryDeleteActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.LIBRARY_DELETE_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.LibraryDeleteListActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.LIBRARY_DELETE_LIST_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ZinioBlack.NoTitleBar" android:name="com.zinio.mobile.android.view.IssueBrowseModeActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.BROWSE_MODE_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.MoreActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.MORE_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.TOCArticlesActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.TOC_ARTICLES_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.TOCArticlesSmallActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.TOC_ARTICLES_SMALL_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zinio.mobile.android.view.TOCThumbnailsActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.TOC_THUMBNAILS_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ZinioBlack.NoTitleBar" android:name="com.zinio.mobile.android.view.IssueTextModeActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.TEXT_MODE_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.zinio.mobile.android.view.ShopActivity" android:excludeFromRecents="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.SHOP_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Transparent" android:name="com.zinio.mobile.android.view.dialogs.DialogActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.view.dialogs.DIALOG_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.zinio.mobile.android.resources.download.DownloadService">
+            <intent-filter>
+                <action android:name="com.zinio.mobile.android.service.DOWNLOAD_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+    <supports-screens android:smallScreens="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+</manifest>

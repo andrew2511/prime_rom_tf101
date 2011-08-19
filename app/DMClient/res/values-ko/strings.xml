@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">분</string>
+    <string name="postpone">연기</string>
+    <string name="update">업데이트</string>
+    <string name="firmware_update_title">펌웨어 업데이트</string>
+    <string name="firmware_update_fail">"업데이트 실패. 
+
+장치가 원래 구성으로 복구됩니다."</string>
+    <string name="low_battery_warning">"시스템 업데이트 과정을 완료하려면 최소한 %1$d%%의 배터리 용량이 소모됩니다.
+시스템을 업데이트하기 전에 배터리를 충전하십시오."</string>
+    <string name="confirmDownload_textok">"이 업데이트는 안정성을 향상시키고 사용자의 어떤 데이터도 제거하지 않습니다. 다음의 버전으로 업그레이드를 적극 추천합니다.
+업데이트를 적용하기 위해 '네'를 누르십시오."</string>
+    <string name="confirmDownload_textcancel">업데이트를 거절하려면 아니요를 누르십시오.</string>
+    <string name="confirmDownload_textwifi">이 업데이트를 다운로드하기 위해 무료의 Wi-Fi 핫스팟 사용을 권장합니다.</string>
+    <string name="confirmDownload_textwifi2">"'나중에'를 누르면, 알림 표시를 통해 언제든지 다운로드를 수행할 수 있습니다."</string>
+    <string name="btn_text_later">나중에</string>
+    <string name="confirmDownload_dialog_title">주의, 로밍 중.</string>
+    <string name="downloading">펌웨어 다운로드 중...</string>
+    <string name="install_time">예상 설치 시간 :</string>
+    <string name="postponetime_text">지연 시간:</string>
+    <string name="install">설치</string>
+    <string name="reach_max_net_fail">다운로드가 서버에 의해 중단되었습니다, 나중에 다시 시도해 주십시오.</string>
+    <string name="dlg_title_checking">무결성 검사.</string>
+    <string name="dlg_msg_checking">펌웨어 파일의 무결성 검사.</string>
+    <string name="cannot_set_to_browser">브라우저로 설정할 수 없습니다.</string>
+    <string name="upgrade_error">업그레이드 오류, 업데이트 패키지를 다시 다운로드하십시오.</string>
+    <string name="start_to_download">중요 업데이트 패키지의 다운로드를 시작합니다.</string>
+    <string name="start_to_upgrade">업데이트 패키지의 업그레이드를 시작합니다.</string>
+    <string name="start_NI_dmSession">네트워크가 DM 세션을 초기화합니다, 수락하시겠습니까?</string>
+    <string name="download_finished">펌웨어 다운로드 완료...</string>
+    <string name="download_in_progress">새로운 펌웨어 다운로드 중</string>
+    <string name="out_of_mem_warning">"공간 부족,
+일부 애플리케이션을 삭제하고 다시 시도하십시오."</string>
+    <string name="ui_alert_input_hint">텍스트를 입력하십시오</string>
+    <string name="ui_alert_input_numeric_hint">숫자를 입력하십시오</string>
+    <string name="ui_alert_input_phone_number_hint">전화 번호를 입력하십시오</string>
+    <string name="check_for_update">업데이트 확인</string>
+    <string name="no_new_fota_update">현재 사용 가능한 업데이트가 없습니다.</string>
+    <string name="ok">확인</string>
+    <string name="yes">확인</string>
+    <string name="no">취소</string>
+    <string name="confirm_download_btn_Yes">예</string>
+    <string name="confirm_download_btn_No">아니요</string>
+    <string name="confirm_update_title">ASUS 펌웨어 업데이트.</string>
+    <string name="asus_received_title">ASUS 시스템 펌웨어 업데이트 서비스</string>
+    <string name="received_message">새 시스템 펌웨어 업데이트가 사용 가능합니다. 업그레이드를 위해 눌러 주십시오.</string>
+    <string name="low_battery_title">시스템 펌웨어 업데이트 종료</string>
+    <string name="dl_received_ticker">새 시스템 펌웨어 업데이트가 사용 가능합니다.</string>
+    <string name="dl_received_message">새 시스템 펌웨어 업데이트가 사용 가능합니다. 다운로드를 위해 눌러 주십시오.</string>
+    <string name="confirmDownload_text1">다음의 시스템 펌웨어 업데이트를 다운로드하시겠습니까?</string>
+    <string name="received_ticker">새 시스템 펌웨어 업데이트가 사용 가능합니다.</string>
+    <string name="update_dialog_text">"사용자의 장치에 새 시스템 펌웨어 업데이트가 다운로드되었습니다. 지금 설치하시겠습니까?
+"</string>
+    <string name="prepare_dm_download">시스템 펌웨어 다운로드 준비 중...</string>
+    <string name="system_update_activity">시스템 펌웨어 업데이트</string>
+    <string name="has_new_fota_update">사용자의 장치를 위한 한 개의 시스템 펌웨어 업데이트가 존재합니다. 알림을 확인하십시오.</string>
+    <string name="update_dialog_text2">시스템 펌웨어 업데이트는 시스템의 안정성을 향상시키지만 장치의 데이터는 전혀 영향을 받지 않습니다. 이 버전으로 업그레이드하시기를 강력하게 제안합니다.</string>
+</resources>

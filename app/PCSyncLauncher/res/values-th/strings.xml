@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">ข้อมูลการซิงค์ PC</string>
+    <string name="searchingPCSideSyncTool">กำลังค้นหา %s บนคอมพิวเตอร์ของคุณ...</string>
+    <string name="connectionFailMessage" formatted="false">คุณไม่มี %s ติดตั้ง หรือเปิดอยู่บนคอมพิวเตอร์ของคุณ โปรดดาวน์โหลด %s จากหน้าสนับสนุนของ ASUS - http://support.asus.com (หมายเหตุ: สำหรับ Windows เท่านั้น) คุณสามารถกดปุ่ม \"%s\" เพื่อออก หรือปุ่ม \"%s\" เพื่อเชื่อมต่อใหม่ไปยัง %s</string>
+    <string name="connectionFailTitle">การเชื่อมต่อล้มเหลว</string>
+    <string name="tryAgain">ลองอีกครั้ง</string>
+    <string name="cancel">ยกเลิก</string>
+</resources>

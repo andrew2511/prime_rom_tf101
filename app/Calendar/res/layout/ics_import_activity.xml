@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/event_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/import_ics" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="top|right|center" android:id="@id/num_events_label" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_events" />
+        <TextView android:id="@id/num_events" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/calendar_row" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/calendar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/sym_calendar_event" />
+            <Spinner android:id="@id/calendars" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1">
+            <Button android:id="@id/import_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/import_label" />
+            <Button android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@android:string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="min_heap_size">24</integer>
+    <integer name="min_landscape_width">800</integer>
+    <integer name="min_landscape_height">480</integer>
+</resources>

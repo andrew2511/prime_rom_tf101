@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Európa</item>
+        <item>Afrika</item>
+        <item>Ázia</item>
+        <item>Austrália</item>
+        <item>Tichomorie</item>
+        <item>Všetko</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Žiadne animácie</item>
+        <item>Niektoré animácie</item>
+        <item>Všetky animácie</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Nezobrazujú sa žiadne animácie okien</item>
+        <item>Zobrazujú sa niektoré animácie okien</item>
+        <item>Zobrazujú sa animácie okien</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>1 minúta</item>
+        <item>2 min.</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>okamžite</item>
+        <item>5 sekúnd</item>
+        <item>15 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>1 min.</item>
+        <item>2 min.</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Veľmi pomalá</item>
+        <item>Pomalá</item>
+        <item>Normálna</item>
+        <item>Rýchla</item>
+        <item>Veľmi rýchla</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Veľmi nízka</item>
+        <item>Nízka</item>
+        <item>Normálna</item>
+        <item>Vysoká</item>
+        <item>Veľmi vysoká</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>americká angličtina</item>
+        <item>britská angličtina</item>
+        <item>Francúzština</item>
+        <item>Nemčina</item>
+        <item>Taliančina</item>
+        <item>Španielčina</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Prebieha vyhľadávanie...</item>
+        <item>Prebieha pripájanie…</item>
+        <item>Prebieha overovanie…</item>
+        <item>Prebieha načítanie adresy IP…</item>
+        <item>Pripojené</item>
+        <item>Pozastavená</item>
+        <item>Prebieha odpájanie...</item>
+        <item>Odpojený</item>
+        <item>Neúspešné</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Prebieha vyhľadávanie...</item>
+        <item>Prebieha pripájanie k sieti %1$s...</item>
+        <item>Prebieha overovanie v sieti %1$s...</item>
+        <item>Prebieha získavanie adresy IP zo siete %1$s...</item>
+        <item>Pripojené k sieti %1$s</item>
+        <item>Pozastavená</item>
+        <item>Prebieha odpájanie od siete %1$s...</item>
+        <item>Odpojený</item>
+        <item>Neúspešné</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Otvoriť</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minúty</item>
+        <item>5 minút</item>
+        <item>1 hodina</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Nízka</item>
+        <item>Dostatočná</item>
+        <item>Dobrá</item>
+        <item>Výborná</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Pri vypnutí obrazovky (spotrebuje sa viac mobilných dát)</item>
+        <item>Nikdy pri zapnutom napájaní</item>
+        <item>Nikdy (spotrebuje sa viac energie batérie)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Po vypnutí obrazovky</item>
+        <item>Nikdy pri zapnutom napájaní</item>
+        <item>Nikdy (vyššia spotreba batérie)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>Iba 5 GHz</item>
+        <item>Iba 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Doba použitia</item>
+        <item>Počet spustení</item>
+        <item>Názov aplikácie</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Žiadne</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Ručne</item>
+        <item>Tlačidlo WPS</item>
+        <item>PIN WPS z prístupového bodu</item>
+        <item>PIN WPS zo zariadenia</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statická</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Žiadne</item>
+        <item>Ručne</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Vypnuté</item>
+        <item>Upozornenie</item>
+        <item>Vibrovať</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Žiadne</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP alebo CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Interný ukladací priestor zariadenia</item>
+        <item>Odnímateľná karta SD</item>
+        <item>Automaticky vyberie systém</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Vždy</item>
+        <item>Nikdy</item>
+        <item>Iba v tichom režime</item>
+        <item>Iba ak nie je v tichom režime</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Krátky</item>
+        <item>Stredný</item>
+        <item>Dlhý</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikdy nekontrolovať</item>
+        <item>Kontrolovať len obsah DRM</item>
+        <item>Vždy kontrolovať</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikdy nepoužívať kontrolu HDCP</item>
+        <item>Použiť kontrolu HDCP len pre obsah DRM</item>
+        <item>Vždy používať kontrolu HDCP</item>
+    </string-array>
+</resources>

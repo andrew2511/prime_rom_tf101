@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/rating_bar" android:paddingLeft="@dimen/list_item_padding_left" android:paddingTop="9.0dip" android:paddingRight="@dimen/list_item_padding_right" android:paddingBottom="9.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/triplet_buttons" android:background="@drawable/start_end_box" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/triplet_action_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/check_in_button" android:background="@drawable/header_bar_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/check_in_icon" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_latitude_checkin_no_padding" />
+                <TextView android:id="@id/check_in_text" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <View android:id="@id/headerDividerVertical" android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/add_photo_button" android:background="@drawable/header_bar_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/add_photo_icon" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_add_camera" />
+                <TextView android:id="@id/add_photo_text" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/headerDividerHorizontal" android:background="@drawable/header_divider_horizontal_line" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <LinearLayout android:background="@drawable/header_bar_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <include android:id="@id/triplet_rating_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/template_rating_bar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layar</string>
+    <string name="layer">Layer</string>
+    <string name="layers">Layers</string>
+    <string name="spots">スポット</string>
+    <string name="no_layers_popular">"
+Layarが現在地の周りにありません"</string>
+    <string name="no_layers_popular2">"
+検索範囲を広げてください"</string>
+    <string name="share_bottom">共有</string>
+    <string name="add_to_favorites_bottom_button">お気に入りに追加</string>
+    <string name="ok">Ok</string>
+    <string name="save">保存</string>
+    <string name="close">閉じる</string>
+    <string name="cancel">キャンセル</string>
+    <string name="accept">同意</string>
+    <string name="decline">拒否</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="apply">適用</string>
+    <string name="retry">リトライ</string>
+    <string name="share">共有</string>
+    <string name="delete">削除</string>
+    <string name="login">ログイン</string>
+    <string name="done">完了</string>
+    <string name="submit">同意</string>
+    <string name="search">検索</string>
+    <string name="more">その他</string>
+    <string name="back">戻る</string>
+    <string name="next">次へ</string>
+    <string name="skip">スキップ</string>
+    <string name="continueButton">続ける</string>
+    <string name="use">利用</string>
+    <string name="intro">イントロ</string>
+    <string name="yes_i_do">はい</string>
+    <string name="no_i_dont">いいえ</string>
+    <string name="today">今日</string>
+    <string name="yesterday">機能</string>
+    <string name="toast_gps_disabled">GPSが無効です。</string>
+    <string name="openGPSSettingPrompt">GPS機能が無効になっている可能性があります。有効にしますか？</string>
+    <string name="camera_failed">カメラを利用できません。</string>
+    <string name="error_no_connection">接続できません。</string>
+    <string name="error_no_active_connection">接続できません</string>
+    <string name="unable_to_connect">ただいまLayarにアクセス出来ません。少したってから再度アクセスしてください。</string>
+    <string name="error_out_of_memory">メモリが不足しているおで、アプリを起動できません。他のアプリを終了して、もう一度試してください。</string>
+    <string name="error_layer_deleted">このコンテンツは利用できません。</string>
+    <string name="error_cant_access_layer">申し訳ありません、Layarにアクセスできません。</string>
+    <string name="error_maintenance">Layarメンテナンス中です</string>
+    <string name="error_maintenance_title">メンテナンス中です</string>
+    <string name="camera_blocking_message">カメラ機能を利用中のため、初期化できません</string>
+    <string name="camera_impossible_to_initialize">初期化できませんもう一度お試しください</string>
+    <string name="terms_and_conditions">利用規約</string>
+    <string name="view_reality">リアル</string>
+    <string name="view_map">マップ</string>
+    <string name="view_list">リスト</string>
+    <string name="menu_edit">編集</string>
+    <string name="menu_add">追加</string>
+    <string name="menu_nearby">@string/nearby</string>
+    <string name="menu_yours">My</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_filter">検索条件</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_refresh">更新</string>
+    <string name="menu_layer_info">各種情報</string>
+    <string name="menu_screenshot">スクリーンショット</string>
+    <string name="menu_about">アプリ概要</string>
+    <string name="menu_user">ユーザー</string>
+    <string name="menu_goto_ar">リアルビューへ</string>
+    <string name="menu_goto_ar_2">カメラ</string>
+    <string name="menu_reset">全てリセット</string>
+    <string name="menu_favorite">お気に入りに追加</string>
+    <string name="menu_unfavorite">お気に入りから削除</string>
+    <string name="menu_view_map">マップ</string>
+    <string name="menu_launch_layer">ローンチ</string>
+    <string name="menu_remove_all">全て削除</string>
+    <string name="menu_new_search">検索</string>
+    <string name="menu_clear_recent">クリア</string>
+    <string name="menu_options">オプション</string>
+    <string name="dialog_remove_all_title">@string/menu_remove_all</string>
+    <string name="dialog_remove_all_message">本当に全て削除しますか？</string>
+    <string name="trigger_always">メッセージを常に表示する</string>
+    <string name="trigger_launch">常にオートトリガーを有効にして、メッセージ表示しません</string>
+    <string name="trigger_never">オートトリガー機能を常に無効にする</string>
+    <string name="trigger_available">オートトリガーをスタートしますか？</string>
+    <string name="trigger_dont_show">今後、このメッセージを表示しない</string>
+    <string name="trigger_do_launch_action">起動</string>
+    <string name="trigger_dont_launch_action">起動しない</string>
+    <string name="trigger_title">自動起動</string>
+    <string name="trigger_name">トリガーを確認</string>
+    <string name="trigger_summary2">Webや動画、音声を再生します</string>
+    <string name="action_chooser_title">アプリケーションの選択</string>
+    <string name="action_context_menu_title">アクション選択</string>
+    <string name="prefs_user_settings">ユーザー設定</string>
+    <string name="prefs_grid_category">グリッド</string>
+    <string name="prefs_grid">グリッド表示</string>
+    <string name="prefs_hide_grid">グリッド表示を消す</string>
+    <string name="prefs_hide_grid_summary">カメラビューのグリッドを表示しません。</string>
+    <string name="prefs_hide_grid_summary2">カメラビューのグリッドを非表示</string>
+    <string name="prefs_trigger">オートトリガー告知</string>
+    <string name="prefs_trigger_summary">メッセージを確認しないでオートトリガー機能を自動起動します。</string>
+    <string name="prefs_trigger_help">オートトリガーとはアイコンの近くに行くと、あらかじめ設定されたWEBや動画、音声を自動的に再生する機能です。</string>
+    <string name="prefs_trigger_tel">電話をかける</string>
+    <string name="prefs_trigger_sms">SMSを発信する</string>
+    <string name="prefs_trigger_mailto">メールを送る</string>
+    <string name="prefs_trigger_http">WEBページへアクセス</string>
+    <string name="prefs_trigger_audio">音声を再生する</string>
+    <string name="prefs_trigger_video">動画を再生する</string>
+    <string name="prefs_developer_settings">開発者向け設定</string>
+    <string name="prefs_screenshot_nocamera">スクリーンショット透過</string>
+    <string name="prefs_screenshot_nocamera_summary">スクリーンショット時に背景を透明にします。</string>
+    <string name="prefs_location_settings">GPS設定</string>
+    <string name="prefs_location_fixed">GPSの固定</string>
+    <string name="prefs_location_fixed_summary">GPSを固定してコンテンツをテストできます。</string>
+    <string name="prefs_location_lat">緯度</string>
+    <string name="prefs_location_lon">経度</string>
+    <string name="prefs_location_countrycode">使用する土地</string>
+    <string name="prefs_location_country">使用する国</string>
+    <string name="gallery_title">カタログ</string>
+    <string name="gallery_favorites">お気に入り</string>
+    <string name="gallery_recent">最近</string>
+    <string name="gallery_catalog">@string/layers</string>
+    <string name="gallery_settings">@string/menu_settings</string>
+    <string name="gallery_local">ローカル</string>
+    <string name="gallery_intl">全世界</string>
+    <string name="gallery_nearby">@string/nearby</string>
+    <string name="gallery_featured">おすすめ</string>
+    <string name="gallery_polular">人気</string>
+    <string name="gallery_new">New</string>
+    <string name="gallery_all">全て</string>
+    <string name="gallery_paid">有料</string>
+    <string name="gallery_free">無料</string>
+    <string name="gallery_dev">開発中</string>
+    <string name="gallery_purchased">購入済み</string>
+    <string name="gallery_launch">@string/gallery_free</string>
+    <string name="gallery_loading">ロード中...</string>
+    <string name="gallery_waiting_location">情報取得中...</string>
+    <string name="gallery_category">カテゴリー > %name%</string>
+    <string name="share_chooser_title">このコンテンツを友達に教える</string>
+    <string name="share_layer">コンテンツを共有</string>
+    <string name="share_layer_email">メールで共有</string>
+    <string name="share_layer_socials">ソーシャルで共有</string>
+    <string name="share_screenshot">スクリーンショットを共有</string>
+    <string name="share_success">すでに共有してます</string>
+    <string name="share_success_message">共有できました</string>
+    <string name="share_fail">共有できませんでした</string>
+    <string name="share_message_template" formatted="false">%layername%を共有</string>
+    <string name="share_screenshot_template" formatted="false">%layername%を共有</string>
+    <string name="share_add_location">現在地を共有</string>
+    <string name="share_location_fail">現在地の名前が見つかりません</string>
+    <string name="share_subject">お気に入りLayarコンテンツを紹介します。</string>
+    <string name="share_button">共有</string>
+    <string name="share_text">お気に入りLayarコンテンツを紹介します。[Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="layer_details_subject" formatted="false">%title%を共有</string>
+    <string name="layer_details_body" formatted="false">"%android%でLayarを利用しています 
+
+%name% 
+
+%description% 
+開発者: %publisher% 
+価格: %price% 
+リンク: %link% 
+http://www.layar.com/から今すぐダウンロード"</string>
+    <string name="wow_message">このLayarは素晴らしい</string>
+    <string name="sharing_message_twitter_succeful">すでにTwitterと共有しています</string>
+    <string name="sharing_message_facebook_succeful">すでにFacebookと共有しています</string>
+    <string name="sharing_message_twitter_fail">エラーですTwitterと共有することができません</string>
+    <string name="sharing_message_facebook_fail">エラーですFacebookと共有することができません</string>
+    <string name="sharing_facebook">Facebook</string>
+    <string name="sharing_twitter">Twitter</string>
+    <string name="share_purpose">アカウントをリンクしてください:</string>
+    <string name="twitter_email_info">Layarアカウントを持っていない場合、Twitterにログインするためのメールアドレスを入力してください</string>
+    <string name="congratulations">成功しました</string>
+    <string name="share_status">ステータスを共有</string>
+    <string name="share_login_alert_dialog">ソーシャルネットワークと連携する場合、Layarアカウントが必要になりますすでにLayarアカウントは作成しましたか？</string>
+    <string name="share_login_alert_dialog_title">Layarアカウントを持ってますか？</string>
+    <string name="screenshot_hold_steady">スクリーンショットを作成中</string>
+    <string name="screenshot_processsing">データ変換中</string>
+    <string name="screenshot_chooser_title">このスクリーンショットを友達に教える</string>
+    <string name="screenshot_subject">\#layar #screenshot %title%</string>
+    <string name="screenshot_text">わたしのスクリーンショットを紹介します。#layar #screenshot! [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="screenshot_subject_nearby">\#layar #スクリーンショットを撮りました！</string>
+    <string name="screenshot_text_nearby">クールなLayarをお楽しみください！#layar #screenshot!</string>
+    <string name="screenshot_camera_format">この画像フォーマットはサポートしておりませんので、スクリーンショットを表示できません。</string>
+    <string name="screenshot_no_sdcard">SDカードが差し込まれてないため、保存できません。</string>
+    <string name="screenshot_out_of_memory">メモリが不足しているのでスクリーンショットを撮れません。他のアプリを停止してもう一度お試しください。</string>
+    <string name="screenshot_saved_as">保存先: %path%</string>
+    <string name="screenshot_retake">撮り直し</string>
+    <string name="screenshot_preview">プレビュー</string>
+    <string name="screenshot_send_email">メール送信</string>
+    <string name="screenshot_save_to_library">ライブラリに保存</string>
+    <string name="no_result_recent">最近で起動されたコンテンツはありません</string>
+    <string name="no_result_search" formatted="false">%query%はありません</string>
+    <string name="search_hint">フリーワード</string>
+    <string name="search_hint2">コンテンツとスポットを探す</string>
+    <string name="search_hint3">フリーワード</string>
+    <string name="search_results" formatted="false">\"%query%\"の結果</string>
+    <string name="search_no_results">別のキーワードで試してみてください。</string>
+    <string name="local_no_results">お近くのローカルコンテンツが見つかりません。</string>
+    <string name="category_no_results">結果が見つかりません。</string>
+    <string name="search_no_results_without_try">コンテンツがありません</string>
+    <string name="gallery_no_results">コンテンツがありません</string>
+    <string name="search_no_spots">スポットがありません</string>
+    <string name="search_no_layers">@string/gallery_no_results</string>
+    <string name="search_layers_result" formatted="false">コンテンツ数 (%num%)</string>
+    <string name="search_result" formatted="false">%query%は%num%件あります</string>
+    <string name="search_spots_result" formatted="false">スポット数 (%num%)</string>
+    <string name="poi_action_directions">ルート案内</string>
+    <string name="poi_action_directions2">方向</string>
+    <string name="poi_action_lock">アイコンを固定する</string>
+    <string name="poi_action_unlock">アイコンの固定を解除する</string>
+    <string name="actions">アクション</string>
+    <string name="distance_label">距離</string>
+    <string name="distance_unit">距離の単位</string>
+    <string name="distance_unit_metric">キロ</string>
+    <string name="distance_unit_us">マイル</string>
+    <string name="upgrade">アップグレードしますか？</string>
+    <string name="upgrade_pos">今すぐ行う</string>
+    <string name="upgrade_neg">後で行う</string>
+    <string name="favorites_title">お気に入り</string>
+    <string name="favorites_add">お気に入りに追加</string>
+    <string name="favorites_remove">お気に入りから削除</string>
+    <string name="favorites_dialog_add">お気に入りに追加しますか？</string>
+    <string name="favorites_dialog_remove">お気に入りから削除しますか？</string>
+    <string name="favorites_add_button_text">お気に入りに追加</string>
+    <string name="favorites_edit_alert_title">変更を保存しない</string>
+    <string name="favorites_edit_alert_message">変更できません続けますか？</string>
+    <string name="audio_loading">ロード中...</string>
+    <string name="audio_error">再生することができません。</string>
+    <string name="audio_error_title">再生できません。</string>
+    <string name="video_loading">ロード中...</string>
+    <string name="details_no_content">コンテンツがありません</string>
+    <string name="details_loading">ロード中...</string>
+    <string name="copy_link">コピー</string>
+    <string name="copy_message">コピーされました</string>
+    <string name="copy_message_fail">コピーできません</string>
+    <string name="filter_settings_title">フィルター</string>
+    <string name="filter_auto_range">検索範囲の自動設定</string>
+    <string name="main_showing_terms">利用規約</string>
+    <string name="main_downloading_categories">カテゴリをアップデート中</string>
+    <string name="main_check_updates">アップデートの確認中</string>
+    <string name="main_ready">コンテンツ準備</string>
+    <string name="status_range">検索範囲</string>
+    <string name="status_accuracy">誤差情報</string>
+    <string name="status_not_available">N/A</string>
+    <string name="status_waiting_location">情報取得中...</string>
+    <string name="status_authentication_required">コンテンツにアクセスするためにログインが必要です。</string>
+    <string name="status_progress_get_results">検索中...</string>
+    <string name="status_progress_loading_image">画像取得中...</string>
+    <string name="status_progress_loading_3dmodel">３Ｄ画像取得中...</string>
+    <string name="status_progress_failed_3dmodel">３Dをロードできません更新してください</string>
+    <string name="status_results_found" formatted="false">%num% 件見つかりました。</string>
+    <string name="status_no_results_found">０件の結果</string>
+    <string name="status_something_went_wrong">もう一度お試しください！</string>
+    <string name="status_layer_unpublished">このLayarは一般ユーザーへ公開されていません</string>
+    <string name="progress_searching">検索中...</string>
+    <string name="progress_processing">お待ちください...</string>
+    <string name="progress_loading">ロード中...</string>
+    <string name="progress_loading_layer">ロード中...</string>
+    <string name="user_username">ユーザー名</string>
+    <string name="user_email">メール</string>
+    <string name="user_username_or_email">ユーザー名かメール</string>
+    <string name="user_password">パスワード</string>
+    <string name="user_login">ログイン</string>
+    <string name="user_invite_button">友だち招待</string>
+    <string name="user_invite_facebook">Facebook</string>
+    <string name="user_invite_twitter">Twitter</string>
+    <string name="user_invite_phone">電話</string>
+    <string name="user_invite_have_friends_template" formatted="false">%num%人のLayar友だちがいます</string>
+    <string name="user_invite_more_friends">友だちを招待する</string>
+    <string name="user_invite_nobody_added">友だちは追加されません</string>
+    <string name="user_invite_pending_template" formatted="false">承認待ちの友だちは%num%人います</string>
+    <string name="user_invite_default_message">友だちを招待しますか？</string>
+    <string name="user_invite_no_friends">招待できる友だちがいません</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">メール</string>
+    <string name="connect_account">アカウント接続</string>
+    <string name="user_add_account">アカウント追加</string>
+    <string name="user_add_account_text">あなたのLayarアカウントはFacebookやTwitterと連携しやすいです</string>
+    <string name="user_add_account_cancel">エラーです</string>
+    <string name="user_add_facebook">Facebookアカウント追加 account</string>
+    <string name="user_add_twitter">Twitterアカウント追加</string>
+    <string name="user_add_social" formatted="false">%socialname%アカウントに接続</string>
+    <string name="user_remove_social" formatted="false">%socialname%アカウントに接続しない</string>
+    <string name="user_twitter_email_title">Twitter連携</string>
+    <string name="social_associating">もう少しお待ちください</string>
+    <string name="social_associating_error">アカウント連携することができません</string>
+    <string name="social_disconnected" formatted="false">あなたのアカウントは%type%によって接続できません</string>
+    <string name="social_disconnecting" formatted="false">あなたのアカウントは%type%によって接続できません</string>
+    <string name="social_disconnect_fail" formatted="false">%type%によるエラーです</string>
+    <string name="social_disconnect_title">未接続にしますか？</string>
+    <string name="social_disconnect_message" formatted="false">本当に%type%アカウントを未接続にしますか？</string>
+    <string name="social_associating_success">アカウントはすでに連携されています</string>
+    <string name="social_associating_dialog">もう一度試しますか？</string>
+    <string name="add_email">メール追加</string>
+    <string name="add_email_error_exists">このメールアドレスはすでに追加されています</string>
+    <string name="select_email">メールを選ぶ</string>
+    <string name="selected_contacts">コンタクトを選ぶ</string>
+    <string name="user_welcome_title">Layar Reality Browserへようこそ！</string>
+    <string name="user_welcome_title2">@string/menu_user</string>
+    <string name="user_welcome_text">有料コンテンツを利用する場合、アカウントが必要になります。</string>
+    <string name="user_welcome_create_account">アカウントを作る</string>
+    <string name="user_welcome_facebook">Facebookアカウントでログイン</string>
+    <string name="user_welcome_social" formatted="false">%socialname%にログイン</string>
+    <string name="user_welcome_not_now">あとで確認する</string>
+    <string name="user_welcome_never">今後、このメッセージを表示しない。</string>
+    <string name="setting_up_social_connection" formatted="false">%socialname%接続を設定中です</string>
+    <string name="you_are_logged_in_with_social" formatted="false">すでに%socialname% アカウントにログインされています</string>
+    <string name="social_connect_didnt_work" formatted="false">%socialname%にログインできません</string>
+    <string name="user_create_title">アカウント作成</string>
+    <string name="user_create_keep_informed">最新情報をお知らせする。</string>
+    <string name="user_create_keep_informed2">新しいメールアドレス</string>
+    <string name="user_create_create">アカウント作成</string>
+    <string name="user_create_privacy2">" 「アカウント作成」をクリックすると "<a>プライバシーポリシー</a>" に同意します。 "</string>
+    <string name="user_create_privacy3">"あなたのユーザー名は公開されます 
+メールアドレスは公開されません 
+スパムとして利用しません 
+ プライバシーポリシーはwww.layar.com/legal/privacy/をご確認ください"</string>
+    <string name="user_exists_title">ユーザー名は既に使われています。</string>
+    <string name="user_exists">他のユーザー名で登録してください。</string>
+    <string name="user_email_exists_title">メールアドレスは既に使われています。</string>
+    <string name="user_email_exists">他のメールアドレスで登録してください。</string>
+    <string name="user_twitter_email_exists_message">Twitter連携するためにLayarアカウントでログインしてください</string>
+    <string name="user_email_invalid_title">無効なメールアドレス</string>
+    <string name="user_email_invalid">正しいメールアドレスを入力してください。</string>
+    <string name="user_username_length_title">無効なユーザー名</string>
+    <string name="user_username_length">４文字以上のユーザー名を入力してください。</string>
+    <string name="user_invalid_username">ユーザー名は４～１６文字で作成してください</string>
+    <string name="user_password_length_title">無効なパスワード</string>
+    <string name="user_password_length">６文字以上のパスワードを入力してください。</string>
+    <string name="user_invalid_password">パスワードは６～１２文字で作成してください</string>
+    <string name="success_user_create">アカウント作成が完成しました。</string>
+    <string name="user_creation_confirmation_text">コンテンツ購入前にアカウント確認が必要です。メールをチェックしてください。</string>
+    <string name="account_creation_confirmation_text">アカウントが正しいかご確認ください。確認のメールを送りましたので、受信メールをご確認ください。</string>
+    <string name="wrong_username_password">ログインできません。 ユーザー名、メールアドレス、パスワードを確認してください。</string>
+    <string name="account_suspended">申し訳ありませんが、このアカウントは停止されました。別のアカウントでログインしてください。</string>
+    <string name="error_logging_in">ログインに失敗しました。もう一度ログインしてみてください。</string>
+    <string name="error_creating_user">アカウント作成できません。もう一度作成してみてください。</string>
+    <string name="status_logging_in">ログイン中...</string>
+    <string name="user_forgot_password_title">パスワードを忘れた</string>
+    <string name="user_forgot_password_link_text">パスワードを忘れました。</string>
+    <string name="user_forgot_password_header_text">パスワードをリセットするためにメールアドレスを入力してください。</string>
+    <string name="user_forgot_password_sent_confirmation_text">メールを送りました。メールをチェックしてください。</string>
+    <string name="user_error_recovery_password">パスワードがリセットできません。もう一度試してください。</string>
+    <string name="user_error_nonexistant_email">このメールアドレスはアカウントがありません。</string>
+    <string name="user_verification_prompt_title">アカウント確認</string>
+    <string name="user_verification_prompt_text">有料コンテンツを購入するためにアカウントを作成してください。</string>
+    <string name="user_verification_prompt_send_again">アカウント確認のメールをもう一度送る</string>
+    <string name="user_verification_prompt_login_another">別のアカウントでログインする</string>
+    <string name="user_verification_prompt_login_incorrect">申し訳ありませんがアカウントが確認できません。登録されたアカウントを使ってください。</string>
+    <string name="user_login_prompt_for_purchase">有料コンテンツを購入するためにはアカウントが必要です。</string>
+    <string name="account_verified">アカウントを確認しました。</string>
+    <string name="account_not_verified">アカウントが確認できません。</string>
+    <string name="send_verification">アカウント確認のURLをもう一度送る。</string>
+    <string name="error_sending_verification_link">アカウント確認のURLを送れませんでした。</string>
+    <string name="account_verification_link_sent">アカウント確認のURLを送りました。</string>
+    <string name="multiple_login_title">セキュリティ</string>
+    <string name="multiple_login_message">このアカウントは別の端末でログインされていたので、セキュリティのために、もう一度ログインしてください。</string>
+    <string name="multiple_login_warning">このアカウントが他の誰かに使われたと思いますか？</string>
+    <string name="multiple_login_let_us_know">報告する</string>
+    <string name="layer_actions">アクション</string>
+    <string name="layer_action_launch">起動する</string>
+    <string name="layer_action_purchase">買う</string>
+    <string name="logged_in_as" formatted="false">%name%としてログインしています。</string>
+    <string name="logout">ログアウト</string>
+    <string name="user_logged_out">ログアウトしました。</string>
+    <string name="error_logging_out">ログアウトできません。もう一回試してください。</string>
+    <string name="development_mode_description">このアカウントは開発モードでアクセスできます</string>
+    <string name="account_needed_do_this">アカウントが必要です。</string>
+    <string name="account_needed_view_content">ログインするかアカウントを作成してください。</string>
+    <string name="purchase_layer">コンテンツを買う</string>
+    <string name="error_retrieving_providers">提携先が見つかりません。</string>
+    <string name="initiating_payment">少しお待ちください…</string>
+    <string name="error_initiating_payment">お取り扱いできません。</string>
+    <string name="purchase_failed_description">申し訳ございません。誤っている情報があります。</string>
+    <string name="purchase_failed_description2">エラーが起きたため、購入完了できませんでしたもう一度お試しください</string>
+    <string name="try_purchase_again" formatted="false">%paymentprovider%で再登録する。</string>
+    <string name="choose_another_payment_provider">他の提携先を選択する。</string>
+    <string name="purchase_succeeded_description">コンテンツを購入しました。</string>
+    <string name="payment_provider_limitation">現在はアメリカ、イギリス、オーストラリア、カナダ、日本のPayPalアカウントをご利用いただけます。他の国については、将来的にサポート予定です。</string>
+    <string name="pay_with">支払方法：</string>
+    <string name="purchase_message_one" formatted="false">%publisher%から%layername%コンテンツを購入しようとしています購入手続きを進めてください</string>
+    <string name="purchase_message_more" formatted="false">%publisher%から%layername%コンテンツを購入しようとしています購入手続きを進めるために支払い方法を選択してください</string>
+    <string name="welcome_skip_dialog_title">アカウントを作成しない</string>
+    <string name="welcome_skip_dialog_message">あとでアカウントを作成する</string>
+    <string name="welcome_skip_dialog_message2">有料コンテンツを買うために必要です。</string>
+    <string name="welcome_skip_dialog_remind">あとで確認する</string>
+    <string name="welcome_skip_dialog_dontask">メッセージを表示しない</string>
+    <string name="ratings_rate_layer">レビューを書く</string>
+    <string name="ratings_stars_1">星１つ</string>
+    <string name="ratings_stars_2">星２つ</string>
+    <string name="ratings_stars_3">星３つ</string>
+    <string name="ratings_stars_4">星４つ</string>
+    <string name="ratings_stars_5">星５つ</string>
+    <string name="ratings_rate">レビュー</string>
+    <string name="layer_report_problem">バグを報告する。</string>
+    <string name="nearby">Nearby</string>
+    <string name="details">詳細</string>
+    <string name="favorite_spot">スポットに追加</string>
+    <string name="unfavorite_spot">スポットから削除</string>
+    <string name="open_layer">コンテンツを開く</string>
+    <string name="loading_more2">ローディング中</string>
+    <string name="loading_more">ローディング中...</string>
+    <string name="hide_this_layer">コンテンツを隠す</string>
+    <string name="unhide_this_layer">表示する</string>
+    <string name="no_description">詳細が見つかりません。</string>
+    <string name="poidetails_more_items_message" formatted="false">%num%件の結果</string>
+    <string name="poidetails_one_more_item_message">1件の結果</string>
+    <string name="spot_actions">アクション</string>
+    <string name="filter_title">フィルター</string>
+    <string name="filter_select_all">全て選択</string>
+    <string name="filter_item_categories">カテゴリー</string>
+    <string name="filter_item_categories_empty">カテゴリーを選択してません。</string>
+    <string name="filter_item_categories_more" formatted="false">%0%、%1%、その他%n%つを選択してます。</string>
+    <string name="filter_item_categories_all">全カテゴリー</string>
+    <string name="filter_item_hidden_layer">非表示コンテンツ</string>
+    <string name="filter_item_hidden_layer_empty">非表示コンテンツがありません</string>
+    <string name="filter_item_hidden_layer_more" formatted="false">%0%、%1%、%n%を表示しない。</string>
+    <string name="filter_item_hidden_layer_unhide">クリックすると表示されます</string>
+    <string name="filter_item_range">検索範囲</string>
+    <string name="filter_item_range_default">デフォルト範囲</string>
+    <string name="filter_item_range_message" formatted="false">%value%以上のスポットを表示しない。</string>
+    <string name="filter_item_paid">有料コンテンツの表示</string>
+    <string name="filter_item_paid_true">有料コンテンツを表示する</string>
+    <string name="filter_item_paid_false">有料コンテンツを表示しない</string>
+    <string name="filter_reset">フィルターをリセットします。</string>
+    <string name="custom_filter_range_settings">@string/status_range</string>
+    <string name="custom_filter_range_text" formatted="false">%value%以内のスポットを表示</string>
+    <string name="custom_filter_layer_settings">コンテンツ設定</string>
+    <string name="custom_filter_camera_settings">カメラビュー設定</string>
+    <string name="custom_filter_camera_bird_eye">バードアイ設定</string>
+    <string name="custom_filter_camera_hide_grid">@string/prefs_hide_grid</string>
+    <string name="notification_auto_refresh">更新ボタンを押してください。</string>
+    <string name="poi" />
+    <string name="prefs_developer_enable" />
+    <string name="prefs_developer_id" />
+    <string name="help">Help</string>
+    <string name="user_create_privacy" />
+    <string name="prefs_developer_key" />
+    <string name="prefs_developer_enable_summary" />
+    <string name="select_layer" />
+    <string name="welcome_title">Layar Reality Browserへようこそ！</string>
+    <string name="welcome_intro">見えないものを美しく魅せるARアプリ。それがLayar。</string>
+    <string name="welcome_tip1">Layarで世界を変える。</string>
+    <string name="welcome_tip2">無料と有料コンテンツがあります。</string>
+    <string name="welcome_tip3">全てのコンテンツにアクセスするためにはアカウントを作る必要があります。</string>
+    <string name="welcome_tip4">" "<b>Nearby</b>" ：近くにあるスポットを探す "</string>
+    <string name="welcome_skip2">" "<u>Layarをスタート！</u>" "</string>
+    <string name="welcome_start_app">進む：</string>
+    <string name="welcome_back_app">戻る：</string>
+    <string name="ws_text_000">Layarはあたなの周りの情報をARでナビゲーションします</string>
+    <string name="ws_text_001">2000以上のLayarコンテンツがあります</string>
+    <string name="ws_text_002">Layarを使えば、新らた世界が広がります</string>
+    <string name="ws_title_0031">お気に入り</string>
+    <string name="ws_title_0032">スクリーンショット</string>
+    <string name="ws_title_0033">共有</string>
+    <string name="ws_text_0031">好きなLayarをお気に入り登録してから使ってみてください</string>
+    <string name="ws_text_0032">スクリーンショットを撮って好きなように共有してみてください</string>
+    <string name="ws_text_0033">ソーシャルメディアやメール、SMSで気に入ったLayarをどんどん広めてみてはいかがでしょう</string>
+</resources>

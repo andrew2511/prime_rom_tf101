@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">%1$s ki lô mét nữa</item>
+        <item quantity="one">Một ki lô mét nữa</item>
+        <item quantity="few">%1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Đi tiếp %1$s ki lô mét nữa</item>
+        <item quantity="one">Đi tiếp một ki lô mét nữa</item>
+        <item quantity="few">Đi tiếp %1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Đi tiếp %1$2$s %2$1$s ki lô mét nữa</item>
+        <item quantity="one">Đi tiếp %2$s một kilomet nữa</item>
+        <item quantity="few">Đi tiếp %1$2$s %2$1$s ki lô mét nữa</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">%1$s dặm nữa</item>
+        <item quantity="one">Một dặm nữa</item>
+        <item quantity="few">%1$s dặm nữa</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Đi tiếp %1$s dặm nữa</item>
+        <item quantity="one">Đi tiếp một dặm nữa</item>
+        <item quantity="few">Đi tiếp %1$s dặm nữa</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Đi tiếp %1$2$s %2$1$s dặm nữa</item>
+        <item quantity="one">Đi tiếp %2$s một dặm nữa</item>
+        <item quantity="few">Đi tiếp %1$2$s %2$1$s dặm nữa</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s bài đánh giá</item>
+        <item quantity="one">%1$s bài đánh giá</item>
+        <item quantity="few">%1$s bài đánh giá</item>
+    </plurals>
+</resources>

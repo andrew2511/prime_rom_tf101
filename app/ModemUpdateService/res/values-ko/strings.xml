@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">모뎀 펌웨어 업데이트 성공</string>
+    <string name="update_fail">모뎀 펌웨어 업데이트 실패</string>
+    <string name="update_quz" formatted="false">"업데이트 과정은 약 3-5분 정도 소요되고, 15% 또는 그 이상의 배터리 수명이 요구됩니다.
+
+업데이트 이전에 배터리 수명이 15% 이상인지 확인해 주십시오.
+
+모뎀 펌웨어를 지금 업데이트 하시겠습니까?"</string>
+    <string name="notify_title">Asus 업데이트 서비스</string>
+    <string name="notify">모뎀 펌웨어 업데이트 사용 가능.</string>
+    <string name="warning_title">경고</string>
+    <string name="warning">"업데이트 중 장치를 절대로 종료하지 마십시오.
+
+어떤 예기치 못한 중단은 복구할 수 없는 손상을 초래할 수 있습니다.
+
+모뎀 펌웨어를 지금 업데이트 하시겠습니까?"</string>
+    <string name="battery_low" formatted="false">"업데이트 과정은 15% 또는 그 이상의 배터리 수명이 요구됩니다.
+
+업데이트를 시작하기 이전에 배터리 수명이 15% 이상인지 확인해 주십시오."</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="ok">확인</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

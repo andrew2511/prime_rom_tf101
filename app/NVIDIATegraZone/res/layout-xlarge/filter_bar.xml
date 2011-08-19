@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/search_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/spinner" android:background="@drawable/spinner_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:drawSelectorOnTop="true" android:minWidth="150.0dip" android:prompt="@string/app_category_prompt" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true">
+        <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+        <EditText android:id="@id/app_search_input" android:nextFocusLeft="@id/app_search_input" android:nextFocusUp="@id/app_search_input" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/search" android:maxLines="1" android:imeOptions="actionSearch" />
+        <Button android:gravity="center_vertical" android:id="@id/app_search_clear" android:background="@drawable/x_button" android:paddingRight="1.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

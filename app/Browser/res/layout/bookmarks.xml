@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bookmarks" android:paddingLeft="@dimen/combo_paddingLeftRight" android:paddingTop="@dimen/combo_paddingTop" android:paddingRight="@dimen/combo_paddingLeftRight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridView android:scrollbarStyle="insideInset" android:layout_gravity="center_horizontal" android:id="@id/grid" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:listSelector="@drawable/bookmark_thumb_selector" android:drawSelectorOnTop="true" android:horizontalSpacing="@dimen/combo_horizontalSpacing" android:verticalSpacing="40.0dip" android:stretchMode="spacingWidth" android:numColumns="auto_fit" />
+        <ListView android:id="@id/list" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/bookmark_thumb_selector" android:drawSelectorOnTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center" android:id="@android:id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_bookmarks_folder" />
+    </FrameLayout>
+</LinearLayout>

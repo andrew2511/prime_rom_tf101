@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/book_popup_about" android:title="@string/book_popup_about" />
+    <item android:id="@id/book_popup_available_offline" android:title="@string/book_popup_available_offline" />
+    <item android:id="@id/book_popup_remove" android:title="@string/book_popup_remove" />
+</menu>

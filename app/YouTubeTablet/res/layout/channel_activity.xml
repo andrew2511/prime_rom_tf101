@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <include layout="@layout/header" />
+    <include layout="@layout/channel_header" />
+    <com.google.android.youtube.app.ui.TabRow android:id="@id/tabrow" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:tabBackground="@drawable/tab_drawable" />
+    <com.google.android.youtube.app.ui.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/uploads" android:tag="@string/channel_uploads" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_uploads_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/favorites" android:tag="@string/channel_favorites" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_favorites_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/activity" android:tag="@string/channel_activity" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_events_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/playlists" android:tag="@string/channel_playlists" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:drawable/divider_horizontal_dark" yt:textWhenEmpty="@string/no_playlists_found" yt:statusView="@layout/list_status_item" />
+    </com.google.android.youtube.app.ui.Workspace>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/set_alarm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/enable_alarm" android:key="enabled" />
+    <Preference android:persistent="false" android:title="@string/time" android:key="time" />
+    <com.android.deskclock.RepeatPreference android:persistent="false" android:title="@string/alarm_repeat" android:key="setRepeat" />
+    <com.android.deskclock.AlarmPreference android:persistent="false" android:title="@string/alert" android:key="alarm" android:ringtoneType="alarm" android:showDefault="false" android:showSilent="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alarm_vibrate" android:key="vibrate" />
+    <EditTextPreference android:persistent="false" android:title="@string/label" android:key="label" android:dialogTitle="@string/label" />
+</PreferenceScreen>

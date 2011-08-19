@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/tv_polling_time" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:layout_gravity="bottom|center" android:id="@id/dmButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" />
+    <Button android:layout_gravity="bottom|center" android:id="@id/dmCancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_c2dm_reg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_register" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_c2dm_unreg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_unregister" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_show_lock_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_show_lock" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_enable_origin_lock_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_enable_origin_lock_screen" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_report_location" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_send_account_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

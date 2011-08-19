@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">torna a provar-ho</string>
+    <string name="offline">fora de línia</string>
+    <string name="retry_offline_content">"La connexió de xarxa és inestable, voleu tornar-ho a provar o tornar a utilitzar l'aplicació en mode de fora de línia?"</string>
+    <string name="cancel">cancel·la</string>
+    <string name="change_password">canvia la contrasenya</string>
+    <string name="close">tanca</string>
+    <string name="confirm_new_password">confirmeu la nova contrasenya</string>
+    <string name="create_account">crea compte</string>
+    <string name="create_an_account">creeu un compte</string>
+    <string name="date">data</string>
+    <string name="delete">suprimeix</string>
+    <string name="delete_all">suprimeix-ho tot</string>
+    <string name="delete_mode_caption">"Mode d'eliminació - premeu l'element per eliminar"</string>
+    <string name="email_address">adreça de correu electrònic</string>
+    <string name="exit">surt</string>
+    <string name="faq">Preguntes més freqüents (PMF)</string>
+    <string name="first_name">nom</string>
+    <string name="free">gratuït</string>
+    <string name="forgot_password">he oblidat la contrasenya</string>
+    <string name="last_name">cognom</string>
+    <string name="learn_more">Més info</string>
+    <string name="legal_notices">avís legal</string>
+    <string name="library">biblioteca</string>
+    <string name="manage_tips">administra consells</string>
+    <string name="more">més</string>
+    <string name="more_options">més opcions</string>
+    <string name="my_magazines">Les meves revistes - premeu-hi per visualitzar o baixar</string>
+    <string name="new_password">nova contrasenya (5-20 caràcters)</string>
+    <string name="ok">"d'acord"</string>
+    <string name="old_password">contrasenya antiga</string>
+    <string name="password">contrasenya</string>
+    <string name="required">obligatori</string>
+    <string name="required_first_name">es requereix un nom</string>
+    <string name="required_last_name">es requereix un cognom</string>
+    <string name="required_email_address">es requereix una adreça de correu electrònic</string>
+    <string name="required_password">es requereix una contrasenya</string>
+    <string name="retype_password">torneu a escriure la contrasenya</string>
+    <string name="sign_in">inicia sessió</string>
+    <string name="sign_out">tanca sessió</string>
+    <string name="share">comparteix</string>
+    <string name="shop">botiga</string>
+    <string name="text">text</string>
+    <string name="title">títol</string>
+    <string name="turn_on_wifi">ConnectaWiFi</string>
+    <string name="uninstall">desinstal·la</string>
+    <string name="email_non_lower_case">Correu electrònic</string>
+    <string name="sd_card_non_lower_case">Targeta SD</string>
+    <string name="show_password_non_lower_case">Mostra la contrasenya</string>
+    <string name="show_tips_non_lower_case">Mostra els consells</string>
+    <string name="forgot_password_underlined"><u>Heu oblidat la contrasenya?</u></string>
+    <string name="terms_of_service_underlined"><u>Termes de servei</u></string>
+    <string name="label_share_email1">ha llegit un article de</string>
+    <string name="label_share_email2">"i vol compartir-lo amb vós.
+
+L'article original és inclòs com a element adjunt a aquest missatge.
+
+Per aconseguir més publicacions, feu el salt digital a www.zinio.com"</string>
+    <string name="label_receive_from_partners">"M'agradaria rebre ofertes especials dels socis de confiança de Zinio."</string>
+    <string name="label_receive_from_zinio">"M'agradaria rebre ofertes especials de Zinio per correu electrònic."</string>
+    <string name="label_status_calculating">"S'està calculant..."</string>
+    <string name="label_status_new">Nou</string>
+    <string name="label_status_not_downloaded">No baixat</string>
+    <string name="label_status_downloading">%s%% Baixat</string>
+    <string name="label_tip_hide">Desactiva els consells. Es poden administrar des de Configuracions addicionals.</string>
+    <string name="toast_change_password_success">"S'ha canviat la contrasenya correctament."</string>
+    <string name="toast_issue_download_complete_left">La baixada de</string>
+    <string name="toast_issue_download_complete_right">ha finalitzat</string>
+    <string name="toast_no_articles">No hi ha articles a la plana actual.</string>
+    <string name="toast_register_success">"El compte s'ha creat correctament."</string>
+    <string name="toast_no_email_client">Avís: Client de correu electrٍnic no configurat</string>
+    <string name="progress_dialog_wait_msg">Si us plau, espereu...</string>
+    <string name="dialog_warning_title">Avís</string>
+    <string name="dialog_no_connectivity_warning">Aquesta pantalla requereix accés a Internet. Comproveu la vostra connexió o la configuració de mode d’avió.</string>
+    <string name="dialog_passwords_not_matching_warning">Les contrasenyes no coincideixen.</string>
+    <string name="dialog_password_length_warning">La contrasenya ha de tenir entre 5 i 20 caràcters.</string>
+    <string name="dialog_service_exception_warning">"S'ha produït un error amb el servidor. Torneu-ho a provar més tard."</string>
+    <string name="dialog_uninstall_warning">Aquesta acció suprimirà totes les dades de la biblioteca de Zinio de manera que no es podran recuperar. Haureu de baixar les publicacions de nou.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"No teniu connexió i no podeu baixar cap publicació.
+
+Podeu baixar les vostres publicacions quan es restableixi la connexió."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">La contrasenya antiga i la nova han de ser diferents.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">La contrasenya antiga és incorrecta.</string>
+    <string name="dialog_library_no_connectivity_warning">"Es requereix connexió per baixar publicacions.
+
+Podreu seguir llegint el material actual de la vostra biblioteca i baixar publicacions quan es restableixi la connexió."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"El vostre nom d'usuari o la vostra contrasenya és incorrecte.
+
+Torneu-ho a provar."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Aquest compte ha arribat al seu nombre màxim de dispositius autoritzats. Desautoritzeu-ne un i torneu-ho a provar.</string>
+    <string name="dialog_register_account_already_exists">Aquesta adreça de correu electrònic ja existeix. Seleccioneu-ne una altra.</string>
+    <string name="dialog_register_empty_email_error">Escriviu una adreça de correu electrònic.</string>
+    <string name="dialog_register_first_name_short_error">Escriviu un nom.</string>
+    <string name="dialog_register_first_name_long_error">El nom no ha de tenir més de 80 caràcters.</string>
+    <string name="dialog_register_invalid_email_error">Escriviu una adreça electrònica vàlida.</string>
+    <string name="dialog_register_last_name_short_error">Escriviu un cognom.</string>
+    <string name="dialog_register_last_name_long_error">El cognom no ha de tenir més de 80 caràcters.</string>
+    <string name="dialog_register_other_error">"S'ha produït un error. Torneu-ho a provar."</string>
+    <string name="dialog_register_password_empty">Escriviu una contrasenya nova.</string>
+    <string name="dialog_sign_out_disabled_warning">No hi ha cap usuari que hagi iniciat sessió, així doncs no es pot tancar sessió.</string>
+    <string name="dialog_app_version_not_supported_title">Actualitzaciَ disponible</string>
+    <string name="dialog_app_version_not_supported_msg">Hi ha una nova versiَ del Zinio Reader disponible. Aquesta versiَ ja no és compatible. Actualitzeu amb la darrera versiَ del Zinio Reader</string>
+    <string name="dialog_delete_all_title">Suprimeix-ho tot</string>
+    <string name="dialog_delete_all_msg">"Heu indicat que voleu suprimir totes les publicacions de la biblioteca.
+
+No patiu, no perdreu res permanentment.
+
+L'acció de suprimir només esborra del vostre dispositiu. Podreu baixar les publicacions de nou més endavant si és necessari."</string>
+    <string name="dialog_not_enough_space_title">No hi ha prou espai</string>
+    <string name="dialog_not_enough_space_msg">Aquest dispositiu no té prou espai de disc per baixar la publicació seleccionada. Allibereu un mínim de %d MB i torneu-ho a provar.</string>
+    <string name="dialog_sd_card_not_available_title">Targeta SD no disponible</string>
+    <string name="dialog_sd_card_not_available_msg">"S'ha tret la targeta SD. L'aplicació de Zinio és a punt de tancar-se. Inseriu una targeta SD i torneu a iniciar l'aplicació."</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">La targeta SD és plena</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">La targeta SD és plena. Allibereu-ne espai.</string>
+    <string name="dialog_shop_no_connectivity_title">Botiga no disponible</string>
+    <string name="dialog_shop_no_connectivity_msg">Es requereix connexió per accedir a la botiga. Comproveu la vostra connexió o la configuració de mode d’avió.</string>
+    <string name="dialog_sign_out_title">Tanca sessió</string>
+    <string name="dialog_sign_out_msg">"Esteu segur que voleu tancar sessió?
+
+Se us demanarà que torneu a iniciar la sessió per iniciar l'aplicació Zinio."</string>
+    <string name="dialog_tip_title">Consell</string>
+    <string name="dialog_manage_tips_title">Administra consells</string>
+    <string name="non_supported_device_tip_title">Benvingut a Zinio</string>
+    <string name="non_supported_device_tip_msg">"El contingut interactiu de Zinio es llegeix millor en dispositius de pantalla com a mínim de 800x480.
+
+Podeu continuar fent servir l'aplicació però tingueu en compte que el rendiment pot no ser l'òptim."</string>
+    <string name="no_text_tip_msg">"Algunes publicacions no tenen articles de text. Podeu utilitzar l'Índex o l'Índex visual per trobar la pàgina que busqueu."</string>
+    <string name="page_tip0_1">"Premeu una vegada per veure el menú de la barra d'eines.
+Podeu triar un índex visual o de text."</string>
+    <string name="page_tip1">"Consells per començar:
+
+* Gireu la plana desplaçant-vos cap a la dreta o l'esquerra
+* Premeu dues vegades la pantalla per ampliar o reduir
+* Seleccioneu el botó 'text', visible a la primera plana d'un article, per llegir."</string>
+    <string name="wifi_connection_tip">"S'ha detectat una connexió de 3G.
+
+Amb 3G es poden baixar publicacions, però per a un rendiment màxim es recomana treballar amb wifi."</string>
+    <string name="dialog_available_memory_not_enough_title">Mida de pila insuficient</string>
+    <string name="dialog_available_memory_not_enough_msg">Mida de pila insuficient.</string>
+    <string name="dialog_delete_title">Eliminació</string>
+    <string name="delete_done">Fet</string>
+    <string name="dialog_delete_from_library">Esteu segur que voleu esborrar la revista %s?</string>
+    <string name="internet_connection_tip">Es necessita una connexió a Internet per baixar publicacions. Activeu la connexió a Internet i torneu-ho a provar.</string>
+    <string name="dialog_change_password_old_password_empty">Escriviu la contrasenya antiga.</string>
+    <string name="server_error_app_version_not_supported_message">Actualitzaciَ disponible Hi ha una nova versiَ del Zinio Reader disponible. Aquesta versiَ ja no és compatible. Actualitzeu amb la darrera versiَ del Zinio Reader</string>
+    <string name="server_error_authentication_failed">"El vostre nom d'usuari o la vostra contrasenya és incorrecte.
+
+Torneu-ho a provar. La contrasenya antiga és incorrecta."</string>
+    <string name="server_error_device_not_authorized">Aquest dispositiu no s’ha autoritzat correctament per a l’ús amb el vostre compte Zinio. Per tornar a autoritzar el vostre dispositiu, tanqueu la sessió de l’aplicació i, després, torneu a iniciar la sessió. Si el problema persisteix, poseu-vos en contacte amb el Servei als clients de Zinio.</string>
+    <string name="server_error_invalid_login">"L'adreça electrònica no és vàlida. Escriviu una adreça electrònica vàlida."</string>
+    <string name="server_error_invalid_new_password">La contrasenya no és vàlida, seleccioneu-ne una altra.</string>
+    <string name="server_error_issue_not_supported_for_device">El número no és vàlid. Poseu-vos en contacte amb el Servei als clients a support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Aquest compte ha arribat al seu nombre màxim de dispositius autoritzats. Desautoritzeu-ne un i torneu-ho a provar.</string>
+    <string name="server_error_packing_list_not_found">Manca la llista de continguts. Poseu-vos en contacte amb el Servei als clients a support@zinio.com.</string>
+    <string name="server_error_login_exists">Aquesta adreça de correu electrònic ja existeix. Seleccioneu-ne una altra.</string>
+    <string name="server_error_system_error">S’ha produït un error de servidor. Torneu-ho a provar més tard.</string>
+    <string name="server_error_system_not_available">És possible que algunes parts de l’aplicació no estiguin disponibles en aquest moment. Si no podeu accedir a alguna cosa, torneu-ho a provar més tard.</string>
+    <string name="server_error_no_items_in_library">Actualment no teniu cap títol. Els títols disponibles es poden trobar a la pestanya Botiga.</string>
+    <string name="server_error_user_not_entitled">Usuari no autoritzat. Poseu-vos en contacte amb el Servei als clients a support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Voleu valorar el Zinio Reader ara?</string>
+    <string name="dialog_outofdate_issue_removed_msg">El número endarrerit s’esborra i es baixarà de nou.</string>
+    <string name="dialog_review_msg">Ens importa la vostra opinió, feu-nos saber el vostre parer.</string>
+    <string name="dialog_review_title">Feu constar els vostres comentaris.</string>
+    <string name="server_error_invalid_newstand">El quiosc no és vàlid. Poseu-vos en contacte amb el Servei als clients a support@zinio.com.</string>
+</resources>

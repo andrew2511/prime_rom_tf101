@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Imagem de fundo activa predefinida da ASUS.</string>
+    <string name="mywater_setting">Definições de ASUS MyWater</string>
+    <string name="enable_rotation">Activar rotação da água</string>
+    <string name="enable_rotation_description">A água rodará de acordo com a rotação do dispositivo.</string>
+</resources>

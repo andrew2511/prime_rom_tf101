@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_text_top_margin" android:splitMotionEvents="true" style="@style/DetailsPage_Panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/header" android:singleLine="true" style="@style/DetailsPage_HeaderText" />
+    <FrameLayout android:id="@id/table_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableLayout android:id="@id/table_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading_indicator" />
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/error_indicator" />
+    </FrameLayout>
+    <include layout="@layout/details_footer" />
+</LinearLayout>

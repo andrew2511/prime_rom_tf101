@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/titleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@id/titleField" android:nextFocusDown="@id/toField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:capitalize="words" />
+    <TextView android:id="@id/toLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.googlenav.suggest.android.SuggestView android:id="@id/toField" android:nextFocusDown="@id/okButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:freezesText="true" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/okButton" android:background="@drawable/btn_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+</LinearLayout>

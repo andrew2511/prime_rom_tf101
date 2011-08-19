@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">"ASUS' standard-live-baggrund."</string>
+    <string name="mywater_setting">ASUS MyWater-indstillinger</string>
+    <string name="enable_rotation">Slå vandrotation til</string>
+    <string name="enable_rotation_description">Vandet vil rotere sammen med enhedsrotation.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="14.999998%p" xt9:keyHeight="@dimen/key_height" xt9:horizontalGap="0.0px" xt9:verticalGap="0.0px"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:rowEdgeFlags="top|bottom">
+        <Key xt9:keyEdgeFlags="left" xt9:keyOutputText=".net" xt9:keyLabel=".net" />
+        <Key xt9:keyOutputText=".org" xt9:keyLabel=".org" />
+        <Key xt9:keyOutputText=".gov" xt9:keyLabel=".gov" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText=".tv" xt9:keyLabel=".tv" />
+    </Row>
+</KeyboardEx>

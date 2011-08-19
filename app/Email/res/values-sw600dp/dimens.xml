@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_buttons_padding_left">16.0dip</dimen>
+    <dimen name="setup_buttons_padding_right">16.0dip</dimen>
+    <dimen name="setup_buttons_padding_top">64.0dip</dimen>
+    <dimen name="setup_buttons_vertical_spacing">48.0dip</dimen>
+    <dimen name="setup_buttons_padding_bottom">48.0dip</dimen>
+    <dimen name="setup_item_inset_left">16.0dip</dimen>
+    <dimen name="setup_item_inset_right">64.0dip</dimen>
+</resources>

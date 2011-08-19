@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/DirectoryHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorTertiary" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorTertiary" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_alignBaseline="@id/count" android:layout_alignParentLeft="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorTertiary" android:ellipsize="end" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_toLeftOf="@id/count" android:layout_toRightOf="@id/label" android:layout_alignBaseline="@id/count" />
+</RelativeLayout>

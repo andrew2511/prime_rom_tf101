@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.layar.ui.RotateLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/titleBar" android:padding="4.0dip" android:layout_width="294.0dip" android:layout_height="35.0dip">
+        <ImageView android:layout_gravity="left|center" android:id="@id/layerLogo" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="4.0dip" android:scaleType="centerInside" />
+        <TextView android:textSize="13.0dip" android:typeface="sans" android:layout_gravity="center" android:id="@id/layerTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:maxLines="2" android:layout_weight="1.0" />
+        <Button android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/done" android:background="@drawable/btn_small_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="@string/done" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/poiBlock" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:layout_width="294.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/poiImageContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/poiImage" android:layout_width="100.0dip" android:layout_height="75.0dip" android:layout_margin="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/biwContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/poiImageContainer" android:layout_alignParentLeft="true">
+            <TextView android:textSize="11.0dip" android:typeface="sans" android:textStyle="bold" android:id="@id/poiTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="11.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/poiLine2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" />
+            <TextView android:textSize="11.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/poiLine3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="11.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/poiLine4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="9.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/poiAttribution" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/buttonBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/biwContainer" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/bottomBar" android:layout_width="294.0dip" android:layout_height="20.0dip" />
+</com.layar.ui.RotateLayout>

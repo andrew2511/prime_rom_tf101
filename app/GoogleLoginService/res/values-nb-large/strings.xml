@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Fullført</string>
+    <string name="signed_in">Du er pålogget</string>
+    <string name="account_linked_message">Du er pålogget %s, og synkroniserer data.</string>
+    <string name="account_setup_title">Google-konto</string>
+    <string name="account_created_message">Ny konto er opprettet: %s</string>
+    <string name="login_activity_title">Logg på med Google-kontoen din</string>
+    <string name="show_error_activity_title">Feil ved pålogging til Google-konto</string>
+    <string name="login_activity_task_title">Logger på …</string>
+    <string name="sync_intro_activity_title_first_account">Sikkerhetskopiering og gjenoppretting</string>
+    <string name="sync_intro_activity_title_first_created_account">Konto er opprettet</string>
+    <string name="sync_intro_activity_title">Du er pålogget kontoen</string>
+</resources>

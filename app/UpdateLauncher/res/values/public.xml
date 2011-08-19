@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="string" name="app_name" id="0x7f030000" />
+    <public type="string" name="TITLE_DETECTED" id="0x7f030001" />
+    <public type="string" name="TITLE_SYSTEM_UPDATE" id="0x7f030002" />
+    <public type="string" name="BUTTON_OK" id="0x7f030003" />
+    <public type="string" name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE" id="0x7f030004" />
+    <public type="string" name="MSG_PRELIMINARY" id="0x7f030005" />
+    <public type="string" name="BUTTON_CANCEL" id="0x7f030006" />
+    <public type="string" name="MSG_RESUME" id="0x7f030007" />
+    <public type="string" name="TITLE_SYSTEM_UPDATE_STOPPED" id="0x7f030008" />
+    <public type="string" name="MSG_UPDATE_DONE" id="0x7f030009" />
+    <public type="string" name="MSG_UPDATE_PKG_NOEXIST" id="0x7f03000a" />
+    <public type="string" name="MSG_UPDATE_FAIL" id="0x7f03000b" />
+    <public type="string" name="MSG_UPDATE_RESTORE" id="0x7f03000c" />
+    <public type="string" name="MSG_BATTERY_LOW" id="0x7f03000d" />
+    <public type="string" name="TITLE_SELECT_FILE" id="0x7f03000e" />
+    <public type="string" name="MSG_UPDATE_FAIL_SKU" id="0x7f03000f" />
+    <public type="string" name="MSG_UPDATE_FAIL_DOWNGRADE" id="0x7f030010" />
+    <public type="string" name="MSG_UPDATE_FAIL_UNKNOWN" id="0x7f030011" />
+    <public type="style" name="UpdateLauncherTheme" id="0x7f040000" />
+</resources>

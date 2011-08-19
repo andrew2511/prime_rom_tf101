@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Új lap</string>
+    <string name="new_incognito_tab">Új inkognitólap</string>
+    <string name="active_tabs">Lapok</string>
+    <string name="open_all_in_new_window">Összes megnyitása új lapon</string>
+    <string name="contextmenu_openlink_newwindow">Megnyitás új lapon</string>
+    <string name="contextmenu_openlink_newwindow_background">Megnyitás új lapon a háttérben</string>
+    <string name="pref_content_open_in_background_summary">Új lapok megnyitása a jelenlegi mögött</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Новая вкладка</string>
+    <string name="new_incognito_tab">Новая вкладка инкогнито</string>
+    <string name="active_tabs">Вкладки</string>
+    <string name="open_all_in_new_window">Открыть все в новых вкладках</string>
+    <string name="contextmenu_openlink_newwindow">Открыть в новой вкладке</string>
+    <string name="contextmenu_openlink_newwindow_background">Открыть в фоновой вкладке</string>
+    <string name="pref_content_open_in_background_summary">Открывать новые вкладки позади текущей</string>
+</resources>

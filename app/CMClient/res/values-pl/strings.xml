@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minut</string>
+    <string name="postpone">Odłóż na później</string>
+    <string name="update">Aktualizuj</string>
+    <string name="asus_received_title">Usługa aktualizacji Asus</string>
+    <string name="received_message">Dostępna jest nowa aktualizacja.</string>
+    <string name="firmware_update_title">Aktualizacja firmware</string>
+    <string name="firmware_update_fail">"Aktualizacja nie powiodła się.
+
+Przywrócona zostanie oryginalna konfiguracja urządzenia."</string>
+    <string name="low_battery_title">Zakończenie aktualizacji systemu</string>
+    <string name="low_battery_warning">"Do wykonania procesu aktualizacji, system wymaga co najmniej 50% naładowania baterii.
+Przed rozpoczęciem aktualizacji systemu należy naładować baterię."</string>
+    <string name="confirmDownload_text1">Czy chcesz pobrać następującą aktualizację systemu?</string>
+    <string name="confirmDownload_textok">Naciśnij YES (TAK), aby zaakceptować tę aktualizację.</string>
+    <string name="confirmDownload_textcancel">Naciśnij NO (NIE), aby odrzucić tę aktualizację.</string>
+    <string name="confirmDownload_textwifi">Do pobrania tej aktualizacji, zalecamy skorzystanie z bezpłatnego hotspotu WiFi lub z nielimitowanego planu danych.</string>
+    <string name="confirmDownload_textwifi2">W innym przypadku, mogą być zastosowane standardowe opłaty za połączenie danych.</string>
+    <string name="btn_text_later">Później</string>
+    <string name="confirmDownload_dialog_title">Ostrzeżenie, uaktywniony został roaming.</string>
+    <string name="update_dialog_text">"Pobrana została nowa aktualizacja oprogramowania dla telefonu. Zainstalować teraz? 
+"</string>
+    <string name="downloading">Pobieranie firmware...</string>
+    <string name="install_time">Szacunkowy czas instalacji:</string>
+    <string name="install">Zainstaluj</string>
+    <string name="received_ticker">Dostępna jest nowa aktualizacja.</string>
+    <string name="dl_received_ticker">Dostępna jest nowa aktualizacja.</string>
+    <string name="dl_received_message">Dostępna jest aktualizacja, naciśnij tu, aby pobrać.</string>
+    <string name="postponetime_text">Czas odłożenia:</string>
+    <string name="reach_max_net_fail">Usuń pobieranie z serwera, spróbuj ponownie później.</string>
+    <string name="dlg_title_checking">Sprawdzenie integralności.</string>
+    <string name="dlg_msg_checking">Sprawdzenie integralności pliku firmware.</string>
+    <string name="cannot_set_to_browser">Nie można ustawić na przeglądarkę.</string>
+    <string name="upgrade_error">Błąd aktualizacji, powtórz pobieranie pakietu aktualizacji.</string>
+    <string name="start_to_download">Rozpocznij pobieranie krytycznego pakietu aktualizacji.</string>
+    <string name="start_to_upgrade">Rozpocznij aktualizację pakietu aktualizacji.</string>
+    <string name="Start_NI_DmSession">Początkowa sieciowa sesja DM, Akceptujesz?</string>
+    <string name="prepare_dm_download">Przygotowanie pobierania...</string>
+    <string name="download_finished">Pobieranie firmware zakończone...</string>
+    <string name="download_notification_title">Usługa aktualizacji T-Mobile</string>
+    <string name="download_in_progress">Trwa pobieranie nowego firmware</string>
+    <string name="out_of_mem_warning">"Za mało miejsca w telefonie,
+odinstaluj część aplikacji i spróbuj ponownie."</string>
+    <string name="btn_register">zarejestruj C2DM</string>
+    <string name="btn_unregister">wyrejestruj C2DM</string>
+    <string name="ui_alert_input_hint">Wprowadź tekst</string>
+    <string name="ui_alert_input_numeric_hint">Wprowadź wartości numeryczne</string>
+    <string name="ui_alert_input_phone_number_hint">Numer telefoniczny</string>
+</resources>

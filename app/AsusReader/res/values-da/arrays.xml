@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Fjern fremhævning</item>
+        <item>Annuller</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Tilføj fremhævning</item>
+        <item>Oversættelse</item>
+        <item>Tekst-til-tale</item>
+        <item>Annuller</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Engelsk</item>
+        <item>Fransk</item>
+        <item>Japansk</item>
+        <item>Kinesisk</item>
+        <item>Tysk</item>
+        <item>Simplificeret kinesisk</item>
+        <item>Russisk</item>
+        <item>Spansk</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Engelsk til kinesisk</item>
+        <item>Engelsk til fransk</item>
+        <item>Engelsk til russisk</item>
+    </string-array>
+</resources>

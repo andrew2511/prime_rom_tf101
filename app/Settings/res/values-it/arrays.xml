@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europa</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacifico</item>
+        <item>Tutte</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Nessuna animazione</item>
+        <item>Alcune animazioni</item>
+        <item>Tutte le animazioni</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Non viene visualizzata alcuna animazione delle finestre</item>
+        <item>Vengono visualizzate alcune animazioni delle finestre</item>
+        <item>Vengono visualizzate tutte le animazioni delle finestre</item>
+    </string-array>
+    <array name="screen_timeout_entries">
+        <item>15 secondi</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>30 minuti</item>
+        <item>@string/never_timeout_entry</item>
+    </array>
+    <string-array name="lock_after_timeout_entries">
+        <item>immediatamente</item>
+        <item>5 secondi</item>
+        <item>15 secondi</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>30 minuti</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Molto lenta</item>
+        <item>Lenta</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Molto veloce</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Molto basso</item>
+        <item>Basso</item>
+        <item>Normale</item>
+        <item>Alto</item>
+        <item>Molto alto</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglese americano</item>
+        <item>Inglese britannico</item>
+        <item>Francese</item>
+        <item>Tedesco</item>
+        <item>Italiano</item>
+        <item>Spagnolo</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione in corso...</item>
+        <item>Autenticazione in corso...</item>
+        <item>Acquisizione indirizzo IP in corso...</item>
+        <item>Connessa</item>
+        <item>Sospesa</item>
+        <item>Disconnessione in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione a %1$s in corso...</item>
+        <item>Autenticazione con %1$s in corso...</item>
+        <item>Acquisizione indirizzo IP da %1$s in corso...</item>
+        <item>Connessa a %1$s</item>
+        <item>Sospesa</item>
+        <item>Disconnessione da %1$s in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Aperta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>1 ora</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Scadente</item>
+        <item>Discreta</item>
+        <item>Buona</item>
+        <item>Eccellente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Quando lo schermo si disattiva (utilizza più dati del cellulare)</item>
+        <item>Mai quando collegato</item>
+        <item>Mai (consuma più batteria)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Quando lo schermo si disattiva</item>
+        <item>Mai quando collegato</item>
+        <item>Mai (consuma più batteria)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatica</item>
+        <item>Solo 5 GHz</item>
+        <item>Solo 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tempo di utilizzo</item>
+        <item>Conteggio avvii</item>
+        <item>Nome applicazione</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nessuna</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Manuale</item>
+        <item>Pulsante di comando WPS</item>
+        <item>PIN WPS da punto di accesso</item>
+        <item>PIN WPS dal dispositivo</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statico</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nessuno</item>
+        <item>Manuale</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Disattiva</item>
+        <item>Avviso</item>
+        <item>Vibrazione</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nessuno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Memorizzazione su dispositivo interno</item>
+        <item>Scheda SD rimovibile</item>
+        <item>Impostazione di sistema</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Sempre</item>
+        <item>Mai</item>
+        <item>Solo in mod. silenziosa</item>
+        <item>Solo se mod. silenziosa non attiva</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Breve</item>
+        <item>Media</item>
+        <item>Lunga</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Non verificare mai</item>
+        <item>Verifica solo per contenuti DRM</item>
+        <item>Verifica sempre</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Non utilizzare mai la verifica HDCP</item>
+        <item>Usa la verifica HDCP solo per contenuti DRM</item>
+        <item>Usa sempre la verifica HDCP</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/help1" android:text="@string/help1" style="@style/view_help" />
+    <TextView android:id="@id/help2" android:text="@string/help2" style="@style/view_help" />
+    <TextView android:id="@id/help3" android:text="@string/help3" style="@style/view_help" />
+</LinearLayout>

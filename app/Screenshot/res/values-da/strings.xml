@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Skærmbillede</string>
+    <string name="screenshot_dialog_message">Skærmbillede er gemt. Bliv i skærmbilledetilstand?</string>
+    <string name="screenshot_dialog_yes">Ja</string>
+    <string name="screenshot_dialog_no">Nej</string>
+    <string name="screenshot_toast_message_saved">Skærmbillede er gemt.</string>
+    <string name="screenshot_toast_message_failed">Skærmbillede kunne ikke gemmes i filoverførselstilstand.</string>
+    <string name="screenshot_toast_message_failed_save">Kunne ikke gemme skærmbillede.</string>
+    <string name="screenshot_toast_message_full">Kunne ikke gemme skærmbillede. Utilstrækkelig hukommelse.</string>
+</resources>

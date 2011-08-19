@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/bookmark_list" android:title="@string/bookmark_list_title" />
+    <item android:id="@id/night_mode" android:title="@string/change_to_day_night_mode" />
+</menu>

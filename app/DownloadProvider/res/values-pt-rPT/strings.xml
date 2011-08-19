@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Gestor de Transferências</string>
+    <string name="permlab_downloadManager">Aceder ao gestor de transferências.</string>
+    <string name="permdesc_downloadManager">Permite que a aplicação aceda ao gestor de transferências e o utilize para transferir ficheiros. As aplicações maliciosas podem utilizar esta permissão para interromper transferências e aceder a informações privadas.</string>
+    <string name="permlab_downloadManagerAdvanced">Funções avançadas do gestor de transferências</string>
+    <string name="permdesc_downloadManagerAdvanced">"Permite que a aplicação aceda às funções avançadas do gestor de transferências.  As aplicações maliciosas podem utilizar esta permissão para interromper transferências e aceder a informações privadas."</string>
+    <string name="permlab_downloadCompletedIntent">Enviar notificações de transferências.</string>
+    <string name="permdesc_downloadCompletedIntent">Permite que a aplicação envie notificações acerca de transferências concluídas. As aplicações maliciosas podem utilizar esta permissão para confundir outras aplicações que transfiram ficheiros.</string>
+    <string name="permdesc_seeAllExternal">Permite à aplicação ver todas as transferências efectuadas para o cartão SD, independentemente da aplicação utilizada nas transferências.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reservar espaço na cache de transferência</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Permite à aplic. transf. ficheiros para a cache de transf., os quais não podem ser automatic. eliminados quando o gestor de transf. necessitar de mais espaço.</string>
+    <string name="permlab_downloadWithoutNotification">transferir ficheiros sem notificação</string>
+    <string name="permdesc_downloadWithoutNotification">Permite à aplic. transf. ficheiros através do gestor de transf. sem qualquer notificação apresentada ao utilizador.</string>
+    <string name="permlab_accessAllDownloads">Aceder a todas as transferências do sistema</string>
+    <string name="permdesc_accessAllDownloads">Permite à aplicação ver e alterar as transferências iniciadas por todas as aplicações no sistema.</string>
+    <string name="download_unknown_title">&lt;Sem nome></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" e mais %d"</string>
+    <string name="notification_download_complete">Transferência concluída</string>
+    <string name="notification_download_failed">Falha na transferência</string>
+    <string name="notification_need_wifi_for_size">O tamanho da transf. requer uma ligação Wi-Fi</string>
+    <string name="wifi_required_title">Transf. demasiado grande para a rede do operador</string>
+    <string name="wifi_required_body" formatted="false">"Deve usar Wi-Fi para concluir esta transferência %s . 
+
+Clique em %s  para iniciar esta transferência da próxima vez que estiver ligado a uma rede Wi-Fi."</string>
+    <string name="wifi_recommended_title">Colocar em fila para transferir mais tarde?</string>
+    <string name="wifi_recommended_body" formatted="false">"Iniciar agora esta transf. %s  poderá reduzir a duração da bateria e/ou resultar numa utiliz. excessiva da ligação de dados móvel, o que pode levar a uma cobrança por parte do seu operador móvel.
+
+Clique%s abaixo para iniciar esta transferência da próxima vez que estiver ligado a uma rede Wi-Fi."</string>
+    <string name="button_queue_for_wifi">Fila</string>
+    <string name="button_cancel_download">Cancelar</string>
+    <string name="button_start_now">Começar agora</string>
+</resources>

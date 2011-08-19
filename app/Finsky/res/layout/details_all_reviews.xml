@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/details_left_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/header" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" style="@style/DetailsPage_HeaderText" />
+        <ImageView android:gravity="center" android:id="@id/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/close_expanded_view" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/review_list" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/all_reviews_right_padding" android:listSelector="@android:color/transparent" android:divider="@null" android:splitMotionEvents="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/all_reviews_right_padding" layout="@layout/loading_indicator" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/all_reviews_right_padding" layout="@layout/error_indicator" />
+</LinearLayout>

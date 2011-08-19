@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minuten</string>
+    <string name="postpone">Uitstellen</string>
+    <string name="update">Update</string>
+    <string name="firmware_update_title">Update van firmware</string>
+    <string name="firmware_update_fail">"Update mislukt.
+
+Uw apparaat zal de oorspronkelijke configuratie herstellen."</string>
+    <string name="low_battery_warning">"Het systeem heeft tenminste een %1$d%% batterij nodig om verder te gaan met het updateproces van het systeem.
+Laad de batterij op voorafgaand aan de systeemupdate."</string>
+    <string name="confirmDownload_textok">"Deze update verbetert de stabiliteit en wist geen gegevens; we raden sterk aan om naar deze versie te upgraden.
+Druk op JA om de update te accepteren."</string>
+    <string name="confirmDownload_textcancel">Druk op NEE voor het verwijderen van de update.</string>
+    <string name="confirmDownload_textwifi">We raden het gebruik van een gratis Wi-Fi-hotspot aan om de update te downloaden.</string>
+    <string name="confirmDownload_textwifi2">Als u op Later drukt, kunt u op elk gewenst moment met de downlood doorgaan door op het bericht te tikken.</string>
+    <string name="btn_text_later">Later</string>
+    <string name="confirmDownload_dialog_title">Voorzichtig, u bent aan het roamen.</string>
+    <string name="downloading">Firmware bezig met downloaden...</string>
+    <string name="install_time">Geschatte installatietijd:</string>
+    <string name="postponetime_text">Uitsteltijd:</string>
+    <string name="install">Installeren</string>
+    <string name="reach_max_net_fail">Download afgebroken door server, probeer het later opnieuw.</string>
+    <string name="dlg_title_checking">Integriteitcontrole.</string>
+    <string name="dlg_msg_checking">Bezig met controleren van de integriteit van uw firmwarebestand.</string>
+    <string name="cannot_set_to_browser">Kan niet instellen naar browser.</string>
+    <string name="upgrade_error">Upgrade-fout, download updatepakket opnieuw.</string>
+    <string name="start_to_download">Begin met downloaden van essentieel updatepakket.</string>
+    <string name="start_to_upgrade">Begin met upgraden van updatepakket.</string>
+    <string name="start_NI_dmSession">Netwerk is bezig met starten van DM-sessie, accepteren?</string>
+    <string name="download_finished">Download van firmware gereed...</string>
+    <string name="download_in_progress">Nieuwe download van firmware bezig</string>
+    <string name="out_of_mem_warning">"Onvoldoende ruimte,
+verwijder enkele applicaties en probeer het opnieuw."</string>
+    <string name="ui_alert_input_hint">Voer tekst in</string>
+    <string name="ui_alert_input_numeric_hint">Voer getal in</string>
+    <string name="ui_alert_input_phone_number_hint">Voer telefoonnummer in</string>
+    <string name="check_for_update">Update controleren</string>
+    <string name="no_new_fota_update">Er is op dit moment geen update beschikbaar voor uw apparaat.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Annuleren</string>
+    <string name="confirm_download_btn_Yes">Ja</string>
+    <string name="confirm_download_btn_No">Nee</string>
+    <string name="confirm_update_title">Update ASUS-firmware.</string>
+    <string name="asus_received_title">Updateservice firmware-update Asus</string>
+    <string name="received_message">Nieuwe update van de systeemfirmware beschikbaar. Indrukken om upgrade uit te voeren.</string>
+    <string name="low_battery_title">Update systeemfirmware beëindigd</string>
+    <string name="dl_received_ticker">Nieuwe update voor systeemfirmware beschikbaar.</string>
+    <string name="dl_received_message">Nieuwe update van de systeemfirmware beschikbaar. Indrukken om te downloaden.</string>
+    <string name="confirmDownload_text1">Wilt u de volgende upgrade systeemfirmware downloaden?</string>
+    <string name="received_ticker">Nieuwe update voor systeemfirmware beschikbaar.</string>
+    <string name="update_dialog_text">"Er is een nieuwe update voor de systeemfirmware voor uw apparaat gedownload. Nu installeren? 
+"</string>
+    <string name="prepare_dm_download">Bezig met voorbereiden van downloaden systeemfirmware...</string>
+    <string name="system_update_activity">Update systeemfirmware</string>
+    <string name="has_new_fota_update">Er is een update voor de systeemfirmware voor uw apparaat. Controleer de meldingen.</string>
+    <string name="update_dialog_text2">Deze update van de systeemfirmware verbetert de stabiliteit en zal geen gegevens wissen. Wij raden u sterk aan een upgrade uit te voeren naar deze versie.</string>
+</resources>

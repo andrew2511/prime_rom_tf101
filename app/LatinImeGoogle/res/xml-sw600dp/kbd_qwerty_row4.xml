@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Row latin:keyWidth="8.899999%p">
+        <Key latin:keyWidth="13.0%p" latin:keyEdgeFlags="left" latin:keyLabelOption="alignLeft" latin:keyStyle="toSymbolKeyStyle" />
+        <Key latin:keyStyle="tabKeyStyle" />
+        <switch>
+            <case latin:mode="email">
+                <Key latin:keyStyle="comKeyStyle" />
+            </case>
+            <case latin:mode="url">
+                <Key latin:keyStyle="comKeyStyle" />
+            </case>
+            <default>
+                <Key latin:popupCharacters="\@" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="64" latin:keyHintIcon="@drawable/key_hint_at_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_at_large_holo" />
+            </default>
+        </switch>
+        <Key latin:keyWidth="39.750004%p" latin:keyStyle="spaceKeyStyle" latin:keyXPos="30.75%p" />
+        <switch>
+            <case latin:languageCode="ru">
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyWidth="9.749996%p" latin:keyLabel="-" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters=":" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="58" latin:keyHintIcon="@drawable/key_hint_colon_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_colon_large_holo" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters="_" latin:keyLabel="\?" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" />
+                    </default>
+                </switch>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyWidth="9.749996%p" latin:keyLabel="_" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters="'" latin:keyLabel="!" latin:manualTemporaryUpperCaseCode="39" latin:keyHintIcon="@drawable/key_hint_quote_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_quote_large_holo" />
+                    </default>
+                </switch>
+            </case>
+            <default>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyWidth="9.749996%p" latin:keyLabel="-" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters=":" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="58" latin:keyHintIcon="@drawable/key_hint_colon_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_colon_large_holo" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters="&quot;" latin:keyLabel="'" latin:manualTemporaryUpperCaseCode="34" latin:keyHintIcon="@drawable/key_hint_quote_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_quote_large_holo" />
+                    </default>
+                </switch>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyWidth="9.749996%p" latin:keyLabel="_" />
+                    </case>
+                    <default>
+                        <Key latin:keyWidth="9.749996%p" latin:popupCharacters="_" latin:keyLabel="-" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" />
+                    </default>
+                </switch>
+            </default>
+        </switch>
+        <Spacer latin:keyWidth="0.0dip" latin:keyXPos="-10.000002%p" />
+        <include latin:keyboardLayout="@xml/kbd_qwerty_f2" />
+    </Row>
+</merge>

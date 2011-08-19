@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Настройки погоды</string>
+    <string name="refreshBtn">Обновить</string>
+    <string name="saveBtn">Сохранить</string>
+    <string name="cancelBtn">Отмена</string>
+    <string name="nocityfound">Город не найден</string>
+    <string name="humidity">Влажность</string>
+    <string name="winds">Направление ветра</string>
+    <string name="infor1">Недоступно</string>
+    <string name="searchlistviewtitle">Выберите город</string>
+    <string name="wait">Подождите...</string>
+    <string name="refreshFail">Ошибка обновления. Пожалуйста, попробуйте еще раз.</string>
+    <string name="searchFail">Ошибка поиска. Пожалуйста, попробуйте еще раз.</string>
+    <string name="dirN">С</string>
+    <string name="dirNNE">ССВ</string>
+    <string name="dirNE">СВ</string>
+    <string name="dirENE">ВСВ</string>
+    <string name="dirE">В</string>
+    <string name="dirESE">ВЮВ</string>
+    <string name="dirSE">ЮВ</string>
+    <string name="dirSSE">ЮЮВ</string>
+    <string name="dirS">В</string>
+    <string name="dirSSW">ЮЮЗ</string>
+    <string name="dirSW">ЮЗ</string>
+    <string name="dirWSW">ЗЮЗ</string>
+    <string name="dirW">З</string>
+    <string name="dirWNW">ЮСЮ</string>
+    <string name="dirNW">СЗ</string>
+    <string name="dirNNW">ССЗ</string>
+    <string name="entercityname">Пожалуйста, введите город:</string>
+    <string name="manualtitle">Ручная настройка местоположения</string>
+    <string name="refreshprogresstitle">Обновление информации о погоде</string>
+    <string name="refreshprogresscontent">Обновление. Подождите...</string>
+    <string name="searchprogresstitle">Поиск города</string>
+    <string name="searchprogresscontent">Поиск. Подождите...</string>
+    <string name="no_network">Сеть недоступна. Информация о погоде не может быть обновлена</string>
+    <string name="no_provider">Не вся информация о местоположении доступна в настоящее время. Для быстрого и точного определения местоположения включите беспроводные сети и GPS-спутники в меню Местоположение и Настройки безопасности</string>
+    <string name="title_location">Местоположение</string>
+    <string name="content_autorefreshed">Авто-обновление моего текущего местоположения</string>
+    <string name="content_manual">Поиск вручную</string>
+    <string name="title_updatefreq">Частота обновления</string>
+    <string name="content_updatetime">Время последнего обновления</string>
+    <string name="content_selectfreq">Выбор частоты обновления</string>
+    <string name="title_others">Другое</string>
+    <string name="content_tempunit">Единицы измерения температуры</string>
+</resources>

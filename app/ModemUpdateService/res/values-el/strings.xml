@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Πέτυχε η ενημέρωση Υλικολογισμικού του Μόντεμ</string>
+    <string name="update_fail">Απέτυχε η ενημέρωση Υλικολογισμικού του Μόντεμ</string>
+    <string name="update_quz" formatted="false">"Η διαδικασία ενημέρωσης θα διαρκέσει περίπου 3-5 λεπτά και χρειάζεται το 15% ή μεγαλύτερη ζωή μπαταρίας.
+
+Βεβαιωθείτε ότι η ζωή της μπαταρίας είναι μεγαλύτερη από το 15% πριν την ενημέρωση.
+
+Θέλετε να ενημερώσετε το Υλικολογισμικό του Μόντεμ σας τώρα;"</string>
+    <string name="notify_title">Υπηρεσία ενημέρωσης της Asus</string>
+    <string name="notify">Διατίθεται η ενημέρωση υλικολογισμικού του μόντεμ.</string>
+    <string name="warning_title">Προειδοποίηση</string>
+    <string name="warning">"ΜΗΝ τερματίζετε συσκευή σε διαδικασία ενημέρωσης.
+
+Τυχόν αναπάντεχη διακοπή θα μπορούσε να προκαλέσει αμετάκλητη ζημία.
+
+Θέλετε να ενημερώσετε το Υλικολογισμικό του Μόντεμ σας;"</string>
+    <string name="battery_low" formatted="false">"Για τη διαδικασία θα χρειαστεί το 15% ή μεγαλύτερη ζωή Μπαταρίας.
+
+Βεβαιωθείτε ότι η ζωή της μπαταρίας είναι μεγαλύτερη από το 15% πριν ξεκινήσει η ενημέρωση."</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

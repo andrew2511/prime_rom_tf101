@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBHELY</string>
+    <string name="music_title_str">ZENE</string>
+    <string name="web_tag_str">Nincs URL</string>
+    <string name="music_tag_album">Nincs album</string>
+    <string name="music_tag_song">Nincs dal</string>
+    <string name="music_tag_artist">Nincs előadó</string>
+    <string name="date_text_str">Nincs dátum</string>
+    <string name="cal_event_str">Nincs legutóbbi esemény</string>
+    <string name="weather_info_str">Nincs időjárás információ</string>
+    <string name="weather_content_str">Nincs időjárás tartalom</string>
+    <string name="photo_date_str">Nincs fotó dátum</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Szél K-Ék</string>
+    <string name="humidity">Páratartalom</string>
+    <string name="email_unit">E-mailek</string>
+    <string name="email_unit_single">E-mail</string>
+    <string name="event_unit">Események</string>
+    <string name="event_unit_single">Esemény</string>
+    <string name="book_unit">Könyvek</string>
+    <string name="book_unit_single">Könyv</string>
+    <string name="weather_city_str">Nincs város</string>
+    <string name="date_format_title">Dátumformátum</string>
+    <string name="preference_header_title">Preferencia</string>
+    <string name="slideshow_header_title">Diabemutató</string>
+    <string name="picture_number_title">Diabemutató képszáma</string>
+    <string name="slide_show_interval_title">Diabemutató időköze</string>
+    <string name="transition_effect_title">Képváltási hatás</string>
+    <string name="enable">Engedélyezés</string>
+    <string name="disable">Letiltás</string>
+    <string name="app_settings">ASUS MyZine beállítások</string>
+    <string name="unit_picture">kép</string>
+    <string name="unit_second">mp</string>
+    <string name="Image_headline">Kép</string>
+    <string name="display_headline">Megjelenítés</string>
+    <string name="date_headline">Dátum</string>
+    <string name="logo_display_title">ASUS MyZine embléma</string>
+    <string name="date_display_title">Dátum/idő</string>
+    <string name="photo_date_display_title">Képek létrehozásának dátuma</string>
+    <string name="event_display_title">Közelgő esemény</string>
+    <string name="weather_display_title">Időjárási helyzet</string>
+    <string name="scale_type_title">Képbemutató</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/no_messages_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/message_list_no_messages" />
+    <FrameLayout android:orientation="vertical" android:id="@id/list_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@android:layout/list_content" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Længden på teksten, som du har valgt, er for lang og noget af indholdet vil blive forkortet.</string>
+    <string name="post_successfully">Opslaget er blevet sat op</string>
+</resources>

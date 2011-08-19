@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">پذیرفته شده: %s</string>
+    <string name="meeting_declined">پذیرفته نشد: %s</string>
+    <string name="meeting_tentative">احتمالی: %s</string>
+    <string name="meeting_canceled">لغو شد: %s</string>
+    <string name="meeting_updated">به روزرسانی شد: %s</string>
+    <string name="meeting_when">زمان: %s</string>
+    <string name="meeting_where">مکان: %s</string>
+    <string name="meeting_recurring">زمان: %s (تکرار)</string>
+    <string name="notification_exchange_calendar_added">تقویم Exchange اضافه شد</string>
+    <string name="app_name">سرویس های Exchange</string>
+    <string name="exception_cancel">این رویداد لغو شده است به مدت: %s</string>
+    <string name="exception_updated">جزئیات این رویداد تغییر کرده اند به مدت: %s</string>
+</resources>

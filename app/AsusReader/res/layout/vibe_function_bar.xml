@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.VibeFunctionBar android:id="@id/vibe_function_bar" android:background="@drawable/vibe_function_bar_back" android:layout_width="fill_parent" android:layout_height="74.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="20.0px" android:id="@id/sp_selector" android:layout_width="270.0px" android:layout_height="fill_parent" android:layout_marginLeft="50.0px" android:divider="?android:listDividerAlertDialog" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <Button android:textSize="20.0px" android:id="@id/subcate_selector" android:layout_width="270.0px" android:layout_height="fill_parent" android:layout_marginLeft="30.0px" android:divider="?android:listDividerAlertDialog" android:layout_toRightOf="@id/sp_selector" android:layout_centerVertical="true" />
+</com.asus.reader.ui.VibeFunctionBar>

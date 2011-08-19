@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <ScrollView android:id="@id/scrollView" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.nuance.xt9.input.KeyboardViewEx android:layout_gravity="top" android:id="@id/keyboardViewEx" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" xt9:keyTextColor="@color/key_text_color" xt9:shadowRadius="1.5" />
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="12.0px" android:paddingRight="18.0px" android:paddingBottom="12.0px" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageButton android:layout_gravity="top" android:id="@id/closeButton" android:background="@color/transparent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyboard_popup_btn_close" />
+        </FrameLayout>
+        <TextView android:textSize="24.0px" android:textColor="@color/white" android:id="@id/txtPageIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+</LinearLayout>

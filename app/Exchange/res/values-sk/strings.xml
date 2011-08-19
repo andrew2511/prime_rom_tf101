@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Potvrdené: %s</string>
+    <string name="meeting_declined">Odmietnuté: %s</string>
+    <string name="meeting_tentative">Možno: %s</string>
+    <string name="meeting_canceled">Zrušené: %s</string>
+    <string name="meeting_updated">Aktualizované: %s</string>
+    <string name="meeting_when">Kedy: %s</string>
+    <string name="meeting_where">Kde: %s</string>
+    <string name="meeting_recurring">Kedy: %s (pravidelne)</string>
+    <string name="notification_exchange_calendar_added">Kalendár Exchange bol pridaný</string>
+    <string name="app_name">Exchange Services</string>
+    <string name="exception_cancel">Táto udalosť bola zrušená pre termín: %s</string>
+    <string name="exception_updated">Došlo k zmene podrobností tejto udalosti pre termín: %s</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Längden på texten överskrider gränsen, visst innehåll kan bli stympat.</string>
+    <string name="post_successfully">Post lyckosamt</string>
+</resources>

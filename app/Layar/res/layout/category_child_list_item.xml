@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroud" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/category_item_height" android:src="@drawable/list_cell_background_x" android:scaleType="fitXY" />
+    <TextView android:gravity="center_vertical" android:id="@id/categoryCount" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_alignTop="@id/backgroud" android:layout_alignBottom="@id/backgroud" android:layout_alignParentRight="true" style="@style/DetailsText" />
+    <TextView android:gravity="center_vertical" android:id="@id/categoryTitle" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/categoryCount" android:layout_alignTop="@id/backgroud" android:layout_alignBottom="@id/backgroud" android:layout_alignParentLeft="true" style="@style/CategoriesTitleText" />
+</RelativeLayout>

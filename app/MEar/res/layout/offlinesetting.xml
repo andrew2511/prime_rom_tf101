@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="#ffdcdddf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout03" android:background="@drawable/bg_line" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/LinearLayout01">
+                <TextView android:textSize="18.0sp" android:textColor="@color/deepgray2" android:gravity="center_vertical" android:id="@id/TextView03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/total_space" android:height="40.0dip" android:layout_below="@id/LinearLayout03" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/TextView03">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/deepgray1" android:gravity="center_vertical" android:id="@id/capacity_value" android:background="@drawable/bg_line2" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="Utlimited" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/deepgray1" android:gravity="center_vertical" android:id="@id/usedquota_value" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ExpireLinearLayout" android:background="@drawable/bg_line" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/LinearLayout03">
+                <TextView android:textSize="18.0dip" android:textColor="@color/deepgray2" android:gravity="center_vertical" android:id="@id/TextView06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/expiration_date" android:height="40.0dip" />
+                <EditText android:textColor="@color/deepgray2" android:id="@id/expire_value" android:background="@drawable/bg_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2015/11/17" android:editable="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout04" android:background="@drawable/bg_line" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ExpireLinearLayout">
+                <TextView android:textSize="18.0sp" android:textColor="@color/deepgray2" android:gravity="center_vertical" android:id="@id/TextView07" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/common_login_username" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/deepgray2" android:id="@id/username" android:background="@drawable/bg_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/present_logout" android:background="@drawable/btn_login" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/online_bt" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

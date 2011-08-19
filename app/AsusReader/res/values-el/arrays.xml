@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Κατάργηση επισήμανσης</item>
+        <item>Ακύρωση</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Προσθήκη επισήμανσης</item>
+        <item>Μετάφραση</item>
+        <item>Εκφώνηση κειμένου</item>
+        <item>Ακύρωση</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Ελληνικά</item>
+        <item>Γαλλικά</item>
+        <item>Ιαπωνικά</item>
+        <item>Κινέζικα</item>
+        <item>Γερμανικά</item>
+        <item>Κινεζικά απλοποιημένα</item>
+        <item>Ρωσικά</item>
+        <item>Ισπανικά</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Αγγλικά σε Κινέζικα</item>
+        <item>Αγγλικά σε Γαλλικά</item>
+        <item>Αγγλικά σε Ρωσικά</item>
+    </string-array>
+</resources>

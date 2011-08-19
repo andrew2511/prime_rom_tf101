@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingRight="@dimen/asset_info_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:id="@id/info_my_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" style="?android:attr/ratingBarStyleIndicator" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/info_my_rating_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_rate_it" />
+</LinearLayout>

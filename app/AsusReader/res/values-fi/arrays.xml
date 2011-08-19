@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Poista korostus</item>
+        <item>Peruuta</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Lisää korostus</item>
+        <item>Käännös</item>
+        <item>Teksti puheeksi</item>
+        <item>Peruuta</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Suomi</item>
+        <item>Ranska</item>
+        <item>Japani</item>
+        <item>Kiina</item>
+        <item>Saksa</item>
+        <item>Yksinkertaistettu kiina</item>
+        <item>Venäjä</item>
+        <item>Espanja</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Englannista kiinaksi</item>
+        <item>Englannista ranskaksi</item>
+        <item>Englannista venäjäksi</item>
+    </string-array>
+</resources>

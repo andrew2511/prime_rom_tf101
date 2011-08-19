@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vid="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <com.google.android.youtube.core.honeycomb.ui.AdapterCarousel android:id="@id/local_videos" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" vid:rowCount="1" vid:slotCount="18" vid:visibleSlots="@integer/local_carousel_visible_slots" vid:cameraZ="@string/local_carousel_camera_z" vid:radius="6.0" vid:cardWidth="240.0dip" vid:cardHeight="205.0dip" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/empty_view" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_local_videos_found" />
+</FrameLayout>

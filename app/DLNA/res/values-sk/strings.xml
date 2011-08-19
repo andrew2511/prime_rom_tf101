@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Naspäť</string>
+    <string name="localdevice">Lokálny</string>
+    <string name="playto">Prehrať</string>
+    <string name="chooserenderdevice">Zvoľte zariadenie na zobrazovanie</string>
+    <string name="mediatype">Typ média</string>
+    <string name="choosemediatype">Prosím, zvoľte jeden typ média</string>
+    <string name="musictype">Hudba</string>
+    <string name="imagetype">Fotografie</string>
+    <string name="videotype">Video</string>
+    <string name="cant_connect_to_server">Nepodarilo sa spojiť so serverom. Skontrolujte svoje pripojenie, prosím.</string>
+    <string name="internet_exception">Žiadne sieťové pripojenie</string>
+    <string name="internet_exception_message">Prosím, skontrolujte svoje sieťové pripojenie…</string>
+    <string name="nodlnadevice">V rámci rovnakej Wi-Fi siete zapnite zariadenia s povoleným DLNA.</string>
+    <string name="notagain">Túto správu znova nezobrazovať.</string>
+    <string name="shardms">Chcete svoje súbory médií zdieľať na iných zariadeniach?</string>
+    <string name="server">Server</string>
+    <string name="settings">Nastavenia</string>
+    <string name="dms">Server digitálnych médií</string>
+    <string name="dmssettings">Nastavenia servera digitálnych médií</string>
+    <string name="enable">Povoliť</string>
+    <string name="disable">Zakázať</string>
+    <string name="sharemediatype">Zvoľte typy médií na zdieľanie</string>
+    <string name="selectplayer">Zvoľte zariadenie na prehrávanie</string>
+    <string name="shareto">Zdieľať pomocou</string>
+    <string name="dms_settings_adv">Rozšírené nastavenia</string>
+    <string name="desc_share">Zmeňte zdieľaný priečinok</string>
+    <string name="title_share">Zdieľaný priečinok</string>
+    <string name="desc_friendlyname">Zmeňte zobrazovaný názov vášho zariadenia</string>
+    <string name="title_friendlyname">Zobrazovaný názov</string>
+    <string name="msgbox_title_error">Chyba</string>
+    <string name="msgbox_msg_error_no_wifi">Najprv zapnite Wi-Fi.</string>
+    <string name="msgbox_msg_error_friendlyname">Nemožno zmeniť zobrazovaný názov.</string>
+    <string name="msgbox_msg_error_sharefolder">Nemožno zmeniť zdieľaný priečinok.</string>
+    <string name="msgbox_msg_error_mediatype">Nemožno zmeniť typ zdieľaného média.</string>
+    <string name="enable_dms">Povoliť server digitálnych médií</string>
+    <string name="disable_dms">Zakázať server digitálnych médií</string>
+    <string name="about_title">Informácie</string>
+    <string name="toast_srvbusy">Sever je zaneprázdnený, skúste neskôr znova.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Práve sa prehráva</string>
+    <string name="play_all">Prehrať všetko</string>
+    <string name="party_shuffle">Náhodný výber všetkých skladieb</string>
+    <string name="shuffle_all">Náhodný výber – všetko</string>
+    <string name="wifi_quick_toggle_summary">Zapnúť Wi-Fi</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="slide_show">Prezentácia</string>
+    <string name="wait">Čakajte...</string>
+    <string name="fail_to_load">Načítanie zlyhalo</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Interný ukl. priestor</string>
+</resources>

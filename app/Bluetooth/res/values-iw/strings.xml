@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permlab_bluetoothShareManager">גש למנהל ההורדות.</string>
+    <string name="permdesc_bluetoothShareManager">מאפשר ליישום לגשת למנהל BluetoothShare ולהשתמש בו להעברת קבצים.</string>
+    <string name="bt_share_picker_label">Bluetooth</string>
+    <string name="unknown_device">התקן לא ידוע</string>
+    <string name="unknownNumber">לא ידוע</string>
+    <string name="airplane_error_title">מצב טיסה</string>
+    <string name="airplane_error_msg">לא ניתן להשתמש ב-Bluetooth במצב טיסה.</string>
+    <string name="bt_enable_title">Bluetooth</string>
+    <string name="bt_enable_line1">אל כדי להשתמש בשירותי Bluetooth, עליך להפעיל תחילה Bluetooth.</string>
+    <string name="bt_enable_line2">להפעיל Bluetooth כעת?</string>
+    <string name="bt_enable_cancel">ביטול</string>
+    <string name="bt_enable_ok">הפעל</string>
+    <string name="incoming_file_confirm_title">העברת קבצים</string>
+    <string name="incoming_file_confirm_content" formatted="false">"\"%1$s\" רוצה לשלוח לך את %2$s (%3$s). 
+
+ לקבל את הקובץ?"</string>
+    <string name="incoming_file_confirm_cancel">דחה</string>
+    <string name="incoming_file_confirm_ok">קבל</string>
+    <string name="incoming_file_confirm_timeout_ok">אישור</string>
+    <string name="incoming_file_confirm_timeout_content">חלף הזמן הקצוב לתפוגה במהלך קבלת קובץ נכנס מ-\"%1$s\"</string>
+    <string name="incoming_file_confirm_Notification_title">שיתוף Bluetooth: קובץ נכנס</string>
+    <string name="incoming_file_confirm_Notification_caption">אשר שברצונך לקבל קובץ זה</string>
+    <string name="incoming_file_toast_msg">קובץ מגיע ממכשיר אחר, נא אשר שברצונך לקבל קובץ זה</string>
+    <string name="notification_receiving">שיתוף Bluetooth: מקבל את %1$s</string>
+    <string name="notification_received">שיתוף Bluetooth‏: %1$s התקבל</string>
+    <string name="notification_received_fail">שיתוף Bluetooth: הקובץ %1$s לא התקבל</string>
+    <string name="notification_sending">שיתוף Bluetooth: שולח את %1$s</string>
+    <string name="notification_sent">שיתוף Bluetooth‏: %1$s נשלח</string>
+    <string name="notification_sent_complete">‎100%‎ הושלמו</string>
+    <string name="notification_sent_fail">שיתוף Bluetooth: הקובץ %1$s לא נשלח</string>
+    <string name="download_title">העברת קבצים</string>
+    <string name="download_line1">מאת: \"%1$s\"</string>
+    <string name="download_line2">קובץ: %1$s</string>
+    <string name="download_line3">גודל קובץ: %1$s</string>
+    <string name="download_line4" />
+    <string name="download_line5">מקבל קובץ...</string>
+    <string name="download_cancel">עצור</string>
+    <string name="download_ok">הסתר</string>
+    <string name="download_fail_line1">הקובץ לא התקבל</string>
+    <string name="download_fail_line2">קובץ: %1$s</string>
+    <string name="download_fail_line3">סיבה לכשל: %1$s</string>
+    <string name="download_fail_ok">אישור</string>
+    <string name="download_succ_line5">הקובץ התקבל</string>
+    <string name="download_succ_ok">פתח</string>
+    <string name="upload_line1">אל: \"%1$s\"</string>
+    <string name="upload_line3" formatted="false">סוג קובץ: %1$s (%2$s)</string>
+    <string name="upload_line5">שולח קובץ…</string>
+    <string name="upload_succ_line5">הקובץ נשלח</string>
+    <string name="upload_succ_ok">אישור</string>
+    <string name="upload_fail_line1">הקובץ לא נשלח אל \"%1$s\".</string>
+    <string name="upload_fail_line1_2">קובץ: %1$s</string>
+    <string name="upload_fail_ok">נסה שוב</string>
+    <string name="upload_fail_cancel">סגור</string>
+    <string name="bt_error_btn_ok">אישור</string>
+    <string name="unknown_file">קובץ לא ידוע</string>
+    <string name="unknown_file_desc">"אין יישום שיכול לטפל בקובץ מסוג זה. 
+"</string>
+    <string name="not_exist_file">הקובץ לא קיים</string>
+    <string name="not_exist_file_desc">"הקובץ לא קיים! 
+"</string>
+    <string name="enabling_progress_title">נא המתן…</string>
+    <string name="enabling_progress_content">מפעיל Bluetooth…</string>
+    <string name="bt_toast_1">"הקובץ יתקבל. בדוק את ההתקדמות בחלונית 'התראות'."</string>
+    <string name="bt_toast_2">הקובץ לא יתקבל.</string>
+    <string name="bt_toast_3">נעצרה קבלת קובץ מ-\"%1$s\"</string>
+    <string name="bt_toast_4">שולח קובץ אל \"%1$s\"</string>
+    <string name="bt_toast_5" formatted="false">שולח %1$s קבצים אל \"%2$s\"</string>
+    <string name="bt_toast_6">נעצרה שליחת קובץ אל \"%1$s\"</string>
+    <string name="bt_sm_2_2">שטח דרוש: %1$s</string>
+    <string name="ErrorTooManyRequests">בקשות רבות מדי מעובדות. נסה שוב מאוחר יותר.</string>
+    <string name="status_pending">העברת קבצים לא התחילה עדיין</string>
+    <string name="status_running">העברת קבצים מתבצעת</string>
+    <string name="status_success">העברת הקבצים הושלמה בהצלחה</string>
+    <string name="status_not_accept">תוכן לא נתמך.</string>
+    <string name="status_forbidden">העברה זו נאסרה על ידי התקן היעד</string>
+    <string name="status_canceled">העברה זו בוטלה על ידי המשתמש</string>
+    <string name="status_file_error">בעיה באחסון</string>
+    <string name="status_connection_error">כשל בחיבור</string>
+    <string name="status_protocol_error">לא ניתן לטפל בבקשה כראוי</string>
+    <string name="status_unknown_error">שגיאה לא ידועה</string>
+    <string name="btopp_live_folder">התקבל באמצעות Bluetooth</string>
+    <string name="download_success">%1$s שהתקבלו הושלמו.</string>
+    <string name="upload_success">%1$s שנשלחו הושלמו.</string>
+    <string name="inbound_history_title">העברות נכנסות</string>
+    <string name="outbound_history_title">העברות יוצאות</string>
+    <string name="no_transfers">היסטוריית ההעברות ריקה.</string>
+    <string name="transfer_clear_dlg_msg">כל הפריטים ינוקו מהרשימה.</string>
+    <string name="outbound_noti_title">שיתוף Bluetooth: נשלחו קבצים</string>
+    <string name="inbound_noti_title">שיתוף Bluetooth: התקבלו קבצים</string>
+    <string name="noti_caption" formatted="false">%1$s מוצלחים, %2$s נכשלו.</string>
+    <string name="transfer_menu_clear_all">נקה רשימה</string>
+    <string name="transfer_menu_open">פתח</string>
+    <string name="transfer_menu_clear">נקה מהרשימה</string>
+    <string name="transfer_clear_dlg_title">נקה</string>
+    <string name="pbap_acceptance_dialog_title" formatted="false">%1$s רוצה לגשת לאנשי הקשר ולהיסטוריית השיחות שלך. להעניק גישה ל-%2$s?</string>
+    <string name="pbap_acceptance_dialog_header">גישה לספר טלפונים</string>
+    <string name="pbap_session_key_dialog_title">הקלד קוד הפעלה עבור %1$s</string>
+    <string name="pbap_session_key_dialog_header">דרוש קוד הפעלת Bluetooth</string>
+    <string name="pbap_acceptance_timeout_message">תם הזמן הקצוב לתפוגה של הסכמה לחיבור עם %1$s</string>
+    <string name="pbap_authentication_timeout_message">תם הזמן הקצוב לתפוגה של הזנת קוד הפעלה עם %1$s</string>
+    <string name="pbap_notif_ticker">בקשת גישה לספר טלפונים</string>
+    <string name="pbap_notif_title">בקשת PBAP</string>
+    <string name="pbap_notif_message">אפשר גישה לספר הטלפונים באמצעות %1$s</string>
+    <string name="auth_notif_ticker">בקשת אימות Obex</string>
+    <string name="auth_notif_title">קוד הפעלה</string>
+    <string name="auth_notif_message">הקלד קוד הפעלה עבור %1$s</string>
+    <string name="alwaysallowed">מותר תמיד?</string>
+    <string name="defaultname">דיבורית לרכב</string>
+    <string name="unknownName">שם לא ידוע</string>
+    <string name="localPhoneName">השם שלי</string>
+    <string name="defaultnumber">000000</string>
+    <string name="hello">שלום לעולם, TestActivity</string>
+    <string name="app_name">שיתוף Bluetooth</string>
+    <string name="insert_record">הוסף רשומה</string>
+    <string name="update_record">אשר רשומה</string>
+    <string name="ack_record">אשר רשומה</string>
+    <string name="deleteAll_record">מחק את כל הרשומות</string>
+    <string name="ok_button">אישור</string>
+    <string name="delete_record">מחק רשומה</string>
+    <string name="start_server">הפעל שרת TCP</string>
+    <string name="notify_server">הודע לשרת TCP</string>
+</resources>

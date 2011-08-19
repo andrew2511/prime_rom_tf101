@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 ชม.</item>
+        <item>2 ชม.</item>
+        <item>4 ชม.</item>
+        <item>8 ชม.</item>
+        <item>12 ชม.</item>
+        <item>ด้วยตนเอง</item>
+    </string-array>
+</resources>

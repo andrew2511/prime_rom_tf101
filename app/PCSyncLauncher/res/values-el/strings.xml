@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Συγχρονισμός πληροφοριών Η/Υ</string>
+    <string name="searchingPCSideSyncTool">Γίνεται αναζήτηση του %s στον υπολογιστή σας...</string>
+    <string name="connectionFailMessage" formatted="false">Δεν είναι εγκατεστημένο ούτε έχει ξεκινήσει το %s στον υπολογιστή σας Λάβετε το %s από τη σελίδα Υποστήριξης της ASUS - http://support.asus.com. (Σημείωση: μόνο για Windows.) Μπορείτε να πατήσετε το πλήκτρο \"%s\" για έξοδο ή το πλήκτρο \"%s\" για επανασύνδεση με το %s.</string>
+    <string name="connectionFailTitle">Η σύνδεση απέτυχε</string>
+    <string name="tryAgain">Δοκιμάστε ξανά</string>
+    <string name="cancel">Ακύρωση</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">电脑同步信息</string>
+    <string name="searchingPCSideSyncTool">在您的电脑上搜索 %s ...</string>
+    <string name="connectionFailMessage" formatted="false">您的电脑上 %s 未安装或启动。 请由 %s 华硕技术支持网站 - http://support.asus.com下载 (注：仅支持使用Windows操作系统) 您可以按下 \"%s\" 键退出，或是按下 \"%s\" 键尝试重新连接 %s。</string>
+    <string name="connectionFailTitle">连接失败</string>
+    <string name="tryAgain">重试</string>
+    <string name="cancel">取消</string>
+</resources>

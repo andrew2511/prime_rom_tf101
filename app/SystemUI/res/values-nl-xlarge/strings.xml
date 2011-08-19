@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Wissen</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Geen internetverb.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Verbonden via Wi-Fi</string>
+    <string name="gps_notification_searching_text">Zoeken naar GPS</string>
+    <string name="gps_notification_found_text">Locatie bepaald met GPS</string>
+    <string name="notifications_off_title">Meldingen uit</string>
+    <string name="notifications_off_text">Tik hier om meldingen weer in te schakelen.</string>
+</resources>

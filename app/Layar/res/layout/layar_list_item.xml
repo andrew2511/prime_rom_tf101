@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layar_list_item" android:background="@drawable/layer_preview" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/layer_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/launch_area_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" layout="@layout/a_launch_area" />
+    <RelativeLayout android:id="@id/poiInfo" android:background="@drawable/list_cell_background_button_x" android:padding="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/layer_item_height" android:layout_toLeftOf="@id/launchArea" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/imageBox" android:background="@null" android:layout_width="@dimen/poi_image_width" android:layout_height="@dimen/poi_image_height" android:layout_centerVertical="true">
+            <ImageView android:id="@id/poiImage" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/imageThrobber" android:layout_centerInParent="true" style="@style/Throbber.Black" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/poiDetails" android:background="@null" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageBox" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="11.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/poiTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="10.0dip" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:id="@id/poiLine2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="10.0dip" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:id="@id/poiLine3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="10.0dip" android:typeface="sans" android:textStyle="normal" android:textColor="#ff000000" android:id="@id/poiLine4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="9.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/poiAttribution" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/asset_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <FrameLayout android:id="@id/list_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/list_empty_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/asset_list_no_items" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fullscreen_loading_indicator" />
+</merge>

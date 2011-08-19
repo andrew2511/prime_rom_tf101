@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">谷歌地图</string>
+    <string name="da_google_maps_navigation">谷歌地图导航</string>
+    <string name="da_net_fail_title">网络连接失败</string>
+    <string name="da_net_fail_body">此应用程序需要有效的数据连接。</string>
+    <string name="da_beta">测试版</string>
+    <string name="da_destination">目的地</string>
+    <string name="da_toward">前往%1$s</string>
+    <string name="da_onto">转入%1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">"、 "</string>
+    <string name="da_then_next_step">"然后
+%1$s"</string>
+    <string name="da_continue_for_distance">继续前行 %1$s</string>
+    <string name="da_destination_will_be_on_the_left">您的目的地就在左侧。</string>
+    <string name="da_destination_will_be_on_the_right">您的目的地就在右侧。</string>
+    <string name="da_you_will_reach_destination">您即将到达目的地。</string>
+    <string name="da_destination_on_the_left">您的目的地在左侧。</string>
+    <string name="da_destination_on_the_right">您的目的地在右侧。</string>
+    <string name="da_destination_reached">您已经到达。</string>
+    <string name="da_speech_lost_gps">GPS 信号丢失</string>
+    <string name="da_speech_lost_data_connection">数据连接已断开</string>
+    <string name="da_speech_navigation_resumed">已恢复导航</string>
+    <string name="da_speech_please_describe_problem">请描述问题</string>
+    <string name="da_on_left">在左侧</string>
+    <string name="da_on_right">在右侧</string>
+    <string name="da_stay_on_road_primary">继续沿%1$s前行</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">距离%2$s还有%1$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s后%2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} 英里</string>
+    <string name="da_distance_format_miles_compressed">{0} 英里</string>
+    <string name="da_distance_format_feet_abbreviated">{0} 英尺</string>
+    <string name="da_distance_format_feet_compressed">{0} 英尺</string>
+    <string name="da_distance_format_yards_abbreviated">{0} 码</string>
+    <string name="da_distance_format_yards_compressed">{0} 码</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} 千米</string>
+    <string name="da_distance_format_kilometers_compressed">{0} 千米</string>
+    <string name="da_distance_format_meters_abbreviated">{0} 米</string>
+    <string name="da_distance_format_meters_compressed">{0} 米</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s 天 %2$s 小时</string>
+    <string name="da_time_format_hours" formatted="false">%1$s 小时 %2$s 分</string>
+    <string name="da_time_format_minutes">%1$s 分钟</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">导航</string>
+    <string name="da_search_label">搜索</string>
+    <string name="da_layers">图层</string>
+    <string name="da_agreement">"Google 地图导航应用程序目前尚处于测试阶段，请务必谨慎使用！
+
+请勿在驾车时操作此应用程序。路况信息并不能反应实时状况；路线可能有错误，包含危险路段、禁止通行的路段或轮渡路段。请遵守相关法律。
+
+行驶过程中，请注意观察路况！"</string>
+    <string name="da_agreement_with_walking">"Google 地图导航应用程序目前尚处于测试阶段，请务必谨慎使用！
+
+请勿在驾车时操作此应用程序。路况信息并不能反应实时状况；路线可能有错误，包含危险路段、禁止通行的路段或轮渡路段。步行路线可能缺少人行道信息。请遵守相关法律。
+
+行驶过程中，请注意观察路况！"</string>
+    <string name="da_disclaimer_checkbox">下次显示此讯息</string>
+    <string name="da_show_list">路线列表</string>
+    <string name="da_route_overview">路线信息</string>
+    <string name="da_show_map">显示地图</string>
+    <string name="da_satellite">卫星</string>
+    <string name="da_traffic_view">路况视图</string>
+    <string name="da_no_traffic_here">没有关于此处的路况信息</string>
+    <string name="da_traffic">路况</string>
+    <string name="da_area_view">区域视图</string>
+    <string name="da_mute">静音</string>
+    <string name="da_unmute">取消静音</string>
+    <string name="da_settings">设置</string>
+    <string name="da_help">帮助</string>
+    <string name="da_terms_privacy_notices">条款和条件</string>
+    <string name="da_terms_and_conditions">条款</string>
+    <string name="da_privacy_policy">隐私权政策</string>
+    <string name="da_legal_notices">法律声明</string>
+    <string name="da_navigation_suspended">导航已暂停</string>
+    <string name="da_exit_navigation">退出导航</string>
+    <string name="da_email_me_when_resolved">问题解决后给我发送电子邮件</string>
+    <string name="da_problem_reported">问题已报告</string>
+    <string name="da_one_button_map_issue_reporting">一键式报告问题</string>
+    <string name="da_attention">注意</string>
+    <string name="da_rmi_warning">"通过“报告问题”功能可以录制一条语音信息，描述地图或路线中存在的问题。15 秒后，系统会自动将该信息连同您的当前位置和路线一起发送给 Google。
+
+可在应用程序设置中启用一键式快捷方式。
+
+如果您选择接收有关该问题的解决情况的电子邮件，那么系统会存储您的电子邮件地址以及您的当前位置和注释，直到该问题得到解决为止。"</string>
+    <string name="da_report_a_problem">报告问题</string>
+    <string name="da_report_a_problem_dialog_title">报告问题</string>
+    <string name="da_rmi_preference_trackball_summary">启用后，按滚动球将会开始报告问题。</string>
+    <string name="da_rmi_preference_camera_summary">启用后，按相机按钮将会开始报告问题。</string>
+    <string name="da_rmi_preference_no_button_summary">没提供物理按钮。</string>
+    <string name="da_rmi_preference_bad_location_summary">您不能在当前位置报告问题。</string>
+    <string name="da_destination_not_here_warning">感谢您报告我们所提供的目的地位置有误。您当前的目的地和位置将会发送到 Google，以帮助我们提高数据的准确性。</string>
+    <string name="da_destination_not_here_title">报告问题</string>
+    <string name="da_searching_for_gps">正在搜索 GPS...</string>
+    <string name="da_data_connection_lost">数据连接断开...</string>
+    <string name="da_follow_the_route">沿路线前进</string>
+    <string name="da_waiting_for_directions">获取驾车路线</string>
+    <string name="da_waiting_for_walking_directions">正在获取步行路线</string>
+    <string name="da_waiting_for_location">正在等待定位</string>
+    <string name="da_checking_navigation_availability">正在检查是否支持导航功能</string>
+    <string name="da_loading_route_details">正在载入路线详情</string>
+    <string name="da_loading_image">正在载入图片</string>
+    <string name="da_waiting_for_alternates">正在搜索备选路线</string>
+    <string name="da_waiting_for_details">正在载入</string>
+    <string name="da_no_details">未找到详情</string>
+    <string name="da_gps_is_disabled">GPS 已禁用</string>
+    <string name="da_turn_on_gps">显示位置设置？</string>
+    <string name="da_voice_guidance">语音导航</string>
+    <string name="da_install_voice_guidance_prompt">对于语音导航，您需要访问 Android 电子市场，安装文本转语音支持。</string>
+    <string name="da_dialog_ok">确定</string>
+    <string name="da_dialog_skip">跳过</string>
+    <string name="da_dialog_cancel">取消</string>
+    <string name="da_dialog_done">完成</string>
+    <string name="da_dialog_accept">接受</string>
+    <string name="da_dialog_install">安装</string>
+    <string name="da_dialog_dont_accept">不接受</string>
+    <string name="da_dialog_go">开始</string>
+    <string name="da_dialog_get_directions">获取路线</string>
+    <string name="da_map">地图</string>
+    <string name="da_clear_layers">清空地图</string>
+    <string name="da_layer_name_parking">停车场</string>
+    <string name="da_layer_name_attractions">风景名胜</string>
+    <string name="da_layer_name_gas_stations">加油站</string>
+    <string name="da_layer_name_restaurants">餐馆</string>
+    <string name="da_layer_name_supermarkets">超市</string>
+    <string name="da_layer_name_atms_and_banks">银行</string>
+    <string name="da_layer_name_convenience_stores">便利店</string>
+    <string name="da_query_banks_and_atms">银行</string>
+    <string name="da_rerouting">正在重选路线...</string>
+    <string name="da_via">经由%s</string>
+    <string name="da_to_destination">到%s</string>
+    <string name="da_via_name_separator">" 与 "</string>
+    <string name="da_record_feedback">录下反馈</string>
+    <string name="da_destination_not_here">目的地不是这里</string>
+    <string name="da_new_destination">下一个目的地</string>
+    <string name="da_reroute_to_destination">返回目的地</string>
+    <string name="da_change_destination">设置目的地</string>
+    <string name="da_search_for_destination">搜索...</string>
+    <string name="da_point_on_map">地图上的点</string>
+    <string name="da_volume">导航音量</string>
+    <string name="da_exit">退出</string>
+    <string name="da_did_you_mean">您是不是要找：</string>
+    <string name="da_did_you_say">您指的是：</string>
+    <string name="da_for_your_end_point">终点选项</string>
+    <string name="da_unnamed_road">无名道路</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s，然后 %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s，%2$s</string>
+    <string name="da_speech_in_x_meters">行驶 %1$s 米后</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">行驶 1.5 公里后</string>
+    <string name="da_speech_continue_for_x_meters">继续前行 %1$s 米</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">继续前行 1.5 公里</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">沿%2$s继续前行 %1$s 米</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">沿%1$s继续前行 1.5 公里</string>
+    <string name="da_speech_generic_continue">请继续前行</string>
+    <string name="da_speech_in_x_feet">行驶 %1$s 英尺后</string>
+    <string name="da_speech_in_x_yards">行驶 %1$s 码后</string>
+    <string name="da_speech_in_a_quarter_mile">行驶 0.25 英里后</string>
+    <string name="da_speech_in_a_half_mile">行驶 0.5 英里后</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">行驶 0.75 英里后</string>
+    <string name="da_speech_in_one_and_a_half_miles">行驶 1.5 英里后</string>
+    <string name="da_speech_continue_for_x_feet">继续前行 %1$s 英尺</string>
+    <string name="da_speech_continue_for_x_yards">继续前行 %1$s 码</string>
+    <string name="da_speech_continue_for_a_quarter_mile">继续前行 0.25 英里</string>
+    <string name="da_speech_continue_for_a_half_mile">继续前行 0.5 英里</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">继续前行 0.75 英里</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">继续前行 1.5 英里</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">沿%2$s继续前行 %1$s 英尺</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">沿%2$s继续前行 %1$s 码</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">沿%1$s继续前行 0.25 英里</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">沿%1$s继续前行 0.5 英里</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">沿%1$s继续前行 0.75 英里</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">沿%1$s继续前行 1.5 英里</string>
+    <string name="da_route_prefixes">北，东北，东，东南，南，西南，西，西北</string>
+    <string name="da_route_suffixes">北，东北，东，东南，南，西南，西，西北，道，街，路，高速路，快速路</string>
+    <string name="da_no_route">未找到路线</string>
+    <string name="da_route_not_found">我们找不到针对您的目的地的路线。</string>
+    <string name="da_destination_not_found">我们不知道此目的地。</string>
+    <string name="da_navigation_not_supported">无法为您指定的目的地提供导航。</string>
+    <string name="da_navigation_not_supported_at_current_loc">还不支持在此位置使用 Google 地图导航功能。</string>
+    <string name="da_launch_maps">启动 Google 地图</string>
+    <string name="da_no_image_available">未提供图片。</string>
+    <string name="da_image_error">载入图片时出错。</string>
+    <string name="da_no_alternate_routes">我们找不到驶向您的目的地的备选路线。</string>
+    <string name="da_picker_type_destination">输入目的地</string>
+    <string name="da_picker_speak_destination">说出目的地</string>
+    <string name="da_picker_contacts">联系人</string>
+    <string name="da_picker_starred_items">加星标的地点</string>
+    <string name="da_picker_new_contact">新建联系人</string>
+    <string name="da_picker_recent_destinations">近期导航过的目的地</string>
+    <string name="da_picker_choose_destination">选择目的地</string>
+    <string name="da_navigate_to">导航到</string>
+    <string name="da_picker_search_hint">目的地</string>
+    <string name="da_route_options">路线选项</string>
+    <string name="da_updating_directions">正在更新路线</string>
+    <string name="da_picker_no_starred_items">"您没有任何加星标的地点。
+
+加星标的地点会自动与 maps.google.com 同步。
+
+只要点击地址旁边的星标图标，就可以给 Google 地图中的搜索结果加注星标。"</string>
+    <string name="da_picker_no_contacts">"您的所有联系人都没有地址信息。
+
+您可以添加新联系人，也可以在 Google 通讯录应用程序中为现有联系人设置地址信息。"</string>
+    <string name="da_driving">驾车</string>
+    <string name="da_walking">步行</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">更多信息</string>
+    <string name="da_search_maps">搜索地图</string>
+    <string name="da_walking_warning">步行路线（测试版）：慎用</string>
+    <string name="da_calibrate_compass_title">罗盘校准</string>
+    <string name="da_calibrate_compass">您手机上的罗盘未校准。要校准罗盘，请拿着手机划几个“8”字。</string>
+    <string name="da_confirm_exit_title">要退出导航吗？</string>
+    <string name="da_confirm_exit_text">此操作会关闭所有路线导航功能。</string>
+    <string name="da_route_includes_tolls">该路线包含收费路段</string>
+    <string name="da_avoid_tolls">避开收费路段</string>
+    <string name="da_avoiding_tolls">避开收费路段</string>
+    <string name="da_avoiding_highways">避开高速公路</string>
+    <string name="da_route_includes_unavoidable_tolls">此路线包含收费路段。</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">此路线包含收费路段。您可以在下面的 %1$s %2$s中停用收费路线。</string>
+    <string name="da_seasonally_closed">该路线可能包含某些季节性封闭路段</string>
+    <string name="da_direction_north">北</string>
+    <string name="da_direction_north_west">西北</string>
+    <string name="da_direction_west">西</string>
+    <string name="da_direction_south_west">西南</string>
+    <string name="da_direction_south">南</string>
+    <string name="da_direction_south_east">东南</string>
+    <string name="da_direction_east">东</string>
+    <string name="da_direction_north_east">东北</string>
+    <string name="da_step_depart">向%1$s行驶</string>
+    <string name="da_step_depart_on" formatted="false">在%2$s上朝%1$s行驶</string>
+    <string name="da_step_slight_left">稍向左转</string>
+    <string name="da_step_slight_right">稍向右转</string>
+    <string name="da_step_turn_left">左转</string>
+    <string name="da_step_turn_right">向右转</string>
+    <string name="da_step_sharp_left">向左急转</string>
+    <string name="da_step_sharp_right">向右急转</string>
+    <string name="da_step_slight_left_onto">稍向左转上%1$s</string>
+    <string name="da_step_slight_right_onto">稍向右转上%1$s</string>
+    <string name="da_step_turn_left_onto">向左转上%1$s</string>
+    <string name="da_step_turn_right_onto">向右转上%1$s</string>
+    <string name="da_step_sharp_left_onto">向左急转上%1$s</string>
+    <string name="da_step_sharp_right_onto">向右急转上%1$s</string>
+    <string name="da_step_fork_left">在交岔路口靠左行驶</string>
+    <string name="da_step_fork_right">在交岔路口靠右行驶</string>
+    <string name="da_step_continue_onto">继续直行上%1$s</string>
+    <string name="da_step_continue_straight">继续直行</string>
+    <string name="da_step_u_turn">掉头</string>
+    <string name="da_step_take_the_ramp">驶进匝道</string>
+    <string name="da_step_take_the_ramp_onto">驶进匝道上%1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">驶进左侧匝道</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">驶进左侧匝道上%1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">驶进右侧匝道</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">驶进右侧匝道上%1$s</string>
+    <string name="da_step_take_the_exit">从出口驶出</string>
+    <string name="da_step_take_the_exit_on_the_left">从左侧出口驶出</string>
+    <string name="da_step_take_the_exit_on_the_right">从右侧出口驶出</string>
+    <string name="da_step_take_the_exit_onto">从出口驶出，上%1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">从左侧出口驶出，上%1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">从右侧出口驶出，上%1$s</string>
+    <string name="da_step_take_exit_n">从第 %1$s 出口驶出</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - 图像 ©%2$d %3$s，地图数据 ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - 图像 ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - 地图数据 ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">家</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">路线与导航</string>
+    <string name="EXIT_COMMAND">退出</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0}希望您报告位置</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">“谷歌纵横”所在位置请求</string>
+    <string name="GOHOME_DESTINATION_HINT">请输入地址</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">快捷方式图标</string>
+    <string name="GOHOME_SAVE_SHORTCUT">保存</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">目的地</string>
+    <string name="GOHOME_SHORTCUT_NAME">快捷方式名称</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">路口转弯提示导航</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">打开设置</string>
+    <string name="HOTPOT_LOADING">正在载入...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">要使用“给地点评分”窗口小部件，您需要同时启用“位置和安全”设置中的“使用无线网络”和“无线和网络”设置中的 Wi-Fi 功能。</string>
+    <string name="HOTPOT_LOCATION_DISABLED">请在“位置和安全”设置中启用“使用无线网络”，以便使用“给地点评级”(Rate Places) 窗口小部件。</string>
+    <string name="HOTPOT_NO_LOCATION">无位置信息</string>
+    <string name="HOTPOT_SEARCH">搜索</string>
+    <string name="HOTPOT_SEARCHED_FOR">搜索过的内容：</string>
+    <string name="HOTPOT_SEARCH_AGAIN">再次搜索</string>
+    <string name="HOTPOT_SELECT_PLACE">选择要评分的地点</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">选择地点：</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">无法确定位置</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">正在刷新位置...</string>
+    <string name="HOTPOT_WIDGET_NAME">给地点评分</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">以{0}身份公开发布</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">发表更多评论</string>
+    <string name="HOTPOT_WIDGET_UPDATED">上次更新时间：{0} 前</string>
+    <string name="HOTPOT_WIFI_DISABLED">请打开无线和网络设置中的 Wi-Fi 功能，以便提高“给地点评分”窗口小部件的位置准确性</string>
+    <string name="HOTPOT_YOU_RATED">您的评分：</string>
+    <string name="LATITUDE_APP_NAME">谷歌纵横</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">位于{0}，与{1}分享</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">已在“{0}”报告了位置</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">要在{0}报告位置吗？</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">要报告位置吗？</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">请点按登录谷歌纵横</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">最后更新时间：{0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">该位置未知</string>
+    <string name="LOADING">正在加载</string>
+    <string name="MAPS_APP_NAME">地图</string>
+    <string name="NEED_NET_BODY">在授权允许此应用程序通过网络发送和接收数据前，您无法使用该应用程序。</string>
+    <string name="NEED_NET_TITLE">需要访问网络</string>
+    <string name="NETWORK_DATA_ERROR">此应用程序需要使用网络连接。请联络您的运营商。</string>
+    <string name="NET_FAIL_BODY">此应用程序需要有效的数据连接。</string>
+    <string name="NET_FAIL_TITLE">网络连接失败</string>
+    <string name="NET_UNAVAILABLE_TITLE">无法连接网络</string>
+    <string name="PLACES_APP_NAME">本地搜索</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">“例如，炸酱面、啤酒、音乐”</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">“最具吸引力的内容是什么？”</string>
+    <string name="RATINGS_OPTIN_CANCEL">取消</string>
+    <string name="RATINGS_OPTIN_CLOSE">关闭</string>
+    <string name="RATINGS_OPTIN_FAILED">更新失败，请稍后尝试。</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>向大家推荐&lt;/b>！在计算机上访问 &lt;b>{0}&lt;/b>，以便添加朋友并了解他们喜欢哪些地点。</string>
+    <string name="RATINGS_OPTIN_HEADING">设置您要在 Google 商家信息上公开显示的昵称。</string>
+    <string name="RATINGS_OPTIN_NICKNAME">姓名或昵称：</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">对您喜爱的餐馆、咖啡馆和其他地点进行评级，以便在搜索结果中获取符合您的个人偏好的建议。</string>
+    <string name="RATINGS_OPTIN_SAVE">开始保存</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">您对地点的评级会和此昵称一样&lt;b>公开显示在网络上&lt;/b>。&lt;a href=#>了解详情&lt;/a>。</string>
+    <string name="RATINGS_POSTING_AS">以{0}身份在网络上公开发布。</string>
+    <string name="RATINGS_POSTING_PUBLICLY">在网络上公开发布。</string>
+    <string name="RATINGS_RATE_PLACES">为什么要给地点评级？</string>
+    <string name="RATINGS_SET_APPEARANCE">设置头像</string>
+    <string name="RATINGS_WAIT">请稍候...</string>
+    <string name="SEARCH_HINT">搜索地图</string>
+    <string name="SHORT_APP_NAME">Google 地图</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">终点</string>
+    <string name="TRAFFIC_WIDGET_NAME">路况</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">窗口小部件名称</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">保存</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">起点</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">发生严重错误。请退出并重新启动。</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">未知错误</string>
+    <string name="UPGRADE_BODY">必须安装新版本才能使用此应用程序。</string>
+    <string name="UPGRADE_TITLE">软件升级</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Google 地图动态壁纸</string>
+    <string name="WALLPAPER_MAP_MODE">地图模式</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">普通</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">卫星</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">地图模式（如，卫星）</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">地形</string>
+    <string name="WALLPAPER_SETTINGS">Google 地图动态壁纸设置</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">显示路况信息</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">在地图上显示当前天气。您需要安装“天气”窗口小部件。</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">天气</string>
+</resources>

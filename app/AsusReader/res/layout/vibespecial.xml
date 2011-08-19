@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/locale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Locale" />
+    <EditText android:id="@id/region" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Region" />
+    <EditText android:id="@id/cmsurl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="CMSUrl" />
+</LinearLayout>

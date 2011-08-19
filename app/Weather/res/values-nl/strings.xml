@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Instelling weerwidget</string>
+    <string name="refreshBtn">Vernieuwen</string>
+    <string name="saveBtn">Opslaan</string>
+    <string name="cancelBtn">Annuleren</string>
+    <string name="nocityfound">Geen stad gevonden</string>
+    <string name="humidity">Vochtigheid</string>
+    <string name="winds">Wind</string>
+    <string name="infor1">Niet beschikbaar</string>
+    <string name="searchlistviewtitle">Kies een stad</string>
+    <string name="wait">Even wachten...</string>
+    <string name="refreshFail">Vernieuwen mislukt. Probeer nogmaals.</string>
+    <string name="searchFail">Zoeken mislukt. Probeer nogmaals.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNO</string>
+    <string name="dirNE">NO</string>
+    <string name="dirENE">ONO</string>
+    <string name="dirE">O</string>
+    <string name="dirESE">OZO</string>
+    <string name="dirSE">ZO</string>
+    <string name="dirSSE">ZZO</string>
+    <string name="dirS">Z</string>
+    <string name="dirSSW">ZZW</string>
+    <string name="dirSW">ZW</string>
+    <string name="dirWSW">WZW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">Voer een stad in:</string>
+    <string name="manualtitle">Locatie handmatig instellen</string>
+    <string name="refreshprogresstitle">Update weersinformatie</string>
+    <string name="refreshprogresscontent">Nu vernieuwen. Even wachten...</string>
+    <string name="searchprogresstitle">Stad zoeken</string>
+    <string name="searchprogresscontent">Nu zoeken. Even wachten...</string>
+    <string name="no_network">Netwerk is niet beschikbaar. Weerinformatie kan niet worden bijgewerkt.</string>
+    <string name="no_provider">Niet alle locatiegegevens zijn op dit moment ingeschakeld. Schakel draadloze netwerken en GPS-satellieten in Locatie- en beveiliginsinstellingen in voor een snellere en nauwkeuriger detectie van de locatie.</string>
+    <string name="title_location">Locatie</string>
+    <string name="content_autorefreshed">Auto mijn huidige locatie vernieuwen</string>
+    <string name="content_manual">Handmatig zoeken</string>
+    <string name="title_updatefreq">Update frequentie</string>
+    <string name="content_updatetime">Meest recente updatetijd</string>
+    <string name="content_selectfreq">Selecteer update frequentie</string>
+    <string name="title_others">Overig</string>
+    <string name="content_tempunit">Temperatuureenheid</string>
+</resources>

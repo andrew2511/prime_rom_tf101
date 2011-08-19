@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">%1$d hesaplar</item>
+        <item quantity="one">%1$d hesap</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">%1$d okunmamış sohbet</item>
+        <item quantity="one">%1$d okunmamış sohbet</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">%s okunmuş ileti</item>
+        <item quantity="one">%s okunmuş ileti</item>
+    </plurals>
+</resources>

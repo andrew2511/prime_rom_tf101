@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="10.000002%p" xt9:keyHeight="@dimen/key_height" xt9:horizontalGap="0.0px" xt9:verticalGap="0.0px" xt9:kdbId="2346"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row>
+        <Key xt9:codes="113" xt9:keyEdgeFlags="left" xt9:keyLabel="q" />
+        <Key xt9:codes="119" xt9:keyLabel="w" />
+        <Key xt9:codes="101" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_e" xt9:keyLabel="e" />
+        <Key xt9:codes="114" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_r" xt9:keyLabel="r" />
+        <Key xt9:codes="116" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_t" xt9:keyLabel="t" />
+        <Key xt9:codes="121" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_y" xt9:keyLabel="y" />
+        <Key xt9:codes="117" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_u" xt9:keyLabel="u" />
+        <Key xt9:codes="105" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_i" xt9:keyLabel="i" />
+        <Key xt9:codes="111" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_o" xt9:keyLabel="o" />
+        <Key xt9:codes="112" xt9:keyEdgeFlags="right" xt9:keyLabel="p" />
+    </Row>
+    <Row>
+        <Key xt9:horizontalGap="4.999995%p" xt9:codes="97" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_a" xt9:keyEdgeFlags="left" xt9:keyLabel="a" />
+        <Key xt9:codes="115" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_s" xt9:keyLabel="s" />
+        <Key xt9:codes="100" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_d" xt9:keyLabel="d" />
+        <Key xt9:codes="102" xt9:keyLabel="f" />
+        <Key xt9:codes="103" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_g" xt9:keyLabel="g" />
+        <Key xt9:codes="104" xt9:keyLabel="h" />
+        <Key xt9:codes="106" xt9:keyLabel="j" />
+        <Key xt9:codes="107" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_k" xt9:keyLabel="k" />
+        <Key xt9:codes="108" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_l" xt9:keyEdgeFlags="right" xt9:keyLabel="l" />
+    </Row>
+    <Row>
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="14.999998%p" xt9:codes="-1" xt9:keyEdgeFlags="left" xt9:isModifier="true" xt9:isSticky="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_shift" xt9:keyIcon="@drawable/sym_keyboard_shift" />
+        <Key xt9:codes="122" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_z" xt9:keyLabel="z" />
+        <Key xt9:codes="120" xt9:keyLabel="x" />
+        <Key xt9:codes="99" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_c" xt9:keyLabel="c" />
+        <Key xt9:codes="118" xt9:keyLabel="v" />
+        <Key xt9:codes="98" xt9:keyLabel="b" />
+        <Key xt9:codes="110" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_n" xt9:keyLabel="n" />
+        <Key xt9:codes="109" xt9:keyLabel="m" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyWidth="14.999998%p" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_delete" xt9:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_normal">
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_comma" xt9:keyLabel="," />
+        <Key xt9:keyWidth="29.999996%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="768" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_vi_tone" xt9:keyLabel="̀" />
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/sym_keyboard_feedback_return" xt9:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_url">
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/popup_domains" xt9:keyOutputText=".com" xt9:keyLabel=".com" />
+        <Key xt9:keyWidth="14.999998%p" xt9:keyLabel="/" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/popup_punctuation" xt9:keyLabel="." />
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/sym_keyboard_feedback_return" xt9:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_email">
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:keyLabel="," />
+        <Key xt9:keyWidth="14.999998%p" xt9:keyLabel="\@" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="768" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_vi_tone" xt9:keyLabel="̀" />
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/sym_keyboard_feedback_return" xt9:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:rowEdgeFlags="bottom" xt9:keyboardMode="@id/mode_im">
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_symbol_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_comma" xt9:keyLabel="," />
+        <Key xt9:keyWidth="29.999996%p" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="768" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_vi_tone" xt9:keyLabel="̀" />
+        <Key xt9:keyWidth="20.000004%p" xt9:popupKeyboard="@xml/popup_smileys" xt9:keyEdgeFlags="right" xt9:keyOutputText=":-) " xt9:keyLabel=":-)" />
+    </Row>
+    <Row xt9:keyboardMode="@id/keys_substitution">
+        <Key xt9:codes="-20" xt9:keyLabel="," />
+    </Row>
+</KeyboardEx>

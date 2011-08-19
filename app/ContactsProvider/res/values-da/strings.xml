@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Lagring af kontakter</string>
+    <string name="provider_label">Kontakter</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Opgradering af kontaktpersoner kræver mere hukommelse</string>
+    <string name="upgrade_out_of_memory_notification_title">Opgraderer lagerplads til kontaktpersoner</string>
+    <string name="upgrade_out_of_memory_notification_text">Vælg for at fuldføre opgraderingen.</string>
+    <string name="default_directory">Kontaktpersoner</string>
+    <string name="local_invisible_directory">Andre</string>
+</resources>

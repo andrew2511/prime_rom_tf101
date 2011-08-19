@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">연락처 %0$d개</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">연락처 %1$1$d개, 전화가 있는 연락처 %2$2$d개</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">전화번호가 포함된 연락처 %d개</item>
+        <item quantity="one">전화번호가 포함된 연락처 1개</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">연락처 %d개</item>
+        <item quantity="one">연락처 1개</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d개를 찾았습니다.</item>
+        <item quantity="one">1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d개를 찾았습니다.</item>
+        <item quantity="one">1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">수신자 %d명이 선택됨</item>
+        <item quantity="one">수신자 1명이 선택됨</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d개 출처에서 병합했습니다.</item>
+        <item quantity="one">병합되지 않았습니다.</item>
+    </plurals>
+</resources>

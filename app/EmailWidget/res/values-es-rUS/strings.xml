@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">Correo</string>
+    <string name="multiple_mails">Correos</string>
+    <string name="go_to">Band. entrada</string>
+</resources>

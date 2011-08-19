@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internet Connection</string>
+    <string name="mobile_wifi_title">Mobile network and WiFi</string>
+    <string name="wifi_title">Only WiFi connection</string>
+    <string name="setup_wizard_title">Setup Wizard</string>
+    <string name="next_button_label">Next</string>
+    <string name="welecome_title">Welcome</string>
+    <string name="btn_start_text">Start</string>
+    <string name="welcome_message">Welcome to %s</string>
+    <string name="touch_to_begin">Touch the android to begin.</string>
+    <string name="delayed_gaia_agreement">" By continuing, you agree to the "<annotation id="google_privacy">Google</annotation> and <annotation id="android_privacy">Additional</annotation>" Privacy Policies. "</string>
+</resources>

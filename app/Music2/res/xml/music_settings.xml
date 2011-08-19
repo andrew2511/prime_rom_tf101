@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/stream_settings" android:key="stream_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/account_settings_title" android:key="@string/account_settings_key" android:summary="@string/no_account_selected_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/hide_when_not_connected_title" android:key="@string/hide_when_not_connected_key" android:summary="@string/hide_when_not_connected_summary" android:disableDependentsState="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/cache_streamed_title" android:key="@string/cache_streamed_key" android:summary="@string/cache_streamed_summary" android:disableDependentsState="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/stream_only_on_wifi_title" android:key="@string/stream_only_on_wifi_key" android:summary="@string/stream_only_on_wifi_summary" android:disableDependentsState="true" />
+    <PreferenceScreen android:title="@string/refresh_title" android:key="@string/refresh_key" android:summary="@string/refresh_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/offlinedl_only_on_wifi_title" android:key="@string/offlinedl_only_on_wifi_key" android:summary="@string/offlinedl_only_on_wifi_summary" android:disableDependentsState="true" />
+    <PreferenceScreen android:title="@string/download_queue_title" android:key="@string/download_queue_key" android:summary="@string/download_queue_summary">
+        <intent android:action="com.google.android.music.DOWNLOAD_QUEUE" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/help_title" android:key="@string/help_key" android:summary="@string/help_summary" />
+    <PreferenceScreen android:title="@string/music_version_title" android:key="music_version_key" android:summary="@string/music_version_summary" />
+</PreferenceScreen>

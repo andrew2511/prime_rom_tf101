@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Odstrániť zvýraznenie</item>
+        <item>Zrušiť</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Pridať zvýraznenie</item>
+        <item>Preklad</item>
+        <item>Text na reč</item>
+        <item>Zrušiť</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Anglicky</item>
+        <item>Francúzsky</item>
+        <item>Japonsky</item>
+        <item>Čínsky</item>
+        <item>Nemecky</item>
+        <item>Zjednodušená čínština</item>
+        <item>Ruština</item>
+        <item>Španielčina</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Z anglického do čínskeho jazyka</item>
+        <item>Z anglického do francúzskeho jazyka</item>
+        <item>Z anglického do ruského jazyka</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d of %2$2$d books</item>
+        <item quantity="one">One book</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Sorry, concurrent reading of this book is limited to %1$d devices or computers and you have reached this limit. Please close this book in other readers, wait a few minutes and try again.</item>
+        <item quantity="one">Sorry, concurrent reading of this book is limited to one device or computer and you have reached this limit. Please close this book in other readers, wait a few minutes and try again.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TreeBoy" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/bg_treeboy</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Library" parent="@style/Theme.TreeBoy" />
+    <style name="Theme.Library.WithTitle" parent="@style/Theme.Library">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="Theme.Library.Menus" parent="@android:style/Theme" />
+    <style name="Theme.Invisible" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="Theme.NoTitleBar.NoBackground" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="Theme.HiddenTitleBar" parent="@style/Theme.NoTitleBar.NoBackground" />
+    <style name="Theme.ReaderStyle" parent="@style/Theme.HiddenTitleBar" />
+    <style name="Theme.NoTitleBar.Transparent" parent="@style/Theme.NoTitleBar.NoBackground">
+        <item name="android:windowBackground">@color/dark_overlay</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.TransientScreen" parent="@style/Theme.Library" />
+    <style name="Theme.Splash" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskCloseExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskToFrontEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskToFrontExitAnimation">@android:anim/fade_out</item>
+        <item name="android:taskToBackEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:taskToBackExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="Theme.EditNote" parent="@android:style/Theme.InputMethod">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">stateVisible|adjustResize</item>
+    </style>
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="fill_width">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="default_style" parent="@style/wrap">
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <style name="default_style_fill" parent="@style/fill">
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <style name="default_style_fill_width" parent="@style/fill_width">
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <style name="default_theme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="text" parent="@style/default_style">
+        <item name="android:textColor">@color/text_default</item>
+    </style>
+    <style name="text.bold" parent="@style/text">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="clickable_text" parent="@style/default_style">
+        <item name="android:textColor">@color/link_text_selector</item>
+        <item name="android:background">@color/link_background_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="title" parent="@style/text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/amazon_blue</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:text">@string/info_title</item>
+    </style>
+    <style name="visual_separator">
+        <item name="android:background">@color/visual_separator</item>
+        <item name="android:layout_height">@dimen/row_separator_height</item>
+    </style>
+    <style name="list_section_header" parent="@style/fill_width">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#ff2a2a2a</item>
+        <item name="android:padding">3.0dip</item>
+    </style>
+    <style name="library_heading">
+        <item name="android:textSize">11.199982dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffd5d5d5</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="library_type_label" parent="@style/library_heading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="library_sort_label" parent="@style/library_heading">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="library_state_item" parent="@style/library_heading" />
+    <style name="library_state_item_count" parent="@style/library_state_item" />
+    <style name="library_state_item_label" parent="@style/library_state_item" />
+    <style name="library_row_text" parent="@style/wrap">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="library_back_issues_row_text" parent="@style/library_row_text">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="library_book_row_text" parent="@style/library_row_text">
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="library_book_row_text.title" parent="@style/library_book_row_text">
+        <item name="android:textSize">@dimen/library_book_row_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="library_book_row_text.author" parent="@style/library_book_row_text">
+        <item name="android:textSize">@dimen/library_book_row_author_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="library_book_row_text.downloading" parent="@style/library_book_row_text">
+        <item name="android:textSize">@dimen/library_book_row_downloading_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="cover_title_tag" parent="@style/fill_width">
+        <item name="android:textSize">@dimen/library_cover_title_text_size</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="cover_sample_tag" parent="@style/fill_width">
+        <item name="android:textSize">@dimen/library_cover_sample_text_size</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff990000</item>
+        <item name="android:text">@string/cover_sample_tag</item>
+    </style>
+    <style name="cover_keep_tag" parent="@style/wrap">
+        <item name="android:textSize">@dimen/library_cover_subtitle_text_size</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/home_keep</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:text">@string/cover_keep_tag</item>
+    </style>
+    <style name="cover_subtitle" parent="@style/fill_width">
+        <item name="android:textSize">@dimen/library_cover_subtitle_text_size</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="cover_author_tag" parent="@style/cover_subtitle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="cover_dim_view" parent="@style/fill">
+        <item name="android:background">@drawable/bg_book_dim_gradient</item>
+    </style>
+    <style name="transient_text" parent="@style/fill_width">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="transient_text.downloading" parent="@style/transient_text">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+    </style>
+    <style name="transient_text.title" parent="@style/transient_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">12.0dip</item>
+    </style>
+    <style name="transient_text.author" parent="@style/transient_text">
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+    </style>
+    <style name="transient_text_percent" parent="@style/wrap">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="transient_text_progress" parent="@style/wrap">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="transient_pause_resume_buttons">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/selection_buttons_transient</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="periodical_header">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="periodical_header_title" parent="@style/periodical_header">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="periodical_section_title">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="periodical_section_articles">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="prev_next_all_buttons">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="reader_overlay_container" parent="@style/fill_width">
+        <item name="android:background">@color/overlay</item>
+    </style>
+    <style name="reader_overlay_container.title" parent="@style/reader_overlay_container">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+    <style name="reader_overlay_container.location" parent="@style/reader_overlay_container">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">18.0dip</item>
+    </style>
+    <style name="reader_overlay_seek_bar" parent="@style/fill_width">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+    </style>
+    <style name="reader_overlay_text_base" parent="@style/wrap">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffd5d5d5</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+    </style>
+    <style name="reader_overlay_text" parent="@style/reader_overlay_text_base">
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="reader_overlay_text.title" parent="@style/reader_overlay_text">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="reader_overlay_text.chapter" parent="@style/reader_overlay_text">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="reader_overlay_text.location" parent="@style/reader_overlay_text">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+    </style>
+    <style name="selection_buttons" parent="@style/wrap">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="sync_message_container" parent="@style/fill_width">
+        <item name="android:background">@color/overlay</item>
+    </style>
+    <style name="sync_message_text" parent="@style/wrap">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="sync_progress_indicator" parent="@style/wrap">
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="sign_in" parent="@style/fill">
+        <item name="android:paddingLeft">23.0dip</item>
+        <item name="android:paddingRight">23.0dip</item>
+    </style>
+    <style name="sign_in.port" parent="@style/sign_in">
+        <item name="android:paddingTop">28.0dip</item>
+        <item name="android:paddingBottom">32.0dip</item>
+    </style>
+    <style name="sign_in.land" parent="@style/sign_in">
+        <item name="android:paddingTop">21.0dip</item>
+        <item name="android:paddingBottom">19.0dip</item>
+    </style>
+    <style name="kindle_logo_port" parent="@style/wrap">
+        <item name="android:layout_marginBottom">24.0dip</item>
+    </style>
+    <style name="kindle_logo_land" parent="@style/wrap">
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+    <style name="sign_in_prompt" parent="@style/wrap">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="sign_in_text_input" parent="@style/fill_width">
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="sign_in_text_input.email" parent="@style/sign_in_text_input">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+    <style name="sign_in_text_input.password" parent="@style/sign_in_text_input">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:password">true</item>
+    </style>
+    <style name="sign_in_button" parent="@style/wrap">
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:layout_marginRight">13.0dip</item>
+        <item name="android:layout_marginBottom">13.0dip</item>
+    </style>
+    <style name="sign_in_text_base" parent="@style/wrap">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/sign_in_link_selector</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="sign_in_text" parent="@style/sign_in_text_base">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="sign_in_account_links" parent="@style/sign_in_text">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="sign_in_account_links.sublink" parent="@style/sign_in_account_links">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="sign_in_account_button" parent="@style/fill_width">
+        <item name="android:paddingTop">13.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+    <style name="sign_in_account_button.top" parent="@style/sign_in_account_button">
+        <item name="android:paddingTop">3.0dip</item>
+    </style>
+    <style name="sign_in_account_button.bottom" parent="@style/sign_in_account_button">
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="sign_in_link_rule" parent="@style/fill_width">
+        <item name="android:background">#1af9f9f9</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="sign_in_create_account">
+        <item name="android:background">@drawable/bkgd_links</item>
+    </style>
+    <style name="empty_library_layout" parent="@style/fill">
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">23.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+    </style>
+    <style name="empty_home_row" parent="@style/fill_width">
+        <item name="android:paddingBottom">22.0dip</item>
+    </style>
+    <style name="empty_home_icon" parent="@style/wrap">
+        <item name="android:paddingTop">5.0dip</item>
+    </style>
+    <style name="empty_home_instruction" parent="@style/fill_width">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="bullets_table" parent="@style/wrap">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:shrinkColumns">1</item>
+    </style>
+    <style name="bullet_row">
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+    </style>
+    <style name="bullet_image" parent="@style/wrap">
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">9.0sp</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:src">@drawable/ic_dialog_bullet</item>
+    </style>
+    <style name="bullet_text" parent="@style/fill_width">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="whats_new_version" parent="@style/wrap">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+    </style>
+    <style name="view_options_background" parent="@style/wrap">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/view_menu</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+    </style>
+    <style name="view_options_container" parent="@style/fill">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:descendantFocusability">afterDescendants</item>
+    </style>
+    <style name="view_options_row" parent="@style/wrap">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">13.0dip</item>
+        <item name="android:paddingRight">13.0dip</item>
+    </style>
+    <style name="view_options_row.text_size" parent="@style/view_options_row">
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">14.0dip</item>
+    </style>
+    <style name="view_options_row.color" parent="@style/view_options_row">
+        <item name="android:paddingTop">14.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+    </style>
+    <style name="view_options_row.brightness" parent="@style/view_options_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">63.0dip</item>
+    </style>
+    <style name="view_options_rule">
+        <item name="android:background">#ffcccccc</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="view_options_color_button">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">75.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="view_options_color_button.middle" parent="@style/view_options_color_button">
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+    <style name="view_options_color_button.white" parent="@style/view_options_color_button">
+        <item name="android:textColor">@color/reader_text_black</item>
+        <item name="android:background">@drawable/btn_white_normal</item>
+    </style>
+    <style name="view_options_color_button.sepia" parent="@style/view_options_color_button">
+        <item name="android:textColor">@color/reader_text_brown</item>
+        <item name="android:background">@drawable/btn_sepia_normal</item>
+    </style>
+    <style name="view_options_color_button.black" parent="@style/view_options_color_button">
+        <item name="android:textColor">@color/reader_text_white</item>
+        <item name="android:background">@drawable/btn_black_normal</item>
+    </style>
+    <style name="view_options_brightness_slider" parent="@style/fill_width">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="view_options_text_size_button" parent="@style/wrap">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="view_options_text_size_button.marginRight" parent="@style/view_options_text_size_button">
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="view_options_auto_brightness_message">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/reader_text_black</item>
+        <item name="android:background">@drawable/auto_brightness_message_background</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="notes_list" parent="@style/fill">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="notes_list_item" parent="@style/default_style_fill_width">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="notes_list_item_header" parent="@style/fill_width">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="notes_list_item_detail" parent="@style/fill_width">
+        <item name="android:lines">2</item>
+    </style>
+    <style name="search_results_top" parent="@style/fill">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">13.0dip</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="search_results_term" parent="@style/fill">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">13.0dip</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="image_zoom_buttons" parent="@style/wrap">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+    </style>
+    <style name="image_zoom_buttons.left" parent="@style/image_zoom_buttons">
+        <item name="android:background">@drawable/zoom_button_left</item>
+    </style>
+    <style name="image_zoom_buttons.right" parent="@style/image_zoom_buttons">
+        <item name="android:background">@drawable/zoom_button_right</item>
+    </style>
+    <style name="Widget.ProgressBar.Horizontal.Downloading" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">15.0dip</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal_downloading</item>
+    </style>
+    <style name="download_notification" parent="@android:style/TextAppearance.Holo.Widget.Button">
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="download_notification.title" parent="@style/download_notification">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="download_notification.subtitle" parent="@style/download_notification">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="download_notification.percentage" parent="@style/download_notification">
+        <item name="android:textSize">11.0sp</item>
+    </style>
+    <style name="definition_container_title">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="definition_container_text">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="definition_container_link">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:padding">10.0dip</item>
+    </style>
+    <style name="reading_progress" parent="@style/wrap" />
+    <style name="book_row_download_progress" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="gallery_info_text" parent="@style/fill_width">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="gallery_info_text.title" parent="@style/gallery_info_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">12.0dip</item>
+    </style>
+    <style name="gallery_info_text.author" parent="@style/gallery_info_text">
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+    </style>
+    <style name="gallery_info_text_percent" parent="@style/wrap">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="gallery_info_text_progress" parent="@style/wrap">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

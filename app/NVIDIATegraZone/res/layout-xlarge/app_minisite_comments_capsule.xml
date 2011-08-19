@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/appminisite_comments_and_ratings" style="@style/BoxedSectionHeading" />
+    <RelativeLayout android:id="@id/commentsBodyArea" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="240.0dip" style="@style/BoxedSectionBody">
+        <RelativeLayout android:id="@id/commentsAndRatingsViewMoreLink" android:background="@drawable/capsule_transparent_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:layout_alignParentTop="true" style="@style/genericDivider" />
+            <TextView android:textStyle="bold" android:id="@id/commentsAndRatingsViewMoreText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appminisite_view_more" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/commentsAndRatingsArea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/commentsAndRatingsViewMoreLink">
+            <RelativeLayout android:id="@id/ratingArea" android:background="@drawable/capsule_transparent_background" android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="180.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:id="@id/commentCountLabel" android:padding="10.0dip" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    <RatingBar android:id="@id/ratingBar" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" android:layout_below="@id/commentCountLabel" style="@style/ratingStarsSmall" />
+                </LinearLayout>
+                <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/rateThisGameButton" android:background="@drawable/green_button" android:paddingLeft="17.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:text="@string/rate_this_add_rating" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TopCapsuleBuyNow" />
+                <ImageView android:layout_alignParentBottom="true" style="@style/genericDivider" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/firstCommentArea" android:padding="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/firstCommentTitle" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <RatingBar android:id="@id/firstCommentRatingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ratingStarsSmall" />
+                <TextView android:textSize="13.0sp" android:id="@id/firstCommentSourceText" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="By Kevin" android:layout_below="@id/firstCommentTitle" />
+                <TextView android:id="@id/firstCommentPreviewText" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:lines="3" android:layout_below="@id/firstCommentSourceText" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

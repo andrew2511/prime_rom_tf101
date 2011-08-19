@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minutos</string>
+    <string name="postpone">Posponer</string>
+    <string name="update">Actualizar</string>
+    <string name="asus_received_title">Servicio de actualización de Asus</string>
+    <string name="received_message">Nueva actualización disponible.</string>
+    <string name="firmware_update_title">Actualizar firmware</string>
+    <string name="firmware_update_fail">"Error de actualización.
+
+El dispositivo recuperará la configuración original."</string>
+    <string name="low_battery_title">Finalización de la actualización del sistema</string>
+    <string name="low_battery_warning">"El sistema necesita que la batería esté cargada al menos al 50% para continuar con el proceso de actualización del sistema.
+Cargue la batería antes de actualizar el sistema."</string>
+    <string name="confirmDownload_text1">¿Desea descargar la siguiente actualización del sistema?</string>
+    <string name="confirmDownload_textok">Presione SÍ para aceptar esta actualización.</string>
+    <string name="confirmDownload_textcancel">Presione NO para descartar esta actualización.</string>
+    <string name="confirmDownload_textwifi">Es recomendable utilizar una zona con cobertura WiFi gratuita o un plan de datos ilimitado para descargar esta actualización.</string>
+    <string name="confirmDownload_textwifi2">Si no sigue esta indicación, se pueden aplicar tarifas por conexión de datos estándar.</string>
+    <string name="btn_text_later">Más tarde</string>
+    <string name="confirmDownload_dialog_title">Precaución, se encuentra en estado de itinerancia.</string>
+    <string name="update_dialog_text">"Se ha descargado una nueva actualización de software para su teléfono. ¿Desea instalarla ahora? 
+"</string>
+    <string name="downloading">Descargando firmware...</string>
+    <string name="install_time">Tiempo de instalación estimado:</string>
+    <string name="install">Instalar</string>
+    <string name="received_ticker">Nueva actualización disponible.</string>
+    <string name="dl_received_ticker">Nueva actualización disponible.</string>
+    <string name="dl_received_message">Hay una actualización. Presione aquí para descargarla.</string>
+    <string name="postponetime_text">Tiempo pospuesto:</string>
+    <string name="reach_max_net_fail">Descarga del servidor anulada. Inténtelo de nuevo más tarde.</string>
+    <string name="dlg_title_checking">Comprobación de integridad.</string>
+    <string name="dlg_msg_checking">Comprobando la integridad del archivo de firmware.</string>
+    <string name="cannot_set_to_browser">No se puede establecer para explorar.</string>
+    <string name="upgrade_error">Error de actualización. Vuelva a descargar el paquete de actualización.</string>
+    <string name="start_to_download">Comience a descargar el paquete de actualización importante.</string>
+    <string name="start_to_upgrade">Comience actualizar el paquete de actualización.</string>
+    <string name="Start_NI_DmSession">DMSession inicial de red. ¿Aceptar?</string>
+    <string name="prepare_dm_download">Preparando descarga...</string>
+    <string name="download_finished">Descarga de firmware finalizada...</string>
+    <string name="download_notification_title">Servicio de actualización de T-Mobile</string>
+    <string name="download_in_progress">Descarga de nuevo firmware en curso</string>
+    <string name="out_of_mem_warning">No hay suficiente espacio disponible en el teléfono.esinstale algunas aplicaciones e inténtelo de nuevo.</string>
+    <string name="btn_register">registrar C2DM</string>
+    <string name="btn_unregister">anular el registro de C2DM</string>
+    <string name="ui_alert_input_hint">Escriba texto.</string>
+    <string name="ui_alert_input_numeric_hint">Escriba valores numéricos</string>
+    <string name="ui_alert_input_phone_number_hint">Número de teléfono</string>
+</resources>

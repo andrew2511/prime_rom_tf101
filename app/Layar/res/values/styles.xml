@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LayarTheme.Black" parent="@android:style/Theme.Black">
+        <item name="android:buttonStyle">@style/BaseButton</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SectionHeaderText</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+    </style>
+    <style name="LayarTheme.Light" parent="@android:style/Theme.Light">
+        <item name="android:buttonStyle">@style/BaseButton</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SectionHeaderText</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+    </style>
+    <style name="LayarTheme" parent="@style/LayarTheme.Light" />
+    <style name="LayarTitleTheme.Black" parent="@style/LayarTheme.Black">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="LayarTitleTheme.Light" parent="@style/LayarTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="LayarTitleTheme" parent="@style/LayarTitleTheme.Light" />
+    <style name="LayarBlackTheme" parent="@style/LayarTitleTheme.Black">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="FullScreenTheme" parent="@style/LayarTitleTheme">
+        <item name="android:buttonStyle">@style/BaseButton</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="StandartButtonsTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ARTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MainScreenTheme" parent="@style/FullScreenTheme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="FilterTheme" parent="@style/LayarTheme.Black">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/FilterTextView</item>
+    </style>
+    <style name="FilterTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="IntroTheme" parent="@android:style/Theme.Light">
+        <item name="android:buttonStyle">@style/BaseButton</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SectionHeaderText</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+    </style>
+    <style name="IntroLink">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/intro_link</item>
+    </style>
+    <style name="AppDialogTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="BiwDialogTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/transparency</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SmartDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="TabTheme" parent="@style/LayarTitleTheme">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="LargeButton">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_large_x</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AudioSeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">19.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/slider_background</item>
+        <item name="android:progressDrawable">@drawable/slider_background</item>
+        <item name="android:minHeight">19.0dip</item>
+        <item name="android:thumb">@drawable/btn_player_slider</item>
+        <item name="android:thumbOffset">0.0dip</item>
+    </style>
+    <style name="SubsectionButtonText">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BaseListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@color/default_list_bg_color</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">@color/default_list_bg_color</item>
+        <item name="android:divider">@color/default_list_divider_color</item>
+        <item name="android:dividerHeight">1.0dip</item>
+    </style>
+    <style name="BaseButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_bottom</item>
+    </style>
+    <style name="FullRowButton" parent="@style/BaseButton">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ButtonsBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/bottom_menu_background_p</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DefaultText" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="PopupMenuText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/popup_menu_item_text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TitleText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="TabTitleText" parent="@style/TitleText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="CategoriesTitleText" parent="@style/TitleText">
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="BoldTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/preference_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DescriptionText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/details_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="DetailsText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/details_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SectionHeaderText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_text_color_light</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/header_bar</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="BottomScreenshotBarText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_text_color_light</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="LoadingMoreText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/layerlist_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DetailsText.Light" parent="@style/DetailsText" />
+    <style name="DetailsText.Black" parent="@style/DetailsText">
+        <item name="android:textColor">@color/preference_text</item>
+    </style>
+    <style name="PreferenceTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PreferenceValueText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="LogoImage" parent="@android:style/Widget">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">45.0dip</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:layout_margin">4.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="Throbber" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">32.0dip</item>
+        <item name="android:maxHeight">32.0dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/throbber_light_x</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:minWidth">24.0dip</item>
+        <item name="android:minHeight">24.0dip</item>
+    </style>
+    <style name="Throbber.Light" parent="@style/Throbber" />
+    <style name="Throbber.Black" parent="@style/Throbber">
+        <item name="android:indeterminateDrawable">@drawable/throbber_dark_x</item>
+    </style>
+</resources>

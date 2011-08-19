@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Market Feedback Agent</string>
+    <string name="feedback">Feedback</string>
+    <string name="report_feedback">Report error</string>
+    <string name="report_error_in">Report error in %s</string>
+    <string name="system_log">System log</string>
+    <string name="event_log">Event log</string>
+    <string name="preview">Preview</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="preview_feedback">Preview feedback</string>
+    <string name="no_data">No data</string>
+    <string name="fetching_system_log">Fetching system log...</string>
+    <string name="fetching_event_log">Fetching event log...</string>
+    <string name="privacy">Privacy</string>
+    <string name="include_system_data">Include system data</string>
+    <string name="this_will_help">Share system data with Google, to better diagnose the problem.</string>
+    <string name="privacy_policy"><a href="notused">Privacy policy</a></string>
+    <string name="unknown_app">Unknown application</string>
+    <string name="cant_save_report">Could not save error report. No space left on device.</string>
+    <string name="report_being_sent">Thanks, your report is being sent.</string>
+    <string name="optional_description">Description (optional)</string>
+    <string name="tos_activity_title">Google legal</string>
+    <string name="tos_activity_unsuccessful_message">Your phone is not connected to a data service. To view this information now, browse to %s on any computer connected to the Internet.</string>
+    <string name="tos_accept">Accept</string>
+    <string name="tos_decline">Decline</string>
+</resources>

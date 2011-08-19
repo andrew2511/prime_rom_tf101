@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.BookInfo android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/book_info_open" android:background="@drawable/asus_ep_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="70.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onClick" />
+    <ImageView android:id="@id/book_cover" android:layout_width="75.0px" android:layout_height="112.0px" android:layout_marginLeft="71.0px" android:layout_marginTop="86.0px" android:src="@drawable/asus_ep_book_cover_small" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:id="@id/book_ribbon" android:background="@drawable/asus_ep_ribbon" android:visibility="invisible" android:layout_width="11.0px" android:layout_height="58.0px" android:layout_marginLeft="81.0px" android:layout_marginTop="85.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/book_info_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="208.0px" android:layout_marginTop="70.0px" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/book_info_auther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="208.0px" android:layout_marginTop="114.0px" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ScrollView android:background="@null" android:paddingRight="30.0px" android:paddingBottom="30.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="208.0px" android:layout_marginTop="171.0px">
+        <TextView android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/book_info_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150.0px" android:layout_marginTop="70.0px" android:src="@drawable/asus_ep_reader_line" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</com.asus.reader.ui.BookInfo>

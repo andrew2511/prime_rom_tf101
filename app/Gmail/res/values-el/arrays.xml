@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Απάντηση</item>
+        <item>Απάντ. σε όλους</item>
+        <item>Προώθηση</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Αρχειοθέτηση</item>
+        <item>Διαγραφή</item>
+        <item>Αποστολή</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Νεότερη συνομιλία</item>
+        <item>Παλαιότερη συνομιλία</item>
+        <item>Λίστα συνομιλίας</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Εμφάνιση νεότερης συνομιλ. μετά τη διαγραφή, αρχειοθ. κ.ά.</item>
+        <item>Εμφάνιση παλαιότερης συνομιλ. μετά τη διαγρ., αρχειοθ. κ.ά.</item>
+        <item>Εμφάνιση λίστας συνομιλιών μετά τη διαγραφή, αρχειοθ. κ.ά.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Πολύ μικρό</item>
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>Πολύ μεγάλο</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Εμφάν. περιεχομένου μηνυμάτων σε κείμενο πολύ μικρού μεγέθ.</item>
+        <item>Εμφάνιση περιεχομένου μηνυμάτων σε κείμενο μικρού μεγέθους</item>
+        <item>Εμφάνιση περιεχομένου μηνυμάτων σε κείμενο κανονικού μεγέθ.</item>
+        <item>Εμφάνιση περιεχομένου μηνυμάτων σε κείμενο μεγάλου μεγέθους</item>
+        <item>Εμφάν. περιεχομένου μηνυμάτων σε κείμενο πολύ μεγάλου μεγέθ.</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Πάντα</item>
+        <item>Μόνο στο αθόρυβο</item>
+        <item>Ποτέ</item>
+    </string-array>
+</resources>

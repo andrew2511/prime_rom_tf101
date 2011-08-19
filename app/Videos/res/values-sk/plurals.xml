@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Vyprší o: %1$d d.</item>
+        <item quantity="one">Plat. vyprší o 1 deň</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Vyprší o: %1$d hod.</item>
+        <item quantity="one">Plat. vyprší o 1 hod.</item>
+    </plurals>
+</resources>

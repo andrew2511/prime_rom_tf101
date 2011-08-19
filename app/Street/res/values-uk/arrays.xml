@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>Пн</item>
+        <item>Пн-Сх</item>
+        <item>Сх</item>
+        <item>Пд-Сх</item>
+        <item>Пд</item>
+        <item>Пд-Зх</item>
+        <item>Зх</item>
+        <item>Пд-Зх</item>
+    </string-array>
+</resources>

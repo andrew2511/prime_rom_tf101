@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Nummer kan sorteras efter datum eller titel. Välj dessa från flikarna längst upp på skärmen.</item>
+        <item>"Behöver du mer att läsa?
+Välj köp-knappen längst ner på skärmen eller gå till online-affären för de senaste publikationerna och artiklarna."</item>
+        <item>Välj menyn för att se fler alternativ - som köp, mer, ta bort och logga ut.</item>
+        <item>Välj att ett nummer laddas ned automatiskt medan du läser, ELLER så kan du välja nedladdningsknappen för att spara den lokalt för senare läsning.</item>
+    </string-array>
+</resources>

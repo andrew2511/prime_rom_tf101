@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/text_box_left_right_padding" android:paddingRight="@dimen/text_box_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/expand_command" android:background="@drawable/header_bar_button" android:paddingLeft="@dimen/text_box_inner_left_right_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/expand_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/walk_step_expander_minimized" />
+        <TextView android:id="@id/expand_summary" android:paddingLeft="4.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ExpandCollapseAppearance" />
+    </LinearLayout>
+</LinearLayout>

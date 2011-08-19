@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Výber tapety</string>
+    <string name="wallpaper_chooser_empty">K dispozícii nie sú žiadne tapety</string>
+    <string name="wallpaper_cancel">Zrušiť</string>
+</resources>

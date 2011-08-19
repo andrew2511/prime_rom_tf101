@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FileManagerActivity" parent="@android:style/Theme.Holo">
+        <item name="android:actionOverflowButtonStyle">@style/Ep.ActionButton.Overflow</item>
+    </style>
+    <style name="Ep.ActionButton.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/asus_ep_ic_menu_moreoverflow</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_minisite_top_capsule_id" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <ImageView android:id="@id/bgImage" android:layout_alignParentTop="true" style="@style/TopCapsule" />
+    <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_appicon_95" />
+    <TextView android:id="@id/firstAppLine" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:text="" android:layout_toRightOf="@id/icon" style="@style/TopCapsuleDeveloperName" />
+    <TextView android:id="@id/secondAppLine" android:text="" android:layout_toRightOf="@id/icon" android:layout_below="@id/firstAppLine" style="@style/TopCapsuleAppName" />
+    <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" android:layout_toRightOf="@id/icon" android:layout_below="@id/secondAppLine" style="@style/ratingStarsSmall" />
+    <TextView android:id="@id/thirdAppLine" android:text="" android:layout_toRightOf="@id/ratingbar" android:layout_below="@id/secondAppLine" style="@style/TopCapsuleReviews" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_below="@id/thirdAppLine">
+        <Button android:id="@id/buyApp" android:background="@drawable/green_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/getItNow" android:layout_centerVertical="true" style="@style/TopCapsuleBuyNow" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/priceOrReleaseDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <View android:background="@drawable/phone_divider_gradient" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

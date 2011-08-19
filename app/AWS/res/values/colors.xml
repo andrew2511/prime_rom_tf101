@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="awsbgcolor">#ffe4f0f7</color>
+    <color name="btntextcolor">#ff505050</color>
+    <color name="headertext">#ff5c7c8c</color>
+    <color name="spacetext">#ff86a0bb</color>
+    <color name="black">#ff000000</color>
+    <color name="sett_title">#ff37464b</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Aktualizace firmwaru modemu úspěšně dokončena</string>
+    <string name="update_fail">Aktualizace firmwaru modemu selhala</string>
+    <string name="update_quz" formatted="false">"Aktualizace trvá 3 - 5 minut a baterie musí být na začátku nabita na nejméně 15 %.
+
+Před zahájením zkontrolujte, zda ukazatel stavu baterie ukazuje více než 15 %.
+
+Chcete spustit aktualizaci firmwaru modemu?"</string>
+    <string name="notify_title">Služba aktualizace Asus</string>
+    <string name="notify">K dispozici je aktualizace firmwaru modemu.</string>
+    <string name="warning_title">Varování</string>
+    <string name="warning">"NEVYPÍNEJTE zařízení v průběhu aktualizace.
+
+Neplánované přerušení způsobí nevratné poškození.
+
+Chcete spustit aktualizaci firmwaru modemu?"</string>
+    <string name="battery_low" formatted="false">"Baterie musí být na začátku nabita na nejméně 15 %.
+
+Před zahájením zkontrolujte, zda ukazatel stavu baterie ukazuje více než 15 %."</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

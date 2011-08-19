@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Usuń wyróżnienie</item>
+        <item>Anuluj</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Dodaj wyróżnienie</item>
+        <item>Tłumaczenie</item>
+        <item>Zamiana tekstu na mowę</item>
+        <item>Anuluj</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Angielski</item>
+        <item>Francuski</item>
+        <item>Japoński</item>
+        <item>Chiński</item>
+        <item>Niemiecki</item>
+        <item>Uproszczony Chiński</item>
+        <item>Rosyjski</item>
+        <item>Hiszpański</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Z angielskiego na chiński</item>
+        <item>Z angielskiego na francuski</item>
+        <item>Z angielskiego na rosyjski</item>
+    </string-array>
+</resources>

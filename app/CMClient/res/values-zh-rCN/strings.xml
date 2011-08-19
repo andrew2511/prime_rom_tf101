@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">10分钟的时间</string>
+    <string name="postpone">稍后</string>
+    <string name="update">升级</string>
+    <string name="asus_received_title">Asus升级服务</string>
+    <string name="received_message">有新的升级</string>
+    <string name="firmware_update_title">固件升级</string>
+    <string name="firmware_update_fail">升级失败，您的设备将恢复默认值。</string>
+    <string name="low_battery_title">系统升级结束</string>
+    <string name="low_battery_warning">系统需要至少50%的电力进行升级程序，请在进行升级前为您的设备充电。</string>
+    <string name="confirmDownload_text1">您确定要下载以下的升级吗？</string>
+    <string name="confirmDownload_textok">请点击是以进行升级。</string>
+    <string name="confirmDownload_textcancel">请点击否以放弃升级。</string>
+    <string name="confirmDownload_textwifi">建议您使用免费的WiFi热点或数据传输量不受限的资费方案来下载此升级。</string>
+    <string name="confirmDownload_textwifi2">否则您可能需要负担数据传输费用。</string>
+    <string name="btn_text_later">稍后</string>
+    <string name="confirmDownload_dialog_title">注意，您正在漫游中。</string>
+    <string name="update_dialog_text">软件升级已下载完成，是否进行安装？</string>
+    <string name="downloading">下载固件...</string>
+    <string name="install_time">估计安装时间:</string>
+    <string name="install">安装</string>
+    <string name="received_ticker">有新的升级</string>
+    <string name="dl_received_ticker">有新的升级</string>
+    <string name="dl_received_message">请点击此处以下载升级。</string>
+    <string name="postponetime_text">所需时间:</string>
+    <string name="reach_max_net_fail">服务器未回应，请稍后再试。</string>
+    <string name="dlg_title_checking">完整性检查</string>
+    <string name="dlg_msg_checking">检查固件文件</string>
+    <string name="cannot_set_to_browser">无法设置至浏览器</string>
+    <string name="upgrade_error">升级错误，请重新下载升级文件。</string>
+    <string name="start_to_download">开始下载主要升级软件</string>
+    <string name="start_to_upgrade">开始升级软件</string>
+    <string name="Start_NI_DmSession">是否接受网络初始会话协定(Network Initial DMSession)?</string>
+    <string name="prepare_dm_download">准备下载...</string>
+    <string name="download_finished">固件下载完成...</string>
+    <string name="download_notification_title">T-Mobile升级服务</string>
+    <string name="download_in_progress">新固件正在下载中</string>
+    <string name="out_of_mem_warning">剩余空间不足，请卸除其他应用程序后稍后再试。</string>
+    <string name="btn_register">注册C2DM</string>
+    <string name="btn_unregister">反注册C2DM</string>
+    <string name="ui_alert_input_hint">请输入文字</string>
+    <string name="ui_alert_input_numeric_hint">请输入数字</string>
+    <string name="ui_alert_input_phone_number_hint">电话号码</string>
+</resources>

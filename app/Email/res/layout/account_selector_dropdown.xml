@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxWidth="@dimen/account_spinner_dropdown_account_name_max_width" android:layout_weight="1.0">
+        <TextView android:id="@id/display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/account_spinner_dropdown_account_name_max_width" style="@style/action_bar_account_name" />
+        <TextView android:id="@id/email_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/account_spinner_dropdown_account_name_max_width" style="@style/action_bar_account_name_secondary" />
+    </LinearLayout>
+    <TextView android:gravity="right|center" android:id="@id/unread_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" style="@style/action_bar_unread_count" />
+</LinearLayout>

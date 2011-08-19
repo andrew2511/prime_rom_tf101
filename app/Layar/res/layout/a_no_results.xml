@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/empty" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/spotlight_search_text_color" android:gravity="center" android:id="@android:id/text1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_no_results_without_try" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/spotlight_search_text_color" android:gravity="center" android:id="@android:id/text2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_something_went_wrong" />
+</LinearLayout>

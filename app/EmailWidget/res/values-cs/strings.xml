@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">zpráva</string>
+    <string name="multiple_mails">zprávy</string>
+    <string name="go_to">Přijatá pošta</string>
+</resources>

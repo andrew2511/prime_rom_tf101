@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Expiră în %1$d zile</item>
+        <item quantity="one">Expiră într-o zi</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Expiră în %1$d ore</item>
+        <item quantity="one">Expiră într-o oră</item>
+    </plurals>
+</resources>

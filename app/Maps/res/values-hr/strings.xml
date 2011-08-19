@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Karte</string>
+    <string name="da_google_maps_navigation">Navigacija pomoću Google Karata</string>
+    <string name="da_net_fail_title">Neuspjeh mreže</string>
+    <string name="da_net_fail_body">Ova aplikacija zahtijeva aktivnu podatkovnu vezu.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Odredište</string>
+    <string name="da_toward">prema %1$s</string>
+    <string name="da_onto">na cestu %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"zatim
+%1$s"</string>
+    <string name="da_continue_for_distance">Nastavite još %1$s</string>
+    <string name="da_destination_will_be_on_the_left">vaše odredište bit će na lijevoj strani.</string>
+    <string name="da_destination_will_be_on_the_right">vaše odredište će biti na desnoj strani.</string>
+    <string name="da_you_will_reach_destination">stići ćete na odredište.</string>
+    <string name="da_destination_on_the_left">Odredište je na lijevoj strani.</string>
+    <string name="da_destination_on_the_right">Odredište je na desnoj strani.</string>
+    <string name="da_destination_reached">Stigli ste.</string>
+    <string name="da_speech_lost_gps">Izgubljen GPS signal</string>
+    <string name="da_speech_lost_data_connection">Podatkovna veza izgubljena</string>
+    <string name="da_speech_navigation_resumed">Navigacija je nastavljena</string>
+    <string name="da_speech_please_describe_problem">Opišite problem</string>
+    <string name="da_on_left">na lijevoj strani</string>
+    <string name="da_on_right">na desnoj strani</string>
+    <string name="da_stay_on_road_primary">Ostanite na %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s do %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s do %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} milja</string>
+    <string name="da_distance_format_miles_compressed">{0}milja</string>
+    <string name="da_distance_format_feet_abbreviated">{0} stopa</string>
+    <string name="da_distance_format_feet_compressed">{0}stopa</string>
+    <string name="da_distance_format_yards_abbreviated">{0} jar</string>
+    <string name="da_distance_format_yards_compressed">{0} jar</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$s min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigacija</string>
+    <string name="da_search_label">Traži</string>
+    <string name="da_layers">Slojevi</string>
+    <string name="da_agreement">"Navigacija u Google Kartama je u beta verziji.
+
+Budite oprezni. Ne rukujte aplikacijom tijekom vožnje. Podaci o prometu nisu u stvarnom vremenu, a upute mogu biti pogrešne, opasne, zabranjene ili uključivati trajekte. Poštujte prometna pravila.
+
+Gledajte cestu!"</string>
+    <string name="da_agreement_with_walking">"Navigacija pomoću Google Karata je u beta verziji. Budite oprezni.
+
+Ne rukujte aplikacijom tijekom vožnje. Podaci o prometu nisu u stvarnom vremenu, a upute mogu biti pogrešne, opasne, zabranjene ili uključivati trajekte. U pješačkim smjerovima mogu nedostajati nogostupi ili pješačke staze. Poštujte prometna pravila.
+
+Gledajte cestu!"</string>
+    <string name="da_disclaimer_checkbox">Sljedeći put prikaži ovu poruku</string>
+    <string name="da_show_list">Popis uputa</string>
+    <string name="da_route_overview">Informacije o smjeru</string>
+    <string name="da_show_map">Prikaži kartu</string>
+    <string name="da_satellite">Satelit</string>
+    <string name="da_traffic_view">Vijesti o prometu</string>
+    <string name="da_no_traffic_here">Ovdje nema informacija o prometu</string>
+    <string name="da_traffic">Promet</string>
+    <string name="da_area_view">Prikaz područja</string>
+    <string name="da_mute">Stišaj</string>
+    <string name="da_unmute">Pojačaj</string>
+    <string name="da_settings">Postavke</string>
+    <string name="da_help">Pomoć</string>
+    <string name="da_terms_privacy_notices">Uvjeti, privat. i napom.</string>
+    <string name="da_terms_and_conditions">Uvjeti i odredbe</string>
+    <string name="da_privacy_policy">Pravila o privatnosti</string>
+    <string name="da_legal_notices">Pravne napomene</string>
+    <string name="da_navigation_suspended">Navigacija prekinuta</string>
+    <string name="da_exit_navigation">Izađi iz navigacije</string>
+    <string name="da_email_me_when_resolved">Pošaljite mi e-poštu kad riješite problem</string>
+    <string name="da_problem_reported">Problem je prijavljen</string>
+    <string name="da_one_button_map_issue_reporting">Prijava problema jednim klikom</string>
+    <string name="da_attention">Pažnja</string>
+    <string name="da_rmi_warning">"Izvješćivanje o problemu omogućuje vam da snimite kratku glasovnu poruku s opisom problema vezanog uz kartu ili smjer. Nakon 15 sekundi vaša će poruka biti automatski poslana Googleu, zajedno s vašom trenutnom lokacijom i smjerom. 
+
+Prečac jednim klikom može se omogućiti u postavkama aplikacije.
+
+ Ako se odlučite za primanje ažuriranja e-poštom nakon rješavanja problema, vaša adresa e-pošte bit će spremljena s lokacijom i vašim komentarima dok problem ne bude riješen."</string>
+    <string name="da_report_a_problem">Prijavi problem</string>
+    <string name="da_report_a_problem_dialog_title">Prijavi problem</string>
+    <string name="da_rmi_preference_trackball_summary">Ako je omogućeno, pritiskom na pomičnu kuglicu započet će prijava problema.</string>
+    <string name="da_rmi_preference_camera_summary">Ako je omogućeno, pritiskom na gumb fotoaparata započet će prijava problema.</string>
+    <string name="da_rmi_preference_no_button_summary">Nisu dostupni fizički gumbi.</string>
+    <string name="da_rmi_preference_bad_location_summary">Prijavljivanje problema nije dostupno za vašu trenutnu lokaciju.</string>
+    <string name="da_destination_not_here_warning">Hvala što ste prijavili da imamo pogrešnu lokaciju za vaše odredište. Vaše trenutačno odredište i lokacija bit će poslani Googleu radi poboljšanja točnosti naših podataka.</string>
+    <string name="da_destination_not_here_title">Prijavite problem</string>
+    <string name="da_searching_for_gps">Traženje GPS-a...</string>
+    <string name="da_data_connection_lost">Podatkovna veza izgubljena...</string>
+    <string name="da_follow_the_route">Pratite smjer</string>
+    <string name="da_waiting_for_directions">Upute za vožnju</string>
+    <string name="da_waiting_for_walking_directions">Dobivanje uputa za pješačenje</string>
+    <string name="da_waiting_for_location">Čekanje lokacije</string>
+    <string name="da_checking_navigation_availability">Provjera dostupnosti navigacije</string>
+    <string name="da_loading_route_details">Učitavanje pojedinosti o smjeru</string>
+    <string name="da_loading_image">Učitavanje slike</string>
+    <string name="da_waiting_for_alternates">Traženje alternativnih smjerova</string>
+    <string name="da_waiting_for_details">Učitavanje</string>
+    <string name="da_no_details">Pojedinosti nisu dostupne</string>
+    <string name="da_gps_is_disabled">GPS je onemogućen</string>
+    <string name="da_turn_on_gps">Prikazati postavke lokacije?</string>
+    <string name="da_voice_guidance">Glasovno navođenje</string>
+    <string name="da_install_voice_guidance_prompt">Za glasovnu navigaciju morate instalirati podršku za pretvaranje teksta u govor dostupnu na stranici Android Market.</string>
+    <string name="da_dialog_ok">U redu</string>
+    <string name="da_dialog_skip">Preskoči</string>
+    <string name="da_dialog_cancel">Odustani</string>
+    <string name="da_dialog_done">Gotovo</string>
+    <string name="da_dialog_accept">Prihvati</string>
+    <string name="da_dialog_install">Instaliraj</string>
+    <string name="da_dialog_dont_accept">Ne prihvaćam</string>
+    <string name="da_dialog_go">Idi</string>
+    <string name="da_dialog_get_directions">Upute</string>
+    <string name="da_map">Karta</string>
+    <string name="da_clear_layers">Isprazni kartu</string>
+    <string name="da_layer_name_parking">Parkiralište</string>
+    <string name="da_layer_name_attractions">Znamenitosti</string>
+    <string name="da_layer_name_gas_stations">Benzinske crpke</string>
+    <string name="da_layer_name_restaurants">Restorani</string>
+    <string name="da_layer_name_supermarkets">Supermarketi</string>
+    <string name="da_layer_name_atms_and_banks">Bankomati i banke</string>
+    <string name="da_layer_name_convenience_stores">Trgovina mješovite robe</string>
+    <string name="da_query_banks_and_atms">Banke i bankomati</string>
+    <string name="da_rerouting">Preusmjeravanje...</string>
+    <string name="da_via">Putem %s</string>
+    <string name="da_to_destination">do %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Snimi povratnu informaciju</string>
+    <string name="da_destination_not_here">Odredište nije ovdje</string>
+    <string name="da_new_destination">Sljedeće odredište</string>
+    <string name="da_reroute_to_destination">Natrag na odredište</string>
+    <string name="da_change_destination">Postavi odredište</string>
+    <string name="da_search_for_destination">Pretraživanje...</string>
+    <string name="da_point_on_map">Točka na karti</string>
+    <string name="da_volume">Glasnoća navigacije</string>
+    <string name="da_exit">Izlaz</string>
+    <string name="da_did_you_mean">Jeste li mislili:</string>
+    <string name="da_did_you_say">Jeste li rekli:</string>
+    <string name="da_for_your_end_point">Za vašu krajnju točku</string>
+    <string name="da_unnamed_road">Neimenovana cesta</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, zatim %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Nakon %1$s m</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Nakon jednog i pol kilometra</string>
+    <string name="da_speech_continue_for_x_meters">Nastavite još ovoliko metara: %1$s</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Nastavite još jedan i pol kilometar</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Nastavite niz ulicu %2$s još ovoliko metara: %1$s</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Nastavite niz ulicu %1$s još jedan i pol kilometar</string>
+    <string name="da_speech_generic_continue">Nastavite ravno</string>
+    <string name="da_speech_in_x_feet">Nakon %1$s stopa</string>
+    <string name="da_speech_in_x_yards">Nakon ovoliko jardi: %1$s</string>
+    <string name="da_speech_in_a_quarter_mile">Nakon četvrt milje</string>
+    <string name="da_speech_in_a_half_mile">Nakon pola milje</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Nakon tričetvrt milje</string>
+    <string name="da_speech_in_one_and_a_half_miles">Nakon jedne i pol milje</string>
+    <string name="da_speech_continue_for_x_feet">Nastavite još ovoliko stopa: %1$s</string>
+    <string name="da_speech_continue_for_x_yards">Nastavite još ovoliko jardi: %1$s</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Nastavite još četvrt milje</string>
+    <string name="da_speech_continue_for_a_half_mile">Nastavite još pola milje</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Nastavite još tričetvrt milje</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Nastavite još jednu i pol milju</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Nastavite niz ulicu %2$s još ovoliko stopa: %1$s</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Nastavite niz ulicu %2$s još ovoliko jardi: %1$s</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Nastavite niz ulicu %1$s još četvrt milje</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Nastavite niz ulicu %1$s još pola milje</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Nastavite niz ulicu %1$s još tričetvrt milje</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Nastavite niz ulicu %1$s još jednu i pol milju</string>
+    <string name="da_route_prefixes">S,SI,I,JI,J,JZ,Z,SZ</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SW,W,NW,Ave,Blvd,Byp,Cir,Ct,Dr,Expy,Fwy,Hwy,Ln,Pkwy,Pl,Rd,St,Thrwy,Way</string>
+    <string name="da_no_route">Ruta nije pronađena</string>
+    <string name="da_route_not_found">Nismo mogli pronaći rutu do vašeg odredišta.</string>
+    <string name="da_destination_not_found">Nismo razumjeli odredište.</string>
+    <string name="da_navigation_not_supported">Navigacija do odredišta nije dostupna.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Navigacija pomoću Google Karata još nije dostupna na ovoj lokaciji.</string>
+    <string name="da_launch_maps">Pokreni Karte</string>
+    <string name="da_no_image_available">Nema dostupne slike.</string>
+    <string name="da_image_error">Pogreška učitavanja slike.</string>
+    <string name="da_no_alternate_routes">Nismo mogli pronaći alternativne smjerove do vašeg odredišta.</string>
+    <string name="da_picker_type_destination">Unesite odredište</string>
+    <string name="da_picker_speak_destination">Izgovorite odredište</string>
+    <string name="da_picker_contacts">Kontakti</string>
+    <string name="da_picker_starred_items">Mjesta sa zvjezdicom</string>
+    <string name="da_picker_new_contact">Novi kontakt</string>
+    <string name="da_picker_recent_destinations">Nedavna odredišta</string>
+    <string name="da_picker_choose_destination">Odaberi odredište</string>
+    <string name="da_navigate_to">Pomakni se do</string>
+    <string name="da_picker_search_hint">Odredište</string>
+    <string name="da_route_options">Opcije smjera</string>
+    <string name="da_updating_directions">Ažuriranje uputa</string>
+    <string name="da_picker_no_starred_items">"Nemate stavki sa zvjezdicom.
+
+Stavke sa zvjezdicom automatski se sinkroniziraju s adresom maps.google.com.
+
+U Google Kartama rezultate pretraživanja možete označiti zvjezdicom tako što ćete dodirnuti ikonu zvjezdice pored adrese."</string>
+    <string name="da_picker_no_contacts">"Nemate nijedan kontakt s adresom.
+
+U aplikaciji Kontakti možete dodati nove kontakte ili postaviti adrese za postojeće kontakte."</string>
+    <string name="da_driving">Vožnja</string>
+    <string name="da_walking">Pješice</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Više informacija</string>
+    <string name="da_search_maps">Pretražite Karte</string>
+    <string name="da_walking_warning">Pješice (beta): budite oprezni</string>
+    <string name="da_calibrate_compass_title">Kalibracija kompasa</string>
+    <string name="da_calibrate_compass">Kompas nije kalibriran. Za kalibraciju telefonom napravite kretnju u obliku osmice nekoliko puta.</string>
+    <string name="da_confirm_exit_title">Izaći iz navigacije?</string>
+    <string name="da_confirm_exit_text">Ovime se prekidaju sve upute za smjer.</string>
+    <string name="da_route_includes_tolls">Smjer uključuje cestarine</string>
+    <string name="da_avoid_tolls">Izbjegavaj cestarinu</string>
+    <string name="da_avoiding_tolls">Izbjegavanje cestarina</string>
+    <string name="da_avoiding_highways">Izbjegavanje autocesta</string>
+    <string name="da_route_includes_unavoidable_tolls">Ovaj smjer uključuje cestarine.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Ovaj smjer uključuje cestarine. Onemogućite smjerove s cestarinom pomoću donjih opcija %1$s%2$s.</string>
+    <string name="da_seasonally_closed">Smjer je možda sezonski zatvoren.</string>
+    <string name="da_direction_north">na sjever</string>
+    <string name="da_direction_north_west">na sjeverozapad</string>
+    <string name="da_direction_west">na zapad</string>
+    <string name="da_direction_south_west">na jugozapad</string>
+    <string name="da_direction_south">na jug</string>
+    <string name="da_direction_south_east">na jugoistok</string>
+    <string name="da_direction_east">na istok</string>
+    <string name="da_direction_north_east">na sjeveroistok</string>
+    <string name="da_step_depart">U smjeru %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Idite %1$s u %2$s</string>
+    <string name="da_step_slight_left">Blago ulijevo</string>
+    <string name="da_step_slight_right">Blago udesno</string>
+    <string name="da_step_turn_left">Skrenite lijevo</string>
+    <string name="da_step_turn_right">Skrenite desno</string>
+    <string name="da_step_sharp_left">Oštro ulijevo</string>
+    <string name="da_step_sharp_right">Oštro udesno</string>
+    <string name="da_step_slight_left_onto">Blago ulijevo u %1$s</string>
+    <string name="da_step_slight_right_onto">Blago udesno u %1$s</string>
+    <string name="da_step_turn_left_onto">Skrenite lijevo u %1$s</string>
+    <string name="da_step_turn_right_onto">Skrenite desno u %1$s</string>
+    <string name="da_step_sharp_left_onto">Oštro ulijevo u %1$s</string>
+    <string name="da_step_sharp_right_onto">Oštro udesno u %1$s</string>
+    <string name="da_step_fork_left">Držite se lijevo na račvanju</string>
+    <string name="da_step_fork_right">Držite se desno na račvanju</string>
+    <string name="da_step_continue_onto">Nastavite ulicom %1$s</string>
+    <string name="da_step_continue_straight">Nastavite ravno</string>
+    <string name="da_step_u_turn">Skrenite polukružno</string>
+    <string name="da_step_take_the_ramp">Idite na izlaz</string>
+    <string name="da_step_take_the_ramp_onto">Krenite na izlaz za %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Krenite na izlaz slijeva</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Krenite na izlaz slijeva za %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Krenite na izlaz zdesna</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Krenite na izlaz zdesna za %1$s</string>
+    <string name="da_step_take_the_exit">Izađite</string>
+    <string name="da_step_take_the_exit_on_the_left">Izađite na izlaz slijeva</string>
+    <string name="da_step_take_the_exit_on_the_right">Izađite na izlaz zdesna</string>
+    <string name="da_step_take_the_exit_onto">Krenite na izlaz za %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Krenite na izlaz slijeva za %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Krenite prema izlazu zdesna za %1$s</string>
+    <string name="da_step_take_exit_n">Krenite na izlaz %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Slike ©%2$d%3$s, Podaci o karti ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Slike ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Podaci o karti ©%2$d%3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Početna</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Upute i navigacija</string>
+    <string name="EXIT_COMMAND">Izlaz</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} želi da se prijavite.</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Zahtjev za prijavu usluge Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Unesite adresu</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Ikona prečaca</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Spremi</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Odredište</string>
+    <string name="GOHOME_SHORTCUT_NAME">Naziv prečaca</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navigacija skretanje-po-skretanje</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Otvori Postavke</string>
+    <string name="HOTPOT_LOADING">Učitavanje u tijeku...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Widget Ocjena Mjesta zahtijeva da omogućite postavku Koristi bežične mreže (u postavkama Lokacije i sigurnosti) i Wi-Fi (u Bežičnim i mrežnim postavkama).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Omogućite postavku Koristi bežične veze u postavkama Lokacije i sigurnosti kako biste koristili widget Ocjena Mjesta.</string>
+    <string name="HOTPOT_NO_LOCATION">Nema informacija o lokaciji</string>
+    <string name="HOTPOT_SEARCH">Traži</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Tražena stavka: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Pretraži ponovo</string>
+    <string name="HOTPOT_SELECT_PLACE">Odaberite mjesto za ocjenu</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Odaberite mjesto: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Nepoznata lokacija</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Osvježavanje lokacije...</string>
+    <string name="HOTPOT_WIDGET_NAME">Ocjena Mjesta</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Javna objava u obliku {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Reci više</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Ažurirano prije {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Uključite Wi-Fi u Bežičnim i mrežnim postavkama da biste poboljšali točnost widgeta Ocijeni mjesta</string>
+    <string name="HOTPOT_YOU_RATED">"Vaša ocjena: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Na mjestu {0} i dijeljeno sa sljedećima: {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Prijavljeni ste na mjesto {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Prijaviti u objekt {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Prijaviti mjesto?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Dodirnite kako biste se prijavili u Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Zadnje ažuriranje: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Nepoznata lokacija</string>
+    <string name="LOADING">Učitavanje</string>
+    <string name="MAPS_APP_NAME">Google karte</string>
+    <string name="NEED_NET_BODY">Ova se aplikacija ne može koristiti dok ne dobijete dopuštenje za slanje i primanje podataka s mreže.</string>
+    <string name="NEED_NET_TITLE">Potreban je mrežni pristup</string>
+    <string name="NETWORK_DATA_ERROR">Ova aplikacija zahtijeva podatkovnu vezu. Kontaktirajte svojeg davatelja usluga.</string>
+    <string name="NET_FAIL_BODY">Ova aplikacija zahtijeva aktivnu podatkovnu vezu.</string>
+    <string name="NET_FAIL_TITLE">Neuspjeh mreže</string>
+    <string name="NET_UNAVAILABLE_TITLE">Mreža nije dostupna</string>
+    <string name="PLACES_APP_NAME">Mjesta</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">npr. špageti bolognese, kokteli, glazba</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Što se izdvaja?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Odustani</string>
+    <string name="RATINGS_OPTIN_CLOSE">Zatvori</string>
+    <string name="RATINGS_OPTIN_FAILED">Ažuriranje nije uspjelo, pokušajte kasnije.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Budite društveni!&lt;/b> Idite na &lt;b>{0}&lt;/b> putem računala da biste dodali prijatelje i otkrili mjesta koja vole.</string>
+    <string name="RATINGS_OPTIN_HEADING">Postavi javni nadimak za Google Mjesta.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Ime ili nadimak: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Ocijenite svoje omiljene restorane, kafiće i ostala mjesta kako biste u rezultatima pretraživanja dobili preporuke na temelju vlastitih ocjena.</string>
+    <string name="RATINGS_OPTIN_SAVE">Početak rada</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Vaše ocjene mjesta &lt;b>objavljene su na webu&lt;/b> s ovim nadimkom i prilagodit će vaše rezultate pretraživanja. &lt;a href=#>Saznajte više&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Javna objava na web-lokaciji u obliku {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Javna objava na webu.</string>
+    <string name="RATINGS_RATE_PLACES">Zašto ocijeniti mjesta?</string>
+    <string name="RATINGS_SET_APPEARANCE">Postavljanje prikaza</string>
+    <string name="RATINGS_WAIT">Pričekajte...</string>
+    <string name="SEARCH_HINT">Pretražite Karte</string>
+    <string name="SHORT_APP_NAME">Google Karte</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Završna točka</string>
+    <string name="TRAFFIC_WIDGET_NAME">Promet</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Naziv widgeta</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Spremi</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Početna točka</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Ozbiljna greška.  Zatvorite aplikaciju i pokrenite ponovo."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Nepoznata pogreška</string>
+    <string name="UPGRADE_BODY">Za korištenje ove aplikacije morate instalirati novu inačicu.</string>
+    <string name="UPGRADE_TITLE">Nadogradnja softvera</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Žive pozadine Google Karata</string>
+    <string name="WALLPAPER_MAP_MODE">Način karte</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Uobičajeni</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelit</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Način karte, npr. Satelit</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Teren</string>
+    <string name="WALLPAPER_SETTINGS">Postavke žive pozadine Google Karata</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Prikaži promet</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Prikaži trenutačnu vremensku prognozu na karti. Morate imati instaliran widget za vremensku prognozu.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Vrem. prog.</string>
+</resources>

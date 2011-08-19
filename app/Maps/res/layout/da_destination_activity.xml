@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/da_actionBar" android:background="@drawable/da_action_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/da_free_drive_action_bar_height">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:gravity="center_vertical" android:id="@id/da_chooseDestination" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/da_picker_choose_destination" />
+        <RelativeLayout android:id="@id/da_travelModeButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/da_ActionBarButton">
+            <ImageView android:id="@id/da_travelModeDownArrow" android:paddingLeft="8.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/da_drop_down_menu_arrow" android:scaleType="center" android:layout_alignLeft="@id/icon" android:layout_alignRight="@id/icon" android:layout_alignParentBottom="true" />
+            <include layout="@layout/da_travel_mode_item" />
+        </RelativeLayout>
+        <ImageView android:id="@id/da_travelModeButtonSeparator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator_light" android:scaleType="fitXY" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/da_routeOptionsButtonSeparator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator_light" android:scaleType="fitXY" />
+        <ImageView android:id="@id/da_routeOptionsButton" android:layout_width="@dimen/da_free_drive_action_bar_height" android:layout_height="@dimen/da_free_drive_action_bar_height" android:src="@drawable/da_btn_route_options" android:scaleType="center" style="@style/da_ActionBarButton" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator_light" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/da_showMapButton" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/da_ActionBarButton">
+            <ImageView android:paddingLeft="4.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/da_free_drive_action_bar_height" android:src="@drawable/da_btn_show_map" android:scaleType="center" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:gravity="center_vertical" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/da_map" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Hyväksytty: %s</string>
+    <string name="meeting_declined">Hylätty: %s</string>
+    <string name="meeting_tentative">Alustava: %s</string>
+    <string name="meeting_canceled">Peruutettu: %s</string>
+    <string name="meeting_updated">Päivitetty: %s</string>
+    <string name="meeting_when">Milloin: %s</string>
+    <string name="meeting_where">Missä: %s</string>
+    <string name="meeting_recurring">Milloin: %s (toistuva)</string>
+    <string name="notification_exchange_calendar_added">Exchange-kalenteri lisätty</string>
+    <string name="app_name">Exchange Services</string>
+    <string name="exception_cancel">Poikkeus toistuvassa tapahtumassa, peruutettu %s</string>
+    <string name="exception_updated">Poikkeus toistuvassa tapahtumassa, muutettu %s</string>
+</resources>

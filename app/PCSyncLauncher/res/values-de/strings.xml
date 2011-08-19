@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">PC-Informationen synchronisieren</string>
+    <string name="searchingPCSideSyncTool">„Suche nach %s auf Ihrem Computer...</string>
+    <string name="connectionFailMessage" formatted="false">"„Sie haben %s nicht auf Ihrem Computer installiert bzw. ausgeführt. Bitte laden Sie %s von ASUS' Support-Seite herunter - http://support.asus.com. (Hinweis: Nur bei Windows.) Drücken Sie zum Verlassen \"%s\", mit \"%s\" stellen Sie erneut eine Verbindung zu %s her.“"</string>
+    <string name="connectionFailTitle">Verbindung fehlgeschlagen</string>
+    <string name="tryAgain">Noch einmal versuchen</string>
+    <string name="cancel">Abbrechen</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="horizontal" android:id="@id/travelTypePanel" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/drivingButton" android:background="@drawable/mode_driving" android:layout_width="0.0dip" android:layout_height="42.0dip" android:button="@null" android:layout_weight="1.0" />
+    <RadioButton android:id="@id/transitButton" android:background="@drawable/mode_transit" android:layout_width="0.0dip" android:layout_height="42.0dip" android:button="@null" android:layout_weight="1.0" />
+    <RadioButton android:id="@id/bikingButton" android:background="@drawable/mode_bike" android:layout_width="0.0dip" android:layout_height="42.0dip" android:button="@null" android:layout_weight="1.0" />
+    <RadioButton android:id="@id/walkingButton" android:background="@drawable/mode_walk" android:layout_width="0.0dip" android:layout_height="42.0dip" android:button="@null" android:layout_weight="1.0" />
+</RadioGroup>

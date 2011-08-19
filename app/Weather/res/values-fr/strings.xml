@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Paramètres du Widget Météo</string>
+    <string name="refreshBtn">Actualiser</string>
+    <string name="saveBtn">Sauvegarder</string>
+    <string name="cancelBtn">Annuler</string>
+    <string name="nocityfound">Aucune ville trouvée</string>
+    <string name="humidity">Humidité</string>
+    <string name="winds">Vents</string>
+    <string name="infor1">Indisponible</string>
+    <string name="searchlistviewtitle">Sélectionnez une ville</string>
+    <string name="wait">Veuillez patienter...</string>
+    <string name="refreshFail">"Échec de l'actualisation"</string>
+    <string name="searchFail">Échec de la recherche. Veuillez réessayer.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSO</string>
+    <string name="dirSW">SO</string>
+    <string name="dirWSW">OSO</string>
+    <string name="dirW">O</string>
+    <string name="dirWNW">ONO</string>
+    <string name="dirNW">NO</string>
+    <string name="dirNNW">NNO</string>
+    <string name="entercityname">"Entrez le nom d'une ville :"</string>
+    <string name="manualtitle">Sélection manuelle</string>
+    <string name="refreshprogresstitle">Mise à jour du bulletin météo</string>
+    <string name="refreshprogresscontent">Actualisation en cours. Veuillez patienter...</string>
+    <string name="searchprogresstitle">Recherche de ville</string>
+    <string name="searchprogresscontent">Recherche en cours. Veuillez patienter...</string>
+    <string name="no_network">Réseau indisponible. Les informations météo ne peuvent pas être mises à jour.</string>
+    <string name="no_provider">Certains services de localisation sont désactivés. Veuillez activer les services de localisation pour le réseau sans fil et le signal GPS pour une obtenir des résultats plus rapides et précis.</string>
+    <string name="title_location">Emplacement</string>
+    <string name="content_autorefreshed">"Actualisation auto. de l'emplacement"</string>
+    <string name="content_manual">Recherche manuelle</string>
+    <string name="title_updatefreq">Fréquence de mise à jour</string>
+    <string name="content_updatetime">Dernière mise à jour</string>
+    <string name="content_selectfreq">Sélectionnez la fréquence de mise à jour</string>
+    <string name="title_others">Autres</string>
+    <string name="content_tempunit">Unité de température</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">perc</string>
+    <string name="postpone">Elhalasztás</string>
+    <string name="update">Frissítés</string>
+    <string name="firmware_update_title">Firmware-frissítés</string>
+    <string name="firmware_update_fail">"A frissítés sikertelen.
+
+Az eszköz visszaállítja az eredeti konfigurációt."</string>
+    <string name="low_battery_warning">"A rendszerfrissítési művelet folytatásához elengedhetetlen, hogy az akkumulátor töltöttségi szintje legalább %1$d %% legyen.
+Kérjük, hogy a rendszer frissítése előtt töltse fel az akkumulátort."</string>
+    <string name="confirmDownload_textok">"Ez a frissítés fokozza a stabilitást és nem jár adatok törlésével. Erősen javasoljuk, hgy frissítsen erre a verzióra.
+A frissítés elfogadásához nyomja meg a YES (Igen) gombot."</string>
+    <string name="confirmDownload_textcancel">Nyomja meg a NO (Nem) gombot a frissítés elvetéséhez.</string>
+    <string name="confirmDownload_textwifi">Javasoljuk, hogy a frissítés letöltéséhez használjon ingyenes WiFi hotspot szolgáltatást.</string>
+    <string name="confirmDownload_textwifi2">Ha a Later (Később) gombot nyomja meg, a letöltést bármikor folytathatja az értesítés gomb megnyomásával.</string>
+    <string name="btn_text_later">Később</string>
+    <string name="confirmDownload_dialog_title">Vigyázat, a barangoló mód aktív.</string>
+    <string name="downloading">A Firmware letöltése...</string>
+    <string name="install_time">Becsült telepítési idő:</string>
+    <string name="postponetime_text">Elhalasztási idő:</string>
+    <string name="install">Telepítés</string>
+    <string name="reach_max_net_fail">A kiszolgáló megszakította a letöltést. Kérjük, próbálja újra később.</string>
+    <string name="dlg_title_checking">Az adatok épségének ellenőrzése.</string>
+    <string name="dlg_msg_checking">A firmware-fájl épségének ellenőrzése.</string>
+    <string name="cannot_set_to_browser">Nem lehet beállítani a böngészőhöz.</string>
+    <string name="upgrade_error">Frissítési hiba. Kérjük, töltse le ismét a frissítőcsomagot.</string>
+    <string name="start_to_download">A kritikus fontosságú frissítőcsomag letöltésének megkezdése.</string>
+    <string name="start_to_upgrade">Frissítőcsomag telepítésének megkezdése.</string>
+    <string name="start_NI_dmSession">A hálózat a DM munkamenetet inicializálja. Elfogadja?</string>
+    <string name="download_finished">A firmware letöltése befejeződött...</string>
+    <string name="download_in_progress">Az új firmware letöltése folyamatban van</string>
+    <string name="out_of_mem_warning">"Nincs elegendő tárhely.
+Kérjük, távolítson el néhány alkalmazást, majd próbálja újra."</string>
+    <string name="ui_alert_input_hint">Kérjük, írjon be szöveget</string>
+    <string name="ui_alert_input_numeric_hint">Kérjük, írjon be számot</string>
+    <string name="ui_alert_input_phone_number_hint">Kérjük, írjon be telefonszámot</string>
+    <string name="check_for_update">Frissítés ellenőrzése</string>
+    <string name="no_new_fota_update">Jelenleg nem áll rendelkezésre frissítés az eszközhöz.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Mégse</string>
+    <string name="confirm_download_btn_Yes">Igen</string>
+    <string name="confirm_download_btn_No">Nem</string>
+    <string name="confirm_update_title">ASUS firmware frissítése</string>
+    <string name="asus_received_title">Asus rendszer firmware-frissítés szolgáltatás</string>
+    <string name="received_message">Új rendszer firware-frissítés érhető el. Nyomja meg a frissítéshez.</string>
+    <string name="low_battery_title">Rendszer firmware-frissítés leállítva</string>
+    <string name="dl_received_ticker">Új rendszer firmware-frissítés érhető el.</string>
+    <string name="dl_received_message">Új rendszer firware-frissítés érhető el. Nyomja meg a letöltéséhez.</string>
+    <string name="confirmDownload_text1">Szeretné letölteni a következő rendszer firmware-frissítést?</string>
+    <string name="received_ticker">Új rendszer firmware-frissítés érhető el.</string>
+    <string name="update_dialog_text">"Egy új rendszer firmware-frissítés lett letöltve az eszközhöz. Szeretné most telepíteni? 
+"</string>
+    <string name="prepare_dm_download">Rendszer-firmware letöltésének előkészítése...</string>
+    <string name="system_update_activity">Rendszer firmware-frissítés</string>
+    <string name="has_new_fota_update">Az eszközhöz rendszer firmware-frissítés áll rendelkezésre. Kérjük, ellenőrizze az értesítéseket.</string>
+    <string name="update_dialog_text2">Ez a rendszer firmware-frissítés javítja a stabilitást és nem jár adatok törlésével. Erősen javasoljuk, hgy frissítsen erre a verzióra.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="carousel_row_spacing">1.0px</dimen>
+    <dimen name="carousel_texture_scale_portrait">1.0px</dimen>
+    <dimen name="carousel_texture_scale_landscape">1.0px</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_send_holo_light" android:id="@id/send" android:title="@string/send" />
+    <item android:icon="@drawable/save_draft" android:id="@id/save" android:title="@string/save" />
+    <item android:icon="@drawable/ic_menu_cc_holo_light" android:id="@id/remove_cc" android:title="@string/remove_cc_label" />
+    <item android:icon="@drawable/ic_menu_cc_holo_light" android:id="@id/add_cc" android:title="@string/add_cc_label" />
+    <item android:icon="@drawable/ic_menu_attachment_holo_light" android:id="@id/add_attachment" android:title="@string/add_attachment" />
+    <item android:icon="@drawable/ic_menu_trash_holo_light" android:id="@id/discard" android:title="@string/discard" />
+    <item android:icon="@android:drawable/ic_menu_help" android:id="@id/help_info_menu_item" android:title="@string/help_and_info" />
+    <item android:icon="@android:drawable/ic_menu_send" android:id="@id/feedback_menu_item" android:title="@string/feedback" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subscription_padding_left">16.0dip</dimen>
+    <dimen name="subscription_margin_left">16.0dip</dimen>
+    <dimen name="widget_teaser_width">225.0dip</dimen>
+    <dimen name="widget_teaser_height">126.0dip</dimen>
+</resources>

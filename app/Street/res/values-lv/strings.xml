@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Ielas attēls</string>
+    <string name="go_to_map">Skatīt karti</string>
+    <string name="report_inappropriate_image">Atskaites attēls</string>
+    <string name="toggle_compass_mode">Kompasa režīms</string>
+    <string name="compass_mode_on">Kompasa režīms ir ieslēgts.</string>
+    <string name="compass_mode_off">Kompasa režīms ir izslēgts.</string>
+    <string name="waiting_for_network">Datu savienojums pazudis, mēģina vēlreiz…</string>
+    <string name="panorama_disabled">Attēls vairs nav pieejams</string>
+    <string name="service_unavailable">Ielas attēls nav pieejams</string>
+    <string name="loading">Notiek ielāde</string>
+    <string name="no_panorama_data">Nav iestatīti panorāmas dati.</string>
+    <string name="invalid_panorama_data">Nederīga panorāma</string>
+    <string name="click_to_go_toast">Velciet Google cilvēciņu uz vietu, kurp vēlaties doties.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Šai programmai ir nepieciešams datu savienojums, un tā atsāksies automātiski. Lūdzu, pārbaudiet signāla stiprumu. Vai lidošanas režīms ir ieslēgts? Vai datu viesabonēšana ir atspējota?</string>
+    <string name="whats_new_header">Vai ir kas jauns Ielas attēlā?</string>
+    <string name="whats_new_c2g">Aizlidojiet jebkur, kur acis rāda. Velciet cilvēciņu no kreisās puses apakšas un nometiet to tur, kur vēlaties doties.</string>
+    <string name="terms_and_privacy">Noteikumi un konfidencialitāte</string>
+    <string name="terms_and_conditions">"Pakalpojumu sniegšanas noteikumi
+"</string>
+    <string name="privacy_policy">Konfidencialitātes politika</string>
+</resources>

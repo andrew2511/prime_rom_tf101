@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Подключение к сети Ин:тернет</string>
+    <string name="mobile_wifi_title">Мобильная сеть и Wi-Fi</string>
+    <string name="wifi_title">Только подключение WiFi</string>
+    <string name="setup_wizard_title">Мастер установки</string>
+    <string name="next_button_label">Далее</string>
+    <string name="welecome_title">Приветствие</string>
+    <string name="btn_start_text">Старт</string>
+</resources>

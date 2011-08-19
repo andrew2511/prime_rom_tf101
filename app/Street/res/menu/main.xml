@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_see_map" android:id="@id/menu_main_go_to_map" android:title="@string/go_to_map" />
+    <item android:icon="@android:drawable/ic_menu_report_image" android:id="@id/menu_main_report_inappropriate_image" android:title="@string/report_inappropriate_image" />
+    <item android:icon="@android:drawable/ic_menu_compass" android:id="@id/menu_main_toggle_compass_mode" android:title="@string/toggle_compass_mode" />
+    <item android:icon="@drawable/ic_menu_legal" android:id="@id/legal_submenu" android:title="@string/terms_and_privacy">
+        <menu>
+            <item android:id="@id/menu_main_tos" android:title="@string/terms_and_conditions" />
+            <item android:id="@id/menu_main_pp" android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+</menu>

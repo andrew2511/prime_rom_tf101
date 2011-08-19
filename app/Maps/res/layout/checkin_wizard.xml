@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_feature_opt_out" android:layout="@layout/feature_opt_out_layout" android:inflatedId="@id/feature_opt_out_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/checkin_wizard_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/checkin_wizard_search" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/checkin_wizard_place" />
+        <com.google.googlenav.ui.view.android.ModalOverlay android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

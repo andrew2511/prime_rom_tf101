@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.xt9.input.WordListViewContainer android:orientation="horizontal" android:background="@drawable/asus_ep_zi2_nor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/asus_ep_zi2_nor" android:layout_width="wrap_content" android:layout_height="67.0px">
+        <LinearLayout android:orientation="horizontal" android:id="@id/candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/candidate_left" android:background="@drawable/asus_ep_zi2_nor" android:clickable="true" android:layout_width="95.0px" android:layout_height="fill_parent" android:src="@drawable/asus_ep_last_icon" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asus_ep_line_02" />
+        </LinearLayout>
+        <com.nuance.xt9.input.CandidatesListView android:id="@id/candidates" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asus_ep_line_02" />
+            <ImageButton android:id="@id/candidate_right" android:background="@drawable/asus_ep_zi2_nor" android:clickable="true" android:layout_width="95.0px" android:layout_height="fill_parent" android:src="@drawable/asus_ep_next_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nuance.xt9.input.WordListViewContainer>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">OK</string>
+    <string name="signed_in">Connexion réussie</string>
+    <string name="account_linked_message">Connecté au compte %s. Synchronisation des données en cours.</string>
+    <string name="account_setup_title">Compte Google</string>
+    <string name="account_created_message">Nouveau compte créé : %s</string>
+    <string name="login_activity_title">Connectez-vous avec votre compte Google</string>
+    <string name="show_error_activity_title">Échec de la connexion au compte Google</string>
+    <string name="login_activity_task_title">Connexion…</string>
+    <string name="sync_intro_activity_title_first_account">Sauvegarder et restaurer</string>
+    <string name="sync_intro_activity_title_first_created_account">Compte créé</string>
+    <string name="sync_intro_activity_title">Connexion au compte réussie</string>
+</resources>

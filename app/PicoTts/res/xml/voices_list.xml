@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:key="eng-USA" />
+    <Preference android:persistent="false" android:key="eng-GBR" />
+    <Preference android:persistent="false" android:key="fra-FRA" />
+    <Preference android:persistent="false" android:key="ita-ITA" />
+    <Preference android:persistent="false" android:key="deu-DEU" />
+    <Preference android:persistent="false" android:key="spa-ESP" />
+</PreferenceScreen>

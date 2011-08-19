@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Utcakép</string>
+    <string name="go_to_map">Ugrás a térképre</string>
+    <string name="report_inappropriate_image">Kép bejelentése</string>
+    <string name="toggle_compass_mode">Iránytű mód</string>
+    <string name="compass_mode_on">Az iránytűmód bekapcsolva.</string>
+    <string name="compass_mode_off">Az iránytűmód kikapcsolva.</string>
+    <string name="waiting_for_network">Az adatkapcsolat megszakadt, ismételt próbálkozás…</string>
+    <string name="panorama_disabled">A kép már nem érhető el.</string>
+    <string name="service_unavailable">Az Utcakép szolgáltatás nem érhető el.</string>
+    <string name="loading">Betöltés</string>
+    <string name="no_panorama_data">Nincsenek beállítva panorámaadatok.</string>
+    <string name="invalid_panorama_data">Érvénytelen panorámaadat.</string>
+    <string name="click_to_go_toast">Húzza az emberkét oda, ahová menni szeretne.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s.</string>
+    <string name="network_unavailable">A programhoz adatkapcsolat szükséges, ezért ismét automatikusan próbálkozni fog. Kérjük, ellenőrizze, elegendő-e a térerő. Nincs bekapcsolva a repülő üzemmód? Nincs letiltva a roaming?</string>
+    <string name="whats_new_header">Az Utcakép funkció újdonságai</string>
+    <string name="whats_new_c2g">Bárhová elrepülhet: húzza a kívánt helyre az emberkét a bal alsó sarokból.</string>
+    <string name="terms_and_privacy">Szerződési feltételek és adatvédelem</string>
+    <string name="terms_and_conditions">"Általános Szerződési Feltételek
+"</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
+</resources>

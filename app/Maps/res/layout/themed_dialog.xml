@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/themed_dialog_header" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/popup_center_bright" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.googlenav.ui.android.GmmListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:layout_weight="1.0" style="@android:style/Widget.ListView.White" />
+        <View android:id="@id/padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9999.0" />
+        <ViewStub android:id="@id/bodyParent_stub" android:visibility="gone" android:layout="@layout/themed_dialog_body_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/themedWebViewContainer_stub" android:visibility="gone" android:layout="@layout/themed_dialog_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/themed_dialog_button_panels" />
+</LinearLayout>

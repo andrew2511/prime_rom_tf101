@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Verloopt over %1$d dagen</item>
+        <item quantity="one">Verloopt over 1 dag</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Verloopt over %1$d uur</item>
+        <item quantity="one">Verloopt over 1 uur</item>
+    </plurals>
+</resources>

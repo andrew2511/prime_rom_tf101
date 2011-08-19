@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MediaButton">
+        <item name="android:background">@drawable/media_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MediaButton.Previous" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_rew</item>
+    </style>
+    <style name="MediaButton.Next" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_ff</item>
+    </style>
+    <style name="MediaButton.Play" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_play</item>
+    </style>
+    <style name="MediaButton.Pause" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_pause</item>
+    </style>
+    <style name="RootTheme" parent="@android:style/Theme" />
+    <style name="NoTitleBarNoShadowTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog" />
+    <style name="DialogTheme.NoActionBar" parent="@style/DialogTheme" />
+    <style name="TextShadow">
+        <item name="android:shadowColor">#bf000000</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="MusicMenuView">
+        <item name="rowHeight">66.0dip</item>
+        <item name="maxItemsPerRow">3</item>
+        <item name="maxRows">2</item>
+    </style>
+    <style name="PopupMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/popupmenu_enter</item>
+        <item name="android:windowExitAnimation">@anim/popupmenu_exit</item>
+    </style>
+    <style name="OptionsMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/options_panel_enter</item>
+        <item name="android:windowExitAnimation">@anim/options_panel_exit</item>
+    </style>
+    <style name="MediaButton.PlayPauseButtonNormal" parent="@style/MediaButton">
+        <item name="pauseImage">@drawable/btn_playback_pause</item>
+        <item name="playImage">@drawable/btn_playback_play</item>
+        <item name="stopImage">@drawable/btn_playback_stop</item>
+    </style>
+    <style name="MediaButton.PlayPauseButtonSmall" parent="@style/MediaButton">
+        <item name="pauseImage">@drawable/btn_playback_ic_pause_small</item>
+        <item name="playImage">@drawable/btn_playback_ic_play_small</item>
+        <item name="stopImage">@drawable/btn_playback_ic_stop_small</item>
+    </style>
+    <style name="AnimationDropDownDown">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="AnimationDropDownUp">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="BufferingProgressBar" parent="@android:style/Widget.ProgressBar" />
+    <style name="TextAppearanceExtraSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="TextAppearanceExtraExtraSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">10.0sp</item>
+    </style>
+</resources>

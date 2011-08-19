@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="screen">false</item>
+    <item type="id" name="title_text">false</item>
+    <item type="id" name="loading_indicator">false</item>
+    <item type="id" name="listItemWhatsNew">false</item>
+    <item type="id" name="left_image">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="streetView">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="whats_new">false</item>
+    <item type="id" name="titleText">false</item>
+    <item type="id" name="top_image">false</item>
+    <item type="id" name="table">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="ok_button">false</item>
+    <item type="id" name="menu_main_go_to_map">false</item>
+    <item type="id" name="menu_main_report_inappropriate_image">false</item>
+    <item type="id" name="menu_main_toggle_compass_mode">false</item>
+    <item type="id" name="legal_submenu">false</item>
+    <item type="id" name="menu_main_tos">false</item>
+    <item type="id" name="menu_main_pp">false</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0px" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="22.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="115.0px" android:text="@string/legal_information" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="158.0px" android:text="@string/legal_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300.0px" android:text="@string/copy_right" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

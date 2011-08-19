@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_video_home_holo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:videos="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <RelativeLayout android:background="@drawable/top_background" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/header_height">
+        <ImageView android:id="@id/videos_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@mipmap/ic_launcher_videos" android:layout_alignParentLeft="true" />
+        <Button android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/shop_button" android:background="@color/full_transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/ic_menu_shop_holo_dark" android:layout_alignParentRight="true" />
+        <View android:id="@id/separator" android:background="#ff212121" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/shop_button" />
+        <com.google.android.youtube.core.ui.TabRow android:id="@id/tab_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/separator" android:layout_toRightOf="@id/videos_icon" videos:tabBackground="@drawable/videos_tab_background" />
+    </RelativeLayout>
+    <com.google.android.youtube.core.ui.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/rentals_tab" layout="@layout/rentals_tab" />
+        <include android:id="@id/local_videos_tab" layout="@layout/local_videos_tab" />
+    </com.google.android.youtube.core.ui.Workspace>
+</LinearLayout>

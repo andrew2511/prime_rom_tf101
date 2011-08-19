@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Kedaluwarsa dalam %1$d hari</item>
+        <item quantity="one">Kedaluwarsa dalam 1 hari</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Kedaluwarsa dalam %1$d jam</item>
+        <item quantity="one">Kedaluwarsa dalam 1 jam</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/textview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/textview_toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewSwitcher android:id="@id/textview_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/textview_content" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/textview_content" />
+        </ViewSwitcher>
+        <View android:id="@id/textview_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/textview_popup_menu" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">數據機韌體更新成功</string>
+    <string name="update_fail">數據機韌體更新失敗</string>
+    <string name="update_quz">"系統更新需要約3至5分鐘的時間，且電池電力至少要在15%以上。
+
+更新前請先確認電池電量。
+
+是否進行更新？"</string>
+    <string name="notify_title">Asus更新服務</string>
+    <string name="notify">偵測到數據機韌體更新檔案</string>
+    <string name="warning_title">警告</string>
+    <string name="warning">"更新時請勿關閉裝置電源。
+
+任何中斷可能會造成系統毀損。
+
+是否進行更新？"</string>
+    <string name="battery_low">"系統更新需要至少15%的電池電力。
+
+更新前請先確認電池電量。"</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">確認</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

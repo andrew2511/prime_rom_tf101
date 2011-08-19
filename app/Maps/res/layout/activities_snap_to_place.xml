@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/popup_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip">
+            <ImageView android:layout_gravity="top" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_menu_generic" />
+            <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/ThemedListHeaderTitle" />
+        </LinearLayout>
+        <ImageView android:gravity="fill_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_dark" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ScrollView android:id="@id/snapToPlace" android:background="@drawable/popup_bottom_bright" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/myCurrentLocation" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/black" android:id="@id/myCurrentLocationLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:drawablePadding="5.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/friend_item_text_color_tertiary" android:id="@id/myCurrentLocationReverseGeocode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <View android:background="@drawable/dialog_divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/dontShowMyLocation" android:background="@drawable/list_selector_background" android:paddingLeft="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" />
+            <View android:id="@id/pleaseWaitDivider" android:background="@drawable/dialog_divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/pleaseWaitContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="?android:attr/progressBarStyleSmall" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@android:color/black" android:id="@id/pleaseWaitLabel" android:background="@drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/refinements" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

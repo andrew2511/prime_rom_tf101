@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Vista de rúa</string>
+    <string name="go_to_map">Ir ao mapa</string>
+    <string name="report_inappropriate_image">Queixarse da imaxe</string>
+    <string name="toggle_compass_mode">Modo de compás</string>
+    <string name="compass_mode_on">Modo compás activado</string>
+    <string name="compass_mode_off">Modo compás desactivado.</string>
+    <string name="waiting_for_network">Conexión de datos perdida, volvendo tentar…</string>
+    <string name="panorama_disabled">A imaxe xa non está dispoñible</string>
+    <string name="service_unavailable">Servizo de vista de rúa non dispoñible.</string>
+    <string name="loading">Cargando</string>
+    <string name="no_panorama_data">Sen conxunto de datos panorámicos.</string>
+    <string name="invalid_panorama_data">Panorámica non válida.</string>
+    <string name="click_to_go_toast">Arrastra a Pegman a onde queiras ir.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Este programa require unha conexión de datos e volverá tentalo automaticamente. Comproba a forza do sinal. Está activado o modo avión? Está deshabilitado o roaming?</string>
+    <string name="whats_new_header">Que é novo en Street View?</string>
+    <string name="whats_new_c2g">Vao a calquera lugar que poidas ver. Arrastra Pegman do fondo esquerdo e sóltao onde queiras ir.</string>
+    <string name="terms_and_privacy">Termos e privacidade</string>
+    <string name="terms_and_conditions">"Termos e condicións
+"</string>
+    <string name="privacy_policy">Política de privacidade</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Zobrazenie ulíc</string>
+    <string name="go_to_map">Prejsť na mapu</string>
+    <string name="report_inappropriate_image">Nahlásiť obrázok</string>
+    <string name="toggle_compass_mode">Režim kompasu</string>
+    <string name="compass_mode_on">Režim kompasu zapnutý.</string>
+    <string name="compass_mode_off">Režim kompasu vypnutý.</string>
+    <string name="waiting_for_network">Dátové spojenie sa prerušilo, pokus sa opakuje…</string>
+    <string name="panorama_disabled">Obrázok nie je k dispozícii</string>
+    <string name="service_unavailable">Služba Zobrazenie ulíc nie je k dispozícii.</string>
+    <string name="loading">Načítava sa</string>
+    <string name="no_panorama_data">Neboli nastavené žiadne údaje o panoráme.</string>
+    <string name="invalid_panorama_data">Neplatná panoráma.</string>
+    <string name="click_to_go_toast">Myšou presuňte panáčika Pegman.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Tento program vyžaduje dátové spojenie a automaticky zopakuje pokus o pripojenie. Skontrolujte silu signálu. Sú dátové služby pri roamingu zakázané?</string>
+    <string name="whats_new_header">Čo je nové v Zobrazení ulíc?</string>
+    <string name="whats_new_c2g">Preleťte na ktorékoľvek miesto, ktoré vidíte. Presuňte postavičku Pegmana (vľavo dolu) na miesto, kde chcete ísť.</string>
+    <string name="terms_and_privacy">Zmluvné podmienky a ochrana os. údajov</string>
+    <string name="terms_and_conditions">Zmluvné podmienky</string>
+    <string name="privacy_policy">Pravidlá ochrany os. údajov</string>
+</resources>

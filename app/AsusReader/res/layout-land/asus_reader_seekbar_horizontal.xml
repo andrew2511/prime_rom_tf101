@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/PageSeekBar:seekbar" android:focusable="true" android:layout_width="1000.0px" android:layout_height="wrap_content" android:layout_marginLeft="25.0px" android:layout_marginTop="75.0px" android:maxHeight="40.0px" android:max="100" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/ratingbar_full" android:progressDrawable="@drawable/ratingbar_full" android:minHeight="40.0px" android:thumb="@null" android:thumbOffset="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/PageSeekBar:thumb_icon_view" android:background="@drawable/asus_ep_white_point_active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0px" android:layout_marginTop="75.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/PageSeekBar:thumb_number_rect_view" android:background="@drawable/asus_ep_pop_page_number" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0px" android:layout_marginTop="0.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textColor="#ff000000" android:id="@id/PageSeekBar:text_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0px" android:layout_marginTop="20.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</merge>

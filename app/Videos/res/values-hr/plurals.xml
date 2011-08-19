@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Istječe za %1$d dana</item>
+        <item quantity="one">Istječe za 1 dan</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Istječe za %1$d h</item>
+        <item quantity="one">Istječe za 1 sat</item>
+    </plurals>
+</resources>

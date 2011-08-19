@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Ingen nettverksforbindelse</string>
+    <string name="authentication_failure_no_network">Du må være tilkoblet Internett for å autentisere kontoen for bruk med Musikk.</string>
+    <string name="authentication_failure">Autentisering mislyktes</string>
+    <string name="authentication_failure_error">Kan ikke autentisere kontoen for bruk med Musikk.</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Avbryt</string>
+    <string name="save_button_text">Lagre</string>
+    <string name="not_save_button_text">Ikke lagre</string>
+    <string name="shuffle_all">Stokk alle</string>
+    <string name="play_all">Spill alle</string>
+    <string name="songs_all">Alle sanger</string>
+    <string name="shuffle">Avspilling i tilfeldig rekkefølge</string>
+    <string name="search">Søk</string>
+    <string name="settings">Innstillinger</string>
+    <string name="library_options">Bibliotekalternativer</string>
+    <string name="manage_music">Gjør tilgjengelig i frakoblet modus</string>
+    <string name="available_offline">Tilgj. i frakoblet modus</string>
+    <string name="hide_labels">Skjul etiketter</string>
+    <string name="show_labels">Vis etiketter</string>
+    <string name="refresh">Last inn på nytt</string>
+    <string name="shop_artist">Handle etter artist</string>
+    <string name="show_offline_music_only">Vis kun frakoblet musikk</string>
+    <string name="gadget_all_songs_by_artist">Alle sanger av %s</string>
+    <string name="list_title_all_songs_by_artist">"Alle sanger av
+%s"</string>
+    <string name="new_playlist_title">Navn på spilleliste</string>
+    <string name="add_to_playlist_title">Navn på spilleliste</string>
+    <string name="rename_playlist_title">Endre navn på «%s» til</string>
+    <string name="all_music">All musikk</string>
+    <string name="only_kept">Kun i frakoblet modus</string>
+    <string name="search_section_header_artists">ARTISTER</string>
+    <string name="search_section_header_albums">ALBUMER</string>
+    <string name="search_section_header_songs">SANGER</string>
+    <string name="search_section_header_playlists">SPILLELISTER</string>
+    <string name="shuffle_all_songs">Spill av alle i tilfeldig rekkefølge</string>
+    <string name="stream_settings">Innstillinger for direkteavspilling</string>
+    <string name="streamed_music_category">Direkteavspilt musikk</string>
+    <string name="refresh_title">Last inn på nytt</string>
+    <string name="refresh_summary">Last inn musikk fra betaversjonen av Google Musikk på nytt</string>
+    <string name="account_settings_title">Google-konto</string>
+    <string name="no_account_selected_summary">Berør for å velge konto</string>
+    <string name="account_selected_summary">Koble til betaversjonen av Musikk med %s</string>
+    <string name="hide_when_not_connected_title">Skjul utilgjengelig musikk</string>
+    <string name="hide_when_not_connected_summary">Vis kun tilgjengelig musikk i frakoblet modus</string>
+    <string name="stream_only_on_wifi_title">Direkteavsp. kun via Wi-Fi</string>
+    <string name="stream_only_on_wifi_summary">Direkteavspill musikk kun på Wi-Fi-tilkobling</string>
+    <string name="offlinedl_only_on_wifi_title">Last ned kun via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Last ned musikk for frakoblet tilgjengelighet kun via Wi-Fi</string>
+    <string name="cache_streamed_title">Bufring av musikk</string>
+    <string name="cache_streamed_summary">Midlertidig lagring av direkteavspilt musikk</string>
+    <string name="download_queue_title">Nedlastingskø</string>
+    <string name="download_queue_summary">Vis sanger som lastes ned nå</string>
+    <string name="help_title">Hjelp</string>
+    <string name="help_summary">Sånn bruker du Musikk-appen og betaversjonen av Musikk fra Google</string>
+    <string name="library_help_title">Hjelp</string>
+    <string name="library_help_summary">Feilsøking av tilkoblingsproblemer</string>
+    <string name="add_account_title">Legg til konto</string>
+    <string name="accounts_title">Kontoer</string>
+    <string name="account_status_connected">tilkoblet</string>
+    <string name="account_status_not_connected">ikke tilkoblet</string>
+    <string name="show_no_downloads_title">Ingen sanger satt i nedlastingskø</string>
+    <string name="music_version_title">Musikkversjon</string>
+    <string name="music_version_summary">Ukjent versjon</string>
+    <string name="list_status_summary_no_items">Ingen elementer</string>
+    <string name="list_status_summary_loading">Laster inn …</string>
+    <string name="stream_accounts_title">Direkteavspilte kontoer</string>
+    <string name="library_status_title">Status for direkteavspilt bibliotek</string>
+    <string name="nowplaying_title">Spilles nå</string>
+    <string name="artists_title">Artister</string>
+    <string name="albums_title">Album</string>
+    <string name="genres_title">Sjangrer</string>
+    <string name="tracks_title">Sanger</string>
+    <string name="playlists_title">Spillelister</string>
+    <string name="recent_title">Nylige</string>
+    <string name="search_title">Søk</string>
+    <string name="no_tracks_title">Ingen sanger</string>
+    <string name="no_videos_title">Ingen videoer</string>
+    <string name="delete_playlist_menu">Slett</string>
+    <string name="edit_playlist_menu">Rediger</string>
+    <string name="rename_playlist_menu">Gi nytt navn</string>
+    <string name="playlist_delete_confirmation">Spillelisten «%s» slettes.</string>
+    <string name="delete_playlist_button_confirm">Slett</string>
+    <string name="playlist_deleted_message">Spillelisten ble slettet.</string>
+    <string name="playlist_created_message">Spillelisten «%s» er opprettet</string>
+    <string name="playlist_renamed_message">Spillelisten har fått nytt navn «%s»</string>
+    <string name="recentlyadded">Nylig lagt til</string>
+    <string name="recentlyadded_title">Nylig lagt til</string>
+    <string name="podcasts_listitem">Podcasts</string>
+    <string name="podcasts_title">Podcasts</string>
+    <string name="unknown_artist_name">Ukjent artist</string>
+    <string name="unknown_album_name">Ukjent album</string>
+    <string name="unknown_playlist_name">Ukjent spilleliste</string>
+    <string name="shuffle_on_notif">Tilfeldig avspilling er på.</string>
+    <string name="shuffle_off_notif">Tilfeldig avspilling er av.</string>
+    <string name="repeat_off_notif">Ingen gjentagelse.</string>
+    <string name="repeat_current_notif">Gjentar denne sangen.</string>
+    <string name="repeat_all_notif">Gjentar alle sanger.</string>
+    <string name="play_selection">Spill</string>
+    <string name="add_to_playlist">Legg til spillelisten</string>
+    <string name="rename_playlist_menu_item">Gi nytt navn</string>
+    <string name="add_to_playlist_selector_title">Legg til i spilleliste</string>
+    <string name="queue">Gjeldende spilleliste</string>
+    <string name="new_playlist_for_content">Ny spilleliste</string>
+    <string name="new_empty_playlist">Ny spilleliste</string>
+    <string name="new_playlist_name_template">Spilleliste %d</string>
+    <string name="playlist_too_many_songs">For mange sanger. Grensen er %d per spilleliste.</string>
+    <string name="emptyplaylist">Den valgte spillelisten er tom.</string>
+    <string name="playlist_edit_label">NAVN</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">Gi nytt navn</string>
+    <string name="service_start_error_title">Avspillingsproblem</string>
+    <string name="service_start_error_msg">Beklager, kunne ikke spille av sangen.</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">Ferdig</string>
+    <string name="weekpicker_title">Velg tid</string>
+    <string name="save_as_playlist">Lagre som spilleliste</string>
+    <string name="musicbrowserlabel">Musikk</string>
+    <string name="musicshortcutlabel">Musikk-spilleliste</string>
+    <string name="mediaplaybacklabel">Musikk</string>
+    <string name="playback_failed">Feil under avspilling av spor</string>
+    <string name="cancel">Avbryt</string>
+    <string name="remove_from_playlist">Fjern fra spilleliste</string>
+    <string name="streamloadingtext">Kobler til %s</string>
+    <string name="mediasearch">Søk etter %s ved hjelp av:</string>
+    <string name="search_hint">Søk etter musikk</string>
+    <string name="working_artists">Artister…</string>
+    <string name="working_albums">Album…</string>
+    <string name="working_songs">Sanger…</string>
+    <string name="working_playlists">Spillelister…</string>
+    <string name="working_genres">Henter sjangre …</string>
+    <string name="loading">Laster</string>
+    <string name="sort_by_track">Spor</string>
+    <string name="music_picker_title">Velg musikkspor</string>
+    <string name="gadget_track">Spor %d</string>
+    <string name="fail_to_start_stream">Kunne ikke spille av strømmen.</string>
+    <string name="search_settings_description">Artister, album og spor</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"</string>
+    <string name="music_library">Musikkbibliotek</string>
+    <string name="music_shop">Butikk</string>
+    <string name="pick">Velg</string>
+    <string name="artist_unknown">Ukjent artist</string>
+    <string name="playlists_label">Spillelister</string>
+    <string name="playlist_label">Spilleliste</string>
+    <string name="faux_art_all_songs_label">Alle sanger</string>
+    <string name="faux_art_playlist_label">Spilleliste</string>
+    <string name="loading_new">Laster inn ny musikk</string>
+    <string name="no_items">Det er ingen elementer i samlingen</string>
+    <string name="buffering">Bufrer</string>
+    <string name="keep_on_phone">Tilgj. i frakoblet modus</string>
+    <string name="sort_order_prompt">Velg sorteringsrekkefølge</string>
+    <string name="provider_label">Musikk</string>
+    <string name="tutorial_set_up_usb">Les mer</string>
+    <string name="no_music_heading">Musikkbiblioteket er tomt</string>
+    <string name="no_music_setup_uploader_heading">Direkteavspill musikken trådløst</string>
+    <string name="no_music_setup_uploader_body">Direkteavspill din personlige musikksamling med betaversjonen av Musikk fra Google.</string>
+    <string name="no_music_setup_usb_heading">Kopier musikk til enheten</string>
+    <string name="no_music_setup_usb_body">Kopier musikk til telefonen med en USB-tilkobling.</string>
+    <string name="no_local_music_heading">Ingen musikk lagret lokalt</string>
+    <string name="no_local_music_body">Du er i frakoblet modus, og derfor vil bare musikk som er lagret på enheten vises. Hvis du vil endre det som er tilgjengelig når du ikke er tilkoblet, kan du angi valg med alternativet Gjør tilgjengelig i frakoblet modus.</string>
+    <string name="no_music_learn_more">Les mer</string>
+    <string name="tutorial_set_up_streaming">Konfigurer direkteavspilling</string>
+    <string name="no_playlists_heading">Du har ingen spillelister i biblioteket.</string>
+    <string name="no_playlists_body">Du kan opprette en spilleliste ved å gå til listevisningen Sanger, og velge «Legg til i spilleliste» fra kontekstmenyen for en sang.</string>
+    <string name="tutorial_account_heading">Velkommen</string>
+    <string name="tutorial_account_body">Du er blitt invitert av Google til å prøve betaversjonen av Musikk. Du kan bruke denne spilleren for å få umiddelbar tilgang til sangene du har lagt til i betaversjonen av Musikk, samt annen musikk du har kopiert til Android-enheten.</string>
+    <string name="tutorial_account_list_header">Kom i gang ved å velge en Google-konto for å koble denne spilleren til betaversjonen av Musikk:</string>
+    <string name="tutorial_done_heading">God fornøyelse</string>
+    <string name="tutorial_done_body">"Musikkspilleren er nå koblet til Google-kontoen din.
+
+Hvis du allerede har lagt til musikksamlingen din i betaversjonen av Musikk, vises musikken i denne avspilleren.
+
+Hvis du ikke har lagt til musikken din enda, kan du komme i gang ved å gå til nettstedet via nettleseren på datamaskinen:"</string>
+    <string name="tutorial_back">Tilbake</string>
+    <string name="tutorial_skip">Hopp over</string>
+    <string name="tutorial_next">Neste</string>
+    <string name="tutorial_done">Ferdig</string>
+    <string name="help_heading">Hjelp</string>
+    <string name="spinner_carousel">Nylig</string>
+    <string name="spinner_album">Album</string>
+    <string name="spinner_artist">Artister</string>
+    <string name="spinner_songs">Sanger</string>
+    <string name="spinner_playlists">Spillelister</string>
+    <string name="spinner_genres">Sjangrer</string>
+    <string name="sort_by_title">Sortér fra A til Å</string>
+    <string name="sort_by_artist">Sortér etter artist</string>
+    <string name="sort_by_album">Sortér etter album</string>
+    <string name="more_by_artist">Mer fra denne artisten</string>
+    <string name="make_available_offline">Gjør tilgjengelig i frakoblet modus</string>
+    <string name="search_web">Søk på nettet</string>
+    <string name="manage_done">Ferdig</string>
+    <string name="too_many_items_title">For mange varer</string>
+    <string name="too_many_items_body">Du har valgt å beholde for mange varer. Slett noen for å frigjøre lagringsplass.</string>
+    <string name="save_manage_music_change_title">Vil du lagre endringene?</string>
+    <string name="save_manage_music_change_body">Ønsker du å lagre endringene du har gjort slik at valgt musikk blir tilgjengelig for frakoblet bruk?</string>
+    <string name="not_all_items_can_be_kept_body">Du har valgt å beholde for mange varer. Kan ikke laste ned alle varene.</string>
+    <string name="free_space_overfull">Full lagr. (%s for mye)</string>
+    <string name="free_space">%s GRATIS</string>
+    <string name="stream_error_no_space_available">Ingen ledig plass</string>
+    <string name="stream_error_server_not_found">Kan ikke koble til tjeneren</string>
+    <string name="stream_error_only_on_wifi">Du må bruke et Wi-Fi-nettverk for å spille av denne sangen</string>
+    <string name="stream_error_no_connection">Du må være på nett for å spille av denne sangen</string>
+    <string name="stream_error_unauthorized">Ugyldig brukernavn eller passord</string>
+    <string name="stream_error_another_stream_being_played">Musikken er satt på pause fordi du lytter til samlingen på en annen enhet.</string>
+    <string name="stream_error_rate_limit_reached">Musikk er for øyeblikket utilgjengelig. Kontroller at du kun spiller av samlingen på én enhet om gangen.</string>
+    <string name="stream_error_device_not_authorized">Åtte datamaskiner eller enheter er tilkoblet kontoen. Du må fjerne autoriseringen for en av disse før du kan legge til en ny.</string>
+    <string name="stream_error_another_stream_being_played_short">Musikk satt på pause</string>
+    <string name="stream_error_rate_limit_reached_short">Musikk er midlertidig utilgjengelig</string>
+    <string name="stream_error_device_not_authorized_short">For mange enheter knyttet til kontoen</string>
+    <string name="hide_now_playing_bar">Skjul avspillingslinjen</string>
+    <string name="show_now_playing_bar">Vis avspillingslinjen</string>
+    <string name="show_options">Vis alternativer</string>
+    <string name="hide_options">Skjul alternativer</string>
+    <string name="all_songs_in_genre">"Alle sanger i sjangeren
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Gjør musikk tilgjengelig i frakoblet modus</string>
+    <string name="notification_downloading_when_on_wifi">Sanger som er markert som frakoblet, lastes inn når du kobler til et Wi-Fi-nettverk.</string>
+    <string name="notification_downloading_excessive_errors">Kan ikke laste ned sanger for øyeblikket. Kontroller Internett-tilkoblingen din.</string>
+    <string name="notification_downloading_done">De valgte sangene er nå tilgjengelige i frakoblet modus</string>
+    <string name="carousel_label_shuffle_all">Spill alle i vilkårl. rekkefølge</string>
+    <string name="song_label">SANG</string>
+    <string name="artist_label">ARTIST</string>
+    <string name="album_label">ALBUM</string>
+    <string name="effectspanel">Lydeffekter</string>
+    <string name="menu_make_instant_mix">Lag direktemiks</string>
+    <string name="instant_mix_default_name">Miksen %s</string>
+    <string name="creating_instant_mix">"Legger til en direktemiks
+i spillelister"</string>
+    <string name="creating_instant_mix_with_seed">"Legger til en direktemiks
+i spillelister, basert på
+%s"</string>
+    <string name="create_instant_mix_failed">Kan ikke opprette Google Instant-miks. Prøv på nytt</string>
+    <string name="create_instant_mix_failed_insufficient_results">Du har ikke nok lignende sanger i samlingen til å lage en Google Instant-miks av «%s». Prøv å lage en miks av en annen sang.</string>
+    <string name="create_instant_mix_sync_timeout">"Direktemiksen er
+opprettet og vises i
+spillelistene om kort tid."</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">Slett</string>
+    <string name="confirm_delete_local_only">Er du sikker på at du vil slette «%s»?</string>
+    <string name="confirm_delete_has_remote">«%s» har både blitt lastet inn på en enhet og lastet opp til Google Musikk. Kun elementene som har blitt lastet inn på enheten blir slettet. Er du sikker på at du ønsker å slette dem?</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%1$d曲</item>
+        <item quantity="one">1曲</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">アルバム%1$d枚</item>
+        <item quantity="one">1件のアルバム</item>
+    </plurals>
+    <plurals name="Nsongs_search_result">
+        <item quantity="other">%1$d曲</item>
+        <item quantity="one">1曲</item>
+    </plurals>
+    <plurals name="Nalbums_search_result">
+        <item quantity="other">アルバム%1$d枚</item>
+        <item quantity="one">アルバム1枚</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%1$1$d曲が%2$2$sに追加されました。</item>
+        <item quantity="one">%2$sに1曲追加しました。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Informatie synchronisatie PC</string>
+    <string name="searchingPCSideSyncTool">Bezig met zoeken naar %s op uw computer...</string>
+    <string name="connectionFailMessage" formatted="false">U hebt %s niet geïnstalleerd of gestart op uw computer. Download %s van de ASUS-ondersteuningspagina - http://support.asus.com. (NB: alleen voor Windows.) Druk op de knop \"%s\" om af te sluiten of op de knop \"%s\" om opnieuw verbinding te maken met %s.</string>
+    <string name="connectionFailTitle">Verbinding mislukt</string>
+    <string name="tryAgain">Probeer het nogmaals</string>
+    <string name="cancel">Annuleren</string>
+</resources>

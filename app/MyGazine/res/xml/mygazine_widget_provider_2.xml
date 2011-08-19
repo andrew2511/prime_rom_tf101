@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:maxWidth="672.0dip" android:minWidth="384.0dip" android:minHeight="384.0dip" android:updatePeriodMillis="0" android:initialLayout="@layout/mygazine_widget_layout2" android:previewImage="@drawable/style2" android:resizeMode="horizontal" android:notifyResize="true" android:availableWidths="@array/avai_widths_2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="da_destination_activity_btn_size">194.0dip</dimen>
+    <dimen name="da_destination_activity_btn_inner_size">176.0dip</dimen>
+    <dimen name="da_destination_activity_btn_margin_tablet">18.0dip</dimen>
+</resources>

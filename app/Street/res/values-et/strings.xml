@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Tänavavaade</string>
+    <string name="go_to_map">Mine kaardile</string>
+    <string name="report_inappropriate_image">Teavita kujutisest</string>
+    <string name="toggle_compass_mode">Kompassirežiim</string>
+    <string name="compass_mode_on">Kompassirežiim sees.</string>
+    <string name="compass_mode_off">Kompassirežiim on väljas.</string>
+    <string name="waiting_for_network">Andmeühendus katkes, uuesti proovimine…</string>
+    <string name="panorama_disabled">Pilt pole enam saadaval</string>
+    <string name="service_unavailable">Tänavavaate teenus pole kasutatav.</string>
+    <string name="loading">Laadin</string>
+    <string name="no_panorama_data">Panoraami andmed on seadmata.</string>
+    <string name="invalid_panorama_data">Vale panoraam</string>
+    <string name="click_to_go_toast">Lohistage abimees sinna, kuhu te tahate minna.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">See programm nõuab andmeühendust ning proovib automaatselt uuesti. Kontrollige palun oma signaali tugevust. Kas lennukirežiim on sisselülitatud? Kas rändlusandmed on keelatud?</string>
+    <string name="whats_new_header">Mida on uut tänavavaates?</string>
+    <string name="whats_new_c2g">Lennake soovitud kohta. Lohistage alt vasakult abimeest ning kukutage see kohta, kuhu soovite minna.</string>
+    <string name="terms_and_privacy">Tingimused &amp; privaatsus</string>
+    <string name="terms_and_conditions">"Nõuded ja tingimused
+"</string>
+    <string name="privacy_policy">Privaatsuseeskirjad</string>
+</resources>

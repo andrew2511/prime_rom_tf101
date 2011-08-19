@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/tardis" android:key="preferences_tardis_category">
+        <CheckBoxPreference android:key="preferences_tardis_1" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

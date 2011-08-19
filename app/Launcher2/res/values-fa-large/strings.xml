@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">انتخاب تصویر زمینه</string>
+    <string name="wallpaper_chooser_empty">هیچ تصویر زمینه ای موجود نیست</string>
+    <string name="wallpaper_cancel">لغو</string>
+</resources>

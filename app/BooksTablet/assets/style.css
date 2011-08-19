@@ -1,0 +1,177 @@
+/* Copyright 2010 Google Inc.  All Rights Reserved. */
+html, body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #000;
+}
+
+body.night-mode {
+    background: #000;
+    color: #fff;
+}
+
+#debug {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 1.2em;
+    background: white;
+    padding: 0.5em;
+    color: blue;
+}
+
+/* Make links look like plain text (bug 2947786). */
+a {
+    color: inherit;
+    text-decoration: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#container {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#content {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#content > .chapter {
+    border: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    -webkit-column-count: 2;
+    -webkit-column-fill: auto;
+    -webkit-column-gap: 0;
+    -webkit-hyphens: auto;
+}
+
+/* The following styles were stolen from the iPhone app, for consistency. */
+.chapter .gstxt_sup {
+    font-size: 75%;
+    position: relative;
+    bottom: 0.5em;
+}
+
+.chapter .gstxt_sub {
+    font-size: 75%;
+    position: relative;
+    top: 0.3em;
+}
+
+.chapter .gstxt_hlt {
+    background-color: yellow;
+}
+
+.chapter div.gtxt_inset_box {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px black solid;
+}
+
+.chapter div.gtxt_footnote {
+    border: 1px black dotted;
+}
+
+.chapter .gstxt_underline {
+    text-decoration: underline;
+}
+
+.chapter .gtxt_heading {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 150%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.chapter .gtxt_h1_heading {
+    text-align: center;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+.chapter .gtxt_h2_heading {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.chapter .gtxt_h3_heading {
+    font-weight: bold;
+}
+
+.chapter .gtxt_lineated {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.chapter .gtxt_lineated_code {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: monospace;
+}
+
+.chapter .gtxt_quote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.chapter .gimg_graphic {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.chapter .gimg_table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.chapter pre {
+    white-space: pre-wrap;
+}
+
+span.highlight {
+    color: #000000;
+    background: #ffff98;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather.ttf');
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('fonts/Vollkorn-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('fonts/Vollkorn-Italic.ttf');
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: 'OFLGoudyStMTT';
+    src: url('fonts/OFLGoudyStMTT.ttf');
+}
+
+@font-face {
+    font-family: 'OFLGoudyStMTT';
+    src: url('fonts/OFLGoudyStMTT-Italic.ttf');
+    font-style: italic, oblique;
+}

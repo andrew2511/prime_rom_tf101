@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Informace o synchr. PC</string>
+    <string name="searchingPCSideSyncTool">Hledání %s ¨ve vašem počítači...</string>
+    <string name="connectionFailMessage" formatted="false">Nemáte na počítači instalovaný nebo spuštěný program %s. Stáhněte si %s ze stránky podpory ASUS - http://support.asus.com. (Pozn: pouze pro operační systém Windows.) Stisknutím \"%s\" můžete ukončit operaci nebo se stisknutím \"%s\" znovu připojíte k %s.</string>
+    <string name="connectionFailTitle">Připojení selhalo</string>
+    <string name="tryAgain">Opakujte akci</string>
+    <string name="cancel">Storno</string>
+</resources>

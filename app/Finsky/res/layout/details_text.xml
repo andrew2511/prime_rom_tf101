@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_text_top_margin" style="@style/DetailsPage_Panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/header" style="@style/DetailsPage_HeaderText" />
+    <TextView android:id="@id/section_content" style="@style/DetailsPage_ContentText" />
+    <include layout="@layout/details_footer" />
+</LinearLayout>

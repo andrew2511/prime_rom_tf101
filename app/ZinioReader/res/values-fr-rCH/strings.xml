@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_text_tip_msg">"Certaines publications n'offrent pas d'articles comportant du texte. La Table des matières ou l'index visuel vous aident à trouver la page que vous recherchez."</string>
+</resources>

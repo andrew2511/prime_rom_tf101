@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="10.000002%p" xt9:keyHeight="@dimen/key_height" xt9:horizontalGap="0.0px" xt9:verticalGap="0.0px"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:keyWidth="13.999998%p">
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_number_sign" xt9:keyEdgeFlags="left" xt9:keyLabel="\#" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_dollar_sign" xt9:keyLabel="$" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_percent_sign" xt9:keyLabel="%" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_low_line" xt9:keyLabel="_" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_plus_sign" xt9:keyLabel="+" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_equals_sign" xt9:keyLabel="=" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_vertical_line" xt9:keyEdgeFlags="right" xt9:keyLabel="|" />
+    </Row>
+    <Row xt9:keyWidth="13.999998%p">
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_ampersand" xt9:keyEdgeFlags="left" xt9:keyLabel="&amp;" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_yen_sign" xt9:keyLabel="¥" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_less_than_sign" xt9:keyLabel="&lt;" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_greater_than_sign" xt9:keyLabel=">" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_left_corner_bracket" xt9:keyLabel="「" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_right_corner_bracket" xt9:keyLabel="」" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_reverse_solidus" xt9:keyEdgeFlags="right" xt9:keyLabel="\\" />
+    </Row>
+    <Row xt9:keyWidth="13.999998%p">
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="-1" xt9:keyEdgeFlags="left" xt9:isModifier="true" xt9:isSticky="true" xt9:keyLabel="@string/label_alt_key" />
+        <Key xt9:keyLabel="€" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_circumflex_accent" xt9:keyLabel="^" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_apostrophe" xt9:keyLabel="'" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_left_square_bracket" xt9:keyLabel="[" />
+        <Key xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_right_square_bracket" xt9:keyLabel="]" />
+        <Key xt9:keyWidth="14.999998%p" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_delete" xt9:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row xt9:rowEdgeFlags="bottom">
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyEdgeFlags="left" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_comma" xt9:keyLabel="," />
+        <Key xt9:keyWidth="29.999996%p" xt9:codes="32" xt9:isRepeatable="false" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/sym_keyboard_space" />
+        <Key xt9:keyWidth="14.999998%p" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="@string/alternates_for_full_stop" xt9:keyLabel="." />
+        <Key xt9:keyWidth="20.000004%p" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/sym_keyboard_feedback_return" xt9:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</KeyboardEx>

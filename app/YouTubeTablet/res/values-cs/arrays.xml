@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_levels">
+        <item>Nefiltrovat</item>
+        <item>Střední</item>
+        <item>Přísné</item>
+    </string-array>
+    <string-array name="subtitles_size_entries">
+        <item>Malá</item>
+        <item>Střední</item>
+        <item>Velká</item>
+        <item>Největší</item>
+    </string-array>
+</resources>

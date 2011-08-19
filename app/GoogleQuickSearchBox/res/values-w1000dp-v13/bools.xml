@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_zero_query_suggestions">false</bool>
+    <bool name="show_zero_query_summons">false</bool>
+    <bool name="use_genie">true</bool>
+    <bool name="support_psychic">false</bool>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Naar kaart</string>
+    <string name="report_inappropriate_image">Afbeelding melden</string>
+    <string name="toggle_compass_mode">Kompasmodus</string>
+    <string name="compass_mode_on">Kompasmodus aan.</string>
+    <string name="compass_mode_off">Kompasmodus uit.</string>
+    <string name="waiting_for_network">Dataverbinding verbroken, nieuwe poging…</string>
+    <string name="panorama_disabled">Afbeelding is niet meer beschikbaar</string>
+    <string name="service_unavailable">De service Street View is niet beschikbaar.</string>
+    <string name="loading">Bezig met laden</string>
+    <string name="no_panorama_data">Er zijn geen panoramagegevens ingesteld.</string>
+    <string name="invalid_panorama_data">Ongeldige panoramagegevens.</string>
+    <string name="click_to_go_toast">Sleep Pegman naar de locatie waar u naartoe wilt gaan.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Dit programma vereist een dataverbinding en doet automatisch een nieuwe poging. Controleer de signaalsterkte. Is de vliegtuigmodus ingeschakeld? Is roaming uitgeschakeld?</string>
+    <string name="whats_new_header">Welke nieuwe functies zijn er in Street View?</string>
+    <string name="whats_new_c2g">Vlieg overal naartoe. Sleep Pegman uit de linkerbenedenhoek en zet hem daar neer waar u naartoe wilt gaan.</string>
+    <string name="terms_and_privacy">Voorwaarden en privacy</string>
+    <string name="terms_and_conditions">Algemene voorwaarden</string>
+    <string name="privacy_policy">Privacybeleid</string>
+</resources>

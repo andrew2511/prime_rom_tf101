@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_root" android:background="@drawable/appwidget_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_top" android:background="@drawable/widget_title_bg" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/widget_header" android:scaleType="center" />
+    <include layout="@layout/widget_loading" />
+    <include layout="@layout/widget_no_content" />
+    <ViewFlipper android:id="@id/flipper" android:background="@drawable/green_gradient" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureAllChildren="false" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:flipInterval="7000" android:autoStart="true" />
+</LinearLayout>

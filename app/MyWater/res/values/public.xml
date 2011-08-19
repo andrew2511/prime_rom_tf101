@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="background" id="0x7f020000" />
+    <public type="drawable" name="bubble1_big" id="0x7f020001" />
+    <public type="drawable" name="bubble1_medium" id="0x7f020002" />
+    <public type="drawable" name="bubble1_small1" id="0x7f020003" />
+    <public type="drawable" name="bubble1_small2" id="0x7f020004" />
+    <public type="drawable" name="bubble1_small3" id="0x7f020005" />
+    <public type="drawable" name="bubble_big" id="0x7f020006" />
+    <public type="drawable" name="bubble_medium" id="0x7f020007" />
+    <public type="drawable" name="bubble_small1" id="0x7f020008" />
+    <public type="drawable" name="bubble_small2" id="0x7f020009" />
+    <public type="drawable" name="bubble_small3" id="0x7f02000a" />
+    <public type="drawable" name="gl_background_small" id="0x7f02000b" />
+    <public type="drawable" name="gl_waterbody_small" id="0x7f02000c" />
+    <public type="drawable" name="ice_cube" id="0x7f02000d" />
+    <public type="drawable" name="icon" id="0x7f02000e" />
+    <public type="drawable" name="water_body_re" id="0x7f02000f" />
+    <public type="drawable" name="water_surface_above_re" id="0x7f020010" />
+    <public type="drawable" name="water_surface_below_re" id="0x7f020011" />
+    <public type="drawable" name="white_bubble_sets_1" id="0x7f020012" />
+    <public type="drawable" name="white_bubble_sets_2" id="0x7f020013" />
+    <public type="drawable" name="white_bubble_sets_3" id="0x7f020014" />
+    <public type="drawable" name="white_bubble_sets_4" id="0x7f020015" />
+    <public type="drawable" name="white_bubble_sets_5" id="0x7f020016" />
+    <public type="drawable" name="white_bubble_sets_6" id="0x7f020017" />
+    <public type="layout" name="about" id="0x7f030000" />
+    <public type="layout" name="main" id="0x7f030001" />
+    <public type="xml" name="glwallpaper" id="0x7f040000" />
+    <public type="xml" name="mywater_settings" id="0x7f040001" />
+    <public type="xml" name="wallpaper" id="0x7f040002" />
+    <public type="string" name="description" id="0x7f050000" />
+    <public type="string" name="mywater_setting" id="0x7f050001" />
+    <public type="string" name="enable_rotation" id="0x7f050002" />
+    <public type="string" name="enable_rotation_description" id="0x7f050003" />
+    <public type="string" name="about" id="0x7f050004" />
+    <public type="string" name="app_name" id="0x7f050005" />
+    <public type="string" name="app_name2" id="0x7f050006" />
+    <public type="string" name="legal_information" id="0x7f050007" />
+    <public type="string" name="legal_content" id="0x7f050008" />
+    <public type="string" name="copy_right" id="0x7f050009" />
+    <public type="string" name="version" id="0x7f05000a" />
+    <public type="integer" name="bitmap_sample_size" id="0x7f060000" />
+    <public type="dimen" name="status_bar_height" id="0x7f070000" />
+    <public type="id" name="version" id="0x7f080000" />
+</resources>

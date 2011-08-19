@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/article_list_side_padding" android:paddingTop="7.0dip" android:paddingRight="@dimen/article_list_side_padding" android:paddingBottom="7.0dip" style="@style/fill_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="right" android:id="@id/periodical_standalone_title_date" style="@style/periodical_header"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

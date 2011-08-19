@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="asus_ep_osd_bg" id="0x7f020000" />
+    <public type="drawable" name="asus_ep_osd_ic_autobright_off" id="0x7f020001" />
+    <public type="drawable" name="asus_ep_osd_ic_autobright_on" id="0x7f020002" />
+    <public type="drawable" name="asus_ep_osd_ic_brightness" id="0x7f020003" />
+    <public type="drawable" name="asus_ep_osd_ic_bt_off" id="0x7f020004" />
+    <public type="drawable" name="asus_ep_osd_ic_bt_on" id="0x7f020005" />
+    <public type="drawable" name="asus_ep_osd_ic_mute" id="0x7f020006" />
+    <public type="drawable" name="asus_ep_osd_ic_touchpad_off" id="0x7f020007" />
+    <public type="drawable" name="asus_ep_osd_ic_touchpad_on" id="0x7f020008" />
+    <public type="drawable" name="asus_ep_osd_ic_volume" id="0x7f020009" />
+    <public type="drawable" name="asus_ep_osd_ic_wifi_off" id="0x7f02000a" />
+    <public type="drawable" name="asus_ep_osd_ic_wifi_on" id="0x7f02000b" />
+    <public type="drawable" name="asus_ep_osd_volume_empty" id="0x7f02000c" />
+    <public type="drawable" name="asus_ep_osd_volume_full" id="0x7f02000d" />
+    <public type="layout" name="toast_layout" id="0x7f030000" />
+    <public type="layout" name="toast_layout_bar" id="0x7f030001" />
+    <public type="id" name="toast_layout_root" id="0x7f040000" />
+    <public type="id" name="osd_icon" id="0x7f040001" />
+    <public type="id" name="osd_icon_bar" id="0x7f040002" />
+    <public type="id" name="level" id="0x7f040003" />
+</resources>

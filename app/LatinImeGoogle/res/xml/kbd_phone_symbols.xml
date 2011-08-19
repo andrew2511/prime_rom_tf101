@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="26.670002%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_numkey_styles" />
+    <Row latin:rowEdgeFlags="top">
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="(" />
+        <Key latin:keyLabel="/" />
+        <Key latin:keyLabel=")" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyLabel="-" latin:keyStyle="functionalKeyStyle" />
+    </Row>
+    <Row>
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="N" />
+        <Key latin:code="44" latin:keyLabel="Pause" />
+        <Key latin:keyLabel="," />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyLabel="." latin:keyStyle="functionalKeyStyle" />
+    </Row>
+    <Row>
+        <Key latin:keyEdgeFlags="left" latin:keyStyle="numStarKeyStyle" />
+        <Key latin:code="59" latin:keyLabel="Wait" />
+        <Key latin:keyStyle="numPoundKeyStyle" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" />
+    </Row>
+    <Row latin:rowEdgeFlags="bottom">
+        <Key latin:code="@integer/key_switch_alpha_symbol" latin:keyEdgeFlags="left" latin:keyLabel="@string/label_to_numeric_key" />
+        <Key latin:keyLabel="+" />
+        <Key latin:keyStyle="numSpaceKeyStyle" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" />
+    </Row>
+</Keyboard>

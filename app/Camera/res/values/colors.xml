@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="recording_time_elapsed_text">#ffffffff</color>
+    <color name="recording_time_remaining_text">#ffff0033</color>
+    <color name="zoom_picker_btn_pressed">#ffffad00</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="review_control_pressed_color">#ff6899ff</color>
+    <color name="icon_disabled_color">#dd777777</color>
+    <color name="time_lapse_arc">#ffc5c5c5</color>
+</resources>

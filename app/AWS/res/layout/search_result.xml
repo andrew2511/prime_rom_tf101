@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0sp" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+        <ImageButton android:id="@id/Logo" android:background="@drawable/logo" android:layout_width="162.0sp" android:layout_height="29.0sp" android:layout_marginLeft="5.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentRight="true">
+        <ImageButton android:id="@id/GoSearch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/save_area" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0sp">
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/mPath" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_search_navtxt" />
+        <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:textColorHint="#ff0000ff" android:id="@id/DoSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/aty_search_save" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/list_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="150.0sp">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ffffffff" android:dividerHeight="1.0dip" android:smoothScrollbar="true" />
+    </LinearLayout>
+</RelativeLayout>

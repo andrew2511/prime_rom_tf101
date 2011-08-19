@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.contacts.editor.AggregationSuggestionView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aggregation_suggestion_photo" android:layout_width="@dimen/aggregation_suggestion_icon_size" android:layout_height="@dimen/aggregation_suggestion_icon_size" android:layout_marginTop="4.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/aggregation_suggestion_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/aggregation_suggestion_photo" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/aggregation_suggestion_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/aggregation_suggestion_photo" android:layout_below="@id/aggregation_suggestion_name" />
+</view>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d av %2$2$d bøker</item>
+        <item quantity="one">Én bok</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Samtidig lesing av denne boken er begrenset til %1$d enheter eller datamaskiner, og du har nådd denne grensen. Lukk denne boken i andre lesere, vent noen minutter og prøv på nytt.</item>
+        <item quantity="one">Samtidig lesing av denne boken er begrenset til én enhet eller datamaskin, og du har nådd denne grensen. Lukk denne boken i andre lesere, vent noen minutter og prøv på nytt.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Program uruchamiający aktualizację</string>
+    <string name="TITLE_DETECTED">Wykryto plik aktualizacji systemu</string>
+    <string name="TITLE_SYSTEM_UPDATE">Aktualizacja systemu</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Dostępna jest aktualizacja systemu</string>
+    <string name="MSG_PRELIMINARY">"Aktualizacja systemu potrwa około 10 minut. Podczas aktualizacji nie będzie można używać urządzenia, włącznie z połączeniem alarmowym.
+
+Należy podłączyć przewód zasilający lub upewnić się, że bateria jest naładowana w co najmniej 15%.
+
+Czy chcesz kontynuować aktualizację systemu?"</string>
+    <string name="BUTTON_CANCEL">Anuluj</string>
+    <string name="MSG_RESUME">Dotknij, aby rozpocząć aktualizację systemu.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Aktualizacja systemu została zakończona</string>
+    <string name="MSG_UPDATE_DONE">Aktualizacja systemu powiodła się.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Plik aktualizacji nie istnieje.</string>
+    <string name="MSG_UPDATE_FAIL">Aktualizacja systemu nie powiodła się.</string>
+    <string name="MSG_UPDATE_RESTORE">Zostanie przywrócona poprzednia konfiguracja systemu</string>
+    <string name="MSG_BATTERY_LOW">"Proces aktualizacji systemu został zatrzymany z powodu niskiego poziomu naładowania baterii.
+
+Przed aktualizacją systemu należy podłączyć przewód zasilający."</string>
+    <string name="TITLE_SELECT_FILE">Wybierz pakiet aktualizacji</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Pakiet aktualizacyjny jest niekompatybilny z aktualnym oprogramowaniem. Sprawdź wersję oprogramowania i numer wersji w opcji Settings (Ustawienia) i spróbuj użyć prawidłowego pakietu aktualizacyjnego.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Pakiet aktualizacyjny jest starszy niż posiadana wersja oprogramowania. Spróbuj użyć nowszego pakietu aktualizacyjnego.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Nieznany błąd.</string>
+</resources>

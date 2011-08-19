@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/title_contents" android:paddingLeft="@dimen/purchase_page_margin" android:paddingRight="@dimen/purchase_page_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:attr/windowTitleStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="normal" android:textColor="@android:color/black" android:ellipsize="marquee" android:id="@id/allow_access" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow_access" android:singleLine="true" />
+</RelativeLayout>

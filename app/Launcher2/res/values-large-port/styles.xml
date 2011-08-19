@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomizeTabIndicator.Wide" parent="@style/TabIndicator.Wide">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_font_size">12.0dip</dimen>
+    <dimen name="small_font_size">13.0dip</dimen>
+    <dimen name="medium_font_size">15.0dip</dimen>
+    <dimen name="large_font_size">18.0dip</dimen>
+    <dimen name="extra_large_font_size">22.0sp</dimen>
+    <dimen name="movie_grid_item_height">202.0dip</dimen>
+    <dimen name="movie_grid_vertical_spacing">22.0dip</dimen>
+    <dimen name="movie_grid_horizontal_spacing">27.0dip</dimen>
+    <dimen name="watch_poster_art_height">260.0dip</dimen>
+    <dimen name="watch_poster_art_width">184.0dip</dimen>
+    <dimen name="movie_grid_item_width">143.0dip</dimen>
+    <dimen name="offline_warning_bottom_margin">32.0dip</dimen>
+    <dimen name="offline_warning_font_size">@dimen/large_font_size</dimen>
+    <dimen name="watch_side_margin">64.0dip</dimen>
+</resources>

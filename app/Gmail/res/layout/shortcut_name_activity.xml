@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/label_list_popup_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/label_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:text="@string/shortcut_name_prompt" android:singleLine="true" />
+    <EditText android:id="@id/label_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:inputType="textCapSentences|textAutoCorrect|textImeMultiLine" android:imeOptions="actionDone" />
+    <include layout="@layout/two_button_button_bar" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/reviewsTopDivider" android:layout_alignParentTop="true" style="@style/genericDivider" />
+    <TextView android:id="@id/shareText" android:paddingBottom="10.0dip" android:text="@string/social_capsule_share_this_game" style="@style/capsuleTitle" />
+    <Button android:gravity="left" android:id="@id/shareBttn" android:background="@drawable/share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/social_capsule_share" android:layout_toRightOf="@id/shareText" android:layout_centerVertical="true" style="@style/TopCapsuleShareThis" />
+</RelativeLayout>

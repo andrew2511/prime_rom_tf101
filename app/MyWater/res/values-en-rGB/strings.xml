@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS default live wallpaper.</string>
+    <string name="mywater_setting">ASUS MyWater Settings</string>
+    <string name="enable_rotation">Enable water rotation</string>
+    <string name="enable_rotation_description">Water will rotate along with device rotation.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_center</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="HotseatButton.Left" parent="@style/HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_left</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="HotseatButton.Right" parent="@style/HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_right</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+    </style>
+</resources>

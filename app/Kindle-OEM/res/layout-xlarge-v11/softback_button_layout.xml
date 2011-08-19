@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top|left|center" android:id="@id/soft_back" android:visibility="gone" android:onClick="onSoftBackButtonClicked" style="@style/soft_back_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/softback_button_arrow" android:paddingTop="4.0dip" android:paddingRight="7.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_soft_back" />
+    <TextView android:textSize="@dimen/reader_softback_textsize" android:id="@id/softback_button_text" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader_soft_back" />
+</LinearLayout>

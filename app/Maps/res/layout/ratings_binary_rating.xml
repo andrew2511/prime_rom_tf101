@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/primary_text_extra_dark" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/aspect_label" android:paddingLeft="8.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+        <ImageView android:layout_gravity="center" android:id="@id/aspect_delete" android:visibility="gone" android:clickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/aspect_delete_button" android:scaleType="center" />
+        <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/sentiment_group" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip">
+            <RadioButton android:id="@id/negative_sentiment" android:paddingRight="20.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/negative_rating_selector" />
+            <RadioButton android:id="@id/positive_sentiment" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/positive_rating_selector" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@drawable/divider_horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

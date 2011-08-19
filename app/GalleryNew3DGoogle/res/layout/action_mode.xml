@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/cab_divider_vertical_dark" />
+    <Button android:gravity="left|center" android:id="@id/selection_menu" android:layout_width="200.0dip" android:layout_height="fill_parent" android:divider="?android:listDividerAlertDialog" style="?android:attr/borderlessButtonStyle" />
+    <ImageView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/cab_divider_vertical_dark" />
+</LinearLayout>

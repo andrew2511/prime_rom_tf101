@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Predvolená živá tapeta ASUS.</string>
+    <string name="mywater_setting">Nastavenia ASUS MyWater</string>
+    <string name="enable_rotation">Aktivovať otáčanie vody</string>
+    <string name="enable_rotation_description">Voda sa bude otáčať spolu s otáčaním zariadenia.</string>
+</resources>

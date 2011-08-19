@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/newsCapsuleLayout" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:hapticFeedbackEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <ImageView android:id="@id/newsTopDivider" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true" style="@style/genericDivider" />
+    <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/newsCapsuleIcon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_appicon_95" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/newsCapsuleIcon" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/newsInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+            <TextView android:id="@id/firstLine" android:text="" style="@style/newsTitle" />
+            <TextView android:id="@id/firstLineDetailLand" android:visibility="gone" android:text="" style="@style/newsTitleDetailLand" />
+            <TextView android:textStyle="bold" android:ellipsize="marquee" android:id="@id/authorLine" android:layout_width="fill_parent" android:singleLine="true" style="@style/newsLabel" />
+            <TextView android:ellipsize="marquee" android:id="@id/dateLine" android:layout_width="fill_parent" android:text="" android:singleLine="true" style="@style/newsLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/OpenNews" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_carrot_symbol" android:text=">" android:layout_weight="0.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

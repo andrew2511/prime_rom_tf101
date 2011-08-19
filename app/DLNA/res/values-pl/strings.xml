@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Wstecz</string>
+    <string name="localdevice">Lokalne</string>
+    <string name="playto">Odtwórz w</string>
+    <string name="chooserenderdevice">Wybierz urządzenie do wyświetlania</string>
+    <string name="mediatype">Typ multimediów</string>
+    <string name="choosemediatype">Wybierz jeden typ multimediów</string>
+    <string name="musictype">Muzyka</string>
+    <string name="imagetype">Zdjęcia</string>
+    <string name="videotype">Wideo</string>
+    <string name="cant_connect_to_server">Nie powiodło się połączenie z serwerem. Sprawdź połączenie.</string>
+    <string name="internet_exception">Brak połączenia z siecią</string>
+    <string name="internet_exception_message">Sprawdź połączenie z siecią…</string>
+    <string name="nodlnadevice">Włącz urządzenia z włączoną funkcją DLNA znajdujące się w tej samej sieci Wi-Fi.</string>
+    <string name="notagain">Nie pokazuj ponownie tego komunikatu.</string>
+    <string name="shardms">Czy chcesz udostępnić pliki multimedialne innym urządzeniom?</string>
+    <string name="server">Serwer</string>
+    <string name="settings">Ustawienia</string>
+    <string name="dms">Serwer multimediow cyfrowych</string>
+    <string name="dmssettings">Ustawienia serwera multimediów cyfrowych</string>
+    <string name="enable">Włącz</string>
+    <string name="disable">Wyłącz</string>
+    <string name="sharemediatype">Wybierz typy multimediów do udostępniania</string>
+    <string name="selectplayer">Wybierz urządzenie do odtwarzania</string>
+    <string name="shareto">Udostępnij przez</string>
+    <string name="dms_settings_adv">Ustawienia zaawansowane</string>
+    <string name="desc_share">Zmień folder udostępniania</string>
+    <string name="title_share">Udostępniony folder</string>
+    <string name="desc_friendlyname">Zmień wyświetlaną nazwę urządzenia</string>
+    <string name="title_friendlyname">Wyświetlana nazwa</string>
+    <string name="msgbox_title_error">Błąd</string>
+    <string name="msgbox_msg_error_no_wifi">Włącz najpierw Wi-Fi.</string>
+    <string name="msgbox_msg_error_friendlyname">Nie można zmienić wyświetlanej nazwy.</string>
+    <string name="msgbox_msg_error_sharefolder">Nie można zmienić udostępnianego foldera.</string>
+    <string name="msgbox_msg_error_mediatype">Nie można zmienić typu udostępnianych multimediów.</string>
+    <string name="enable_dms">Włącz serwer multimediów cyfrowych</string>
+    <string name="disable_dms">Wyłącz serwer multimediów cyfrowych</string>
+    <string name="about_title">Informacje</string>
+    <string name="toast_srvbusy">Serwer jest zajęty, spróbuj ponownie później.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Teraz odtwarzane</string>
+    <string name="play_all">Odtwórz wszystko</string>
+    <string name="party_shuffle">Losowo – tryb imprezy</string>
+    <string name="shuffle_all">Wszystkie losowo</string>
+    <string name="wifi_quick_toggle_summary">Włącz Wi-Fi</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="slide_show">Pokaz slajdów</string>
+    <string name="wait">Czekaj…</string>
+    <string name="fail_to_load">Nie można wczytać</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Pamięć wewnętrzna</string>
+</resources>

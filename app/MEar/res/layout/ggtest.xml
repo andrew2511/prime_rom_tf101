@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="left" android:id="@id/changeseq" android:background="@drawable/btn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="90.0dip" android:text="ChangeSeq" />
+        <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="left" android:id="@id/addoffline" android:background="@drawable/btn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="90.0dip" android:text="addoffline" />
+        <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="left" android:id="@id/deloffline" android:background="@drawable/btn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="90.0dip" android:text="deloffline" />
+    </LinearLayout>
+</RelativeLayout>

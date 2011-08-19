@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/pref_general_category" android:fragment="com.google.android.youtube.app.tablet.SettingsActivity$GeneralPrefsFragment" />
+    <header android:title="@string/pref_search_category" android:fragment="com.google.android.youtube.app.tablet.SettingsActivity$SearchPrefsFragment" />
+    <header android:title="@string/pref_about_category" android:fragment="com.google.android.youtube.app.tablet.SettingsActivity$AboutPrefsFragment" />
+</preference-headers>

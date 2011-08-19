@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="unreadCount">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:maxWidth">48.0dip</item>
+        <item name="android:minWidth">20.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ThemeNoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="accountSettingsHeadline">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="accountSetupHeadline">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/account_setup_headline_color</item>
+    </style>
+    <style name="accountSetupButton">
+        <item name="android:textAppearance">?android:textColorPrimary</item>
+        <item name="android:layout_width">160.0sp</item>
+        <item name="android:layout_height">40.0sp</item>
+    </style>
+    <style name="accountSettingsButton">
+        <item name="android:textAppearance">?android:textColorPrimary</item>
+        <item name="android:layout_width">160.0sp</item>
+        <item name="android:layout_height">40.0sp</item>
+    </style>
+    <style name="PlainEditText" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="notification_secondary_text">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="widget_list_item">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="message_details_label">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="message_details_value">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+</resources>

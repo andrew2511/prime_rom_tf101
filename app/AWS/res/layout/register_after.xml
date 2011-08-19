@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/awsbgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/logo" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="#ff0083b1" android:id="@id/commWelcome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/common_welcome" />
+            <LinearLayout android:orientation="vertical" android:background="#ffe7fcff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:textColor="#ff487c91" android:id="@id/capacity_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Total Space: 2GB" />
+                <TextView android:textColor="#ff487c91" android:id="@id/expire_value" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Expired Date: 2012-10-10" />
+            </LinearLayout>
+            <Button android:id="@id/rulesave" android:layout_marginBottom="10.0dip" android:text="Start Now" android:onClick="backFunction" style="@style/SettingGreenBtn" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

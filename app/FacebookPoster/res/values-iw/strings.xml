@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">אורך הטקסט שבחרת חורג ממגבלת האורך, ייתכן שחלק מהתוכן ייקטע.</string>
+    <string name="post_successfully">פורסם בהצלחה</string>
+</resources>

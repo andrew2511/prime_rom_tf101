@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="121.0px" xt9:keyHeight="74.0px" xt9:horizontalGap="3.0px" xt9:verticalGap="2.0px" xt9:paddingLeft="20" xt9:paddingTop="12" xt9:paddingRight="14"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:codes="64" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:popupCharacters="©®™" xt9:keyEdgeFlags="left" xt9:keyLabel="\@" />
+        <Key xt9:codes="35" xt9:keyLabel="\#" />
+        <Key xt9:codes="38" xt9:keyLabel="&amp;" />
+        <Key xt9:codes="37" xt9:keyLabel="%" />
+        <Key xt9:codes="42" xt9:keyLabel="*" />
+        <Key xt9:codes="43" xt9:keyLabel="+" />
+        <Key xt9:codes="45" xt9:keyLabel="-" />
+        <Key xt9:codes="61" xt9:keyLabel="=" />
+        <Key xt9:codes="60" xt9:keyLabel="&lt;" />
+        <Key xt9:codes="62" xt9:keyEdgeFlags="right" xt9:keyLabel=">" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:codes="126" xt9:keyEdgeFlags="left" xt9:keyLabel="~" />
+        <Key xt9:codes="94" xt9:keyLabel="^" />
+        <Key xt9:codes="40" xt9:keyLabel="(" />
+        <Key xt9:codes="41" xt9:keyLabel=")" />
+        <Key xt9:codes="123" xt9:keyLabel="{" />
+        <Key xt9:codes="125" xt9:keyLabel="}" />
+        <Key xt9:codes="91" xt9:keyLabel="[" />
+        <Key xt9:codes="93" xt9:keyLabel="]" />
+        <Key xt9:codes="96" xt9:keyLabel="`" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText=":-(" xt9:keyLabel=":-(" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:codes="47" xt9:keyEdgeFlags="left" xt9:keyLabel="/" />
+        <Key xt9:codes="124" xt9:keyLabel="|" />
+        <Key xt9:codes="92" xt9:keyLabel="\\" />
+        <Key xt9:codes="36" xt9:keyLabel="$" />
+        <Key xt9:keyLabel="€" />
+        <Key xt9:codes="165" xt9:keyLabel="¥" />
+        <Key xt9:codes="163" xt9:keyLabel="£" />
+        <Key xt9:keyOutputText=":-)" xt9:keyLabel=":-)" />
+        <Key xt9:keyOutputText=":-D" xt9:keyLabel=":-D" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText=":-P" xt9:keyLabel=":-P" />
+    </Row>
+    <Row xt9:shadowRadius="1.0" xt9:shadowY="1">
+        <Key xt9:keyWidth="184.0px" xt9:codes="169" xt9:keyEdgeFlags="left" xt9:keyLabel="©" />
+        <Key xt9:codes="95" xt9:keyLabel="_" />
+        <Key xt9:codes="58" xt9:keyLabel=":" />
+        <Key xt9:codes="59" xt9:keyLabel=";" />
+        <Key xt9:codes="34" xt9:keyLabel="&quot;" />
+        <Key xt9:codes="39" xt9:keyLabel="'" />
+        <Key xt9:codes="33" xt9:keyLabel="!" />
+        <Key xt9:codes="63" xt9:keyLabel="\?" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:keyWidth="183.0px" xt9:shadowY="-1" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:iconPreview="@drawable/btn_keyboard_action_key" xt9:keyIcon="@drawable/btn_asus_ep_dele_icon" />
+    </Row>
+    <Row xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:rowEdgeFlags="bottom" xt9:shadowY="-1">
+        <Key xt9:codes="-3" xt9:keyEdgeFlags="left" xt9:keyIcon="@drawable/btn_asus_ep_key_icon" />
+        <Key xt9:codes="-20" xt9:keyIcon="@drawable/btn_asus_ep_lag_icon" />
+        <Key xt9:codes="-2" xt9:popupKeyboard="@xml/kbd_popup_template" xt9:keyLabel="@string/label_alpha_key" />
+        <Key xt9:keyWidth="434.0px" xt9:codes="32" xt9:isRepeatable="true" xt9:iconPreview="@drawable/sym_keyboard_feedback_space" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:codes="44" xt9:keyLabel="," />
+        <Key xt9:codes="46" xt9:popupKeyboard="@xml/popup_punctuation" xt9:keyLabel="." />
+        <Key xt9:keyWidth="183.0px" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:iconPreview="@drawable/asus_ep_go_icon" xt9:keyIcon="@drawable/asus_ep_go_icon" />
+    </Row>
+</KeyboardEx>

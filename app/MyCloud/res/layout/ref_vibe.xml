@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/vibe_main" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <HorizontalScrollView android:id="@id/vibe_all_apps" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="3100.0px" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vibe_app_music" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/vibe_music" android:background="@drawable/rollover_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="goVibeMusic" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/asus_ep_remote_logo_n" />
+                    <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Music" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vibe_app_radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/vibe_radio" android:background="@drawable/rollover_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="goVibeRadio" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/asus_ep_remote_logo_n" />
+                    <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Radio" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vibe_app_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/vibe_video" android:background="@drawable/rollover_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="goVibeVideo" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/asus_ep_remote_logo_n" />
+                    <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vibe_app_game" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/vibe_game" android:background="@drawable/rollover_game" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="goVibeGame" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/asus_ep_remote_logo_n" />
+                    <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vibe_app_news" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/vibe_news" android:background="@drawable/rollover_news" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="goVibeNews" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/asus_ep_remote_logo_n" />
+                    <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="News" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView android:textSize="62.0sp" android:typeface="sans" android:textColor="#ffffffff" android:id="@id/vibe_err" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_cloud_vibe_service_na" />
+    </LinearLayout>
+</merge>

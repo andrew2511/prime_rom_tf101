@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.media" android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.android.providers.drm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <permission android:label="@string/permlab_accessDrm" android:name="android.permission.ACCESS_DRM" android:protectionLevel="signature" android:description="@string/permdesc_accessDrm" />
+    <permission android:label="@string/permlab_installDrm" android:name="android.permission.INSTALL_DRM" android:protectionLevel="normal" android:description="@string/permdesc_installDrm" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <application android:label="@string/app_label" android:process="android.process.media">
+        <provider android:name=".DrmProvider" android:multiprocess="false" android:authorities="drm" />
+        <receiver android:name=".DrmPushReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.oma.drm.rights+xml" />
+                <data android:value="application/vnd.oma.drm.rights+wbxml" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preference"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_location">
+        <com.asus.weather.RadioPreference android:title="@string/content_manual" android:key="manual_radio" android:summary="" android:widgetLayout="@layout/radiobutton" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_updatefreq">
+        <com.asus.weather.ButtonPreference android:title="@string/content_updatetime" android:key="refresh_btn" android:summary="" />
+        <ListPreference android:entries="@array/freq_menu" android:title="@string/content_selectfreq" android:key="updatefreq" android:summary="" android:dialogTitle="@string/title_updatefreq" android:entryValues="@array/freqcontent_listfrag" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_others">
+        <ListPreference android:entries="@array/unit_menu" android:title="@string/content_tempunit" android:key="tempunit" android:summary="" android:dialogTitle="@string/content_tempunit" android:entryValues="@array/unitcontent_listfrag" />
+        <Preference android:title="" android:selectable="false" android:key="text_preference" android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

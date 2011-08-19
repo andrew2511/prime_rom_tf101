@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="2" android:versionName="2.0" package="com.asus.vibe2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@style/Vibe.Theme" android:label="@string/app_name" android:icon="@drawable/vibe_icon" android:logo="@drawable/vibe_logo" android:hardwareAccelerated="true">
+        <activity android:label="" android:name=".Act_VibeMain" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout">
+            <intent-filter>
+                <action android:name="com.asus.vibe.action.LIST_MUSIC" />
+                <action android:name="com.asus.vibe.action.LIST_RADIO" />
+                <action android:name="com.asus.vibe.action.LIST_VIDEO" />
+                <action android:name="com.asus.vibe.action.LIST_NEWS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name=".Act_Detail" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout">
+            <intent-filter>
+                <action android:name="com.asus.vibe.action.VIEW_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name=".Act_WebViewPlayer" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout">
+            <intent-filter>
+                <action android:name="com.asus.vibe.action.PLAY_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name=".Act_BuyBrowser" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout">
+            <intent-filter>
+                <action android:name="com.asus.vibe.action.BUY_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name=".Act_DownloadPage" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" />
+        <service android:name="Srv_Playback" />
+        <service android:name="Srv_QueryMainList">
+            <intent-filter>
+                <action android:name="com.asus.vibe.action.QUERY_MAINLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".Rcv_Download">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".mycloud.Rcv_MyCloudAccount">
+            <intent-filter>
+                <action android:name="com.asus.webstorage.id" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".debug.DummyMyCloud" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Select Region" android:name=".debug.RegionSelector" />
+        <activity android:label="Vibe Object List" android:name=".debug.MemDebug" android:taskAffinity="com.asus.vibe.memdebug" android:launchMode="singleTask" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="12" />
+</manifest>

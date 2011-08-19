@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/appwidget_book_root" android:background="@drawable/frame_top_book_widget_holo" android:layout_width="140.0dip" android:layout_height="220.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/appwidget_book_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/appwidget_book_item_sample_overlay" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preview_banner_text" android:layout_alignParentBottom="true" />
+        <FrameLayout android:background="@drawable/bg_book_icon_book_widget_holo" android:padding="4.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="bottom|left|center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_book_widget_holo" android:scaleType="center" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/popup_watch" android:title="@string/popup_watch" />
+    <item android:id="@id/popup_watch_fullscreen" android:title="@string/popup_watch_fullscreen" />
+    <item android:id="@id/popup_available_offline" android:title="@string/popup_available_offline" />
+</menu>

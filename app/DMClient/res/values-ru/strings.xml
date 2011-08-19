@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">мин</string>
+    <string name="postpone">Отложить</string>
+    <string name="update">Обновление</string>
+    <string name="firmware_update_title">Обновление прошивки</string>
+    <string name="firmware_update_fail">"Ошибка обновления.
+
+Ваше устройство будет восстановлено в исходной конфигурации."</string>
+    <string name="low_battery_warning">"Системе требуется не менее %1$d%% заряда аккумулятора для продолжения процесса обновления.
+Пожалуйста, зарядите аккумулятор перед обновлением системы."</string>
+    <string name="confirmDownload_textok">"Это обновление должно улучшить стабильность устройства. Сохраненные данные не будут удалены. Нажмите 'Да' для принятия обновления"</string>
+    <string name="confirmDownload_textcancel">Нажмите НЕТ для отмены обновления.</string>
+    <string name="confirmDownload_textwifi">Для загрузки обновлений мы рекомендуем использовать бесплатные Wi-Fi точки доступа</string>
+    <string name="confirmDownload_textwifi2">"Если нажать 'Позже', Вы можете приступить к загрузке в любое время, нажав уведомление"</string>
+    <string name="btn_text_later">Позже</string>
+    <string name="confirmDownload_dialog_title">Внимание, Вы используете роуминг.</string>
+    <string name="downloading">Загрузка прошивки...</string>
+    <string name="install_time">Приблизительное время установки:</string>
+    <string name="postponetime_text">Отложить установку на:</string>
+    <string name="install">Установить</string>
+    <string name="reach_max_net_fail">Не удалось загрузить с сервера, повторите попытку позже.</string>
+    <string name="dlg_title_checking">Проверка целостности.</string>
+    <string name="dlg_msg_checking">Проверка целостности файла прошивки.</string>
+    <string name="cannot_set_to_browser">Невозможно установить браузер.</string>
+    <string name="upgrade_error">Ошибка обновления, пожалуйста, загрузите пакет обновления снова.</string>
+    <string name="start_to_download">Начало загрузки критических обновлений.</string>
+    <string name="start_to_upgrade">Начало обновления.</string>
+    <string name="start_NI_dmSession">Инициализации DM сессии, принять?</string>
+    <string name="download_finished">Загрузка прошивки завершена...</string>
+    <string name="download_in_progress">Загрузка новой прошивки</string>
+    <string name="out_of_mem_warning">"Недостаточно свободного места,
+удалите часть приложений и повторите попытку."</string>
+    <string name="ui_alert_input_hint">Введите текст</string>
+    <string name="ui_alert_input_numeric_hint">Введите число</string>
+    <string name="ui_alert_input_phone_number_hint">Введите номер телефона</string>
+    <string name="check_for_update">Проверить обновления</string>
+    <string name="no_new_fota_update">Нет обновлений для вашего устройства.</string>
+    <string name="ok">ОК</string>
+    <string name="yes">ОК</string>
+    <string name="no">Отмена</string>
+    <string name="confirm_download_btn_Yes">Да</string>
+    <string name="confirm_download_btn_No">Нет</string>
+    <string name="confirm_update_title">Обновление прошивки ASUS.</string>
+    <string name="asus_received_title">Служба обновления прошивки системы</string>
+    <string name="received_message">Доступна новая прошивка, нажмите для обновления.</string>
+    <string name="low_battery_title">Процесс обновления прошивки прерван</string>
+    <string name="dl_received_ticker">Доступна новая прошивка.</string>
+    <string name="dl_received_message">Доступна новая прошивка, нажмите для загрузки.</string>
+    <string name="confirmDownload_text1">Хотите скачать следующие обновления прошивки?</string>
+    <string name="received_ticker">Доступна новая прошивка.</string>
+    <string name="update_dialog_text">"Новая прошивки системы загружена. Установить сейчас? 
+"</string>
+    <string name="prepare_dm_download">Подготовка к загрузке прошивки...</string>
+    <string name="system_update_activity">Обновление прошивки</string>
+    <string name="has_new_fota_update">Имеется новая прошивка для Вашего устройства. Пожалуйста, проверьте уведомления.</string>
+    <string name="update_dialog_text2">Это обновление прошивки улучшает стабильность системы и сохраняет Ваши данные, мы настоятельно рекомендуем обновить прошивку.</string>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:textSize="26.0sp" android:layout_gravity="center" android:id="@android:id/text1" android:layout_width="512.0dip" android:layout_height="80.0dip" android:checkMark="?android:listChoiceIndicatorMultiple"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

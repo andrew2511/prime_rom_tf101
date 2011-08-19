@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/month" android:background="@null" android:paddingLeft="@dimen/month_full_padding_left" android:paddingTop="33.0dip" android:paddingRight="@dimen/month_full_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/month_name" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MonthView_MiniMonthLabel" />
+    <include android:id="@id/day_names" layout="@layout/full_month_header" />
+    <include android:id="@id/week_list" layout="@android:layout/list_content" />
+</LinearLayout>

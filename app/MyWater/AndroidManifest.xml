@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.5.0" package="com.asus.livewallpaper"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@android:style/Theme.Holo" android:label="@string/app_name" android:icon="@drawable/icon">
+        <service android:label="@string/app_name" android:name=".gl.GLWaterPaperService" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/glwallpaper" />
+        </service>
+        <activity android:label="@string/mywater_setting" android:name=".gl.MyWaterSettings" android:exported="true" />
+    </application>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="11" />
+</manifest>

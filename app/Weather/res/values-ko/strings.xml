@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">날씨 위젯 설정</string>
+    <string name="refreshBtn">새로 고침</string>
+    <string name="saveBtn">저장</string>
+    <string name="cancelBtn">취소</string>
+    <string name="nocityfound">도시를 찾을 수 없습니다.</string>
+    <string name="humidity">습도</string>
+    <string name="winds">바람</string>
+    <string name="infor1">사용할 수 없음</string>
+    <string name="searchlistviewtitle">한 도시를 선택하십시오</string>
+    <string name="wait">기다리십시오...</string>
+    <string name="refreshFail">새로 고침 실패. 다시 시도하십시오.</string>
+    <string name="searchFail">검색 실패. 다시 시도하십시오.</string>
+    <string name="dirN">북</string>
+    <string name="dirNNE">북북동</string>
+    <string name="dirNE">북동</string>
+    <string name="dirENE">동북동</string>
+    <string name="dirE">동</string>
+    <string name="dirESE">동남동</string>
+    <string name="dirSE">남동</string>
+    <string name="dirSSE">남남동</string>
+    <string name="dirS">남</string>
+    <string name="dirSSW">남남서</string>
+    <string name="dirSW">남서</string>
+    <string name="dirWSW">서남서</string>
+    <string name="dirW">서</string>
+    <string name="dirWNW">서북서</string>
+    <string name="dirNW">북서</string>
+    <string name="dirNNW">북북서</string>
+    <string name="entercityname">한 도시를 입력하십시오:</string>
+    <string name="manualtitle">수동으로 위치 설정</string>
+    <string name="refreshprogresstitle">날씨 정보 업데이트</string>
+    <string name="refreshprogresscontent">지금 새로 고침. 기다리십시오...</string>
+    <string name="searchprogresstitle">도시 검색</string>
+    <string name="searchprogresscontent">지금 검색. 기다리십시오...</string>
+    <string name="no_network">네트워크가 연결되지 않아 날씨 정보를 업데이트 할 수 없습니다.</string>
+    <string name="no_provider">"모든 위치 정보를 현재 사용할 수 없습니다. 더 빠르고 정확한 위치 검색을 위해 '위치 및 보안 설정'에서 무선 네트워크와 GPS 위성을 켜십시오."</string>
+    <string name="title_location">위치</string>
+    <string name="content_autorefreshed">현재 위치 자동 고침</string>
+    <string name="content_manual">매뉴얼 검색</string>
+    <string name="title_updatefreq">업데이트 빈도</string>
+    <string name="content_updatetime">마지막 업데이트 시간</string>
+    <string name="content_selectfreq">업데이트 빈도 선택</string>
+    <string name="title_others">기타</string>
+    <string name="content_tempunit">온도 단위</string>
+</resources>

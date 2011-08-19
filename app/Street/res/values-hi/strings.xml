@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">स्ट्रीट दृश्य</string>
+    <string name="go_to_map">मानचित्र पर जाएं</string>
+    <string name="report_inappropriate_image">छवि की रिपोर्ट करें</string>
+    <string name="toggle_compass_mode">कम्पास मोड</string>
+    <string name="compass_mode_on">कम्पास मोड चालू.</string>
+    <string name="compass_mode_off">कम्पास मोड बंद.</string>
+    <string name="waiting_for_network">डेटा कनेक्शन गुम, पुनः प्रयास कर रहा है...</string>
+    <string name="panorama_disabled">चित्र अब उपलब्ध नहीं है</string>
+    <string name="service_unavailable">स्ट्रीट दृश्य सेवा अनुपलब्ध.</string>
+    <string name="loading">लोड हो रहा है</string>
+    <string name="no_panorama_data">कोई पैनोरमा डेटा सेट नहीं है.</string>
+    <string name="invalid_panorama_data">अमान्य पैनोरमा</string>
+    <string name="click_to_go_toast">पेगमैन को वहां खींचें जहां आप जाना चाहते हैं.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">इस प्रोग्राम के लिए एक डेटा कनेक्शन की आवश्यकता है, और स्वचालित रूप से पुनः प्रयास करेगा. कृपया अपने सिग्नल की प्रबलता देखें. क्या हवाई जहाज मोड चालू है? क्या रोमिंग डेटा अक्षम है?</string>
+    <string name="whats_new_header">स्ट्रीट दृश्य में नया क्या है?</string>
+    <string name="whats_new_c2g">"कोई भी ऐसे स्थान पर फ़्लाई करें जो आप देख सकते हैं. पेगमैन को नीचे बाएं से खींच कर जहां आप जाना चाहते हैं वहां डालें. "</string>
+    <string name="terms_and_privacy">नियम और गोपनीयता</string>
+    <string name="terms_and_conditions">नियम और शर्तें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+</resources>

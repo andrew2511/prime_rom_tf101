@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="contactsList">אנשי קשר</string>
+    <string name="launcherDialer">טלפון</string>
+    <string name="shortcutContact">איש קשר</string>
+    <string name="shortcutDialContact">חיוג ישיר</string>
+    <string name="shortcutMessageContact">הודעה ישירה</string>
+    <string name="shortcutActivityTitle">בחר קיצור דרך של איש קשר</string>
+    <string name="callShortcutActivityTitle">בחר מספר להתקשר אליו</string>
+    <string name="messageShortcutActivityTitle">בחר מספר לשליחת הודעה</string>
+    <string name="contactPickerActivityTitle">בחר איש קשר</string>
+    <string name="starredList">מסומן בכוכב</string>
+    <string name="frequentList">לעתים קרובות</string>
+    <string name="strequentList">מועדפים</string>
+    <string name="viewContactTitle">פרטי איש קשר</string>
+    <string name="viewContactDesription">הצג איש קשר</string>
+    <string name="editContactDescription">ערוך איש קשר</string>
+    <string name="insertContactDescription">צור איש קשר</string>
+    <string name="searchHint">חפש אנשי קשר</string>
+    <string name="menu_search">חיפוש</string>
+    <string name="menu_newContact">איש קשר חדש</string>
+    <string name="menu_viewContact">הצג איש קשר</string>
+    <string name="menu_callNumber">התקשר אל %s</string>
+    <string name="menu_addStar">הוסף למועדפים</string>
+    <string name="menu_removeStar">הסר מהמועדפים</string>
+    <string name="menu_editContact">ערוך איש קשר</string>
+    <string name="menu_deleteContact">מחק איש קשר</string>
+    <string name="menu_call">התקשר לאיש קשר</string>
+    <string name="menu_sendSMS">שלח הודעת טקסט לאיש קשר</string>
+    <string name="menu_makeDefaultEmail">הגדר דוא\"ל כברירת מחדל</string>
+    <string name="menu_splitAggregate">הפרד</string>
+    <string name="menu_renameGroup">שנה את שם הקבוצה</string>
+    <string name="menu_deleteGroup">מחק את הקבוצה</string>
+    <string name="menu_new_contact_action_bar">חדש</string>
+    <string name="splitConfirmation_title">הפרדת איש קשר</string>
+    <string name="splitConfirmation">האם אתה בטוח שברצונך להפריד איש קשר יחיד זה לאנשי קשר מרובים: אחד לכל קבוצת פרטי קשר שצורפה אליו?</string>
+    <string name="menu_joinAggregate">הצטרף</string>
+    <string name="titleJoinContactDataWith">שלב אנשי קשר</string>
+    <string name="blurbJoinContactDataWith">בחר את איש הקשר שברצונך לשלב עם %s.</string>
+    <string name="showAllContactsJoinItem">הצג את כל אנשי הקשר</string>
+    <string name="separatorJoinAggregateSuggestions">אנשי קשר מוצעים</string>
+    <string name="separatorJoinAggregateAll">כל אנשי הקשר</string>
+    <string name="contactsJoinedMessage">אנשי קשר שולבו</string>
+    <string name="menu_contactOptions">אפשרויות</string>
+    <string name="contactOptionsTitle">אפשרויות</string>
+    <string name="deleteConfirmation_title">מחק</string>
+    <string name="readOnlyContactWarning">לא ניתן למחוק אנשי קשר מחשבונות לקריאה בלבד, אך ניתן להסתיר אותם ברשימות אנשי הקשר.</string>
+    <string name="readOnlyContactDeleteConfirmation">איש קשר זה מכיל מידע מחשבונות מרובים. מידע מחשבונות לקריאה בלבד יוסתר ברשימות אנשי הקשר, לא יימחק.</string>
+    <string name="multipleContactDeleteConfirmation">מחיקת איש קשר זה תמחק מידע מחשבונות מרובים.</string>
+    <string name="deleteConfirmation">איש קשר זה יימחק.</string>
+    <string name="menu_done">בוצע</string>
+    <string name="menu_doNotSave">ביטול</string>
+    <string name="editContact_title_edit">ערוך איש קשר</string>
+    <string name="editContact_title_insert">איש קשר חדש</string>
+    <string name="label_phonetic_name">פונטי</string>
+    <string name="label_notes">הערות</string>
+    <string name="label_sip_address">שיחת אינטרנט</string>
+    <string name="label_ringtone">צלצול</string>
+    <string name="ghostData_phonetic_name">שם פונטי</string>
+    <string name="ghostData_company">חברה</string>
+    <string name="ghostData_title">כותרת</string>
+    <string name="invalidContactMessage">איש הקשר אינו קיים.</string>
+    <string name="pickerNewContactHeader">צור איש קשר חדש</string>
+    <string name="phoneLabelsGroup">טלפון</string>
+    <string name="emailLabelsGroup">דוא\"ל</string>
+    <string name="imLabelsGroup">הודעה מיידית</string>
+    <string name="postalLabelsGroup">כתובת</string>
+    <string name="photoPickerNotFoundText">אין תמונות זמינות במחשב הלוח.</string>
+    <string name="attach_photo_dialog_title">תמונה של איש קשר</string>
+    <string name="customLabelPickerTitle">שם תווית מותאם אישית</string>
+    <string name="menu_displayGroup">הצג אפשרויות</string>
+    <string name="send_to_voicemail_checkbox">שלח שיחות ישירות לדואר הקולי</string>
+    <string name="default_ringtone">ברירת מחדל</string>
+    <string name="removePhoto">הסר תמונה</string>
+    <string name="noContacts">אין אנשי קשר.</string>
+    <string name="noMatchingContacts">לא נמצאו אנשי קשר תואמים.</string>
+    <string name="noContactsWithPhoneNumbers">אין אנשי קשר עם מספרי טלפון.</string>
+    <string name="showFilterPhones">רק אנשי קשר עם מספרי טלפון</string>
+    <string name="showFilterPhonesDescrip">הצג רק אנשי קשר עם מספרי טלפון</string>
+    <string name="headerContactGroups">בחר אנשי קשר לתצוגה</string>
+    <string name="savingContact">שומר איש קשר…</string>
+    <string name="savingDisplayGroups">שומר אפשרויות תצוגה...</string>
+    <string name="contactSavedToast">איש הקשר נשמר.</string>
+    <string name="contactSavedErrorToast">שגיאה, אין אפשרות לשמור שינויים באיש הקשר.</string>
+    <string name="listTotalPhoneContactsZero">אין אנשי קשר עם מספרי טלפון</string>
+    <string name="listTotalAllContactsZero">אין אנשי קשר</string>
+    <string name="listTotalAllContactsZeroCustom">אין אנשי קשר גלויים</string>
+    <string name="listTotalAllContactsZeroStarred">אין אנשי קשר המסומנים בכוכב</string>
+    <string name="listTotalAllContactsZeroGroup">אין אנשי קשר ב%s</string>
+    <string name="foundTooManyContacts">נמצאו יותר מ-%d</string>
+    <string name="listFoundAllContactsZero">לא נמצא</string>
+    <string name="contactsIconLabel">אנשי קשר</string>
+    <string name="contactsFavoritesLabel">מועדפים</string>
+    <string name="dialerIconLabel">טלפון</string>
+    <string name="recentCallsIconLabel">יומן שיחות</string>
+    <string name="liveFolderAll">כל אנשי הקשר</string>
+    <string name="liveFolderFavorites">אנשי קשר מסומנים בכוכב</string>
+    <string name="liveFolderPhone">אנשי קשר עם מספרי טלפון</string>
+    <string name="menu_sendTextMessage">שלח הודעת טקסט</string>
+    <string name="recentCalls_callNumber">התקשר אל %s</string>
+    <string name="recentCalls_editNumberBeforeCall">ערוך מספר לפני השיחה</string>
+    <string name="recentCalls_addToContact">הוסף לאנשי הקשר</string>
+    <string name="recentCalls_removeFromRecentList">הסר מיומן השיחות</string>
+    <string name="recentCalls_deleteAll">נקה את יומן השיחות</string>
+    <string name="recentCalls_empty">יומן השיחות ריק.</string>
+    <string name="clearCallLogConfirmation_title">נקה את יומן השיחות</string>
+    <string name="clearCallLogConfirmation">האם אתה בטוח שברצונך לנקות את יומן השיחות?</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
+    <string name="voicemail">דואר קולי</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="private_num">מספר פרטי</string>
+    <string name="payphone">טלפון ציבורי</string>
+    <string name="dialerKeyboardHintText">השתמש במקלדת כדי לחייג</string>
+    <string name="dialerDialpadHintText">חייג כדי להוסיף שיחה</string>
+    <string name="simContacts_emptyLoading">טוען מכרטיס SIM…</string>
+    <string name="simContacts_title">אנשי קשר בכרטיס SIM</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">אין לך אנשי קשר לתצוגה. (אם הוספת הרגע חשבון, יחלפו מספר דקות עד לסנכרון אנשי הקשר.)</string>
+    <string name="noContactsHelpTextForCreateShortcut">אין לך אנשי קשר לתצוגה.</string>
+    <string name="noContactsHelpText">"אין לך אנשי קשר להצגה.
+
+כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+ 
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן למחשב הלוח
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס ה-SIM או כרטיס ה-SD
+"</li></font></b></string>
+    <string name="noContactsHelpTextWithSync">"אין לך אנשי קשר לתצוגה. (אם הוספת הרגע חשבון, דרושות מספר דקות לסנכרון אנשי הקשר.)
+
+כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+ 
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן למחשב הלוח
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס ה-SIM או כרטיס ה-SD
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpText">"אין לך אנשי קשר להצגה.
+
+כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+ 
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שאותם תוכל לסנכרן למחשב הלוח
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס ה-SD
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpTextWithSync">"אין לך אנשי קשר לתצוגה. (אם הוספת הרגע חשבון, דרושות מספר דקות לסנכרון אנשי הקשר.)
+
+כדי להוסיף אנשי קשר, הקש על "<b><font fgcolor="#ffffffff">תפריט</font></b>" וגע באפשרות:
+ 
+"<b><font fgcolor="#ffffffff"><li>"חשבונות כדי להוסיף או להגדיר חשבון עם אנשי קשר שתוכל לסנכרן למחשב הלוח
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"אפשרויות תצוגה כדי לשנות את אנשי הקשר הגלויים
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"איש קשר חדש כדי ליצור איש קשר חדש לגמרי
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"ייבוא/ייצוא כדי לייבא אנשי קשר מכרטיס ה-SD
+"</li></font></b></string>
+    <string name="noFavoritesHelpText">"אין לך מועדפים.
+
+כדי להוסיף איש קשר לרשימת המועדפים:
+
+        "<li>גע בכרטיסייה <b>אנשי קשר</b>" 
+"</li>" 
+"<li>"גע באיש הקשר שברצונך להוסיף למועדפים
+"</li>" 
+"<li>"גע בכוכב שליד השם של איש הקשר
+"</li></string>
+    <string name="liveFolder_all_label">כל אנשי הקשר</string>
+    <string name="liveFolder_favorites_label">מסומן בכוכב</string>
+    <string name="liveFolder_phones_label">טלפונים</string>
+    <string name="dialer_useDtmfDialpad">השתמש במקלדת עם חיוג צלילים</string>
+    <string name="dialer_returnToInCallScreen">חזור לשיחה מתבצעת</string>
+    <string name="dialer_addAnotherCall">הוסף שיחה</string>
+    <string name="callDetailTitle">פרטי שיחה</string>
+    <string name="toast_call_detail_error">אי אפשר לקרוא את פרטי השיחה המבוקשת.</string>
+    <string name="type_incoming">שיחה נכנסת</string>
+    <string name="type_outgoing">שיחה יוצאת</string>
+    <string name="type_missed">שיחה שלא נענתה</string>
+    <string name="actionIncomingCall">שיחות נכנסות</string>
+    <string name="callBack">התקשר חזרה</string>
+    <string name="callAgain">התקשר שוב</string>
+    <string name="returnCall">התקשר בחזרה</string>
+    <string name="callDetailsDurationFormat" formatted="false">"%s דק' %s שנ'"</string>
+    <string name="favoritesFrquentSeparator">מתקשר לעיתים קרובות</string>
+    <string name="add_contact_dlg_title">הוסף איש קשר</string>
+    <string name="add_contact_dlg_message_fmt">להוסיף את \"%s\" לאנשי הקשר?</string>
+    <string name="description_image_button_one">אחד</string>
+    <string name="description_image_button_two">שתיים</string>
+    <string name="description_image_button_three">שלוש</string>
+    <string name="description_image_button_four">ארבע</string>
+    <string name="description_image_button_five">חמש</string>
+    <string name="description_image_button_six">שש</string>
+    <string name="description_image_button_seven">שבע</string>
+    <string name="description_image_button_eight">שמונה</string>
+    <string name="description_image_button_nine">תשע</string>
+    <string name="description_image_button_star">כוכבית</string>
+    <string name="description_image_button_zero">אפס</string>
+    <string name="description_image_button_pound">סולמית</string>
+    <string name="description_voicemail_button">דואר קולי</string>
+    <string name="description_dial_button">חייג</string>
+    <string name="description_delete_button">Backspace</string>
+    <string name="description_digits_edittext">מספר לחיוג</string>
+    <string name="description_contact_photo">תמונה של איש קשר</string>
+    <string name="description_minus_button">חיסור</string>
+    <string name="description_plus_button">ועוד</string>
+    <string name="searching_vcard_title">מחפש vCard</string>
+    <string name="import_from_sim">ייבא מכרטיס SIM</string>
+    <string name="share_visible_contacts">שתף אנשי קשר גלויים</string>
+    <string name="import_one_vcard_string">ייבא קובץ אחד של vCard</string>
+    <string name="import_multiple_vcard_string">ייבא קובצי vCard מרובים</string>
+    <string name="import_all_vcard_string">ייבא את כל קובצי vCard</string>
+    <string name="fail_reason_io_error">שגיאת קלט/פלט</string>
+    <string name="fail_reason_low_memory_during_import">אין מספיק זיכרון (ייתכן שהקובץ גדול מדי)</string>
+    <string name="fail_reason_vcard_parse_error">נכשל ניתוח vCard עקב סיבה לא צפויה</string>
+    <string name="fail_reason_not_supported">הפורמט אינו נתמך.</string>
+    <string name="vcard_import_failed">נכשל ייבוא vCard</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">נכשל איסוף מידע-על מקובצי vCard נתונים.</string>
+    <string name="fail_reason_failed_to_read_files">נכשל הייבוא של קובץ אחד או יותר (%s).</string>
+    <string name="fail_reason_unknown">שגיאה לא ידועה</string>
+    <string name="select_vcard_title">בחר קובץ vCard</string>
+    <string name="caching_vcard_title">מעביר קובצי vCard לקובץ שמור לאחסון מקומי זמני</string>
+    <string name="caching_vcard_message">המייבא מעביר לקובץ השמור קובצי vCard באחסון זמני מקומי. הייבוא בפועל יתחיל בקרוב.</string>
+    <string name="progress_notifier_message" formatted="false">מייבא %s/%s: %s</string>
+    <string name="importing_vcard_description">מייבא את %s</string>
+    <string name="reading_vcard_failed_title">נכשלה קריאת נתוני vCard</string>
+    <string name="reading_vcard_canceled_title">קריאת נתוני vCard בוטלה</string>
+    <string name="importing_vcard_finished_title">הייבוא של ה-vCard %s הסתיים</string>
+    <string name="importing_vcard_canceled_title">הייבוא של %s בוטל</string>
+    <string name="vcard_import_will_start_message">הייבוא של %s יתבצע תוך זמן קצר.</string>
+    <string name="vcard_import_will_start_message_with_default_name">יבוא הקובץ יתבצע תוך זמן קצר.</string>
+    <string name="vcard_import_request_rejected_message">בקשת ייבוא vCard נדחתה. נסה שוב מאוחר יותר.</string>
+    <string name="vcard_export_will_start_message">הייצוא של %s יתבצע תוך זמן קצר.</string>
+    <string name="vcard_export_request_rejected_message">בקשת ייצוא vCard נדחתה. נסה שוב מאוחר יותר.</string>
+    <string name="vcard_unknown_filename">איש קשר</string>
+    <string name="percentage">%s%%</string>
+    <string name="confirm_export_title">אשר ייצוא</string>
+    <string name="confirm_export_message">האם אתה בטוח שברצונך לייצא את רשימת אנשי הקשר אל \"%s\"?</string>
+    <string name="exporting_contact_failed_title">נכשל ייצוא הנתונים של איש הקשר</string>
+    <string name="exporting_contact_failed_message">"נכשל ייצוא הנתונים של איש קשר.
+הסיבה לכשל: \"%s\""</string>
+    <string name="fail_reason_no_exportable_contact">אין איש קשר שניתן לייצא</string>
+    <string name="fail_reason_too_long_filename">שם הקובץ הדרוש ארוך מדי (\"%s\")</string>
+    <string name="exporting_vcard_finished_title">הייצוא של %s הסתיים</string>
+    <string name="exporting_vcard_canceled_title">הייצוא של %s בוטל</string>
+    <string name="exporting_contact_list_title">מייצא נתונים של אנשי קשר</string>
+    <string name="exporting_contact_list_message">מייצא נתוני אנשי קשר אל \"%s\"</string>
+    <string name="fail_reason_could_not_initialize_exporter">אין אפשרות לאתחל את המייצא: \"%s\"</string>
+    <string name="fail_reason_error_occurred_during_export">אירעה שגיאה במהלך ייצוא: \"%s\"</string>
+    <string name="composer_failed_to_get_database_infomation">נכשלה השגת מידע על מסד נתונים</string>
+    <string name="composer_has_no_exportable_contact">אין אנשי קשר לייצוא. אם יש אנשי קשר בפועל במחשב הלוח, ייתכן שהייצוא של כל אנשי הקשר נאסר מחוץ למחשב הלוח על ידי ספקי נתונים מסוימים.</string>
+    <string name="composer_not_initialized">מחבר ה- vCard אינו מאותחל כראוי</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">לא הייתה אפשרות לפתוח את \"%s\": %s</string>
+    <string name="exporting_contact_list_progress" formatted="false">%s מתוך %s אנשי קשר</string>
+    <string name="cancel_import_confirmation_title">מבטל יבוא של vCard</string>
+    <string name="cancel_import_confirmation_message">האם אתה בטוח שברצונך לבטל את הייבוא של %s?</string>
+    <string name="cancel_export_confirmation_title">מבטל יצוא של vCard</string>
+    <string name="cancel_export_confirmation_message">האם אתה בטוח שברצונך לבטל את הייצוא של %s?</string>
+    <string name="cancel_vcard_import_or_export_failed">הביטול של יבוא/יצוא vCard נכשל</string>
+    <string name="search_settings_description">השמות של אנשי הקשר</string>
+    <string name="add_2sec_pause">הוסף השהיה של 2 שניות</string>
+    <string name="add_wait">הוסף המתנה</string>
+    <string name="call_disambig_title">התקשר באמצעות</string>
+    <string name="sms_disambig_title">שלח הודעת טקסט באמצעות</string>
+    <string name="make_primary">זכור בחירה זו</string>
+    <string name="quickcontact_missing_app">לא נמצא יישום שיכול לטפל בפעולה זו</string>
+    <string name="quickcontact_remember_choice">זכור בחירה זו</string>
+    <string name="quickcontact_missing_name">לא ידוע</string>
+    <string name="quickcontact_no_data">אין נתונים</string>
+    <string name="quickcontact_clear_defaults_description">נקה ברירות מחדל</string>
+    <string name="quickcontact_clear_defaults_caption">ברירות מחדל שהוגדרו לאיש קשר זה:</string>
+    <string name="quickcontact_clear_defaults_button">נקה</string>
+    <string name="menu_accounts">חשבונות</string>
+    <string name="menu_import_export">ייבוא/ייצוא</string>
+    <string name="dialog_import_export">ייבא/יצא אנשי קשר</string>
+    <string name="menu_share">שתף איש קשר</string>
+    <string name="share_via">שתף איש קשר באמצעות</string>
+    <string name="share_error">אין אפשרות לשתף איש קשר זה.</string>
+    <string name="nameLabelsGroup">שם</string>
+    <string name="nicknameLabelsGroup">כינוי</string>
+    <string name="organizationLabelsGroup">ארגון</string>
+    <string name="websiteLabelsGroup">אתר</string>
+    <string name="eventLabelsGroup">אירוע</string>
+    <string name="relationLabelsGroup">קשר</string>
+    <string name="groupsLabel">קבוצות</string>
+    <string name="type_short_home">ב</string>
+    <string name="type_short_mobile">נ</string>
+    <string name="type_short_work">ע</string>
+    <string name="type_short_pager">ז</string>
+    <string name="type_short_other">א</string>
+    <string name="dialog_new_contact_account">צור איש קשר בחשבון</string>
+    <string name="menu_sync_remove">הסר קבוצת סנכרון</string>
+    <string name="dialog_sync_add">הוסף קבוצת סנכרון</string>
+    <string name="display_more_groups">קבוצות נוספות…</string>
+    <string name="display_ungrouped">כל אנשי הקשר האחרים</string>
+    <string name="display_all_contacts">כל אנשי הקשר</string>
+    <string name="display_warn_remove_ungrouped">"הסרת '%s' מהסנכרון תסיר מהסנכרון גם אנשי קשר שאינם מקובצים."</string>
+    <string name="account_phone">מחשב לוח בלבד, לא מסונכרן</string>
+    <string name="call_custom">התקשר אל %s</string>
+    <string name="call_home">התקשר לבית</string>
+    <string name="call_mobile">התקשר לנייד</string>
+    <string name="call_work">התקשר לעבודה</string>
+    <string name="call_fax_work">התקשר לפקס בעבודה</string>
+    <string name="call_fax_home">התקשר לפקס בבית</string>
+    <string name="call_pager">התקשר לזימונית</string>
+    <string name="call_other">התקשר</string>
+    <string name="call_callback">התקשר חזרה</string>
+    <string name="call_car">התקשר למכונית</string>
+    <string name="call_company_main">התקשר למספר הטלפון העיקרי של החברה</string>
+    <string name="call_isdn">התקשר ל-ISDN</string>
+    <string name="call_main">התקשר למספר הראשי</string>
+    <string name="call_other_fax">התקשר לפקס</string>
+    <string name="call_radio">התקשר לרדיו</string>
+    <string name="call_telex">התקשר לטלקס</string>
+    <string name="call_tty_tdd">התקשר ל-TTY/TDD</string>
+    <string name="call_work_mobile">התקשר לנייד של העבודה</string>
+    <string name="call_work_pager">התקשר לזימונית של עבודה</string>
+    <string name="call_assistant">התקשר אל %s</string>
+    <string name="call_mms">התקשר ל-MMS</string>
+    <string name="sms_custom">שלח הודעת טקסט ל-%s</string>
+    <string name="sms_home">שלח הודעת טקסט לבית</string>
+    <string name="sms_mobile">שלח הודעת טקסט לנייד</string>
+    <string name="sms_work">שלח הודעת טקסט לעבודה</string>
+    <string name="sms_fax_work">שלח הודעת טקסט לפקס בעבודה</string>
+    <string name="sms_fax_home">שלח הודעת טקסט לפקס בבית</string>
+    <string name="sms_pager">שלח הודעת טקסט לזימונית</string>
+    <string name="sms_other">טקסט</string>
+    <string name="sms_callback">שלח הודעת טקסט למספר להתקשרות חזרה</string>
+    <string name="sms_car">שלח טקסט למכונית</string>
+    <string name="sms_company_main">שלח הודעת טקסט למספר הטלפון הראשי של החברה</string>
+    <string name="sms_isdn">שלח הודעת טקסט ל-ISDN</string>
+    <string name="sms_main">שלח הודעת טקסט למספר הטלפון הראשי</string>
+    <string name="sms_other_fax">שלח הודעת טקסט לפקס</string>
+    <string name="sms_radio">שלח הודעת טקסט לרדיו</string>
+    <string name="sms_telex">שלח הודעת טקסט לטלקס</string>
+    <string name="sms_tty_tdd">שלח הודעת טקסט ל-TTY/TDD</string>
+    <string name="sms_work_mobile">שלח טקסט לנייד של עבודה</string>
+    <string name="sms_work_pager">שלח הודעת טקסט לזימונית של עבודה</string>
+    <string name="sms_assistant">שלח הודעת טקסט ל-%s</string>
+    <string name="sms_mms">שלח הודעת טקסט ל-MMS</string>
+    <string name="email_home">שלח דוא\"ל לבית</string>
+    <string name="email_mobile">שלח דוא\"ל לנייד</string>
+    <string name="email_work">שלח דוא\"ל לעבודה</string>
+    <string name="email_other">דוא\"ל</string>
+    <string name="email_custom">שלח דוא\"ל ל-%s</string>
+    <string name="email">שלח דוא\"ל</string>
+    <string name="map_home">הצג כתובת בית</string>
+    <string name="map_work">הצג כתובת עבודה</string>
+    <string name="map_other">" הצג כתובת"</string>
+    <string name="map_custom">הצג כתובת %s</string>
+    <string name="chat_aim">"שוחח בצ'אט באמצעות AIM"</string>
+    <string name="chat_msn">"שוחח בצ'אט באמצעות Windows Live"</string>
+    <string name="chat_yahoo">"שוחח בצ'אט באמצעות Yahoo"</string>
+    <string name="chat_skype">"שוחח בצ'אט באמצעות Skype"</string>
+    <string name="chat_qq">"שוחח בצ'אט באמצעות QQ"</string>
+    <string name="chat_gtalk">"שוחח בצ'אט באמצעות Google Talk"</string>
+    <string name="chat_icq">"שוחח בצ'אט באמצעות ICQ"</string>
+    <string name="chat_jabber">"שוחח בצ'אט באמצעות Jabber"</string>
+    <string name="chat">"שוחח בצ'אט"</string>
+    <string name="postal_address">כתובת</string>
+    <string name="postal_street">רחוב</string>
+    <string name="postal_pobox">תא דואר</string>
+    <string name="postal_neighborhood">שכונה</string>
+    <string name="postal_city">עיר</string>
+    <string name="postal_region">מדינה</string>
+    <string name="postal_postcode">מיקוד</string>
+    <string name="postal_country">ארץ</string>
+    <string name="full_name">שם</string>
+    <string name="name_given">שם פרטי</string>
+    <string name="name_family">שם משפחה</string>
+    <string name="name_prefix">קידומת לשם</string>
+    <string name="name_middle">שם אמצעי</string>
+    <string name="name_suffix">סיומת שם</string>
+    <string name="name_phonetic_given">שם פרטי פונטי</string>
+    <string name="name_phonetic_middle">שם אמצעי פונטי</string>
+    <string name="name_phonetic_family">שם משפחה פונטי</string>
+    <string name="name_phonetic">שם פונטי</string>
+    <string name="account_type_format">%1$sאיש קשר</string>
+    <string name="from_account_format">מ-%1$s</string>
+    <string name="use_photo_as_primary">השתמש בתמונה זו</string>
+    <string name="contact_read_only">%1$s פרטי איש הקשר אינם ניתנים לעריכה במכשיר זה.</string>
+    <string name="no_contact_details">אין מידע נוסף על איש קשר זה</string>
+    <string name="display_options_sort_list_by">מיין רשימה לפי</string>
+    <string name="display_options_sort_by_given_name">שם פרטי</string>
+    <string name="display_options_sort_by_family_name">שם משפחה</string>
+    <string name="display_options_view_names_as">הצג שמות איש קשר בתור</string>
+    <string name="display_options_view_given_name_first">שם פרטי</string>
+    <string name="display_options_view_family_name_first">שם משפחה תחילה</string>
+    <string name="search_bar_hint">חפש אנשי קשר</string>
+    <string name="search_for_all_contacts">חפש בכל אנשי הקשר</string>
+    <string name="take_photo">צלם תמונה</string>
+    <string name="take_new_photo">צלם תמונה חדשה</string>
+    <string name="pick_photo">בחר תמונה מהגלריה</string>
+    <string name="pick_new_photo">בחר תמונה חדשה מהגלריה</string>
+    <string name="locale_change_in_progress">רשימת הקשר מתעדכנת כדי לשקף את שינוי השפה.</string>
+    <string name="upgrade_in_progress">רשימת הקשר מתעדכנת.</string>
+    <string name="upgrade_out_of_memory">"אנשי הקשר נמצאים בתהליך של שדרוג. 
+
+תהליך השדרוג דורש כ-Mb %sשל אחסון פנימי.
+
+בחר באחת מהאפשרויות הבאות:"</string>
+    <string name="upgrade_out_of_memory_uninstall">הסר התקנה של יישומים מסוימים</string>
+    <string name="upgrade_out_of_memory_retry">נסה שוב לשדרג</string>
+    <string name="search_results_searching">מחפש...</string>
+    <string name="menu_display_selected">הצג פריטים שנבחרו</string>
+    <string name="menu_display_all">הצג הכל</string>
+    <string name="menu_select_all">בחר הכל</string>
+    <string name="menu_select_none">בטל בחירה של הכל</string>
+    <string name="no_contacts_selected">לא נבחרו אנשי קשר.</string>
+    <string name="add_field">הוסף שדה נוסף</string>
+    <string name="contact_status_update_attribution">דרך %1$s</string>
+    <string name="contact_status_update_attribution_with_date" formatted="false">%1$s דרך %2$s</string>
+    <string name="description_star">מועדף</string>
+    <string name="edit_contact">ערוך איש קשר</string>
+    <string name="local_invisible_directory">אחר</string>
+    <string name="aggregation_suggestion_join_dialog_title">צרף אנשי קשר</string>
+    <string name="aggregation_suggestion_join_dialog_message">לצרף את איש הקשר הנוכחי לאיש הקשר שנבחר?</string>
+    <string name="aggregation_suggestion_edit_dialog_title">ערוך את אנשי הקשר שנבחרו</string>
+    <string name="aggregation_suggestion_edit_dialog_message">לעבור לעריכה של איש הקשר שנבחר? המידע שהזנת עד עכשיו יועתק.</string>
+    <string name="menu_copyContact">העתק לאנשי הקשר שלי</string>
+    <string name="contact_directory_description">הספריה %1$s</string>
+    <string name="search_label">מחפש בכל אנשי הקשר</string>
+    <string name="directory_search_label">ספריה</string>
+    <string name="local_search_label">אנשי קשר</string>
+    <string name="toast_making_personal_copy">יצירת עותק אישי</string>
+    <string name="list_filter_prompt">בחר רשימת אנשי קשר</string>
+    <string name="list_filter_all_accounts">כל אנשי הקשר</string>
+    <string name="list_filter_all_starred">מסומן בכוכב</string>
+    <string name="list_filter_custom">מותאם אישית</string>
+    <string name="list_filter_customize">התאם אישית...</string>
+    <string name="list_filter_phones">אנשי קשר עם מספרי טלפון</string>
+    <string name="list_filter_single">איש קשר</string>
+    <string name="custom_list_filter">הגדר תצוגה מותאמת אישית</string>
+    <string name="activity_title_settings">הגדרות</string>
+    <string name="menu_settings">הגדרות</string>
+    <string name="preference_displayOptions">אפשרויות תצוגה</string>
+    <string name="organization_company_and_title" formatted="false">%2$s, %1$s</string>
+    <string name="hint_findContacts">מצא אנשי קשר</string>
+    <string name="non_phone_caption">מספר טלפון</string>
+    <string name="non_phone_add_to_contacts">הוסף לאנשי הקשר</string>
+    <string name="non_phone_close">סגור</string>
+    <string name="widget_name_and_phonetic" formatted="false">%1$s (%2$s)</string>
+    <string name="date_year_toggle">הוסף שנה</string>
+    <string name="social_widget_label">איש קשר</string>
+    <string name="social_widget_loading">טוען…</string>
+    <string name="contacts_unavailable_create_contact">צור איש קשר חדש</string>
+    <string name="contacts_unavailable_add_account">היכנס לחשבון</string>
+    <string name="contacts_unavailable_import_contacts">יבא אנשי קשר מקובץ</string>
+    <string name="create_group_dialog_title">צור קבוצה חדשה</string>
+    <string name="create_group_item_label">[צור קבוצה חדשה]</string>
+    <string name="rename_group_dialog_title">שנה שם קבוצה</string>
+    <string name="delete_group_dialog_title">מחק קבוצה</string>
+    <string name="delete_group_dialog_message">"האם אתה בטוח שברצונך למחוק את הקבוצה '%1$s'? (אנשי הקשר עצמם לא יימחקו)."</string>
+    <string name="toast_join_with_empty_contact">הזן שם של איש קשר לפני צירוף לאיש קשר אחר.</string>
+    <string name="indicator_joined_contact">איש קשר מצורף</string>
+    <string name="toast_text_copied">טקסט שהועתק</string>
+    <string name="cancel_confirmation_dialog_title">מחק שינויים</string>
+    <string name="cancel_confirmation_dialog_message">האם אתה רוצה למחוק את השינויים?</string>
+    <string name="discard">מחק</string>
+</resources>

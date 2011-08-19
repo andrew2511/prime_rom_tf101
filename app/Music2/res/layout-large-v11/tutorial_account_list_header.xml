@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/body_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="28.0dip" android:layout_marginBottom="20.0dip" android:text="@string/tutorial_account_body" android:layout_below="@id/divider" android:layout_alignParentLeft="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="40.0dip" android:text="@string/tutorial_account_list_header" android:layout_below="@id/body_text" android:layout_alignParentLeft="true" />
+</LinearLayout>

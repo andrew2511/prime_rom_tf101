@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>可按日期或標題對期刊進行排序。 請從螢幕頂端的選項卡選擇這些選項。</item>
+        <item>"需要閱讀更多內容嗎？
+請在螢幕底部選擇 書店按鈕，以便訪問線上書店瞭解 最新的出版物和文章。"</item>
+        <item>選擇功能選單查看更多選項 － 如書店、更多、刪除或登出。</item>
+        <item>選擇一份期刊，以便在您閱讀的同時自動下載， 也可選擇下載按鈕以將其保存在本地 供您以後閱讀。</item>
+    </string-array>
+</resources>

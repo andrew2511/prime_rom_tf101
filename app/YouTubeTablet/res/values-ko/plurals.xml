@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="years_ago">
+        <item quantity="other">%1$d년 전</item>
+        <item quantity="one">1년 전</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d달 전</item>
+        <item quantity="one">1달 전</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="other">%1$d주 전</item>
+        <item quantity="one">1주 전</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d일 전</item>
+        <item quantity="one">1일 전</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%1$d초 전</item>
+        <item quantity="one">1초 전</item>
+    </plurals>
+    <plurals name="recent_uploads">
+        <item quantity="other">새 업로드</item>
+        <item quantity="one">새 업로드</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">새 일정</item>
+        <item quantity="one">새 일정</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">동영상 %1$,d개</item>
+        <item quantity="one">동영상 1개</item>
+    </plurals>
+</resources>

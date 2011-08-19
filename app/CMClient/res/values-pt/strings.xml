@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cliente CM</string>
+    <string name="minutes">minutos</string>
+    <string name="postpone">Adiar</string>
+    <string name="update">Actualizar</string>
+    <string name="asus_received_title">Actualização de serviço Asus</string>
+    <string name="received_message">Nova actualização disponível.</string>
+    <string name="firmware_update_title">Actualização do firmware</string>
+    <string name="firmware_update_fail">"A actualização falhou.
+
+O seu dispositivo irá recuperar a configuração original."</string>
+    <string name="low_battery_title">Cancelamento da actualização do sistema</string>
+    <string name="low_battery_warning">"O sistema precisa de pelo menos 50% de carga da bateria para continuar com o processo de actualização.
+Carregue a bateria antes de actualizar o sistema."</string>
+    <string name="confirmDownload_text1">Deseja transferir a seguinte actualização do sistema?</string>
+    <string name="confirmDownload_textok">Prima SIM para aceitar esta actualização.</string>
+    <string name="confirmDownload_textcancel">Prima NÃO para rejeitar esta actualização.</string>
+    <string name="confirmDownload_textwifi">Recomendamos que utilize um ponto de acesso WiFi gratuito ou um plano de dados ilimitado para transferir esta actualização.</string>
+    <string name="confirmDownload_textwifi2">Caso contrário, poderão ser cobradas taxas normais de ligação de dados.</string>
+    <string name="btn_text_later">Mais tarde</string>
+    <string name="confirmDownload_dialog_title">Atenção, encontra-se em roaming.</string>
+    <string name="update_dialog_text">"Foi transferida uma nova actualização do software para o seu telefone. Instalar agora? 
+"</string>
+    <string name="downloading">A transferir o firmware…</string>
+    <string name="install_time">Tempo de instalação estimado:</string>
+    <string name="install">Instalar</string>
+    <string name="received_ticker">Nova actualização disponível.</string>
+    <string name="dl_received_ticker">Nova actualização disponível.</string>
+    <string name="dl_received_message">Existe uma actualização, prima aqui para transferir.</string>
+    <string name="postponetime_text">Adiar:</string>
+    <string name="reach_max_net_fail">Aborte a transferência do servidor, tente mais tarde.</string>
+    <string name="dlg_title_checking">Verificação de integridade.</string>
+    <string name="dlg_msg_checking">A verificar a integridade do seu ficheiro de firmware.</string>
+    <string name="cannot_set_to_browser">Não é possível mudar para o navegador.</string>
+    <string name="upgrade_error">Erro de actualização. Transfira novamente o pacote de actualização.</string>
+    <string name="start_to_download">Iniciar a transferência do pacote de actualização crítica.</string>
+    <string name="start_to_upgrade">Iniciar a actualização do pacote de actualização crítica.</string>
+    <string name="Start_NI_DmSession">Sessão inicial DM de rede. Aceitar?</string>
+    <string name="prepare_dm_download">A preparar a transferência...</string>
+    <string name="download_finished">Transferência do firmware concluída...</string>
+    <string name="download_notification_title">Actualização de serviço T-Mobile</string>
+    <string name="download_in_progress">Transferência do novo firmware em curso</string>
+    <string name="out_of_mem_warning">"Não existe espaço suficiente no telefone,
+desinstale algumas aplicações e tente novamente."</string>
+    <string name="btn_register">registar C2DM</string>
+    <string name="btn_unregister">anular registo C2DM</string>
+    <string name="ui_alert_input_hint">Introduza o texto</string>
+    <string name="ui_alert_input_numeric_hint">Introduza o número</string>
+    <string name="ui_alert_input_phone_number_hint">Número de telefone</string>
+</resources>

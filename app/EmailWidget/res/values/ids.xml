@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="emailwidget_layout">false</item>
+    <item type="id" name="goto_textview">false</item>
+    <item type="id" name="number_textview">false</item>
+    <item type="id" name="mail_textview">false</item>
+</resources>

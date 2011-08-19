@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dialog_common_filesave_titlespacer_height" android:minWidth="@dimen/dialog_common_filesave_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="39.0px" android:layout_marginTop="@dimen/dialog_word_tableinsert_common_layout_margin_vertical" android:layout_marginBottom="@dimen/dialog_word_tableinsert_common_layout_margin_vertical">
+        <LinearLayout android:id="@id/holder_edit_word_tableinsert_columns" android:layout_width="71.0px" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_word_tableinsert_x_margin_horizontal" android:layout_marginRight="@dimen/dialog_word_tableinsert_x_margin_horizontal" android:src="@drawable/table_ico_x" />
+        <LinearLayout android:id="@id/holder_edit_word_tableinsert_rows" android:layout_width="71.0px" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/holder_table_word_tableinsert" android:layout_width="@dimen/dialog_word_tableinsert_preview_layout_width" android:layout_height="@dimen/dialog_word_tableinsert_preview_layout_height" android:layout_marginBottom="@dimen/dialog_word_tableinsert_common_layout_margin_vertical" />
+</LinearLayout>

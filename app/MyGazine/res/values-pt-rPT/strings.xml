@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEB SITE</string>
+    <string name="music_title_str">MÚSICA</string>
+    <string name="web_tag_str">Nenhum URL</string>
+    <string name="music_tag_album">Nenhum álbum</string>
+    <string name="music_tag_song">Nenhuma música</string>
+    <string name="music_tag_artist">Nenhum artista</string>
+    <string name="date_text_str">Nenhuma data</string>
+    <string name="cal_event_str">Nenhum evento recente</string>
+    <string name="weather_info_str">Nenhuma informação de meteorologia</string>
+    <string name="weather_content_str">Nenhum conteúdo de meteorologia</string>
+    <string name="photo_date_str">Nenhuma data de foto</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Vento ENE</string>
+    <string name="humidity">Humidade</string>
+    <string name="email_unit">E-mails</string>
+    <string name="email_unit_single">E-mail</string>
+    <string name="event_unit">Eventos</string>
+    <string name="event_unit_single">Evento</string>
+    <string name="book_unit">Livros</string>
+    <string name="book_unit_single">Livro</string>
+    <string name="weather_city_str">Nenhuma cidade</string>
+    <string name="date_format_title">Formato da data</string>
+    <string name="preference_header_title">Preferência</string>
+    <string name="slideshow_header_title">Apresentação de diapositivos.</string>
+    <string name="picture_number_title">Número de imagens da apresentação de diapositivos.</string>
+    <string name="slide_show_interval_title">Intervalo da apresentação de diapositivos.</string>
+    <string name="transition_effect_title">Efeito de transição</string>
+    <string name="enable">Activar</string>
+    <string name="disable">Desactivar</string>
+    <string name="app_settings">Definições do ASUS MyZine</string>
+    <string name="unit_picture">imagens</string>
+    <string name="unit_second">segundos</string>
+    <string name="Image_headline">Imagem</string>
+    <string name="display_headline">Exibição</string>
+    <string name="date_headline">Data</string>
+    <string name="logo_display_title">Logótipo do ASUS MyZine</string>
+    <string name="date_display_title">Data/Hora</string>
+    <string name="photo_date_display_title">Criar data das imagens</string>
+    <string name="event_display_title">Evento futuro</string>
+    <string name="weather_display_title">Estado da meteorologia</string>
+    <string name="scale_type_title">Apresentação da imagem</string>
+</resources>

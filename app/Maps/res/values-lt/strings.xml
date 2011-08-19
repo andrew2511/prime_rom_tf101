@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">„Google“ žemėlapiai</string>
+    <string name="da_google_maps_navigation">„Google“ žemėlapių navigacijos programa</string>
+    <string name="da_net_fail_title">Tinklo triktis</string>
+    <string name="da_net_fail_body">Šiai programai reikalingas veikiantis duomenų ryšys.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Kelionės tikslas</string>
+    <string name="da_toward">link %1$s</string>
+    <string name="da_onto">į %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"tada
+%1$s"</string>
+    <string name="da_continue_for_distance">Toliau važiuoti %1$s</string>
+    <string name="da_destination_will_be_on_the_left">paskirties vieta bus kairėje.</string>
+    <string name="da_destination_will_be_on_the_right">paskirties vieta bus dešinėje.</string>
+    <string name="da_you_will_reach_destination">atvyksite į paskirties vietą.</string>
+    <string name="da_destination_on_the_left">Paskirties vieta yra kairėje.</string>
+    <string name="da_destination_on_the_right">Paskirties vieta yra dešinėje.</string>
+    <string name="da_destination_reached">Atvykote.</string>
+    <string name="da_speech_lost_gps">Prarastas GPS signalas</string>
+    <string name="da_speech_lost_data_connection">Prarastas duomenų ryšys</string>
+    <string name="da_speech_navigation_resumed">Navigacija tęsiama</string>
+    <string name="da_speech_please_describe_problem">Apibūdinkite problemą</string>
+    <string name="da_on_left">kairėje</string>
+    <string name="da_on_right">dešinėje</string>
+    <string name="da_stay_on_road_primary">Toliau važiuokite %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s iki %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s iki %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0} mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} pėd.</string>
+    <string name="da_distance_format_feet_compressed">{0} pėd.</string>
+    <string name="da_distance_format_yards_abbreviated">{0} jard.</string>
+    <string name="da_distance_format_yards_compressed">{0}jard.</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d. %2$s val.</string>
+    <string name="da_time_format_hours" formatted="false">%1$s val. %2$s min.</string>
+    <string name="da_time_format_minutes">%1$s min.</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s–%2$s</string>
+    <string name="da_navigation">Navigacija</string>
+    <string name="da_search_label">Ieškoti</string>
+    <string name="da_layers">Sluoksniai</string>
+    <string name="da_agreement">"Tai „Google“ žemėlapių navigacijos programos beta versija. Būkite atsargūs.
+
+Nekeiskite šios programos nustatymų vairuodami. Eismo duomenys pateikiami nerealiuoju laiku, o nuorodos gali būti netikslios, pavojingos, draudžiamos ar su perkėlomis. Laikykitės galiojančių įstatymų.
+
+Atidžiai stebėkite kelią!"</string>
+    <string name="da_agreement_with_walking">"Tai „Google“ žemėlapių navigacijos programos beta versija. Būkite atsargūs.
+
+Nekeiskite šios programos nustatymų vairuodami. Eismo duomenys pateikiami nerealiuoju laiku, o nuorodos gali būti netikslios, pavojingos, draudžiamos ar su perkėlomis. Ėjimo pėsčiomis maršrute gali nebūti šaligatvių ar takų pėstiesiems. Laikykitės galiojančių įstatymų.
+
+Atidžiai stebėkite kelią!"</string>
+    <string name="da_disclaimer_checkbox">Rodyti šį pranešimą kitą kartą</string>
+    <string name="da_show_list">Nuorodų sąrašas</string>
+    <string name="da_route_overview">Maršruto informacija</string>
+    <string name="da_show_map">Rodyti žemėlapį</string>
+    <string name="da_satellite">Palydovas</string>
+    <string name="da_traffic_view">Eismo rodinys</string>
+    <string name="da_no_traffic_here">Nėra šios srities eismo duomenų</string>
+    <string name="da_traffic">Eismas</string>
+    <string name="da_area_view">Srities rodinys</string>
+    <string name="da_mute">Nutildyti</string>
+    <string name="da_unmute">Atšaukti nutildymą</string>
+    <string name="da_settings">Nustatymai</string>
+    <string name="da_help">Pagalba</string>
+    <string name="da_terms_privacy_notices">Taisyklės ir privatumas</string>
+    <string name="da_terms_and_conditions">Taisyklės ir nuostatos</string>
+    <string name="da_privacy_policy">Privatumo politika</string>
+    <string name="da_legal_notices">Teisinė informacija</string>
+    <string name="da_navigation_suspended">Navigacija pristabdyta</string>
+    <string name="da_exit_navigation">Baigti navigaciją</string>
+    <string name="da_email_me_when_resolved">Atsiųsti el. laišką, kai bus išspręsta</string>
+    <string name="da_problem_reported">Apie problemą pranešta</string>
+    <string name="da_one_button_map_issue_reporting">Vienu spustelėjimu aktyvuojama problemos pranešimo nuoroda</string>
+    <string name="da_attention">Dėmesio</string>
+    <string name="da_rmi_warning">"Funkcija „Pranešti apie problemą“ leidžia įrašyti trumpą balso pranešimą, kuris apibūdina žemėlapio arba maršruto problemą. Po 15 sekundžių pranešimas kartu su jūsų buvimo vieta ir maršrutu bus automatiškai išsiųstas „Google“.
+
+Programos nustatymuose galima įjungti vienu spustelėjimu aktyvuojamą nuorodą.
+
+ Jei nustatysite atnaujinimų apie problemos išsprendimą siuntimą el. paštu, jūsų el. pašto adresas kartu su buvimo vieta ir komentarais bus saugomas tol, kol bus išspręsta problema."</string>
+    <string name="da_report_a_problem">Pranešti apie problemą</string>
+    <string name="da_report_a_problem_dialog_title">Pranešimas apie problemą</string>
+    <string name="da_rmi_preference_trackball_summary">Jei įjungta, nuspaudę rutulinį manipuliatorių, galėsite pradėti pranešimą apie problemą.</string>
+    <string name="da_rmi_preference_camera_summary">Jei įjungta, nuspaudę fotoaparato mygtuką, galėsite pradėti pranešimą apie problemą.</string>
+    <string name="da_rmi_preference_no_button_summary">Nėra laisvų įrenginio mygtukų.</string>
+    <string name="da_rmi_preference_bad_location_summary">Esamoje vietovėje negalima pranešti apie problemą.</string>
+    <string name="da_destination_not_here_warning">Dėkojame, kad pranešėte apie neteisingą jūsų paskirties vietos vietovę. Jūsų esama paskirties vieta ir vietovė bus siunčiama „Google“, kad būtų pagerintas duomenų tikslumas.</string>
+    <string name="da_destination_not_here_title">Pranešti apie problemą</string>
+    <string name="da_searching_for_gps">Ieškoma GPS...</string>
+    <string name="da_data_connection_lost">Prarastas duomenų ryšys...</string>
+    <string name="da_follow_the_route">Sekite maršrutą</string>
+    <string name="da_waiting_for_directions">Gaunamos važiavimo nuorodos</string>
+    <string name="da_waiting_for_walking_directions">Gaunamos nuorodos pėstiesiems</string>
+    <string name="da_waiting_for_location">Laukiama vietos</string>
+    <string name="da_checking_navigation_availability">Tikrinamas navigacijos palaikymas</string>
+    <string name="da_loading_route_details">Įkeliama informacija apie maršrutą</string>
+    <string name="da_loading_image">Įkeliamas vaizdas</string>
+    <string name="da_waiting_for_alternates">Ieškoma alternatyvių maršrutų</string>
+    <string name="da_waiting_for_details">Įkeliama</string>
+    <string name="da_no_details">Išsami informacija negalima</string>
+    <string name="da_gps_is_disabled">GPS neleidžiama</string>
+    <string name="da_turn_on_gps">Rodyti vietos nustatymus?</string>
+    <string name="da_voice_guidance">Balso nurodymai</string>
+    <string name="da_install_voice_guidance_prompt">Jei norite gauti navigacijos nuorodas balsu, reikia įdiegti teksto tarimo balsu priemonę iš „Android Market“.</string>
+    <string name="da_dialog_ok">Gerai</string>
+    <string name="da_dialog_skip">Praleisti</string>
+    <string name="da_dialog_cancel">Atšaukti</string>
+    <string name="da_dialog_done">Baigta</string>
+    <string name="da_dialog_accept">Priimti</string>
+    <string name="da_dialog_install">Įdiegti</string>
+    <string name="da_dialog_dont_accept">Nepriimti</string>
+    <string name="da_dialog_go">Pradėti</string>
+    <string name="da_dialog_get_directions">Gauti nuorodas</string>
+    <string name="da_map">Žemėlapis</string>
+    <string name="da_clear_layers">Išvalyti žemėlapį</string>
+    <string name="da_layer_name_parking">Automob. stov. aikšt.</string>
+    <string name="da_layer_name_attractions">Garsūs</string>
+    <string name="da_layer_name_gas_stations">Degalinė</string>
+    <string name="da_layer_name_restaurants">Restoranai</string>
+    <string name="da_layer_name_supermarkets">Prekybos centrai</string>
+    <string name="da_layer_name_atms_and_banks">Bankai ir bankomatai</string>
+    <string name="da_layer_name_convenience_stores">Krautuvėlės</string>
+    <string name="da_query_banks_and_atms">Bankai ir bankomatai</string>
+    <string name="da_rerouting">Iš naujo nustatomas maršrutas...</string>
+    <string name="da_via">Per %s</string>
+    <string name="da_to_destination">į %s</string>
+    <string name="da_via_name_separator">" ir "</string>
+    <string name="da_record_feedback">Įrašyti atsiliepimą</string>
+    <string name="da_destination_not_here">Pask. vieta yra ne čia</string>
+    <string name="da_new_destination">Kita paskirties vieta</string>
+    <string name="da_reroute_to_destination">Atgal į paskirties vietą</string>
+    <string name="da_change_destination">Nustatyti kelionės tikslą</string>
+    <string name="da_search_for_destination">Ieškoti...</string>
+    <string name="da_point_on_map">Taškas žemėlapyje</string>
+    <string name="da_volume">Navigacijos garsumas</string>
+    <string name="da_exit">Išeiti</string>
+    <string name="da_did_you_mean">Ar turėjote omenyje:</string>
+    <string name="da_did_you_say">Ar sakėte:</string>
+    <string name="da_for_your_end_point">Pabaigos taške</string>
+    <string name="da_unnamed_road">Kelias be pavadinimo</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, tada %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Nuvažiavę %1$s metrus (-ų)</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Nuvažiavę vieną su puse kilometro</string>
+    <string name="da_speech_continue_for_x_meters">Toliau važiuokite dar %1$s metrų</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Toliau važiuokite dar vieną su puse kilometro</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Toliau važiuokite %2$s dar %1$s metrų</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Toliau važiuokite %1$s dar vieną su puse kilometro</string>
+    <string name="da_speech_generic_continue">Toliau važiuokite tiesiai</string>
+    <string name="da_speech_in_x_feet">Nuvažiavę %1$s pėdas (-ų)</string>
+    <string name="da_speech_in_x_yards">Nuvažiavę %1$s jardų</string>
+    <string name="da_speech_in_a_quarter_mile">Nuvažiavę ketvirtį mylios</string>
+    <string name="da_speech_in_a_half_mile">Nuvažiavę pusę mylios</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Nuvažiavę tris ketvirčius mylios</string>
+    <string name="da_speech_in_one_and_a_half_miles">Nuvažiavę vieną su puse mylios</string>
+    <string name="da_speech_continue_for_x_feet">Toliau važiuokite dar %1$s pėdų</string>
+    <string name="da_speech_continue_for_x_yards">Toliau važiuokite dar %1$s jardų</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Toliau važiuokite dar ketvirtį mylios</string>
+    <string name="da_speech_continue_for_a_half_mile">Toliau važiuokite dar pusę mylios</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Toliau važiuokite dar tris ketvirčius mylios</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Toliau važiuokite dar vieną su puse mylios</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Toliau važiuokite %2$s dar %1$s pėdų</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Toliau važiuokite %2$s dar %1$s jardų</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Toliau važiuokite %1$s dar ketvirtį mylios</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Toliau važiuokite %1$s dar pusę mylios</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Toliau važiuokite %1$s dar tris ketvirčius mylios</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Toliau važiuokite %1$s dar vieną su puse mylios</string>
+    <string name="da_route_prefixes">Š,ŠR,R,PR,P,PV,V,ŠV</string>
+    <string name="da_route_suffixes">Š,ŠR,R,PR,P,PV,V,ŠV,alėja,bulvaras,aplinkkelis,žiedas,kaimo kelias,kelias,autostrada,autostrada,automagistralė,Ln,bulvaras,Pl,kelias,gatvė,išsišakojimas,kelias</string>
+    <string name="da_no_route">Nerasta jokio maršruto</string>
+    <string name="da_route_not_found">Nepavyko rasti maršruto į paskirties vietą.</string>
+    <string name="da_destination_not_found">Nepavyko suprasti, kokia paskirties vieta.</string>
+    <string name="da_navigation_not_supported">Navigacija į paskirties vietą negalima.</string>
+    <string name="da_navigation_not_supported_at_current_loc">„Google“ žemėlapių navigacija dar nepalaikoma šioje vietovėje.</string>
+    <string name="da_launch_maps">Paleisti Žemėlapius</string>
+    <string name="da_no_image_available">Vaizdas negalimas.</string>
+    <string name="da_image_error">Įkeliant vaizdą įvyko klaida.</string>
+    <string name="da_no_alternate_routes">Nepavyko rasti alternatyvių maršrutų į paskirties vietą.</string>
+    <string name="da_picker_type_destination">Įvesti kelionės tikslą</string>
+    <string name="da_picker_speak_destination">Ištarkite kelionės tikslą</string>
+    <string name="da_picker_contacts">Kontaktai</string>
+    <string name="da_picker_starred_items">Vietos su žvaigžd.</string>
+    <string name="da_picker_new_contact">Naujas kontaktas</string>
+    <string name="da_picker_recent_destinations">Pastarieji kelionių tikslai</string>
+    <string name="da_picker_choose_destination">Pasirinkite kelionės tikslą</string>
+    <string name="da_navigate_to">Vykti į</string>
+    <string name="da_picker_search_hint">Kelionės tikslas</string>
+    <string name="da_route_options">Maršruto parinktys</string>
+    <string name="da_updating_directions">Atnaujinamos nuorodos</string>
+    <string name="da_picker_no_starred_items">"Nėra nė vienos žvaigždute pažymėtos vietos.
+
+Žvaigždute pažymėtos vietos automatiškai sinchronizuojamos su maps.google.com.
+
+Programoje „Google“ žemėlapiai galite pažymėti paieškos rezultatus žvaigždute, bakstelėdami žvaigždutės piktogramą šalia adreso."</string>
+    <string name="da_picker_no_contacts">"Nėra nė vieno kontakto su nustatytu adresu.
+
+Programa „Kontaktai“ galite pridėti naujus kontaktus arba nustatyti esamų kontaktų adresus."</string>
+    <string name="da_driving">Važiuojant</string>
+    <string name="da_walking">Pėsčiomis</string>
+    <string name="da_quoted_text">„%1$s“</string>
+    <string name="da_more_info">Daugiau informacijos</string>
+    <string name="da_search_maps">Iešk. žemėl.</string>
+    <string name="da_walking_warning">Pėsčiomis (beta): būkite atsargūs</string>
+    <string name="da_calibrate_compass_title">Kompaso kalibravimas</string>
+    <string name="da_calibrate_compass">Kompasas nesukalibruotas. Norėdami sukalibruoti, keletą kartų pamojuokite prietaisą mostais, panašiais į skaitmenį 8.</string>
+    <string name="da_confirm_exit_title">Išjungti navigaciją?</string>
+    <string name="da_confirm_exit_text">Bus išjungti visi maršruto nurodymai.</string>
+    <string name="da_route_includes_tolls">Maršrute yra mokamų kelių</string>
+    <string name="da_avoid_tolls">Vengti mokamų kelių</string>
+    <string name="da_avoiding_tolls">Vengiama mokamų kelių</string>
+    <string name="da_avoiding_highways">Vengiama automagistralių</string>
+    <string name="da_route_includes_unavoidable_tolls">Šiame maršrute yra mokamų kelių.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Šiame maršrute yra mokamų kelių. Išjungti mokamus kelius galite toliau esančiame dialogo lange %1$s%2$s.</string>
+    <string name="da_seasonally_closed">Maršrutas gali būti sezoniškai uždaromas</string>
+    <string name="da_direction_north">į šiaurę</string>
+    <string name="da_direction_north_west">į šiaurės vakarus</string>
+    <string name="da_direction_west">į vakarus</string>
+    <string name="da_direction_south_west">į pietvakarius</string>
+    <string name="da_direction_south">į pietus</string>
+    <string name="da_direction_south_east">į pietryčius</string>
+    <string name="da_direction_east">į rytus</string>
+    <string name="da_direction_north_east">į šiaurės rytus</string>
+    <string name="da_step_depart">Į %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Į %1$s kelyje %2$s</string>
+    <string name="da_step_slight_left">Šiek tiek kairiau</string>
+    <string name="da_step_slight_right">Šiek tiek dešiniau</string>
+    <string name="da_step_turn_left">Pasukite kairėn</string>
+    <string name="da_step_turn_right">Pasukite dešinėn</string>
+    <string name="da_step_sharp_left">Staigus posūkis kairėn</string>
+    <string name="da_step_sharp_right">Staigus posūkis dešinėn</string>
+    <string name="da_step_slight_left_onto">Šiek tiek kairiau į %1$s</string>
+    <string name="da_step_slight_right_onto">Šiek tiek dešiniau į %1$s</string>
+    <string name="da_step_turn_left_onto">Pasukite kairėn į %1$s</string>
+    <string name="da_step_turn_right_onto">Pasukite dešinėn į %1$s</string>
+    <string name="da_step_sharp_left_onto">Staigus posūkis kairėn į %1$s</string>
+    <string name="da_step_sharp_right_onto">Staigus posūkis dešinėn į %1$s</string>
+    <string name="da_step_fork_left">Laikykitės kairės esant kelio išsišakojimui</string>
+    <string name="da_step_fork_right">Laikykitės dešinės esant kelio išsišakojimui</string>
+    <string name="da_step_continue_onto">Toliau į %1$s</string>
+    <string name="da_step_continue_straight">Toliau važiuokite tiesiai</string>
+    <string name="da_step_u_turn">Apsisukite</string>
+    <string name="da_step_take_the_ramp">Važiuokite per įvažiavimą</string>
+    <string name="da_step_take_the_ramp_onto">Važiuokite per įvažiavimą į %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Važiuokite per įvažiavimą kairėje</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Važiuokite per įvažiavimą kairėje į %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Važiuokite per įvažiavimą dešinėje</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Važiuokite per įvažiavimą dešinėje į %1$s</string>
+    <string name="da_step_take_the_exit">Važiuokite per išvažiavimą</string>
+    <string name="da_step_take_the_exit_on_the_left">Važiuokite per išvažiavimą kairėje</string>
+    <string name="da_step_take_the_exit_on_the_right">Važiuokite per išvažiavimą dešinėje</string>
+    <string name="da_step_take_the_exit_onto">Važiuokite per išvažiavimą į %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Važiuokite per išvažiavimą kairėje į %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Važiuokite per išvažiavimą dešinėje į %1$s</string>
+    <string name="da_step_take_exit_n">Važiuokite per išvažiavimą %1$s</string>
+    <string name="dav_map_copyrights_google_only">© „Google“, %1$d</string>
+    <string name="dav_map_copyrights_full" formatted="false">© „Google“, %1$d – Vaizdai © %3$s, %2$d, Žemėlapio duomenys © %5$s, %4$d</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">© „Google“, %1$d – Vaizdai © %3$s, %2$d</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">© „Google“, %1$d – Žemėlapio duomenys © %3$s, %2$d</string>
+    <string name="CHECKINS_HOME_LOCATION">Pagrindinis</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Nuorodos ir navigacija</string>
+    <string name="EXIT_COMMAND">Išeiti</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} norėtų jus užregistruoti</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Platumos registravimosi užklausa</string>
+    <string name="GOHOME_DESTINATION_HINT">Įveskite adresą</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Sparčiojo klavišo piktograma</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Išsaugoti</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Kelionės tikslas</string>
+    <string name="GOHOME_SHORTCUT_NAME">Sparčiojo klavišo pavadinimas</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Nuosekli navigacija</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Atverti nustatymų puslapį</string>
+    <string name="HOTPOT_LOADING">Įkeliama...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Norint naudoti vietų vertinimo valdiklį, reikia įjungti parinktis „Naudoti belaidžius tinklus“ (vietos ir saugos nustatymuose) ir „Wi-Fi“ (belaidžio ryšio ir tinklo nustatymuose).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Jei norite naudoti vietų vertinimo valdiklį, įjunkite parinktį „Naudoti belaidžius tinklus“ vietos ir saugos nustatymuose.</string>
+    <string name="HOTPOT_NO_LOCATION">Nėra vietų informacijos</string>
+    <string name="HOTPOT_SEARCH">Ieškoti</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Ieškojote: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Ieškoti dar kartą</string>
+    <string name="HOTPOT_SELECT_PLACE">Pasirinkite vietą, kurią norite įvertinti</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Pasirinkite vietą: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Nežinoma vieta</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Atnaujinama vieta...</string>
+    <string name="HOTPOT_WIDGET_NAME">Įvertinti vietas</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Skelbiama viešai {0} vardu</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Komentaras</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Atnaujinta prieš {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"Kad padidintumėte valdiklio „Rate Places“ vietos tikslumą,  Bevielio ryšio ir tinklo nustatymuose įjunkite „Wi-Fi“ ryšį."</string>
+    <string name="HOTPOT_YOU_RATED">"Jūsų įvertinimas: "</string>
+    <string name="LATITUDE_APP_NAME">Platuma</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Prisiregistravote vietoje „{0}“ ir bendrinate: {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Prisiregistravote vietoje: „{0}“</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Registruoti {0} vietoje?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Registruoti šioje vietoje?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Bakstelėkite, jei norite prisijungti prie Platumos</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Paskutinį kartą atnaujinta: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Nežinoma vieta</string>
+    <string name="LOADING">Įkeliama</string>
+    <string name="MAPS_APP_NAME">Žemėlapiai</string>
+    <string name="NEED_NET_BODY">Šios programos naudoti negalima, kol jai nebus suteiktas leidimas tinklu siųsti ir priimti duomenis.</string>
+    <string name="NEED_NET_TITLE">Reikia tinklo prieigos</string>
+    <string name="NETWORK_DATA_ERROR">Šiai programai reikalingas duomenų sujungimas. Susisiekite su ryšio teikėju.</string>
+    <string name="NET_FAIL_BODY">Šiai programai reikalingas veikiantis duomenų ryšys.</string>
+    <string name="NET_FAIL_TITLE">Tinklo triktis</string>
+    <string name="NET_UNAVAILABLE_TITLE">Tinklas nepasiekiamas</string>
+    <string name="PLACES_APP_NAME">Vietos</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">„pvz., spagečiai „Bolognese“, kokteiliai, muzika“</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">„Kas išsiskiria?“</string>
+    <string name="RATINGS_OPTIN_CANCEL">Atšaukti</string>
+    <string name="RATINGS_OPTIN_CLOSE">Uždaryti</string>
+    <string name="RATINGS_OPTIN_FAILED">Atnaujinti nepavyko, bandykite vėliau.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Padarykite tai visuomeniniu dalyku!&lt;/b> Norėdami pridėti draugų ir atrasti jų mėgstamas vietas, eikite į &lt;b>{0}&lt;/b> savo kompiuteryje.</string>
+    <string name="RATINGS_OPTIN_HEADING">Nustatykite savo viešą „Google“ vietų slapyvardį.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Vardas arba slapyvardis: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Norėdami paieškos rezultatuose gauti savo asmeniniu skoniu paremtas rekomendacijas, įvertinkite mėgstamiausius restoranus, kavines ir kitas vietas.</string>
+    <string name="RATINGS_OPTIN_SAVE">Pradėti</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Jūsų nustatyti vietų įvertinimai yra &lt;b>viešai skelbiami žiniatinklyje&lt;/b> nurodant šį slapyvardį. &lt;a href=#>Sužinokite daugiau&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Skelbiama viešai žiniatinklyje {0} vardu.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Skelbiama viešai žiniatinklyje.</string>
+    <string name="RATINGS_RATE_PLACES">Kam vertinti vietas?</string>
+    <string name="RATINGS_SET_APPEARANCE">Nustatyti išvaizdą</string>
+    <string name="RATINGS_WAIT">Palaukite...</string>
+    <string name="SEARCH_HINT">Iešk. žemėl.</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Galutinis taškas</string>
+    <string name="TRAFFIC_WIDGET_NAME">Eismas</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Valdiklio pavadinimas</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Išsaugoti</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Pradinis taškas</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Didelė klaida.  Išeikite ir paleiskite iš naujo."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Nežinoma klaida</string>
+    <string name="UPGRADE_BODY">Kad galėtumėte naudotis šia programa, turite įdiegti naują versiją.</string>
+    <string name="UPGRADE_TITLE">Programinės įrangos naujinimas</string>
+    <string name="WALLPAPER_AUTHOR">„Google“</string>
+    <string name="WALLPAPER_DESCRIPTION">Žemėlapių tiesioginis darbalaukio fonas</string>
+    <string name="WALLPAPER_MAP_MODE">Žemėlapio režimas</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Įprastas</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Palydovas</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Žemėlapio režimas, pvz., palydovinis vaizdas</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Reljefas</string>
+    <string name="WALLPAPER_SETTINGS">Žemėlapių tiesioginio darbalaukio fono nustatymai</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Rodyti eismą</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Rodo dabartinį orą žemėlapyje. Turite būti įdiegę orų valdiklį.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Oras</string>
+</resources>

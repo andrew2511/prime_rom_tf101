@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Prikaz ulice</string>
+    <string name="go_to_map">Idi na kartu</string>
+    <string name="report_inappropriate_image">Prijavi sliku</string>
+    <string name="toggle_compass_mode">Način rada s kompasom</string>
+    <string name="compass_mode_on">Uključen način rada s kompasom.</string>
+    <string name="compass_mode_off">Isključen način rada s kompasom.</string>
+    <string name="waiting_for_network">Podatkovna veza je izgubljena, pokušava se ponovo...</string>
+    <string name="panorama_disabled">Slika više nije dostupna.</string>
+    <string name="service_unavailable">Usluga prikaza ulice nije dostupna.</string>
+    <string name="loading">Učitavanje</string>
+    <string name="no_panorama_data">Nema panoramskog podatkovnog skupa.</string>
+    <string name="invalid_panorama_data">Nevažeća panorama.</string>
+    <string name="click_to_go_toast">Povucite ikonu Pegman na mjesto kamo želite otići.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Ovaj program zahtijeva podatkovnu vezu te će je automatski pokušati ponovo uspostaviti. Provjerite jačinu signala. Je li uključen način rada u zrakoplovu? Jesu li onemogućene podatkovne usluge u roamingu?</string>
+    <string name="whats_new_header">Što je novo u Prikazu ulice?</string>
+    <string name="whats_new_c2g">Odletite dokle vam pogled seže. Dovucite Pegmana iz donjeg lijevog kuta i ispustite ga na mjesto na koje želite poći.</string>
+    <string name="terms_and_privacy">Uvjeti i privatnost</string>
+    <string name="terms_and_conditions">Uvjeti i odredbe</string>
+    <string name="privacy_policy">Pravila o privatnosti</string>
+</resources>

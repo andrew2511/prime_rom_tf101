@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Definições do widget de meteorologia</string>
+    <string name="refreshBtn">Actualizar</string>
+    <string name="saveBtn">Guardar</string>
+    <string name="cancelBtn">Cancelar</string>
+    <string name="nocityfound">Nenhuma cidade encontrada</string>
+    <string name="humidity">Humidade</string>
+    <string name="winds">Ventos</string>
+    <string name="infor1">Não disponível</string>
+    <string name="searchlistviewtitle">Escolha uma cidade</string>
+    <string name="wait">Aguarde...</string>
+    <string name="refreshFail">A actualização falhou. Tente novamente.</string>
+    <string name="searchFail">A procura falhou. Tente novamente.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSO</string>
+    <string name="dirSW">SO</string>
+    <string name="dirWSW">OSO</string>
+    <string name="dirW">O</string>
+    <string name="dirWNW">ONO</string>
+    <string name="dirNW">NO</string>
+    <string name="dirNNW">NNO</string>
+    <string name="entercityname">Introduza uma cidade:</string>
+    <string name="manualtitle">Definir a localização manualmente</string>
+    <string name="refreshprogresstitle">Actualizar informação meteorológica</string>
+    <string name="refreshprogresscontent">Actualizar agora. Aguarde...</string>
+    <string name="searchprogresstitle">Procurar cidade</string>
+    <string name="searchprogresscontent">Procurar agora. Aguarde...</string>
+    <string name="no_network">A rede não está disponível. Não é possível actualizar as informações de meteorologia.</string>
+    <string name="no_provider">Não estão disponíveis todas as informações de localização. Active as redes sem fios e a função de GPS nas Definições de Localização e Segurança para uma detecção mais rápida e precisa.</string>
+    <string name="title_location">Localização</string>
+    <string name="content_autorefreshed">Actualizar automaticamente a minha localização actual</string>
+    <string name="content_manual">Procura manual</string>
+    <string name="title_updatefreq">Frequência de actualização</string>
+    <string name="content_updatetime">Hora da última actualização</string>
+    <string name="content_selectfreq">Seleccione a frequência de actualização</string>
+    <string name="title_others">Outros</string>
+    <string name="content_tempunit">Unidade de temperatura</string>
+</resources>

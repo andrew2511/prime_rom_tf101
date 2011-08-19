@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">"Fond d'écran par défaut ASUS"</string>
+    <string name="mywater_setting">Paramètres ASUS MyWater</string>
+    <string name="enable_rotation">"Activer la rotation d'eau"</string>
+    <string name="enable_rotation_description">"L'écoulement de l'eau suit les changements d'orientation."</string>
+</resources>

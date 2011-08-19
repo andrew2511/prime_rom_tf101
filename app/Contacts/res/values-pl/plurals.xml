@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">Liczba kontaktów: %0$d</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">Liczba kontaktów: %1$1$d, liczba kontaktów z numerami telefonów: %2$2$d</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Liczba kontaktów z numerami telefonów: %d</item>
+        <item quantity="one">Liczba kontaktów z numerem telefonu: 1</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Liczba kontaktów: %d</item>
+        <item quantity="one">Liczba kontaktów: 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Znaleziono: %d</item>
+        <item quantity="one">Znaleziono: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Znaleziono: %d</item>
+        <item quantity="one">Znaleziono: 1</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">Liczba wybranych odbiorców: %d</item>
+        <item quantity="one">Wybrano 1 odbiorcę</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">scalono z %0$d źródeł</item>
+        <item quantity="one">nie scalono</item>
+    </plurals>
+</resources>

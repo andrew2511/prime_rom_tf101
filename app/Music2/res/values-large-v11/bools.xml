@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="grid_expanded_cluster_label_horizontal">true</bool>
+    <bool name="grid_expand_label_vertical">true</bool>
+    <bool name="grid_cluster_expand_label_vertical">true</bool>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Képernyőkép</string>
+    <string name="screenshot_dialog_message">A képernyőkép mentve. Képernyőkép módban akar maradni?</string>
+    <string name="screenshot_dialog_yes">Igen</string>
+    <string name="screenshot_dialog_no">Nem</string>
+    <string name="screenshot_toast_message_saved">A képernyőkép mentve.</string>
+    <string name="screenshot_toast_message_failed">A képernyőkép mentése sikertelen Fájláttöltés módban.</string>
+    <string name="screenshot_toast_message_failed_save">A képernyőkép mentése sikertelen.</string>
+    <string name="screenshot_toast_message_full">A képernyőkép mentése sikertelen. Nincs elegendő memória.</string>
+</resources>

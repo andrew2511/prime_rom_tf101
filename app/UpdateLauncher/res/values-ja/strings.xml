@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">アップデートランチャー</string>
+    <string name="TITLE_DETECTED">システムアップデートファイルを検出</string>
+    <string name="TITLE_SYSTEM_UPDATE">システムアップデート</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">利用可能なシステムアップデート</string>
+    <string name="MSG_PRELIMINARY">"システムアップデートの所要時間は約10分です。システムアップデート中は、本機を使用することは出来ません。
+
+ACアダプターを接続するか、最低15%以上のバッテリー残量がある状態で、システムアップデートを実行してください。
+
+システムアップデートを実行しますか？"</string>
+    <string name="BUTTON_CANCEL">キャンセル</string>
+    <string name="MSG_RESUME">タッチしてシステムアップデートを開始します。</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">システムアップデート終了</string>
+    <string name="MSG_UPDATE_DONE">システムのアップデートに成功しました。</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">アップデートファイルは存在しません。</string>
+    <string name="MSG_UPDATE_FAIL">システムアップデートに失敗しました。</string>
+    <string name="MSG_UPDATE_RESTORE">システム設定は前の状態に復元されました。</string>
+    <string name="MSG_BATTERY_LOW">"バッテリー残量が足りないため、システムアップデートが中止されました。
+
+電源コードを接続してから再度アップデートしてください。"</string>
+    <string name="TITLE_SELECT_FILE">アップデートパッケージを選択</string>
+    <string name="MSG_UPDATE_FAIL_SKU">更新パッケージは現在お使いのソフトウェアと互換性がありません。ソフトウェアのバージョンとバージョンナンバーを「設定」で確認し、対応する更新パッケージをお使いください。</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">更新パッケージは現在お使いのソフトウェアより古いバージョンです。新しい更新パッケージをお使いください。</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">不明なエラーが発生しました。</string>
+</resources>

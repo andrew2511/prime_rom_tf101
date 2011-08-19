@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_notifications" android:id="@id/menu_notifications" android:alphabeticShortcut="n" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/menu_refresh" android:alphabeticShortcut="r" />
+</menu>

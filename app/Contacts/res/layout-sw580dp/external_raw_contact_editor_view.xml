@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.ExternalRawContactEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <include android:id="@id/header" layout="@layout/raw_contact_editor_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="top|left|center" android:id="@id/stub_photo" android:layout_width="96.0dip" android:layout_height="96.0dip" ex:layout_narrowParentWidth="@dimen/editor_interpolator_narrow_width" ex:layout_narrowMarginLeft="15.0dip" ex:layout_wideParentWidth="960.0dip" ex:layout_wideMarginLeft="96.0dip">
+                <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" ex:layout_narrowParentWidth="@dimen/editor_interpolator_narrow_width" ex:layout_narrowMarginRight="15.0dip" ex:layout_wideParentWidth="960.0dip" ex:layout_wideMarginRight="48.0dip">
+                <View android:background="@color/contact_detail_header_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <TextView android:textSize="@dimen/contact_name_text_size" android:id="@id/read_only_name" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_name_text_field_left_margin" android:layout_marginTop="6.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="4.0dip" />
+            </LinearLayout>
+        </com.android.contacts.widget.InterpolatingLayout>
+        <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" ex:layout_narrowParentWidth="@dimen/editor_interpolator_narrow_width" ex:layout_narrowMarginLeft="15.0dip" ex:layout_narrowMarginRight="15.0dip" ex:layout_wideParentWidth="960.0dip" ex:layout_wideMarginLeft="96.0dip" ex:layout_wideMarginRight="96.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/read_only_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:drawableLeft="?android:alertDialogIcon" android:drawablePadding="10.0dip" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:id="@id/sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.android.contacts.widget.InterpolatingLayout>
+        <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="42.0dip">
+            <Button android:id="@id/button_edit_externally" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_contact" ex:layout_narrowParentWidth="@dimen/editor_interpolator_narrow_width" ex:layout_narrowMarginLeft="165.0dip" ex:layout_narrowMarginRight="121.0dip" ex:layout_wideParentWidth="960.0dip" ex:layout_wideMarginLeft="246.0dip" ex:layout_wideMarginRight="156.0dip" />
+        </com.android.contacts.widget.InterpolatingLayout>
+    </LinearLayout>
+</com.android.contacts.editor.ExternalRawContactEditorView>

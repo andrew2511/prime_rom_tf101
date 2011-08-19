@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/refund" android:title="@string/refund_link" />
+    <item android:id="@id/billing_privacy" android:title="@string/billing_privacy_link" />
+</menu>

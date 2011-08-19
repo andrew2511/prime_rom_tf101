@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.TextSizeOptionsView android:id="@id/view_options_row_text_size" style="@style/view_options_row.text_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/font_size1" android:focusable="true" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/dotted_button_white" android:src="@drawable/ic_text_xsmall" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size2" android:focusable="true" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/dotted_button_white" android:src="@drawable/ic_text_small" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size3" android:focusable="true" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/dotted_button_sepia" android:src="@drawable/ic_text_medium" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size4" android:focusable="true" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/dotted_button_sepia" android:src="@drawable/ic_text_large" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size5" android:focusable="true" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/dotted_button_black" android:src="@drawable/ic_text_xlarge" style="@style/view_options_text_size_button" />
+</com.amazon.kcp.reader.ui.TextSizeOptionsView>

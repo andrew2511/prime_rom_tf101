@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Gå til kart</string>
+    <string name="report_inappropriate_image">Rapporter bilde</string>
+    <string name="toggle_compass_mode">Kompassmodus</string>
+    <string name="compass_mode_on">Kompassmodus er på.</string>
+    <string name="compass_mode_off">Kompassmodus av.</string>
+    <string name="waiting_for_network">Mistet datatilkobling, prøver på nytt …</string>
+    <string name="panorama_disabled">Bildet er ikke lenger tilgjengelig.</string>
+    <string name="service_unavailable">Street View-tjenesten er ikke tilgjengelig.</string>
+    <string name="loading">Laster inn</string>
+    <string name="no_panorama_data">Panoramadata er ikke bestemt.</string>
+    <string name="invalid_panorama_data">Ugyldig panorama.</string>
+    <string name="click_to_go_toast">Dra Pegman dit du vil dra.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Dette programmet krever en datatilkobling og vil forsøke å koble til på nytt. Kontroller signalstyrken. Er flymodus aktivert? Er roamingdata deaktivert?</string>
+    <string name="whats_new_header">Nyheter i Street View</string>
+    <string name="whats_new_c2g">Fly hvor du vil. Dra Pegman fra nederst til venstre og slipp han der du vil dra.</string>
+    <string name="terms_and_privacy">Vilkår og personvern</string>
+    <string name="terms_and_conditions">Vilkår</string>
+    <string name="privacy_policy">Personvern</string>
+</resources>

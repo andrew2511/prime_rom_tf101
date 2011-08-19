@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="@drawable/pixbg_02" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/textView1" android:background="@drawable/pixbg_01" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pix_welcome01" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/deepgray_2" android:layout_gravity="center_vertical" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/welcome_enjoyment" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/deepgray_2" android:layout_gravity="center_vertical" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_enjoyment_dsp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="@drawable/pixbg_04" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pix_welcome02" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/deepgray_2" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/welcome_transcoding" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/deepgray_2" android:id="@id/textView5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_transcoding_dsp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="@drawable/pixbg_05" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pix_welcome03" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/deepgray_2" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/welcome_personal" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/deepgray_2" android:id="@id/textView7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_personal_dsp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="@drawable/pixbg_06" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pix_welcome04" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/deepgray_2" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/welcome_slideshow" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/deepgray_2" android:id="@id/textView9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_slideshow_dsp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18.0sp" android:textStyle="normal" android:textColor="@color/white" android:id="@id/btn_reg" android:background="@drawable/pix_btnbg01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip" android:text="@string/help_page_ok" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

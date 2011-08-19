@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/details_left_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/two_button_bar_rate_review" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/rate_header" android:text="@string/rate" style="@style/DetailsPage_HeaderText" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rate_review_padding" android:hint="@string/select_rating" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/review_title" style="@style/DetailsPage_HeaderText" />
+                <EditText android:id="@id/review_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rate_review_padding" android:layout_marginRight="@dimen/rate_review_padding" android:hint="@string/title" android:layout_weight="1.0" />
+            </LinearLayout>
+            <EditText android:gravity="top" android:id="@id/review_content" android:layout_width="fill_parent" android:layout_height="@dimen/rate_review_text_area_height" android:layout_marginTop="@dimen/rate_review_padding" android:layout_marginRight="@dimen/rate_review_padding" android:layout_marginBottom="@dimen/rate_review_padding" android:hint="@string/write_review" android:inputType="textLongMessage|textCapSentences|textAutoCorrect|textMultiLine" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/review_by" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

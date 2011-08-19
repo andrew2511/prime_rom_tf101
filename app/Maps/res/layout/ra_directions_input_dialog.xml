@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ra_directions_panel" android:background="@drawable/ra_bottombar_portrait_565" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="4.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ra_from_input_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+        <com.google.android.maps.rideabout.app.RideAboutSuggestView android:textSize="18.0sp" android:id="@id/ra_from_field" android:nextFocusDown="@id/ra_to_field" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:freezesText="true" android:layout_weight="1.0" android:imeOptions="actionNext" />
+        <ImageButton android:id="@id/ra_from_choose_button" android:background="@drawable/ra_btn_default" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@android:drawable/ic_input_get" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ra_to_input_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+        <com.google.android.maps.rideabout.app.RideAboutSuggestView android:textSize="18.0sp" android:id="@id/ra_to_field" android:nextFocusDown="@id/ra_get_directions_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:freezesText="true" android:layout_weight="1.0" android:imeOptions="actionDone" />
+        <ImageButton android:id="@id/ra_to_choose_button" android:background="@drawable/ra_btn_default" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@android:drawable/ic_input_get" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <include layout="@layout/ra_travel_type" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/ra_get_directions_button" android:background="@drawable/ra_btn_default" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

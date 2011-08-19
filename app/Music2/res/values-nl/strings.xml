@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Geen netwerkverbinding</string>
+    <string name="authentication_failure_no_network">U moet verbonden zijn met internet om uw account voor Muziek te verifiëren.</string>
+    <string name="authentication_failure">Verificatie mislukt</string>
+    <string name="authentication_failure_error">Kan uw account voor Muziek niet verifiëren.</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Annuleren</string>
+    <string name="save_button_text">Opslaan</string>
+    <string name="not_save_button_text">Niet opslaan</string>
+    <string name="shuffle_all">Shuffle alles</string>
+    <string name="play_all">Alles afspelen</string>
+    <string name="songs_all">Alle nummers</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="search">Zoeken</string>
+    <string name="settings">Instellingen</string>
+    <string name="library_options">Bibliotheekopties</string>
+    <string name="manage_music">Offline beschikbaar maken</string>
+    <string name="available_offline">Offline beschikbaar</string>
+    <string name="hide_labels">Labels verbergen</string>
+    <string name="show_labels">Labels weergeven</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="shop_artist">Winkelen op artiest</string>
+    <string name="show_offline_music_only">Alleen offline muziek</string>
+    <string name="gadget_all_songs_by_artist">Alle nummers van %s</string>
+    <string name="list_title_all_songs_by_artist">"Alle nummers van
+%s"</string>
+    <string name="new_playlist_title">Naam afspeellijst</string>
+    <string name="add_to_playlist_title">Naam afspeellijst</string>
+    <string name="rename_playlist_title">"Naam van '%s' wijzigen in"</string>
+    <string name="all_music">Alle muziek</string>
+    <string name="only_kept">Alleen offline</string>
+    <string name="search_section_header_artists">ARTIESTEN</string>
+    <string name="search_section_header_albums">ALBUMS</string>
+    <string name="search_section_header_songs">NUMMERS</string>
+    <string name="search_section_header_playlists">AFSPEELLIJSTEN</string>
+    <string name="shuffle_all_songs">Shuffle alles</string>
+    <string name="stream_settings">Instellingen voor streaming</string>
+    <string name="streamed_music_category">Gestreamde muziek</string>
+    <string name="refresh_title">Vernieuwen</string>
+    <string name="refresh_summary">Muziek van Muziek Bèta vernieuwen</string>
+    <string name="account_settings_title">Google-account</string>
+    <string name="no_account_selected_summary">Raak aan om account te selecteren</string>
+    <string name="account_selected_summary">Verbinding maken met Muziek Bèta via %s</string>
+    <string name="hide_when_not_connected_title">Niet-beschikbare muziek verbergen</string>
+    <string name="hide_when_not_connected_summary">Alleen offline beschikbare muziek weergeven</string>
+    <string name="stream_only_on_wifi_title">Muziek alleen streamen via Wi-Fi</string>
+    <string name="stream_only_on_wifi_summary">Muziek alleen streamen bij verbinding via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_title">Alleen downloaden via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Muziek voor beschikbaarheid offline alleen downloaden via Wi-Fi</string>
+    <string name="cache_streamed_title">Muziek cachen</string>
+    <string name="cache_streamed_summary">Gestreamde muziek tijdelijk opslaan</string>
+    <string name="download_queue_title">Downloadwachtrij</string>
+    <string name="download_queue_summary">De nummers weergeven die worden gedownload</string>
+    <string name="help_title">Help</string>
+    <string name="help_summary">De app Muziek en Muziek Bèta van Google gebruiken</string>
+    <string name="library_help_title">Help</string>
+    <string name="library_help_summary">Verbindingsproblemen oplossen</string>
+    <string name="add_account_title">Account toevoegen</string>
+    <string name="accounts_title">Accounts</string>
+    <string name="account_status_connected">gekoppeld</string>
+    <string name="account_status_not_connected">niet gekoppeld</string>
+    <string name="show_no_downloads_title">Geen nummers in wachtrij voor downloaden</string>
+    <string name="music_version_title">Versie van Muziek voor Android</string>
+    <string name="music_version_summary">Onbekende versie</string>
+    <string name="list_status_summary_no_items">Geen items</string>
+    <string name="list_status_summary_loading">Laden...</string>
+    <string name="stream_accounts_title">Gestreamde accounts</string>
+    <string name="library_status_title">Status van gestreamde bibliotheek</string>
+    <string name="nowplaying_title">Wordt nu afgespeeld</string>
+    <string name="artists_title">Artiesten</string>
+    <string name="albums_title">Albums</string>
+    <string name="genres_title">Genres</string>
+    <string name="tracks_title">Nummers</string>
+    <string name="playlists_title">Afspeellijsten</string>
+    <string name="recent_title">Recent</string>
+    <string name="search_title">Zoeken</string>
+    <string name="no_tracks_title">Geen nummers</string>
+    <string name="no_videos_title">"Geen video's"</string>
+    <string name="delete_playlist_menu">Verwijderen</string>
+    <string name="edit_playlist_menu">Bewerken</string>
+    <string name="rename_playlist_menu">Naam wijzigen</string>
+    <string name="playlist_delete_confirmation">"Afspeellijst '%s' wordt verwijderd."</string>
+    <string name="delete_playlist_button_confirm">Verwijderen</string>
+    <string name="playlist_deleted_message">Afspeellijst verwijderd.</string>
+    <string name="playlist_created_message">"Afspeellijst '%s' is gemaakt"</string>
+    <string name="playlist_renamed_message">"Naam van afspeellijst gewijzigd '%s'"</string>
+    <string name="recentlyadded">Onlangs toegevoegd</string>
+    <string name="recentlyadded_title">Onlangs toegevoegd</string>
+    <string name="podcasts_listitem">Podcasts</string>
+    <string name="podcasts_title">Podcasts</string>
+    <string name="unknown_artist_name">Onbekende artiest</string>
+    <string name="unknown_album_name">Onbekend album</string>
+    <string name="unknown_playlist_name">Onbekende afspeellijst</string>
+    <string name="shuffle_on_notif">Shuffle is ingeschakeld.</string>
+    <string name="shuffle_off_notif">Shuffle is uitgeschakeld.</string>
+    <string name="repeat_off_notif">Herhalen is uitgeschakeld.</string>
+    <string name="repeat_current_notif">Huidig nummer wordt herhaald.</string>
+    <string name="repeat_all_notif">Alle nummers worden herhaald.</string>
+    <string name="play_selection">Afspelen</string>
+    <string name="add_to_playlist">Toev. aan afspeellijst</string>
+    <string name="rename_playlist_menu_item">Naam wijzigen</string>
+    <string name="add_to_playlist_selector_title">Toev. aan afspeellijst</string>
+    <string name="queue">Huidige afspeellijst</string>
+    <string name="new_playlist_for_content">Nieuwe afspeellijst...</string>
+    <string name="new_empty_playlist">Nieuwe afspeellijst</string>
+    <string name="new_playlist_name_template">Afspeellijst %d</string>
+    <string name="playlist_too_many_songs">Te veel nummers. Limiet is %d per afspeellijst.</string>
+    <string name="emptyplaylist">Geselecteerde afspeellijst is leeg.</string>
+    <string name="playlist_edit_label">NAAM</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">Naam wijzigen</string>
+    <string name="service_start_error_title">Probleem met afspelen</string>
+    <string name="service_start_error_msg">Het nummer kan niet worden afgespeeld.</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">Gereed</string>
+    <string name="weekpicker_title">Tijd instellen</string>
+    <string name="save_as_playlist">Opslaan als afspeellijst</string>
+    <string name="musicbrowserlabel">Muziek</string>
+    <string name="musicshortcutlabel">Afspeellijst voor muziek</string>
+    <string name="mediaplaybacklabel">Muziek</string>
+    <string name="playback_failed">Fout bij het afspelen van gewenste track</string>
+    <string name="cancel">Annuleren</string>
+    <string name="remove_from_playlist">Verwijderen uit afspeellijst</string>
+    <string name="streamloadingtext">Verbinding maken met %s</string>
+    <string name="mediasearch">"Zoeken naar '%s' via:"</string>
+    <string name="search_hint">Zoeken naar muziek</string>
+    <string name="working_artists">Artiesten…</string>
+    <string name="working_albums">Albums…</string>
+    <string name="working_songs">Nummers…</string>
+    <string name="working_playlists">Afspeellijsten…</string>
+    <string name="working_genres">Genres…</string>
+    <string name="loading">Laden</string>
+    <string name="sort_by_track">Tracks</string>
+    <string name="music_picker_title">Muziektrack selecteren</string>
+    <string name="gadget_track">Track %d</string>
+    <string name="fail_to_start_stream">Het afspelen van de aangevraagde stream is mislukt.</string>
+    <string name="search_settings_description">Artiesten, albums en nummers</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">Muziekbibliotheek</string>
+    <string name="music_shop">Winkel</string>
+    <string name="pick">Kiezen</string>
+    <string name="artist_unknown">Artiest onbekend</string>
+    <string name="playlists_label">Afspeellijsten</string>
+    <string name="playlist_label">Afspeellijst</string>
+    <string name="faux_art_all_songs_label">Alle nummers</string>
+    <string name="faux_art_playlist_label">Afspeellijst</string>
+    <string name="loading_new">Nieuwe muziek laden</string>
+    <string name="no_items">Uw verzameling bevat geen items</string>
+    <string name="buffering">Bufferen</string>
+    <string name="keep_on_phone">Offline beschikbaar</string>
+    <string name="sort_order_prompt">Een sorteervolgorde selecteren</string>
+    <string name="provider_label">Muziek</string>
+    <string name="tutorial_set_up_usb">Meer informatie</string>
+    <string name="no_music_heading">Muziekbibliotheek is leeg</string>
+    <string name="no_music_setup_uploader_heading">Uw muziek draadloos streamen</string>
+    <string name="no_music_setup_uploader_body">Stream uw persoonlijke muziekverzameling met Muziek Bèta van Google.</string>
+    <string name="no_music_setup_usb_heading">Muziek kopiëren naar uw apparaat</string>
+    <string name="no_music_setup_usb_body">Kopieer muziek naar uw telefoon met een USB-kabel.</string>
+    <string name="no_local_music_heading">Geen lokale muziek</string>
+    <string name="no_local_music_body">"De modus 'alleen offline' is actief, dus alleen muziek op uw apparaat wordt weergegeven. Gebruik de optie 'Offline beschikbaar maken' om dit te wijzigen."</string>
+    <string name="no_music_learn_more">Meer informatie</string>
+    <string name="tutorial_set_up_streaming">Streaming instellen</string>
+    <string name="no_playlists_heading">Uw bibliotheek bevat geen afspeellijsten.</string>
+    <string name="no_playlists_body">"U kunt als volgt een afspeellijst maken: ga naar de lijstweergave met nummers en selecteer 'Toevoegen aan afspeellijst' in het contextmenu van een nummer."</string>
+    <string name="tutorial_account_heading">Welkom</string>
+    <string name="tutorial_account_body">U wordt uitgenodigd voor Muziek Bèta van Google. U kunt deze speler gebruiken voor rechtstreekse toegang tot de nummers die u toevoegt aan Muziek Bèta en andere muziek die u heeft gekopieerd naar uw Android-apparaat.</string>
+    <string name="tutorial_account_list_header">Selecteer eerst een Google-account om deze speler te koppelen aan Muziek Bèta:</string>
+    <string name="tutorial_done_heading">Genieten</string>
+    <string name="tutorial_done_body">"De Muziek-speler is nu gekoppeld aan uw Google-account.
+
+Als u uw muziekverzameling al heeft toegevoegd aan Muziek Bèta, wordt de verzameling weergegeven in deze speler.
+
+Als u uw muziek nog moet toevoegen aan Muziek Bèta, kunt u beginnen door onze website te bezoeken op uw computer:"</string>
+    <string name="tutorial_back">Vorige</string>
+    <string name="tutorial_skip">Overslaan</string>
+    <string name="tutorial_next">Volgende</string>
+    <string name="tutorial_done">Gereed</string>
+    <string name="help_heading">Help</string>
+    <string name="spinner_carousel">Recent</string>
+    <string name="spinner_album">Albums</string>
+    <string name="spinner_artist">Artiesten</string>
+    <string name="spinner_songs">Nummers</string>
+    <string name="spinner_playlists">Afspeellijsten</string>
+    <string name="spinner_genres">Genres</string>
+    <string name="sort_by_title">Sorteren van A-Z</string>
+    <string name="sort_by_artist">Sorteren op artiest</string>
+    <string name="sort_by_album">Sorteren op album</string>
+    <string name="more_by_artist">Meer van artiest</string>
+    <string name="make_available_offline">Offline beschikbaar maken</string>
+    <string name="search_web">Zoeken op internet</string>
+    <string name="manage_done">Gereed</string>
+    <string name="too_many_items_title">Te veel items</string>
+    <string name="too_many_items_body">Te veel items zijn geselecteerd om te bewaren. Hef de selectie van sommige items op om ruimte te maken.</string>
+    <string name="save_manage_music_change_title">Wijzigingen opslaan?</string>
+    <string name="save_manage_music_change_body">Wilt u uw wijzigingen opslaan om de geselecteerde muziek offline beschikbaar te maken?</string>
+    <string name="not_all_items_can_be_kept_body">Te veel items zijn geselecteerd om te bewaren. Niet alle items worden gedownload.</string>
+    <string name="free_space_overfull">Opslag vol (%s te veel)</string>
+    <string name="free_space">%s VRIJ</string>
+    <string name="stream_error_no_space_available">Geen ruimte beschikbaar</string>
+    <string name="stream_error_server_not_found">Kan geen verbinding maken met server</string>
+    <string name="stream_error_only_on_wifi">U moet verbinding hebben met een Wi-Fi-netwerk om dit nummer af te spelen</string>
+    <string name="stream_error_no_connection">U moet online zijn om dit nummer af te spelen</string>
+    <string name="stream_error_unauthorized">Gebruikersnaam/wachtwoord ongeldig</string>
+    <string name="stream_error_another_stream_being_played">Muziek onderbroken omdat u op een ander apparaat naar uw verzameling luistert.</string>
+    <string name="stream_error_rate_limit_reached">Muziek tijdelijk niet beschikbaar. U kunt uw verzameling op maximaal één apparaat tegelijk afspelen.</string>
+    <string name="stream_error_device_not_authorized">Er zijn acht computers of apparaten aan dit account gekoppeld. U moet de verificatie voor één hiervan intrekken voordat u een nieuw apparaat kunt toevoegen.</string>
+    <string name="stream_error_another_stream_being_played_short">Muziek tijdelijk onderbroken</string>
+    <string name="stream_error_rate_limit_reached_short">Muziek tijdelijk niet beschikbaar</string>
+    <string name="stream_error_device_not_authorized_short">Er zijn teveel apparaten aan dit account gekoppeld</string>
+    <string name="hide_now_playing_bar">"Balk 'Wordt nu afgespeeld' verbergen"</string>
+    <string name="show_now_playing_bar">"Balk 'Wordt nu afgespeeld' weergeven"</string>
+    <string name="show_options">Opties weergeven</string>
+    <string name="hide_options">Opties verbergen</string>
+    <string name="all_songs_in_genre">"Alle nummers in het genre
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Muziek offline beschikbaar maken</string>
+    <string name="notification_downloading_when_on_wifi">Nummers die als offline zijn gemarkeerd, worden geladen zodra u verbinding heeft met een Wi-Fi-netwerk.</string>
+    <string name="notification_downloading_excessive_errors">Kan momenteel geen nummers downloaden. Controleer de internetverbinding.</string>
+    <string name="notification_downloading_done">De geselecteerde nummers zijn nu offline beschikbaar</string>
+    <string name="carousel_label_shuffle_all">Shuffle alles</string>
+    <string name="song_label">NUMMER</string>
+    <string name="artist_label">ARTIEST</string>
+    <string name="album_label">ALBUM</string>
+    <string name="effectspanel">Geluidseffecten</string>
+    <string name="menu_make_instant_mix">Instant mix maken</string>
+    <string name="instant_mix_default_name">%s Mix</string>
+    <string name="creating_instant_mix">"Een instant mix toevoegen
+aan afspeellijsten"</string>
+    <string name="creating_instant_mix_with_seed">"Een instant mix toevoegen
+aan afspeellijsten, op basis van 
+%s"</string>
+    <string name="create_instant_mix_failed">Kan instant mix niet maken. Probeer het opnieuw.</string>
+    <string name="create_instant_mix_failed_insufficient_results">"Er zijn niet voldoende soortgelijke nummers in uw verzameling om een instant mix van '%s' te maken. Probeer een instant mix van een ander nummer te maken."</string>
+    <string name="create_instant_mix_sync_timeout">"De instant mix is
+gemaakt en wordt binnenkort
+weergegeven in uw afspeellijsten."</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">Verwijderen</string>
+    <string name="confirm_delete_local_only">"Weet u zeker dat u '%s' wilt verwijderen?"</string>
+    <string name="confirm_delete_has_remote">"'%s' is gesideload en geüpload naar Google Muziek. Alleen de gesideloade items worden verwijderd. Weet u zeker dat u deze wilt verwijderen?"</string>
+</resources>

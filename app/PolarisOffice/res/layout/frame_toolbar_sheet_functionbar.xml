@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/frame_toolbar_sheet_functionbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/holder_functiombar_button_fx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" />
+    <LinearLayout android:id="@id/holder_functiombar_edit_fx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0px" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/holder_functiombar_button_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">텍스트의 길이가 한계를 초과하였습니다. 일부를 생략하여 줄이십시오.</string>
+    <string name="post_successfully">성공적으로 게시되었습니다.</string>
+</resources>

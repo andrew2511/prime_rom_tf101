@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>צ</item>
+        <item>צ-מז</item>
+        <item>מז</item>
+        <item>ד-מז</item>
+        <item>ד</item>
+        <item>ד-מע</item>
+        <item>מע</item>
+        <item>צ-מע</item>
+    </string-array>
+</resources>

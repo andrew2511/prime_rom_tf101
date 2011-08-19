@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="years_ago">
+        <item quantity="other">%1$d г. назад</item>
+        <item quantity="one">1 год назад</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d мес. назад</item>
+        <item quantity="one">1 месяц назад</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="other">%1$d нед. назад</item>
+        <item quantity="one">1 неделю назад</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d дн. назад</item>
+        <item quantity="one">1 день назад</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d ч. назад</item>
+        <item quantity="one">1 час назад</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d мин. назад</item>
+        <item quantity="one">1 минуту назад</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%1$d с. назад</item>
+        <item quantity="one">1 секунду назад</item>
+    </plurals>
+    <plurals name="recent_uploads">
+        <item quantity="other">новые загрузки</item>
+        <item quantity="one">новая загрузка</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">новые события</item>
+        <item quantity="one">новое событие</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d видео</item>
+        <item quantity="one">1 видео</item>
+    </plurals>
+</resources>

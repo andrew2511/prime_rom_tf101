@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mini_month_container" android:layout_width="264.0dip" android:layout_height="300.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/mini_month" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/home_time" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/calendar_list" style="@style/TextAppearance.Date_Range_Title" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/calendar_list" android:layout_width="450.0dip" android:layout_height="300.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/mini_month_container" android:layout_alignTop="@id/mini_month_container" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/main_pane" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/mini_month_container" android:layout_alignParentTop="true" />
+</RelativeLayout>

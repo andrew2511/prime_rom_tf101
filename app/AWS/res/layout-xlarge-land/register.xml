@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/awsbgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/logo" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/h_splash2" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="50.0dip" android:layout_weight="1.0">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:text="@string/common_login_username" style="@style/SettingSubTitle" />
+                    <EditText android:id="@id/username_edit" android:hint="@string/common_login_usernamehint" style="@style/defEditBox" />
+                    <TextView android:text="@string/common_login_pwd" style="@style/SettingSubTitle" />
+                    <EditText android:id="@id/password_edit" android:hint="@string/common_login_pwdhint" android:password="true" style="@style/defEditBox" />
+                    <TextView android:text="@string/common_confirm_login_pwd" style="@style/SettingSubTitle" />
+                    <EditText android:id="@id/password_edit_confirm" android:hint="@string/common_login_pwdhint_confirm" android:password="true" style="@style/defEditBox" />
+                    <TextView android:text="@string/common_login_email" style="@style/SettingSubTitle" />
+                    <EditText android:id="@id/email_edit" android:hint="@string/common_login_emailhint" style="@style/defEditBox" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                        <CheckBox android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/eulaChk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_login_i_agree" />
+                        <Button android:textSize="15.0sp" android:textColor="#ff5555ff" android:gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_login_EULA_link" android:onClick="eulaClick" />
+                    </LinearLayout>
+                    <Button android:id="@id/rulesave" android:layout_marginBottom="10.0dip" android:text="@string/app_submit" android:onClick="regFunction" style="@style/SettingGreenBtn" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

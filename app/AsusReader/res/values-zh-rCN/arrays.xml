@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>清除注记</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>添加注记</item>
+        <item>翻译</item>
+        <item>语音朗读</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>英文</item>
+        <item>法文</item>
+        <item>日文</item>
+        <item>中文</item>
+        <item>德文</item>
+        <item>简体中文</item>
+        <item>俄罗斯文</item>
+        <item>西班牙文</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>英文至中文</item>
+        <item>英文至法文</item>
+        <item>英文至俄文</item>
+    </string-array>
+</resources>

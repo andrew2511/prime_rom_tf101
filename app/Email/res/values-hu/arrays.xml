@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Üzenetek tartalmának megjelenítése apró méretű szövegként</item>
+        <item>Üzenetek tartalmának megjelenítése kicsi méretű szövegként</item>
+        <item>Üzenetek tartalmának megjelenítése normál méretű szövegként</item>
+        <item>Üzenetek tartalmának megjelenítése nagy méretű szövegként</item>
+        <item>Üzenetek tartalmának megjelenítése óriási méretű szövegként</item>
+    </string-array>
+</resources>

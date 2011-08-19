@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/asus_ep_portrait_pull_btn_p_unfold" />
+    <item android:state_focused="true" android:drawable="@drawable/asus_ep_portrait_pull_btn_f_unfold" />
+    <item android:drawable="@drawable/asus_ep_portrait_pull_btn_n_unfold" />
+</selector>

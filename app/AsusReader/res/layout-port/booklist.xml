@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.DragFrame android:id="@id/frame_layout" android:layout_width="800.0px" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.asus.reader.ui.BookGrid android:scrollbarStyle="outsideInset" android:id="@id/bookgrid" android:paddingBottom="22.0px" android:fadingEdge="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0px" android:verticalSpacing="0.0px" android:stretchMode="columnWidth" android:numColumns="4" />
+    <ImageView android:id="@id/black_bar" android:background="#ff000000" android:visibility="invisible" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/slide_view" android:layout_width="778.0px" android:layout_height="fill_parent" android:layout_marginLeft="-727.0px" android:layout_alignParentLeft="true">
+        <View android:id="@id/category_background" android:layout_width="727.0px" android:layout_height="fill_parent" />
+        <com.asus.reader.ui.CategoryListView android:id="@id/category_list" android:paddingBottom="326.0px" android:scrollbars="none" android:fadingEdge="none" android:longClickable="true" android:layout_width="727.0px" android:layout_height="fill_parent" android:listSelector="@drawable/transparent_background" android:drawSelectorOnTop="false" android:groupIndicator="@null" android:childIndicator="@null" android:divider="@null" android:layout_alignParentLeft="true" />
+        <include android:enabled="false" android:id="@id/latest_read" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="727.0px" android:layout_height="326.0px" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" layout="@layout/last_read" />
+        <Button android:id="@id/pull_button" android:background="@drawable/asus_ep_portrait_pull_btn_unfold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include android:id="@id/progress_circle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/loading" />
+</com.asus.reader.ui.DragFrame>

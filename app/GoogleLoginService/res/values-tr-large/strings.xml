@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Bitti</string>
+    <string name="signed_in">Oturum açma başarılı</string>
+    <string name="account_linked_message">%s hesabında oturum açıldı ve veriler senkronize ediliyor.</string>
+    <string name="account_setup_title">Google Hesabı</string>
+    <string name="account_created_message">Oluşturulan yeni hesap: %s</string>
+    <string name="login_activity_title">Google Hesabınızla oturum açın</string>
+    <string name="show_error_activity_title">Google Hesabı oturum açma hatası</string>
+    <string name="login_activity_task_title">Oturum açılıyor...</string>
+    <string name="sync_intro_activity_title_first_account">Yedekleme ve geri yükleme</string>
+    <string name="sync_intro_activity_title_first_created_account">Hesap oluşturuldu</string>
+    <string name="sync_intro_activity_title">Hesapta başarıyla oturum açıldı</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">SITO WEB</string>
+    <string name="music_title_str">MUSICA</string>
+    <string name="web_tag_str">Nessun URL</string>
+    <string name="music_tag_album">Nessun album</string>
+    <string name="music_tag_song">Nessun brano musicale</string>
+    <string name="music_tag_artist">Nessun artista</string>
+    <string name="date_text_str">Nessuna data</string>
+    <string name="cal_event_str">Nessun evento recente</string>
+    <string name="weather_info_str">Nessuna informazione meteo</string>
+    <string name="weather_content_str">Nessun dettaglio meteo</string>
+    <string name="photo_date_str">Nessuna data foto</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Forza venti</string>
+    <string name="humidity">Umidità</string>
+    <string name="email_unit">E-mail</string>
+    <string name="email_unit_single">**E-mail</string>
+    <string name="event_unit">Eventi</string>
+    <string name="event_unit_single">Evento</string>
+    <string name="book_unit">Libri</string>
+    <string name="book_unit_single">Libro</string>
+    <string name="weather_city_str">**Nessuna città</string>
+    <string name="date_format_title">Formato data</string>
+    <string name="preference_header_title">Preferenze</string>
+    <string name="slideshow_header_title">Presentazione</string>
+    <string name="picture_number_title">Numero di immagini della presentazione</string>
+    <string name="slide_show_interval_title">Intervallo presentazione</string>
+    <string name="transition_effect_title">Effetto di transizione</string>
+    <string name="enable">Attiva</string>
+    <string name="disable">Disattiva</string>
+    <string name="app_settings">Impostazioni ASUS MyZine</string>
+    <string name="unit_picture">Immagini</string>
+    <string name="unit_second">Secondi</string>
+    <string name="Image_headline">Sfondo</string>
+    <string name="display_headline">Schermo</string>
+    <string name="date_headline">Data</string>
+    <string name="logo_display_title">Logo ASUS MyZine</string>
+    <string name="date_display_title">Data/Ora</string>
+    <string name="photo_date_display_title">Data creazione immagini</string>
+    <string name="event_display_title">Prossimo evento</string>
+    <string name="weather_display_title">Meteo</string>
+    <string name="scale_type_title">Impostazioni sfondo</string>
+</resources>

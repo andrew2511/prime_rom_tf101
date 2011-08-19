@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_bookmark_off_holo_dark" android:id="@id/add_bookmark" android:title="@string/add_new_bookmark" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_home_holo_dark" android:id="@id/go_home" android:showAsAction="always" />
+    <item android:id="@id/thumbnail_view" android:title="@string/bookmark_thumbnail_view" />
+    <item android:id="@id/list_view" android:title="@string/bookmark_list_view" />
+    <item android:id="@id/preferences_menu_id" android:title="@string/menu_preferences" android:alphabeticShortcut="p" />
+</menu>

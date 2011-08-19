@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:paddingBottom="23.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:scrollbarStyle="outsideOverlay" android:id="@id/bookmarks_list" android:background="@drawable/bg_bookmarks_widget_holo" android:paddingLeft="7.0dip" android:paddingTop="6.0dip" android:paddingRight="7.0dip" android:fadingEdgeLength="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/bookmark_widget_thumb_selector" android:drawSelectorOnTop="true" android:horizontalSpacing="@dimen/widgetHorizontalSpacing" android:verticalSpacing="@dimen/widgetVerticalSpacing" android:stretchMode="columnWidth" android:numColumns="2" />
+    <ImageButton android:id="@id/app_shortcut" android:background="@drawable/bookmark_widget_thumb_selector" android:padding="4.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.0dip" android:src="@mipmap/ic_launcher_browser" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

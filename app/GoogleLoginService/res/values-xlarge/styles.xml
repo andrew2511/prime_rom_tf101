@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrowserTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+    </style>
+    <style name="CustomTitle" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/setups_bg_default</item>
+    </style>
+    <style name="LoginActivity" parent="@style/CustomTitle">
+        <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustResize</item>
+    </style>
+    <style name="NoTitleInXL" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_default</item>
+    </style>
+    <style name="CaptchaActivity" parent="@style/NoTitleInXL">
+        <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustResize</item>
+    </style>
+    <style name="InvisibleCustomTitle" parent="@style/CustomTitle">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="Theme.InvisibleDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="AccountIntroActivity" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="WaitForDeviceCountryActivity" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="LoginActivityTask" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="setupWizardOuterFrame">
+        <item name="android:paddingLeft">128.0dip</item>
+        <item name="android:paddingTop">@dimen/screen_margin_top</item>
+        <item name="android:paddingRight">128.0dip</item>
+        <item name="android:paddingBottom">96.0dip</item>
+    </style>
+    <style name="LoginActivityOuterFrame" parent="@style/setupWizardOuterFrame">
+        <item name="android:paddingTop">@dimen/login_screen_margin_top</item>
+        <item name="android:paddingBottom">16.0dip</item>
+    </style>
+    <style name="CaptchaActivityOuterFrame">
+        <item name="android:paddingLeft">128.0dip</item>
+        <item name="android:paddingTop">@dimen/captcha_screen_margin_top</item>
+        <item name="android:paddingRight">128.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+    </style>
+    <style name="Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="DescriptionText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:layout_width">@dimen/description_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+        <item name="android:lineSpacingExtra">10.0sp</item>
+    </style>
+    <style name="Button">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:minWidth">208.0dip</item>
+    </style>
+    <style name="TopDivider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+    </style>
+    <style name="PreferenceDivider" parent="@style/TopDivider">
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="BottomDivider" parent="@style/TopDivider">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+    </style>
+</resources>

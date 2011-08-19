@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title" style="@style/title_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/app_name" style="@style/title_font" />
+    <ImageButton android:id="@id/b_refresh" android:background="@drawable/refresh_d" style="@style/title_button" />
+    <ImageButton android:id="@id/b_add" android:background="@drawable/add_d" android:layout_marginRight="50.0dip" style="@style/title_button" />
+    <ProgressBar android:id="@id/title_scan" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleSmallTitle" />
+</RelativeLayout>

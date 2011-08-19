@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modemfastvareoppdatering utført</string>
+    <string name="update_fail">Modemfastvareoppdat. mislyktes</string>
+    <string name="update_quz" formatted="false">"Oppdateringen vil ta ca. 3-5 minutter og krever 15 % eller mer batteristrøm.
+
+Sørg for at batteristrømmen er høyere enn 15 % før du oppdaterer.
+
+Vil du oppdatere modemfastvaren nå?"</string>
+    <string name="notify_title">Asus-oppdateringstjen.</string>
+    <string name="notify">Modemfastvareoppdat. er tilgjengelig</string>
+    <string name="warning_title">Advarsel</string>
+    <string name="warning">"IKKE slå av enheten under oppdatering.
+
+Et uventet brudd kan føre til uopprettelig skade.
+
+Vil du oppdatere modemfastvaren nå?"</string>
+    <string name="battery_low" formatted="false">"Prosessen krever 15 % eller mer batteristrøm.
+
+Sørg for at batteristrømmen er høyere enn 15 % før du starter."</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

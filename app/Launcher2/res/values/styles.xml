@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_orientation">
+        <item name="android:screenOrientation">nosensor</item>
+    </style>
+    <style name="Theme.WallpaperPicker" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Base" parent="@android:style/Theme.Wallpaper" />
+    <style name="Theme" parent="@style/Theme.Base">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#b0000000</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="WorkspaceIcon.AllApps" parent="@style/WorkspaceIcon">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait" parent="@style/WorkspaceIcon">
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginTop">13.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape" parent="@style/WorkspaceIcon">
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:drawablePadding">3.0dip</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/tab_widget_indicator_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:shadowColor">#ff393939</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TabIndicator.Portrait" parent="@style/TabIndicator">
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+    </style>
+    <style name="SearchButton" parent="@android:style/Widget.Button.Small">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">9.0dip</item>
+    </style>
+    <style name="HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_center</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="HotseatButton.Left" parent="@style/HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_left</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+    </style>
+    <style name="HotseatButton.Right" parent="@style/HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_right</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+    </style>
+</resources>

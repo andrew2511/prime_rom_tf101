@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_photo_size">96.0dip</dimen>
+    <dimen name="aggregation_suggestion_icon_size">64.0dip</dimen>
+    <dimen name="quick_contact_width">356.0dip</dimen>
+    <dimen name="contact_name_text_size">26.0sp</dimen>
+    <dimen name="action_bar_filter_min_width">120.0dip</dimen>
+    <dimen name="action_bar_filter_max_width">120.0dip</dimen>
+    <dimen name="action_bar_search_max_width">300.0dip</dimen>
+    <dimen name="action_bar_search_spacing">12.0dip</dimen>
+    <dimen name="shortcut_icon_size">64.0dip</dimen>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="years_ago">
+        <item quantity="other">För %1$d år sedan</item>
+        <item quantity="one">för 1 år sedan</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">För %1$d mån. sedan</item>
+        <item quantity="one">för 1 månad sedan</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="other">För %1$d v. sedan</item>
+        <item quantity="one">för 1 vecka sedan</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">För %1$d dagar sedan</item>
+        <item quantity="one">för 1 dag sedan</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">För %1$d tim. sedan</item>
+        <item quantity="one">för 1 timme sedan</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">För %1$d minuter sedan</item>
+        <item quantity="one">för 1 minut sedan</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">För %1$d sek. sedan</item>
+        <item quantity="one">för 1 sekund sedan</item>
+    </plurals>
+    <plurals name="recent_uploads">
+        <item quantity="other">nya överföringar</item>
+        <item quantity="one">ny överföring</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">nya händelser</item>
+        <item quantity="one">ny händelse</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d videoklipp</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="28" android:versionName="1.0.28" package="com.google.android.finsky"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <support-screens android:smallScreens="false" android:normalScreens="false" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES" />
+    <application android:theme="@style/FinskyTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_marketplace" android:name=".FinskyApp" android:debuggable="false" android:hardwareAccelerated="true">
+        <activity android:theme="@android:style/Theme.NoDisplay" android:label="@string/app_name" android:name=".activities.QsbSearchActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/qsb_searchable" />
+        </activity>
+        <activity android:label="@string/app_name" android:name=".activities.MainActivity" android:launchMode="singleTask" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_MARKET" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+            <meta-data android:name="com.android.launcher.toolbar_icon" android:resource="@drawable/launcher_toolbar_icon" />
+        </activity>
+        <activity android:theme="@style/Theme.MinimalDialog" android:name=".activities.TosActivity" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activities.AppsUrlHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="market" android:host="details" android:path="" />
+                <data android:scheme="market" android:host="search" android:path="" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/details" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/apps" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/search" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/details" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/apps" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/search" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.BooksUrlHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/books" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/books" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MusicUrlHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/music" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/music" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.VideoUrlHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="market.android.com" android:pathPrefix="/movies" />
+                <data android:scheme="https" android:host="market.android.com" android:pathPrefix="/movies" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Holo.Light.Dialog" android:name=".activities.ContentFilterActivity" />
+        <service android:name=".services.InAppBillingProxyService">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.MarketBillingService.BIND" />
+            </intent-filter>
+        </service>
+        <provider android:name=".providers.SuggestionProvider" android:authorities="com.google.android.finsky.SuggestionProvider" />
+        <provider android:name=".providers.LocalSuggestionProvider" android:authorities="com.google.android.finsky.LocalSuggestionProvider" />
+        <provider android:name=".providers.RecentSuggestionProvider" android:authorities="com.google.android.finsky.RecentSuggestionProvider" />
+        <activity android:theme="@style/Theme.CustomDialog" android:label="@string/purchase_activity_name" android:name=".activities.PurchaseActivity" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="adjustResize" />
+        <meta-data android:name="android.app.default_searchable" android:value=".activities.QsbSearchActivity" />
+        <receiver android:name=".receivers.ClearCacheReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".widget.FinskyWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.google.android.finsky.action.DFE_API_CONTEXT_CHANGED" />
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
+        </receiver>
+        <service android:name=".widget.FinskyWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+    </application>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="13" />
+</manifest>

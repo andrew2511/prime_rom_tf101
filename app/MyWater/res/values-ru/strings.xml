@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Обои ASUS умолчанию.</string>
+    <string name="mywater_setting">Настройки ASUS MyWater</string>
+    <string name="enable_rotation">Включить вращение воды</string>
+    <string name="enable_rotation_description">Вода будет вращаться вместе с устройством.</string>
+</resources>

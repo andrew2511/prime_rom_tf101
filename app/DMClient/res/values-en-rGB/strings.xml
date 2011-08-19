@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minutes</string>
+    <string name="postpone">Postpone</string>
+    <string name="update">Update</string>
+    <string name="firmware_update_title">Firmware Update</string>
+    <string name="firmware_update_fail">"Update failed.
+
+Your device will revertcover to the original configuration."</string>
+    <string name="low_battery_warning">"System requires at least %1$d%% battery life to proceed with the system update process.
+Please charge the battery before updating the system."</string>
+    <string name="confirmDownload_textok">"This update improves stability and will not clear any of your data, we strongly suggest you upgrade to this version.
+Press YES to accept the update."</string>
+    <string name="confirmDownload_textcancel">Press NO to discard the update.</string>
+    <string name="confirmDownload_textwifi">We recommend using a free Wi-Fi hotspot to download the update.</string>
+    <string name="confirmDownload_textwifi2">If you choose Later, you can initiate the download later by pressing the notification.</string>
+    <string name="btn_text_later">Later</string>
+    <string name="confirmDownload_dialog_title">Caution, you are roaming.</string>
+    <string name="downloading">Firmware Downloading...</string>
+    <string name="install_time">Estimated Installation Time:</string>
+    <string name="postponetime_text">Postpone time:</string>
+    <string name="install">Install</string>
+    <string name="reach_max_net_fail">Download aborted by server, please try again later.</string>
+    <string name="dlg_title_checking">Integrity Check.</string>
+    <string name="dlg_msg_checking">Checking the integrity of your firmware file.</string>
+    <string name="cannot_set_to_browser">Cannot set to browser.</string>
+    <string name="upgrade_error">Upgrade error, please download update package again.</string>
+    <string name="start_to_download">Start to download critical update package.</string>
+    <string name="start_to_upgrade">Start to upgrade update package.</string>
+    <string name="start_NI_dmSession">Network is initializing DM Session, accept?</string>
+    <string name="download_finished">Firmware download finished...</string>
+    <string name="download_in_progress">New firmware download in-progress</string>
+    <string name="out_of_mem_warning">"Insufficient space,
+please uninstall some applications and retry."</string>
+    <string name="ui_alert_input_hint">Please enter text</string>
+    <string name="ui_alert_input_numeric_hint">Please enter numeric</string>
+    <string name="ui_alert_input_phone_number_hint">Please enter phone number</string>
+    <string name="check_for_update">Check Update</string>
+    <string name="no_new_fota_update">There is no update currently available for your device.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="confirm_download_btn_Yes">Yes</string>
+    <string name="confirm_download_btn_No">No</string>
+    <string name="confirm_update_title">ASUS Firmware Update.</string>
+    <string name="asus_received_title">Asus System Firmware Update Service</string>
+    <string name="received_message">New system firmware update available, press to upgrade.</string>
+    <string name="low_battery_title">System Firmware Update Terminated</string>
+    <string name="dl_received_ticker">New system firmware update available.</string>
+    <string name="dl_received_message">New system firmware update available, press to download.</string>
+    <string name="confirmDownload_text1">Would you like to download the following system firmware update?</string>
+    <string name="received_ticker">New system firmware update available.</string>
+    <string name="update_dialog_text">"A new system firmware update for your device has been downloaded. Install now? 
+"</string>
+    <string name="prepare_dm_download">Preparing system firmware download...</string>
+    <string name="system_update_activity">System Firmware Update</string>
+    <string name="has_new_fota_update">There is a system firmware update for your device. Please check notifications.</string>
+    <string name="update_dialog_text2">This system firmware update improves the stability and will not clear any of your data, we strongly suggest you upgrade to this version.</string>
+</resources>

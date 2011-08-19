@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">نمای خیابان</string>
+    <string name="go_to_map">رفتن به نقشه</string>
+    <string name="report_inappropriate_image">گزارش تصویر</string>
+    <string name="toggle_compass_mode">حالت قطب‌نما</string>
+    <string name="compass_mode_on">حالت قطب‌نما روشن است.</string>
+    <string name="compass_mode_off">حالت قطب‌‌نما خاموش است.</string>
+    <string name="waiting_for_network">اتصال داده قطع شد، سعی مجدد…</string>
+    <string name="panorama_disabled">این تصویر دیگر وجود ندارد</string>
+    <string name="service_unavailable">سرویس نمای خیابان موجود نیست.</string>
+    <string name="loading">در حال بارگیری</string>
+    <string name="no_panorama_data">هیچ داده ای برای دورنما تنظیم نشده.</string>
+    <string name="invalid_panorama_data">دورنمای نامعتبر.</string>
+    <string name="click_to_go_toast">آدمک را بکشید به جایی که می خواهید بروید.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">این برنامه به یک اتصال داده نیاز دارد و بصورت خودکار سعی در برقراری مجدد اتصال می کند. لطفاً قدرت سیگنال خود را بررسی کنید. آیا حالت هواپیما روشن است؟ آیا داده های رومینگ غیرفعال شده اند؟</string>
+    <string name="whats_new_header">چه چیزی در نمای خیابان جدید است؟</string>
+    <string name="whats_new_c2g">به هر جایی که میبینید پرواز کنید. آدمک را از سمت چپ پایین بکشید و در جایی که میخواهید بروید بیندازید.</string>
+    <string name="terms_and_privacy">شرایط &amp; رازداری</string>
+    <string name="terms_and_conditions">شرایط و ضوابط</string>
+    <string name="privacy_policy">خط مشی رازداری</string>
+</resources>

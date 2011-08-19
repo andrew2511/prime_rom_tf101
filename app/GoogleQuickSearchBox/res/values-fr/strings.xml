@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recherche Google</string>
+    <string name="remove_from_history">"Supprimer de l'historique des recherches"</string>
+    <string name="remove_from_history_failed">"Échec de la suppression de l'élément dans l'historique"</string>
+    <string name="menu_settings">Paramètres de recherche</string>
+    <string name="search_settings">Param. Recherche Google</string>
+    <string name="google_settings_category_title">Recherche Google</string>
+    <string name="device_settings_category_title">Recherche appareil</string>
+    <string name="search_sources">Sources</string>
+    <string name="search_sources_summary">"Sélectionner les sources à explorer sur le téléphone lors d'une recherche"</string>
+    <string name="clear_shortcuts">Effacer les raccourcis</string>
+    <string name="clear_shortcuts_summary">Effacer les raccourcis vers les suggestions de recherche sélectionnées récemment</string>
+    <string name="clear_shortcuts_prompt">"Tous les raccourcis vers les suggestions de recherche sélectionnées récemment seront effacés.
+
+Pour effacer l'historique de votre navigateur, utilisez les paramètres de ce dernier."</string>
+    <string name="clear_shortcuts_agree">Effacer les raccourcis</string>
+    <string name="clear_shortcuts_disagree">Conserver les raccourcis</string>
+    <string name="menu_help">Aide</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Recherche Google</string>
+    <string name="google_search_description">Suggestions de recherche Google</string>
+    <string name="first_run_title">Recherche Google</string>
+    <string name="tos_button_text">"Lire les conditions d'utilisation"</string>
+    <string name="yes_agree_use_location">Utiliser Ma position pour les résultats de recherche Google et les autres services Google</string>
+    <string name="first_run_tos">"Soumis aux conditions d'utilisation de Google Mobile"</string>
+    <string name="use_location_title">Utiliser Ma position</string>
+    <string name="search_history">Recherche personnalisée</string>
+    <string name="search_history_summary_no_account">Aucun compte configuré</string>
+    <string name="search_history_summary_enabled">"Utiliser l'historique des recherches et les autres options de personnalisation du compte %1$s"</string>
+    <string name="search_history_summary_disabled">"L'historique des recherches et les autres options de personnalisation sont désactivés."</string>
+    <string name="manage_search_history">"Gérer l'historique des recherches"</string>
+    <string name="manage_search_history_summary_no_account">Aucun compte configuré</string>
+    <string name="manage_search_history_summary">"Se connecter en tant que %1$s dans le navigateur, puis ouvrir l'historique Web"</string>
+    <string name="select_google_account">Compte Google</string>
+    <string name="select_google_account_summary_no_accounts">Aucun compte configuré</string>
+    <string name="settings_tos_title">"Conditions d'utilisation"</string>
+    <string name="manage_search_history_authenticating_title">Connexion</string>
+    <string name="manage_search_history_authenticating_message">Connexion en tant que %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Annuler</string>
+    <string name="use_google_com">Toujours utiliser google.com</string>
+    <string name="current_search_base_url">Avec %1$s</string>
+    <string name="fetching_search_base_url">"Récupération de l'URL de recherche..."</string>
+    <string name="use_psychic">Activer la recherche instantanée</string>
+    <string name="use_psychic_summary_on">Recherche instantanée activée (saisissez le texte à rechercher)</string>
+    <string name="use_psychic_summary_off">Recherche instantanée désactivée (appuyez sur Entrée pour lancer la recherche)</string>
+    <string name="web_suggest_updating">mise à jour...</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+</resources>

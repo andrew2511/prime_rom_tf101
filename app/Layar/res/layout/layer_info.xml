@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layer_header" android:background="@color/detail_background" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <RelativeLayout android:id="@id/layer_list_icongroup" android:background="@null" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_centerVertical="true">
+            <ImageView android:id="@id/layer_list_icon" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:maxWidth="66.0dip" android:maxHeight="66.0dip" />
+            <ImageView android:id="@id/layer_type_icon" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:src="@drawable/icon_3d" />
+            <ProgressBar android:id="@id/throbber" android:layout_centerInParent="true" style="@style/Throbber.Black" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/launch_area" android:background="@null" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <Button android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/action_button" android:background="@drawable/btn_launch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/info_area" android:background="@null" android:paddingTop="6.0dip" android:paddingRight="2.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/launch_area" android:layout_toRightOf="@id/layer_list_icongroup" android:layout_alignWithParentIfMissing="true">
+            <TextView android:textSize="12.0dip" android:typeface="sans" android:textColor="@color/layerlist_text" android:ellipsize="marquee" android:id="@id/layer_list_publisher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignWithParentIfMissing="true" />
+            <TextView android:textSize="16.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="@color/default_text_color" android:ellipsize="marquee" android:id="@id/layer_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:layout_below="@id/layer_list_publisher" android:layout_alignWithParentIfMissing="true" />
+            <TextView android:textSize="12.0dip" android:typeface="sans" android:textColor="@color/default_text_color" android:ellipsize="marquee" android:id="@id/layer_list_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/layer_list_title" android:layout_alignLeft="@id/layer_list_title" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/linkBar" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/buttonBar">
+        <TextView android:id="@id/layer_url_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:textSize="11.0dip" android:textColor="@color/default_text_color_light" android:id="@id/copy_link_button" android:background="@drawable/btn_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_link" />
+    </LinearLayout>
+    <View android:id="@id/shadow" android:background="@drawable/layer_details_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/layer_header" />
+    <TextView android:id="@id/layer_rate" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rate this layer" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ScrollView android:background="#ffffffff" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/linkBar" android:layout_below="@id/shadow">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@null" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <WebView android:id="@id/layer_description" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/layer_screenshot" android:background="@null" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/linkBar" layout="@layout/divider" />
+    <LinearLayout android:id="@id/buttonBar" android:layout_alignParentBottom="true" style="@style/ButtonsBar">
+        <Button android:id="@id/shareButton" android:layout_marginRight="3.0dip" android:text="@string/share_bottom" android:lines="2" style="@style/FullRowButton" />
+        <Button android:id="@id/addToFavoritesButton" android:layout_marginLeft="3.0dip" android:text="@string/add_to_favorites_bottom_button" android:lines="2" style="@style/FullRowButton" />
+    </LinearLayout>
+</RelativeLayout>

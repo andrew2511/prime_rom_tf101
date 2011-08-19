@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">นาที</string>
+    <string name="postpone">เลื่อน</string>
+    <string name="update">อัปเดต</string>
+    <string name="asus_received_title">บริการอัปเดตของ Asus</string>
+    <string name="received_message">มีอัปเดตใหม่</string>
+    <string name="firmware_update_title">การอัปเดตเฟิร์มแวร์</string>
+    <string name="firmware_update_fail">"อัปเดตล้มเหลว
+
+อุปกรณ์ของคุณจะกู้คืนการกำหนดค่าดั้งเดิม"</string>
+    <string name="low_battery_title">การสิ้นสุดการอัปเดตระบบ</string>
+    <string name="low_battery_warning">"ระบบต้องการพลังงานแบตเตอรี่อย่างน้อย 50% เพื่อดำเนินกระบวนการอัปเดตระบบ
+โปรดชาร์จแบตเตอรี่ก่อนการอัปเดตระบบ"</string>
+    <string name="confirmDownload_text1">คุณต้องการดาวน์โหลดการอัปเกรดระบบต่อไปนี้หรือไม่?</string>
+    <string name="confirmDownload_textok">โปรดกด YES (ใช่) เพื่อยอมรับอัปเดตนี้</string>
+    <string name="confirmDownload_textcancel">กด NO (ไม่) เพื่อทิ้งอัปเดตนี้</string>
+    <string name="confirmDownload_textwifi">เราแนะนำให้คุณใช้ WiFi ฮ็อตสป็อตฟรี หรือแผนข้อมูลที่ไม่จำกัด เพื่อดาวน์โหลดอัปเดตนี้</string>
+    <string name="confirmDownload_textwifi2">ถ้าไม่ คุณอาจเสียค่าใช้จ่ายในการเชื่อมต่อข้อมูลมาตรฐาน</string>
+    <string name="btn_text_later">ภายหลัง</string>
+    <string name="confirmDownload_dialog_title">ระวัง คุณกำลังใช้บริการข้ามแดน</string>
+    <string name="update_dialog_text">"อัปเดตซอฟต์แวร์ใหม่สำหรับโทรศัพท์ของคุณถูกดาวน์โหลดมาแล้ว ติดตั้งเดี๋ยวนี้? 
+"</string>
+    <string name="downloading">กำลังดาวน์โหลดเฟิร์มแวร์...</string>
+    <string name="install_time">เวลาติดตั้งโดยประมาณ:</string>
+    <string name="install">ติดตั้ง</string>
+    <string name="received_ticker">มีอัปเดตใหม่</string>
+    <string name="dl_received_ticker">มีอัปเดตใหม่</string>
+    <string name="dl_received_message">มีอัปเดต กดที่นี่เพื่อดาวน์โหลด</string>
+    <string name="postponetime_text">เลื่อนเวลา:</string>
+    <string name="reach_max_net_fail">เลิกดาวน์โหลดจากเซิร์ฟเวอร์ โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="dlg_title_checking">ตรวจสอบความสมบูรณ์</string>
+    <string name="dlg_msg_checking">กำลังตรวจสอบความสมบูรณ์ของไฟล์เฟิร์มแวร์ของคุณ</string>
+    <string name="cannot_set_to_browser">ไม่สามารถตั้งค่าไปยังเบราเซอร์ได้</string>
+    <string name="upgrade_error">อัปเกรดผิดพลาด โปรดดาวน์โหลดแพคเกจอัปเกรดใหม่อีกครั้ง</string>
+    <string name="start_to_download">เริ่มการดาวน์โหลดแพคเกจอัปเดตที่สำคัญ</string>
+    <string name="start_to_upgrade">เริ่มการอัปเกรดแพคเกจอัปเดต</string>
+    <string name="Start_NI_DmSession">DMSession เริ่มต้นเครือข่าย, ยอมรับ?</string>
+    <string name="prepare_dm_download">กำลังเตรียมดาวน์โหลด...</string>
+    <string name="download_finished">ดาวน์โหลดเฟิร์มแวร์เสร็จ...</string>
+    <string name="download_notification_title">บริการอัปเดตของ T-Mobile</string>
+    <string name="download_in_progress">กำลังอยู่ระหว่างการดาวน์โหลดเฟิร์มแวร์ใหม่</string>
+    <string name="out_of_mem_warning">"พื้นที่ว่างบนโทรศัพท์ไม่เพียงพอ
+โปรดถอนการติดตั้งแอปพลิเคชั่นบางตัว และลองใหม่"</string>
+    <string name="btn_register">ลงทะเบียน C2DM</string>
+    <string name="btn_unregister">เลิกลงทะเบียน C2DM</string>
+    <string name="ui_alert_input_hint">โปรดป้อนข้อความ</string>
+    <string name="ui_alert_input_numeric_hint">โปรดป้อนตัวเลข</string>
+    <string name="ui_alert_input_phone_number_hint">หมายเลขโทรศัพท์</string>
+</resources>

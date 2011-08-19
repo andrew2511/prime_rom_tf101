@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">全部清除</string>
+    <string name="status_bar_settings_signal_meter_disconnected">未连接互联网</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi 已连接</string>
+    <string name="gps_notification_searching_text">正在搜索 GPS</string>
+    <string name="gps_notification_found_text">已通过 GPS 确定位置</string>
+    <string name="notifications_off_title">通知功能已停用</string>
+    <string name="notifications_off_text">点按此处可重新启用通知功能。</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="selection_button_marker_top_inset">1.5dip</dimen>
+    <dimen name="selection_button_marker_bottom_inset">1.5dip</dimen>
+    <dimen name="magnifying_glass_vert_frame">8.0px</dimen>
+    <dimen name="magnifying_glass_horiz_frame">7.0px</dimen>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Efter %1$s kilometer</item>
+        <item quantity="one">Efter en kilometer</item>
+        <item quantity="few">Efter %1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Fortsätt i %1$s km</item>
+        <item quantity="one">Fortsätt i en kilometer</item>
+        <item quantity="few">Fortsätt i %1$s km</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Fortsätt på %1$2$s i %2$1$s km</item>
+        <item quantity="one">Fortsätt på %2$s i en kilometer</item>
+        <item quantity="few">Fortsätt på %1$2$s i %2$1$s km</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Efter %1$s miles</item>
+        <item quantity="one">Efter en mile</item>
+        <item quantity="few">Efter %1$s miles</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Fortsätt i %1$s miles</item>
+        <item quantity="one">Fortsätt i en mile</item>
+        <item quantity="few">Fortsätt i %1$s miles</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Fortsätt på %1$2$s i %2$1$s miles</item>
+        <item quantity="one">Fortsätt på %2$s i en mile</item>
+        <item quantity="few">Fortsätt på %1$2$s i %2$1$s miles</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s recensioner</item>
+        <item quantity="one">%1$s recension</item>
+        <item quantity="few">%1$s recensioner</item>
+    </plurals>
+</resources>

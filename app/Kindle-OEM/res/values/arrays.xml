@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="font_size_array">
+        <item>13</item>
+        <item>15</item>
+        <item>17</item>
+        <item>21</item>
+        <item>26</item>
+    </integer-array>
+    <string-array name="comparison_stop_words">
+        <item>a</item>
+        <item>an</item>
+        <item>the</item>
+    </string-array>
+</resources>

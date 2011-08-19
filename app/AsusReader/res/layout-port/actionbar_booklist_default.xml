@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/booklist_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line3" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/order_by" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:divider="?android:listDividerAlertDialog" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line2" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/all_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/all_books" android:drawableLeft="@drawable/all_books" android:onClick="onClick" style="@style/HoloButton" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/edit_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/edit" android:onClick="onClick" style="@style/HoloButton" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/store_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/at_vibe_bookstore" android:drawableLeft="@drawable/asus_ep_vibe_icon" android:onClick="onClick" style="@style/HoloButton" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line1" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" />
+    </LinearLayout>
+</RelativeLayout>

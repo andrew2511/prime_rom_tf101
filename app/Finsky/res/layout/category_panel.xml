@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/category_panel" android:scrollbars="none" android:fadingEdge="vertical" android:layout_width="@dimen/category_item_width" android:layout_height="fill_parent" android:layout_marginRight="@dimen/panel_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/scroll_content" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/category_list_title_size" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/category_title" android:paddingLeft="@dimen/category_list_entry_horizontal_padding" android:paddingRight="@dimen/category_list_entry_horizontal_padding" android:layout_width="wrap_content" android:layout_height="@dimen/bucket_header" android:text="@string/categories" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/category_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/category_title" />
+    </RelativeLayout>
+</ScrollView>

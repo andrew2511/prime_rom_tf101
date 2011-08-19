@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/popupmenu_container" android:background="#b0000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/popupmenu_btn_listen" android:background="@drawable/but_menu" android:layout_width="108.0dip" android:layout_height="108.0dip" android:onClick="onListenBtnClicked">
+        <ImageView android:id="@id/popupmenu_btn_listen_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/btn_listen_xl" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_listen" android:shadowColor="#ffffffff" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_below="@id/popupmenu_btn_listen_img" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/popupmenu_btn_share" android:background="@drawable/but_menu" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_toRightOf="@id/popupmenu_btn_listen" android:onClick="onShareBtnClicked">
+        <ImageView android:id="@id/popupmenu_btn_share_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/btn_share_xl" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_share" android:shadowColor="#ffffffff" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_below="@id/popupmenu_btn_share_img" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

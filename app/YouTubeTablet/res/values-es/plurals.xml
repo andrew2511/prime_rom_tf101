@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="years_ago">
+        <item quantity="other">Hace %1$d años</item>
+        <item quantity="one">Hace un año</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">Hace %1$d meses</item>
+        <item quantity="one">Hace un mes</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="other">Hace %1$d semanas</item>
+        <item quantity="one">Hace una semana</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Hace %1$d días</item>
+        <item quantity="one">Hace un día</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Hace %1$d horas</item>
+        <item quantity="one">Hace una hora</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">Hace %1$d minutos</item>
+        <item quantity="one">Hace un minuto</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">Hace %1$d segundos</item>
+        <item quantity="one">Hace un segundo</item>
+    </plurals>
+    <plurals name="recent_uploads">
+        <item quantity="other">subidas nuevas</item>
+        <item quantity="one">subida nueva</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">eventos nuevos</item>
+        <item quantity="one">evento nuevo</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d vídeos</item>
+        <item quantity="one">1 vídeo</item>
+    </plurals>
+</resources>

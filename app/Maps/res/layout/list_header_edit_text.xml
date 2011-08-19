@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listHeader" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.googlenav.ui.android.EditableTemplateView android:gravity="left|center" android:id="@id/header1" android:background="@color/list_header_background_grey" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0">
+        <include layout="@layout/template_left_image" />
+        <include layout="@layout/template_text_parent" />
+        <include layout="@layout/template_right_image" />
+    </com.google.googlenav.ui.android.EditableTemplateView>
+    <com.google.googlenav.ui.android.EditableTemplateView android:gravity="left|center" android:id="@id/header2" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0">
+        <include layout="@layout/template_left_image" />
+        <include layout="@layout/template_text_parent" />
+        <include layout="@layout/template_right_image" />
+    </com.google.googlenav.ui.android.EditableTemplateView>
+    <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

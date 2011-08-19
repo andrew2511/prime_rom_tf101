@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.library.ui.LibraryScreen android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amazon.kcp.library.ui.SnowView android:id="@id/snow_view" android:visibility="gone" style="@style/fill" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:layout_gravity="left" android:id="@id/library_type_label" style="@style/library_type_label" />
+            <TextView android:layout_gravity="right" android:id="@id/library_sort_label" style="@style/library_sort_label" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/book_list_stub" android:layout="@layout/library_books_list" android:inflatedId="@id/book_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/book_grid_stub" android:layout="@layout/library_books_grid" android:inflatedId="@id/book_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/empty_home_tip_stub" android:layout="@layout/empty_home_tip" android:inflatedId="@id/empty_home_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/empty_ai_tip_stub" android:layout="@layout/empty_ai_tip" android:inflatedId="@id/empty_ai_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/sync_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.amazon.kcp.library.ui.LibraryScreen>

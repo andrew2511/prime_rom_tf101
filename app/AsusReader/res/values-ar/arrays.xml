@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>إزالة التحديد</item>
+        <item>إلغاء</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>إضافة تحديد</item>
+        <item>ترجمة</item>
+        <item>النطق الآلي للنص</item>
+        <item>إلغاء</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>الإنجليزية</item>
+        <item>الفرنسية</item>
+        <item>اليابانية</item>
+        <item>الصينية</item>
+        <item>الألمانية</item>
+        <item>الصينية المبسطة</item>
+        <item>الروسية</item>
+        <item>الإسبانية</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>الإنجليزية إلى الصينية</item>
+        <item>الإنجليزية إلى الفرنسية</item>
+        <item>الإنجليزية إلى الروسية</item>
+    </string-array>
+</resources>

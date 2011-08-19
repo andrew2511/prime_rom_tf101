@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">"הגדרת וידג'ט מזג אוויר"</string>
+    <string name="refreshBtn">רענון</string>
+    <string name="saveBtn">שמור</string>
+    <string name="cancelBtn">ביטול</string>
+    <string name="nocityfound">לא נמצאה עיר</string>
+    <string name="humidity">לחות</string>
+    <string name="winds">רוחות</string>
+    <string name="infor1">לא זמין</string>
+    <string name="searchlistviewtitle">בחר עיר</string>
+    <string name="wait">אנא המתן...</string>
+    <string name="refreshFail">רענון נכשל. אנא נסה שוב.</string>
+    <string name="searchFail">חיפוש נכשל. אנא נסה שוב.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SW</string>
+    <string name="dirWSW">WSW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">אנא הזן עיר:</string>
+    <string name="manualtitle">הגדר מיקום ידנית</string>
+    <string name="refreshprogresstitle">עדכן מידע על מזג אוויר</string>
+    <string name="refreshprogresscontent">רענן עכשיו. אנא המתן...</string>
+    <string name="searchprogresstitle">חפש עיר</string>
+    <string name="searchprogresscontent">חפש כעת. אנא המתן...</string>
+    <string name="no_network">הרשת אינה זמינה. לא ניתן לעדכן את פרטי מזג האוויר.</string>
+    <string name="no_provider">חלק מפרטי המיקום אינם מאופשרים. הפעל את חיבור הרשת האלחוטית ואת חיבור ה-GPS ב-Location and Security Settings הגדרות מיקום ואבטחה) לזיהוי מהיר ומדויק יותר של המיקום שלך.</string>
+    <string name="title_location">מיקום</string>
+    <string name="content_autorefreshed">רענן אוטומטית את המיקום הנוכחי שלי</string>
+    <string name="content_manual">חיפוש ידני</string>
+    <string name="title_updatefreq">עדכן תדירות</string>
+    <string name="content_updatetime">זמן עדכון אחרון</string>
+    <string name="content_selectfreq">בחר תדירות עדכון</string>
+    <string name="title_others">אחרים</string>
+    <string name="content_tempunit">יחידת טמפרטורה</string>
+</resources>

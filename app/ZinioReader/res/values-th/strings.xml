@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="close">ปิด</string>
+    <string name="confirm_new_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="create_account">สร้างบัญชีผู้ใช้</string>
+    <string name="create_an_account">สร้างบัญชีผู้ใช้</string>
+    <string name="date">วันที่ี</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_all">ลบทั้งหมด</string>
+    <string name="email_address">อีเมลแอดเดรส</string>
+    <string name="exit">ออก</string>
+    <string name="faq">คำถามที่พบบ่อย</string>
+    <string name="first_name">ชื่อ</string>
+    <string name="free">ฟรี</string>
+    <string name="forgot_password">ลืมรหัสผ่าน</string>
+    <string name="last_name">นามสกุล</string>
+    <string name="learn_more">ศึกษาเพิ่มเติม</string>
+    <string name="legal_notices">คำประกาศทางกฎหมาย</string>
+    <string name="library">ห้องสมุด</string>
+    <string name="manage_tips">จัดการคำแนะำนำ</string>
+    <string name="more">เพิ่มเติม</string>
+    <string name="more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="new_password">รหัสผ่านใหม่ (5-20 ตัวอักษร)</string>
+    <string name="ok">ตกลง</string>
+    <string name="old_password">รหัสผ่านเก่า</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="required">ที่จำเป็น</string>
+    <string name="required_first_name">จำเป็นต้องใส่ชื่อ</string>
+    <string name="required_last_name">จำเป็นต้องใส่นามสกุล</string>
+    <string name="required_email_address">จำเป็นต้องใส่อีเมลแอดเดรส</string>
+    <string name="required_password">จำเป็นต้องใส่รหัสผ่าน</string>
+    <string name="retype_password">พิมพ์รหัสผ่านใหม่</string>
+    <string name="sign_in">เข้าสู่ระบบ</string>
+    <string name="sign_out">ออกจากระบบ</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="shop">ร้านค้า</string>
+    <string name="text">ข้อความ</string>
+    <string name="title">ชื่อเรื่อง</string>
+    <string name="turn_on_wifi">เปิด WiFi</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+    <string name="welcome_to_zinio">ยินดีต้อนรับสู่ zinio</string>
+    <string name="email_non_lower_case">อีเมล</string>
+    <string name="sd_card_non_lower_case">การ์ด SD</string>
+    <string name="show_password_non_lower_case">แสดงรหัสผ่าน</string>
+    <string name="show_tips_non_lower_case">แสดงคำแนะนำ</string>
+    <string name="forgot_password_underlined"><u>ลืมรหัสผ่าน?</u></string>
+    <string name="terms_of_service_underlined"><u>เงื่อนไขของการบริการ</u></string>
+    <string name="label_share_email1">อ่านบทความจาก</string>
+    <string name="label_share_email2">"และต้องการแบ่งปันร่วมกับคุณ!
+
+บทความต้นฉบับถูกนำมารวมไว้เป็นเอกสารแนบของข้อความนี้
+
+สำหรับสิ่งตีพิมพ์เพิ่มเติม โปรดดูที่ www.zinio.com"</string>
+    <string name="label_receive_from_partners">โปรดส่งข้อเสนอพิเศษจากหุ้นส่วนที่้วางใจได้ของ Zinioให้แก่ฉัน</string>
+    <string name="label_receive_from_zinio">โปรดส่งอีเมลเกี่ยวกับข้อเสนอพิเศษจาก Zinio ให้แก่ฉัน</string>
+    <string name="label_status_calculating">กำลังคำนวณ...</string>
+    <string name="label_status_new">สร้างใหม่</string>
+    <string name="label_status_not_downloaded">ไม่ได้ดาวน์โหลด</string>
+    <string name="label_status_downloading" formatted="false">%s%% <string name="label_tip_hide">ปิดคำแนะนำ สามารถจัดการรายการดังกล่าวได้ได้ผ่านการตั้งค่า เพิ่มเติม</string> <string name="toast_change_password_success">เปลี่ยนรหัสผ่านเรียบร้อยแล้ว</string> <string name="toast_issue_download_complete_left">ดาวน์โหลดสำหรับ </string> <string name="toast_issue_download_complete_right"> เสร็จสมบูรณ์</string> <string name="toast_no_articles">ไม่มีบทความในหน้าปัจจุบัน</string> <string name="toast_register_success">สร้างบัญชีผู้ใช้เรียบร้อยแล้ว</string> <string name="progress_dialog_wait_msg">โปรดรอสักครู่...</string> <string name="dialog_warning_title">คำเตือน</string> <string name="dialog_no_connectivity_warning">หน้าจอนี้ต้องมีการเข้าถึงอินเทอร์เน็ต โปรดตรวจสอบการเชื่อมต่อหรือการตั้งค่าโหมดเครื่องบินของคุณ</string> <string name="dialog_passwords_not_matching_warning">รหัสผ่านไม่ตรงกัน</string> <string name="dialog_password_length_warning">รหัสผ่านควรมีอักขระตั้งแต่ 5 ถึง 20 ตัว</string> <string name="dialog_service_exception_warning">พบปัญหาเกี่ยวกับเซิร์ฟเวอร์ โปรดลองใหม่อีกครั้งในภายหลัง</string> <string name="dialog_uninstall_warning">นี่จะเป็นการลบข้อมูลของห้องสมุด Zinio ทั้งหมดและจะไม่สามารถกู้คืนไ้ด้ คุณะต้องดาวน์โหลดสิ่งตีพิมพ์ใหม่อีกครั้ง</string> <string name="dialog_browse_mode_no_connectivity_warning">"คุณไม่ีการเชื่อมต่อและไม่สามารถดาวน์โหลดสิ่งตีพิมพ์ใดๆ ได้
+
+คุณสามารถดาวน์โหลดสิ่งตีพิมพ์ของคุณได้เมื่อกู้คืนการเชื่อมต่อแล้ว"</string> <string name="dialog_change_password_new_password_equal_to_old_warning">รหัสผ่านใหม่และรหัสผ่านเก่าต้องแตกต่างกัน</string> <string name="dialog_change_password_old_password_not_matching_warning">รหัสผ่านเก่าไม่ถูกต้อง</string> <string name="dialog_library_no_connectivity_warning">"ต้องมีการเชื่อมต่อเพื่อให้สามารถดาวน์โหลดสิ่งตีพิมพ์
+
+คุณสามารถอ่านสิ่งที่มีอยู่ในห้องสมุดของคุณและดาวน์โหลดสิ่งตีพิมพ์ได้เมื่อกู้คืนการเชื่อมต่อแล้ว"</string> <string name="dialog_login_incorrect_credentials_warning">"ชื่อผู้ใช้หรือรหัสผ่านของคุณไม่ถูกต้อง
+
+โปรดลองใหม่อีกครั้ง"</string> <string name="dialog_login_max_user_devices_reached_warning">บัญชีผู้ใช้นี้มีอุปกรณ์ที่ได้รับอนุญาตครบตามจำนวนสูงสุดที่ได้กำหนดไว้แล้ว โปรดยกเลิกการอนุญาตอุปกรณ์และลองใหม่อีกครั้ง</string> <string name="dialog_register_account_already_exists">มีอีเมลแอดเดรสนี้แล้ว โปรดเลือกอีเมลแอดเดรสอื่น</string> <string name="dialog_register_empty_email_error">โปรดใส่อีเมลแอดเดรส</string> <string name="dialog_register_first_name_short_error">โปรดใส่ชื่อ</string> <string name="dialog_register_first_name_long_error">ชื่อไม่ควรมีตัวอักษรเกิน 80 ตัว</string> <string name="dialog_register_invalid_email_error">โปรดใส่อีเมลแอดเดรสที่ถูกต้อง</string> <string name="dialog_register_last_name_short_error">โปรดใส่นามสกุล</string> <string name="dialog_register_last_name_long_error">นามสกุลไม่ควรมีตัวอักษรเกิน 80 ตัว</string> <string name="dialog_register_other_error">เกิดข้อผิดพลาดขึ้น โปรดลองใหม่อีกครั้ง</string> <string name="dialog_register_password_empty">โปรดใส่รหัสผ่านใหม่</string> <string name="dialog_sign_out_disabled_warning">ไม่มีผู้ใช้ที่อยู่ในระบบออกจากระบบ</string> <string name="dialog_delete_all_title">ลบทั้งหมด</string> <string name="dialog_delete_all_msg">"คุณด้ระบุว่าคุณต้องการลบสิ่งตีพิมพ์ทั้งหมดออกจากห้องสมุดของคุณ
+
+ไม่้องกังวล คุุณจะไมู่ญเสียข้อมูลต่างๆ เป็นการถาวร
+
+การลบเป็นเพียงการนำข้อมูลดังกล่าวออกจากอุปกรณ์ของคุณเท่านั้น คุณะสามารถดาวน์โหลดสิ่งตีพิมพ์ได้อีกครั้งเมื่อต้องการ"</string> <string name="dialog_not_enough_space_title">มีพื้นที่ไม่เพียงพอ</string> <string name="dialog_not_enough_space_msg">อุปกรณ์นี้มีพื้นที่ในดิสก์ไม่เพียงพอที่จะดาวน์โหลดสิ่งตีพิมพ์ที่เลือกไว้ โปรดลบข้อมูลออกอย่างน้อย %d MB และลองใหม่อีกครั้ง</string> <string name="dialog_sd_card_not_available_title">การ์ด SD ไม่สามารถใช้งานได้</string> <string name="dialog_sd_card_not_available_msg">การ์ด SD ถูกนำออกไป แอพพลิเคชั่น Zinio กำลังจะออกจากระบบ โปรดใส่การ์ด SD และเริ่มต้นแอพพลิเคชั่นอีกครั้ง</string> <string name="dialog_shop_no_connectivity_title">ร้านค้่าไม่สามารถใช้งานได้</string> <string name="dialog_shop_no_connectivity_msg">ต้องมีการเชื่อมต่อเพื่อให้สามารถเข้าถึงร้านค้า โปรดตรวจสอบการเชื่อมต่อหรือการตั้งค่าโหมดเครื่องบินของคุณ</string> <string name="dialog_sign_out_title">ออกจากระบบ</string> <string name="dialog_sign_out_msg">"คุณแน่ใจว่าต้องการออกจากระบบ?
+
+คุณะได้รับการร้องขอให้เข้าสู่ระบบเพื่อเข้าใช้งานแอพพลิเคชั่น Zinio อีกครั้ง"</string> <string name="dialog_tip_title">คำแนะนำ</string> <string name="dialog_manage_tips_title">จัดการคำแนะำนำ</string> <string name="non_supported_device_tip_title">ยินดีต้อนรับสู่ Zinio</string> <string name="non_supported_device_tip_msg">"เนื้อหาที่ใช้สื่อหลากหลายรูปแบบของ Zinioหมาะสำหรับการอ่านบนอุปกรณ์ที่มีหน้าจอขนาด 800x480 เป็นอย่างน้อย
+
+คุณสามารถใช้งานแอพพลิเคชั่นนี้ได้ต่อไป แต่โปรดทราบว่าการทำงานของแอพพลิเคชั่นอาจไม่เต็มประสิทธิภาพ"</string> <string name="page_tip0_1">"เคาะหนึ่งครั้งเพื่อดูเมนูแถบเครื่องมือ
+คุณสามารถเลือกสารบัญแบบแสดงภาพหรือข้อความ"</string> <string name="page_tip1">"คำแนะนำในการเริ่มต้น:
+
+* พลิกหน้าด้วยการเคาะด้านขวาหรือซ้าย
+* เคาะสองครั้งบนหน้าจอเพื่อย่อ/ขยาย
+* เลืิอกปุ่ม 'ข้อความ' ที่จะปรากฏในหน้าแรกของบทความเพื่ออ่าน"</string> <string name="wifi_connection_tip">"ตรวจพบการเชื่อมต่อของเครือข่าย 3G 
+
+สามารถดาวน์โหลดสิ่งตีพิมพ์ผ่าน 3G ได้ แต่ขอแนะนำให้กระทำผ่าน wifi เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด"</string> <string name="no_text_tip_msg">สิ่งตีพิมพ์บางฉบับไม่มีบทความที่เป็นข้อความ สามารถใช้ตารางหรือดัชนีแบบแสดงภาพเพื่อค้นหาหน้าที่คุณต้องการ</string> <string name="my_magazines">นิตยสารของฉัน - เคาะเพื่อดูหรือดาวน์โหลด</string> <string name="dialog_delete_title">ลบ </string> <string name="delete_mode_caption">โหมดลบ - เคาะรายการเพื่อลบ</string> <string name="delete_done">เสร็จเรียบร้อย</string> <string name="dialog_available_memory_not_enough_title">อุปกรณ์มีคุณสมบัติไม่ตรงกับข้อกำหนดด้านหน่วยความจำขั้นต่ำสุดสำหรับ Zinio Reader เวอร์ชันล่าสุด</string> <string name="dialog_available_memory_not_enough_msg">ขนาดของฮีพไม่เพียงพอ</string> <string name="internet_connection_tip">ต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อดาวน์โหลดสิ่งตีพิมพ์ โปรดเปิดการเชื่อมต่ออินเทอร์เน็ต และลองใหม่อีกครั้ง</string> <string name="retry_offline_content">การเชื่อมต่อเครือข่ายไม่เสถียร คุณต้องการลองใหม่หรือใช้แอพพลิเคชันนี้แบบออฟไลน์หรือไม่?</string> <string name="dialog_delete_from_library">คุณแน่ใจว่าต้องการลบ %s</string> <string name="retry">ลองใหม่</string> <string name="offline">ออฟไลน์</string>" "</string>
+    <string name="toast_no_email_client">หมายเหตุ: อีเมลไคลเอ็นต์ไม่ได้กำหนดค่า</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">รหัสผ่านเก่าไม่ถูกต้อง</string>
+    <string name="dialog_app_version_not_supported_title">การอัพเกรดเปิดให้บริการแล้ว</string>
+    <string name="dialog_app_version_not_supported_msg">สามารถใช้บริการ Zinio Reader เวอร์ชันใหม่ได้ในขณะนี้ ไม่สนับสนุนการใช้งานเวอร์ชันนี้อีกต่อไป โปรดอัพเกรด Zinio Reader เป็นเวอร์ชันล่าสุด</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">การ์ด SD เต็ม</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">การ์ด SD เต็ม โปรดลบข้อมูลที่ไม่ใช้งานเพื่อเพิ่มพื้นที่ว่าง</string>
+    <string name="dialog_available_memory_not_enough_title">ขนาดของฮีป ไม่เพียงพอ</string>
+    <string name="delete_done">เสร็จสิ้น</string>
+    <string name="internet_connection_tip">ต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อดาวน์โหลดสิ่งตีพิมพ์ โปรดเปิดการเชื่อมต่ออินเทอร์เน็ต และลองใหม่อีกครั้ง</string>
+    <string name="dialog_change_password_old_password_empty">โปรดป้อนรหัสผ่านเก่า</string>
+    <string name="server_error_app_version_not_supported_message">การอัพเกรดเปิดให้บริการแล้ว สามารถใช้บริการ Zinio Reader เวอร์ชันใหม่ได้ในขณะนี้ ไม่สนับสนุนการใช้งานเวอร์ชันนี้อีกต่อไป โปรดอัพเกรด Zinio Reader เป็นเวอร์ชันล่าสุด</string>
+    <string name="server_error_authentication_failed">"ชื่อผู้ใช้หรือรหัสผ่านของคุณไม่ถูกต้อง
+
+โปรดลองใหม่อีกครั้ง รหัสผ่านเก่าไม่ถูกต้อง"</string>
+    <string name="server_error_device_not_authorized">อุปกรณ์นี้ยังไม่ได้รับอนุญาตอย่างถูกต้องสำหรับการใช้งานกับบัญชีผู้ใช้ Zinio ของคุณ หากต้องการขออนุญาตอุปกรณ์ของคุณใหม่ โปรดออกจากแอพพลิเคชันแล้วจึงเข้าสู่ระบบอีกครั้ง หากคุณยังคงพบปัญหาอยู่ โปรดติดต่อฝ่ายสนับสนุนลูกค้าของ Zinio</string>
+    <string name="server_error_invalid_login">อีเมลแอดเดรสไม่ถูกต้อง โปรดใส่อีเมลแอดเดรสที่ถูกต้อง</string>
+    <string name="server_error_invalid_new_password">รหัสผ่านไม่ถูกต้อง โปรดเลือกรหัสผ่านใหม่</string>
+    <string name="server_error_issue_not_supported_for_device">ปัญหาไม่ถูกต้อง โปรดติดต่อฝ่ายบริการลูกค้าที่ support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">บัญชีผู้ใช้นี้มีอุปกรณ์ที่ได้รับอนุญาตครบตามจำนวนสูงสุดที่ได้กำหนดไว้แล้ว โปรดยกเลิกการอนุญาตอุปกรณ์และลองใหม่อีกครั้ง</string>
+    <string name="server_error_packing_list_not_found">รายการสิ่งของในกล่องสูญหายไป โปรดติดต่อฝ่ายบริการลูกค้าที่ support@zinio.com.</string>
+    <string name="server_error_login_exists">มีอีเมลแอดเดรสนี้แล้ว โปรดเลือกอีเมลแอดเดรสอื่น</string>
+    <string name="server_error_system_error">เกิดข้อผิดพลาดกับเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง</string>
+    <string name="server_error_system_not_available">บางส่วนของแอพพลิเคชันอาจไม่สามารถใช้งานได้ในขณะนี้ หากคุณไม่สามารถเข้าใช้งานโปรแกรมต่างๆ ได้ โปรดลองใหม่ภายหลัง</string>
+    <string name="server_error_no_items_in_library">ในขณะนี้คุณยังไม่มีชื่อเรื่อง สามารถหาชื่อเรื่องที่ใช้งานได้ในแท็บ ร้านค้า</string>
+    <string name="server_error_user_not_entitled">ผู้ใช้ยังไม่ได้รับสิทธิ โปรดติดต่อฝ่ายบริการลูกค้าที่ support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">คุณต้องการให้คะแนน Zinio Reader ตอนนี้หรือไม่?</string>
+    <string name="dialog_outofdate_issue_removed_msg">ปัญหาความล้าสมัยจะหมดไปและจะถูกดาวน์โหลดอีกครั้งหนึ่ง</string>
+    <string name="dialog_review_msg">ข้อคิดเห็นของคุณเป็นสิ่งที่สำคัญต่อเรา โปรดแสดงความคิดเห็นของคุณตอนนี้</string>
+    <string name="dialog_review_title">โปรดแสดงความคิดเห็นของคุณ</string>
+    <string name="server_error_invalid_newstand">Newsstand ไม่ถูกต้อง โปรดติดต่อฝ่ายบริการลูกค้าที่ support@zinio.com.</string>
+</resources>

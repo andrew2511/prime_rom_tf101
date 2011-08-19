@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internetverbinding</string>
+    <string name="mobile_wifi_title">Mobiel netwerk en WiFi</string>
+    <string name="wifi_title">Alleen WiFi-verbinding</string>
+    <string name="setup_wizard_title">Installatiewizard</string>
+    <string name="next_button_label">Volgende</string>
+    <string name="welecome_title">Welkom</string>
+    <string name="btn_start_text">Beginnen</string>
+</resources>

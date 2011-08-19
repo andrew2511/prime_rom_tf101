@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">معلومات حول Sync PC</string>
+    <string name="searchingPCSideSyncTool">جار البحث عن %s على جهاز الكمبيوتر الخاص بك...</string>
+    <string name="connectionFailMessage" formatted="false">لا يوجد لديك برنامج %s مثبتًا أو مشغلاً على جهاز الكمبيوتر. الرجاء تنزيل %s من صفحة دعم ASUS - http://support.asus.com. (ملاحظة: لنظام تشغيل Windows فقط.) يمكن الضغط على زر \"%s\" للخروج أو زر \"%s\" لإعادة الاتصال بـ %s.</string>
+    <string name="connectionFailTitle">فشل الاتصال</string>
+    <string name="tryAgain">حاول مرة أخرى</string>
+    <string name="cancel">إلغاء</string>
+</resources>

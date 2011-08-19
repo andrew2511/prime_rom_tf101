@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google Søk</string>
+    <string name="remove_from_history">Fjern fra søkeloggen</string>
+    <string name="remove_from_history_failed">Fjerning av loggelement mislyktes</string>
+    <string name="menu_settings">Innstillinger for søk</string>
+    <string name="search_settings">Innstillinger for Google-søk</string>
+    <string name="google_settings_category_title">Google Søk</string>
+    <string name="device_settings_category_title">Enhetssøk</string>
+    <string name="search_sources">Søkbare elementer</string>
+    <string name="search_sources_summary">Velg hva du vil søke etter på telefonen</string>
+    <string name="clear_shortcuts">Fjern snarveier</string>
+    <string name="clear_shortcuts_summary">Fjern snarveier til nylig valgte søkeforslag</string>
+    <string name="clear_shortcuts_prompt">"Dette fjerner alle snarveier til nylig valgte søkeforslag.
+
+(Hvis du vil slette nettleserloggen, bruker du innstillingene i nettleseren)."</string>
+    <string name="clear_shortcuts_agree">Fjern snarveier</string>
+    <string name="clear_shortcuts_disagree">Ikke fjern snarveier</string>
+    <string name="menu_help">Hjelp</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Google Søk</string>
+    <string name="google_search_description">Google-søkeforslag</string>
+    <string name="first_run_title">Google Søk</string>
+    <string name="tos_button_text">Les vilkårene</string>
+    <string name="yes_agree_use_location">Bruk Min posisjon for Google-søkeresultater og andre Google-tjenester.</string>
+    <string name="first_run_tos">Underlagt vilkårene for Google for mobil.</string>
+    <string name="use_location_title">Bruk min posisjon</string>
+    <string name="search_history">Tilpasset søk</string>
+    <string name="search_history_summary_no_account">Ingen konto konfigurert</string>
+    <string name="search_history_summary_enabled">Bruk søkelogg og andre tilpasninger for %1$s</string>
+    <string name="search_history_summary_disabled">Bruker ikke søkeloggen eller andre personlige innstillinger</string>
+    <string name="manage_search_history">Administrer søkelogg</string>
+    <string name="manage_search_history_summary_no_account">Ingen konto konfigurert</string>
+    <string name="manage_search_history_summary">Logg deg på som %1$s i nettleseren, og åpne nettloggen</string>
+    <string name="select_google_account">Google-konto</string>
+    <string name="select_google_account_summary_no_accounts">Ingen kontoer er konfigurert</string>
+    <string name="settings_tos_title">Vilkår</string>
+    <string name="manage_search_history_authenticating_title">Logger på</string>
+    <string name="manage_search_history_authenticating_message">Logg deg på som %1$s</string>
+    <string name="manage_search_history_authenticating_cancel">Avbryt</string>
+    <string name="use_google_com">Bruk alltid google.com</string>
+    <string name="current_search_base_url">Bruker %1$s</string>
+    <string name="fetching_search_base_url">Henter nettadresse for søk ...</string>
+    <string name="use_psychic">Aktiver Instant</string>
+    <string name="use_psychic_summary_on">Instant er på (skriv for å søke)</string>
+    <string name="use_psychic_summary_off">Instant er av (trykk på Enter for å søke)</string>
+    <string name="web_suggest_updating">oppdaterer ...</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+</resources>

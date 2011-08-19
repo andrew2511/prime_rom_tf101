@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comparison_stop_words">
+        <item>die</item>
+        <item>der</item>
+        <item>das</item>
+        <item>a</item>
+        <item>an</item>
+        <item>the</item>
+    </string-array>
+</resources>

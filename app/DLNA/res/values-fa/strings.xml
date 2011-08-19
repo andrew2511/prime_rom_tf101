@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="symbol">></string>
+    <string name="nowplaying">در حال پخش</string>
+    <string name="play_all">پخش همه</string>
+    <string name="party_shuffle">ترتیب تصادفی گروه</string>
+    <string name="shuffle_all">ترتیب تصادفی همه</string>
+    <string name="wifi_quick_toggle_summary">روشن کردن Wi-Fi</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="slide_show">نمایش اسلاید</string>
+    <string name="wait">لطفاً منتظر بمانید…</string>
+    <string name="fail_to_load">بارگیری نشد</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">حافظه داخلی</string>
+</resources>

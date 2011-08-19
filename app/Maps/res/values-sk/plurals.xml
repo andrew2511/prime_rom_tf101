@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">O %1$s kilometrov</item>
+        <item quantity="one">Po vzdialenosti jeden kilometer</item>
+        <item quantity="few">O %1$s kilometre</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Pokračujte %1$s kilometrov</item>
+        <item quantity="one">Pokračujte jeden kilometer</item>
+        <item quantity="few">Pokračujte %1$s kilometre</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Pokračujte po ceste %1$2$s %2$1$s kilometrov</item>
+        <item quantity="one">Pokračujte po ceste %2$s jeden kilometer</item>
+        <item quantity="few">Pokračujte po ceste %1$2$s %2$1$s kilometre</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">O %1$s míľ</item>
+        <item quantity="one">Po vzdialenosti jedna míľa</item>
+        <item quantity="few">O %1$s míle</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Pokračujte %1$s míľ</item>
+        <item quantity="one">Pokračujte jednu míľu</item>
+        <item quantity="few">Pokračujte %1$s míle</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Pokračujte po ceste %1$2$s %2$1$s míľ</item>
+        <item quantity="one">Pokračujte po ceste %2$s jednu míľu</item>
+        <item quantity="few">Pokračujte po ceste %1$2$s %2$1$s míle</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">Počet recenzií: %1$s</item>
+        <item quantity="one">%1$s recenzia</item>
+        <item quantity="few">Počet recenzií: %1$s</item>
+    </plurals>
+</resources>

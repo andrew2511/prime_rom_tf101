@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Separator.StartOfGroup" parent="@style/Separator">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_height">@dimen/suggestion_group_spacing</item>
+    </style>
+    <style name="Separator.First" parent="@style/Separator">
+        <item name="android:background">@drawable/section_header</item>
+        <item name="android:layout_height">@dimen/suggestions_first_sepatator_height</item>
+    </style>
+    <style name="Theme.QuickSearchBox" parent="@android:style/Theme.Holo" />
+    <style name="Theme.QuickSearchBox.Search" parent="@style/Theme.QuickSearchBox">
+        <item name="android:windowBackground">@drawable/activity_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnchanged|adjustResize</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

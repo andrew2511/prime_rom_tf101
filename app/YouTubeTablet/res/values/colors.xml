@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="grey">#ff888888</color>
+    <color name="light_grey">#ffcccccc</color>
+    <color name="dark_grey">#ff212121</color>
+    <color name="dark_transparent">#61000000</color>
+    <color name="darker_transparent">#c1000000</color>
+    <color name="light_transparent">#40ffffff</color>
+    <color name="lighter_transparent">#20ffffff</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffdd0000</color>
+    <color name="playlist_thumbnail_outer_border_color">#33333333</color>
+    <color name="playlist_thumbnail_inner_border_color">#ff2a6ae9</color>
+    <color name="playlist_thumbnail_bitmap_color">#cc000000</color>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="18" android:versionName="0.9.18.123" package="com.ecareme.pixwe"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <original-package android:name="com.ecareme.epad.pixwe" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/picon" android:name="PixWe" android:debuggable="false">
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.SplashActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.LoginActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.BeforeLoginActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Dialog" android:name="com.ecareme.pixwe.view.common.SettingActivity" android:launchMode="singleTask" android:screenOrientation="landscape" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.HelpActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.RegisterActivity" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.navigate.AWSBrowseActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.TestActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.upload.UploadQueueActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" android:noHistory="false" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.common.HomeActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" android:noHistory="false" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.navigate.UploadActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|navigation|orientation" android:noHistory="false" />
+        <activity android:name="com.ecareme.pixwe.view.navigate.SelectUploadAlbumActivity" android:multiprocess="false" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.ecareme.pixwe.view.navigate.AWSSelectUploadAlbumActivity" android:multiprocess="false" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar" android:name="com.ecareme.pixwe.view.navigate.FacebookShareActivity" android:multiprocess="false" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" />
+        <provider android:label="PixWe Albums" android:name="com.ecareme.pixwe.aws.PixWeContentProvider" android:authorities="com.ecareme.contentprovider.pixwe" />
+        <service android:name="com.ecareme.pixwe.service.UploadService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.ecareme.pixwe.service.UploadServiceInterface" />
+            </intent-filter>
+        </service>
+        <receiver android:label="NetworkConnection" android:name="net.yostore.utility.ConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:label="CacheService" android:name="com.ecareme.pixwe.cache.CacheService" />
+        <receiver android:label="BootReceiver" android:name="com.ecareme.pixwe.cache.BootReceiver" android:enabled="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.BOOT_COMPLETE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <receiver android:label="NetworkConnection" android:name="net.yostore.utility.ConnectionChangeReceiver">
+        <intent-filter>
+            <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        </intent-filter>
+    </receiver>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk android:minSdkVersion="7" />
+</manifest>

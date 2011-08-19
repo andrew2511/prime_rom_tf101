@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Iniciador de actualizações</string>
+    <string name="TITLE_DETECTED">Ficheiro de actualização do sistema detectado</string>
+    <string name="TITLE_SYSTEM_UPDATE">Actualização do sistema</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Actualização do sistema disponível</string>
+    <string name="MSG_PRELIMINARY">"A actualização do sistema irá demorar cerca de 10 minutos. Não poderá utilizar o seu dispositivo durante a actualização, incluindo efectuar chamadas de emergência.
+
+Ligue o cabo de alimentação para se certificar de que a bateria se encontra pelo menos a 15%.
+
+Deseja continuar com a actualização do sistema?"</string>
+    <string name="BUTTON_CANCEL">Cancelar</string>
+    <string name="MSG_RESUME">Toque para iniciar a actualização do sistema.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Actualização do sistema interrompida</string>
+    <string name="MSG_UPDATE_DONE">O sistema foi actualizado com êxito.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">O ficheiro de actualização não existe.</string>
+    <string name="MSG_UPDATE_FAIL">A actualização do sistema falhou.</string>
+    <string name="MSG_UPDATE_RESTORE">O sistema foi restaurado para a configuração anterior.</string>
+    <string name="MSG_BATTERY_LOW">"O processo de actualização do sistema foi interrompido devido a baixa carga da bateria.
+
+Ligue o cabo de alimentação antes de iniciar a actualização do sistema."</string>
+    <string name="TITLE_SELECT_FILE">Seleccionar pacote de actualização</string>
+    <string name="MSG_UPDATE_FAIL_SKU">O pacote de actualização não é compatível com a sua versão actual do software; queira verificar a versão do software e o número da versão nas Definições e execute o pacote de actualização correcto.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">O pacote de actualização é anterior à sua versão do software; experimente um pacote de actualização mais recente.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Erro desconhecido.</string>
+</resources>

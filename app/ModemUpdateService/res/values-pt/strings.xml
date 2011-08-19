@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Firmware do modem atualizado com sucesso</string>
+    <string name="update_fail">Atualização do Firmware do modem falhou</string>
+    <string name="update_quz" formatted="false">"O processo de atualização levará aproximadamente 3-5 minutos e precisa de 15% ou mais de vida útil da bateria.
+
+Certifique-se que a vida útil da bateria é maior que 15% antes de atualizar.
+
+Deseja atualizar o Firmware do Modem agora?"</string>
+    <string name="notify_title">Serviço de Atualização Asus</string>
+    <string name="notify">Atualização do Firmware do Modem está disponível.</string>
+    <string name="warning_title">Aviso</string>
+    <string name="warning">"NÃO desligue o dispositivo em atualização.
+
+Qualquer interrupção inesperada pode causar danos irreversíveis.
+
+Deseja atualizar o Firmware do seu Modem agora?"</string>
+    <string name="battery_low" formatted="false">"O processo precisa de 15% ou mais da vida úti da bateria.
+
+Certifique-se que a vida útil da bateria é maior que 15% antes de começar a atualizar."</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

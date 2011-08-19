@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minutes</string>
+    <string name="postpone">Postpone</string>
+    <string name="update">Update</string>
+    <string name="asus_received_title">Asus Update Service</string>
+    <string name="received_message">New update available.</string>
+    <string name="firmware_update_title">Firmware Update</string>
+    <string name="firmware_update_fail">"Update failed.
+
+Your device will recover the original configuration."</string>
+    <string name="low_battery_title">System Update Termination</string>
+    <string name="low_battery_warning">"System requires at least 50% battery life to proceed with the system update process.
+Please charge the battery before the system update."</string>
+    <string name="confirmDownload_text1">Would you like to download the following system upgrade?</string>
+    <string name="confirmDownload_textok">Please press YES to accept this update.</string>
+    <string name="confirmDownload_textcancel">Press NO to discard this update.</string>
+    <string name="confirmDownload_textwifi">We would recommend using a free WiFi hotspot or an unlimited data plan to download this update.</string>
+    <string name="confirmDownload_textwifi2">If not, standard data connection charges may apply.</string>
+    <string name="btn_text_later">Later</string>
+    <string name="confirmDownload_dialog_title">Caution, you are roaming.</string>
+    <string name="update_dialog_text">"A new software update for your phone has been downloaded. Install now? 
+"</string>
+    <string name="downloading">Firmware Downloading...</string>
+    <string name="install_time">Estimated Install Time:</string>
+    <string name="install">Install</string>
+    <string name="received_ticker">New update available.</string>
+    <string name="dl_received_ticker">New update available.</string>
+    <string name="dl_received_message">There is an update, press here to download.</string>
+    <string name="postponetime_text">Postpone time:</string>
+    <string name="reach_max_net_fail">Abort download from server, please try again later.</string>
+    <string name="dlg_title_checking">Integrity Check.</string>
+    <string name="dlg_msg_checking">Checking the integrity of your firmware file.</string>
+    <string name="cannot_set_to_browser">"Can't Set to browser."</string>
+    <string name="upgrade_error">Upgrade error, please redownload upgrade package again.</string>
+    <string name="start_to_download">Start to download critical update package.</string>
+    <string name="start_to_upgrade">Start to upgrade update package.</string>
+    <string name="Start_NI_DmSession">Network Initial DMSession, Accept?</string>
+    <string name="prepare_dm_download">Preparing Download...</string>
+    <string name="download_finished">Firmware Download Finished...</string>
+    <string name="download_notification_title">T-Mobile Update Service</string>
+    <string name="download_in_progress">New firmware download in-progress</string>
+    <string name="out_of_mem_warning">"Not enough free space on phone,
+please uninstall some applications and retry."</string>
+    <string name="btn_register">register C2DM</string>
+    <string name="btn_unregister">unregister C2DM</string>
+    <string name="ui_alert_input_hint">Please input text</string>
+    <string name="ui_alert_input_numeric_hint">Please input numeric</string>
+    <string name="ui_alert_input_phone_number_hint">Phone number</string>
+</resources>

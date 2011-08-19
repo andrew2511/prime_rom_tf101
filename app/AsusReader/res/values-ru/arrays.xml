@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Снять выделение</item>
+        <item>Отмена</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Добавить выделение</item>
+        <item>Перевод</item>
+        <item>Текст-в-речь</item>
+        <item>Отмена</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Английский</item>
+        <item>Французский</item>
+        <item>Японский</item>
+        <item>Китайский</item>
+        <item>Немецкий</item>
+        <item>Упрощенный китайский</item>
+        <item>Русский</item>
+        <item>Испанский</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>С английского на китайский</item>
+        <item>Английского на французский</item>
+        <item>С английского на русский</item>
+    </string-array>
+</resources>

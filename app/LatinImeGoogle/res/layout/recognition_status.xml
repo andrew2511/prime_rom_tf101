@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_voice" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/popup_layout" android:background="@drawable/vs_dialog_red" android:layout_width="500.0dip" android:layout_height="371.0dip" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/voice_error" android:singleLine="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.android.inputmethod.voice.SoundIndicator android:id="@id/sound_indicator" android:background="@drawable/mic_base" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mic_full" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mic_slash" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminate="true" android:indeterminateOnly="false" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/language" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="@string/voice_error" android:singleLine="true" />
+        <Button android:textSize="19.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/button" android:background="@drawable/btn_center" android:focusable="true" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/cancel" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

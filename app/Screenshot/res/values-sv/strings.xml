@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Bildskärmsdump</string>
+    <string name="screenshot_dialog_message">Bildskärmsdump har sparats. Vara kvar i bildskärmsdumpsläge?</string>
+    <string name="screenshot_dialog_yes">Ja</string>
+    <string name="screenshot_dialog_no">Nr</string>
+    <string name="screenshot_toast_message_saved">Bildskärmsdump har sparats.</string>
+    <string name="screenshot_toast_message_failed">Misslyckades att spara en bildskärmsdump i filöverföringsläge.</string>
+    <string name="screenshot_toast_message_failed_save">Misslyckades att spara bildskärmsdumpen.</string>
+    <string name="screenshot_toast_message_full">Misslyckades att spara bildskärmsdumpen. Otillräckligt med minne.</string>
+</resources>

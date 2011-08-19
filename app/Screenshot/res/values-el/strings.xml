@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Στιγμιότυπο οθόνης</string>
+    <string name="screenshot_dialog_message">Αποθηκεύτηκε το στιγμιότυπο. Παραμονή σε λειτουργία στιγμιοτύπου;</string>
+    <string name="screenshot_dialog_yes">Ναι</string>
+    <string name="screenshot_dialog_no">Όχι</string>
+    <string name="screenshot_toast_message_saved">Αποθηκεύτηκε το στιγμιότυπο.</string>
+    <string name="screenshot_toast_message_failed">Απέτυχε η αποθήκευση ενός στιγμιοτύπου όταν βρίσκεστε σε λειτουργία Μεταφορά Αρχείου.</string>
+    <string name="screenshot_toast_message_failed_save">Η αποθήκευση του στιγμιοτύπου απέτυχε.</string>
+    <string name="screenshot_toast_message_full">Η αποθήκευση του στιγμιοτύπου απέτυχε. Ανεπαρκής μνήμη.</string>
+</resources>

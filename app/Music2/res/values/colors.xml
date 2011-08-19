@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appwidget_text">#ffffffff</color>
+    <color name="played_text">#ffa7d84c</color>
+    <color name="flash_to_when_paused_text">#bfffffff</color>
+    <color name="current_text">#bfffffff</color>
+    <color name="error_text">#fff5ab00</color>
+    <color name="dim_foreground_dark">#ffbebebe</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse">#ff323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="transparent">#00000000</color>
+    <color name="manage_music_color">#ff99cc00</color>
+    <color name="search_list_header_background">#20808080</color>
+    <color name="tutorial_top_bar_background">#80000000</color>
+    <color name="tutorial_bottom_bar_background">#ff808080</color>
+    <color name="alert_color">#fff5ab00</color>
+</resources>

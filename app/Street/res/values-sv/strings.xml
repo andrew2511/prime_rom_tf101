@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Visa karta</string>
+    <string name="report_inappropriate_image">Rapportera bild</string>
+    <string name="toggle_compass_mode">Kompassläge</string>
+    <string name="compass_mode_on">Kompassläge på.</string>
+    <string name="compass_mode_off">Kompassläge av.</string>
+    <string name="waiting_for_network">Dataanslutningen bröts, försöker igen…</string>
+    <string name="panorama_disabled">Bilden är inte tillgänglig längre</string>
+    <string name="service_unavailable">Street View inte tillgänglig</string>
+    <string name="loading">Läser in</string>
+    <string name="no_panorama_data">Inga panoramadata har angetts.</string>
+    <string name="invalid_panorama_data">Ogiltigt panorama.</string>
+    <string name="click_to_go_toast">Dra Pegman dit du vill.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Programmet kräver en dataanslutning och försöker igen automatiskt. Kontrollera signalstyrkan. Är flygplansläge på? Är datatrafik vid roaming inaktiverad?</string>
+    <string name="whats_new_header">Nytt i Street View</string>
+    <string name="whats_new_c2g">Flyg så långt du vill. Dra Pegman från vänstra hörnet och droppa honom dit du vill flyga.</string>
+    <string name="terms_and_privacy">Villkor och sekretess</string>
+    <string name="terms_and_conditions">Användningsvillkor</string>
+    <string name="privacy_policy">Sekretesspolicy</string>
+</resources>

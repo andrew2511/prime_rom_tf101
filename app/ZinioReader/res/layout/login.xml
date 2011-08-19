@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/login_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/email_address" style="@style/TextView" />
+            <EditText android:id="@id/login_email" android:layout_width="fill_parent" android:layout_marginTop="3.0dip" android:hint="@string/required_email_address" android:maxLength="256" android:inputType="textAutoComplete|textEmailAddress" style="@style/EditText" />
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/password" style="@style/TextView" />
+            <EditText android:id="@id/login_password" android:layout_width="fill_parent" android:layout_marginTop="3.0dip" android:hint="@string/required_password" android:maxLength="256" android:inputType="textPassword" android:imeOptions="actionSend" android:imeActionLabel="@string/sign_in" style="@style/EditText" />
+            <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/login_submit" android:background="@drawable/btn_form" android:layout_width="221.0dip" android:layout_height="55.0dip" android:layout_marginTop="20.0dip" android:text="@string/sign_in" />
+            <Button android:textSize="14.0sp" android:textColor="@color/link_text_color" android:id="@id/login_forgot_password" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="13.0dip" android:text="@string/forgot_password_underlined" />
+        </LinearLayout>
+    </ScrollView>
+    <com.zinio.mobile.android.view.BottomToolbarActivity android:gravity="center" android:id="@id/bottom_toolbar_faq" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zinio.mobile.android.view.TransparentRelativePanel android:layout_gravity="right" android:id="@id/scroll_overlay" android:paddingTop="55.0dip" android:paddingBottom="45.0dip" android:visibility="gone" android:fadingEdgeLength="5.0px" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentRight="true" />
+        <Button android:textColor="#ffffffff" android:id="@id/faq_button" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="72.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/faq" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.zinio.mobile.android.view.BottomToolbarActivity>
+</RelativeLayout>

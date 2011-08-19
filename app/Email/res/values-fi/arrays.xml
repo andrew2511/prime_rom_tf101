@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Näytä viestien sisältö hyvin pienikokoisena tekstinä</item>
+        <item>Näytä viestien sisältö pienikokoisena tekstinä</item>
+        <item>Näytä viestien sisältö normaalikokoisena tekstinä</item>
+        <item>Näytä viestien sisältö suurikokoisena tekstinä</item>
+        <item>Näytä viestien sisältö hyvin suurikokoisena tekstinä</item>
+    </string-array>
+</resources>

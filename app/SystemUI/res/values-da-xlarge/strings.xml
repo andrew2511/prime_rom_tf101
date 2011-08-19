@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Ryd alt</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ingen internetforb.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi er forbundet</string>
+    <string name="gps_notification_searching_text">Søger efter GPS</string>
+    <string name="gps_notification_found_text">Placeringen er angivet ved hjælp af GPS</string>
+    <string name="notifications_off_title">Meddelelser: Fra</string>
+    <string name="notifications_off_text">Tryk her for at slå meddelelser til igen.</string>
+</resources>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layar</string>
+    <string name="layer">图层</string>
+    <string name="layers">图层</string>
+    <string name="spots">地点</string>
+    <string name="no_layers_popular">"诶呀
+ 在您的位置没有可用的图层。"</string>
+    <string name="no_layers_popular2">"
+请从上面的标签里选择一个更大的搜索范围。"</string>
+    <string name="share_bottom">分享</string>
+    <string name="add_to_favorites_bottom_button">添加到最爱</string>
+    <string name="ok">确认</string>
+    <string name="save">保存</string>
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="accept">接受</string>
+    <string name="decline">拒绝</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="apply">应用</string>
+    <string name="retry">重试</string>
+    <string name="share">共享</string>
+    <string name="delete">删除</string>
+    <string name="login">登录</string>
+    <string name="done">完成</string>
+    <string name="submit">提交</string>
+    <string name="search">搜索</string>
+    <string name="more">更多</string>
+    <string name="back">返回</string>
+    <string name="next">下一步 ></string>
+    <string name="skip">略过</string>
+    <string name="continueButton">继续</string>
+    <string name="use">使用</string>
+    <string name="intro">介绍</string>
+    <string name="yes_i_do">是的， 我愿意</string>
+    <string name="no_i_dont">不，我不愿意</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="toast_gps_disabled">GPS关闭</string>
+    <string name="openGPSSettingPrompt">你的GPS没有打开，是否要打开它？</string>
+    <string name="camera_failed">相机硬件错误</string>
+    <string name="error_no_connection">无法连接</string>
+    <string name="error_no_active_connection">没有有效的连接</string>
+    <string name="unable_to_connect">暂时无法连接Layar服务器。请稍后重试。</string>
+    <string name="error_out_of_memory">启动应用内存不够。请关闭其它应用重试</string>
+    <string name="error_layer_deleted">该图层不再存在</string>
+    <string name="error_cant_access_layer">对不起暂时无法打开该图层</string>
+    <string name="error_maintenance">系统正在维护中，我们会尽快恢复服务。</string>
+    <string name="error_maintenance_title">系统维护中</string>
+    <string name="camera_blocking_message">有些程序阻碍了相机的使用，正在重新初始化</string>
+    <string name="camera_impossible_to_initialize">相机无法初始化，请重启Layar。</string>
+    <string name="terms_and_conditions">条款</string>
+    <string name="view_reality">实景</string>
+    <string name="view_map">地图</string>
+    <string name="view_list">目录</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_add">添加</string>
+    <string name="menu_nearby">@string/nearby</string>
+    <string name="menu_yours">我的</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_filter">过滤条件设置</string>
+    <string name="menu_share">共享</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_layer_info">图层信息</string>
+    <string name="menu_screenshot">屏幕截取</string>
+    <string name="menu_about">关于Layar</string>
+    <string name="menu_user">帐号</string>
+    <string name="menu_goto_ar">实景</string>
+    <string name="menu_goto_ar_2">实景</string>
+    <string name="menu_reset">全部重置</string>
+    <string name="menu_favorite">添加到最爱</string>
+    <string name="menu_unfavorite">从最爱删除</string>
+    <string name="menu_view_map">浏览地图</string>
+    <string name="menu_launch_layer">运行图层</string>
+    <string name="menu_remove_all">全部删除</string>
+    <string name="menu_new_search">新搜索</string>
+    <string name="menu_clear_recent">清除最近的</string>
+    <string name="menu_options">选项</string>
+    <string name="dialog_remove_all_title">@string/menu_remove_all</string>
+    <string name="dialog_remove_all_message">您确定要删除所有选项？</string>
+    <string name="trigger_always">始终提醒</string>
+    <string name="trigger_launch">不提醒直接运行</string>
+    <string name="trigger_never">不运行</string>
+    <string name="trigger_available">该对象设置了自动动作</string>
+    <string name="trigger_dont_show">不再显示这条警告</string>
+    <string name="trigger_do_launch_action">打开</string>
+    <string name="trigger_dont_launch_action">不打开</string>
+    <string name="trigger_title">自动动作</string>
+    <string name="trigger_name">弹出自动动作发布警告</string>
+    <string name="trigger_summary2">为了网页，视频和音频。</string>
+    <string name="action_chooser_title">选择应用</string>
+    <string name="action_context_menu_title">选择动作</string>
+    <string name="prefs_user_settings">用户设置</string>
+    <string name="prefs_grid_category">实景视图中的网格</string>
+    <string name="prefs_grid">使用网格</string>
+    <string name="prefs_hide_grid">隐藏坐标方格</string>
+    <string name="prefs_hide_grid_summary">去除实景图的坐标方格</string>
+    <string name="prefs_hide_grid_summary2">从实景视图中取消网格</string>
+    <string name="prefs_trigger">自动发布选项</string>
+    <string name="prefs_trigger_summary">激活/关闭动作的自动运行而无需确认</string>
+    <string name="prefs_trigger_help">在实景视图中，当您离某兴趣点足够近时，可能会触发一些预设的自动动作，比如说打开网页，播放视频或者音频。</string>
+    <string name="prefs_trigger_tel">呼叫</string>
+    <string name="prefs_trigger_sms">发送短消息</string>
+    <string name="prefs_trigger_mailto">发送邮件</string>
+    <string name="prefs_trigger_http">打开网页</string>
+    <string name="prefs_trigger_audio">打开音频</string>
+    <string name="prefs_trigger_video">打开视频</string>
+    <string name="prefs_developer_settings">开发者设置</string>
+    <string name="prefs_screenshot_nocamera">创建透明的屏幕截图</string>
+    <string name="prefs_screenshot_nocamera_summary">略去当前屏幕截图</string>
+    <string name="prefs_location_settings">位置设置</string>
+    <string name="prefs_location_fixed">使用固定位置</string>
+    <string name="prefs_location_fixed_summary">在固定位置测试图层</string>
+    <string name="prefs_location_lat">纬度</string>
+    <string name="prefs_location_lon">经度</string>
+    <string name="prefs_location_countrycode">国家</string>
+    <string name="prefs_location_country">选择国家</string>
+    <string name="gallery_title">类别</string>
+    <string name="gallery_favorites">最爱</string>
+    <string name="gallery_recent">近期</string>
+    <string name="gallery_catalog">@string/layers</string>
+    <string name="gallery_settings">@string/menu_settings</string>
+    <string name="gallery_local">本地</string>
+    <string name="gallery_intl">全球</string>
+    <string name="gallery_nearby">@string/nearby</string>
+    <string name="gallery_featured">特色</string>
+    <string name="gallery_polular">受欢迎</string>
+    <string name="gallery_new">新的</string>
+    <string name="gallery_all">全部</string>
+    <string name="gallery_paid">付费</string>
+    <string name="gallery_free">免费</string>
+    <string name="gallery_dev">测试</string>
+    <string name="gallery_purchased">已购买的</string>
+    <string name="gallery_launch">@string/gallery_free</string>
+    <string name="gallery_loading">装载图层...</string>
+    <string name="gallery_waiting_location">等待位置...</string>
+    <string name="gallery_category">类别 > %name%</string>
+    <string name="share_chooser_title">共享这个图层</string>
+    <string name="share_layer">分享图层</string>
+    <string name="share_layer_email">通过邮件分享</string>
+    <string name="share_layer_socials">分享到社会网络</string>
+    <string name="share_screenshot">分享截图</string>
+    <string name="share_success">图层已经被分享到了</string>
+    <string name="share_success_message">成功完成分享!</string>
+    <string name="share_fail">在分享的过程中出现了一个问题!</string>
+    <string name="share_message_template" formatted="false">在Layar实景浏览器中查看图层%layername%!</string>
+    <string name="share_screenshot_template" formatted="false">快来看看这张图片，我是用Layar实景浏览器中图层%layername%拍到的!</string>
+    <string name="share_add_location">添加地点</string>
+    <string name="share_location_fail">未能找到地点名称</string>
+    <string name="share_subject">快来看看这个很酷的图层!</string>
+    <string name="share_button">分享图层</string>
+    <string name="share_text">快来看看这个很酷的图层[Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="layer_details_subject" formatted="false">在Layar浏览器中查看%title%!</string>
+    <string name="layer_details_body" formatted="false">"我在我的%android%上使用Layar实景浏览器呢。想把我发现的这个炫图层分享给你! 
+
+%name% 
+
+%description% 
+发布人: %publisher% 
+价格: %price% 
+链接: %link% 
+在苹果或者安卓智能手机上，请通过http://www.layar.com/下载Layar实景浏览器和查看更多炫图层。"</string>
+    <string name="wow_message">天啊！我太爱这个图层了!</string>
+    <string name="sharing_message_twitter_succeful">该图层已经在Twitter(推特)上分享了!</string>
+    <string name="sharing_message_facebook_succeful">该图层已经在Facebook上分享了!</string>
+    <string name="sharing_message_twitter_fail">在分享该图层到推特上出了问题:</string>
+    <string name="sharing_message_facebook_fail">在分享该图层到Facebook上出了问题:</string>
+    <string name="sharing_facebook">分享到Facebook</string>
+    <string name="sharing_twitter">分享到Twitter（推特）</string>
+    <string name="share_purpose">请登录到以下任意账户:</string>
+    <string name="twitter_email_info">如果您还没有Layar账户，请输入您的邮箱地址登录到Twitter。</string>
+    <string name="congratulations">恭喜!</string>
+    <string name="share_status">分享状态</string>
+    <string name="share_login_alert_dialog">在您连接到一个社交网络时，我们会为您创建一个Layar账户。您是否已经有了一个Layar账户了呢？</string>
+    <string name="screenshot_hold_steady">截图制作中，请拿稳...</string>
+    <string name="screenshot_processsing">正在处理截图</string>
+    <string name="screenshot_chooser_title">共享该截图</string>
+    <string name="screenshot_subject">\#layar #screenshot %title%</string>
+    <string name="screenshot_text">快来看看这个很酷的#layar #screenshot! [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="screenshot_subject_nearby">\#layar #screenshot 查看有什么在我周围</string>
+    <string name="screenshot_text_nearby">快来看看这个很酷的 #layar #screenshot!</string>
+    <string name="screenshot_camera_format">对不起，相机图像格式不支持，不能在屏幕上显示.</string>
+    <string name="screenshot_no_sdcard">SD卡不存在</string>
+    <string name="screenshot_out_of_memory">没有足够的内存空间完成截屏动作。 请关闭一些其他的程序后重试。</string>
+    <string name="screenshot_saved_as">另存为：%path%</string>
+    <string name="screenshot_retake">重拍</string>
+    <string name="screenshot_preview">预览</string>
+    <string name="screenshot_send_email">发送到邮箱</string>
+    <string name="screenshot_save_to_library">保存在相册</string>
+    <string name="no_result_recent">没有最近打开的图层</string>
+    <string name="no_result_search" formatted="false">没有找到与 %query% 相关的搜索结果</string>
+    <string name="search_hint">搜索图层</string>
+    <string name="search_hint2">搜索图层和兴趣点。</string>
+    <string name="search_hint3">搜索图层</string>
+    <string name="search_results" formatted="false">\"%query%\"结果</string>
+    <string name="search_no_results">没有找到结果，请试试另外的关键词</string>
+    <string name="local_no_results">没有找到本地图层</string>
+    <string name="category_no_results">此类别中没有图层</string>
+    <string name="search_no_results_without_try">没有结果...</string>
+    <string name="gallery_no_results">没有找到图层</string>
+    <string name="search_no_spots">没有搜索到地点</string>
+    <string name="search_no_layers">@string/gallery_no_results</string>
+    <string name="search_layers_result" formatted="false">图层 (%num%)</string>
+    <string name="search_result" formatted="false">找到与 %query% 相关的 %num% 个搜索结果</string>
+    <string name="search_spots_result" formatted="false">地点 (%num%)</string>
+    <string name="poi_action_directions">带我到那儿</string>
+    <string name="poi_action_directions2">方位</string>
+    <string name="poi_action_lock">在视图中锁定</string>
+    <string name="poi_action_unlock">取消在视图中的锁定</string>
+    <string name="actions">动作</string>
+    <string name="distance_label">距离</string>
+    <string name="distance_unit">距离单位</string>
+    <string name="distance_unit_metric">公里</string>
+    <string name="distance_unit_us">英里</string>
+    <string name="upgrade">升级Layar</string>
+    <string name="upgrade_pos">现在升级</string>
+    <string name="upgrade_neg">以后再说</string>
+    <string name="favorites_title">最爱</string>
+    <string name="favorites_add">添加到最爱</string>
+    <string name="favorites_remove">从最爱删除</string>
+    <string name="favorites_dialog_add">将图层添加到最爱?</string>
+    <string name="favorites_dialog_remove">将图层从最爱删除?</string>
+    <string name="favorites_add_button_text">添加一个图层到最爱</string>
+    <string name="favorites_edit_alert_title">未保存的修改</string>
+    <string name="favorites_edit_alert_message">您的修改将会丢失。您是否仍要继续？</string>
+    <string name="audio_loading">装载音频</string>
+    <string name="audio_error">对不起，不能播放该音频.</string>
+    <string name="audio_error_title">不能播放音频</string>
+    <string name="video_loading">装载视频</string>
+    <string name="details_no_content">无内容</string>
+    <string name="details_loading">装载中...</string>
+    <string name="copy_link">复制链接</string>
+    <string name="copy_message">链接已复制</string>
+    <string name="copy_message_fail">没有任何东西可以复制</string>
+    <string name="filter_settings_title">过滤条件设置</string>
+    <string name="filter_auto_range">自动调整范围</string>
+    <string name="main_showing_terms">显示条款</string>
+    <string name="main_downloading_categories">刷新类别</string>
+    <string name="main_check_updates">检查更新</string>
+    <string name="main_ready">图层已准备好</string>
+    <string name="status_range">范围</string>
+    <string name="status_accuracy">精度</string>
+    <string name="status_not_available">不适用</string>
+    <string name="status_waiting_location">等待位置...</string>
+    <string name="status_authentication_required">请鉴权使用图层</string>
+    <string name="status_progress_get_results">获取结果...</string>
+    <string name="status_progress_loading_image">装载图像...</string>
+    <string name="status_progress_loading_3dmodel">装载3D模型...</string>
+    <string name="status_progress_failed_3dmodel">无法下载三维模型。请刷新重试一下!</string>
+    <string name="status_results_found" formatted="false">找到%num% 结果</string>
+    <string name="status_no_results_found">没有找到结果</string>
+    <string name="status_something_went_wrong">诶呀！一些事情出了问题。请重试！</string>
+    <string name="status_layer_unpublished">这个图层已经被取消发布了。</string>
+    <string name="progress_searching">搜索...</string>
+    <string name="progress_processing">处理中...</string>
+    <string name="progress_loading">装载中...</string>
+    <string name="progress_loading_layer">装载图层...</string>
+    <string name="user_username">用户名</string>
+    <string name="user_email">电子邮件</string>
+    <string name="user_username_or_email">用户名或电子邮件</string>
+    <string name="user_password">密码</string>
+    <string name="user_login">登录</string>
+    <string name="user_invite_button">邀请朋友们</string>
+    <string name="user_invite_facebook">Facebook</string>
+    <string name="user_invite_twitter">Twitter（推特）</string>
+    <string name="user_invite_phone">来自电话联络簿</string>
+    <string name="user_invite_have_friends_template" formatted="false">在Layar中您已经有%num% 个朋友了。</string>
+    <string name="user_invite_more_friends">邀请更多朋友一起玩儿</string>
+    <string name="user_invite_nobody_added">还没有添加任何朋友</string>
+    <string name="user_invite_pending_template" formatted="false">%num% 个朋友等待中</string>
+    <string name="user_invite_default_message">您想要邀请朋友吗?</string>
+    <string name="user_invite_no_friends">在您的网络中还没有朋友。略过...</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">邮箱</string>
+    <string name="connect_account">连接账户</string>
+    <string name="user_add_account">添加账户</string>
+    <string name="user_add_account_text">这是一个把您的Layar账户与您的Facebook和Twitter账户连接起来的很好时机！</string>
+    <string name="user_add_account_cancel">恩，下次再说吧...</string>
+    <string name="user_add_facebook">添加Facebook账户</string>
+    <string name="user_add_twitter">添加Twitter账户</string>
+    <string name="user_add_social" formatted="false">连接 %socialname% 账户</string>
+    <string name="user_remove_social" formatted="false">断开 %socialname% 账户</string>
+    <string name="user_twitter_email_title">连接Twitter</string>
+    <string name="social_associating">请稍等片刻...</string>
+    <string name="social_associating_error">对不起，在连接您的账户时出现了问题</string>
+    <string name="social_disconnected" formatted="false">您的账户已经从%type%上断开了</string>
+    <string name="social_disconnecting" formatted="false">正在从 %type%断开与您账户的连接</string>
+    <string name="social_disconnect_fail" formatted="false">无法从%type%断开连接</string>
+    <string name="social_disconnect_title">要断开吗?</string>
+    <string name="social_disconnect_message" formatted="false">您确定想要断开您%type%账户的连接?</string>
+    <string name="social_associating_success">您的账户已经连接上了</string>
+    <string name="social_associating_dialog">您要再试一下吗?</string>
+    <string name="add_email">添加邮件</string>
+    <string name="add_email_error_exists">这个邮箱地址已经添加过了</string>
+    <string name="user_welcome_title">欢迎使用 Layar增强现实体验浏览器</string>
+    <string name="user_welcome_title2">@string/menu_user</string>
+    <string name="user_welcome_text">您需要一个帐号来购买图层...</string>
+    <string name="user_welcome_create_account">创建帐号</string>
+    <string name="user_welcome_facebook">和 Facebook连接</string>
+    <string name="user_welcome_social" formatted="false">用%socialname%登录</string>
+    <string name="user_welcome_not_now">现在不用，以后提醒我</string>
+    <string name="user_welcome_never">不再问我</string>
+    <string name="setting_up_social_connection" formatted="false">正在建立与您的%socialname%的连接...</string>
+    <string name="you_are_logged_in_with_social" formatted="false">您已经用 %socialname% 账户登录了</string>
+    <string name="social_connect_didnt_work" formatted="false">对不起，无法用%socialname%账户登录</string>
+    <string name="user_create_title">创建帐号</string>
+    <string name="user_create_keep_informed">订阅简报</string>
+    <string name="user_create_keep_informed2">把新消息和更新发到邮箱中</string>
+    <string name="user_create_create">创建帐号</string>
+    <string name="user_create_privacy2">点击下面的按钮表示您接受<a>隐私政策</a>中的条款。</string>
+    <string name="user_create_privacy3">"您的用户名是公开的。 
+您的电子邮箱不会被公布或者分享 
+我们也不会给您发送垃圾邮件 
+ 请在www.layar.com/legal/privacy/ 上查看我们的隐私政策"</string>
+    <string name="user_exists_title">用户名已被使用</string>
+    <string name="user_exists">"用户名不存在
+请选择另一个"</string>
+    <string name="user_email_exists_title">电子邮件已被使用</string>
+    <string name="user_email_exists">这个电子邮件相应账号已创建</string>
+    <string name="user_twitter_email_exists_message">请在连接Twitter前登录到Layar上。</string>
+    <string name="user_email_invalid_title">无效电子邮件地址</string>
+    <string name="user_email_invalid">请输入一个有效的电子邮件地址</string>
+    <string name="user_username_length_title">无效的用户名</string>
+    <string name="user_username_length">用户名必须至少4个字符</string>
+    <string name="user_invalid_username">用户名必须是字母或数字，长度最少4位，最多不可以超过16位。</string>
+    <string name="user_password_length_title">无效密码</string>
+    <string name="user_password_length">密码至少6位</string>
+    <string name="user_invalid_password">密码长度最少6位，最多不可以超过12位。</string>
+    <string name="success_user_create">帐号创建成功！只需最后一步...</string>
+    <string name="user_creation_confirmation_text">在买东西前需要校验帐号。我们已向您发送了一封校验邮件。请检查您的邮箱。</string>
+    <string name="account_creation_confirmation_text">您需要激活您的帐号。我们已经给您发送了一封邮件。请查看您的邮箱。</string>
+    <string name="wrong_username_password">不能登录。您的用户名，电子邮件或者密码错误。</string>
+    <string name="account_suspended">对不起，您的帐号被锁住了。请用另外帐号登录或按取消键</string>
+    <string name="error_logging_in">对不起，登录有问题。请稍后重试</string>
+    <string name="error_creating_user">对不起，帐号创建有问题。请稍后重试</string>
+    <string name="status_logging_in">登录中...</string>
+    <string name="user_forgot_password_title">忘记密码</string>
+    <string name="user_forgot_password_link_text">忘记了您的密码?</string>
+    <string name="user_forgot_password_header_text">请告诉我们您的电子邮件我们将会给您发送一个链接，您可以重置密码</string>
+    <string name="user_forgot_password_sent_confirmation_text">我们给您发了邮件，您可以根据说明重置密码</string>
+    <string name="user_error_recovery_password">对不起，重置您的密码有问题，请稍后重试</string>
+    <string name="user_error_nonexistant_email">诶呀，没有与这个邮箱地址对应的帐号.</string>
+    <string name="user_verification_prompt_title">校验提示</string>
+    <string name="user_verification_prompt_text">对不起，在购买东西前需要先校验</string>
+    <string name="user_verification_prompt_send_again">重发校验链接</string>
+    <string name="user_verification_prompt_login_another">用另外的帐号登录</string>
+    <string name="user_verification_prompt_login_incorrect">对不起，这个帐号也未被校验。请使用已校验的帐号</string>
+    <string name="user_login_prompt_for_purchase">您需要一个帐号来购买图层</string>
+    <string name="account_verified">您的帐号已校验</string>
+    <string name="account_not_verified">您的帐号未校验</string>
+    <string name="send_verification">重发校验链接</string>
+    <string name="error_sending_verification_link">发现哦那个校验链接有问题</string>
+    <string name="account_verification_link_sent">我们已给您发送邮件，可以校验您的帐号</string>
+    <string name="multiple_login_title">重新登录</string>
+    <string name="multiple_login_message">根据我们的记录，您上次在不同的设备登录。为了安全请再次登录...</string>
+    <string name="multiple_login_warning">您认为有其他人在使用您的帐号吗？</string>
+    <string name="multiple_login_let_us_know">请告诉我们</string>
+    <string name="layer_actions">图层级动作</string>
+    <string name="layer_action_launch">运行</string>
+    <string name="layer_action_purchase">购买</string>
+    <string name="logged_in_as" formatted="false">您已登录为 %name%.</string>
+    <string name="logout">登出</string>
+    <string name="user_logged_out">您已登出</string>
+    <string name="error_logging_out">不能登出，请重试</string>
+    <string name="development_mode_description">您有开发模式权限。可以打开看测试图层</string>
+    <string name="account_needed_do_this">您需要一个帐户来完成这个动作...</string>
+    <string name="account_needed_view_content">请先登陆或者创建帐号来浏览这个页面。</string>
+    <string name="purchase_layer">购买图层</string>
+    <string name="error_retrieving_providers">获取支付提供方错误</string>
+    <string name="initiating_payment">启动支付...</string>
+    <string name="error_initiating_payment">启动支付错误</string>
+    <string name="purchase_failed_description">对不起，发生错误，购买没有成功</string>
+    <string name="purchase_failed_description2">非常抱歉，因为一些错误，无法完成购买。请重试一次。</string>
+    <string name="try_purchase_again">重试%paymentprovider%</string>
+    <string name="choose_another_payment_provider">选择另外一个支付提供方</string>
+    <string name="purchase_succeeded_description">成功！感谢您购买这个图层</string>
+    <string name="payment_provider_limitation">"目前您只能通过PayPal帐号在美国，英国，澳大利亚和加拿大购买图层
+
+其他国家将很快添加。对此我们很抱歉..."</string>
+    <string name="pay_with">用此支付</string>
+    <string name="purchase_message_one" formatted="false">您将要购买由%publisher%发布的图层%layername%。点击下面开始购买。</string>
+    <string name="purchase_message_more" formatted="false">您将要购买由%publisher%发布的图层%layername%。请选择您的购买方式开始购买。</string>
+    <string name="welcome_skip_dialog_title">没有帐号创建</string>
+    <string name="welcome_skip_dialog_message">您希望在另外的时间创建帐号吗？</string>
+    <string name="welcome_skip_dialog_message2">购买付费图层时需要这个.</string>
+    <string name="welcome_skip_dialog_remind">稍后提醒我</string>
+    <string name="welcome_skip_dialog_dontask">不再问我</string>
+    <string name="ratings_rate_layer">给图层打分</string>
+    <string name="ratings_stars_1">十分不喜欢</string>
+    <string name="ratings_stars_2">不喜欢</string>
+    <string name="ratings_stars_3">一般可以</string>
+    <string name="ratings_stars_4">喜欢</string>
+    <string name="ratings_stars_5">十分喜欢</string>
+    <string name="ratings_rate">打分</string>
+    <string name="layer_report_problem">报告一个问题</string>
+    <string name="nearby">在附近</string>
+    <string name="details">具体信息</string>
+    <string name="favorite_spot">添加到我的地点</string>
+    <string name="unfavorite_spot">从我的地点中删除</string>
+    <string name="open_layer">打开图层</string>
+    <string name="loading_more2">载入中...</string>
+    <string name="loading_more">正在加载更多...</string>
+    <string name="hide_this_layer">隐藏图层</string>
+    <string name="unhide_this_layer">现实图层</string>
+    <string name="no_description">没有描述</string>
+    <string name="poidetails_more_items_message" formatted="false">在这个图层里，你周围像这个选项的有 %num%:</string>
+    <string name="poidetails_one_more_item_message">在这个图层里，你周围像这个选项的还有一个:</string>
+    <string name="spot_actions">兴趣点动作</string>
+    <string name="filter_title">过滤设置</string>
+    <string name="filter_select_all">全选</string>
+    <string name="filter_item_categories">类别</string>
+    <string name="filter_item_categories_empty">没有选中的类别</string>
+    <string name="filter_item_categories_more" formatted="false">%0%, %1% 和 %n% 其他的被选中</string>
+    <string name="filter_item_categories_all">选中所有类别</string>
+    <string name="filter_item_hidden_layer">隐藏图层</string>
+    <string name="filter_item_hidden_layer_empty">没有被隐藏的图层</string>
+    <string name="filter_item_hidden_layer_more" formatted="false">%0%, %1% 和 %n% 其他的被隐藏</string>
+    <string name="filter_item_hidden_layer_unhide">取消隐藏图层</string>
+    <string name="filter_item_range">自定义范围</string>
+    <string name="filter_item_range_default">使用默认范围</string>
+    <string name="filter_item_range_message" formatted="false">不显示距离超过%value%的地点</string>
+    <string name="filter_item_paid">显示付费内容</string>
+    <string name="filter_item_paid_true">显示来自付费图层的地点</string>
+    <string name="filter_item_paid_false">不显示来自付费图层的地点</string>
+    <string name="filter_reset">重置过滤设置</string>
+    <string name="custom_filter_range_settings">@string/status_range</string>
+    <string name="custom_filter_range_text" formatted="false">显示值是%value%的兴趣点</string>
+    <string name="custom_filter_layer_settings">图层设置</string>
+    <string name="custom_filter_camera_settings">实景视图设置</string>
+    <string name="custom_filter_camera_bird_eye">俯视角度</string>
+    <string name="custom_filter_camera_hide_grid">@string/prefs_hide_grid</string>
+    <string name="notification_auto_refresh">点击刷新</string>
+    <string name="poi" />
+    <string name="prefs_developer_enable" />
+    <string name="prefs_developer_id" />
+    <string name="help">帮助</string>
+    <string name="user_create_privacy" />
+    <string name="prefs_developer_key" />
+    <string name="prefs_developer_enable_summary" />
+    <string name="select_layer" />
+    <string name="welcome_title">欢迎使用Layar增强现实体验浏览器</string>
+    <string name="welcome_intro">Layar增强现实体验浏览器是一个十分漂亮，充满乐趣的应用程序。可以给您显示您看不到的东西</string>
+    <string name="welcome_tip1"><b>看世界</b>。通过您选择看的图层增强了功能</string>
+    <string name="welcome_tip2"><b>类别</b> 数百免费和收费的图层可以选择</string>
+    <string name="welcome_tip3">创建一个<b>帐号</b>来充分挖掘潜能</string>
+    <string name="welcome_tip4"><b>在附近</b>. 用Layar Stream发现和搜索在附近的有趣地点.</string>
+    <string name="welcome_skip2"><u>开始运行Layar</u></string>
+    <string name="welcome_start_app">开始使用Layar ></string>
+    <string name="welcome_back_app">返回到Layar ></string>
+    <string name="ws_text_000">Layar帮助您发现周围世界的信息。</string>
+    <string name="ws_text_001">有多于2000个图层等待您的体验。</string>
+    <string name="ws_text_002">选择一个图层，拿起您的手机用一种全新的方式去看世界!</string>
+    <string name="ws_title_0031">最爱</string>
+    <string name="ws_title_0032">截图</string>
+    <string name="ws_title_0033">分享</string>
+    <string name="ws_text_0031">把您喜爱的图层保存起来以供下次使用</string>
+    <string name="ws_text_0032">在实景视图中照一张相并且随时随地与人分享</string>
+    <string name="ws_text_0033">通过社会媒体，邮件和短信大声告诉别人您最爱的图层吧！</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">opnieuw proberen</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">De netwerkverbinding is niet stabiel, wilt u het nog een keer proberen of wilt u de applicatie offline gebruiken?</string>
+    <string name="cancel">annuleren</string>
+    <string name="change_password">wijzig wachtwoord</string>
+    <string name="close">sluiten</string>
+    <string name="confirm_new_password">bevestig nieuw wachtwoord</string>
+    <string name="create_account">gebruikersaccount aanmaken</string>
+    <string name="create_an_account">een gebruikersaccount aanmaken</string>
+    <string name="date">datum</string>
+    <string name="delete">wissen</string>
+    <string name="delete_all">alles wissen</string>
+    <string name="delete_mode_caption">Verwijdermodus - klik artikel aan om te verwijderen</string>
+    <string name="email_address">e-mailadres</string>
+    <string name="exit">afsluiten</string>
+    <string name="faq">FAQ</string>
+    <string name="first_name">voornaam</string>
+    <string name="free">free</string>
+    <string name="forgot_password">wachtwoord vergeten</string>
+    <string name="last_name">naam</string>
+    <string name="learn_more">Leer meer</string>
+    <string name="legal_notices">wettelijke vermeldingen</string>
+    <string name="library">bibliotheek</string>
+    <string name="manage_tips">beheer hints</string>
+    <string name="more">meer</string>
+    <string name="more_options">meer opties</string>
+    <string name="my_magazines">Mijn tijdschriften - klik aan om te bekijken of te downloaden</string>
+    <string name="new_password">nieuw wachtwoord (5-20 tekens)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">oud wachtwoord</string>
+    <string name="password">wachtwoord</string>
+    <string name="required">verplicht</string>
+    <string name="required_first_name">voornaam verplicht</string>
+    <string name="required_last_name">naam verplicht</string>
+    <string name="required_email_address">e-mailadres verplicht</string>
+    <string name="required_password">wachtwoord verplicht</string>
+    <string name="retype_password">geef wachtwoord opnieuw in</string>
+    <string name="sign_in">aanmelden</string>
+    <string name="sign_out">afmelden</string>
+    <string name="share">informatie delen</string>
+    <string name="shop">winkelen</string>
+    <string name="text">tekst</string>
+    <string name="title">titel</string>
+    <string name="turn_on_wifi">WiFi inschakelen</string>
+    <string name="uninstall">verwijderen</string>
+    <string name="welcome_to_zinio">welkom bij zinio</string>
+    <string name="email_non_lower_case">e-mail</string>
+    <string name="sd_card_non_lower_case">SD kaart</string>
+    <string name="show_password_non_lower_case">Toon wachtwoord</string>
+    <string name="show_tips_non_lower_case">Toon hints</string>
+    <string name="forgot_password_underlined"><u>Wachtwoord vergeten?</u></string>
+    <string name="terms_of_service_underlined"><u>Algemene voorwaarden voor dienstverlening</u></string>
+    <string name="label_share_email1">lees een artikel van</string>
+    <string name="label_share_email2">"en wil het met u delen!
+
+Het originele artikel zit als bijlage bij deze boodschap.
+
+Ga voor meer digitale publicaties naar www.zinio.com"</string>
+    <string name="label_receive_from_partners">Stuur me aub speciale aanbiedingen van vertrouwde Zinio-partners.</string>
+    <string name="label_receive_from_zinio">Stuur me aub speciale aanbiedingen van Zinio via e-mail.</string>
+    <string name="label_status_calculating">Aan het berekenen...</string>
+    <string name="label_status_new">Nieuw</string>
+    <string name="label_status_not_downloaded">Niet gedownload</string>
+    <string name="label_status_downloading">%s%% gedownload</string>
+    <string name="label_tip_hide">Schakel hints uit. Ze kunnen worden beheerd via Meer instellingen.</string>
+    <string name="toast_change_password_success">Wachtwoord met succes gewijzigd.</string>
+    <string name="toast_issue_download_complete_left">Download voor</string>
+    <string name="toast_issue_download_complete_right">klaar</string>
+    <string name="toast_no_articles">Geen artikels op deze pagina.</string>
+    <string name="toast_register_success">Account met succes aangemaakt.</string>
+    <string name="toast_no_email_client">Bemerkung: E-mail programme niet geconfigureerd</string>
+    <string name="progress_dialog_wait_msg">Wachten aub...</string>
+    <string name="dialog_warning_title">Waarschuwing</string>
+    <string name="dialog_no_connectivity_warning">Voor dit scherm is een internettoegang nodig. Controleer aub de verbindingsmogelijkheden of de instellingen van de vluchtmodus.</string>
+    <string name="dialog_passwords_not_matching_warning">Wachtwoorden komen niet overeen.</string>
+    <string name="dialog_password_length_warning">Wachtwoord moet bestaan uit 5 tot 20 tekens.</string>
+    <string name="dialog_service_exception_warning">Er heeft zich een serverprobleem voorgedaan. Probeer over enkele ogenblikken opnieuw aub.</string>
+    <string name="dialog_uninstall_warning">Dit wist alle gegevens uit de Zinio bibliotheek en ze kunnen niet meer worden gerecupereerd. U moet uw publicaties opnieuw downloaden.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Er is geen verbinding en u kan geen publicaties downloaden.
+
+U kan uw publicaties downloaden nadat de verbinding is hersteld."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Het nieuwe wachtwoord moet verschillend zijn van het oude.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Verwijder-modus - klik op item verwijderen</string>
+    <string name="dialog_library_no_connectivity_warning">"Er is een verbinding nodig om publicaties te downloaden.
+
+U kan nog lezen wat er nu in uw bibliotheek beschikbaar is en publicaties downloaden nadat de verbinding is hersteld."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Uw gebruikersnaam en wachtwoord waren verkeerd.
+
+Probeer opnieuw aub."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Deze account heeft het maximale aantal apparaten bereikt. Trek de machtiging voor een apparaat in en probeer opnieuw aub.</string>
+    <string name="dialog_register_account_already_exists">Het e-mailadres bestaat al. Kies een ander aub.</string>
+    <string name="dialog_register_empty_email_error">Geef een e-mailadres op aub.</string>
+    <string name="dialog_register_first_name_short_error">Geef een voornaam op aub.</string>
+    <string name="dialog_register_first_name_long_error">De voornaam mag niet langer zijn dan 80 tekens.</string>
+    <string name="dialog_register_invalid_email_error">Geef een geldig e-mailadres op aub.</string>
+    <string name="dialog_register_last_name_short_error">Geef een naam op aub.</string>
+    <string name="dialog_register_last_name_long_error">De naam mag niet langer zijn dan 80 tekens.</string>
+    <string name="dialog_register_other_error">Er is een fout opgetreden. Probeer opnieuw aub.</string>
+    <string name="dialog_register_password_empty">Geef een nieuw wachtwoord op aub.</string>
+    <string name="dialog_sign_out_disabled_warning">Er is geen aangemelde gebruiker om af te melden.</string>
+    <string name="dialog_app_version_not_supported_title">Upgrade beschikbaar</string>
+    <string name="dialog_app_version_not_supported_msg">Er is een nieuwere versie van de Zinio Reader beschikbaar. Deze versie wordt niet langer ondersteund. Gelieve upgrade naar de nieuwste Zinio Reader</string>
+    <string name="dialog_delete_all_title">Alles wissen</string>
+    <string name="dialog_delete_all_msg">"U heeft aangegeven dat u alle publicaties in uw bibliotheek wilt wissen.
+
+Maak u geen zorgen, u bent ze niet voorgoed kwijt.
+
+Ze worden uitsluitend van uw apparaat gewist. U kan de publicatie opnieuw downloaden indien u dat wenst."</string>
+    <string name="dialog_not_enough_space_title">Onvoldoende geheugenruimte</string>
+    <string name="dialog_not_enough_space_msg">Dit apparaat heeft onvoldoende schijfruimte om de gekozen publicatie te downloaden. Maak minimaal %d MB vrij en probeer opnieuw.</string>
+    <string name="dialog_sd_card_not_available_title">SD-kaart is niet beschikbaar</string>
+    <string name="dialog_sd_card_not_available_msg">SD-kaart is verwijderd. De Zinio-toepassing wordt afgesloten. Plaats een SD-kaart en start de toepassing opnieuw.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD kaart is helemaal Vol</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD kaart is helemaal vol. Gelive ruimte vrijmaken.</string>
+    <string name="dialog_shop_no_connectivity_title">Winkel is niet beschikbaar</string>
+    <string name="dialog_shop_no_connectivity_msg">Er is een verbinding nodig om te kunnen winkelen. Controleer aub de verbindingsmogelijkheden of de instellingen van de vluchtmodus.</string>
+    <string name="dialog_sign_out_title">Afmelden</string>
+    <string name="dialog_sign_out_msg">"Weet u zeker dat u zich wilt afmelden?
+
+U zal zich opnieuw moeten aanmelden om toegang te krijgen tot de Zinio-toepassing."</string>
+    <string name="dialog_tip_title">Hint</string>
+    <string name="dialog_manage_tips_title">Hints beheren</string>
+    <string name="non_supported_device_tip_title">Welkom bij Zinio</string>
+    <string name="non_supported_device_tip_msg">"The rich content van Zinio is het beste leesbaar op apparaten met een minimale schermresolutie van 800x480.
+
+U kan de toepassing blijven gebruiken, maar houd er aub rekening mee dat het resultaat niet optimaal zou kunnen zijn."</string>
+    <string name="no_text_tip_msg">Sommige publicaties hebben geen tekstartikelen. De Inhoudsopgave of de Visuele Index kunnen worden gebruikt om de pagina te vinden die U zoekt.</string>
+    <string name="page_tip0_1">"Tik eenmaal met de vinger om het werkbalkmenu te zien.
+U kan kiezen tussen een visuele of een tekstuele inhoudstafel."</string>
+    <string name="page_tip1">"Hint om aan de slag te gaan:
+
+* Draai de pagina om door uw vinger slepend snel naar rechts of links te bewegen
+* Om in te zoomen tweemaal kort met de vinger op het scherm tikken
+* Kies de knop 'text' op de eerste pagina van een artikel om het te lezen."</string>
+    <string name="wifi_connection_tip">"Er is een 3G-netwerkverbinding gevonden.
+
+Publicaties kunnen over 3G worden gedownload, maar voor een optimaal resultaat is wifi aanbevolen."</string>
+    <string name="dialog_available_memory_not_enough_title">Onvoldoende Heapvolume</string>
+    <string name="dialog_available_memory_not_enough_msg">Onvoldoende heapsize.</string>
+    <string name="dialog_delete_title">Verwijder</string>
+    <string name="delete_done">Gereed</string>
+    <string name="dialog_delete_from_library">Weet u zeker dat u wilt verwijderen van de %s?</string>
+    <string name="internet_connection_tip">Internetverbinding is vereist om publicaties te downloaden. Schakel Internetverbinding in en probeer opnieuw.</string>
+    <string name="dialog_change_password_old_password_empty">Voer oude wachtwoord in.</string>
+    <string name="server_error_app_version_not_supported_message">Upgrade beschikbaar Er is een nieuwere versie van de Zinio Reader beschikbaar. Deze versie wordt niet langer ondersteund. Gelieve upgrade naar de nieuwste Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Uw gebruikersnaam en wachtwoord waren verkeerd.
+
+Probeer opnieuw aub. Verwijder-modus - klik op item verwijderen"</string>
+    <string name="server_error_device_not_authorized">Dit apparaat is niet juist geautoriseerd en kan niet worden gebruikt met uw Zinio-account. Om uw apparaat opnieuw te autoriseren dient u eerst uit te loggen uit de app en dan opnieuw in te loggen. Indien u nog steeds problemen ondervindt, neemt u dan contact op met Zinio Customer Support.</string>
+    <string name="server_error_invalid_login">Het e-mailadres is ongeldig. Voer een geldig e-mailadres in.</string>
+    <string name="server_error_invalid_new_password">Het wachtwoord is ongeldig, wij verzoeken u een andere te kiezen.</string>
+    <string name="server_error_issue_not_supported_for_device">Ongeldige uitgave. Neem contact op met de klantenservice viasupport@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Deze account heeft het maximale aantal apparaten bereikt. Trek de machtiging voor een apparaat in en probeer opnieuw aub.</string>
+    <string name="server_error_packing_list_not_found">De paklijst ontbreekt. Neem contact op met de klantenservice viasupport@zinio.com.</string>
+    <string name="server_error_login_exists">Het e-mailadres bestaat al. Kies een ander aub.</string>
+    <string name="server_error_system_error">Er is een serverfout opgetreden. Probeer het later nogmaals.</string>
+    <string name="server_error_system_not_available">Het is mogelijk dat delen van de app niet beschikbaar zijn op dit moment. Probeer later nogmaals als een onderdeel niet toegankelijk is.</string>
+    <string name="server_error_no_items_in_library">U heeft momenteel geen titels. De beschikbare titels kunt u vinden in de Winkel tab.</string>
+    <string name="server_error_user_not_entitled">Gebruiker is niet gemachtigd. Neem contact op met de klantenservice viasupport@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Wilt u uw oordeel geven over de Zinio Reader?</string>
+    <string name="dialog_outofdate_issue_removed_msg">De verouderde uitgave is verwijderd en zal nogmaals worden gedownload.</string>
+    <string name="dialog_review_msg">Wij vinden uw mening belangrijk, geef ons a.u.b. uw opmerkingen nu door.</string>
+    <string name="dialog_review_title">Wij verzoeken u uw opmerkingen aan ons door te geven.</string>
+    <string name="server_error_invalid_newstand">Ongeldige kiosk. Neem contact op met de klantenservice viasupport@zinio.com.</string>
+    <string name="forgot_password_underline"><u>Wachtwoord vergeten?</u></string>
+</resources>

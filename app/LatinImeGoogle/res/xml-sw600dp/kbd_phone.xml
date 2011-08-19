@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="16.750002%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_numkey_styles" />
+    <Row>
+        <Key latin:keyWidth="9.249997%p" latin:code="45" latin:keyLabel=" - " latin:keyXPos="15.625%p" />
+        <Key latin:keyWidth="9.249997%p" latin:code="43" latin:keyLabel=" + " />
+        <Key latin:keyStyle="num1KeyStyle" latin:keyXPos="38.866997%p" />
+        <Key latin:keyStyle="num2KeyStyle" />
+        <Key latin:keyStyle="num3KeyStyle" />
+        <Key latin:keyWidth="-11.000002%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" latin:keyXPos="-11.000002%p" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="9.249997%p" latin:code="44" latin:keyLabel=" , " latin:keyXPos="15.625%p" />
+        <Key latin:keyWidth="9.249997%p" latin:code="46" latin:keyLabel=" . " />
+        <Key latin:keyStyle="num4KeyStyle" latin:keyXPos="38.866997%p" />
+        <Key latin:keyStyle="num5KeyStyle" />
+        <Key latin:keyStyle="num6KeyStyle" />
+        <Key latin:keyWidth="-11.000002%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" latin:keyXPos="-11.000002%p" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="11.000002%p" latin:keyEdgeFlags="left" latin:keyStyle="moreKeyStyle" />
+        <Key latin:keyWidth="9.249997%p" latin:code="40" latin:keyLabel=" ( " latin:keyXPos="15.625%p" />
+        <Key latin:keyWidth="9.249997%p" latin:code="41" latin:keyLabel=" ) " />
+        <Key latin:keyStyle="num7KeyStyle" latin:keyXPos="38.866997%p" />
+        <Key latin:keyStyle="num8KeyStyle" />
+        <Key latin:keyStyle="num9KeyStyle" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="11.000002%p" latin:keyEdgeFlags="left" latin:keyStyle="tabKeyStyle" />
+        <Key latin:keyWidth="18.669998%p" latin:keyStyle="nonSpecialBackgroundSpaceKeyStyle" latin:keyXPos="15.625%p" />
+        <Key latin:keyStyle="numStarKeyStyle" latin:keyXPos="38.866997%p" />
+        <Key latin:keyStyle="num0KeyStyle" />
+        <Key latin:keyStyle="numPoundKeyStyle" />
+        <Spacer latin:keyWidth="0.0dip" latin:keyXPos="-11.000002%p" />
+        <include latin:keyboardLayout="@xml/kbd_qwerty_f2" />
+    </Row>
+</Keyboard>

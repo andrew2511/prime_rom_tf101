@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">posti</string>
+    <string name="multiple_mails">postit</string>
+    <string name="go_to">Saapuneet</string>
+</resources>

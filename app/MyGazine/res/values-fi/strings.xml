@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSIVUSTO</string>
+    <string name="music_title_str">MUSIIKKI</string>
+    <string name="web_tag_str">Ei URL:ää</string>
+    <string name="music_tag_album">Ei Albumia</string>
+    <string name="music_tag_song">Ei kappaletta</string>
+    <string name="music_tag_artist">Ei Artistia</string>
+    <string name="date_text_str">Ei Päivämäärää</string>
+    <string name="cal_event_str">Ei viimeisintä tapahtumaa</string>
+    <string name="weather_info_str">Ei säätietoja</string>
+    <string name="weather_content_str">Ei Sääsisältöä</string>
+    <string name="photo_date_str">Ei Valokuvapäivämäärää</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Tuuli ENE (Itä-koillinen)</string>
+    <string name="humidity">Kosteus</string>
+    <string name="email_unit">Sähköpostit</string>
+    <string name="email_unit_single">Sähköposti</string>
+    <string name="event_unit">Tapahtumat</string>
+    <string name="event_unit_single">Tapahtuma</string>
+    <string name="book_unit">Kirjat</string>
+    <string name="book_unit_single">Varaa</string>
+    <string name="weather_city_str">Ei Kaupunkia</string>
+    <string name="date_format_title">Päivämäärämuoto</string>
+    <string name="preference_header_title">Asetus</string>
+    <string name="slideshow_header_title">Diaesitys</string>
+    <string name="picture_number_title">Diaesityksen kuvanumero</string>
+    <string name="slide_show_interval_title">Diaesityksen aikaväli</string>
+    <string name="transition_effect_title">Siirtymätehoste</string>
+    <string name="enable">Ota käyttöön</string>
+    <string name="disable">Pois käytöstä</string>
+    <string name="app_settings">ASUS MyZine -asetukset</string>
+    <string name="unit_picture">kuvat</string>
+    <string name="unit_second">sekuntia</string>
+    <string name="Image_headline">Kuva</string>
+    <string name="display_headline">Näyttö</string>
+    <string name="date_headline">Päivämäärä</string>
+    <string name="logo_display_title">ASUS MyZine -logo</string>
+    <string name="date_display_title">Päivämäärä/Aika</string>
+    <string name="photo_date_display_title">Luo kuviin päivämäärä</string>
+    <string name="event_display_title">Tuleva tapahtuma</string>
+    <string name="weather_display_title">Säätila</string>
+    <string name="scale_type_title">Kuvaesitys</string>
+</resources>

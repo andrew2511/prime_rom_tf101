@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">רשמקול</string>
+    <string name="record_your_message">הקלט את ההודעה</string>
+    <string name="message_recorded">ההודעה הוקלטה</string>
+    <string name="review_message">סקירת הודעה</string>
+    <string name="recording">מקליט</string>
+    <string name="recording_stopped">ההקלטה נעצרה</string>
+    <string name="storage_is_full">שטח האחסון מלא</string>
+    <string name="max_length_reached">הגעת לאורך המרבי</string>
+    <string name="min_available">%d דקות נותרו</string>
+    <string name="sec_available">%d שניות נותרו</string>
+    <string name="accept">השתמש בהקלטה זו</string>
+    <string name="discard">מחק</string>
+    <string name="button_ok">אישור</string>
+    <string name="audio_db_artist_name">ההקלטות שלך</string>
+    <string name="audio_db_album_name">הקלטות אודיו</string>
+    <string name="audio_db_playlist_name">ההקלטות שלי</string>
+    <string name="error_app_internal">שגיאת יישום פנימית</string>
+    <string name="error_mediadb_new_record">אין אפשרות לשמור את האודיו שהוקלט</string>
+    <string name="save">שמור</string>
+</resources>

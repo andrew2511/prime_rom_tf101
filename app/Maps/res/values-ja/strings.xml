@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Googleマップ</string>
+    <string name="da_google_maps_navigation">Googleマップ ナビ</string>
+    <string name="da_net_fail_title">ネットワークエラー</string>
+    <string name="da_net_fail_body">このアプリケーションにはデータ接続が常に必要です。</string>
+    <string name="da_beta">ベータ版</string>
+    <string name="da_destination">目的地</string>
+    <string name="da_toward">%1$s方面</string>
+    <string name="da_onto">%1$sに入る</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">"、 "</string>
+    <string name="da_then_next_step">"その先
+%1$s"</string>
+    <string name="da_continue_for_distance">そのまま%1$s進む</string>
+    <string name="da_destination_will_be_on_the_left">目的地は左側です。</string>
+    <string name="da_destination_will_be_on_the_right">目的地は右側です。</string>
+    <string name="da_you_will_reach_destination">目的地です。</string>
+    <string name="da_destination_on_the_left">目的地は左側です。運転、お疲れ様でした。</string>
+    <string name="da_destination_on_the_right">目的地は右側です。運転、お疲れ様でした。</string>
+    <string name="da_destination_reached">目的地に到着しました。運転、お疲れ様でした。</string>
+    <string name="da_speech_lost_gps">GPS信号が失われました</string>
+    <string name="da_speech_lost_data_connection">データ接続が失われました</string>
+    <string name="da_speech_navigation_resumed">ナビを再開します</string>
+    <string name="da_speech_please_describe_problem">問題について、詳しく説明してください</string>
+    <string name="da_on_left">左側</string>
+    <string name="da_on_right">右側</string>
+    <string name="da_stay_on_road_primary">%1$sをそのまま進む</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%2$sまで%1$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%2$sまで%1$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0}マイル</string>
+    <string name="da_distance_format_miles_compressed">{0}マイル</string>
+    <string name="da_distance_format_feet_abbreviated">{0}フィート</string>
+    <string name="da_distance_format_feet_compressed">{0}フィート</string>
+    <string name="da_distance_format_yards_abbreviated">{0}ヤード</string>
+    <string name="da_distance_format_yards_compressed">{0}yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0}km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0}m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s日%2$s時間</string>
+    <string name="da_time_format_hours" formatted="false">%1$s時間%2$s分</string>
+    <string name="da_time_format_minutes">%1$s分</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s-%2$s</string>
+    <string name="da_navigation">ナビ</string>
+    <string name="da_search_label">検索</string>
+    <string name="da_layers">レイヤ</string>
+    <string name="da_agreement">"Googleマップナビはベータ版です。あらかじめご了承の上、ご利用ください。
+
+運転中はアプリケーションを操作しないでください。渋滞情報データはリアルタイムではありません。また、経路が間違っていたり、危険な場所を通過する場合や、フェリーを利用する場合があります。適用される法律には従うようにしてください。
+
+常に安全運転を心掛けましょう。"</string>
+    <string name="da_agreement_with_walking">"Googleマップナビはベータ版です。あらかじめご了承の上、ご利用ください。
+
+運転中はアプリケーションを操作しないでください。渋滞情報データはリアルタイムではありません。また、経路が間違っていたり、危険な場所を通過する場合や、フェリーを利用する場合があります。徒歩経路に歩道がない場合もあります。適用される法律には従うようにしてください。
+
+常に安全運転を心掛けましょう。"</string>
+    <string name="da_disclaimer_checkbox">このメッセージを再表示する</string>
+    <string name="da_show_list">経路一覧</string>
+    <string name="da_route_overview">経路情報</string>
+    <string name="da_show_map">地図を表示</string>
+    <string name="da_satellite">航空写真</string>
+    <string name="da_traffic_view">渋滞状況表示</string>
+    <string name="da_no_traffic_here">この地域の渋滞情報はありません</string>
+    <string name="da_traffic">交通情報</string>
+    <string name="da_area_view">広域表示</string>
+    <string name="da_mute">ミュート</string>
+    <string name="da_unmute">ミュート解除</string>
+    <string name="da_settings">設定</string>
+    <string name="da_help">ヘルプ</string>
+    <string name="da_terms_privacy_notices">法的事項</string>
+    <string name="da_terms_and_conditions">利用規約</string>
+    <string name="da_privacy_policy">プライバシーポリシー</string>
+    <string name="da_legal_notices">法的通知</string>
+    <string name="da_navigation_suspended">ナビが中断されました</string>
+    <string name="da_exit_navigation">ナビの終了</string>
+    <string name="da_email_me_when_resolved">解決時にメールを受け取る</string>
+    <string name="da_problem_reported">問題を報告しました</string>
+    <string name="da_one_button_map_issue_reporting">ワンボタンで問題を報告</string>
+    <string name="da_attention">注意</string>
+    <string name="da_rmi_warning">"問題の報告では、地図や経路の問題を音声で15秒間録音できます。メッセージは15秒後に現在地や経路とともにGoogleに自動送信されます。
+
+ナビゲーションの設定で、ワンクリックで問題を報告することもできます。
+
+問題の解決時にメールを受け取る設定にしておくと、問題が解決されるまでメールアドレス、現在地、コメントが保管されます。"</string>
+    <string name="da_report_a_problem">問題を報告</string>
+    <string name="da_report_a_problem_dialog_title">問題の報告</string>
+    <string name="da_rmi_preference_trackball_summary">有効にすると、トラックボールを押して問題を報告できます。</string>
+    <string name="da_rmi_preference_camera_summary">有効にすると、カメラボタンを押して問題を報告できます。</string>
+    <string name="da_rmi_preference_no_button_summary">使用できるボタンがありません。</string>
+    <string name="da_rmi_preference_bad_location_summary">現在の国や地域からは問題を報告できません。</string>
+    <string name="da_destination_not_here_warning">目的地と違う場所であることをご報告いただきありがとうございます。この目的地と現在地の情報は、Googleでの今後のデータ精度向上に役立てさせていただきます。</string>
+    <string name="da_destination_not_here_title">問題の報告</string>
+    <string name="da_searching_for_gps">GPSを測位しています...</string>
+    <string name="da_data_connection_lost">データ接続が失われました...</string>
+    <string name="da_follow_the_route">概算経路を表示中</string>
+    <string name="da_waiting_for_directions">運転経路を検索しています</string>
+    <string name="da_waiting_for_walking_directions">徒歩経路を検索しています</string>
+    <string name="da_waiting_for_location">現在地を検出しています</string>
+    <string name="da_checking_navigation_availability">ナビを使用できるか確認中</string>
+    <string name="da_loading_route_details">ルート詳細を読み込み中</string>
+    <string name="da_loading_image">画像の読み込み中</string>
+    <string name="da_waiting_for_alternates">別の経路を検索中</string>
+    <string name="da_waiting_for_details">読み込み中</string>
+    <string name="da_no_details">詳細情報が見つかりません</string>
+    <string name="da_gps_is_disabled">GPSが無効です</string>
+    <string name="da_turn_on_gps">位置情報の設定を表示しますか？</string>
+    <string name="da_voice_guidance">音声ガイド</string>
+    <string name="da_install_voice_guidance_prompt">音声ガイドナビを利用する前に、Androidマーケットからテキスト読み上げサポートをインストールしてください。</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">スキップ</string>
+    <string name="da_dialog_cancel">キャンセル</string>
+    <string name="da_dialog_done">完了</string>
+    <string name="da_dialog_accept">同意する</string>
+    <string name="da_dialog_install">インストール</string>
+    <string name="da_dialog_dont_accept">同意しない</string>
+    <string name="da_dialog_go">開始</string>
+    <string name="da_dialog_get_directions">経路を検索</string>
+    <string name="da_map">地図表示</string>
+    <string name="da_clear_layers">地図をクリア</string>
+    <string name="da_layer_name_parking">駐車場</string>
+    <string name="da_layer_name_attractions">観光スポット</string>
+    <string name="da_layer_name_gas_stations">ガソリンスタンド</string>
+    <string name="da_layer_name_restaurants">レストラン</string>
+    <string name="da_layer_name_supermarkets">スーパー</string>
+    <string name="da_layer_name_atms_and_banks">コンビニ</string>
+    <string name="da_layer_name_convenience_stores">コンビニ</string>
+    <string name="da_query_banks_and_atms">コンビニエンスストア</string>
+    <string name="da_rerouting">経路の再検索中...</string>
+    <string name="da_via">%s経由</string>
+    <string name="da_to_destination">%sまで</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">フィードバックを録音</string>
+    <string name="da_destination_not_here">目的地はここではない</string>
+    <string name="da_new_destination">他の目的地</string>
+    <string name="da_reroute_to_destination">目的地に戻る</string>
+    <string name="da_change_destination">目的地設定</string>
+    <string name="da_search_for_destination">検索...</string>
+    <string name="da_point_on_map">地図上の場所</string>
+    <string name="da_volume">ナビの音量</string>
+    <string name="da_exit">終了</string>
+    <string name="da_did_you_mean">以下の候補から選択してください:</string>
+    <string name="da_did_you_say">もしかして:</string>
+    <string name="da_for_your_end_point">目的地の絞り込み</string>
+    <string name="da_unnamed_road">名称のない道路</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s、その先、%2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s、%2$s</string>
+    <string name="da_speech_in_x_meters">およそ%1$sm先</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">およそ1.5キロ先</string>
+    <string name="da_speech_continue_for_x_meters">そのまま%1$sm走行</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">そのまま1.5キロ走行</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">そのまま%2$sを%1$sm走行</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">そのまま%1$sを1.5キロ走行</string>
+    <string name="da_speech_generic_continue">しばらく道なりです</string>
+    <string name="da_speech_in_x_feet">およそ%1$sフィート先</string>
+    <string name="da_speech_in_x_yards">およそ%1$sヤード先</string>
+    <string name="da_speech_in_a_quarter_mile">およそ1/4マイル先</string>
+    <string name="da_speech_in_a_half_mile">およそ0.5マイル先</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">およそ3/4マイル先</string>
+    <string name="da_speech_in_one_and_a_half_miles">およそ1.5マイル先</string>
+    <string name="da_speech_continue_for_x_feet">そのまま%1$sフィート走行</string>
+    <string name="da_speech_continue_for_x_yards">そのまま%1$sヤード走行</string>
+    <string name="da_speech_continue_for_a_quarter_mile">そのまま1/4マイル走行</string>
+    <string name="da_speech_continue_for_a_half_mile">そのまま0.5マイル走行</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">そのまま3/4マイル走行</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">そのまま1.5マイル走行</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">そのまま%2$sを%1$sフィート走行</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">そのまま%2$sを%1$sヤード走行</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">そのまま%1$sを1/4マイル走行</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">そのまま%1$sを0.5マイル走行</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">そのまま%1$sを3/4マイル走行</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">そのまま%1$sを1.5マイル走行</string>
+    <string name="da_route_prefixes">北,北東,東,南東,南,南西,西,北西</string>
+    <string name="da_route_suffixes">北,北東,東,南東,南,南西,西,北西,通り,通り,バイパス,通り,通り,通り,高速,高速,高速,通り,高速,通り,通り,通り,通り,通り</string>
+    <string name="da_no_route">一致する経路がありません</string>
+    <string name="da_route_not_found">目的地への経路が見つかりませんでした。</string>
+    <string name="da_destination_not_found">目的地を特定できません。</string>
+    <string name="da_navigation_not_supported">目的地へのナビを利用できません。</string>
+    <string name="da_navigation_not_supported_at_current_loc">この国や地域ではまだGoogleマップナビを利用できません。</string>
+    <string name="da_launch_maps">マップを起動</string>
+    <string name="da_no_image_available">利用できる画像がありません。</string>
+    <string name="da_image_error">画像の読み込み中にエラー。</string>
+    <string name="da_no_alternate_routes">目的地への別の経路が見つかりませんでした。</string>
+    <string name="da_picker_type_destination">目的地を入力</string>
+    <string name="da_picker_speak_destination">目的地を音声入力</string>
+    <string name="da_picker_contacts">連絡先</string>
+    <string name="da_picker_starred_items">スター付きの場所</string>
+    <string name="da_picker_new_contact">連絡先を新規登録</string>
+    <string name="da_picker_recent_destinations">最近の目的地</string>
+    <string name="da_picker_choose_destination">目的地の選択</string>
+    <string name="da_navigate_to">目的地:</string>
+    <string name="da_picker_search_hint">目的地</string>
+    <string name="da_route_options">経路オプション</string>
+    <string name="da_updating_directions">経路を更新しています</string>
+    <string name="da_picker_no_starred_items">"スター付きの場所がありません。
+
+スター付きの場所は自動的にmaps.google.co.jpと同期されます。
+
+Googleマップの検索結果にスターを付けるには、住所の近くにあるスターアイコンをタップします。"</string>
+    <string name="da_picker_no_contacts">"住所が設定されている連絡先がありません。
+
+連絡先アプリで新しい連絡先を追加したり、既存の連絡先に住所を設定したりできます。"</string>
+    <string name="da_driving">車</string>
+    <string name="da_walking">徒歩</string>
+    <string name="da_quoted_text">「%1$s」</string>
+    <string name="da_more_info">詳細</string>
+    <string name="da_search_maps">地図を検索</string>
+    <string name="da_walking_warning">徒歩（Beta）: 注意して使用してください</string>
+    <string name="da_calibrate_compass_title">コンパスの調整</string>
+    <string name="da_calibrate_compass">コンパスが未調整です。調整するには端末を8の字に数回動かしてください。</string>
+    <string name="da_confirm_exit_title">ナビを終了しますか？</string>
+    <string name="da_confirm_exit_text">すべての経路案内を終了します。</string>
+    <string name="da_route_includes_tolls">有料道路を使う経路です</string>
+    <string name="da_avoid_tolls">有料道路を使わない</string>
+    <string name="da_avoiding_tolls">有料道路を使わない経路です</string>
+    <string name="da_avoiding_highways">高速道路を使わない経路です</string>
+    <string name="da_route_includes_unavoidable_tolls">この経路は有料道路を使います。</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">この経路は有料道路を使います。有料道路は下の%1$s%2$sで無効にできます。</string>
+    <string name="da_seasonally_closed">季節によっては経路の一部が閉鎖される場合があります</string>
+    <string name="da_direction_north">北</string>
+    <string name="da_direction_north_west">北西</string>
+    <string name="da_direction_west">西</string>
+    <string name="da_direction_south_west">南西</string>
+    <string name="da_direction_south">南</string>
+    <string name="da_direction_south_east">南東</string>
+    <string name="da_direction_east">東</string>
+    <string name="da_direction_north_east">北東</string>
+    <string name="da_step_depart">%1$sに進みます</string>
+    <string name="da_step_depart_on" formatted="false">%2$sを%1$sです</string>
+    <string name="da_step_slight_left">斜め左方向です</string>
+    <string name="da_step_slight_right">斜め右方向です</string>
+    <string name="da_step_turn_left">左方向です</string>
+    <string name="da_step_turn_right">右方向です</string>
+    <string name="da_step_sharp_left">大きく左方向です</string>
+    <string name="da_step_sharp_right">大きく右方向です</string>
+    <string name="da_step_slight_left_onto">斜め左方向、%1$sです</string>
+    <string name="da_step_slight_right_onto">斜め右方向、%1$sです</string>
+    <string name="da_step_turn_left_onto">左方向、%1$sです</string>
+    <string name="da_step_turn_right_onto">右方向、%1$sです</string>
+    <string name="da_step_sharp_left_onto">大きく左方向、%1$sです</string>
+    <string name="da_step_sharp_right_onto">大きく右方向、%1$sです</string>
+    <string name="da_step_fork_left">分岐を左方向です</string>
+    <string name="da_step_fork_right">分岐を右方向です</string>
+    <string name="da_step_continue_onto">直進して、%1$sです</string>
+    <string name="da_step_continue_straight">直進です</string>
+    <string name="da_step_u_turn">Uターンします</string>
+    <string name="da_step_take_the_ramp">ランプです</string>
+    <string name="da_step_take_the_ramp_onto">ランプから%1$sです</string>
+    <string name="da_step_take_the_ramp_on_the_left">左方向、ランプです</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">左方向、ランプから%1$sです</string>
+    <string name="da_step_take_the_ramp_on_the_right">右方向、ランプです</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">右方向、ランプから%1$sです</string>
+    <string name="da_step_take_the_exit">出口です</string>
+    <string name="da_step_take_the_exit_on_the_left">左方向、出口です</string>
+    <string name="da_step_take_the_exit_on_the_right">右方向、出口です</string>
+    <string name="da_step_take_the_exit_onto">出口から%1$sです</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">左方向、出口から%1$sです</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">右方向、出口から%1$sです</string>
+    <string name="da_step_take_exit_n">%1$s番出口です</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - 画像 ©%2$d %3$s、地図データ ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - 画像 ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - 地図データ ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">自宅</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">経路とナビ</string>
+    <string name="EXIT_COMMAND">終了</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0}さんからチェックインリクエストが届いています</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Latitudeチェックインリクエスト</string>
+    <string name="GOHOME_DESTINATION_HINT">住所を入力してください</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">ショートカットアイコン</string>
+    <string name="GOHOME_SAVE_SHORTCUT">保存</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">目的地</string>
+    <string name="GOHOME_SHORTCUT_NAME">ショートカット名</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">ターンバイターン方式ナビ</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">設定を開く</string>
+    <string name="HOTPOT_LOADING">読み込み中...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">プレイス ウィジェットを使うには、[位置情報とセキュリティの設定]内の[ワイヤレスネットワークを使用]と、[ワイヤレスとネットワークの設定]内の[Wi-Fi]の両方を有効にする必要があります。</string>
+    <string name="HOTPOT_LOCATION_DISABLED">プレイス ウィジェットを使うには、[位置情報とセキュリティの設定]の[ワイヤレスネットワークを使用]を有効にしてください。</string>
+    <string name="HOTPOT_NO_LOCATION">現在地情報を取得できません</string>
+    <string name="HOTPOT_SEARCH">検索</string>
+    <string name="HOTPOT_SEARCHED_FOR">検索:</string>
+    <string name="HOTPOT_SEARCH_AGAIN">再検索</string>
+    <string name="HOTPOT_SELECT_PLACE">お店を選んで評価をつける</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">場所を選択:</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">現在地不明</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">現在地を更新中...</string>
+    <string name="HOTPOT_WIDGET_NAME">プレイス</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">{0}として投稿を公開する</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">クチコミ</string>
+    <string name="HOTPOT_WIDGET_UPDATED">更新: {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">プレイス ウィジェットの精度を上げるには、[ワイヤレスとネットワークの設定]の[Wi-Fi]を有効にしてください。</string>
+    <string name="HOTPOT_YOU_RATED">あなたの評価:</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">{0}（共有: {1}）</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">{0}にチェックイン済み</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">{0}にチェックインしますか？</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">チェックイン</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">タップしてLatitudeにログインしてください</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">最終更新:{0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">現在地不明</string>
+    <string name="LOADING">読み込み中</string>
+    <string name="MAPS_APP_NAME">マップ</string>
+    <string name="NEED_NET_BODY">このアプリケーションを使用するには、ネットワークによるデータ送受信を許可する必要があります。</string>
+    <string name="NEED_NET_TITLE">ネットワークアクセスが必要です</string>
+    <string name="NETWORK_DATA_ERROR">このアプリケーションにはデータ通信用の接続が必要です。詳しくはご利用の携帯電話会社にお問い合わせください。</string>
+    <string name="NET_FAIL_BODY">このアプリケーションにはデータ接続が常に必要です。</string>
+    <string name="NET_FAIL_TITLE">ネットワークエラー</string>
+    <string name="NET_UNAVAILABLE_TITLE">ネットワークに接続できません</string>
+    <string name="PLACES_APP_NAME">プレイス</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">「例: スパゲティーミートソース、カクテル、音楽」</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">「どんな特徴がありますか？」</string>
+    <string name="RATINGS_OPTIN_CANCEL">キャンセル</string>
+    <string name="RATINGS_OPTIN_CLOSE">閉じる</string>
+    <string name="RATINGS_OPTIN_FAILED">更新できませんでした。しばらくしてからもう一度お試しください。</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>みんなを巻き込もう！&lt;/b>パソコンで &lt;b>{0}&lt;/b> にアクセスして友だちを追加。みんなのお気に入りのお店やスポットを見つけよう。</string>
+    <string name="RATINGS_OPTIN_HEADING">公開用Googleプレイスニックネームの設定</string>
+    <string name="RATINGS_OPTIN_NICKNAME">名前またはニックネーム:</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">お気に入りのレストランやカフェなどに評価をつけると、お好みに合ったおすすめのお店が検索結果に表示されるようになります。</string>
+    <string name="RATINGS_OPTIN_SAVE">開始する</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">"お店につけた評価は、このニックネームで&lt;b>ウェブ上に公開&lt;/b>されます。&lt;a href=#>詳細&lt;/a>。 "</string>
+    <string name="RATINGS_POSTING_AS">{0}としてウェブ上に投稿を公開します。</string>
+    <string name="RATINGS_POSTING_PUBLICLY">ウェブ上に投稿を公開します。</string>
+    <string name="RATINGS_RATE_PLACES">お店に評価をつけると...</string>
+    <string name="RATINGS_SET_APPEARANCE">表示方法を設定</string>
+    <string name="RATINGS_WAIT">お待ちください...</string>
+    <string name="SEARCH_HINT">地図を検索</string>
+    <string name="SHORT_APP_NAME">モバイルGoogleマップ</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">目的地</string>
+    <string name="TRAFFIC_WIDGET_NAME">渋滞状況</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">ウィジェット名</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">保存</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">出発地</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">重大なエラーです。いったん終了して再起動してください。</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">不明なエラー</string>
+    <string name="UPGRADE_BODY">このアプリケーションを使用するには新しいバージョンをインストールする必要があります。</string>
+    <string name="UPGRADE_TITLE">ソフトウェアのアップグレード</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">マップのライブ壁紙</string>
+    <string name="WALLPAPER_MAP_MODE">地図モード</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">標準</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">航空写真</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">地図モード（例: 航空写真）</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">地形</string>
+    <string name="WALLPAPER_SETTINGS">マップライブ壁紙に設定</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">渋滞状況</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">現在の天気情報を地図に表示します。天気情報ウィジェットが必要です。</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">天気情報</string>
+</resources>

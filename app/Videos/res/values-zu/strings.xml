@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_personal_videos">Amavidiyo Omuntu Siqu</string>
+    <string name="menu_shop">Thenga</string>
+    <string name="menu_manage_offline">Phatha ukurenta ungaxhumekile kwi-inthanethi</string>
+    <string name="menu_help">Usizo</string>
+    <string name="menu_settings">Izilungiselelo</string>
+    <string name="make_offline">Yenza kutholakale ungaxhumekile kwi-inthanethi</string>
+    <string name="problem_playing_local">Kube khona inkinga ngokudlala \"%1$s\"</string>
+    <string name="loading">Iyalayisha...</string>
+    <string name="cancel">Khansela</string>
+    <string name="confirm">Qinisekisa</string>
+    <string name="retry">Zama futhi</string>
+    <string name="recent">Okusha</string>
+    <string name="done">Kwenziwe</string>
+    <string name="tap_to_retry">Thinta ukuzama futhi</string>
+    <string name="from_recommended">"kusuka &lt;b>&lt;kumbala wefoni='mhlophe'>Okunconywayo&lt;/ifonti>&lt;/b>"</string>
+    <string name="from_subscriptions">"kusuka &lt;b>&lt;kumbala wefonti='mhlophe'>Imali Ekhishelwayo&lt;/ifonti>&lt;/b>"</string>
+    <string name="from_featured">"kusuka  &lt;b>&lt;kumbala wefonti='mhlophe'>Amavidiyo Ahlanganisiwe&lt;/ifonti>&lt;/b>"</string>
+    <string name="from_most_popular">"kusuka &lt;b>&lt;kumbala wefonti='mhlophe'>Okudume Kakhulu&lt;/ifonti>&lt;/b>"</string>
+    <string name="from_most_discussed">"kusuka &lt;b>&lt;kumbala wefonti='mhlophe'>Okuxoxwe Ngakho Kakhulu&lt;/ifonti>&lt;/b>"</string>
+    <string name="event_video_rated">u-%1$s ukale ividiyo</string>
+    <string name="event_video_shared">%1$s wabelane ngevidiyo</string>
+    <string name="event_video_favorited">U-%1$s uthande ividiyo</string>
+    <string name="event_video_commented">u-%1$s ubeka amazwana kuvidiyo</string>
+    <string name="event_video_uploaded">u-%1$s ulayishe ividiyo</string>
+    <string name="event_friend_added">U-%1$s ube ngumngani no-</string>
+    <string name="event_user_subscription_added">U-%1$s ubhalise ku-</string>
+    <string name="pref_general_category">Izilungiselelo ezivamile</string>
+    <string name="pref_subtitles_size_title">Usayizi wefonti wegama ncazo</string>
+    <string name="pref_subtitles_size_summary">Imisa usayizi wefonti ukusebenziselwa amazwibela</string>
+    <string name="accounts_title">Ngena ngemvume</string>
+    <string name="other_account">Faka i-akhawunti</string>
+    <string name="processing_video">Le vidiyo iyenziwa</string>
+    <string name="video_was_deleted">Le vidiyo isuswe umnikazi</string>
+    <string name="video_not_available">Le vidiyo ayitholakali</string>
+    <string name="problem_while_playing">Kube khona inkinga ngenkathi idlala</string>
+    <string name="video_infringes_copyright">Le vidiyo yephula i-copyright</string>
+    <string name="video_was_judged_inappropriate">Le vidiyo yahlulelwe ngokungalungile</string>
+    <string name="duplicate_upload">Le vidiyo inqatshelwe (ukulayisha okubili)</string>
+    <string name="video_violated_terms_of_use">Le vidiyo yephule izimiso zokusebenzisa</string>
+    <string name="uploader_account_suspended">I-akhawunti yomlandi imiswe okwesikhashana</string>
+    <string name="video_too_long">Le vidiyo yinde kakhulu</string>
+    <string name="blocked_by_content_owner">Kuvimbelwe umnikazi wokuqethwe</string>
+    <string name="video_not_available_in_your_country">Akutholakali ezweni lakini</string>
+    <string name="video_not_available_on_mobile">Le vidiyo ayikho kwiselula yokusetshenziswa</string>
+    <string name="video_is_private">Le vidiyo iyimfihlo</string>
+    <string name="video_couldnt_be_processed">Levidiyo ayikwazanga ukuguqulwa</string>
+    <string name="video_is_in_an_invalid_format">Le vidiyo ikwifomethii yefayela engalungile</string>
+    <string name="video_uses_an_unsupported_codec">Le vidiyo isebenzisa i-codec engasekelwe</string>
+    <string name="video_is_empty">Le vidiyo ayinalutho</string>
+    <string name="video_is_too_small">Le vidiyo incane kakhulu</string>
+    <string name="adult_content_intro">"Le vidiyo ingaba nokuqukethwe okungalungile kwabanye abasebenzisi, njengoba ihlatshwe umkhosi umphakathi wabasebenzisi be-YouTube
+
+"</string>
+    <string name="adult_content_login">Ukubuka levidiyo, sicela uqiniseke ukuthi uneminyaka engu-18 noma ngaphezulu ngokungena ngemvume</string>
+    <string name="adult_content_confirm">Ngokuthina okuthi \"Qinisekisa\", uyavuma ukuthi wonke amavidiyo ahlabelwe umkhosi umphakathi we-YouTube azobukwa yile akhawunti</string>
+    <string name="adult_content_underage">Uxolo, kufanele ubeneminyaka engu-18 noma ngaphezulu ukuze ubuke le vidiyo</string>
+    <string name="error_network">Kube khona inkinga ngenethiwekhi</string>
+    <string name="error_connection">Kube khona inkinga yokuxhuma kwinethiwekhi</string>
+    <string name="error_http">Kube khona inkinga yenethiwekhi [%1$s[</string>
+    <string name="error_response">Kube khona inkinga ngempendulo yenethiwekhi</string>
+    <string name="error_dev_reg">Kube khona inkinga yokuqalisa. Sicela uhlole uxhumano lwakho lwenethiwekhi nesikhathi sesistimu.</string>
+    <string name="error_authenticating">Kube khona inkinga yokuqinisekisa</string>
+    <string name="error_no_linked_youtube_account">I-akhawunti yakho ayixhunyiwe kwi-akhawunti yakho ye-YouTube. Sicela uhlanganise i-akhawunti yakho bese uzama futhi.</string>
+    <string name="error_forbidden_action">Lesi senzo asivumelwe</string>
+    <string name="error_forbidden_list_access">Uhlu alukwazi ukubukwa</string>
+    <string name="error_posting_comment">Kube khona inkinga ngokuposa okuphawulwayo kwakho</string>
+    <string name="error_generic">Kuvele iphutha</string>
+    <string name="time_filter_dialog_title">Isihlungi sesikhathi</string>
+    <string name="time_filter_today">Namhlaje</string>
+    <string name="time_filter_this_week">Leli viki</string>
+    <string name="time_filter_this_month">Le nyanga</string>
+    <string name="time_filter_all_time">Sonke isikhathi</string>
+    <string name="subtitles">Amazwibela</string>
+    <string name="turn_off_subtitles">Vala amazwibela</string>
+    <string name="no_subtitles">Awekho amazwibela atholakalayo ale vidiyo</string>
+    <string name="advertisement">Isikhangiso</string>
+    <string name="all_categories">Konke</string>
+    <string name="share_subject">Buka ama- \"%s\" efonini yakho</string>
+    <string name="title_watch">Buka</string>
+    <string name="video_info">Ulwazi</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_vibe_music" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_ep_remote_music" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip">
+                        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/asus_ep_remote_logo" android:scaleType="center" />
+                        <TextView android:textSize="72.0dip" android:textStyle="bold" android:textColor="@color/asus_ep_remote_text_color" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_main_category" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_vibe_radio" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_ep_remote_radio" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip">
+                        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/asus_ep_remote_logo" android:scaleType="center" />
+                        <TextView android:textSize="72.0dip" android:textStyle="bold" android:textColor="@color/asus_ep_remote_text_color" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio_main_category" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_vibe_video" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_ep_remote_video" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip">
+                        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/asus_ep_remote_logo" android:scaleType="center" />
+                        <TextView android:textSize="72.0dip" android:textStyle="bold" android:textColor="@color/asus_ep_remote_text_color" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_main_category" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_vibe_news" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_ep_remote_news" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip">
+                        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/asus_ep_remote_logo" android:scaleType="center" />
+                        <TextView android:textSize="72.0dip" android:textStyle="bold" android:textColor="@color/asus_ep_remote_text_color" android:gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/news_main_category" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/empty_view" />
+</RelativeLayout>

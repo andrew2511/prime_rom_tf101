@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ส่วนติดต่อผู้ใช้ของระบบ</string>
+    <string name="status_bar_clear_all_button">ล้างข้อมูล</string>
+    <string name="status_bar_do_not_disturb_button">ห้ามรบกวน</string>
+    <string name="status_bar_please_disturb_button">แสดงการแจ้งเตือน</string>
+    <string name="status_bar_no_notifications_title">ไม่มีการแจ้งเตือน</string>
+    <string name="status_bar_ongoing_events_title">ดำเนินอยู่</string>
+    <string name="status_bar_latest_events_title">การแจ้งเตือน</string>
+    <string name="battery_low_title">โปรดเสียบอุปกรณ์ชาร์จ</string>
+    <string name="battery_low_subtitle">แบตเตอรี่เหลือน้อย</string>
+    <string name="battery_low_percent_format">เหลืออีก %d%%</string>
+    <string name="invalid_charger">"ไม่สนับสนุนการชาร์จแบบ USB
+ใช้เฉพาะที่ชาร์จที่ให้มาเท่านั้น"</string>
+    <string name="battery_low_why">การใช้แบตเตอรี่</string>
+    <string name="status_bar_settings_settings_button">การตั้งค่า</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">โหมดใช้งานบนเครื่องบิน</string>
+    <string name="status_bar_settings_auto_rotation">หมุนหน้าจออัตโนมัติ</string>
+    <string name="status_bar_settings_mute_label">ปิดเสียง</string>
+    <string name="status_bar_settings_auto_brightness_label">อัตโนมัติ</string>
+    <string name="status_bar_settings_notifications">การแจ้งเตือน</string>
+    <string name="recent_tasks_title">เมื่อเร็วๆ นี้</string>
+    <string name="recent_tasks_empty">ไม่มีแอปพลิเคชันล่าสุด</string>
+    <string name="recent_tasks_app_label">แอปพลิเคชัน</string>
+    <string name="bluetooth_tethered">บลูทูธที่ปล่อยสัญญาณ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">กำหนดค่าวิธีการป้อนข้อมูล</string>
+    <string name="status_bar_use_physical_keyboard">ใช้แป้นพิมพ์จริง</string>
+    <string name="usb_device_permission_prompt">อนุญาตให้แอปพลิเคชัน %1$s เข้าถึงอุปกรณ์ USB นี้หรือไม่</string>
+    <string name="usb_accessory_permission_prompt">อนุญาตให้แอปพลิเคชัน %1$s เข้าถึงอุปกรณ์เสริม USB นี้หรือไม่</string>
+    <string name="usb_device_confirm_prompt">เปิด %1$s เมื่อมีการเชื่อมต่ออุปกรณ์ USB นี้หรือไม่</string>
+    <string name="usb_accessory_confirm_prompt">เปิด %1$s เมื่อมีการเชื่อมต่ออุปกรณ์เสริม USB นี้หรือไม่</string>
+    <string name="usb_accessory_uri_prompt">แอปพลิเคชันที่ติดตั้งใช้กับอุปกรณ์ USB นี้ไม่ได้ เรียนรู้เพิ่มเติมที่ %1$s</string>
+    <string name="title_usb_accessory">อุปกรณ์เสริม USB</string>
+    <string name="label_view">ดู</string>
+    <string name="always_use_device">ใช้ค่าเริ่มต้นสำหรับอุปกรณ์ USB นี้</string>
+    <string name="always_use_accessory">ใช้ค่าเริ่มต้นสำหรับอุปกรณ์เสริม USB นี้</string>
+</resources>

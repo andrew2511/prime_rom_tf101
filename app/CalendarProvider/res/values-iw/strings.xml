@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">אחסון לוח שנה</string>
+    <string name="calendar_default_name">ברירת מחדל</string>
+    <string name="calendar_info">פרטי לוח שנה</string>
+    <string name="calendar_info_error">שגיאה</string>
+    <string name="calendar_info_no_calendars">אין לוחות שנה</string>
+    <string name="calendar_info_events">אירועים: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">אירועים: %1$d, לא שמורים: %2$d</string>
+    <string name="provider_label">לוח שנה</string>
+</resources>

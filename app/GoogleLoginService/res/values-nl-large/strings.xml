@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Gereed</string>
+    <string name="signed_in">Aanmelding geslaagd</string>
+    <string name="account_linked_message">Aangemeld bij %s en gegevens worden gesynchroniseerd.</string>
+    <string name="account_setup_title">Google-account</string>
+    <string name="account_created_message">Nieuw account gemaakt: %s</string>
+    <string name="login_activity_title">Aanmelden met uw Google-account</string>
+    <string name="show_error_activity_title">Aanmelden bij Google-account mislukt</string>
+    <string name="login_activity_task_title">Bezig met aanmelden...</string>
+    <string name="sync_intro_activity_title_first_account">Back-up maken en terugzetten</string>
+    <string name="sync_intro_activity_title_first_created_account">Account gemaakt</string>
+    <string name="sync_intro_activity_title">Aangemeld bij account</string>
+</resources>

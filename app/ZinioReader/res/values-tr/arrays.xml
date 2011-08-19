@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Konular tarih veya başlığa göre sıralanabilir. Bunları ekranın üst kısmındaki sekmelerden seçin.</item>
+        <item>"Daha fazla okumanız mı gerekiyor?
+En son yayınlar ve makaleler için çevrim içi mağazaya gitmek maksadıyla ekranın altındaki mağaza düğmesine tıklayın."</item>
+        <item>Alışveriş yap, daha fazlası, sil veya oturumdan çık gibi daha fazla seçeneği görmek için menüyü seçin.</item>
+        <item>Bir yandan okurken otomatik olarak indirmek için bir konu seçin VEYA daha sonra okumak üzere kaydetmek amacıyla indir düğmesine de tıklayabilirsiniz.</item>
+    </string-array>
+</resources>

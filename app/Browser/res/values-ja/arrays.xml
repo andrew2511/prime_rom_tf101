@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_development_ua_choices">
+        <item>タブレット</item>
+        <item>デスクトップ</item>
+        <item>携帯電話</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>常にON</item>
+        <item>オンデマンド</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>最小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>中国語（GBK）</item>
+        <item>中国語（Big5）</item>
+        <item>日本語（ISO-2022-JP）</item>
+        <item>日本語（SHIFT_JIS）</item>
+        <item>日本語（EUC-JP）</item>
+        <item>韓国語（EUC-KR）</item>
+    </string-array>
+</resources>

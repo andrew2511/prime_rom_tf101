@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/header_background_and_padding_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hero_art" android:layout_width="@dimen/promo_width" android:layout_height="@dimen/promo_height" android:src="@android:color/white" android:scaleType="centerCrop" />
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="18.0dip" />
+</LinearLayout>

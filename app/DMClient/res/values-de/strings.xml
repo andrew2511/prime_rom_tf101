@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">Minuten</string>
+    <string name="postpone">Aufschieben</string>
+    <string name="update">Aktualisieren</string>
+    <string name="firmware_update_title">Firmware-Aktualisierung</string>
+    <string name="firmware_update_fail">"Aktualisierung fehlgeschlagen.
+
+Ihr Gerät stellt die Originalkonfiguration wieder her."</string>
+    <string name="low_battery_warning">"Das System benötigt zum Fortfahren der Systemaktualisierung eine Akkulaufzeit von mindestens %1$d %%.
+Bitte laden Sie den Akku vor der Systemaktualisierung auf."</string>
+    <string name="confirmDownload_textok">"Dieses Update verbessert die Stabilität Ihres Systems und wird keine gespeicherten Daten löschen. Wir empfehlen daher dringend auf diese Version zu aktualisieren. 
+Drücken Sie auf Ja, um die Aktualisierung zu bestätigen."</string>
+    <string name="confirmDownload_textcancel">Zum Ablehnen der Aktualisierung NEIN drücken.</string>
+    <string name="confirmDownload_textwifi">Wir empfehlen Ihnen die Verwendung eines kostenlosen Hotspots, um das Update herunterzuladen.</string>
+    <string name="confirmDownload_textwifi2">Wenn Sie auf Später drücken können Sie den Download jederzeit durch drücken der Benachrichtigung ausführen.</string>
+    <string name="btn_text_later">Später</string>
+    <string name="confirmDownload_dialog_title">Achtung, Sie führen Roaming durch.</string>
+    <string name="downloading">Firmware wird heruntergeladen...</string>
+    <string name="install_time">Geschätzte Installationsdauer:</string>
+    <string name="postponetime_text">Aufschubdauer:</string>
+    <string name="install">Installieren</string>
+    <string name="reach_max_net_fail">Download vom Server abgebrochen, bitte später noch einmal versuchen.</string>
+    <string name="dlg_title_checking">Integritätsprüfung.</string>
+    <string name="dlg_msg_checking">Prüfung der Integrität Ihrer Firmware-Datei.</string>
+    <string name="cannot_set_to_browser">Browser kann nicht eingerichtet werden.</string>
+    <string name="upgrade_error">Fehler beim Aufrüsten, Aktualisierungspaket bitte noch einmal herunterladen.</string>
+    <string name="start_to_download">Download des kritischen Aktualisierungspakets starten.</string>
+    <string name="start_to_upgrade">Aufrüstung des Aktualisierungspakets starten.</string>
+    <string name="start_NI_dmSession">Netzwerk initialisiert DM-Session; akzeptieren?</string>
+    <string name="download_finished">Firmware-Download abgeschlossen...</string>
+    <string name="download_in_progress">Neuer Firmware-Download wird durchgeführt</string>
+    <string name="out_of_mem_warning">"Nicht genügend Speicherplatz,
+bitte einige Anwendungen deinstallieren und noch einmal versuchen."</string>
+    <string name="ui_alert_input_hint">Bitte Text eingeben</string>
+    <string name="ui_alert_input_numeric_hint">Bitte Ziffern eingeben</string>
+    <string name="ui_alert_input_phone_number_hint">Bitte Telefonnummer eingeben</string>
+    <string name="check_for_update">Auf Aktualisierung prüfen</string>
+    <string name="no_new_fota_update">Es ist aktuell keine Aktualisierung für Ihr Gerät verfügbar.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Abbrechen</string>
+    <string name="confirm_download_btn_Yes">Ja</string>
+    <string name="confirm_download_btn_No">Nein</string>
+    <string name="confirm_update_title">ASUS-Firmware-Aktualisierung</string>
+    <string name="asus_received_title">ASUS System-Firmware-Aktualisierung</string>
+    <string name="received_message">Neue System-Firmware verfügbar, zum Aktualisieren bitte hier drücken.</string>
+    <string name="low_battery_title">System-Firmware-Aktualisierung abgebrochen</string>
+    <string name="dl_received_ticker">Neue System-Firmware verfügbar.</string>
+    <string name="dl_received_message">Neue System-Firmware verfügbar, zum Herunterladen bitte hier drücken</string>
+    <string name="confirmDownload_text1">Wollen Sie die folgende System-Firmware-Aktualisierung herunterladen?</string>
+    <string name="received_ticker">Neue System-Firmware verfügbar.</string>
+    <string name="update_dialog_text">"Es wurde eine neue System-Firmware für Ihr Gerät heruntergeladen. Jetzt installieren?
+"</string>
+    <string name="prepare_dm_download">System-Firmware-Download vorbereiten...</string>
+    <string name="system_update_activity">System-Firmware-Update</string>
+    <string name="has_new_fota_update">Neue System-Firmware-Aktualisierung für Ihr Gerät verfügbar. Bitte überprügen Sie Ihre Nachrichten.</string>
+    <string name="update_dialog_text2">Diese neue System-Firmware verbessert die Stabilität und löscht keine Daten. Wir empfehlen Ihnen dringend, die Aktualisierung auf diese Version durchzuführen.</string>
+</resources>

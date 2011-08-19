@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ref_menu" />
+    <LinearLayout android:background="#ff9b9b9b" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_header" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/backBt" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back" android:onClick="backFunction" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="15.0sp" android:textColor="@color/headertext" android:layout_gravity="center" android:id="@id/mPath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="File Name" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/GoRootBt" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_root" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/preview_container" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/loadingPreview" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dialog_loading" />
+            <TextView android:textColor="@android:color/black" android:id="@id/txtPreview" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" />
+            <ImageView android:id="@id/noPreview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_list_other" />
+            <ImageView android:id="@id/musicPlayerIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_preview_play" android:onClick="musicPlayBack" />
+            <ImageView android:id="@id/imgPreview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/btn_green" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/file_long_click_download_to" android:drawableLeft="@drawable/icon_download" android:onClick="downloadToFunction" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:background="@drawable/btn_green" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/file_long_click_open" android:drawableLeft="@drawable/icon_open" android:onClick="downloadNOpenFunction" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:background="@drawable/btn_blue" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/file_long_click_share" android:drawableLeft="@drawable/icon_share" android:onClick="shareFunction" />
+    </LinearLayout>
+</LinearLayout>

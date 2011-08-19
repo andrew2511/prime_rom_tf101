@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_home" android:id="@id/menuitem_home" android:title="@string/menuitem_home" />
+    <item android:icon="@drawable/ic_menu_view_options" android:id="@id/menuitem_viewoptions" android:title="@string/menuitem_viewoptions" />
+    <item android:icon="@drawable/ic_menu_goto" android:id="@id/menuitem_goto" android:title="@string/menuitem_goto">
+        <menu>
+            <item android:id="@id/menuitem_cover" android:title="@string/goto_cover" />
+            <item android:id="@id/menuitem_toc" android:title="@string/goto_toc" />
+            <item android:id="@id/menuitem_beginning" android:title="@string/goto_beginning" />
+            <item android:id="@id/menuitem_location" android:title="@string/goto_location" />
+            <item android:id="@id/menuitem_notes" android:title="@string/goto_notes" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_back" android:id="@id/menuitem_back" android:title="@string/menuitem_back" />
+    <item android:id="@id/menuitem_bookmark" android:title="@string/menuitem_bookmark" />
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/menuitem_share_progress" android:title="@string/menuitem_share_progress" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/menuitem_sync" android:title="@string/menuitem_sync" />
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/menuitem_search" android:title="@string/menuitem_search" />
+</menu>

@@ -1,0 +1,53 @@
+{
+  "version" : 1,
+  "screens" : [
+    {
+      "id": 1,
+      "texts": [
+        {
+          "text" : "ws_text_000"
+        }
+      ],
+      "imageId": "ws_000"
+    },
+    {
+      "id": 2,
+      "texts": [
+        {
+           "text": "ws_text_001"
+        }
+      ],
+      "imageId": "ws_001"
+    },
+    {
+      "id": 3,
+      "texts": [
+        {
+          "text": "ws_text_002"
+        }
+      ],
+      "imageId": "ws_002"
+    },
+    {
+      "id": 4,
+      "texts": [
+        {
+          "title": "ws_title_0031",
+          "text": "ws_text_0031",
+          "icon" : "ws_icon_addfav"
+        },
+        {
+          "title": "ws_title_0032",
+          "text": "ws_text_0032",
+          "icon" : "ws_icon_screenshot"
+        },
+        {
+          "title": "ws_title_0033",
+          "text": "ws_text_0033",
+          "icon" : "ws_icon_share"
+        }
+      ],
+      "imageId": "ws_003"
+    }
+  ]
+}

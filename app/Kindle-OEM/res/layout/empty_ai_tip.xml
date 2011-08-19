@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/empty_library_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:src="@drawable/ic_dialog_cart" style="@style/empty_home_icon" />
+    <TextView android:text="@string/empty_home_shop" android:layout_weight="1.0" style="@style/empty_home_instruction" />
+</LinearLayout>

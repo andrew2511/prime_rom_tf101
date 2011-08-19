@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_title" />
+    <com.layar.ui.SubsectionWidget android:id="@id/subsections" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sectionTitle" />
+    <ImageView android:background="@null" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/submenu_border" android:scaleType="fitXY" android:layout_alignLeft="@id/subsections" android:layout_alignTop="@id/subsections" android:layout_alignRight="@id/subsections" android:layout_alignBottom="@id/subsections" />
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/subsections">
+        <LinearLayout android:id="@id/featuredBanner" android:background="@color/light_grey" android:paddingLeft="8.0dip" android:paddingTop="7.0dip" android:paddingRight="8.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/subsections">
+            <RelativeLayout android:id="@id/bannerBoxLeft" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0">
+                <com.layar.ui.ImageStatesButton android:id="@id/bannerImage1" android:background="@null" android:layout_width="150.0dip" android:layout_height="74.0dip" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/bannerBoxRight" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_weight="1.0">
+                <com.layar.ui.ImageStatesButton android:id="@id/bannerImage2" android:background="@null" android:layout_width="150.0dip" android:layout_height="74.0dip" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/divider" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/divider" android:scaleType="fitXY" layout="@layout/divider" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/a_no_results" />
+</RelativeLayout>

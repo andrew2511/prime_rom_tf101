@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Ekran görüntüsü</string>
+    <string name="screenshot_dialog_message">Ekran görüntüsü kaydedildi. Ekran görüntüsü modunda kalınsın mı?</string>
+    <string name="screenshot_dialog_yes">Evet</string>
+    <string name="screenshot_dialog_no">Hayır</string>
+    <string name="screenshot_toast_message_saved">Ekran görüntüsü kaydedildi.</string>
+    <string name="screenshot_toast_message_failed">Dosya Aktarma modundayken bir ekran görüntüsü kaydedilemedi.</string>
+    <string name="screenshot_toast_message_failed_save">Ekran görüntüsü kaydedilemedi.</string>
+    <string name="screenshot_toast_message_full">Ekran görüntüsü kaydedilemedi. Yetersiz bellek.</string>
+</resources>

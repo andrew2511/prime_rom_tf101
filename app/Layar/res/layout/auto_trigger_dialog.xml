@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.layar.ui.RotateLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/auto_trigger_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/titleBar" android:padding="4.0dip" android:layout_width="294.0dip" android:layout_height="35.0dip">
+        <ImageView android:layout_gravity="left|center" android:id="@id/layerLogo" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="4.0dip" android:scaleType="centerInside" />
+        <TextView android:textSize="13.0dip" android:typeface="sans" android:layout_gravity="center" android:id="@id/layerTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/poiBlock" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:layout_width="294.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:orientation="vertical" android:id="@id/buttonBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/message" android:layout_centerHorizontal="true" />
+        <CheckBox android:textSize="13.0dip" android:typeface="sans" android:textStyle="normal" android:id="@id/auto_trigger_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/btn_checkbox_x" android:text="@string/trigger_dont_show" android:layout_below="@id/buttonBar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/bottomBar" android:layout_width="294.0dip" android:layout_height="20.0dip" />
+</com.layar.ui.RotateLayout>

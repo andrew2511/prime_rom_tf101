@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magnétophone</string>
+    <string name="record_your_message">Enregistrez votre message</string>
+    <string name="message_recorded">Message enregistré</string>
+    <string name="review_message">Revoir le message</string>
+    <string name="recording">Enregistrement audio</string>
+    <string name="recording_stopped">Enregistrement audio interrompu</string>
+    <string name="storage_is_full">La mémoire est pleine</string>
+    <string name="max_length_reached">Taille maximale atteinte</string>
+    <string name="min_available">%d mn disponibles</string>
+    <string name="sec_available">Il reste %d s</string>
+    <string name="accept">Utiliser cet enregistrement audio</string>
+    <string name="discard">Supprimer</string>
+    <string name="button_ok">OK</string>
+    <string name="audio_db_artist_name">Vos enregistrements audio</string>
+    <string name="audio_db_album_name">Enregistrements audio</string>
+    <string name="audio_db_playlist_name">Mes enregistrements audio</string>
+    <string name="error_app_internal">"Erreur d'application interne"</string>
+    <string name="error_mediadb_new_record">Impossible de sauvegarder la piste audio enregistrée</string>
+    <string name="save">Enregistrer</string>
+</resources>

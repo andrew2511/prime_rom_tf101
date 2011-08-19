@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">街景服務</string>
+    <string name="go_to_map">移至「Google 地圖」</string>
+    <string name="report_inappropriate_image">回報不當圖片</string>
+    <string name="toggle_compass_mode">指南針模式</string>
+    <string name="compass_mode_on">開啟指南針模式。</string>
+    <string name="compass_mode_off">關閉指南針模式。</string>
+    <string name="waiting_for_network">資料連線中斷，重試中...</string>
+    <string name="panorama_disabled">不再提供圖片</string>
+    <string name="service_unavailable">未提供街景服務。</string>
+    <string name="loading">載入中</string>
+    <string name="no_panorama_data">未設定全景資料。</string>
+    <string name="invalid_panorama_data">無效的全景。</string>
+    <string name="click_to_go_toast">將「衣夾人」拖至您要前往的地點。</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">這個程式需要使用資料連線，因此將會自動重試連線。請查看您的收訊品質良好嗎？是否不慎啟用了航空模式？或是已停用漫遊資料？</string>
+    <string name="whats_new_header">街景服務有哪些新功能？</string>
+    <string name="whats_new_c2g">將左下方的「衣夾人」拖曳至您的目標位置，立即前往畫面範圍內的任何地點。</string>
+    <string name="terms_and_privacy">條款與隱私權</string>
+    <string name="terms_and_conditions">條款及細則</string>
+    <string name="privacy_policy">隱私權政策</string>
+</resources>

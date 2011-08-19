@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="140.0px" android:layout_height="120.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/featuredInnerLayout" android:clickable="true" android:layout_width="120.0px" android:layout_height="120.0px">
+        <TextView android:gravity="center" android:id="@id/featureTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Highlighted Featured App" />
+    </LinearLayout>
+</LinearLayout>

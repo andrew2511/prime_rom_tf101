@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS預設動態桌布</string>
+    <string name="mywater_setting">ASUS MyWater設定</string>
+    <string name="enable_rotation">啟動旋轉功能</string>
+    <string name="enable_rotation_description">桌布將隨著裝置旋轉</string>
+</resources>

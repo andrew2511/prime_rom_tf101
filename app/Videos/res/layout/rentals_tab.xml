@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="@string/tab_rentals" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:videos="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <include android:id="@id/offline_footer" android:visibility="gone" layout="@layout/offline_footer" />
+    <com.google.android.youtube.core.ui.PagedGridView android:id="@id/my_rentals" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/offline_footer" videos:textWhenEmpty="@string/no_my_purchases_found" videos:statusView="@layout/movie_grid_status_item" videos:horizontalSpacing="@dimen/movie_grid_horizontal_spacing" videos:verticalSpacing="@dimen/movie_grid_vertical_spacing" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_rentals_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/grey" android:gravity="center" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_my_purchases_found" />
+        <View android:background="@color/dark_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:id="@id/top_rentals_title" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/top_rentals" />
+        <com.google.android.youtube.core.ui.PagedGridView android:id="@id/top_rentals" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" videos:statusView="@layout/movie_grid_status_item" videos:horizontalSpacing="@dimen/movie_grid_horizontal_spacing" videos:verticalSpacing="@dimen/movie_grid_vertical_spacing" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MittNett</string>
+    <string name="back">Tilbake</string>
+    <string name="localdevice">Lokal</string>
+    <string name="playto">Spill til</string>
+    <string name="chooserenderdevice">Velg en enhet å vise</string>
+    <string name="mediatype">Medietype</string>
+    <string name="choosemediatype">Velg én av medietypene</string>
+    <string name="musictype">Musikk</string>
+    <string name="imagetype">Foto</string>
+    <string name="videotype">Video</string>
+    <string name="cant_connect_to_server">Kunne ikke opprette forbindelse til server. Kontroller tilkoblingen.</string>
+    <string name="internet_exception">Ingen nettverkstilkobling</string>
+    <string name="internet_exception_message">Kontroller nettverkstilkoblingen…</string>
+    <string name="nodlnadevice">Skru pa DLNA-aktiverte enheter innenfor det samme WiFi-nettverket.</string>
+    <string name="notagain">Ikke vis denne meldingen igjen.</string>
+    <string name="shardms">Onsker du a dele mediafilene dine med andre enheter?</string>
+    <string name="server">Server</string>
+    <string name="settings">Innstillinger</string>
+    <string name="dms">Digital mediaserver</string>
+    <string name="dmssettings">Innstillinger for digital mediaserver</string>
+    <string name="enable">Aktiver</string>
+    <string name="disable">Deaktiver</string>
+    <string name="sharemediatype">Velg mediatyper for deling</string>
+    <string name="selectplayer">Velg enhet a spille av</string>
+    <string name="shareto">Del via</string>
+    <string name="dms_settings_adv">Avanserte innstillinger</string>
+    <string name="desc_share">Endre delt mappe</string>
+    <string name="title_share">Delt mappe</string>
+    <string name="desc_friendlyname">Endre vist navn pa enheten din</string>
+    <string name="title_friendlyname">Vist navn</string>
+    <string name="msgbox_title_error">Feil</string>
+    <string name="msgbox_msg_error_no_wifi">Skru pa WiFi forst.</string>
+    <string name="msgbox_msg_error_friendlyname">Kan ikke endre vist navn.</string>
+    <string name="msgbox_msg_error_sharefolder">Kan ikke endre delt mappe.</string>
+    <string name="msgbox_msg_error_mediatype">Kan ikke endre delt mediatype.</string>
+    <string name="enable_dms">Aktiver digital mediaserver</string>
+    <string name="disable_dms">Deaktiver digital mediaserver</string>
+    <string name="about_title">Om</string>
+    <string name="toast_srvbusy">Server er opptatt, prøv igjen senere.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Spilles nå</string>
+    <string name="play_all">Spill alle</string>
+    <string name="party_shuffle">Tilfeldig</string>
+    <string name="shuffle_all">Stokk alle</string>
+    <string name="wifi_quick_toggle_summary">Slå på trådløst nett</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="slide_show">Lysbildevisning</string>
+    <string name="wait">Vent litt ...</string>
+    <string name="fail_to_load">Kunne ikke laste inn</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Intern lagring</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Fjern uthevelse</item>
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Legg til uthevelse</item>
+        <item>NO</item>
+        <item>Tekst til tale</item>
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Norsk</item>
+        <item>Fransk</item>
+        <item>Japansk</item>
+        <item>Kinesisk</item>
+        <item>Tysk</item>
+        <item>Forenklet kinesisk</item>
+        <item>Russisk</item>
+        <item>Spansk</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Engelsk til kinesisk</item>
+        <item>Engelsk til fransk</item>
+        <item>Engelsk til russisk</item>
+    </string-array>
+</resources>

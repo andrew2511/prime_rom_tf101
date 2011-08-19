@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d resultaten</item>
+        <item quantity="one">%1$d resultaat</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">ongeveer %1$d resultaten gevonden</item>
+        <item quantity="one">ongeveer %1$d resultaat gevonden</item>
+    </plurals>
+</resources>

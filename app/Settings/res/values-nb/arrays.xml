@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Stillehavet</item>
+        <item>Alle</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Ingen animasjoner</item>
+        <item>Enkelte animasjoner</item>
+        <item>Alle animasjoner</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Ingen vindusanimasjoner vises</item>
+        <item>Noen vindusanimasjoner vises</item>
+        <item>Alle vindusanimasjoner vises</item>
+    </string-array>
+    <array name="screen_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+        <item>@string/never_timeout_entry</item>
+    </array>
+    <string-array name="lock_after_timeout_entries">
+        <item>umiddelbart</item>
+        <item>5 sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Svært langsom</item>
+        <item>Langsom</item>
+        <item>Vanlig</item>
+        <item>Rask</item>
+        <item>Svært rask</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Svært lav</item>
+        <item>Lav</item>
+        <item>Vanlig</item>
+        <item>Høy</item>
+        <item>Svært høy</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Engelsk (Amerika)</item>
+        <item>Engelsk (Storbritannia)</item>
+        <item>Fransk</item>
+        <item>Tysk</item>
+        <item>Italiensk</item>
+        <item>Spansk</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skanner ...</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer ...</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Avsluttet</item>
+        <item>Kobler fra ...</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skanner ...</item>
+        <item>Kobler til %1$s …</item>
+        <item>Autentiserer med %1$s …</item>
+        <item>Henter IP-adresse fra %1$s …</item>
+        <item>Koblet til %1$s</item>
+        <item>Avsluttet</item>
+        <item>Kobler fra %1$s …</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Åpne</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>To minutter</item>
+        <item>Fem minutter</item>
+        <item>Én time</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Dårlig</item>
+        <item>Akseptabel</item>
+        <item>Bra</item>
+        <item>Utmerket</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Når skjermen slås av (krever mer mobildata)</item>
+        <item>Aldri når tilkoblet</item>
+        <item>Aldri (mer batterikrevende)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Når skjermen slås av</item>
+        <item>Aldri når tilkoblet strøm</item>
+        <item>Aldri (mer batterikrevende)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatisk</item>
+        <item>Kun 5 GHz</item>
+        <item>Kun 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Brukstid</item>
+        <item>Start telling</item>
+        <item>Navn på program</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAP2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Manuelt</item>
+        <item>Knapp for auto. WPS-lev.</item>
+        <item>WPS-kode fra tilgangspunkt</item>
+        <item>WPS-kode fra enheten</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisk</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ingen</item>
+        <item>Manuelt</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Av</item>
+        <item>Varsel</item>
+        <item>Vibrering</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Intern lagringsenhet</item>
+        <item>Flyttbart minnekort</item>
+        <item>La systemet bestemme</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Alltid</item>
+        <item>Aldri</item>
+        <item>Kun i Stille modus</item>
+        <item>Kun når det er valgt andre moduser enn Stille</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kort</item>
+        <item>Middels</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Kontrollér aldri</item>
+        <item>Se kun etter DRM-innhold</item>
+        <item>Kontrollér alltid</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Bruk aldri HDCP-kontroll</item>
+        <item>Bruk HDCP-kontroll kun for DRM-innhold</item>
+        <item>Bruk alltid HDCP-kontroll</item>
+    </string-array>
+</resources>

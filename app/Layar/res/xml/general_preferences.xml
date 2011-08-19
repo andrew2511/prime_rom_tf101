@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/trigger_title">
+        <CheckBoxPreference android:layout="@layout/preference_check" android:title="@string/trigger_name" android:key="prefs.autotriggers" android:summary="@string/trigger_summary2" android:defaultValue="false" />
+        <Preference android:layout="@layout/preference_info" android:title="@string/prefs_trigger_help" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/prefs_grid_category">
+        <CheckBoxPreference android:layout="@layout/preference_check" android:title="@string/prefs_grid" android:key="prefs.grid.show" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

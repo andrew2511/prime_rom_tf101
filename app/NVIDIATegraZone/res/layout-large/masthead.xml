@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/logoHeader" layout="@layout/logo_header" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/logoHeader">
+        <LinearLayout android:gravity="center" android:id="@id/spotlightTab" android:background="@drawable/tab_off_left" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/spotlightTabLabel" android:text="@string/tabs_spotlight" style="@style/tabLabel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/gamesTab" android:background="@drawable/tab_active_right" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/gamesTabLabel" android:text="@string/tabs_games" style="@style/tabLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/tabLine" android:layout_below="@id/tabs" style="@style/tabBottomBar" />
+</LinearLayout>

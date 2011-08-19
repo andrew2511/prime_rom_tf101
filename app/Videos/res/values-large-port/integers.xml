@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="more_movies_count">8</integer>
+    <integer name="more_movies_grid_columns">4</integer>
+    <integer name="watch_suggestions_columns">4</integer>
+</resources>

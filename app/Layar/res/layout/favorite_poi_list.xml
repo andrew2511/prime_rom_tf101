@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sectionTitle" style="@style/SectionHeaderText" />
+    <ListView android:id="@android:id/list" android:background="@color/spotlight_item_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/spotlight_item_background" android:divider="@android:drawable/divider_horizontal_bright" android:layout_below="@id/sectionTitle" android:layout_alignParentBottom="true" android:fastScrollEnabled="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/searchNoResults" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/spotlight_search_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_no_results_without_try" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/spotlight_search_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_no_results" />
+    </LinearLayout>
+</RelativeLayout>

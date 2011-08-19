@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.library.ui.BookRowView android:layout_width="fill_parent" android:layout_height="@dimen/library_book_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/lib_book_row_cover_container" android:layout_width="@dimen/library_book_row_cover_container_width" android:layout_height="@dimen/library_book_row_height" android:layout_marginLeft="@dimen/library_book_row_margin_left" layout="@layout/row_cover_container" />
+    <RelativeLayout android:id="@id/lib_book_row_title_container" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/library_book_row_margin_right" android:layout_toRightOf="@id/lib_book_row_cover_container" android:layout_centerVertical="true">
+        <TextView android:id="@id/lib_book_row_title" style="@style/library_book_row_text.title" />
+        <TextView android:id="@id/lib_book_row_author" android:paddingBottom="5.0dip" android:layout_below="@id/lib_book_row_title" style="@style/library_book_row_text.author" />
+        <com.amazon.kcp.library.ui.ReadingProgressView android:id="@id/lib_book_row_reading_progress" android:visibility="gone" android:layout_below="@id/lib_book_row_author" style="@style/reading_progress" />
+        <ProgressBar android:id="@id/lib_book_row_download_progress" android:visibility="gone" android:layout_height="10.0dip" android:max="100" android:indeterminate="false" android:layout_below="@id/lib_book_row_author" style="@style/book_row_download_progress" />
+        <TextView android:id="@id/lib_book_row_downloading_text" android:text="@string/downloading_to_home_notitle" android:layout_below="@id/lib_book_row_download_progress" style="@style/library_book_row_text.downloading" />
+    </RelativeLayout>
+</com.amazon.kcp.library.ui.BookRowView>

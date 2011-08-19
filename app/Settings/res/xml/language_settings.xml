@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_keyboard_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/language_settings_category" android:key="language_settings_category" />
+    <PreferenceScreen android:title="@string/phone_language" android:key="phone_language" android:fragment="com.android.settings.LocalePicker" />
+    <PreferenceScreen android:title="@string/user_dict_settings_title" android:summary="@string/user_dict_settings_summary" android:fragment="com.android.settings.UserDictionarySettings" />
+    <PreferenceCategory android:title="@string/voice_input_category" android:key="voice_input_category">
+        <ListPreference android:title="@string/recognizer_title" android:key="recognizer" android:dialogTitle="@string/recognizer_title" />
+        <PreferenceScreen android:title="@string/recognizer_settings_title" android:key="recognizer_settings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/voice_output_category" android:key="voice_output_category">
+        <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings" android:fragment="com.android.settings.TextToSpeechSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/keyboard_settings_category" android:key="keyboard_settings_category">
+        <PreferenceScreen android:title="@string/current_input_method" android:key="current_input_method" />
+        <ListPreference android:persistent="true" android:entries="@array/input_method_selector_titles" android:title="@string/input_method_selector" android:key="input_method_selector" android:defaultValue="@string/input_method_selector_visibility_default_value" android:entryValues="@array/input_method_selector_values" />
+        <PreferenceScreen android:title="@string/configure_input_method" android:key="configure_input_method">
+            <intent android:action="android.settings.INPUT_METHOD_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pointer_settings_category" android:key="pointer_settings_category">
+        <com.android.settings.PointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:dialogTitle="@string/pointer_speed" />
+    </PreferenceCategory>
+</PreferenceScreen>

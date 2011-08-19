@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/addPlaceListItem" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:src="@drawable/friends_add" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageView android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

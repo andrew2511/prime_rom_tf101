@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Aceptado: %s</string>
+    <string name="meeting_declined">Rechazada: %s</string>
+    <string name="meeting_tentative">Tentativo: %s</string>
+    <string name="meeting_canceled">Cancelado: %s</string>
+    <string name="meeting_updated">Actualizado: %s</string>
+    <string name="meeting_when">Cuándo: %s</string>
+    <string name="meeting_where">Dónde: %s</string>
+    <string name="meeting_recurring">Cuando: %s (recurrente)</string>
+    <string name="notification_exchange_calendar_added">Calendario de Exchange agregado</string>
+    <string name="app_name">Servicios de Exchange</string>
+    <string name="exception_cancel">Este evento ha sido cancelado para: %s</string>
+    <string name="exception_updated">Los detalles de este evento se han modificado para: %s</string>
+</resources>

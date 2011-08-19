@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paket yükleyici</string>
+    <string name="install">Yükle</string>
+    <string name="done">Bitti</string>
+    <string name="security_settings_desc">Bu uygulamanın şunları yapmasına izin ver:</string>
+    <string name="cancel">İptal</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="installing">Yükleniyor…</string>
+    <string name="install_done">Uygulama yüklendi</string>
+    <string name="install_confirm_question">Bu uygulamayı yüklemek istiyor musunuz?</string>
+    <string name="install_failed">Uygulama yüklenmedi</string>
+    <string name="install_failed_invalid_apk">Paket bozuk görünüyor.</string>
+    <string name="install_failed_inconsistent_certificates">Adı aynı olan, farklı imzaya sahip mevcut bir paket zaten yüklü.</string>
+    <string name="install_failed_older_sdk">"Paket yalnızca, Android'in daha yeni sürümlerinde çalışır."</string>
+    <string name="install_failed_cpu_abi_incompatible">"Bu uygulama, bu tabletin CPU'suyla uyumlu değil."</string>
+    <string name="install_failed_msg">%1$s bu tablete yüklenemedi.</string>
+    <string name="launch">Aç</string>
+    <string name="unknown_apps_dlg_title">Yükleme engellendi</string>
+    <string name="unknown_apps_dlg_text">"Güvenlik nedeniyle tabletiniz, Android Market'ten gelmeyen uyglrn yüklemesini engellemeye ayarlıdır."</string>
+    <string name="ok">Tamam</string>
+    <string name="settings">Ayarlar</string>
+    <string name="manage_applications">Uygulamaları yönet</string>
+    <string name="dlg_app_replacement_title">Uygulamayı değiştir</string>
+    <string name="dlg_app_replacement_statement">"Yüklemekte olduğunuz uygulama başka bir uygulamanın yerine geçecek.
+
+Önceki kullanıcı verilerinin tümü kaydedilecek."</string>
+    <string name="dlg_sys_app_replacement_statement">"Bu bir sistem uygulamasıdır. Yine de değiştirmek istiyor musunuz?
+
+Daha önceki tüm kullanıcı verileri kaydedilecektir."</string>
+    <string name="out_of_space_dlg_title">Yer kalmadı</string>
+    <string name="out_of_space_dlg_text">%1$s yüklenemedi. Boş alan açın ve yeniden deneyin.</string>
+    <string name="dlg_ok">Tamam</string>
+    <string name="app_not_found_dlg_title">Uygulama bulunamadı</string>
+    <string name="app_not_found_dlg_text">Uygulama yüklü uygulamalar listesinde bulunamadı.</string>
+    <string name="uninstall_application_title">Uygulamanın yüklemesini kaldır</string>
+    <string name="uninstall_update_title">Güncellemenin yüklemesini kaldır</string>
+    <string name="uninstall_activity_text">%1$s, şu uygulamanın bir parçasıdır:</string>
+    <string name="uninstall_application_text">Bu uygulama kaldırılacak.</string>
+    <string name="uninstall_update_text">Uygulama, fabrika sürümüyle değiştirilecek.</string>
+    <string name="uninstalling">Kaldırılıyor…</string>
+    <string name="uninstall_done">Yüklemeyi kaldırma tamamlandı</string>
+    <string name="uninstall_failed">Yüklemeyi kaldırma işlemi başarısız</string>
+    <string name="uninstall_failed_device_policy_manager">Yüklemesi kaldırılamıyor: bu paket etkin bir cihaz yöneticisi.</string>
+    <string name="manage_device_administrators">Cihaz yöneticilerini yönet</string>
+    <string name="uninstall_failed_msg">%1$s kaldırılamadı</string>
+    <string name="Parse_error_dlg_title">Ayrıştırma hatası</string>
+    <string name="Parse_error_dlg_text">Paketi ayrıştırmada bir sorun var.</string>
+</resources>

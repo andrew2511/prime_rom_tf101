@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Ağ bağlantısı yok</string>
+    <string name="authentication_failure_no_network">"Müzik hesabınızı doğrulamak için internet'e bağlanmış olmanız gerekir."</string>
+    <string name="authentication_failure">Kimlik doğrulaması başarısız</string>
+    <string name="authentication_failure_error">Müzik için hesabınızın kimliği doğrulanamıyor.</string>
+    <string name="positive_button_text">Tamam</string>
+    <string name="negative_button_text">İptal</string>
+    <string name="save_button_text">Kaydet</string>
+    <string name="not_save_button_text">Kaydetme</string>
+    <string name="shuffle_all">Tümünü karıştır</string>
+    <string name="play_all">Tümünü yürüt</string>
+    <string name="songs_all">Tüm şarkılar</string>
+    <string name="shuffle">Karıştır</string>
+    <string name="search">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="library_options">Kitaplık seçenekleri</string>
+    <string name="manage_music">Çevrimdışı kullanılabilir yap</string>
+    <string name="available_offline">Çevrmdş kullanılablr</string>
+    <string name="hide_labels">Etiketleri gizle</string>
+    <string name="show_labels">Etiketleri göster</string>
+    <string name="refresh">Yenile</string>
+    <string name="shop_artist">Sanatçıya göre alışvrş</string>
+    <string name="show_offline_music_only">Sadece çvrmdş mzk göstr</string>
+    <string name="gadget_all_songs_by_artist">Tüm şarkıları: %s</string>
+    <string name="list_title_all_songs_by_artist">"Tüm şarkıları:
+%s"</string>
+    <string name="new_playlist_title">Şarkı listesi adı</string>
+    <string name="add_to_playlist_title">Şarkı listesi adı</string>
+    <string name="rename_playlist_title">\"%s\" şarkı listesini yeniden adlandır:</string>
+    <string name="all_music">Tüm müzik</string>
+    <string name="only_kept">Yalnızca çevrimdışı</string>
+    <string name="search_section_header_artists">SANATÇILAR</string>
+    <string name="search_section_header_albums">ALBÜMLER</string>
+    <string name="search_section_header_songs">ŞARKILAR</string>
+    <string name="search_section_header_playlists">ŞARKI LİSTELERİ</string>
+    <string name="shuffle_all_songs">Tümünü karıştır</string>
+    <string name="stream_settings">Akış ayarları</string>
+    <string name="streamed_music_category">Akışlı müzik</string>
+    <string name="refresh_title">Yenile</string>
+    <string name="refresh_summary">"Müzik Beta'dan gelen müziği yenile"</string>
+    <string name="account_settings_title">Google Hesabı</string>
+    <string name="no_account_selected_summary">Hesap seçmek için dokunun</string>
+    <string name="account_selected_summary">"%s hesabını kullanarak Müzik Beta'ya bağlanın"</string>
+    <string name="hide_when_not_connected_title">Kullanılamayan müzikleri gizle</string>
+    <string name="hide_when_not_connected_summary">Yalnızca çevrimdışıyken kullanılabilir müziği görüntüle</string>
+    <string name="stream_only_on_wifi_title">Yalnz Kabloszdn müzik akışı</string>
+    <string name="stream_only_on_wifi_summary">Müziği yalnz Kablosuz üzerinden bağlanıldığında akışla göndr</string>
+    <string name="offlinedl_only_on_wifi_title">Yalnızca Kablosuz üzerinden indir</string>
+    <string name="offlinedl_only_on_wifi_summary">Çevrimdışı kullanılabilmesi için müzikleri yalnızca Kablosuz işlevini kullanarak indir</string>
+    <string name="cache_streamed_title">Müziği önbllğe alın</string>
+    <string name="cache_streamed_summary">Akışla gelen müziği geçici olarak depola</string>
+    <string name="download_queue_title">Kuyruğu indir</string>
+    <string name="download_queue_summary">Şu an indirilen şarkıları göster</string>
+    <string name="help_title">Yardım</string>
+    <string name="help_summary">"Google'dan Müzik Beta'nın ve Müzik uygulamasının kullanımı"</string>
+    <string name="library_help_title">Yardım</string>
+    <string name="library_help_summary">Bağlantı sorunlarını giderme</string>
+    <string name="add_account_title">Hesap ekle</string>
+    <string name="accounts_title">Hesaplar</string>
+    <string name="account_status_connected">bağlandı</string>
+    <string name="account_status_not_connected">bağlanmadı</string>
+    <string name="show_no_downloads_title">İndirilmek·üzere·kuyruğa·alınmış şarkı yok</string>
+    <string name="music_version_title">Müzik Sürümü</string>
+    <string name="music_version_summary">Bilinmeyen sürüm</string>
+    <string name="list_status_summary_no_items">Öğe yok</string>
+    <string name="list_status_summary_loading">Yükleniyor...</string>
+    <string name="stream_accounts_title">Akışlı hesaplar</string>
+    <string name="library_status_title">Akışlı kitaplık durumu</string>
+    <string name="nowplaying_title">Şimdi yürütülüyor</string>
+    <string name="artists_title">Sanatçılar</string>
+    <string name="albums_title">Albümler</string>
+    <string name="genres_title">Türler</string>
+    <string name="tracks_title">Şarkılar</string>
+    <string name="playlists_title">Şarkı listeleri</string>
+    <string name="recent_title">Son</string>
+    <string name="search_title">Ara</string>
+    <string name="no_tracks_title">Şarkı yok</string>
+    <string name="no_videos_title">Video yok</string>
+    <string name="delete_playlist_menu">Sil</string>
+    <string name="edit_playlist_menu">Düzenle</string>
+    <string name="rename_playlist_menu">Yeniden adlandır</string>
+    <string name="playlist_delete_confirmation">\"%s\" şarkı listesi silinecek.</string>
+    <string name="delete_playlist_button_confirm">Sil</string>
+    <string name="playlist_deleted_message">Şarkı listesi silindi.</string>
+    <string name="playlist_created_message">\"%s\" şarkı listesi oluşturuldu</string>
+    <string name="playlist_renamed_message">Şarkı listesi yeniden adlandırıldı \"%s\"</string>
+    <string name="recentlyadded">En son eklenen</string>
+    <string name="recentlyadded_title">En son eklenen</string>
+    <string name="podcasts_listitem">"Podcast'ler"</string>
+    <string name="podcasts_title">"Podcast'ler"</string>
+    <string name="unknown_artist_name">Bilinmeyen sanatçı</string>
+    <string name="unknown_album_name">Bilinmeyen albüm</string>
+    <string name="unknown_playlist_name">Bilinmeyen şarkı listesi</string>
+    <string name="shuffle_on_notif">Karıştırma açık.</string>
+    <string name="shuffle_off_notif">Karıştırma kapalı.</string>
+    <string name="repeat_off_notif">Tekrarlama kapalı.</string>
+    <string name="repeat_current_notif">Geçerli şarkı tekrarlanıyor.</string>
+    <string name="repeat_all_notif">Tüm şarkılar tekrarlanıyor.</string>
+    <string name="play_selection">Yürüt</string>
+    <string name="add_to_playlist">Şarkı listesine ekle</string>
+    <string name="rename_playlist_menu_item">Yeniden adlandır</string>
+    <string name="add_to_playlist_selector_title">Şarkı listesine ekle</string>
+    <string name="queue">Geçerli şarkı listesi</string>
+    <string name="new_playlist_for_content">Yeni şarkı listesi...</string>
+    <string name="new_empty_playlist">Yeni şarkı listesi</string>
+    <string name="new_playlist_name_template">Şarkı Listesi %d</string>
+    <string name="playlist_too_many_songs">Çok fzl şarkı. Her çalm list içn sınır %d şarkdr.</string>
+    <string name="emptyplaylist">Seçilen şarkı listesi boş.</string>
+    <string name="playlist_edit_label">AD</string>
+    <string name="create_playlist_create_text">Tamam</string>
+    <string name="rename_playlist_rename_text">Yeniden adlandır</string>
+    <string name="service_start_error_title">Yürütme sorunu</string>
+    <string name="service_start_error_msg">Maalesef, şarkı yürütülemedi.</string>
+    <string name="service_start_error_button">Tamam</string>
+    <string name="weekpicker_set">Bitti</string>
+    <string name="weekpicker_title">Saati ayarla</string>
+    <string name="save_as_playlist">Şarkı listesi olarak kaydet</string>
+    <string name="musicbrowserlabel">Müzik</string>
+    <string name="musicshortcutlabel">Müzik şarkı listesi</string>
+    <string name="mediaplaybacklabel">Müzik</string>
+    <string name="playback_failed">İstenen parça çalınırken hata oluştu</string>
+    <string name="cancel">İptal</string>
+    <string name="remove_from_playlist">Şarkı listesinden kaldır</string>
+    <string name="streamloadingtext">Şuraya bağlanılıyor: %s</string>
+    <string name="mediasearch">Şunu kullanarak %s için arama yapın:</string>
+    <string name="search_hint">Müzik ara</string>
+    <string name="working_artists">Sanatçılar...</string>
+    <string name="working_albums">Albümler...</string>
+    <string name="working_songs">Şarkılar...</string>
+    <string name="working_playlists">Şarkı listeleri...</string>
+    <string name="working_genres">Türler...</string>
+    <string name="loading">Yükleniyor</string>
+    <string name="sort_by_track">Parçalar</string>
+    <string name="music_picker_title">Müzik parçasını seç</string>
+    <string name="gadget_track">Parça %d</string>
+    <string name="fail_to_start_stream">İstenen akış yürütülemiyor.</string>
+    <string name="search_settings_description">Sanatçı, albüm ve parçalar</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">Müzik kitaplığı</string>
+    <string name="music_shop">Alışveriş</string>
+    <string name="pick">Seç</string>
+    <string name="artist_unknown">Sanatçı bilinmiyor</string>
+    <string name="playlists_label">Çalma listeleri</string>
+    <string name="playlist_label">Şarkı Listesi</string>
+    <string name="faux_art_all_songs_label">Tüm Şarkılar</string>
+    <string name="faux_art_playlist_label">Şarkı listesi</string>
+    <string name="loading_new">Yeni müzik yükleniyor</string>
+    <string name="no_items">Koleksiyonunuzda hiçbir öğe bulunmuyor</string>
+    <string name="buffering">Arabelleğe alınıyor</string>
+    <string name="keep_on_phone">Çevrmdş kullanılablr</string>
+    <string name="sort_order_prompt">Sıralama ölçütü seçin</string>
+    <string name="provider_label">Müzik</string>
+    <string name="tutorial_set_up_usb">Daha fazla bilgi edinin</string>
+    <string name="no_music_heading">Müzik kitaplığı boş</string>
+    <string name="no_music_setup_uploader_heading">Müziğinizi kablosuz olarak akışla dinleyin</string>
+    <string name="no_music_setup_uploader_body">"Google'dan Müzik Beta ile kişisel müzik koleksiyonunuzu akış olarak alın."</string>
+    <string name="no_music_setup_usb_heading">Cihazınıza müzik kopyalayın</string>
+    <string name="no_music_setup_usb_body">Müzikleri USB kablosuyla telefonunuza kopyalayın.</string>
+    <string name="no_local_music_heading">Yerel müzik yok</string>
+    <string name="no_local_music_body">Çevrimdışı modda olduğunuzdan yalnızca cihazınzdki müzikler görüntülenir. Bağlı değilken kullanılabilecekleri değiştirmek üzere seçim yapmak için, Çevrimdışı kullanılabilir yap seçnğni kullnın.</string>
+    <string name="no_music_learn_more">Daha fazla bilgi edinin</string>
+    <string name="tutorial_set_up_streaming">Akış ayarla</string>
+    <string name="no_playlists_heading">Kitaplığınızda hiç şarkı listesi yok.</string>
+    <string name="no_playlists_body">"Bir şarkı listesi oluşturmak için Şarkılar liste görünümüne gidip şarkının içerik menüsünden Şarkı listesine ekle'yi seçebilirsiniz."</string>
+    <string name="tutorial_account_heading">Hoş Geldiniz</string>
+    <string name="tutorial_account_body">"Google'dan Müzik Beta'ya davetlisiniz. Bu müzik çaları kullanarak Müzik Beta'ya eklediğiniz şarkılara ve Android cihazınıza kopyaladığınız diğer müziklere anında erişebilirsiniz."</string>
+    <string name="tutorial_account_list_header">Kullanmaya başlamak için öncelikle bu müzik çalarla Müzik Beta arasında bağlantı oluşturmak üzere bir Google Hesabı seçin:</string>
+    <string name="tutorial_done_heading">Keyfini çıkarın</string>
+    <string name="tutorial_done_body">"Müzik çalarla Google Hesabınız arasında bağlantı oluşturuldu.
+
+Müzik koleksiyonunuzu daha önce Müzik Beta'ya eklediyseniz, bu müzik çalarda görünmeye başlayacak.
+
+Hâlâ Müzik Beta'ya yüklemeniz gereken müzik varsa bilgisayarınızdan web sitemizi ziyaret ederek başlayın:"</string>
+    <string name="tutorial_back">Geri</string>
+    <string name="tutorial_skip">Atla</string>
+    <string name="tutorial_next">İleri</string>
+    <string name="tutorial_done">Bitti</string>
+    <string name="help_heading">Yardım</string>
+    <string name="spinner_carousel">Son</string>
+    <string name="spinner_album">Albümler</string>
+    <string name="spinner_artist">Sanatçılar</string>
+    <string name="spinner_songs">Şarkılar</string>
+    <string name="spinner_playlists">Çalma listeleri</string>
+    <string name="spinner_genres">Türler</string>
+    <string name="sort_by_title">"A'dan Z'ye sırala"</string>
+    <string name="sort_by_artist">Sanatçıya göre sırala</string>
+    <string name="sort_by_album">Albüme göre sırala</string>
+    <string name="more_by_artist">Sanatçının diğer albümleri</string>
+    <string name="make_available_offline">Çevrimdışı kullanılabilir yap</string>
+    <string name="search_web">"Web'de ara"</string>
+    <string name="manage_done">Bitti</string>
+    <string name="too_many_items_title">Çok sayıda ürün var</string>
+    <string name="too_many_items_body">Saklamak için çok fazla öğe seçildi. Yer açmak için bazı öğelerin seçimini kaldırın.</string>
+    <string name="save_manage_music_change_title">Değişiklikler kaydedilsin mi?</string>
+    <string name="save_manage_music_change_body">Seçili müziğin çevrimdışı kullanılabilir olması için yaptığınız değişiklikleri kaydetmek istiyor musunuz?</string>
+    <string name="not_all_items_can_be_kept_body">Saklamak için çok fazla öğe seçildi. Öğelerin tümü indirilmeyecek.</string>
+    <string name="free_space_overfull">Dpl br doldu (%s fazla)</string>
+    <string name="free_space">%s BOŞ</string>
+    <string name="stream_error_no_space_available">Kullanılabilir alan yok</string>
+    <string name="stream_error_server_not_found">Sunucuya bağlanılamadı</string>
+    <string name="stream_error_only_on_wifi">Bu şarkıyı dinleyebilmek için Kablosuz ağda olmanız gerekir</string>
+    <string name="stream_error_no_connection">Bu şarkıyı çalmak için çevrimiçi olmalısınız</string>
+    <string name="stream_error_unauthorized">Geçersiz kullanıcı adı/şifre</string>
+    <string name="stream_error_another_stream_being_played">Koleksiyonunuzu başka bir cihazdan dinlediğiniz için müzik duraklatıldı.</string>
+    <string name="stream_error_rate_limit_reached">Müzik geçici olarak kullanılamıyor. Lütfen koleksiyonunuzu yalnızca tek bir cihazdan dinlediğinizden emin olun.</string>
+    <string name="stream_error_device_not_authorized">Bu hesaba 8 bilgisayar veya cihaz bağlı durumda. Yeni bir tane eklemeden önce bunlardan birinin yetkisini iptal etmelisiniz.</string>
+    <string name="stream_error_another_stream_being_played_short">Müzik geçici olarak duraklatıldı</string>
+    <string name="stream_error_rate_limit_reached_short">Müzik geçici olarak kullanılamıyor</string>
+    <string name="stream_error_device_not_authorized_short">Bu hesaba çok fazla sayıda cihaz bağlı</string>
+    <string name="hide_now_playing_bar">Şimdi oynatılıyor çubuğunu gizle</string>
+    <string name="show_now_playing_bar">Şimdi oynatılıyor çubuğunu göster</string>
+    <string name="show_options">Seçenekleri göster</string>
+    <string name="hide_options">Seçenekleri gizle</string>
+    <string name="all_songs_in_genre">"Bu türdeki tüm şarkılar:
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Müzik çevrimdışı kullanıma hazırlanıyor</string>
+    <string name="notification_downloading_when_on_wifi">Çevrimdışı olarak işaretlenen şarkılar, Kablosuz ağa bağlandığınızda yüklenecek.</string>
+    <string name="notification_downloading_excessive_errors">Şu anda şarkı indirilemiyor. İnternet bağlantınızı kontrol edin.</string>
+    <string name="notification_downloading_done">Seçilen şarkılar artık çevrimdışı olarak kullanılabilir</string>
+    <string name="carousel_label_shuffle_all">Tümünü karıştır</string>
+    <string name="song_label">ŞARKI</string>
+    <string name="artist_label">SANATÇI</string>
+    <string name="album_label">ALBÜM</string>
+    <string name="effectspanel">Ses efektleri</string>
+    <string name="menu_make_instant_mix">Anında mix oluştur</string>
+    <string name="instant_mix_default_name">%s Mix</string>
+    <string name="creating_instant_mix">"Şarkı listelerine
+anında mix ekleniyor"</string>
+    <string name="creating_instant_mix_with_seed">"Şarkı listelerine şununla
+ilgili anında mix ekleniyor:
+%s"</string>
+    <string name="create_instant_mix_failed">Anında mix oluşturulamadı. Lütfen tekrar deneyin</string>
+    <string name="create_instant_mix_failed_insufficient_results">Koleksiyonunuzda, \"%s\" adlı şarkıdan anında mix oluşturmak için yeterli sayıda benzer şarkı yoktu. Lütfen farklı bir şarkıdan anında mix yapmayı deneyin.</string>
+    <string name="create_instant_mix_sync_timeout">"Anında mix oluşturuldu
+ve az sonra şarkı listelerinizde
+görünecek."</string>
+    <string name="create_instant_mix_btn_ok">TAMAM</string>
+    <string name="delete">Sil</string>
+    <string name="confirm_delete_local_only">\"%s\" adlı öğeyi silmek istediğinizden emin misiniz?</string>
+    <string name="confirm_delete_has_remote">"\"%s\" adlı şarkı Google Müzik'e yüklenmesinin yanı sıra bir cihaza da aktarıldı. Yalnızca cihaza aktarılan öğeler silinecek. Bunları silmek istediğinizden emin misiniz?"</string>
+</resources>

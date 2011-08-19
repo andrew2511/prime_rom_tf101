@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0px" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legal_content" android:layout_alignParentTop="true" />
+    <TextView android:textSize="14.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0px" android:text="@string/copy_right" android:layout_alignParentTop="true" />
+</RelativeLayout>

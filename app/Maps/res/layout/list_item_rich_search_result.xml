@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.googlenav.ui.android.TemplateViewWithRichSearchResult android:gravity="left|center" android:id="@id/listItem" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/template_placemark_details" />
+</com.google.googlenav.ui.android.TemplateViewWithRichSearchResult>

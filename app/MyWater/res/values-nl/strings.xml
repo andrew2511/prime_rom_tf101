@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS standaard live achtergrond.</string>
+    <string name="mywater_setting">Instellingen ASUS MyWater</string>
+    <string name="enable_rotation">Waterrotatie inschakelen</string>
+    <string name="enable_rotation_description">Water zal met rotatie van het apparaat mee roteren.</string>
+</resources>

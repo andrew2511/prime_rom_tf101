@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rating_dialog_rating_prompt" />
+    <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="false" style="?android:attr/ratingBarStyleIndicator" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rating_dialog_display_name_prompt" />
+    <EditText android:id="@id/ratingUsernameText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:hint="" android:maxLength="25" android:imeOptions="actionNext" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rating_dialog_title_prompt" />
+    <EditText android:id="@id/ratingTitleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:hint="@string/rating_dialog_title_required_text" android:maxLength="25" android:imeOptions="actionNext" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rating_dialog_comment_prompt" />
+    <EditText android:id="@id/ratingCommentText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:hint="@string/rating_dialog_optional_text" android:maxLength="200" android:imeOptions="actionDone" />
+    <LinearLayout android:id="@id/focusHelper" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+</LinearLayout>

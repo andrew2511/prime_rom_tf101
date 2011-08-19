@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>A számok dátum vagy cím szerint rendezhetők. Ezt a képernyő tetején található fülekkel választhatod ki.</item>
+        <item>"Több segítségre van szüksége?
+Válassza ki a Vásárlás gombot a képernyő alján, és lépjen az online üzletbe, ahol megtalálja a legfrissebb kiadványokat és cikkeket."</item>
+        <item>Válassza ki a menüt a további lehetőségekhez – pl. vásárlás, továbbiak, törlés és kijelentkezés.</item>
+        <item>Válasszon ki egy számot az automatikus letöltéshez, míg Ön olvas, VAGY válassza ki a Letöltés gombot a helyi mentéshez, és a későbbi elolvasáshoz.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,98 @@
+/*
+ * Styles for classes defined in goodocs, based on the stylesheet embedded in
+ * google3/ocr/goodoc/export/goodoc_to_html.cc. The selectors (".flow .g*txt*")
+ * are more specific (score 20) than* ".gb-content* tag" (score 11).
+ *
+ * See http://s1/?fileprint=//depot/google3/ocean/frontend/css/reader/content.css
+ */
+
+.flow p {
+  /*
+   * This selector is as specific as ".gb-content p" and ".gb-content-justify p"
+   * but this rule takes precedence as it comes later.
+   */
+  text-indent: 0;
+  margin-bottom: 0.5em;
+}
+
+.flow .gimg_graphic,
+.flow .gimg_table {
+  margin: 1em 0;
+}
+
+.flow .gstxt_sub {
+  font-size: 75%;
+  vertical-align: sub;
+}
+
+.flow .gstxt_sup {
+  font-size: 75%;
+  vertical-align: super;
+}
+
+.flow .gstxt_hlt {
+  background-color: yellow;
+}
+
+.flow .gstxt_underline {
+  text-decoration: underline;
+}
+
+.flow .gtxt_body {
+  margin: 0;
+}
+
+.flow div.gtxt_footnote {
+  border: 1px dotted #000;
+  padding: 0 0.5em;
+}
+
+.flow .gtxt_heading {
+  font-size: 150%;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.flow .gtxt_h1_heading {
+  font-size: 135%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flow .gtxt_h2_heading {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.flow .gtxt_h3_heading {
+  font-weight: bold;
+}
+
+.flow div.gtxt_inset_box {
+  border: 1px solid #666;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.flow .gtxt_lineated {
+  margin: 1em 2em 1em 0;
+  white-space: pre-wrap;
+}
+
+.flow .gtxt_lineated_code {
+  font-family: monospace;
+  margin: 1em 2em 1em 0;
+  white-space: pre-wrap;
+}
+
+.flow .gtxt_list_entry {
+  margin-left: 1em;
+  text-indent: -1em;
+}
+
+.flow .gtxt_quote {
+  margin: 1em 2em;
+}
+

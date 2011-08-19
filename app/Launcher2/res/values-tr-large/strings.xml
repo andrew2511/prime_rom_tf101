@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Duvar kağıdı seçin</string>
+    <string name="wallpaper_chooser_empty">Hiç duvar kağıdı yok</string>
+    <string name="wallpaper_cancel">İptal</string>
+</resources>

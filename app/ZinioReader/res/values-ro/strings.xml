@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">încearcă din nou</string>
+    <string name="offline">local</string>
+    <string name="retry_offline_content">Conexiunea la reţea nu este stabilă, doriţi să încercaţi din nou sau utilizaţi aplicaţia în modul local?</string>
+    <string name="cancel">anulare</string>
+    <string name="change_password">schimbare parolă</string>
+    <string name="close">închidere</string>
+    <string name="confirm_new_password">confirmare parolă nouă</string>
+    <string name="create_account">creare cont</string>
+    <string name="create_an_account">crearea unui cont</string>
+    <string name="date">dată</string>
+    <string name="delete">ştergere</string>
+    <string name="delete_all">ştergere toate</string>
+    <string name="delete_mode_caption">Mod ştergere - atingeţi elementul de şters</string>
+    <string name="email_address">adresă de e-mail</string>
+    <string name="exit">ieşire</string>
+    <string name="faq">Întrebări frecvente</string>
+    <string name="first_name">prenume</string>
+    <string name="free">liber</string>
+    <string name="forgot_password">am uitat parola</string>
+    <string name="last_name">nume</string>
+    <string name="learn_more">află mai multe</string>
+    <string name="legal_notices">consideraţii legale</string>
+    <string name="library">bibliotecă</string>
+    <string name="manage_tips">gestionare sfaturi</string>
+    <string name="more">mai mult</string>
+    <string name="more_options">mai multe opţiuni</string>
+    <string name="my_magazines">Revistele mele - atingeţi pentru a vizualiza sau descărca</string>
+    <string name="new_password">parolă nouă (5-20 caractere)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">parolă veche</string>
+    <string name="password">parolă</string>
+    <string name="required">obligatoriu</string>
+    <string name="required_first_name">prenume obligatoriu</string>
+    <string name="required_last_name">nume obligatoriu</string>
+    <string name="required_email_address">adresă de e-mail obligatorie</string>
+    <string name="required_password">parolă obligatorie</string>
+    <string name="retype_password">retastare parolă</string>
+    <string name="sign_in">conectare</string>
+    <string name="sign_out">deconectare</string>
+    <string name="share">partajare</string>
+    <string name="shop">magazin</string>
+    <string name="text">text</string>
+    <string name="title">titlu</string>
+    <string name="turn_on_wifi">Activare WiFi</string>
+    <string name="uninstall">card SD</string>
+    <string name="welcome_to_zinio">bun venit la zinio</string>
+    <string name="email_non_lower_case">E-mail</string>
+    <string name="sd_card_non_lower_case">Dezinstalare</string>
+    <string name="show_password_non_lower_case">Afişare parolă</string>
+    <string name="show_tips_non_lower_case">Afişare sfaturi</string>
+    <string name="forgot_password_underlined"><u>Aţi uitat parola?</u></string>
+    <string name="terms_of_service_underlined"><u>Termeni şi condiţii</u></string>
+    <string name="label_share_email1">citeşte un articol din</string>
+    <string name="label_share_email2">"şi doreşte să-l partajeze cu dvs.!
+
+Articolul original este inclus ca ataşament la acest mesaj.
+
+Pentru mai multe publicaţii treceţi pe digital, la www.zinio.com"</string>
+    <string name="label_receive_from_partners">Trimiteţi-mi ofertele speciale de la partenerii de încredere ai Zinio.</string>
+    <string name="label_receive_from_zinio">Trimiteţi-mi e-mail-uri cu ofertele speciale de la Zinio.</string>
+    <string name="label_status_calculating">Se calculează...</string>
+    <string name="label_status_new">Nou</string>
+    <string name="label_status_not_downloaded">Nu s-a descărcat</string>
+    <string name="label_status_downloading">%s%% Descărcat</string>
+    <string name="label_tip_hide">Dezactivare sfaturi. Acestea pot fi gestionate via Setări suplimentare.</string>
+    <string name="toast_change_password_success">Parola a fost schimbată cu succes.</string>
+    <string name="toast_issue_download_complete_left">Descărcare pentru</string>
+    <string name="toast_issue_download_complete_right">finalizată</string>
+    <string name="toast_no_articles">Nu există articole pe pagina curentă.</string>
+    <string name="toast_register_success">Contul a fost creat cu succes.</string>
+    <string name="toast_no_email_client">Notã: Clientul de e-mail nu este configurat</string>
+    <string name="progress_dialog_wait_msg">Aşteptaţi...</string>
+    <string name="dialog_warning_title">Avertisment</string>
+    <string name="dialog_no_connectivity_warning">Acest ecran necesită acces la internet. Verificaţi-vă conectivitatea sau setarea modului aerian.</string>
+    <string name="dialog_passwords_not_matching_warning">Parolele nu coincid.</string>
+    <string name="dialog_password_length_warning">Parola trebuie să conţină între 5 şi 20 caractere.</string>
+    <string name="dialog_service_exception_warning">A fost întâmpinată o problemă cu serverul. Reîncercaţi mai târziu.</string>
+    <string name="dialog_uninstall_warning">Aceasta va şterge irecuperabil toate datele din biblioteca Zinio. Va trebui să descărcaţi din nou publicaţiile.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Nu sunteţi conectat şi nu puteţi descărca nicio publicaţie.
+
+Veţi putea descărca publicaţiile când conexiunea va fi restabilită."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Parolele veche şi nouă trebuie să fie diferite.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Parola veche este incorectã.</string>
+    <string name="dialog_library_no_connectivity_warning">"Pentru descărcarea publicaţiilor aveţi nevoie de conectare.
+
+Puteţi citi ceea ce este disponibil curent în bibliotecă şi veţi descărca publicaţii la restabilirea conexiunii."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Numele dvs. de utilizator sau parola este incorectă.
+
+Reîncercaţi."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Acest cont a atins numărul maxim de dispozitive autorizate. Eliminaţi autorizarea unui dispozitiv şi reîncercaţi.</string>
+    <string name="dialog_register_account_already_exists">Adresa de e-mail există deja. Selectaţi alta.</string>
+    <string name="dialog_register_empty_email_error">Introduceţi o adresă de e-mail.</string>
+    <string name="dialog_register_first_name_short_error">Introduceţi un prenume.</string>
+    <string name="dialog_register_first_name_long_error">Prenumele nu trebuie să depăşească 80 caractere.</string>
+    <string name="dialog_register_invalid_email_error">Introduceţi o adresă de e-mail validă.</string>
+    <string name="dialog_register_last_name_short_error">Introduceţi un nume.</string>
+    <string name="dialog_register_last_name_long_error">Numele nu trebuie să depăşească 80 caractere.</string>
+    <string name="dialog_register_other_error">A apărut o eroare. Reîncercaţi.</string>
+    <string name="dialog_register_password_empty">Introduceţi o parolă nouă.</string>
+    <string name="dialog_sign_out_disabled_warning">Nu există utilizator conectat, care să se deconecteze.</string>
+    <string name="dialog_app_version_not_supported_title">Actualizare disponibilã</string>
+    <string name="dialog_app_version_not_supported_msg">Este disponibilã o versiune mai nouã a Zinio Reader. Aceastã versiune nu mai este suportatã. Vã rugãm actualizaþi la ultima versiune a Zinio Reader</string>
+    <string name="dialog_delete_all_title">Ştergere toate</string>
+    <string name="dialog_delete_all_msg">"Aţi indicat că doriţi să ştergeţi toate publicaţiile din bibliotecă.
+
+Nu vă îngrijoraţi, nu veţi pierde nimic definitiv.
+
+Ştergerea doar le îndepărtează de pe dispozitivul dvs. Veţi putea descărca din nou publicaţiile dacă va fi cazul."</string>
+    <string name="dialog_not_enough_space_title">Spaţiu insuficient</string>
+    <string name="dialog_not_enough_space_msg">Acest dispozitiv nu mai dispune de spaţiu suficient pentru descărcarea publicaţiei selectate. Eliberaţi cel puţin %d MB şi reîncercaţi.</string>
+    <string name="dialog_sd_card_not_available_title">Cardul SD nu este disponibil</string>
+    <string name="dialog_sd_card_not_available_msg">Cardul SD a fost îndepărtat. Aplicaţia Zinio se va închide. Introduceţi un card SD şi reporniţi aplicaţia.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Cardul SD este plin</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">Cardul SD este plin. Eliberaþi niºte spaþiu pe el.</string>
+    <string name="dialog_shop_no_connectivity_title">Magazinul nu este disponibil</string>
+    <string name="dialog_shop_no_connectivity_msg">Pentru accesarea magazinului trebuie să fiţi conectat. Verificaţi-vă conectivitatea sau setarea modului aerian.</string>
+    <string name="dialog_sign_out_title">Deconectare</string>
+    <string name="dialog_sign_out_msg">"Sunteţi sigur că doriţi să vă deconectaţi?
+
+Vi se va cere să vă conectaţi din nou pentru a accesa aplicaţia Zinio."</string>
+    <string name="dialog_tip_title">Sfat</string>
+    <string name="dialog_manage_tips_title">Gestionare sfaturi</string>
+    <string name="non_supported_device_tip_title">Bun venit la Zinio</string>
+    <string name="non_supported_device_tip_msg">"Conţinutul bogat al Zinio se citeşte optim cu ajutorul unui ecran de minim 800x480.
+
+Puteţi continua să utilizaţi această aplicaţie, dar reţineţi că experienţa poate să nu fie optimă."</string>
+    <string name="no_text_tip_msg">Anumite publicaţii nu au articole sub formă de text. Pentru a găsi pagina pe care o căutaţi, puteţi utiliza Cuprinsul sau Indexul vizual.</string>
+    <string name="page_tip0_1">"O singură atingere pentru a vedea meniul bară de instrumente.
+Puteţi selecta un Cuprins vizual sau pe bază de text."</string>
+    <string name="page_tip1">"Sfaturi preliminare:
+
+* Daţi pagina răsfoind spre dreapta sau spre stânga
+* Două atingeri pe ecran pentru a mări
+* Selectaţi butonul 'text', vizibil pe prima pagină a unui articol, pentru a citi."</string>
+    <string name="wifi_connection_tip">"A fost detectată conectarea la reţeaua 3G.
+
+Publicaţiile pot fi descărcate prin 3G, însă pentru o experienţă optimă se recomandă wifi."</string>
+    <string name="dialog_available_memory_not_enough_title">Stivă insuficient de mare</string>
+    <string name="dialog_available_memory_not_enough_msg">Dimensiunea stivei este insuficientă.</string>
+    <string name="dialog_delete_title">Ştergere</string>
+    <string name="delete_done">Efectuat</string>
+    <string name="dialog_delete_from_library">Sigur doriţi să ştergeţi %s</string>
+    <string name="internet_connection_tip">Pentru descărcarea publicaţiilor trebuie să fiţi conectat. Activaţi conexiunea la Internet şi reîncercaţi.</string>
+    <string name="dialog_change_password_old_password_empty">Introduceţi parola veche.</string>
+    <string name="server_error_app_version_not_supported_message">Actualizare disponibilã Este disponibilã o versiune mai nouã a Zinio Reader. Aceastã versiune nu mai este suportatã. Vã rugãm actualizaþi la ultima versiune a Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Numele dvs. de utilizator sau parola este incorectă.
+
+Reîncercaţi. Parola veche este incorectã."</string>
+    <string name="server_error_device_not_authorized">Acest dispozitiv nu a fost autorizat în mod corespunzător pentru a fi utilizat cu contul dvs. Zinio. Pentru a reautoriza dispozitivul, deconectaţi-vă şi reconectaţi-vă la aplicaţie. Dacă întâmpinaţi în continuare probleme, contactaţi serviciul de asistenţă clienţi Zinio.</string>
+    <string name="server_error_invalid_login">Adresa de e-mail este invalidă. Vă rugăm să introduceţi o adresă de e-mail validă.</string>
+    <string name="server_error_invalid_new_password">Parola este invalidă, selectaţi altă parolă.</string>
+    <string name="server_error_issue_not_supported_for_device">Articol invalid. Vă rugăm să contactaţi serviciul de asistenţă clienţi la support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Acest cont a atins numărul maxim de dispozitive autorizate. Eliminaţi autorizarea unui dispozitiv şi reîncercaţi.</string>
+    <string name="server_error_packing_list_not_found">Lista coletelor lipseşte. Vă rugăm să contactaţi serviciul de asistenţă clienţi la support@zinio.com.</string>
+    <string name="server_error_login_exists">Adresa de e-mail există deja. Selectaţi alta.</string>
+    <string name="server_error_system_error">S-a produs o eroare de server. Vă rugăm să reîncercaţi mai târziu.</string>
+    <string name="server_error_system_not_available">Unele părţi ale aplicaţiei pot fi indisponibile momentan. Dacă nu puteţi accesa un element, reîncercaţi mai târziu.</string>
+    <string name="server_error_no_items_in_library">În prezent nu aveţi niciun titlu. Titlurile disponibile se pot găsi în fila Magazin.</string>
+    <string name="server_error_user_not_entitled">Utilizatorul nu este autorizat. Vă rugăm să contactaţi serviciul de asistenţă clienţi la support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Doriţi să acordaţi acum un calificativ aplicaţiei Zinio Reader?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Articolul expirat este eliminat şi va fi descărcat din nou.</string>
+    <string name="dialog_review_msg">Comentariile dvs. sunt importante pentru noi, vă rugăm să ni le transmiteţi acum.</string>
+    <string name="dialog_review_title">Vă rugăm să ne transmiteţi comentariile dvs.</string>
+    <string name="server_error_invalid_newstand">Panou de ştiri invalid. Vă rugăm să contactaţi serviciul de asistenţă clienţi la support@zinio.com.</string>
+</resources>

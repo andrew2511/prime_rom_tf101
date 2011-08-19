@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.calendar.agenda.AgendaItemView android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/alignment_bar" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_alignParentTop="true" />
+    <View android:id="@id/agenda_item_color" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/alignment_bar" android:layout_alignTop="@id/title" android:layout_alignParentLeft="true" />
+    <TextView android:textStyle="bold" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxLines="2" android:layout_toRightOf="@id/agenda_item_color" style="?android:attr/textAppearanceMediumInverse" />
+    <TextView android:textStyle="bold" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/title" android:layout_alignLeft="@id/title" style="?android:attr/textAppearanceSmallInverse" />
+    <TextView android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/where" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/when" android:layout_alignLeft="@id/title" style="?android:attr/textAppearanceSmallInverse" />
+    <ImageView android:id="@id/selected_marker" android:background="@drawable/list_activated_holo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.android.calendar.agenda.AgendaItemView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LoginActivityOuterFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/Title" android:gravity="bottom" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin_left" android:minHeight="@dimen/title_height" android:text="@string/login_activity_title" android:layout_alignParentLeft="true" />
+    <View android:id="@id/top_divider" android:layout_below="@id/title" style="@style/TopDivider" />
+    <View android:id="@id/dummy" android:visibility="invisible" android:layout_width="@dimen/sign_in_content_width" android:layout_height="0.0dip" android:layout_below="@id/top_divider" android:layout_centerHorizontal="true" />
+    <ScrollView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/buttons" android:layout_below="@id/top_divider" android:layout_alignLeft="@id/dummy" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:gravity="bottom" android:id="@id/username_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:minWidth="128.0dip" android:minHeight="48.0dip" android:text="@string/username" />
+                    <FrameLayout android:id="@id/username_edit_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:id="@id/username_edit" android:layout_width="320.0dip" android:layout_height="wrap_content" android:singleLine="true" android:selectAllOnFocus="true" android:capitalize="none" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+                    </FrameLayout>
+                </TableRow>
+                <TableRow>
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:gravity="bottom" android:id="@id/password_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:minWidth="128.0dip" android:minHeight="48.0dip" android:text="@string/password" />
+                    <FrameLayout android:id="@id/password_edit_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_alignLeft="@id/username_edit_layout" android:layout_alignBottom="@id/password_label">
+                        <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:id="@id/password_edit" android:layout_width="320.0dip" android:layout_height="wrap_content" android:password="true" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textPassword" android:imeOptions="actionDone" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:textColorLink="?android:textColorPrimary" android:id="@id/sign_in_agreement" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/sign_in_agreement" android:layout_below="@id/content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <View android:id="@id/bottom_divider" android:layout_above="@id/buttons" style="@style/BottomDivider" />
+        <RelativeLayout android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/sign_in_agreement">
+            <Button android:id="@id/create_button" android:layout_width="wrap_content" android:text="@string/create_button_label" android:layout_alignParentLeft="true" style="@style/Button" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <Button android:id="@id/exit_account_setup" android:layout_marginRight="@dimen/button_horizontal_margin" android:text="@string/cancel_button_label" style="@style/Button" />
+                <Button android:id="@id/next_button" android:text="@string/sign_in_button_label" style="@style/Button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Quitar resaltado</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Agregar resaltado</item>
+        <item>Traducción</item>
+        <item>Texto a voz</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Inglés</item>
+        <item>Francés</item>
+        <item>Japonés</item>
+        <item>Chino</item>
+        <item>Alemán</item>
+        <item>Chino simplificado</item>
+        <item>Ruso</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Inglés a chino</item>
+        <item>Ingles a francés</item>
+        <item>Ingles a ruso</item>
+    </string-array>
+</resources>

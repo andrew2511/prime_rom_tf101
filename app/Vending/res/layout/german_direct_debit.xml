@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/german_direct_debit" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/asset_snippet" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+        <include android:layout_gravity="center_vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/fullscreen_loading_indicator" />
+        <ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:id="@id/scroll_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/edit_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/title_bar_shadow">
+                <ImageView android:layout_gravity="top|left|center" android:id="@id/google_checkout_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/logo_google" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/direct_debit_billing_information_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:text="@string/direct_debit_billing_information" />
+                <View android:background="@color/separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="6.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="12.0dip" android:text="@string/bank_account_information" />
+                <EditText android:id="@id/account_number_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" />
+                <EditText android:id="@id/routing_number_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:text="@string/name_billed_label" />
+                <EditText android:id="@id/name_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/your_full_name" />
+                <View android:background="@color/separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="6.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:text="@string/billing_address_label" />
+                <EditText android:id="@id/address_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+                <EditText android:id="@id/address_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+                <EditText android:id="@id/city_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+                <EditText android:layout_gravity="left" android:id="@id/postal_entry" android:layout_width="120.0dip" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:text="@string/phone_number" />
+                <EditText android:id="@id/phone_number_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <CheckBox android:textColorLink="#ffcbcbcb" android:id="@id/checkbox_checkout_tos" android:paddingLeft="46.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/checkout_tos" style="?android:attr/textAppearanceMedium" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/save_button_area" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <Button android:id="@id/save_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="2.0" />
+                    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

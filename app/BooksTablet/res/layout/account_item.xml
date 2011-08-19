@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="20.0sp" android:gravity="left|center" android:id="@id/account_name" android:padding="10.0dip" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

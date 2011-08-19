@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">街景视图</string>
+    <string name="go_to_map">转至地图</string>
+    <string name="report_inappropriate_image">举报图片</string>
+    <string name="toggle_compass_mode">罗盘模式</string>
+    <string name="compass_mode_on">罗盘模式打开。</string>
+    <string name="compass_mode_off">罗盘模式关闭。</string>
+    <string name="waiting_for_network">数据连接已断开，正在重试…</string>
+    <string name="panorama_disabled">图片已不再可用</string>
+    <string name="service_unavailable">街景视图服务无法使用。</string>
+    <string name="loading">正在载入</string>
+    <string name="no_panorama_data">未设置全景数据集。</string>
+    <string name="invalid_panorama_data">全景数据无效。</string>
+    <string name="click_to_go_toast">将人形图标拖到您想去的地方。</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">此程序需要使用数据连接，因此它会自动重试。请检查您的信号强度、是否处于飞行模式以及是否停用了数据漫游。</string>
+    <string name="whats_new_header">街景视图中的新功能</string>
+    <string name="whats_new_c2g">前往您可以看到的任何地点。将街景小人从左下方拖到您要前往的地点。</string>
+    <string name="terms_and_privacy">条款与隐私权</string>
+    <string name="terms_and_conditions">条款</string>
+    <string name="privacy_policy">隐私权政策</string>
+</resources>

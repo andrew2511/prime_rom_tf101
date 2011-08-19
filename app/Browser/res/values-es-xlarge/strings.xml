@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nueva pestaña</string>
+    <string name="new_incognito_tab">Nueva pestaña de incógnito</string>
+    <string name="active_tabs">Pestañas</string>
+    <string name="open_all_in_new_window">Abrir todo en pestañas nuevas</string>
+    <string name="contextmenu_openlink_newwindow">Abrir en una pestaña nueva</string>
+    <string name="contextmenu_openlink_newwindow_background">Abrir en una nueva pestaña en segundo plano</string>
+    <string name="pref_content_open_in_background_summary">Abrir nuevas pestañas detrás de la actual</string>
+</resources>

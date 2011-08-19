@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">UI συστήματ.</string>
+    <string name="status_bar_clear_all_button">Εκκαθάριση</string>
+    <string name="status_bar_do_not_disturb_button">Μην ενοχλείτε</string>
+    <string name="status_bar_please_disturb_button">Εμφάνιση ειδοποιήσεων</string>
+    <string name="status_bar_no_notifications_title">Δεν υπάρχουν ειδοποιήσεις</string>
+    <string name="status_bar_ongoing_events_title">Εν εξελίξει</string>
+    <string name="status_bar_latest_events_title">Ειδοποιήσεις</string>
+    <string name="battery_low_title">Συνδέστε τον φορτιστή</string>
+    <string name="battery_low_subtitle">Η στάθμη της μπαταρίας είναι χαμηλή.</string>
+    <string name="battery_low_percent_format">Απομένει %d%%</string>
+    <string name="invalid_charger">"Δεν υποστηρίζεται η φόρτιση USB.
+Χρησιμοποιείτε μόνο τον φορτιστή που παρέχεται."</string>
+    <string name="battery_low_why">Χρήση μπαταρίας</string>
+    <string name="status_bar_settings_settings_button">Ρυθμίσεις</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Λειτουργία πτήσης</string>
+    <string name="status_bar_settings_auto_rotation">Αυτόματη περιστροφή οθόνης</string>
+    <string name="status_bar_settings_mute_label">ΣΙΓΑΣΗ</string>
+    <string name="status_bar_settings_auto_brightness_label">ΑΥΤΟΜ.</string>
+    <string name="status_bar_settings_notifications">Ειδοποιήσεις</string>
+    <string name="recent_tasks_title">Πρόσφατα</string>
+    <string name="recent_tasks_empty">Δεν υπάρχουν πρόσφατες εφαρμογές.</string>
+    <string name="recent_tasks_app_label">Google Apps</string>
+    <string name="bluetooth_tethered">Έγινε σύνδεση μέσω Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Διαμόρφωση μεθόδων εισαγωγής</string>
+    <string name="status_bar_use_physical_keyboard">Χρήση κανονικού πληκτρολ.</string>
+    <string name="usb_device_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση στη συσκευή USB;</string>
+    <string name="usb_accessory_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση στο αξεσουάρ USB;</string>
+    <string name="usb_device_confirm_prompt">Άνοιγμα του %1$s κατά τη σύνδεση αυτής της συσκευής USB;</string>
+    <string name="usb_accessory_confirm_prompt">Άνοιγμα του %1$s κατά τη σύνδεση αυτού του αξεσουάρ USB;</string>
+    <string name="usb_accessory_uri_prompt">Καμία εγκατ. εφαρμ. δεν συνεργ. με το αξ. USB. Μάθετε περισ. για το αξ. στο %1$s</string>
+    <string name="title_usb_accessory">Αξεσουάρ USB</string>
+    <string name="label_view">Προβολή</string>
+    <string name="always_use_device">Χρήση από προεπιλογή για αυτή τη συσκευή USB</string>
+    <string name="always_use_accessory">Χρήση από προεπιλογή για αυτό το εξάρτημα USB</string>
+</resources>

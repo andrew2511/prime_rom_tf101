@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Informações de sincronização do PC</string>
+    <string name="searchingPCSideSyncTool">Procurando %s em seu computador...</string>
+    <string name="connectionFailMessage" formatted="false">Você não tem %s instalado ou lançado em seu computador. Faça o download de %s na Página de Suporte ASUS - http://support.asus.com. (Obs.: para Windows apenas.) Você pode pressionar o botão \"%s\" para sair ou o botão \"%s\" para reconectar-se ao %s.</string>
+    <string name="connectionFailTitle">Falha na conexão</string>
+    <string name="tryAgain">Tentar novamente</string>
+    <string name="cancel">Cancelar</string>
+</resources>

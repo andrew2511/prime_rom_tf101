@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/poster_art_large_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/poster_art" android:layout_width="@dimen/poster_art_large_width" android:layout_height="@dimen/poster_art_large_height" android:layout_alignParentTop="true" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:tag="@string/carousel_detail_view" android:layout_width="@dimen/poster_art_large_width" android:layout_height="wrap_content">
+        <com.google.android.youtube.core.ui.CheckedImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/pinned_status" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:src="@drawable/btn_pin" />
+        <TextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/expires" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/medium_font_size" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/download_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

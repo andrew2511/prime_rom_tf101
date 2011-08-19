@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Calendar Storage</string>
+    <string name="calendar_default_name">Default</string>
+    <string name="calendar_info">Calendar info</string>
+    <string name="calendar_info_error">Error</string>
+    <string name="calendar_info_no_calendars">No calendars</string>
+    <string name="calendar_info_events">Events: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">Events: %1$d, Unsaved: %2$d</string>
+    <string name="provider_label">Calendar</string>
+</resources>

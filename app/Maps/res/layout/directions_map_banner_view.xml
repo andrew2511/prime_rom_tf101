@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/directions_map_banner_view" android:background="#bf000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/routeSummary" android:background="@drawable/header_bar_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/DirectionsBannerGreySmall" android:id="@id/to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignBaseline="@id/line1" />
+        <TextView android:textAppearance="@style/WhiteBoldLarge" android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-1.0dip" android:singleLine="true" android:layout_toRightOf="@id/to" />
+        <TextView android:textAppearance="@style/DirectionsBannerGrey" android:id="@id/line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:singleLine="true" android:layout_below="@id/line1" android:layout_alignLeft="@id/line1" />
+        <ImageView android:id="@id/trafficDot" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/line2" android:layout_below="@id/line1" android:layout_alignTop="@id/line2" android:layout_alignBottom="@id/line2" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@drawable/direction_banner_view_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/navigateButton" android:background="@drawable/header_bar_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="1.0dip">
+        <ImageView android:gravity="center_horizontal" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="-4.0dip" android:src="@drawable/btn_navigate" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/WhiteSmall" android:gravity="center_horizontal" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/transitTimeInfo" android:background="@drawable/header_bar_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textAppearance="@style/White" android:layout_gravity="center_horizontal" android:id="@id/transitLine1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/White" android:layout_gravity="center_horizontal" android:id="@id/transitLine2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0px">
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_sheet_chartinsert_type" />
+        <LinearLayout android:id="@id/holder_togglebuttongroup_sheet_chart_type" android:layout_width="@dimen/dialog_common_chartinsert_charttype_width" android:layout_height="@dimen/dialog_common_chartinsert_charttype_height" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dialog_common_chartinsert_rightlayout_width" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_sheet_chartinsert_title" />
+        <LinearLayout android:id="@id/holder_edit_sheet_chart_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_common_chartinsert_edit_bottommargin" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_sheet_chartinsert_xaxis" />
+        <LinearLayout android:id="@id/holder_edit_sheet_chart_x_axis" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_common_chartinsert_edit_bottommargin" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_sheet_chartinsert_yaxis" />
+        <LinearLayout android:id="@id/holder_edit_sheet_chart_y_axis" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_common_chartinsert_edit_bottommargin" />
+        <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_sheet_chartinsert_legend" />
+        <LinearLayout android:id="@id/holder_spinner_sheet_chart_legend" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_chartinsert_edit_height" android:layout_marginBottom="@dimen/dialog_common_chartinsert_edit_bottommargin" />
+    </LinearLayout>
+</LinearLayout>

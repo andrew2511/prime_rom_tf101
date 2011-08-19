@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_control_width">245.0dip</dimen>
+    <dimen name="zoom_picker_margin_top">16.0dip</dimen>
+    <dimen name="zoom_picker_margin_right">36.0dip</dimen>
+    <dimen name="zoom_picker_distance">44.0dip</dimen>
+    <dimen name="mode_switcher_margin_right">5.0dip</dimen>
+    <dimen name="mode_switcher_margin_bottom">21.0dip</dimen>
+    <dimen name="mode_switcher_inner_margin">10.0dip</dimen>
+    <dimen name="camera_switcher_margin_right">16.0dip</dimen>
+    <dimen name="camera_switcher_margin_bottom">24.0dip</dimen>
+</resources>

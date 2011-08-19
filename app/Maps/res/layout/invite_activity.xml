@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <MultiAutoCompleteTextView android:id="@id/email" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionSend" />
+    <Spinner android:id="@id/groups" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+    <FrameLayout android:id="@id/list_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.googlenav.ui.android.GmmListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="multipleChoice" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@android:id/empty" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/add_friends_field" android:background="@drawable/popup_center_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <Button android:enabled="false" android:gravity="center" android:id="@id/add_friends" android:paddingRight="18.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:drawableLeft="@drawable/friends_add" android:layout_weight="2.0" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Wybierz tapetę</string>
+    <string name="wallpaper_chooser_empty">Brak tapet</string>
+    <string name="wallpaper_cancel">Anuluj</string>
+</resources>

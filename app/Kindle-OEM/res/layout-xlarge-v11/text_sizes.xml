@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.TextSizeOptionsView android:id="@id/text_sizes_dropdown" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:nextFocusLeft="@id/font_size6" android:nextFocusRight="@id/font_size1" android:nextFocusUp="@id/font_size6" android:nextFocusDown="@id/font_size1" style="@style/reader_action_bar_dropdown"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/font_size1" android:focusable="true" android:src="?ic_text_xsmall" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size2" android:focusable="true" android:src="?ic_text_small" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size3" android:focusable="true" android:src="?ic_text_medium" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size4" android:focusable="true" android:src="?ic_text_large" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size5" android:focusable="true" android:src="?ic_text_xlarge" style="@style/view_options_text_size_button.marginRight" />
+    <ImageButton android:id="@id/font_size6" android:focusable="true" android:src="?ic_text_xxlarge" style="@style/view_options_text_size_button.marginRight" />
+</com.amazon.kcp.reader.ui.TextSizeOptionsView>

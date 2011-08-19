@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/permissions_outer" android:background="@drawable/permissions_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:padding="@dimen/asset_info_horizontal_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center_vertical" android:id="@id/permissions_text" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/permissions_more" style="@style/MoreButtonLight" />
+    </LinearLayout>
+</FrameLayout>

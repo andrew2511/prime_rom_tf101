@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/purchase_failed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/purchase_failed_description" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/try_purchase_again" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/try_purchase_again" android:layout_below="@id/purchase_failed_text" />
+    <Button android:id="@id/choose_payment_provider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_another_payment_provider" android:layout_below="@id/try_purchase_again" />
+    <Button android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/cancel" android:layout_below="@id/choose_payment_provider" />
+    <TextView android:gravity="center" android:id="@id/purchase_failed_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/purchase_failed_description" android:layout_below="@id/cancel_button" android:layout_centerHorizontal="true" />
+</RelativeLayout>

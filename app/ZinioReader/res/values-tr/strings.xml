@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">yeniden dene</string>
+    <string name="offline">çevrim dışı</string>
+    <string name="retry_offline_content">Ağ bağlantısı kararsız, yeniden denemek mi yoksa uygulamayı çevrim dışı modda kullanmak mı istiyorsunuz?</string>
+    <string name="cancel">iptal</string>
+    <string name="change_password">parolayı değiştir</string>
+    <string name="close">kapat</string>
+    <string name="confirm_new_password">yeni parolayı onayla</string>
+    <string name="create_account">hesap oluştur</string>
+    <string name="create_an_account">bir hesap oluştur</string>
+    <string name="date">tarih</string>
+    <string name="delete">sil</string>
+    <string name="delete_all">tümünü sil</string>
+    <string name="delete_mode_caption">Silme modu - silmek için öğeye dokunun</string>
+    <string name="email_address">eposta adresi</string>
+    <string name="exit">çıkış</string>
+    <string name="faq">Sık Sorulan Sorular</string>
+    <string name="first_name">ad</string>
+    <string name="free">bedava</string>
+    <string name="forgot_password">parolayı unuttum</string>
+    <string name="last_name">soyad</string>
+    <string name="learn_more">Daha Fazla Bilgi</string>
+    <string name="legal_notices">yasal bildirimler</string>
+    <string name="library">kütüphane</string>
+    <string name="manage_tips">ipuçlarını yönet</string>
+    <string name="more">daha fazlası için</string>
+    <string name="more_options">daha fazla seçenek</string>
+    <string name="my_magazines">Benim Dergilerim - görmek veya indirmek için dokunun</string>
+    <string name="new_password">yeni parola (5 ila 20 karakter arası)</string>
+    <string name="ok">tamam</string>
+    <string name="old_password">eski parola</string>
+    <string name="password">parola</string>
+    <string name="required">mecburi</string>
+    <string name="required_first_name">mecburi ad</string>
+    <string name="required_last_name">mecburi soyad</string>
+    <string name="required_email_address">mecburi eposta adresi</string>
+    <string name="required_password">mecburi parola</string>
+    <string name="retype_password">parolayı yeniden yaz</string>
+    <string name="sign_in">giriş yap</string>
+    <string name="sign_out">çıkış yap</string>
+    <string name="share">paylaş</string>
+    <string name="shop">alışveriş yap</string>
+    <string name="text">metin</string>
+    <string name="title">başlık</string>
+    <string name="turn_on_wifi">"WiFi'yi açın"</string>
+    <string name="uninstall">kurulumu kaldır</string>
+    <string name="welcome_to_zinio">"zinio'ya hoş geldiniz"</string>
+    <string name="email_non_lower_case">Eposta</string>
+    <string name="sd_card_non_lower_case">SD kart</string>
+    <string name="show_password_non_lower_case">Parolayı Göster</string>
+    <string name="show_tips_non_lower_case">İpuçlarını Göster</string>
+    <string name="forgot_password_underlined"><u>Parolayı mı Unuttunuz?</u></string>
+    <string name="terms_of_service_underlined"><u>Hizmet Kullanım Şartları</u></string>
+    <string name="label_share_email1">"-'den bir makale okudum"</string>
+    <string name="label_share_email2">"ve bunu seninle paylaşmak istiyorum!
+
+Orijinal makale bu mesaja ek olarak iliştirildi.
+
+Daha fazla yayın için, www.zinio.com adresine gidin"</string>
+    <string name="label_receive_from_partners">"Lütfen bana Zinio'nun güvenilir ortaklarının özel indirimlerini gönder."</string>
+    <string name="label_receive_from_zinio">"Lütfen bana epostayla Zinio'nun özel indirimlerini gönder."</string>
+    <string name="label_status_calculating">Hesaplanıyor...</string>
+    <string name="label_status_new">Yeni</string>
+    <string name="label_status_not_downloaded">İndirilmedi</string>
+    <string name="label_status_downloading">%%%s İndirildi</string>
+    <string name="label_tip_hide">İpuçlarını devre dışı bırak. İpuçları, Daha fazla ayarlar aracılığıyla yönetilebilir.</string>
+    <string name="toast_change_password_success">Parola başarıyla değiştirildi.</string>
+    <string name="toast_issue_download_complete_left">- için yükleme</string>
+    <string name="toast_issue_download_complete_right">tamamlandı</string>
+    <string name="toast_no_articles">Mevcut sayfada herhangi bir makale yok.</string>
+    <string name="toast_register_success">Hesap başarıyla oluşturuldu.</string>
+    <string name="toast_no_email_client">Uyarı: Eposta istemcisi yapılandırılmamış</string>
+    <string name="progress_dialog_wait_msg">Lütfen bekleyin...</string>
+    <string name="dialog_warning_title">Uyarı</string>
+    <string name="dialog_no_connectivity_warning">Bu ekran İnternet bağlantısı gerektirir. İnternet bağlantınızı veya uçak modu ayarınızı kontrol edin.</string>
+    <string name="dialog_passwords_not_matching_warning">Parolalar birbirine uymuyor.</string>
+    <string name="dialog_password_length_warning">Parola 5 ila 20 karakter içermelidir.</string>
+    <string name="dialog_service_exception_warning">Sunucuda bir sorun oluştu. Lütfen kısa bir süre sonra tekrar deneyin.</string>
+    <string name="dialog_uninstall_warning">Bu, tüm Zinio kütüphanesini silecek ve geri kazanım mümkün olmayacak. Yayınlarınızı yeniden indirmeniz gerekecek.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"İnternet bağlantınız yok, bu yüzden hiçbir yayın indiremezsiniz.
+
+Yayınlarınızı bağlantı yeniden sağlandığında indirebilirsiniz."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Eski ve yeni parola birbirinden farklı olmalı.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Eski parola yanlış.</string>
+    <string name="dialog_library_no_connectivity_warning">"Yayınları indirmek için İnternet bağlantısı gerekli.
+
+Şu anda kütüphanenizde bulunanları okuyabilir ve bağlantı yeniden sağlandığında yayınları indirebilirsiniz."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Kullanıcı adınız ve parolanız yanlış.
+
+Lütfen tekrar deneyin."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Bu hesap maksimum yetkili cihaz sayısına ulaştı. Lütfen bir cihazın yetkisini kaldırın ve tekrar deneyin.</string>
+    <string name="dialog_register_account_already_exists">Eposta adresi zaten mevcut. Lütfen farklı bir eposta adresi seçin.</string>
+    <string name="dialog_register_empty_email_error">Lütfen bir eposta adresi girin.</string>
+    <string name="dialog_register_first_name_short_error">Lütfen bir ad girin.</string>
+    <string name="dialog_register_first_name_long_error">Ad 80 karakterden fazla olmamalı.</string>
+    <string name="dialog_register_invalid_email_error">Lütfen geçerli bir eposta adresi girin.</string>
+    <string name="dialog_register_last_name_short_error">Lütfen bir soyad girin.</string>
+    <string name="dialog_register_last_name_long_error">Soyad 80 karakterden fazla olmamalı.</string>
+    <string name="dialog_register_other_error">Bir hata oluştu. Lütfen tekrar deneyin.</string>
+    <string name="dialog_register_password_empty">Lütfen yeni bir parola girin.</string>
+    <string name="dialog_sign_out_disabled_warning">Oturumdan çıkış yapacak bağlı bir kullanıcı yok.</string>
+    <string name="dialog_app_version_not_supported_title">Model Yükseltme Mevcut</string>
+    <string name="dialog_app_version_not_supported_msg">"Zinio Reader'ın mevcut daha yeni bir sürümü var. Bu sürüm artık desteklenmiyor. Lütfen en son Zinio Reader'a yükseltiniz"</string>
+    <string name="dialog_delete_all_title">Tümünü Sil</string>
+    <string name="dialog_delete_all_msg">"Kütüphanenizdeki tüm yayınları silmek istediğinizi belirttiniz.
+
+Endişelenmeyin, herşeyi tamamen kaybetmeyeceksiniz.
+
+Silmek dosyayı sadece cihazınızdan kaldırıyor. Eğer gerekirse yayını tekrar indirebileceksiniz."</string>
+    <string name="dialog_not_enough_space_title">Yeterli alan yok</string>
+    <string name="dialog_not_enough_space_msg">"Bu cihazın seçili yayını indirecek yeterli disk alanı yok. Lütfen en az %d MB'ı boşaltın ve tekrar deneyin."</string>
+    <string name="dialog_sd_card_not_available_title">SD Kart mevcut değil</string>
+    <string name="dialog_sd_card_not_available_msg">SD Kart çıkarılmış. Zinio uygulaması sonlandırılacak. Lütfen SD Kartı takın ve uygulamayı tekrar başlatın.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD Kart Dolu</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD Kard dolu. Lütfen biraz alan boşaltınız.</string>
+    <string name="dialog_shop_no_connectivity_title">Mağaza müsait değil</string>
+    <string name="dialog_shop_no_connectivity_msg">Mağazaya erişmek için bağlantı gerekli. İnternet bağlantınızı veya uçak modu ayarınızı kontrol edin.</string>
+    <string name="dialog_sign_out_title">Çıkış Yap</string>
+    <string name="dialog_sign_out_msg">"Çıkmak istediğinizden emin misiniz?
+
+Zinio uygulamasına yeniden erişmek için tekrar giriş yapmanız istenecek."</string>
+    <string name="dialog_tip_title">İpucu</string>
+    <string name="dialog_manage_tips_title">İpuçlarını Yönet</string>
+    <string name="non_supported_device_tip_title">"Zinio'ya Hoş geldiniz"</string>
+    <string name="non_supported_device_tip_msg">"Zinio'nun zengin içeriği en iyi, 800x480 ekran çözünürlüğünü kullanan cihazlarda okunur.
+
+Uygulamayı kullanmaya devam edebilirsiniz, ancak tecrübenizin ideal olmayabileceğini unutmayın."</string>
+    <string name="no_text_tip_msg">Bazı yayınlarda yazılı makale yoktur. Aradığınız sayfayı bulmak için İçindekiler veya Görsel İndeks kullanılabilir.</string>
+    <string name="page_tip0_1">"Araç menüsünü görmek için tek dokunun.
+Görsel veya metin tabanlı İçindekiler'i seçebilirsiniz."</string>
+    <string name="page_tip1">"Başlamak için ipuçları:
+
+* Sayfayı sağa veya sola çekerek çevirin
+* Yakınlaştırmak için ekrana çift dokunun
+* Okumak için, makalenin ilk sayfasında görünen 'metin' düğmesini seçin."</string>
+    <string name="wifi_connection_tip">"3G ağ bağlantısı tespit edildi.
+
+Yayınlar 3G üzerinden de indirilebilir, ancak ideal bir tecrübe için wifi tavsiye edilir."</string>
+    <string name="dialog_available_memory_not_enough_title">Yetersiz Yığın Boyutu</string>
+    <string name="dialog_available_memory_not_enough_msg">Yetersiz Yığın Boyutu.</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="delete_done">Yapıldı</string>
+    <string name="dialog_delete_from_library">%s nı silmek istediğinizden emin misiniz</string>
+    <string name="internet_connection_tip">Internet bağlantısı; yayınları indirmek için gereklidir. Internet bağlantısı açıp yeniden deneyin.</string>
+    <string name="dialog_change_password_old_password_empty">Eski parolanızı giriniz.</string>
+    <string name="server_error_app_version_not_supported_message">"Model Yükseltme Mevcut Zinio Reader'ın mevcut daha yeni bir sürümü var. Bu sürüm artık desteklenmiyor. Lütfen en son Zinio Reader'a yükseltiniz"</string>
+    <string name="server_error_authentication_failed">"Kullanıcı adınız ve parolanız yanlış.
+
+Lütfen tekrar deneyin. Eski parola yanlış."</string>
+    <string name="server_error_device_not_authorized">Bu aygıt; Zinio hesabınız ile birlikte kullanmak üzere doğru şekilde yetkilendirilmemiştir. Aygıtınızı yeniden yetkilendirmek için, lütfen uygulamadan çıkıp yeniden oturum açınız. Eğer sorun yaşamaya devam ederseniz, lütfen Zinio Müşteri Desteği ile irtibata geçiniz.</string>
+    <string name="server_error_invalid_login">E-posta adresi geçersiz. Lütfen geçerli bir e-posta adresi giriniz.</string>
+    <string name="server_error_invalid_new_password">Parola geçersiz, lütfen başka bir tane seçiniz.</string>
+    <string name="server_error_issue_not_supported_for_device">Geçersiz konu. Lütfen aşağıdaki eposta adresiyle müşteri servisiyle bağlantı kurunuz. support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Bu hesap maksimum yetkili cihaz sayısına ulaştı. Lütfen bir cihazın yetkisini kaldırın ve tekrar deneyin.</string>
+    <string name="server_error_packing_list_not_found">Ambalaj listesi eksik. Lütfen aşağıdaki eposta adresiyle müşteri servisiyle bağlantı kurunuz. support@zinio.com.</string>
+    <string name="server_error_login_exists">Eposta adresi zaten mevcut. Lütfen farklı bir eposta adresi seçin.</string>
+    <string name="server_error_system_error">Bir sunucu hatası oluştu. Lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="server_error_system_not_available">Uygulamanın kısımları şu anda kullanılamıyor olabilir. Eğer bir şeye erişemiyorsanız, daha sonra tekrar deneyin.</string>
+    <string name="server_error_no_items_in_library">Şu anda herhangi bir başlığınız yok. Mevcut başlıklar; Mağazalar sekmesinde bulunabilir.</string>
+    <string name="server_error_user_not_entitled">Hak kazanmamış kullanıcı. Lütfen aşağıdaki eposta adresiyle müşteri servisiyle bağlantı kurunuz. support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Şimdi Zinio Reader için puan vermek ister misiniz?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Güncel olmayan konu kaldırılır ve yeniden indirilecektir.</string>
+    <string name="dialog_review_msg">Geribildiriminiz bizim için önemlidir, lütfen şimdi yorumlarımızı paylaşınız.</string>
+    <string name="dialog_review_title">Lütfen yorumlarımızı paylaşınız.</string>
+    <string name="server_error_invalid_newstand">Geçersiz gazete bayii. Lütfen aşağıdaki eposta adresiyle müşteri servisiyle bağlantı kurunuz. support@zinio.com.</string>
+</resources>

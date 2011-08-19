@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>하이라이트 제거</item>
+        <item>취소</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>하이라이트 추가</item>
+        <item>번역</item>
+        <item>Text-to-Speech</item>
+        <item>취소</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>영어</item>
+        <item>프랑스</item>
+        <item>일본어</item>
+        <item>중국어</item>
+        <item>독일어</item>
+        <item>중국어 간체</item>
+        <item>러시아어</item>
+        <item>스페인어</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>영어를 중국어로</item>
+        <item>영어를 프랑스어로</item>
+        <item>영어를 러시아아로</item>
+    </string-array>
+</resources>

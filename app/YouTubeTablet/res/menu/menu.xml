@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_home" android:id="@id/menu_home" android:title="@string/menu_home" />
+    <item android:icon="@drawable/ic_menu_browse" android:id="@id/menu_browse" android:title="@string/menu_browse" />
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/menu_search" android:title="@string/menu_search" />
+    <item android:icon="@drawable/ic_menu_my_channel" android:id="@id/menu_my_channel" android:title="@string/menu_my_channel" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/menu_upload" android:title="@string/menu_upload" />
+    <item android:icon="@android:drawable/ic_menu_upload_you_tube" android:id="@id/menu_settings" android:title="@string/menu_settings" />
+</menu>

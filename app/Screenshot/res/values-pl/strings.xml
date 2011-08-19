@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Zrzut ekranu</string>
+    <string name="screenshot_dialog_message">Zrzut ekranu został zapisany. Pozostać w trybie zrzutu ekranu?</string>
+    <string name="screenshot_dialog_yes">Tak</string>
+    <string name="screenshot_dialog_no">Nie</string>
+    <string name="screenshot_toast_message_saved">Zrzut ekranu został zapisany.</string>
+    <string name="screenshot_toast_message_failed">Nie powiodło się zapisanie zrzutu ekranu w trybie transferu plików.</string>
+    <string name="screenshot_toast_message_failed_save">Nie powiodło się zapisanie zrzutu ekranu.</string>
+    <string name="screenshot_toast_message_full">Nie powiodło się zapisanie zrzutu ekranu. Za mało pamięci.</string>
+</resources>

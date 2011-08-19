@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>I numeri possono essere ordinati per data o titolo. Selezionarli dalle schede nella parte superiore della schermata.</item>
+        <item>"Si desidera altro da leggere?
+Selezionare il pulsante di acquisto nella parte inferiore della schermata per accedere al negozio online per gli ultimi articoli e pubblicazioni."</item>
+        <item>Selezionare il menu per visualizzare altre opzioni, ad esempio acquista, altro, elimina e disconnetti.</item>
+        <item>Selezionare un numero per scaricarlo automaticamente mentre lo si legge OPPURE selezionare il pulsante di download per salvarlo in locale e leggerlo successivamente.</item>
+    </string-array>
+</resources>

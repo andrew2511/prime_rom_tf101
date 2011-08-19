@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">الاتصال بالإنترنت</string>
+    <string name="mobile_wifi_title">شبكة هاتف محمول وWiFi</string>
+    <string name="wifi_title">اتصال WiFi فقط</string>
+    <string name="setup_wizard_title">معالج الإعداد</string>
+    <string name="next_button_label">التالي</string>
+    <string name="welecome_title">مرحبًا بك</string>
+    <string name="btn_start_text">بدء</string>
+</resources>

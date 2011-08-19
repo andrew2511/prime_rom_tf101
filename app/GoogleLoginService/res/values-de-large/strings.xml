@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Fertig</string>
+    <string name="signed_in">Anmeldung ist erfolgt.</string>
+    <string name="account_linked_message">In %s angemeldet und Daten synchronisiert</string>
+    <string name="account_setup_title">Google-Konto</string>
+    <string name="account_created_message">Neues Konto erstellt: %s</string>
+    <string name="login_activity_title">Mit Ihrem Google-Konto anmelden</string>
+    <string name="show_error_activity_title">Fehler bei Anmeldung in Google-Konto</string>
+    <string name="login_activity_task_title">Anmeldung erfolgt...</string>
+    <string name="sync_intro_activity_title_first_account">Sicherung und Wiederherstellung</string>
+    <string name="sync_intro_activity_title_first_created_account">Konto erstellt</string>
+    <string name="sync_intro_activity_title">Kontoanmeldung ist erfolgt.</string>
+</resources>

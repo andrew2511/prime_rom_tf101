@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="500.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_drm_setting_verified_adobe_id" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff00ff00" android:id="@id/id_verified_adobe_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@id/id_confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_confirm" />
+    <TextView android:textSize="18.0sp" android:layout_width="500.0px" android:layout_height="wrap_content" android:text="@string/textview_drm_setting_deact_warnning_desc" />
+    <Button android:id="@id/id_deactivation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_deactivation" />
+</LinearLayout>

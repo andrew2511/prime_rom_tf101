@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_background">#ff2a2a2a</color>
+    <color name="search_plate_background">#ff3c3c3c</color>
+    <color name="search_plate_background_transparent">#003c3c3c</color>
+    <color name="summons_pane_background">#ff2a2a2a</color>
+    <color name="summons_pane_background_transparent">#002a2a2a</color>
+    <color name="query_edit_suggested_text">#ff888888</color>
+    <color name="primary_text_normal">@android:color/white</color>
+    <color name="primary_text_disabled">#66ffffff</color>
+    <color name="primary_text_inverse">@android:color/black</color>
+    <color name="secondary_text_normal">#ffbebebe</color>
+    <color name="secondary_text_disabled">#66bebebe</color>
+    <color name="secondary_text_inverse">#ff323232</color>
+</resources>

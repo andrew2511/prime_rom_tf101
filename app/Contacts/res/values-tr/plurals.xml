@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d kişi</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d kişi, telefonu olan %2$2$d kişi</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Telefon numarası olan %d kişi</item>
+        <item quantity="one">Telefon numarası olan 1 kişi</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">1 kişi</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d kişi bulundu</item>
+        <item quantity="one">1 kişi bulundu</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d kişi bulundu</item>
+        <item quantity="one">1 kişi bulundu</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">%d alıcı seçildi</item>
+        <item quantity="one">1 alıcı seçildi</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d kaynaktan birleştirildi</item>
+        <item quantity="one">birleştirilmemiş</item>
+    </plurals>
+</resources>

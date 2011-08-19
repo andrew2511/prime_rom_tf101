@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/WALLPAPER_SETTINGS"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/WALLPAPER_SHOW_TRAFFIC" android:key="show_traffic" android:defaultValue="false" />
+    <ListPreference android:title="@string/WALLPAPER_MAP_MODE" android:key="map_mode" android:summary="@string/WALLPAPER_MAP_MODE_SUMMARY" android:defaultValue="map_mode_satellite" />
+</PreferenceScreen>

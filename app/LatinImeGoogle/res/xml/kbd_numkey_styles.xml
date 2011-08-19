@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case latin:colorScheme="white">
+            <key-style latin:code="48" latin:keyIcon="@drawable/sym_keyboard_num0" latin:styleName="num0KeyStyle" />
+            <key-style latin:code="49" latin:keyIcon="@drawable/sym_keyboard_num1" latin:styleName="num1KeyStyle" />
+            <key-style latin:code="50" latin:keyIcon="@drawable/sym_keyboard_num2" latin:styleName="num2KeyStyle" />
+            <key-style latin:code="51" latin:keyIcon="@drawable/sym_keyboard_num3" latin:styleName="num3KeyStyle" />
+            <key-style latin:code="52" latin:keyIcon="@drawable/sym_keyboard_num4" latin:styleName="num4KeyStyle" />
+            <key-style latin:code="53" latin:keyIcon="@drawable/sym_keyboard_num5" latin:styleName="num5KeyStyle" />
+            <key-style latin:code="54" latin:keyIcon="@drawable/sym_keyboard_num6" latin:styleName="num6KeyStyle" />
+            <key-style latin:code="55" latin:keyIcon="@drawable/sym_keyboard_num7" latin:styleName="num7KeyStyle" />
+            <key-style latin:code="56" latin:keyIcon="@drawable/sym_keyboard_num8" latin:styleName="num8KeyStyle" />
+            <key-style latin:code="57" latin:keyIcon="@drawable/sym_keyboard_num9" latin:styleName="num9KeyStyle" />
+            <key-style latin:code="42" latin:keyIcon="@drawable/sym_keyboard_numstar" latin:styleName="numStarKeyStyle" />
+            <key-style latin:code="35" latin:keyIcon="@drawable/sym_keyboard_numpound" latin:styleName="numPoundKeyStyle" />
+            <key-style latin:code="@integer/key_switch_alpha_symbol" latin:iconPreview="@drawable/sym_keyboard_numsymbol_holo" latin:keyIcon="@drawable/sym_keyboard_numsymbol_holo" latin:styleName="numAltKeyStyle" />
+            <key-style latin:code="@integer/key_space" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_keyboard_space" latin:styleName="numSpaceKeyStyle" />
+        </case>
+        <case latin:colorScheme="black">
+            <key-style latin:code="48" latin:keyIcon="@drawable/sym_bkeyboard_num0" latin:styleName="num0KeyStyle" />
+            <key-style latin:code="49" latin:keyIcon="@drawable/sym_bkeyboard_num1" latin:styleName="num1KeyStyle" />
+            <key-style latin:code="50" latin:keyIcon="@drawable/sym_bkeyboard_num2" latin:styleName="num2KeyStyle" />
+            <key-style latin:code="51" latin:keyIcon="@drawable/sym_bkeyboard_num3" latin:styleName="num3KeyStyle" />
+            <key-style latin:code="52" latin:keyIcon="@drawable/sym_bkeyboard_num4" latin:styleName="num4KeyStyle" />
+            <key-style latin:code="53" latin:keyIcon="@drawable/sym_bkeyboard_num5" latin:styleName="num5KeyStyle" />
+            <key-style latin:code="54" latin:keyIcon="@drawable/sym_bkeyboard_num6" latin:styleName="num6KeyStyle" />
+            <key-style latin:code="55" latin:keyIcon="@drawable/sym_bkeyboard_num7" latin:styleName="num7KeyStyle" />
+            <key-style latin:code="56" latin:keyIcon="@drawable/sym_bkeyboard_num8" latin:styleName="num8KeyStyle" />
+            <key-style latin:code="57" latin:keyIcon="@drawable/sym_bkeyboard_num9" latin:styleName="num9KeyStyle" />
+            <key-style latin:code="42" latin:keyIcon="@drawable/sym_bkeyboard_numstar" latin:styleName="numStarKeyStyle" />
+            <key-style latin:code="35" latin:keyIcon="@drawable/sym_bkeyboard_numpound" latin:styleName="numPoundKeyStyle" />
+            <key-style latin:code="@integer/key_switch_alpha_symbol" latin:iconPreview="@drawable/sym_keyboard_feedback_numalt" latin:keyIcon="@drawable/sym_bkeyboard_numalt" latin:styleName="numAltKeyStyle" />
+            <key-style latin:code="@integer/key_space" latin:iconPreview="@drawable/sym_keyboard_feedback_space" latin:keyIcon="@drawable/sym_bkeyboard_space" latin:styleName="numSpaceKeyStyle" />
+        </case>
+    </switch>
+</merge>

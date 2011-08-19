@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/capsule_gradient_thin_9patch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:id="@id/rateBttn" android:background="@drawable/green_button" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_this_capsule_rate" android:layout_centerInParent="true" style="@style/TopCapsuleBuyNow" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ratingInfo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RatingBar android:layout_gravity="center_horizontal" android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/editRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/rate_this_edit_rating" style="@style/smallOffWhiteText" />
+    </LinearLayout>
+</RelativeLayout>

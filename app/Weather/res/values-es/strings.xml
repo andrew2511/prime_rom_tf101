@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Configurar el widget El tiempo</string>
+    <string name="refreshBtn">Actualizar</string>
+    <string name="saveBtn">Guardar</string>
+    <string name="cancelBtn">Cancelar</string>
+    <string name="nocityfound">No se encontró ninguna ciudad.</string>
+    <string name="humidity">Humedad</string>
+    <string name="winds">Viento</string>
+    <string name="infor1">No disponible</string>
+    <string name="searchlistviewtitle">Elegir una ciudad</string>
+    <string name="wait">Espere...</string>
+    <string name="refreshFail">Error al actualizar. Inténtelo de nuevo.</string>
+    <string name="searchFail">Error al buscar. Inténtelo de nuevo.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SO</string>
+    <string name="dirWSW">OSO</string>
+    <string name="dirW">O</string>
+    <string name="dirWNW">ONO</string>
+    <string name="dirNW">NO</string>
+    <string name="dirNNW">NNO</string>
+    <string name="entercityname">Especifique una ciudad:</string>
+    <string name="manualtitle">Establecer ubicación manualmente</string>
+    <string name="refreshprogresstitle">Actualizar información del tiempo</string>
+    <string name="refreshprogresscontent">Actualización en curso. Espere...</string>
+    <string name="searchprogresstitle">Buscar ciudad</string>
+    <string name="searchprogresscontent">Búsqueda en curso. Espere...</string>
+    <string name="no_network">Red no disponible. La información del tiempo no se puede actualizar. No toda la información de ubicación está actualmente habilitada.</string>
+    <string name="no_provider">Active las redes inalámbricas y los satélites GPS en Ubicación y Configuración de seguridad para detectar la ubicación de forma más rápida y precisa.</string>
+    <string name="title_location">Ubicación</string>
+    <string name="content_autorefreshed">Actualizar automáticamente mi ubicación actual</string>
+    <string name="content_manual">Búsqueda manual</string>
+    <string name="title_updatefreq">Frecuencia de actualización</string>
+    <string name="content_updatetime">Hora de la última actualización</string>
+    <string name="content_selectfreq">Seleccionar frecuencia de actualización</string>
+    <string name="title_others">Otros</string>
+    <string name="content_tempunit">Unidad de temperatura</string>
+</resources>

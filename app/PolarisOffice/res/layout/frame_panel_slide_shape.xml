@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frame_panel_slide_shape" android:background="@drawable/insertshape_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/frame_textview_shapepanel_title" android:paddingTop="8.0px" android:layout_width="fill_parent" android:layout_height="38.0px" android:text="@string/string_common_insertshape" />
+    <LinearLayout android:id="@id/holder_grid_shapepanel_line" android:background="@drawable/insertshape_cell_bg" android:layout_width="240.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" />
+    <LinearLayout android:id="@id/holder_grid_shapepanel_shape" android:background="@drawable/insertshape_cell_bg" android:layout_width="240.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="5.0px" />
+    <LinearLayout android:id="@id/holder_grid_shapepanel_arrow" android:background="@drawable/insertshape_cell_bg" android:layout_width="240.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="5.0px" />
+    <LinearLayout android:id="@id/holder_grid_shapepanel_balloon" android:background="@drawable/insertshape_cell_bg" android:layout_width="240.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="5.0px" />
+    <LinearLayout android:id="@id/holder_grid_shapepanel_complex" android:background="@drawable/insertshape_cell_bg" android:layout_width="240.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="5.0px" />
+</LinearLayout>

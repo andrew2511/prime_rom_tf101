@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_drmsetting_linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="500.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff00ff00" android:id="@id/id_anonymouse_desc" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drm_have_anonymous_desc_2" />
+    <EditText android:id="@id/id_adobeID" android:layout_width="300.0px" android:layout_height="wrap_content" android:hint="@string/edittext_drm_setting_hint_adobeid" />
+    <EditText android:id="@id/id_password" android:layout_width="300.0px" android:layout_height="wrap_content" android:hint="@string/edittext_drm_setting_hint_password" android:password="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_t_linearlayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/id_adobe_drm_submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_submit" />
+        <Button android:id="@id/id_adobe_drm_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_cancel" />
+    </LinearLayout>
+    <TextView android:layout_width="500.0px" android:layout_height="wrap_content" android:text="@string/textview_drm_setting_reg_desc" />
+    <Button android:id="@id/id_goto_register_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_reglink" />
+</LinearLayout>

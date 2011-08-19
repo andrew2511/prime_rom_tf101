@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Очистить все</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Нет подключения к Интернету</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi подключено</string>
+    <string name="gps_notification_searching_text">Поиск GPS</string>
+    <string name="gps_notification_found_text">Местоположение установлено с помощью GPS</string>
+    <string name="notifications_off_title">Уведомления отключены</string>
+    <string name="notifications_off_text">Нажмите здесь, чтобы снова включить уведомления.</string>
+</resources>

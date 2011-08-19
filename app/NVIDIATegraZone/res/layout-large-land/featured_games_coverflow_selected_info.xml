@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/selectedFeaturedGameInfo" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/selected_featured_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selected_featured_background" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <RelativeLayout android:orientation="vertical" android:id="@id/featuredDetailsContents" android:paddingLeft="5.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/featuredDetailsHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff77bf03" android:ellipsize="end" android:id="@id/featuredText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:singleLine="true" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/featuredDash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - " android:layout_toRightOf="@id/featuredText" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/featuredPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/featuredDash" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:id="@id/featuredShortDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lines="4" android:layout_below="@id/featuredDetailsHeader" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/featuredShortDescription">
+                <RatingBar android:id="@id/featuredRatingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+                <TextView android:textSize="17.0sp" android:gravity="center_vertical" android:id="@id/commentCount" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commentCount" />
+                <Button android:textColor="#ffefefef" android:id="@id/buyApp" android:background="@drawable/green_button" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/getItNow" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

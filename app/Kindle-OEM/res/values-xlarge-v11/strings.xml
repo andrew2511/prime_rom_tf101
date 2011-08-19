@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transient_opening">Opening item…</string>
+    <string name="transient_paused">Paused</string>
+    <string name="transient_interrupted">Interrupted</string>
+    <string name="transient_done">Done.</string>
+    <string name="transient_downloading">Downloading…</string>
+    <string name="reader_instructions_center">Tap the center of the page to view status, location information and reader controls</string>
+    <string name="menuitem_goto">Go to</string>
+    <string name="menuitem_sync">Sync to Furthest Page Read</string>
+    <string name="goto_notes">View My Notes &amp; Marks</string>
+    <string name="notes_bookmark">Bookmark</string>
+    <string name="menuitem_add_bookmark">Add a Bookmark</string>
+    <string name="menuitem_remove_bookmark">Remove Bookmark</string>
+    <string name="menuitem_reader_store">Shop in Kindle Store</string>
+    <string name="download_progress_bullet">•</string>
+    <string name="font_size_options">Font Size Options</string>
+    <string name="colors_and_brightness">Colors And Brightness</string>
+</resources>

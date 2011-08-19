@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/dmssettings">
+        <CheckBoxPreference android:title="@string/dms" android:key="enableServer" android:defaultValue="false" android:summaryOn="@string/disable_dms" android:summaryOff="@string/enable_dms" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sharemediatype" android:key="MediaType">
+        <CheckBoxPreference android:title="@string/musictype" android:key="checkMusic" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/imagetype" android:key="checkPicture" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/videotype" android:key="checkVideo" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dms_settings_adv">
+        <ListPreference android:title="@string/title_share" android:key="pref_sharefolder" android:summary="@string/desc_share" android:dialogTitle="@string/desc_share" />
+        <EditTextPreference android:name="EditText Preference" android:title="@string/title_friendlyname" android:key="editTextFriendlyname" android:summary="@string/desc_friendlyname" />
+    </PreferenceCategory>
+</PreferenceScreen>

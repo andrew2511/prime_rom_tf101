@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>4 óra</item>
+        <item>8 óra</item>
+        <item>12 óra</item>
+        <item>Kézi</item>
+    </string-array>
+</resources>

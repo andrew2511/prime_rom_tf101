@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="setupWizardBodyTextPrimary" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardBodyTextSecondary" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardBodyTextPrimaryLarge" parent="@android:attr/textAppearanceLarge">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardBodyTextSecondaryLarge" parent="@android:attr/textAppearanceLarge">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTextPrimarySmall" parent="@android:attr/textAppearanceSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTextSecondarySmall" parent="@android:attr/textAppearanceSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+    <style name="setupWizardTextPrimaryGreen">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+    <style name="setupWizardTitleDivider">
+        <item name="android:background">@color/title_color</item>
+    </style>
+    <style name="BrowserTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+    </style>
+    <style name="AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@android:layout/simple_dropdown_item_1line</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@android:drawable/spinner_dropdown_background</item>
+    </style>
+    <style name="CustomTitle" parent="@android:style/Theme">
+        <item name="android:windowTitleSize">60.0dip</item>
+    </style>
+    <style name="WelcomeTheme" parent="@style/CustomTitle" />
+    <style name="ActivationTheme" parent="@style/CustomTitle" />
+    <style name="LocationSharingTheme" parent="@style/CustomTitle" />
+</resources>

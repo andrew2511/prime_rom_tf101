@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Udløber om %1$d dage</item>
+        <item quantity="one">Udløber om én dag</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Udløber om %1$d timer</item>
+        <item quantity="one">Udløber om én time</item>
+    </plurals>
+</resources>

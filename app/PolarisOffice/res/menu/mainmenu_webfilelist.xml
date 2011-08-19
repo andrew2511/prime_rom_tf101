@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ico_menu_newfolder" android:id="@id/menu_webfilelist_mainmenu_newfolder" android:title="@string/string_webfilelist_mainmenu_newfolder" />
+    <item android:icon="@drawable/ico_menu_refresh" android:id="@id/menu_webfilelist_mainmenu_refresh" android:title="@string/string_webfilelist_mainmenu_refresh" />
+    <item android:icon="@drawable/ico_menu_updnload" android:id="@id/menu_webfilelist_mainmenu_updownload" android:title="@string/string_webfilelist_mainmenu_updownload" />
+    <item android:icon="@drawable/ico_menu_recentfiles" android:id="@id/menu_webfilelist_mainmenu_recentfile" android:title="@string/string_webfilelist_mainmenu_recentfile" />
+    <item android:icon="@drawable/ico_menu_settings" android:id="@id/menu_webfilelist_mainmenu_settings" android:title="@string/string_webfilelist_mainmenu_settings" />
+</menu>

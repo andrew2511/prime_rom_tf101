@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Problemas podem ser organizados por data ou título. Selecione-as das abas no topo da tela.</item>
+        <item>"Precisas de mais para ler?
+Selecione o botão comprar na parte inferior da tela para ir a loja on-line para as últimas publicações e artigos."</item>
+        <item>Selecione o menu para ver mais opções - como comprar, mais, apagar e sair.</item>
+        <item>Selecione um problema para baixar aumaticamente enquanto você ler OU selecione o botão para baixar para salvar locamente para ler depois.</item>
+    </string-array>
+</resources>

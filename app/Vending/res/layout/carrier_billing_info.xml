@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/carrier_billing_info" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/asset_snippet" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+        <include android:layout_gravity="center_vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/fullscreen_loading_indicator" />
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/info_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/title_bar_shadow" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="top|left|center" android:id="@id/carrier_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/billing_information_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="-6.0dip" android:text="@string/billing_information_title" />
+            <View android:background="@color/separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="6.0dip" />
+            <TextView android:id="@id/billing_information_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:text="@string/billing_information_description" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="12.0dip" android:text="@string/mobile_phone_billed_label" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/mobile_phone_billed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="-6.0dip" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="12.0dip" android:text="@string/name_billed_label" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="-6.0dip" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:text="@string/billing_address_label" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/address_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/address_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/city_state_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/city_state_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/zip_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/bottombar_portrait_565" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <Button android:id="@id/edit_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/edit" android:layout_weight="1.0" />
+            <Button android:id="@id/save_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save" android:drawableRight="@drawable/ic_btn_next" android:drawablePadding="3.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

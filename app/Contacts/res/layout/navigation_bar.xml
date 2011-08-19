@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:attr/actionBarTabBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/search_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/action_bar_filter_min_width" android:text="@string/search_label" style="?android:attr/actionButtonStyle" />
+    <view android:layout_gravity="left|center" android:id="@id/filter_view" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/action_bar_filter_min_width" class="com.android.contacts.list.ContactListFilterView" style="?android:attr/actionDropDownStyle">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="7.0dip" android:scaleType="fitCenter" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/action_bar_filter_max_width" android:singleLine="true" />
+    </view>
+    <SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/action_bar_search_spacing" android:maxWidth="@dimen/action_bar_search_max_width" android:iconifiedByDefault="false" />
+</LinearLayout>

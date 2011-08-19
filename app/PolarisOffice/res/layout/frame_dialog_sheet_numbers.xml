@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0px">
+        <TextView android:textSize="22.0px" android:layout_width="243.0px" android:layout_height="fill_parent" android:text="@string/string_sheet_decimalpoint" />
+        <LinearLayout android:id="@id/holder_spinner_sheet_numbers_decimalpoint" android:layout_width="164.0px" android:layout_height="42.0px" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0px">
+        <TextView android:textSize="22.0px" android:layout_width="243.0px" android:layout_height="fill_parent" android:text="@string/string_sheet_user_seperator" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="right|center" android:id="@id/holder_togglebutton_sheet_numbers_use1000separator" android:layout_width="38.0px" android:layout_height="48.0px" android:layout_weight="0.0" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="22.0px" android:layout_width="243.0px" android:layout_height="fill_parent" android:text="@string/string_sheet_negativenumbers" />
+        <LinearLayout android:id="@id/holder_spinner_sheet_numbers_negativenumbers" android:layout_width="164.0px" android:layout_height="42.0px" />
+    </TableRow>
+</TableLayout>

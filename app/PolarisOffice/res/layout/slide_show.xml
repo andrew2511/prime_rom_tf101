@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/slide_show_bitmap" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/slide_show_arrow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:background="@drawable/slideshow_guide_left" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:background="@drawable/slideshow_guide_right" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

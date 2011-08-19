@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Μετάβαση στο χάρτη</string>
+    <string name="report_inappropriate_image">Αναφορά εικόνας</string>
+    <string name="toggle_compass_mode">Λειτουργία πυξίδας</string>
+    <string name="compass_mode_on">Ενεργοποίηση πυξίδας.</string>
+    <string name="compass_mode_off">Απενεργοποίηση πυξίδας.</string>
+    <string name="waiting_for_network">Η σύνδεση δεδομένων χάθηκε, γίνεται προσπάθεια ξανά…</string>
+    <string name="panorama_disabled">Η εικόνα δεν είναι πλέον διαθέσιμη</string>
+    <string name="service_unavailable">Η υπηρεσία Street View δεν είναι διαθέσιμη.</string>
+    <string name="loading">Φόρτωση</string>
+    <string name="no_panorama_data">Δεν έχουν ρυθμιστεί δεδομένα πανοράματος.</string>
+    <string name="invalid_panorama_data">Μη έγκυρο πανόραμα.</string>
+    <string name="click_to_go_toast">Σύρετε το εικονίδιο Pegman στο σημείο στο οποίο θέλετε να μεταβείτε.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Αυτό το πρόγραμμα απαιτεί μια σύνδεση δεδομένων και θα επαναλάβει αυτόματα την προσπάθεια. Ελέγξτε την ισχύ του σήματός σας. Είναι ενεργοποιημένη η λειτουργία αεροσκάφους; Έχουν απενεργοποιηθεί τα δεδομένα περιαγωγής;</string>
+    <string name="whats_new_header">Τι είναι νέο στο Streeet View;</string>
+    <string name="whats_new_c2g">Πετάξτε οπουδήποτε θέλετε. Σύρετε το ανθρωπάκι από κάτω αριστερά και αφήστε το σε όποιο μέρος θέλετε να πάτε.</string>
+    <string name="terms_and_privacy">Όροι &amp; Απόρρητο</string>
+    <string name="terms_and_conditions">Όροι και προϋποθέσεις</string>
+    <string name="privacy_policy">Πολιτική απορρήτου</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContactBrowserTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/TransparentActionBarStyle</item>
+        <item name="contact_filter_popup_width">320.0dip</item>
+        <item name="list_item_height">66.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">24.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_fading_edge_length">5.0dip</item>
+        <item name="list_item_gap_between_image_and_text">16.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">30.0dip</item>
+        <item name="list_item_photo_size">64.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff729a27</item>
+        <item name="list_item_header_text_indent">77.0dip</item>
+        <item name="list_item_header_text_color">?color/section_header_text_color</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+    </style>
+    <style name="ContactDetailHeaderTextView">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

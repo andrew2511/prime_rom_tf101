@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s，%2$s</string>
+    <string name="no_network_connection">没有网络连接</string>
+    <string name="authentication_failure_no_network">您必须连接到互联网才能验证与“音乐”关联的帐户。</string>
+    <string name="authentication_failure">身份验证失败</string>
+    <string name="authentication_failure_error">无法验证与“音乐”关联的帐户。</string>
+    <string name="positive_button_text">确定</string>
+    <string name="negative_button_text">取消</string>
+    <string name="save_button_text">保存</string>
+    <string name="not_save_button_text">不保存</string>
+    <string name="shuffle_all">全部随机播放</string>
+    <string name="play_all">全部播放</string>
+    <string name="songs_all">所有歌曲</string>
+    <string name="shuffle">随机播放</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="library_options">音乐库选项</string>
+    <string name="manage_music">允许在离线状态下使用</string>
+    <string name="available_offline">可在离线状态下使用</string>
+    <string name="hide_labels">隐藏标签</string>
+    <string name="show_labels">显示标签</string>
+    <string name="refresh">刷新</string>
+    <string name="shop_artist">购买特定艺术家的商品</string>
+    <string name="show_offline_music_only">仅显示离线音乐</string>
+    <string name="gadget_all_songs_by_artist">%s的所有歌曲</string>
+    <string name="list_title_all_songs_by_artist">"%s
+的所有歌曲"</string>
+    <string name="new_playlist_title">播放列表名称</string>
+    <string name="add_to_playlist_title">播放列表名称</string>
+    <string name="rename_playlist_title">将“%s”重命名为</string>
+    <string name="all_music">所有音乐</string>
+    <string name="only_kept">仅显示离线音乐</string>
+    <string name="search_section_header_artists">艺术家</string>
+    <string name="search_section_header_albums">专辑</string>
+    <string name="search_section_header_songs">歌曲</string>
+    <string name="search_section_header_playlists">播放列表</string>
+    <string name="shuffle_all_songs">全部随机播放</string>
+    <string name="stream_settings">流式传输设置</string>
+    <string name="streamed_music_category">流式音乐</string>
+    <string name="refresh_title">刷新</string>
+    <string name="refresh_summary">刷新来自“Google 音乐”测试版的音乐</string>
+    <string name="account_settings_title">Google 帐户</string>
+    <string name="no_account_selected_summary">触摸以选择帐户</string>
+    <string name="account_selected_summary">使用 %s 与“音乐”测试版建立关联</string>
+    <string name="hide_when_not_connected_title">隐藏无法播放的音乐</string>
+    <string name="hide_when_not_connected_summary">离线状态下只显示可播放的音乐</string>
+    <string name="stream_only_on_wifi_title">仅通过 Wi-Fi 流式传输音乐</string>
+    <string name="stream_only_on_wifi_summary">仅在通过 Wi-Fi 连接网络时流式传输音乐</string>
+    <string name="offlinedl_only_on_wifi_title">仅通过 Wi-Fi 下载</string>
+    <string name="offlinedl_only_on_wifi_summary">仅通过 Wi-Fi 下载离线音乐</string>
+    <string name="cache_streamed_title">缓存音乐</string>
+    <string name="cache_streamed_summary">临时存储流式传输的音乐</string>
+    <string name="download_queue_title">下载队列</string>
+    <string name="download_queue_summary">显示当前正在下载的歌曲</string>
+    <string name="help_title">帮助</string>
+    <string name="help_summary">如何使用 Google 的“音乐”应用程序和“音乐”测试版</string>
+    <string name="library_help_title">帮助</string>
+    <string name="library_help_summary">对连接问题进行排查</string>
+    <string name="add_account_title">添加帐户</string>
+    <string name="accounts_title">帐户</string>
+    <string name="account_status_connected">已连接</string>
+    <string name="account_status_not_connected">未连接</string>
+    <string name="show_no_downloads_title">没有等待下载的歌曲</string>
+    <string name="music_version_title">音乐版本</string>
+    <string name="music_version_summary">未知版本</string>
+    <string name="list_status_summary_no_items">无项目</string>
+    <string name="list_status_summary_loading">正在载入...</string>
+    <string name="stream_accounts_title">流式音乐帐户</string>
+    <string name="library_status_title">流式音乐库状态</string>
+    <string name="nowplaying_title">正在播放</string>
+    <string name="artists_title">艺术家</string>
+    <string name="albums_title">专辑</string>
+    <string name="genres_title">流派</string>
+    <string name="tracks_title">歌曲</string>
+    <string name="playlists_title">播放列表</string>
+    <string name="recent_title">最新</string>
+    <string name="search_title">搜索</string>
+    <string name="no_tracks_title">无歌曲</string>
+    <string name="no_videos_title">无视频</string>
+    <string name="delete_playlist_menu">删除</string>
+    <string name="edit_playlist_menu">编辑</string>
+    <string name="rename_playlist_menu">重命名</string>
+    <string name="playlist_delete_confirmation">系统将会删除播放列表“%s”。</string>
+    <string name="delete_playlist_button_confirm">删除</string>
+    <string name="playlist_deleted_message">播放列表已删除。</string>
+    <string name="playlist_created_message">播放列表“%s”已创建</string>
+    <string name="playlist_renamed_message">播放列表已重命名为“%s”</string>
+    <string name="recentlyadded">最近添加的歌曲</string>
+    <string name="recentlyadded_title">新增歌曲</string>
+    <string name="podcasts_listitem">播客</string>
+    <string name="podcasts_title">播客</string>
+    <string name="unknown_artist_name">未知艺术家</string>
+    <string name="unknown_album_name">未知专辑</string>
+    <string name="unknown_playlist_name">未知播放列表</string>
+    <string name="shuffle_on_notif">随机播放已打开。</string>
+    <string name="shuffle_off_notif">随机播放已关闭。</string>
+    <string name="repeat_off_notif">重复播放已关闭。</string>
+    <string name="repeat_current_notif">重复播放当前歌曲。</string>
+    <string name="repeat_all_notif">重复播放所有歌曲。</string>
+    <string name="play_selection">播放</string>
+    <string name="add_to_playlist">添加到播放列表</string>
+    <string name="rename_playlist_menu_item">重命名</string>
+    <string name="add_to_playlist_selector_title">添加到播放列表</string>
+    <string name="queue">当前的播放列表</string>
+    <string name="new_playlist_for_content">新播放列表...</string>
+    <string name="new_empty_playlist">新播放列表</string>
+    <string name="new_playlist_name_template">播放列表 %d</string>
+    <string name="playlist_too_many_songs">歌曲过多。每个播放列表的歌曲数目上限为 %d 首。</string>
+    <string name="emptyplaylist">您选的播放列表是空的。</string>
+    <string name="playlist_edit_label">名称</string>
+    <string name="create_playlist_create_text">确定</string>
+    <string name="rename_playlist_rename_text">重命名</string>
+    <string name="service_start_error_title">播放问题</string>
+    <string name="service_start_error_msg">抱歉，无法播放此歌曲。</string>
+    <string name="service_start_error_button">确定</string>
+    <string name="weekpicker_set">完成</string>
+    <string name="weekpicker_title">设置时间</string>
+    <string name="save_as_playlist">另存为播放列表</string>
+    <string name="musicbrowserlabel">音乐</string>
+    <string name="musicshortcutlabel">音乐播放列表</string>
+    <string name="mediaplaybacklabel">音乐</string>
+    <string name="playback_failed">播放请求的曲目时出错</string>
+    <string name="cancel">取消</string>
+    <string name="remove_from_playlist">从播放列表中删除</string>
+    <string name="streamloadingtext">正在连接 %s</string>
+    <string name="mediasearch">使用以下工具搜索“%s”：</string>
+    <string name="search_hint">搜索音乐</string>
+    <string name="working_artists">艺术家...</string>
+    <string name="working_albums">专辑...</string>
+    <string name="working_songs">歌曲...</string>
+    <string name="working_playlists">播放列表...</string>
+    <string name="working_genres">流派...</string>
+    <string name="loading">正在载入</string>
+    <string name="sort_by_track">曲目</string>
+    <string name="music_picker_title">选择曲目</string>
+    <string name="gadget_track">曲目 %d</string>
+    <string name="fail_to_start_stream">无法播放所请求的音频流。</string>
+    <string name="search_settings_description">艺术家、专辑和曲目</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">音乐库</string>
+    <string name="music_shop">浏览</string>
+    <string name="pick">精选</string>
+    <string name="artist_unknown">未知艺术家</string>
+    <string name="playlists_label">播放列表</string>
+    <string name="playlist_label">播放列表</string>
+    <string name="faux_art_all_songs_label">所有歌曲</string>
+    <string name="faux_art_playlist_label">播放列表</string>
+    <string name="loading_new">正在载入新音乐</string>
+    <string name="no_items">您还没有曲目</string>
+    <string name="buffering">正在缓冲</string>
+    <string name="keep_on_phone">可在离线状态下使用</string>
+    <string name="sort_order_prompt">选择排序方式</string>
+    <string name="provider_label">音乐</string>
+    <string name="tutorial_set_up_usb">了解详情</string>
+    <string name="no_music_heading">音乐库为空</string>
+    <string name="no_music_setup_uploader_heading">以无线方式流式传输您的音乐</string>
+    <string name="no_music_setup_uploader_body">通过 Google 的“音乐”测试版流式传输您个人收藏的音乐。</string>
+    <string name="no_music_setup_usb_heading">将音乐复制到您的设备中</string>
+    <string name="no_music_setup_usb_body">使用 USB 线将音乐复制到您的手机中。</string>
+    <string name="no_local_music_heading">无本地音乐</string>
+    <string name="no_local_music_body">目前处于仅显示离线音乐的模式下，所以仅显示存储在设备上的音乐。要更改未连接时可使用的内容，请使用“允许在离线状态下使用”选项进行选择。</string>
+    <string name="no_music_learn_more">了解详情</string>
+    <string name="tutorial_set_up_streaming">设置流式传输</string>
+    <string name="no_playlists_heading">您的音乐库中没有任何播放列表。</string>
+    <string name="no_playlists_body">您可以通过以下方式创建播放列表：转到“歌曲列表”视图，然后在歌曲的右键菜单中选择“添加到播放列表”。</string>
+    <string name="tutorial_account_heading">欢迎使用</string>
+    <string name="tutorial_account_body">您已受邀试用 Google 的“音乐”测试版。您可以使用此播放器即时访问添加到“音乐”测试版的歌曲以及复制到 Android 设备上的其他音乐。</string>
+    <string name="tutorial_account_list_header">请先选择一个 Google 帐户将此播放器与“音乐”测试版关联：</string>
+    <string name="tutorial_done_heading">祝您使用愉快</string>
+    <string name="tutorial_done_body">"现在，“音乐”播放器已与您的 Google 帐户关联。
+
+如果您已将自己收藏的音乐添加到“音乐”测试版，那么这些音乐就会开始显示在此播放器上。
+
+如果您还需要向“音乐”测试版添加音乐，请先通过计算机访问我们的网站："</string>
+    <string name="tutorial_back">上一步</string>
+    <string name="tutorial_skip">跳过</string>
+    <string name="tutorial_next">下一步</string>
+    <string name="tutorial_done">完成</string>
+    <string name="help_heading">帮助</string>
+    <string name="spinner_carousel">最新</string>
+    <string name="spinner_album">专辑</string>
+    <string name="spinner_artist">艺术家</string>
+    <string name="spinner_songs">歌曲</string>
+    <string name="spinner_playlists">播放列表</string>
+    <string name="spinner_genres">流派</string>
+    <string name="sort_by_title">按曲目标题 (A-Z) 排序</string>
+    <string name="sort_by_artist">按艺术家排序</string>
+    <string name="sort_by_album">按专辑排序</string>
+    <string name="more_by_artist">来自该艺术家的更多专辑</string>
+    <string name="make_available_offline">允许在离线状态下使用</string>
+    <string name="search_web">搜索网页</string>
+    <string name="manage_done">完成</string>
+    <string name="too_many_items_title">歌曲过多</string>
+    <string name="too_many_items_body">选择保留的歌曲过多。请取消选择一些歌曲，以腾出空间。</string>
+    <string name="save_manage_music_change_title">要保存更改吗？</string>
+    <string name="save_manage_music_change_body">您要保存所做的更改以便离线播放所选音乐吗？</string>
+    <string name="not_all_items_can_be_kept_body">选择保留的歌曲过多。无法下载所有歌曲。</string>
+    <string name="free_space_overfull">存储空间已满（已超出 %s）</string>
+    <string name="free_space">可用空间：%s</string>
+    <string name="stream_error_no_space_available">空间不足</string>
+    <string name="stream_error_server_not_found">无法连接到服务器</string>
+    <string name="stream_error_only_on_wifi">您必须连接到 Wi-Fi 网络才能播放该歌曲</string>
+    <string name="stream_error_no_connection">您必须在线才能播放该歌曲</string>
+    <string name="stream_error_unauthorized">用户名/密码无效</string>
+    <string name="stream_error_another_stream_being_played">音乐已暂停，因为您正在另一设备上播放您收藏的音乐。</string>
+    <string name="stream_error_rate_limit_reached">暂时无法播放音乐。请确保您一次仅在一台设备上播放您收藏的音乐。</string>
+    <string name="stream_error_device_not_authorized">已有 8 台计算机或设备与此帐户关联。在添加其他计算机或设备前，您必须先对其中一台取消授权。</string>
+    <string name="stream_error_another_stream_being_played_short">音乐已暂停</string>
+    <string name="stream_error_rate_limit_reached_short">暂时无法播放音乐</string>
+    <string name="stream_error_device_not_authorized_short">过多设备与此帐户关联</string>
+    <string name="hide_now_playing_bar">隐藏“正在播放”栏</string>
+    <string name="show_now_playing_bar">显示“正在播放”栏</string>
+    <string name="show_options">显示选项</string>
+    <string name="hide_options">隐藏选项</string>
+    <string name="all_songs_in_genre">"属于以下流派的所有歌曲：
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s，%d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">允许在离线状态下听音乐</string>
+    <string name="notification_downloading_when_on_wifi">在您连接到 Wi-Fi 网络后，系统会立即载入标记为离线的歌曲。</string>
+    <string name="notification_downloading_excessive_errors">目前无法下载歌曲。请检查您的互联网连接状况。</string>
+    <string name="notification_downloading_done">现在可以在离线状态下听选择的歌曲了</string>
+    <string name="carousel_label_shuffle_all">全部随机播放</string>
+    <string name="song_label">歌曲</string>
+    <string name="artist_label">艺术家</string>
+    <string name="album_label">专辑</string>
+    <string name="effectspanel">音效</string>
+    <string name="menu_make_instant_mix">制作速成合辑</string>
+    <string name="instant_mix_default_name">%s音乐合辑</string>
+    <string name="creating_instant_mix">"正在将速成合辑
+添加到播放列表"</string>
+    <string name="creating_instant_mix_with_seed">"根据%s
+将速成合辑
+添加到播放列表"</string>
+    <string name="create_instant_mix_failed">无法创建速成合辑，请重试</string>
+    <string name="create_instant_mix_failed_insufficient_results">您收藏中的类似歌曲不足，无法通过“%s”创建速成合辑。请尝试通过其他歌曲创建速成合辑。</string>
+    <string name="create_instant_mix_sync_timeout">"速成合辑已创建，
+很快就会显示在
+您的播放列表中。"</string>
+    <string name="create_instant_mix_btn_ok">确定</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete_local_only">您确定要删除“%s”吗？</string>
+    <string name="confirm_delete_has_remote">“%s”已传输并上传到了“Google 音乐”。系统只会删除已传输的歌曲。您确定要删除这些歌曲吗？</string>
+</resources>

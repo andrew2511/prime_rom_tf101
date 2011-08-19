@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="10.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_text_dot" />
+    <TextView android:textSize="16.0sp" android:id="@id/name" android:layout_toRightOf="@id/dot" android:lineSpacingExtra="0.0sp" style="@style/DetailsPage_HeaderText" />
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:id="@id/description" android:layout_toRightOf="@id/dot" android:layout_below="@id/name" android:lineSpacingExtra="3.0sp" style="@style/DetailsPage_HeaderText" />
+</RelativeLayout>

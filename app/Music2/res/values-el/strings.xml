@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Δεν υπάρχει σύνδεση δικτύου</string>
+    <string name="authentication_failure_no_network">Πρέπει να είστε συνδεδεμένοι στο Διαδίκτυο για να κάνετε έλεγχο της ταυτότητας του λογαριασμού σας για την εφαρμογή Μουσική.</string>
+    <string name="authentication_failure">Ο έλεγχος ταυτότητας απέτυχε</string>
+    <string name="authentication_failure_error">Αδυναμία ελέγχου ταυτότητας του λογαριασμού σας για την εφαρμογή Μουσική.</string>
+    <string name="positive_button_text">ΟΚ</string>
+    <string name="negative_button_text">Ακύρωση</string>
+    <string name="save_button_text">Αποθήκευση</string>
+    <string name="not_save_button_text">Όχι αποθήκευση</string>
+    <string name="shuffle_all">Τυχ.αναπαρ.όλων</string>
+    <string name="play_all">Αναπαραγωγή όλων</string>
+    <string name="songs_all">Όλα τα τραγούδια</string>
+    <string name="shuffle">Τυχαία αναπαραγωγή</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="library_options">Επιλογές βιβλιοθήκης</string>
+    <string name="manage_music">Να είναι διαθέσιμα εκτός σύνδεσης</string>
+    <string name="available_offline">Διαθέσιμη εκτός σύνδεσης</string>
+    <string name="hide_labels">Απόκρυψη ετικετών</string>
+    <string name="show_labels">Εμφάνιση ετικετών</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="shop_artist">Αγορά για τον καλλιτέχνη</string>
+    <string name="show_offline_music_only">Εμφάνιση μόνο μουσικής εκτός σύνδεσης</string>
+    <string name="gadget_all_songs_by_artist">Όλα τα τραγούδια από %s</string>
+    <string name="list_title_all_songs_by_artist">"Όλα τα τραγούδια από
+%s"</string>
+    <string name="new_playlist_title">Όνομα λίστας αναπαραγωγής</string>
+    <string name="add_to_playlist_title">Όνομα λίστας αναπαραγωγής</string>
+    <string name="rename_playlist_title">Μετονομασία της λίστας αναπαραγωγής \"%s\" σε</string>
+    <string name="all_music">Όλα τα αρχεία μουσικής</string>
+    <string name="only_kept">Μόνο εκτός σύνδεσης</string>
+    <string name="search_section_header_artists">ΚΑΛΛΙΤΕΧΝΕΣ</string>
+    <string name="search_section_header_albums">ΑΛΜΠΟΥΜ</string>
+    <string name="search_section_header_songs">ΤΡΑΓΟΥΔΙΑ</string>
+    <string name="search_section_header_playlists">ΛΙΣΤΕΣ ΑΝΑΠΑΡΑΓΩΓΗΣ</string>
+    <string name="shuffle_all_songs">Τυχαία αναπαραγωγή όλων</string>
+    <string name="stream_settings">Ρυθμίσεις ροής</string>
+    <string name="streamed_music_category">Μουσική ροής</string>
+    <string name="refresh_title">Ανανέωση</string>
+    <string name="refresh_summary">Ανανέωση μουσικής από το Music Beta</string>
+    <string name="account_settings_title">Λογαριασμός Google</string>
+    <string name="no_account_selected_summary">Αγγίξτε για να επιλέξετε λογαριασμό</string>
+    <string name="account_selected_summary">Σύνδεση στην έκδοση beta της εφαρμογής Μουσική με χρήση του λογαριασμού %s</string>
+    <string name="hide_when_not_connected_title">Απόκρυψη μη διαθέσιμης μουσικής</string>
+    <string name="hide_when_not_connected_summary">Εμφάνιση μόνο της διαθέσιμης μουσικής όταν δεν υπάρχει σύνδεση</string>
+    <string name="stream_only_on_wifi_title">Ροή μουσικής μόνο μέσω Wi-Fi</string>
+    <string name="stream_only_on_wifi_summary">Ροή μουσικής μόνο όταν υπάρχει σύνδεση μέσω Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_title">Λήψη μόνο μέσω Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Λήψη μουσικής για διαθεσιμότητα εκτός σύνδεσης μόνο μέσω Wi-Fi</string>
+    <string name="cache_streamed_title">Μουσ. από προσ.μνήμη</string>
+    <string name="cache_streamed_summary">Προσωρινή αποθήκευση ροής μουσικής</string>
+    <string name="download_queue_title">Ουρά λήψης</string>
+    <string name="download_queue_summary">Εμφάνιση των τραγουδιών για τα οποία πραγματοποιείται λήψη αυτήν τη στιγμή</string>
+    <string name="help_title">Βοήθεια</string>
+    <string name="help_summary">Τρόποι με τους οποίους μπορείτε να χρησιμοποιήσετε την εφαρμογή Μουσική και την έκδοση beta της εφαρμογής Μουσική από τη Google</string>
+    <string name="library_help_title">Βοήθεια</string>
+    <string name="library_help_summary">Αντιμετώπιση προβλημάτων σύνδεσης</string>
+    <string name="add_account_title">Προσθήκη λογαριασμού</string>
+    <string name="accounts_title">Λογαριασμοί</string>
+    <string name="account_status_connected">συνδεδεμένος</string>
+    <string name="account_status_not_connected">δεν είναι συνδεδεμένος</string>
+    <string name="show_no_downloads_title">Δεν υπάρχουν τραγούδια για λήψη στην ουρά</string>
+    <string name="music_version_title">Έκδοση μουσικής</string>
+    <string name="music_version_summary">Άγνωστη έκδοση</string>
+    <string name="list_status_summary_no_items">Δεν υπάρχουν στοιχεία</string>
+    <string name="list_status_summary_loading">Φόρτωση...</string>
+    <string name="stream_accounts_title">Λογαριασμοί ροής</string>
+    <string name="library_status_title">Κατάσταση βιβλιοθήκης ροής</string>
+    <string name="nowplaying_title">Αναπαραγωγή σε εξέλιξη</string>
+    <string name="artists_title">Καλλιτέχνες</string>
+    <string name="albums_title">Άλμπουμ</string>
+    <string name="genres_title">Είδη</string>
+    <string name="tracks_title">Τραγούδια</string>
+    <string name="playlists_title">Λίστες αναπαραγωγής</string>
+    <string name="recent_title">Πρόσφατα</string>
+    <string name="search_title">Αναζήτηση</string>
+    <string name="no_tracks_title">Δεν υπάρχουν τραγούδια</string>
+    <string name="no_videos_title">Δεν υπάρχουν βίντεο</string>
+    <string name="delete_playlist_menu">Διαγραφή</string>
+    <string name="edit_playlist_menu">Επεξεργασία</string>
+    <string name="rename_playlist_menu">Μετονομασία</string>
+    <string name="playlist_delete_confirmation">Η λίστα αναπαραγωγής \"%s\" θα διαγραφεί.</string>
+    <string name="delete_playlist_button_confirm">Διαγραφή</string>
+    <string name="playlist_deleted_message">Η λίστα αναπαραγωγής διαγράφηκε.</string>
+    <string name="playlist_created_message">Δημιουργήθηκε η λίστα αναπαραγωγής \"%s\"</string>
+    <string name="playlist_renamed_message">Η λίστα αναπαραγωγής μετονομάστηκε σε \"%s\"</string>
+    <string name="recentlyadded">Αρχεία που προστέθηκαν πρόσφατα</string>
+    <string name="recentlyadded_title">Αρχεία που προστέθηκαν πρόσφατα</string>
+    <string name="podcasts_listitem">Podcasts</string>
+    <string name="podcasts_title">Podcasts</string>
+    <string name="unknown_artist_name">Άγνωστος καλλιτέχνης</string>
+    <string name="unknown_album_name">Άγνωστο άλμπουμ</string>
+    <string name="unknown_playlist_name">Άγνωστη λίστα αναπαραγ.</string>
+    <string name="shuffle_on_notif">Η τυχαία αναπαραγωγή ενεργοποιήθηκε.</string>
+    <string name="shuffle_off_notif">Η τυχαία αναπαραγωγή απενεργοποιήθηκε.</string>
+    <string name="repeat_off_notif">Η επανάληψη απενεργοποιήθηκε.</string>
+    <string name="repeat_current_notif">Επανάληψη τρέχοντος τραγουδιού.</string>
+    <string name="repeat_all_notif">Επανάληψη όλων των τραγουδιών.</string>
+    <string name="play_selection">Αναπαραγωγή</string>
+    <string name="add_to_playlist">Προσθ.στη λίστα αναπαρ.</string>
+    <string name="rename_playlist_menu_item">Μετονομασία</string>
+    <string name="add_to_playlist_selector_title">Προσθ. στη λίστα αναπαρ.</string>
+    <string name="queue">Τρέχουσα λίστα αναπαραγωγής</string>
+    <string name="new_playlist_for_content">Νέα λίστα αναπαραγωγής...</string>
+    <string name="new_empty_playlist">Νέα λίστα αναπαραγωγής</string>
+    <string name="new_playlist_name_template">Λίστα αναπαραγωγής %d</string>
+    <string name="playlist_too_many_songs">Πάρα πολλά τραγούδια. Το όριο είναι %d ανά λίστα.</string>
+    <string name="emptyplaylist">Η λίστα αναπαραγωγής που επιλέξατε είναι κενή.</string>
+    <string name="playlist_edit_label">ΟΝΟΜΑ</string>
+    <string name="create_playlist_create_text">ΟΚ</string>
+    <string name="rename_playlist_rename_text">Μετονομασία</string>
+    <string name="service_start_error_title">Πρόβλημα αναπαραγωγής</string>
+    <string name="service_start_error_msg">Λυπούμαστε, δεν είναι δυνατή η αναπαραγωγή του τραγουδιού.</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">Τέλος</string>
+    <string name="weekpicker_title">Ρύθμιση ώρας</string>
+    <string name="save_as_playlist">Αποθ.ως λίστα αναπ.</string>
+    <string name="musicbrowserlabel">Μουσική</string>
+    <string name="musicshortcutlabel">Λίστα αναπαραγωγής μουσικής</string>
+    <string name="mediaplaybacklabel">Μουσική</string>
+    <string name="playback_failed">Παρουσιάστηκε σφάλμα κατά την αναπαραγωγή του αιτούμενου κομματιού</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="remove_from_playlist">Κατάργηση από τη λίστα αναπαραγωγής</string>
+    <string name="streamloadingtext">Σύνδεση στο %s</string>
+    <string name="mediasearch">Αναζήτηση του όρου \"%s\" με χρήση:</string>
+    <string name="search_hint">Αναζήτηση μουσικής</string>
+    <string name="working_artists">Καλλιτέχνες...</string>
+    <string name="working_albums">Άλμπουμ...</string>
+    <string name="working_songs">Τραγούδια...</string>
+    <string name="working_playlists">Λίστες αναπαραγωγής...</string>
+    <string name="working_genres">Είδη...</string>
+    <string name="loading">Φόρτωση</string>
+    <string name="sort_by_track">Κομμάτια</string>
+    <string name="music_picker_title">Επιλέξτε μουσικό κομμάτι</string>
+    <string name="gadget_track">Κομμάτι %d</string>
+    <string name="fail_to_start_stream">Απέτυχε η αναπαραγωγή της ζητούμενης ροής.</string>
+    <string name="search_settings_description">Καλλιτέχνες, άλμπουμ και τραγούδια</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">Μουσική βιβλιοθήκη</string>
+    <string name="music_shop">Αγορά</string>
+    <string name="pick">Επιλογή</string>
+    <string name="artist_unknown">Άγνωστος καλλιτέχνης</string>
+    <string name="playlists_label">Λίστες αναπαραγωγής</string>
+    <string name="playlist_label">Λίστα αναπαραγωγής</string>
+    <string name="faux_art_all_songs_label">Όλα τα τραγούδια</string>
+    <string name="faux_art_playlist_label">Λίστα αναπαραγωγής</string>
+    <string name="loading_new">Φόρτωση νέας μουσικής</string>
+    <string name="no_items">Δεν υπάρχουν στοιχεία στη συλλογή σας</string>
+    <string name="buffering">Αποθήκευση στην προσωρινή μνήμη</string>
+    <string name="keep_on_phone">Διαθέσιμη εκτός σύνδεσης</string>
+    <string name="sort_order_prompt">Επιλέξτε τρόπο ταξινόμησης</string>
+    <string name="provider_label">Μουσική</string>
+    <string name="tutorial_set_up_usb">Μάθετε περισσότερα</string>
+    <string name="no_music_heading">Η μουσική βιβλιοθήκη είναι κενή</string>
+    <string name="no_music_setup_uploader_heading">Μεταδώστε τη μουσική σας ασύρματα</string>
+    <string name="no_music_setup_uploader_body">Μεταδώστε την προσωπική μουσική συλλογή σας με την έκδοση beta της εφαρμογής Μουσική από τη Google.</string>
+    <string name="no_music_setup_usb_heading">Αντιγραφή μουσικής στη συσκευή σας</string>
+    <string name="no_music_setup_usb_body">Αντιγραφή μουσικής στο τηλέφωνό σας με καλώδιο USB.</string>
+    <string name="no_local_music_heading">Δεν υπάρχει μουσική στη συσκευή</string>
+    <string name="no_local_music_body">Είστε σε λειτουργία \"Μόνο εκτός σύνδεσης\", έτσι μπορείτε να δείτε μόνο την αποθηκευμένη μουσική. Για να αλλάξετε τις ρυθμίσεις όταν δεν είστε συνδεδεμένοι, επιλέξτε \"Διαθέσιμο εκτός σύνδεσης\".</string>
+    <string name="no_music_learn_more">Μάθετε περισσότερα</string>
+    <string name="tutorial_set_up_streaming">Ρύθμιση ροής</string>
+    <string name="no_playlists_heading">Δεν υπάρχουν λίστες αναπαραγωγής στη βιβλιοθήκη σας.</string>
+    <string name="no_playlists_body">Μπορείτε να δημιουργήσετε λίστα αναπαραγωγής από την προβολή λίστας \"Τραγούδια\", επιλέγοντας το στοιχείο \"Προσθήκη σε λίστα αναπαραγωγής\" από το μενού περιβάλλοντος ενός τραγουδιού.</string>
+    <string name="tutorial_account_heading">Καλώς ήρθατε</string>
+    <string name="tutorial_account_body">Έχετε προσκληθεί στην έκδοση beta της εφαρμογής Μουσική από τη Google. Μπορείτε να κάνετε χρήση αυτού του προγράμματος αναπαραγωγής για να έχετε άμεση πρόσβαση στη μουσική που προσθέτετε στην έκδοση beta της εφαρμογής Μουσική και σε άλλα τραγούδια μουσικής που έχετε αντιγράψει στη συσκευή σας Android.</string>
+    <string name="tutorial_account_list_header">Ξεκινήστε επιλέγοντας έναν Λογαριασμό Google για να συνδέσετε αυτό το πρόγραμμα αναπαραγωγής μουσικής στην έκδοση beta της εφαρμογής Μουσική:</string>
+    <string name="tutorial_done_heading">Καλή διασκέδαση</string>
+    <string name="tutorial_done_body">"Αυτό το πρόγραμμα αναπαραγωγής έχει συνδεθεί στον Λογαριασμό σας Google.
+
+Αν έχετε κάνει ήδη προσθήκη της μουσικής συλλογής σας στην έκδοση beta της εφαρμογής Μουσική, θα αρχίσει να εμφανίζεται σε αυτό το πρόγραμμα αναπαραγωγής.
+
+Αν δεν έχετε κάνει ακόμα προσθήκη της μουσικής σας στην έκδοση beta της εφαρμογής Μουσική, ξεκινήστε μεταβαίνοντας στον ιστότοπό μας από τον υπολογιστή σας:"</string>
+    <string name="tutorial_back">Πίσω</string>
+    <string name="tutorial_skip">Παράβλεψη</string>
+    <string name="tutorial_next">Επόμενο</string>
+    <string name="tutorial_done">Ολοκληρώθηκε</string>
+    <string name="help_heading">Βοήθεια</string>
+    <string name="spinner_carousel">Πρόσφατα</string>
+    <string name="spinner_album">Λευκώματα</string>
+    <string name="spinner_artist">Καλλιτέχνες</string>
+    <string name="spinner_songs">Τραγούδια</string>
+    <string name="spinner_playlists">Λίστες αναπαραγωγής</string>
+    <string name="spinner_genres">Είδη</string>
+    <string name="sort_by_title">Ταξινόμηση από το Α-Ω</string>
+    <string name="sort_by_artist">Ταξινόμηση κατά καλλιτέχνη</string>
+    <string name="sort_by_album">Ταξινόμηση κατά άλμπουμ</string>
+    <string name="more_by_artist">Άλλα από τον καλλιτέχνη</string>
+    <string name="make_available_offline">Διάθεση εκτός σύνδεσης</string>
+    <string name="search_web">Αναζήτηση στον ιστό</string>
+    <string name="manage_done">Τέλος</string>
+    <string name="too_many_items_title">Πάρα πολλά αντικείμενα</string>
+    <string name="too_many_items_body">Έχουν επιλεγεί πάρα πολλά στοιχεία για διατήρηση. Αποεπιλέξτε ορισμένα για να απελευθερώσετε αποθηκευτικό χώρο.</string>
+    <string name="save_manage_music_change_title">Αποθήκευση αλλαγών;</string>
+    <string name="save_manage_music_change_body">Θέλετε να αποθηκεύσετε τις αλλαγές ώστε να έχετε πρόσβαση στη μουσική που έχετε επιλέξει και εκτός σύνδεσης;</string>
+    <string name="not_all_items_can_be_kept_body">Έχουν επιλεγεί πάρα πολλά στοιχεία για διατήρηση. Δεν θα γίνει λήψη όλων.</string>
+    <string name="free_space_overfull">Πλ. χώρ. απ. (%s και άνω)</string>
+    <string name="free_space">%s ΕΛΕΥΘΕΡΑ</string>
+    <string name="stream_error_no_space_available">Δεν υπάρχει διαθέσιμος χώρος</string>
+    <string name="stream_error_server_not_found">Δεν ήταν δυνατή η σύνδεση με τον διακομιστή</string>
+    <string name="stream_error_only_on_wifi">Για να γίνει αναπαραγωγή του τραγουδιού, θα πρέπει να συνδεθείτε σε ένα δίκτυο Wi-Fi</string>
+    <string name="stream_error_no_connection">Για την αναπαραγωγή αυτού του τραγουδιού, θα πρέπει να είστε συνδεδεμένοι στο διαδίκτυο</string>
+    <string name="stream_error_unauthorized">Μη έγκυρο όνομα χρήστη/κωδικός πρόσβασης</string>
+    <string name="stream_error_another_stream_being_played">Έγινε παύση της Μουσικής επειδή γίνεται αναπαραγωγή της συλλογής σας σε άλλη συσκευή.</string>
+    <string name="stream_error_rate_limit_reached">Η εφαρμογή Μουσική δεν είναι διαθέσιμη προσωρινά. Βεβαιωθείτε ότι κάνετε αναπαραγωγή της συλλογής σας μόνο σε μία συσκευή κάθε φορά.</string>
+    <string name="stream_error_device_not_authorized">8 υπολογιστές ή συσκευές έχουν συνδεθεί σε αυτόν τον λογαριασμό. Πρέπει να αναιρέσετε την εξουσιοδότηση κάποιας από αυτές προτού προσθέσετε άλλη.</string>
+    <string name="stream_error_another_stream_being_played_short">Έχει γίνει προσωρινή παύση της Μουσικής</string>
+    <string name="stream_error_rate_limit_reached_short">Η Μουσική είναι προσωρινά μη διαθέσιμη</string>
+    <string name="stream_error_device_not_authorized_short">Έχουν συνδεθεί πάρα πολλές συσκευές σε αυτόν τον λογαριασμό</string>
+    <string name="hide_now_playing_bar">Απόκρ. της γραμμής τρέχ. αναπ.</string>
+    <string name="show_now_playing_bar">Εμφάνιση γραμμής τρέχ. αναπαρ.</string>
+    <string name="show_options">Εμφάνιση επιλογών</string>
+    <string name="hide_options">Απόκρυψη επιλογών</string>
+    <string name="all_songs_in_genre">"Όλα τα τραγούδια του είδους
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Διάθεση μουσικής εκτός σύνδεσης</string>
+    <string name="notification_downloading_when_on_wifi">Η φόρτωση των τραγουδιών που επισημαίνονται ως εκτός σύνδεσης θα πραγματοποιηθεί μόλις συνδεθείτε σε ένα δίκτυο Wi-Fi.</string>
+    <string name="notification_downloading_excessive_errors">Προς το παρόν δεν είναι δυνατή η λήψη τραγουδιών. Ελέγξτε τη σύνδεσή σας στο Διαδίκτυο.</string>
+    <string name="notification_downloading_done">Τα επιλεγμένα τραγούδια είναι πλέον διαθέσιμα εκτός σύνδεσης</string>
+    <string name="carousel_label_shuffle_all">Τυχαία αναπαραγωγή όλων</string>
+    <string name="song_label">ΤΡΑΓΟΥΔΙ</string>
+    <string name="artist_label">ΚΑΛΛΙΤΕΧΝΗΣ</string>
+    <string name="album_label">ΑΛΜΠΟΥΜ</string>
+    <string name="effectspanel">Ηχητικά εφέ</string>
+    <string name="menu_make_instant_mix">Δημ/γία άμεσης μίξης</string>
+    <string name="instant_mix_default_name">Μίξη %s</string>
+    <string name="creating_instant_mix">"Προσθήκη άμεσης μίξης
+στις λίστες αναπαραγωγής"</string>
+    <string name="creating_instant_mix_with_seed">"Προσθήκη άμεσης μίξης
+στις λίστες αναπαραγωγής, βάσει του 
+%s"</string>
+    <string name="create_instant_mix_failed">Δεν ήταν δυνατή η δημιουργία άμεσης μίξης. Προσπαθήστε ξανά</string>
+    <string name="create_instant_mix_failed_insufficient_results">Δεν υπήρχαν αρκετά παρόμοια κομμάτια στη συλλογή σας για τη δημιουργία μιας άμεσης μίξης από το \"%s.\" προσπαθήστε να δημιουργήσετε μια άμεση μίξη από ένα άλλο τραγούδι.</string>
+    <string name="create_instant_mix_sync_timeout">"Η άμεση μίξη
+δημιουργήθηκε και σύντομα θα εμφανιστεί στις
+λίστες αναπαραγωγής."</string>
+    <string name="create_instant_mix_btn_ok">ΟΚ</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="confirm_delete_local_only">Είστε βέβαιοι ότι θέλετε να διαγράψετε το \"%s\";</string>
+    <string name="confirm_delete_has_remote">Το \"%s\" φορτώθηκε παράλληλα και έγινε και μεταφόρτωσή του στο Google Music. Θα γίνει διαγραφή μόνο των παράλληλα φορτωμένων στοιχείων. Είστε βέβαιοι ότι θέλετε να τα διαγράψετε;</string>
+</resources>

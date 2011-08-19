@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/translate_dialog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/title_bar" android:background="@drawable/asus_ep_bar_title" android:paddingLeft="45.0px" android:paddingTop="29.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/translate_title" android:singleLine="true" />
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/translate_sub_title1" android:background="@drawable/asus_ep_bar_window_center" android:paddingLeft="62.0px" android:paddingTop="19.0px" android:paddingBottom="6.0px" android:layout_width="fill_parent" android:layout_height="76.0px" android:maxWidth="470.0px" android:text="@string/translate_sub_title1" android:singleLine="true" />
+    <ScrollView android:id="@id/translate_scv1" android:background="@drawable/asus_ep_bar_window_center" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_below="@id/translate_sub_title1" android:layout_alignParentLeft="true">
+        <TextView android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/translate_dialog_be_translated" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+    </ScrollView>
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/translate_sub_title2" android:background="@drawable/asus_ep_bar_window_center" android:paddingLeft="62.0px" android:paddingTop="19.0px" android:paddingBottom="6.0px" android:layout_width="fill_parent" android:layout_height="76.0px" android:maxWidth="470.0px" android:text="@string/translate_sub_title2" android:singleLine="true" />
+    <ScrollView android:id="@id/translate_scv2" android:background="@drawable/asus_ep_bar_window_center" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_below="@id/translate_sub_title2" android:layout_alignParentLeft="true">
+        <TextView android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/translate_dialog_translate_lang" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:background="@drawable/asus_ep_bottom_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/translate_scv2" android:layout_alignParentLeft="true">
+        <Button android:textColor="#ffffffff" android:id="@id/translate_dialog_copy" android:background="@drawable/asus_ep_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/translate_copy" />
+        <Button android:textColor="#ffffffff" android:id="@id/translate_dialog_change_lang" android:background="@drawable/asus_ep_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:text="@string/translate_lang_btn" />
+    </LinearLayout>
+</LinearLayout>

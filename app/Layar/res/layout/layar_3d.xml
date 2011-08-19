@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.layar.ui.RotateLayout android:background="@drawable/transparency" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layar_ar_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/radarButton" android:padding="@dimen/ar_buttons_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_btn" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ar_buttons_offset" android:layout_marginTop="@dimen/ar_buttons_offset" android:layout_marginRight="@dimen/ar_buttons_offset" android:layout_toLeftOf="@id/radar" android:layout_alignParentLeft="true">
+            <com.layar.ui.StatusView android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <com.layar.ui.BriefInfoViewWrapper android:id="@id/biw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <com.layar.ui.CustomMenu android:orientation="vertical" android:id="@id/menu_3d" android:background="@drawable/menu_background_fill_parent_width" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <com.layar.ui.AudioView android:id="@id/layar_3d_audio" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/a_bottom_take_screenshot_bar" />
+    </RelativeLayout>
+</com.layar.ui.RotateLayout>

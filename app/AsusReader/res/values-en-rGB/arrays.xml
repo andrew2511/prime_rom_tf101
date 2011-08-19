@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Remove Highlight</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Add Highlight</item>
+        <item>Translation</item>
+        <item>Text-to-Speech</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>English</item>
+        <item>French</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+        <item>German</item>
+        <item>Simplified Chinese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>English to Chinese</item>
+        <item>English to French</item>
+        <item>English to Russian</item>
+    </string-array>
+</resources>

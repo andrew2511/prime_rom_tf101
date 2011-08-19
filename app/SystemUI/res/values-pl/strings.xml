@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Interfejs</string>
+    <string name="status_bar_clear_all_button">Wyczyść</string>
+    <string name="status_bar_do_not_disturb_button">Nie przeszkadzać</string>
+    <string name="status_bar_please_disturb_button">Pokaż powiadomienia</string>
+    <string name="status_bar_no_notifications_title">Brak powiadomień</string>
+    <string name="status_bar_ongoing_events_title">Bieżące</string>
+    <string name="status_bar_latest_events_title">Powiadomienia</string>
+    <string name="battery_low_title">Podłącz ładowarkę</string>
+    <string name="battery_low_subtitle">Bateria wkrótce zostanie rozładowana.</string>
+    <string name="battery_low_percent_format">Pozostało: %d%%</string>
+    <string name="invalid_charger">"Ładowanie przy użyciu złącza USB nie jest obsługiwane.
+Należy używać tylko dołączonej ładowarki."</string>
+    <string name="battery_low_why">Użycie baterii</string>
+    <string name="status_bar_settings_settings_button">Ustawienia</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Tryb samolotowy</string>
+    <string name="status_bar_settings_auto_rotation">Autoobracanie ekranu</string>
+    <string name="status_bar_settings_mute_label">WYGAŚ</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTOM.</string>
+    <string name="status_bar_settings_notifications">Powiadomienia</string>
+    <string name="recent_tasks_title">Najnowsze</string>
+    <string name="recent_tasks_empty">Brak ostatnio używanych aplikacji.</string>
+    <string name="recent_tasks_app_label">Aplikacje</string>
+    <string name="bluetooth_tethered">Bluetooth – podłączono</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfiguruj metody wprowadzania</string>
+    <string name="status_bar_use_physical_keyboard">Używaj klawiatury fizycznej</string>
+    <string name="usb_device_permission_prompt">Czy zezwolić aplikacji %1$s na dostęp do urządzenia USB?</string>
+    <string name="usb_accessory_permission_prompt">Czy zezwolić aplikacji %1$s na dostęp do akcesorium USB?</string>
+    <string name="usb_device_confirm_prompt">Czy otworzyć %1$s po podłączeniu tego urządzenia USB?</string>
+    <string name="usb_accessory_confirm_prompt">Czy otworzyć %1$s po podłączeniu tego akcesorium USB?</string>
+    <string name="usb_accessory_uri_prompt">Zainstalowane aplikacje nie działają z tym akcesorium USB. Więcej informacji: %1$s</string>
+    <string name="title_usb_accessory">Akcesorium USB</string>
+    <string name="label_view">Wyświetl</string>
+    <string name="always_use_device">Używaj domyślnie dla tego urządzenia USB</string>
+    <string name="always_use_accessory">Używaj domyślnie dla tego akcesorium USB</string>
+</resources>

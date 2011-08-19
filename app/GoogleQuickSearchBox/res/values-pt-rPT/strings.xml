@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pesquisa Google</string>
+    <string name="remove_from_history">Remover do histórico de pesquisas</string>
+    <string name="remove_from_history_failed">A remoção do item do histórico falhou</string>
+    <string name="menu_settings">Definições de pesquisa</string>
+    <string name="search_settings">Def. da Pesquisa Google</string>
+    <string name="google_settings_category_title">Pesquisa Google</string>
+    <string name="device_settings_category_title">Pesquisa de disp.</string>
+    <string name="search_sources">Itens pesquisáveis</string>
+    <string name="search_sources_summary">Seleccionar os itens a pesquisar no telefone</string>
+    <string name="clear_shortcuts">Limpar atalhos</string>
+    <string name="clear_shortcuts_summary">Limpar atalhos para sugestões de pesquisa seleccionadas recentemente</string>
+    <string name="clear_shortcuts_prompt">"Esta operação limpará todos os atalhos para sugestões de pesquisa seleccionadas recentemente.
+
+(Para limpar o histórico do navegador, utilize as definições do navegador)."</string>
+    <string name="clear_shortcuts_agree">Limpar atalhos</string>
+    <string name="clear_shortcuts_disagree">Não limpar atalhos</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Pesquisa Google</string>
+    <string name="google_search_description">Sugestões da Pesquisa Google</string>
+    <string name="first_run_title">Pesquisa Google</string>
+    <string name="tos_button_text">Ler os Termos de utilização</string>
+    <string name="yes_agree_use_location">Utilizar A minha localização para resultados da Pesquisa Google e outros serviços Google.</string>
+    <string name="first_run_tos">Sujeito aos Termos de utilização do Google Mobile.</string>
+    <string name="use_location_title">Utilizar a minha localização</string>
+    <string name="search_history">Pesquisa personalizada</string>
+    <string name="search_history_summary_no_account">Não foi configurada nenhuma conta</string>
+    <string name="search_history_summary_enabled">Utilizar histórico de pesquisas e outras personalizações para %1$s</string>
+    <string name="search_history_summary_disabled">Não está a utilizar o histórico de pesquisas nem outras personalizações</string>
+    <string name="manage_search_history">Gerir o histórico de pesquisas</string>
+    <string name="manage_search_history_summary_no_account">Não foi configurada nenhuma conta</string>
+    <string name="manage_search_history_summary">Iniciar sessão como %1$s no navegador e abrir o Histórico da Web</string>
+    <string name="select_google_account">Conta Google</string>
+    <string name="select_google_account_summary_no_accounts">Não há contas configuradas</string>
+    <string name="settings_tos_title">Termos de utilização</string>
+    <string name="manage_search_history_authenticating_title">A iniciar sessão</string>
+    <string name="manage_search_history_authenticating_message">A iniciar sessão como %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Cancelar</string>
+    <string name="use_google_com">Utilizar sempre google.com</string>
+    <string name="current_search_base_url">A utilizar %1$s</string>
+    <string name="fetching_search_base_url">A obter URL de pesquisa...</string>
+    <string name="use_psychic">Activar Instantâneo</string>
+    <string name="use_psychic_summary_on">Instantâneo activado (escreva para pesquisar)</string>
+    <string name="use_psychic_summary_off">Instantâneo desactivado (prima Enter para pesquisar)</string>
+    <string name="web_suggest_updating">a atualizar...</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+</resources>

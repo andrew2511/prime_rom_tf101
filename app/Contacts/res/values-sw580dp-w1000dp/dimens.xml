@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_contact_width">452.0dip</dimen>
+    <dimen name="detail_header_attribution_height">56.0dip</dimen>
+    <dimen name="detail_header_view_margin">16.0dip</dimen>
+    <dimen name="action_bar_filter_min_width">220.0dip</dimen>
+    <dimen name="action_bar_filter_max_width">300.0dip</dimen>
+    <dimen name="action_bar_search_max_width">336.0dip</dimen>
+    <dimen name="action_bar_search_spacing">32.0dip</dimen>
+</resources>

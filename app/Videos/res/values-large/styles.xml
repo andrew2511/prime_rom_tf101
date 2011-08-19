@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarView_TabView</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarView_TabText</item>
+    </style>
+    <style name="Widget.PagedGridView" parent="@android:style/Widget.Holo.GridView">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:paddingRight">11.0dip</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:layout_marginLeft">11.0dip</item>
+        <item name="android:layout_marginTop">11.0dip</item>
+        <item name="android:listSelector">@color/full_transparent</item>
+        <item name="android:cacheColorHint">@color/full_transparent</item>
+        <item name="android:animateLayoutChanges">false</item>
+    </style>
+    <style name="Metadata_Label" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+    </style>
+    <style name="Metadata_Content" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+    <style name="Theme.Videos" parent="@style/Theme">
+        <item name="android:windowBackground">@drawable/bg_video_home_holo</item>
+    </style>
+    <style name="Theme.Watch" parent="@style/Theme">
+        <item name="android:windowBackground">@drawable/bg_video_watch_holo</item>
+    </style>
+    <style name="Theme.Settings" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/bg_video_home_holo</item>
+    </style>
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:icon">@drawable/ic_apps_videos</item>
+        <item name="android:background">@null</item>
+        <item name="android:divider">@null</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+    </style>
+    <style name="ActionBarView_TabView">
+        <item name="android:background">@drawable/action_bar_tab_drawable</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+    </style>
+    <style name="ActionBarView_TabText" parent="@android:style/Widget">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

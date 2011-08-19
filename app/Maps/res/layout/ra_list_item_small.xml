@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:id="@id/ra_list_item" style="@style/RAListItemLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

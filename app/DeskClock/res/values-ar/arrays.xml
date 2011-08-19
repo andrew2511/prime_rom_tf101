@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>تم ضبط هذا المنبه على أقل من دقيقة من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %2$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$1$s و%2$2$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$1$s و%2$3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$2$s و%2$3$s من الآن.</item>
+        <item>تم ضبط هذا المنبه على %1$1$s، و%2$2$s، و%3$3$s من الآن.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>إيقاف</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>لا شيء</item>
+        <item>غفوة</item>
+        <item>إزالة</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

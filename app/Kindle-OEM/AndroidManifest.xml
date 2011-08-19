@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="com.amazon" android:versionCode="314" android:versionName="3.0.2.71" android:installLocation="auto" package="com.amazon.kindle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name_short" android:icon="@drawable/launcher_icon" android:name="com.amazon.kcp.application.ReddingApplication" android:enabled="true" android:debuggable="false" android:logo="@drawable/logo" android:hardwareAccelerated="true">
+        <activity android:theme="@style/Theme.Library" android:name="com.amazon.kcp.library.HomeActivity" android:launchMode="singleTop">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Library" android:name="com.amazon.kcp.library.UnifiedLibraryActivity" android:launchMode="singleTop">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Library" android:name="com.amazon.kcp.library.BackIssuesActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Library" android:label="@string/archived_items" android:name="com.amazon.kcp.library.ArchivedItemsActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.TransientScreen" android:name="com.amazon.kcp.library.TransientActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.ReaderStyle" android:name="com.amazon.kcp.reader.BookReaderActivity" android:launchMode="standard" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.BookReaderSearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.ReaderStyle" android:name="com.amazon.kcp.periodicals.PeriodicalReaderActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.PeriodicalReaderSearchActivity" />
+        </activity>
+        <activity android:label="@string/notes_title" android:name="com.amazon.kcp.reader.NotesActivity" />
+        <activity android:theme="@style/Theme.NoTitleBar.NoBackground" android:name="com.amazon.kcp.reader.ImageZoomActivity" />
+        <activity android:theme="@style/Theme.NoTitleBar.NoBackground" android:name="com.amazon.kcp.periodicals.CoverActivity" />
+        <activity android:theme="@style/Theme.NoTitleBar.NoBackground" android:name="com.amazon.kcp.periodicals.UnFilteredArticleListActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.PeriodicalReaderSearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.NoTitleBar.NoBackground" android:name="com.amazon.kcp.periodicals.FilteredArticleListActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.PeriodicalReaderSearchActivity" />
+        </activity>
+        <activity android:label="@string/section_list_title" android:name="com.amazon.kcp.periodicals.SectionListActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.PeriodicalReaderSearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Library.Menus" android:label="@string/info_title" android:name="com.amazon.kcp.info.InfoActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.EditNote" android:name="com.amazon.kcp.reader.EditNoteActivity" />
+        <activity android:theme="@style/Theme.Library.Menus" android:label="@string/about_title" android:name="com.amazon.kcp.info.AboutActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/default_theme" android:name="com.amazon.kcp.store.StoreActivity" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="false" />
+        <activity android:theme="@style/default_theme" android:name="com.amazon.kcp.redding.WebViewActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Invisible" android:name="com.amazon.kcp.redding.AlertActivity" />
+        <activity android:theme="@style/Theme.TreeBoy" android:name="com.amazon.kcp.welcome.WelcomeActivity" android:configChanges="keyboardHidden" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@style/Theme.Library.WithTitle" android:label="@string/app_name_short" android:name="com.amazon.kcp.search.SearchActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="com.amazon.kcp.search.BookReaderSearchActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/reader_searchable" />
+        </activity>
+        <activity android:name="com.amazon.kcp.search.PeriodicalReaderSearchActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/reader_searchable" />
+        </activity>
+        <provider android:name="com.amazon.kcp.search.SearchProvider" android:authorities="kindle" android:syncable="false" />
+        <provider android:name="com.amazon.kcp.search.ReaderSearchProvider" android:authorities="kindlereader" android:syncable="false" />
+        <activity android:theme="@style/Theme.Splash" android:name="com.amazon.kindle.UpgradePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="kindle" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Debug Options" android:name="com.amazon.kcp.debug.DebugActivity" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@style/Theme.Library.Menus" android:label="@string/lib_menu_feedback" android:name="com.amazon.kcp.feedback.FeedbackActivity" android:configChanges="keyboardHidden" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:theme="@style/Theme.Library.Menus" android:label="@string/settings_title" android:name="com.amazon.kcp.settings.SettingsActivity" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.SearchActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Library.Menus" android:label="@string/lib_menu_delete" android:name="com.amazon.kcp.library.DeleteActivity" />
+        <activity android:name="com.amazon.kcp.application.FatalErrorActivity" />
+        <activity android:theme="@style/Theme.ArticleListStyle" android:name="com.amazon.kcp.periodicals.TwoPanelsArticleListActivity">
+            <meta-data android:name="android.app.default_searchable" android:value="com.amazon.kcp.search.PeriodicalReaderSearchActivity" />
+        </activity>
+        <receiver android:name="com.amazon.kcp.redding.MarketReferralTracker" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="isBETA" android:value="false" />
+        <meta-data android:name="KindleVersionNumber" android:value="version=1124081735" />
+    </application>
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="11" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="true" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+</manifest>

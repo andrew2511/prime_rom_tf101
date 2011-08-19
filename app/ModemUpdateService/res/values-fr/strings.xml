@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Mise à jour du firmware du modem réussie</string>
+    <string name="update_fail">Échec de la mise à jour du firmware du modem</string>
+    <string name="update_quz" formatted="false">"Le processus de mise à jour prendra environ 3 à 5 minutes et nécessite un niveau de charge batterie d'un minimum de 15%.
+
+Veuillez vous assurer que le niveau de charge de la batterie est supérieur à 15% avant de continuer.
+
+Souhaitez-vous mettre à jour le firmware du modem maintenant ?"</string>
+    <string name="notify_title">Service de mise à jour ASUS</string>
+    <string name="notify">Une mise à jour pour le firmware du modem est disponible.</string>
+    <string name="warning_title">Avertissement</string>
+    <string name="warning">"NE PAS éteindre l'appareil lors du processus de mise à jour.
+
+Une interruption de la mise à jour peut endommager l'appareil de manière irréversible.
+
+Souhaitez-vous mettre à jour le firmware du modem maintenant ?"</string>
+    <string name="battery_low" formatted="false">"Le processus de mise à jour nécessite un niveau de charge batterie d'un minimum de 15%.
+
+Veuillez vous assurer que le niveau de charge de la batterie est supérieur à 15% avant de continuer."</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

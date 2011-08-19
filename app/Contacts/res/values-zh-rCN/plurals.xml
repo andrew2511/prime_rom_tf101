@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d 位联系人</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">共 %1$1$d 位联系人，其中 %2$2$d 位有电话号码</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d 位联系人有电话号码</item>
+        <item quantity="one">1 位联系人有电话号码</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d 位联系人</item>
+        <item quantity="one">1 位联系人</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">找到 %d 个联系人</item>
+        <item quantity="one">找到 1 个联系人</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 个联系人</item>
+        <item quantity="one">找到 1 个联系人</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">已选择 %d 个收件人</item>
+        <item quantity="one">已选择 1 个收件人</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">合并自 %0$d 个来源</item>
+        <item quantity="one">未合并</item>
+    </plurals>
+</resources>

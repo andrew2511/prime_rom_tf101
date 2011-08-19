@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d ng %2$2$d aklat</item>
+        <item quantity="one">Isang aklat</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Paumanhin, limitado ang pagbabasa nang magkasabay sa aklat na ito sa %1$d (na) device o computer at naabot mo na ang limitasyong ito. Pakisara ang aklat na ito sa ibang mga reader, maghintay ng ilang minuto at subukang muli.</item>
+        <item quantity="one">Paumanhin, limitado ang pagbabasa nang magkasabay sa aklat na ito sa isang device o computer at naabot mo na ang limitasyong ito. Pakisara ang aklat na ito sa ibang mga reader, maghintay ng ilang minuto at subukang muli.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Papel tapiz activo predeterminado de ASUS.</string>
+    <string name="mywater_setting">Configuración de ASUS MyWater</string>
+    <string name="enable_rotation">Habilitar rotación del agua</string>
+    <string name="enable_rotation_description">El agua girará cuando lo haga el dispositivo.</string>
+</resources>

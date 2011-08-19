@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">網頁</string>
+    <string name="music_title_str">音樂</string>
+    <string name="web_tag_str">無URL</string>
+    <string name="music_tag_album">無專輯</string>
+    <string name="music_tag_song">無歌曲</string>
+    <string name="music_tag_artist">無歌手</string>
+    <string name="date_text_str">無日期</string>
+    <string name="cal_event_str">無最新事件</string>
+    <string name="weather_info_str">無天氣資訊</string>
+    <string name="weather_content_str">無天氣內容</string>
+    <string name="photo_date_str">無照片日期</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">風速</string>
+    <string name="humidity">溼度</string>
+    <string name="email_unit">電子郵件</string>
+    <string name="email_unit_single">電子郵件</string>
+    <string name="event_unit">事件</string>
+    <string name="event_unit_single">事件</string>
+    <string name="book_unit">電子書</string>
+    <string name="book_unit_single">電子書</string>
+    <string name="weather_city_str">無城市</string>
+    <string name="date_format_title">日期格式</string>
+    <string name="preference_header_title">偏好設定</string>
+    <string name="slideshow_header_title">幻燈片</string>
+    <string name="picture_number_title">幻燈片張數</string>
+    <string name="slide_show_interval_title">幻燈片播放間隔</string>
+    <string name="transition_effect_title">特效</string>
+    <string name="enable">開啟</string>
+    <string name="disable">關閉</string>
+    <string name="app_settings">ASUS MyZine設定</string>
+    <string name="unit_picture">張</string>
+    <string name="unit_second">秒</string>
+    <string name="Image_headline">圖片</string>
+    <string name="display_headline">顯示</string>
+    <string name="date_headline">日期</string>
+    <string name="logo_display_title">ASUS MyZine圖示</string>
+    <string name="date_display_title">日期</string>
+    <string name="photo_date_display_title">圖片建立日期</string>
+    <string name="event_display_title">新事件</string>
+    <string name="weather_display_title">天氣</string>
+    <string name="scale_type_title">圖片顯示</string>
+</resources>

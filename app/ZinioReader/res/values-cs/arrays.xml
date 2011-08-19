@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Vydání lze třídit podle data nebo titulu. Vyberte tyto položky ze záložek na horní straně displeje.</item>
+        <item>"Potřebujete více čtení?
+Výběrem tlačítka obchodu na spodní straně displeje přejdete do online obchodu, kde najdete nejnovější publikace a články."</item>
+        <item>Výběrem nabídky zobrazíte další možnosti: obchod, další nastavení, odstranění a odhlášení.</item>
+        <item>Vyberte vydání, které se automaticky stáhne během čtení NEBO vyberte tlačítko stažení pro místní uložení a pozdější přečtení.</item>
+    </string-array>
+</resources>

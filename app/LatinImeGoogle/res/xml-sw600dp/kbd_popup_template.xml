@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyWidth="8.000004%p" latin:rowHeight="@dimen/popup_key_height" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="0.0px"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin" />

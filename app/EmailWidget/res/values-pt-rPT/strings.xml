@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">e-mail</string>
+    <string name="multiple_mails">e-mails</string>
+    <string name="go_to">P/ Caixa ent.</string>
+</resources>

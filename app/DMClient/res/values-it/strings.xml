@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Client DM</string>
+    <string name="minutes">minuti</string>
+    <string name="postpone">Posponi</string>
+    <string name="update">Aggiorna</string>
+    <string name="firmware_update_title">Aggiornamento firmware</string>
+    <string name="firmware_update_fail">"Aggiornamento non riuscito.
+
+Il dispositivo sarà ripristinato alla configurazione originale."</string>
+    <string name="low_battery_warning">"Il sistema richiede almeno il %1$d%% di carica della batteria per procedere con laggiornamento del sistema.
+Caricare la batteria prima di aggiornare il sistema."</string>
+    <string name="confirmDownload_textok">"Questo aggiornamento migliora la stabilità del programma senza cancellare i dati.Si consiglia l'aggiornamento a questa versione.
+Premere SI' per accettare l'aggiornamento."</string>
+    <string name="confirmDownload_textcancel">Premere NO per ignorare laggiornamento.</string>
+    <string name="confirmDownload_textwifi">"Si consiglia di utilizzare un hotspot Wi-Fi gratuito per scaricare l'aggiornamento."</string>
+    <string name="confirmDownload_textwifi2">Se decidete di aggiornare il dispositivo in seguito, avviare il download premendo sulla freccia del messaggio di notifica.</string>
+    <string name="btn_text_later">Più tardi</string>
+    <string name="confirmDownload_dialog_title">Attenzione, roaming in corso.</string>
+    <string name="downloading">Download firmware in corso...</string>
+    <string name="install_time">Tempo stimato per linstallazione:</string>
+    <string name="postponetime_text">Posponi di:</string>
+    <string name="install">Installa</string>
+    <string name="reach_max_net_fail">Download interrotto dal server, riprovare in seguito.</string>
+    <string name="dlg_title_checking">Controllo integrità.</string>
+    <string name="dlg_msg_checking">È in corso il controllo dellintegrità del file firmware.</string>
+    <string name="cannot_set_to_browser">Impossibile impostare su browser.</string>
+    <string name="upgrade_error">Errore aggiornamento, scaricare di nuovo il pacchetto aggiornamento.</string>
+    <string name="start_to_download">Avvia download pacchetto aggiornamento critico.</string>
+    <string name="start_to_upgrade">Avvia aggiornamento pacchetto aggiornamento.</string>
+    <string name="start_NI_dmSession">La rete sta inizializzando la sessione DM, accettare?</string>
+    <string name="download_finished">Download del firmware completato...</string>
+    <string name="download_in_progress">È in corso il download del nuovo firmware</string>
+    <string name="out_of_mem_warning">"Spazio insufficiente,
+rimuovere alcune applicazioni e riprovare."</string>
+    <string name="ui_alert_input_hint">Inserire il testo</string>
+    <string name="ui_alert_input_numeric_hint">Inserire un valore numerico</string>
+    <string name="ui_alert_input_phone_number_hint">Inserire il numero di telefono</string>
+    <string name="check_for_update">Controlla aggiornamenti</string>
+    <string name="no_new_fota_update">Al momento non sono disponibili aggiornamenti per il dispositivo.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Annulla</string>
+    <string name="confirm_download_btn_Yes">Sì</string>
+    <string name="confirm_download_btn_No">No</string>
+    <string name="confirm_update_title">Aggiornamento Firmware ASUS.</string>
+    <string name="asus_received_title">Asus Servizio Aggiornamento Firmware</string>
+    <string name="received_message">"E' disponibile un nuovo aggiornamento firmware del sistema. Premere qui per l'aggiornamento."</string>
+    <string name="low_battery_title">Aggiornamento firmware terminato.</string>
+    <string name="dl_received_ticker">"E' ora disponibile il nuovo aggiornamento firmware del sistema."</string>
+    <string name="dl_received_message">"E' disponibile un nuovo aggiornamento firmware del sistema. Premere qui per il download."</string>
+    <string name="confirmDownload_text1">Desiderate scaricare il seguente aggiornamento firmware del sistema?</string>
+    <string name="received_ticker">"E' ora disponibile il nuovo aggiornamento firmware del sistema."</string>
+    <string name="update_dialog_text">"E' stato scaricato un nuovo aggiornamento del firmware del sistema.Desideri installarlo ora? 
+"</string>
+    <string name="prepare_dm_download">Preparazione download firmware del sistema…</string>
+    <string name="system_update_activity">Servizio Aggiornamento Firmware</string>
+    <string name="has_new_fota_update">"E' disponibile un aggiornamento del firmware del dispositivo. Controllare le notifiche."</string>
+    <string name="update_dialog_text2">"L'aggiornamento del firmware migliora la stabilità del sistema senza cancellare i dati. Si consiglia vivamente di eseguire l'aggiornamento a questa versione."</string>
+</resources>

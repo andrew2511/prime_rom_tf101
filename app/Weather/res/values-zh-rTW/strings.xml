@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">天氣程式設定</string>
+    <string name="refreshBtn">重新整理</string>
+    <string name="saveBtn">儲存</string>
+    <string name="cancelBtn">取消</string>
+    <string name="nocityfound">找不到城市</string>
+    <string name="humidity">溼度</string>
+    <string name="winds">風向</string>
+    <string name="infor1">無資料</string>
+    <string name="searchlistviewtitle">選擇城市</string>
+    <string name="wait">請稍候...</string>
+    <string name="refreshFail">更新失敗，請稍後再試。</string>
+    <string name="searchFail">搜尋失敗，請稍後再試。</string>
+    <string name="dirN">北</string>
+    <string name="dirNNE">北北東</string>
+    <string name="dirNE">東北</string>
+    <string name="dirENE">東北東</string>
+    <string name="dirE">東</string>
+    <string name="dirESE">東南東</string>
+    <string name="dirSE">東南</string>
+    <string name="dirSSE">南南東</string>
+    <string name="dirS">南</string>
+    <string name="dirSSW">南南西</string>
+    <string name="dirSW">西南</string>
+    <string name="dirWSW">西南西</string>
+    <string name="dirW">西</string>
+    <string name="dirWNW">西北西</string>
+    <string name="dirNW">西北</string>
+    <string name="dirNNW">北北西</string>
+    <string name="entercityname">請輸入城市：</string>
+    <string name="manualtitle">手動設定位置</string>
+    <string name="refreshprogresstitle">更新天氣資訊</string>
+    <string name="refreshprogresscontent">更新中，請稍候...</string>
+    <string name="searchprogresstitle">搜尋城市</string>
+    <string name="searchprogresscontent">搜尋中，請稍候...</string>
+    <string name="no_network">無網路連接，天氣資訊無法更新。</string>
+    <string name="no_provider">無法取得所有位置資訊，請於 位置及安全設定 中開啟無線網路和GPS，以快速且正確地偵測位置資訊。</string>
+    <string name="title_location">位置</string>
+    <string name="content_autorefreshed">自動更新我的所在位置</string>
+    <string name="content_manual">手動搜尋</string>
+    <string name="title_updatefreq">更新頻率</string>
+    <string name="content_updatetime">上次更新</string>
+    <string name="content_selectfreq">選擇更新頻率</string>
+    <string name="title_others">其他</string>
+    <string name="content_tempunit">溫度單位</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">"Capture d'écran"</string>
+    <string name="screenshot_dialog_message">"La capture d'écran a été sauvegardée. Souhaitez-vous continuer ?"</string>
+    <string name="screenshot_dialog_yes">Oui</string>
+    <string name="screenshot_dialog_no">Non</string>
+    <string name="screenshot_toast_message_saved">"Capture d'écran sauvegardée."</string>
+    <string name="screenshot_toast_message_failed">"Échec d'enregistrement de la capture d'écran car des fichiers sont en cours de transfert."</string>
+    <string name="screenshot_toast_message_failed_save">"Échec d'enregistrement de la capture d'écran."</string>
+    <string name="screenshot_toast_message_full">"Échec d'enregistrement de la capture d'écran car la mémoire actuellement disponible est insuffisante."</string>
+</resources>

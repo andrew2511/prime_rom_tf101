@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_label_background_color_pile_expanded">0</integer>
+    <integer name="available_mode_genres_in_landscape">2</integer>
+    <integer name="available_mode_artists_in_landscape">2</integer>
+    <integer name="available_mode_playlists_in_landscape">2</integer>
+    <integer name="available_mode_albums_in_landscape">2</integer>
+    <integer name="music_album_wall_style">1</integer>
+</resources>

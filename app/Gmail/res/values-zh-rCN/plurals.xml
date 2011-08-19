@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">是否要删除这 %1$d 个会话？</item>
+        <item quantity="one">是否要删除此会话？</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">要舍弃这 %1$d 篇草稿吗？</item>
+        <item quantity="one">要舍弃此草稿吗？</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">您要存档此处的 %1$d 条会话吗？</item>
+        <item quantity="one">您存档此处的会话吗？</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">草稿</item>
+        <item quantity="one">草稿</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">和另外 %s 位收件人</item>
+        <item quantity="one">和另外 %s 位收件人</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">正忽略 %1$d 个会话。</item>
+        <item quantity="one">正在忽略 %1$d 个会话。</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">正在将 %1$d 个会话举报为垃圾邮件。</item>
+        <item quantity="one">正在将 %1$d 个会话举报为垃圾邮件。</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">正在存档 %1$d 个会话。</item>
+        <item quantity="one">正在存档 %1$d 个会话。</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">正在删除 %1$d 个会话。</item>
+        <item quantity="one">正在删除 %1$d 个会话。</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">正在将 %1$d 个会话标记为已读。</item>
+        <item quantity="one">正在将 %1$d 个会话标记为已读。</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">正在将 %1$d 个会话标记为未读。</item>
+        <item quantity="one">正在将 %1$d 个会话标记为未读。</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">正在对 %1$d 个会话添加星标。</item>
+        <item quantity="one">正在对 %1$d 个会话添加星标。</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">正在取消 %1$d 个会话的星标。</item>
+        <item quantity="one">正在取消 %1$d 个会话的星标。</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">正在等待对 %1$d 个会话进行操作。</item>
+        <item quantity="one">正在等待对 %1$d 个会话进行操作。</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">已忽略 %1$d 个会话。</item>
+        <item quantity="one">已忽略 %1$d 个会话。</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">已将 %1$d 个会话举报为垃圾邮件。</item>
+        <item quantity="one">已将 %1$d 个会话举报为垃圾邮件。</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">已将 %1$d 个会话存档。</item>
+        <item quantity="one">已将 %1$d 个会话存档。</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">已将 %1$d 个会话移到收件箱。</item>
+        <item quantity="one">已将 %1$d 个会话移到收件箱。</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">已删除 %1$d 个会话。</item>
+        <item quantity="one">已删除 %1$d 个会话。</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">已将 %1$1$d 个会话移到%2$2$s。</item>
+        <item quantity="one">已将 %1$1$d 个会话移到%2$2$s。</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">已将 %1$d 个会话标记为重要会话。</item>
+        <item quantity="one">已将 %1$d 个会话标记为重要会话。</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">已将 %1$d 个会话标记为非重要会话。</item>
+        <item quantity="one">已将 %1$d 个会话标记为非重要会话。</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">已将 %1$d 个会话标记为已读。</item>
+        <item quantity="one">已将 %1$d 个会话标记为已读。</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">已将 %1$d 个会话标记为未读会话。</item>
+        <item quantity="one">已将 %1$d 个会话标记为未读会话。</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">已更改 %1$d 个会话的标签。</item>
+        <item quantity="one">会话标签已更改。</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">同步最近 %1$d 天。</item>
+        <item quantity="one">同步最近 %1$d 天。</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">%1$d 个未读会话</item>
+        <item quantity="one">%1$d 个未读会话</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">一天</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">天</item>
+        <item quantity="one">天</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">%1$d 个帐户</item>
+        <item quantity="one">%1$d 个帐户</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">移动 %1$d 的会话</item>
+        <item quantity="one">移动会话</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">未能上传附件：%s</item>
+        <item quantity="one">未能上传附件</item>
+    </plurals>
+</resources>

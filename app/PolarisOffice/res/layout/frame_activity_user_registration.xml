@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0px" android:textColor="@color/filemanager_accountlist_title" android:gravity="left|center" android:paddingLeft="6.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_user_registration_register_title" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:background="@drawable/addaccount_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0px" android:textColor="#ffd6d6d6" android:id="@id/tv_user_info1" android:layout_width="535.0px" android:layout_height="wrap_content" android:layout_marginLeft="52.0px" android:layout_marginTop="40.0px" android:text="@string/string_user_registration_msg_regist_info1" />
+                <EditText android:textSize="16.0px" android:textColor="#ff000000" android:id="@id/et_name" android:background="@drawable/edit_selector" android:layout_width="384.0px" android:layout_height="44.0px" android:layout_marginLeft="52.0px" android:layout_marginTop="21.0px" android:hint="@string/string_user_registration_hint_name_s" android:singleLine="true" android:maxLength="30" />
+                <EditText android:textSize="16.0px" android:textColor="#ff000000" android:id="@id/et_email" android:background="@drawable/edit_selector" android:layout_width="384.0px" android:layout_height="44.0px" android:layout_marginLeft="52.0px" android:layout_marginTop="13.0px" android:hint="@string/string_user_registration_hint_email_s" android:singleLine="true" android:maxLength="128" android:inputType="textEmailAddress" />
+                <TextView android:textSize="16.0px" android:id="@id/tv_user_info2" android:layout_width="600.0px" android:layout_height="wrap_content" android:layout_marginLeft="52.0px" android:layout_marginTop="17.0px" android:text="@string/string_user_registration_msg_regist_info2" />
+                <CheckBox android:textSize="14.0px" android:id="@id/check_after_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52.0px" android:layout_marginTop="21.0px" android:text="@string/string_user_registration_msg_regist_not_show" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="52.0px" android:layout_marginTop="21.0px"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@id/btn_later" android:background="@drawable/btn_registration" android:focusable="true" android:layout_width="187.0px" android:layout_height="wrap_content" android:text="@string/string_user_registration_btn_later" />
+                <Button android:id="@id/btn_register" android:background="@drawable/btn_registration" android:focusable="true" android:layout_width="187.0px" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/string_user_registration_btn_register" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

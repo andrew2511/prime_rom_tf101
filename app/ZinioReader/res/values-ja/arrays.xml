@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>雑誌は日付やタイトルで並べ替えられます。画面上部のタグで選択してください</item>
+        <item>画面下部の「ショップ」ボタンを選択すると、オンラインストアで最新の雑誌や記事が購入できます</item>
+        <item>ショップ、詳細、削除、ログアウトなどのオプションはメニューから選択できます</item>
+        <item>雑誌を読んでいる間に、自動でダウンロードする方法か、後で読むために「ダウンロード」ボタンを押して保存しておく方法を選択できます</item>
+    </string-array>
+</resources>

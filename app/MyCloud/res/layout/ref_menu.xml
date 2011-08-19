@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/body_menu" android:layout_width="213.0px" android:layout_height="fill_parent">
+        <Button android:id="@id/mycontent_tab_btn" android:background="@drawable/rollover_mycontent" android:layout_width="213.0px" android:layout_height="223.0px" />
+        <Button android:id="@id/mydevice_tab_btn" android:background="@drawable/rollover_mydevice" android:layout_width="213.0px" android:layout_height="223.0px" />
+        <Button android:id="@id/vibe_tab_btn" android:background="@drawable/rollover_vibe" android:layout_width="213.0px" android:layout_height="223.0px" />
+    </LinearLayout>
+</merge>

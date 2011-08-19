@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Row latin:keyWidth="10.000002%p" latin:rowEdgeFlags="top">
+        <Key latin:popupCharacters="@string/alternates_for_q" latin:keyEdgeFlags="left" latin:keyLabel="q" latin:keyHintIcon="@drawable/key_hint_num1" />
+        <Key latin:popupCharacters="@string/alternates_for_w" latin:keyLabel="w" latin:keyHintIcon="@drawable/key_hint_num2" />
+        <Key latin:popupCharacters="@string/alternates_for_e" latin:keyLabel="e" latin:keyHintIcon="@drawable/key_hint_num3" />
+        <Key latin:popupCharacters="@string/alternates_for_r" latin:keyLabel="r" latin:keyHintIcon="@drawable/key_hint_num4" />
+        <Key latin:popupCharacters="@string/alternates_for_t" latin:keyLabel="t" latin:keyHintIcon="@drawable/key_hint_num5" />
+        <Key latin:popupCharacters="@string/alternates_for_y" latin:keyLabel="y" latin:keyHintIcon="@drawable/key_hint_num6" />
+        <Key latin:popupCharacters="@string/alternates_for_u" latin:keyLabel="u" latin:keyHintIcon="@drawable/key_hint_num7" />
+        <Key latin:popupCharacters="@string/alternates_for_i" latin:keyLabel="i" latin:keyHintIcon="@drawable/key_hint_num8" />
+        <Key latin:popupCharacters="@string/alternates_for_o" latin:keyLabel="o" latin:keyHintIcon="@drawable/key_hint_num9" />
+        <Key latin:keyWidth="0.0%p" latin:popupCharacters="@string/alternates_for_p" latin:keyEdgeFlags="right" latin:keyLabel="p" latin:keyHintIcon="@drawable/key_hint_num0" />
+    </Row>
+</merge>

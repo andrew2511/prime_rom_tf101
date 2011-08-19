@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d öğe seçildi</item>
+        <item quantity="one">%1$d öğe seçildi</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d albüm seçildi</item>
+        <item quantity="one">%1$d albüm seçildi</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Albümler çevrimdışı kullanıma hazırlanıyor</item>
+        <item quantity="one">Albüm çevrimdışı kullanıma hazırlanıyor</item>
+    </plurals>
+</resources>

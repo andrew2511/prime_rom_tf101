@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Điều hướng của Google Maps</string>
+    <string name="da_net_fail_title">Mất kết nối mạng</string>
+    <string name="da_net_fail_body">Ứng dụng này yêu cầu kết nối dữ liệu đang làm việc.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Điểm đến</string>
+    <string name="da_toward">về hướng %1$s</string>
+    <string name="da_onto">lên %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"sau đó
+%1$s"</string>
+    <string name="da_continue_for_distance">Tiếp tục trong %1$s</string>
+    <string name="da_destination_will_be_on_the_left">điểm đến của bạn nằm ở bên trái.</string>
+    <string name="da_destination_will_be_on_the_right">điểm đến của bạn sẽ nằm ở bên phải.</string>
+    <string name="da_you_will_reach_destination">bạn sẽ đến điểm đến của mình.</string>
+    <string name="da_destination_on_the_left">Điểm đến của bạn nằm ở bên trái.</string>
+    <string name="da_destination_on_the_right">Điểm đến của bạn nằm ở bên phải.</string>
+    <string name="da_destination_reached">Bạn đã đến.</string>
+    <string name="da_speech_lost_gps">Mất tín hiệu GPS</string>
+    <string name="da_speech_lost_data_connection">Mất kết nối dữ liệu</string>
+    <string name="da_speech_navigation_resumed">Tiếp tục điều hướng</string>
+    <string name="da_speech_please_describe_problem">Vui lòng mô tả sự cố</string>
+    <string name="da_on_left">nằm bên trái</string>
+    <string name="da_on_right">nằm bên phải</string>
+    <string name="da_stay_on_road_primary">Tiếp tục trên %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s tới %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s tới %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} dặm</string>
+    <string name="da_distance_format_miles_compressed">{0} dặm</string>
+    <string name="da_distance_format_feet_abbreviated">{0} bộ</string>
+    <string name="da_distance_format_feet_compressed">{0} bộ</string>
+    <string name="da_distance_format_yards_abbreviated">{0} thước</string>
+    <string name="da_distance_format_yards_compressed">{0} thước</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s ngày %2$s giờ</string>
+    <string name="da_time_format_hours" formatted="false">%1$s giờ %2$s phút</string>
+    <string name="da_time_format_minutes">%1$s phút</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Điều hướng</string>
+    <string name="da_search_label">Tìm kiếm</string>
+    <string name="da_layers">Lớp</string>
+    <string name="da_agreement">"Điều hướng Google Maps đang ở phiên bản beta. Hãy cẩn trọng.
+
+Không được sử dụng ứng dụng này trong khi lái xe. Dữ liệu giao thông không phải ở thời gian thực và chỉ đường có thể sai, nguy hiểm, bị cấm hoặc liên quan đến phà. Hãy chấp hành các luật hiện hành.
+
+Hãy luôn để ý đến đường đi!"</string>
+    <string name="da_agreement_with_walking">"Điều hướng Google Maps đang ở phiên bản beta. Hãy cẩn trọng.
+
+Không được sử dụng ứng dụng này trong khi lái xe. Dữ liệu giao thông không phải ở thời gian thực và chỉ đường có thể sai, nguy hiểm, bị cấm hoặc liên quan đến phà. Các tuyến đường đi bộ có thể thiếu vỉa hè hoặc đường dành cho người đi bộ. Hãy chấp hành các luật hiện hành.
+
+Hãy luôn để ý đến đường đi!"</string>
+    <string name="da_disclaimer_checkbox">Hiển thị thông điệp này vào lần tới</string>
+    <string name="da_show_list">Danh sách Chỉ đường</string>
+    <string name="da_route_overview">Thông tin Tuyến đường</string>
+    <string name="da_show_map">Hiển thị Bản đồ</string>
+    <string name="da_satellite">Vệ tinh</string>
+    <string name="da_traffic_view">Chế độ xem giao thông</string>
+    <string name="da_no_traffic_here">Không có thông tin giao thông nào cho khu vực này</string>
+    <string name="da_traffic">Giao thông</string>
+    <string name="da_area_view">Xem Khu vực</string>
+    <string name="da_mute">Tắt tiếng</string>
+    <string name="da_unmute">Bật âm thanh</string>
+    <string name="da_settings">Cài đặt</string>
+    <string name="da_help">Trợ giúp</string>
+    <string name="da_terms_privacy_notices">Điều khoản &amp; Bảo mật</string>
+    <string name="da_terms_and_conditions">Điều khoản và Điều kiện</string>
+    <string name="da_privacy_policy">Chính sách Bảo mật</string>
+    <string name="da_legal_notices">Thông báo Pháp lý</string>
+    <string name="da_navigation_suspended">Đã tạm ngừng điều hướng</string>
+    <string name="da_exit_navigation">Thoát khỏi Điều hướng</string>
+    <string name="da_email_me_when_resolved">Gửi email cho tôi khi giải quyết xong</string>
+    <string name="da_problem_reported">Sự cố đã được báo cáo</string>
+    <string name="da_one_button_map_issue_reporting">Báo cáo sự cố bằng 1 cú nhấp</string>
+    <string name="da_attention">Chú ý</string>
+    <string name="da_rmi_warning">"Báo cáo sự cố cho phép bạn ghi lại một tin nhắn thoại ngắn mô tả sự cố xảy ra với bản đồ hoặc tuyến đường của bạn. Sau 15 giây, thư của bạn sẽ tự động được gửi tới Google cùng với vị trí và tuyến đường hiện tại của bạn.
+
+Bạn có thể bật phím tắt 1 lần nhấp trong phần cài đặt ứng dụng.
+
+ Nếu bạn chọn nhận bản cập nhật qua email khi sự cố được giải quyết, địa chỉ email của bạn sẽ được lưu trữ với vị trí và nhận xét của bạn cho đến khi sự cố này được giải quyết."</string>
+    <string name="da_report_a_problem">Báo cáo Sự cố</string>
+    <string name="da_report_a_problem_dialog_title">Báo cáo sự cố</string>
+    <string name="da_rmi_preference_trackball_summary">Nếu đã bật, bấm vào bi xoay sẽ bắt đầu quá trình báo cáo sự cố.</string>
+    <string name="da_rmi_preference_camera_summary">Nếu đã bật, bấm vào nút máy ảnh sẽ bắt đầu quá trình báo cáo sự cố.</string>
+    <string name="da_rmi_preference_no_button_summary">Không có nút vật lý nào.</string>
+    <string name="da_rmi_preference_bad_location_summary">Chưa có tính năng báo cáo sự cố tại vị trí hiện tại của bạn.</string>
+    <string name="da_destination_not_here_warning">Cảm ơn bạn đã báo cáo về vị trí điểm đến của bạn sai. Điểm đến và vị trí hiện tại của bạn sẽ được gửi đến Google để giúp cải thiện tính chính xác cho dữ liệu của chúng tôi.</string>
+    <string name="da_destination_not_here_title">Báo cáo sự cố</string>
+    <string name="da_searching_for_gps">Đang tìm GPS...</string>
+    <string name="da_data_connection_lost">Mất kết nối dữ liệu...</string>
+    <string name="da_follow_the_route">Đi theo tuyến đường</string>
+    <string name="da_waiting_for_directions">Đang tìm chỉ đường</string>
+    <string name="da_waiting_for_walking_directions">Đang tìm chỉ đường đi bộ</string>
+    <string name="da_waiting_for_location">Đang chờ vị trí</string>
+    <string name="da_checking_navigation_availability">Đang kiểm tra tính khả dụng của điều hướng</string>
+    <string name="da_loading_route_details">Đang tải chi tiết tuyến đường</string>
+    <string name="da_loading_image">Đang tải hình ảnh</string>
+    <string name="da_waiting_for_alternates">Đang tìm kiếm tuyến đường thay thế</string>
+    <string name="da_waiting_for_details">Đang tải</string>
+    <string name="da_no_details">Không có chi tiết</string>
+    <string name="da_gps_is_disabled">GPS bị tắt</string>
+    <string name="da_turn_on_gps">Hiển thị cài đặt vị trí?</string>
+    <string name="da_voice_guidance">Hướng dẫn bằng giọng nói</string>
+    <string name="da_install_voice_guidance_prompt">Để có điều hướng chỉ dẫn bằng giọng nói, bạn cần cài đặt hỗ trợ chuyển văn bản thành giọng nói từ Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Bỏ qua</string>
+    <string name="da_dialog_cancel">Hủy</string>
+    <string name="da_dialog_done">Hoàn thành</string>
+    <string name="da_dialog_accept">Chấp nhận</string>
+    <string name="da_dialog_install">Cài đặt</string>
+    <string name="da_dialog_dont_accept">Không Chấp nhận</string>
+    <string name="da_dialog_go">Bắt đầu</string>
+    <string name="da_dialog_get_directions">Tìm Chỉ đường</string>
+    <string name="da_map">Bản đồ</string>
+    <string name="da_clear_layers">Xoá khỏi Bản đồ</string>
+    <string name="da_layer_name_parking">Đỗ xe</string>
+    <string name="da_layer_name_attractions">Điểm hấp dẫn</string>
+    <string name="da_layer_name_gas_stations">Trạm Xăng</string>
+    <string name="da_layer_name_restaurants">Nhà hàng</string>
+    <string name="da_layer_name_supermarkets">Siêu thị</string>
+    <string name="da_layer_name_atms_and_banks">ATM &amp; Ngân hàng</string>
+    <string name="da_layer_name_convenience_stores">Cửa hàng tiện lợi</string>
+    <string name="da_query_banks_and_atms">Ngân hàng và ATM</string>
+    <string name="da_rerouting">Đang định tuyến lại...</string>
+    <string name="da_via">Qua %s</string>
+    <string name="da_to_destination">tới %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Ghi Phản hồi</string>
+    <string name="da_destination_not_here">Điểm đến không phải ở đây</string>
+    <string name="da_new_destination">Điểm đến Tiếp theo</string>
+    <string name="da_reroute_to_destination">Quay lại Điểm đến</string>
+    <string name="da_change_destination">Đặt Điểm đến</string>
+    <string name="da_search_for_destination">Tìm kiếm...</string>
+    <string name="da_point_on_map">Điểm trên bản đồ</string>
+    <string name="da_volume">Âm lượng Điều hướng</string>
+    <string name="da_exit">Thoát</string>
+    <string name="da_did_you_mean">Ý của bạn là:</string>
+    <string name="da_did_you_say">Bạn đã nói là:</string>
+    <string name="da_for_your_end_point">Cho điểm đến của bạn</string>
+    <string name="da_unnamed_road">Đường chưa đặt tên</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, sau đó %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s mét nữa</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Một ki lô mét rưỡi nữa</string>
+    <string name="da_speech_continue_for_x_meters">Đi tiếp %1$s mét nữa</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Đi tiếp một ki lô mét rưỡi nữa</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Đi tiếp %2$s %1$s mét nữa</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Đi tiếp %1$s một ki lô mét rưỡi nữa</string>
+    <string name="da_speech_generic_continue">Tiếp tục đi thẳng</string>
+    <string name="da_speech_in_x_feet">%1$s bộ nữa</string>
+    <string name="da_speech_in_x_yards">%1$s thước nữa</string>
+    <string name="da_speech_in_a_quarter_mile">Một phần tư dặm nữa</string>
+    <string name="da_speech_in_a_half_mile">Nửa dặm nữa</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Ba phần tư dặm nữa</string>
+    <string name="da_speech_in_one_and_a_half_miles">Một dặm rưỡi nữa</string>
+    <string name="da_speech_continue_for_x_feet">Đi tiếp %1$s bộ nữa</string>
+    <string name="da_speech_continue_for_x_yards">Đi tiếp %1$s thước nữa</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Đi tiếp một phần tư dặm nữa</string>
+    <string name="da_speech_continue_for_a_half_mile">Đi tiếp nửa dặm nữa</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Đi tiếp ba phần tư dặm nữa</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Đi tiếp một dặm rưỡi nữa</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Đi tiếp %2$s %1$s bộ nữa</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Đi tiếp %2$s %1$s thước nữa</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Đi tiếp %1$s một phần tư dặm nữa</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Đi tiếp %1$s nửa dặm nữa</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Đi tiếp %1$s ba phần tư dặm nữa</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Đi tiếp %1$s một dặm rưỡi nữa</string>
+    <string name="da_route_prefixes">B,ĐB,Đ,ĐN,N,TN,T,TB</string>
+    <string name="da_route_suffixes">B,ĐB,Đ,ĐN,N,TN,T,TB,Đ.lộ,ĐL,Đ.vg,C.tốc,Q.trường,Đường,Phố</string>
+    <string name="da_no_route">Không tìm thấy tuyến đường</string>
+    <string name="da_route_not_found">Chúng tôi không thể tìm thấy tuyến đường đến điểm đến của bạn.</string>
+    <string name="da_destination_not_found">Chúng tôi không thể xác định được điểm đến.</string>
+    <string name="da_navigation_not_supported">Điều hướng đến điểm đến của bạn không khả dụng.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Chưa có Điều hướng Google Maps tại vị trí này.</string>
+    <string name="da_launch_maps">Khởi chạy Bản đồ</string>
+    <string name="da_no_image_available">Không có hình ảnh nào.</string>
+    <string name="da_image_error">Lỗi tải hình ảnh.</string>
+    <string name="da_no_alternate_routes">Chúng tôi không thể tìm thấy tuyến đường thay thế đến điểm đến của bạn.</string>
+    <string name="da_picker_type_destination">Nhập Điểm đến</string>
+    <string name="da_picker_speak_destination">Nói Điểm đến</string>
+    <string name="da_picker_contacts">Danh sách liên hệ</string>
+    <string name="da_picker_starred_items">Địa điểm được gắn sao</string>
+    <string name="da_picker_new_contact">Địa chỉ liên hệ Mới</string>
+    <string name="da_picker_recent_destinations">Điểm đến Gần đây</string>
+    <string name="da_picker_choose_destination">Chọn Điểm đến</string>
+    <string name="da_navigate_to">Điều hướng tới</string>
+    <string name="da_picker_search_hint">Điểm đến</string>
+    <string name="da_route_options">Tùy chọn tuyến đường</string>
+    <string name="da_updating_directions">Đang cập nhật chỉ đường</string>
+    <string name="da_picker_no_starred_items">"Bạn không có địa điểm nào được gắn dấu sao.
+
+Địa điểm được gắn dấu sao được tự động đồng bộ hoá với maps.google.com.
+
+Bạn có thể gắn dấu sao kết quả tìm kiếm trong Google Maps bằng cách bấm vào biểu tượng dấu sao gần địa chỉ."</string>
+    <string name="da_picker_no_contacts">"Bạn không có bất kỳ liên hệ nào có địa chỉ.
+
+Bạn có thể thêm liên hệ mới hoặc đặt địa chỉ cho các liên hệ hiện tại trong ứng dụng Danh sách liên hệ."</string>
+    <string name="da_driving">Lái xe</string>
+    <string name="da_walking">Đi bộ</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Thông tin khác</string>
+    <string name="da_search_maps">Tìm trên Bản đồ</string>
+    <string name="da_walking_warning">Đi bộ (beta): hãy cẩn trọng</string>
+    <string name="da_calibrate_compass_title">Hiệu chỉnh la bàn</string>
+    <string name="da_calibrate_compass">La bàn của bạn chưa được hiệu chỉnh. Để hiệu chỉnh, hãy lắc thiết bị theo mẫu hình số 8 một vài lần.</string>
+    <string name="da_confirm_exit_title">Thoát khỏi điều hướng?</string>
+    <string name="da_confirm_exit_text">Tác vụ này sẽ kết thúc tất cả chỉ dẫn tuyến đường.</string>
+    <string name="da_route_includes_tolls">Tuyến đường có các đoạn đường thu phí lưu thông</string>
+    <string name="da_avoid_tolls">Tránh phí lưu thông</string>
+    <string name="da_avoiding_tolls">Tránh đoạn đường thu phí lưu thông</string>
+    <string name="da_avoiding_highways">Tránh đường cao tốc</string>
+    <string name="da_route_includes_unavoidable_tolls">Tuyến đường này có các đoạn đường thu phí lưu thông.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Tuyến đường này có các đoạn đường thu phí lưu thông. Hãy vô hiệu hoá các tuyến đường thu phí lưu thông trong %1$s%2$s ở dưới đây.</string>
+    <string name="da_seasonally_closed">Tuyến đường có thể bị đóng theo mùa</string>
+    <string name="da_direction_north">bắc</string>
+    <string name="da_direction_north_west">tây bắc</string>
+    <string name="da_direction_west">tây</string>
+    <string name="da_direction_south_west">tây nam</string>
+    <string name="da_direction_south">nam</string>
+    <string name="da_direction_south_east">đông nam</string>
+    <string name="da_direction_east">đông</string>
+    <string name="da_direction_north_east">đông bắc</string>
+    <string name="da_step_depart">Đi theo hướng %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Đi theo hướng %1$s trên %2$s</string>
+    <string name="da_step_slight_left">Chếch sang bên trái</string>
+    <string name="da_step_slight_right">Đi chếch sang phải</string>
+    <string name="da_step_turn_left">Rẽ trái</string>
+    <string name="da_step_turn_right">Rẽ phải</string>
+    <string name="da_step_sharp_left">Ngoặt trái</string>
+    <string name="da_step_sharp_right">Ngoặt phải</string>
+    <string name="da_step_slight_left_onto">Đi chếch sang trái vào %1$s</string>
+    <string name="da_step_slight_right_onto">Đi chếch sang phải vào %1$s</string>
+    <string name="da_step_turn_left_onto">Rẽ trái vào %1$s</string>
+    <string name="da_step_turn_right_onto">Rẽ phải vào %1$s</string>
+    <string name="da_step_sharp_left_onto">Ngoặt trái vào %1$s</string>
+    <string name="da_step_sharp_right_onto">Ngoặt phải vào %1$s</string>
+    <string name="da_step_fork_left">Đi theo bên trái tại ngã ba</string>
+    <string name="da_step_fork_right">Đi theo bên phải tại ngã ba</string>
+    <string name="da_step_continue_onto">Tiếp tục đến %1$s</string>
+    <string name="da_step_continue_straight">Tiếp tục đi thẳng</string>
+    <string name="da_step_u_turn">Quay đầu</string>
+    <string name="da_step_take_the_ramp">Đi theo đoạn đường dốc</string>
+    <string name="da_step_take_the_ramp_onto">Đi theo đoạn đường dốc vào %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Đi theo đoạn đường dốc bên trái</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Đi theo đoạn đường dốc bên trái vào %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Đi theo đoạn đường dốc bên phải</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Đi theo đoạn đường dốc bên phải vào %1$s</string>
+    <string name="da_step_take_the_exit">Đi theo lối ra</string>
+    <string name="da_step_take_the_exit_on_the_left">Đi theo lối ra bên trái</string>
+    <string name="da_step_take_the_exit_on_the_right">Đi theo lối ra bên phải</string>
+    <string name="da_step_take_the_exit_onto">Đi theo lối ra vào %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Đi theo lối ra bên trái vào %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Đi theo lối ra bên phải vào %1$s</string>
+    <string name="da_step_take_exit_n">Đi theo lối ra %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Hình ảnh ©%2$d %3$s, Dữ liệu bản đồ ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Hình ảnh ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Dữ liệu bản đồ ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Trang chủ</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Chỉ đường &amp; Điều hướng</string>
+    <string name="EXIT_COMMAND">Thoát</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} muốn bạn đăng ký</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Yêu cầu đăng ký Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Nhập địa chỉ</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Biểu tượng lối tắt</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Lưu</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Điểm đến</string>
+    <string name="GOHOME_SHORTCUT_NAME">Tên lối tắt</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Điều hướng theo từng ngã rẽ</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Cài đặt Mở</string>
+    <string name="HOTPOT_LOADING">Đang tải...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Tiện ích Xếp hạng Địa điểm yêu cầu bạn bật cả Sử dụng mạng không dây (trong cài đặt Vị trí &amp; Bảo mật) và Wi-Fi (trong cài đặt Không dây &amp; mạng).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Vui lòng bật Sử dụng mạng không dây trong cài đặt Vị trí &amp; Bảo mật để sử dụng tiện ích Xếp hạng Địa điểm.</string>
+    <string name="HOTPOT_NO_LOCATION">Không có thông tin vị trí nào</string>
+    <string name="HOTPOT_SEARCH">Tìm kiếm</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Đã tìm kiếm: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Tìm kiếm Lại</string>
+    <string name="HOTPOT_SELECT_PLACE">Chọn địa điểm để xếp hạng</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Chọn địa điểm: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Vị trí không xác định</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Đang làm mới Vị trí...</string>
+    <string name="HOTPOT_WIDGET_NAME">Xếp hạng Địa điểm</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Đăng công khai là {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Nhận xét thêm</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Cập nhật cách đây {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Vui lòng bật Wi-Fi trong Cài đặt không dây và mạng để cải thiện độ chính xác về vị trí của tiện ích Xếp hạng Địa điểm</string>
+    <string name="HOTPOT_YOU_RATED">"Bạn xếp hạng: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Tại {0} và đã chia sẻ với {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Đã đăng ký tại {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Đánh dấu tại {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Đánh dấu tại?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Bấm để đăng nhập Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Cập nhật Lần cuối: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Vị trí không xác định</string>
+    <string name="LOADING">Đang tải</string>
+    <string name="MAPS_APP_NAME">Bản đồ</string>
+    <string name="NEED_NET_BODY">Không thể sử dụng ứng dụng này cho đến khi bạn được cấp quyền gửi và nhận dữ liệu qua mạng.</string>
+    <string name="NEED_NET_TITLE">Cần truy cập mạng</string>
+    <string name="NETWORK_DATA_ERROR">Ứng dụng này yêu cầu kết nối dữ liệu. Vui lòng liên hệ với nhà cung cấp của bạn.</string>
+    <string name="NET_FAIL_BODY">Ứng dụng này yêu cầu kết nối dữ liệu đang làm việc.</string>
+    <string name="NET_FAIL_TITLE">Mất kết nối mạng</string>
+    <string name="NET_UNAVAILABLE_TITLE">Không có Mạng</string>
+    <string name="PLACES_APP_NAME">Địa điểm</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">ví dụ: Spaghetti Bolognese, Cocktail, Âm nhạc</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Nội dung nổi bật?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Hủy</string>
+    <string name="RATINGS_OPTIN_CLOSE">Đóng</string>
+    <string name="RATINGS_OPTIN_FAILED">Cập nhật không thành công, vui lòng thử lại sau.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Làm cho ứng dụng trở nên phổ biến!&lt;/b> Đi tới &lt;b>{0}&lt;/b> trên máy tính của bạn để thêm bạn bè và khám phá các địa điểm họ yêu thích.</string>
+    <string name="RATINGS_OPTIN_HEADING">Đặt biệt hiệu công khai của bạn trên Google Địa điểm.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Tên hoặc biệt hiệu: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Xếp hạng các nhà hàng, quán cà phê và các địa điểm yêu thích của bạn để nhận giới thiệu trong các kết quả tìm kiếm dựa trên sở thích cá nhân của bạn.</string>
+    <string name="RATINGS_OPTIN_SAVE">Bắt đầu</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Xếp hạng địa điểm của bạn được &lt;b>công khai trên web&lt;/b> với biệt hiệu này. &lt;a href=#>Tìm hiểu thêm&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Đăng công khai trên web là {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Đăng công khai trên web.</string>
+    <string name="RATINGS_RATE_PLACES">Tại sao nên xếp hạng địa điểm?</string>
+    <string name="RATINGS_SET_APPEARANCE">Đặt giao diện</string>
+    <string name="RATINGS_WAIT">Vui lòng chờ...</string>
+    <string name="SEARCH_HINT">Tìm trên Bản đồ</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Điểm đến</string>
+    <string name="TRAFFIC_WIDGET_NAME">Giao thông</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Tên tiện ích con</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Lưu</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Điểm xuất phát</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Lỗi nghiêm trọng.  Thoát và khởi động lại."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Lỗi Không xác định</string>
+    <string name="UPGRADE_BODY">Bạn phải cài đặt phiên bản mới để sử dụng ứng dụng này.</string>
+    <string name="UPGRADE_TITLE">Nâng cấp Phần mềm</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Hình nền trực tuyến cho Maps</string>
+    <string name="WALLPAPER_MAP_MODE">Chế độ bản đồ</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Bình thường</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Vệ tinh</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Chế độ bản đồ, ví dụ: Vệ tinh</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Địa hình</string>
+    <string name="WALLPAPER_SETTINGS">Cài đặt hình nền trực tuyến cho Maps</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Hiển thị giao thông</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Hiển thị thời tiết hiện tại trên bản đồ. Bạn phải cài đặt tiện ích thời tiết.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Thời tiết</string>
+</resources>

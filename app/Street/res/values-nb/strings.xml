@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_to_map">Gå til kart</string>
+    <string name="report_inappropriate_image">Rapporter bilde</string>
+    <string name="toggle_compass_mode">Kompassmodus</string>
+    <string name="compass_mode_on">Kompassmodus på.</string>
+    <string name="compass_mode_off">Kompassmodus av.</string>
+    <string name="waiting_for_network">Venter på nettverk…</string>
+    <string name="panorama_disabled">Bildet er ikke lenger tilgjengelig</string>
+    <string name="service_unavailable">Gatevisningstjenesten er utilgjengelig.</string>
+    <string name="loading">Henter</string>
+    <string name="no_panorama_data">Mangler panoramadata.</string>
+    <string name="invalid_panorama_data">Ugyldig panorama.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="zoom">Zoom</string>
+    <string name="step_forward">Forover</string>
+    <string name="step_backwards">Bakover</string>
+</resources>

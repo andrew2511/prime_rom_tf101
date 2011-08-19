@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS 기본 라이브 배경화면</string>
+    <string name="mywater_setting">ASUS MyWater 설정</string>
+    <string name="enable_rotation">Water 회전 가능</string>
+    <string name="enable_rotation_description">장치의 회전 방향에 따라 Water도 회전합니다.</string>
+</resources>

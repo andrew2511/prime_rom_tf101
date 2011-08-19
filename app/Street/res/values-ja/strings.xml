@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">ストリートビュー</string>
+    <string name="go_to_map">地図を選択</string>
+    <string name="report_inappropriate_image">画像を報告</string>
+    <string name="toggle_compass_mode">コンパスモード</string>
+    <string name="compass_mode_on">コンパスモードがオンです。</string>
+    <string name="compass_mode_off">コンパスモードがオフです。</string>
+    <string name="waiting_for_network">データ接続が切断されました。再接続中...</string>
+    <string name="panorama_disabled">写真は使用できません</string>
+    <string name="service_unavailable">ストリートビューサービスはご利用いただけません。</string>
+    <string name="loading">読み込み中</string>
+    <string name="no_panorama_data">パノラマデータが設定されていません。</string>
+    <string name="invalid_panorama_data">パノラマが無効です。</string>
+    <string name="click_to_go_toast">表示したい場所にペグマンをドラッグします。</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">このプログラムを使用するにはデータ接続が必要です。接続は自動的に再試行されます。機内モードがオンになっていないか、データローミングが無効になっていないかなど、電波状況をご確認ください。</string>
+    <string name="whats_new_header">ストリートビューの新機能</string>
+    <string name="whats_new_c2g">見える所ならどこにでも飛んでいけます。左下のペグマンをドラッグして行きたい場所にドロップしてください。</string>
+    <string name="terms_and_privacy">利用規約およびプライバシー</string>
+    <string name="terms_and_conditions">利用規約</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>"Vous pouvez trier les numéros par date ou par titre. Il suffit de les sélectionner dans les onglets en haut de l'écran."</item>
+        <item>"Vous voulez lire plus ?
+Cliquez sur le bouton Achat au bas de l'écran pour aller sur la boutique en ligne et obtenir les publications et articles les plus récents."</item>
+        <item>Sélectionnez un menu pour voir les options disponibles, par ex. Achat, Plus, Supprimer, Se déconnecter.</item>
+        <item>"Choisissez un numéro à télécharger automatiquement pendant que vous lisez OU cliquez sur le bouton Télécharger pour l'enregistrer sur votre disque dur et le lire plus tard."</item>
+    </string-array>
+</resources>

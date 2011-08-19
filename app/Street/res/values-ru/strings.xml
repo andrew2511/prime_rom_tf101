@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Просмотр улиц</string>
+    <string name="go_to_map">К карте</string>
+    <string name="report_inappropriate_image">Сообщить о недопустимом изображении</string>
+    <string name="toggle_compass_mode">Режим \"Компас\"</string>
+    <string name="compass_mode_on">Компас включен.</string>
+    <string name="compass_mode_off">Компас отключен.</string>
+    <string name="waiting_for_network">Передача данных прервана. Попытка подключения…</string>
+    <string name="panorama_disabled">Изображение недоступно</string>
+    <string name="service_unavailable">Просмотр улиц недоступен.</string>
+    <string name="loading">Загрузка</string>
+    <string name="no_panorama_data">Не заданы данные панорамы.</string>
+    <string name="invalid_panorama_data">Недействительные данные панорамы.</string>
+    <string name="click_to_go_toast">Перетащите человечека на карту.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Программа будет автоматически пытаться установить соединение. Возможно, нет сигнала, включен режим полета или заблокирован роуминг.</string>
+    <string name="whats_new_header">Что нового в Просмотре улиц?</string>
+    <string name="whats_new_c2g">Путешествуйте по миру, помещая человечка из левого нижнего угла на карту.</string>
+    <string name="terms_and_privacy">Условия и конфиденциальность</string>
+    <string name="terms_and_conditions">Условия предоставления услуг</string>
+    <string name="privacy_policy">Конфиденциальность</string>
+</resources>

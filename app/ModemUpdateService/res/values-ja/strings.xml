@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">モデムファームウェアの更新完了</string>
+    <string name="update_fail">モデムファームウェアの更新失敗</string>
+    <string name="update_quz" formatted="false">"ファームウェアの更新作業には約3～5分かかり、バッテリー残量が15%以上必要です。
+
+ファームウェアの更新を実行する前に、バッテリー残量が15%以上あることをご確認ください。
+
+モデムファームウェアを今すぐ更新しますか？"</string>
+    <string name="notify_title">ASUS 更新サービス</string>
+    <string name="notify">モデムファームウェアの更新が見つかりました。</string>
+    <string name="warning_title">警告</string>
+    <string name="warning">"更新中はデバイスをシャットダウンしないでください。
+
+データの保存やデバイスの故障の原因となります。
+
+モデムファームウェアを今すぐ更新しますか？"</string>
+    <string name="battery_low" formatted="false">"更新作業にはバッテリー電力の15%以上が必要です。
+
+更新する前にバッテリー残量が15%以上あることをご確認ください。"</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

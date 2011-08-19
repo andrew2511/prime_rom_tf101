@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/prefs_developer_settings">
+        <CheckBoxPreference android:layout="@layout/preference_check" android:title="@string/prefs_location_fixed" android:key="prefs.location.fixed" android:summary="@string/prefs_location_fixed_summary" android:defaultValue="false" android:disableDependentsState="false" />
+        <ListPreference android:entries="@array/country_code" android:layout="@layout/preference_dialog" android:title="@string/prefs_location_country" android:key="prefs.location.countrycode" android:defaultValue="@string/country_code_default" android:entryValues="@array/country_code_value" />
+        <ListPreference android:entries="@array/distance_unit" android:layout="@layout/preference_dialog" android:title="@string/distance_unit" android:key="prefs.distance.units" android:defaultValue="@string/distance_unit_default" android:entryValues="@array/distance_unit_value" />
+    </PreferenceCategory>
+</PreferenceScreen>

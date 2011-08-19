@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/package_cover" android:background="@drawable/asus_ep_c" android:layout_width="108.0px" android:layout_height="108.0px" android:layout_marginTop="20.0px" android:src="@drawable/asus_ep_c110" />
+    <TextView android:textSize="20.0px" android:id="@id/about_content" android:paddingLeft="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="20.0px" android:maxLines="4" android:layout_toRightOf="@id/package_cover" />
+    <ListView android:id="@id/package_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:choiceMode="singleChoice" android:layout_below="@id/package_cover" />
+    <TextView android:id="@id/notice_content" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_below="@id/package_list" />
+    <CheckBox android:id="@id/check_agree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_below="@id/notice_content" />
+</RelativeLayout>

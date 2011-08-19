@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/keyboard_suggest_strip_holo" android:paddingLeft="@dimen/candidate_strip_padding" android:paddingRight="@dimen/candidate_strip_padding" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_strip_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/candidates_scroll_view" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/candidate_strip_fading_edge_length" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_strip_height">
+        <com.android.inputmethod.latin.CandidateView android:orientation="horizontal" android:id="@id/candidates" android:background="@drawable/keyboard_suggest_strip_holo" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_strip_height" />
+    </HorizontalScrollView>
+</LinearLayout>

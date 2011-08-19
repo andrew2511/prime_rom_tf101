@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Hava durumu pencere öğesi ayarı</string>
+    <string name="refreshBtn">Yenile</string>
+    <string name="saveBtn">Kaydet</string>
+    <string name="cancelBtn">İptal</string>
+    <string name="nocityfound">Hiç şehir bulunamadı</string>
+    <string name="humidity">Nem</string>
+    <string name="winds">Rüzgarlar</string>
+    <string name="infor1">Kullanılamıyor</string>
+    <string name="searchlistviewtitle">Bir şehir seçin</string>
+    <string name="wait">Lütfen bekleyin...</string>
+    <string name="refreshFail">Yenileneme başarısız oldu. Lütfen tekrar deneyin.</string>
+    <string name="searchFail">Arama başarısız oldu. Lütfen tekrar deneyin.</string>
+    <string name="dirN">K</string>
+    <string name="dirNNE">KKD</string>
+    <string name="dirNE">KD</string>
+    <string name="dirENE">DKD</string>
+    <string name="dirE">D</string>
+    <string name="dirESE">DGD</string>
+    <string name="dirSE">DG</string>
+    <string name="dirSSE">GGD</string>
+    <string name="dirS">G</string>
+    <string name="dirSSW">GGB</string>
+    <string name="dirSW">GB</string>
+    <string name="dirWSW">BGB</string>
+    <string name="dirW">B</string>
+    <string name="dirWNW">BKB</string>
+    <string name="dirNW">KB</string>
+    <string name="dirNNW">KKB</string>
+    <string name="entercityname">Lütfen bir şehir girin:</string>
+    <string name="manualtitle">Konumun El ile Ayarla</string>
+    <string name="refreshprogresstitle">Hava Durumu Bilgilerini Güncelleştir</string>
+    <string name="refreshprogresscontent">Şimdi yenile. Lütfen bekleyin...</string>
+    <string name="searchprogresstitle">Şehir Ara</string>
+    <string name="searchprogresscontent">Şimdi ara. Lütfen bekleyin...</string>
+    <string name="no_network">Ağ kullanılamıyor. Hava bilgileri güncellenemiyor.</string>
+    <string name="no_provider">Tüm konum bilgileri geçerli olarak etkin değil. Daha hızlı ve daha doğru konum algılama için lütfen Konumda ve Güvenlik Ayarlarında kablosuz ağları ve GPS uydularını açın.</string>
+    <string name="title_location">Konum</string>
+    <string name="content_autorefreshed">Geçerli konumumu otomatik yenile</string>
+    <string name="content_manual">El ile arama</string>
+    <string name="title_updatefreq">Güncelleştirme sıklığı</string>
+    <string name="content_updatetime">Son güncelleştirme zamanı</string>
+    <string name="content_selectfreq">Güncelleştirme sıklığını seçin</string>
+    <string name="title_others">Diğer</string>
+    <string name="content_tempunit">Sıcaklık Birimi</string>
+</resources>

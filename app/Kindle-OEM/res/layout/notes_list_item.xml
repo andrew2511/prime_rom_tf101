@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/notes_list_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/note_location_type" style="@style/notes_list_item_header" />
+    <TextView android:id="@id/note_snippet" style="@style/notes_list_item_detail" />
+</LinearLayout>

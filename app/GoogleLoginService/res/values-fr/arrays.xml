@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>"Quel est votre numéro d'adhérent au programme de fidélité de votre compagnie aérienne ?"</item>
+        <item>Quel est le numéro de votre carte de bibliothèque ?</item>
+        <item>Quel était votre premier numéro de téléphone ?</item>
+        <item>Quel était le nom de votre premier instituteur ?</item>
+        <item>Quel est le deuxième prénom de votre père ?</item>
+    </string-array>
+    <string-array name="passwordStrength">
+        <item>médiocre</item>
+        <item>satisfaisant</item>
+        <item>bon</item>
+        <item>excellent</item>
+    </string-array>
+</resources>

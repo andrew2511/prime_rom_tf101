@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_button_touch_padding">5.0dip</dimen>
+    <dimen name="spam_icon_touch_padding">12.0dip</dimen>
+    <dimen name="max_title_text_size">32.0dip</dimen>
+    <dimen name="title_margin_top">0.0dip</dimen>
+    <dimen name="max_title_with_subcategory_text_size">24.0dip</dimen>
+    <dimen name="subcategory_width">170.0dip</dimen>
+    <dimen name="max_subcategory_text_size">16.0dip</dimen>
+</resources>

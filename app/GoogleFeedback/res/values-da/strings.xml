@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Agent til markedsfeedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="report_feedback">Rapporter fejl</string>
+    <string name="report_error_in">Rapporter en fejl i %s</string>
+    <string name="system_log">Systemlogfil</string>
+    <string name="event_log">Hændelseslogfil</string>
+    <string name="preview">Vis eksempel</string>
+    <string name="back">Tilbage</string>
+    <string name="cancel">Annuller</string>
+    <string name="send">Send</string>
+    <string name="preview_feedback">Vis eksempel på feedback</string>
+    <string name="no_data">Ingen data</string>
+    <string name="fetching_system_log">Henter systemlogfil ...</string>
+    <string name="fetching_event_log">Henter hændelseslogfil ...</string>
+    <string name="privacy">Fortrolighed</string>
+    <string name="include_system_data">Medtag systemdata</string>
+    <string name="this_will_help">Del systemdata med Google for bedre at kunne diagnosticere problemet.</string>
+    <string name="privacy_policy"><a href="notused">Politik til beskyttelse af personlige oplysninger</a></string>
+    <string name="unknown_app">Ukendt applikation</string>
+    <string name="cant_save_report">Fejlrapporten blev ikke gemt. Ikke mere plads på enheden</string>
+    <string name="report_being_sent">Tak. Din rapport sendes.</string>
+    <string name="optional_description">Beskrivelse (valgfri)</string>
+    <string name="tos_activity_title">Google Legal</string>
+    <string name="tos_activity_unsuccessful_message">Din telefon er ikke forbundet til en datatjeneste. For at vise disse oplysninger nu skal du navigere til %s på en hvilken som helst computer, der er forbundet til internettet.</string>
+    <string name="tos_accept">Accepter</string>
+    <string name="tos_decline">Afvis</string>
+</resources>

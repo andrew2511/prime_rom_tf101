@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.vending.AssetOverviewPanel android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/apps_top_stripe" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/apps_background" android:layout_width="fill_parent" android:layout_height="@dimen/apps_overview_panel_header">
+        <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/asset_overview_header" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/asset_overview_details" />
+        <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/asset_overview_permissions" />
+    </LinearLayout>
+</com.android.vending.AssetOverviewPanel>

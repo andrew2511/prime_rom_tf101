@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Ønsker du at slette disse %1$d samtaler?</item>
+        <item quantity="one">Ønsker du at slette denne samtale?</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">Vil du kassere disse %1$d kladder?</item>
+        <item quantity="one">Vil du kassere denne kladde?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Ønsker du at arkivere disse %1$d samtaler?</item>
+        <item quantity="one">Ønsker du at arkivere denne samtale?</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Kladder</item>
+        <item quantity="one">Kladde</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">+ %s flere</item>
+        <item quantity="one">+ %s flere</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">Ignorerer %1$d samtaler.</item>
+        <item quantity="one">Ignorerer %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">Rapporterer %1$d samtaler som spam.</item>
+        <item quantity="one">Rapporterer %1$d samtale som spam.</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">Arkiverer %1$d samtaler.</item>
+        <item quantity="one">Arkiverer %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">Sletter %1$d samtaler.</item>
+        <item quantity="one">Sletter %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">Markerer %1$d samtaler som læste.</item>
+        <item quantity="one">Markerer %1$d samtaler som læst.</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">Markerer %1$d samtaler som ulæste.</item>
+        <item quantity="one">Markerer %1$d samtaler som ulæste.</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">Stjernemarkerer %1$d samtaler.</item>
+        <item quantity="one">Stjernemarkerer %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">Fjerner stjernemarkering fra %1$d samtaler.</item>
+        <item quantity="one">Fjerner stjernemarkering fra %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">Venter på handling for %1$d samtaler.</item>
+        <item quantity="one">Venter på handling for %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Ignorerede %1$d samtaler.</item>
+        <item quantity="one">Ignorerede %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Rapporterede %1$d samtaler som spam.</item>
+        <item quantity="one">Rapporterede %1$d samtale som spam.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Arkiverede %1$d samtaler.</item>
+        <item quantity="one">Arkiverede %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">%1$d samtaler flyttet til indbakken.</item>
+        <item quantity="one">%1$d samtale flyttet til indbakken.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Slettede %1$d samtaler.</item>
+        <item quantity="one">Slettede %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">%1$1$d samtaler flyttet til %2$2$s.</item>
+        <item quantity="one">"%1$1$dsamtale flyttet   til %2$2$s."</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">%1$d samtaler markeret som vigtige.</item>
+        <item quantity="one">%1$d samtale markeret som vigtig.</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">%1$d samtaler markeret som ikke vigtige.</item>
+        <item quantity="one">%1$d samtale markeret som ikke vigtig.</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">Markerede %1$d samtaler som læste.</item>
+        <item quantity="one">Markerede %1$d samtale som læst.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">%1$d samtaler markeret som ulæste.</item>
+        <item quantity="one">%1$d samtale markeret som ulæst.</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">Ændrede etiketter for %1$d samtaler.</item>
+        <item quantity="one">Ændrede etiketter for samtale.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synkroniser %1$d dage.</item>
+        <item quantity="one">Synkroniser %1$d dag.</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">%1$d ulæste samtaler</item>
+        <item quantity="one">%1$d ulæst samtale</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">En dag</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">dage</item>
+        <item quantity="one">Dag</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">%1$d konti</item>
+        <item quantity="one">%1$d konto</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Flyt %1$d samtaler</item>
+        <item quantity="one">Flyt samtale</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Vedhæftning mislykkedes %s</item>
+        <item quantity="one">Vedhæftning mislykkedes</item>
+    </plurals>
+</resources>

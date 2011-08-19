@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">%1$d contas</item>
+        <item quantity="one">%1$d conta</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">%1$d chats não lidos</item>
+        <item quantity="one">%1$d chat não lido</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">%s mensagens lidas</item>
+        <item quantity="one">%s mensagem lida</item>
+    </plurals>
+</resources>

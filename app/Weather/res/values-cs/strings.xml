@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Nastavení miniaplikace počasí</string>
+    <string name="refreshBtn">Obnovit</string>
+    <string name="saveBtn">Uložit</string>
+    <string name="cancelBtn">Storno</string>
+    <string name="nocityfound">Nenalezeno žádné město</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="winds">Větry</string>
+    <string name="infor1">Není k dispozici</string>
+    <string name="searchlistviewtitle">Vybrat město</string>
+    <string name="wait">Vyčkejte...</string>
+    <string name="refreshFail">Obnovení selhalo. Zkuste znovu.</string>
+    <string name="searchFail">Hledání selhalo. Zkuste znovu.</string>
+    <string name="dirN">S</string>
+    <string name="dirNNE">SSV</string>
+    <string name="dirNE">SV</string>
+    <string name="dirENE">VSV</string>
+    <string name="dirE">V</string>
+    <string name="dirESE">VJV</string>
+    <string name="dirSE">JV</string>
+    <string name="dirSSE">JJV</string>
+    <string name="dirS">J</string>
+    <string name="dirSSW">JJZ</string>
+    <string name="dirSW">JZ</string>
+    <string name="dirWSW">ZJZ</string>
+    <string name="dirW">Z</string>
+    <string name="dirWNW">ZSZ</string>
+    <string name="dirNW">SZ</string>
+    <string name="dirNNW">SSZ</string>
+    <string name="entercityname">Zadejte město:</string>
+    <string name="manualtitle">Manuálně nastavit polohu</string>
+    <string name="refreshprogresstitle">Aktualizovat informace o počasí</string>
+    <string name="refreshprogresscontent">Obnovit nyní. Vyčkejte...</string>
+    <string name="searchprogresstitle">Hledat město</string>
+    <string name="searchprogresscontent">Hledá se. Vyčkejte...</string>
+    <string name="no_network">Síť není k dispozici. Nelze aktualizovat informace o počasí.</string>
+    <string name="no_provider">Nejsou povoleny všechny informace o poloze. Zapněte bezdrátové sítě a GPS satelity pod nastavením polohy a zabezpečení, aby byla rychleji a přesněji zjištěna poloha.</string>
+    <string name="title_location">Poloha</string>
+    <string name="content_autorefreshed">Autom. obnovit mou aktuální polohu</string>
+    <string name="content_manual">Manuální hledání</string>
+    <string name="title_updatefreq">Frekvence aktualizací</string>
+    <string name="content_updatetime">Čas poslední aktualizace</string>
+    <string name="content_selectfreq">Vybrat frekvenci aktualizace</string>
+    <string name="title_others">Ostatní</string>
+    <string name="content_tempunit">Jednotka teploty</string>
+</resources>

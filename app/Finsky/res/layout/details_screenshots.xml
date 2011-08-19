@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_text_top_margin" android:layout_marginBottom="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/header" android:paddingLeft="@dimen/details_left_padding" android:paddingRight="@dimen/details_right_padding" style="@style/DetailsPage_HeaderText" />
+    <FrameLayout android:id="@id/screenshots_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <com.google.android.finsky.layout.HorizontalStrip android:id="@id/strip" android:visibility="gone" android:fadingEdge="horizontal" android:fadingEdgeLength="30.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/screenshots_max_height" />
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/screenshots_max_height" layout="@layout/loading_indicator" />
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/screenshots_max_height" layout="@layout/error_indicator" />
+    </FrameLayout>
+    <include layout="@layout/details_footer" />
+</LinearLayout>

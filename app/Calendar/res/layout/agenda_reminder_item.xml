@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/reminder_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_alarm_dark" />
+    <TextView android:id="@id/reminder" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AgendaView_ValueLabel" />
+</LinearLayout>

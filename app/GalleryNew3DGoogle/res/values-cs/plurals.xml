@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Počet vybraných položek: %1$d</item>
+        <item quantity="one">Počet vybraných položek: %1$d</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Počet vybraných alb: %1$d</item>
+        <item quantity="one">Počet vybraných alb: %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Zpřístupnění alb offline</item>
+        <item quantity="one">Zpřístupnění alba offline</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:textSize="13.329987sp" android:textColor="@color/toggle_text_color" android:id="@id/sort_date_button" android:background="@drawable/toggle_left" android:focusable="false" android:layout_width="100.0dip" android:layout_height="37.329987dip" android:textOn="@string/date" android:textOff="@string/date" />
+    <ToggleButton android:textSize="13.329987sp" android:textColor="@color/toggle_text_color" android:id="@id/sort_title_button" android:background="@drawable/toggle_right" android:focusable="false" android:layout_width="100.0dip" android:layout_height="37.329987dip" android:textOn="@string/title" android:textOff="@string/title" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">封郵件</string>
+    <string name="multiple_mails">封郵件</string>
+    <string name="go_to">前往收件匣</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_allAppsFadeInTime">250</integer>
+    <integer name="config_allAppsFadeOutTime">500</integer>
+    <integer name="config_dragViewExtraPixels">0</integer>
+    <integer name="config_dragViewOffsetX">0</integer>
+    <integer name="config_dragViewOffsetY">-12</integer>
+    <integer name="icon_allAppsCustomizeFadeInTime">150</integer>
+    <integer name="icon_allAppsCustomizeFadeOutTime">200</integer>
+    <integer name="icon_allAppsCustomizeFadeAlpha">102</integer>
+    <integer name="config_allAppsZoomInTime">1000</integer>
+    <integer name="config_tabTransitionTime">100</integer>
+    <integer name="config_allAppsZoomOutTime">1200</integer>
+    <integer name="config_allAppsZoomScaleFactor">20</integer>
+    <integer name="config_customizeZoomInTime">800</integer>
+    <integer name="config_customizeFadeInTime">800</integer>
+    <integer name="config_customizeZoomOutTime">600</integer>
+    <integer name="config_customizeZoomScaleFactor">7</integer>
+    <integer name="config_customizeWorkspaceShrinkTime">800</integer>
+    <integer name="config_allAppsWorkspaceShrinkTime">1000</integer>
+    <integer name="config_workspaceUnshrinkTime">650</integer>
+    <integer name="config_toolbarButtonFadeInTime">350</integer>
+    <integer name="config_toolbarButtonFadeOutTime">200</integer>
+    <integer name="config_workspaceShrinkPercent">17</integer>
+    <integer name="config_screenOnDropScalePercent">120</integer>
+    <integer name="config_screenOnDropScaleUpDuration">200</integer>
+    <integer name="config_screenOnDropScaleDownDuration">200</integer>
+    <integer name="config_screenOnDropAlphaFadeDelay">350</integer>
+    <integer name="config_screenOnDropAlphaFadeDuration">50</integer>
+    <integer name="config_customizationDrawerDragSlopeThreshold">150</integer>
+    <integer name="config_allAppsDrawerDragSlopeThreshold">150</integer>
+    <integer name="land_all_apps_view_cellCountX">7</integer>
+    <integer name="land_all_apps_view_cellCountY">5</integer>
+    <integer name="customization_drawer_contents_maxCellCountY">3</integer>
+    <integer name="customization_drawer_verticalFillPercentage">65</integer>
+    <integer name="all_apps_view_maxCellCountY">6</integer>
+</resources>

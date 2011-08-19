@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Interf sist</string>
+    <string name="status_bar_clear_all_button">Limpar</string>
+    <string name="status_bar_do_not_disturb_button">Não perturbe</string>
+    <string name="status_bar_please_disturb_button">Mostrar notificações</string>
+    <string name="status_bar_no_notifications_title">Sem notificações</string>
+    <string name="status_bar_ongoing_events_title">Em andamento</string>
+    <string name="status_bar_latest_events_title">Notificações</string>
+    <string name="battery_low_title">Conecte o carregador</string>
+    <string name="battery_low_subtitle">A bateria está ficando baixa.</string>
+    <string name="battery_low_percent_format">%d%% restante</string>
+    <string name="invalid_charger">"O carregamento via USB não é suportado.
+Use apenas o carregador fornecido."</string>
+    <string name="battery_low_why">Uso da bateria</string>
+    <string name="status_bar_settings_settings_button">Configurações</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Modo para avião</string>
+    <string name="status_bar_settings_auto_rotation">Girar automaticamente a tela</string>
+    <string name="status_bar_settings_mute_label">MUDO</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Notificações</string>
+    <string name="recent_tasks_title">Recente</string>
+    <string name="recent_tasks_empty">Nenhum aplicativo recente.</string>
+    <string name="recent_tasks_app_label">Aplicativos</string>
+    <string name="bluetooth_tethered">Bluetooth vinculado</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurar métodos de entrada</string>
+    <string name="status_bar_use_physical_keyboard">Usar o teclado físico</string>
+    <string name="usb_device_permission_prompt">Permitir que o aplicativo %1$s acesse o dispositivo USB?</string>
+    <string name="usb_accessory_permission_prompt">Permitir que o aplicativo %1$s acesse o acessório USB?</string>
+    <string name="usb_device_confirm_prompt">Abrir %1$s quando este dispositivo USB estiver conectado?</string>
+    <string name="usb_accessory_confirm_prompt">Abrir %1$s quando este acessório USB estiver conectado?</string>
+    <string name="usb_accessory_uri_prompt">Nenhum apl. instalado funciona com o acess. USB. Saiba mais sobre o acessório em %1$s</string>
+    <string name="title_usb_accessory">Acessório USB</string>
+    <string name="label_view">Visualizar</string>
+    <string name="always_use_device">Usar por padrão para este dispositivo USB</string>
+    <string name="always_use_accessory">Usar por padrão para este acessório USB</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">ความยาวของข้อความที่คุณเลือกเกินขีดจำกัด เนื้อหาบางอย่างอาจถูกตัดไป</string>
+    <string name="post_successfully">ลงประกาศสำเร็จ</string>
+</resources>

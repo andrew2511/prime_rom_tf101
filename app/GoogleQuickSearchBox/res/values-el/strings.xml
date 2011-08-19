@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Αναζήτηση Google</string>
+    <string name="remove_from_history">Κατάργηση από το ιστορικό αναζήτησης</string>
+    <string name="remove_from_history_failed">Αποτυχία κατάργησης αντικειμένου από το ιστορικό</string>
+    <string name="menu_settings">Ρυθμίσεις αναζήτησης</string>
+    <string name="search_settings">Ρυθμίσ. Αναζήτησης Google</string>
+    <string name="google_settings_category_title">Αναζήτηση Google</string>
+    <string name="device_settings_category_title">Αναζήτηση συσκευής</string>
+    <string name="search_sources">Αντικείμ. με δυνατότητα αναζ.</string>
+    <string name="search_sources_summary">Επιλέξτε το αντικείμενο αναζήτησης στο τηλέφωνο</string>
+    <string name="clear_shortcuts">Εκκαθάριση συντομεύσεων</string>
+    <string name="clear_shortcuts_summary">Εκκαθάριση συντομεύσεων για αποτελέσματα αναζήτησης που έχουν επιλεχθεί πρόσφατα</string>
+    <string name="clear_shortcuts_prompt">"Με αυτό γίνεται εκκαθάριση όλων των συντομεύσεων των πρόσφατα επιλεγμένων προτάσεων αναζήτησης.
+
+(Χρησιμοποιήστε τις ρυθμίσεις του προγράμματος περιήγησης, για εκκαθάριση του ιστορικού του)."</string>
+    <string name="clear_shortcuts_agree">Εκκαθάριση συντομεύσεων</string>
+    <string name="clear_shortcuts_disagree">Χωρίς εκκαθάριση συντομεύσεων</string>
+    <string name="menu_help">Βοήθεια</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Αναζήτηση Google</string>
+    <string name="google_search_description">Προτάσεις αναζήτησης Google</string>
+    <string name="first_run_title">Αναζήτηση Google</string>
+    <string name="tos_button_text">Ανάγνωση Όρων Παροχής Υπηρ.</string>
+    <string name="yes_agree_use_location">Χρήση της Τοποθεσίας μου για τα αποτελέσματα αναζήτησης Google και για άλλες υπηρεσίες Google.</string>
+    <string name="first_run_tos">Σύμφωνα με τους Όρους Παροχής Υπηρεσιών του Google για κινητά.</string>
+    <string name="use_location_title">Χρήση της τοποθεσίας μου</string>
+    <string name="search_history">Εξατομικευμένη αναζήτηση</string>
+    <string name="search_history_summary_no_account">Δεν έγινε διαμόρφωση λογαριασμού</string>
+    <string name="search_history_summary_enabled">Χρήση του ιστορικού αναζήτησης και άλλων προσαρμογών για το λογαριασμό %1$s</string>
+    <string name="search_history_summary_disabled">Δεν χρησιμοποιούνται το ιστορικό αναζήτησης ή άλλες εξατομικευμένες ρυθμίσεις</string>
+    <string name="manage_search_history">Διαχείριση αναζήτησης ιστορικού</string>
+    <string name="manage_search_history_summary_no_account">Δεν έγινε διαμόρφωση λογαριασμού</string>
+    <string name="manage_search_history_summary">Συνδεθείτε ως %1$s στο πρόγραμμα περιήγησης και ανοίξτε το ιστορικό ιστού</string>
+    <string name="select_google_account">Λογαριασμός Google</string>
+    <string name="select_google_account_summary_no_accounts">Δεν έχουν διαμορφωθεί λογαριασμοί</string>
+    <string name="settings_tos_title">Όροι Παροχής Υπηρεσιών</string>
+    <string name="manage_search_history_authenticating_title">Σύνδεση</string>
+    <string name="manage_search_history_authenticating_message">Σύνδεση ως %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Ακύρωση</string>
+    <string name="use_google_com">Να χρησιμοποιείται πάντα ο τομέας google.com</string>
+    <string name="current_search_base_url">Χρήση του τομέα %1$s</string>
+    <string name="fetching_search_base_url">Ανάκτηση διεύθυνσης URL αναζήτησης...</string>
+    <string name="use_psychic">Ενεργοποίηση Instant</string>
+    <string name="use_psychic_summary_on">Το Instant είναι ενεργό (πληκτρολογήστε κείμενο για αναζήτηση)</string>
+    <string name="use_psychic_summary_off">Το Instant είναι ανενεργό (πατήστε enter για αναζήτηση)</string>
+    <string name="web_suggest_updating">ενημέρωση...</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Ingen</item>
+        <item>Ljudchatt</item>
+        <item>Videochatt</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Alltid</item>
+        <item>Bara vid tyst</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Öppna dialogruta</item>
+        <item>Avisering i systemfältet</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Öppna dialogruta</item>
+        <item>Avisering i systemfältet</item>
+        <item>Av</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Glad</item>
+        <item>Ledsen</item>
+        <item>Blinkar</item>
+        <item>Lipar</item>
+        <item>Förvånad</item>
+        <item>Pussar</item>
+        <item>Skriker</item>
+        <item>Cool</item>
+        <item>Dollarmun</item>
+        <item>Bortgjord</item>
+        <item>Generad</item>
+        <item>Ängel</item>
+        <item>Tveksam</item>
+        <item>Gråter</item>
+        <item>Hemlis</item>
+        <item>Skrattar</item>
+        <item>Förvirrad</item>
+        <item>Flinar</item>
+        <item>Arg</item>
+        <item>Pokeransikte</item>
+        <item>Hjärta</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Alltid</item>
+        <item>Aldrig</item>
+        <item>Automatiskt</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>Populärast</item>
+        <item>Alla</item>
+        <item>Vissa</item>
+        <item>Bara coola gänget</item>
+    </string-array>
+</resources>

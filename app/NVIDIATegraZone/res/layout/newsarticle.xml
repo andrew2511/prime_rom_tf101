@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/mainAppBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/logo_header" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/spotlightTab" android:background="@drawable/phone_tab_active" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/spotlightTabLabel" android:text="@string/tabs_spotlight" style="@style/tabLabel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/gamesTab" android:background="@drawable/phone_tab_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/gamesTabLabel" android:text="@string/tabs_games" style="@style/tabLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/tabLine" style="@style/tabBottomBar" />
+    <ScrollView android:id="@id/articleView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/articleHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/newsFeaturedImage" android:layout_width="wrap_content" android:layout_height="wrap_content" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_article_image" />
+            <TextView android:id="@id/articleDate" style="@style/articleDate" />
+            <TextView android:id="@id/articleTitle" style="@style/articleTitle" />
+            <TextView android:id="@id/articleAuthor" style="@style/articleDate" />
+            <TextView android:autoLink="web" android:id="@id/articleBody" android:text="..." style="@style/articleText" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/videoHolder" android:padding="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/relatedHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/relatedHeading" android:text="@string/app_related_heading" style="@style/articleTitle" />
+                <LinearLayout android:orientation="vertical" android:id="@id/relatedLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

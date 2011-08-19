@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$d개의 대화를 삭제하시겠습니까?</item>
+        <item quantity="one">대화를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">이 임시보관 메일 %1$d개를 삭제하시겠습니까?</item>
+        <item quantity="one">이 임시보관 메일을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">%1$d개의 대화를 보관처리하시겠습니까?</item>
+        <item quantity="one">대화를 보관처리하시겠습니까?</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">임시보관함</item>
+        <item quantity="one">임시보관함</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">%s명 더보기</item>
+        <item quantity="one">%s명 더보기</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">%1$d개의 대화를 무시하도록 설정하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 무시하도록 설정하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">%1$d개의 대화를 스팸으로 신고하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 스팸으로 신고하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">%1$d개의 대화를 보관처리하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 보관처리하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">%1$d개의 대화를 삭제하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 삭제하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">%1$d개의 대화를 읽음으로 표시하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 읽음으로 표시하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">%1$d개의 대화를 읽지않음으로 표시하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화를 읽지않음으로 표시하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">%1$d개의 대화에 별표를 표시하는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화에 별표를 표시하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">대화 %1$d개의 별표를 제거하는 중입니다.</item>
+        <item quantity="one">대화 %1$d개의 별표를 제거하는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">%1$d개의 대화에 대한 작업을 기다리는 중입니다.</item>
+        <item quantity="one">%1$d개의 대화에 대한 작업을 기다리는 중입니다.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">%1$d개의 대화를 무시하도록 설정했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 무시하도록 설정했습니다.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">%1$d개의 대화를 스팸으로 신고했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 스팸으로 신고했습니다.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">%1$d개의 대화를 보관했습니다.</item>
+        <item quantity="one">%1$d개 대화가 보관되었습니다.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">%1$d개의 대화를 받은편지함으로 이동했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 받은편지함으로 이동했습니다.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">%1$d개의 대화를 삭제했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 삭제했습니다.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">%1$1$d개의 대화를 %2$2$s(으)로 이동했습니다.</item>
+        <item quantity="one">%1$1$d개의 대화를 %2$2$s(으)로 이동했습니다.</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">%1$d개의 대화를 중요한 대화로 표시했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 중요한 대화로 표시했습니다.</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">%1$d개의 대화를 중요하지 않은 대화로 표시했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 중요하지 않은 대화로 표시했습니다.</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">%1$d개의 대화를 읽음으로 표시했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 읽음으로 표시했습니다.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">%1$d개의 대화를 읽지 않음으로 표시했습니다.</item>
+        <item quantity="one">%1$d개의 대화를 읽지 않음으로 표시했습니다.</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">대화 %1$d개에 대한 라벨이 변경되었습니다.</item>
+        <item quantity="one">대화에 대한 라벨이 변경되었습니다.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">%1$d일 동기화</item>
+        <item quantity="one">%1$d일 동기화</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">읽지 않은 대화 %1$d개</item>
+        <item quantity="one">읽지않은 대화 %1$d개</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d일</item>
+        <item quantity="one">하루</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">일</item>
+        <item quantity="one">일</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">계정 %1$d개</item>
+        <item quantity="one">계정 %1$d개</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">%1$d개 대화 이동</item>
+        <item quantity="one">대화 이동</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">첨부 실패(%s)</item>
+        <item quantity="one">첨부 실패</item>
+    </plurals>
+</resources>

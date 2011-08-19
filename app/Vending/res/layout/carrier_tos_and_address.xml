@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/carrier_tos_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/carrier_tos_main" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/carrier_tos_buttons_bar" android:background="@drawable/bottombar_portrait_565" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+            <Button android:layout_gravity="center_vertical" android:id="@id/carrier_tos_positive_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/accept" android:layout_weight="2.0" />
+            <Button android:layout_gravity="center_vertical" android:id="@id/carrier_tos_negative_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/decline" android:layout_weight="2.0" />
+        </LinearLayout>
+        <ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/carrier_tos_buttons_bar" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/info_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/address_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/billing_information_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentTop="true" />
+                    <ImageButton android:id="@id/address_edit_button" android:background="@drawable/btn_square" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:src="@drawable/ic_btn_billing_edit" android:layout_weight="2.0" android:layout_below="@id/billing_information_description" android:layout_alignParentRight="true" />
+                    <View android:id="@id/address_buffer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toLeftOf="@id/address_edit_button" />
+                    <TextView android:textStyle="bold" android:id="@id/address_display" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/address_buffer" android:layout_below="@id/billing_information_description" />
+                    <TextView android:textStyle="bold" android:id="@id/phone_number_display" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/address_buffer" android:layout_below="@id/address_display" />
+                    <TextView android:id="@id/address_edit_instructions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/use_different_address" android:layout_toLeftOf="@id/address_buffer" android:layout_below="@id/phone_number_display" />
+                </RelativeLayout>
+                <View android:id="@id/separator_line" android:background="@color/separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/address_edit_instructions" />
+                <WebView android:id="@id/carrier_tos_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/separator_line" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <include android:id="@id/carrier_tos_progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fullscreen_loading_indicator" />
+</FrameLayout>

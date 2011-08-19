@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Navegador GPS do Google</string>
+    <string name="da_net_fail_title">Falha na rede</string>
+    <string name="da_net_fail_body">Este aplicativo requer uma conexão de dados em funcionamento.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Destino</string>
+    <string name="da_toward">em direção a %1$s</string>
+    <string name="da_onto">para %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"depois
+%1$s"</string>
+    <string name="da_continue_for_distance">Continue por %1$s</string>
+    <string name="da_destination_will_be_on_the_left">seu destino estará à esquerda.</string>
+    <string name="da_destination_will_be_on_the_right">seu destino estará à direita.</string>
+    <string name="da_you_will_reach_destination">chegaremos ao destino.</string>
+    <string name="da_destination_on_the_left">Seu destino está à esquerda.</string>
+    <string name="da_destination_on_the_right">Seu destino está à direita.</string>
+    <string name="da_destination_reached">Chegamos.</string>
+    <string name="da_speech_lost_gps">Sinal de GPS perdido</string>
+    <string name="da_speech_lost_data_connection">Conexão de dados perdida</string>
+    <string name="da_speech_navigation_resumed">Navegação retomada</string>
+    <string name="da_speech_please_describe_problem">Descreva o problema</string>
+    <string name="da_on_left">à esquerda</string>
+    <string name="da_on_right">à direita</string>
+    <string name="da_stay_on_road_primary">Permaneça na %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s para %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s para %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0} mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} pés</string>
+    <string name="da_distance_format_feet_compressed">{0} pés</string>
+    <string name="da_distance_format_yards_abbreviated">{0} jd</string>
+    <string name="da_distance_format_yards_compressed">{0}jd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$smin</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navegador GPS</string>
+    <string name="da_search_label">Pesquisar</string>
+    <string name="da_layers">Camadas</string>
+    <string name="da_agreement">"O Navegador GPS do Google está em beta. Tenha cuidado.
+
+Não use este aplicativo enquanto dirige. Os dados de trânsito não estão em tempo real e as rotas podem estar erradas, ser perigosas, proibidas ou envolver balsas. Obedeça as leis aplicáveis.
+
+Olho na estrada!"</string>
+    <string name="da_agreement_with_walking">"O Navegador GPS do Google está em beta. Tenha cuidado.
+
+Não use este aplicativo enquanto dirige. Os dados de trânsito não estão em tempo real e as rotas podem estar erradas, ser perigosas, proibidas ou envolver balsas. Os trajetos a pé podem não ter calçadas ou vias para pedestres. Obedeça as leis aplicáveis.
+
+Olho na estrada!"</string>
+    <string name="da_disclaimer_checkbox">Exibir esta mensagem da próxima vez</string>
+    <string name="da_show_list">Lista de instruções</string>
+    <string name="da_route_overview">Informações do trajeto</string>
+    <string name="da_show_map">Mostrar mapa</string>
+    <string name="da_satellite">Satélite</string>
+    <string name="da_traffic_view">Visualização do trânsito</string>
+    <string name="da_no_traffic_here">Nenhuma informação sobre tráfego aqui</string>
+    <string name="da_traffic">Trânsito</string>
+    <string name="da_area_view">Visualização da área</string>
+    <string name="da_mute">Desativar som</string>
+    <string name="da_unmute">Ativar som</string>
+    <string name="da_settings">Configurações</string>
+    <string name="da_help">Ajuda</string>
+    <string name="da_terms_privacy_notices">"Termos, Priv. e Avisos "</string>
+    <string name="da_terms_and_conditions">Termos e Condições</string>
+    <string name="da_privacy_policy">Política de Privacidade</string>
+    <string name="da_legal_notices">Avisos Legais</string>
+    <string name="da_navigation_suspended">Navegação suspensa</string>
+    <string name="da_exit_navigation">Sair do Navegador GPS</string>
+    <string name="da_email_me_when_resolved">Enviar e-mail após solução</string>
+    <string name="da_problem_reported">Problema informado</string>
+    <string name="da_one_button_map_issue_reporting">Informar problema com 1 clique</string>
+    <string name="da_attention">Atenção</string>
+    <string name="da_rmi_warning">"Informar um problema permite registrar uma mensagem de voz curta descrevendo um problema com o mapa ou com seu trajeto. Após 15 segundos, sua mensagem será automaticamente enviada ao Google com seu local e trajeto atuais.
+
+Um atalho de 1 clique pode ser ativado nas configurações do aplicativo.
+
+ Se escolher receber atualizações por e-mail quando o problema for resolvido, seu endereço, local e comentários serão salvos até o problema ser resolvido."</string>
+    <string name="da_report_a_problem">Informar um problema</string>
+    <string name="da_report_a_problem_dialog_title">Informar um problema</string>
+    <string name="da_rmi_preference_trackball_summary">Se ativado, pressione o trackball para informar o problema.</string>
+    <string name="da_rmi_preference_camera_summary">Se ativado, pressione o botão da câmera para informar o problema.</string>
+    <string name="da_rmi_preference_no_button_summary">Nenhum botão disponível.</string>
+    <string name="da_rmi_preference_bad_location_summary">Não é possível informar um problema em seu local atual.</string>
+    <string name="da_destination_not_here_warning">Obrigado por informar que temos o local errado para o seu destino. Seu destino atual e local serão enviados ao Google para ajudar a melhorar a precisão de nossos dados.</string>
+    <string name="da_destination_not_here_title">Informar um problema</string>
+    <string name="da_searching_for_gps">Pesquisando GPS...</string>
+    <string name="da_data_connection_lost">Conexão de dados perdida...</string>
+    <string name="da_follow_the_route">Siga o trajeto</string>
+    <string name="da_waiting_for_directions">Obtendo instruções de direção</string>
+    <string name="da_waiting_for_walking_directions">Obtendo rotas a pé</string>
+    <string name="da_waiting_for_location">Esperando local</string>
+    <string name="da_checking_navigation_availability">Verificando disponibilidade do Navegador</string>
+    <string name="da_loading_route_details">Carregando detalhes do trajeto</string>
+    <string name="da_loading_image">Carregando imagem</string>
+    <string name="da_waiting_for_alternates">Pesquisando trajetos alternativos</string>
+    <string name="da_waiting_for_details">Carregando</string>
+    <string name="da_no_details">Detalhes não disponíveis</string>
+    <string name="da_gps_is_disabled">O GPS está desabilitado</string>
+    <string name="da_turn_on_gps">Mostrar configurações de local?</string>
+    <string name="da_voice_guidance">Orientação por voz</string>
+    <string name="da_install_voice_guidance_prompt">Para navegação guiada por voz, você precisa instalar o suporte para voz do Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Ignorar</string>
+    <string name="da_dialog_cancel">Cancelar</string>
+    <string name="da_dialog_done">Concluído</string>
+    <string name="da_dialog_accept">Aceitar</string>
+    <string name="da_dialog_install">Instalar</string>
+    <string name="da_dialog_dont_accept">Não aceitar</string>
+    <string name="da_dialog_go">Ir</string>
+    <string name="da_dialog_get_directions">Como chegar</string>
+    <string name="da_map">Mapa</string>
+    <string name="da_clear_layers">Limpar mapa</string>
+    <string name="da_layer_name_parking">Estacionamento</string>
+    <string name="da_layer_name_attractions">Atrações</string>
+    <string name="da_layer_name_gas_stations">Postos</string>
+    <string name="da_layer_name_restaurants">Restaurantes</string>
+    <string name="da_layer_name_supermarkets">Supermercados</string>
+    <string name="da_layer_name_atms_and_banks">Caixas automáticos e Bancos</string>
+    <string name="da_layer_name_convenience_stores">Lojas de conveniência</string>
+    <string name="da_query_banks_and_atms">Bancos e caixas eletrônicos</string>
+    <string name="da_rerouting">Traçando rota novamente...</string>
+    <string name="da_via">Via %s</string>
+    <string name="da_to_destination">para %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Gravar feedback</string>
+    <string name="da_destination_not_here">Destino não é aqui</string>
+    <string name="da_new_destination">Próximo destino</string>
+    <string name="da_reroute_to_destination">Voltar ao Destino</string>
+    <string name="da_change_destination">Definir destino</string>
+    <string name="da_search_for_destination">Pesquisar...</string>
+    <string name="da_point_on_map">Ponto no mapa</string>
+    <string name="da_volume">Volume de navegação</string>
+    <string name="da_exit">Sair</string>
+    <string name="da_did_you_mean">Você quis dizer:</string>
+    <string name="da_did_you_say">Você quis dizer:</string>
+    <string name="da_for_your_end_point">Para seu ponto de destino</string>
+    <string name="da_unnamed_road">Estrada sem nome</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, depois %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Em %1$s metros</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Em um quilômetro e meio</string>
+    <string name="da_speech_continue_for_x_meters">Continue por %1$s metros</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Continue por um quilômetro e meio</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Continue na %2$s por %1$s metros</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Continue na %1$s por um quilômetro e meio</string>
+    <string name="da_speech_generic_continue">Siga em frente</string>
+    <string name="da_speech_in_x_feet">Em %1$s pés</string>
+    <string name="da_speech_in_x_yards">Em %1$s jardas</string>
+    <string name="da_speech_in_a_quarter_mile">Em um quarto de milha</string>
+    <string name="da_speech_in_a_half_mile">Em meia milha</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Em três quartos de milha</string>
+    <string name="da_speech_in_one_and_a_half_miles">Em uma milha e meia</string>
+    <string name="da_speech_continue_for_x_feet">Continue por %1$s pés</string>
+    <string name="da_speech_continue_for_x_yards">Continue por %1$s jardas</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Continue por um quarto de milha</string>
+    <string name="da_speech_continue_for_a_half_mile">Continue por meia milha</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Continue por três quartos de milha</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Continue por uma milha e meia</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Continue na %2$s por %1$s pés</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Continue na %2$s por %1$s jardas</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Continue na %1$s por um quarto de milha</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Continue na %1$s por meia milha</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Continue na %1$s por três quartos de milha</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Continue na %1$s por uma milha e meia</string>
+    <string name="da_route_prefixes">N,NE,L,SE,S,SO,O,NO</string>
+    <string name="da_route_suffixes">N,NE,L,SE,S,SO,O,NO,Av,Bul,Desv,Rotat,R s/saída,ViaExp,Rod,Vic,Lugar,Estr,R,Via</string>
+    <string name="da_no_route">Nenhum trajeto encontrado</string>
+    <string name="da_route_not_found">Não foi possível encontrar o trajeto até o seu destino.</string>
+    <string name="da_destination_not_found">Não foi possível entender o destino.</string>
+    <string name="da_navigation_not_supported">O Navegador não está disponível para o seu destino.</string>
+    <string name="da_navigation_not_supported_at_current_loc">O Navegador GPS do Google ainda não está disponível neste local.</string>
+    <string name="da_launch_maps">Iniciar o Google Maps</string>
+    <string name="da_no_image_available">Nenhuma imagem disponível.</string>
+    <string name="da_image_error">Erro ao carregar imagem.</string>
+    <string name="da_no_alternate_routes">Não foi possível encontrar trajetos alternativos até o seu destino.</string>
+    <string name="da_picker_type_destination">Digitar destino</string>
+    <string name="da_picker_speak_destination">Falar o destino</string>
+    <string name="da_picker_contacts">Contatos</string>
+    <string name="da_picker_starred_items">Lugares marcados com estrela</string>
+    <string name="da_picker_new_contact">Novo contato</string>
+    <string name="da_picker_recent_destinations">Destinos recentes</string>
+    <string name="da_picker_choose_destination">Escolher o destino</string>
+    <string name="da_navigate_to">Navegar até</string>
+    <string name="da_picker_search_hint">Destino</string>
+    <string name="da_route_options">Opções de trajeto</string>
+    <string name="da_updating_directions">Atualizando rotas</string>
+    <string name="da_picker_no_starred_items">"Você não possui itens com estrela.
+
+Os itens com estrela são sincronizados automaticamente com o maps.google.com.
+
+Você pode marcar os resultados de pesquisa do Google Maps com estrela tocando no ícone estrela próximo ao endereço."</string>
+    <string name="da_picker_no_contacts">"Você não tem contatos com endereços.
+
+Você pode adicionar novos contatos ou inserir endereços para contatos existentes em \"Contatos\"."</string>
+    <string name="da_driving">Carro</string>
+    <string name="da_walking">A pé</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Mais informações</string>
+    <string name="da_search_maps">Pesquisar</string>
+    <string name="da_walking_warning">Rota a pé (beta): use com cautela</string>
+    <string name="da_calibrate_compass_title">Calibragem da bússola</string>
+    <string name="da_calibrate_compass">A bússola do seu celular não está calibrada. Para calibrar, faça movimentos no formato do número 8 algumas vezes com o celular.</string>
+    <string name="da_confirm_exit_title">Sair da navegação?</string>
+    <string name="da_confirm_exit_text">Este é o fim da orientação de trajeto.</string>
+    <string name="da_route_includes_tolls">O trajeto inclui pedágios</string>
+    <string name="da_avoid_tolls">Evitar pedágios</string>
+    <string name="da_avoiding_tolls">Evitando pedágios</string>
+    <string name="da_avoiding_highways">Evitando estradas</string>
+    <string name="da_route_includes_unavoidable_tolls">Este trajeto inclui pedágios.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Este trajeto inclui pedágios. Desativar trajetos com pedágios em %1$s%2$s abaixo.</string>
+    <string name="da_seasonally_closed">O trajeto pode estar temporariamente fechado</string>
+    <string name="da_direction_north">norte</string>
+    <string name="da_direction_north_west">noroeste</string>
+    <string name="da_direction_west">oeste</string>
+    <string name="da_direction_south_west">sudoeste</string>
+    <string name="da_direction_south">sul</string>
+    <string name="da_direction_south_east">sudeste</string>
+    <string name="da_direction_east">leste</string>
+    <string name="da_direction_north_east">nordeste</string>
+    <string name="da_step_depart">Siga na direção %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Siga na direção %1$s na %2$s</string>
+    <string name="da_step_slight_left">Curva suave à esquerda</string>
+    <string name="da_step_slight_right">Curva suave à direita</string>
+    <string name="da_step_turn_left">Vire à esquerda</string>
+    <string name="da_step_turn_right">Vire à direita</string>
+    <string name="da_step_sharp_left">Curva acentuada à esquerda</string>
+    <string name="da_step_sharp_right">Curva acentuada à direita</string>
+    <string name="da_step_slight_left_onto">Curva suave à esquerda na %1$s</string>
+    <string name="da_step_slight_right_onto">Curva suave à direita em %1$s</string>
+    <string name="da_step_turn_left_onto">Vire à esquerda na %1$s</string>
+    <string name="da_step_turn_right_onto">Vire à direita na %1$s</string>
+    <string name="da_step_sharp_left_onto">Vire à esquerda em %1$s</string>
+    <string name="da_step_sharp_right_onto">Vire à direita em %1$s</string>
+    <string name="da_step_fork_left">Mantenha-se à esquerda na bifurcação</string>
+    <string name="da_step_fork_right">Mantenha-se à direita na bifurcação</string>
+    <string name="da_step_continue_onto">Continue na %1$s</string>
+    <string name="da_step_continue_straight">Siga em frente</string>
+    <string name="da_step_u_turn">Faça meia-volta</string>
+    <string name="da_step_take_the_ramp">Pegue a rampa</string>
+    <string name="da_step_take_the_ramp_onto">Pegue a rampa para a %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Pegue a rampa à esquerda</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Pegue a rampa à esquerda para a %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Pegue a rampa à direita</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Pegue a rampa à direita para a %1$s</string>
+    <string name="da_step_take_the_exit">Pegue a saída</string>
+    <string name="da_step_take_the_exit_on_the_left">Pegue a saída à esquerda</string>
+    <string name="da_step_take_the_exit_on_the_right">Pegue a saída à direita</string>
+    <string name="da_step_take_the_exit_onto">Pegue a saída para a %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Pegue a saída à esquerda para a %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Pegue a saída à direita para a %1$s</string>
+    <string name="da_step_take_exit_n">Pegue a saída %1$s</string>
+    <string name="dav_map_copyrights_google_only">%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$dGoogle - Imagens ©%2$d%3$s, Dados do mapa ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">© %1$dGoogle - Imagens ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Dados do mapa © %2$d%3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Casa</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Rotas e navegação</string>
+    <string name="EXIT_COMMAND">Sair</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} gostaria que você fizesse check-in</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Solicitação de check-in do Google Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Insira um endereço</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Ícone do atalho</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Salvar</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Destino</string>
+    <string name="GOHOME_SHORTCUT_NAME">Nome do atalho</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navegação passo a passo</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Abrir configurações</string>
+    <string name="HOTPOT_LOADING">Carregando...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">O widget Avaliar lugares requer que você ative Usar redes sem fio (nas configurações de local e segurança) e Wi-Fi (nas configurações de rede e sem fio).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Ative Usar redes sem fio nas configurações de local e segurança para usar o widget Avaliar lugares.</string>
+    <string name="HOTPOT_NO_LOCATION">Nenhuma informação do local</string>
+    <string name="HOTPOT_SEARCH">Pesquisar</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Pesquisado para: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Pesquisar novamente</string>
+    <string name="HOTPOT_SELECT_PLACE">Selecionar lugar a ser avaliado</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Selecione um lugar: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Local desconhecido</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Atualizando local...</string>
+    <string name="HOTPOT_WIDGET_NAME">Avaliar lugares</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Postado publicamente como {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Dizer mais</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Atualizado há {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Ative o Wi-Fi no Redes sem fio e configurações de rede para aprimorar a precisão do widget de local do Rate Places</string>
+    <string name="HOTPOT_YOU_RATED">"Você avaliou: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Em {0} e compartilhando com {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Check-in em {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Fazer check-in em {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Fazer check-in?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Toque para fazer login no Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Última atualização: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Local desconhecido</string>
+    <string name="LOADING">Carregando</string>
+    <string name="MAPS_APP_NAME">Mapas</string>
+    <string name="NEED_NET_BODY">Este aplicativo não poderá ser usado se você não permitir o envio e o recebimento de dados pela rede.</string>
+    <string name="NEED_NET_TITLE">Acesso à rede necessário</string>
+    <string name="NETWORK_DATA_ERROR">Este aplicativo requer uma conexão de dados. Entre em contato com sua operadora.</string>
+    <string name="NET_FAIL_BODY">Este aplicativo requer uma conexão de dados em funcionamento.</string>
+    <string name="NET_FAIL_TITLE">Falha na rede</string>
+    <string name="NET_UNAVAILABLE_TITLE">Rede indisponível</string>
+    <string name="PLACES_APP_NAME">Locais</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Por exemplo, espaguete à bolonhesa, coquetéis, música</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">O que se destaca?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Cancelar</string>
+    <string name="RATINGS_OPTIN_CLOSE">Fechar</string>
+    <string name="RATINGS_OPTIN_FAILED">Falha na atualização, tente mais tarde.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Use a rede social!&lt;/ B> Vá para &lt;b>{0}&lt;/b> em seu computador para adicionar amigos e descobrir lugares que eles adoram.</string>
+    <string name="RATINGS_OPTIN_HEADING">Defina seu apelido público no Google Places.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Nome ou apelido: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Avalie seus restaurantes favoritos, lanchonetes e outros lugares para obter recomendações nos resultados de pesquisa com base nas suas preferências pessoais.</string>
+    <string name="RATINGS_OPTIN_SAVE">Primeiros passos</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Suas avaliações de lugares são &lt;b>publicadas na web&lt;/b> com este apelido. &lt;a href=#>Saiba mais&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Postado publicamente na web como {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Postado publicamente na web.</string>
+    <string name="RATINGS_RATE_PLACES">Por que avaliar lugares?</string>
+    <string name="RATINGS_SET_APPEARANCE">Definir aparência</string>
+    <string name="RATINGS_WAIT">Aguarde...</string>
+    <string name="SEARCH_HINT">Pesquisar</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Ponto final</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trânsito</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Nome do widget</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Salvar</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Ponto de partida</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Erro grave.  Encerre e reinicie."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Erro desconhecido</string>
+    <string name="UPGRADE_BODY">Instale uma nova versão para usar esse aplicativo.</string>
+    <string name="UPGRADE_TITLE">Atualização de software</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Papel de parede dinâmico do Google Maps</string>
+    <string name="WALLPAPER_MAP_MODE">Modo de mapa</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satélite</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">O modo de mapa, p. ex. Satélite</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Terreno</string>
+    <string name="WALLPAPER_SETTINGS">Configurações de papel de parede dinâmico do Google Maps</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Mostrar trânsito</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Mostrar o clima atual no mapa. Você deve ter o widget da previsão do tempo instalado.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Meteorologia</string>
+</resources>

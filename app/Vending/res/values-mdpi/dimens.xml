@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asset_fat_thumbnail_bottom_padding">4.0dip</dimen>
+    <dimen name="fat_button_height">36.0dip</dimen>
+    <dimen name="fat_button_text_size">15.0sp</dimen>
+    <dimen name="fat_button_top_padding">0.0dip</dimen>
+    <dimen name="fat_button_bottom_padding">2.0dip</dimen>
+    <dimen name="fat_label_text_size">14.0sp</dimen>
+</resources>

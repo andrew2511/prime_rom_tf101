@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMKlient</string>
+    <string name="minutes">minutter</string>
+    <string name="postpone">Udsæt</string>
+    <string name="update">Opdater</string>
+    <string name="firmware_update_fail">"Opdateringen mislykkedes.
+
+Din enhed gendanner til den originale konfiguration."</string>
+    <string name="low_battery_warning">"Systemet kræver mindst %1$d%% batteritid for at kunne fortsætte med systemopdateringen.
+Oplad venligst batteriet, før systemet opdateres."</string>
+    <string name="confirmDownload_textok">"Denne opdatering forbedrer stabiliteten, og sletter ikke nogle data. Vi anbefaler stærkt at du opgradere til denne version.
+Tryk på JA, for at acceptere opdateringen."</string>
+    <string name="confirmDownload_textcancel">Tryk på NEJ for at afvise opdateringen.</string>
+    <string name="confirmDownload_textwifi">Vi anbefaler, at du bruger en gratis Wi-Fi hotspot, når du downloader opdateringen.</string>
+    <string name="confirmDownload_textwifi2">Hvis du trykker på Senere, kan du downloade opgraderingen på et senere tidspunkt, ved at trykke på meddelelsen.</string>
+    <string name="btn_text_later">Senere</string>
+    <string name="confirmDownload_dialog_title">Bemærk, at du roamer.</string>
+    <string name="downloading">Downloader firmware...</string>
+    <string name="install_time">Anslået installationstid:</string>
+    <string name="postponetime_text">Udsæt i:</string>
+    <string name="install">Installer</string>
+    <string name="reach_max_net_fail">Download afbrudt af server, prøv venligst igen senere.</string>
+    <string name="dlg_title_checking">Integritetskontrol.</string>
+    <string name="dlg_msg_checking">Kontrollerer integriteten af din firmware-fil.</string>
+    <string name="cannot_set_to_browser">Kan ikke indstille til browser.</string>
+    <string name="upgrade_error">Opgraderingfejl, download venligst opdateringspakken igen.</string>
+    <string name="start_to_download">Begynd at downloade den kritiske opdateringspakke.</string>
+    <string name="start_to_upgrade">Begynd at opgradere opdateringspakke.</string>
+    <string name="start_NI_dmSession">Netværk starter DM session, accepter?</string>
+    <string name="download_finished">Firmware download udført...</string>
+    <string name="download_in_progress">Ny firmware-download i gang</string>
+    <string name="out_of_mem_warning">"Ikke nok plads,
+Afinstaller venligst nogle programmer og prøv igen."</string>
+    <string name="ui_alert_input_hint">Indtast venligst tekst</string>
+    <string name="ui_alert_input_numeric_hint">Indtast venligst nummer</string>
+    <string name="ui_alert_input_phone_number_hint">Indtast venligst telefonnummer</string>
+    <string name="check_for_update">Tjek efter opdateringer</string>
+    <string name="no_new_fota_update">Der er i øjebliket ingen opdateringer til rådighed til din enhed.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Annuller</string>
+    <string name="confirm_download_btn_Yes">Ja</string>
+    <string name="confirm_download_btn_No">Nej</string>
+    <string name="confirm_update_title">ASUS Firmware-opdatering.</string>
+    <string name="asus_received_title">"Asus' opdateringstjeneste til systemfirmwaret"</string>
+    <string name="received_message">Der er en ny systemfirmwareopdatering til rådighed, tryk for at opgradere.</string>
+    <string name="low_battery_title">Opdateringen af systemfirmwaret blev afbrudt</string>
+    <string name="dl_received_ticker">Der er en ny systemfirmwareopgradering til rådighed.</string>
+    <string name="dl_received_message">Der er en ny systemfirmwareopdatering til rådighed, tryk for at downloade.</string>
+    <string name="confirmDownload_text1">Ønsker du at downloade følgende systemfirmwareopdatering?</string>
+    <string name="received_ticker">Der er en ny systemfirmwareopgradering til rådighed.</string>
+    <string name="update_dialog_text">"Der blev hentet en ny systemfirmwareopdatering til din enhed. Installer nu? 
+"</string>
+    <string name="prepare_dm_download">Forbereder download af systemfirmwaret...</string>
+    <string name="system_update_activity">Systemfirmwareopdatering</string>
+    <string name="has_new_fota_update">Der er en ny systemfirmwareopdatering klar til din enhed. Se venligst meddelelserne.</string>
+    <string name="update_dialog_text2">Denne systemfirmwareopdatering forbedre stabiliteten, og sletter ikke nogle af dine data. Vi anbefaler stærkt, at du opgradere til denne version.</string>
+</resources>

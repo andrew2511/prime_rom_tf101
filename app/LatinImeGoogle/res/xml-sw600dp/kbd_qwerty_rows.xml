@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row1" />
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row2" />
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row3" />
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row4" />
+</merge>

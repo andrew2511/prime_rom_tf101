@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">دقيقة (دقائق)</string>
+    <string name="postpone">تأجيل</string>
+    <string name="update">تحديث</string>
+    <string name="asus_received_title">خدمة تحديث Asus</string>
+    <string name="received_message">يتوافر تحديث جديد.</string>
+    <string name="firmware_update_title">تحديث البرنامج المبيت</string>
+    <string name="firmware_update_fail">"فشل التحديث.
+
+سوف يقوم جهازك باسترداد التهيئة الأصلية."</string>
+    <string name="low_battery_title">إنهاء تحديث النظام</string>
+    <string name="low_battery_warning">"يتطلب النظام على الأقل 50% من شحنة البطارية للمتابعة في عملية تحديث النظام.
+برجاء شحن البطارية قبل تحديث النظام."</string>
+    <string name="confirmDownload_text1">هل تريد تنزيل ترقية النظام التالية؟</string>
+    <string name="confirmDownload_textok">برجاء ضغط نعم لقبول هذا التحديث.</string>
+    <string name="confirmDownload_textcancel">اضغط لا لتجاهل هذا التحديث.</string>
+    <string name="confirmDownload_textwifi">يوصى باستخدام نقطة WiFi فعالة أو خطة بيانات غير محدودة لتنزيل هذا التحديث.</string>
+    <string name="confirmDownload_textwifi2">في حالة عدم استخدام ذلك الاتصال، يتم تطبيق رسوم اتصال البيانات العادية.</string>
+    <string name="btn_text_later">فيما بعد</string>
+    <string name="confirmDownload_dialog_title">تنبيه، أنت تقوم بالتجوال.</string>
+    <string name="update_dialog_text">"تم تنزيل نسخة برنامج جديدة لهاتفك. تثبيت الآن؟ 
+"</string>
+    <string name="downloading">تنزيل البرنامج المبيت...</string>
+    <string name="install_time">وقت التثبيت المقدر:</string>
+    <string name="install">تثبيت</string>
+    <string name="received_ticker">يتوافر تحديث جديد.</string>
+    <string name="dl_received_ticker">يتوافر تحديث جديد.</string>
+    <string name="dl_received_message">يوجد تحديث، اضغط هنا للتنزيل.</string>
+    <string name="postponetime_text">وقت التأجيل:</string>
+    <string name="reach_max_net_fail">تم وقف التنزيل من الخادم، برجاء المحاولة مرة أخرى.</string>
+    <string name="dlg_title_checking">فحص التكامل.</string>
+    <string name="dlg_msg_checking">فحص تكامل ملف البرنامج المبيت.</string>
+    <string name="cannot_set_to_browser">لا يمكن الإعداد للمستعرض.</string>
+    <string name="upgrade_error">خطأ في الترقية، برجاء إعادة تنزيل حزمة الترقية مرة أخرى.</string>
+    <string name="start_to_download">بدء تنزيل حزمة التنزيل الهامة.</string>
+    <string name="start_to_upgrade">بدء ترقية حزمة التحديث.</string>
+    <string name="Start_NI_DmSession">جلسة DM الأولية للشبكة، قبول؟</string>
+    <string name="prepare_dm_download">جاري التحضير للتنزيل...</string>
+    <string name="download_finished">انتهى تنزيل البرنامج المبيت...</string>
+    <string name="download_notification_title">خدمة تحديث T-Mobile</string>
+    <string name="download_in_progress">تنزيل البرنامج المبيت الجديد قيد التقدم</string>
+    <string name="out_of_mem_warning">"لا توجد مساحة خالية كافية على الهاتف،
+برجاء إلغاء تثبيت بعد التطبيقات وإعادة المحاولة."</string>
+    <string name="btn_register">تسجيل C2DM</string>
+    <string name="btn_unregister">إلغاء تسجيل C2DM</string>
+    <string name="ui_alert_input_hint">برجاء إدخال نص</string>
+    <string name="ui_alert_input_numeric_hint">برجاء إدخال رقم</string>
+    <string name="ui_alert_input_phone_number_hint">رقم الهاتف</string>
+</resources>

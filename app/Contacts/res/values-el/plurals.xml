@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d επαφές</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d επαφές, %2$2$d με τηλέφωνα</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d επαφές με αριθμούς τηλεφώνου</item>
+        <item quantity="one">1 επαφή με αριθμό τηλεφώνου</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">1 επαφή</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Βρέθηκαν %d</item>
+        <item quantity="one">Βρέθηκε 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Βρέθηκαν %d</item>
+        <item quantity="one">Βρέθηκε 1</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">επιλέχθηκαν %d παραλήπτες</item>
+        <item quantity="one">επιλέχθηκε 1 παραλήπτης</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">συγχώνευση από %0$d προελεύσεις</item>
+        <item quantity="one">δεν συγχωνεύθηκαν</item>
+    </plurals>
+</resources>

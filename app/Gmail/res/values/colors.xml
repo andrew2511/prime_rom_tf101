@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quoted_text">#ff808080</color>
+    <color name="drafts">#ff990000</color>
+    <color name="background_read_conversation">#ffe7e3e7</color>
+    <color name="unread_conversation_subject_text">#ff313031</color>
+    <color name="text_color">#ff424242</color>
+    <color name="label_background_color">#00ffffff</color>
+    <color name="default_text_color">#ff000000</color>
+    <color name="light_text_color">#ff666666</color>
+    <color name="label_drop_target">#ffffcc33</color>
+    <color name="label_disabled_drop_target_text_color">#ff999999</color>
+    <color name="widget_label_shadow_color">#ff0d0d0d</color>
+    <color name="widget_account_color">#c0ffffff</color>
+    <color name="widget_unread_count_color">#c0ffffff</color>
+    <color name="solid_button_background">#fff1f1f1</color>
+    <color name="searchStatusGradientStart">#ff92a1b4</color>
+    <color name="searchStatusGradientEnd">#0092a1b4</color>
+    <color name="accountInfoColor">#ff888888</color>
+    <color name="white">#ffffffff</color>
+    <color name="fadedConversationHeader">#7fa3d119</color>
+    <color name="fadedActivatedConversationHeader">#7faccbf9</color>
+    <color name="fadedWebView">#7fffffff</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="candidate_divider">false</item>
+    <item type="id" name="candidate_word">false</item>
+    <item type="id" name="candidate_debug_info">false</item>
+    <item type="id" name="candidates_scroll_view">false</item>
+    <item type="id" name="candidates">false</item>
+    <item type="id" name="LatinkeyboardBaseView">false</item>
+    <item type="id" name="KeyboardView">false</item>
+    <item type="id" name="popup_layout">false</item>
+    <item type="id" name="sound_indicator">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="language">false</item>
+    <item type="id" name="button">false</item>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>4 ώρες</item>
+        <item>8 ώρες</item>
+        <item>12 ώρες</item>
+        <item>Εγχειρίδιο</item>
+    </string-array>
+</resources>

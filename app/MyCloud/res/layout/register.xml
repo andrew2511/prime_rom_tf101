@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/introd_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="330.0dip">
+        <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aws_acc_username" style="@style/introd_subtitle" />
+            <EditText android:typeface="monospace" android:id="@id/username_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="" android:hint="@string/aws_acc_username_hint" android:singleLine="true" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aws_acc_password" style="@style/introd_subtitle" />
+            <EditText android:id="@id/password_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="" android:hint="@string/aws_acc_password_hint" android:singleLine="true" android:inputType="textPassword" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aws_acc_password_confirm" style="@style/introd_subtitle" />
+            <EditText android:id="@id/password_edit_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="" android:hint="@string/aws_acc_password_confirm_hint" android:singleLine="true" android:inputType="textPassword" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aws_acc_email" style="@style/introd_subtitle" />
+            <EditText android:id="@id/email_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="" android:hint="@string/aws_acc_email_hint" android:singleLine="true" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="left" android:background="@drawable/asus_ep_mycloud_tittleline" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textColor="#ffff0000" android:id="@id/registererr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/introd_subtitle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/accept_eula_chk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0sp" android:text="@string/aws_acc_register_check" />
+        <TextView android:id="@id/eula_lnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="By check on 'I accept', you are agreeing to the Terms of Service" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0sp">
+            <Button android:textColor="#ffffffff" android:id="@id/create_btn" android:background="@drawable/rollover_login" android:paddingLeft="40.0sp" android:paddingRight="40.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0sp" android:layout_marginRight="30.0sp" android:text="@string/aws_acc_register_butt" android:layout_weight="1.0" android:onClick="doRegist" />
+            <Button android:textColor="#ffffffff" android:id="@id/cancel_btn" android:background="@drawable/rollover_login" android:paddingLeft="40.0sp" android:paddingRight="40.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0sp" android:layout_marginRight="30.0sp" android:text="@string/aws_acc_spin_cancel_butt" android:layout_weight="1.0" android:onClick="doCancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

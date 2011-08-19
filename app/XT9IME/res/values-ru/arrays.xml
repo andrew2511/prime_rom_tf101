@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtype_mode_fr_CH_keyboard">
+        <item>Французская (Швейцария) клавиатура ASUS</item>
+        <item>Французская (Бельгия) клавиатура ASUS</item>
+    </string-array>
+</resources>

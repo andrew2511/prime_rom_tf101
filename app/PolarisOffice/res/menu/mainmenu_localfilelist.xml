@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ico_menu_newfile" android:id="@id/menu_localfilelist_mainmenu_newfile" android:title="@string/string_filemanager_contextmenu_filecreate" />
+    <item android:icon="@drawable/ico_menu_newfolder" android:id="@id/menu_localfilelist_mainmenu_newfolder" android:title="@string/string_localfilelist_mainmenu_newfolder" />
+    <item android:icon="@drawable/ico_menu_updnload" android:id="@id/menu_localfilelist_mainmenu_updownload" android:title="@string/string_localfilelist_mainmenu_updownload" />
+    <item android:icon="@drawable/ico_menu_recentfiles" android:id="@id/menu_localfilelist_mainmenu_recentfile" android:title="@string/string_localfilelist_mainmenu_recentfile" />
+    <item android:icon="@drawable/ico_menu_settings" android:id="@id/menu_localfilelist_mainmenu_settings" android:title="@string/string_localfilelist_mainmenu_settings" />
+</menu>

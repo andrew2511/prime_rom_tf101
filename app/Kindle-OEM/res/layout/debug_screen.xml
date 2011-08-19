@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete disk-cached covers" android:onClick="onDeleteDiskCachedCoversClick" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kill app" android:onClick="onExitAppClick" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Invalidate Fingerprint" android:onClick="onInvalidateFingerprint" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Serialize Metrics" android:onClick="onSerializeMetricsClick" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Device Information" android:onClick="onShowDeviceInformation" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear store front cache" android:onClick="onClearStoreFrontCache" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear store credentials" android:onClick="onClearStoreCredentials" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send INSTALL_REFERRER intent" android:onClick="onSendInstallReferrerIntent" />
+        <Button android:id="@id/currentlyReadingBookDetailsButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show currently-reading book details" android:onClick="onShowCurrentlyReadingBookDetails" />
+        <Button android:id="@id/freeBooksButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="copy free books" android:onClick="onGiveFreeBooks" />
+        <Button android:id="@id/clearDynamicConfig" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear Dynamic Config URLs" android:onClick="onClearDynamicConfig" />
+        <CheckBox android:id="@id/force_domain_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Force US domain for cred. cookies" android:onClick="toggleDomainForcing" />
+        <CheckBox android:id="@id/preprod_redirect_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use preprod KCPMason redirects" android:onClick="togglePreprodRedirects" />
+    </LinearLayout>
+</ScrollView>

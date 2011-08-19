@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="download_queue_item_click">
+        <item>@string/long_click_delete</item>
+        <item>@string/queue_stop</item>
+    </array>
+    <array name="download_queue_fail_item_click">
+        <item>@string/long_click_delete</item>
+        <item>@string/queue_resume</item>
+    </array>
+    <array name="upload_queue_item_click">
+        <item>@string/long_click_delete</item>
+        <item>@string/queue_stop</item>
+    </array>
+    <array name="upload_queue_fail_item_click">
+        <item>@string/long_click_delete</item>
+        <item>@string/queue_resume</item>
+    </array>
+    <array name="folder_unmarked_long_click">
+        <item>@string/long_click_unmark_favourite</item>
+        <item>@string/file_long_click_share</item>
+        <item>@string/long_click_rename</item>
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="save_search_long_click">
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="folder_marked_long_click">
+        <item>@string/long_click_mark_favourite</item>
+        <item>@string/file_long_click_share</item>
+        <item>@string/long_click_rename</item>
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="file_unmarked_long_click">
+        <item>@string/file_long_click_download_to</item>
+        <item>@string/file_long_click_open</item>
+        <item>@string/long_click_unmark_favourite</item>
+        <item>@string/file_long_click_share</item>
+        <item>@string/long_click_rename</item>
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="file_marked_long_click">
+        <item>@string/file_long_click_download_to</item>
+        <item>@string/file_long_click_open</item>
+        <item>@string/long_click_mark_favourite</item>
+        <item>@string/file_long_click_share</item>
+        <item>@string/long_click_rename</item>
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="navigate_infected_file_dialog_items">
+        <item>@string/file_long_click_download_to</item>
+        <item>@string/long_click_delete</item>
+    </array>
+    <array name="icons">
+        <item>@drawable/icon_list_other</item>
+        <item>@drawable/icon_list_other</item>
+        <item>@drawable/icon_list_other</item>
+        <item>@drawable/icon_list_txt</item>
+        <item>@drawable/icon_list_folder</item>
+        <item>@drawable/icon_list_photo</item>
+        <item>@drawable/icon_list_other</item>
+        <item>@drawable/icon_list_music</item>
+        <item>@drawable/icon_list_other</item>
+        <item>@drawable/icon_list_video</item>
+    </array>
+    <array name="capture_selector_disp">
+        <item>@string/menu_create_new_snapshot</item>
+        <item>@string/menu_create_new_video_record</item>
+        <item>@string/menu_create_new_audio_record</item>
+        <item>@string/menu_create_new_note_taking</item>
+        <item>@string/menu_create_new_folder</item>
+    </array>
+    <array name="register_switch_disp">
+        <item>@string/common_create_new_id</item>
+        <item>@string/aty_login_title</item>
+    </array>
+</resources>

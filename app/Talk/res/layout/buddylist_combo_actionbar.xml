@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/custom_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/account_part" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:layout_alignParentLeft="true">
+            <Spinner android:id="@id/account_title_spinner" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:spinnerMode="dropdown" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/account_title_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+        </FrameLayout>
+        <include layout="@layout/custom_title" />
+    </FrameLayout>
+    <SearchView android:id="@id/search_ui" android:visibility="gone" android:layout_width="320.0dip" android:layout_height="fill_parent" android:iconifiedByDefault="false" />
+</LinearLayout>

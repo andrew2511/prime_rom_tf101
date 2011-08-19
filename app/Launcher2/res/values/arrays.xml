@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hotseats">
+        <item>intent:#Intent;action=android.intent.action.DIAL;end</item>
+        <item>*BROWSER*</item>
+    </string-array>
+    <array name="hotseat_icons">
+        <item>@drawable/hotseat_phone</item>
+        <item>@drawable/hotseat_browser</item>
+    </array>
+    <array name="extra_wallpapers" />
+</resources>

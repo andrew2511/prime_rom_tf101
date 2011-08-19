@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Market Feedback Agent</string>
+    <string name="feedback">Commenti</string>
+    <string name="report_feedback">Segnala errore</string>
+    <string name="report_error_in">Segnala errore in %s</string>
+    <string name="system_log">Registro di sistema</string>
+    <string name="event_log">Log eventi</string>
+    <string name="preview">Anteprima</string>
+    <string name="back">Indietro</string>
+    <string name="cancel">Annulla</string>
+    <string name="send">Invia</string>
+    <string name="preview_feedback">Anteprima commenti</string>
+    <string name="no_data">Nessun dato</string>
+    <string name="fetching_system_log">Recupero registro di sistema...</string>
+    <string name="fetching_event_log">Recupero log eventi...</string>
+    <string name="privacy">Privacy</string>
+    <string name="include_system_data">Includi dati di sistema</string>
+    <string name="this_will_help">Condividi dati di sistema con Google per diagnosticare meglio il problema.</string>
+    <string name="privacy_policy"><a href="notused">Norme sulla privacy </a></string>
+    <string name="unknown_app">Applicazione sconosciuta</string>
+    <string name="cant_save_report">Impossibile salvare rapporto errori. Spazio non disponibile sul dispositivo.</string>
+    <string name="report_being_sent">Grazie. Invio del rapporto in corso.</string>
+    <string name="optional_description">Descrizione (facoltativa)</string>
+    <string name="tos_activity_title">Note legali Google</string>
+    <string name="tos_activity_unsuccessful_message">Il telefono non è collegato a un servizio dati. Per visualizzare ora le informazioni, passa a %s su qualsiasi computer collegato a Internet.</string>
+    <string name="tos_accept">Accetto</string>
+    <string name="tos_decline">Rifiuto</string>
+</resources>

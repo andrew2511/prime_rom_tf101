@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Sikeres modem firmware-frissítés</string>
+    <string name="update_fail">Sikertelen modem firmware-frissítés</string>
+    <string name="update_quz" formatted="false">"A frissítés körülbelül 3-5 percet vesz igénybe és legalább 15%-os akkumulátor működési időt igényel.
+
+Győződjön meg arról, hogy az akkumulátor töltöttsége legalább 15%-os, mielőtt elvégezné a frissítést.
+
+Szeretné most frissíteni a modem firmware-t?"</string>
+    <string name="notify_title">Asus Update szolgáltatás</string>
+    <string name="notify">Modem firmware-frissítés elérhető.</string>
+    <string name="warning_title">Figyelem</string>
+    <string name="warning">"Frissítés közben NE állítsa le az eszközt.
+
+A váratlan megaszkítás visszafordíthatatlan kárt okozhat.
+
+Szeretné most frissíteni a modem firmware-t?"</string>
+    <string name="battery_low" formatted="false">"A frissítés legalább 15%-os akkumulátor működési időt igényel.
+
+Győződjön meg arról, hogy az akkumulátor töltöttsége legalább 15%-os, mielőtt elvégezné a frissítést."</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

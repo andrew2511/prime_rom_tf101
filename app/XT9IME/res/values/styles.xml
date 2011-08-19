@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyboardViewEx" parent="@android:style/Widget">
+        <item name="background">@drawable/keyboard_background</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key</item>
+        <item name="keyTextSize">22.0dip</item>
+        <item name="keyTextColor">#ff222222</item>
+        <item name="labelTextSize">14.0dip</item>
+        <item name="labelTextColor">#ff000000</item>
+        <item name="keyPreviewLayout">@layout/keyboard_key_preview</item>
+        <item name="keyPreviewOffset">-12.0dip</item>
+        <item name="keyPreviewHeight">80.0dip</item>
+        <item name="verticalCorrection">0.0dip</item>
+        <item name="popupLayout">@layout/keyboard_popup_keyboard</item>
+        <item name="shadowColor">#ffffffff</item>
+        <item name="shadowRadius">2.0</item>
+        <item name="backgroundDimAmount">0.5</item>
+        <item name="keyPopupLabelTextSize">12.0dip</item>
+        <item name="keyPopupLabelTextColor">#ff004080</item>
+        <item name="traceTrail">#ff0000ff</item>
+    </style>
+    <style name="InlineStringAlpha">
+        <item name="wordErrorForegroundColor">#ff880000</item>
+        <item name="wordErrorBackgroundColor">#00ffffff</item>
+        <item name="wordNextWordPredictionForegroundColor">#ffcccccc</item>
+        <item name="wordNextWordPredictionBackgroundColor">#00ffffff</item>
+        <item name="wordInlineForegroundColor">#ffffffff</item>
+        <item name="wordInlineBackgroundColor">@color/candidate_recommended</item>
+        <item name="wordStemForegroundColor">#ff000000</item>
+        <item name="wordStemBackgroundColor">#00ffffff</item>
+        <item name="multitapForegroundColor">#ffffffff</item>
+        <item name="multitapBackgroundColor">#ff444444</item>
+    </style>
+    <style name="InlineStringChinese">
+        <item name="selectedForegroundColor">#aa000000</item>
+        <item name="spellingForegroundColor">#99000066</item>
+        <item name="componentForegroundColor">#ff006600</item>
+        <item name="invalidForegroundColor">#ffff0000</item>
+        <item name="errorFlashBackgroundColor">#ccff0000</item>
+        <item name="isUnderlined">true</item>
+    </style>
+    <style name="InlineStringKorean">
+        <item name="isUnderlined">true</item>
+    </style>
+    <style name="WordListView">
+        <item name="candidateNormal">#ff404040</item>
+        <item name="candidateRecommended">@color/candidate_recommended</item>
+        <item name="candidateOther">#ff404040</item>
+        <item name="candidateComponent">#ff006600</item>
+        <item name="textSize">20.0dip</item>
+    </style>
+    <style name="Animation.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_out</item>
+        <item name="android:windowExitAnimation">@anim/popup_in</item>
+    </style>
+</resources>

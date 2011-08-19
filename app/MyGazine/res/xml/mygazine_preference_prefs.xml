@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/preference_header_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Image_headline" />
+    <ListPreference android:entries="@array/scale_type_entry" android:title="@string/scale_type_title" android:key="scale_type" android:entryValues="@array/scale_type_value" />
+    <PreferenceCategory android:title="@string/display_headline" />
+    <CheckBoxPreference android:title="@string/logo_display_title" android:key="logo_display" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+    <CheckBoxPreference android:title="@string/date_display_title" android:key="date_display" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+    <CheckBoxPreference android:title="@string/photo_date_display_title" android:key="photo_date_display" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+    <CheckBoxPreference android:title="@string/event_display_title" android:key="event_display" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+    <CheckBoxPreference android:title="@string/weather_display_title" android:key="weather_display" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+    <PreferenceCategory android:title="@string/date_headline" />
+    <ListPreference android:title="@string/date_format_title" android:key="date_format" />
+</PreferenceScreen>

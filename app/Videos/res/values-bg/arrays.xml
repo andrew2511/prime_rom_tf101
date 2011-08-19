@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtitles_size_entries">
+        <item>Малък</item>
+        <item>Среден</item>
+        <item>Голям</item>
+        <item>Много голям</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Uitgaven kunnen op datum of titel worden gesorteerd. Selecteer deze uit de tabs bovenin het scherm.</item>
+        <item>Meer nodig om te lezen? Selecteer de winkelknop onderaan het scherm om naar de webwinkel te gaan voor de nieuwste publicaties en artikelen.</item>
+        <item>Selecteer menu om meer opties te zien - zoals winkel, meer, verwijderen en afmelden.</item>
+        <item>Selecteer een uitgave om automatisch te downloaden terwijl U leest OF selecteer de downloadknop om het ter plekke op te slaan om het later te lezen.</item>
+    </string-array>
+</resources>

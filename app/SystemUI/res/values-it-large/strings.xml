@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Cancella</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nessuna connessione</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connesso</string>
+    <string name="gps_notification_searching_text">Ricerca del GPS</string>
+    <string name="gps_notification_found_text">Posizione stabilita dal GPS</string>
+    <string name="notifications_off_title">Notifiche disattivate</string>
+    <string name="notifications_off_text">Tocca qui per riattivare le notifiche.</string>
+</resources>

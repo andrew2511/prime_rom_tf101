@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.videoeditor.widgets.TimelineHorizontalScrollView android:id="@id/timeline_scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.videoeditor.widgets.TimelineRelativeLayout android:id="@id/timeline" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.videoeditor.widgets.MediaLinearLayout android:orientation="horizontal" android:id="@id/timeline_media" android:background="@drawable/timeline_background_line" android:paddingTop="@dimen/media_layout_padding" android:layout_width="fill_parent" android:layout_height="@dimen/media_layout_height" />
+        <com.android.videoeditor.widgets.OverlayLinearLayout android:orientation="horizontal" android:id="@id/timeline_overlays" android:background="@drawable/timeline_background_noline" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_layout_height" android:layout_below="@id/timeline_media" />
+        <com.android.videoeditor.widgets.AudioTrackLinearLayout android:orientation="horizontal" android:id="@id/timeline_audio_tracks" android:background="@drawable/timeline_background_line" android:layout_width="fill_parent" android:layout_height="@dimen/audio_layout_height" android:layout_below="@id/timeline_overlays" />
+        <com.android.videoeditor.widgets.PlayheadView android:id="@id/timeline_playhead" android:background="@drawable/timeline_background_line" android:layout_width="fill_parent" android:layout_height="@dimen/playhead_layout_height" android:layout_below="@id/timeline_audio_tracks" />
+    </com.android.videoeditor.widgets.TimelineRelativeLayout>
+</com.android.videoeditor.widgets.TimelineHorizontalScrollView>

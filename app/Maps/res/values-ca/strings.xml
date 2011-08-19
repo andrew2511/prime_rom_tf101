@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Maps Navegador</string>
+    <string name="da_net_fail_title">Error de xarxa</string>
+    <string name="da_net_fail_body">Aquesta aplicació necessita una connexió de dades que funcioni.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Destinació</string>
+    <string name="da_toward">cap a %1$s</string>
+    <string name="da_onto">a %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"després
+%1$s"</string>
+    <string name="da_continue_for_distance">Continua %1$s</string>
+    <string name="da_destination_will_be_on_the_left">"La vostra destinació serà a l'esquerra."</string>
+    <string name="da_destination_will_be_on_the_right">la vostra destinació serà a la dreta.</string>
+    <string name="da_you_will_reach_destination">arribareu a la vostra destinació.</string>
+    <string name="da_destination_on_the_left">"La vostra destinació és a l'esquerra."</string>
+    <string name="da_destination_on_the_right">La vostra destinació és a la dreta.</string>
+    <string name="da_destination_reached">Heu arribat.</string>
+    <string name="da_speech_lost_gps">"S'ha perdut el senyal GPS"</string>
+    <string name="da_speech_lost_data_connection">"S'ha perdut la connexió de dades"</string>
+    <string name="da_speech_navigation_resumed">"S'ha reprès la navegació"</string>
+    <string name="da_speech_please_describe_problem">Descriviu el problema</string>
+    <string name="da_on_left">"a l'esquerra"</string>
+    <string name="da_on_right">a la dreta</string>
+    <string name="da_stay_on_road_primary">Continueu a %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s fins a %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s fins a %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0} m</string>
+    <string name="da_distance_format_feet_abbreviated">{0} peus</string>
+    <string name="da_distance_format_feet_compressed">{0} peus</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0}yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$s min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navegació</string>
+    <string name="da_search_label">Cerca</string>
+    <string name="da_layers">Capes</string>
+    <string name="da_agreement">"Google Maps Navigation és una versió beta. Aneu amb compte.
+
+No manipuleu aquesta aplicació mentre conduïu. Les dades de trànsit no són en temps real i pot ser que les indicacions no siguin correctes, siguin perilloses, impliquin prohibicions o bé que hàgiu d'utilitzar ferris. Respecteu les lleis aplicables.
+
+Estigueu atent a la carretera."</string>
+    <string name="da_agreement_with_walking">"Google Maps Navigation és una versió beta. Aneu amb compte.
+
+No manipuleu aquesta aplicació mentre conduïu. Les dades de trànsit no són en temps real, i és possible que les indicacions no siguin correctes, siguin perilloses, impliquin prohibicions o bé que hàgiu d'utilitzar ferris. És possible que les rutes per fer a peu no disposin de voreres o de camins per a vianants. Respecteu les lleis aplicables.
+
+Estigueu atent a la carretera."</string>
+    <string name="da_disclaimer_checkbox">Mostra aquest missatge la propera vegada</string>
+    <string name="da_show_list">"Llista d'indicacions"</string>
+    <string name="da_route_overview">Informació de la ruta</string>
+    <string name="da_show_map">Mostra el mapa</string>
+    <string name="da_satellite">Satèl·lit</string>
+    <string name="da_traffic_view">Estat del trànsit</string>
+    <string name="da_no_traffic_here">No hi ha informació del trànsit per a aquesta zona</string>
+    <string name="da_traffic">Trànsit</string>
+    <string name="da_area_view">"Visualització d'àrea"</string>
+    <string name="da_mute">Emmudeix</string>
+    <string name="da_unmute">Activa el so</string>
+    <string name="da_settings">Configuració</string>
+    <string name="da_help">Ajuda</string>
+    <string name="da_terms_privacy_notices">"Condicions d'ús i privadesa"</string>
+    <string name="da_terms_and_conditions">"Condicions d'ús"</string>
+    <string name="da_privacy_policy">Política de privadesa</string>
+    <string name="da_legal_notices">Avisos legals</string>
+    <string name="da_navigation_suspended">"S'ha suspès la navegació"</string>
+    <string name="da_exit_navigation">Surt de Navigation</string>
+    <string name="da_email_me_when_resolved">"Envia'm un correu electrònic quan s'hagi resolt"</string>
+    <string name="da_problem_reported">"S'ha informat d'un problema"</string>
+    <string name="da_one_button_map_issue_reporting">"Informa d'un problema amb un sol clic"</string>
+    <string name="da_attention">Atenció</string>
+    <string name="da_rmi_warning">"La funció \"Informeu d'un problema\" permet enregistrar un breu missatge de veu en què es descrigui un problema amb el mapa o la ruta. Després de 15 segons, el missatge s'enviarà automàticament a Google junt amb la ubicació i la ruta actuals.
+
+Pot ser que hi hagi una drecera d'un clic activada a la configuració de l'aplicació.
+
+ Si decidiu rebre actualitzacions per correu electrònic quan es resolgui el problema, la vostra adreça electrònica s'emmagatzemarà junt amb la ubicació i els comentaris fins que es resolgui el problema."</string>
+    <string name="da_report_a_problem">"Informa d'un problema"</string>
+    <string name="da_report_a_problem_dialog_title">"Informeu d'un problema"</string>
+    <string name="da_rmi_preference_trackball_summary">"Si aquesta opció està activada, el procés d'informar d'un problema s'iniciarà en fer clic a la bola de seguiment."</string>
+    <string name="da_rmi_preference_camera_summary">"Si aquesta opció està activada, el procés d'informar d'un problema s'iniciarà en fer clic al botó de la càmera."</string>
+    <string name="da_rmi_preference_no_button_summary">No hi ha cap botó físic disponible.</string>
+    <string name="da_rmi_preference_bad_location_summary">"L'opció d'informar d'un problema no està disponible per a la vostra ubicació actual."</string>
+    <string name="da_destination_not_here_warning">"Gràcies per informar-nos que tenim la ubicació incorrecta de la vostra destinació. La vostra destinació i ubicació actuals s'enviarà a Google per ajudar a millorar la precisió de les nostres dades."</string>
+    <string name="da_destination_not_here_title">"Informeu d'un problema"</string>
+    <string name="da_searching_for_gps">"S'està cercant el GPS..."</string>
+    <string name="da_data_connection_lost">"S'ha perdut la connexió de dades..."</string>
+    <string name="da_follow_the_route">Seguiu la ruta</string>
+    <string name="da_waiting_for_directions">"S'estan obtenint itineraris"</string>
+    <string name="da_waiting_for_walking_directions">"S'estan obtenint les indicacions a peu"</string>
+    <string name="da_waiting_for_location">"S'està esperant la ubicació"</string>
+    <string name="da_checking_navigation_availability">"S'està comprovant la disponibilitat del navegador"</string>
+    <string name="da_loading_route_details">"S'estan carregant els detalls de la ruta"</string>
+    <string name="da_loading_image">"S'està carregant la imatge"</string>
+    <string name="da_waiting_for_alternates">"S'estan cercant rutes alternatives"</string>
+    <string name="da_waiting_for_details">S’està carregant</string>
+    <string name="da_no_details">Informació no disponible</string>
+    <string name="da_gps_is_disabled">El GPS està desactivat</string>
+    <string name="da_turn_on_gps">"Voleu mostrar la configuració d'ubicació?"</string>
+    <string name="da_voice_guidance">Guia de veu</string>
+    <string name="da_install_voice_guidance_prompt">"Per a la navegació guiada per veu, cal que instal·leu l'assistència de text a parla des d'Android Market."</string>
+    <string name="da_dialog_ok">Accepta</string>
+    <string name="da_dialog_skip">Salta</string>
+    <string name="da_dialog_cancel">Cancel·la</string>
+    <string name="da_dialog_done">Fet</string>
+    <string name="da_dialog_accept">Accepta</string>
+    <string name="da_dialog_install">Instal·la</string>
+    <string name="da_dialog_dont_accept">No ho acceptis</string>
+    <string name="da_dialog_go">Vés</string>
+    <string name="da_dialog_get_directions">Obtén indicacions</string>
+    <string name="da_map">Mapa</string>
+    <string name="da_clear_layers">Esborra els resultats</string>
+    <string name="da_layer_name_parking">Aparcament</string>
+    <string name="da_layer_name_attractions">"Llocs d'interès"</string>
+    <string name="da_layer_name_gas_stations">Gasolineres</string>
+    <string name="da_layer_name_restaurants">Restaurants</string>
+    <string name="da_layer_name_supermarkets">Supermercats</string>
+    <string name="da_layer_name_atms_and_banks">Caixers automàtics</string>
+    <string name="da_layer_name_convenience_stores">Botigues locals</string>
+    <string name="da_query_banks_and_atms">Bancs i caixers automàtics</string>
+    <string name="da_rerouting">"S'està tornant a generar la ruta..."</string>
+    <string name="da_via">Per %s</string>
+    <string name="da_to_destination">fins a %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Enregistra comentaris</string>
+    <string name="da_destination_not_here">La destinació no és aquí</string>
+    <string name="da_new_destination">Destinació següent</string>
+    <string name="da_reroute_to_destination">Torna a la destinació</string>
+    <string name="da_change_destination">Estableix la destinació</string>
+    <string name="da_search_for_destination">Cerca...</string>
+    <string name="da_point_on_map">Punt al mapa</string>
+    <string name="da_volume">Volum de navegació</string>
+    <string name="da_exit">Surt</string>
+    <string name="da_did_you_mean">Volíeu dir:</string>
+    <string name="da_did_you_say">Potser volíeu dir:</string>
+    <string name="da_for_your_end_point">Per al vostre punt final</string>
+    <string name="da_unnamed_road">Carretera sense nom</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, després %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">"D'aquí a %1$s metres"</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">"D'aquí a un quilòmetre i mig"</string>
+    <string name="da_speech_continue_for_x_meters">Continueu %1$s metres més</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Continueu un quilòmetre i mig més</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Continueu per %2$s %1$s metres més</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Continueu per %1$s un quilòmetre i mig més</string>
+    <string name="da_speech_generic_continue">Continueu recte</string>
+    <string name="da_speech_in_x_feet">"D'aquí a %1$s peus"</string>
+    <string name="da_speech_in_x_yards">"D'aquí a %1$s iardes"</string>
+    <string name="da_speech_in_a_quarter_mile">"D'aquí a un quart de milla"</string>
+    <string name="da_speech_in_a_half_mile">"D'aquí a mitja milla"</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">"D'aquí a tres quarts de milla"</string>
+    <string name="da_speech_in_one_and_a_half_miles">"D'aquí a una milla i mitja"</string>
+    <string name="da_speech_continue_for_x_feet">Continueu %1$s peus més</string>
+    <string name="da_speech_continue_for_x_yards">Continueu %1$s iardes més</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Continueu un quart de milla més</string>
+    <string name="da_speech_continue_for_a_half_mile">Continueu mitja milla més</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Continueu tres quarts de milla més</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Continueu una milla i mitja més</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Continueu per %2$s %1$s peus més</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Continueu per %2$s %1$s iardes més</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Continueu per %1$s un quart de milla més</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Continueu per %1$s mitja milla més</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Continueu per %1$s tres quarts de milla més</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Continueu per %1$s una milla i mitja més</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SO,O,NO</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SO,O,NO,Autop.,Autov.,Av.,Bul.,C.,Carril,Cró.,Ctra.,Desv.,Pl.,Pg.,Ptge.,Rbla.,Rda.,Rot.,Via,Trav.</string>
+    <string name="da_no_route">"No s'ha trobat cap ruta"</string>
+    <string name="da_route_not_found">No hem trobat cap ruta per a la vostra destinació</string>
+    <string name="da_destination_not_found">No hem entès la destinació.</string>
+    <string name="da_navigation_not_supported">La navegació cap a la vostra destinació no està disponible.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps Navigation encara no està disponible en aquesta ubicació.</string>
+    <string name="da_launch_maps">Inicia Google Maps</string>
+    <string name="da_no_image_available">No hi ha cap imatge disponible.</string>
+    <string name="da_image_error">Error en carregar la imatge.</string>
+    <string name="da_no_alternate_routes">No hem trobat cap ruta alternativa per a la vostra destinació.</string>
+    <string name="da_picker_type_destination">Escriu la destinació</string>
+    <string name="da_picker_speak_destination">Digueu la vostra destinació en veu alta</string>
+    <string name="da_picker_contacts">Contactes</string>
+    <string name="da_picker_starred_items">Llocs destacats</string>
+    <string name="da_picker_new_contact">Contacte nou</string>
+    <string name="da_picker_recent_destinations">Destinacions recents</string>
+    <string name="da_picker_choose_destination">Selecciona la destinació</string>
+    <string name="da_navigate_to">Navega a</string>
+    <string name="da_picker_search_hint">Destinació</string>
+    <string name="da_route_options">Opcions de ruta</string>
+    <string name="da_updating_directions">"S'estan actualitzant les indicacions"</string>
+    <string name="da_picker_no_starred_items">"No teniu cap element destacat.
+
+Els elements destacats se sincronitzen automàticament amb maps.google.com.
+
+Per destacar resultats de la cerca a Google Maps, piqueu la icona d'estrella que trobareu a prop de l'adreça."</string>
+    <string name="da_picker_no_contacts">"No teniu cap contacte amb adreces.
+
+Podeu afegir contactes nous o bé configurar adreces per als contactes existents a l'aplicació Contactes."</string>
+    <string name="da_driving">En cotxe</string>
+    <string name="da_walking">A peu</string>
+    <string name="da_quoted_text">\"%1$s\"</string>
+    <string name="da_more_info">Més informació</string>
+    <string name="da_search_maps">Cerca mapes</string>
+    <string name="da_walking_warning">A peu (beta): aneu amb compte</string>
+    <string name="da_calibrate_compass_title">Calibració de la brúixola</string>
+    <string name="da_calibrate_compass">La brúixola no està calibrada. Per calibrar-la, moveu-la seguint el patró de la figura 8 unes quantes vegades.</string>
+    <string name="da_confirm_exit_title">Sortiu de Navigation?</string>
+    <string name="da_confirm_exit_text">"Aquesta acció finalitzarà l'assistència en ruta."</string>
+    <string name="da_route_includes_tolls">La ruta inclou peatges</string>
+    <string name="da_avoid_tolls">Evita els peatges</string>
+    <string name="da_avoiding_tolls">"S'han evitat els peatges"</string>
+    <string name="da_avoiding_highways">"S'han evitat les autopistes"</string>
+    <string name="da_route_includes_unavoidable_tolls">Aquesta ruta inclou peatges.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Aquesta ruta inclou peatges. Desactiveu les rutes que incloguin peatges a %1$s%2$s a continuació.</string>
+    <string name="da_seasonally_closed">És possible que la ruta estigui tancada temporalment</string>
+    <string name="da_direction_north">nord</string>
+    <string name="da_direction_north_west">nord-oest</string>
+    <string name="da_direction_west">oest</string>
+    <string name="da_direction_south_west">sud-oest</string>
+    <string name="da_direction_south">sud</string>
+    <string name="da_direction_south_east">sud-est</string>
+    <string name="da_direction_east">est</string>
+    <string name="da_direction_north_east">nord-est</string>
+    <string name="da_step_depart">Cap a %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Cap a %1$s per %2$s</string>
+    <string name="da_step_slight_left">"Gireu suaument a l'esquerra"</string>
+    <string name="da_step_slight_right">Gireu suaument a la dreta</string>
+    <string name="da_step_turn_left">"Gireu a l'esquerra"</string>
+    <string name="da_step_turn_right">Gireu a la dreta</string>
+    <string name="da_step_sharp_left">"Gireu completament a l'esquerra"</string>
+    <string name="da_step_sharp_right">Gireu completament a la dreta</string>
+    <string name="da_step_slight_left_onto">"Gireu suaument a l'esquerra per %1$s"</string>
+    <string name="da_step_slight_right_onto">Gireu suaument a la dreta per %1$s</string>
+    <string name="da_step_turn_left_onto">"Gireu a l'esquerra per %1$s"</string>
+    <string name="da_step_turn_right_onto">Gireu a la dreta per %1$s</string>
+    <string name="da_step_sharp_left_onto">"Gireu completament a l'esquerra per %1$s"</string>
+    <string name="da_step_sharp_right_onto">Gireu completament a la dreta per %1$s</string>
+    <string name="da_step_fork_left">"Manteniu-vos a l'esquerra en la bifurcació"</string>
+    <string name="da_step_fork_right">Manteniu-vos a la dreta en la bifurcació</string>
+    <string name="da_step_continue_onto">Continueu per %1$s</string>
+    <string name="da_step_continue_straight">Continueu recte</string>
+    <string name="da_step_u_turn">Feu un canvi de sentit</string>
+    <string name="da_step_take_the_ramp">Agafeu la rampa</string>
+    <string name="da_step_take_the_ramp_onto">Agafeu la rampa cap a %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">"Agafeu la rampa de l'esquerra"</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">"Agafeu la rampa de l'esquerra cap a %1$s"</string>
+    <string name="da_step_take_the_ramp_on_the_right">Agafeu la rampa de la dreta</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Agafeu la rampa de la dreta cap a %1$s</string>
+    <string name="da_step_take_the_exit">Agafeu la sortida</string>
+    <string name="da_step_take_the_exit_on_the_left">"Agafeu la sortida de l'esquerra"</string>
+    <string name="da_step_take_the_exit_on_the_right">Agafeu la sortida de la dreta</string>
+    <string name="da_step_take_the_exit_onto">Agafeu la sortida cap a %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">"Agafeu la sortida de l'esquerra cap a %1$s"</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Agafeu la sortida de la dreta cap a %1$s</string>
+    <string name="da_step_take_exit_n">Agafeu la sortida %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Imatges ©%2$d %3$s, Dades dels mapes ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Imatges ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Dades dels mapes ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Casa</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Indicacions i navegació</string>
+    <string name="EXIT_COMMAND">Surt</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">A {0} li agradaria que registréssiu visita</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Sol·licitud de visita de Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Introduïu una adreça</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Icona de la drecera</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Desa</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Destinació</string>
+    <string name="GOHOME_SHORTCUT_NAME">Nom de la drecera</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navegació pas a pas</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Obre la configuració</string>
+    <string name="HOTPOT_LOADING">S’està carregant...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">"El widget Valoració de llocs requereix que activeu tant l'opció Utilitza xarxes sense fil (a Configuració d'ubicació i seguretat) com la Wi-Fi (a Configuració sense fil i xarxes)."</string>
+    <string name="HOTPOT_LOCATION_DISABLED">"Activeu Utilitza xarxes sense fil a Configuració d'ubicació i seguretat per poder fer servir el widget Valoració de llocs."</string>
+    <string name="HOTPOT_NO_LOCATION">No hi ha informació de la ubicació</string>
+    <string name="HOTPOT_SEARCH">Cerca</string>
+    <string name="HOTPOT_SEARCHED_FOR">"S'ha cercat: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Torna a cercar</string>
+    <string name="HOTPOT_SELECT_PLACE">Seleccioneu el lloc que voleu valorar</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Seleccioneu un lloc: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Ubicació desconeguda</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">"S'està actualitzant la ubicació..."</string>
+    <string name="HOTPOT_WIDGET_NAME">Valoració de llocs</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Identitat pública de publicació: {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Aporteu més informació</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Actualitzada fa {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Activeu el Wi-Fi a Configuració de la xarxa i sense fil per aconseguir més precisió del widget de valoració de llocs.</string>
+    <string name="HOTPOT_YOU_RATED">"La vostra valoració: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">A {0} i compartit amb {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Visita publicada a {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Voleu accedir a {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Accés a?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Premeu per iniciar la sessió a Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Última actualització: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Ubicació desconeguda</string>
+    <string name="LOADING">"S'està carregant"</string>
+    <string name="MAPS_APP_NAME">Maps</string>
+    <string name="NEED_NET_BODY">No es pot utilitzar aquesta aplicació fins que no li atorgueu permís per enviar i rebre dades per la xarxa.</string>
+    <string name="NEED_NET_TITLE">Cal accés a la xarxa</string>
+    <string name="NETWORK_DATA_ERROR">Aquesta aplicació necessita una connexió de dades. Contacteu amb el vostre operador.</string>
+    <string name="NET_FAIL_BODY">Aquesta aplicació necessita una connexió de dades que funcioni.</string>
+    <string name="NET_FAIL_TITLE">Error de xarxa</string>
+    <string name="NET_UNAVAILABLE_TITLE">La xarxa no està disponible</string>
+    <string name="PLACES_APP_NAME">Places</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Per exemple, espaguetis a la bolonyesa, còctels, música</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Què destaca?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Cancel·la</string>
+    <string name="RATINGS_OPTIN_CLOSE">Tanca</string>
+    <string name="RATINGS_OPTIN_FAILED">"S'ha produït un error en l'actualització: torneu-ho a provar més tard."</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">"&lt;b>Socialitzeu-vos!&lt;/b> Aneu a &lt;b>{0}&lt;/b> a l'equip per afegir amics i per descobrir els llocs que més els agraden."</string>
+    <string name="RATINGS_OPTIN_HEADING">Definiu el vostre àlies públic de Google Places.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Nom o àlies: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Valoreu els vostres restaurants i cafeteries preferits així com altres llocs que us agradin per obtenir recomanacions basades en els vostres gustos personals als resultats de la cerca.</string>
+    <string name="RATINGS_OPTIN_SAVE">Comenceu</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Les vostres valoracions de lloc són &lt;b>públiques al web&lt;/b> amb el vostre àlies. &lt;a href=#>Més informació&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Identitat pública de publicació al web: {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Publicació pública al web.</string>
+    <string name="RATINGS_RATE_PLACES">Motius per valorar els llocs</string>
+    <string name="RATINGS_SET_APPEARANCE">"Establiment de l'aspecte"</string>
+    <string name="RATINGS_WAIT">Espereu...</string>
+    <string name="SEARCH_HINT">Cerca mapes</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Punt final</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trànsit</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Nom del widget</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Desa</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Punt inicial</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"Error greu.  Sortiu i torneu a iniciar."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Error desconegut</string>
+    <string name="UPGRADE_BODY">"Heu d'instal·lar una nova versió per utilitzar aquesta aplicació."</string>
+    <string name="UPGRADE_TITLE">Actualització del programari</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Empaperat en directe de Google Maps</string>
+    <string name="WALLPAPER_MAP_MODE">Mode de mapa</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satèl·lit</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">El mode de mapa, p. ex. Satèl·lit</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Relleu</string>
+    <string name="WALLPAPER_SETTINGS">"Configuració de l'empaperat en directe de Google Maps"</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Mostra el trànsit</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Mostra la informació meteorològica actual al mapa. Heu de tenir el widget del temps instal·lat.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Temps</string>
+</resources>

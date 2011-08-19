@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.PagedViewIcon android:id="@id/customize_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:blurColor="#ff6b8cf0" launcher:outlineColor="#ff8cd2ff" style="@style/WorkspaceIcon.Landscape"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" />

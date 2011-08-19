@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vyhledávání Google</string>
+    <string name="remove_from_history">Odebrat z historie vyhledávání</string>
+    <string name="remove_from_history_failed">Odebrání položky z historie se nezdařilo</string>
+    <string name="menu_settings">Nastavení vyhledávání</string>
+    <string name="search_settings">Nast. Vyhledávání Google</string>
+    <string name="google_settings_category_title">Vyhledávání Google</string>
+    <string name="device_settings_category_title">Vyhledávání zařízení</string>
+    <string name="search_sources">Vyhledávatelné položky</string>
+    <string name="search_sources_summary">Zvolte, co vyhledávat v telefonu</string>
+    <string name="clear_shortcuts">Vymazat zástupce</string>
+    <string name="clear_shortcuts_summary">Vymazat zástupce odkazující na nedávno zvolené návrhy vyhledávání</string>
+    <string name="clear_shortcuts_prompt">"Tento krok vymaže všechny zástupce odkazující na nedávno zvolené návrhy vyhledávání.
+
+(Pokud chcete vymazat historii prohlížeče, použijte nastavení prohlížeče.)"</string>
+    <string name="clear_shortcuts_agree">Vymazat zástupce</string>
+    <string name="clear_shortcuts_disagree">Nemazat zástupce</string>
+    <string name="menu_help">Nápověda</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Vyhled. Google</string>
+    <string name="google_search_description">Návrhy vyhledávání Google</string>
+    <string name="first_run_title">Vyhledávání Google</string>
+    <string name="tos_button_text">Číst Smluvní podmínky</string>
+    <string name="yes_agree_use_location">Používat pro výsledky vyhledávání Google a další služby Google funkci Moje poloha.</string>
+    <string name="first_run_tos">Podléhá Smluvním podmínkám služby Mobil Google.</string>
+    <string name="use_location_title">Používat funkci Moje poloha</string>
+    <string name="search_history">Přizpůsobené vyhledávání</string>
+    <string name="search_history_summary_no_account">Není nakonfigurován žádný účet</string>
+    <string name="search_history_summary_enabled">Účet %1$s využívá historii vyhledávání a další možnosti přizpůsobení</string>
+    <string name="search_history_summary_disabled">Nepoužívá historii vyhledávání ani jiná přizpůsobení</string>
+    <string name="manage_search_history">Spravovat historii vyhledávání</string>
+    <string name="manage_search_history_summary_no_account">Není nakonfigurován žádný účet</string>
+    <string name="manage_search_history_summary">Přihlásit se do prohlížeče jako %1$s a otevřít webovou historii</string>
+    <string name="select_google_account">Účet Google</string>
+    <string name="select_google_account_summary_no_accounts">Nejsou nakonfigurovány žádné účty</string>
+    <string name="settings_tos_title">Smluvní podmínky</string>
+    <string name="manage_search_history_authenticating_title">Přihlašování</string>
+    <string name="manage_search_history_authenticating_message">Přihlašování pomocí účtu %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Zrušit</string>
+    <string name="use_google_com">Vždy používat doménu google.com</string>
+    <string name="current_search_base_url">Používána doména %1$s</string>
+    <string name="fetching_search_base_url">Načítání vyhledávací adresy URL...</string>
+    <string name="use_psychic">Aktivovat Dynamické vyhledávání</string>
+    <string name="use_psychic_summary_on">Dynamické vyhledávání je zapnuto (během psaní)</string>
+    <string name="use_psychic_summary_off">Dynamické vyhledávání je vypnuto (je třeba stisknout Enter)</string>
+    <string name="web_suggest_updating">Aktualizace...</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+</resources>

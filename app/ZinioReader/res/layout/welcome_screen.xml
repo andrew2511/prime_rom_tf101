@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/welcome_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/welcome_login" android:background="@drawable/btn_form" android:layout_width="221.0dip" android:layout_height="55.0dip" android:layout_marginTop="50.0dip" android:text="@string/sign_in" />
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/welcome_register" android:background="@drawable/btn_form" android:layout_width="221.0dip" android:layout_height="55.0dip" android:layout_marginTop="18.0dip" android:text="@string/create_an_account" />
+    </LinearLayout>
+    <com.zinio.mobile.android.view.BottomToolbarActivity android:gravity="center" android:id="@id/bottom_toolbar_faq" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textColor="#ffffffff" android:id="@id/faq_button" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="72.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/faq" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.zinio.mobile.android.view.BottomToolbarActivity>
+</RelativeLayout>

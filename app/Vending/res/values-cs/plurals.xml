@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">Počet obnovených aplikací: %1$d.</item>
+        <item quantity="one">Počet obnovených aplikací: %1$d.</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">Počet hodnocení: %1$s</item>
+        <item quantity="one">Počet hodnocení: %1$s</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">Počet výsledků pro výraz %1$2$s: %2$1$d</item>
+        <item quantity="one">Počet výsledků pro výraz %1$2$s: %2$1$d</item>
+    </plurals>
+</resources>

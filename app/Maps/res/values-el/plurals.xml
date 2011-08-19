@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Σε %1$s χιλιόμετρα</item>
+        <item quantity="one">Σε ένα χιλιόμετρο</item>
+        <item quantity="few">Σε %1$s χιλιόμετρα</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Συνεχίστε για %1$s χιλιόμετρα</item>
+        <item quantity="one">Συνεχίστε για ένα χιλιόμετρο</item>
+        <item quantity="few">Συνεχίστε για άλλα %1$s χιλιόμετρα</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Συνεχίστε στην %1$2$s για %2$1$s χιλιόμετρα</item>
+        <item quantity="one">Συνεχίστε στην %2$s για ένα χιλιόμετρο</item>
+        <item quantity="few">Συνεχίστε στην %1$2$s για%2$1$s χιλιόμετρα</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Σε %1$s μίλια</item>
+        <item quantity="one">Σε ένα μίλι</item>
+        <item quantity="few">Σε %1$s μίλια</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Συνεχίστε για %1$s μίλια</item>
+        <item quantity="one">Συνεχίστε για ένα μίλι</item>
+        <item quantity="few">Συνεχίστε για %1$s μίλια</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Συνεχίστε στην %1$2$s για %2$1$s μίλια</item>
+        <item quantity="one">Συνεχίστε στην %2$s για ένα μίλι</item>
+        <item quantity="few">Συνεχίστε στην %1$2$s για %2$1$s μίλια</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s κριτικές</item>
+        <item quantity="one">%1$s κριτική</item>
+        <item quantity="few">%1$s κριτικές</item>
+    </plurals>
+</resources>

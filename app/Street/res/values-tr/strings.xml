@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Sokak Görünümü</string>
+    <string name="go_to_map">Haritaya git</string>
+    <string name="report_inappropriate_image">Resim bildir</string>
+    <string name="toggle_compass_mode">Pusula modu</string>
+    <string name="compass_mode_on">Pusula modu açık.</string>
+    <string name="compass_mode_off">Pusula modu kapalı.</string>
+    <string name="waiting_for_network">Veri bağl. kesildi, tkr. denyr…</string>
+    <string name="panorama_disabled">Resim artık mevcut değil</string>
+    <string name="service_unavailable">Sokak Görünümü hizmeti mevcut değil.</string>
+    <string name="loading">Yükleniyor</string>
+    <string name="no_panorama_data">Panorama verisi belirlenmedi.</string>
+    <string name="invalid_panorama_data">Geçersiz panorama.</string>
+    <string name="click_to_go_toast">"Pegman'ı gitmek istediğiniz yere sürükleyin."</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Bu program veri bağlantısı gerektirir ve bağlanmayı otomatik olarak deneyecektir. Lütfen sinyal gücünü denetleyin. Uçak modu açık mı? Dolaşım verileri devre dışı mı?</string>
+    <string name="whats_new_header">Sokak Görünümündeki yenilikler</string>
+    <string name="whats_new_c2g">"Görebildiğiniz her yere uçun. Pegman'ı sol alttan sürükleyip gitmek istediğiniz yere bırakın."</string>
+    <string name="terms_and_privacy">Şartlar ve Gizlilik</string>
+    <string name="terms_and_conditions">Şartlar ve Koşullar</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+</resources>

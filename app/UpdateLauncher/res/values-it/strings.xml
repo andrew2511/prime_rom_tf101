@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avvio aggiornamento</string>
+    <string name="TITLE_DETECTED">Rilevato file aggiornamento del sistema</string>
+    <string name="TITLE_SYSTEM_UPDATE">Aggiornamento sistema</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Aggiornamento sistema disponibile</string>
+    <string name="MSG_PRELIMINARY">"Laggiornamento del sistema impiegherà circa 10 minuti. Durante laggiornamento non sarà possibile usare il dispositivo, né eseguire chiamate demergenza.
+
+Collegare il cavo dalimentazione oppure accertarsi che la carica della batteria sia almeno del 15%.
+
+Procedere con laggiornamento del sistema?"</string>
+    <string name="BUTTON_CANCEL">Annulla</string>
+    <string name="MSG_RESUME">Toccare per avviare laggiornamento del sistema.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Aggiornamento del sistema terminato</string>
+    <string name="MSG_UPDATE_DONE">Il sistema è stato aggiornato correttamente.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Il file daggiornamento non esiste.</string>
+    <string name="MSG_UPDATE_FAIL">Aggiornamento del sistema non riuscito.</string>
+    <string name="MSG_UPDATE_RESTORE">Il sistema sarà ripristinato alla configurazione precedente</string>
+    <string name="MSG_BATTERY_LOW">"La procedura daggiornamento del sistema è stata arrestata perché la batteria è scarica.
+
+Collegare il cavo dalimentazione prima di aggiornare il sistema."</string>
+    <string name="TITLE_SELECT_FILE">Seleziona pacchetto aggiornamento</string>
+    <string name="MSG_UPDATE_FAIL_SKU">"Il pacchetto di aggiornamento non è compatibile con l'attuale software.Controllare la versione software in Impostazioni e tentare di correggere il pacchetto di aggiornamento."</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">"Il pacchetto di aggiornamento è precedente rispetto all'attuale versione software.Tentare un pacchetto più recente."</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Errore sconosciuto.</string>
+</resources>

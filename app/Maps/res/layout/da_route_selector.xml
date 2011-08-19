@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/da_routeSingleContainer" layout="@layout/da_route_selector_single_route" />
+    <include android:id="@id/da_routeOneContainer" layout="@layout/da_route_selector_one_route" />
+    <include android:id="@id/da_routeTwoContainer" layout="@layout/da_route_selector_one_route" />
+    <include android:id="@id/da_routeThreeContainer" layout="@layout/da_route_selector_one_route" />
+</merge>

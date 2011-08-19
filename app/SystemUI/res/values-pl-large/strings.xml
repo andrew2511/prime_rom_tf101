@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Wyczyść</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Brak połączenia internetowego</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi: połączono</string>
+    <string name="gps_notification_searching_text">Wyszukiwanie sygnału GPS</string>
+    <string name="gps_notification_found_text">Lokalizacja ustawiona wg GPS</string>
+    <string name="notifications_off_title">Powiadomienia wyłączone</string>
+    <string name="notifications_off_text">Dotknij tutaj, aby z powrotem włączyć powiadomienia.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/ic_downloadloadingAnimation" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="250" android:drawable="@drawable/download_1" />
+    <item android:duration="250" android:drawable="@drawable/download_2" />
+    <item android:duration="250" android:drawable="@drawable/download_4" />
+    <item android:duration="250" android:drawable="@drawable/download_5" />
+    <item android:duration="250" android:drawable="@drawable/download_6" />
+</animation-list>

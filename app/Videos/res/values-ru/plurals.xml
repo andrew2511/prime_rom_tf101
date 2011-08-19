@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Осталось %1$d дн.</item>
+        <item quantity="one">Срок действия завершится через день</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Осталось %1$d ч.</item>
+        <item quantity="one">Срок действия завершится через час</item>
+    </plurals>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Atrás</string>
+    <string name="localdevice">Local</string>
+    <string name="playto">Reproducir en</string>
+    <string name="chooserenderdevice">Elegir un dispositivo para mostrar</string>
+    <string name="mediatype">Tipo de medio</string>
+    <string name="choosemediatype">Seleccione uno de los tipos de medio:</string>
+    <string name="musictype">Música</string>
+    <string name="imagetype">Fotografía</string>
+    <string name="videotype">Vídeo</string>
+    <string name="cant_connect_to_server">No se pudo conectar con el servidor. Compruebe la conexión.</string>
+    <string name="internet_exception">No hay conexión de red</string>
+    <string name="internet_exception_message">Compruebe la conexión de la red…</string>
+    <string name="nodlnadevice">Active los dispositivos con funcionalidad DLNA dentro de la misma red Wi-Fi.</string>
+    <string name="notagain">No mostrar de nuevo este mensaje.</string>
+    <string name="shardms">¿Desea compartir los archivos multimedia en otros dispositivos?</string>
+    <string name="server">Servidor</string>
+    <string name="settings">Configuración</string>
+    <string name="dms">Servidor multimedia digital</string>
+    <string name="dmssettings">Configuración del servidor multimedia digital</string>
+    <string name="enable">Habilitar</string>
+    <string name="disable">Deshabilitar</string>
+    <string name="sharemediatype">Seleccionar los tipos de medio para compartir</string>
+    <string name="selectplayer">Seleccionar dispositivos para reproducir</string>
+    <string name="shareto">Compartir a través de</string>
+    <string name="dms_settings_adv">Configuración avanzada</string>
+    <string name="desc_share">Cambiar carpeta compartida</string>
+    <string name="title_share">Carpeta compartida</string>
+    <string name="desc_friendlyname">Cambiar nombre mostrado del dispositivo</string>
+    <string name="title_friendlyname">Nombre mostrado</string>
+    <string name="msgbox_title_error">Error</string>
+    <string name="msgbox_msg_error_no_wifi">Active primero la funcionalidad Wi-Fi.</string>
+    <string name="msgbox_msg_error_friendlyname">No se puede cambiar el nombre mostrado.</string>
+    <string name="msgbox_msg_error_sharefolder">No se puede cambiar la carpeta compartida</string>
+    <string name="msgbox_msg_error_mediatype">No se puede cambiar el tipo de medio compartido</string>
+    <string name="enable_dms">Habilitar servidor multimedia digital</string>
+    <string name="disable_dms">Deshabilitar servidor multimedia digital</string>
+    <string name="about_title">Acerca de</string>
+    <string name="toast_srvbusy">El servidor está ocupado. Inténtelo de nuevo más tarde.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Reproduciendo</string>
+    <string name="play_all">Reproducir todo</string>
+    <string name="party_shuffle">Sesión aleatoria</string>
+    <string name="shuffle_all">Reproducción aleatoria</string>
+    <string name="wifi_quick_toggle_summary">Activar Wi-Fi</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="slide_show">Presentación</string>
+    <string name="wait">Por favor, espera...</string>
+    <string name="fail_to_load">Error al cargar</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Almacenamiento interno</string>
+</resources>

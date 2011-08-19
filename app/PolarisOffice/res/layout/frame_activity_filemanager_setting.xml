@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="3.0px" android:paddingTop="45.0px" android:paddingRight="3.0px" android:paddingBottom="54.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_file_list_setting" android:layout_width="fill_parent" android:layout_height="36.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ffbdbec0" android:gravity="left|center" android:background="@drawable/settings_title_bg" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_file_list_setting" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_backup_file" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <TextView android:textSize="16.0px" android:textColor="#fff4f4f4" android:gravity="left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_create_backup_file" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:background="@android:color/transparent" android:paddingRight="14.0px" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:id="@id/frame_activity_filemanager_setting_checkbox01" android:layout_width="@dimen/setting_checkbox_width" android:layout_height="@dimen/setting_checkbox_height" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:background="#ff343338" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_file_extensions" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <TextView android:textSize="16.0px" android:textColor="#fff4f4f4" android:gravity="left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_display_file_extension" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:background="@android:color/transparent" android:paddingRight="14.0px" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:id="@id/frame_activity_filemanager_setting_checkbox02" android:layout_width="@dimen/setting_checkbox_width" android:layout_height="@dimen/setting_checkbox_height" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_file_list_setting" android:paddingLeft="3.0px" android:paddingRight="3.0px" android:layout_width="fill_parent" android:layout_height="36.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ffbdbec0" android:gravity="left|center" android:background="@drawable/settings_title_bg" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_general_setting" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_file_pivot_lock" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <TextView android:textSize="16.0px" android:textColor="#fff4f4f4" android:gravity="left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_pivot_lock" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:background="@android:color/transparent" android:paddingRight="14.0px" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:id="@id/frame_activity_filemanager_setting_checkbox03" android:layout_width="@dimen/setting_checkbox_width" android:layout_height="@dimen/setting_checkbox_height" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:background="#ff343338" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_update" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <TextView android:textSize="16.0px" android:textColor="#fff4f4f4" android:gravity="left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_update" android:layout_weight="9.0" />
+        </LinearLayout>
+        <LinearLayout android:background="#ff343338" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_eula" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <TextView android:textSize="16.0px" android:textColor="#fff4f4f4" android:gravity="left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_filemanager_setting_eula" android:layout_weight="9.0" />
+        </LinearLayout>
+        <LinearLayout android:background="#ff343338" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/frame_activity_filemanager_setting_about" android:background="@drawable/list_selector" android:paddingTop="8.0px" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="65.0px">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="16.0px" android:textColor="#ff4e4b4e" android:gravity="bottom|left|center" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="fill_parent" android:layout_height="23.0px" android:text="@string/string_filemanager_setting_about" android:layout_weight="3.0" />
+                <TextView android:textSize="14.0px" android:textColor="#ff707073" android:gravity="top|left|center" android:id="@id/frame_activity_filemanager_setting_version_textview" android:background="@android:color/transparent" android:paddingLeft="56.0px" android:layout_width="fill_parent" android:layout_height="20.0px" android:text="@string/app_build_revision" android:layout_weight="2.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:background="#ff343338" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

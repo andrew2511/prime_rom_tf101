@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper android:description="@string/WALLPAPER_DESCRIPTION" android:settingsActivity="com.google.googlenav.wallpaper.MapWallpaperSettingsActivity" android:thumbnail="@drawable/wallpaper_thumb" android:author="@string/WALLPAPER_AUTHOR"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

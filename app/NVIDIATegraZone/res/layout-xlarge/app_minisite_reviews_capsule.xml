@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/headerText" android:text="@string/appminisite_official_reviews" style="@style/BoxedSectionHeading" />
+        <TextView android:gravity="bottom" android:id="@id/reviewsCountLabel" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/reviewsBodyArea" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="240.0dip" style="@style/BoxedSectionBody">
+        <LinearLayout android:orientation="vertical" android:id="@id/reviewsArticleArea" android:background="@drawable/capsule_transparent_background" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/firstReviewTitle" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test" />
+            <TextView android:id="@id/firstReviewPreviewText" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:maxLines="2" />
+            <TextView android:textSize="13.0sp" android:gravity="right" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reviews_detail_capsule_full_article" style="@style/greenLink" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/reviewsViewMoreLink" android:background="@drawable/capsule_transparent_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/dividerLine" android:layout_alignParentTop="true" style="@style/genericDivider" />
+                <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appminisite_view_more" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

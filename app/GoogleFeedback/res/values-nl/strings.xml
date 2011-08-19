@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Market-feedbackagent</string>
+    <string name="feedback">Feedback</string>
+    <string name="report_feedback">Melding van fout</string>
+    <string name="report_error_in">Melding van fout in %s</string>
+    <string name="system_log">Systeemlogboek</string>
+    <string name="event_log">Gebeurtenislogboek</string>
+    <string name="preview">Voorbeeld</string>
+    <string name="back">Vorige</string>
+    <string name="cancel">Annuleren</string>
+    <string name="send">Verzenden</string>
+    <string name="preview_feedback">Voorbeeld van feedback bekijken</string>
+    <string name="no_data">Geen gegevens</string>
+    <string name="fetching_system_log">Systeemlogboek ophalen...</string>
+    <string name="fetching_event_log">Gebeurtenislogboek ophalen...</string>
+    <string name="privacy">Privacy</string>
+    <string name="include_system_data">Systeemgegevens opnemen</string>
+    <string name="this_will_help">Systeemgegevens delen met Google, zodat er een betere diagnose van het probleem kan worden gesteld.</string>
+    <string name="privacy_policy"><a href="notused">Privacybeleid</a></string>
+    <string name="unknown_app">Onbekende app</string>
+    <string name="cant_save_report">Kan foutrapport niet opslaan. Geen ruimte meer beschikbaar op apparaat.</string>
+    <string name="report_being_sent">Hartelijk dank, uw melding wordt verzonden.</string>
+    <string name="optional_description">Beschrijving (optioneel)</string>
+    <string name="tos_activity_title">Juridische afdeling van Google</string>
+    <string name="tos_activity_unsuccessful_message">Uw telefoon heeft geen verbinding met een gegevensservice. Als u deze informatie nu wilt weergeven, gaat u naar %s op een computer die is verbonden met internet.</string>
+    <string name="tos_accept">Accepteren</string>
+    <string name="tos_decline">Weigeren</string>
+</resources>

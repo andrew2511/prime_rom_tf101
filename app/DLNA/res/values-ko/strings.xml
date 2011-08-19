@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">뒤로</string>
+    <string name="localdevice">지역</string>
+    <string name="playto">재생 장치 선택</string>
+    <string name="chooserenderdevice">디스플레이 장치를 선택하십시오.</string>
+    <string name="mediatype">미디어 형식</string>
+    <string name="choosemediatype">미디어 형식 하나를 선택하십시오.</string>
+    <string name="musictype">음악</string>
+    <string name="imagetype">사진</string>
+    <string name="videotype">비디오</string>
+    <string name="cant_connect_to_server">서버 접속 실패. 연결을 확인하십시오.</string>
+    <string name="internet_exception">네트워크 연결 실패</string>
+    <string name="internet_exception_message">네트워크 연결…을 확인하십시오.</string>
+    <string name="nodlnadevice">같은 Wi-Fi 네트웨크 내에서 DLNA 사용 장치를 켜십시오.</string>
+    <string name="notagain">이 메세지를 다시 보지 않겠습니다.</string>
+    <string name="shardms">미디어 파일을 다른 장치와 공유하시겠습니까?</string>
+    <string name="server">서버</string>
+    <string name="settings">설정</string>
+    <string name="dms">디지털 미디어 서버</string>
+    <string name="dmssettings">디지털 미디어 서버 설정</string>
+    <string name="enable">사용</string>
+    <string name="disable">사용 안 함</string>
+    <string name="sharemediatype">공유를 위해 미디어 형식을 선택하십시오.</string>
+    <string name="selectplayer">재생을 위해 장치를 선택하십시오.</string>
+    <string name="shareto">공유</string>
+    <string name="dms_settings_adv">고급 설정</string>
+    <string name="desc_share">공유 폴더 변경</string>
+    <string name="title_share">공유 폴더</string>
+    <string name="desc_friendlyname">장치의 표시 이름 변경</string>
+    <string name="title_friendlyname">표시 이름</string>
+    <string name="msgbox_title_error">에러</string>
+    <string name="msgbox_msg_error_no_wifi">먼저 Wi-Fi를 켜십시오.</string>
+    <string name="msgbox_msg_error_friendlyname">표시 이름을 변경할 수 없습니다.</string>
+    <string name="msgbox_msg_error_sharefolder">공유 폴더를 변경할 수 없습니다.</string>
+    <string name="msgbox_msg_error_mediatype">미디어 형식 공유를 변경할 수 없습니다.</string>
+    <string name="enable_dms">디지털 미디어 서버 사용</string>
+    <string name="disable_dms">디지털 미디어 서버 사용 안함</string>
+    <string name="about_title">정보</string>
+    <string name="toast_srvbusy">서버가 사용 중입니다. 나중에 다시 시도하십시오.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">지금 재생 중</string>
+    <string name="play_all">모두 재생</string>
+    <string name="party_shuffle">파티 셔플</string>
+    <string name="shuffle_all">모두 셔플</string>
+    <string name="wifi_quick_toggle_summary">Wi-Fi 켜기</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="slide_show">슬라이드쇼</string>
+    <string name="wait">잠시 기다려 주세요...</string>
+    <string name="fail_to_load">로드하지 못했습니다.</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">내부 저장소</string>
+</resources>

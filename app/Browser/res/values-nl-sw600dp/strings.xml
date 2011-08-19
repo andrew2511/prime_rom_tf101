@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nieuw tabblad</string>
+    <string name="new_incognito_tab">Nieuw incognitotabblad</string>
+    <string name="active_tabs">Tabbladen</string>
+    <string name="open_all_in_new_window">Alle bladwijzers openen op nieuwe tabbladen</string>
+    <string name="contextmenu_openlink_newwindow">Openen op nieuw tabblad</string>
+    <string name="contextmenu_openlink_newwindow_background">Openen op een nieuw tabblad op de achtergrond</string>
+    <string name="pref_content_open_in_background_summary">Nieuwe tabbladen openen achter het huidige tabblad</string>
+</resources>

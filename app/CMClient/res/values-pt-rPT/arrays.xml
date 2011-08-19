@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="postpone_time_text">
+        <item>1hora</item>
+        <item>3horas</item>
+        <item>6horas</item>
+        <item>1dia</item>
+    </string-array>
+</resources>

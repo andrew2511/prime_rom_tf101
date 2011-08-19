@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="240.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/appArea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/appImage" android:background="@android:color/transparent" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_appicon_95" />
+        <TextView android:id="@id/firstAppLine" android:layout_marginTop="10.0dip" style="@style/GalleryCapsuleDeveloperName" />
+        <TextView android:gravity="center_horizontal" android:id="@id/secondAppLine" android:layout_marginTop="3.0dip" android:maxLines="2" style="@style/GalleryCapsuleAppName" />
+        <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <TextView android:id="@id/reviewLine" android:layout_marginRight="5.0dip" style="@style/GalleryCapsuleReviews" />
+            <TextView android:id="@id/priceLine" style="@style/GalleryCapsulePrice" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

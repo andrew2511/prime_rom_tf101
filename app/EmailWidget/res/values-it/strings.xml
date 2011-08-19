@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">E-mail</string>
+    <string name="multiple_mails">E-mail</string>
+    <string name="go_to">Posta in Arrivo</string>
+</resources>

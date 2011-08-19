@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ninguno</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Región predeterminada</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Lunes</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Islas Marshall</item>
+        <item>Islas Midway</item>
+        <item>Hawái</item>
+        <item>Alaska</item>
+        <item>Hora Pacífico</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hora de montañas</item>
+        <item>Centroamérica</item>
+        <item>Hora central</item>
+        <item>Ciudad de México</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Hora del Este</item>
+        <item>Venezuela</item>
+        <item>Hora Atlántico</item>
+        <item>Manaos</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenlandia</item>
+        <item>Montevideo</item>
+        <item>Medio Atlántico</item>
+        <item>Azores</item>
+        <item>Islas Cabo Verde</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublín</item>
+        <item>Ámsterdam, Berlín</item>
+        <item>Belgrado</item>
+        <item>Bruselas</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Hora África Occ</item>
+        <item>Ammán, Jordania</item>
+        <item>Atenas, Estambul</item>
+        <item>Beirut, Líbano</item>
+        <item>El Cairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalén</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscú</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubái</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Oral</item>
+        <item>Ekaterimburgo</item>
+        <item>Calcuta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandú</item>
+        <item>Astaná</item>
+        <item>Rangún</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Pekín</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipéi</item>
+        <item>Seúl</item>
+        <item>Tokio, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaida</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadán</item>
+        <item>Auckland</item>
+        <item>Fiyi</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Ocupado</item>
+        <item>Disponible</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Predeterminado</item>
+        <item>Privado</item>
+        <item>Público</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>primer</item>
+        <item>segundo</item>
+        <item>tercer</item>
+        <item>cuarto</item>
+        <item>último</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(Sin respuesta)</item>
+        <item>Sí</item>
+        <item>Quizás</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Sí</item>
+        <item>Quizás</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Solo este evento</item>
+        <item>Este evento y eventos futuros</item>
+        <item>Todos los eventos</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Este y otros eventos posteriores</item>
+        <item>Todos los eventos</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Sólo esta ocasión</item>
+        <item>Todos los eventos de la serie</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_pc">
+        <item>Todos los eventos</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Siempre</item>
+        <item>Solo en modo silencio</item>
+        <item>Nunca</item>
+    </string-array>
+</resources>

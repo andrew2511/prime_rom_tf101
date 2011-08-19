@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toast_layout_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/osd_icon_bar" android:background="@drawable/asus_ep_osd_bg" android:layout_width="385.0dip" android:layout_height="294.0dip" android:scaleType="matrix" />
+    <com.asus.keyboard.BrightnessLevelView android:layout_gravity="bottom" android:id="@id/level" android:paddingLeft="61.0dip" android:paddingBottom="47.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

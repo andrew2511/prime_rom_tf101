@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Completada</string>
+    <string name="username">Email</string>
+    <string name="captcha_message_string">Demasiados intentos falsos</string>
+    <string name="signed_in">Acceso correcto</string>
+    <string name="account_linked_message">Has accedido a %s y se están sincronizando los datos.</string>
+    <string name="account_setup_title">Cuenta de Google</string>
+    <string name="account_created_message">Se ha creado una cuenta nueva: %s</string>
+    <string name="login_activity_title">Accede con tu cuenta de Google</string>
+    <string name="show_error_activity_title">Error al acceder a la cuenta de Google</string>
+    <string name="login_activity_task_title">Accediendo...</string>
+    <string name="sync_intro_activity_title_first_account">Copia de seguridad y restauración</string>
+    <string name="sync_intro_activity_title_first_created_account">Cuenta creada</string>
+    <string name="sync_intro_activity_title">Acceso a cuenta correcto</string>
+</resources>

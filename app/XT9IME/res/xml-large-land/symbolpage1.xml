@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:background="@drawable/asus_ep_bg_jp" xt9:keyWidth="106.0px" xt9:keyHeight="74.0px" xt9:horizontalGap="0.0px" xt9:verticalGap="0.0px" xt9:paddingLeft="18" xt9:paddingTop="12" xt9:paddingRight="12"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row xt9:rowEdgeFlags="top">
+        <Key xt9:keyEdgeFlags="left" xt9:keyOutputText="!" xt9:keyLabel="!" />
+        <Key xt9:keyOutputText="\@" xt9:keyLabel="\@" />
+        <Key xt9:keyOutputText="$" xt9:keyLabel="$" />
+        <Key xt9:keyOutputText="%" xt9:keyLabel="%" />
+        <Key xt9:keyOutputText="-" xt9:keyLabel="-" />
+        <Key xt9:keyOutputText="_" xt9:keyLabel="_" />
+        <Key xt9:keyOutputText=":" xt9:keyLabel=":" />
+        <Key xt9:keyOutputText=";" xt9:keyLabel=";" />
+        <Key xt9:keyOutputText="'" xt9:keyLabel="'" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText="&quot;" xt9:keyLabel="&quot;" />
+    </Row>
+    <Row>
+        <Key xt9:keyEdgeFlags="left" xt9:keyOutputText="+" xt9:keyLabel="+" />
+        <Key xt9:keyOutputText="(" xt9:keyLabel="(" />
+        <Key xt9:keyOutputText=")" xt9:keyLabel=")" />
+        <Key xt9:keyOutputText="£" xt9:keyLabel="£" />
+        <Key xt9:keyOutputText="\?" xt9:keyLabel="\?" />
+        <Key xt9:keyOutputText="/" xt9:keyLabel="/" />
+        <Key xt9:keyOutputText="," xt9:keyLabel="," />
+        <Key xt9:keyOutputText="." xt9:keyLabel="." />
+        <Key xt9:keyOutputText="~" xt9:keyLabel="~" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText="\#" xt9:keyLabel="\#" />
+    </Row>
+    <Row>
+        <Key xt9:keyEdgeFlags="left" xt9:keyOutputText="\\" xt9:keyLabel="\\" />
+        <Key xt9:keyOutputText="|" xt9:keyLabel="|" />
+        <Key xt9:keyOutputText="^" xt9:keyLabel="^" />
+        <Key xt9:keyOutputText="*" xt9:keyLabel="*" />
+        <Key xt9:keyOutputText="[" xt9:keyLabel="[" />
+        <Key xt9:keyOutputText="]" xt9:keyLabel="]" />
+        <Key xt9:keyOutputText="&lt;" xt9:keyLabel="&lt;" />
+        <Key xt9:keyOutputText=">" xt9:keyLabel=">" />
+        <Key xt9:keyOutputText="{" xt9:keyLabel="{" />
+        <Key xt9:keyEdgeFlags="right" xt9:keyOutputText="}" xt9:keyLabel="}" />
+    </Row>
+    <Row xt9:rowEdgeFlags="bottom">
+        <Key xt9:keyEdgeFlags="left" xt9:keyOutputText="«" xt9:keyLabel="«" />
+        <Key xt9:keyOutputText="»" xt9:keyLabel="»" />
+        <Key xt9:keyOutputText="`" xt9:keyLabel="`" />
+        <Key xt9:keyOutputText="=" xt9:keyLabel="=" />
+        <Key xt9:keyOutputText="×" xt9:keyLabel="×" />
+        <Key xt9:keyOutputText="÷" xt9:keyLabel="÷" />
+        <Key xt9:keyOutputText="±" xt9:keyLabel="±" />
+        <Key xt9:keyOutputText="…" xt9:keyLabel="…" />
+        <Key xt9:keyBackground="@drawable/asus_ep_btn2_dis" xt9:codes="-999" xt9:keyIcon="@drawable/asus_ep_jt_l_jpdis" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:codes="-32" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_jt_d_jp" />
+    </Row>
+</KeyboardEx>

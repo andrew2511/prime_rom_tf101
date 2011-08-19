@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listHeader" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/headerButtonPanel" android:background="@drawable/header_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/headerButton1" android:background="@drawable/textfield_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.5dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="2.5dip" android:layout_weight="9999.0">
+            <ImageView android:paddingLeft="3.0dip" android:paddingTop="2.5dip" android:paddingRight="5.0dip" android:focusable="false" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/magnifying_glass_grey" android:scaleType="center" />
+            <TextView android:id="@id/header1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/headerButton2" android:background="@drawable/header_bar_button" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_show_map" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

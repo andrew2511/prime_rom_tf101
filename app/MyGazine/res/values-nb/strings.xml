@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSIDE</string>
+    <string name="music_title_str">MUSIKK</string>
+    <string name="web_tag_str">Ingen URL</string>
+    <string name="music_tag_album">Ingen album</string>
+    <string name="music_tag_song">Ingen sang</string>
+    <string name="music_tag_artist">Ingen artist</string>
+    <string name="date_text_str">Ingen dato</string>
+    <string name="cal_event_str">Ingen siste hendelse</string>
+    <string name="weather_info_str">Ingen værinformasjon</string>
+    <string name="weather_content_str">Intet værinnhold</string>
+    <string name="photo_date_str">Ingen fotodato</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Vind ØNE</string>
+    <string name="humidity">Fuktighet</string>
+    <string name="email_unit">E-poster</string>
+    <string name="email_unit_single">E-post</string>
+    <string name="event_unit">Hendelser</string>
+    <string name="event_unit_single">Hendelse</string>
+    <string name="book_unit">Bøker</string>
+    <string name="book_unit_single">Bok</string>
+    <string name="weather_city_str">Ingen by</string>
+    <string name="date_format_title">Datoformat</string>
+    <string name="preference_header_title">Preferanse</string>
+    <string name="slideshow_header_title">Bildeframvisning</string>
+    <string name="picture_number_title">Bildeframvisning, antall bilder</string>
+    <string name="slide_show_interval_title">Bildeframvisning, tidsintervall</string>
+    <string name="transition_effect_title">Overgangseffekt</string>
+    <string name="enable">Aktiver</string>
+    <string name="disable">Deaktiver</string>
+    <string name="app_settings">ASUS MyZine-innstillinger</string>
+    <string name="unit_picture">bilder</string>
+    <string name="unit_second">sekunder</string>
+    <string name="Image_headline">Bilde</string>
+    <string name="display_headline">Skjerm</string>
+    <string name="date_headline">Dato</string>
+    <string name="logo_display_title">ASUS MyZine-logo</string>
+    <string name="date_display_title">Dato/kl.</string>
+    <string name="photo_date_display_title">Opprettingsdato for bilder</string>
+    <string name="event_display_title">Forstående hendelse</string>
+    <string name="weather_display_title">Værstatus</string>
+    <string name="scale_type_title">Bildepresentasjon</string>
+</resources>

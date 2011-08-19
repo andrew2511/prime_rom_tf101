@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.vending.velvet.PortraitCarouselView android:id="@id/asset_fat_header" android:layout_width="fill_parent" android:layout_height="240.0dip" vending:arc_span="proportionate"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vending="http://schemas.android.com/apk/res/com.android.vending">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/slim_title" />
+    <LinearLayout android:id="@id/carousel_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" vending:arc_layout_gravity="center">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/asset_fat_info" />
+    </LinearLayout>
+</com.android.vending.velvet.PortraitCarouselView>

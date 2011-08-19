@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btn_gallery" />
+    <item type="id" name="control_bar">false</item>
+    <item type="id" name="review_control">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="btn_retake">false</item>
+    <item type="id" name="btn_play">false</item>
+    <item type="id" name="shutter_button">false</item>
+    <item type="id" name="btn_done">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="settingList">false</item>
+    <item type="id" name="app_root">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="camera_switch">false</item>
+    <item type="id" name="video_switch_icon">false</item>
+    <item type="id" name="switcher">false</item>
+    <item type="id" name="camera_switch_icon">false</item>
+    <item type="id" name="control_panel">false</item>
+    <item type="id" name="zoom_picker">false</item>
+    <item type="id" name="indicator_wheel">false</item>
+    <item type="id" name="switch_off_button">false</item>
+    <item type="id" name="switch_on_button">false</item>
+    <item type="id" name="camera_picker">false</item>
+    <item type="id" name="setting_item">false</item>
+    <item type="id" name="decrement">false</item>
+    <item type="id" name="current_setting">false</item>
+    <item type="id" name="increment">false</item>
+    <item type="id" name="restore">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="frame_layout">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="preview_border">false</item>
+    <item type="id" name="camera_preview">false</item>
+    <item type="id" name="focus_rectangle">false</item>
+    <item type="id" name="zoom_ratio">false</item>
+    <item type="id" name="onscreen_gps_indicator_no_signal">false</item>
+    <item type="id" name="onscreen_gps_indicator_on">false</item>
+    <item type="id" name="video_frame">false</item>
+    <item type="id" name="recording_time">false</item>
+    <item type="id" name="time_lapse_label">false</item>
+    <item type="id" name="review_thumbnail">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="video_camera">false</item>
+</resources>

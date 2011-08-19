@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/ra_text_box_left_padding" android:paddingRight="@dimen/ra_text_box_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ra_expand_command" android:background="@drawable/ra_list_button" android:paddingLeft="@dimen/ra_text_box_inner_left_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_expander_minimized" />
+        <TextView android:id="@id/ra_expand" android:paddingLeft="4.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RAExpandCollpaseAppearance" />
+    </LinearLayout>
+</LinearLayout>

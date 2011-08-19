@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_info" style="@style/title_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sub_title" android:text="@string/title_add" style="@style/title_font" />
+    <Button android:id="@id/helpbtn" android:background="@drawable/help_d" style="@style/title_button" />
+</RelativeLayout>

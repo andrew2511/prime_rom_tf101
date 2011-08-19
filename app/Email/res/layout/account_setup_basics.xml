@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:id="@id/common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/top_divider" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+            <include layout="@layout/account_setup_basics_common" />
+        </FrameLayout>
+        <Button android:id="@id/manual_setup" android:layout_marginTop="16.0dip" android:text="@string/account_setup_basics_manual_setup_action" android:layout_below="@id/common" android:layout_alignParentLeft="true" style="@style/accountSetupButton" />
+        <Button android:id="@id/next" android:layout_marginTop="16.0dip" android:text="@string/next_action" android:layout_below="@id/common" android:layout_alignParentRight="true" style="@style/accountSetupButton" />
+    </RelativeLayout>
+</ScrollView>

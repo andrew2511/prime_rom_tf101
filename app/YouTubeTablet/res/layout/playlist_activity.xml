@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <include layout="@layout/header" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip">
+        <TextView android:textColor="@color/white_text" android:ellipsize="end" android:id="@id/playlist_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="0" />
+        <TextView android:textSize="@dimen/small_font_size" android:id="@id/playlist_details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.google.android.youtube.core.ui.PagedListView android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/list_status_item" />
+</LinearLayout>

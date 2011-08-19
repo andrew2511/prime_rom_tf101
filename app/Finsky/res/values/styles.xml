@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FinskyActionBarView_TabText" parent="@android:style/Widget">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="FinskySearchResultTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+    <style name="GridCell">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">@dimen/bucket_entry_width</item>
+        <item name="android:layout_height">@dimen/bucket_entry_height</item>
+        <item name="android:layout_marginRight">@dimen/bucket_entry_right_margin</item>
+    </style>
+    <style name="BucketHeaderText">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BucketHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bucket_header</item>
+    </style>
+    <style name="FinskyActionBarView_TabView" parent="@android:style/Widget">
+        <item name="android:background">@drawable/action_bar_tab</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+    </style>
+    <style name="FinskyRatingBarSmall" parent="@android:style/Widget.Holo.Light.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+    </style>
+    <style name="ContentEntryTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/content_entry_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="ContentEntrySubtitle" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ContentEntryIcon">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">@dimen/bucket_entry_icon_width</item>
+        <item name="android:layout_height">@dimen/bucket_entry_icon_height</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+    <style name="BuyButton" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/buy_button</item>
+        <item name="android:background">@drawable/buy_button</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="DetailsPage_Button" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">@dimen/details_button_width</item>
+        <item name="android:layout_height">@dimen/details_button_height</item>
+        <item name="android:layout_marginBottom">@dimen/details_button_margin_bottom</item>
+    </style>
+    <style name="DetailsPage_BuyButton" parent="@style/DetailsPage_Button">
+        <item name="android:background">@drawable/details_page_buy_button</item>
+    </style>
+    <style name="DetailsPage_FooterButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/details_button_height</item>
+        <item name="android:drawablePadding">20.0dip</item>
+    </style>
+    <style name="DetailsPage_MoreButton" parent="@style/DetailsPage_FooterButton">
+        <item name="android:drawableRight">@drawable/ic_more_arrow</item>
+    </style>
+    <style name="DetailsPage_LessButton" parent="@style/DetailsPage_FooterButton">
+        <item name="android:drawableLeft">@drawable/ic_less_arrow</item>
+    </style>
+    <style name="DetailsPage_HeaderText" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">1.0sp</item>
+    </style>
+    <style name="SizedText_Minor">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="SizedText_Major">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="SizedSearchView">
+        <item name="android:iconifiedByDefault">true</item>
+    </style>
+    <style name="DetailsPage_ContentText" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/details_content_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">5.0sp</item>
+    </style>
+    <style name="DetailsPage_CaptionText" parent="@style/DetailsPage_ContentText">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:lineSpacingExtra">0.0sp</item>
+    </style>
+    <style name="DetailsPage_SummaryText" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="FinskyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_fade</item>
+        <item name="android:displayOptions">useLogo|showHome|showCustom</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="DetailsPage_Panel">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">@dimen/details_left_padding</item>
+        <item name="android:paddingRight">@dimen/details_right_padding</item>
+    </style>
+    <style name="DetailsPage_TableEntry">
+        <item name="android:background">@drawable/details_page_button</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowMinWidthMajor">60.000004%</item>
+        <item name="android:windowMinWidthMinor">39.999996%</item>
+    </style>
+    <style name="Theme.MinimalDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="FinskyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/panel_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:ratingBarStyleSmall">@style/FinskyRatingBarSmall</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/FinskyActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarTabStyle">@style/FinskyActionBarView_TabView</item>
+        <item name="android:actionBarTabTextStyle">@style/FinskyActionBarView_TabText</item>
+        <item name="android:actionOverflowButtonStyle">@android:style/Widget.Holo.ActionButton.Overflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back_holo_dark</item>
+        <item name="android:actionMenuTextColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="SearchTheme" parent="@android:style/Theme.Holo">
+        <item name="android:autoCompleteTextViewStyle">@android:style/Widget.Holo.Light.AutoCompleteTextView</item>
+        <item name="android:textAppearanceSearchResultTitle">@style/FinskySearchResultTitle</item>
+    </style>
+</resources>

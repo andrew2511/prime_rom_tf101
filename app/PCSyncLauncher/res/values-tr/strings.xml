@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">PC Eşitleme bilgileri</string>
+    <string name="searchingPCSideSyncTool">Bilgisayarınızda %s aranıyor...</string>
+    <string name="connectionFailMessage" formatted="false">Bilgisayarınızda yüklü veya başlatılmış %s yok. Lütfen ASUS Destek sayfasından (http://support.asus.com) %s öğesini karşıdan yükleyin. (Not: yalnızca Windows için.) Çıkmak için \"%s\" düğmesine basabilir veya \"%s\" düğmesine basarak %s öğesine yeniden bağlanabilirsiniz.</string>
+    <string name="connectionFailTitle">Bağlantı başarısız</string>
+    <string name="tryAgain">Tekrar deneyin</string>
+    <string name="cancel">İptal</string>
+</resources>

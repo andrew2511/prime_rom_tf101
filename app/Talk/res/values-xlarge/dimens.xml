@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="roster_list_item_shove_over_distance">16.0dip</dimen>
+    <dimen name="roster_list_item_no_shove_over_distance">0.0dip</dimen>
+    <dimen name="roster_list_offset_from_top">24.0dip</dimen>
+    <dimen name="set_status_padding_right">48.0dip</dimen>
+    <dimen name="set_status_padding_left">34.0dip</dimen>
+    <dimen name="input_field_padding_left">64.0dip</dimen>
+    <dimen name="chat_history_padding_left">32.0dip</dimen>
+    <dimen name="chat_history_padding_right">32.0dip</dimen>
+    <dimen name="slider_container_width">264.0dip</dimen>
+</resources>

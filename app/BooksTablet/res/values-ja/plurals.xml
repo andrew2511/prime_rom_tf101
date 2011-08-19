@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d/%2$2$d冊</item>
+        <item quantity="one">1冊</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">この書籍を同時に読むことのできる端末/パソコンは%1$d台に制限されており、既にこの上限に達しています。他のリーダーのこの書籍を閉じ、数分待ってからもう一度お試しください。</item>
+        <item quantity="one">この書籍を同時に読むことのできる端末/パソコンは1台に制限されており、既にこの上限に達しています。他のリーダーのこの書籍を閉じ、数分待ってからもう一度お試しください。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>הסר הדגשות</item>
+        <item>ביטול</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>הוסף הדגשות</item>
+        <item>תרגום</item>
+        <item>טכסט לדיבור</item>
+        <item>ביטול</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>אנגלית</item>
+        <item>צרפתית</item>
+        <item>יפנית</item>
+        <item>סינית</item>
+        <item>גרמנית</item>
+        <item>סינית מפושטת</item>
+        <item>רוסית</item>
+        <item>ספרדית</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>אנגלית לסינית</item>
+        <item>אנגלית לצרפתית</item>
+        <item>אנגלית לרוסית</item>
+    </string-array>
+</resources>

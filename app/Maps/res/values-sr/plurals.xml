@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">После %1$s километара</item>
+        <item quantity="one">После једног километра</item>
+        <item quantity="few">После %1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Наставите овим путем још %1$s километара</item>
+        <item quantity="one">Наставите још један километар</item>
+        <item quantity="few">Наставите овим путем још %1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Наставите путем %1$2$s још %2$1$s километара</item>
+        <item quantity="one">Наставите путем %2$s још један километар</item>
+        <item quantity="few">Наставите путем %1$2$s још %2$1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">После %1$s миље</item>
+        <item quantity="one">После једне миље</item>
+        <item quantity="few">После %1$s миље</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Наставите овим путем још %1$s миља</item>
+        <item quantity="one">Наставите још једну миљу</item>
+        <item quantity="few">Наставите овим путем још %1$s миљe</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Наставите путем %1$2$s још %2$1$s миља</item>
+        <item quantity="one">Наставите путем %2$s још једну миљу</item>
+        <item quantity="few">Наставите путем %1$2$s још %2$1$s миљe</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">Рецензија: %1$s</item>
+        <item quantity="one">%1$s рецензија</item>
+        <item quantity="few">Рецензија: %1$s</item>
+    </plurals>
+</resources>

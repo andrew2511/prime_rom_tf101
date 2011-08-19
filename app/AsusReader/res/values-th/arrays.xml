@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>ลบไฮไลต์</item>
+        <item>ยกเลิก</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>เพิ่มไฮไลต์</item>
+        <item>การแปล</item>
+        <item>ข้อความ-เป็น-คำพูด</item>
+        <item>ยกเลิก</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>อังกฤษ</item>
+        <item>ฝรั่งเศส</item>
+        <item>ญี่ปุ่น</item>
+        <item>จีน</item>
+        <item>เยอรมัน</item>
+        <item>จีนแผ่นดินใหญ่</item>
+        <item>รัสเซีย</item>
+        <item>สเปน</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>อังกฤษเป็นจีน</item>
+        <item>อังกฤษเป็นฝรั่งเศส</item>
+        <item>อังกฤษเป็นรัสเซีย</item>
+    </string-array>
+</resources>

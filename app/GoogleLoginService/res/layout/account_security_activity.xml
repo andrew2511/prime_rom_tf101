@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TableLayout android:paddingLeft="5.0dip" android:paddingTop="4.0dip" android:paddingRight="5.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+            <TextView android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:text="@string/account_recovery_info" style="@style/setupWizardBodyTextPrimary" />
+            <TableRow android:gravity="bottom">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:gravity="left|center" android:id="@id/security_question_label" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/security_question" />
+                <Spinner android:entries="@array/security_questions" android:id="@id/security_question_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:prompt="@string/security_questions_title" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+            </TableRow>
+            <TableRow android:gravity="bottom">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:gravity="left|center" android:id="@id/answer_label" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/answer" />
+                <EditText android:id="@id/answer_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:gravity="bottom">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/secondary_email_label" />
+                <EditText android:id="@id/secondary_email_edit" android:nextFocusDown="@id/next_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/back_button_label" android:drawableLeft="@drawable/ic_btn_back" android:drawablePadding="3.0dip" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/next_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/create_button_label" android:drawableRight="@drawable/ic_btn_next" android:drawablePadding="3.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

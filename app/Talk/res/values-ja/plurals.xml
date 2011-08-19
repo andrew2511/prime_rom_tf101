@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">%1$d個のアカウント</item>
+        <item quantity="one">%1$d個のアカウント</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">%1$d件の未読チャット</item>
+        <item quantity="one">%1$d件の未読チャット</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">%s件の既読メッセージ</item>
+        <item quantity="one">%s件の既読メッセージ</item>
+    </plurals>
+</resources>

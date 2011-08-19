@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Nettverksplassering</string>
+    <string name="location_warning_title">Plasseringstillatelse</string>
+    <string name="location_warning_message">Lar Googles posisjonstjeneste samle inn anonyme posisjonsdata. Innsamlingen vil skje selv om ingen applikasjoner kjører.</string>
+    <string name="agree">Godta</string>
+    <string name="disagree">Avslå</string>
+</resources>

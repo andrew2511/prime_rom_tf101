@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSITE</string>
+    <string name="music_title_str">MUSIC</string>
+    <string name="web_tag_str">No URL</string>
+    <string name="music_tag_album">No Album</string>
+    <string name="music_tag_song">No Song</string>
+    <string name="music_tag_artist">No Artist</string>
+    <string name="date_text_str">No Date</string>
+    <string name="cal_event_str">No Latest Event</string>
+    <string name="weather_info_str">No Weather Information</string>
+    <string name="weather_content_str">No Weather Content</string>
+    <string name="photo_date_str">No Photo Date</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Wind ENE</string>
+    <string name="humidity">Humidity</string>
+    <string name="email_unit">Emails</string>
+    <string name="email_unit_single">Email</string>
+    <string name="event_unit">Events</string>
+    <string name="event_unit_single">Event</string>
+    <string name="book_unit">Books</string>
+    <string name="book_unit_single">Book</string>
+    <string name="weather_city_str">No City</string>
+    <string name="date_format_title">Date Format</string>
+    <string name="preference_header_title">Preference</string>
+    <string name="slideshow_header_title">Slide show</string>
+    <string name="picture_number_title">Slide show picture number</string>
+    <string name="slide_show_interval_title">Slide show interval</string>
+    <string name="transition_effect_title">Transition effect</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="app_settings">ASUS MyZine Settings</string>
+    <string name="unit_picture">pics</string>
+    <string name="unit_second">secs</string>
+    <string name="Image_headline">Picture</string>
+    <string name="display_headline">Display</string>
+    <string name="date_headline">Date</string>
+    <string name="logo_display_title">ASUS MyZine logo</string>
+    <string name="date_display_title">Date/Time</string>
+    <string name="photo_date_display_title">Create date of pictures</string>
+    <string name="event_display_title">Upcoming event</string>
+    <string name="weather_display_title">Weather status</string>
+    <string name="scale_type_title">Picture presentation</string>
+</resources>

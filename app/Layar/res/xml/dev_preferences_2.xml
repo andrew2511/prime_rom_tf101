@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/prefs_developer_settings">
+        <CheckBoxPreference android:layout="@layout/preference_check" android:title="@string/prefs_location_fixed" android:key="prefs.location.fixed" android:summary="@string/prefs_location_fixed_summary" android:defaultValue="false" android:disableDependentsState="false" />
+        <EditTextPreference android:layout="@layout/preference_dialog" android:numeric="signed|decimal" android:title="@string/prefs_location_lat" android:key="prefs.location.lat" android:dependency="prefs.location.fixed" />
+        <EditTextPreference android:layout="@layout/preference_dialog" android:numeric="signed|decimal" android:title="@string/prefs_location_lon" android:key="prefs.location.lon" android:dependency="prefs.location.fixed" />
+        <ListPreference android:entries="@array/country_code" android:layout="@layout/preference_dialog" android:title="@string/prefs_location_country" android:key="prefs.location.countrycode" android:defaultValue="@string/country_code_default" android:entryValues="@array/country_code_value" />
+    </PreferenceCategory>
+</PreferenceScreen>

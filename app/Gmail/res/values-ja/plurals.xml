@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">これら%1$d件のスレッドを削除してもよろしいですか？</item>
+        <item quantity="one">このスレッドを削除してもよろしいですか？</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">これら%1$d件の下書きを破棄しますか？</item>
+        <item quantity="one">この下書きを破棄しますか？</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">これら%1$d件のスレッドをアーカイブしますか？</item>
+        <item quantity="one">このスレッドをアーカイブしますか？</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">下書き</item>
+        <item quantity="one">下書き</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">とその他%s件</item>
+        <item quantity="one">とその他%s件</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">%1$d件のスレッドをミュートしています。</item>
+        <item quantity="one">%1$d件のスレッドをミュートしています。</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">%1$d件のスレッドを迷惑メールとして報告しています。</item>
+        <item quantity="one">%1$d件のスレッドを迷惑メールとして報告しています。</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">%1$d件のスレッドをアーカイブしています。</item>
+        <item quantity="one">%1$d件のスレッドをアーカイブしています。</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">%1$d件のスレッドを削除しています。</item>
+        <item quantity="one">%1$d件のスレッドを削除しています。</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">%1$d件のスレッドを既読にしています。</item>
+        <item quantity="one">%1$d件のスレッドを既読にしています。</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">%1$d件のスレッドを未読にしています。</item>
+        <item quantity="one">%1$d件のスレッドを未読にしています。</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">%1$d件のスレッドにスターを付けています。</item>
+        <item quantity="one">%1$d件のスレッドにスターを付けています。</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">%1$d件のスレッドからスターを外しています。</item>
+        <item quantity="one">%1$d件のスレッドからスターを外しています。</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">%1$d件のスレッドで操作を待機しています。</item>
+        <item quantity="one">%1$d件のスレッドで操作を待機しています。</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">%1$d件のスレッドをミュートしました。</item>
+        <item quantity="one">%1$d件のスレッドをミュートしました。</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">%1$d件のスレッドを迷惑メールとして報告しました。</item>
+        <item quantity="one">%1$d件のスレッドを迷惑メールとして報告しました。</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">%1$d件のスレッドをアーカイブしました。</item>
+        <item quantity="one">%1$d件のスレッドをアーカイブしました。</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">%1$d件のスレッドを受信トレイに移動しました。</item>
+        <item quantity="one">%1$d件のスレッドが受信トレイに移動されました。</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">%1$d件のスレッドを削除しました。</item>
+        <item quantity="one">%1$d件のスレッドを削除しました。</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">%1$1$d件のスレッドが%2$2$sに移動されました。</item>
+        <item quantity="one">%1$1$d件のスレッドを%2$2$sに移動しました。</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">%1$d件のスレッドに重要マークを付けました。</item>
+        <item quantity="one">%1$d件のスレッドに重要マークを付けました。</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">%1$d件のスレッドから重要マークを外しました。</item>
+        <item quantity="one">%1$d件のスレッドから重要マークを外しました。</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">%1$d件のスレッドを既読にしました。</item>
+        <item quantity="one">%1$d件のスレッドを既読にしました。</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">%1$d件のスレッドを未読にしました。</item>
+        <item quantity="one">%1$d件のスレッドを未読にしました。</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">%1$d件のスレッドのラベルを変更しました。</item>
+        <item quantity="one">スレッドのラベルを変更しました。</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">%1$d日間同期する。</item>
+        <item quantity="one">%1$d日間同期する。</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">未読%1$d件</item>
+        <item quantity="one">未読%1$d件</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d日間</item>
+        <item quantity="one">1日分</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">日</item>
+        <item quantity="one">日</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">%1$d個のアカウント</item>
+        <item quantity="one">%1$d個のアカウント</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">%1$d件のスレッドを移動</item>
+        <item quantity="one">1件のスレッドを移動</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">添付ファイルにエラーが発生しました: %s</item>
+        <item quantity="one">添付ファイルにエラーが発生しました</item>
+    </plurals>
+</resources>

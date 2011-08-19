@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google 搜尋</string>
+    <string name="remove_from_history">從搜尋記錄中移除</string>
+    <string name="remove_from_history_failed">無法從記錄中移除項目</string>
+    <string name="menu_settings">搜尋設定</string>
+    <string name="search_settings">Google 搜尋設定</string>
+    <string name="google_settings_category_title">Google 搜尋</string>
+    <string name="device_settings_category_title">裝置搜尋</string>
+    <string name="search_sources">可搜尋項目</string>
+    <string name="search_sources_summary">選取要在手機上搜尋的內容</string>
+    <string name="clear_shortcuts">清除捷徑</string>
+    <string name="clear_shortcuts_summary">清除近期所選搜尋建議的捷徑</string>
+    <string name="clear_shortcuts_prompt">"這會清除近期所選搜尋建議的捷徑。
+
+(如要清除瀏覽記錄，請使用瀏覽器的設定選項。)"</string>
+    <string name="clear_shortcuts_agree">清除捷徑</string>
+    <string name="clear_shortcuts_disagree">不清除捷徑</string>
+    <string name="menu_help">說明</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Google 搜尋</string>
+    <string name="google_search_description">Google 搜尋建議</string>
+    <string name="first_run_title">Google 搜尋</string>
+    <string name="tos_button_text">閱讀服務條款</string>
+    <string name="yes_agree_use_location">讓 Google 搜尋結果和其他 Google 服務使用「我的位置」資訊。</string>
+    <string name="first_run_tos">需遵循《Google 行動服務服務條款》。</string>
+    <string name="use_location_title">使用我的位置</string>
+    <string name="search_history">個人化搜尋</string>
+    <string name="search_history_summary_no_account">未設定帳戶</string>
+    <string name="search_history_summary_enabled">%1$s 已啟用搜尋記錄和其他個人化設定</string>
+    <string name="search_history_summary_disabled">停用搜尋記錄或其他個人化設定</string>
+    <string name="manage_search_history">管理搜尋記錄</string>
+    <string name="manage_search_history_summary_no_account">未設定帳戶</string>
+    <string name="manage_search_history_summary">在瀏覽器中使用 %1$s 登入並開啟「網頁記錄」</string>
+    <string name="select_google_account">Google 帳戶</string>
+    <string name="select_google_account_summary_no_accounts">未設定帳戶</string>
+    <string name="settings_tos_title">服務條款</string>
+    <string name="manage_search_history_authenticating_title">登入中</string>
+    <string name="manage_search_history_authenticating_message">正在使用 %1$s 登入...</string>
+    <string name="manage_search_history_authenticating_cancel">取消</string>
+    <string name="use_google_com">永遠使用 google.com</string>
+    <string name="current_search_base_url">使用 %1$s</string>
+    <string name="fetching_search_base_url">正在擷取搜尋網址...</string>
+    <string name="use_psychic">啟用互動智慧搜尋</string>
+    <string name="use_psychic_summary_on">互動智慧搜尋開啟 (輸入內容即可進行搜尋)</string>
+    <string name="use_psychic_summary_off">互動智慧搜尋關閉 (按下 Enter 鍵即可進行搜尋)</string>
+    <string name="web_suggest_updating">更新中...</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>

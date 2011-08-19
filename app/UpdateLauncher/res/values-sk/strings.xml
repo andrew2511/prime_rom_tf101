@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spúšťač aktualizácie</string>
+    <string name="TITLE_DETECTED">Zistil sa súbor aktualizácie systému</string>
+    <string name="TITLE_SYSTEM_UPDATE">Aktualizácia systému</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Dostupná je aktualizácia systému</string>
+    <string name="MSG_PRELIMINARY">"Aktualizácia systému bude trvať približne 10 minút. Počas aktualizovania nebudete môcť používať zariadenie ani vykonávať núdzové volania.
+
+Zapojte, prosím, sieťový kábel alebo sa uistite, či je batéria nabitá minimálne na 15 %.
+
+Chcete pokračovať v aktualizovaní systému?"</string>
+    <string name="BUTTON_CANCEL">Zrušiť</string>
+    <string name="MSG_RESUME">Dotknutím sa tohto tlačidla spustite aktualizáciu systému.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Aktualizácia systému sa skončila</string>
+    <string name="MSG_UPDATE_DONE">Aktualizácia systému prebehla úspešne.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Neexistuje aktualizačný súbor.</string>
+    <string name="MSG_UPDATE_FAIL">Aktualizácia systému zlyhala.</string>
+    <string name="MSG_UPDATE_RESTORE">Systém je obnovený do pôvodnej konfigurácie</string>
+    <string name="MSG_BATTERY_LOW">"Aktualizácia systému sa zastavila z dôvodu slabej batérie.
+
+Pred aktualizovaním systému zapojte sieťový kábel."</string>
+    <string name="TITLE_SELECT_FILE">Vyberte opravný balík</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Tento aktualizačný balík nie je kompatibilný s vašim aktuálnym softvérom, preto si prosím skontrolujte verziu softvéru a číslo verzie v možnosti Nastavenia a skúste správny aktualizačný balík.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Tento aktualizačný balík je starší ako vaša aktuálna verzia softvéru, skúste novší aktualizačný balík.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Neznáma chyba.</string>
+</resources>

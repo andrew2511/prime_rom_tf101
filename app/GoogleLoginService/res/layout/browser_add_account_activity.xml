@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.gsf.login.CustomWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/webview_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/webview_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+        <TextView android:textAppearance="@style/gls_browserAddAccountProgressText" android:id="@id/verbose_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/communicating_message" android:layout_below="@id/webview_progress_bar" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/gls_browserAddAccountProgressText" android:id="@id/error_message" android:layout_width="500.0dip" android:layout_height="wrap_content" android:text="@string/background_task_error" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

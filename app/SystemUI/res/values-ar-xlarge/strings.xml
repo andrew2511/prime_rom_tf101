@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">محو الكل</string>
+    <string name="status_bar_settings_signal_meter_disconnected">لا اتصال بالإنترنت</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi متصل</string>
+    <string name="gps_notification_searching_text">جارٍ البحث عن GPS</string>
+    <string name="gps_notification_found_text">تم تعيين الموقع بواسطة GPS</string>
+    <string name="notifications_off_title">إيقاف التنبيهات</string>
+    <string name="notifications_off_text">انقر هنا لإعادة تشغيل التنبيهات.</string>
+</resources>

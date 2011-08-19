@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transient_opening">Element wird geöffnet…</string>
+    <string name="transient_paused">Angehalten</string>
+    <string name="transient_interrupted">Unterbrochen</string>
+    <string name="transient_done">Fertig.</string>
+    <string name="transient_downloading">Wird heruntergeladen…</string>
+    <string name="reader_instructions_center">Zum Anzeigen von Status- und Positionsinformationen tippen Sie bitte auf die Seitenmitte</string>
+    <string name="menuitem_goto">Gehe zu</string>
+    <string name="menuitem_sync">Synchronisieren bis zuletzt gelesener Seite</string>
+    <string name="goto_notes">Notizen und Markierungen</string>
+    <string name="notes_bookmark">Lesezeichen</string>
+    <string name="menuitem_add_bookmark">Lesezeichen hinzufügen</string>
+    <string name="menuitem_remove_bookmark">Lesezeichen gelöscht</string>
+    <string name="menuitem_reader_store">Kindle-Shop</string>
+    <string name="download_progress_bullet">•</string>
+    <string name="font_size_options">Schriftgrößenoptionen</string>
+    <string name="colors_and_brightness">Farben und Helligkeit</string>
+</resources>

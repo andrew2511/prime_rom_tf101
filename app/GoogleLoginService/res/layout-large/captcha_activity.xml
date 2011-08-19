@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CaptchaActivityOuterFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/Title" android:id="@id/account_setup_title" android:layout_width="wrap_content" android:layout_height="@dimen/title_height" android:layout_marginLeft="@dimen/content_margin_left" android:text="@string/gls_ui_activity_authenticating" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:id="@id/top_divider" android:layout_below="@id/account_setup_title" style="@style/TopDivider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/captcha" android:layout_width="716.0dip" android:layout_height="wrap_content" android:layout_below="@id/top_divider" android:layout_centerHorizontal="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/captcha_instructions" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/captcha_image_view" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200.0dip" android:minHeight="70.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="30.0dip">
+                <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:id="@id/captcha_answer_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" android:layout_above="@id/next_button" android:layout_alignLeft="@id/captcha" style="@style/BottomDivider" />
+    <Button android:id="@id/cancel_button" android:layout_marginRight="@dimen/content_margin_right" android:text="@string/back_button_label" android:layout_toLeftOf="@id/next_button" android:layout_alignParentBottom="true" style="@style/Button" />
+    <Button android:id="@id/next_button" android:text="@string/next_button_label" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Button" />
+</RelativeLayout>

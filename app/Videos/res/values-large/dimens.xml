@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_font_size">17.0dip</dimen>
+    <dimen name="extra_large_font_size">20.0sp</dimen>
+    <dimen name="poster_art_large_width">164.0dip</dimen>
+    <dimen name="poster_art_large_height">243.0dip</dimen>
+    <dimen name="status_spinner_width">32.0dip</dimen>
+    <dimen name="status_spinner_height">32.0dip</dimen>
+    <dimen name="movie_grid_item_height">182.0dip</dimen>
+    <dimen name="movie_grid_item_large_height">480.0dip</dimen>
+    <dimen name="movie_grid_vertical_spacing">16.0dip</dimen>
+    <dimen name="movie_grid_horizontal_spacing">23.0dip</dimen>
+    <dimen name="download_policy_dialog_padding_vertical">16.0dip</dimen>
+    <dimen name="download_policy_dialog_padding_horizontal">32.0dip</dimen>
+    <dimen name="playback_buttons_hdelta">140.0dip</dimen>
+    <dimen name="more_movies_grid_height">216.0dip</dimen>
+    <dimen name="watch_poster_art_height">208.0dip</dimen>
+    <dimen name="watch_poster_art_width">147.0dip</dimen>
+    <dimen name="movie_grid_item_width">129.0dip</dimen>
+    <dimen name="offline_warning_bottom_margin">8.0dip</dimen>
+    <dimen name="offline_warning_font_size">@dimen/medium_font_size</dimen>
+    <dimen name="watch_side_margin">32.0dip</dimen>
+</resources>

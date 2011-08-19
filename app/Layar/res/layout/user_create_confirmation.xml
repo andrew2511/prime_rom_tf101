@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/buttonBar" android:layout_alignParentBottom="true" style="@style/ButtonsBar">
+        <Button android:id="@id/continueButton" android:text="@string/continueButton" style="@style/FullRowButton" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/buttonBar" android:layout_alignParentTop="true">
+        <TextView android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/success_user_create" />
+        <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/account_creation_confirmation_text" android:layout_below="@id/title" />
+    </RelativeLayout>
+</RelativeLayout>

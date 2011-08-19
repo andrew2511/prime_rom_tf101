@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">การเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="mobile_wifi_title">เครือข่ายมือถือและ Wifi</string>
+    <string name="wifi_title">เฉพาะการเชื่อมต่อ Wifi เท่านั้น</string>
+    <string name="setup_wizard_title">ตัวช่วยสร้างการตั้งค่า</string>
+    <string name="next_button_label">ถัดไป</string>
+    <string name="welecome_title">ยินดีต้อนรับ</string>
+    <string name="btn_start_text">เริ่ม</string>
+</resources>

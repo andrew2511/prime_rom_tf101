@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="offline">فصل عن الإنترنت</string>
+    <string name="retry_offline_content">اتصال الشبكة غير ثابت، هل تريد معاودة المحاولة أو استخدام التطبيق في نمط الفصل عن الإنترنت؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="close">إغلاق</string>
+    <string name="confirm_new_password">تأكييد كلمة المرور الجديدة</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="create_an_account">إنشاء حساب</string>
+    <string name="date">التاريخ</string>
+    <string name="delete">حذف</string>
+    <string name="delete_all">حذف الكل</string>
+    <string name="delete_mode_caption">نمط الحذف - انقر على بند لحذفه</string>
+    <string name="email_address">عنوان البريد الإلكتروني</string>
+    <string name="exit">خروج</string>
+    <string name="faq">أسئلة متكررة</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="free">مجاني</string>
+    <string name="forgot_password">هل نسيت كلمة المرور</string>
+    <string name="last_name">الاسم الأخير</string>
+    <string name="learn_more">اكتشف المزيد</string>
+    <string name="legal_notices">الإشعارات القانونية</string>
+    <string name="library">المكتبة</string>
+    <string name="manage_tips">إدارة النصائح</string>
+    <string name="more">المزيد</string>
+    <string name="more_options">مزيد من الخيارات</string>
+    <string name="my_magazines">مجلاتي - انقر للمشاهدة أو التنزيل</string>
+    <string name="new_password">كلمة المرور الجديدة ( 5 - 20 حرف)</string>
+    <string name="ok">موافق</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="password">كلمة المرور</string>
+    <string name="required">المطلوبة</string>
+    <string name="required_first_name">الاسم الأول المطلوب</string>
+    <string name="required_last_name">الاسم الأخير المطلوب</string>
+    <string name="required_email_address">عنوان البريد الإلكتروني المطلوب</string>
+    <string name="required_password">كلمة المرور المطلوبة</string>
+    <string name="retype_password">إعادة طباعة كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="share">مشاركة</string>
+    <string name="shop">تسوق</string>
+    <string name="text">نص</string>
+    <string name="title">عنوان</string>
+    <string name="turn_on_wifi">تشغيل الإنترنت اللاسلكي</string>
+    <string name="uninstall">إلغاء تثبيت</string>
+    <string name="welcome_to_zinio">أهلا بكم في زينيو</string>
+    <string name="email_non_lower_case">البريد الإلكتروني</string>
+    <string name="sd_card_non_lower_case">بطاقة SD</string>
+    <string name="show_password_non_lower_case">إظهار كلمة المرور</string>
+    <string name="show_tips_non_lower_case">إظهار النصائح</string>
+    <string name="forgot_password_underlined"><u>هل نسيت كلمة المرور؟</u></string>
+    <string name="terms_of_service_underlined"><u>شروط الخدمة</u></string>
+    <string name="label_share_email1">اقرأ مقالة</string>
+    <string name="label_share_email2">"نود أن نشترك بها معك! 
+
+ إن المقالة الأصلية مدرجة كإرفاق لهذه الرسالة. 
+
+ لمزيد من المعلومات اختر السمة الرقمية من www.zinio.com"</string>
+    <string name="label_receive_from_partners">أرجو أن ترسلوا لي عروضا خاصة من شركاء زينيو الموثوقين.</string>
+    <string name="label_receive_from_zinio">أرجو أن تبعثوا لي رسائل إلكترونية عن العروض الخاصة من زينيو.</string>
+    <string name="label_status_calculating">جاري الحساب...</string>
+    <string name="label_status_new">جديد</string>
+    <string name="label_status_not_downloaded">لم يتم تنزيله</string>
+    <string name="label_status_downloading">تم تنزيل %s%%</string>
+    <string name="label_tip_hide">إيقاف النصائح. يمكن إدارتها عبر المزيد من الإعدادات.</string>
+    <string name="toast_change_password_success">تم تغيير كلمة المرور بنجاح.</string>
+    <string name="toast_issue_download_complete_left">تنزيل لـ</string>
+    <string name="toast_issue_download_complete_right">مكتمل</string>
+    <string name="toast_no_articles">لا يوجد مقالات على الصفحة الحالية.</string>
+    <string name="toast_register_success">تم إنشاء الحساب بنجاح.</string>
+    <string name="toast_no_email_client">ملاحظة: تعذر تكوين بريد العميل</string>
+    <string name="progress_dialog_wait_msg">يرجى الانتظار...</string>
+    <string name="dialog_warning_title">تحذير</string>
+    <string name="dialog_no_connectivity_warning">تتطلب هذه الشاشة خط إنترنت. يرجى التحقق من اتصاليتك أو إعداد وضع الطائرة.</string>
+    <string name="dialog_passwords_not_matching_warning">كلمات المرور غير متطابقة.</string>
+    <string name="dialog_password_length_warning">يجب أن تحتوي كلمة المرور على 5 إلى 20 حرف.</string>
+    <string name="dialog_service_exception_warning">تمت مواجهة مشكلة في الخادم. يرجى المحاولة مرة أخرى لحظيا.</string>
+    <string name="dialog_uninstall_warning">هذا سيحذف جميع بيانات مكتبة زينيو ولن تكون قابلة للاسترجاع. سوف يتعين عليك تنزيل منشوراتك مرة أخرى.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"إنك لا تملك اتصالية لذا يتعذر تنزيل المنشورات. 
+
+ يمكنك تنزيل منشوراتك عند استعادة الاتصالية."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">يجب أن تكون كلمتي المرور القديمة والجديدة مختلفتان.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">كلمة المرور القديمة غير صحيحة.</string>
+    <string name="dialog_library_no_connectivity_warning">"الاتصال المطلوب لتنزيل المنشورات. 
+
+ يمكنك رغم ذلك قراءة المتاح حاليا في مكتبتك وتنزيل المنشورات عند استعادة الاتصالية."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"اسم المستخدم وكلمة المرور الخاصة بك غير صحيحة. 
+
+ يرجى المحاولة مرة أخرى."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">وصل هذا الحساب إلى أقصى عدد من الأدوات المخولة. يرجى إعادة تخويل جهاز مرة أخرى.</string>
+    <string name="dialog_register_account_already_exists">عنوان البريد الإلكتروني موجود مسبقا. يرجى اختيار عنوان مختلف.</string>
+    <string name="dialog_register_empty_email_error">يرجى إدخال عنوان بريد إلكتروني.</string>
+    <string name="dialog_register_first_name_short_error">يرجى إدخال الاسم الأول.</string>
+    <string name="dialog_register_first_name_long_error">لا يجب أن يتعدى الاسم الأول 80 حرفا.</string>
+    <string name="dialog_register_invalid_email_error">يرجى إدخال عنوان بريد إلكتروني صالح.</string>
+    <string name="dialog_register_last_name_short_error">يرجى إدخال الاسم الأخير.</string>
+    <string name="dialog_register_last_name_long_error">لا يجب أن يتعدى الاسم الأخير 80 حرفا.</string>
+    <string name="dialog_register_other_error">حدث خطأ. يرجى المحاولة مرة أخرى.</string>
+    <string name="dialog_register_password_empty">يرجى إدخال كلمة مرور جديدة.</string>
+    <string name="dialog_sign_out_disabled_warning">لا يوجد مستخدم مسجل لتسجيل الخروج.</string>
+    <string name="dialog_app_version_not_supported_title">التحديث متوفر</string>
+    <string name="dialog_app_version_not_supported_msg">تتوفر نسخة أحدث من Zinio Reader. لم يعد الدعم متوفرا لهذه النسخة. الرجاء التحديث لأحدث إصدار من Zinio Reader</string>
+    <string name="dialog_delete_all_title">حذف الكل</string>
+    <string name="dialog_delete_all_msg">"لقد أشرت أنك تود حذف كل المنشورات من مكتبك. 
+
+ لا تقلق، فلن تفقد أي شيء نهائيا. 
+
+ الحذف يزيله من جهازك فقط. سيكون بمقدورك تنزيل المنشور مرة أخرى إن لزم الأمر."</string>
+    <string name="dialog_not_enough_space_title">لا توجد مساحة كافية</string>
+    <string name="dialog_not_enough_space_msg">لا يحتوي هذا الجهاز على مساحة قرص كافية لتنزيل المنشور المحدد. يرجى تحرير %d MB ميغا بايت على الأقل وحاول مرة أخرى.</string>
+    <string name="dialog_sd_card_not_available_title">بطاقة الذاكرة المؤمنة غير متوفرة</string>
+    <string name="dialog_sd_card_not_available_msg">تمت إزالة بطاقة الذاكرة المؤمنة تطبيق زينيو سينتهي. يرجى إدخال بطاقة الذاكرة المؤمنة وابدأ التطبيق ثانية.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">بطاقة SD ممتلئة</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">بطاقة SD ممتلئة. الرجاء إفساح بعض المساحة.</string>
+    <string name="dialog_shop_no_connectivity_title">المخزن غير متوفر</string>
+    <string name="dialog_shop_no_connectivity_msg">الاتصال مطلوب للوصول إلى المخزن. يرجى التحقق من اتصاليتك أو إعداد وضع الطائرة.</string>
+    <string name="dialog_sign_out_title">تسجيل الخروج</string>
+    <string name="dialog_sign_out_msg">"هل انت متأكد أنك تود تسجيل الخروج؟
+
+ سوف يطلب منك تسجيل الدخول ثانية للوصول إلى تطبيق زينيو."</string>
+    <string name="dialog_tip_title">نصيحة</string>
+    <string name="dialog_manage_tips_title">إدارة النصائح</string>
+    <string name="non_supported_device_tip_title">أهلا بكم في زينيو</string>
+    <string name="non_supported_device_tip_msg">"تتم قراءة محتوى زينيو الغني بأفضل صورة على الأجهزة التي تستخدم شاشة 800x480 على الأقل. 
+
+ يمكنك متابعة استخدام التطبيق لكن كن على علم بأن التجربة قد لا تكون ممتازة."</string>
+    <string name="no_text_tip_msg">بعض المطبوعات لا تحتوي على مقالات نصية. يمكن استخدام جدول المحتويات أو الفهرس المرئي للعثور على الصفحة التي تبحثون عنها.</string>
+    <string name="page_tip0_1">"نفذ ضغطة منفردة لمشاهدة قائمة شريط الأدوات. 
+ يمكنك اختيار جدول محتويات مرئي أو نصي."</string>
+    <string name="page_tip1">"نصائح للبدء: 
+
+* اقلب الصفحة بالضغط يمينا أو يسارا
+ * اضغط مرتين على الشاشة للتكبير 
+* اختر زر 'text' الظاهر على الصفحة الأولى لمقالة معينة واقرأ."</string>
+    <string name="wifi_connection_tip">"تم الكشف عن اتصال شبكة 3G. 
+
+ رغم ذلك يمكن تنزيلها على 3G، لكن ننصح بالاتصال اللاسلكي للحصول على تجربة ممتازة."</string>
+    <string name="dialog_available_memory_not_enough_title">مساحة ذاكرة غير كافية</string>
+    <string name="dialog_available_memory_not_enough_msg">حجم تراكمي غير كاف</string>
+    <string name="dialog_delete_title">حذف</string>
+    <string name="delete_done">تم</string>
+    <string name="dialog_delete_from_library">هل أنت متأكد أنك تريد حذف %s</string>
+    <string name="internet_connection_tip">يتوجب وجود اتصال إنترنت لتنزيل المطبوعات. الرجاء تشغيل الإنترنت والمحاولة مرة أخرى.</string>
+    <string name="dialog_change_password_old_password_empty">الرجاء إدخال كلمة المرور القديمة.</string>
+    <string name="server_error_app_version_not_supported_message">التحديث متوفر تتوفر نسخة أحدث من Zinio Reader. لم يعد الدعم متوفرا لهذه النسخة. الرجاء التحديث لأحدث إصدار من Zinio Reader</string>
+    <string name="server_error_authentication_failed">"اسم المستخدم وكلمة المرور الخاصة بك غير صحيحة. 
+
+ يرجى المحاولة مرة أخرى. كلمة المرور القديمة غير صحيحة."</string>
+    <string name="server_error_device_not_authorized">لم يتم تخويل هذا الجهاز ليتم استخدامه بشكل صحيح مع حساب زينيو. لإعادة تخويل جهازك، الرجاء تسجيل الخروج من التطبيق ثم إعادة تسجيل الدخول. إذا استمررت بمواجهة مشاكل، الرجاء الاتصال بمركز خدمة عملاء زينيو.</string>
+    <string name="server_error_invalid_login">البريد الإلكتروني غير صالح. يرجى إدخال بريد إلكتروني صالح.</string>
+    <string name="server_error_invalid_new_password">كلمة المرور غير صالحة، الرجاء اختيار واحدة أخرى.</string>
+    <string name="server_error_issue_not_supported_for_device">إصدار غير صالح. الرجاء الاتصال بمركز خدمة العملاء على support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">وصل هذا الحساب إلى أقصى عدد من الأدوات المخولة. يرجى إعادة تخويل جهاز مرة أخرى.</string>
+    <string name="server_error_packing_list_not_found">قائمة التعبئة مفقودة الرجاء الاتصال بمركز خدمة العملاء على support@zinio.com.</string>
+    <string name="server_error_login_exists">عنوان البريد الإلكتروني موجود مسبقا. يرجى اختيار عنوان مختلف.</string>
+    <string name="server_error_system_error">ظهر خطأ في الملقم. يرجى المحاولة لاحقا.</string>
+    <string name="server_error_system_not_available">قد لا تتوفر أجزاء من التطبيق في هذا الوقت. إذا لم تتمكن من الوصول إلى أي شيء، الرجاء المحاولة مرة أخرى لاحقا.</string>
+    <string name="server_error_no_items_in_library">لا يوجد لديك أية عناوين حاليا. يمكن العثور على العناوين المتوفرة في علامة تبويب التسوق.</string>
+    <string name="server_error_user_not_entitled">المستخدم غير مؤهل. الرجاء الاتصال بمركز خدمة العملاء على support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">هل تود تقييم زينيو ريدر الآن؟</string>
+    <string name="dialog_outofdate_issue_removed_msg">تمت إزالة الإصدار منتهي الصلاحية وسيتم تنزيله لاحقا.</string>
+    <string name="dialog_review_msg">ملاحظاتك مهمة بالنسبة لنا، الرجاء تزويدنا بتعليقاتك الآن.</string>
+    <string name="dialog_review_title">الرجاء تزويدنا بملاحظاتك.</string>
+    <string name="server_error_invalid_newstand">كشك صحف غير صالح. الرجاء الاتصال بمركز خدمة العملاء على support@zinio.com.</string>
+</resources>

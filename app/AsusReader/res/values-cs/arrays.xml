@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Odstranit zvýraznění</item>
+        <item>Storno</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Přidat zvýraznění</item>
+        <item>Překlad</item>
+        <item>Převod textu na řeč</item>
+        <item>Storno</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Angličtina</item>
+        <item>Francouzština</item>
+        <item>Japonština</item>
+        <item>Čínština</item>
+        <item>Němčina</item>
+        <item>Zjednodušená čínština</item>
+        <item>Ruština</item>
+        <item>Španělština</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Z angličtiny do čínštiny</item>
+        <item>Z angličtiny do francouzštiny</item>
+        <item>Z angličtiny do ruštiny</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Ustawienia elementu widget pogody</string>
+    <string name="refreshBtn">Odśwież</string>
+    <string name="saveBtn">Zapisz</string>
+    <string name="cancelBtn">Anuluj</string>
+    <string name="nocityfound">Nie znaleziono miasta</string>
+    <string name="humidity">Wilgotność</string>
+    <string name="winds">Wiatr</string>
+    <string name="infor1">Brak</string>
+    <string name="searchlistviewtitle">Wybierz miasto</string>
+    <string name="wait">Czekaj...</string>
+    <string name="refreshFail">Odświeżanie nie powiodło się. Spróbuj ponownie.</string>
+    <string name="searchFail">Wyszukiwanie nie powiodło się. Spróbuj ponownie.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SW</string>
+    <string name="dirWSW">WSW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">Wprowadź miasto:</string>
+    <string name="manualtitle">Ustaw lokalizację ręcznie</string>
+    <string name="refreshprogresstitle">Aktualizuj informacje o pogodzie</string>
+    <string name="refreshprogresscontent">Odśwież teraz. Czekaj...</string>
+    <string name="searchprogresstitle">Szukaj miasta</string>
+    <string name="searchprogresscontent">Szukaj teraz. Czekaj...</string>
+    <string name="no_network">Sieć niedostępna. Nie można zaktualizować informacji o pogodzie.</string>
+    <string name="no_provider">Nie wszystkie informacje o lokalizacji są aktualnie dostępne. Włącz sieci bezprzewodowe i satelity GPS w Ustawieniu Lokalizacja i Zabezpieczenie w celu szybszego i bardziej dokłądnego wykrywania lokalizacji.</string>
+    <string name="title_location">Lokalizacja</string>
+    <string name="content_autorefreshed">Automatyczne odświeżanie mojej bieżącej lokalizacji</string>
+    <string name="content_manual">Wyszukiwanie ręczne</string>
+    <string name="title_updatefreq">Aktualizuj częstotliwość</string>
+    <string name="content_updatetime">Czas ostatniej aktualizacji</string>
+    <string name="content_selectfreq">Wybierz częstotliwość aktualizacji</string>
+    <string name="title_others">Inne</string>
+    <string name="content_tempunit">Jednostka temperatury</string>
+</resources>

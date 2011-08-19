@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/booklist_bar_vibe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0px" android:id="@id/app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:id="@id/line1" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_marginLeft="20.0px" android:layout_toRightOf="@id/app_title" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0px" android:id="@id/vibe_welcome" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_toRightOf="@id/line1" android:layout_centerVertical="true" />
+    <Button android:id="@id/vibe_login_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:minWidth="86.0px" android:text="@string/login" android:drawableLeft="@drawable/login" android:drawablePadding="5.0px" android:layout_toRightOf="@id/vibe_welcome" android:layout_centerVertical="true" android:onClick="onClick" style="@style/HoloButton" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line3" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" android:layout_marginRight="10.0px" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/vibe_back_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0px" android:minWidth="86.0px" android:text="@string/back_to_mylibrary" android:drawableLeft="@drawable/back" android:drawablePadding="5.0px" android:onClick="onClick" style="@style/HoloButton" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line2" android:background="@drawable/actionbar_divider" android:layout_width="1.0px" android:layout_height="30.0px" />
+    </LinearLayout>
+</RelativeLayout>

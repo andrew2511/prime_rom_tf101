@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="20001" android:versionName="2.0.1" android:installLocation="auto" package="com.google.android.apps.books"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="12" />
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher_books" android:name=".app.TabletBooksApplication" android:hardwareAccelerated="true">
+        <activity android:theme="@style/Theme.Light" android:name=".app.BooksActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.books.intent.action.READ" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/com.google.android.apps.books.volume" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="books.google.com" android:pathPrefix="/books/reader" />
+                <data android:scheme="http" android:host="books.google.com" android:pathPrefix="/ebooks/reader" />
+                <data android:scheme="http" android:host="www.google.com" android:pathPrefix="/books/reader" />
+                <data android:scheme="http" android:host="www.google.com" android:pathPrefix="/ebooks/reader" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="googlebooks" />
+            </intent-filter>
+        </activity>
+        <provider android:name=".provider.BooksProvider" android:exported="false" android:authorities="com.google.android.apps.books" />
+        <service android:name=".service.ContentFetchService" />
+        <service android:name=".service.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter" />
+        </service>
+        <service android:name=".service.SetSyncableService" />
+        <receiver android:name=".app.AccountsReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".appwidget.BooksAppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+        <receiver android:name=".appwidget.BooksAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
+        </receiver>
+    </application>
+</manifest>

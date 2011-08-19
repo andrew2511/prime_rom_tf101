@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="long_click_menu_db">
+        <item>@string/connect</item>
+        <item>@string/edit</item>
+        <item>@string/delete</item>
+    </array>
+    <array name="long_click_menu_net">
+        <item>@string/connect</item>
+        <item>@string/edit</item>
+    </array>
+</resources>

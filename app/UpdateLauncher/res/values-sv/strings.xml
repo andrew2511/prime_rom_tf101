@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Startprogram för uppdatering</string>
+    <string name="TITLE_DETECTED">Systemuppdateringsfil identifierad</string>
+    <string name="TITLE_SYSTEM_UPDATE">Systemuppdatering</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Systemuppdatering tillgänglig</string>
+    <string name="MSG_PRELIMINARY">"Systemuppdateringen tar ungefär tio minuter. Det går inte att använda enheten under uppdateringen, inklusive nödsamtal.
+
+Anslut nätkabeln eller kontrollera att batteritiden är minst 15 %.
+
+Vill du fortsätta med systemuppdateringen?"</string>
+    <string name="BUTTON_CANCEL">Avbryt</string>
+    <string name="MSG_RESUME">Klicka för att starta systemuppdateringen.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Systemuppdatering avbröts</string>
+    <string name="MSG_UPDATE_DONE">Systemet har uppdaterats.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Uppdateringsfilen finns inte.</string>
+    <string name="MSG_UPDATE_FAIL">Systemuppdatering misslyckades.</string>
+    <string name="MSG_UPDATE_RESTORE">Systemet återställdes till föregående konfiguration</string>
+    <string name="MSG_BATTERY_LOW">"Systemuppdateringen stoppades på grund av låg batterinivå.
+
+Anslut nätkabeln före systemuppdateringen."</string>
+    <string name="TITLE_SELECT_FILE">Välj uppdateringspaket</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Uppdateringspaketet är inte kompatibelt med din aktuella programvara. Kontrollera din programvaruversion och versionsnummer under Settings (inställningar) och pröva med rätt uppdateringspaket.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Uppdateringspaketet är äldre än din aktuella programvaruversion. Pröva med ett nyare uppdateringspaket.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Okänt fel.</string>
+</resources>

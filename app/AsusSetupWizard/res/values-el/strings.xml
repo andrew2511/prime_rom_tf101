@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Σύνδεση Internet</string>
+    <string name="mobile_wifi_title">Φορητό δίκτυο και WiFi</string>
+    <string name="wifi_title">Μόνον σύνδεση WiFi</string>
+    <string name="setup_wizard_title">Οδηγός Εγκατάστασης</string>
+    <string name="next_button_label">Επόμενο</string>
+    <string name="welecome_title">Καλώς ορίσατε</string>
+    <string name="btn_start_text">Έναρξη</string>
+</resources>

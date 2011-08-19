@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cliente DM</string>
+    <string name="minutes">minutos</string>
+    <string name="postpone">Adiar</string>
+    <string name="update">Actualizar</string>
+    <string name="firmware_update_title">Actualização de firmware</string>
+    <string name="firmware_update_fail">"A actualização falhou.
+
+O seu dispositivo irá voltar à configuração original."</string>
+    <string name="low_battery_warning">"O sistema precisa de pelo menos %1$d%% de bateria para continuar com o processo de actualização do sistema.
+Carregue a bateria antes de iniciar a actualização do sistema."</string>
+    <string name="confirmDownload_textok">"Esta actualização melhora a estabilidade e não eliminará os seus dados. Sugerimos que actualize para esta versão.
+Prima SIM para aceitar a actualização."</string>
+    <string name="confirmDownload_textcancel">Prima NÃO para rejeitar a actualização.</string>
+    <string name="confirmDownload_textwifi">Recomendamos que utilize um ponto de acesso Wi-Fi gratuito para transferir a actualização.</string>
+    <string name="confirmDownload_textwifi2">Se premir o botão Mais Tarde, poderá continuar a transferência a qualquer momento premindo a notificação.</string>
+    <string name="btn_text_later">Mais tarde</string>
+    <string name="confirmDownload_dialog_title">Atenção, está a utilizar o serviço de roaming.</string>
+    <string name="downloading">A transferir firmware…</string>
+    <string name="install_time">Tempo de instalação estimado:</string>
+    <string name="postponetime_text">Tempo de adiamento:</string>
+    <string name="install">Instalar</string>
+    <string name="reach_max_net_fail">Transferência cancelada pelo servidor, volte a tentar mais tarde.</string>
+    <string name="dlg_title_checking">Verificação de integridade.</string>
+    <string name="dlg_msg_checking">A verificar a integridade do seu ficheiro de firmware.</string>
+    <string name="cannot_set_to_browser">Não foi possível definir para o navegador Web.</string>
+    <string name="upgrade_error">Erro na actualização, volte a transferir o pacote de actualização.</string>
+    <string name="start_to_download">Começar a transferir o pacote de actualização crítica.</string>
+    <string name="start_to_upgrade">Começar a instalar o pacote de actualização.</string>
+    <string name="start_NI_dmSession">A rede está a iniciar uma sessão DM, aceitar?</string>
+    <string name="download_finished">Transferência do firmware concluída…</string>
+    <string name="download_in_progress">Transferência do novo firmware em curso</string>
+    <string name="out_of_mem_warning">"Espaço insuficiente,
+desinstale algumas aplicações e volte a tentar."</string>
+    <string name="ui_alert_input_hint">Introduza o texto</string>
+    <string name="ui_alert_input_numeric_hint">Introduza um valor numérico</string>
+    <string name="ui_alert_input_phone_number_hint">Introduza o número de telefone</string>
+    <string name="check_for_update">Verificar actualização</string>
+    <string name="no_new_fota_update">Neste momento não existe qualquer actualização para o seu dispositivo.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancelar</string>
+    <string name="confirm_download_btn_Yes">Sim</string>
+    <string name="confirm_download_btn_No">Não</string>
+    <string name="confirm_update_title">Actualização de Firmware ASUS.</string>
+    <string name="asus_received_title">Serviço de actualização do firmware do sistema da Asus</string>
+    <string name="received_message">Está disponível uma nova actualização do firmware do sistema, prima para actualizar.</string>
+    <string name="low_battery_title">Actualização do firmware do sistema terminada</string>
+    <string name="dl_received_ticker">Está disponível uma nova actualização do firmware do sistema.</string>
+    <string name="dl_received_message">Está disponível uma nova actualização do firmware do sistema, prima para transferir.</string>
+    <string name="confirmDownload_text1">Deseja transferir a seguinte actualização de firmware do sistema?</string>
+    <string name="received_ticker">Está disponível uma nova actualização do firmware do sistema.</string>
+    <string name="update_dialog_text">"Foi transferida uma nova actualização do firmware do sistema para o seu dispositivo. Instalar agora? 
+"</string>
+    <string name="prepare_dm_download">A preparar a transferência do firmware do sistema...</string>
+    <string name="system_update_activity">Actualização do firmware do sistema</string>
+    <string name="has_new_fota_update">Existe uma actualização do firmware do sistema para o seu dispositivo. Consulte as notificações.</string>
+    <string name="update_dialog_text2">Esta actualização do firmware do sistema irá melhorar a estabilidade e não eliminará os seus dados. Recomendamos que actualize para esta versão.</string>
+</resources>

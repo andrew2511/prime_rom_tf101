@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Opdater starter</string>
+    <string name="TITLE_DETECTED">Systemopdateringsfil fundet</string>
+    <string name="TITLE_SYSTEM_UPDATE">Systemopdatering</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Systemopdatering til rådighed</string>
+    <string name="MSG_PRELIMINARY">"Systemopdateringen tager ca. 10 minutter. Det er ikke muligt at bruge enheden under opdateringen, herunder nødopkald.
+
+Tilslut venligst strømforsyningen, eller sørg for at der er mindst 15% tilbage på batteriet.
+
+Ønsker du at fortsætte med systemopdateringen?"</string>
+    <string name="BUTTON_CANCEL">Annuller</string>
+    <string name="MSG_RESUME">Tryk for at starte systemopdateringen.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Systemopdateringen afbrudt</string>
+    <string name="MSG_UPDATE_DONE">Systemet er blevet opdateret.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Opdateringsfilen eksistere ikke.</string>
+    <string name="MSG_UPDATE_FAIL">Systemopdateringen mislykkedes.</string>
+    <string name="MSG_UPDATE_RESTORE">Systemet blev gendannet til den forrige konfiguration</string>
+    <string name="MSG_BATTERY_LOW">"Systemopdateringen blev afbrudt på grund af for lavt batteriniveau.
+
+Tilslut venligst strømforsyningen, før du genoptager systemopdateringen."</string>
+    <string name="TITLE_SELECT_FILE">Vælg opdateringspakke</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Opdateringspakken er ikke kompatibel med din nuværende software, tjek venligst din software-version og versionsnummeret i Indstillinger og prøv den korrekte opdateringspakke.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Opdateringspakken er ældre end din nuværende software-version, prøv venligst en nyere opdateringspakke.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Ukendt fejl.</string>
+</resources>

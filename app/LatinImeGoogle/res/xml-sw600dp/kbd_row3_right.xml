@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case latin:mode="email">
+            <Key latin:keyWidth="-8.899999%p" latin:keyEdgeFlags="right" latin:keyLabel="\@" latin:keyXPos="-8.899999%p" />
+        </case>
+        <case latin:mode="url">
+            <Key latin:keyWidth="-8.899999%p" latin:popupCharacters="_" latin:keyEdgeFlags="right" latin:keyLabel="-" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" latin:keyXPos="-8.899999%p" />
+        </case>
+        <case latin:imeAction="actionSearch">
+            <Key latin:keyWidth="-8.899999%p" latin:popupCharacters="+" latin:keyEdgeFlags="right" latin:keyLabel=":" latin:manualTemporaryUpperCaseCode="43" latin:keyHintIcon="@drawable/key_hint_plus_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_plus_large_holo" latin:keyXPos="-8.899999%p" />
+        </case>
+        <default>
+            <Key latin:keyWidth="-8.899999%p" latin:keyEdgeFlags="right" latin:keyStyle="smileyKeyStyle" latin:keyXPos="-8.899999%p" />
+        </default>
+    </switch>
+</merge>

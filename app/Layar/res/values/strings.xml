@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_default">AR</string>
+    <string name="country_code_default">AUTO</string>
+    <string name="distance_unit_default">METRIC</string>
+    <string name="autotrigger_default">ALWAYS ASK</string>
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="multiple_login_email_subject">My account is being used by someone else</string>
+    <string name="layer_report_problem_body" formatted="false">I spotted a problem in %layername%. Please take a look at it!</string>
+    <string name="gallery_yours">@string/layers</string>
+    <string name="gallery_categories">@string/filter_item_categories</string>
+    <string name="filter_item_categories_one">%0%</string>
+    <string name="filter_item_categories_two" formatted="false">%0%, %1%</string>
+    <string name="filter_item_tags_one">%0%</string>
+    <string name="filter_item_tags_two" formatted="false">%0%, %1%</string>
+    <string name="unpublished_email_subject" formatted="false">%layername% unpublished</string>
+    <string name="app_name">Layar</string>
+    <string name="layer">Layer</string>
+    <string name="layers">Layers</string>
+    <string name="spots">Spots</string>
+    <string name="no_layers_popular">"Oops!
+ There are no layers in your current location."</string>
+    <string name="no_layers_popular2">"
+Select from the tabs above for a wider search range."</string>
+    <string name="share_bottom">Share</string>
+    <string name="add_to_favorites_bottom_button">Add to Favorites</string>
+    <string name="ok">Ok</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="apply">Apply</string>
+    <string name="retry">Retry</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
+    <string name="more">More</string>
+    <string name="back">Back</string>
+    <string name="next">Next ></string>
+    <string name="skip">Skip</string>
+    <string name="continueButton">Continue</string>
+    <string name="use">Use</string>
+    <string name="intro">Intro</string>
+    <string name="yes_i_do">Yes, I do</string>
+    <string name="no_i_dont">"No, I don't"</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="toast_gps_disabled">GPS disabled</string>
+    <string name="openGPSSettingPrompt">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="camera_failed">Unable to access camera hardware</string>
+    <string name="error_no_connection">Unable to connect</string>
+    <string name="error_no_active_connection">There is no active connection</string>
+    <string name="unable_to_connect">Unable to connect to the Layar server, please try again later</string>
+    <string name="error_out_of_memory">There is not enough memory to start application. Please close some other applications and try again.</string>
+    <string name="error_layer_deleted">This layer is not available anymore</string>
+    <string name="error_cant_access_layer">"Sorry, we can't access the layer at the moment"</string>
+    <string name="error_maintenance">We are doing some maintenance in the Layar servers, service will be restored soon</string>
+    <string name="error_maintenance_title">Down for maintenance</string>
+    <string name="camera_blocking_message">Some application blocks camera, trying to reinitialize</string>
+    <string name="camera_impossible_to_initialize">"Can't initialize camera, please restart layer"</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="view_reality">Reality</string>
+    <string name="view_map">Map</string>
+    <string name="view_list">List</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_nearby">@string/nearby</string>
+    <string name="menu_yours">My</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_filter">@string/custom_filter_layer_settings</string>
+    <string name="menu_share">@string/share</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_layer_info">Layer info</string>
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_about">About Layar</string>
+    <string name="menu_user">Account</string>
+    <string name="menu_goto_ar">Reality view</string>
+    <string name="menu_goto_ar_2">Camera view</string>
+    <string name="menu_reset">Reset all</string>
+    <string name="menu_favorite">Add to Favorites</string>
+    <string name="menu_unfavorite">Remove from Favorites</string>
+    <string name="menu_view_map">View on Map</string>
+    <string name="menu_launch_layer">Launch layer</string>
+    <string name="menu_remove_all">Remove all</string>
+    <string name="menu_new_search">New search</string>
+    <string name="menu_clear_recent">Clear Recent</string>
+    <string name="menu_options">Options</string>
+    <string name="dialog_remove_all_title">@string/menu_remove_all</string>
+    <string name="dialog_remove_all_message">Do you really want to remove all items?</string>
+    <string name="trigger_always">Always ask</string>
+    <string name="trigger_launch">Launch without asking</string>
+    <string name="trigger_never">Never launch</string>
+    <string name="trigger_available">This object has an automatic action assigned to it.</string>
+    <string name="trigger_dont_show">Always launch without asking</string>
+    <string name="trigger_do_launch_action">Launch</string>
+    <string name="trigger_dont_launch_action">"Don't Launch"</string>
+    <string name="trigger_title">Automatic actions</string>
+    <string name="trigger_name">Show trigger alerts</string>
+    <string name="trigger_summary2">For webpages, videos and sounds.</string>
+    <string name="action_chooser_title">Choose application</string>
+    <string name="action_context_menu_title">Choose action</string>
+    <string name="prefs_user_settings">User settings</string>
+    <string name="prefs_grid_category">Camera view grid</string>
+    <string name="prefs_grid">Show grid</string>
+    <string name="prefs_hide_grid">Hide grid</string>
+    <string name="prefs_hide_grid_summary">Remove the grid from the reality view</string>
+    <string name="prefs_hide_grid_summary2">Remove the grid from the Camera View</string>
+    <string name="prefs_trigger">Auto launch preferences</string>
+    <string name="prefs_trigger_summary">Enable/disable automatic launching of actions without confirmation</string>
+    <string name="prefs_trigger_help">The camera view can automatically trigger actions when you are close by, like opening a webpage and playing a sound or video.</string>
+    <string name="prefs_trigger_tel">Call actions</string>
+    <string name="prefs_trigger_sms">SMS actions</string>
+    <string name="prefs_trigger_mailto">E-mail actions</string>
+    <string name="prefs_trigger_http">Web page actions</string>
+    <string name="prefs_trigger_audio">Audio actions</string>
+    <string name="prefs_trigger_video">Video actions</string>
+    <string name="prefs_developer_settings">Developer settings</string>
+    <string name="prefs_screenshot_nocamera">Create transparent screenshots</string>
+    <string name="prefs_screenshot_nocamera_summary">Leave out the camera image from screenshot</string>
+    <string name="prefs_location_settings">Location settings</string>
+    <string name="prefs_location_fixed">Use fixed location</string>
+    <string name="prefs_location_fixed_summary">Test your layers at a fixed location</string>
+    <string name="prefs_location_lat">Latitude</string>
+    <string name="prefs_location_lon">Longitude</string>
+    <string name="prefs_location_countrycode">Country</string>
+    <string name="prefs_location_country">Select country</string>
+    <string name="gallery_title">Catalog</string>
+    <string name="gallery_favorites">Favorites</string>
+    <string name="gallery_recent">Recent</string>
+    <string name="gallery_catalog">@string/layers</string>
+    <string name="gallery_settings">@string/menu_settings</string>
+    <string name="gallery_local">@string/prefs_location_countrycode</string>
+    <string name="gallery_intl">Worldwide</string>
+    <string name="gallery_nearby">@string/nearby</string>
+    <string name="gallery_featured">Featured</string>
+    <string name="gallery_polular">Popular</string>
+    <string name="gallery_new">New</string>
+    <string name="gallery_all">All</string>
+    <string name="gallery_paid">Paid</string>
+    <string name="gallery_free">Free</string>
+    <string name="gallery_dev">Test</string>
+    <string name="gallery_purchased">Purchased</string>
+    <string name="gallery_launch">@string/gallery_free</string>
+    <string name="gallery_loading">Loading layers...</string>
+    <string name="gallery_waiting_location">Waiting for location...</string>
+    <string name="gallery_category">Categories > %name%</string>
+    <string name="share_chooser_title">Share this layer</string>
+    <string name="share_layer">Share layer</string>
+    <string name="share_layer_email">@string/user_email</string>
+    <string name="share_layer_socials">Share to Social Networks</string>
+    <string name="share_layer_socials_new">Facebook and Twitter</string>
+    <string name="share_screenshot">Share screenshot</string>
+    <string name="share_success">Layer has been shared on</string>
+    <string name="share_success_message">Sharing is successfully done!</string>
+    <string name="share_fail">There was a problem while sharing!</string>
+    <string name="share_message_template" formatted="false">Check out %layername% on the Layar Reality Browser!</string>
+    <string name="share_screenshot_template" formatted="false">Check out this picture I took using %layername% on the Layar Reality Browser!</string>
+    <string name="share_add_location">add location</string>
+    <string name="share_location_fail">Fail to find location name</string>
+    <string name="share_subject">Check out this cool layer!</string>
+    <string name="share_button">Share layer</string>
+    <string name="share_text">Check out this cool layer [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="layer_details_subject" formatted="false">Check out %title% on the Layar Reality Browser!</string>
+    <string name="layer_details_body" formatted="false">"I'm using the Layar Reality Browser on my %android% and wanted to share this great layer I discovered! 
+
+%name% 
+
+%description% 
+Published by: %publisher% 
+Price: %price% 
+Link: %link% 
+See more great layers and download the Layar Reality Browser for iPhone or Android at http://www.layar.com/"</string>
+    <string name="wow_message">Wow! I love this layer!</string>
+    <string name="sharing_message_twitter_succeful">Layer has been shared on Twitter!</string>
+    <string name="sharing_message_facebook_succeful">Layer has been shared on Facebook!</string>
+    <string name="sharing_message_twitter_fail">There was a problem sharing layer with Twitter:</string>
+    <string name="sharing_message_facebook_fail">There was a problem sharing layer with Facebook:</string>
+    <string name="sharing_facebook">Share on Facebook</string>
+    <string name="sharing_twitter">Share on Twitter</string>
+    <string name="share_purpose">Please link one of accounts:</string>
+    <string name="twitter_email_info">"If you don't already have a Layar account, enter your email address below to login with Twitter."</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share_status">Share status</string>
+    <string name="share_login_alert_dialog">A Layar account will be created when you connect to a social network. Do you already have a Layar account?</string>
+    <string name="share_login_alert_dialog_title">Do you have a Layar account?</string>
+    <string name="screenshot_hold_steady">Making screenshot, hold steady...</string>
+    <string name="screenshot_processsing">Processing screenshot</string>
+    <string name="screenshot_chooser_title">Share this screenshot</string>
+    <string name="screenshot_subject">\#layar #screenshot %title%</string>
+    <string name="screenshot_text">Have a look at this cool #layar #screenshot! [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="screenshot_subject_nearby">"\#layar #screenshot Look what's around me"</string>
+    <string name="screenshot_text_nearby">Have a look at this cool #layar #screenshot!</string>
+    <string name="screenshot_camera_format">Sorry. The camera image format is unsupported and will not be shown in the screenshot.</string>
+    <string name="screenshot_no_sdcard">No SD-card available for storage</string>
+    <string name="screenshot_out_of_memory">There is not enough memory to make screenshot. Please close some other applications and try again.</string>
+    <string name="screenshot_saved_as">Saved as: %path%</string>
+    <string name="screenshot_retake">Retake</string>
+    <string name="screenshot_preview">Preview</string>
+    <string name="screenshot_send_email">Send by Email</string>
+    <string name="screenshot_save_to_library">Save to Library</string>
+    <string name="no_result_recent">No recently opened layers</string>
+    <string name="no_result_search">No results for %query%</string>
+    <string name="search_hint">Search Layar</string>
+    <string name="search_hint2">Search layers and spots</string>
+    <string name="search_hint3">Search layers</string>
+    <string name="search_results" formatted="false">Results for \"%query%\"</string>
+    <string name="search_no_results">No results found, try a different keyword</string>
+    <string name="local_no_results">No local layers found</string>
+    <string name="category_no_results">No layers found in this category</string>
+    <string name="search_no_results_without_try">No results...</string>
+    <string name="gallery_no_results">No layers found</string>
+    <string name="search_no_spots">No spots found</string>
+    <string name="search_no_layers">@string/gallery_no_results</string>
+    <string name="search_layers_result" formatted="false">Layers (%num%)</string>
+    <string name="search_result" formatted="false">%num% results for %query%</string>
+    <string name="search_spots_result" formatted="false">Spots (%num%)</string>
+    <string name="poi_action_directions">Take me there</string>
+    <string name="poi_action_directions2">Directions</string>
+    <string name="poi_action_lock">Lock in view</string>
+    <string name="poi_action_unlock">Unlock in view</string>
+    <string name="actions">Actions</string>
+    <string name="distance_label">Distance</string>
+    <string name="distance_unit">Distance unit</string>
+    <string name="distance_unit_metric">Kilometers</string>
+    <string name="distance_unit_us">Miles</string>
+    <string name="upgrade">Upgrade Layar</string>
+    <string name="upgrade_pos">Upgrade Now</string>
+    <string name="upgrade_neg">@string/close</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_add">@string/menu_favorite</string>
+    <string name="favorites_remove">@string/menu_unfavorite</string>
+    <string name="favorites_dialog_add">Add layer to favorites?</string>
+    <string name="favorites_dialog_remove">Remove layer from favorites?</string>
+    <string name="favorites_add_button_text">Add a layer to your favorites</string>
+    <string name="favorites_edit_alert_title">Unsaved changes</string>
+    <string name="favorites_edit_alert_message">Your changes will be lost. Do you want to continue?</string>
+    <string name="audio_loading">Loading audio</string>
+    <string name="audio_error">Sorry, this audio cannot be played.</string>
+    <string name="audio_error_title">Cannot play audio</string>
+    <string name="video_loading">Loading video</string>
+    <string name="details_no_content">No Content</string>
+    <string name="details_loading">Loading...</string>
+    <string name="copy_link">Copy link</string>
+    <string name="copy_message">Link was copied</string>
+    <string name="copy_message_fail">"There's nothing to copy"</string>
+    <string name="filter_settings_title">Filter settings</string>
+    <string name="filter_auto_range">Automatically adjust range</string>
+    <string name="main_showing_terms">Showing terms</string>
+    <string name="main_downloading_categories">Updating categories</string>
+    <string name="main_check_updates">Checking for updates</string>
+    <string name="main_ready">Layers ready</string>
+    <string name="status_range">Range</string>
+    <string name="status_accuracy">Accuracy</string>
+    <string name="status_not_available">N/A</string>
+    <string name="status_waiting_location">Waiting for location...</string>
+    <string name="status_authentication_required">Please authenticate to use layer</string>
+    <string name="status_progress_get_results">Getting results...</string>
+    <string name="status_progress_loading_image">Loading image...</string>
+    <string name="status_progress_loading_3dmodel">Loading 3D model...</string>
+    <string name="status_progress_failed_3dmodel">Loading of 3D model failed. Please try to refresh!</string>
+    <string name="status_results_found" formatted="false">%num% results found</string>
+    <string name="status_no_results_found">No results found</string>
+    <string name="status_something_went_wrong">Oops! Something went wrong. Please try again!</string>
+    <string name="status_layer_unpublished">The publisher decided to unpublish this layer. Contact the publisher for further information.</string>
+    <string name="status_layer_unpublished_title">Unpublished layer</string>
+    <string name="contact_publisher">Contact publisher</string>
+    <string name="progress_searching">Searching...</string>
+    <string name="progress_processing">Processing...</string>
+    <string name="progress_loading">Loading...</string>
+    <string name="progress_loading_layer">Loading layer...</string>
+    <string name="user_username">Username</string>
+    <string name="user_email">Email</string>
+    <string name="user_username_or_email">Username or email</string>
+    <string name="user_password">Password</string>
+    <string name="user_login">Log in</string>
+    <string name="user_invite_button">Invite friends</string>
+    <string name="user_invite_facebook">Facebook</string>
+    <string name="user_invite_twitter">Twitter</string>
+    <string name="user_invite_phone">From phone contacts</string>
+    <string name="user_invite_have_friends_template" formatted="false">You already have %num% friends on Layar</string>
+    <string name="user_invite_more_friends">Invite more friends to join the fun</string>
+    <string name="user_invite_nobody_added">No friends added</string>
+    <string name="user_invite_pending_template" formatted="false">%num% friend(s) pending</string>
+    <string name="user_invite_default_message">Do you want invite friends?</string>
+    <string name="user_invite_no_friends">"You don't have any friends in your network. Skipping..."</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">Email</string>
+    <string name="connect_account">Connect accounts</string>
+    <string name="user_add_account">Add account</string>
+    <string name="user_add_account_text">This is a good moment to connect your Layar account with your Facebook and Twitter accounts!</string>
+    <string name="user_add_account_cancel">Nah, some other time...</string>
+    <string name="user_add_facebook">Add Facebook account</string>
+    <string name="user_add_twitter">Add Twitter account</string>
+    <string name="user_add_social" formatted="false">Connect %socialname% account</string>
+    <string name="user_remove_social" formatted="false">Disconnect %socialname% account</string>
+    <string name="user_twitter_email_title">Connect to Twitter</string>
+    <string name="social_associating">Please wait a moment...</string>
+    <string name="social_associating_error">Sorry, there is a problem connecting your account.</string>
+    <string name="social_disconnected" formatted="false">Your account has been disconnected from %type%.</string>
+    <string name="social_disconnecting" formatted="false">Disconnecting your account from %type%.</string>
+    <string name="social_disconnect_fail" formatted="false">Disconnecting from %type% failed.</string>
+    <string name="social_disconnect_title">Disconnect?</string>
+    <string name="social_disconnect_message" formatted="false">Do you really want to disconnect your %type% account?</string>
+    <string name="social_associating_success">Your accounts have been linked.</string>
+    <string name="social_associating_dialog">Do you want to try again?</string>
+    <string name="add_email">Add email</string>
+    <string name="add_email_error_exists">This email address was already added</string>
+    <string name="select_email">Select email</string>
+    <string name="selected_contacts">contacts selected</string>
+    <string name="user_welcome_title">Welcome to Layar Reality Browser</string>
+    <string name="user_welcome_title2">@string/menu_user</string>
+    <string name="user_welcome_text">"To purchase layers you'll need an account..."</string>
+    <string name="user_welcome_create_account">Create account</string>
+    <string name="user_welcome_facebook">Connect with Facebook</string>
+    <string name="user_welcome_social">Login using %socialname%</string>
+    <string name="user_welcome_not_now">Not now, remind me later</string>
+    <string name="user_welcome_never">"Don't ask me again"</string>
+    <string name="setting_up_social_connection" formatted="false">Setting up your %socialname% connection...</string>
+    <string name="you_are_logged_in_with_social" formatted="false">You are now logged in with your %socialname% account.</string>
+    <string name="social_connect_didnt_work" formatted="false">"Sorry, logging in with %socialname% didn't work."</string>
+    <string name="user_create_title">Create account</string>
+    <string name="user_create_keep_informed">Send me promotional communications about Layar</string>
+    <string name="user_create_keep_informed2">Email news and updates</string>
+    <string name="user_create_create">Create account</string>
+    <string name="user_create_privacy2">By clicking the button below you accept the terms in the <a href="http://resources.layar.com/documents/privacy">privacy policy</a>.</string>
+    <string name="user_create_privacy3">"Your username will be visible to others. 
+Your email will never published nor shared. 
+We won't spam you either. 
+ See http://resources.layar.com/documents/privacy for our privacy policy"</string>
+    <string name="user_exists_title">Username taken</string>
+    <string name="user_exists">"Username is not available.
+Please choose another."</string>
+    <string name="user_email_exists_title">Email already used</string>
+    <string name="user_email_exists">An account is already created for this email.</string>
+    <string name="user_twitter_email_exists_message">Please log in to Layar before connecting with Twitter.</string>
+    <string name="user_email_invalid_title">Invalid email</string>
+    <string name="user_email_invalid">Please enter a valid email.</string>
+    <string name="user_username_length_title">Invalid username</string>
+    <string name="user_username_length">Username must be at least 4 characters.</string>
+    <string name="user_invalid_username">Username must be alphanumeric and be at least 4 and not more 16 characters length.</string>
+    <string name="user_password_length_title">Invalid password</string>
+    <string name="user_password_length">Password must be at least 6 characters.</string>
+    <string name="user_invalid_password">Password must be at least 6 and not more 12 characters length.</string>
+    <string name="success_user_create"><b>Account created!</b> You are almost there...</string>
+    <string name="user_creation_confirmation_text">"Before you can buy stuff you'll need to verify your account. We've sent you an email to do just this. Please check your inbox."</string>
+    <string name="account_creation_confirmation_text">"You'll need to verify your account. We've sent you an email to do just this. Please check your inbox."</string>
+    <string name="wrong_username_password">"We couldn't log you in. Your username, email or password is wrong."</string>
+    <string name="account_suspended">Sorry, your account has been blocked. Please login with a different account or press Cancel.</string>
+    <string name="error_logging_in">Sorry, there was a problem logging you in. Try again later.</string>
+    <string name="error_creating_user">Sorry, there was a problem creating your account. Please try again.</string>
+    <string name="status_logging_in">Logging in...</string>
+    <string name="user_forgot_password_title">Forgot password</string>
+    <string name="user_forgot_password_link_text"><u>Forgot your password?</u></string>
+    <string name="user_forgot_password_header_text">Submit your email address and receive a link to reset your password.</string>
+    <string name="user_forgot_password_sent_confirmation_text">"We've sent you an email with instructions to reset your password."</string>
+    <string name="user_error_recovery_password">Sorry, there was a problem while requesting to reset your password. Please try again.</string>
+    <string name="user_error_nonexistant_email">Oops, there is no account with this email address.</string>
+    <string name="user_verification_prompt_title">Verification prompt</string>
+    <string name="user_verification_prompt_text">"We're sorry, you'll need to verify your account before you can buy stuff."</string>
+    <string name="user_verification_prompt_send_again">Send verification link again</string>
+    <string name="user_verification_prompt_login_another">Log in with another account</string>
+    <string name="user_verification_prompt_login_incorrect">Sorry, this account is not verified too. Please use verified account.</string>
+    <string name="user_login_prompt_for_purchase">You need an account to buy layers.</string>
+    <string name="account_verified">Your account is verified.</string>
+    <string name="account_not_verified">Your account is not verified.</string>
+    <string name="send_verification"><u>Send verification link again</u></string>
+    <string name="error_sending_verification_link">There was an error sending the verification link.</string>
+    <string name="account_verification_link_sent">"We've emailed you a link that you can use to verify your account."</string>
+    <string name="multiple_login_title">Log in again</string>
+    <string name="multiple_login_message">According to our records, you last logged in on a different device. For security reasons, you will need to log in again...</string>
+    <string name="multiple_login_warning">Do you think someone else is using your account?</string>
+    <string name="multiple_login_let_us_know"><u>Let us know</u></string>
+    <string name="layer_actions">Layer actions</string>
+    <string name="layer_action_launch">Launch</string>
+    <string name="layer_action_purchase">Purchase</string>
+    <string name="logged_in_as" formatted="false">You are logged in as %name%.</string>
+    <string name="logout">Log out</string>
+    <string name="user_logged_out">You have been logged out.</string>
+    <string name="error_logging_out">"We couldn't log you out. Try again."</string>
+    <string name="development_mode_description">You have been given access to development mode, which allows you to view selected test layers.</string>
+    <string name="account_needed_do_this">To do this action you need an account...</string>
+    <string name="account_needed_view_content">Please log in or create an account to see this page.</string>
+    <string name="purchase_layer">Purchase layer</string>
+    <string name="error_retrieving_providers">Error retrieving payment providers</string>
+    <string name="initiating_payment">Initiating payment...</string>
+    <string name="error_initiating_payment">Error initiating payment</string>
+    <string name="purchase_failed_description">"We're sorry, something went wrong and the purchase could not be completed."</string>
+    <string name="purchase_failed_description2">"We're sorry, something went wrong and the purchase could not be completed. Please try again."</string>
+    <string name="try_purchase_again">Try again with %paymentprovider%</string>
+    <string name="choose_another_payment_provider">Choose another payment provider</string>
+    <string name="purchase_succeeded_description">Success! Thank you for purchasing this layer</string>
+    <string name="payment_provider_limitation">Currently you can only purchase layers if you have a PayPal account in the <b>United States</b>, the <b>United Kingdom</b>, <b>Australia</b>, or <b>Canada</b>".
+
+Other countries will be added shortly. Sorry about this..."</string>
+    <string name="pay_with">Pay with</string>
+    <string name="purchase_message_one" formatted="false">You are about to purchase the layer %layername% from %publisher%. Click below to start the payment process.</string>
+    <string name="purchase_message_more" formatted="false">You are about to purchase the layer %layername% from %publisher%. Choose your payment provider below to start the payment process.</string>
+    <string name="welcome_skip_dialog_title">No account created</string>
+    <string name="welcome_skip_dialog_message">Do you want to create an account another time?</string>
+    <string name="welcome_skip_dialog_message2">This is needed to purchase paid layers.</string>
+    <string name="welcome_skip_dialog_remind">Remind me later</string>
+    <string name="welcome_skip_dialog_dontask">"Don't ask again"</string>
+    <string name="ratings_rate_layer">Rate this layer</string>
+    <string name="ratings_stars_1">I hate it</string>
+    <string name="ratings_stars_2">"I don't like it"</string>
+    <string name="ratings_stars_3">"It's OK"</string>
+    <string name="ratings_stars_4">I like it</string>
+    <string name="ratings_stars_5">I love it</string>
+    <string name="ratings_rate">Rate</string>
+    <string name="layer_report_problem">Report a problem</string>
+    <string name="nearby">Nearby</string>
+    <string name="details">Details</string>
+    <string name="favorite_spot">Add to your spots</string>
+    <string name="unfavorite_spot">Remove from your spots</string>
+    <string name="open_layer">Open layer</string>
+    <string name="loading_more2">Loading...</string>
+    <string name="loading_more">@string/loading_more2</string>
+    <string name="hide_this_layer">Hide layer</string>
+    <string name="unhide_this_layer">Show layer</string>
+    <string name="no_description">No description</string>
+    <string name="poidetails_more_items_message" formatted="false">There are %num% more items like this around you in this layer:</string>
+    <string name="poidetails_one_more_item_message">There is 1 more item like this around you in this layer:</string>
+    <string name="spot_actions">Spot actions</string>
+    <string name="filter_title">Filters</string>
+    <string name="filter_select_all">Select all</string>
+    <string name="filter_item_categories">Categories</string>
+    <string name="filter_item_categories_empty">No categories selected</string>
+    <string name="filter_item_categories_more" formatted="false">%0%, %1% and %n% others selected</string>
+    <string name="filter_item_categories_all">All categories selected</string>
+    <string name="filter_item_hidden_layer">Hidden layers</string>
+    <string name="filter_item_hidden_layer_empty">No hidden layers</string>
+    <string name="filter_item_hidden_layer_more" formatted="false">%0%, %1% and %n% others are hidden</string>
+    <string name="filter_item_hidden_layer_unhide">Tap the layer to unhide</string>
+    <string name="filter_item_range">Custom range</string>
+    <string name="filter_item_range_default">Using default range</string>
+    <string name="filter_item_range_message">Do not show spots further than %value%</string>
+    <string name="filter_item_paid">Show paid content</string>
+    <string name="filter_item_paid_true">Show spots from paid layers</string>
+    <string name="filter_item_paid_false">"Don't show spots from paid layers"</string>
+    <string name="filter_reset">Reset filters</string>
+    <string name="custom_filter_range_settings">@string/status_range</string>
+    <string name="custom_filter_range_text">Showing spots within %value%</string>
+    <string name="custom_filter_layer_settings">Layer settings</string>
+    <string name="custom_filter_camera_settings">Camera view settings</string>
+    <string name="custom_filter_camera_bird_eye">"Bird's eye perspective"</string>
+    <string name="custom_filter_camera_hide_grid">@string/prefs_grid</string>
+    <string name="notification_auto_refresh">Tap to refresh</string>
+    <string name="poi" />
+    <string name="prefs_developer_enable" />
+    <string name="prefs_developer_id" />
+    <string name="help">Help</string>
+    <string name="user_create_privacy" />
+    <string name="prefs_developer_key" />
+    <string name="prefs_developer_enable_summary" />
+    <string name="select_layer" />
+    <string name="welcome_title">Welcome to Layar Reality Browser</string>
+    <string name="welcome_intro">"The Layar Reality Browser is a beautiful, fun augmented reality app that shows you the things you can't see."</string>
+    <string name="welcome_tip1"><b>See the world</b>. Augmented with layers you have chosen to see.</string>
+    <string name="welcome_tip2"><b>Catalog</b> with hundreds of free and paid layers to choose from.</string>
+    <string name="welcome_tip3">Create an <b>account</b> to unlock the full potential.</string>
+    <string name="welcome_tip4"><b>Nearby</b>. Discover and search for spots nearby with Layar Stream.</string>
+    <string name="welcome_skip2"><u>Launch Layar now</u></string>
+    <string name="welcome_start_app">Start using Layar ></string>
+    <string name="welcome_back_app">Back to Layar ></string>
+    <string name="ws_text_000">Layar helps you discover information about the world around you.</string>
+    <string name="ws_text_001">There are more than 2,000 layers in the catalog to explore.</string>
+    <string name="ws_text_002">Choose a layer and hold up your device to view your world in a whole new way!</string>
+    <string name="ws_title_0031">Favorites</string>
+    <string name="ws_title_0032">Screenshots</string>
+    <string name="ws_title_0033">Sharing</string>
+    <string name="ws_text_0031">Save your favorite layers in a handy list and return to them later</string>
+    <string name="ws_text_0032">Take a snapshot of the Camera View and share it wherever you like</string>
+    <string name="ws_text_0033">Spread the word about your favorite layers through social media, email and SMS</string>
+</resources>

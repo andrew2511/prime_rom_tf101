@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Νέα καρτέλα</string>
+    <string name="new_incognito_tab">Νέα καρτέλα ανώνυμ. περιήγησης</string>
+    <string name="active_tabs">Καρτέλες</string>
+    <string name="open_all_in_new_window">Άνοιγμα όλων σε νέες καρτέλες</string>
+    <string name="contextmenu_openlink_newwindow">Άνοιγμα σε νέα καρτέλα</string>
+    <string name="contextmenu_openlink_newwindow_background">Άνοιγμα σε νέα καρτέλα στο παρασκήνιο</string>
+    <string name="pref_content_open_in_background_summary">Άνοιγμα νέων καρτελών πίσω από την τρέχουσα</string>
+</resources>

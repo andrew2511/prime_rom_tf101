@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>4 s</item>
+        <item>8 s</item>
+        <item>12 s</item>
+        <item>El ile</item>
+    </string-array>
+</resources>

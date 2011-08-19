@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method android:isDefault="true" android:settingsActivity="com.nuance.xt9.input.Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <subtype android:label="@string/subtype_mode_en_US_keyboard" android:icon="@drawable/xt9_en" android:imeSubtypeLocale="en_US" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_en_UK_keyboard" android:icon="@drawable/xt9_en" android:imeSubtypeLocale="en_GB" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_en_CA_keyboard" android:icon="@drawable/xt9_en" android:imeSubtypeLocale="en_CA" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_fr_FR_keyboard" android:icon="@drawable/xt9_fr" android:imeSubtypeLocale="fr_FR" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_fr_BE_keyboard" android:icon="@drawable/xt9_fr" android:imeSubtypeLocale="fr_BE" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_fr_CA_keyboard" android:icon="@drawable/xt9_fr" android:imeSubtypeLocale="fr_CA" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_fr_CH_keyboard" android:icon="@drawable/xt9_fr" android:imeSubtypeLocale="fr_CH" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_it_IT_keyboard" android:icon="@drawable/xt9_it" android:imeSubtypeLocale="it_IT" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_it_CH_keyboard" android:icon="@drawable/xt9_it" android:imeSubtypeLocale="it_CH" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_de_DE_keyboard" android:icon="@drawable/xt9_de" android:imeSubtypeLocale="de_DE" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_de_CH_keyboard" android:icon="@drawable/xt9_de" android:imeSubtypeLocale="de_CH" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_bpmf_keyboard" android:icon="@drawable/xt9_bpmf" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="bpmf" />
+    <subtype android:label="@string/subtype_mode_cangjie_tw_keyboard" android:icon="@drawable/xt9_cangjie" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="cangjie" />
+    <subtype android:label="@string/subtype_mode_quick_cangjie_tw_keyboard" android:icon="@drawable/xt9_cangjie" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="quick_cangjie" />
+    <subtype android:label="@string/subtype_mode_pinyin_tw_keyboard" android:icon="@drawable/xt9_pinyin" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="pinyin" />
+    <subtype android:label="@string/subtype_mode_stroke_tw_keyboard" android:icon="@drawable/xt9_stroke_cht" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="stroke" />
+    <subtype android:label="@string/subtype_mode_pinyin_cn_keyboard" android:icon="@drawable/xt9_pinyin" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="pinyin" />
+    <subtype android:label="@string/subtype_mode_stroke_cn_keyboard" android:icon="@drawable/xt9_stroke" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="stroke" />
+    <subtype android:label="@string/subtype_mode_trace_cn_keyboard" android:icon="@drawable/xt9_hau" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="chinese_trace" />
+    <subtype android:label="@string/subtype_mode_ru_keyboard" android:icon="@drawable/xt9_ru" android:imeSubtypeLocale="ru_RU" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_es_ES_keyboard" android:icon="@drawable/xt9_es" android:imeSubtypeLocale="es_ES" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_es_US_keyboard" android:icon="@drawable/xt9_es" android:imeSubtypeLocale="es_US" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_nl_NL_keyboard" android:icon="@drawable/xt9_nl" android:imeSubtypeLocale="nl_NL" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_nl_BE_keyboard" android:icon="@drawable/xt9_nl" android:imeSubtypeLocale="nl_BE" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_pt_PT_keyboard" android:icon="@drawable/xt9_pt" android:imeSubtypeLocale="pt_PT" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_pt_BR_keyboard" android:icon="@drawable/xt9_pt" android:imeSubtypeLocale="pt_BR" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_pl_keyboard" android:icon="@drawable/xt9_pl" android:imeSubtypeLocale="pl_PL" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_cs_keyboard" android:icon="@drawable/xt9_cs" android:imeSubtypeLocale="cs_CZ" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_sv_keyboard" android:icon="@drawable/xt9_sv" android:imeSubtypeLocale="sv_SE" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_no_keyboard" android:icon="@drawable/xt9_nb" android:imeSubtypeLocale="nb_NO" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_da_keyboard" android:icon="@drawable/xt9_da" android:imeSubtypeLocale="da_DK" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_fi_keyboard" android:icon="@drawable/xt9_fi" android:imeSubtypeLocale="fi_FI" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_hu_keyboard" android:icon="@drawable/xt9_hu" android:imeSubtypeLocale="hu_HU" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_sk_keyboard" android:icon="@drawable/xt9_sk" android:imeSubtypeLocale="sk_SK" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_tr_keyboard" android:icon="@drawable/xt9_tr" android:imeSubtypeLocale="tr_TR" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_gl_keyboard" android:icon="@drawable/xt9_el" android:imeSubtypeLocale="el_GR" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_arabic_keyboard" android:icon="@drawable/xt9_ar" android:imeSubtypeLocale="ar_EG" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_hebrew_keyboard" android:icon="@drawable/xt9_he" android:imeSubtypeLocale="iw_IL" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_thai_keyboard" android:icon="@drawable/xt9_th" android:imeSubtypeLocale="th_TH" android:imeSubtypeMode="keyboard" />
+    <subtype android:label="@string/subtype_mode_ko_keyboard" android:icon="@drawable/xt9_ko" android:imeSubtypeLocale="ko_KR" android:imeSubtypeMode="keyboard" />
+</input-method>

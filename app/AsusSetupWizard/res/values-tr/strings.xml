@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internet Bağlantısı</string>
+    <string name="mobile_wifi_title">Mobil ağ ve WiFi</string>
+    <string name="wifi_title">Yalnızca WiFi bağlantısı</string>
+    <string name="setup_wizard_title">Kurulum Sihirbazı</string>
+    <string name="next_button_label">İleri</string>
+    <string name="welecome_title">Hoş Geldiniz</string>
+    <string name="btn_start_text">Başlat</string>
+</resources>

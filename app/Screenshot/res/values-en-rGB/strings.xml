@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Screenshot</string>
+    <string name="screenshot_dialog_message">Screenshot is saved. Stay in screenshot mode?</string>
+    <string name="screenshot_dialog_yes">Yes</string>
+    <string name="screenshot_dialog_no">No</string>
+    <string name="screenshot_toast_message_saved">Screenshot is saved.</string>
+    <string name="screenshot_toast_message_failed">Failed to save a screenshot when in File Transfer mode.</string>
+    <string name="screenshot_toast_message_failed_save">Failed to save the screenshot.</string>
+    <string name="screenshot_toast_message_full">Failed to save the screenshot. Insufficient memory.</string>
+</resources>

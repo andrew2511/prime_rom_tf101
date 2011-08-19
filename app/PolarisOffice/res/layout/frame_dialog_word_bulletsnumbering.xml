@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_bulletsnumbering_tab_layout_height">
+        <LinearLayout android:orientation="vertical" android:id="@id/holder_tab_common_bulletsnumbering_bullets" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0px" android:textColor="#ffa0a0a0" android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_bullet" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/holder_tab_common_bulletsnumbering_numbering" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0px" android:textColor="#ffa0a0a0" android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_numbering" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_tab_common_bulletsnumbering_underline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_word_bulletsnumbering_tab_layout_margin_bottom" />
+    <ViewSwitcher android:id="@id/frame_viewswitcher_common_bulletsnumbering" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@id/holder_togglebuttongroup_word_bulletsnumbering_bullets" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_word_bulletsnumbering_togglebuttongroup_layout_margin_bottom" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_bulletsnumbering_restart_layout_height" android:layout_marginBottom="@dimen/dialog_word_bulletsnumbering_restart_layout_margin_bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@id/holder_togglebuttongroup_word_bulletsnumbering_numbering" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_word_bulletsnumbering_togglebuttongroup_layout_margin_bottom" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_word_bulletsnumbering_restart_layout_height" android:layout_marginBottom="@dimen/dialog_word_bulletsnumbering_restart_layout_margin_bottom">
+                <TextView android:textSize="@dimen/dialog_word_bulletsnumbering_restart_text_size" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0px" android:text="@string/string_word_bulletsnumbering_restart" />
+                <LinearLayout android:id="@id/holder_togglebutton_word_bulletsnumbering_restart_numbering" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ViewSwitcher>
+</LinearLayout>

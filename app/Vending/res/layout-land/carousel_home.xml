@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vending="http://schemas.android.com/apk/res/com.android.vending">
+    <com.android.vending.velvet.LandscapeOverlappingLayout android:orientation="vertical" android:id="@id/carousel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/asset_list_no_loading" />
+        <com.android.vending.velvet.LandscapeCarouselView android:id="@id/carouselView" android:layout_width="wrap_content" android:layout_height="wrap_content" vending:arc_span="proportionate">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/slim_title" />
+            <FrameLayout android:id="@id/carousel_footer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" vending:arc_layout_gravity="fill">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/carousel_home_footer" />
+            </FrameLayout>
+        </com.android.vending.velvet.LandscapeCarouselView>
+    </com.android.vending.velvet.LandscapeOverlappingLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fullscreen_loading_indicator" />
+</FrameLayout>

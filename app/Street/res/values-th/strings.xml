@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">ไปที่แผนที่</string>
+    <string name="report_inappropriate_image">รายงานภาพ</string>
+    <string name="toggle_compass_mode">โหมดเข็มทิศ</string>
+    <string name="compass_mode_on">เปิดโหมดเข็มทิศ</string>
+    <string name="compass_mode_off">ปิดโหมดเข็มทิศ</string>
+    <string name="waiting_for_network">การเชื่อมต่อข้อมูลถูกตัด กำลังลองอีกครั้ง…</string>
+    <string name="panorama_disabled">รูปภาพไม่มีให้บริการแล้ว</string>
+    <string name="service_unavailable">บริการ Street View ไม่สามารถใช้ได้</string>
+    <string name="loading">กำลังโหลด</string>
+    <string name="no_panorama_data">ไม่ได้ตั้งค่าข้อมูลพาโนรามา</string>
+    <string name="invalid_panorama_data">พาโนรามาไม่ถูกต้อง</string>
+    <string name="click_to_go_toast">ลากเพ็กแมนไปยังที่ที่คุณต้องการจะไป</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">โปรแกรมนี้ต้องใช้การเชื่อมต่อข้อมูล และจะลองเชื่อมต่ออีกครั้งโดยอัตโนมัติ โปรดตรวจสอบความแรงของสัญญาณ คุณกำลังใช้โหมดใช้งานบนเครื่องบินอยู่หรือปิดใช้งานการโรมมิ่งข้อมูลอยู่หรือไม่</string>
+    <string name="whats_new_header">มีอะไรใหม่ใน Street View</string>
+    <string name="whats_new_c2g">ไปที่ใดก็ได้ที่คุณมองเห็น ลากเพ็กแมนจากด้านล่างซ้ายและวางลงในตำแหน่งที่คุณต้องการไป</string>
+    <string name="terms_and_privacy">ข้อกำหนด &amp; ข้อมูลส่วนบุคคล</string>
+    <string name="terms_and_conditions">ข้อกำหนดในการให้บริการ</string>
+    <string name="privacy_policy">นโยบายส่วนบุคคล</string>
+</resources>

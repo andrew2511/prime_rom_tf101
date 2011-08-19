@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/system_update_settings_list_item_summary">
+        <intent android:action="android.settings.ASUS_SYSTEM_UPDATE_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" android:summary="@string/power_usage_summary" android:fragment="com.android.settings.fuelgauge.PowerUsageSummary" />
+    <PreferenceScreen android:title="@string/legal_information" android:key="container">
+        <PreferenceScreen android:title="@string/general_sourcecode_offer_title" android:key="general_sourcecode_offer">
+            <intent android:action="android.settings.SOURCECODE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.COPYRIGHT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.LICENSE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/geonames_cc_by_title" android:key="geonames_cc_by">
+            <intent android:action="android.settings.cc_by.GEONAMES" />
+        </PreferenceScreen>
+        <Preference android:layout="@layout/srs_icon_layout" android:key="srs_logo" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="android.settings.SAFETY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/system_tutorial_list_item_title" android:key="system_tutorial" android:summary="@string/system_tutorial_list_item_summary">
+        <intent android:action="android.intent.action.SYSTEM_TUTORIAL" />
+    </PreferenceScreen>
+    <Preference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/gps_version" android:key="gps_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_version" android:key="wifi_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/bt_version" android:key="bt_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/dock_version" android:key="dock_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

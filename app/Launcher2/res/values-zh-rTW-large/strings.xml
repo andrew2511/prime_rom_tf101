@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">選取桌布</string>
+    <string name="wallpaper_chooser_empty">沒有可用的桌布</string>
+    <string name="wallpaper_cancel">取消</string>
+</resources>

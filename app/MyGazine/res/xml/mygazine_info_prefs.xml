@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_header_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/version" android:key="version" />
+    <com.asus.mygazine.LegalInfoPreference android:title="@string/legal_information" android:key="legal_info" android:dialogTitle="@string/legal_information" android:positiveButtonText="@null" android:negativeButtonText="@null" android:dialogLayout="@layout/about" />
+</PreferenceScreen>

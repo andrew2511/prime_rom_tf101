@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Alap Android-alkalmazások</string>
+    <string name="contactsList">Címtár</string>
+    <string name="launcherDialer">Telefon</string>
+    <string name="shortcutContact">Névjegy</string>
+    <string name="shortcutDialContact">Közvetlen tárcsázás</string>
+    <string name="shortcutMessageContact">Közvetlen üzenet</string>
+    <string name="shortcutActivityTitle">Válasszon névjegyet a parancsikonhoz</string>
+    <string name="callShortcutActivityTitle">Válasszon telefonszámot a híváshoz</string>
+    <string name="messageShortcutActivityTitle">Válasszon telefonszámot az üzenetküldéshez</string>
+    <string name="contactPickerActivityTitle">Válasszon ki egy névjegyet</string>
+    <string name="starredList">Csillaggal megjelölt</string>
+    <string name="frequentList">Gyakori</string>
+    <string name="strequentList">Kedvencek</string>
+    <string name="viewContactTitle">Névjegy adatai</string>
+    <string name="viewContactDesription">Névjegy megtekintése</string>
+    <string name="editContactDescription">Névjegy szerkesztése</string>
+    <string name="insertContactDescription">Névjegy létrehozása</string>
+    <string name="searchHint">Keresés a névjegyek között</string>
+    <string name="menu_search">Keresés</string>
+    <string name="menu_newContact">Új névjegy</string>
+    <string name="menu_viewContact">Névjegy megtekintése</string>
+    <string name="menu_callNumber">%s hívása</string>
+    <string name="menu_addStar">Hozzáadás a kedvencekhez</string>
+    <string name="menu_removeStar">Eltávolítás a kedvencek közül</string>
+    <string name="menu_editContact">Névjegy szerkesztése</string>
+    <string name="menu_deleteContact">Névjegy törlése</string>
+    <string name="menu_call">Ismerős hívása</string>
+    <string name="menu_sendSMS">SMS küldése ismerősnek</string>
+    <string name="menu_makeDefaultEmail">Legyen ez az alapértelmezett e-mail cím</string>
+    <string name="menu_splitAggregate">Szétválasztás</string>
+    <string name="menu_renameGroup">Csoport átnevezése</string>
+    <string name="menu_deleteGroup">Csoport törlése</string>
+    <string name="menu_new_contact_action_bar">Új</string>
+    <string name="splitConfirmation_title">Névjegy szétválasztása</string>
+    <string name="splitConfirmation">Biztosan több névjegybe választja szét ezt az egy névjegyet, hogy minden információtípushoz tartozzon egy?</string>
+    <string name="menu_joinAggregate">Összekapcsolás</string>
+    <string name="titleJoinContactDataWith">Névjegyek összekapcsolása</string>
+    <string name="blurbJoinContactDataWith">Válassza ki azt a névjegyet, amelyet össze kíván kapcsolni ezzel a névjeggyel: %s.</string>
+    <string name="showAllContactsJoinItem">Az összes névjegy megjelenítése</string>
+    <string name="separatorJoinAggregateSuggestions">Javasolt névjegyek</string>
+    <string name="separatorJoinAggregateAll">Összes névjegy</string>
+    <string name="contactsJoinedMessage">A névjegyek összekapcsolása megtörtént</string>
+    <string name="menu_contactOptions">Beállítások</string>
+    <string name="contactOptionsTitle">Beállítások</string>
+    <string name="deleteConfirmation_title">Törlés</string>
+    <string name="readOnlyContactWarning">Írásvédett fiókból nem törölhet névjegyet, de saját címtárában elrejtheti azokat.</string>
+    <string name="readOnlyContactDeleteConfirmation">Ez a névjegy több fiókból is tartalmaz adatokat. Az írásvédett fiókokból származó adatok nem jelennek meg a Címtárban, de nem kerülnek törlésre.</string>
+    <string name="multipleContactDeleteConfirmation">A névjegy törlésével több fiókból is töröl adatokat.</string>
+    <string name="deleteConfirmation">A névjegy törlésre kerül.</string>
+    <string name="menu_done">Kész</string>
+    <string name="menu_doNotSave">Mégse</string>
+    <string name="editContact_title_edit">Névjegy szerkesztése</string>
+    <string name="editContact_title_insert">Új névjegy</string>
+    <string name="label_phonetic_name">Fonetikusan</string>
+    <string name="label_notes">Jegyzetek</string>
+    <string name="label_sip_address">Internetes hívás</string>
+    <string name="label_ringtone">Csengőhang</string>
+    <string name="ghostData_phonetic_name">Név fonetikusan</string>
+    <string name="ghostData_company">Cég</string>
+    <string name="ghostData_title">Beosztás</string>
+    <string name="invalidContactMessage">A névjegy nem létezik.</string>
+    <string name="pickerNewContactHeader">Új névjegy létrehozása</string>
+    <string name="phoneLabelsGroup">Telefon</string>
+    <string name="emailLabelsGroup">E-mail cím</string>
+    <string name="imLabelsGroup">Azonnali üzenetküldés</string>
+    <string name="postalLabelsGroup">Cím</string>
+    <string name="photoPickerNotFoundText">Nem állnak rendelkezésre képek a táblagépen.</string>
+    <string name="attach_photo_dialog_title">Ismerős fotója</string>
+    <string name="customLabelPickerTitle">Egyéni címkenév</string>
+    <string name="menu_displayGroup">Megjelenítési beállítások</string>
+    <string name="send_to_voicemail_checkbox">Hívások közvetlen átirányítása a hangpostára</string>
+    <string name="default_ringtone">Alapértelmezett</string>
+    <string name="removePhoto">Fénykép törlése</string>
+    <string name="noContacts">Nincsenek névjegyek.</string>
+    <string name="noMatchingContacts">Nincsenek a keresési feltételeknek megfelelő névjegyek.</string>
+    <string name="noContactsWithPhoneNumbers">Nincsenek telefonszámot is tartalmazó névjegyek.</string>
+    <string name="showFilterPhones">Csak a telefonszámmal rendelkező névjegyek</string>
+    <string name="showFilterPhonesDescrip">Csak a telefonszámmal rendelkező névjegyek megjelenítése</string>
+    <string name="headerContactGroups">Válassza ki a megjelenítendő névjegyeket</string>
+    <string name="savingContact">Névjegy mentése...</string>
+    <string name="savingDisplayGroups">Megjelenítési beállítások mentése...</string>
+    <string name="contactSavedToast">Névjegy mentve.</string>
+    <string name="contactSavedErrorToast">Hiba; nem sikerült menteni a névjegy módosításait.</string>
+    <string name="listTotalPhoneContactsZero">Nincsenek telefonszámot is tartalmazó névjegyek</string>
+    <string name="listTotalAllContactsZero">Nincsenek névjegyek</string>
+    <string name="listTotalAllContactsZeroCustom">Nincsenek látható névjegyek</string>
+    <string name="listTotalAllContactsZeroStarred">Nincs csillaggal megjelölt névjegy</string>
+    <string name="listTotalAllContactsZeroGroup">Nincsenek névjegyek itt: %s</string>
+    <string name="foundTooManyContacts">több mint %d találat</string>
+    <string name="listFoundAllContactsZero">Nem található</string>
+    <string name="contactsIconLabel">Címtár</string>
+    <string name="contactsFavoritesLabel">Kedvencek</string>
+    <string name="dialerIconLabel">Telefon</string>
+    <string name="recentCallsIconLabel">Híváslista</string>
+    <string name="liveFolderAll">Összes névjegy</string>
+    <string name="liveFolderFavorites">Csillagozott névjegyek</string>
+    <string name="liveFolderPhone">Névjegyek telefonszámmal</string>
+    <string name="menu_sendTextMessage">SMS küldése</string>
+    <string name="recentCalls_callNumber">%s hívása</string>
+    <string name="recentCalls_editNumberBeforeCall">Szám szerkesztése hívás előtt</string>
+    <string name="recentCalls_addToContact">Hozzáadás a névjegyekhez</string>
+    <string name="recentCalls_removeFromRecentList">Eltávolítás a híváslistából</string>
+    <string name="recentCalls_deleteAll">Híváslista törlése</string>
+    <string name="recentCalls_empty">A híváslista üres.</string>
+    <string name="clearCallLogConfirmation_title">Híváslista törlése</string>
+    <string name="clearCallLogConfirmation">Biztosan törli a híváslistát?</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
+    <string name="voicemail">Hangposta</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="private_num">Magántelefonszám</string>
+    <string name="payphone">Nyilvános telefon</string>
+    <string name="dialerKeyboardHintText">A tárcsázáshoz használja a billentyűzetet</string>
+    <string name="dialerDialpadHintText">Tárcsázás hívás hozzáadásához</string>
+    <string name="simContacts_emptyLoading">Betöltés a SIM-kártyáról...</string>
+    <string name="simContacts_title">Névjegyek a SIM-kártyán</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">Nincsenek megjeleníthető névjegyei. (Ha a fiókot csak most adta hozzá, a névjegyek szinkronizálása néhány percig is eltarthat.)</string>
+    <string name="noContactsHelpTextForCreateShortcut">Nincsenek megjeleníthető névjegyek.</string>
+    <string name="noContactsHelpText">"Nincsenek megjeleníthető névjegyei.
+
+Névjegyek hozzáadásához nyomja meg a "<b><font fgcolor="#ffffffff">Menü</font></b>" gombot, majd érintse meg a
+ 
+"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</li></font></b></string>
+    <string name="noContactsHelpTextWithSync">"Nincsenek megjeleníthető névjegyei. (Ha most adott hozzá egy fiókot, a szinkronizálás eltarthat pár percig.)
+
+Névjegyek hozzáadásához nyomja meg a "<b><font fgcolor="#ffffffff">Menü</font></b>" gombot, majd érintse meg a
+ 
+"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpText">"Nincsenek megjeleníthető névjegyei.
+
+Névjegyek hozzáadásához nyomja meg a "<font fgcolor="#ffffffff"> <b>Menü</b></font>" gombot, majd érintse meg a
+ 
+"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Nincsenek megjeleníthető névjegyei. (Ha most adott hozzá egy fiókot, a szinkronizálás eltarthat pár percig.)
+
+Névjegyek hozzáadásához nyomja meg a "<b><font fgcolor="#ffffffff">Menü</font></b>" gombot, majd érintse meg a
+ 
+"<b><font fgcolor="#ffffffff"><li>"Fiókok lehetőséget olyan, névjegyekkel rendelkező fiók hozzáadásához vagy konfigurálásához, amelyet szinkronizálhat a táblagépen
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Megjelenítési beállítások annak beállításához, hogy mely névjegyek láthatók
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Új névjegy teljesen új névjegy létrehozásához
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importálás/Exportálás SIM- vagy SD-kártyáról történő importáláshoz
+"</li></font></b></string>
+    <string name="noFavoritesHelpText">"Nincsenek kedvencei.
+
+Így adhat hozzá névjegyet a kedvencek listájához:
+
+        "<li>Érintse meg a <b>Címtár</b>" lapot
+"</li>" 
+"<li>"Érintse meg a kedvencekhez hozzáadni kívánt névjegyet
+"</li>" 
+"<li>"Érintse meg az ismerős neve melletti csillagot
+"</li></string>
+    <string name="liveFolder_all_label">Összes névjegy</string>
+    <string name="liveFolder_favorites_label">Csillaggal megjelölt</string>
+    <string name="liveFolder_phones_label">Telefonszámok</string>
+    <string name="dialer_useDtmfDialpad">Hangkódos telefonbillentyűzet használata</string>
+    <string name="dialer_returnToInCallScreen">Vissza a folyamatban lévő híváshoz</string>
+    <string name="dialer_addAnotherCall">Hívás hozzáadása</string>
+    <string name="callDetailTitle">Hívás adatai</string>
+    <string name="toast_call_detail_error">Nem sikerült olvasni a megadott hívás adatait.</string>
+    <string name="type_incoming">Bejövő hívás</string>
+    <string name="type_outgoing">Kimenő hívás</string>
+    <string name="type_missed">Nem fogadott hívás</string>
+    <string name="actionIncomingCall">Bejövő hívások</string>
+    <string name="callBack">Visszahívás</string>
+    <string name="callAgain">Hívásismétlés</string>
+    <string name="returnCall">Visszahívás</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s perc %s másodperc</string>
+    <string name="favoritesFrquentSeparator">Gyakran keresett</string>
+    <string name="add_contact_dlg_title">Névjegy hozzáadása</string>
+    <string name="add_contact_dlg_message_fmt">Hozzáadja a(z) \"%s\"címet a Címtárhoz?</string>
+    <string name="description_image_button_one">egy</string>
+    <string name="description_image_button_two">kettő</string>
+    <string name="description_image_button_three">három</string>
+    <string name="description_image_button_four">négy</string>
+    <string name="description_image_button_five">öt</string>
+    <string name="description_image_button_six">hat</string>
+    <string name="description_image_button_seven">hét</string>
+    <string name="description_image_button_eight">nyolc</string>
+    <string name="description_image_button_nine">kilenc</string>
+    <string name="description_image_button_star">csillag</string>
+    <string name="description_image_button_zero">nulla</string>
+    <string name="description_image_button_pound">kettős kereszt</string>
+    <string name="description_voicemail_button">hangposta</string>
+    <string name="description_dial_button">tárcsázás</string>
+    <string name="description_delete_button">Backspace</string>
+    <string name="description_digits_edittext">a tárcsázandó szám</string>
+    <string name="description_contact_photo">fotó a névjegyhez</string>
+    <string name="description_minus_button">mínusz</string>
+    <string name="description_plus_button">plusz</string>
+    <string name="searching_vcard_title">vCard keresése</string>
+    <string name="import_from_sim">Importálás a SIM-kártyáról</string>
+    <string name="share_visible_contacts">Látható névjegyek megosztása</string>
+    <string name="import_one_vcard_string">Egyetlen vCard fájl importálása</string>
+    <string name="import_multiple_vcard_string">Több vCard fájl importálása</string>
+    <string name="import_all_vcard_string">Az összes vCard fájl importálása</string>
+    <string name="fail_reason_io_error">I/O hiba</string>
+    <string name="fail_reason_low_memory_during_import">Nincs elég memória (lehet, hogy túl nagy a fájl)</string>
+    <string name="fail_reason_vcard_parse_error">Váratlan ok miatt nem sikerült a vCard szintaktikai elemzése</string>
+    <string name="fail_reason_not_supported">A formátum nem támogatott.</string>
+    <string name="vcard_import_failed">Nem sikerült a vCard importálása</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Nem sikerült begyűjteni a vCard fájl(ok) metaadatait.</string>
+    <string name="fail_reason_failed_to_read_files">Egy vagy több fájlt nem sikerült importálni (%s).</string>
+    <string name="fail_reason_unknown">Ismeretlen hiba történt</string>
+    <string name="select_vcard_title">Válassza ki a vCard fájlt</string>
+    <string name="caching_vcard_title">vCard(ok) mentése ideiglenes helyi tárolóba</string>
+    <string name="caching_vcard_message">Az importáló elmenti a vCardo(ka)t az ideiglenes helyi tárolóba. A tényleges importálás hamarosan megkezdődik.</string>
+    <string name="progress_notifier_message" formatted="false">Importálás - %s/%s: %s</string>
+    <string name="importing_vcard_description">Importálás - %s</string>
+    <string name="reading_vcard_failed_title">A vCard-adatok beolvasása sikertelen volt</string>
+    <string name="reading_vcard_canceled_title">A vCard-adatok beolvasása megszakítva</string>
+    <string name="importing_vcard_finished_title">A(z) %s vCard importálása befejeződött</string>
+    <string name="importing_vcard_canceled_title">A(z) %s importálása megszakítva</string>
+    <string name="vcard_import_will_start_message">A(z) %s hamarosan importálásra kerül.</string>
+    <string name="vcard_import_will_start_message_with_default_name">A fájl importálása hamarosan megtörténik.</string>
+    <string name="vcard_import_request_rejected_message">A vCard-importálási kérelem elutasítva. Próbálja újra később.</string>
+    <string name="vcard_export_will_start_message">A(z) %s hamarosan exportálásra kerül.</string>
+    <string name="vcard_export_request_rejected_message">A vCard-exportálási kérelem elutasítva. Próbálja újra később.</string>
+    <string name="vcard_unknown_filename">kapcsolat</string>
+    <string name="percentage">%s%%</string>
+    <string name="confirm_export_title">Exportálás megerősítése</string>
+    <string name="confirm_export_message">Biztosan exportálja a Címtárat a(z) \"%s\" fájlba?</string>
+    <string name="exporting_contact_failed_title">Nem sikerült exportálni a névjegyadatokat</string>
+    <string name="exporting_contact_failed_message">"Nem sikerült exportálni a névjegyadatokat.
+A hiba oka: \"%s\""</string>
+    <string name="fail_reason_no_exportable_contact">Nincs exportálható névjegy</string>
+    <string name="fail_reason_too_long_filename">A fájlnév túl hosszú (\"%s\")</string>
+    <string name="exporting_vcard_finished_title">A(z) %s exportálása befejeződött</string>
+    <string name="exporting_vcard_canceled_title">A(z) %s exportálása megszakítva</string>
+    <string name="exporting_contact_list_title">Névjegyadatok exportálása</string>
+    <string name="exporting_contact_list_message">Névjegyadatok importálása a(z) \"%s\" fájlba</string>
+    <string name="fail_reason_could_not_initialize_exporter">Nem sikerült inicializálni az exportálót: \"%s\"</string>
+    <string name="fail_reason_error_occurred_during_export">Hiba történt az exportálás során: \"%s\"</string>
+    <string name="composer_failed_to_get_database_infomation">Nem sikerült lekérni az adatbázis adatait</string>
+    <string name="composer_has_no_exportable_contact">Nincsenek exportálható névjegyek. Ha vannak névjegyek táblagépén, akkor lehet, hogy az adatszolgáltatók megtiltották azok exportálását a táblagépen kívülre.</string>
+    <string name="composer_not_initialized">A vCard-készítő inicializálása nem sikerült</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">A(z) \"%s\" fájl nem nyitható meg: %s</string>
+    <string name="exporting_contact_list_progress" formatted="false">%s/%s névjegy</string>
+    <string name="cancel_import_confirmation_title">vCard importálásának megszakítása</string>
+    <string name="cancel_import_confirmation_message">Biztosan megszakítja a(z) %s importálását?</string>
+    <string name="cancel_export_confirmation_title">vCard exportálásának megszakítása</string>
+    <string name="cancel_export_confirmation_message">Biztosan megszakítja a(z) %s exportálását?</string>
+    <string name="cancel_vcard_import_or_export_failed">vCard importálás/exportálás megszakítása sikertelen</string>
+    <string name="search_settings_description">Ismerősök nevei</string>
+    <string name="add_2sec_pause">2 mp-es szünet hozzáadása</string>
+    <string name="add_wait">Várakozás hozzáadása</string>
+    <string name="call_disambig_title">Hívás a következő használatával:</string>
+    <string name="sms_disambig_title">SMS küldése a következővel:</string>
+    <string name="make_primary">Választás megjegyzése</string>
+    <string name="quickcontact_missing_app">Nincs megfelelő alkalmazás a művelet elvégzésére</string>
+    <string name="quickcontact_remember_choice">Választás megjegyzése</string>
+    <string name="quickcontact_missing_name">Ismeretlen</string>
+    <string name="quickcontact_no_data">Nincs adat</string>
+    <string name="quickcontact_clear_defaults_description">Alapértelmezések törlése</string>
+    <string name="quickcontact_clear_defaults_caption">A névjegy alapbeállításai:</string>
+    <string name="quickcontact_clear_defaults_button">Törlés</string>
+    <string name="menu_accounts">Fiókok</string>
+    <string name="menu_import_export">Importálás/exportálás</string>
+    <string name="dialog_import_export">Névjegyek importálása/exportálása</string>
+    <string name="menu_share">Névjegy megosztása</string>
+    <string name="share_via">Névjegy megosztása a következőn:</string>
+    <string name="share_error">Ez a névjegy nem osztható meg.</string>
+    <string name="nameLabelsGroup">Név</string>
+    <string name="nicknameLabelsGroup">Becenév</string>
+    <string name="organizationLabelsGroup">Szervezet</string>
+    <string name="websiteLabelsGroup">Webhely</string>
+    <string name="eventLabelsGroup">Esemény</string>
+    <string name="relationLabelsGroup">Kapcsolat</string>
+    <string name="groupsLabel">Csoportok</string>
+    <string name="type_short_home">O</string>
+    <string name="type_short_mobile">M</string>
+    <string name="type_short_work">Mh</string>
+    <string name="type_short_pager">Cs</string>
+    <string name="type_short_other">E</string>
+    <string name="dialog_new_contact_account">Névjegy létrehozása a következő fiókban</string>
+    <string name="menu_sync_remove">Szinkronizálási csoport eltávolítása</string>
+    <string name="dialog_sync_add">Szinkronizálási csoport hozzáadása</string>
+    <string name="display_more_groups">További csoportok...</string>
+    <string name="display_ungrouped">Az összes többi névjegy</string>
+    <string name="display_all_contacts">Összes névjegy</string>
+    <string name="display_warn_remove_ungrouped">Ha leállítja a(z) \"%s\" csoport szinkronizálását, ugyanez történik a nem csoportosított névjegyekkel is.</string>
+    <string name="account_phone">Csak a táblagépen, nem szinkronizált</string>
+    <string name="call_custom">%s hívása</string>
+    <string name="call_home">Otthoni szám hívása</string>
+    <string name="call_mobile">Mobil hívása</string>
+    <string name="call_work">Munkahelyi telefon hívása</string>
+    <string name="call_fax_work">Munkahelyi fax hívása</string>
+    <string name="call_fax_home">Otthoni fax hívása</string>
+    <string name="call_pager">Csipogó hívása</string>
+    <string name="call_other">Hívás</string>
+    <string name="call_callback">Visszahívási szám hívása</string>
+    <string name="call_car">Gépkocsi hívása</string>
+    <string name="call_company_main">Céges fővonal hívása</string>
+    <string name="call_isdn">ISDN-telefon hívása</string>
+    <string name="call_main">Fő telefonszám hívása</string>
+    <string name="call_other_fax">Fax hívása</string>
+    <string name="call_radio">Rádiótelefon hívása</string>
+    <string name="call_telex">Telex hívása</string>
+    <string name="call_tty_tdd">TTY/TDD-szám hívása</string>
+    <string name="call_work_mobile">Munkahelyi mobil hívása</string>
+    <string name="call_work_pager">Munkahelyi csipogó hívása</string>
+    <string name="call_assistant">%s hívása</string>
+    <string name="call_mms">MMS-ben szereplő telefonszám hívása</string>
+    <string name="sms_custom">SMS küldése ide: %s</string>
+    <string name="sms_home">SMS küldése haza</string>
+    <string name="sms_mobile">SMS küldése mobiltelefonra</string>
+    <string name="sms_work">SMS küldése munkahelyi telefonra</string>
+    <string name="sms_fax_work">SMS küldése munkahelyi faxszámra</string>
+    <string name="sms_fax_home">SMS küldése otthoni faxszámra</string>
+    <string name="sms_pager">SMS küldése csipogóra</string>
+    <string name="sms_other">SMS küldése</string>
+    <string name="sms_callback">SMS küldése visszahívandó számra</string>
+    <string name="sms_car">SMS küldése gépkocsinak</string>
+    <string name="sms_company_main">SMS küldése a céges fővonalra</string>
+    <string name="sms_isdn">SMS küldése ISDN-telefonra</string>
+    <string name="sms_main">SMS küldése fő telefonszámra</string>
+    <string name="sms_other_fax">SMS küldése faxszámra</string>
+    <string name="sms_radio">SMS küldése rádiótelefonra</string>
+    <string name="sms_telex">SMS küldése telexre</string>
+    <string name="sms_tty_tdd">SMS küldése szöveges telefonra (TTY/TDD)</string>
+    <string name="sms_work_mobile">SMS küldése munkahelyi mobilra</string>
+    <string name="sms_work_pager">SMS küldése munkahelyi csipogóra</string>
+    <string name="sms_assistant">SMS küldése ide: %s</string>
+    <string name="sms_mms">SMS küldése MMS-ben szereplő számra</string>
+    <string name="email_home">E-mail küldése haza</string>
+    <string name="email_mobile">E-mail küldése mobiltelefonra</string>
+    <string name="email_work">E-mail küldése munkahelyi címre</string>
+    <string name="email_other">E-mail küldése</string>
+    <string name="email_custom">E-mail küldése a(z) %s címre</string>
+    <string name="email">E-mail küldése</string>
+    <string name="map_home">Otthoni cím megtekintése</string>
+    <string name="map_work">Munkahelyi cím megtekintése</string>
+    <string name="map_other">Cím megtekintése</string>
+    <string name="map_custom">%s cím megtekintése</string>
+    <string name="chat_aim">Csevegés AIM-on</string>
+    <string name="chat_msn">Csevegés a Windows Live-on</string>
+    <string name="chat_yahoo">Csevegés a Yahoon</string>
+    <string name="chat_skype">Csevegés Skype használatával</string>
+    <string name="chat_qq">Csevegés a QQ-n</string>
+    <string name="chat_gtalk">Csevegés a Google Csevegő használatával</string>
+    <string name="chat_icq">Csevegés az ICQ-n</string>
+    <string name="chat_jabber">Csevegés Jabberen</string>
+    <string name="chat">Csevegés</string>
+    <string name="postal_address">Cím</string>
+    <string name="postal_street">Utca</string>
+    <string name="postal_pobox">Postafiók</string>
+    <string name="postal_neighborhood">Környék</string>
+    <string name="postal_city">Település</string>
+    <string name="postal_region">Állapot</string>
+    <string name="postal_postcode">Irányítószám</string>
+    <string name="postal_country">Ország</string>
+    <string name="full_name">Név</string>
+    <string name="name_given">Utónév</string>
+    <string name="name_family">Vezetéknév</string>
+    <string name="name_prefix">Név előtagja</string>
+    <string name="name_middle">Második név</string>
+    <string name="name_suffix">Név utótagja</string>
+    <string name="name_phonetic_given">Utónév fonetikusan</string>
+    <string name="name_phonetic_middle">Második utónév fonetikusan</string>
+    <string name="name_phonetic_family">Vezetéknév fonetikusan</string>
+    <string name="name_phonetic">Név fonetikusan</string>
+    <string name="account_type_format">%1$s névjegy</string>
+    <string name="from_account_format">%1$s fiókból</string>
+    <string name="use_photo_as_primary">Fotó felhasználása</string>
+    <string name="contact_read_only">A(z) %1$s névjegyadatai nem szerkeszthetők ezen az eszközön.</string>
+    <string name="no_contact_details">Nincsenek további adatok ennél a névjegynél</string>
+    <string name="display_options_sort_list_by">Lista rendezési elve:</string>
+    <string name="display_options_sort_by_given_name">Utónév</string>
+    <string name="display_options_sort_by_family_name">Vezetéknév</string>
+    <string name="display_options_view_names_as">Nevek megtekintése mint</string>
+    <string name="display_options_view_given_name_first">Utónév előre</string>
+    <string name="display_options_view_family_name_first">Vezetéknév elöl</string>
+    <string name="search_bar_hint">Keresés a névjegyek között</string>
+    <string name="search_for_all_contacts">Keresés az összes névjegyben</string>
+    <string name="take_photo">Fotó készítése</string>
+    <string name="take_new_photo">Új fénykép készítése</string>
+    <string name="pick_photo">Fotó kiválasztása a Galériából</string>
+    <string name="pick_new_photo">Új fotó kiválasztása a Galériából</string>
+    <string name="locale_change_in_progress">Az ismerőslista frissítése folyamatban van, hogy tükrözze a nyelv módosítását.</string>
+    <string name="upgrade_in_progress">Az ismerőslista frissítése folyamatban van.</string>
+    <string name="upgrade_out_of_memory">"Az ismerősök frissítése folyamatban van. 
+ 
+ A frissítési folyamathoz kb. %s MB belső tárhelyre van szükség. 
+ 
+ Válasszon az alábbi lehetőségek közül:"</string>
+    <string name="upgrade_out_of_memory_uninstall">Távolítson el néhány alkalmazást</string>
+    <string name="upgrade_out_of_memory_retry">Verziófrissítés újrapróbálása</string>
+    <string name="search_results_searching">Keresés...</string>
+    <string name="menu_display_selected">Kiválasztottak megjelenítése</string>
+    <string name="menu_display_all">Összes megjelenítése</string>
+    <string name="menu_select_all">Összes kijelölése</string>
+    <string name="menu_select_none">Összes kijelölés megszüntetése</string>
+    <string name="no_contacts_selected">Nincs kijelölt névjegy.</string>
+    <string name="add_field">Más mező hozzáadása</string>
+    <string name="contact_status_update_attribution">- %1$s</string>
+    <string name="contact_status_update_attribution_with_date" formatted="false">%1$s - %2$s</string>
+    <string name="description_star">kedvenc</string>
+    <string name="edit_contact">Névjegy szerkesztése</string>
+    <string name="local_invisible_directory">Egyéb</string>
+    <string name="aggregation_suggestion_join_dialog_title">Névjegyek összekapcsolása</string>
+    <string name="aggregation_suggestion_join_dialog_message">Összekapcsolja a jelenlegi névjegyet a kiválasztott névjeggyel?</string>
+    <string name="aggregation_suggestion_edit_dialog_title">A kiválasztott névjegyek szerkesztése</string>
+    <string name="aggregation_suggestion_edit_dialog_message">A kiválasztott névjegy szerkesztésére vált? Az eddig beírt információk át lesznek másolva.</string>
+    <string name="menu_copyContact">Másolás a saját névjegyeim közé</string>
+    <string name="contact_directory_description">Mappa: %1$s</string>
+    <string name="search_label">Keresés a névjegyek között</string>
+    <string name="directory_search_label">Mappa</string>
+    <string name="local_search_label">Címtár</string>
+    <string name="toast_making_personal_copy">Személyes másolat készítése</string>
+    <string name="list_filter_prompt">Címtár kiválasztása</string>
+    <string name="list_filter_all_accounts">Összes névjegy</string>
+    <string name="list_filter_all_starred">Csillaggal megjelölt</string>
+    <string name="list_filter_custom">Egyéni</string>
+    <string name="list_filter_customize">Személyre szabás...</string>
+    <string name="list_filter_phones">Névjegyek telefonszámmal</string>
+    <string name="list_filter_single">Kapcsolat</string>
+    <string name="custom_list_filter">Egyéni nézet megadása</string>
+    <string name="activity_title_settings">Beállítások</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="preference_displayOptions">Megjelenítési beállítások</string>
+    <string name="organization_company_and_title" formatted="false">%2$s, %1$s</string>
+    <string name="hint_findContacts">Névjegy keresése</string>
+    <string name="non_phone_caption">Telefonszám</string>
+    <string name="non_phone_add_to_contacts">Hozzáadása a névjegyekhez</string>
+    <string name="non_phone_close">Bezárás</string>
+    <string name="widget_name_and_phonetic" formatted="false">%1$s (%2$s)</string>
+    <string name="date_year_toggle">Születési év megadása</string>
+    <string name="social_widget_label">Névjegy</string>
+    <string name="social_widget_loading">Betöltés…</string>
+    <string name="contacts_unavailable_create_contact">Új névjegy létrehozása</string>
+    <string name="contacts_unavailable_add_account">Jelentkezzen be fiókjába</string>
+    <string name="contacts_unavailable_import_contacts">Névjegyek importálása fájlból</string>
+    <string name="create_group_dialog_title">Új csoport létrehozása</string>
+    <string name="create_group_item_label">[Új csoport létrehozása]</string>
+    <string name="rename_group_dialog_title">Csoport átnevezése</string>
+    <string name="delete_group_dialog_title">Csoport törlése</string>
+    <string name="delete_group_dialog_message">Biztosan törölni szeretné a(z) \"%1$s\" csoportot? (Maguk a névjegyek nem kerülnek törlésre.)</string>
+    <string name="toast_join_with_empty_contact">Kérjük, adja meg az ismerős nevét, mielőtt összekapcsolná egy másik ismerősével.</string>
+    <string name="indicator_joined_contact">Összekapcsolt névjegy</string>
+    <string name="toast_text_copied">Másolt szöveg</string>
+    <string name="cancel_confirmation_dialog_title">Módosítások elvetése</string>
+    <string name="cancel_confirmation_dialog_message">Biztosan elveti a módosításokat?</string>
+    <string name="discard">Elvetés</string>
+</resources>

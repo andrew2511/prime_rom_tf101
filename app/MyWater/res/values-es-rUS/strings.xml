@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Fondo de escritorio en movimiento predeterminado de ASUS.</string>
+    <string name="mywater_setting">Configuración de ASUS MyWater</string>
+    <string name="enable_rotation">Permitir rotación de fondo de escritorio de agua</string>
+    <string name="enable_rotation_description">El fondo de escritorio de agua rotará junto con la rotación del dispositivo.</string>
+</resources>

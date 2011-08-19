@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Карты Google</string>
+    <string name="da_google_maps_navigation">Навигация на Картах Google</string>
+    <string name="da_net_fail_title">Ошибка сети</string>
+    <string name="da_net_fail_body">Для работы приложения требуется соединение для передачи данных.</string>
+    <string name="da_beta">БЕТА</string>
+    <string name="da_destination">Место назначения</string>
+    <string name="da_toward">в сторону %1$s</string>
+    <string name="da_onto">на %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"затем
+%1$s"</string>
+    <string name="da_continue_for_distance">Двигайтесь далее %1$s</string>
+    <string name="da_destination_will_be_on_the_left">ваше место назначения будет слева.</string>
+    <string name="da_destination_will_be_on_the_right">ваше место назначения будет справа.</string>
+    <string name="da_you_will_reach_destination">вы прибудете к месту назначения.</string>
+    <string name="da_destination_on_the_left">Ваше место назначения находится слева.</string>
+    <string name="da_destination_on_the_right">Ваше место назначения будет справа.</string>
+    <string name="da_destination_reached">Вы прибыли к месту назначения.</string>
+    <string name="da_speech_lost_gps">Сигнал GPS потерян</string>
+    <string name="da_speech_lost_data_connection">Передача данных прервана</string>
+    <string name="da_speech_navigation_resumed">Навигация возобновлена</string>
+    <string name="da_speech_please_describe_problem">Опишите проблему</string>
+    <string name="da_on_left">слева</string>
+    <string name="da_on_right">справа</string>
+    <string name="da_stay_on_road_primary">Продолжайте движение по %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s до %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s до %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} мил.</string>
+    <string name="da_distance_format_miles_compressed">{0} мил.</string>
+    <string name="da_distance_format_feet_abbreviated">{0} фт.</string>
+    <string name="da_distance_format_feet_compressed">{0} фт.</string>
+    <string name="da_distance_format_yards_abbreviated">{0} ярдов</string>
+    <string name="da_distance_format_yards_compressed">{0} ярдов</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} км</string>
+    <string name="da_distance_format_kilometers_compressed">{0} км</string>
+    <string name="da_distance_format_meters_abbreviated">{0} м</string>
+    <string name="da_distance_format_meters_compressed">{0} м</string>
+    <string name="da_distance_format_separator">,</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s дн. %2$s ч.</string>
+    <string name="da_time_format_hours" formatted="false">%1$s ч. %2$s мин.</string>
+    <string name="da_time_format_minutes">%1$s мин.</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s – %2$s</string>
+    <string name="da_navigation">Навигация</string>
+    <string name="da_search_label">Поиск</string>
+    <string name="da_layers">Слои</string>
+    <string name="da_agreement">"Внимание! Google Навигация находится в режиме бета-тестирования.
+
+Не отвлекайтесь на изменение параметров маршрута и настроек приложения во время вождения. Обратите внимание: проложенные маршруты могут быть неточными, проходить через опасные и закрытые участки, а также предусматривать паромные переправы. Данные о загруженности дорог предоставляются не в реальном времени.
+
+Соблюдайте Правила дорожного движения и следите за дорогой!"</string>
+    <string name="da_agreement_with_walking">"Внимание! Google Навигация находится в режиме бета-тестирования.
+
+Не отвлекайтесь на изменение параметров маршрута и настроек приложения во время вождения. Обратите внимание: проложенные маршруты могут быть неточными, проходить через опасные и закрытые участки, а также предусматривать паромные переправы. Данные о загруженности дорог предоставляются не в реальном времени. В пешеходных маршрутах могут отсутствовать тротуары или пешеходные дорожки.
+
+Соблюдайте Правила дорожного движения и следите за дорогой!"</string>
+    <string name="da_disclaimer_checkbox">Показать это сообщение в следующий раз</string>
+    <string name="da_show_list">Детали маршрута</string>
+    <string name="da_route_overview">Весь маршрут</string>
+    <string name="da_show_map">Показать карту</string>
+    <string name="da_satellite">Спутник</string>
+    <string name="da_traffic_view">Пробки</string>
+    <string name="da_no_traffic_here">Данные о пробках отсутствуют</string>
+    <string name="da_traffic">Пробки</string>
+    <string name="da_area_view">Вид сверху</string>
+    <string name="da_mute">Отключить звук</string>
+    <string name="da_unmute">Включить звук</string>
+    <string name="da_settings">Настройки</string>
+    <string name="da_help">Справка</string>
+    <string name="da_terms_privacy_notices">Условия использования</string>
+    <string name="da_terms_and_conditions">Условия использования</string>
+    <string name="da_privacy_policy">конфиденциальность</string>
+    <string name="da_legal_notices">Юридические уведомления</string>
+    <string name="da_navigation_suspended">Навигация приостановлена</string>
+    <string name="da_exit_navigation">Выйти</string>
+    <string name="da_email_me_when_resolved">Прислать сообщение по электронной почте, когда проблема будет устранена</string>
+    <string name="da_problem_reported">Сообщение о проблеме отправлено.</string>
+    <string name="da_one_button_map_issue_reporting">Мгн. сбщ. о проблеме</string>
+    <string name="da_attention">Внимание</string>
+    <string name="da_rmi_warning">"Функция \"Сообщить о проблеме\" позволяет записать короткое голосовое сообщение, описывающее проблему с картой или маршрутом. Через 15 секунд сообщение будет автоматически отправлено в Google вместе с данными о вашем текущем местоположении и маршруте.
+
+В настройках приложения можно назначить этой функции кнопку для быстрого доступа.
+
+ Если вы захотите получить уведомление о том, что проблема решена, ваш адрес электронной почты будет храниться вместе с вашим местоположением и комментариями до устранения проблемы."</string>
+    <string name="da_report_a_problem">Сообщить о проблеме</string>
+    <string name="da_report_a_problem_dialog_title">Сообщить о проблеме</string>
+    <string name="da_rmi_preference_trackball_summary">Отправка отчетов о проблемах нажатием на трекбол (должен быть активирован).</string>
+    <string name="da_rmi_preference_camera_summary">Чтобы включить отправку отчетов о проблемах, нажмите кнопку камеры (если она активирована).</string>
+    <string name="da_rmi_preference_no_button_summary">Функция не поддерживается на данном устройстве.</string>
+    <string name="da_rmi_preference_bad_location_summary">Там, где вы сейчас находитесь, сообщить о проблеме невозможно.</string>
+    <string name="da_destination_not_here_warning">Благодарим за сообщение о неверно определенном местоположении вашего пункта назначения. Сведения о вашем текущем местоположении и месте назначения будут отправлены в Google, чтобы повысить точность наших данных.</string>
+    <string name="da_destination_not_here_title">Сообщить об ошибке</string>
+    <string name="da_searching_for_gps">Поиск GPS...</string>
+    <string name="da_data_connection_lost">Передача данных прервана...</string>
+    <string name="da_follow_the_route">Следуйте маршруту</string>
+    <string name="da_waiting_for_directions">Прокладка маршрута</string>
+    <string name="da_waiting_for_walking_directions">Прокладка маршрута</string>
+    <string name="da_waiting_for_location">Определение местоположения</string>
+    <string name="da_checking_navigation_availability">Проверка возможности навигации</string>
+    <string name="da_loading_route_details">Загрузка маршрута</string>
+    <string name="da_loading_image">Загрузка изображения</string>
+    <string name="da_waiting_for_alternates">Поиск альтернативных маршрутов</string>
+    <string name="da_waiting_for_details">Загрузка...</string>
+    <string name="da_no_details">Нет сведений</string>
+    <string name="da_gps_is_disabled">GPS отключено</string>
+    <string name="da_turn_on_gps">Показать настройки местоположения?</string>
+    <string name="da_voice_guidance">Голосовые подсказки</string>
+    <string name="da_install_voice_guidance_prompt">Чтобы пользоваться голосовой навигацией, необходимо перейти на Android Маркет и установить поддержку перевода текста в речь.</string>
+    <string name="da_dialog_ok">OК</string>
+    <string name="da_dialog_skip">Пропустить</string>
+    <string name="da_dialog_cancel">Отмена</string>
+    <string name="da_dialog_done">Готово</string>
+    <string name="da_dialog_accept">Принимаю</string>
+    <string name="da_dialog_install">Установить</string>
+    <string name="da_dialog_dont_accept">Не принимаю</string>
+    <string name="da_dialog_go">В путь</string>
+    <string name="da_dialog_get_directions">Проложить маршрут</string>
+    <string name="da_map">Карта</string>
+    <string name="da_clear_layers">Очистить карту</string>
+    <string name="da_layer_name_parking">Парковки</string>
+    <string name="da_layer_name_attractions">Достопримечательности</string>
+    <string name="da_layer_name_gas_stations">АЗС</string>
+    <string name="da_layer_name_restaurants">Рестораны</string>
+    <string name="da_layer_name_supermarkets">Супермаркеты</string>
+    <string name="da_layer_name_atms_and_banks">Банкоматы и банки</string>
+    <string name="da_layer_name_convenience_stores">Круглосуточные магазины</string>
+    <string name="da_query_banks_and_atms">Банки и банкоматы</string>
+    <string name="da_rerouting">Обновление маршрута...</string>
+    <string name="da_via">Через %s</string>
+    <string name="da_to_destination">Куда: %s</string>
+    <string name="da_via_name_separator">" и "</string>
+    <string name="da_record_feedback">Оставьте отзыв</string>
+    <string name="da_destination_not_here">Нужно было не сюда</string>
+    <string name="da_new_destination">След. место назначения</string>
+    <string name="da_reroute_to_destination">Вернуться к месту назначения</string>
+    <string name="da_change_destination">Место назначения</string>
+    <string name="da_search_for_destination">Поиск...</string>
+    <string name="da_point_on_map">Точка на карте</string>
+    <string name="da_volume">Громкость навигации</string>
+    <string name="da_exit">Выход</string>
+    <string name="da_did_you_mean">Возможно, вы ищете</string>
+    <string name="da_did_you_say">Вы имели в виду:</string>
+    <string name="da_for_your_end_point">Для конечной точки маршрута</string>
+    <string name="da_unnamed_road">Дорога без названия</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, затем %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Через %1$s метров</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Через полтора километра</string>
+    <string name="da_speech_continue_for_x_meters">Продолжайте движение %1$s метров</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Продолжайте движение полтора километра</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Продолжайте движение по %2$s %1$s метров</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Продолжайте движение по %1$s полтора километра</string>
+    <string name="da_speech_generic_continue">Двигайтесь прямо</string>
+    <string name="da_speech_in_x_feet">Через %1$s футов</string>
+    <string name="da_speech_in_x_yards">Через %1$s ярдов</string>
+    <string name="da_speech_in_a_quarter_mile">Через четверть мили</string>
+    <string name="da_speech_in_a_half_mile">Через полмили</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Через три четверти мили</string>
+    <string name="da_speech_in_one_and_a_half_miles">Через полторы мили</string>
+    <string name="da_speech_continue_for_x_feet">Продолжайте движение %1$s футов</string>
+    <string name="da_speech_continue_for_x_yards">Продолжайте движение %1$s ярдов</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Продолжайте движение четверть мили</string>
+    <string name="da_speech_continue_for_a_half_mile">Продолжайте движение полмили</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Продолжайте движение три четверти мили</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Продолжайте движение полторы мили</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Продолжайте движение по %2$s %1$s футов</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Продолжайте движение по %2$s %1$s ярдов</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Продолжайте движение по %1$s четверть мили</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Продолжайте движение по %1$s полмили</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Продолжайте движение по %1$s три четверти мили</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Продолжайте движение по %1$s полторы мили</string>
+    <string name="da_route_prefixes">С,СВ,В,ЮВ,Ю,ЮЗ,З,СЗ</string>
+    <string name="da_route_suffixes">С,СВ,В,ЮВ,Ю,ЮЗ,З,СЗ,просп.,бул.,дубл., перекр. с круговым движением, ш., туп. пер.,пл.,пр., ул., автомагистр.</string>
+    <string name="da_no_route">Маршрут не найден</string>
+    <string name="da_route_not_found">Не удается найти маршрут к вашему месту назначения.</string>
+    <string name="da_destination_not_found">Не удалось определить место назначения.</string>
+    <string name="da_navigation_not_supported">Для данного маршрута функция навигации недоступна.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Навигация на Картах Google пока здесь недоступна.</string>
+    <string name="da_launch_maps">Запустить Карты</string>
+    <string name="da_no_image_available">Изображение недоступно.</string>
+    <string name="da_image_error">Ошибка загрузки изображения.</string>
+    <string name="da_no_alternate_routes">Не удается проложить альтернативный маршрут к месту назначения.</string>
+    <string name="da_picker_type_destination">Ввести место назначения</string>
+    <string name="da_picker_speak_destination">Произнести адрес</string>
+    <string name="da_picker_contacts">Контакты</string>
+    <string name="da_picker_starred_items">Отмеченные места</string>
+    <string name="da_picker_new_contact">Создать контакт</string>
+    <string name="da_picker_recent_destinations">Недавние места назначения</string>
+    <string name="da_picker_choose_destination">Место назначения</string>
+    <string name="da_navigate_to">Место назначения:</string>
+    <string name="da_picker_search_hint">Место назначения</string>
+    <string name="da_route_options">Параметры маршрута</string>
+    <string name="da_updating_directions">Обновление маршрутов</string>
+    <string name="da_picker_no_starred_items">"Пока ничего не отмечено.
+
+Отмеченные места автоматически синхронизируются с maps.google.com.
+
+Чтобы отметить результат поиска на Картах Google, нажмите на значок звездочки рядом с адресом."</string>
+    <string name="da_picker_no_contacts">"Контактов с адресами нет.
+
+Чтобы создать новый контакт или добавить адрес в существующий, воспользуйтесь приложением \"Контакты\"."</string>
+    <string name="da_driving">На автомобиле</string>
+    <string name="da_walking">Пешком</string>
+    <string name="da_quoted_text">\"%1$s\"</string>
+    <string name="da_more_info">Подробнее</string>
+    <string name="da_search_maps">Поиск на карте</string>
+    <string name="da_walking_warning">Внимание! Пешеходные маршруты находятся в режиме бета-тестирования.</string>
+    <string name="da_calibrate_compass_title">Калибровка компаса</string>
+    <string name="da_calibrate_compass">Компас не откалиброван. Чтобы откалибровать компас, несколько раз очертите в воздухе устройством \"восьмерку\".</string>
+    <string name="da_confirm_exit_title">Хотите выйти?</string>
+    <string name="da_confirm_exit_text">Сопровождение по маршруту будет прекращено.</string>
+    <string name="da_route_includes_tolls">В маршруте есть платные дороги</string>
+    <string name="da_avoid_tolls">Избегать платных дорог</string>
+    <string name="da_avoiding_tolls">Платные дороги исключены</string>
+    <string name="da_avoiding_highways">Шоссе исключены</string>
+    <string name="da_route_includes_unavoidable_tolls">Маршрут включает платные дороги.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Этот маршрут включает платные дороги. Чтобы избегать платных дорог, воспользуйтесь параметром %1$s%2$s.</string>
+    <string name="da_seasonally_closed">Маршрут может быть временно недоступен</string>
+    <string name="da_direction_north">север</string>
+    <string name="da_direction_north_west">северо-запад</string>
+    <string name="da_direction_west">запад</string>
+    <string name="da_direction_south_west">юго-запад</string>
+    <string name="da_direction_south">юг</string>
+    <string name="da_direction_south_east">юго-восток</string>
+    <string name="da_direction_east">восток</string>
+    <string name="da_direction_north_east">северо-восток</string>
+    <string name="da_step_depart">Следуйте на %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Следуйте по %2$s на %1$s</string>
+    <string name="da_step_slight_left">Плавно поверните налево</string>
+    <string name="da_step_slight_right">Плавно поверните направо</string>
+    <string name="da_step_turn_left">Поверните налево</string>
+    <string name="da_step_turn_right">Поверните направо</string>
+    <string name="da_step_sharp_left">Резко поверните налево</string>
+    <string name="da_step_sharp_right">Резко поверните направо</string>
+    <string name="da_step_slight_left_onto">Плавно поверните налево на %1$s</string>
+    <string name="da_step_slight_right_onto">Плавно поверните направо на %1$s</string>
+    <string name="da_step_turn_left_onto">Поверните налево на %1$s</string>
+    <string name="da_step_turn_right_onto">Поверните направо на %1$s</string>
+    <string name="da_step_sharp_left_onto">Резко поверните налево на %1$s</string>
+    <string name="da_step_sharp_right_onto">Резко поверните направо на %1$s</string>
+    <string name="da_step_fork_left">На развилке держитесь левее</string>
+    <string name="da_step_fork_right">На развилке держитесь правее</string>
+    <string name="da_step_continue_onto">Продолжайте движение по %1$s</string>
+    <string name="da_step_continue_straight">Двигайтесь прямо</string>
+    <string name="da_step_u_turn">Выполните разворот</string>
+    <string name="da_step_take_the_ramp">Сверните на съезд</string>
+    <string name="da_step_take_the_ramp_onto">Сверните на съезд на %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Сверните налево на съезд</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Сверните налево на съезд на %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Сверните направо на съезд</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Сверните направо на съезд на %1$s</string>
+    <string name="da_step_take_the_exit">Сверните на съезд</string>
+    <string name="da_step_take_the_exit_on_the_left">Сверните налево на съезд</string>
+    <string name="da_step_take_the_exit_on_the_right">Сверните направо на съезд</string>
+    <string name="da_step_take_the_exit_onto">Сверните на съезд на %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Сверните налево на съезд на %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Сверните направо на съезд на %1$s</string>
+    <string name="da_step_take_exit_n">Сверните на съезд %1$s</string>
+    <string name="dav_map_copyrights_google_only">© Google, %1$d</string>
+    <string name="dav_map_copyrights_full" formatted="false">© Google, %1$d – Изображения © %3$s, %2$d – Картографические данные © %5$s, %4$d</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">© Google, %1$d – Изображения © %3$s, %2$d</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">© Google, %1$d – Картографические данные © %3$s, %2$d</string>
+    <string name="CHECKINS_HOME_LOCATION">Мой дом</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Маршрут на карте</string>
+    <string name="EXIT_COMMAND">Выйти</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} приглашает вас присоединиться</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Уведомление Локатора</string>
+    <string name="GOHOME_DESTINATION_HINT">Укажите адрес</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Значок ярлыка</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Сохранить</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Место назначения</string>
+    <string name="GOHOME_SHORTCUT_NAME">Название ярлыка</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Запускать навигацию</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Открыть настройки</string>
+    <string name="HOTPOT_LOADING">Загрузка...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Чтобы использовать виджет Оценка мест, включите параметр Использовать сотовую сеть (в настройках Местоположение и безопасность) и функцию Wi-Fi (в настройках Беспроводное подключение и сеть).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Чтобы виджет Оценка мест начал работать, включите параметр Использовать сотовую сеть в настройках Местоположение и безопасность.</string>
+    <string name="HOTPOT_NO_LOCATION">Нет данных о местоположении</string>
+    <string name="HOTPOT_SEARCH">Поиск</string>
+    <string name="HOTPOT_SEARCHED_FOR">Результаты по запросу</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Повторить поиск</string>
+    <string name="HOTPOT_SELECT_PLACE">Выберите место для оценки</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Выберите место: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Местоположение неизвестно</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Обновление данных о местоположении...</string>
+    <string name="HOTPOT_WIDGET_NAME">Оценка мест</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Публикуется для всех под именем {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Отзыв</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Обновлено {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Чтобы местоположение в виджете Оценка мест определялось точнее, включите Wi-Fi в настройках беспроводных сетей.</string>
+    <string name="HOTPOT_YOU_RATED">"Ваша оценка: "</string>
+    <string name="LATITUDE_APP_NAME">Локатор</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Вы отметились здесь: {0}. Об этом узнают {1}.</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Вы отметились здесь: {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Отметиться здесь: {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Зарегистрироваться?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Нажмите, чтобы войти в Локатор</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Последнее обновление: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Неизвестное местоположение</string>
+    <string name="LOADING">Загрузка</string>
+    <string name="MAPS_APP_NAME">Карты</string>
+    <string name="NEED_NET_BODY">Это приложение не может использоваться, пока не получит от вас разрешение отправлять и получать данные по сети.</string>
+    <string name="NEED_NET_TITLE">Необходим доступ к сети</string>
+    <string name="NETWORK_DATA_ERROR">Для работы приложения необходимо подключение к каналу передачи данных. Свяжитесь со своим оператором.</string>
+    <string name="NET_FAIL_BODY">Для работы приложения требуется соединение для передачи данных.</string>
+    <string name="NET_FAIL_TITLE">Ошибка сети</string>
+    <string name="NET_UNAVAILABLE_TITLE">Сеть недоступна</string>
+    <string name="PLACES_APP_NAME">Адреса</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Например, спагетти по-болонски, коктейли, музыка</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Что стоит здесь отметить?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Отмена</string>
+    <string name="RATINGS_OPTIN_CLOSE">Закрыть</string>
+    <string name="RATINGS_OPTIN_FAILED">Не удалось обновить оценку, повторите попытку позже.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Хотите знать&lt;/b>, где любят бывать ваши друзья? Просто добавьте их на сайте &lt;b>{0}&lt;/b>.</string>
+    <string name="RATINGS_OPTIN_HEADING">Выберите псевдоним для Google Адресов</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Имя или псевдоним: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Оценивайте рестораны, кафе и другие места, которые вы любите посещать. В зависимости от ваших оценок будут изменяться ваши результаты поиска. В первую очередь мы будем показывать результаты, которые наиболее соответствуют вашим предпочтениям.</string>
+    <string name="RATINGS_OPTIN_SAVE">Начать работу</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Под этим псевдонимом ваши оценки будут видны &lt;b>всем пользователям Интернета&lt;/b>. &lt;a href=#>Подробнее...&lt;/a></string>
+    <string name="RATINGS_POSTING_AS">Публикуется для всех под именем {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Публикуется в Интернете.</string>
+    <string name="RATINGS_RATE_PLACES">Зачем оценивать места?</string>
+    <string name="RATINGS_SET_APPEARANCE">Настройте свой профиль</string>
+    <string name="RATINGS_WAIT">Подождите...</string>
+    <string name="SEARCH_HINT">Поиск на карте</string>
+    <string name="SHORT_APP_NAME">Карты Google</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Конечная точка</string>
+    <string name="TRAFFIC_WIDGET_NAME">Пробки</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Название виджета</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Сохранить</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Начальная точка</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Серьезная ошибка. Закройте и перезапустите приложение.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Неизвестная ошибка</string>
+    <string name="UPGRADE_BODY">Следует установить новую версию, чтобы использовать это приложение.</string>
+    <string name="UPGRADE_TITLE">Обновление ПО</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Живые обои из Карт Google</string>
+    <string name="WALLPAPER_MAP_MODE">Режим Карты</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Обычный</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Спутник</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Режим карты, например Спутник</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Рельеф</string>
+    <string name="WALLPAPER_SETTINGS">Настройки живых обоев из Карт Google</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Показать информацию о пробках</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Показывать на карте погоду (должен быть установлен соответствующий виджет).</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Погода</string>
+</resources>

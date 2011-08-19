@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Klar</string>
+    <string name="username">E-post</string>
+    <string name="captcha_message_string">För många felaktiga försök.</string>
+    <string name="signed_in">Inloggning genomförd</string>
+    <string name="account_linked_message">Du har loggats in på %s och data synkroniseras.</string>
+    <string name="account_setup_title">Google-konto</string>
+    <string name="account_created_message">Ett nytt konto har skapats: %s</string>
+    <string name="login_activity_title">Logga in med ditt Google-konto</string>
+    <string name="show_error_activity_title">Inloggningsfel för Google-kontot</string>
+    <string name="login_activity_task_title">Loggar in...</string>
+    <string name="sync_intro_activity_title_first_account">Säkerhetskopiera och återställ</string>
+    <string name="sync_intro_activity_title_first_created_account">Ett konto har skapats</string>
+    <string name="sync_intro_activity_title">Kontoinloggning lyckades</string>
+</resources>

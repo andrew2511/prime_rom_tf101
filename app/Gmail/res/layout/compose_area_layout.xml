@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/spinner_from_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/from_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:prompt="@string/from_spinner_prompt" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/static_from_content" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="?android:textColorTertiary" android:id="@id/prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/from_account_prefix" android:singleLine="true" style="?android:attr/spinnerItemStyle" />
+        <TextView android:ellipsize="end" android:id="@id/account_name" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/spinnerItemStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/to_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <MultiAutoCompleteTextView android:textColor="#ff000000" android:id="@id/to" android:background="@android:drawable/edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:hint="@string/to" android:layout_weight="1.0" android:inputType="textMultiLine|textEmailAddress" android:imeOptions="actionNext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cc_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <MultiAutoCompleteTextView android:textColor="#ff000000" android:id="@id/cc" android:background="@android:drawable/edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:hint="@string/compose_activity_cc_label_text" android:layout_weight="1.0" android:inputType="textMultiLine|textEmailAddress" android:imeOptions="actionNext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bcc_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <MultiAutoCompleteTextView android:textColor="#ff000000" android:id="@id/bcc" android:background="@android:drawable/edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:hint="@string/compose_activity_bcc_label_text" android:layout_weight="1.0" android:inputType="textMultiLine|textEmailAddress" android:imeOptions="actionNext" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/divider_horizontal_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@id/subject_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/subject_hint" android:inputType="textEmailSubject|textCapSentences|textAutoCorrect|textImeMultiLine" android:imeOptions="actionNext" />
+    <com.google.android.gm.AttachmentsView android:orientation="vertical" android:id="@id/attachments" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <EditText android:gravity="top" android:id="@id/body_text" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/compose_activity_body_text_text" android:hint="@string/body_hint" android:minLines="3" android:layout_weight="1.0" android:inputType="textLongMessage|textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="actionDone" />
+    <com.google.android.gm.QuotedTextView android:id="@id/quoted_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

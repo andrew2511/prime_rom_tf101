@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.BookLayout android:focusable="true" android:focusableInTouchMode="true" style="@style/fill"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reader_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" style="@style/reader_overlay_container.title">
+        <TextView android:id="@id/title_text_view" style="@style/reader_overlay_text.title" />
+        <TextView android:id="@id/chapter_text_view" style="@style/reader_overlay_text.chapter" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/location_container" style="@style/reader_overlay_container.location">
+        <TextView android:id="@id/location_text_view" style="@style/reader_overlay_text.location" />
+        <SeekBar android:id="@id/location_control" style="@style/reader_overlay_seek_bar" />
+    </LinearLayout>
+</com.amazon.kcp.reader.ui.BookLayout>

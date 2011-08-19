@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">入力したテキストは文字数制限を越えています。編集する必要があります。</string>
+    <string name="post_successfully">投稿されました。</string>
+</resources>

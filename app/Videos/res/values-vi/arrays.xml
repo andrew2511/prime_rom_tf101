@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtitles_size_entries">
+        <item>Nhỏ</item>
+        <item>Trung bình</item>
+        <item>Lớn</item>
+        <item>Quá Lớn</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">Liczba przywróconych aplikacji: %1$d.</item>
+        <item quantity="one">Liczba przywróconych aplikacji: %1$d.</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">Liczba ocen: %1$s</item>
+        <item quantity="one">Liczba ocen: %1$s</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">Liczba wyników dla „%1$2$s”: %2$1$d</item>
+        <item quantity="one">Liczba wyników wyszukiwania dla „%1$2$s”: %2$1$d</item>
+    </plurals>
+</resources>

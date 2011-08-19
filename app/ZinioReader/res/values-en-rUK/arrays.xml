@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Issues can be sorted by date or title. Select these from the tabs at the top of the screen.</item>
+        <item>"Need more to read?
+Select the shop button at the bottom of the screen to go to the online store for the latest publications and articles."</item>
+        <item>Select menu to see more options - like shop, more, delete and sign-out.</item>
+        <item>Select an issue to automatically download while you read OR you can select the download button to save it locally for reading later.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:id="@id/selection_highlight" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_highlight" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_remove_highlight" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_remove_highlight" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_note" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_note" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_remove_note" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_remove_note" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_tts" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_tts" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_copy" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_copy" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_translation" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_translation" android:layout_weight="1.0" />
+    <Button android:textColor="#ffffffff" android:id="@id/selection_share" android:background="@drawable/asus_ep_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px" android:text="@string/selection_share" android:layout_weight="1.0" />
+</merge>

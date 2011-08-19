@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_logo" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@id/throbber" style="@style/Throbber.Light" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/message" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:shadowColor="@android:color/black" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+</RelativeLayout>

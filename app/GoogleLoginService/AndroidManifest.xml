@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="com.google.uid.shared" android:versionCode="13" android:versionName="3.2-150265" android:sharedUserLabel="@string/sharedUserLabel" package="com.google.android.gsf.login"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="13" />
+    <permission android:label="@string/permlab_googleMailSwitch" android:name="com.google.android.googleapps.permission.GOOGLE_MAIL_SWITCH" android:protectionLevel="signature" android:description="@string/permdesc_googleMailSwitch" />
+    <permission android:label="@string/permlab_googleAuthPassword" android:name="com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD" android:protectionLevel="signature" android:description="@string/permdesc_googleAuthPassword" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BACKUP" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DUMP" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_TIME" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.vending.INTENT_VENDING_ONLY" />
+    <uses-permission android:name="com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.youtube" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_MAIL_SWITCH" />
+    <uses-permission android:name="com.google.android.gtalkservice.permission.GTALK_SERVICE" />
+    <uses-permission android:name="com.google.android.gtalkservice.permission.SEND_HEARTBEAT" />
+    <uses-permission android:name="com.google.android.permission.BROADCAST_DATA_MESSAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.settings.permission.READ_GSETTINGS" />
+    <uses-permission android:name="com.google.android.providers.settings.permission.WRITE_GSETTINGS" />
+    <uses-permission android:name="com.google.android.providers.talk.permission.READ_ONLY" />
+    <uses-permission android:name="com.google.android.providers.talk.permission.WRITE_ONLY" />
+    <application android:label="@string/gls_label" android:hardwareAccelerated="true">
+        <activity android:theme="@style/AccountIntroActivity" android:label="@string/account_intro_title" android:name=".AccountIntroActivity" android:exported="true" android:launchMode="singleTop" android:screenOrientation="behind">
+            <intent-filter>
+                <action android:name="com.google.android.accounts.AccountIntro" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/WaitForDeviceCountryActivity" android:label="@string/wait_for_device_country_title" android:name=".WaitForDeviceCountryActivity"> android:screenOrientation="behind"
+</activity>
+        <activity android:theme="@style/CaptchaActivity" android:label="@string/captcha_title" android:name=".CaptchaActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/choose_account_title" android:name=".ChooseAccountActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".SetupWirelessIntroActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".SetupWirelessActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivity" android:label="@string/login_title" android:name=".LoginActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivityTask" android:label="@string/login_task_title" android:name=".LoginActivityTask" android:screenOrientation="behind" />
+        <activity android:theme="@style/NoTitleInXL" android:label="@string/show_error_title" android:name=".ShowErrorActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/BrowserTheme" android:label="@string/backup_consent_title" android:name=".BackupConsentActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/NoTitleInXL" android:label="@string/sync_intro_title" android:name=".SyncIntroActivity" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/close_and_launch_title" android:name=".CloseAndLaunchActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivity" android:label="@string/setup_wizard_title" android:name=".CreateAccountActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivityTask" android:label="@string/setup_wizard_title" android:name=".CreateAccountTask" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivityTask" android:label="@string/setup_wizard_title" android:name=".CheckAvailTask" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivity" android:label="@string/setup_wizard_title" android:name=".SuggestUsernameActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".VerifyProfileActivity" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/LoginActivity" android:label="@string/setup_wizard_title" android:name=".ChoosePasswordActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/LoginActivity" android:label="@string/setup_wizard_title" android:name=".AccountSecurityActivity" android:exported="true" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".CheckDasherDomainTask" android:screenOrientation="behind" />
+        <activity android:theme="@style/NoTitleInXL" android:label="@string/setup_wizard_title" android:name=".TermsOfServiceActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/BrowserTheme" android:label="@string/setup_wizard_title" android:name=".BrowserLoginActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/BrowserTheme" android:label="@string/setup_wizard_title" android:icon="@drawable/ic_launcher_settings" android:name=".BrowserAddAccountActivity" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".GetOAuthTokenTask" android:screenOrientation="behind" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".NonGmailCreateActivity" android:exported="true" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".ReactivateAccountActivity" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/CustomTitle" android:label="@string/setup_wizard_title" android:name=".ReactivateAccountTask" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <service android:name="com.google.android.gsf.loginservice.GoogleLoginService" android:exported="true">
+            <intent-filter android:priority="-100">
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gsf.action.GET_GLS" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gsf.loginservice.LoginActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTop" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/gls_ui_activity_title_browser_signin" android:name="com.google.android.gsf.loginservice.BrowserLoginIntroActivity" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="behind" android:configChanges="keyboardHidden" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/gls_ui_activity_title_enterprise" android:name="com.google.android.gsf.loginservice.EnterpriseLoginIntroActivity" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/BrowserTheme" android:name="com.google.android.gsf.loginservice.EnterpriseLoginActivity" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@android:style/Theme.NoDisplay" android:label="@string/gls_ui_activity_title" android:name="com.google.android.gsf.loginservice.RunSetupWizardActivity" android:exported="true" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/gls_ui_activity_title" android:name="com.google.android.gsf.loginservice.ErrorActivity" android:excludeFromRecents="true" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.google.android.gsf.loginservice.EnterpriseErrorActivity" android:excludeFromRecents="true" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/gls_ui_activity_title" android:name="com.google.android.gsf.loginservice.DMAgentActivity" android:excludeFromRecents="true" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/gls_ui_activity_title" android:name="com.google.android.gsf.loginservice.CaptchaActivity" android:excludeFromRecents="true" android:screenOrientation="behind" />
+        <activity android:theme="@android:style/Theme.Holo.DialogWhenLarge" android:name="com.google.android.gsf.loginservice.GrantCredentialsPermissionActivity" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="behind" />
+    </application>
+</manifest>

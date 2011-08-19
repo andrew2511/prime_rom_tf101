@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/androidView_stub" android:layout="@layout/android_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/androidVectorView_stub" android:layout="@layout/android_vector_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/empty_background" android:background="@drawable/gray_tile_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/bubbleContainer_stub" android:layout="@layout/bubble_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tablet_list_icon_wrapper" android:background="@drawable/btn_on_map_clickable_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="70.0dip">
+        <View android:id="@id/btn_list_xlarge" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="16.0dip" />
+        <TextView android:textAppearance="@style/WhiteBold" android:textSize="18.0sp" android:id="@id/text_list_xlarge" android:paddingLeft="8.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/dialog_panel_wrapper" android:visibility="gone" android:layout_width="380.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_panel" android:background="@drawable/window_bkg_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="70.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

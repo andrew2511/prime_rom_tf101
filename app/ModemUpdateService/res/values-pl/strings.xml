@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Aktual. firmware modemu udana</string>
+    <string name="update_fail">Aktual. firmware modemu nieud.</string>
+    <string name="update_quz" formatted="false">"Proces aktualizacji zajmie około 3-5 minut i wymaga 15% lub wyższego naładowania baterii.
+
+Przed aktualizacją należy sprawdzić, czy naładowanie baterii jest wyższe niż 15%.
+
+Czy chcesz teraz wykonać aktualizację firmware modemu?"</string>
+    <string name="notify_title">Usł. aktual. Asus</string>
+    <string name="notify">Dostępna aktual. firmware modemu.</string>
+    <string name="warning_title">Ostrz.</string>
+    <string name="warning">"NIE należy wył. urządz. podczas aktual.
+
+Wszelkie nieoczek. przerwy, mogą spow. nieodwrac. uszkodzenie.
+
+Czy chcesz teraz wykonać aktual. firmware modemu?"</string>
+    <string name="battery_low" formatted="false">"Proces aktual. wymaga 15% lub wyższego naład. baterii.
+
+Przed aktual. należy spr., czy naład. baterii jest wyższe niż 15%."</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

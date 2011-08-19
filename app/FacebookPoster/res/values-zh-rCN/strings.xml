@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">您选择的文字已超过限制字数，有些文字可能会被删减。</string>
+    <string name="post_successfully">张贴成功</string>
+</resources>

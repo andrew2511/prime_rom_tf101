@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.periodicals.ui.PeriodicalPageLayout
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amazon.kcp.reader.ui.PageRenderView android:id="@id/page_render_view" style="@style/wrap" />
+    <TextView android:typeface="serif" android:ellipsize="end" android:layout_gravity="top|left|center" android:id="@id/title_view" android:singleLine="true" style="@style/wrap" />
+    <include android:id="@id/object_selection_view" layout="@layout/object_selection_view" style="@style/fill" />
+</com.amazon.kcp.periodicals.ui.PeriodicalPageLayout>

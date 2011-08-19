@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Показывать содержание сообщений мелким шрифтом</item>
+        <item>Показывать содержание сообщений небольшим шрифтом</item>
+        <item>Показывать содержание сообщений нормальным шрифтом</item>
+        <item>Показывать содержание сообщений крупным шрифтом</item>
+        <item>Показывать содержание сообщений огромным шрифтом</item>
+    </string-array>
+</resources>

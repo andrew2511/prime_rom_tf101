@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_search_holo_light" android:id="@id/action_search" android:title="@string/search" android:alphabeticShortcut="f" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/ic_menu_today_holo_light" android:id="@id/action_today" android:title="@string/goto_today" android:alphabeticShortcut="t" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_add_event_holo_light" android:id="@id/action_create_event" android:title="@string/event_create" android:alphabeticShortcut="n" />
+    <item android:icon="@drawable/ic_menu_refresh_holo_light" android:id="@id/action_refresh" android:title="@string/calendar_refresh" android:alphabeticShortcut="r" />
+    <item android:icon="@drawable/ic_menu_settings_holo_light" android:id="@id/action_settings" android:title="@string/menu_preferences" android:alphabeticShortcut="s" />
+</menu>

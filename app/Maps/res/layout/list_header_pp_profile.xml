@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listHeader" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="58.0dip">
+        <com.google.googlenav.ui.android.TemplateView android:id="@id/header1" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/template_left_image" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/text_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.google.googlenav.ui.view.android.DistanceView android:id="@id/distance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" />
+                    <com.google.googlenav.ui.view.android.HeadingView android:id="@id/heading" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="top|right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip">
+                <ImageView android:id="@id/right_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0px" />
+            </LinearLayout>
+        </com.google.googlenav.ui.android.TemplateView>
+        <com.google.googlenav.ui.android.TemplateView android:id="@id/header2" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/template_left_image" />
+            <include layout="@layout/template_text_parent" />
+            <include layout="@layout/template_right_image" />
+        </com.google.googlenav.ui.android.TemplateView>
+    </LinearLayout>
+    <include layout="@layout/list_header_buttons" />
+    <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

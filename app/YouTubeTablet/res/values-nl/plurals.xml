@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="years_ago">
+        <item quantity="other">%1$d jaar geleden</item>
+        <item quantity="one">1 jaar geleden</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d maanden geleden</item>
+        <item quantity="one">1 maand geleden</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="other">%1$d weken geleden</item>
+        <item quantity="one">1 week geleden</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d dagen geleden</item>
+        <item quantity="one">1 dag geleden</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d uur geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d minuten geleden</item>
+        <item quantity="one">1 minuut geleden</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%1$d seconden geleden</item>
+        <item quantity="one">1 seconde geleden</item>
+    </plurals>
+    <plurals name="recent_uploads">
+        <item quantity="other">nieuwe uploads</item>
+        <item quantity="one">nieuwe upload</item>
+    </plurals>
+    <plurals name="recent_activity">
+        <item quantity="other">nieuwe gebeurtenissen</item>
+        <item quantity="one">nieuwe gebeurtenis</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">"%1$,d video's"</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

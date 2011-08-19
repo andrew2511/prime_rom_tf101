@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/directionsOptionChoicePanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/BlackBold" android:id="@id/directionsOptionChoiceText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Spinner android:id="@id/directionsOptionChoiceSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</LinearLayout>

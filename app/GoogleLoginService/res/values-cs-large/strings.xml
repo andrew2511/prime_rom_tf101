@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Dokončeno</string>
+    <string name="signed_in">Úspěšné přihlášení</string>
+    <string name="account_linked_message">Jste přihlášeni do účtu %s a probíhá synchronizace dat.</string>
+    <string name="account_setup_title">Účet Google</string>
+    <string name="account_created_message">Vytvořen nový účet: %s</string>
+    <string name="login_activity_title">Přihlaste se pomocí účtu Google</string>
+    <string name="show_error_activity_title">Přihlášení do účtu Google se nezdařilo</string>
+    <string name="login_activity_task_title">Přihlašování...</string>
+    <string name="sync_intro_activity_title_first_account">Zálohování a obnovení</string>
+    <string name="sync_intro_activity_title_first_created_account">Účet vytvořen</string>
+    <string name="sync_intro_activity_title">Přihlášení do účtu proběhlo úspěšně</string>
+</resources>

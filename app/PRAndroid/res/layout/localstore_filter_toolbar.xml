@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_mylib_subtitle" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:visibility="gone"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:id="@id/localfiltertb_cancel" android:background="@drawable/but_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/btn_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <EditText android:id="@id/localfiltertb_title_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="128.0dip" android:hint="@string/title_filter" android:layout_toLeftOf="@id/localfiltertb_cancel" android:inputType="text" android:imeOptions="actionDone" />
+</RelativeLayout>

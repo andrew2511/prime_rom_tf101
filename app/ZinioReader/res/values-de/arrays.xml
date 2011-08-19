@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Ausgaben können nach Datum oder Titel sortiert werden. Wählen Sie diese von den Reitern oben am Bildschirm aus.</item>
+        <item>"Sie möchten mehr lesen?
+Tippen Sie die Schaltfläche Einkaufen unten am Bildschirm an, um zum Online-Shop mit den neuesten Zeitschriften und Artikeln zu gehen."</item>
+        <item>Wählen Sie Menü, um weitere Optionen zu sehen - z.B. Einkaufen, Mehr, Löschen und Abmelden.</item>
+        <item>Wählen Sie eine Ausgabe zum automatischen Herunterladen, während Sie lesen, ODER Sie können die Schaltfläche zum Herunterladen antippen, um die Ausgabe zum späteren Lesen lokal zu speichern.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d / %2$2$d kitap</item>
+        <item quantity="one">Bir kitap</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Maalesef, bu kitap aynı anda %1$d cihazda veya bilgisayarda okunabilecek şekilde sınırlandırılmıştır ve siz bu sınıra ulaşmış bulunuyorsunuz. Lütfen kitabı diğer okuyucularda kapatın, birkaç dakika bekleyin ve sonra tekrar deneyin.</item>
+        <item quantity="one">Maalesef, bu kitap aynı anda bir cihazda veya bilgisayarda okunabilecek şekilde sınırlandırılmıştır ve siz bu sınıra ulaşmış bulunuyorsunuz. Lütfen kitabı diğer okuyucularda kapatın, birkaç dakika bekleyin ve sonra tekrar deneyin.</item>
+    </plurals>
+</resources>

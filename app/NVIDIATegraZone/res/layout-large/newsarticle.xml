@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/mainAppBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/masthead" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" layout="@layout/newsarticle_detail" />
+</RelativeLayout>

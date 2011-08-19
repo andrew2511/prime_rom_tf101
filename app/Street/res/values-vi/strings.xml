@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Chế độ xem Phố</string>
+    <string name="go_to_map">Đi tới bản đồ</string>
+    <string name="report_inappropriate_image">Báo cáo ảnh</string>
+    <string name="toggle_compass_mode">Chế độ la bàn</string>
+    <string name="compass_mode_on">Chế độ la bàn đang bật.</string>
+    <string name="compass_mode_off">Chế độ la bàn đã tắt.</string>
+    <string name="waiting_for_network">Mất kết nối dữ liệu, đang thử lại…</string>
+    <string name="panorama_disabled">Không còn ảnh nữa</string>
+    <string name="service_unavailable">Không có dịch vụ Chế độ xem Phố.</string>
+    <string name="loading">Đang tải</string>
+    <string name="no_panorama_data">Chưa đặt dữ liệu toàn cảnh nào.</string>
+    <string name="invalid_panorama_data">Dữ liệu toàn cảnh không hợp lệ.</string>
+    <string name="click_to_go_toast">Kéo Người hình mắc áo tới nơi bạn muốn đi tới.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Chương trình này yêu cầu kết nối dữ liệu và sẽ tự động thử lại. Hãy kiểm tra cường độ tín hiệu. Chế độ trên máy bay có đang bật không? Dữ liệu chuyển vùng có đang bị vô hiệu hoá không?</string>
+    <string name="whats_new_header">Có gì Mới trong Chế độ xem Phố?</string>
+    <string name="whats_new_c2g">Đến mọi nơi bạn thấy. Kéo Người hình mắc áo từ phía dưới bên trái và thả vào nơi bạn muốn đến.</string>
+    <string name="terms_and_privacy">Điều khoản &amp; Bảo mật</string>
+    <string name="terms_and_conditions">Điều khoản và Điều kiện</string>
+    <string name="privacy_policy">Chính sách Bảo mật</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">λεπτά</string>
+    <string name="postpone">Αναβολή</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="firmware_update_title">Ενημέρωση υλικολογισμικού</string>
+    <string name="firmware_update_fail">"Η ενημέρωση απέτυχε.
+
+Η συσκευή σας θα ανακτηθεί στην αρχική ρύθμιση παραμέτρων."</string>
+    <string name="low_battery_warning">"Το σύστημα χρειάζεται τουλάχιστον επίπεδο μπαταρίας %1$d%% για να συνεχίσει τη διαδικασία ενημέρωσης του συστήματος.
+Φορτίστε τη μπαταρία πριν την ενημέρωση του συστήματος."</string>
+    <string name="confirmDownload_textok">"Αυτή η ενημέρωση βελτιώνει τη σταθερότητα και δεν θα διαγραφεί κανένα από τα δεδομένα σας, σας συνιστούμε ιδιαιτέρως να αναβαθμίσετε σε αυτή την έκδοση.
+Πατήστε ΝΑΙ για να αποδεχτείτε αυτή την ενημέρωση."</string>
+    <string name="confirmDownload_textcancel">Πιέστε ΟΧΙ για να παραλείψετε την ενημέρωση.</string>
+    <string name="confirmDownload_textwifi">Σας προτείνουμε να χρησιμοποιήσετε ένα ελεύθερο hotspot Wi-Fi για να λάβετε την ενημέρωση.</string>
+    <string name="confirmDownload_textwifi2">Εάν πατήσετε Αργότερα, μπορέιτε να συνεχίσετε με τη λήψη ανά πάσα στιγμή πατώντας στην ειδοποίηση.</string>
+    <string name="btn_text_later">Αργότερα</string>
+    <string name="confirmDownload_dialog_title">Προσοχή, κάνετε περιαγωγή.</string>
+    <string name="downloading">Μεταφόρτωση υλικολογισμικού…</string>
+    <string name="install_time">Εκτιμώμενος χρόνος εγκατάστασης:</string>
+    <string name="postponetime_text">Χρόνος αναβολής:</string>
+    <string name="install">Εγκατάσταση</string>
+    <string name="reach_max_net_fail">Ο διακομιστής ματαίωσε τη μεταφόρτωση, προσπαθήστε ξανά αργότερα.</string>
+    <string name="dlg_title_checking">Έλεγχος ακεραιότητας.</string>
+    <string name="dlg_msg_checking">Έλεγχος της ακεραιότητας του αρχείου υλικολογισμικού σας.</string>
+    <string name="cannot_set_to_browser">Δεν είναι δυνατή η ρύθμιση στο πρόγραμμα περιήγησης.</string>
+    <string name="upgrade_error">Σφάλμα αναβάθμισης, μεταφορτώστε ξανά το πακέτο ενημέρωσης.</string>
+    <string name="start_to_download">Έναρξη μεταφόρτωσης κρίσιμου πακέτου ενημέρωσης.</string>
+    <string name="start_to_upgrade">Έναρξη αναβάθμισης πακέτου ενημέρωσης.</string>
+    <string name="start_NI_dmSession">Το δίκτυο προετοιμάζει την Περίοδο λειτουργίας DM, συμφωνείτε;</string>
+    <string name="download_finished">Ολοκληρώθηκε η μεταφόρτωση υλικολογισμικού…</string>
+    <string name="download_in_progress">Μεταφόρτωση νέου υλικολογισμικού σε εξέλιξη</string>
+    <string name="out_of_mem_warning">"Μη επαρκής χώρος,
+απεγκαταστήστε ορισμένες εφαρμογές και δοκιμάστε ξανά."</string>
+    <string name="ui_alert_input_hint">Εισαγάγετε κείμενο</string>
+    <string name="ui_alert_input_numeric_hint">Εισαγάγετε αριθμό</string>
+    <string name="ui_alert_input_phone_number_hint">Εισαγάγετε τηλεφωνικό αριθμό</string>
+    <string name="check_for_update">Έλεγχος ενημέρωσης</string>
+    <string name="no_new_fota_update">Δεν διατίθεται καμία ενημέρωση για τη συσκευή σας αυτή τη στιγμή.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Ακύρωση</string>
+    <string name="confirm_download_btn_Yes">Ναι</string>
+    <string name="confirm_download_btn_No">Όχι</string>
+    <string name="confirm_update_title">Ενημέρωση Υλικολογισμικού ASUS.</string>
+    <string name="asus_received_title">Υπηρεσία Ενημέρωσης Υλικολογισμικού Συστήματος της Asus</string>
+    <string name="received_message">Διατίθεται νέα ενημέρωση υλικολογισμικού του συστήματος, πατήστε για αναβάθμιση.</string>
+    <string name="low_battery_title">Ολοκληρώθηκε η Ενημέρωση Υλικολογισμικού Συστήματος</string>
+    <string name="dl_received_ticker">Διατίθεται νέα ενημέρωση υλικολογισμικού συστήματος.</string>
+    <string name="dl_received_message">Διατίθεται νέα ενημέρωση υλικολογισμικού του συστήματος, πατήστε για λήψη.</string>
+    <string name="confirmDownload_text1">Επιθυμείτε να λάβετε την παρακάτω ενημέρωση λογισμικού του συστήματος;</string>
+    <string name="received_ticker">Διατίθεται νέα ενημέρωση υλικολογισμικού συστήματος.</string>
+    <string name="update_dialog_text">"Έχει ληφθεί μια νέα ενημέρωση υλικολογισμικού του συστήματος για τη συσκευή σας. Εγκατάσταση τώρα; 
+"</string>
+    <string name="prepare_dm_download">Γίνεται προετοιμασία για λήψη του υλικολογισμικού του συστήματος...</string>
+    <string name="system_update_activity">Ενημέρωση υλικολογισμικού συστήματος</string>
+    <string name="has_new_fota_update">Υπάρχει μια ενημέρωση υλικολγισμικού συστήματος για τη συσκευή σας. Ελέγξτε τις ειδοποιήσεις.</string>
+    <string name="update_dialog_text2">Αυτή η ενημέρωση υλικολογισμικού του συστήματος βελτιώνει τη σταθερότητα και δεν θα διαγραφεί κανένα από τα δεδομένα σας, σας συνιστούμε ιδιαιτέρως να αναβαθμίσετε σε αυτή την έκδοση.</string>
+</resources>

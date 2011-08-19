@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Έγινε αποδοχή: %s</string>
+    <string name="meeting_declined">Απορρίφθηκε: %s</string>
+    <string name="meeting_tentative">Αβέβαιη παρουσία: %s</string>
+    <string name="meeting_canceled">Ακυρώθηκε: %s</string>
+    <string name="meeting_updated">Ενημερώθηκε: %s</string>
+    <string name="meeting_when">Πότε: %s</string>
+    <string name="meeting_where">Που: %s</string>
+    <string name="meeting_recurring">Πότε: %s (επαναλαμβανόμενο)</string>
+    <string name="notification_exchange_calendar_added">Προστέθηκε ημερολόγιο Exchange</string>
+    <string name="app_name">Υπηρεσίες Exchange</string>
+    <string name="exception_cancel">Αυτό το συμβάν ακυρώθηκε για: %s</string>
+    <string name="exception_updated">Οι λεπτομέρειες αυτού του συμβάντος άλλαξαν για: %s</string>
+</resources>

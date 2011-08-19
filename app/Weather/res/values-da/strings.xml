@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Indstilling af vejr-widget</string>
+    <string name="refreshBtn">Opdater</string>
+    <string name="saveBtn">Gem</string>
+    <string name="cancelBtn">Annuller</string>
+    <string name="nocityfound">Ingen by fundet</string>
+    <string name="humidity">Fugtighed</string>
+    <string name="winds">Vinde</string>
+    <string name="infor1">Ikke tilgængelig</string>
+    <string name="searchlistviewtitle">Vælg en by</string>
+    <string name="wait">Vent venligst...</string>
+    <string name="refreshFail">Opdatering mislykkedes. Prøv venligst igen.</string>
+    <string name="searchFail">Søgning mislykkedes. Prøv venligst igen.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNØ</string>
+    <string name="dirNE">NØ</string>
+    <string name="dirENE">ØNØ</string>
+    <string name="dirE">Ø</string>
+    <string name="dirESE">ØSØ</string>
+    <string name="dirSE">SØ</string>
+    <string name="dirSSE">SSØ</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSV</string>
+    <string name="dirSW">SV</string>
+    <string name="dirWSW">VSV</string>
+    <string name="dirW">V</string>
+    <string name="dirWNW">VNV</string>
+    <string name="dirNW">NV</string>
+    <string name="dirNNW">NNV</string>
+    <string name="entercityname">Indtast et bynavn:</string>
+    <string name="manualtitle">Indstil placering manuelt</string>
+    <string name="refreshprogresstitle">Opdater vejroplysninger</string>
+    <string name="refreshprogresscontent">Opdater nu. Vent...</string>
+    <string name="searchprogresstitle">Søg by</string>
+    <string name="searchprogresscontent">Søg nu. Vent...</string>
+    <string name="no_network">Netvarket er ikke tilgangeligt. Vejroplysningerne kan ikke opdateres.</string>
+    <string name="no_provider">Ikke alle placeringsoplysninger er aktiveret i ojeblikket. Tand venligst for det tradlose netvark og GPS satellitter i Placering og Sikkerhed-indstillingerne, for at opna en hurtigere og mere pracis sporing af din placering.</string>
+    <string name="title_location">Placering</string>
+    <string name="content_autorefreshed">Opdater min nuværende placering automatisk</string>
+    <string name="content_manual">Manuel søgning</string>
+    <string name="title_updatefreq">Opdateringsfrekvens</string>
+    <string name="content_updatetime">Sidste opdateringstidspunkt</string>
+    <string name="content_selectfreq">Vælg opdateringsfrekvens</string>
+    <string name="title_others">Andre</string>
+    <string name="content_tempunit">Temperaturenhed</string>
+</resources>

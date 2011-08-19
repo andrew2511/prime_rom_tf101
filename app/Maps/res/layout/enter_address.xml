@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/popup_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip">
+            <ImageView android:layout_gravity="top" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_menu_generic" />
+            <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/ThemedListHeaderTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/snapToPlace" android:background="@drawable/popup_bottom_bright" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dialogButtonPanel" android:background="@drawable/bottombar_portrait_565" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <Button android:layout_gravity="center" android:id="@id/okButton" android:background="@drawable/btn_default" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:maxLines="2" android:layout_weight="1.0" />
+                <Button android:layout_gravity="center" android:id="@id/cancelButton" android:background="@drawable/btn_default" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:maxLines="2" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

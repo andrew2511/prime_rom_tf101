@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.BrightnessSlider android:id="@id/brightness_slider_options" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/brightness_slider_row" android:layout_width="400.0dip" android:layout_height="63.0dip">
+        <ImageView android:id="@id/max_brightness_image" android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:src="@drawable/brightness_lrg" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/wrap" />
+        <ImageView android:id="@id/min_brightness_image" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:src="@drawable/brightness_sm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/wrap" />
+        <SeekBar android:id="@id/brightness_slider" android:focusable="true" android:nextFocusUp="@id/dotted_button_sepia" android:nextFocusDown="@id/dotted_button_sepia" android:layout_toLeftOf="@id/max_brightness_image" android:layout_toRightOf="@id/min_brightness_image" android:layout_centerVertical="true" style="@style/view_options_brightness_slider" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/auto_brightness_msg_row" android:paddingTop="15.0dip" android:visibility="gone" android:layout_width="400.0dip" android:layout_height="63.0dip">
+        <TextView android:id="@id/auto_brightness_enabled_message" android:focusable="true" android:nextFocusUp="@id/dotted_button_sepia" android:nextFocusDown="@id/dotted_button_sepia" android:text="@string/auto_brightness_enabled" style="@style/view_options_auto_brightness_message" />
+    </RelativeLayout>
+</com.amazon.kcp.reader.ui.BrightnessSlider>

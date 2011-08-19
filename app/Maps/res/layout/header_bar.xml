@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/header_bar" android:background="@drawable/header_bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar" android:background="@drawable/textfield_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.5dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="2.5dip" android:layout_weight="9999.0">
+        <ImageView android:paddingLeft="3.0dip" android:paddingTop="2.5dip" android:paddingRight="5.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/magnifying_glass_grey" android:scaleType="center" />
+        <TextView android:ellipsize="end" android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btn_header_places" android:background="@drawable/header_bar_button" android:focusable="false" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_show_places" android:scaleType="center" />
+    <View android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btn_header_layer" android:background="@drawable/header_bar_button" android:focusable="false" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_show_layers" android:scaleType="center" />
+    <View android:background="@drawable/header_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btn_header_myloc" android:background="@drawable/header_bar_button" android:focusable="false" android:layout_width="@dimen/action_bar_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/btn_show_myl" android:scaleType="center" />
+</LinearLayout>

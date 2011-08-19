@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="fill_horizontal" android:orientation="horizontal" android:id="@id/widget40" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/ip_input_field_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/ip_input_splitter_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dot" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/ip_input_field_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/ip_input_splitter_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dot" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/ip_input_field_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/ip_input_splitter_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dot" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/ip_input_field_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false" />
+    </TableRow>
+</TableLayout>

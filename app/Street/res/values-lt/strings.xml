@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Gatvės vaizdas</string>
+    <string name="go_to_map">Eiti į žemėlapį</string>
+    <string name="report_inappropriate_image">Pranešti apie vaizdą</string>
+    <string name="toggle_compass_mode">Kompaso režimas</string>
+    <string name="compass_mode_on">Kompaso režimas įjungtas.</string>
+    <string name="compass_mode_off">Kompaso režimas išjungtas.</string>
+    <string name="waiting_for_network">Dingo duomenų ryšys. Bandoma dar kartą…</string>
+    <string name="panorama_disabled">Paveikslėlis nebegalimas</string>
+    <string name="service_unavailable">Gatvės vaizdo paslauga negalima.</string>
+    <string name="loading">Įkeliama</string>
+    <string name="no_panorama_data">Nenustatyti panoramos duomenys.</string>
+    <string name="invalid_panorama_data">Neteisinga panorama.</string>
+    <string name="click_to_go_toast">Nuvilkite žmogeliuką ten, kur norite eiti.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Šiai programai reikalingas duomenų ryšys ir ji automatiškai bandys iš naujo prisijungti. Patikrinkite signalo stiprumą, ar įjungtas skrydžio lėktuvu režimas, ar nėra išjungtas tarptinklinis duomenų ryšys?</string>
+    <string name="whats_new_header">Kas naujo Gatvės vaizde?</string>
+    <string name="whats_new_c2g">Skriskite kur tik akys užmato. Vilkite Žmogiuką iš apatinio dešiniojo kampo į tą vietą, kur norite eiti.</string>
+    <string name="terms_and_privacy">Taisyklės ir privatumas</string>
+    <string name="terms_and_conditions">Taisyklės ir nuostatos</string>
+    <string name="privacy_policy">Privatumo politika</string>
+</resources>

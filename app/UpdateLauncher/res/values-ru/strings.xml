@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Launcher</string>
+    <string name="TITLE_DETECTED">Обнаружен файл обновления</string>
+    <string name="TITLE_SYSTEM_UPDATE">Обновление системы</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Доступно обновление</string>
+    <string name="MSG_PRELIMINARY">"Обновление системы займет примерно 10 минут. Вы не сможете использовать устройство во время обновления, в том числе не сможете вызвать службы экстренной помощи. 
+
+Пожалуйста, подключите блок питания или убедитесь, что заряд аккумулятора составляет не менее 15%. 
+
+Вы хотите продолжить обновление системы?"</string>
+    <string name="BUTTON_CANCEL">Отмена</string>
+    <string name="MSG_RESUME">Нажмите для запуска обновления.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Прерывание обновления системы</string>
+    <string name="MSG_UPDATE_DONE">Система успешно обновлена.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Нет файла обновления.</string>
+    <string name="MSG_UPDATE_FAIL">Ошибка обновления.</string>
+    <string name="MSG_UPDATE_RESTORE">Система восстановлена в предыдущей конфигурации</string>
+    <string name="MSG_BATTERY_LOW">"Низкий заряд аккумулятора.
+
+Перед обновлением подключите блок питания."</string>
+    <string name="TITLE_SELECT_FILE">Выберите файл обновления</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Пакет обновления не совместим с текущей версией ПО, пожалуйста, проверьте версию Вашего ПО в настройках и попробуйте использовать правильный пакет обновлений.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Текущая версия ПО новее чем пакет обновления, пожалуйста, попробуйте новый пакет обновления.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Неизвестная ошибка.</string>
+</resources>

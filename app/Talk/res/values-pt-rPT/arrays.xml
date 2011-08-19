@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Nenhuma</item>
+        <item>Chat de áudio</item>
+        <item>Chat de vídeo</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Sempre</item>
+        <item>Apenas quando está em silêncio</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Abrir caixa de diálogo</item>
+        <item>Notificação na barra de sistema</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Abrir caixa de diálogo</item>
+        <item>Notificação na barra de sistema</item>
+        <item>Desligado</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>A piscar o olho</item>
+        <item>Língua de fora</item>
+        <item>Surpreendido</item>
+        <item>Beijoqueiro</item>
+        <item>A gritar</item>
+        <item>Fixe</item>
+        <item>Interesseiro</item>
+        <item>Arrependido</item>
+        <item>Envergonhado</item>
+        <item>Anjo</item>
+        <item>Indeciso</item>
+        <item>Chorão</item>
+        <item>Boca fechada</item>
+        <item>Risonho</item>
+        <item>Confuso</item>
+        <item>Sorriso dengoso</item>
+        <item>Louco</item>
+        <item>Inexpressivo</item>
+        <item>Coração</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Sempre</item>
+        <item>Nunca</item>
+        <item>Automaticamente</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>Os mais populares</item>
+        <item>Tudo</item>
+        <item>Algumas</item>
+        <item>Só os miúdos fixes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.vending.PromotedCategoryView android:id="@id/promoted_category" android:layout_width="274.0dip" android:layout_height="94.0dip" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/category_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/promoted_category" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:gravity="center_horizontal" android:id="@id/subcategory_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-18.0dip" android:layout_below="@id/promoted_category" android:layout_centerHorizontal="true" />
+</RelativeLayout>

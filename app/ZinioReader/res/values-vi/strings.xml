@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">thử lại</string>
+    <string name="offline">ngoại tuyến</string>
+    <string name="retry_offline_content">Kết nối mạng không ổn định, bạn có muốn thử lại hoặc sử dụng ứng dụng ở chế độ ngoại tuyến không?</string>
+    <string name="cancel">hủy</string>
+    <string name="change_password">đổi mật khẩu</string>
+    <string name="close">đóng</string>
+    <string name="confirm_new_password">xác nhận mật khẩu mới</string>
+    <string name="create_account">tạo tài khoản</string>
+    <string name="create_an_account">tạo tài khoản</string>
+    <string name="date">ngày</string>
+    <string name="delete">xóa</string>
+    <string name="delete_all">xóa tất cả</string>
+    <string name="delete_mode_caption">Chế độ xóa - bấm vào mục cần xóa</string>
+    <string name="email_address">địa chỉ email</string>
+    <string name="exit">thoát</string>
+    <string name="faq">Câu hỏi thường gặp</string>
+    <string name="first_name">tên</string>
+    <string name="free">miễn phí</string>
+    <string name="forgot_password">quên mật khẩu</string>
+    <string name="last_name">họ</string>
+    <string name="learn_more">tìm hiểu thêm</string>
+    <string name="legal_notices">thông báo pháp lý</string>
+    <string name="library">thư viện</string>
+    <string name="manage_tips">quản lý mẹo</string>
+    <string name="more">thêm</string>
+    <string name="more_options">tùy chọn khác</string>
+    <string name="my_magazines">Tạp chí của tôi - bấm để xem hoặc tải về</string>
+    <string name="new_password">mật khẩu mới (5-20 ký tự)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">mật khẩu cũ</string>
+    <string name="password">mật khẩu</string>
+    <string name="required">bắt buộc</string>
+    <string name="required_first_name">cần có tên</string>
+    <string name="required_last_name">cần có họ</string>
+    <string name="required_email_address">cần có địa chỉ email</string>
+    <string name="required_password">cần có mật khẩu</string>
+    <string name="retype_password">gõ lại mật khẩu</string>
+    <string name="sign_in">đăng nhập</string>
+    <string name="sign_out">đăng xuất</string>
+    <string name="share">chia sẻ</string>
+    <string name="shop">cửa hàng</string>
+    <string name="text">văn bản</string>
+    <string name="title">tiêu đề</string>
+    <string name="turn_on_wifi">Bật WiFi</string>
+    <string name="uninstall">gỡ cài đặt</string>
+    <string name="welcome_to_zinio">chào mừng đến zinio</string>
+    <string name="email_non_lower_case">Email</string>
+    <string name="sd_card_non_lower_case">Thẻ SD</string>
+    <string name="show_password_non_lower_case">Hiện mật khẩu</string>
+    <string name="show_tips_non_lower_case">Hiện mẹo</string>
+    <string name="forgot_password_underlined"><u>Quên mật khẩu?</u></string>
+    <string name="terms_of_service_underlined"><u>Điều khoản dịch vụ</u></string>
+    <string name="label_share_email1">đọc bài viết từ</string>
+    <string name="label_share_email2">"và muốn chia sẻ với bạn!
+
+Bài viết gốc được đính kèm trong thư này.
+
+Để đọc thêm các ấn bản khác, hãy truy cập www.zinio.com"</string>
+    <string name="label_receive_from_partners">Hãy gửi cho tôi đề nghị đặc biệt từ đối tác tin cậy của Zinio.</string>
+    <string name="label_receive_from_zinio">Hãy gửi email cho tôi về đề nghị đặc biệt từ Zinio.</string>
+    <string name="label_status_calculating">Đang tính...</string>
+    <string name="label_status_new">Mới</string>
+    <string name="label_status_not_downloaded">Chưa tải về</string>
+    <string name="label_status_downloading">%s%% đã tải về</string>
+    <string name="label_tip_hide">Tắt mẹo. Bạn có thể quản lý chúng qua cài đặt Thêm.</string>
+    <string name="toast_change_password_success">Đã đổi mật khẩu thành công.</string>
+    <string name="toast_issue_download_complete_left">Tải về cho</string>
+    <string name="toast_issue_download_complete_right">hoàn thành</string>
+    <string name="toast_no_articles">Không có bài viết nào trên trang hiện tại.</string>
+    <string name="toast_register_success">Đã tạo tài khoản thành công.</string>
+    <string name="toast_no_email_client">Lưu ý: Ứng dụng khách email chưa được cấu hình</string>
+    <string name="progress_dialog_wait_msg">Vui lòng đợi...</string>
+    <string name="dialog_warning_title">Cảnh báo</string>
+    <string name="dialog_no_connectivity_warning">Màn hình này yêu cầu có truy cập Internet. Hãy kiểm tra kết nối của bạn hoặc cài đặt chế độ trên máy bay.</string>
+    <string name="dialog_passwords_not_matching_warning">Mật khẩu không khớp.</string>
+    <string name="dialog_password_length_warning">Mật khẩu phải chứa từ 5 đến 20 ký tự.</string>
+    <string name="dialog_service_exception_warning">Có vấn đề với máy chủ. Hãy thử lại trong giây lát.</string>
+    <string name="dialog_uninstall_warning">Việc này sẽ xóa tất cả các dữ liệu trong thư viện Zinio và không thể phục hồi. Bạn sẽ cần phải tải về lại các ấn bản của mình.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Bạn không có kết nối và không thể tải về ấn bản nào.
+
+Bạn có thể tải về ấn bản của mình khi kết nối được phục hồi."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Mật khẩu cũ và mới phải khác nhau.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Mật khẩu cũ không chính xác.</string>
+    <string name="dialog_library_no_connectivity_warning">"Cần có kết nối để tải về ấn bản.
+
+Bạn vẫn có thể đọc những gì sẵn có trong thư viện của mình và tải về các ấn bản khi kết nối được phục hồi."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Tên người dùng hoặc mật khẩu không chính xác.
+
+Hãy thử lại."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Tài khoản này đã đạt đến giới hạn thiết bị được cấp quyền tối đa. Hãy hủy quyền của một thiết bị và thử lại.</string>
+    <string name="dialog_register_account_already_exists">Địa chỉ email đã tồn tại. Hãy chọn một địa chỉ khác.</string>
+    <string name="dialog_register_empty_email_error">Hãy nhập địa chỉ email.</string>
+    <string name="dialog_register_first_name_short_error">Hãy nhập tên.</string>
+    <string name="dialog_register_first_name_long_error">Tên không được dài quá 80 ký tự.</string>
+    <string name="dialog_register_invalid_email_error">Hãy nhập địa chỉ email hợp lệ.</string>
+    <string name="dialog_register_last_name_short_error">Hãy nhập họ.</string>
+    <string name="dialog_register_last_name_long_error">Họ không được dài quá 80 ký tự.</string>
+    <string name="dialog_register_other_error">Đã có lỗi. Hãy thử lại.</string>
+    <string name="dialog_register_password_empty">Hãy nhập mật khẩu mới.</string>
+    <string name="dialog_sign_out_disabled_warning">Không có người dùng đã đăng nhập nào cần đăng xuất.</string>
+    <string name="dialog_app_version_not_supported_title">Nâng cấp Khả dụng</string>
+    <string name="dialog_app_version_not_supported_msg">Có phiên bản mới hơn của Zinio Reader. Phiên bản này không còn được hỗ trợ. Vui lòng nâng cấp lên Zinio Reader mới nhất</string>
+    <string name="dialog_delete_all_title">Xóa tất cả</string>
+    <string name="dialog_delete_all_msg">"Bạn vừa cho biết là bạn muốn xóa tất cả các ấn bản khỏi thư viện của mình.
+
+Đừng lo lắng, bạn sẽ không xóa vĩnh viễn ấn bản nào.
+
+Thao tác này chỉ xóa chúng khỏi thiết bị của bạn. Bạn có thể tải về lại ấn bản nếu cần."</string>
+    <string name="dialog_not_enough_space_title">Không đủ dung lượng</string>
+    <string name="dialog_not_enough_space_msg">Thiết bị này không có đủ dung lượng ổ đĩa để tải về ấn bản đã chọn. Hãy giải phóng ít nhất %d MB và thử lại.</string>
+    <string name="dialog_sd_card_not_available_title">Thẻ SD không khả dụng</string>
+    <string name="dialog_sd_card_not_available_msg">Thẻ SD đã bị tháo ra. Ứng dụng Zinio sẽ tắt. Hãy lắp Thẻ SD và khởi động lại ứng dụng.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Thẻ SD Đầy</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">Thẻ SD đầy. Hãy giải phóng một số dung lượng.</string>
+    <string name="dialog_shop_no_connectivity_title">Kho không khả dụng</string>
+    <string name="dialog_shop_no_connectivity_msg">Cần có kết nối để truy cập vào kho. Hãy kiểm tra kết nối của bạn hoặc cài đặt chế độ trên máy bay.</string>
+    <string name="dialog_sign_out_title">Đăng xuất</string>
+    <string name="dialog_sign_out_msg">"Bạn có chắc chắn muốn đăng xuất không?
+
+Bạn sẽ được yêu cầu đăng nhập lại để truy cập ứng dụng Zinio."</string>
+    <string name="dialog_tip_title">Mẹo</string>
+    <string name="dialog_manage_tips_title">Quản lý mẹo</string>
+    <string name="non_supported_device_tip_title">Chào mừng đến zinio</string>
+    <string name="non_supported_device_tip_msg">"Nội dung phong phú của Zinio là những tài liệu đọc tốt nhất trên các thiết bị có màn hình tối thiểu 800x480.
+
+Bạn có thể tiếp tục sử dụng ứng dụng nhưng hãy lưu ý rằng trải nghiệm của bạn không phải là tối ưu."</string>
+    <string name="no_text_tip_msg">Một số ấn bản không có bài viết có nội dung. Bạn có thể sử dụng Mục lục hoặc Chỉ mục Trực quan để tìm trang đang tìm kiếm.</string>
+    <string name="page_tip0_1">"Bấm đơn để xem menu thanh công cụ.
+Bạn có thể chọn Mục lục theo hình ảnh hoặc theo văn bản."</string>
+    <string name="page_tip1">"Mẹo giúp bạn bắt đầu:
+
+* Lật trang bằng cách vuốt sang phải hoặc trái
+* Bấm đúp vào màn hình để thu phóng
+* Bấm nút văn bản, xuất hiện ở trang đầu của bài viết, để đọc."</string>
+    <string name="wifi_connection_tip">"Phát hiện kết nối mạng 3G.
+
+Bạn vẫn có thể tải về ấn bản bằng 3G,nhưng chúng tôi khuyên bạn dùng wifi để có trải nghiệm tối ưu."</string>
+    <string name="dialog_available_memory_not_enough_title">Không đủ Heapsize</string>
+    <string name="dialog_available_memory_not_enough_msg">Không đủ Heapsize.</string>
+    <string name="dialog_delete_title">Xóa</string>
+    <string name="delete_done">Xong</string>
+    <string name="dialog_delete_from_library">Bạn có chắc chắn muốn xoá %s</string>
+    <string name="internet_connection_tip">Cần có kết nối Internet để tải về ấn bản. Hãy bật kết nối Internet và thử lại.</string>
+    <string name="dialog_change_password_old_password_empty">Hãy nhập mật khẩu cũ.</string>
+    <string name="server_error_app_version_not_supported_message">Nâng cấp Khả dụng Có phiên bản mới hơn của Zinio Reader. Phiên bản này không còn được hỗ trợ. Vui lòng nâng cấp lên Zinio Reader mới nhất</string>
+    <string name="server_error_authentication_failed">"Tên người dùng hoặc mật khẩu không chính xác.
+
+Hãy thử lại. Mật khẩu cũ không chính xác."</string>
+    <string name="server_error_device_not_authorized">Thiết bị này chưa được cấp quyền đầy đủ để sử dụng với tài khoản Zinio của bạn. Để cấp quyền lại thiết bị của bạn, hãy đăng xuất ứng dụng rồi đăng nhập lại. Nếu bạn tiếp tục gặp sự cố, hãy liên hệ với bộ phận Hỗ trợ Khách hàng Zinio.</string>
+    <string name="server_error_invalid_login">Địa chỉ email không hợp lệ. Hãy nhập địa chỉ email hợp lệ.</string>
+    <string name="server_error_invalid_new_password">Mật khẩu không hợp lệ, hãy chọn một mật khẩu khác.</string>
+    <string name="server_error_issue_not_supported_for_device">Ấn phẩm không hợp lệ. Hãy liên hệ với dịch vụ khách hàng theo địa chỉ support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Tài khoản này đã đạt đến giới hạn thiết bị được cấp quyền tối đa. Hãy hủy quyền của một thiết bị và thử lại.</string>
+    <string name="server_error_packing_list_not_found">Thiếu danh sách đóng gói. Hãy liên hệ với dịch vụ khách hàng theo địa chỉ support@zinio.com.</string>
+    <string name="server_error_login_exists">Địa chỉ email đã tồn tại. Hãy chọn một địa chỉ khác.</string>
+    <string name="server_error_system_error">Đã xảy ra lỗi máy chủ. Hãy thử lại sau.</string>
+    <string name="server_error_system_not_available">Các phần của ứng dụng có thể không khả dụng ngay bây giờ. Nếu bạn không thể truy cập vào mục nào đó, hãy thử lại sau.</string>
+    <string name="server_error_no_items_in_library">Hiện bạn không có tiêu đề nào. Bạn có thể tìm thấy các tiêu đề sẵn có trên tab Cửa hàng.</string>
+    <string name="server_error_user_not_entitled">Người dùng không được cấp quyền. Hãy liên hệ với dịch vụ khách hàng theo địa chỉ support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Bạn có muốn xếp hạng Zinio Reader ngay bây giờ không?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Ấn phẩm lỗi thời đã bị gỡ bỏ và sẽ được tải về lại.</string>
+    <string name="dialog_review_msg">Phản hồi của bạn quan trọng đối với chúng tôi, vui lòng cung cấp nhận xét của bạn ngay bây giờ.</string>
+    <string name="dialog_review_title">Vui lòng cung cấp nhận xét của bạn.</string>
+    <string name="server_error_invalid_newstand">Quầy bán báo không hợp lệ. Hãy liên hệ với dịch vụ khách hàng theo địa chỉ support@zinio.com.</string>
+</resources>

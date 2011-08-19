@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">分</string>
+    <string name="postpone">アップデート予約</string>
+    <string name="update">アップデート</string>
+    <string name="firmware_update_title">ファームウェア アップデート</string>
+    <string name="firmware_update_fail">"アップデートに失敗しました。
+
+本機の設定は元の状態に戻ります。"</string>
+    <string name="low_battery_warning">"システムのアップデートには、最低%1$d%%以上のバッテリー残量が必要です。
+ACアダプターを接続するか、バッテリーを充電してから再度アップデートを実行してください。"</string>
+    <string name="confirmDownload_textok">"この更新により安定性が向上します。個人データは消去されません。このバージョンへの更新を強く推奨します。
+「はい」を押すと、更新を実行します。"</string>
+    <string name="confirmDownload_textcancel">「NO」を押すと、このアップデートをキャンセルします。</string>
+    <string name="confirmDownload_textwifi">更新のダウンロードには、無料Wi-Fi ホットスポットのご使用を推奨します。</string>
+    <string name="confirmDownload_textwifi2">「Later（後で）」を押した場合は、この通知を押すと随時ダウンロードすることができます。</string>
+    <string name="btn_text_later">後で</string>
+    <string name="confirmDownload_dialog_title">注意：ローミング中です。</string>
+    <string name="downloading">ファームウェアのダウンロード中...</string>
+    <string name="install_time">インストール所要時間： 約</string>
+    <string name="postponetime_text">アップデート開始時間</string>
+    <string name="install">インストール</string>
+    <string name="reach_max_net_fail">サーバーからのダウンロードを中止しました。しばらくしてから再試行してください。</string>
+    <string name="dlg_title_checking">インテグリティチェック</string>
+    <string name="dlg_msg_checking">ファームウェアファイルのインテグリティをチェックしています。</string>
+    <string name="cannot_set_to_browser">ブラウザーに設定できません。</string>
+    <string name="upgrade_error">アップグレードエラー。アップグレードパッケージを再度ダウンロードしてください。</string>
+    <string name="start_to_download">重要なアップデートパッケージのダウンロードを開始。</string>
+    <string name="start_to_upgrade">アップデートパッケージのアップグレードを開始。</string>
+    <string name="start_NI_dmSession">ネットワークはDMセッションの初期化を行っています。承認しますか？</string>
+    <string name="download_finished">ファームウェアのダウンロード終了...</string>
+    <string name="download_in_progress">新しいファームウェアのダウンロードの進捗</string>
+    <string name="out_of_mem_warning">"空き容量が足りません。
+不要なアプリケーションを削除し再試行してください。"</string>
+    <string name="ui_alert_input_hint">テキストを入力してください。</string>
+    <string name="ui_alert_input_numeric_hint">数字を入力してください。</string>
+    <string name="ui_alert_input_phone_number_hint">電話番号を入力してください。</string>
+    <string name="check_for_update">アップデートを確認</string>
+    <string name="no_new_fota_update">現在利用できるアップデートはありません。</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">キャンセル</string>
+    <string name="confirm_download_btn_Yes">はい</string>
+    <string name="confirm_download_btn_No">いいえ</string>
+    <string name="confirm_update_title">ASUSファームウェア更新</string>
+    <string name="asus_received_title">ASUSシステムファームウェア更新サービス</string>
+    <string name="received_message">新しいシステムファームウェアの更新が見つかりました。更新するにはここを押します。</string>
+    <string name="low_battery_title">システムファームウェア更新終了</string>
+    <string name="dl_received_ticker">新しいシステムファームウェアの更新が見つかりました。</string>
+    <string name="dl_received_message">新しいシステムファームウェアの更新が見つかりました。ここを押してダウンロードします。</string>
+    <string name="confirmDownload_text1">次のシステムファームウェアの更新をダウンロードしますか？</string>
+    <string name="received_ticker">新しいシステムファームウェアの更新が見つかりました。</string>
+    <string name="update_dialog_text">"お使いのデバイス用の新しいシステムファームウェアの更新をダウンロードしました。すぐインストールしますか？
+"</string>
+    <string name="prepare_dm_download">システムファームウェアのダウンロードの準備をしています...</string>
+    <string name="system_update_activity">システムファームウェア更新</string>
+    <string name="has_new_fota_update">お使いのデバイスで利用可能なシステムファームウェアの更新が見つかりました。</string>
+    <string name="update_dialog_text2">ご利用機器の最新のシステムアップデートが使用できます。システムアップデート中に電源が切れないように、ACアダプターを接続、又はバッテリーを十分に充電してから実行してください。このアップデートによって、個人データが消去されることはありません。</string>
+</resources>

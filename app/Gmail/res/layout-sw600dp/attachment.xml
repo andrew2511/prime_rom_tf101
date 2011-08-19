@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/attachment_border_top_large" android:visibility="gone" style="@style/AttachmentBorder" />
+        <ImageView android:id="@id/attachment_border_top_small" android:visibility="gone" style="@style/AttachmentBorderSmall" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="112.0dip">
+            <ImageView android:layout_width="32.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_menu_attachment" />
+            <TextView android:gravity="left" android:layout_gravity="left|center" android:id="@id/name" android:layout_marginLeft="16.0dip" style="@style/AttachmentTitle" />
+            <TextView android:textSize="12.0dip" android:gravity="right" android:layout_gravity="right|center" android:id="@id/size" style="@style/AttachmentTitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/attachment_border_bottom_small" android:visibility="gone" style="@style/AttachmentBorderSmall" />
+        <ImageView android:id="@id/attachment_border_bottom_large" android:visibility="gone" style="@style/AttachmentBorder" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ComposeButtonColumn">
+        <ImageView android:gravity="left" android:layout_gravity="left|center" android:id="@id/remove_attachment" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:src="@drawable/ic_cancel_holo_light" />
+    </LinearLayout>
+</LinearLayout>

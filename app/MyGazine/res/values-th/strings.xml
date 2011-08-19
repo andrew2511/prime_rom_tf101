@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">เว็บไซต์</string>
+    <string name="music_title_str">เพลง</string>
+    <string name="web_tag_str">ไม่มี URL</string>
+    <string name="music_tag_album">ไม่มีอัลบั้ม</string>
+    <string name="music_tag_song">ไม่มีเพลง</string>
+    <string name="music_tag_artist">ไม่มีศิลปิน</string>
+    <string name="date_text_str">ไม่มีวันที่</string>
+    <string name="cal_event_str">ไม่มีเหตุการณ์ล่าสุด</string>
+    <string name="weather_info_str">ไม่มีข้อมูลสภาพอากาศ</string>
+    <string name="weather_content_str">ไม่มีเนื้อหาสภาพอากาศ</string>
+    <string name="photo_date_str">ไม่มีวันที่ภาพถ่าย</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">ลมทางทิศตะวันออกและตะวันออกเฉียงเหนือ</string>
+    <string name="humidity">ความชื้น</string>
+    <string name="email_unit">อีเมล</string>
+    <string name="email_unit_single">อีเมล</string>
+    <string name="event_unit">เหตุการณ์</string>
+    <string name="event_unit_single">เหตุการณ์</string>
+    <string name="book_unit">หนังสือ</string>
+    <string name="book_unit_single">หนังสือ</string>
+    <string name="weather_city_str">ไม่มีเมือง</string>
+    <string name="date_format_title">รูปแบบวันที่</string>
+    <string name="preference_header_title">การกำหนดลักษณะ</string>
+    <string name="slideshow_header_title">ภาพสไลด์</string>
+    <string name="picture_number_title">จำนวนภาพของภาพสไลด์</string>
+    <string name="slide_show_interval_title">ช่วงเวลาภาพสไลด์</string>
+    <string name="transition_effect_title">เอฟเฟ็กต์การเปลี่ยนภาพ</string>
+    <string name="enable">เปิดทำงาน</string>
+    <string name="disable">ปิดทำงาน</string>
+    <string name="app_settings">การตั้งค่า ASUS MyZine</string>
+    <string name="unit_picture">ภาพ</string>
+    <string name="unit_second">วินาที</string>
+    <string name="Image_headline">รูปภาพ</string>
+    <string name="display_headline">แสดงผล</string>
+    <string name="date_headline">วันที่</string>
+    <string name="logo_display_title">โลโก้ ASUS MyZine</string>
+    <string name="date_display_title">วันที่/เวลา</string>
+    <string name="photo_date_display_title">สร้างวันที่ของรูปภาพ</string>
+    <string name="event_display_title">เหตุการณ์ที่กำลังจะมาถึง</string>
+    <string name="weather_display_title">สภาวะอากาศ</string>
+    <string name="scale_type_title">การนำเสนอรูปภาพ</string>
+</resources>

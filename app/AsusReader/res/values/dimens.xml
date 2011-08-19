@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_bar_hight">75.0px</dimen>
+    <dimen name="navigation_bar_hight">125.0px</dimen>
+    <dimen name="option_menu_item_top_margin">12.0px</dimen>
+    <dimen name="option_menu_item_left_margin">30.0px</dimen>
+    <dimen name="option_menu_item_right_margin">30.0px</dimen>
+    <dimen name="option_menu_group_item_distance">20.0px</dimen>
+    <dimen name="option_menu_item_margin">5.0px</dimen>
+    <dimen name="navigation_progress_margin">5.0px</dimen>
+</resources>

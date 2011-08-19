@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="8520" android:versionName="1.0.0.10-4" package="com.splashtop.remote.pad.asus"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:theme="@style/custom_title" android:label="@string/app_name" android:name="com.splashtop.remote.MainActivity" android:launchMode="singleTask" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.splashtop.remote.DesktopActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/app_name" android:name="com.splashtop.remote.DesktopGLActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/custom_title" android:name="com.splashtop.remote.UpdateActivity" android:configChanges="orientation" />
+        <activity android:name="com.splashtop.remote.MoreDetailActivity" android:configChanges="orientation" />
+        <activity android:name="com.splashtop.remote.MoreActivity" />
+        <activity android:name="com.splashtop.remote.SettingActivity" />
+        <activity android:name="com.splashtop.remote.EulaActivity" />
+        <activity android:name="com.splashtop.remote.OOBEForAsusActivity" android:configChanges="orientation" />
+        <activity android:theme="@android:style/Theme.Translucent" android:name="com.splashtop.remote.ServiceActivity" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+</manifest>

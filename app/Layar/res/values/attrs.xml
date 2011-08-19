@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="seekBarPreferenceStyle" format="reference" />
+    <attr name="multiplyChoiseListPreference" format="reference" />
+    <attr name="valueMin" format="integer" />
+    <attr name="valueMax" format="integer" />
+    <attr name="summaryEmpty" format="string" />
+    <attr name="summaryOne" format="string" />
+    <attr name="summaryTwo" format="string" />
+    <attr name="summaryMore" format="string" />
+    <attr name="summaryAll" format="string" />
+    <attr name="selectedItemHeight" format="dimension" />
+    <attr name="selectedItemWidth" format="dimension" />
+    <attr name="unselectedItemAlpha" format="integer" />
+    <attr name="lowHealthLimit" format="integer" />
+    <attr name="sliderOrientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="handle" format="reference" />
+    <attr name="realHandle" format="reference" />
+    <attr name="content" format="reference" />
+    <attr name="bottomOffset" format="dimension" />
+    <attr name="topOffset" format="dimension" />
+    <attr name="allowSingleTap" format="boolean" />
+    <attr name="animateOnClick" format="boolean" />
+</resources>

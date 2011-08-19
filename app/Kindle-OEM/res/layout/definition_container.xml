@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.DefinitionContainer android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dictionary_not_available_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_not_available_title" style="@style/definition_container_title" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_not_available_message" android:layout_weight="1.0" style="@style/definition_container_text" />
+        <Button android:id="@id/dictionary_not_available_button" android:background="@drawable/selection_buttons_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_not_available_button" style="@style/selection_buttons" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dictionary_corrupt_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_corrupt_title" style="@style/definition_container_title" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_corrupt_message" android:layout_weight="1.0" style="@style/definition_container_text" />
+        <Button android:id="@id/dictionary_corrupt_button" android:background="@drawable/selection_buttons_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_corrupt_button" style="@style/selection_buttons" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dictionary_downloading_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_downloading_title" style="@style/definition_container_title" />
+        <ProgressBar android:id="@id/dictionary_downloading_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:indeterminate="false" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_downloading_message" android:layout_weight="1.0" style="@style/definition_container_text" />
+        <Button android:id="@id/dictionary_downloading_cancel" android:background="@drawable/selection_buttons_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/selection_buttons" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dictionary_download_failed_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_download_failed_title" style="@style/definition_container_title" />
+        <ProgressBar android:id="@id/dictionary_download_failed_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:max="100" android:indeterminate="false" style="?android:attr/progressBarStyleHorizontal" />
+        <Button android:layout_gravity="bottom" android:id="@id/dictionary_download_failed_button" android:background="@drawable/selection_buttons_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dictionary_download_failed_button" style="@style/selection_buttons" />
+    </LinearLayout>
+    <TextView android:id="@id/definition_not_available_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/definition_not_available_title" android:layout_weight="1.0" style="@style/definition_container_title" />
+    <com.amazon.kcp.reader.ui.DefinitionView android:id="@id/definition_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/definition_links" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip">
+        <TextView android:textStyle="bold" android:id="@id/definition_dictionary_Link" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/definition_dictionary" android:layout_alignParentRight="true" style="@style/definition_container_link" />
+    </RelativeLayout>
+</com.amazon.kcp.reader.ui.DefinitionContainer>

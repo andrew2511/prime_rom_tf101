@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Назад</string>
+    <string name="localdevice">Локальное</string>
+    <string name="playto">Воспроизвести на</string>
+    <string name="chooserenderdevice">Выберите устройство для отображения</string>
+    <string name="mediatype">Тип файла</string>
+    <string name="choosemediatype">Пожалуйста, выберите тип файла</string>
+    <string name="musictype">Музыка</string>
+    <string name="imagetype">Фото</string>
+    <string name="videotype">Видео</string>
+    <string name="cant_connect_to_server">Ошибка подключения к серверу. Пожалуйста, проверьте Ваше подключение.</string>
+    <string name="internet_exception">Нет подключения к сети</string>
+    <string name="internet_exception_message">Пожалуйста, проверьте подключение к сети …</string>
+    <string name="nodlnadevice">Пожалуйста, включите DLNA-устройства в в этой Wi-Fi сети</string>
+    <string name="notagain">Не показывать это сообщение снова</string>
+    <string name="shardms">Вы хотите поделиться своими файлами с другими устройствами?</string>
+    <string name="server">Сервер</string>
+    <string name="settings">Настройки</string>
+    <string name="dms">Digital Media Server</string>
+    <string name="dmssettings">Настройки Digital Media Server</string>
+    <string name="enable">Включить</string>
+    <string name="disable">Отключить</string>
+    <string name="sharemediatype">Выберите типы файлов для обмена</string>
+    <string name="selectplayer">Выберите устройство для воспроизведения</string>
+    <string name="shareto">Общий доступ через</string>
+    <string name="dms_settings_adv">Дополнительные настройки</string>
+    <string name="desc_share">Изменить общую папку</string>
+    <string name="title_share">Общая папка</string>
+    <string name="desc_friendlyname">Изменить отображаемое имя Вашего устройства</string>
+    <string name="title_friendlyname">Отображаемое имя</string>
+    <string name="msgbox_title_error">Ошибка</string>
+    <string name="msgbox_msg_error_no_wifi">Пожалуйста, сначала включите Wi-Fi</string>
+    <string name="msgbox_msg_error_friendlyname">Невозможно изменить отображаемое имя</string>
+    <string name="msgbox_msg_error_sharefolder">Невозможно изменить общую папку</string>
+    <string name="msgbox_msg_error_mediatype">Невозможно изменить тип общих файлов</string>
+    <string name="enable_dms">Включить цифровой медиасервер</string>
+    <string name="disable_dms">Отключить цифровой медиасервер</string>
+    <string name="about_title">Справка</string>
+    <string name="toast_srvbusy">Сервер занят, попробуйте позже.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Сейчас воспроизводится</string>
+    <string name="play_all">Воспроизвести все</string>
+    <string name="party_shuffle">Создать микс</string>
+    <string name="shuffle_all">Перемешать все</string>
+    <string name="wifi_quick_toggle_summary">Включить Wi-Fi</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="slide_show">Слайд-шоу</string>
+    <string name="wait">Подождите...</string>
+    <string name="fail_to_load">Не удалось загрузить</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Внутренний накопитель</string>
+</resources>

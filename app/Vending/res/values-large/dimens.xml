@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_inner_inset">6.0dip</dimen>
+    <dimen name="thumbnail_width">131.0dip</dimen>
+    <dimen name="thumbnail_height">93.0dip</dimen>
+    <dimen name="thumbnail_inset">8.0dip</dimen>
+    <dimen name="thumbnail_inset_bottom">5.0dip</dimen>
+    <dimen name="thumbnail_bottom_bar_left_margin">24.0dip</dimen>
+    <dimen name="thumbnail_bottom_bar_width">121.0dip</dimen>
+    <dimen name="thumbnail_bottom_bar_height">14.0dip</dimen>
+    <dimen name="button_left_margin">167.0dip</dimen>
+    <dimen name="medallion_bottom_height">109.0dip</dimen>
+    <dimen name="apps_overview_panel_header">100.0dip</dimen>
+    <dimen name="asset_info_auto_update_height">40.0dip</dimen>
+    <dimen name="auto_update_section_margin_top">10.0dip</dimen>
+    <dimen name="permissions_list_height">303.0dip</dimen>
+</resources>

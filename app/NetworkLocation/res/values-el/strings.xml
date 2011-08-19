@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Θέση δικτύου</string>
+    <string name="location_warning_title">Αποδοχή τοποθεσίας</string>
+    <string name="location_warning_message">Να επιτρέπεται στην υπηρεσία εντοπισμού τοποθεσίας της Google η συλλογή ανώνυμων δεδομένων τοποθεσίας. Η συλλογή θα πραγματοποιηθεί ακόμη κι αν δεν εκτελείται καμία εφαρμογή.</string>
+    <string name="agree">Συμφωνώ</string>
+    <string name="disagree">Διαφωνώ</string>
+</resources>

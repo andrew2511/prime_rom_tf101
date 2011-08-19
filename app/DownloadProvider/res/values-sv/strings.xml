@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Hämtningshanterare</string>
+    <string name="permlab_downloadManager">Åtkomst till hämtningshanterare.</string>
+    <string name="permdesc_downloadManager">Tillåter att ett program får åtkomst till hämtningshanteraren och hämtar filer med den. Skadliga program kan använda detta för att störa hämtningar och komma åt privat information.</string>
+    <string name="permlab_downloadManagerAdvanced">Avancerade funktioner för hämtningshanterare.</string>
+    <string name="permdesc_downloadManagerAdvanced">Tillåter att ett program får åtkomst till hämtningshanterarens avancerade funktioner. Skadliga program kan använda detta för att störa hämtningar och komma åt privat information.</string>
+    <string name="permlab_downloadCompletedIntent">Skicka meddelande om hämtning.</string>
+    <string name="permdesc_downloadCompletedIntent">Tillåter att ett program skickar meddelanden om slutförda hämtningar. Skadliga program kan använda detta för att störa andra program som hämtar filer.</string>
+    <string name="permdesc_seeAllExternal">Tillåter att programmet ser alla hämtningar till SD-kortet, oavsett vilket program som hämtat innehållet.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reservera utrymme i hämtningscachen</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Tillåter att programmet hämtar filer till hämtningscachen som inte kan tas bort automatiskt när hämtningshanteraren behöver mer utrymme.</string>
+    <string name="permlab_downloadWithoutNotification">hämta filer utan avisering</string>
+    <string name="permdesc_downloadWithoutNotification">Tillåter att programmet hämtar filer via hämtningshanteraren utan att någon avisering visas för användaren.</string>
+    <string name="permlab_accessAllDownloads">Åtkomst till alla hämtade filer i systemet</string>
+    <string name="permdesc_accessAllDownloads">Tillåt att programmet visar och ändrar allt som initieras av något program i systemet.</string>
+    <string name="download_unknown_title">&lt;Okänd></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" och %d till"</string>
+    <string name="notification_download_complete">Hämtning slutförd</string>
+    <string name="notification_download_failed">Det gick inte att hämta</string>
+    <string name="notification_need_wifi_for_size">Hämtningen kräver Wi-Fi</string>
+    <string name="wifi_required_title">Hämtningen är för stor för operatörsnätverket</string>
+    <string name="wifi_required_body" formatted="false">"Telefonen måste vara ansluten till Wi-Fi för att hämtningen på %s  ska kunna slutföras. 
+
+Klicka på %s  om du vill starta hämtningen nästa gång telefonen är ansluten till ett WiFi-nätverk."</string>
+    <string name="wifi_recommended_title">Vill du ställa den i kö för hämtning senare?</string>
+    <string name="wifi_recommended_body" formatted="false">"Om du hämtar %s  kan det leda till att batteritiden minskar eller att dataanslutningen överbelastas vilket i sin tur kan innebära att operatören tar ut högre avgifter, beroende på abonnemang.
+
+ Klicka på %s om du vill starta hämtningen nästa gång telefonen är ansluten till ett WiFi-nätverk."</string>
+    <string name="button_queue_for_wifi">Kö</string>
+    <string name="button_cancel_download">Avbryt</string>
+    <string name="button_start_now">Starta nu</string>
+</resources>

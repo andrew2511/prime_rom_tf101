@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/ra_previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ra_choices" android:layout_alignBottom="@id/ra_choices" android:layout_alignParentLeft="true" />
+    <Spinner android:id="@id/ra_choices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ra_next" android:layout_toRightOf="@id/ra_previous" />
+    <ImageButton android:id="@id/ra_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ra_choices" android:layout_alignBottom="@id/ra_choices" android:layout_alignParentRight="true" />
+    <Button android:id="@id/ra_confirmButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_below="@id/ra_choices" />
+</RelativeLayout>

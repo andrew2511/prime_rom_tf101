@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Maps Navigasi</string>
+    <string name="da_net_fail_title">Jaringan gagal</string>
+    <string name="da_net_fail_body">Aplikasi ini memerlukan sambungan data yang berfungsi.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Tujuan</string>
+    <string name="da_toward">ke arah %1$s</string>
+    <string name="da_onto">ke %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"kemudian
+%1$s"</string>
+    <string name="da_continue_for_distance">Terus sejauh %1$s</string>
+    <string name="da_destination_will_be_on_the_left">tujuan Anda nanti berada di kiri.</string>
+    <string name="da_destination_will_be_on_the_right">tujuan Anda nanti berada di kanan.</string>
+    <string name="da_you_will_reach_destination">Anda akan sampai di tujuan.</string>
+    <string name="da_destination_on_the_left">Tujuan Anda berada di kiri.</string>
+    <string name="da_destination_on_the_right">Tujuan Anda berada di kanan.</string>
+    <string name="da_destination_reached">Anda telah sampai.</string>
+    <string name="da_speech_lost_gps">Sinyal GPS hilang</string>
+    <string name="da_speech_lost_data_connection">Koneksi data putus</string>
+    <string name="da_speech_navigation_resumed">Navigasi dilanjutkan</string>
+    <string name="da_speech_please_describe_problem">Uraikan masalahnya</string>
+    <string name="da_on_left">di kiri</string>
+    <string name="da_on_right">di kanan</string>
+    <string name="da_stay_on_road_primary">Ikuti jalan %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s ke %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s ke %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0}mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} ft</string>
+    <string name="da_distance_format_feet_compressed">{0}ft</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0}yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s h %2$s j</string>
+    <string name="da_time_format_hours" formatted="false">%1$s jam %2$s mnt</string>
+    <string name="da_time_format_minutes">%1$s mnt</string>
+    <string name="da_time_format_clock" formatted="false">%1$s.%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigasi</string>
+    <string name="da_search_label">Telusur</string>
+    <string name="da_layers">Lapisan</string>
+    <string name="da_agreement">"Google Maps Navigation masih berstatus beta. Berhati-hatilah.
+
+Jangan mengotak-atik aplikasi ini saat mengemudi. Data lalu lintas tidak dalam waktu-nyata, dan petunjuk arah bisa saja keliru, berbahaya, atau melibatkan penggunaan feri. Patuhi undang-undang yang berlaku.
+
+Perhatikan jalan!"</string>
+    <string name="da_agreement_with_walking">"Google Maps Navigasi masih berstatus beta. Berhati-hatilah.
+
+Jangan mengutak-atik aplikasi ini saat mengemudi. Data lalu lintas tidak dalam waktu-nyata, dan petunjuk arah bisa saja keliru, berbahaya, dilarang, atau melibatkan penggunaan feri. Rute jalan kaki mungkin tidak mencakup trotoar atau jalur untuk pejalan kaki. Patuhi undang-undang yang berlaku.
+
+Perhatikan jalan!"</string>
+    <string name="da_disclaimer_checkbox">Tampilkan pesan ini lain kali</string>
+    <string name="da_show_list">Daftar Petunjuk Arah</string>
+    <string name="da_route_overview">Info Rute</string>
+    <string name="da_show_map">Tampilkan Peta</string>
+    <string name="da_satellite">Satelit</string>
+    <string name="da_traffic_view">Tampilan lalu lintas</string>
+    <string name="da_no_traffic_here">Tidak ada informasi lalu lintas di sini</string>
+    <string name="da_traffic">Lalu lintas</string>
+    <string name="da_area_view">Tampilan Area</string>
+    <string name="da_mute">Bisukan</string>
+    <string name="da_unmute">Bunyikan</string>
+    <string name="da_settings">Setelan</string>
+    <string name="da_help">Bantuan</string>
+    <string name="da_terms_privacy_notices">Syarat &amp; Privasi</string>
+    <string name="da_terms_and_conditions">Syarat dan Ketentuan</string>
+    <string name="da_privacy_policy">Kebijakan Privasi</string>
+    <string name="da_legal_notices">Pemberitahuan Masalah Hukum</string>
+    <string name="da_navigation_suspended">Navigasi dihentikan</string>
+    <string name="da_exit_navigation">Keluar Navigasi</string>
+    <string name="da_email_me_when_resolved">Email saya setelah teratasi</string>
+    <string name="da_problem_reported">Masalah telah dilaporkan</string>
+    <string name="da_one_button_map_issue_reporting">Laporkan masalah dengan sekali-klik</string>
+    <string name="da_attention">Perhatian</string>
+    <string name="da_rmi_warning">"Laporkan masalah memungkinkan Anda merekam pesan suara singkat yang menguraikan masalah pada peta atau rute. Setelah 15 detik, pesan akan otomatis dikirim ke Google berikut lokasi dan rute Anda saat ini.
+
+Pintasan sekali-klik dapat diaktifkan pada setelan aplikasi.
+
+ Jika Anda memilih menerima pemutakhiran email setelah masalah teratasi, alamat email akan disimpan bersama dengan lokasi dan komentar Anda sampai masalah teratasi."</string>
+    <string name="da_report_a_problem">Laporkan Masalah</string>
+    <string name="da_report_a_problem_dialog_title">Laporkan masalah</string>
+    <string name="da_rmi_preference_trackball_summary">Jika diaktifkan, masalah akan dilaporkan ketika trackball ditekan.</string>
+    <string name="da_rmi_preference_camera_summary">Jika diaktifkan, masalah akan dilaporkan ketika tombol kamera ditekan.</string>
+    <string name="da_rmi_preference_no_button_summary">Tombol fisik tidak tersedia.</string>
+    <string name="da_rmi_preference_bad_location_summary">Pelaporan masalah tidak tersedia di lokasi Anda saat ini.</string>
+    <string name="da_destination_not_here_warning">Terima kasih telah melaporkan bahwa kami memiliki lokasi yang salah untuk tujuan Anda. Tujuan dan lokasi Anda saat ini akan dikirimkan ke Google untuk membantu menyempurnakan keakuratan data kami.</string>
+    <string name="da_destination_not_here_title">Laporkan masalah</string>
+    <string name="da_searching_for_gps">Mencari sinyal GPS...</string>
+    <string name="da_data_connection_lost">Koneksi data putus...</string>
+    <string name="da_follow_the_route">Ikuti rute</string>
+    <string name="da_waiting_for_directions">Mendapatkan petunjuk arah mengemudi</string>
+    <string name="da_waiting_for_walking_directions">Mendapatkan petunjuk arah berjalan</string>
+    <string name="da_waiting_for_location">Menunggu lokasi</string>
+    <string name="da_checking_navigation_availability">Memeriksa ketersediaan navigasi</string>
+    <string name="da_loading_route_details">Memuat detail rute</string>
+    <string name="da_loading_image">Memuat gambar</string>
+    <string name="da_waiting_for_alternates">Mencari rute alternatif</string>
+    <string name="da_waiting_for_details">Memuat</string>
+    <string name="da_no_details">Detail tidak tersedia</string>
+    <string name="da_gps_is_disabled">GPS dinonaktifkan</string>
+    <string name="da_turn_on_gps">Tunjukkan setelan lokasi?</string>
+    <string name="da_voice_guidance">Panduan suara</string>
+    <string name="da_install_voice_guidance_prompt">Untuk navigasi berpanduan suara, Anda perlu memasang dukungan text-to-speech dari Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Lompati</string>
+    <string name="da_dialog_cancel">Batal</string>
+    <string name="da_dialog_done">Selesai</string>
+    <string name="da_dialog_accept">Terima</string>
+    <string name="da_dialog_install">Pasang</string>
+    <string name="da_dialog_dont_accept">Jangan Terima</string>
+    <string name="da_dialog_go">Mulai</string>
+    <string name="da_dialog_get_directions">Dapatkan Petunjuk Arah</string>
+    <string name="da_map">Peta</string>
+    <string name="da_clear_layers">Bersihkan Peta</string>
+    <string name="da_layer_name_parking">Parkir</string>
+    <string name="da_layer_name_attractions">Tujuan Wisata</string>
+    <string name="da_layer_name_gas_stations">SPBU</string>
+    <string name="da_layer_name_restaurants">Restoran</string>
+    <string name="da_layer_name_supermarkets">Toko swalayan</string>
+    <string name="da_layer_name_atms_and_banks">ATM &amp; Bank</string>
+    <string name="da_layer_name_convenience_stores">Toko Swalayan</string>
+    <string name="da_query_banks_and_atms">Bank dan ATM</string>
+    <string name="da_rerouting">Mengubah rute...</string>
+    <string name="da_via">Lewat %s</string>
+    <string name="da_to_destination">ke %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Rekam Umpan Balik</string>
+    <string name="da_destination_not_here">Tujuan bukan di sini</string>
+    <string name="da_new_destination">Tujuan Berikutnya</string>
+    <string name="da_reroute_to_destination">Kembali ke Tujuan</string>
+    <string name="da_change_destination">Pilih Tujuan</string>
+    <string name="da_search_for_destination">Telusur...</string>
+    <string name="da_point_on_map">Titik di peta</string>
+    <string name="da_volume">Volume Navigasi</string>
+    <string name="da_exit">Keluar Aplikasi</string>
+    <string name="da_did_you_mean">Mungkin maksud Anda adalah:</string>
+    <string name="da_did_you_say">Apakah Anda mengatakan:</string>
+    <string name="da_for_your_end_point">Untuk titik akhir Anda</string>
+    <string name="da_unnamed_road">Jalan tanpa nama</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, kemudian %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Setelah %1$s meter</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Setelah satu setengah kilometer</string>
+    <string name="da_speech_continue_for_x_meters">Terus sejauh %1$s meter</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Terus sejauh satu setengah kilometer</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Terus di %2$s sejauh %1$s meter</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Terus di %1$s sejauh satu setengah kilometer</string>
+    <string name="da_speech_generic_continue">Terus lurus</string>
+    <string name="da_speech_in_x_feet">Setelah %1$s kaki</string>
+    <string name="da_speech_in_x_yards">Setelah %1$s yard</string>
+    <string name="da_speech_in_a_quarter_mile">Setelah seperempat mil</string>
+    <string name="da_speech_in_a_half_mile">Setelah setengah mil</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Setelah tiga perempat mil</string>
+    <string name="da_speech_in_one_and_a_half_miles">Setelah satu setengah mil</string>
+    <string name="da_speech_continue_for_x_feet">Terus sejauh %1$s kaki</string>
+    <string name="da_speech_continue_for_x_yards">Terus sejauh %1$s yard</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Terus sejauh seperempat mil</string>
+    <string name="da_speech_continue_for_a_half_mile">Terus sejauh setengah mil</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Terus sejauh tiga perempat mil</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Terus sejauh satu setengah mil</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Terus di %2$s sejauh %1$s kaki</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Terus di %2$s sejauh %1$s yard</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Terus di %1$s sejauh seperempat mil</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Terus di %1$s sejauh setengah mil</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Terus di %1$s sejauh tiga perempat mil</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Terus di %1$s sejauh satu setengah mil</string>
+    <string name="da_route_prefixes">N,U,NE,TL,E,T,SE,TG,S,S,SW,BD,W,B,NW,BL</string>
+    <string name="da_route_suffixes">N,U,NE,TL,E,T,SE,TG,S,S,SW,BD,W,B,NW,BL,Ave,Blvd,Byp,Cir,Ct,Dr,Expy,Fwy,Hwy,Ln,Pkwy,Pl,Rd,St,Thrwy,Way</string>
+    <string name="da_no_route">Rute tidak ditemukan</string>
+    <string name="da_route_not_found">Kami tidak dapat menemukan rute ke tujuan Anda.</string>
+    <string name="da_destination_not_found">Kami tidak dapat memahami lokasi tujuan.</string>
+    <string name="da_navigation_not_supported">Navigasi ke tujuan Anda tidak tersedia.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps Navigasi belum tersedia di lokasi ini.</string>
+    <string name="da_launch_maps">Luncurkan Maps</string>
+    <string name="da_no_image_available">Tidak tersedia gambar.</string>
+    <string name="da_image_error">Galat memuat gambar.</string>
+    <string name="da_no_alternate_routes">Kami tidak dapat menemukan rute alternatif ke tujuan Anda.</string>
+    <string name="da_picker_type_destination">Ketik Tujuan</string>
+    <string name="da_picker_speak_destination">Katakan Tujuan</string>
+    <string name="da_picker_contacts">Kenalan</string>
+    <string name="da_picker_starred_items">Tempat Berbintang</string>
+    <string name="da_picker_new_contact">Kenalan Baru</string>
+    <string name="da_picker_recent_destinations">Tujuan Terkini</string>
+    <string name="da_picker_choose_destination">Pilih Tujuan</string>
+    <string name="da_navigate_to">Navigasikan ke</string>
+    <string name="da_picker_search_hint">Tujuan</string>
+    <string name="da_route_options">Opsi rute</string>
+    <string name="da_updating_directions">Memutakhirkan petunjuk arah</string>
+    <string name="da_picker_no_starred_items">"Anda tidak mempunyai tempat yang berkilau bintangnya.
+
+Tempat yang berkilau bintangnya disinkronkan secara otomatis dengan maps.google.com.
+
+Anda dapat menandai hasil penelusuran pada Google Maps dengan bintang dengan mengetuk ikon bintang di samping alamat."</string>
+    <string name="da_picker_no_contacts">"Anda tidak memiliki kenalan dengan alamat.
+
+Anda dapat menambahkan kenalan baru atau menetapkan alamat untuk kenalan yang ada dalam aplikasi Kenalan."</string>
+    <string name="da_driving">Mengemudi</string>
+    <string name="da_walking">Berjalan</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Info selengkapnya</string>
+    <string name="da_search_maps">Telusuri Peta</string>
+    <string name="da_walking_warning">Berjalan kaki (versi beta): gunakan dengan hati-hati</string>
+    <string name="da_calibrate_compass_title">Kalibrasi kompas</string>
+    <string name="da_calibrate_compass">Kompas Anda belum dikalibrasi. Untuk mengalibrasi, ayunkan perangkat membentuk pola angka 8 beberapa kali.</string>
+    <string name="da_confirm_exit_title">Keluar navigasi?</string>
+    <string name="da_confirm_exit_text">Ini akan mengakhiri semua panduan rute.</string>
+    <string name="da_route_includes_tolls">Rute termasuk jalan tol</string>
+    <string name="da_avoid_tolls">Hindari jalan tol</string>
+    <string name="da_avoiding_tolls">Menghindari jalan tol</string>
+    <string name="da_avoiding_highways">Menghindari jalan raya</string>
+    <string name="da_route_includes_unavoidable_tolls">Rute ini mencakup jalan tol.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Rute ini mencakup jalan tol. Nonaktifkan rute jalan tol pada %1$s%2$s di bawah.</string>
+    <string name="da_seasonally_closed">Rute mungkin ditutup pada musim tertentu</string>
+    <string name="da_direction_north">utara</string>
+    <string name="da_direction_north_west">barat laut</string>
+    <string name="da_direction_west">barat</string>
+    <string name="da_direction_south_west">barat daya</string>
+    <string name="da_direction_south">selatan</string>
+    <string name="da_direction_south_east">tenggara</string>
+    <string name="da_direction_east">timur</string>
+    <string name="da_direction_north_east">timur laut</string>
+    <string name="da_step_depart">Tuju ke %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Tuju ke %1$s pada %2$s</string>
+    <string name="da_step_slight_left">Belok sedikit ke kiri</string>
+    <string name="da_step_slight_right">Belok sedikit ke kanan</string>
+    <string name="da_step_turn_left">Belok kiri</string>
+    <string name="da_step_turn_right">Belok kanan</string>
+    <string name="da_step_sharp_left">Belok tajam ke kiri</string>
+    <string name="da_step_sharp_right">Belok tajam ke kanan</string>
+    <string name="da_step_slight_left_onto">Belok sedikit ke kiri menuju %1$s</string>
+    <string name="da_step_slight_right_onto">Belok sedikit ke kanan menuju %1$s</string>
+    <string name="da_step_turn_left_onto">Belok kiri menuju %1$s</string>
+    <string name="da_step_turn_right_onto">Belok kanan menuju %1$s</string>
+    <string name="da_step_sharp_left_onto">Belok tajam ke kiri menuju %1$s</string>
+    <string name="da_step_sharp_right_onto">Belok tajam ke kanan menuju %1$s</string>
+    <string name="da_step_fork_left">Tetap di kiri pada jalan bercabang</string>
+    <string name="da_step_fork_right">Tetap di kanan pada jalan bercabang</string>
+    <string name="da_step_continue_onto">Terus ke %1$s</string>
+    <string name="da_step_continue_straight">Terus lurus</string>
+    <string name="da_step_u_turn">Lakukan tikung U</string>
+    <string name="da_step_take_the_ramp">Gunakan tanjakan</string>
+    <string name="da_step_take_the_ramp_onto">Gunakan tanjakan ke %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Gunakan tanjakan di kiri</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Gunakan tanjakan di kiri ke %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Gunakan tanjakan di kanan</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Gunakan tanjakan di kanan ke %1$s</string>
+    <string name="da_step_take_the_exit">Gunakan jalan keluar</string>
+    <string name="da_step_take_the_exit_on_the_left">Gunakan jalan keluar di kiri</string>
+    <string name="da_step_take_the_exit_on_the_right">Gunakan jalan keluar di kanan</string>
+    <string name="da_step_take_the_exit_onto">Gunakan jalan keluar ke %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Gunakan jalan keluar di kiri ke %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Gunakan jalan keluar di kanan ke %1$s</string>
+    <string name="da_step_take_exit_n">Gunakan jalan keluar %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Citra ©%2$d %3$s, Data peta ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Citra ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Data peta ©%2$d %3$s</string>
+</resources>

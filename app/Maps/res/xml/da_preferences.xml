@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/da_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <com.google.android.maps.driveabout.app.RmiPreference android:title="@string/da_one_button_map_issue_reporting" android:key="OneButtonRmi" android:summary="" />
+</PreferenceScreen>

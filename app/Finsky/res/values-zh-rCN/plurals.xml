@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d 条结果</item>
+        <item quantity="one">%1$d 条结果</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">找到约 %1$d 个结果</item>
+        <item quantity="one">找到约 %1$d 个结果</item>
+    </plurals>
+</resources>

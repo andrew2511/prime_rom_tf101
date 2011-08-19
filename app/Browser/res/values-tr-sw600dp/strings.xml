@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Yeni sekme</string>
+    <string name="new_incognito_tab">Yeni gizli sekme</string>
+    <string name="active_tabs">Sekmeler</string>
+    <string name="open_all_in_new_window">Tümünü yeni sekmelerde aç</string>
+    <string name="contextmenu_openlink_newwindow">Yeni sekmede aç</string>
+    <string name="contextmenu_openlink_newwindow_background">Yeni arka plan sekmesinde aç</string>
+    <string name="pref_content_open_in_background_summary">Yeni sekmeleri mevcut sekmenin arkasında aç</string>
+</resources>

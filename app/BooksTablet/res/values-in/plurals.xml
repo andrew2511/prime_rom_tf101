@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d dari %2$2$d buku</item>
+        <item quantity="one">Satu buku</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Maaf, buku ini dibatasi hanya dapat dibaca secara bersamaan untuk %1$d perangkat atau komputer dan Anda telah mencapai batas ini. Tutup buku di pustaka lainnya, tunggu beberapa menit dan coba sekali lagi.</item>
+        <item quantity="one">Maaf, buku ini dibatasi hanya dapat dibaca secara bersamaan untuk satu perangkat atau komputer dan Anda telah mencapai batas ini. Tutup buku di pustaka lainnya, tunggu beberapa menit dan coba sekali lagi.</item>
+    </plurals>
+</resources>

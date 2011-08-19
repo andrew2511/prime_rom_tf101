@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.InLineSettingPicker android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/setting_item" style="@style/SettingRow">
+        <TextView android:id="@id/title" android:layout_width="220.0dip" android:layout_height="fill_parent" style="@style/SettingPickerText" />
+        <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="@drawable/btn_setting_picker" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/decrement" android:background="@android:color/transparent" android:layout_width="72.0dip" android:layout_height="wrap_content" android:text="@string/setting_decrement" />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/current_setting" android:layout_width="130.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+        <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="@drawable/btn_setting_picker" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/increment" android:background="@android:color/transparent" android:layout_width="72.0dip" android:layout_height="wrap_content" android:text="@string/setting_increment" />
+    </LinearLayout>
+    <TextView android:textSize="22.0dip" android:gravity="center" android:id="@id/restore" style="@style/SettingRow" />
+</com.android.camera.ui.InLineSettingPicker>

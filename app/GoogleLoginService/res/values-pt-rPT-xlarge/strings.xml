@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Concluído</string>
+    <string name="username">E-mail</string>
+    <string name="captcha_message_string">Demasiadas tentativas incorrectas.</string>
+    <string name="signed_in">Início de sessão com êxito</string>
+    <string name="account_linked_message">Sessão iniciada em %s e a sincronizar dados.</string>
+    <string name="account_setup_title">Conta Google</string>
+    <string name="account_created_message">Criada nova conta: %s</string>
+    <string name="login_activity_title">Iniciar sessão na Conta Google</string>
+    <string name="show_error_activity_title">Falha ao iniciar sessão na Conta Google</string>
+    <string name="login_activity_task_title">A iniciar sessão...</string>
+    <string name="sync_intro_activity_title_first_account">Cópia de segurança e restauro</string>
+    <string name="sync_intro_activity_title_first_created_account">Conta criada</string>
+    <string name="sync_intro_activity_title">Início de sessão na conta com êxito</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.newspaperdirect.pressreader.android.SinglePageNewspaperView android:id="@id/newspaper_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/zoom_view" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/zoom_view" />
+    <include android:id="@id/paperview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/newspaper_view_toolbar" />
+    <include layout="@layout/paperview_popup_tips" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/t_body_1" android:lineSpacingExtra="56.0sp" />
+        <TextView android:text="@string/t_title_1_1" style="@style/introd_subtitle" />
+        <TextView android:text="@string/t_body_1_1" style="@style/introd_subtext" />
+        <TextView android:text="@string/t_title_1_2" style="@style/introd_subtitle" />
+        <TextView android:text="@string/t_body_1_2" style="@style/introd_subtext" />
+        <TextView android:text="@string/t_title_1_3" style="@style/introd_subtitle" />
+        <TextView android:text="@string/t_body_1_3" style="@style/introd_subtext" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/prev" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="Previous" android:layout_weight="1.0" android:onClick="gotoPrev" />
+            <Button android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="Next" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

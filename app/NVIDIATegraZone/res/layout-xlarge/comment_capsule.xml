@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/commentIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" style="@style/commentTitle" />
+    <TextView android:id="@id/commentTitle" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/commentIndex" android:layout_alignBaseline="@id/commentIndex" style="@style/commentTitle" />
+    <TextView android:id="@id/commentAuthor" android:paddingLeft="20.0dip" android:layout_width="190.0dip" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/commentIndex" />
+    <TextView android:id="@id/commentDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:layout_below="@id/commentAuthor" style="@style/commentDesc" />
+    <TextView android:id="@id/commentDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/commentDescription" />
+    <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" android:layout_toRightOf="@id/commentTitle" android:layout_alignTop="@id/commentIndex" style="@style/ratingStarsSmall" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.ZoomButtons android:orientation="horizontal" android:paddingBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/image_zoom_out_button" android:src="@drawable/zoom_out" style="@style/image_zoom_buttons.left" />
+    <ImageButton android:id="@id/image_zoom_in_button" android:src="@drawable/zoom_in" style="@style/image_zoom_buttons.right" />
+</com.amazon.kcp.reader.ui.ZoomButtons>

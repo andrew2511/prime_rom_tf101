@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Скриншот</string>
+    <string name="screenshot_dialog_message">Скриншот сохранен. Остаться в режиме скриншотов?</string>
+    <string name="screenshot_dialog_yes">Да</string>
+    <string name="screenshot_dialog_no">Нет</string>
+    <string name="screenshot_toast_message_saved">Скриншот сохранен.</string>
+    <string name="screenshot_toast_message_failed">Ошибка при сохранении скриншота в режиме передачи файлов.</string>
+    <string name="screenshot_toast_message_failed_save">Ошибка при сохранении скриншота.</string>
+    <string name="screenshot_toast_message_full">Ошибка при сохранении скриншота. Недостаточно памяти.</string>
+</resources>

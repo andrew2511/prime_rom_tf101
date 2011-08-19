@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Back</string>
+    <string name="localdevice">Local</string>
+    <string name="playto">Play to</string>
+    <string name="chooserenderdevice">Choose a device to display</string>
+    <string name="mediatype">Media type</string>
+    <string name="choosemediatype">Please select one of the media type</string>
+    <string name="musictype">Music</string>
+    <string name="imagetype">Photo</string>
+    <string name="videotype">Video</string>
+    <string name="cant_connect_to_server">Failed to connect to server. Please check your connection.</string>
+    <string name="internet_exception">No network connection</string>
+    <string name="internet_exception_message">Please check your network connection…</string>
+    <string name="nodlnadevice">Please turn on DLNA-enabled devices within the same Wi-Fi network.</string>
+    <string name="notagain">Do not show this message again.</string>
+    <string name="shardms">Do you want to share your media files with other devices?</string>
+    <string name="server">Server</string>
+    <string name="settings">Settings</string>
+    <string name="dms">Digital Media Server</string>
+    <string name="dmssettings">Digital Media Server Settings</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="sharemediatype">Select the media types for sharing.</string>
+    <string name="selectplayer">Select Device to Play.</string>
+    <string name="shareto">Share via</string>
+    <string name="dms_settings_adv">Advanced settings</string>
+    <string name="desc_share">Change shared folder.</string>
+    <string name="title_share">Shared Folder</string>
+    <string name="desc_friendlyname">Change the displayed name of your device.</string>
+    <string name="title_friendlyname">Displayed Name</string>
+    <string name="msgbox_title_error">Error</string>
+    <string name="msgbox_msg_error_no_wifi">Please turn on Wi-Fi first.</string>
+    <string name="msgbox_msg_error_friendlyname">Cannot change displayed name.</string>
+    <string name="msgbox_msg_error_sharefolder">Cannot change shared folder.</string>
+    <string name="msgbox_msg_error_mediatype">Cannot change media type shared.</string>
+    <string name="enable_dms">Enable Digital Media Server</string>
+    <string name="disable_dms">Disable Digital Media Server</string>
+    <string name="about_title">About</string>
+    <string name="toast_srvbusy">Server is busy, please try again later.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Now playing</string>
+    <string name="play_all">Play all</string>
+    <string name="party_shuffle">Party shuffle</string>
+    <string name="shuffle_all">Shuffle all</string>
+    <string name="wifi_quick_toggle_summary">Turn on Wi-Fi</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="slide_show">Slideshow</string>
+    <string name="wait">Please wait…</string>
+    <string name="fail_to_load">Fail to load</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Internal storage</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">La longitud del texto seleccionado excede el límite. Se cortará parte del contenido.</string>
+    <string name="post_successfully">Publicación exitosa</string>
+</resources>

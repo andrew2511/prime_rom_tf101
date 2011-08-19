@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_home" android:id="@id/lib_menu_home" android:title="@string/lib_menu_home" />
+    <item android:icon="@drawable/ic_menu_archive" android:id="@id/lib_menu_archive" android:title="@string/lib_menu_archive_items" />
+    <item android:icon="@drawable/ic_menu_cart" android:id="@id/lib_menu_store" android:title="@string/lib_menu_store" />
+    <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/lib_menu_sort" android:title="@string/lib_menu_sort" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/lib_menu_sync" android:title="@string/lib_menu_sync" />
+    <item android:id="@id/lib_menu_delete" android:title="@string/lib_menu_delete" />
+    <item android:icon="@drawable/ic_menu_list" android:id="@id/lib_menu_view" android:title="@string/lib_menu_view" android:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/ic_menu_list" android:id="@id/lib_menu_list" android:title="@string/lib_menu_list" />
+                <item android:icon="@drawable/ic_menu_grid" android:id="@id/lib_menu_grid" android:title="@string/lib_menu_grid" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@id/lib_menu_search" android:title="@string/lib_menu_search" />
+    <item android:id="@id/lib_menu_help" android:title="@string/lib_menu_help" />
+    <item android:id="@id/lib_menu_feedback" android:title="@string/lib_menu_feedback" />
+    <item android:id="@id/lib_menu_settings" android:title="@string/lib_menu_settings" />
+    <item android:id="@id/lib_menu_info" android:title="@string/lib_menu_info" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Dalam %1$s kilometer</item>
+        <item quantity="one">Dalam satu kilometer</item>
+        <item quantity="few">Dalam %1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Teruskan sejauh %1$s kilometer</item>
+        <item quantity="one">Teruskan sejauh satu kilometer</item>
+        <item quantity="few">Teruskan sejauh %1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Teruskan di %1$2$s sejauh%2$1$s kilometer</item>
+        <item quantity="one">Teruskan di %2$s sejauh satu kilometer</item>
+        <item quantity="few">Teruskan di %1$2$s sejauh%2$1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Dalam %1$s batu</item>
+        <item quantity="one">Dalam satu batu</item>
+        <item quantity="few">Dalam %1$s batu</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Teruskan sejauh %1$s batu</item>
+        <item quantity="one">Teruskan sejauh satu batu</item>
+        <item quantity="few">Teruskan sejauh %1$s batu</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Teruskan di %1$2$s sejauh %2$1$s batu</item>
+        <item quantity="one">Teruskan di %2$s sejauh satu batu</item>
+        <item quantity="few">Teruskan di %1$2$s sejauh%2$1$s batu</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s ulasan</item>
+        <item quantity="one">%1$s ulasan</item>
+        <item quantity="few">%1$s ulasan</item>
+    </plurals>
+</resources>

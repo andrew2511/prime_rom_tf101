@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_panel" android:layout_width="330.0px" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ListView android:id="@id/search_result_list" android:padding="6.0px" android:visibility="visible" android:layout_width="300.0px" android:layout_height="350.0px" android:layout_marginTop="50.0px" android:cacheColorHint="#ffffffff" android:divider="#ff000000" android:dividerHeight="12.0px" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:headerDividersEnabled="false" />
+</RelativeLayout>

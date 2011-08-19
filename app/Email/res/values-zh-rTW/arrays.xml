@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>以最小字體顯示郵件內容</item>
+        <item>以小字體顯示郵件內容</item>
+        <item>以適中字體顯示郵件內容</item>
+        <item>以大字體顯示郵件內容</item>
+        <item>以最大字體顯示郵件內容</item>
+    </string-array>
+</resources>

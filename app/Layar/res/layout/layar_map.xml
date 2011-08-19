@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layar_ar_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/a_layer_header" />
+    <com.google.android.maps.MapView android:id="@id/layar_map_mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleBar" android:apiKey="0GQhcGxkiwEJOC68N8MtRXT-vUVUcboUSQIpbrQ" />
+    <com.layar.ui.StatusView android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ar_buttons_offset" android:layout_marginTop="@dimen/ar_buttons_offset" android:layout_below="@id/titleBar" />
+    <com.layar.ui.BriefInfoViewWrapper android:id="@id/biw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/map_zoom_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/biw" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" />
+    <com.layar.ui.AudioView android:id="@id/layar_map_audio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBar" />
+</RelativeLayout>

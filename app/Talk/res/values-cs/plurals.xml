@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">Počet účtů: %1$d</item>
+        <item quantity="one">%1$d účet</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">Nepřečtené chaty: %1$d</item>
+        <item quantity="one">%1$d nepřečtený chat</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">Počet přečtených zpráv: %s</item>
+        <item quantity="one">Přečtené zprávy: %s</item>
+    </plurals>
+</resources>

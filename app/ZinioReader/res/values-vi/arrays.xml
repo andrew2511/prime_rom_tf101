@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Có thể sắp xếp các vấn đề́ theo ngày hoặc tiêu đề. Chọn các vấn đề từ các tab ở đầu màn hình.</item>
+        <item>"Cần tìm hiểu thêm?
+Chọn nút mua hàng ở ̉cuối màn hình để đi đến kho trực tuyến dành cho các ấn bản và bài viết mới nhất."</item>
+        <item>Chọn trình đơn để xem các tuỳ chọn khác - như mua hàng, thêm, xoá và đăng xuất.</item>
+        <item>Chọn một vấn đề để tự động tải về trong khi bạn đọc HOẶC bạn có thể chọn nút tải về để lưu cục bộ vấn đề để đọc sau.</item>
+    </string-array>
+</resources>

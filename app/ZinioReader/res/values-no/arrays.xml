@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Utgaver kan sorteres etter dato eller tittel. Velg fra disse fanene på toppen av skjermen.</item>
+        <item>"Trenger du mer lesestoff?
+Velg butikk-knappen nederst på skjermen for å komme til onlinebutikken for de siste utgivelsene og artiklene."</item>
+        <item>Velg meny for å se flere valg - som butikker, mer, slett og logg av.</item>
+        <item>Velg en utgave som lastes automatisk ned mens du leser ELLER du kan velge nedlastingsknappen. for å lagre den lokalt og lese den senere.</item>
+    </string-array>
+</resources>

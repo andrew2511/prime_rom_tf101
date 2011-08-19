@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_label_menu_mark_offset_x">9.0dip</dimen>
+    <dimen name="grid_label_menu_mark_offset_y">7.0dip</dimen>
+</resources>

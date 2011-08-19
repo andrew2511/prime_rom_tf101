@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="123" android:versionName="@string/app_version" package="com.newspaperdirect.pressreader.android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".Main" android:launchMode="singleTop" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Authorization" android:configChanges="orientation" android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name=".AUTHORIZE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeviceAuthorization" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name=".AUTHORIZE_DEVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyLibrary" android:configChanges="orientation" />
+        <activity android:name=".Settings">
+            <intent-filter>
+                <action android:name=".SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".NewspaperView" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name=".NEWSPAPER_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".ArticleView" android:configChanges="orientation" />
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".TOCView" android:configChanges="orientation" />
+        <activity android:name=".Accounts" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name=".ACCOUNTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Subscriptions" android:configChanges="orientation" />
+        <activity android:name=".NewOrder" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".LocalStore" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name=".STORE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataAccess" android:configChanges="orientation" />
+        <activity android:name=".WebViewer" android:configChanges="orientation" />
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".Welcome" />
+        <activity android:name=".SubscriptionPlanActivity" android:configChanges="orientation" />
+        <activity android:name=".Payment" android:configChanges="orientation" />
+        <activity android:name=".PersonalInformation" android:configChanges="orientation" />
+        <provider android:name=".core.MyLibraryContentProvider" android:authorities="com.newspaperdirect.pressreader.android.mylibraryprovider" />
+        <provider android:name=".core.CatalogContentProvider" android:authorities="com.newspaperdirect.pressreader.android.catalogprovider" />
+        <service android:name=".core.DownloadService">
+            <intent-filter>
+                <action android:name=".DOWNLOAD_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

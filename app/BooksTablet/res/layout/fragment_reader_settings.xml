@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/settings_panel" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/Preference.Column">
+        <TextView android:id="@id/title_show" android:text="@string/pref_show" style="@style/Preference.Title" />
+        <TextView android:text="@string/space" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_reading_mode" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_reading_mode" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" style="@style/Preference.Column">
+        <TextView android:id="@id/title_brightness" android:text="@string/pref_brightness" style="@style/Preference.Title" />
+        <TextView android:id="@id/subtitle_theme" android:text="@string/pref_themes" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_theme" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_theme" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/item_brightness" style="@style/Preference.Item">
+            <include layout="@layout/pref_brightness" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" style="@style/Preference.Column">
+        <TextView android:id="@id/title_text_settings" android:text="@string/pref_text_settings" style="@style/Preference.Title" />
+        <TextView android:id="@id/subtitle_text_size" android:text="@string/pref_text_size" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_text_size" android:layout_width="fill_parent" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_text_size" />
+        </FrameLayout>
+        <TextView android:id="@id/subtitle_typeface" android:layout_marginTop="16.0dip" android:text="@string/pref_typeface" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_typeface" android:layout_width="fill_parent" style="@style/Preference.Item">
+            <include layout="@layout/pref_typeface" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" style="@style/Preference.Column.Last">
+        <TextView android:id="@id/title_line_height" android:text="@string/pref_line_height" style="@style/Preference.Title" />
+        <TextView android:text="@string/space" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_line_height" android:layout_width="fill_parent" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_line_height" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:layout_gravity="bottom|right|center" android:id="@id/btn_done" android:text="@string/pref_done" style="@style/Preference.Button" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

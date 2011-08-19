@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Launcher</string>
+    <string name="TITLE_DETECTED">System Update File Detected</string>
+    <string name="TITLE_SYSTEM_UPDATE">System Update</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">System Update Available</string>
+    <string name="MSG_PRELIMINARY">"System Update will take approximately 10 minutes. You will not be able to use your device during the update, including emergency call.
+
+Please connect power core or make sure the battery life is at least 15%.
+
+Do you want to proceed with the system update?"</string>
+    <string name="BUTTON_CANCEL">Cancel</string>
+    <string name="MSG_RESUME">Touch to start the system update.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">System Update Terminated</string>
+    <string name="MSG_UPDATE_DONE">System has been updated successfully.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Update file does not exist.</string>
+    <string name="MSG_UPDATE_FAIL">System update failed.</string>
+    <string name="MSG_UPDATE_RESTORE">System is restored to previous configuration</string>
+    <string name="MSG_BATTERY_LOW">"System update process is stopped due to low battery.
+
+Please connect power core before system update."</string>
+    <string name="TITLE_SELECT_FILE">Select Update Package</string>
+    <string name="MSG_UPDATE_FAIL_SKU">The update package is not compatible with your current software, please check your software version and version number in Settings and try the correct update package.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">The update package is prior to your current software version, please try a newer update package.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Unknown error.</string>
+</resources>

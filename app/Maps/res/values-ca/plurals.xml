@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">"D'aquí a %1$s quilòmetres"</item>
+        <item quantity="one">"D'aquí a un quilòmetre"</item>
+        <item quantity="few">"D'aquí a %1$s quilòmetres"</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Continueu %1$s quilòmetres més</item>
+        <item quantity="one">Continueu un quilòmetre més</item>
+        <item quantity="few">Continueu %1$s quilòmetres més</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Continueu per %1$2$s %2$1$s quilòmetres més</item>
+        <item quantity="one">Continueu per %2$s un quilòmetre més</item>
+        <item quantity="few">Continueu per %1$2$s %2$1$s quilòmetres més</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">"D'aquí a %1$s milles"</item>
+        <item quantity="one">"D'aquí a una milla"</item>
+        <item quantity="few">"D'aquí a %1$s milles"</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Continueu %1$s milles més</item>
+        <item quantity="one">Continueu una milla més</item>
+        <item quantity="few">Continueu %1$s milles més</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Continueu per %1$2$s %2$1$s milles més</item>
+        <item quantity="one">Continueu per %2$s una milla més</item>
+        <item quantity="few">Continueu per %1$2$s %2$1$s milles més</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s revisions</item>
+        <item quantity="one">%1$s revisió</item>
+        <item quantity="few">%1$s revisions</item>
+    </plurals>
+</resources>

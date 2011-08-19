@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_photo_size">76.0dip</dimen>
+    <dimen name="tab_height">40.0dip</dimen>
+    <dimen name="account_name_height">25.0dip</dimen>
+    <dimen name="contact_shortcut_frame_width">50.0dip</dimen>
+    <dimen name="contact_shortcut_frame_height">56.0dip</dimen>
+    <dimen name="aggregation_suggestion_icon_size">40.0dip</dimen>
+    <dimen name="account_selector_popup_width">400.0dip</dimen>
+    <dimen name="photo_action_popup_width">400.0dip</dimen>
+    <dimen name="quick_contact_width">352.0dip</dimen>
+    <dimen name="editor_round_button_padding_left">2.0dip</dimen>
+    <dimen name="editor_round_button_padding_right">2.0dip</dimen>
+    <dimen name="editor_round_button_padding_top">8.0dip</dimen>
+    <dimen name="editor_round_button_padding_bottom">8.0dip</dimen>
+    <dimen name="editor_type_label_width">140.0dip</dimen>
+    <dimen name="editor_min_line_item_height">48.0dip</dimen>
+    <dimen name="editor_name_text_field_left_margin">25.0dip</dimen>
+    <dimen name="editor_name_text_field_right_margin">0.0dip</dimen>
+    <dimen name="editor_title_label_width">120.0dip</dimen>
+    <dimen name="editor_interpolator_narrow_width">600.0dip</dimen>
+    <dimen name="detail_header_attribution_height">40.0dip</dimen>
+    <dimen name="detail_header_view_margin">8.0dip</dimen>
+    <dimen name="detail_min_line_item_height">48.0dip</dimen>
+    <dimen name="list_visible_scrollbar_padding">40.0dip</dimen>
+    <dimen name="widget_text_size_name">14.0sp</dimen>
+    <dimen name="widget_text_size_snippet">13.0sp</dimen>
+    <dimen name="contact_name_text_size">18.0sp</dimen>
+    <dimen name="action_bar_filter_min_width">100.0dip</dimen>
+    <dimen name="action_bar_filter_max_width">100.0dip</dimen>
+    <dimen name="action_bar_search_max_width">100.0dip</dimen>
+    <dimen name="action_bar_search_spacing">12.0dip</dimen>
+    <dimen name="shortcut_icon_size">0.0dip</dimen>
+</resources>

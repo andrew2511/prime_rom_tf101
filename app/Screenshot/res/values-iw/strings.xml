@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">צילום מסך</string>
+    <string name="screenshot_dialog_message">צילום מסך נשמר. הישאר במצב צילום מסך?</string>
+    <string name="screenshot_dialog_yes">כן</string>
+    <string name="screenshot_dialog_no">לא</string>
+    <string name="screenshot_toast_message_saved">צילום מסך נשמר.</string>
+    <string name="screenshot_toast_message_failed">צילום מסך נכשל כאשר נמצא במצב העברת קובץ.</string>
+    <string name="screenshot_toast_message_failed_save">צילום מסך נכשל.</string>
+    <string name="screenshot_toast_message_full">צילום מסך נכשל. אין מספיק זיכרון.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingRight="@dimen/candidate_padding" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_strip_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/candidate_divider" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_strip_height" android:src="@drawable/keyboard_suggest_strip_divider" />
+    <Button android:textSize="@dimen/candidate_text_size" android:textColor="@color/candidate_normal" android:gravity="center" android:id="@id/candidate_word" android:background="@drawable/btn_candidate_holo" android:paddingLeft="@dimen/candidate_padding" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_strip_height" android:minWidth="@dimen/candidate_min_width" />
+    <TextView android:textSize="10.0dip" android:textColor="#ff808080" android:gravity="bottom" android:id="@id/candidate_debug_info" android:paddingLeft="4.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

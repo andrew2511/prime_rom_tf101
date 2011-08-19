@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialog_animationDefaultDur">220</integer>
+    <integer name="dialog_animationShortDur">150</integer>
+    <integer name="use_tablet_ui">0</integer>
+    <integer name="maxUnreadCount">999</integer>
+    <integer name="html_conv_progress_display_time">600</integer>
+    <integer name="html_conv_progress_wait_time">350</integer>
+    <integer name="batch_progress_display_time">500</integer>
+    <integer name="batch_progress_wait_time">750</integer>
+    <integer name="sync_progress_wait_time">350</integer>
+    <integer name="sync_progress_display_time">500</integer>
+    <integer name="left_column_bottom_edge_strength">75</integer>
+</resources>

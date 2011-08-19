@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/listItem" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/dialog_divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/black" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/friend_item_text_color_tertiary" android:id="@id/reverseGeocode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+</LinearLayout>

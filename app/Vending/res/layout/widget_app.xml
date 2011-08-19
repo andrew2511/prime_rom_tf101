@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_asset" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_image" android:background="@android:color/white" android:layout_width="91.0dip" android:layout_height="61.0dip" android:layout_marginTop="12.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:id="@id/widget_text" android:padding="6.0dip" android:fadingEdge="vertical" android:fadingEdgeLength="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widget_image" />
+</RelativeLayout>

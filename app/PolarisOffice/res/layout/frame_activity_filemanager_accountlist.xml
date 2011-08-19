@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0px" android:textColor="@color/filemanager_accountlist_title" android:gravity="left|center" android:id="@id/textview_filemanager_accountlist_title" android:paddingLeft="6.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_filemanager_accountlist_title" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/holder_listcontrol_filemanager_accountlist" android:background="@drawable/addaccount_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

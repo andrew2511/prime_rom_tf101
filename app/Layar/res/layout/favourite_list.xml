@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_title" />
+    <com.layar.ui.SubsectionWidget android:id="@id/subsections" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sectionTitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.layar.ui.drag.FavoriteDragListView android:id="@android:id/list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ffffffff" android:divider="#ffc7c7c7" android:dividerHeight="1.0dip" android:layout_weight="1.0" android:layout_below="@id/subsections" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:fastScrollEnabled="true" />
+        <LinearLayout android:id="@id/edit_panel" android:visibility="gone" android:layout_alignParentBottom="true" style="@style/ButtonsBar">
+            <Button android:id="@id/cancel_button_favourite" android:layout_marginRight="3.0dip" android:text="@string/cancel" style="@style/FullRowButton" />
+            <Button android:id="@id/done_button_favourite" android:layout_marginLeft="3.0dip" android:text="@string/done" style="@style/FullRowButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

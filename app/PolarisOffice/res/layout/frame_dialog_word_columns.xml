@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_common_column_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_dialog_column_slidelayout" />
+    <LinearLayout android:id="@id/holder_togglebuttongroup_word_columns_type" android:background="@drawable/group_bg" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_common_column_slidelayout_height" android:layout_marginBottom="@dimen/dialog_common_column_slidelayout_marginbottom" />
+    <TextView android:textSize="@dimen/dialog_common_column_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_dialog_column_applyto" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/dialog_common_column_pagetype_width" android:layout_height="@dimen/dialog_common_column_pagetype_height">
+        <LinearLayout android:id="@id/holder_button_word_columns_apply_current" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="@dimen/dialog_common_column_seperator_togglebutton" android:layout_height="1.0px" />
+        <LinearLayout android:id="@id/holder_button_word_columns_apply_all" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

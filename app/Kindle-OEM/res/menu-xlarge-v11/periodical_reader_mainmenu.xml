@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menuitem_reader_store" android:title="@string/menuitem_reader_store" />
+    <item android:icon="@drawable/ic_menu_front_page" android:id="@id/menuitem_front_page" />
+    <item android:id="@id/menuitem_keep" android:title="@string/menuitem_keep" />
+    <item android:icon="@drawable/ic_ab_brightness" android:id="@id/menuitem_colormode_brightness" android:title="@string/colors_and_brightness" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_ab_fonts" android:id="@id/menuitem_fontsize" android:title="@string/font_size_options" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_ab_search" android:id="@id/menuitem_search" android:title="@string/menuitem_search" android:showAsAction="ifRoom" android:actionViewClass="android.widget.SearchView" />
+</menu>

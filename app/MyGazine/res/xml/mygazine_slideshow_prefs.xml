@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/slideshow_header_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="@string/picture_number_title" android:key="picture_number" android:entryValues="@array/slide_show_picture_number_value" />
+    <ListPreference android:title="@string/slide_show_interval_title" android:key="slide_show_interval" android:entryValues="@array/slide_show_interval_value" />
+    <CheckBoxPreference android:title="@string/transition_effect_title" android:key="transition_effect" android:summaryOn="@string/enable" android:summaryOff="@string/disable" />
+</PreferenceScreen>

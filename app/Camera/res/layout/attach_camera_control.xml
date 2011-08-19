@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_bar" android:layout_width="76.0dip" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/review_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:layout_marginBottom="15.0dip" style="@style/ReviewControlGroup">
+            <ImageView android:id="@id/btn_cancel" android:src="@drawable/btn_ic_review_cancel" style="@style/ReviewControlIcon" />
+            <TextView android:text="@string/review_cancel" style="@style/ReviewControlText" />
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" android:layout_marginBottom="15.0dip" style="@style/ReviewControlGroup">
+            <ImageView android:id="@id/btn_retake" android:src="@drawable/btn_ic_review_retake_photo" style="@style/ReviewControlIcon" />
+            <TextView android:text="@string/review_retake" style="@style/ReviewControlText" />
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" android:layout_marginBottom="15.0dip" style="@style/ReviewControlGroup">
+            <ImageView android:id="@id/btn_play" android:src="@drawable/btn_ic_review_play" style="@style/ReviewControlIcon" />
+            <TextView android:text="@string/review_play" style="@style/ReviewControlText" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.android.camera.ShutterButton android:id="@id/shutter_button" android:background="@drawable/btn_shutter" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_camera_shutter" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:visibility="invisible" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ReviewControlGroup">
+        <ImageView android:id="@id/btn_done" android:src="@drawable/btn_ic_review_done" style="@style/ReviewControlIcon" />
+        <TextView android:text="@string/review_ok" style="@style/ReviewControlText" />
+    </LinearLayout>
+</RelativeLayout>

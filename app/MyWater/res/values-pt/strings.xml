@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Papel de parede vivo padrão ASUS.</string>
+    <string name="mywater_setting">Configurações da ASUS MyWater</string>
+    <string name="enable_rotation">Habilitar rotação da água</string>
+    <string name="enable_rotation_description">A água girará junto com a rotação do aparelho.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Ingen</item>
+        <item>Lydnettprat</item>
+        <item>Videonettprat</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Alltid</item>
+        <item>Kun ved stille modus</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Åpne dialog</item>
+        <item>Systemfeltvarsling</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Åpne dialog</item>
+        <item>Systemfeltvarsling</item>
+        <item>Av</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Glad</item>
+        <item>Trist</item>
+        <item>Blunker</item>
+        <item>Rekker tunge</item>
+        <item>Overrasket</item>
+        <item>Kyss</item>
+        <item>Roper</item>
+        <item>Kul</item>
+        <item>Pengemunn</item>
+        <item>Fot i munnen</item>
+        <item>Flau</item>
+        <item>Engel</item>
+        <item>Usikker</item>
+        <item>Gråter</item>
+        <item>Stille som graven</item>
+        <item>Ler</item>
+        <item>Forvirret</item>
+        <item>Tørt smil</item>
+        <item>Sint</item>
+        <item>Pokerfjes</item>
+        <item>Hjerte</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Alltid</item>
+        <item>Aldri</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>Mest populær</item>
+        <item>Alle</item>
+        <item>Noen</item>
+        <item>Bare de kule kidsa</item>
+    </string-array>
+</resources>

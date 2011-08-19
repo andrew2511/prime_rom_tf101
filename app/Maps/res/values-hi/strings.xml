@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google मानचित्र</string>
+    <string name="da_google_maps_navigation">Google मानचित्र नेविगेशन</string>
+    <string name="da_net_fail_title">नेटवर्क असफलता</string>
+    <string name="da_net_fail_body">इस एप्लिकेशन को कार्यरत डेटा कनेक्शन की आवश्यकता है.</string>
+    <string name="da_beta">बीटा</string>
+    <string name="da_destination">गंतव्य</string>
+    <string name="da_toward">%1$s की ओर</string>
+    <string name="da_onto">%1$s पर</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"फिर 
+%1$s"</string>
+    <string name="da_continue_for_distance">%1$s के लिए जारी रखें</string>
+    <string name="da_destination_will_be_on_the_left">आपका गंतव्य बाईं ओर होगा.</string>
+    <string name="da_destination_will_be_on_the_right">आपका गंतव्य दाईं ओर होगा.</string>
+    <string name="da_you_will_reach_destination">आप अपने गंतव्य पर पहुंच जाएंगे.</string>
+    <string name="da_destination_on_the_left">आपका गंतव्य बाईं ओर है.</string>
+    <string name="da_destination_on_the_right">आपका गंतव्य दाईं ओर है.</string>
+    <string name="da_destination_reached">आप पहुंच चुके हैं.</string>
+    <string name="da_speech_lost_gps">GPS सिग्नल खो गया</string>
+    <string name="da_speech_lost_data_connection">डेटा कनेक्शन टूट गया</string>
+    <string name="da_speech_navigation_resumed">नेविगेशन पुनः शुरू किया गया</string>
+    <string name="da_speech_please_describe_problem">कृपया समस्या का वर्णन करें</string>
+    <string name="da_on_left">बाईं ओर</string>
+    <string name="da_on_right">दाईं ओर</string>
+    <string name="da_stay_on_road_primary">%1$s पर बने रहें</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%2$s के लिए %1$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%2$s के लिए %1$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} मील</string>
+    <string name="da_distance_format_miles_compressed">{0} मील</string>
+    <string name="da_distance_format_feet_abbreviated">{0} फीट</string>
+    <string name="da_distance_format_feet_compressed">{0} फीट</string>
+    <string name="da_distance_format_yards_abbreviated">{0} गज</string>
+    <string name="da_distance_format_yards_compressed">{0}गज</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} किमी</string>
+    <string name="da_distance_format_kilometers_compressed">{0} किमी</string>
+    <string name="da_distance_format_meters_abbreviated">{0} मी</string>
+    <string name="da_distance_format_meters_compressed">{0}मी</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s दिन %2$s घंटे</string>
+    <string name="da_time_format_hours" formatted="false">%1$s घं %2$s मि</string>
+    <string name="da_time_format_minutes">%1$s मिनट</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">नेविगेशन</string>
+    <string name="da_search_label">खोज</string>
+    <string name="da_layers">परतें</string>
+    <string name="da_agreement">"Google मानचित्र नेविगेशन बीटा में है. सावधानी बरतें.
+
+ड्राइव करते हुए इस एप्‍लिकेशन को परिवर्तित न करें. ट्रैफ़िक डेटा रीयल टाइम नहीं है, और दिशाएं गलत, खतरनाक, प्रतिबंधित हो सकती हैं या उसमें फ़ेरी शामिल हो सकती है. लागू कानून का पालन करें.
+
+सड़क पर ध्यान दें!"</string>
+    <string name="da_agreement_with_walking">"Google मानचित्र नेविगेशन बीटा में है. सावधानी बरतें.
+
+ड्राइव करते समय इस एप्‍लिकेशन को परिवर्तित न करें. ट्रैफ़िक डेटा रीयल-टाइम नहीं है और दिशाएं गलत, खतरनाक, प्रतिबंधित हो सकती हैं या उसमें फ़ेरी शामिल हो सकती हैं. संभवतः चलन के रास्‍तों में फ़ुटपाथ या पैदल पथ न हों. लागू कानून का पालन करें.
+
+सड़क पर ध्यान दें!"</string>
+    <string name="da_disclaimer_checkbox">यह संदेश अगली बार दिखाएं</string>
+    <string name="da_show_list">दिशानिर्देश सूची</string>
+    <string name="da_route_overview">रास्ता जानकारी</string>
+    <string name="da_show_map">मानचित्र दिखाएं</string>
+    <string name="da_satellite">उपग्रह</string>
+    <string name="da_traffic_view">ट्रैफ़िक दृश्य</string>
+    <string name="da_no_traffic_here">यहां कोई ट्रैफ़िक जानकारी नहीं है</string>
+    <string name="da_traffic">ट्रैफ़िक</string>
+    <string name="da_area_view">क्षेत्र दृश्य</string>
+    <string name="da_mute">म्यूट करें</string>
+    <string name="da_unmute">अनम्यूट</string>
+    <string name="da_settings">सेटिंग</string>
+    <string name="da_help">सहायता</string>
+    <string name="da_terms_privacy_notices">शर्तें, गोपनीयता और सूचनाएँ</string>
+    <string name="da_terms_and_conditions">नियम और शर्तें</string>
+    <string name="da_privacy_policy">गोपनीयता नीति</string>
+    <string name="da_legal_notices">क़ानूनी नोटिस</string>
+    <string name="da_navigation_suspended">नेविगेशन निलंबित</string>
+    <string name="da_exit_navigation">नेविगेशन से बाहर निकलें</string>
+    <string name="da_email_me_when_resolved">समाधान हो जाने पर मुझे ईमेल करें</string>
+    <string name="da_problem_reported">समस्या की रिपोर्ट की गई</string>
+    <string name="da_one_button_map_issue_reporting">1-क्लिक से किसी समस्या की रिपोर्ट करें</string>
+    <string name="da_attention">ध्यान दें</string>
+    <string name="da_rmi_warning">"किसी समस्या की रिपोर्ट करना आपको मानचित्र या आपके रास्ते के साथ किसी समस्या का वर्णन करते हुए किसी लघु ध्वनि संदेश को रिकॉर्ड करने की अनुमति देता है. 15 सेकंड के बाद, आपके वर्तमान स्थान और रास्ते के साथ आपका संदेश स्वचालित रूप से Google को भेज दिया जाएगा.
+
+एप्लिकेशन सेटिंग में एक 1-क्लिक वाला शॉर्टकट सक्षम किया जा सकता है.
+
+ अगर आप समस्या का समाधान किए जाने पर ईमेल अपडेट प्राप्त करना चुनते हैं, तो आपके ईमेल पते को स्थान और आपकी टिप्पणियों के साथ समस्या का समाधान होने तक संगृहीत किया जाएगा."</string>
+    <string name="da_report_a_problem">किसी समस्या की रिपोर्ट करें</string>
+    <string name="da_report_a_problem_dialog_title">किसी समस्या की रिपोर्ट करें</string>
+    <string name="da_rmi_preference_trackball_summary">अगर सक्षम है, तो ट्रैकबॉल दबाना समस्या की रिपोर्ट करना प्रारंभ कर देगा.</string>
+    <string name="da_rmi_preference_camera_summary">अगर सक्षम है, तो कैमरा बटन दबाना समस्या की रिपोर्ट करना प्रारंभ कर देगा.</string>
+    <string name="da_rmi_preference_no_button_summary">कोई भौतिक बटन उपलब्ध नहीं हैं.</string>
+    <string name="da_rmi_preference_bad_location_summary">आपके वर्तमान स्थान में समस्या की रिपोर्ट करना उपलब्ध नहीं है.</string>
+    <string name="da_destination_not_here_warning">हमारे पास आपके गंतव्य के लिए गलत स्थान है, इसकी रिपोर्ट करने के लिए धन्यवाद. हमारे डेटा की सटीकता को बेहतर बनाने में सहायता करने के लिए आपका वर्तमान गंतव्य और स्थान Google को भेजा जाएगा.</string>
+    <string name="da_destination_not_here_title">समस्या की रिपोर्ट करें</string>
+    <string name="da_searching_for_gps">GPS के लिए खोज की जा रही है...</string>
+    <string name="da_data_connection_lost">डेटा कनेक्शन गुम...</string>
+    <string name="da_follow_the_route">रास्ते का अनुसरण करें</string>
+    <string name="da_waiting_for_directions">ड्राइविंग दिशानिर्देश प्राप्त किए जा रहे हैं</string>
+    <string name="da_waiting_for_walking_directions">चलने के दिशा-निर्देश प्राप्त किए जा रहे हैं</string>
+    <string name="da_waiting_for_location">स्थान के लिए प्रतीक्षा कर रहा है</string>
+    <string name="da_checking_navigation_availability">नेविगेशन उपलब्धता की जांच कर रहा है</string>
+    <string name="da_loading_route_details">रास्ते का विवरण लोड हो रहा है</string>
+    <string name="da_loading_image">छवि लोड हो रही है</string>
+    <string name="da_waiting_for_alternates">वैकल्पिक रास्ते खोजे जा रहे हैं</string>
+    <string name="da_waiting_for_details">लोड हो रहा है</string>
+    <string name="da_no_details">विवरण अनुपलब्ध</string>
+    <string name="da_gps_is_disabled">GPS अक्षम किया हुआ है</string>
+    <string name="da_turn_on_gps">स्थान सेटिंग दिखाएं?</string>
+    <string name="da_voice_guidance">ध्वनि मार्गदर्शन</string>
+    <string name="da_install_voice_guidance_prompt">ध्वनि-निर्देशित नेविगेशन के लिए, आपको Android Market से पाठ-से-वाक समर्थन स्थापित करने की आवश्यकता होती है.</string>
+    <string name="da_dialog_ok">ठीक</string>
+    <string name="da_dialog_skip">छोड़ दें</string>
+    <string name="da_dialog_cancel">रद्द करें</string>
+    <string name="da_dialog_done">संपन्न</string>
+    <string name="da_dialog_accept">स्वीकार करें</string>
+    <string name="da_dialog_install">स्थापित करें</string>
+    <string name="da_dialog_dont_accept">स्वीकार न करें</string>
+    <string name="da_dialog_go">जाएं</string>
+    <string name="da_dialog_get_directions">दिशाएं प्राप्त करें</string>
+    <string name="da_map">मानचित्र</string>
+    <string name="da_clear_layers">मानचित्र साफ़ करें</string>
+    <string name="da_layer_name_parking">पार्किंग</string>
+    <string name="da_layer_name_attractions">आकर्षण</string>
+    <string name="da_layer_name_gas_stations">गैस स्टेशन</string>
+    <string name="da_layer_name_restaurants">रेस्तरां</string>
+    <string name="da_layer_name_supermarkets">सुपरमार्केट</string>
+    <string name="da_layer_name_atms_and_banks">ATM और बैंक</string>
+    <string name="da_layer_name_convenience_stores">सुविधा स्टोर</string>
+    <string name="da_query_banks_and_atms">बैंक और ATM</string>
+    <string name="da_rerouting">पुन: रास्ता बता रहा है...</string>
+    <string name="da_via">%s के द्वारा</string>
+    <string name="da_to_destination">%s के लिए</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">फ़ीडबैक रिकॉर्ड करें</string>
+    <string name="da_destination_not_here">गंतव्य यहां नहीं है</string>
+    <string name="da_new_destination">अगला गंतव्य</string>
+    <string name="da_reroute_to_destination">गंतव्य पर वापस जाएं</string>
+    <string name="da_change_destination">गंतव्य सेट करें</string>
+    <string name="da_search_for_destination">खोज...</string>
+    <string name="da_point_on_map">मानचित्र पर बिंदु</string>
+    <string name="da_volume">नेविगेशन वॉल्यूम</string>
+    <string name="da_exit">बाहर निकलें</string>
+    <string name="da_did_you_mean">क्या आपका यह मतलब थाः</string>
+    <string name="da_did_you_say">क्या आपने यह कहा था:</string>
+    <string name="da_for_your_end_point">आपके समाप्ति बिंदु के लिए</string>
+    <string name="da_unnamed_road">अनामित सड़क</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, फिर %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s मीटर के बाद</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">डेढ़ किलोमीटर के बाद</string>
+    <string name="da_speech_continue_for_x_meters">%1$s मीटर तक जारी रखें</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">डेढ़ किलोमीटर तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">%2$s पर %1$s मीटर तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">%1$s पर डेढ़ किलोमीटर तक जारी रखें</string>
+    <string name="da_speech_generic_continue">सीधे चलते रहें</string>
+    <string name="da_speech_in_x_feet">%1$s फ़ीट के बाद</string>
+    <string name="da_speech_in_x_yards">%1$s गज में</string>
+    <string name="da_speech_in_a_quarter_mile">एक चौथाई मील में</string>
+    <string name="da_speech_in_a_half_mile">आधे मील में</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">तीन चौथाई मील में</string>
+    <string name="da_speech_in_one_and_a_half_miles">डेढ़ मील में</string>
+    <string name="da_speech_continue_for_x_feet">%1$s फ़ुट तक जारी रखें</string>
+    <string name="da_speech_continue_for_x_yards">%1$s गज तक जारी रखें</string>
+    <string name="da_speech_continue_for_a_quarter_mile">एक चौथाई मील तक जारी रखें</string>
+    <string name="da_speech_continue_for_a_half_mile">आधे मील तक जारी रखें</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">तीन चौथाई मील तक जारी रखें</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">डेढ़ मील तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">%2$s पर %1$s फ़ुट तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">%2$s पर %1$s गज तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">%1$s पर एक चौथाई मील तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">%1$s पर आधे मील तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">%1$s पर तीन चौथाई मील तक जारी रखें</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">%1$s पर डेढ़ मील तक जारी रखें</string>
+    <string name="da_route_prefixes">उ,उपू,पू,दपू,द,दप,प,उप</string>
+    <string name="da_route_suffixes">उ,उपू,पू,दपू,द,दप,प,उप,Ave,Blvd,Byp,गोल चक्कर,Ct,Dr,एक्सप्रेसवे,Fwy,राजमार्ग,Ln,Pkwy,Pl,स,स्ट्रीट,Thrwy,मार्ग</string>
+    <string name="da_no_route">कोई मार्ग नहीं मिला</string>
+    <string name="da_route_not_found">हम आपके गंतव्य के लिए कोई रास्ता नहीं ढूंढ सके.</string>
+    <string name="da_destination_not_found">हम गंतव्य समझ नहीं सके.</string>
+    <string name="da_navigation_not_supported">आपके गंतव्य के लिए नेविगेशन उपलब्ध नहीं है.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google मानचित्र नेविगेशन अभी भी इस स्थान के लिए उपलब्ध नहीं है.</string>
+    <string name="da_launch_maps">मानचित्र लॉन्च करें</string>
+    <string name="da_no_image_available">कोई छवि उपलब्ध नहीं है.</string>
+    <string name="da_image_error">छवि लोड करने में त्रुटि.</string>
+    <string name="da_no_alternate_routes">हम आपके गंतव्य के लिए वैकल्पिक रास्ते नहीं ढूंढ सके.</string>
+    <string name="da_picker_type_destination">गंतव्य लिखें</string>
+    <string name="da_picker_speak_destination">गंतव्य बोलें</string>
+    <string name="da_picker_contacts">संपर्क</string>
+    <string name="da_picker_starred_items">तारांकित स्थान</string>
+    <string name="da_picker_new_contact">नया संपर्क</string>
+    <string name="da_picker_recent_destinations">हाल के गंतव्य</string>
+    <string name="da_picker_choose_destination">गंतव्य चुनें</string>
+    <string name="da_navigate_to">इस तक नेविगेट करें</string>
+    <string name="da_picker_search_hint">गंतव्य</string>
+    <string name="da_route_options">रास्ते के विकल्प</string>
+    <string name="da_updating_directions">दिशाएं अपडेट कर रहा है</string>
+    <string name="da_picker_no_starred_items">"आपके पास कोई भी तारांकित स्थान नहीं हैं.
+
+तारांकित स्थान स्वचालित रूप से maps.google.com के साथ सिंक्रनाइज़ किए जाते हैं.
+
+आप Google मानचित्र में पता के पास दिए गए तारा आइकन टैप करके खोज परिणामों को तारांकित कर सकते हैं."</string>
+    <string name="da_picker_no_contacts">"आपके पास पतों वाले कोई भी संपर्क नहीं हैं.
+
+आप संपर्क एप्लिकेशन में नए संपर्कों को जोड़ या मौजूदा संपर्कों के लिए पतों को सेट कर सकते हैं."</string>
+    <string name="da_driving">ड्राइविंग</string>
+    <string name="da_walking">चलना</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">और जानकारी</string>
+    <string name="da_search_maps">मानचित्र खोजें</string>
+    <string name="da_walking_warning">पैदल रास्ता (बीटा): सावधानी रखें</string>
+    <string name="da_calibrate_compass_title">कंपास कैलिब्रेशन</string>
+    <string name="da_calibrate_compass">आपके कम्पास को कैलिब्रेट नहीं किया गया है. कैलिब्रेट करने के लिए, कृपया उपकरण को कुछ बार आकृति 8 वाले पैटर्न में घुमाएं.</string>
+    <string name="da_confirm_exit_title">नेविगेशन से बाहर निकलें?</string>
+    <string name="da_confirm_exit_text">यह रास्ते के सभी मार्गदर्शन बंद कर देगा.</string>
+    <string name="da_route_includes_tolls">मार्ग में टोल शामिल हैं</string>
+    <string name="da_avoid_tolls">टोल से बचें</string>
+    <string name="da_avoiding_tolls">टोल से बचना</string>
+    <string name="da_avoiding_highways">हाइवे से बचना</string>
+    <string name="da_route_includes_unavoidable_tolls">इस रास्ते में टोल शामिल हैं.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">इस रास्ते में टोल शामिल हैं. नीचे %1$s%2$s में टोल रास्ते अक्षम करें.</string>
+    <string name="da_seasonally_closed">हो सकता है कि मार्ग मौसम के अनुसार बंद हों</string>
+    <string name="da_direction_north">उत्तर</string>
+    <string name="da_direction_north_west">उत्तर-पश्चिम</string>
+    <string name="da_direction_west">पश्चिम</string>
+    <string name="da_direction_south_west">दक्षिण-पश्चिम</string>
+    <string name="da_direction_south">दक्षिण</string>
+    <string name="da_direction_south_east">दक्षिण-पूर्व</string>
+    <string name="da_direction_east">पूर्व</string>
+    <string name="da_direction_north_east">उत्तर-पूर्व</string>
+    <string name="da_step_depart">%1$s दिशा में चलें</string>
+    <string name="da_step_depart_on" formatted="false">%2$s पर %1$s दिशा में चलें</string>
+    <string name="da_step_slight_left">थोड़ा सा बाएं</string>
+    <string name="da_step_slight_right">थोड़ा सा दाएं</string>
+    <string name="da_step_turn_left">बाएं मुड़ें</string>
+    <string name="da_step_turn_right">दाएं मुड़ें</string>
+    <string name="da_step_sharp_left">तीव्र बाएं</string>
+    <string name="da_step_sharp_right">तीव्र दाएं</string>
+    <string name="da_step_slight_left_onto">%1$s पर थोड़ा सा बाएं</string>
+    <string name="da_step_slight_right_onto">%1$s पर थोड़ा सा दाएं</string>
+    <string name="da_step_turn_left_onto">बाएं मुड़कर %1$s पर आएं</string>
+    <string name="da_step_turn_right_onto">%1$s पर दाएं मुड़ें</string>
+    <string name="da_step_sharp_left_onto">%1$s पर तीव्र बाएं</string>
+    <string name="da_step_sharp_right_onto">तीव्र दाएं मुड़कर %1$s पर</string>
+    <string name="da_step_fork_left">सड़क विभाजन पर बाएं रहें</string>
+    <string name="da_step_fork_right">सड़क विभाजन पर दाएं रहें</string>
+    <string name="da_step_continue_onto">%1$s पर चलते रहें</string>
+    <string name="da_step_continue_straight">सीधे चलते रहें</string>
+    <string name="da_step_u_turn">यू-टर्न लें</string>
+    <string name="da_step_take_the_ramp">रैंप पर जाएं</string>
+    <string name="da_step_take_the_ramp_onto">रैंप से होकर %1$s पर जाएं</string>
+    <string name="da_step_take_the_ramp_on_the_left">बाईं ओर के रैंप पर जाएं</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">बाईं ओर के रैंप से %1$s पर जाएं</string>
+    <string name="da_step_take_the_ramp_on_the_right">दाईं ओर के रैंप पर जाएं</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">दाईं ओर के रैंप से %1$s पर जाएं</string>
+    <string name="da_step_take_the_exit">बाहर निकलें</string>
+    <string name="da_step_take_the_exit_on_the_left">बाईं ओर से बाहर निकलें</string>
+    <string name="da_step_take_the_exit_on_the_right">दाईं ओर से बाहर निकलें</string>
+    <string name="da_step_take_the_exit_onto">%1$s पर बाहर निकलें</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">%1$s पर बाईं ओर से बाहर निकलें</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">दाईं ओर से बाहर निकल कर %1$s पर आएं</string>
+    <string name="da_step_take_exit_n">%1$s से बाहर निकलें</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - इमेजरी ©%2$d %3$s, मानचित्र डेटा ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - इमेजरी ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - मानचित्र डेटा ©%2$d %3$s</string>
+</resources>

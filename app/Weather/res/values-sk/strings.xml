@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Nastavenie miniaplikácie pre počasie</string>
+    <string name="refreshBtn">Obnoviť</string>
+    <string name="saveBtn">Uložiť</string>
+    <string name="cancelBtn">Zrušiť</string>
+    <string name="nocityfound">Nebolo nájdené žiadne mesto</string>
+    <string name="humidity">Vlhkosť</string>
+    <string name="winds">Vietor</string>
+    <string name="infor1">Nie je k dispozícii</string>
+    <string name="searchlistviewtitle">Vyberte mesto</string>
+    <string name="wait">Počkajte, prosím...</string>
+    <string name="refreshFail">Obnovenie zlyhalo. Skúste to znova.</string>
+    <string name="searchFail">Vyhľadávanie zlyhalo. Skúste to znova.</string>
+    <string name="dirN">S</string>
+    <string name="dirNNE">SSV</string>
+    <string name="dirNE">SV</string>
+    <string name="dirENE">VSV</string>
+    <string name="dirE">V</string>
+    <string name="dirESE">VJV</string>
+    <string name="dirSE">JV</string>
+    <string name="dirSSE">JJV</string>
+    <string name="dirS">J</string>
+    <string name="dirSSW">JJZ</string>
+    <string name="dirSW">JZ</string>
+    <string name="dirWSW">ZJZ</string>
+    <string name="dirW">Z</string>
+    <string name="dirWNW">ZSZ</string>
+    <string name="dirNW">SZ</string>
+    <string name="dirNNW">SSZ</string>
+    <string name="entercityname">Zadajte mesto, prosím:</string>
+    <string name="manualtitle">Manuálne nastaviť miesto</string>
+    <string name="refreshprogresstitle">Aktualizovať informácie o počasí</string>
+    <string name="refreshprogresscontent">Obnoviť teraz. Počkajte, prosím...</string>
+    <string name="searchprogresstitle">Vyhľadať mesto</string>
+    <string name="searchprogresscontent">Vyhľadať teraz. Počkajte, prosím...</string>
+    <string name="no_network">Sieť nie je dostupná. Informácie o počasí nemožno aktualizovať.</string>
+    <string name="no_provider">Nie všetky informácie o pozícii sú aktuálne povolené. V nastavení pre pozíciu a zabezpečenie zapnite bezdrôtové siete a satelity GPS, aby ste mohli pozíciu zisťovať rýchlejšie a presnejšie.</string>
+    <string name="title_location">Miesto</string>
+    <string name="content_autorefreshed">Automaticky obnoviť moje aktuálne miesto</string>
+    <string name="content_manual">Manuálne vyhľadať</string>
+    <string name="title_updatefreq">Frekvencia aktualizácie</string>
+    <string name="content_updatetime">Čas poslednej aktualizácie</string>
+    <string name="content_selectfreq">Zvoľte frekvenciu aktualizácie</string>
+    <string name="title_others">Ďalšie</string>
+    <string name="content_tempunit">Jednotka teploty</string>
+</resources>

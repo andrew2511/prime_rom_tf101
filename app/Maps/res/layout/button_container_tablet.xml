@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/map_copyrights" android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="70.0dip" android:maxLines="2" android:layout_toLeftOf="@id/btn_buzz_post" android:layout_alignParentBottom="true" />
+        <View android:id="@id/btn_buzz_post" android:background="@drawable/btn_buzz_post" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_alignBottom="@id/map_copyrights" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+        <View android:id="@id/btn_measure" android:background="@drawable/btn_measure" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_above="@id/btn_back_to_nav" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+        <View android:id="@id/btn_measure_clear" android:background="@drawable/btn_measure_clear" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_above="@id/btn_back_to_nav" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+        <View android:id="@id/btn_back_to_nav" android:background="@drawable/btn_back_to_nav" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_above="@id/btn_buzz_post" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+        <include layout="@layout/info_ribbon" />
+    </RelativeLayout>
+</merge>

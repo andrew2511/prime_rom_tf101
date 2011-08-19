@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Ρυθμίσεις widget καιρού</string>
+    <string name="refreshBtn">Ανανέωση</string>
+    <string name="saveBtn">Αποθήκευση</string>
+    <string name="cancelBtn">Ακύρωση</string>
+    <string name="nocityfound">Δεν βρέθηκε καμία πόλη</string>
+    <string name="humidity">Υγρασία</string>
+    <string name="winds">Άνεμοι</string>
+    <string name="infor1">Δεν είναι διαθέσιμο</string>
+    <string name="searchlistviewtitle">Επιλέξτε μία πόλη</string>
+    <string name="wait">Παρακαλώ περιμένετε...</string>
+    <string name="refreshFail">Αποτυχία ανανέωσης. Προσπαθήστε ξανά.</string>
+    <string name="searchFail">Η αναζήτηση απέτυχε. Προσπαθήστε ξανά.</string>
+    <string name="dirN">Β</string>
+    <string name="dirNNE">ΒΒΑ</string>
+    <string name="dirNE">ΒΑ</string>
+    <string name="dirENE">ΑΒΑ</string>
+    <string name="dirE">Α</string>
+    <string name="dirESE">ANA</string>
+    <string name="dirSE">ΝΑ</string>
+    <string name="dirSSE">NNA</string>
+    <string name="dirS">Ν</string>
+    <string name="dirSSW">ΝΝΔ</string>
+    <string name="dirSW">ΒΔ</string>
+    <string name="dirWSW">ΔΝΔ</string>
+    <string name="dirW">Δ</string>
+    <string name="dirWNW">ΔΒΔ</string>
+    <string name="dirNW">ΒΔ</string>
+    <string name="dirNNW">ΒΒΔ</string>
+    <string name="entercityname">Εισάγετε μία πόλη:</string>
+    <string name="manualtitle">Χειροκίνητη Ρύθμιση Θέσης</string>
+    <string name="refreshprogresstitle">Ενημέρωση Πληροφοριών καιρού</string>
+    <string name="refreshprogresscontent">Ανανέωση τώρα. Παρακαλώ περιμένετε...</string>
+    <string name="searchprogresstitle">Αναζήτηση Πόλης</string>
+    <string name="searchprogresscontent">Αναζήτηση τώρα. Παρακαλώ περιμένετε...</string>
+    <string name="no_network">Το δίκτυο δεν είναι διαθέσιμο. Δεν είναι δυνατή η ενημέρωση των πληροφοριών καιρού.</string>
+    <string name="no_provider">Δεν είναι ενεργοποιήμενες αυτή τη στιγμή όλες οι πληροφορίες τοποθεσίας. Ενεργοποιήστε τα ασύρματα δίκτυα και τους δορυφόρους GPS στη Ρύθμιση Θέσης και Ασφάλειας για πιο γρήγορο και πιο ακριβή εντοπισμό θέσης.</string>
+    <string name="title_location">Θέση</string>
+    <string name="content_autorefreshed">Αυτόματη ανανέωση της τρέχουσας τοποθεσίας μου</string>
+    <string name="content_manual">Μη αυτόματη αναζήτηση</string>
+    <string name="title_updatefreq">Συχνότητα ενημέρωσης</string>
+    <string name="content_updatetime">Τελευταία φορά ενημέρωσης</string>
+    <string name="content_selectfreq">Επιλέξτε ενημέρωση συχνότητας</string>
+    <string name="title_others">Λοιπές</string>
+    <string name="content_tempunit">Μονάδα θερμοκρασίας</string>
+</resources>

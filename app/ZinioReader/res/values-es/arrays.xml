@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Los números se pueden ordenar por fecha o título. Selecciónelos de las pestañas en la parte superior de la pantalla.</item>
+        <item>"¿Necesita leer más?
+Seleccione el botón tienda en la parte inferior de la pantalla para ir a la tienda en línea de los últimos artículos y publicaciones."</item>
+        <item>Seleccione menú para ver más opciones - como tienda, más, borrar y cierre de sesión.</item>
+        <item>Seleccione un número para descargarlo automáticamente mientras lo lee O puede seleccionar el botón descargar para guardarlo localmente y leerlo más tarde.</item>
+    </string-array>
+</resources>

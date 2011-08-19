@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0dip" android:typeface="sans" android:textColor="#ffffffff" android:gravity="bottom|left|center" android:id="@id/not_currently_reading_widget" android:background="@drawable/readingwidget_land_nobook" android:paddingLeft="17.0dip" android:paddingBottom="13.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_empty_msg"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

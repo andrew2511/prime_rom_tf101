@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">Результатов: %1$d</item>
+        <item quantity="one">Результатов: %1$d</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">найдено около %1$d результатов</item>
+        <item quantity="one">найден %1$d результат</item>
+    </plurals>
+</resources>

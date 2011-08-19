@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/da_navigationImageShade" android:background="#ff000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageSwitcher android:id="@id/da_navigationImageSwitcher" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:id="@id/da_navigationImageErrorBox" android:background="@drawable/da_progress_dialog" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/da_navigationImageText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lineSpacingExtra="5.0dip" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/da_navigationImageProgress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</merge>

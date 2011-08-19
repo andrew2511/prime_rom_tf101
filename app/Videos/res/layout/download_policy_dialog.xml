@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="@dimen/download_policy_dialog_padding_horizontal" android:paddingTop="@dimen/download_policy_dialog_padding_vertical" android:paddingRight="@dimen/download_policy_dialog_padding_horizontal" android:paddingBottom="@dimen/download_policy_dialog_padding_vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/download_dialog_message" />
+        <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:id="@id/download_when_on_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/download_when_on_wifi" />
+            <RadioButton android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:id="@id/download_on_any_network" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_on_any_network" />
+        </RadioGroup>
+        <TextView android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/download_dialog_modify_message" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_personal_videos">"Persoonlike video's"</string>
+    <string name="menu_shop">Winkel</string>
+    <string name="menu_manage_offline">Bestuur vanlyn gehuurde items</string>
+    <string name="menu_help">Hulp</string>
+    <string name="menu_settings">Instellings</string>
+    <string name="make_offline">Maak vanlyn beskikbaar</string>
+    <string name="problem_playing_local">Kon nie \"%1$s\" speel nie</string>
+    <string name="loading">Laai tans…</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="confirm">Bevestig</string>
+    <string name="retry">Probeer weer</string>
+    <string name="recent">Nuut</string>
+    <string name="done">Klaar</string>
+    <string name="tap_to_retry">Raak om weer te probeer</string>
+    <string name="from_recommended">"uit &lt;b>&lt;font color='white'>Aanbevelings&lt;/font>&lt;/b>"</string>
+    <string name="from_subscriptions">"uit &lt;b>&lt;font color='white'>Intekeninge&lt;/font>&lt;/b>"</string>
+    <string name="from_featured">"uit &lt;b>&lt;font color='white'>Glansvideo's&lt;/font>&lt;/b>"</string>
+    <string name="from_most_popular">"uit &lt;b>&lt;font color='white'>Mees gewilde&lt;/font>&lt;/b>"</string>
+    <string name="from_most_discussed">"uit &lt;b>&lt;font color='white'>Mees bespreekte&lt;/font>&lt;/b>"</string>
+    <string name="event_video_rated">"%1$s het 'n video gegradeer"</string>
+    <string name="event_video_shared">"%1$s het 'n video gedeel"</string>
+    <string name="event_video_favorited">"%1$s het 'n video as gunsteling gemerk"</string>
+    <string name="event_video_commented">"%1$s het 'n opmerking gemaak oor 'n video"</string>
+    <string name="event_video_uploaded">"%1$s het 'n video opgelaai"</string>
+    <string name="event_friend_added">%1$s het vriende geword met</string>
+    <string name="event_user_subscription_added">%1$s het ingeteken op</string>
+    <string name="pref_general_category">Algemene instellings</string>
+    <string name="pref_subtitles_size_title">Byskrif se lettergrootte</string>
+    <string name="pref_subtitles_size_summary">Stel die lettergrootte vir byskrifte</string>
+    <string name="accounts_title">Meld aan</string>
+    <string name="other_account">Voeg rekening by</string>
+    <string name="processing_video">Hierdie video word verwerk</string>
+    <string name="video_was_deleted">Hierdie video is deur die eienaar uitgevee</string>
+    <string name="video_not_available">Hierdie video is nie beskikbaar nie</string>
+    <string name="problem_while_playing">"Daar was 'n probleem terwyl gespeel is"</string>
+    <string name="video_infringes_copyright">Hierdie video het kopiereg geskend</string>
+    <string name="video_was_judged_inappropriate">Hierdie video is as onvanpas beoordeel</string>
+    <string name="duplicate_upload">Hierdie video is verwerp (duplikaat-oplaaisel)</string>
+    <string name="video_violated_terms_of_use">Hierdie video het gebruiksbepalings geskend</string>
+    <string name="uploader_account_suspended">Oplaaier se rekening is opgeskort</string>
+    <string name="video_too_long">Hierdie video is te lank</string>
+    <string name="blocked_by_content_owner">Geblokkeer deur sy inhoudeienaar</string>
+    <string name="video_not_available_in_your_country">Nie beskikbaar in jou land nie</string>
+    <string name="video_not_available_on_mobile">Hierdie video is nie op mobiel beskikbaar nie</string>
+    <string name="video_is_private">Hierdie video is privaat</string>
+    <string name="video_couldnt_be_processed">Hierdie video kon nie omskep word nie</string>
+    <string name="video_is_in_an_invalid_format">"Hierdie video is in 'n ongeldige lêerformaat"</string>
+    <string name="video_uses_an_unsupported_codec">"Hierdie video gebruik 'n kodek wat nie ondersteun word nie"</string>
+    <string name="video_is_empty">Hierdie video is leeg</string>
+    <string name="video_is_too_small">Hierdie video is te klein</string>
+    <string name="adult_content_intro">"Hierdie video bevat dalk inhoud wat onvanpas is vir sommige gebruikers, soos deur YouTube se gebruikergemeenskap gevlag
+
+"</string>
+    <string name="adult_content_login">Om hierdie video te sien, verifieer dat jy 18 of ouer is deur aan te meld</string>
+    <string name="adult_content_confirm">"Deur \"Bevestig\" te raak, stem jy saam dat alle video's wat deur die YouTube-gemeenskap gevlag word, deur hierdie rekening gesien kan word"</string>
+    <string name="adult_content_underage">Jammer, jy moet 18 of ouer wees om hierdie video te kyk</string>
+    <string name="error_network">"Daar was 'n probleem met die netwerk"</string>
+    <string name="error_connection">Kon nie aan die netwerk koppel nie</string>
+    <string name="error_http">"Daar was 'n probleem met die netwerk [%1$s]"</string>
+    <string name="error_response">"Daar was 'n probleem met die netwerkrespons"</string>
+    <string name="error_dev_reg">Kon nie begin nie. Kontroleer asseblief jou netwerkverbinding en stelseltyd.</string>
+    <string name="error_authenticating">Kon nie staaf nie</string>
+    <string name="error_no_linked_youtube_account">"Jou rekening is nie gekoppel aan 'n YouTube-rekening nie. Koppel asseblief jou rekeninge en probeer weer."</string>
+    <string name="error_forbidden_action">Hierdie handeling word nie toegelaat nie</string>
+    <string name="error_forbidden_list_access">Hierdie lys kan nie gesien word nie</string>
+    <string name="error_posting_comment">Kon nie jou opmerking plaas nie</string>
+    <string name="error_generic">"'n Fout het voorgekom"</string>
+    <string name="time_filter_dialog_title">Tydfilter</string>
+    <string name="time_filter_today">Vandag</string>
+    <string name="time_filter_this_week">Vandeesweek</string>
+    <string name="time_filter_this_month">Vandeesmaand</string>
+    <string name="time_filter_all_time">Alle tye</string>
+    <string name="subtitles">Byskrifte</string>
+    <string name="turn_off_subtitles">Skakel byskrifte af</string>
+    <string name="no_subtitles">Geen byskrifte vir hierdie video beskikbaar nie</string>
+    <string name="advertisement">Advertensie</string>
+    <string name="all_categories">Alle</string>
+    <string name="share_subject">Kyk \"%s\" op YouTube</string>
+    <string name="title_watch">Kyk</string>
+    <string name="video_info">Inligting</string>
+</resources>

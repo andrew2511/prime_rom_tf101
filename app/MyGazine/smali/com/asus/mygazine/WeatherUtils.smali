@@ -1,0 +1,305 @@
+.class public Lcom/asus/mygazine/WeatherUtils;
+.super Ljava/lang/Object;
+.source "WeatherUtils.java"
+
+
+# static fields
+.field public static final ICON_TABLE:[I
+
+.field public static final ICON_TABLE2:[I
+
+.field public static final WEATHER_QUERY_PROJECTION:[Ljava/lang/String;
+
+.field public static final WEATHER_URI:Landroid/net/Uri;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .prologue
+    const/16 v3, 0x2c
+
+    .line 12
+    const-string v0, "content://com.asus.weather.provider/weather/1"
+
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/asus/mygazine/WeatherUtils;->WEATHER_URI:Landroid/net/Uri;
+
+    .line 13
+    const/16 v0, 0x9
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    const-string v2, "_id"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x1
+
+    const-string v2, "cityname"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x2
+
+    const-string v2, "weathertext"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x3
+
+    const-string v2, "tempunits"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x4
+
+    const-string v2, "temperature"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    const-string v2, "humidity"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    const-string v2, "windspeed"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    const-string v2, "speedunits"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    const-string v2, "weathericon"
+
+    aput-object v2, v0, v1
+
+    sput-object v0, Lcom/asus/mygazine/WeatherUtils;->WEATHER_QUERY_PROJECTION:[Ljava/lang/String;
+
+    .line 27
+    new-array v0, v3, [I
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/asus/mygazine/WeatherUtils;->ICON_TABLE:[I
+
+    .line 74
+    new-array v0, v3, [I
+
+    fill-array-data v0, :array_1
+
+    sput-object v0, Lcom/asus/mygazine/WeatherUtils;->ICON_TABLE2:[I
+
+    return-void
+
+    .line 27
+    nop
+
+    :array_0
+    .array-data 0x4
+        0x4ct 0x0t 0x2t 0x7ft
+        0x38t 0x0t 0x2t 0x7ft
+        0x3at 0x0t 0x2t 0x7ft
+        0x2ct 0x0t 0x2t 0x7ft
+        0x28t 0x0t 0x2t 0x7ft
+        0x2et 0x0t 0x2t 0x7ft
+        0x1et 0x0t 0x2t 0x7ft
+        0x20t 0x0t 0x2t 0x7ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x24t 0x0t 0x2t 0x7ft
+        0x46t 0x0t 0x2t 0x7ft
+        0x32t 0x0t 0x2t 0x7ft
+        0x3et 0x0t 0x2t 0x7ft
+        0x4et 0x0t 0x2t 0x7ft
+        0x36t 0x0t 0x2t 0x7ft
+        0x40t 0x0t 0x2t 0x7ft
+        0x42t 0x0t 0x2t 0x7ft
+        0x22t 0x0t 0x2t 0x7ft
+        0x30t 0x0t 0x2t 0x7ft
+        0x3ct 0x0t 0x2t 0x7ft
+        0x4at 0x0t 0x2t 0x7ft
+        0x34t 0x0t 0x2t 0x7ft
+        0x2at 0x0t 0x2t 0x7ft
+        0x48t 0x0t 0x2t 0x7ft
+        0x26t 0x0t 0x2t 0x7ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x44t 0x0t 0x2t 0x7ft
+        0x4ct 0x0t 0x2t 0x7ft
+        0x2at 0x0t 0x2t 0x7ft
+        0x50t 0x0t 0x2t 0x7ft
+        0x4ct 0x0t 0x2t 0x7ft
+        0x38t 0x0t 0x2t 0x7ft
+        0x3at 0x0t 0x2t 0x7ft
+        0x2ct 0x0t 0x2t 0x7ft
+        0x28t 0x0t 0x2t 0x7ft
+        0x2et 0x0t 0x2t 0x7ft
+        0x1et 0x0t 0x2t 0x7ft
+        0x20t 0x0t 0x2t 0x7ft
+        0x24t 0x0t 0x2t 0x7ft
+        0x46t 0x0t 0x2t 0x7ft
+        0x32t 0x0t 0x2t 0x7ft
+        0x3et 0x0t 0x2t 0x7ft
+    .end array-data
+
+    .line 74
+    :array_1
+    .array-data 0x4
+        0x4dt 0x0t 0x2t 0x7ft
+        0x39t 0x0t 0x2t 0x7ft
+        0x3bt 0x0t 0x2t 0x7ft
+        0x2dt 0x0t 0x2t 0x7ft
+        0x29t 0x0t 0x2t 0x7ft
+        0x2ft 0x0t 0x2t 0x7ft
+        0x1ft 0x0t 0x2t 0x7ft
+        0x21t 0x0t 0x2t 0x7ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x25t 0x0t 0x2t 0x7ft
+        0x47t 0x0t 0x2t 0x7ft
+        0x33t 0x0t 0x2t 0x7ft
+        0x3ft 0x0t 0x2t 0x7ft
+        0x4ft 0x0t 0x2t 0x7ft
+        0x37t 0x0t 0x2t 0x7ft
+        0x41t 0x0t 0x2t 0x7ft
+        0x43t 0x0t 0x2t 0x7ft
+        0x23t 0x0t 0x2t 0x7ft
+        0x31t 0x0t 0x2t 0x7ft
+        0x3dt 0x0t 0x2t 0x7ft
+        0x4bt 0x0t 0x2t 0x7ft
+        0x35t 0x0t 0x2t 0x7ft
+        0x2bt 0x0t 0x2t 0x7ft
+        0x49t 0x0t 0x2t 0x7ft
+        0x27t 0x0t 0x2t 0x7ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x45t 0x0t 0x2t 0x7ft
+        0x4dt 0x0t 0x2t 0x7ft
+        0x2bt 0x0t 0x2t 0x7ft
+        0x51t 0x0t 0x2t 0x7ft
+        0x4dt 0x0t 0x2t 0x7ft
+        0x39t 0x0t 0x2t 0x7ft
+        0x3bt 0x0t 0x2t 0x7ft
+        0x2dt 0x0t 0x2t 0x7ft
+        0x29t 0x0t 0x2t 0x7ft
+        0x2ft 0x0t 0x2t 0x7ft
+        0x1ft 0x0t 0x2t 0x7ft
+        0x21t 0x0t 0x2t 0x7ft
+        0x25t 0x0t 0x2t 0x7ft
+        0x47t 0x0t 0x2t 0x7ft
+        0x33t 0x0t 0x2t 0x7ft
+        0x3ft 0x0t 0x2t 0x7ft
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 9
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static getUpcomingInstancesCursor(Landroid/content/ContentResolver;)Landroid/database/Cursor;
+    .locals 9
+    .parameter "resolver"
+
+    .prologue
+    .line 123
+    const/4 v6, 0x0
+
+    .line 125
+    .local v6, cursor:Landroid/database/Cursor;
+    :try_start_0
+    sget-object v1, Lcom/asus/mygazine/WeatherUtils;->WEATHER_URI:Landroid/net/Uri;
+
+    sget-object v2, Lcom/asus/mygazine/WeatherUtils;->WEATHER_QUERY_PROJECTION:[Ljava/lang/String;
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    sget-object v0, Lcom/asus/mygazine/WeatherUtils;->WEATHER_QUERY_PROJECTION:[Ljava/lang/String;
+
+    const/4 v5, 0x0
+
+    aget-object v5, v0, v5
+
+    move-object v0, p0
+
+    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    move-result-object v6
+
+    move-object v7, v6
+
+    .line 132
+    .end local v6           #cursor:Landroid/database/Cursor;
+    .local v7, cursor:Landroid/database/Cursor;
+    :goto_0
+    return-object v7
+
+    .line 127
+    .end local v7           #cursor:Landroid/database/Cursor;
+    .restart local v6       #cursor:Landroid/database/Cursor;
+    :catch_0
+    move-exception v0
+
+    move-object v8, v0
+
+    .line 128
+    .local v8, e:Ljava/lang/Exception;
+    :try_start_1
+    const-string v0, "MyGazineWidget"
+
+    const-string v1, "Catch exception when querying weather data"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 129
+    invoke-virtual {v8}, Ljava/lang/Exception;->printStackTrace()V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 130
+    const/4 v6, 0x0
+
+    move-object v7, v6
+
+    .line 132
+    .end local v6           #cursor:Landroid/database/Cursor;
+    .restart local v7       #cursor:Landroid/database/Cursor;
+    goto :goto_0
+
+    .end local v7           #cursor:Landroid/database/Cursor;
+    .end local v8           #e:Ljava/lang/Exception;
+    .restart local v6       #cursor:Landroid/database/Cursor;
+    :catchall_0
+    move-exception v0
+
+    move-object v7, v6
+
+    .end local v6           #cursor:Landroid/database/Cursor;
+    .restart local v7       #cursor:Landroid/database/Cursor;
+    goto :goto_0
+.end method

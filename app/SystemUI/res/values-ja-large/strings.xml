@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">すべて消去</string>
+    <string name="status_bar_settings_signal_meter_disconnected">インターネット未接続</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi接続済み</string>
+    <string name="gps_notification_searching_text">GPSで検索中</string>
+    <string name="gps_notification_found_text">GPSにより現在地が設定されました</string>
+    <string name="notifications_off_title">通知OFF</string>
+    <string name="notifications_off_text">通知を再度ONにするにはここをタップします。</string>
+</resources>

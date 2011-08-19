@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/main_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" layout="@layout/my_library_toolbar" />
+        <include android:id="@id/localstore_categories_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" layout="@layout/localstore_categories_toolbar" />
+        <include android:id="@id/localstore_newspapers_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" layout="@layout/localstore_newspapers_toolbar" />
+        <include android:id="@id/localstore_filter_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" layout="@layout/localstore_filter_toolbar" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</TabHost>

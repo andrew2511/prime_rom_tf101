@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Закінч. ч-з %1$d дн.</item>
+        <item quantity="one">Закінч. через 1 день</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Зак. ч-з %1$d год.</item>
+        <item quantity="one">Закінч. через 1 год.</item>
+    </plurals>
+</resources>

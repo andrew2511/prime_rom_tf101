@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>1 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>15 دقیقه</item>
+        <item>20 دقیقه</item>
+        <item>25 دقیقه</item>
+        <item>30 دقیقه</item>
+        <item>45 دقیقه</item>
+        <item>1 ساعت</item>
+        <item>2 ساعت</item>
+        <item>3 ساعت</item>
+        <item>12 ساعت</item>
+        <item>24 ساعت</item>
+        <item>2 روز</item>
+        <item>1 هفته</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>هیچکدام</item>
+        <item>1 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>15 دقیقه</item>
+        <item>20 دقیقه</item>
+        <item>25 دقیقه</item>
+        <item>30 دقیقه</item>
+        <item>45 دقیقه</item>
+        <item>1 ساعت</item>
+        <item>2 ساعت</item>
+        <item>3 ساعت</item>
+        <item>12 ساعت</item>
+        <item>24 ساعت</item>
+        <item>2 روز</item>
+        <item>1 هفته</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>پیش فرض محلی</item>
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزایر مارشال</item>
+        <item>جزیره میدوی</item>
+        <item>هاوایی</item>
+        <item>آلاسکا</item>
+        <item>وقت اقیانوس آرام</item>
+        <item>تیجوآنا</item>
+        <item>آریزونا</item>
+        <item>چیهواهوا</item>
+        <item>وقت کوهستان</item>
+        <item>آمریکای مرکزی</item>
+        <item>وقت مرکزی</item>
+        <item>مکزیکوسیتی</item>
+        <item>ساسکاچوان</item>
+        <item>بوگوتا</item>
+        <item>وقت شرقی</item>
+        <item>ونزوئلا</item>
+        <item>وقت آتلانتیک</item>
+        <item>مانائوس</item>
+        <item>سانتیاگو</item>
+        <item>نیوفوندلند</item>
+        <item>برزیل</item>
+        <item>بوئنوس آیرس</item>
+        <item>گرینلند</item>
+        <item>مونته ویدیو</item>
+        <item>آتلانتیک میانی</item>
+        <item>آزورس</item>
+        <item>جزایر کیپ ورد</item>
+        <item>کازابلانکا</item>
+        <item>لندن، دوبلین</item>
+        <item>آمستردام، برلین</item>
+        <item>بلگراد</item>
+        <item>بروکسل</item>
+        <item>سارایه وو</item>
+        <item>ویندهوک</item>
+        <item>وقت غرب آفریقا</item>
+        <item>عمان، اردن</item>
+        <item>آتن، استانبول</item>
+        <item>بیروت، لبنان</item>
+        <item>قاهره</item>
+        <item>هلسینکی</item>
+        <item>بیت المقدس</item>
+        <item>مینسک</item>
+        <item>هراره</item>
+        <item>بغداد</item>
+        <item>مسکو</item>
+        <item>کویت</item>
+        <item>نایروبی</item>
+        <item>تهران</item>
+        <item>باکو</item>
+        <item>تفلیس</item>
+        <item>ایروان</item>
+        <item>دبی</item>
+        <item>کابل</item>
+        <item>اسلام آباد، کراچی</item>
+        <item>اورالسک</item>
+        <item>یکاترینبورگ</item>
+        <item>کلکته</item>
+        <item>سری لانکا</item>
+        <item>کاتماندو</item>
+        <item>آستانا</item>
+        <item>یانگون</item>
+        <item>کراسنویارسک</item>
+        <item>بانکوک</item>
+        <item>پکن</item>
+        <item>هنگ کنگ</item>
+        <item>ایرکوتسک</item>
+        <item>کوآلالامپور</item>
+        <item>پرث</item>
+        <item>تایپه</item>
+        <item>سئول</item>
+        <item>توکیو، اوزاکا</item>
+        <item>یاکوتسک</item>
+        <item>آدلاید</item>
+        <item>داروین</item>
+        <item>بریسبین</item>
+        <item>هوبارت</item>
+        <item>سیدنی، کانبرا</item>
+        <item>ولادی ووستوک</item>
+        <item>گوآم</item>
+        <item>ماگادان</item>
+        <item>اوکلند</item>
+        <item>فیجی</item>
+        <item>تونگا</item>
+    </string-array>
+    <string-array name="availability">
+        <item>مشغول</item>
+        <item>موجود</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>پیش فرض</item>
+        <item>خصوصی</item>
+        <item>عمومی</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ابتدا</item>
+        <item>ثانیه</item>
+        <item>سومین</item>
+        <item>چهارمین</item>
+        <item>آخرین</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(بدون پاسخ)</item>
+        <item>بله</item>
+        <item>شاید</item>
+        <item>خیر</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>بله</item>
+        <item>شاید</item>
+        <item>خیر</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>فقط این رویداد</item>
+        <item>این و رویدادهای آینده</item>
+        <item>همه رویدادها</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>این و رویدادهای آینده</item>
+        <item>همه رویدادها</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>فقط این مورد</item>
+        <item>همه رویدادهای موجود در این مجموعه</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_pc">
+        <item>همه رویدادها</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>همیشه</item>
+        <item>فقط هنگام ساکت بودن</item>
+        <item>هرگز</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_gallery">false</bool>
+    <bool name="app_debug">false</bool>
+    <bool name="use_staging_env">true</bool>
+</resources>

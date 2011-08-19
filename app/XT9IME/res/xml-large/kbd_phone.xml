@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx xt9:keyWidth="159.0px" xt9:keyHeight="97.0px" xt9:horizontalGap="4.0px" xt9:verticalGap="19.0px" xt9:paddingLeft="93" xt9:paddingTop="19" xt9:paddingRight="87"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Row>
+        <Key xt9:codes="49" xt9:keyEdgeFlags="left" xt9:keyLabel="1" />
+        <Key xt9:codes="50" xt9:keyLabel="2" />
+        <Key xt9:codes="51" xt9:keyLabel="3" />
+        <Key xt9:keyWidth="127.0px" xt9:keyEdgeFlags="right" xt9:keyLabel="-" />
+    </Row>
+    <Row>
+        <Key xt9:codes="52" xt9:keyEdgeFlags="left" xt9:keyLabel="4" />
+        <Key xt9:codes="53" xt9:keyLabel="5" />
+        <Key xt9:codes="54" xt9:keyLabel="6" />
+        <Key xt9:keyWidth="127.0px" xt9:keyEdgeFlags="right" xt9:keyLabel="." />
+    </Row>
+    <Row>
+        <Key xt9:codes="55" xt9:keyEdgeFlags="left" xt9:keyLabel="7" />
+        <Key xt9:codes="56" xt9:keyLabel="8" />
+        <Key xt9:codes="57" xt9:keyLabel="9" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:keyWidth="127.0px" xt9:shadowY="-1" xt9:codes="-5" xt9:keyEdgeFlags="right" xt9:isRepeatable="true" xt9:keyIcon="@drawable/btn_asus_ep_dele_icon" />
+    </Row>
+    <Row xt9:rowEdgeFlags="bottom">
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:shadowY="-1" xt9:codes="-2" xt9:keyEdgeFlags="left" xt9:keyLabel="* # (" />
+        <Key xt9:codes="48" xt9:keyLabel="0" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:shadowY="-1" xt9:codes="32" xt9:isRepeatable="true" xt9:keyIcon="@drawable/asus_ep_space_icon" />
+        <Key xt9:keyBackground="@drawable/btn_keyboard_action_key" xt9:keyTextColor="@color/white" xt9:labelTextColor="@color/white" xt9:shadowColor="@color/black" xt9:shadowRadius="1.0" xt9:keyWidth="127.0px" xt9:shadowY="-1" xt9:codes="10" xt9:keyEdgeFlags="right" xt9:keyIcon="@drawable/asus_ep_go1_icon" />
+    </Row>
+</KeyboardEx>

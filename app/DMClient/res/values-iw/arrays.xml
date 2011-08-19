@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="postpone_time_text">
+        <item>שעה אחת</item>
+        <item>3 שעות</item>
+        <item>6 שעות</item>
+        <item>יום אחד</item>
+    </string-array>
+</resources>

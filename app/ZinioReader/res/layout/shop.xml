@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/shop_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/shop_download_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progress="0" style="@style/ProgressBarHorizontalThick" />
+    <com.zinio.mobile.android.view.BottomToolbarActivity android:gravity="center" android:layout_gravity="bottom" android:id="@id/bottom_toolbar" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="#ffffffff" android:id="@id/shop_library" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/library" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textColor="#ffffffff" android:id="@id/shop_more" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.zinio.mobile.android.view.BottomToolbarActivity>
+</FrameLayout>

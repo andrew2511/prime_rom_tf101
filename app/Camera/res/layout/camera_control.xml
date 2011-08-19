@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/control_bar" android:layout_width="76.0dip" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/review_thumbnail" />
+    <com.android.camera.SwitcherSet android:gravity="center" android:orientation="vertical" android:id="@id/camera_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.android.camera.RotateImageView android:id="@id/video_switch_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_mode_switch_video" />
+        <com.android.camera.Switcher android:id="@id/switcher" android:background="@drawable/btn_mode_switch_bg" android:layout_width="wrap_content" android:layout_height="70.0dip" android:src="@drawable/btn_mode_switch_knob" />
+        <com.android.camera.RotateImageView android:id="@id/camera_switch_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:src="@drawable/btn_ic_mode_switch_camera" />
+    </com.android.camera.SwitcherSet>
+    <com.android.camera.ShutterButton android:id="@id/shutter_button" android:background="@drawable/btn_shutter" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_camera_shutter" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

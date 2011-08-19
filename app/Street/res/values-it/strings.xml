@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Vai alla mappa</string>
+    <string name="report_inappropriate_image">Segnala immagine</string>
+    <string name="toggle_compass_mode">Modalità bussola</string>
+    <string name="compass_mode_on">Modalità bussola attivata.</string>
+    <string name="compass_mode_off">Modalità bussola disattivata.</string>
+    <string name="waiting_for_network">Connessione dati persa, nuovo tentativo in corso…</string>
+    <string name="panorama_disabled">Immagine non più disponibile</string>
+    <string name="service_unavailable">Servizio Street View non disponibile.</string>
+    <string name="loading">Caricamento</string>
+    <string name="no_panorama_data">Dati panorama non impostati.</string>
+    <string name="invalid_panorama_data">Panorama non valido.</string>
+    <string name="click_to_go_toast">Trascina Pegman nel punto in cui vuoi andare.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">"Per utilizzare questo programma devi disporre di una connessione dati. Verifica l'intensità del segnale. La modalità aereo è attiva? Il roaming dei dati è disabilitato?"</string>
+    <string name="whats_new_header">Novità di Street View</string>
+    <string name="whats_new_c2g">Vola in qualsiasi luogo tu riesca a vedere. Trascina Pegman dalla parte in basso a sinistra e rilascialo sul luogo di destinazione.</string>
+    <string name="terms_and_privacy">Termini e privacy</string>
+    <string name="terms_and_conditions">Termini e condizioni</string>
+    <string name="privacy_policy">Norme sulla privacy</string>
+</resources>

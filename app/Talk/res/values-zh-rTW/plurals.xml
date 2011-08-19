@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">%1$d 個帳戶</item>
+        <item quantity="one">%1$d 個帳戶</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">%1$d 則未讀取的即時訊息</item>
+        <item quantity="one">%1$d 則未讀取的即時訊息</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">%s 封已讀取的郵件</item>
+        <item quantity="one">%s 封已讀取的郵件</item>
+    </plurals>
+</resources>

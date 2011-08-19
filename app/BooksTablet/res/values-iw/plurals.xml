@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d מתוך %2$2$d ספרים</item>
+        <item quantity="one">ספר אחד</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">מצטערים, קריאה בו זמנית של ספר זה מוגבלת ל-%1$d התקנים או מחשבים והגעת למגבלה זו. סגור את הספר בקוראים אחרים, המתן מספר דקות ונסה שוב.</item>
+        <item quantity="one">מצטערים, קריאה בו זמנית של ספר זה מוגבלת להתקן או למחשב אחד והגעת למגבלה זו. סגור את הספר בקוראים אחרים, המתן מספר דקות ונסה שוב.</item>
+    </plurals>
+</resources>

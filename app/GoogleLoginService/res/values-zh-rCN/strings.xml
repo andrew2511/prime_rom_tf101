@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_data_store_version">0</string>
+    <string name="def_client_id">android-google</string>
+    <string name="def_voicesearch_client_id">ms-android-google</string>
+    <string name="def_maps_client_id">网络</string>
+    <string name="def_youtube_client_id">mvapp-android-google</string>
+    <string name="def_market_client_id">am-google</string>
+    <string name="def_rlz">未知</string>
+    <string name="sharedUserLabel">Google 服务</string>
+    <string name="gls_label">Google 帐户</string>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">欢迎使用 ^1</string>
+    <string name="next_button_label">下一步</string>
+    <string name="back_button_label">返回</string>
+    <string name="sign_in_button_label">登录</string>
+    <string name="create_button_label">创建帐户</string>
+    <string name="skip_button_label">略过</string>
+    <string name="first_name">名字</string>
+    <string name="last_name">姓氏</string>
+    <string name="done">确定</string>
+    <string name="cancel_button_label">取消</string>
+    <string name="done_button_label">完成设置</string>
+    <string name="try_again_button_label">重试</string>
+    <string name="close_button_label">关闭</string>
+    <string name="edit_text_help">轻触任意文本框可开始输入内容</string>
+    <string name="add_a_google_account">添加 Google 帐户</string>
+    <string name="no_sim_setup_wireless">您未安装 SIM 卡，因此无法连接到移动网络以使用语音或数据服务。但您可以连接 Wi-Fi，这样就无需安装 SIM 卡。</string>
+    <string name="setup_wifi_button_label">连接到 Wi-Fi</string>
+    <string name="setup_wizard_title">设置向导</string>
+    <string name="captcha_title">需要输入验证码</string>
+    <string name="choose_account_title">选择帐户</string>
+    <string name="show_error_title">遇到了错误</string>
+    <string name="close_and_launch_title">关闭设置向导</string>
+    <string name="server_error">与 Google 服务器建立连接时出现问题。</string>
+    <string name="server_error_help">请稍后重试。</string>
+    <string name="network_unreliable">无法与服务器建立可靠的连接。</string>
+    <string name="network_unreliable_help">这可能是暂时性的问题，也可能是您的 Android 设备未开通数据服务。如果问题仍然存在，请与相应的客服联系。</string>
+    <string name="invalid_login_character">字符无效。只允许使用 0-9、a-z、A-Z 和句号。</string>
+    <string name="invalid_password_character">密码字符无效。</string>
+    <string name="add_apn">无线设置</string>
+    <string name="setup_google_account_title">设置 Google 帐户</string>
+    <string name="setup_complete_title">设置已完成</string>
+    <string name="cant_be_blank">字段不能为空。</string>
+    <string name="calendar">Google 日历</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="url_load_unsuccessful_message">您的 Android 设备未连接到数据服务。要立即查看此信息，请使用网络浏览器访问 %s。</string>
+    <string name="field_cant_be_blank">此字段不能为空</string>
+    <string name="field_invalid_domain">此域名无效</string>
+    <string name="field_invalid_user">此用户名无效</string>
+    <string name="field_invalid_user_domain">请仅输入用户名，不要输入电子邮件地址</string>
+    <string name="setup_device_title">设置您的 ^1</string>
+    <string name="dont_have_an_account">没有 Google 帐户？</string>
+    <string name="create_one_now">立即创建一个！非常简单。</string>
+    <string name="already_have_an_account">已有 Google 帐户？</string>
+    <string name="sign_in_with_google_account">使用您要与该 Android 设备关联的 Google 帐户登录。</string>
+    <string name="skip_message">想等以后再设置帐户？</string>
+    <string name="delayed_gaia_agreement">继续即表示您同意 <annotation id="google_privacy">Google 隐私权政策</annotation>和<annotation id="android_privacy">其他</annotation>隐私权政策。</string>
+    <string name="open_keyboard_message">滑开键盘以开始。</string>
+    <string name="open_keyboard_message_to_continue">滑开键盘以继续。</string>
+    <string name="emergency_dial">紧急拨号</string>
+    <string name="change_language">更改语言</string>
+    <string name="close_keyboard_message">滑回键盘以继续。</string>
+    <string name="communicating_message">您的 Android 设备需要与 Google 服务器通信才能设置帐户。该过程最多可能需要五分钟。</string>
+    <string name="communicating_message_domain">您的 Android 设备需要与 Google 服务器通信才能查找域信息。该过程最多可能需要五分钟。</string>
+    <string name="login_title">输入电子邮件地址和密码</string>
+    <string name="login_task_title">登录</string>
+    <string name="username">用户名</string>
+    <string name="domain_name">example.com</string>
+    <string name="password">密码</string>
+    <string name="sign_in_agreement">登录即表示您同意 <annotation id="google_privacy">Google 隐私权政策</annotation>和<annotation id="android_privacy">其他</annotation>隐私权政策。</string>
+    <string name="create_prompt">还没有 Google 帐户？<annotation id="create_account">立即创建帐户</annotation>。</string>
+    <string name="create">创建</string>
+    <string name="create_message">需要一个 Google 帐户？</string>
+    <string name="now_signing_in">正在登录...</string>
+    <string name="now_verifying_domain">正在查找您的域...</string>
+    <string name="sign_in_with_google_account_short">使用您的 Google 帐户登录：</string>
+    <string name="browser_sign_in_explanation">如果您需要使用网络浏览器进行特殊登录，那么可以从这一屏幕开始登录流程。</string>
+    <string name="gls_browser_login_intro_message">此 Android 设备无法访问您的 Google 或 Google Apps 帐户。需要重新授权。</string>
+    <string name="enter_domain_name">输入贵公司的域名：</string>
+    <string name="enter_user_name">输入用于 ^1 的用户名和密码：</string>
+    <string name="inactive_domain">不能使用此帐户，因为它从属于一个无效的域。请与 <b>^1</b> 的域管理员联系，或者使用其他帐户登录。</string>
+    <string name="invalid_username">输入的文字不是有效的用户名。</string>
+    <string name="web_login_error_title">抱歉...</string>
+    <string name="web_login_error_desc">"连接贵公司 ^1 中的服务器时出现问题。
+
+错误信息：
+"</string>
+    <string name="web_login_error_redirects">网络登录页的重定向次数过多</string>
+    <string name="web_login_error_http">出现 HTTP ^1 错误：^2</string>
+    <string name="captcha_message_string">验证</string>
+    <string name="captcha_instructions">出于安全考虑，请先输入下方显示的字词，再尝试重新登录。</string>
+    <string name="create_google_account">创建新的 Google 帐户</string>
+    <string name="example_usernames">例如，JSmith 和 John.Smith</string>
+    <string name="create_account_agreement">创建此帐户即表示您同意 <annotation id="google_privacy">Google 隐私权政策</annotation>和<annotation id="android_privacy">其他</annotation>隐私权政策。</string>
+    <string name="background_task_error">已成功创建新的 Gmail 帐户，但无法将它添加到您在此设备上的帐户中。您可以重试或尝试手动登录新帐户，也可以暂时跳过帐户创建过程。</string>
+    <string name="retry_button_label">重试</string>
+    <string name="login_button_label">手动登录</string>
+    <string name="account_already_has_gmail">帐户已有“Gmail”。</string>
+    <string name="error_account_disabled">"该帐户已停用。
+
+（有关详细信息，请用网络浏览器访问 http://google.com/accounts。）"</string>
+    <string name="no_network">您没有接入网络。</string>
+    <string name="no_network_help">这可能是暂时性的问题，也可能是因为您的 Android 设备未开通数据服务。请在连接到移动网络或 Wi-Fi 网络后重试。</string>
+    <string name="no_network_help_wifi_only">这可能是暂时性的问题。请重试或连接到其他 Wi-Fi 网络。</string>
+    <string name="error_login_failed">"您输入的用户名或密码不正确，请重试。
+
+（要找回您的帐户信息，请用网络浏览器访问 http://www.google.com/accounts/recovery。）"</string>
+    <string name="error_account_not_verified">"此帐户尚未经过验证。请查看您的电子邮件，并点击其中的链接以验证该帐户。
+
+（要找回您的帐户信息，请在计算机上访问 http://www.google.com/accounts/recovery。）"</string>
+    <string name="add_account_init">正在载入帐户创建页面...</string>
+    <string name="add_account_init_for_update_credentials">正在载入更新凭据页面...</string>
+    <string name="add_account_init_for_add_account">正在载入添加帐户页面...</string>
+    <string name="add_account_pageload" />
+    <string name="add_account_final">正在创建新帐户...</string>
+    <string name="add_account_final_adding">正在添加帐户...</string>
+    <string name="add_account_final_updating">正在更新凭据...</string>
+    <string name="add_account_init_waiting_for_network">正在等待连接到网络...</string>
+    <string name="creating_account">正在为您创建帐户...</string>
+    <string name="checking_account">正在检查用户名是否可以使用...</string>
+    <string name="try_a_different_username">尝试其他用户名</string>
+    <string name="is_not_available"><b>^1</b> 已被他人所用。</string>
+    <string name="hint_size"><b>^1</b> 包含的字符少于 6 个或多于 30 个。</string>
+    <string name="hint_numbers_only"><b>^1</b> 未包含任何字母。</string>
+    <string name="hint_illegal_chars"><b>^1</b>" 只能包含字母、
+数字和句号。"</string>
+    <string name="doesnt_use_gmail"><b>^1</b> 不使用“Gmail”</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_in_browser">浏览器登录</string>
+    <string name="here_are_alternatives">以下是一些备选用户名：</string>
+    <string name="alternatives_list_title">建议的用户名</string>
+    <string name="choose_a_password"><b>"输入
+密码"</b></string>
+    <string name="confirm_password"><b>"确认
+密码"</b></string>
+    <string name="password_strength"><b>"密码
+强度"</b></string>
+    <string name="too_short">过短</string>
+    <string name="security_question"><b>"安全
+问题"</b></string>
+    <string name="security_questions_title">安全问题</string>
+    <string name="answer"><b>回答</b></string>
+    <string name="password_mismatch">您两次输入的密码不一致，请重新输入。</string>
+    <string name="your_account_was_created">您的帐户已创建。</string>
+    <string name="eight_chars_min">（最少 8 个字符）</string>
+    <string name="verify_your_profile">验证您的个人资料</string>
+    <string name="signed_in">登录成功！</string>
+    <string name="error_not_logged_in">用户未登录。</string>
+    <string name="error_username_unavailable">用户名已被使用。</string>
+    <string name="error_bad_password">密码的安全强度太低，或包含无效字符。请重试。</string>
+    <string name="error_bad_username">用户名无效。</string>
+    <string name="loading">正在载入...</string>
+    <string name="existing_account_error_title">此帐户已存在</string>
+    <string name="existing_account_error_text">此 Android 设备上已存在 ^1 帐户</string>
+    <string name="submission_title">抱歉...</string>
+    <string name="submission_error_text">发生错误，请重试。</string>
+    <string name="sync_intro_title">帐户同步</string>
+    <string name="account_linked_message"><font height="24">您的 Google 帐户已添加。</font></string>
+    <string name="syncing_message"><font size="17">"Google 应用程序正在同步数据。
+"<font height="17">"
+"</font>%i屏幕顶部的状态栏中会显示“正在同步”图标，表示系统正在通过您的 Google 帐户同步数据。首次同步可能需要几分钟，具体取决于联系人、电子邮件、日历活动，以及其他的 Google 应用程序数据的数量。</font></string>
+    <string name="i_agree_next">我同意，下一步</string>
+    <string name="android_privacy_policy_title">其他隐私权政策</string>
+    <string name="google_terms_of_service_title">Google 服务条款</string>
+    <string name="google_privacy_policy_title">Google 隐私权政策</string>
+    <string name="account_intro_title">使用您的 Google 帐户登录</string>
+    <string name="common_message">"Google 和 Android 的许多功能和服务需要 Google 帐户才能使用。
+
+触摸"<b>下一步</b>以使用现有的 Google 帐户登录，或立即创建一个新的 Google 帐户。您也可以触摸<b>跳过</b>，直接开始使用 Android 设备。稍后，您可以通过“设置”下的<b>帐户与同步</b>登录 Google 帐户。</string>
+    <string name="add_account_message"><font fgcolor="#ffffffff">添加帐户</font>" 
+
+您可以使用多个 Google 帐户（如住宅帐户和单位帐户）。添加 Google 帐户只需几步即可完成。
+
+触摸“下一步”继续，或按“返回”按钮退出。"</string>
+    <string name="wait_for_device_country_title">帐户设置</string>
+    <string name="wait_for_device_country_msg">系统正在收集您的手机信息。此过程最多可能需要 30 秒。</string>
+    <string name="reactivate_account_message">"需要添加“Google Mail”帐户。
+
+您已拥有与此帐户相关联的“Google Mail”用户名 ("<b>^1</b>")，但该用户名目前尚未激活。
+
+触摸“下一步”可重新激活并使用该用户名。
+
+如果要使用其他帐户，也可按“返回”按钮，然后用其他帐户登录或创建新帐户。"</string>
+    <string name="reactivating_account">正在重新激活您的帐户...</string>
+    <string name="your_account_was_reactivated">您的帐户已激活。</string>
+    <string name="account_recovery_info">以下信息会帮助您在丢失密码时将其找回</string>
+    <string name="secondary_email_label"><b>"辅助邮箱
+地址"</b></string>
+    <string name="invalid_email">"输入的电子邮件地址无效。
+示例：joe@example.com"</string>
+    <string name="invalid_email_primary">辅助地址不能与您正在创建的地址相同</string>
+    <string name="backup_consent_title">备份我的设置</string>
+    <string name="backup_consent_message">您可以使用您的 Google 帐户备份应用程序、设置（如书签和 Wi-Fi 密码）以及其他数据。如果您之前已经使用此帐户备份了数据，现在则可以将其还原到此设备。</string>
+    <string name="backup_consent_message_no_restore">您可以使用 Google 帐户备份您的应用程序、设置（如书签和 Wi-Fi 密码）以及其他数据。</string>
+    <string name="backup_consent_howto_disable_message">您可以在“隐私权”下的“设置”应用程序中更改数据备份设置。</string>
+    <string name="backup_consent_yes_agree">使用 Google 帐户备份此设备</string>
+    <string name="restore_consent_yes_agree">将数据从 Google 帐户还原到此设备</string>
+    <string name="restore_disable">停用还原功能</string>
+    <string name="restore_enable">启用还原</string>
+    <string name="restore_enabled">如果以前备份过设置，那么，系统会还原这些设置。</string>
+    <string name="restore_disabled">不会从备份中还原设置。</string>
+    <string name="restoring_title">正在还原...</string>
+    <string name="restoring_message">正在还原数据，这将需要几分钟。</string>
+    <string name="restored_title">已还原</string>
+    <string name="restored_message" />
+    <string name="webview_progress_title">正在连接域...</string>
+    <string name="webview_progress_verbose_message">"贵公司的服务器正在发送登录信息。该过程可能需要几分钟。
+系统会在此过程结束后显示贵公司的登录页。"</string>
+    <string name="enterprise_unmanaged_domain">此域并未使用 Google 企业应用套件。请核实域名，然后再试一次。</string>
+    <string name="gls_notification_title">登录您的帐户</string>
+    <string name="gls_notification_new_account">需要 ^1 帐户</string>
+    <string name="gls_notification_new_account_youtube">需要 YouTube 帐户</string>
+    <string name="gls_notification_login_error">触摸以登录您的帐户。</string>
+    <string name="gls_ui_add_account_title">帐户设置</string>
+    <string name="gls_ui_google_account_subtitle">Google 帐户</string>
+    <string name="gls_ui_activity_title">Google 登录</string>
+    <string name="gls_ui_activity_title_browser_signin">浏览器登录</string>
+    <string name="gls_ui_activity_title_enterprise">企业登录</string>
+    <string name="gls_ui_activity_title_youtube">YouTube 登录</string>
+    <string name="gls_ui_activity_authenticating">正在进行身份验证...</string>
+    <string name="gls_captcha_activity_message">请输入图片中的字符：</string>
+    <string name="gls_captcha_activity_ok_button">完成</string>
+    <string name="gls_error_activity_message">尝试登录 <b>^1</b> 时网络出错。请立即重试或者点击“返回”按钮取消。</string>
+    <string name="gls_error_activity_retry_button">重试</string>
+    <string name="gls_dmagent_activity_message">" 您的域需要移动设备管理。请安装 Google Apps 设备政策应用程序，以执行"<b>^1</b>帐户所要求的安全政策。</string>
+    <string name="gls_dmagent_activity_retry_button">下载</string>
+    <string name="gls_login_activity_username_label">用户名</string>
+    <string name="gls_login_activity_password_label">密码</string>
+    <string name="gls_login_activity_ok_button">登录</string>
+    <string name="gls_login_activity_loginfail_text_both">用户名或密码无效。需要 <b>^1</b> 帐户，请重试。</string>
+    <string name="gls_login_activity_loginfail_text_pwonly">输入的密码有误，或者帐户已变动，请重新输入密码。</string>
+    <string name="gls_login_activity_loginfail_text_pwmissing">输入该帐户的密码。</string>
+    <string name="gls_enterprise_login_activity_msg">"请登录您在 ^1 中的企业帐户进行身份验证。
+触摸“登录”可打开贵公司基于网络的登录页。"</string>
+    <string name="gls_login_activity_badaccount_text">在这种情况下您不能使用该帐户。请尝试其他帐户。</string>
+    <string name="gls_login_activity_newaccount_text">登录您的 <b>^1</b> 帐户。</string>
+    <string name="gls_login_activity_youtube_domain">YouTube</string>
+    <string name="gls_login_activity_gmail_domain">Gmail</string>
+    <string name="gls_login_activity_googlemail_domain">Google Mail</string>
+    <string name="gls_login_activity_create_youtube">没有 YouTube 帐户？触摸<a href="http://www.youtube.com/signup">此处</a>即可创建一个。</string>
+    <string name="gls_webview_progress_title">正在连接域...</string>
+    <string name="gls_webview_progress_verbose_message">"贵公司的服务器正在发送登录信息，可能需要几分钟时间。
+此过程结束时会显示贵公司的登录页。"</string>
+    <string name="gls_sign_in_button_label">登录</string>
+    <string name="gls_back_button_label">返回</string>
+    <string name="gls_cancel_button_label">取消</string>
+    <string name="gls_exit_account_setup_button_label">退出帐户设置</string>
+    <string name="gls_reauthorize_button_label">重新授权</string>
+    <string name="gls_sign_in_message">您的 Android 设备需要与 Google 服务器通信才能设置帐户。该过程最多可能需要五分钟。</string>
+    <string name="gls_sign_in_title">正在登录...</string>
+    <string name="permlab_googleAuthPassword">访问 Google 帐户的密码</string>
+    <string name="permdesc_googleAuthPassword">允许应用程序直接访问您已配置的 Google 帐户的密码。</string>
+    <string name="header_data_and_synchronization">数据与同步</string>
+    <string name="permlab_googleMailSwitch">选择 Gmail 或 Google Mail 品牌</string>
+    <string name="permdesc_googleMailSwitch">允许应用程序在“Gmail”和“Google Mail”品牌间切换显示名称。</string>
+    <string name="sync_item_title">同步%s</string>
+    <string name="grant_credentials_permission_message_header">以下一个或多个应用程序需要获得相应权限，以便当前和以后访问您的帐户。</string>
+    <string name="grant_credentials_permission_message_footer">要同意该请求吗？</string>
+    <string name="grant_permissions_header_text">访问请求</string>
+    <string name="allow">允许</string>
+    <string name="deny">拒绝</string>
+    <string name="permission_request_notification_title">已请求了权限</string>
+    <string name="permission_request_notification_with_subtitle">"已为帐户 %s
+请求了权限"</string>
+    <string name="notification_title">%1$s 出现登录错误</string>
+</resources>

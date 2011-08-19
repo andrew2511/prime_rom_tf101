@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Wetter-Widget-Einstellung</string>
+    <string name="refreshBtn">Aktualisieren</string>
+    <string name="saveBtn">Speichern</string>
+    <string name="cancelBtn">Abbrechen</string>
+    <string name="nocityfound">Keine Stadt gefunden</string>
+    <string name="humidity">Luftfeuchtigkeit</string>
+    <string name="winds">Wind</string>
+    <string name="infor1">Nicht verfügbar</string>
+    <string name="searchlistviewtitle">Stadt auswählen</string>
+    <string name="wait">Bitte warten...</string>
+    <string name="refreshFail">Aktualisierung fehlgeschlagen. Bitte erneut versuchen.</string>
+    <string name="searchFail">Suche fehlgeschlagen. Bitte erneut versuchen.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNO</string>
+    <string name="dirNE">NO</string>
+    <string name="dirENE">ONO</string>
+    <string name="dirE">O</string>
+    <string name="dirESE">OSO</string>
+    <string name="dirSE">SO</string>
+    <string name="dirSSE">SSO</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SW</string>
+    <string name="dirWSW">WSW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">Bitte eine Stadt eingeben:</string>
+    <string name="manualtitle">Position manuell einstellen</string>
+    <string name="refreshprogresstitle">Wetterinformationen aktualisieren</string>
+    <string name="refreshprogresscontent">Jetzt aktualisieren. Bitte warten...</string>
+    <string name="searchprogresstitle">Stadt suchen</string>
+    <string name="searchprogresscontent">Jetzt suchen. Bitte warten...</string>
+    <string name="no_network">Netzwerk ist nicht verfügbar, die Wetterinformationen können nicht aktualisiert werden.</string>
+    <string name="no_provider">Es sind derzeit nicht alle Standortinformationen aktiviert. Schalten Sie in Standort und Sicherheitseinstellungen bitte das Wireless-Netzwerk und GPS ein, um Ihren Standort schneller und genauer zu bestimmen.</string>
+    <string name="title_location">Position</string>
+    <string name="content_autorefreshed">Meine derzeitige Position automatisch aktualisieren</string>
+    <string name="content_manual">Manuelle Suche</string>
+    <string name="title_updatefreq">Aktualisierungsfrequenz</string>
+    <string name="content_updatetime">Letzte Aktualisierungszeit</string>
+    <string name="content_selectfreq">Aktualisierungsfrequenz auswählen</string>
+    <string name="title_others">Andere</string>
+    <string name="content_tempunit">Temperatureinheit</string>
+</resources>

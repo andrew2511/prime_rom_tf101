@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Wygasa za %1$d dni</item>
+        <item quantity="one">Wygasa za 1 dzień</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Wygasa za %1$d godz.</item>
+        <item quantity="one">Wygasa za godzinę</item>
+    </plurals>
+</resources>

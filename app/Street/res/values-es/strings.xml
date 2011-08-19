@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Ir al mapa</string>
+    <string name="report_inappropriate_image">Informar sobre imagen</string>
+    <string name="toggle_compass_mode">Modo de brújula</string>
+    <string name="compass_mode_on">Modo de brújula activado</string>
+    <string name="compass_mode_off">Modo de brújula desactivado</string>
+    <string name="waiting_for_network">Conexión de datos perdida, reintentando...</string>
+    <string name="panorama_disabled">La imagen ya no está disponible.</string>
+    <string name="service_unavailable">El servicio Street View no está disponible.</string>
+    <string name="loading">Cargando</string>
+    <string name="no_panorama_data">No hay establecidos datos panorámicos.</string>
+    <string name="invalid_panorama_data">Datos panorámicos no válidos</string>
+    <string name="click_to_go_toast">Arrastra al hombrecito naranja a tu destino.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">El programa necesita conexión de datos y lo reintentará automáticamente. Comprueba intensidad de señal. ¿Modo avión activado? ¿Datos de itinerancia inhabilitados?</string>
+    <string name="whats_new_header">Novedades de Street View</string>
+    <string name="whats_new_c2g">Vuela a cualquier lugar. Arrastra al hombrecito naranja y suéltalo donde quieras.</string>
+    <string name="terms_and_privacy">Términos de uso y privacidad</string>
+    <string name="terms_and_conditions">Términos y condiciones</string>
+    <string name="privacy_policy">Política de privacidad</string>
+</resources>

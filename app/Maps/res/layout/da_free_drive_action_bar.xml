@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/da_freeDriveActionBar" android:background="@drawable/da_free_drive_header" android:layout_width="fill_parent" android:layout_height="@dimen/da_free_drive_action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/da_destinationButton" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/da_ActionBarButton">
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/da_free_drive_action_bar_height" android:src="@drawable/da_btn_set_destination" android:scaleType="center" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/da_destination" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator" android:scaleType="fitXY" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/da_voiceSearchButtonSeparator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator" android:scaleType="fitXY" />
+    <ImageView android:id="@id/da_voiceSearchButton" android:layout_width="@dimen/da_free_drive_action_bar_height" android:layout_height="@dimen/da_free_drive_action_bar_height" android:src="@drawable/da_btn_voice_search" android:scaleType="center" style="@style/da_ActionBarButton" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/da_vertical_separator" android:scaleType="fitXY" />
+    <ImageView android:id="@id/da_layersButton" android:layout_width="@dimen/da_free_drive_action_bar_height" android:layout_height="@dimen/da_free_drive_action_bar_height" android:src="@drawable/da_btn_show_layers" android:scaleType="center" style="@style/da_ActionBarButton" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dimmer">#88ffffff</color>
+    <color name="dimmer_black">#dd75767b</color>
+    <color name="divider">#ffadadad</color>
+    <color name="error">#ffff0000</color>
+    <color name="default_text_color">#ff000000</color>
+    <color name="default_text_color_light">#ffffffff</color>
+    <color name="default_text_shadow_color">#ffffffff</color>
+    <color name="details_text_color">#ff999999</color>
+    <color name="default_list_divider_color">#ffc7c7c7</color>
+    <color name="default_list_bg_color">#ffffffff</color>
+    <color name="search_results_backcolor">#ffe9e991</color>
+    <color name="buttons_bar_backcolor">#ffbdbebd</color>
+    <color name="briefinfo_text">#ff000000</color>
+    <color name="briefinfo_drawable">#88ffffff</color>
+    <color name="briefinfo_arrow">#88ffffff</color>
+    <color name="radar_spot_unfocused">#ffcccccc</color>
+    <color name="radar_spot_focused">#ffffffff</color>
+    <color name="layerlist_text">#ff959495</color>
+    <color name="light_grey">#ffeeedee</color>
+    <color name="detail_background">#ffeaeaea</color>
+    <color name="list_background">@color/detail_background</color>
+    <color name="translucenter_dark">#bf000000</color>
+    <color name="poi_details_background">#fff5f4f5</color>
+    <color name="layer_details_premium_price_color">#ff1c9a10</color>
+    <color name="home_theme_background">#ffe4e4e4</color>
+    <color name="home_shortcuts_background">#ffcecece</color>
+    <color name="home_workspace_text">#ff727272</color>
+    <color name="spotlight_theme_background">#ffdddddd</color>
+    <color name="spotlight_item_background">#ffe7e5e7</color>
+    <color name="spotlight_dimmer">@color/dimmer</color>
+    <color name="spotlight_search_text_color">#ff717171</color>
+    <color name="spotlight_ar_dialogs_background">#99000000</color>
+    <color name="spotlight_ar_text_color">#ffffffff</color>
+</resources>

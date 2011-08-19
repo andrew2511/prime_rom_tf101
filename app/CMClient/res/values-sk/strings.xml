@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">minút</string>
+    <string name="postpone">Aktualizovať neskôr</string>
+    <string name="update">Aktualizovať</string>
+    <string name="asus_received_title">Softvérová služba Asus Update Service</string>
+    <string name="received_message">Dostupná je nová aktualizácia</string>
+    <string name="firmware_update_title">Firmware Update</string>
+    <string name="firmware_update_fail">"Aktualizácia zlyhala.
+
+Vaše zariadenie obnoví pôvodnú konfiguráciu."</string>
+    <string name="low_battery_title">Ukončenie aktualizácie systému</string>
+    <string name="low_battery_warning">"Aby systém mohol pokračovať v aktualizácii, batéria musí byť nabitá minimálne na 50%.
+Pred aktualizovaním systému nabite batériu."</string>
+    <string name="confirmDownload_text1">Chcete stiahnuť nasledovnú aktualizáciu systému?</string>
+    <string name="confirmDownload_textok">Aktualizáciu prijmite stlačením tlačidla YES (Áno).</string>
+    <string name="confirmDownload_textcancel">Aktualizáciu zamietnite stlačením tlačidla NO (Nie).</string>
+    <string name="confirmDownload_textwifi">Na stiahnutie tejto aktualizácie odporúčame použiť bezplatný prístup k WiFi alebo tarifu neobmedzených dát.</string>
+    <string name="confirmDownload_textwifi2">Ak nie, môžu sa účtovať poplatky za pripojenie štandardných údajov.</string>
+    <string name="btn_text_later">Neskôr</string>
+    <string name="confirmDownload_dialog_title">Pozor, ste pripojení k sieti.</string>
+    <string name="update_dialog_text">"Stiahnutá je nová aktualizácia softvéru pre váš telefón. Inštalovať teraz? 
+"</string>
+    <string name="downloading">Prebieha sťahovanie Firmware...</string>
+    <string name="install_time">Predpokladaný čas inštalácie:</string>
+    <string name="install">Inštalovať</string>
+    <string name="received_ticker">Dostupná je nová aktualizácia</string>
+    <string name="dl_received_ticker">Dostupná je nová aktualizácia</string>
+    <string name="dl_received_message">K dispozícii je aktualizácia, na stiahnutie stlačte tlačidlo here (Tu).</string>
+    <string name="postponetime_text">Doba odkladu:</string>
+    <string name="reach_max_net_fail">Sťahovanie zo serveru je prerušené, skúste neskôr, prosím.</string>
+    <string name="dlg_title_checking">Kontrola úplnosti.</string>
+    <string name="dlg_msg_checking">Prebieha kontrola úplnosti vášho súboru firmware.</string>
+    <string name="cannot_set_to_browser">Nedá sa nastaviť prehliadač.</string>
+    <string name="upgrade_error">Chyba aktualizácie, skúste znovu stiahnuť aktualizačný balík.</string>
+    <string name="start_to_download">Začnite sťahovať rozhodujúci aktualizačný balík.</string>
+    <string name="start_to_upgrade">Začnite aktualizovať aktualizačný balík.</string>
+    <string name="Start_NI_DmSession">Prijať Network Initial DMSession?</string>
+    <string name="prepare_dm_download">Pripravuje sa sťahovanie...</string>
+    <string name="download_finished">Sťahovanie Firmware je skončené...</string>
+    <string name="download_notification_title">Softvérová služba T-Mobile Update</string>
+    <string name="download_in_progress">Prebieha sťahovanie nového firmware</string>
+    <string name="out_of_mem_warning">"V telefóne nie je dostatok voľného miesta,
+odinštalujte niektoré aplikácie a skúste znovu."</string>
+    <string name="btn_register">registrovať C2DM</string>
+    <string name="btn_unregister">zrušiť registráciu C2DM</string>
+    <string name="ui_alert_input_hint">Vložte text, prosím</string>
+    <string name="ui_alert_input_numeric_hint">Vložte číslo telefónu, prosím</string>
+    <string name="ui_alert_input_phone_number_hint">Telefónne číslo</string>
+</resources>

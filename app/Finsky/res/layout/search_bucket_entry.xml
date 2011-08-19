@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="@dimen/bucket_entry_search_height" style="@style/GridCell"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bucket_entry_contents" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/li_thumbnail" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <RatingBar android:id="@id/li_rating" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="@style/FinskyRatingBarSmall" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/li_rating_count" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</RelativeLayout>

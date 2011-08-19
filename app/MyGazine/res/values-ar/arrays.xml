@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>ملاءمة الحجم</item>
+        <item>الحجم الكامل (يمكن قص الصورة)</item>
+    </string-array>
+</resources>

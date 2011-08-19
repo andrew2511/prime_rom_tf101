@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.asus.UpdateLauncher"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <application android:theme="@style/UpdateLauncherTheme" android:label="@string/app_name" android:icon="@drawable/icon">>
+<activity android:name="UpdateLauncher" android:excludeFromRecents="true" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UpdateNotify" />
+        <receiver android:name=".UpdateLauncherIntentReceiver">
+            <intent-filter>
+                <action android:name="com.asus.UpdateLauncher.notify" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.asus.UpdateLauncher.activity" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.asus.UpdateLauncher.setting" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.asus.pcsynclauncher.PCSYNC_DISCONNECTED" />
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="13" />
+</manifest>

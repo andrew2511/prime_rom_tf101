@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/eula_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/eula" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="18.0sp" android:id="@id/agreebtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Agree" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:id="@id/declinebtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Decline" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

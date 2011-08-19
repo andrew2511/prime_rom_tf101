@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_message" android:background="@drawable/widget_unread_conversation_selector" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="64.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top|right|center" android:id="@id/color_chip" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="8.0dip" style="@style/widget_list_item" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/widget_list_item">
+        <TextView android:id="@id/widget_from" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/widget_invite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0sp" android:src="@drawable/ic_badge_invite_widget" />
+        <ImageView android:id="@id/widget_attachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0sp" android:src="@drawable/ic_badge_attachment_widget" />
+        <TextView android:id="@id/widget_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:id="@id/widget_subject" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-4.0sp" android:maxLines="2" style="@style/widget_list_item" />
+</LinearLayout>

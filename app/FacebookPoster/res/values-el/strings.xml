@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Το μήκος του κειμένου που επιλέξατε ξεπερνά το όριο, μπορεί να γίνει περικοπή κάποιου από τα περιεχόμενα.</string>
+    <string name="post_successfully">Απεστάλη με επιτυχία</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>발행물을 날짜와 제목별로 분류할 수 있습니다. 화면 맨 위에 있는 탭에서 선택합니다.</item>
+        <item>"더 읽고 싶으세요?
+화면 맨 아래에 있는 샵 버튼을 클릭하면 최신 출판물과 기사를 구입할 수 있는 온라인 스토어로 이동합니다."</item>
+        <item>메뉴를 선택하면 샵, 자세한 내용, 삭제, 로그아웃 등 기타 옵션이 나옵니다.</item>
+        <item>발행물을 선택하면 읽는 동안 자동으로 다운로드를 합니다. 또는 다운로드 버튼을 선택해 사용자 컴퓨터에 저장할 수도 있습니다.</item>
+    </string-array>
+</resources>

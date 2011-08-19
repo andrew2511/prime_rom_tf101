@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Czy chcesz usunąć te wątki (%1$d)?</item>
+        <item quantity="one">Czy chcesz usunąć ten wątek?</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">Czy chcesz odrzucić następującą liczbę wersji roboczych: %1$d?</item>
+        <item quantity="one">Czy chcesz odrzucić tę wersję roboczą?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Czy chcesz zarchiwizować te wątki (%1$d)?</item>
+        <item quantity="one">Czy chcesz zarchiwizować ten wątek?</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Wersje robocze</item>
+        <item quantity="one">Wersja robocza</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">+ %s innych</item>
+        <item quantity="one">+ %s więcej</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">Ignorowanie %1$d wątków.</item>
+        <item quantity="one">Ignorowanie %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">Wątki zgłoszone jako spam: %1$d.</item>
+        <item quantity="one">Zgłaszanie jako spam %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">Archiwizowanie %1$d wątków.</item>
+        <item quantity="one">Archiwizowanie %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">Usuwanie %1$d wątków.</item>
+        <item quantity="one">Usuwanie %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">Oznaczanie %1$d wątków jako przeczytanych.</item>
+        <item quantity="one">Oznaczanie %1$d wątku jako przeczytanego.</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">Oznaczanie %1$d wątków jako nieprzeczytanych.</item>
+        <item quantity="one">Oznaczanie %1$d wątku jako nieprzeczytanego.</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">Oznaczanie gwiazdką %1$d wątków.</item>
+        <item quantity="one">Oznaczanie gwiazdką %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">Cofanie oznaczenia gwiazdką %1$d wątków.</item>
+        <item quantity="one">Cofanie oznaczenia gwiazdką %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">Oczekiwanie na operację na %1$d wątkach.</item>
+        <item quantity="one">Oczekiwanie na operację na %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Zignorowane wątki: %1$d.</item>
+        <item quantity="one">Zignorowano %1$d wątek.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Wątki zgłoszone jako spam: %1$d.</item>
+        <item quantity="one">Zgłoszono jako spam %1$d wątek.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Zarchiwizowane wątki: %1$d.</item>
+        <item quantity="one">Zarchiwizowano %1$d wątek.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">Wątki przeniesione do skrzynki odbiorczej: %1$d.</item>
+        <item quantity="one">%1$d wątek został przeniesiony do skrzynki odbiorczej.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Usunięte wątki: %1$d.</item>
+        <item quantity="one">Usunięto %1$d wątek.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">Wątki (%1$1$d) przeniesione do etykiety %2$2$s.</item>
+        <item quantity="one">%1$1$d wątek został przeniesiony do etykiety %2$2$s.</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">Wątki zaznaczone jako ważne: %1$d.</item>
+        <item quantity="one">%1$d wątek zaznaczono jako ważny.</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">Wątki zaznaczone jako mało ważne: %1$d.</item>
+        <item quantity="one">Wątki zaznaczone jako mało ważne: %1$d.</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">Wątki oznaczone jako przeczytane: %1$d.</item>
+        <item quantity="one">Oznaczono %1$d wątek jako przeczytany.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">Wątki oznaczone jako nieprzeczytane: %1$d.</item>
+        <item quantity="one">%1$d wątek oznaczono jako nieprzeczytany.</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">Zmieniono etykiety %1$d wątków.</item>
+        <item quantity="one">Zmieniono etykiety wątku.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synchronizuj %1$d dni.</item>
+        <item quantity="one">Synchronizuj %1$d dzień.</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">Nieprzeczytane: %1$d</item>
+        <item quantity="one">Nieprzeczytane: %1$d</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">Jeden dzień</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dni</item>
+        <item quantity="one">Dzień</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">Liczba kont: %1$d</item>
+        <item quantity="one">Liczba kont: %1$d</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Przenieś wątki: %1$d</item>
+        <item quantity="one">Przenieś wątek</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Błąd załącznika %s</item>
+        <item quantity="one">Błąd załącznika</item>
+    </plurals>
+</resources>

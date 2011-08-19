@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">E-Mail</string>
+    <string name="multiple_mails">E-Mails</string>
+    <string name="go_to">Zum Posteingang</string>
+</resources>

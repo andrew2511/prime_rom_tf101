@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/asus_dialog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/title_bar" android:background="@drawable/asus_ep_bar_title" android:paddingLeft="45.0px" android:paddingTop="29.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0px" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_body" android:background="@drawable/asus_ep_dialog_bottom" android:paddingLeft="17.0px" android:paddingRight="20.0px" android:paddingBottom="37.0px" android:layout_width="567.0px" android:layout_height="wrap_content" android:layout_below="@id/title_bar" />
+</LinearLayout>

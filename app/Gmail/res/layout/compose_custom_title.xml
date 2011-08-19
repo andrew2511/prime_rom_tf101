@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/custom_title_root" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/compose_heading" android:visibility="gone" android:layout_height="45.0dip" android:text="@string/compose" style="@style/customComposeTitleBarModeTitle" />
+    <Spinner android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/compose_mode_picker" android:layout_width="wrap_content" android:layout_height="45.0dip" android:prompt="@string/reply" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip">
+        <View android:background="@android:color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/send" android:src="@drawable/send" style="@style/customComposeTitleBarIcon" />
+        <View android:background="@android:color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/save" android:src="@drawable/save_draft" style="@style/customComposeTitleBarIcon" />
+    </LinearLayout>
+</LinearLayout>

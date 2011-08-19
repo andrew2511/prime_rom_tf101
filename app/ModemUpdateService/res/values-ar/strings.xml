@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">نجاح تحديث البرامج الثابتة الحديثة</string>
+    <string name="update_fail">فشل تحديث البرامج الثابتة الحديثة</string>
+    <string name="update_quz" formatted="false">"تستغرق عملية التحديث حوالي 3-5 دقائق وتتطلب 15% أو أكثر من عمر البطارية.
+
+يرجى التأكد من أن عمر البطارية يزيد عن 15% قبل التحديث.
+
+هل ترغب في تحديث البرامج الثابتة للمودم خاصتك الآن؟"</string>
+    <string name="notify_title">خدمة تحديث Asus</string>
+    <string name="notify">يتوافر تحديث البرامح الثابتة للمودم.</string>
+    <string name="warning_title">تحذير</string>
+    <string name="warning">"تجنب إغلاق الجهاز أثناء التحديث.
+
+قد يتسبب أي انقطاع غير متوقع في حدوث ضرر يتعذر التراجع عنه.
+
+هل ترغب في تحديث البرامج الثابتة للمودم الآن؟"</string>
+    <string name="battery_low" formatted="false">"ستتطلب العملية 15% أو أكثر من عمر البطارية.
+
+يرجى التأكد من أن عمر البطارية يزيد عن 15% قبل بدء التحديث."</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">موافق</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

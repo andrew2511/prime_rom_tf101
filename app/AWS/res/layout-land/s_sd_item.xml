@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#fff6fbfe" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iconid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_list_doc" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff194f71" android:id="@id/toptext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="阿瑞在睡覺.jpg" android:layout_weight="1.0" />
+    <TextView android:textSize="11.0sp" android:textColor="#ff707173" android:id="@id/bottomtext" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="26MB\n2010/01/01 14:20" />
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/btn_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/btn_check" />
+</LinearLayout>

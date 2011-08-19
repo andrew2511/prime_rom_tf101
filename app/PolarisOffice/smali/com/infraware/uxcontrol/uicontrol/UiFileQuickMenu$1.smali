@@ -1,0 +1,77 @@
+.class Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu$1;
+.super Ljava/lang/Object;
+.source "UiFileQuickMenu.java"
+
+# interfaces
+.implements Landroid/view/animation/Animation$AnimationListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;->createViewForFroyo()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;
+
+
+# direct methods
+.method constructor <init>(Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;)V
+    .locals 0
+    .parameter
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu$1;->this$0:Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;
+
+    .line 115
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Landroid/view/animation/Animation;)V
+    .locals 2
+    .parameter "animation"
+
+    .prologue
+    .line 124
+    iget-object v0, p0, Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu$1;->this$0:Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;
+
+    invoke-static {v0}, Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;->access$3(Lcom/infraware/uxcontrol/uicontrol/UiFileQuickMenu;)Lcom/infraware/uxcontrol/uiunit/UiUnit_Panel;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/infraware/uxcontrol/uiunit/UiUnit_Panel;->show(Z)V
+
+    .line 125
+    return-void
+.end method
+
+.method public onAnimationRepeat(Landroid/view/animation/Animation;)V
+    .locals 0
+    .parameter "animation"
+
+    .prologue
+    .line 121
+    return-void
+.end method
+
+.method public onAnimationStart(Landroid/view/animation/Animation;)V
+    .locals 0
+    .parameter "animation"
+
+    .prologue
+    .line 118
+    return-void
+.end method

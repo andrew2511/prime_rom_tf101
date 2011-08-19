@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEB SİTESİ</string>
+    <string name="music_title_str">MÜZİK</string>
+    <string name="web_tag_str">URL yok</string>
+    <string name="music_tag_album">Albüm yok</string>
+    <string name="music_tag_song">Şarkı yok</string>
+    <string name="music_tag_artist">Sanatçı yok</string>
+    <string name="date_text_str">Tarih yok</string>
+    <string name="cal_event_str">En Son Olay yok</string>
+    <string name="weather_info_str">Hava Durumu Bilgisi yok</string>
+    <string name="weather_content_str">Hava Durumu İçeriği yok</string>
+    <string name="photo_date_str">Fotoğraf Tarihi yok</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Rüzgar ENE</string>
+    <string name="humidity">Nem</string>
+    <string name="email_unit">E-postalar</string>
+    <string name="email_unit_single">E-posta</string>
+    <string name="event_unit">Olaylar</string>
+    <string name="event_unit_single">Olay</string>
+    <string name="book_unit">Kitaplar</string>
+    <string name="book_unit_single">Kitap</string>
+    <string name="weather_city_str">Şehir yok</string>
+    <string name="date_format_title">Tarih Biçimi</string>
+    <string name="preference_header_title">Tercih</string>
+    <string name="slideshow_header_title">Slayt gösterisi</string>
+    <string name="picture_number_title">Slayt gösterisi resim numarası</string>
+    <string name="slide_show_interval_title">Slayt gösterisi aralığı</string>
+    <string name="transition_effect_title">Geçiş efekti</string>
+    <string name="enable">Etkin</string>
+    <string name="disable">Devre Dışı</string>
+    <string name="app_settings">ASUS MyZine ayarları</string>
+    <string name="unit_picture">resimler</string>
+    <string name="unit_second">saniye</string>
+    <string name="Image_headline">Resim</string>
+    <string name="display_headline">Ekran</string>
+    <string name="date_headline">Tarih</string>
+    <string name="logo_display_title">ASUS MyZine logosu</string>
+    <string name="date_display_title">Tarih/Saat</string>
+    <string name="photo_date_display_title">Resimlerin tarihini oluştur</string>
+    <string name="event_display_title">Gelen olay</string>
+    <string name="weather_display_title">Hava durumu</string>
+    <string name="scale_type_title">Resim sunumu</string>
+</resources>

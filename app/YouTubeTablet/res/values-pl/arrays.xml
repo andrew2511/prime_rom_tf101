@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_levels">
+        <item>Nie filtruj</item>
+        <item>Umiarkowany</item>
+        <item>Ścisły</item>
+    </string-array>
+    <string-array name="subtitles_size_entries">
+        <item>Mały</item>
+        <item>Średni</item>
+        <item>Duży</item>
+        <item>Bardzo duży</item>
+    </string-array>
+</resources>

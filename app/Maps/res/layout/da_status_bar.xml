@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/da_bottom_panel_gray" android:layout_width="fill_parent" android:layout_height="@dimen/da_status_bar_clickable_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <LinearLayout android:id="@id/da_routeStatus" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/da_trafficStatusButton" android:background="@drawable/da_traffic_lookahead_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/da_trafficDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/da_traffic_dot_empty" />
+            <TextView android:textSize="@dimen/da_status_bar_text" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/da_timeRemaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="@dimen/da_status_bar_height" android:layout_marginLeft="-1.0px" android:layout_marginRight="-1.0px" android:src="@drawable/da_vertical_separator" android:scaleType="fitXY" />
+        <com.google.android.maps.driveabout.app.SqueezedLabelView android:textColor="#ffffffff" android:gravity="right|center" android:layout_gravity="bottom" android:id="@id/da_currentRoadName" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/da_status_bar_height" android:layout_marginRight="7.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" app:da_desiredTextSize="@dimen/da_status_bar_text" app:da_minTextSize="12.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/da_status_bar_text" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/da_errorMessage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/da_status_bar_height" android:maxLines="1" android:includeFontPadding="false" />
+</FrameLayout>

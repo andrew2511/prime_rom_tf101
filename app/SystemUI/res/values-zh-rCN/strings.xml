@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">系统用户界面</string>
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_do_not_disturb_button">请勿打扰</string>
+    <string name="status_bar_please_disturb_button">显示通知</string>
+    <string name="status_bar_no_notifications_title">无通知</string>
+    <string name="status_bar_ongoing_events_title">正在进行的</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    <string name="battery_low_title">请连接充电器</string>
+    <string name="battery_low_subtitle">电池电量低。</string>
+    <string name="battery_low_percent_format">还剩 %d%%</string>
+    <string name="invalid_charger">"不支持 USB 充电功能。
+只能使用随附的充电器充电。"</string>
+    <string name="battery_low_why">电量使用情况</string>
+    <string name="status_bar_settings_settings_button">设置</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">飞行模式</string>
+    <string name="status_bar_settings_auto_rotation">自动旋转屏幕</string>
+    <string name="status_bar_settings_mute_label">静音</string>
+    <string name="status_bar_settings_auto_brightness_label">自动</string>
+    <string name="status_bar_settings_notifications">通知</string>
+    <string name="recent_tasks_title">近期任务</string>
+    <string name="recent_tasks_empty">没有最近使用的应用程序。</string>
+    <string name="recent_tasks_app_label">应用程序</string>
+    <string name="bluetooth_tethered">蓝牙已绑定</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">配置输入法</string>
+    <string name="status_bar_use_physical_keyboard">使用物理键盘</string>
+    <string name="usb_device_permission_prompt">允许应用程序%1$s访问 USB 设备吗？</string>
+    <string name="usb_accessory_permission_prompt">允许应用程序%1$s访问 USB 配件吗？</string>
+    <string name="usb_device_confirm_prompt">要在连接此 USB 设备时打开%1$s吗？</string>
+    <string name="usb_accessory_confirm_prompt">要在连接此 USB 配件时打开%1$s吗？</string>
+    <string name="usb_accessory_uri_prompt">未安装此 USB 配件适用的应用程序。要了解关于此配件的详情，请访问：%1$s</string>
+    <string name="title_usb_accessory">USB 配件</string>
+    <string name="label_view">查看</string>
+    <string name="always_use_device">默认情况下用于该 USB 设备</string>
+    <string name="always_use_accessory">默认情况下用于该 USB 配件</string>
+</resources>

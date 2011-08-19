@@ -1,0 +1,6 @@
+version: 1.4.2.269870b
+apkFileName: XT9IME.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1

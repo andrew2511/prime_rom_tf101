@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="browse_num_rows">2</integer>
+    <integer name="creator_related_items_row_count">2</integer>
+    <integer name="video_column_count">3</integer>
+    <integer name="trailer_column_count">3</integer>
+</resources>

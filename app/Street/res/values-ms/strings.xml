@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Paparan Jalan</string>
+    <string name="go_to_map">Pergi ke peta</string>
+    <string name="report_inappropriate_image">Laporkan imej</string>
+    <string name="toggle_compass_mode">Mod kompas</string>
+    <string name="compass_mode_on">Mod kompas dihidupkan.</string>
+    <string name="compass_mode_off">Mod kompas dimatikan.</string>
+    <string name="waiting_for_network">Sambungan data hilang, mencuba semula…</string>
+    <string name="panorama_disabled">Gambar tidak lagi tersedia</string>
+    <string name="service_unavailable">Perkhidmatan Paparan Jalan tidak tersedia.</string>
+    <string name="loading">Memuatkan</string>
+    <string name="no_panorama_data">Tiada data panorama ditetapkan.</string>
+    <string name="invalid_panorama_data">Panorama tidak sah.</string>
+    <string name="click_to_go_toast">Seret Pegman ke mana anda mahu pergi.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Program ini memerlukan sambungan data, dan akan mencuba semula secara automatik. Sila periksa kekuatan isyarat anda. Adakah mod kapal terbang dihidupkan? Adakah data perayauan dilumpuhkan?</string>
+    <string name="whats_new_header">Apa yang baru dalam Paparan Jalan?</string>
+    <string name="whats_new_c2g">Terbang ke mana sahaja yang anda boleh lihat. Seret Pegman dari bahagian bawah sebelah kiri dan lepaskannya di tempat yang anda ingin kunjungi.</string>
+    <string name="terms_and_privacy">Syarat &amp; Privasi</string>
+    <string name="terms_and_conditions">Terma dan Syarat</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+</resources>

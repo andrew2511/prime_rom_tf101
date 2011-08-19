@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">新しいタブ</string>
+    <string name="new_incognito_tab">新しいシークレットタブ</string>
+    <string name="active_tabs">タブ</string>
+    <string name="open_all_in_new_window">常に新しいタブで開く</string>
+    <string name="contextmenu_openlink_newwindow">新しいタブで開く</string>
+    <string name="contextmenu_openlink_newwindow_background">新しいバックグラウンドタブで開く</string>
+    <string name="pref_content_open_in_background_summary">現在のタブの後ろに新しいタブを開く</string>
+</resources>

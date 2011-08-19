@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/currently_reading_widget" android:background="@drawable/readingwidget_land_bkgd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_book_cover" android:layout_width="67.0dip" android:layout_height="67.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="4.0dip" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/widget_book_title" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#4c000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" />
+        <TextView android:textSize="12.0dip" android:typeface="sans" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/widget_book_author" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#4c000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" />
+        <ImageView android:id="@id/widget_book_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

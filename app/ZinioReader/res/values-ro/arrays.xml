@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Ediţiile pot fi sortate după dată sau titlu. Selectaţi din tabulatoarele din partea superioară a ecranului.</item>
+        <item>"Doriţi să citiţi mai multe?
+Selectaţi butonul din josul ecranului pentru a naviga la magazinul online pentru cele mai recente publicaţii şi articole."</item>
+        <item>Selectaţi meniul pentru a vedea mai multe opţiuni - cum ar fi magazin, mai multe, ştergere şi ieşire.</item>
+        <item>Selectaţi o ediţie pentru descărcare automată în timp ce citiţi SAU puteţi selecta butonul descărcare pentru a o salva local şi a o citi mai târziu.</item>
+    </string-array>
+</resources>

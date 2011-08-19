@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">ΙΣΤΟΤΟΠΟΣ</string>
+    <string name="music_title_str">ΜΟΥΣΙΚΗ</string>
+    <string name="web_tag_str">Χωρίς URL</string>
+    <string name="music_tag_album">Χωρίς άλμπουμ</string>
+    <string name="music_tag_song">Χωρίς τραγούδι</string>
+    <string name="music_tag_artist">Χωρίς καλλιτέχνη</string>
+    <string name="date_text_str">Χωρίς ημερομηνία</string>
+    <string name="cal_event_str">Χωρίς Τελευταίο συμβάν</string>
+    <string name="weather_info_str">Χωρίς πληροφορίες καιρού</string>
+    <string name="weather_content_str">Χωρίς περιεχόμενο καιρού</string>
+    <string name="photo_date_str">Χωρίς Ημερομηνία Φωτογραφίας</string>
+    <string name="miles_per_hour">μίλια/ώρα</string>
+    <string name="windspeed">ΑΒΑ Άνεμος</string>
+    <string name="humidity">Υγρασία</string>
+    <string name="email_unit">Emails</string>
+    <string name="email_unit_single">Email</string>
+    <string name="event_unit">Συμβάντα</string>
+    <string name="event_unit_single">Συμβάν</string>
+    <string name="book_unit">Βιβλία</string>
+    <string name="book_unit_single">Βιβλίο</string>
+    <string name="weather_city_str">Χωρίς Πόλη</string>
+    <string name="date_format_title">Μορφή ημερομηνίας</string>
+    <string name="preference_header_title">Προτιμήσεις</string>
+    <string name="slideshow_header_title">Προβολή παρουσίασης</string>
+    <string name="picture_number_title">Αριθμός εικόνας διαδοχικής προβολής</string>
+    <string name="slide_show_interval_title">Διάστημα προβολής παρουσίασης</string>
+    <string name="transition_effect_title">Εφέ Μετάβασης</string>
+    <string name="enable">Ενεργοποίηση</string>
+    <string name="disable">Disable</string>
+    <string name="app_settings">Ρυθμίσεις ASUS MyZine</string>
+    <string name="unit_picture">φωτογραφίες</string>
+    <string name="unit_second">δευτ.</string>
+    <string name="Image_headline">Εικόνα</string>
+    <string name="display_headline">Προβολή</string>
+    <string name="date_headline">Ημερομηνία</string>
+    <string name="logo_display_title">Λογότυπο ASUS MyZine</string>
+    <string name="date_display_title">Ημερομηνία/ Ώρα</string>
+    <string name="photo_date_display_title">Ημερομηνία δημιουργίας φωτογραφιών</string>
+    <string name="event_display_title">Προσεχής εκδήλωση</string>
+    <string name="weather_display_title">Καιρικές συνθήκες</string>
+    <string name="scale_type_title">Παρουσίαση φωτογραφίας</string>
+</resources>

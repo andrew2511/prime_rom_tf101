@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/holder_listcontrol_word_thumbnail" android:background="@drawable/thumbnail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/holder_button_addslide" android:background="@drawable/thumbnail_addslide_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

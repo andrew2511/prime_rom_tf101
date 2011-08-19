@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.android.screenshot"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+    <application android:label="@string/screenshot" android:taskAffinity="">
+        <activity android:theme="@style/ScreenshotTheme" android:name=".ScreenshotNotifyDialog" android:taskAffinity=":ScreenshotNotifyDialog" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ScreenshotIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREENSHOT" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

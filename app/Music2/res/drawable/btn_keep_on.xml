@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/btn_make_offline_pressed_on" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/btn_make_offline_focused_on" />
+    <item android:drawable="@drawable/btn_make_offline_normal_on" />
+</selector>

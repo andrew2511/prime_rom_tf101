@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.asus.pcsynclauncher"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="13" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application android:icon="@drawable/asus_sync_icon" android:launchMode="singleInstance">
+        <activity android:theme="@android:style/Theme.Holo.Dialog" android:label="@string/app_name" android:name=".activity.PCSyncLauncher" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog" android:label="@string/app_name" android:name=".activity.RetryDialogActivity" />
+        <receiver android:name=".activity.USBReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+                <action android:name="com.asus.pcsynclauncher.PCSYNC_CONNECTED" />
+                <action android:name="com.asus.pcsynclauncher.PCSYNC_DISCONNECTED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

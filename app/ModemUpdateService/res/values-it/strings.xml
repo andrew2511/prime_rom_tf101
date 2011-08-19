@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Aggiornamento firmware del modem riuscito.</string>
+    <string name="update_fail">Aggiornamento firmware del modem non riuscito.</string>
+    <string name="update_quz" formatted="false">"Il processo di aggiornamento richiede 3-5 minuti e almeno il 15% di carica della batteria.
+
+Prima dell'aggiornamento, assicurarsi che la carica minima della batteria sia pari al 15%.
+
+Desiderate aggiornare il firmware del modem adesso?"</string>
+    <string name="notify_title">Asus Servizio Aggiornamento</string>
+    <string name="notify">Aggiornamento firmware modem disponibile.</string>
+    <string name="warning_title">Attenzione</string>
+    <string name="warning">"NON spegnere il dispositivo durante il processo di aggiornamento.
+
+Un'improvvisa interruzione potrebbe causare un danno irreversibile.
+
+Desiderate aggiornare il firmware del modem adesso?"</string>
+    <string name="battery_low" formatted="false">"Il processo di aggiornamento richiede una carica minima della batteria pari al 15%.
+
+Prima di avviare il processo, assicurarsi che la carica della batteria non sia inferiore al 15%."</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

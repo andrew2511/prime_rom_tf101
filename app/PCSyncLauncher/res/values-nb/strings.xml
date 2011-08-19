@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Informasjon om datamaskinsynkronisering</string>
+    <string name="searchingPCSideSyncTool">Søker %s på datamaskinen ...</string>
+    <string name="connectionFailMessage" formatted="false">Du har ikke installert eller startet %s på datamaskinen. Last ned %s fra ASUS brukerstøtteside – http://support.asus.com. (Merk: kun for Windows.) Du kan trykke på \"%s\"-knappen for å avslutte eller \"%s\"-knappen for å kople til %s igjen.</string>
+    <string name="connectionFailTitle">Tilkobling mislyktes</string>
+    <string name="tryAgain">Prøv igjen</string>
+    <string name="cancel">Avbryt</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Bildschirmfoto</string>
+    <string name="screenshot_dialog_message">Bildschirmfoto gespeichert. Wollen Sie den Bildschirmfotomodus beibehalten?</string>
+    <string name="screenshot_dialog_yes">Ja</string>
+    <string name="screenshot_dialog_no">Nein</string>
+    <string name="screenshot_toast_message_saved">Bildschirmfoto gespeichert.</string>
+    <string name="screenshot_toast_message_failed">Speichern des Bildschirmfotos im Dateiübertragungsmodus fehlgeschlagen.</string>
+    <string name="screenshot_toast_message_failed_save">Bildschirmfoto konnte nicht gespeichert werden.</string>
+    <string name="screenshot_toast_message_full">Bildschirmfoto konnte nicht gespeichert werden. Nicht genügend Speicher vorhanden.</string>
+</resources>

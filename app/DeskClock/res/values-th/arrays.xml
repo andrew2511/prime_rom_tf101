@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>การปลุกนี้ตั้งไว้สำหรับอีกไม่ถึง 1 นาทีนับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับอีก %1$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับอีก %2$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับ %1$1$s กับอีก %2$2$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับอีก %3$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับ %1$1$s กับอีก %2$3$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับ %1$2$s กับอีก %2$3$s นับจากตอนนี้</item>
+        <item>การปลุกนี้ตั้งไว้สำหรับ %1$1$s %2$2$s กับอีก%3$3$s นับจากตอนนี้</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>ปิด</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ไม่มี</item>
+        <item>ปิดเสียงเตือนชั่วคราว</item>
+        <item>ปิด</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

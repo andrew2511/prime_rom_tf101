@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Žádné</item>
+        <item>Hlasový chat</item>
+        <item>Videochat</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Vždy</item>
+        <item>Pouze v tichém režimu</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Otevřít dialog</item>
+        <item>Upozornění na systémové liště</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Otevřít dialog</item>
+        <item>Upozornění na systémové liště</item>
+        <item>Vypnuto</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Štěstím bez sebe</item>
+        <item>Ach jo</item>
+        <item>Mrk</item>
+        <item>Vyplazený jazyk</item>
+        <item>Překvapení</item>
+        <item>Pusa</item>
+        <item>Křik</item>
+        <item>Cool</item>
+        <item>Cinkání zlaťáků</item>
+        <item>Trapas!</item>
+        <item>Rozpaky</item>
+        <item>Andílek</item>
+        <item>Ještě nevím</item>
+        <item>Pláč</item>
+        <item>Ani muk</item>
+        <item>Smích</item>
+        <item>Zmatek</item>
+        <item>Úšklebek</item>
+        <item>Vztek</item>
+        <item>Kamenná tvář</item>
+        <item>Srdíčko</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Vždy</item>
+        <item>Nikdy</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>Nejoblíbenější</item>
+        <item>Všichni</item>
+        <item>Někteří</item>
+        <item>Jen bezva lidi</item>
+    </string-array>
+</resources>

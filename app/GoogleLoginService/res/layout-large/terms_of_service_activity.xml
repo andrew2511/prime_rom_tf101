@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/setupWizardOuterFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/Title" android:gravity="bottom" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin_left" android:minHeight="@dimen/title_height" android:text="@string/google_terms_of_service_title" android:layout_alignParentLeft="true" />
+    <View android:id="@id/top_divider" android:layout_below="@id/title" style="@style/TopDivider" />
+    <LinearLayout android:id="@id/webview_container" android:layout_width="@dimen/sign_in_content_width" android:layout_height="fill_parent" android:layout_above="@id/buttons" android:layout_below="@id/top_divider" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/webview_container" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <View android:id="@id/bottom_divider" android:layout_above="@id/buttons" style="@style/BottomDivider" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/back_button" android:layout_marginRight="@dimen/button_horizontal_margin" android:text="@string/back_button_label" style="@style/Button" />
+            <Button android:id="@id/next_button" android:text="@string/i_agree_next" style="@style/Button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

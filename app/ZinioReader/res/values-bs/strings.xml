@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">pokušaj ponovo</string>
+    <string name="offline">van mreže</string>
+    <string name="retry_offline_content">Vjeza sa mrežom nije stabilna; želite li da pokušate ponovo ili da koristite aplikaciju van mreže?</string>
+    <string name="cancel">poništi</string>
+    <string name="change_password">promijeni lozinku</string>
+    <string name="close">zatvori</string>
+    <string name="confirm_new_password">potvrdi novu lozinku</string>
+    <string name="create_account">kreiraj račun</string>
+    <string name="create_an_account">kreirati račun</string>
+    <string name="date">datum</string>
+    <string name="delete">obriši</string>
+    <string name="delete_all">obriši sve</string>
+    <string name="delete_mode_caption">Obrišite režim - kliknite na stavku da je obrišete</string>
+    <string name="email_address">adresa e-pošte</string>
+    <string name="exit">izlaz</string>
+    <string name="faq">Najčešća pitanja</string>
+    <string name="first_name">ime</string>
+    <string name="free">besplatno</string>
+    <string name="forgot_password">zaboravili ste lozinku</string>
+    <string name="last_name">prezime</string>
+    <string name="learn_more">saznajte više</string>
+    <string name="legal_notices">pravna obaveštenja</string>
+    <string name="library">knjižara</string>
+    <string name="manage_tips">upravljanje savjetima</string>
+    <string name="more">više</string>
+    <string name="more_options">više opcija</string>
+    <string name="my_magazines">Moji časopisi - kliknite da pogledate ili preuzmete</string>
+    <string name="new_password">nova lozinka (5-20 znakova)</string>
+    <string name="ok">u redu</string>
+    <string name="old_password">stara lozinka</string>
+    <string name="password">lozinka</string>
+    <string name="required">je potrebna</string>
+    <string name="required_first_name">potrebno je ime</string>
+    <string name="required_last_name">potrebno je prezime</string>
+    <string name="required_email_address">potrebna je adresa e-pošte</string>
+    <string name="required_password">potrebna je lozinka</string>
+    <string name="retype_password">ponovo unesite lozinku</string>
+    <string name="sign_in">prijavi se</string>
+    <string name="sign_out">odjavi se</string>
+    <string name="share">razmjeni</string>
+    <string name="shop">trgovina</string>
+    <string name="text">tekst</string>
+    <string name="title">naslov</string>
+    <string name="turn_on_wifi">Isključite WiFi</string>
+    <string name="uninstall">deinstaliraj</string>
+    <string name="welcome_to_zinio">dobro došli na zinio</string>
+    <string name="email_non_lower_case">E-pošta</string>
+    <string name="sd_card_non_lower_case">SD kartica</string>
+    <string name="show_password_non_lower_case">Pokaži lozinku</string>
+    <string name="show_tips_non_lower_case">Pokaži savjete</string>
+    <string name="forgot_password_underlined"><u>Zaboravili ste lozinku?</u></string>
+    <string name="terms_of_service_underlined"><u>Odredbe usluge</u></string>
+    <string name="label_share_email1">pročitajte članak</string>
+    <string name="label_share_email2">"i želimo ga podijeliti s vama!
+
+Izvorni članak je uključen uz ovu poruku.n
+Za više publikacija idite na www.zinio.com"</string>
+    <string name="label_receive_from_partners">Molim vas pošaljite mi posebne ponude od Zinio pouzdanih partnera.</string>
+    <string name="label_receive_from_zinio">Molim vas pošaljite mi e-poštu o posebnim ponudama u Ziniou.</string>
+    <string name="label_status_calculating">Izračun u tijeku...</string>
+    <string name="label_status_new">Novo</string>
+    <string name="label_status_not_downloaded">Nije učitano</string>
+    <string name="label_status_downloading">%s%% Učitano</string>
+    <string name="label_tip_hide">Isključi savjete. Njima možete upravljati preko opcije Više postavki.</string>
+    <string name="toast_change_password_success">Uspješno ste promijenili lozinku.</string>
+    <string name="toast_issue_download_complete_left">Učitavanje za</string>
+    <string name="toast_issue_download_complete_right">završeno</string>
+    <string name="toast_no_articles">Na stranici nema članaka.</string>
+    <string name="toast_register_success">Uspješno ste kreirali račun.</string>
+    <string name="toast_no_email_client">Napomena: E-mail klijent nije konfiguriran</string>
+    <string name="progress_dialog_wait_msg">Molimo, pričekajte...</string>
+    <string name="dialog_warning_title">Upozorenje</string>
+    <string name="dialog_no_connectivity_warning">Ovaj zaslon zahtijeva internet pristup. Molimo, provjerite vezu ili podešenje načina za avion.</string>
+    <string name="dialog_passwords_not_matching_warning">Ne važeća lozinka.</string>
+    <string name="dialog_password_length_warning">Lozinka treba imati između 5 i 20 znakova.</string>
+    <string name="dialog_service_exception_warning">Postoji problem u vezi servera. Molimo, pokušajte ponovo.</string>
+    <string name="dialog_uninstall_warning">Ovim ćete izbrisati sve podatke knjižare Zinio i nećete moći da ih obnovite. Trebat ćete ponovo da učitate vaše publikacije.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Nemate vezu i ne možete da učitate publikacije.
+
+Možete da učitate vaše publikacije nakon što obnovite vezu."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Stare i nove lozinke moraju se razlikovati.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Stara lozinka nije tačna.</string>
+    <string name="dialog_library_no_connectivity_warning">"Za učitavanje publikacije potrebna je veza.
+
+Još uvijek možete da pročitate šta je trenutno rasoloživo u vašoj knjižari i da učitate publikacije nakon što obnovite vezu."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Vaše korisničko ime ili lozinka su netačni.
+
+Molimo, pokušajte ponovo."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Ovaj račun je dostigao svoj maksimalan broj autorizovanih uređaja. Molimo, uklonite autorizaciju uređaja i pokušajte ponovo.</string>
+    <string name="dialog_register_account_already_exists">Adresa e-pošte već postoji. Molimo, odaberite drugu e-poštu.</string>
+    <string name="dialog_register_empty_email_error">Molimo, unesite adresu e-pošte.</string>
+    <string name="dialog_register_first_name_short_error">Molimo, unesite ime.</string>
+    <string name="dialog_register_first_name_long_error">Ime ne smije imati više od 80 znakova.</string>
+    <string name="dialog_register_invalid_email_error">Molimo, unesite važeću adresu e-pošte.</string>
+    <string name="dialog_register_last_name_short_error">Molimo, unesite prezime.</string>
+    <string name="dialog_register_last_name_long_error">Prezime ne smije imati više od 80 znakova.</string>
+    <string name="dialog_register_other_error">Došlo je do greške. Molimo, pokušajte ponovo.</string>
+    <string name="dialog_register_password_empty">Molimo, unesite novu lozinku.</string>
+    <string name="dialog_sign_out_disabled_warning">Nema prijavljenog korisnika za odjavu.</string>
+    <string name="dialog_app_version_not_supported_title">Dostupno ažuriranje</string>
+    <string name="dialog_app_version_not_supported_msg">Dostupna je novija verzija aplikacije Zinio Reader. Ova verzija više nije podržana. Molimo da se ažurirate na najnoviji Zinio Reader</string>
+    <string name="dialog_delete_all_title">Obriši sve</string>
+    <string name="dialog_delete_all_msg">"Naveli ste da želite da obrišete sve publikacije iz vaše knjižare.
+
+Ne brinite, ništa nećete trajno da izgubite.
+
+Brisanjem vršite samo uklanjanje iz vašeg uređaja. Ponovo ćete moći da učitate publikaciju, ako je potrebno."</string>
+    <string name="dialog_not_enough_space_title">Nema dovoljno prostora</string>
+    <string name="dialog_not_enough_space_msg">Na ovom uređaju nema dovoljno prostora na disku za učitavanje odabrane publikacije. Molimo, oslobodite barem %d MB i pokušajte ponovo.</string>
+    <string name="dialog_sd_card_not_available_title">SD kartica nije dostupna</string>
+    <string name="dialog_sd_card_not_available_msg">SD kartica je uklonjena. Aplikacija Zinio prekida sa radom. Molimo, unesite SD karticu i ponovo pokrenite aplikaciju.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD kartica je puna</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD kartica je puna. Oslobodite malo prostora.</string>
+    <string name="dialog_shop_no_connectivity_title">Pohranjivanje nije moguće</string>
+    <string name="dialog_shop_no_connectivity_msg">Potrebno je da uspostavite vezu da pristupite trgovini. Molimo, provjerite vezu ili podešenje načina za avion.</string>
+    <string name="dialog_sign_out_title">Odjavi se</string>
+    <string name="dialog_sign_out_msg">"Sigurni ste da se želite odjaviti?
+
+Od vas će se tražiti da se ponovo prijavite kako biste pristupili aplikaciji Zinio."</string>
+    <string name="dialog_tip_title">Savjet</string>
+    <string name="dialog_manage_tips_title">Upravljanje savjetima</string>
+    <string name="non_supported_device_tip_title">Dobro došli na Zinio</string>
+    <string name="non_supported_device_tip_msg">"Bogat sadržaj Zinio najbolje možete da pročitate na uređajima pomoću zaslona od najmanje 800x480.
+
+Možete da nastavite da upotrebom aplikacije ali molimo vas imajte na umu da doživljaj možda neće biti optimalan."</string>
+    <string name="no_text_tip_msg">Neke publikacije nemaju tekstualne članke. Koristite sadržaj ili vizualni indeks za traženje željene stranice.</string>
+    <string name="page_tip0_1">"Potreban je jedan dodir da vidite izbornik s alatima.
+Odaberite vizualan ili tekstualni sadržaj."</string>
+    <string name="page_tip1">"Savjeti za pokretanje:
+
+* Okrenite stranicu dodirom u desno ili ulijevo
+* Dva puta dodirnite zaslon za zum 
+* Odaberite gumb 'tekst', vidljiv na prvoj stranici članka."</string>
+    <string name="wifi_connection_tip">"Otkrivena je 3G mrežna veza.
+
+Publikacije još uvijek možete da učitate preko 3G, ali za optimalan doživljaj preporučujemo wifi."</string>
+    <string name="dialog_available_memory_not_enough_title">Nedovoljna količina memorije</string>
+    <string name="dialog_available_memory_not_enough_msg">Nedovoljno dinamičke memorije.</string>
+    <string name="dialog_delete_title">Obriši</string>
+    <string name="delete_done">Gotovo</string>
+    <string name="dialog_delete_from_library">Je i sigurt që dëshiron të fshish %s</string>
+    <string name="internet_connection_tip">Za preuzimanje publikacija potrebna vam je vjeza sa Internetom. Uspostavite vjezu sa Internetom i pokušajte ponovo.</string>
+    <string name="dialog_change_password_old_password_empty">Upišite staru lozinku.</string>
+    <string name="server_error_app_version_not_supported_message">Dostupno ažuriranje Dostupna je novija verzija aplikacije Zinio Reader. Ova verzija više nije podržana. Molimo da se ažurirate na najnoviji Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Vaše korisničko ime ili lozinka su netačni.
+
+Molimo, pokušajte ponovo. Stara lozinka nije tačna."</string>
+    <string name="server_error_device_not_authorized">Ovaj uređaj nije odgovarajuće autorizovan za upotrebu s vašim Zinio nalogom. Da biste ponovo autorizovali uređaj, odjavite se iz aplikacije i zatim se ponovo prijavite. Ako i dalje budete imali problema, kontaktirajte Zinio korisničku podršku.</string>
+    <string name="server_error_invalid_login">E-mail adresa nije ispravna. Upišite ispravnu e-mail adresu.</string>
+    <string name="server_error_invalid_new_password">Lozinka nije ispravna, izaberite drugu.</string>
+    <string name="server_error_issue_not_supported_for_device">Neispravno pitanje. Kontaktirajte korisničku podršku na support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Ovaj račun je dostigao svoj maksimalan broj autorizovanih uređaja. Molimo, uklonite autorizaciju uređaja i pokušajte ponovo.</string>
+    <string name="server_error_packing_list_not_found">Otpremnica nedostaje. Kontaktirajte korisničku podršku na support@zinio.com.</string>
+    <string name="server_error_login_exists">Adresa e-pošte već postoji. Molimo, odaberite drugu e-poštu.</string>
+    <string name="server_error_system_error">Došlo je do greške na serveru. Pokušajte ponovo kasnije.</string>
+    <string name="server_error_system_not_available">Neki dijelovi aplikacije možda neće biti dostupni. Ako nečemu ne možete pristupiti, pokušajte ponovo kasnije.</string>
+    <string name="server_error_no_items_in_library">Trenutno nemate nijedan naslov. Dostupni naslovi mogu se pronaći na kartici Prodavnica.</string>
+    <string name="server_error_user_not_entitled">Korisnik nema ovlašćenje. Kontaktirajte korisničku podršku na support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Da li biste željeli da sada ocijenite Zinio Reader?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Zastarjelo pitanje je uklonjeno i biće ponovo preuzeto.</string>
+    <string name="dialog_review_msg">Vaše mišljenje nam je važno te vas molimo da nam sada dostavite svoje komentare.</string>
+    <string name="server_error_invalid_newstand">Neispravan izbornik. Kontaktirajte korisničku podršku na support@zinio.com.</string>
+</resources>

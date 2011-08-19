@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/noLocalMusic" android:background="@null" android:paddingLeft="144.0dip" android:paddingTop="106.0dip" android:paddingRight="144.0dip" android:paddingBottom="96.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="30.0sp" android:id="@id/no_music_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="46.0dip" android:text="@string/no_music_heading" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/no_local_music_body" android:layout_width="544.0dip" android:layout_height="wrap_content" android:text="@string/no_local_music_body" android:layout_below="@id/no_music_title" android:layout_alignParentLeft="true" />>
+<Button android:id="@id/learn_more_button" android:layout_width="208.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:text="@string/no_music_learn_more" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="noMusicSetupUsbClick" />
+</RelativeLayout>

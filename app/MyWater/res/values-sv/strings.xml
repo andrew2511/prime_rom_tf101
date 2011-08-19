@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS standard live skrivbordsunderlägg.</string>
+    <string name="mywater_setting">ASUS MyWater inställningar</string>
+    <string name="enable_rotation">Aktivera vattenrotation</string>
+    <string name="enable_rotation_description">Vatten kommer att rotera tillsammans med enhetens rotation.</string>
+</resources>

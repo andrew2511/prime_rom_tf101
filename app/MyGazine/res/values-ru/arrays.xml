@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>По размеру</item>
+        <item>Полный размер (изображение может быть обрезано)</item>
+    </string-array>
+</resources>

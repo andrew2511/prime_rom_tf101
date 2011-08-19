@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffd5d5d5" style="@style/attachment_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_email_attachment" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/attachment_thumbnail" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/name" style="@style/attachment_name" />
+        <TextView android:id="@id/size" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/attachment_name" />
+    </LinearLayout>
+    <ImageView android:gravity="left" android:layout_gravity="left|center" android:id="@id/remove_attachment" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/ic_cancel_holo_light" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/da_turnIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="12.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/da_fullTextLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="@color/da_primary_text" android:id="@id/da_fullText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/da_secondary_text" android:id="@id/da_continueText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/da_secondary_text" android:id="@id/da_noteText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nowa karta</string>
+    <string name="new_incognito_tab">Nowa karta incognito</string>
+    <string name="active_tabs">Karty</string>
+    <string name="open_all_in_new_window">Otwórz wszystkie w nowych kartach</string>
+    <string name="contextmenu_openlink_newwindow">Otwórz w nowej karcie</string>
+    <string name="contextmenu_openlink_newwindow_background">Otwórz w nowej karcie tła</string>
+    <string name="pref_content_open_in_background_summary">Otwieraj nowe karty za bieżącą</string>
+</resources>

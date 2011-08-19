@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Vibe.ActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+    </style>
+    <style name="Vibe.ActionButton" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:minWidth">60.0dip</item>
+    </style>
+    <style name="Vibe.ActionButton.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/asus_ep_ic_menu_moreoverflow</item>
+    </style>
+    <style name="Vibe.Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/act_bg</item>
+        <item name="android:actionButtonStyle">@style/Vibe.ActionButton</item>
+        <item name="android:actionBarTabStyle">@style/Vibe.ActionBarTabStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/Vibe.ActionButton.Overflow</item>
+    </style>
+</resources>

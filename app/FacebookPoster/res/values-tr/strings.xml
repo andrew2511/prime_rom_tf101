@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Seçtiğiniz metnin uzunluğu sınırı aşıyor, içeriğin bir kısmı kesilebilir.</string>
+    <string name="post_successfully">Başarıyla gönderildi</string>
+</resources>

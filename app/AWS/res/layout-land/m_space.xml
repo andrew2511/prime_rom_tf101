@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/awsbgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_header" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="2.0">
+            <ImageButton android:id="@id/backToHomeBt" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back" android:onClick="backFunction" />
+            <ImageButton android:id="@id/homeBt" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_home" android:onClick="goHomeFunction" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/headertext" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigate_root_my_webstorage" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <Button android:textSize="18.0sp" android:textColor="@color/spacetext" android:id="@id/mSyncBt" android:background="@drawable/btn_bg" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/navigate_root_my_syncfolder" android:drawableTop="@drawable/icon_syncfolder" android:layout_weight="1.0" android:onClick="mSyncBtFunction" />
+        <Button android:textSize="18.0sp" android:textColor="@color/spacetext" android:id="@id/mBackupBt" android:background="@drawable/btn_bg" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/navigate_root_my_backups" android:drawableTop="@drawable/icon_backup" android:layout_weight="1.0" android:onClick="mBackupBtFunction" />
+        <Button android:textSize="18.0sp" android:textColor="@color/spacetext" android:id="@id/mCollectionBt" android:background="@drawable/btn_bg" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/navigate_root_my_collections" android:drawableTop="@drawable/icon_collection" android:layout_weight="1.0" android:onClick="mCollectionBtFunction" />
+    </LinearLayout>
+</LinearLayout>

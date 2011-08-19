@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Retour</string>
+    <string name="localdevice">Local</string>
+    <string name="playto">Lire sur</string>
+    <string name="chooserenderdevice">Sélection de périphérique</string>
+    <string name="mediatype">Type de média</string>
+    <string name="choosemediatype">Veuillez sélectionner le type de média</string>
+    <string name="musictype">Musique</string>
+    <string name="imagetype">Photos</string>
+    <string name="videotype">Vidéos</string>
+    <string name="cant_connect_to_server">Échec de connexion au serveur. Veuillez vérifier votre connexion.</string>
+    <string name="internet_exception">Aucune connexion réseau</string>
+    <string name="internet_exception_message">Veuillez vérifier votre connexion réseau</string>
+    <string name="nodlnadevice">Veuillez allumer les périphériques DLNA de votre réseau Wi-Fi.</string>
+    <string name="notagain">Ne plus afficher ce message</string>
+    <string name="shardms">"Souhaitez-vous partager vos fichiers multimédia avec d'autres appareils ?"</string>
+    <string name="server">Serveur</string>
+    <string name="settings">Paramètres</string>
+    <string name="dms">Serveur multimédia numérique</string>
+    <string name="dmssettings">Paramètres de serveur multimédia numérique</string>
+    <string name="enable">Activer</string>
+    <string name="disable">Désactiver</string>
+    <string name="sharemediatype">Sélection du type de fichiers à partager</string>
+    <string name="selectplayer">Sélection du périphérique de lecture</string>
+    <string name="shareto">Partager via</string>
+    <string name="dms_settings_adv">Paramètres avancés</string>
+    <string name="desc_share">Modifier le dossier de partage</string>
+    <string name="title_share">Dossier partagé</string>
+    <string name="desc_friendlyname">"Modifier le nom de l'appareil"</string>
+    <string name="title_friendlyname">Nom</string>
+    <string name="msgbox_title_error">Erreur</string>
+    <string name="msgbox_msg_error_no_wifi">"Veuillez d'abord activer la connexion Wi-Fi."</string>
+    <string name="msgbox_msg_error_friendlyname">"Échec de modification du nom d'affichage."</string>
+    <string name="msgbox_msg_error_sharefolder">Échec de modification du dossier partagé.</string>
+    <string name="msgbox_msg_error_mediatype">Échec de modification du type de fichiers partagés.</string>
+    <string name="enable_dms">Activer le serveur multimédia</string>
+    <string name="disable_dms">Désactiver le serveur multimédia</string>
+    <string name="about_title">À propos</string>
+    <string name="toast_srvbusy">Le serveur est occupé. Veuillez réessayer ultérieurement.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">En écoute</string>
+    <string name="play_all">Tout lire</string>
+    <string name="party_shuffle">Lecture aléatoire</string>
+    <string name="shuffle_all">Lecture aléatoire de toutes les chansons</string>
+    <string name="wifi_quick_toggle_summary">Activer le Wi-Fi</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="slide_show">Diaporama</string>
+    <string name="wait">Veuillez patienter...</string>
+    <string name="fail_to_load">Échec du chargement</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Mémoire de stockage interne</string>
+</resources>

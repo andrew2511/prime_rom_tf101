@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="always" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="?menuTocDrawable" android:id="@id/menu_table_of_contents" android:showAsAction="always" android:actionLayout="@layout/action_table_of_contents" />
+    <item android:icon="?menuSettingsDrawable" android:id="@id/menu_reader_settings" android:title="@string/menu_reader_settings" android:showAsAction="always" />
+    <item android:id="@id/menu_book_buy" android:title="@string/book_popup_buy" android:showAsAction="never" />
+    <item android:icon="?menuAboutDrawable" android:id="@id/menu_about_the_book" android:title="@string/menu_about_the_book" android:showAsAction="never" />
+    <item android:icon="?menuPinDrawable" android:id="@id/menu_keep_on_device" android:title="@string/menu_reader_available_offline" android:checkable="true" android:showAsAction="never" />
+    <item android:id="@id/menu_share" android:title="@string/book_popup_share" android:showAsAction="never" />
+    <item android:id="@id/menu_help" android:title="@string/menu_help" android:showAsAction="never" />
+</menu>

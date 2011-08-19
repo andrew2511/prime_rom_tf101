@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <com.google.android.maps.driveabout.app.RecordingLevelsView android:layout_gravity="center_horizontal" android:id="@id/da_recording_levels" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/da_email_me_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/da_email_me_when_resolved" />
+</LinearLayout>

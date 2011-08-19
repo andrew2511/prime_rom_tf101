@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wyszukiwarka Google</string>
+    <string name="remove_from_history">Usuń z historii wyszukiwania</string>
+    <string name="remove_from_history_failed">Usunięcie pozycji z historii nie powiodło się</string>
+    <string name="menu_settings">Ustawienia wyszukiwania</string>
+    <string name="search_settings">Ustawienia wyszukiwarki Google</string>
+    <string name="google_settings_category_title">Wyszukiwarka Google</string>
+    <string name="device_settings_category_title">Szukaj urządzenia</string>
+    <string name="search_sources">Elementy do przeszukiwania</string>
+    <string name="search_sources_summary">Wybierz elementy przeszukiwane w telefonie</string>
+    <string name="clear_shortcuts">Wyczyść skróty</string>
+    <string name="clear_shortcuts_summary">Wyczyść skróty do ostatnio wybranych propozycji wyszukiwania</string>
+    <string name="clear_shortcuts_prompt">"Spowoduje to wyczyszczenie wszystkich skrótów do ostatnio wybranych propozycji wyszukiwania.
+
+(Aby wyczyścić historię przeglądarki, użyj ustawień przeglądarki)."</string>
+    <string name="clear_shortcuts_agree">Wyczyść skróty</string>
+    <string name="clear_shortcuts_disagree">Nie czyść skrótów</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Wyszukiwarka Google</string>
+    <string name="google_search_description">Sugestie wyszukiwania Google</string>
+    <string name="first_run_title">Wyszukiwarka Google</string>
+    <string name="tos_button_text">Przeczytaj Warunki korzystania z usługi</string>
+    <string name="yes_agree_use_location">Użyj Mojej lokalizacji w wyszukiwarce Google i innych usługach Google.</string>
+    <string name="first_run_tos">Obowiązują Warunki korzystania z usługi Google Mobile.</string>
+    <string name="use_location_title">Użyj mojej lokalizacji</string>
+    <string name="search_history">Wyszukiwanie spersonalizowane</string>
+    <string name="search_history_summary_no_account">Brak skonfigurowanych kont</string>
+    <string name="search_history_summary_enabled">Na koncie %1$s jest używana historia wyszukiwania i inne personalizacje</string>
+    <string name="search_history_summary_disabled">Historia wyszukiwania i inne spersonalizowane funkcje nie są używane</string>
+    <string name="manage_search_history">Zarządzaj historią wyszukiwania</string>
+    <string name="manage_search_history_summary_no_account">Brak skonfigurowanych kont</string>
+    <string name="manage_search_history_summary">Zaloguj się w przeglądarce na konto %1$s i otwórz Historię online</string>
+    <string name="select_google_account">Konto Google</string>
+    <string name="select_google_account_summary_no_accounts">Brak skonfigurowanych kont</string>
+    <string name="settings_tos_title">Warunki korzystania z usługi</string>
+    <string name="manage_search_history_authenticating_title">Logowanie</string>
+    <string name="manage_search_history_authenticating_message">Trwa logowanie na konto %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Anuluj</string>
+    <string name="use_google_com">Zawsze używaj witryny google.com</string>
+    <string name="current_search_base_url">Użyta domena: %1$s</string>
+    <string name="fetching_search_base_url">Trwa pobieranie adresu URL wyszukiwania...</string>
+    <string name="use_psychic">Włącz wyszukiwanie dynamiczne</string>
+    <string name="use_psychic_summary_on">Wyszukiwanie dynamiczne jest włączone (wpisz, aby wyszukać)</string>
+    <string name="use_psychic_summary_off">Wyszukiwanie dynamiczne jest wyłączone (naciśnij Enter, aby wyszukać)</string>
+    <string name="web_suggest_updating">aktualizowanie...</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+</resources>

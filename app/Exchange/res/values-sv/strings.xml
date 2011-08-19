@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Accepterat: %s</string>
+    <string name="meeting_declined">Avvisat: %s</string>
+    <string name="meeting_tentative">Preliminärt: %s</string>
+    <string name="meeting_canceled">Inställt: %s</string>
+    <string name="meeting_updated">Uppdaterat: %s</string>
+    <string name="meeting_when">När: %s</string>
+    <string name="meeting_where">Var: %s</string>
+    <string name="meeting_recurring">När: %s (återkommande)</string>
+    <string name="notification_exchange_calendar_added">Exchange-kalendern har lagts till</string>
+    <string name="app_name">Exchange-tjänster</string>
+    <string name="exception_cancel">Det här händelsen har ställts in för: %s</string>
+    <string name="exception_updated">Den här händelsens information har ändrats för: %s</string>
+</resources>

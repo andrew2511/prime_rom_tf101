@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">موقع إلكتروني</string>
+    <string name="music_title_str">موسيقى</string>
+    <string name="web_tag_str">لا يوجد عنوان URL</string>
+    <string name="music_tag_album">لا يوجد ألبوم</string>
+    <string name="music_tag_song">لا توجد أغنية</string>
+    <string name="music_tag_artist">لا يوجد فنان</string>
+    <string name="date_text_str">لا يوجد تاريخ</string>
+    <string name="cal_event_str">لا يوجد حدث أخير</string>
+    <string name="weather_info_str">لا توجد معلومات عن الطقس</string>
+    <string name="weather_content_str">لا يوجد محتوى عن الطقس</string>
+    <string name="photo_date_str">لا يوجد تاريخ للصورة</string>
+    <string name="miles_per_hour">ميل في الساعة</string>
+    <string name="windspeed">رياح شرق شمال شرقي</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="email_unit">رسائل بريد</string>
+    <string name="email_unit_single">رسالة</string>
+    <string name="event_unit">أحداث</string>
+    <string name="event_unit_single">حدث</string>
+    <string name="book_unit">كتب</string>
+    <string name="book_unit_single">كتاب</string>
+    <string name="weather_city_str">لا توجد مدينة</string>
+    <string name="date_format_title">تنسيق التاريخ</string>
+    <string name="preference_header_title">التفضيل</string>
+    <string name="slideshow_header_title">عرض الشرائح</string>
+    <string name="picture_number_title">رقم صور عرض الشرائح</string>
+    <string name="slide_show_interval_title">الفاصل الزمني لعرض الشرائح</string>
+    <string name="transition_effect_title">مؤثرات الانتقال</string>
+    <string name="enable">تمكين</string>
+    <string name="disable">تعطيل</string>
+    <string name="app_settings">إعدادات ASUS MyZine</string>
+    <string name="unit_picture">الصور</string>
+    <string name="unit_second">ثوان</string>
+    <string name="Image_headline">الصورة</string>
+    <string name="display_headline">العرض</string>
+    <string name="date_headline">التاريخ</string>
+    <string name="logo_display_title">شعار ASUS MyZine</string>
+    <string name="date_display_title">التاريخ/الوقت</string>
+    <string name="photo_date_display_title">إنشاء تاريخ الصور</string>
+    <string name="event_display_title">الحدث القادم</string>
+    <string name="weather_display_title">حالة الطقس</string>
+    <string name="scale_type_title">العرض التقديمي للصور</string>
+</resources>

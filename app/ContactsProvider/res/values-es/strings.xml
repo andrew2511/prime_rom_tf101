@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Información de los contactos</string>
+    <string name="provider_label">Contactos</string>
+    <string name="upgrade_out_of_memory_notification_ticker">La actualización del contacto necesita más memoria.</string>
+    <string name="upgrade_out_of_memory_notification_title">Espacio de almacenamiento de actualización de contactos</string>
+    <string name="upgrade_out_of_memory_notification_text">Selecciona esta opción para completar la actualización.</string>
+    <string name="default_directory">Contactos</string>
+    <string name="local_invisible_directory">Otro</string>
+</resources>

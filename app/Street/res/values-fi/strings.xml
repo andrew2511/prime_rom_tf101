@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Mene karttaan</string>
+    <string name="report_inappropriate_image">Ilmoita kuvasta</string>
+    <string name="toggle_compass_mode">Kompassitila</string>
+    <string name="compass_mode_on">Kompassi päällä.</string>
+    <string name="compass_mode_off">Kompassi poissa päältä.</string>
+    <string name="waiting_for_network">Verkkoyhteys poikki, yritetään uudelleen…</string>
+    <string name="panorama_disabled">Kuva ei ole enää käytettävissä.</string>
+    <string name="service_unavailable">Street View ei ole käytettävissä.</string>
+    <string name="loading">Ladataan</string>
+    <string name="no_panorama_data">Ei panoraamatietoja.</string>
+    <string name="invalid_panorama_data">Virheellinen panoraama.</string>
+    <string name="click_to_go_toast">Vedä ihmiskuvake kohtaan, johon haluat siirtyä.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Tämä ohjelma tarvitsee verkkoyhteyden ja yrittää luoda sen uudelleen automaattisesti. Tarkista signaali. Onko lentokone-tila käytössä? Onko roaming-tiedonsiirto pois käytöstä?</string>
+    <string name="whats_new_header">Mitä uutta Street View tarjoaa?</string>
+    <string name="whats_new_c2g">Lennä minne haluat. Tartu Pegmaniin (vasemmalla alhaalla) ja raahaa hänet sinne minne haluat mennä.</string>
+    <string name="terms_and_privacy">Käyttöehdot &amp; Tietosuoja</string>
+    <string name="terms_and_conditions">Käyttöehdot</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+</resources>

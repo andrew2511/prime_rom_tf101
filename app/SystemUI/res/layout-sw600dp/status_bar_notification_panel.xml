@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.tablet.NotificationPanel android:gravity="right" android:id="@id/panel_root" android:background="@drawable/notify_panel_bg_protect_tiled" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <RelativeLayout android:id="@id/content_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-27.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include android:layout_width="471.0dip" android:layout_height="465.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/status_bar_notification_panel_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_frame" android:background="@drawable/notify_panel_notify_bg" android:layout_width="447.0dip" android:layout_height="wrap_content" android:layout_marginTop="352.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ScrollView android:id="@id/notification_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/content" android:focusable="true" android:clickable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.systemui.statusbar.tablet.NotificationPanel>

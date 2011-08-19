@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>Dopasuj wielkość</item>
+        <item>Pełna wielkość (Obraz może być przycięty)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_levels">
+        <item>フィルタリングしない</item>
+        <item>中</item>
+        <item>強</item>
+    </string-array>
+    <string-array name="subtitles_size_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+    </string-array>
+</resources>

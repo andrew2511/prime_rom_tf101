@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>Ajustar tamaño</item>
+        <item>Tamaño completo (la imagen podría quedar recortada)</item>
+    </string-array>
+</resources>

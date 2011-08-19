@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:process="system" android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.android.systemui"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_launcher_settings" android:allowClearUserData="false" android:persistent="true" android:hardwareAccelerated="true">
+        <service android:name="SystemUIService" android:exported="true" />
+        <activity android:name=".usb.UsbStorageActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Theme.Dialog.Alert" android:name="com.android.internal.app.ExternalMediaFormatActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name=".recent.RecentApplicationsActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleInstance" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog.Alert" android:name=".usb.UsbConfirmActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog.Alert" android:name=".usb.UsbPermissionActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog.Alert" android:name=".usb.UsbResolverActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Theme.Holo.Dialog.Alert" android:name=".usb.UsbAccessoryUriActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+    </application>
+</manifest>

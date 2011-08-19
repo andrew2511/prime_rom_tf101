@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_box_padding_left">7.0dip</dimen>
+    <dimen name="suggestions_padding_right">0.0dip</dimen>
+    <dimen name="suggestions_width">400.0dip</dimen>
+    <dimen name="summons_width">390.0dip</dimen>
+    <dimen name="suggestions_height">350.0dip</dimen>
+    <dimen name="shortcuts_width">320.0dip</dimen>
+</resources>

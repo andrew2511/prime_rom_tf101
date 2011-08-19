@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:id="@id/slideShowContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.asus.Viewer.ImageViewTouchBase android:id="@id/image1_slideShow" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.asus.Viewer.ImageViewTouchBase android:id="@id/image2_slideShow" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </AbsoluteLayout>
+    <com.asus.Viewer.ViewImageLayout android:id="@id/abs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/photo_panel" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <Spinner android:id="@id/time_filter" android:layout_width="@dimen/browse_sidebar_width" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/browse_sidebar_left_margin" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/browse_sidebar_right_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/Spinner" />
+    <Spinner android:id="@id/standard_feed_filter" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_below="@id/time_filter" android:layout_alignLeft="@id/time_filter" android:layout_alignRight="@id/time_filter" style="@style/Spinner" />
+    <ListView android:id="@id/categories" android:background="#11999999" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="4.0dip" android:layout_below="@id/standard_feed_filter" android:layout_alignLeft="@id/time_filter" android:layout_alignRight="@id/time_filter" style="@style/Sidebar" />
+    <com.google.android.youtube.core.ui.PagedGridView android:id="@id/videos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/time_filter" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/video_status_item" yt:horizontalSpacing="@dimen/video_grid_horizontal_spacing" yt:verticalSpacing="@dimen/video_grid_vertical_spacing" yt:numColumns="@integer/video_grid_sidebar_columns" />
+</RelativeLayout>

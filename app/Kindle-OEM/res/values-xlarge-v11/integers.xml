@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_extra_line_spacing">50</integer>
+    <integer name="navigation_margin_percent">16</integer>
+    <integer name="default_extra_line_spacing_definition_popup">20</integer>
+    <integer name="dim_screen_time_min">4</integer>
+</resources>

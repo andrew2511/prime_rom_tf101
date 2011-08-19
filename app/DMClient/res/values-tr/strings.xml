@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">dakika</string>
+    <string name="postpone">Ertele</string>
+    <string name="update">Güncelle</string>
+    <string name="firmware_update_title">Ürün Yazılımı Güncelleme</string>
+    <string name="firmware_update_fail">"Güncelleme başarısız oldu.
+
+Aygıtınızın orijinal yapılandırması geri yüklenecek."</string>
+    <string name="low_battery_warning">"Sistem güncelleme işleminin gerçekleştirilmesi için sistem pil ömrünün en az %%%1$d olması gereklidir.
+Lütfen sistem güncellemesinden önce pili şarj edin."</string>
+    <string name="confirmDownload_textok">"Bu güncelleme dayanıklılığı artırır ve verilerinizin hiç birini silmez, bu sürüme yükseltmenizi önemle öneriyoruz.
+Lütfen güncellemeyi kabul etmek için EVETe basın."</string>
+    <string name="confirmDownload_textcancel">"Güncellemeyi iptal etmek için HAYIR'a basın."</string>
+    <string name="confirmDownload_textwifi">Güncellemeyi indirmek için ücretsiz bir Wi-Fi etkin noktası kullanmanızı öneririz.</string>
+    <string name="confirmDownload_textwifi2">Daha Sonraya basarsanız, bildirime istediğiniz zaman basarak indirme işlemine devam edebilirsiniz.</string>
+    <string name="btn_text_later">Daha sonra</string>
+    <string name="confirmDownload_dialog_title">Dikkat, uluslararası dolaşımdasınız.</string>
+    <string name="downloading">Ürün Yazılımı Karşıdan Yükleniyor...</string>
+    <string name="install_time">Tahmini Yükleme Süresi:</string>
+    <string name="postponetime_text">Erteleme süresi:</string>
+    <string name="install">Yükle</string>
+    <string name="reach_max_net_fail">İndirme işlemi sunucu tarafından iptal edildi, lütfen daha sonra yeniden deneyin.</string>
+    <string name="dlg_title_checking">Bütünlük Kontrolü.</string>
+    <string name="dlg_msg_checking">Ürün yazılımı dosyanızın bütünlüğü kontrol ediliyor.</string>
+    <string name="cannot_set_to_browser">Tarayıcıya ayarlanamıyor.</string>
+    <string name="upgrade_error">Yükseltme hatası, lütfen güncelleme paketini tekrar indirin.</string>
+    <string name="start_to_download">Kritik güncelleme paketini indirmeye başla.</string>
+    <string name="start_to_upgrade">Güncelleme paketini yükseltmeye başla.</string>
+    <string name="start_NI_dmSession">Ağ DM oturumunu başlatıyor, kabul ediyor musunuz?</string>
+    <string name="download_finished">Ürün yazılımının indirilmesi tamamlandı...</string>
+    <string name="download_in_progress">Yeni ürün yazılımının indirilmesi devam ediyor</string>
+    <string name="out_of_mem_warning">"Yetersiz alan,
+lütfen bazı uygulamaları cihazınızdan kaldırın ve tekrar deneyin."</string>
+    <string name="ui_alert_input_hint">Lütfen metin girin</string>
+    <string name="ui_alert_input_numeric_hint">Lütfen sayı girin</string>
+    <string name="ui_alert_input_phone_number_hint">Lütfen telefon numarası girin</string>
+    <string name="check_for_update">Güncellemeyi Kontrol Et</string>
+    <string name="no_new_fota_update">Şu anda aygıtınız için kullanılabilir bir güncelleme yok.</string>
+    <string name="ok">Tamam</string>
+    <string name="yes">Tamam</string>
+    <string name="no">İptal</string>
+    <string name="confirm_download_btn_Yes">Evet</string>
+    <string name="confirm_download_btn_No">Hayır</string>
+    <string name="confirm_update_title">ASUS Aygıt Yazılımı Güncellemesi.</string>
+    <string name="asus_received_title">Asus Sistem Donanım Yazılımı Güncelleme Hizmeti</string>
+    <string name="received_message">Yeni sistem donanım yazılımı güncellemesi mevcut, yükseltmek için basın.</string>
+    <string name="low_battery_title">Sistem Donanım Yazılımı Güncellemesi Sonlandırıldı</string>
+    <string name="dl_received_ticker">Yeni sistem donanım yazılımı güncellemesi mevcut.</string>
+    <string name="dl_received_message">Yeni sistem donanım yazılımı güncellemesi mevcut, indirmek için basın.</string>
+    <string name="confirmDownload_text1">Aşağıdaki sistem donanım yazılımı güncellemesini indirmek istiyor musunuz?</string>
+    <string name="received_ticker">Yeni sistem donanım yazılımı güncellemesi mevcut.</string>
+    <string name="update_dialog_text">"Aygıtınız için yeni bir sistem donanım yazılımı güncellemesi indirildi. Şimdi yüklemek ister misiniz? 
+"</string>
+    <string name="prepare_dm_download">Sistem donanım yazılımı karşıdan yüklemesi hazırlanıyor...</string>
+    <string name="system_update_activity">Sistem Donanım Yazılımı Güncellemesi</string>
+    <string name="has_new_fota_update">Aygıtınız için bir sistem donanım yazılımı güncellemesi mevcut. Lütfen bildirimleri kontrol edin.</string>
+    <string name="update_dialog_text2">Bu sistem donanım yazılımı güncellemesi dayanıklılığı iyileştirir ve verilerinizden hiçbirini silmeyecektir, bu sürüme yükseltmenizi şiddetle öneririz.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Publikacje mogą być sortowane według daty oraz tytułu. Wyboru należy dokonać przy pomocy znajdujących się u góry ekranu zakładek.</item>
+        <item>"Chcesz przeczytać więcej?
+Wybierz przycisk sklepu znajdujący się u dołu ekranu, a przejdziesz do sklepu online, gdzie znajdują się najnowsze publikacje oraz artykuły."</item>
+        <item>Wybierz menu, aby zobaczyć pozostałe opcje takie jak - sklep, więcej, usuń oraz wypisz się.</item>
+        <item>Wybierz publikację do automatycznego pobierania podczas czytania LUB wybierz przycisk pobierania i lokalnego zapisu dla przeczytania w późniejszym terminie.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/localstore_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/localstore_categories_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/localstore_categories" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/localstore_categories_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            <TextView android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_loading" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/localstore_newspapers_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/localstore_newspapers" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/localstore_newspapers_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            <TextView android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_loading" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/localstore_newspaper_supplements" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</ViewFlipper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frame_activity_filemanager_localfilelist" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="8.0">
+            <TextView android:textSize="14.0px" android:textColor="@color/filemanager_localfilelist_name" android:ellipsize="end" android:gravity="center" android:id="@id/frame_textview_filemanager_filesync_localfilelist_title" android:background="@drawable/title_local_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_filemanager_localfilelist_name" android:singleLine="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/holder_listcontrol_filemanager_filesync_localfilelist" android:background="@drawable/list_local_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/updownload_landscape_bg" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/holder_imagebutton_filemanager_filesync_download" android:layout_width="44.0px" android:layout_height="44.0px" android:layout_marginBottom="22.0px" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/holder_imagebutton_filemanager_filesync_upload" android:layout_width="44.0px" android:layout_height="44.0px" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="8.0">
+            <TextView android:textSize="14.0px" android:textColor="@color/filemanager_localfilelist_name" android:ellipsize="end" android:gravity="center" android:id="@id/frame_textview_filemanager_filesync_remotefilelist_title" android:background="@drawable/title_account_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_filemanager_contextmenu_account" android:singleLine="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/holder_listcontrol_filemanager_filesync_remotefilelist" android:background="@drawable/list_boxnet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

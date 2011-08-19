@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">网络位置</string>
+    <string name="location_warning_title">同意记录地点信息</string>
+    <string name="location_warning_message">允许 Google 的定位服务收集匿名地点数据。即使您的手机未运行任何应用程序，系统仍会收集这些数据。</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+</resources>

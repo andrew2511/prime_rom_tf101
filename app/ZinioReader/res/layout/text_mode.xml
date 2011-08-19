@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/faq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zinio.mobile.android.view.issue.TextModeLayout android:id="@id/article_text" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zinio.mobile.android.view.issue.TextModeView android:id="@id/text_mode_web_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/browse_title_bar" />
+        <RelativeLayout android:layout_gravity="bottom" android:id="@id/issue_bottom_toolbar" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+            <Button android:id="@id/img_toggle" android:background="@drawable/btn_close_background" android:focusable="false" android:layout_width="42.669983dip" android:layout_height="36.0dip" android:layout_margin="5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/bigger_font" android:background="@drawable/btn_text_big_background" android:focusable="false" android:layout_width="42.669983dip" android:layout_height="36.0dip" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/smaller_font" android:background="@drawable/btn_text_small_background" android:focusable="false" android:layout_width="42.669983dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/bigger_font" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/toolbar_divider" android:background="@drawable/bottom_bar_vertical_rule" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_marginRight="7.0dip" android:layout_toLeftOf="@id/smaller_font" android:layout_alignParentBottom="true" />
+            <Button android:id="@id/share" android:background="@drawable/btn_share_background" android:focusable="false" android:layout_width="42.669983dip" android:layout_height="36.0dip" android:layout_marginRight="7.0dip" android:layout_toLeftOf="@id/toolbar_divider" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </com.zinio.mobile.android.view.issue.TextModeLayout>
+    <include layout="@layout/download_notification_bar" />
+    <include layout="@layout/bottom_toolbar" />
+</RelativeLayout>

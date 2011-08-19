@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_to_map">Go to map</string>
+    <string name="report_inappropriate_image">Report image</string>
+    <string name="toggle_compass_mode">Compass mode</string>
+    <string name="compass_mode_on">Compass mode on.</string>
+    <string name="compass_mode_off">Compass mode off.</string>
+    <string name="panorama_disabled">Picture no longer available</string>
+    <string name="service_unavailable">Street View service unavailable.</string>
+    <string name="loading">Loading</string>
+    <string name="no_panorama_data">No panorama data set.</string>
+    <string name="invalid_panorama_data">Invalid panorama.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+</resources>

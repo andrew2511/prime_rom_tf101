@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">48.0dip</dimen>
+    <dimen name="cover_height">384.0dip</dimen>
+    <dimen name="cover_thumbnail_height">100.0dip</dimen>
+    <dimen name="reader_horizontal_margin">50.0dip</dimen>
+    <dimen name="reader_vertical_margin">70.0dip</dimen>
+    <dimen name="table_of_contents_width">300.0dip</dimen>
+    <dimen name="settings_column_width">290.0dip</dimen>
+    <dimen name="settings_column_padding">10.0dip</dimen>
+    <dimen name="search_width">350.0dip</dimen>
+    <dimen name="zoom_max_span">900.0dip</dimen>
+    <dimen name="end_of_volume_thumbnail_height">200.0dip</dimen>
+    <dimen name="scrub_height">110.0dip</dimen>
+    <dimen name="detail_texture_width">220.0dip</dimen>
+    <dimen name="detail_texture_offset_x">0.0dip</dimen>
+    <dimen name="minimum_zoom_past_edge">60.0dip</dimen>
+    <dimen name="vertical_rut">60.0dip</dimen>
+    <dimen name="ignore_touches_horizontal_margin">4.0dip</dimen>
+    <dimen name="sample_banner_text_size">14.0sp</dimen>
+    <dimen name="storage_indicator_width">400.0dip</dimen>
+    <dimen name="carousel_row_spacing">0.8000001px</dimen>
+    <dimen name="carousel_texture_scale_portrait">0.8000001px</dimen>
+    <dimen name="carousel_texture_scale_landscape">1.0px</dimen>
+</resources>

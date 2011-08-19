@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffafafa" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_gravity="top|left|center" android:id="@id/color" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="6.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:autoLink="all" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/textAppearanceLarge" />
+            <TextView android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="?android:attr/textAppearanceMedium" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/repeat_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/repeat_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_repeat_dark" />
+                <TextView android:id="@id/repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" style="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            <TextView android:id="@id/where" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="?android:attr/textAppearanceMedium" />
+            <TextView android:ellipsize="end" android:autoLink="all" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="13.0dip" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+            <TextView android:id="@id/calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:singleLine="true" style="?android:attr/textAppearanceMedium" />
+            <TextView android:ellipsize="end" android:id="@id/attendee_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" style="?android:attr/textAppearanceMedium" />
+            <LinearLayout android:orientation="vertical" android:id="@id/response_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/response_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/view_event_response_label" style="?android:attr/textAppearanceMedium" />
+                <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/response_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginBottom="13.0dip">
+                    <RadioButton android:id="@id/response_yes" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="96.0dip" android:text="@string/response_yes" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+                    <RadioButton android:id="@id/response_maybe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="96.0dip" android:text="@string/response_maybe" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+                    <RadioButton android:id="@id/response_no" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="96.0dip" android:text="@string/response_no" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="4.0dip" style="?android:attr/buttonBarStyle">
+        <Button android:enabled="false" android:id="@id/edit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/edit_event_label" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/delete" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/delete_label" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

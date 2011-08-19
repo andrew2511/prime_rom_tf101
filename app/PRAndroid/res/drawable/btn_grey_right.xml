@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/grey_4" />
+            <stroke android:width="2.0dip" android:color="#ff383838" />
+            <corners>
+                <corner android:radius="0.0dip" />
+                <corner android:radius="0.0dip" />
+                <corner android:radius="4.0dip" />
+                <corner android:radius="4.0dip" />
+                <corner android:radius="4.0dip" />
+                <corner android:radius="4.0dip" />
+                <corner android:radius="0.0dip" />
+                <corner android:radius="0.0dip" />
+            </corners>
+        </shape>
+    </item>
+</selector>

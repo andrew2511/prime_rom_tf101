@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layar</string>
+    <string name="layer">Katman</string>
+    <string name="layers">Katmanlar</string>
+    <string name="spots">Noktalar</string>
+    <string name="no_layers_popular">"Oops!
+ Şu an bulunduğunuz yerde her hangi bir katman bulunmamaktadır."</string>
+    <string name="no_layers_popular2">"
+Daha geniş bir arama kapsamı için yukarıdaki sekmelerden faydalanın."</string>
+    <string name="share_bottom">Paylaş</string>
+    <string name="add_to_favorites_bottom_button">Favorilere Ekle</string>
+    <string name="ok">Tamam</string>
+    <string name="save">Kaydet</string>
+    <string name="close">Kapat</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="accept">Kabul et</string>
+    <string name="decline">Reddet</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="apply">Uygula</string>
+    <string name="retry">Retry</string>
+    <string name="share">Paylaş</string>
+    <string name="delete">Sil</string>
+    <string name="login">Giriş</string>
+    <string name="done">Bitti</string>
+    <string name="submit">Gönder</string>
+    <string name="search">Arama</string>
+    <string name="more">Mera</string>
+    <string name="back">geri</string>
+    <string name="next">İleri ></string>
+    <string name="skip">Atla</string>
+    <string name="continueButton">Devam</string>
+    <string name="use">Kullan</string>
+    <string name="intro">Intro</string>
+    <string name="yes_i_do">Evet</string>
+    <string name="no_i_dont">hayır</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="toast_gps_disabled">GPS aktif değil</string>
+    <string name="openGPSSettingPrompt">"GPS'iniz aktif değil,aktifleştirmek ister misiniz?"</string>
+    <string name="camera_failed">Kamera donanımınıza erişilemiyor</string>
+    <string name="error_no_connection">Bağlanılamıyor</string>
+    <string name="error_no_active_connection">Aktif bir bağlantı yok</string>
+    <string name="unable_to_connect">Layar sunucusuna bağlanılamıyor, lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="error_out_of_memory">Uygulamayı başlatmak için yeterli hafıza yok. Lütfen diğer uygulamaları kapatınız.</string>
+    <string name="error_layer_deleted">Bu katman kullanılabilir değil.</string>
+    <string name="error_cant_access_layer">Şu anda istediğiniz katmana ulaşılamıyor</string>
+    <string name="error_maintenance">Layar sunucularında bazı bakım işlemleri yapılmaktadır, hizmetimiz yakında restore edilecektir</string>
+    <string name="error_maintenance_title">Onarım nedeniyle hizmet dışı</string>
+    <string name="camera_blocking_message">Bazı uygulamalar kamerayı engelliyor, yeniden başlatılmaya çalışılıyor</string>
+    <string name="camera_impossible_to_initialize">Kamera başlatılamıyor, lütfen katmanı tekrar başlatın</string>
+    <string name="terms_and_conditions">Kayıt ve şartlar</string>
+    <string name="view_reality">Gerçeklik</string>
+    <string name="view_map">Harita</string>
+    <string name="view_list">Liste</string>
+    <string name="menu_edit">Yönet</string>
+    <string name="menu_add">Ekle</string>
+    <string name="menu_nearby">@string/nearby</string>
+    <string name="menu_yours">Sizinkiler</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_filter">Filtre ayarları</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_refresh">Yenile</string>
+    <string name="menu_layer_info">Katman bilgisi</string>
+    <string name="menu_screenshot">Ekran görüntüsü</string>
+    <string name="menu_about">Layar hakkında</string>
+    <string name="menu_user">Kullanıcı</string>
+    <string name="menu_goto_ar">Gerçeklik Görüşü</string>
+    <string name="menu_goto_ar_2">Kamera görünümü</string>
+    <string name="menu_reset">Tüm Ayarları Sil</string>
+    <string name="menu_favorite">Favorilere Ekle</string>
+    <string name="menu_unfavorite">Favorilerden Sil</string>
+    <string name="menu_view_map">Haritada görüntüle</string>
+    <string name="menu_launch_layer">Katmanı Başlat</string>
+    <string name="menu_remove_all">Hepsini Sil</string>
+    <string name="menu_new_search">Yeni Arama</string>
+    <string name="menu_clear_recent">Geçmişi sil</string>
+    <string name="menu_options">Seçenekler</string>
+    <string name="dialog_remove_all_title">@string/menu_remove_all</string>
+    <string name="dialog_remove_all_message">Hepsini silmek mi istiyorsunuz ?</string>
+    <string name="trigger_always">Her zaman sor</string>
+    <string name="trigger_launch">Sormadan başlat</string>
+    <string name="trigger_never">Hiçbir zaman başlatma</string>
+    <string name="trigger_available">Bu nesneye otomatik hareket atanmıştır.</string>
+    <string name="trigger_dont_show">Bu uyarıyı tekrar gösterme</string>
+    <string name="trigger_do_launch_action">Başlat</string>
+    <string name="trigger_dont_launch_action">Başlatma</string>
+    <string name="trigger_title">Otomatik eylemler</string>
+    <string name="trigger_name">Tetikleme uyarılarını göster</string>
+    <string name="trigger_summary2">Web sayfaları, videolar ve sesler için.</string>
+    <string name="action_chooser_title">Uygulama seç</string>
+    <string name="action_context_menu_title">Hareket seç</string>
+    <string name="prefs_user_settings">Kullanıcı ayarları</string>
+    <string name="prefs_grid_category">Kamera görüntü ızgarası</string>
+    <string name="prefs_grid">Izgarayı göster</string>
+    <string name="prefs_hide_grid">Izgarayı sakla</string>
+    <string name="prefs_hide_grid_summary">Gerçeklik görüntüsünden ızgarayı kaldır</string>
+    <string name="prefs_hide_grid_summary2">Izgarayı kamera görüntüsünden kaldır</string>
+    <string name="prefs_trigger">Seçenekleri açılışta başlat</string>
+    <string name="prefs_trigger_summary">Hareketlerin,onay almadan otomatik olarak çalıştırılmasını aktif/pasif hale getir.</string>
+    <string name="prefs_trigger_help">Kamera görüntüsü,yaklaştığınız zaman, bi r web sayfasının açılması, bir ses ya da video çalınması gibi eylemleri otomatik olarak tetikleyebilir</string>
+    <string name="prefs_trigger_tel">Arama hareketleri</string>
+    <string name="prefs_trigger_sms">SMS hareketleri</string>
+    <string name="prefs_trigger_mailto">E-posta hareketleri</string>
+    <string name="prefs_trigger_http">İnternet sayfası hareketleri</string>
+    <string name="prefs_trigger_audio">Ses hareketleri</string>
+    <string name="prefs_trigger_video">Video hareketleri</string>
+    <string name="prefs_developer_settings">Geliştirici ayarları</string>
+    <string name="prefs_screenshot_nocamera">Transparan ekran görüntüsü oluştur</string>
+    <string name="prefs_screenshot_nocamera_summary">Kamera resmini ekran görüntüsünden ayır</string>
+    <string name="prefs_location_settings">Lokasyon ayarları</string>
+    <string name="prefs_location_fixed">Sabit lokasyon kullan</string>
+    <string name="prefs_location_fixed_summary">Katmanlarınızı sabit lokasyon ile test edin</string>
+    <string name="prefs_location_lat">Enlem</string>
+    <string name="prefs_location_lon">Boylam</string>
+    <string name="prefs_location_countrycode">Ülke</string>
+    <string name="prefs_location_country">Ülke seçin</string>
+    <string name="gallery_title">Katalog</string>
+    <string name="gallery_favorites">Favoriler</string>
+    <string name="gallery_recent">En son</string>
+    <string name="gallery_catalog">@string/layers</string>
+    <string name="gallery_settings">@string/menu_settings</string>
+    <string name="gallery_local">Yerel</string>
+    <string name="gallery_intl">evrensel</string>
+    <string name="gallery_nearby">@string/nearby</string>
+    <string name="gallery_featured">Seçtikleriniz</string>
+    <string name="gallery_polular">Popüler</string>
+    <string name="gallery_new">yeni</string>
+    <string name="gallery_all">Tümü</string>
+    <string name="gallery_paid">Ücretli</string>
+    <string name="gallery_free">Ücretsiz</string>
+    <string name="gallery_dev">Test</string>
+    <string name="gallery_purchased">Satın alınanlar</string>
+    <string name="gallery_launch">@string/gallery_free</string>
+    <string name="gallery_loading">Katmanlar yükleniyor...</string>
+    <string name="gallery_waiting_location">Konum bilgisi bekleniyor...</string>
+    <string name="gallery_category">Kategoriler > %name%</string>
+    <string name="share_chooser_title">Katmanı paylaş</string>
+    <string name="share_layer">Katmanı paylaş</string>
+    <string name="share_screenshot">Ekran görüntüsünü paylaş</string>
+    <string name="share_success">Katman paylaşıldı</string>
+    <string name="share_success_message">Paylaşım başarıyla gerçekleştirildi!</string>
+    <string name="share_fail">Paylaşırken bir problem oluştu!</string>
+    <string name="share_message_template" formatted="false">Kontrol et %layername% Layar gerçeklik tarayıcısında!</string>
+    <string name="share_screenshot_template" formatted="false">Çektiğim bu resmi %layername% nı Layar gerçeklik tarayıcısında kullanarak kontrol et!</string>
+    <string name="share_add_location">Yer ekle</string>
+    <string name="share_location_fail">Yer ismini bulamadı</string>
+    <string name="share_subject">Bu güzel katmana bir gözat!</string>
+    <string name="share_button">Katmanı paylaş</string>
+    <string name="share_text">Bu güzel katmana bir gözat [Layar link]: http://m.layar.com/open/%name%</string>
+    <string name="layer_details_subject" formatted="false">%title% ı Layar gerçeklik tarayıcısında kontrol et!</string>
+    <string name="layer_details_body" formatted="false">"Ben Layar gerçeklik tarayıcısını %android% imde kullanıyorum ve keşfettiğim bu muhteşem katmanı paylaşmak istedim! 
+
+%isim% 
+
+%tanım% 
+Published by: %yayımcı% 
+Price: %ücret% 
+Link: %link% 
+Daha fazla katmanı görmek ve İphone ve Android için Layar gerçeklik tarayıcısını yüklemek için http://www.layar.com/ sitesini ziyaret edin"</string>
+    <string name="wow_message">Wow! Bu katmanı seviyorum!</string>
+    <string name="sharing_message_twitter_succeful">Katman Twitterda paylaşıldı!</string>
+    <string name="sharing_message_facebook_succeful">Katman Facebookta paylaşıldı!</string>
+    <string name="sharing_message_twitter_fail">Katmanın Twitterda paylaşımında bir problem oluştu:</string>
+    <string name="sharing_message_facebook_fail">Katmanın Facebookta paylaşımında bir problem oluştu:</string>
+    <string name="sharing_facebook">Facebookta paylaş</string>
+    <string name="sharing_twitter">Twitterda paylaş</string>
+    <string name="share_purpose">Lütfen hesaplardan birine link atın:</string>
+    <string name="twitter_email_info">Eğer bir Layar hesabınız yoksa, Twitterla giriş yapmak için aşağıya e posta adresinizi girin.</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="share_status">Paylaşım durumu</string>
+    <string name="share_login_alert_dialog">Sosyal bir ağa bağlandığınız zaman bir Layar hesabı oluşturulacaktır. Zaten bir Layar hesabınız var mı?</string>
+    <string name="screenshot_hold_steady">Ekran görüntüsü hazırlanıyor, Lütfen bekleyiniz...</string>
+    <string name="screenshot_processsing">Ekran görüntüsü işleniyor</string>
+    <string name="screenshot_chooser_title">Bu ekran görüntüsünü paylaş</string>
+    <string name="screenshot_subject">\#layar #screenshot %title%</string>
+    <string name="screenshot_text">"Bu güzel #layar #screenshot!'ne bir gözat [Layar link]: http://m.layar.com/open/%name%"</string>
+    <string name="screenshot_subject_nearby">\#layar #screenshot Etrafıma Bak</string>
+    <string name="screenshot_text_nearby">\#layar #screenshot ına bir göz atın!</string>
+    <string name="screenshot_camera_format">Özür dileriz. Kamera resim formatı desteklenmiyor ve ekran görüntüsünde gösterilemeyecek.</string>
+    <string name="screenshot_no_sdcard">Hafıza kartı bulunamadı</string>
+    <string name="screenshot_out_of_memory">Ekran görüntüsü almak için yeterli bellek yok. Lütfen diğer uygulamaların bir kısmını kapatıp tekrar deneyin.</string>
+    <string name="screenshot_saved_as" formatted="false">%path% - konumuna kaydedildi</string>
+    <string name="screenshot_retake">Geri al</string>
+    <string name="screenshot_preview">Önizleme</string>
+    <string name="screenshot_send_email">E postayla yolla</string>
+    <string name="screenshot_save_to_library">Kütüphaneye kaydet</string>
+    <string name="no_result_recent">Son zamanlarda açılan katman yok</string>
+    <string name="no_result_search" formatted="false">yapılan %query% da sonuç yok</string>
+    <string name="search_hint">Katman ara</string>
+    <string name="search_hint2">Katman ve nokta arayın</string>
+    <string name="search_hint3">Katmanları araştır</string>
+    <string name="search_results" formatted="false">\"%query%\" için sonuçlar</string>
+    <string name="search_no_results">Sonuç bulunamadı, farklı bir anahtar kelime deneyin</string>
+    <string name="local_no_results">Yerel katman bulunamadı</string>
+    <string name="category_no_results">Bu kategoride katman bulunamadı</string>
+    <string name="search_no_results_without_try">Sonuç Bulunamadı</string>
+    <string name="gallery_no_results">Katman bulunamadı</string>
+    <string name="search_no_spots">Herhangi bir nokta bulunamadı</string>
+    <string name="search_no_layers">@string/gallery_no_results</string>
+    <string name="search_layers_result" formatted="false">Katmanlar (%num%)</string>
+    <string name="search_result" formatted="false">%query% sonucu çıkan %num%</string>
+    <string name="search_spots_result" formatted="false">Noktalar (%num%)</string>
+    <string name="poi_action_directions">Beni oraya götür</string>
+    <string name="poi_action_directions2">Yol tarifi</string>
+    <string name="poi_action_lock">Görüntüyü kilitle</string>
+    <string name="poi_action_unlock">Görünütüyü aç</string>
+    <string name="actions">İşlemler</string>
+    <string name="distance_label">Mesafe</string>
+    <string name="distance_unit">Mesafe birimi</string>
+    <string name="distance_unit_metric">Kilometre</string>
+    <string name="distance_unit_us">Mil</string>
+    <string name="upgrade">Layarı yükselt</string>
+    <string name="upgrade_pos">Şimdi yükselt</string>
+    <string name="upgrade_neg">Sonra</string>
+    <string name="favorites_title">Favoriler</string>
+    <string name="favorites_add">Favorilere ekle</string>
+    <string name="favorites_remove">Favorilerden kaldýr</string>
+    <string name="favorites_dialog_add">Katman favorilere eklensin mi?</string>
+    <string name="favorites_dialog_remove">Katman favorilerden kaldırılsın mı?</string>
+    <string name="favorites_add_button_text">Favorilerine bir katman ekle</string>
+    <string name="favorites_edit_alert_title">Kaydedilmeyen değişiklikler</string>
+    <string name="favorites_edit_alert_message">Yaptığınız değişiklikler kaybolacaktır. Devam etmek istiyor musunuz?</string>
+    <string name="audio_loading">Ses yükleniyor</string>
+    <string name="audio_error">Özür dileriz, bu ses çalınamıyor.</string>
+    <string name="audio_error_title">Ses çalınamıyor</string>
+    <string name="video_loading">Video yükleniyor</string>
+    <string name="details_no_content">İçerik yok</string>
+    <string name="details_loading">Yükleniyor...</string>
+    <string name="copy_link">Bağlantıyı kopyala</string>
+    <string name="copy_message">Bağlantı kopyalandı</string>
+    <string name="copy_message_fail">Kopyalanacak hiçbir şey yok</string>
+    <string name="filter_settings_title">Filtre ayarları</string>
+    <string name="filter_auto_range">Menzili otomatik olarak ayarla</string>
+    <string name="main_showing_terms">Şartlar gösteriliyor</string>
+    <string name="main_downloading_categories">Kategoriler Yenileniyor</string>
+    <string name="main_check_updates">Güncellemeler kontrol ediliyor</string>
+    <string name="main_ready">Katmanlar hazır</string>
+    <string name="status_range">Menzil</string>
+    <string name="status_accuracy">Hassasiyet</string>
+    <string name="status_not_available">N/A</string>
+    <string name="status_waiting_location">Konum bilgisi bekleniyor...</string>
+    <string name="status_authentication_required">Katmanı kullanmak için lütfen giriş yapınız</string>
+    <string name="status_progress_get_results">Sonuçlar alınıyor..</string>
+    <string name="status_progress_loading_image">Resim yükleniyor...</string>
+    <string name="status_progress_loading_3dmodel">3D model yükleniyor...</string>
+    <string name="status_progress_failed_3dmodel">3D model yükleme başarısız oldu.Lütfen yenilemek için deneyin!</string>
+    <string name="status_results_found" formatted="false">%num% sonuç bulundu</string>
+    <string name="status_no_results_found">Sonuç bulunamadı</string>
+    <string name="status_something_went_wrong">Oops! Bilinmeyen hata. Lütfen sonra tekrar deneyiniz!</string>
+    <string name="status_layer_unpublished">Bu katman sahibi tarafından yayımlanmadı</string>
+    <string name="progress_searching">Aranıyor...</string>
+    <string name="progress_processing">İşleniyor...</string>
+    <string name="progress_loading">Yükleniyor...</string>
+    <string name="progress_loading_layer">Katman yükleniyor...</string>
+    <string name="user_username">Kullanıcı adı</string>
+    <string name="user_email">Email</string>
+    <string name="user_username_or_email">Kullanıcı adı veya email</string>
+    <string name="user_password">Şifre</string>
+    <string name="user_login">Giriş</string>
+    <string name="user_invite_button">Arkadaşlarını davet et</string>
+    <string name="user_invite_facebook">Facebook</string>
+    <string name="user_invite_twitter">Twitter</string>
+    <string name="user_invite_phone">Telefon bağlantıları</string>
+    <string name="user_invite_have_friends_template" formatted="false">Layarda %num% arkadaşın var</string>
+    <string name="user_invite_more_friends">Eğlenceye katılmak için daha fazla arkadaşını davet et</string>
+    <string name="user_invite_nobody_added">Hiç arkadaş eklenmedi</string>
+    <string name="user_invite_pending_template" formatted="false">%num% arkadaş(lar) beklemede</string>
+    <string name="user_invite_default_message">Arkadaşlarını davet etmek ister misin?</string>
+    <string name="user_invite_no_friends">Ağında hiç arkadaşın yok. Atlanıyor...</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">E posta</string>
+    <string name="connect_account">Hesaplara bağlan</string>
+    <string name="user_add_account">Hesap ekle</string>
+    <string name="user_add_account_text">Bu Layar hesabını Facebook ve Twitter hesabına bağlamak için iyi bir an!</string>
+    <string name="user_add_account_cancel">Ahh, başka zamana...</string>
+    <string name="user_add_facebook">Facebook hesabını ekle</string>
+    <string name="user_add_twitter">Twitter hesabını ekle</string>
+    <string name="user_add_social" formatted="false">Bağlan %socialname% hesap</string>
+    <string name="user_remove_social" formatted="false">bağlantıyı kes %sosyal isim% hesap</string>
+    <string name="user_twitter_email_title">Twittera bağlan</string>
+    <string name="social_associating">Biraz bekleyin lütfen...</string>
+    <string name="social_associating_error">Üzgünüz, hesabınıza bağlanırken bir problem oluştu</string>
+    <string name="social_disconnected" formatted="false">Hesabınızın bağlantısı %type% tan kesildi</string>
+    <string name="social_disconnecting" formatted="false">Hesabınızın bağlantısı %type% tan kesiliyor</string>
+    <string name="social_disconnect_fail" formatted="false">Bağlantının %type% tan kesilmesinde hata oluştu</string>
+    <string name="social_disconnect_title">Bağlantıyı kes?</string>
+    <string name="social_disconnect_message" formatted="false">Gerçekten %type% hesabınızın bağlantısını kesmek mi istiyorsunuz?</string>
+    <string name="social_associating_success">Hesaplarınız bağlantılandı</string>
+    <string name="social_associating_dialog">Tekrar denemek ister misiniz?</string>
+    <string name="add_email">E posta ekle</string>
+    <string name="add_email_error_exists">Bu e posta adresi çoktan eklenmiş</string>
+    <string name="user_welcome_title">Layar gerçeklik tarayıcısına hoş geldiniz</string>
+    <string name="user_welcome_title2">@string/menu_user</string>
+    <string name="user_welcome_text">Katmanları satın almak için hesaba ihtiyacınız var</string>
+    <string name="user_welcome_create_account">Hesap oluştur</string>
+    <string name="user_welcome_facebook">Facebook hesabı ile bağlan</string>
+    <string name="user_welcome_social" formatted="false">%socialname% kullanarak giriş yap</string>
+    <string name="user_welcome_not_now">Şimdi değil, daha sonra hatırlat</string>
+    <string name="user_welcome_never">Tekrar sorma</string>
+    <string name="setting_up_social_connection" formatted="false">%socialname% bağlantınız ayarlanıyor...</string>
+    <string name="you_are_logged_in_with_social" formatted="false">Şu anda %socialname% le hesabınıza giriş yapmış bulunmaktasınız</string>
+    <string name="social_connect_didnt_work" formatted="false">Üzgünüz %socialname% le giriş yapılamadı</string>
+    <string name="user_create_title">Hesap oluştur</string>
+    <string name="user_create_keep_informed">Bültenler için hesap oluştur</string>
+    <string name="user_create_keep_informed2">E posta haberleri ve güncellemeler</string>
+    <string name="user_create_create">Hesap oluştur</string>
+    <string name="user_create_privacy2">Aşağıdaki butona basarak <a>gizlilik politikasında</a> yer alan maddeleri kabul etmiş oluyorsunuz.</string>
+    <string name="user_create_privacy3">"Kullanıcı adınız başkaları tarafından görülebilecek. 
+ E posta adresiniz asla yayımlanmayacak ve paylaşılmayacak. 
+ Sizi spam olarak da kabul etmeyeceğiz. 
+ Gizlilik politikamız için www.layar.com/legal/privacy/ adresini ziyaret edin"</string>
+    <string name="user_exists_title">Kullanıcı adı kullanımda</string>
+    <string name="user_exists">"Kullanıcı adı geçersiz.
+Başka bir isim seçiniz."</string>
+    <string name="user_email_exists_title">Email kullanımda</string>
+    <string name="user_email_exists">Bu email ile ilişkilendirilmiş bir hesap bulunmaktadır.</string>
+    <string name="user_twitter_email_exists_message">Lütfen Twittera bağlanmadan önce Layara girişiniz yapın.</string>
+    <string name="user_email_invalid_title">Geçersiz email</string>
+    <string name="user_email_invalid">Geçerli bir email adresi giriniz.</string>
+    <string name="user_username_length_title">Geçersiz kullanıcı adı</string>
+    <string name="user_username_length">Kullanıcı adı minimum 4 karakter içermelidir.</string>
+    <string name="user_invalid_username">Kullanıcı adınız alfabedeki harflerden ve rakamlardan oluşmalıdır. En az 4 en fazla 16 karakter uzunluğunda olmalıdır.</string>
+    <string name="user_password_length_title">Geçersiz şifre</string>
+    <string name="user_password_length">Şifre minimum 6 karakter içermelidir.</string>
+    <string name="user_invalid_password">Şifreniz en az 6 en fazla 12 karakter uzunluğunda olmalıdır.</string>
+    <string name="success_user_create">Hesap oluşturuldu! Çok az kaldı…</string>
+    <string name="user_creation_confirmation_text">Herhangi birşey satın almadan önceesabınızı doğrulamanız gerekmektedir.Size bir aktivason maili yolladık lütfen gelen kutunuzu kontrol ediniz.</string>
+    <string name="account_creation_confirmation_text">Hesabınızı doğrulamanız gerekecektır. Bu amaçla size bir e-mail göndermiş bulunmaktayız. Lütfen mailinizi kontrol ediniz.</string>
+    <string name="wrong_username_password">Giriş başarısız yanlış kullanıcı adı veya şifre.</string>
+    <string name="account_suspended">Özür dileriz hesap engellenmiştir. Lütfen başka hesap deneyiniz yada Vazgeç butonuna basınız.</string>
+    <string name="error_logging_in">Özür dileriz giriş başarasız. Lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="error_creating_user">Özür dileriz. Hesap oluşturulamadı. Tekrar deneyiniz</string>
+    <string name="status_logging_in">Giriş yapılıyor…</string>
+    <string name="user_forgot_password_title">Şifre yenileme</string>
+    <string name="user_forgot_password_link_text"><u>Şifrenizi mi unuttunuz?</u></string>
+    <string name="user_forgot_password_header_text">Bize mail adresinizi veerin bizde size şifrenizi yenilemeniz için link gönderelim.</string>
+    <string name="user_forgot_password_sent_confirmation_text">Şifrenizi nasıl yenileyeceğinizi anlatan bir mail yolladık.</string>
+    <string name="user_error_recovery_password">Özür dileriz, şifreniz yenilenirken bir sorun oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="user_error_nonexistant_email">Oops, bu email adresine kayıtlı bir hesap bulunamadı.</string>
+    <string name="user_verification_prompt_title">Doğrulama talebi</string>
+    <string name="user_verification_prompt_text">Herhangi bir şey satın almadan önce hesabınız doğrulamanız gerekmektedir.</string>
+    <string name="user_verification_prompt_send_again">Doğrulama linkini tekrar gönder</string>
+    <string name="user_verification_prompt_login_another">Farklı bir hesap ile oturum aç</string>
+    <string name="user_verification_prompt_login_incorrect">Özür dileriz bu hesap da doğrulanmamış. Lütfen doğrulanmış bir hesap kullanınız.</string>
+    <string name="user_login_prompt_for_purchase">Katman satın alabilmek için hesap oluşturunuz.</string>
+    <string name="account_verified">Hesabınız doğrulanmış.</string>
+    <string name="account_not_verified">Hesabınız doğrulanmamış.</string>
+    <string name="send_verification"><u>Doğrulama linkini tekrar gönder</u></string>
+    <string name="error_sending_verification_link">Doðrulama linki yollanırken bir hata oluştu.</string>
+    <string name="account_verification_link_sent">Hesabınız doðrulamanız için size bir link yolladık.</string>
+    <string name="multiple_login_title">Tekrar giriş yap</string>
+    <string name="multiple_login_message">Kayıtlarımız göre, en son farklı bir cihazdan giriş yapmışsınız. Güvenlik nedeniyle, Tekrar giriş yapmalısınız...</string>
+    <string name="multiple_login_warning">Hesabınızın farklı birisi tarafından kullanıldığını mı düşünüyorsunuz?</string>
+    <string name="multiple_login_let_us_know">Bizi haberdar ediniz</string>
+    <string name="layer_actions">Katman işlemleri</string>
+    <string name="layer_action_launch">Çalıştır</string>
+    <string name="layer_action_purchase">Satın al</string>
+    <string name="logged_in_as" formatted="false">%name% olarak giriş yaptınız.</string>
+    <string name="logout">Çıkış</string>
+    <string name="user_logged_out">Çıkış yaptınız.</string>
+    <string name="error_logging_out">Çıkış başarısız. Tekrar deneyiniz.</string>
+    <string name="development_mode_description">Geliştirici modunda giriş yapmak için yetkiniz var. Seçilmiş test katmanlarını görüntülemek için, geliştirici modunu aktifleştiriniz .</string>
+    <string name="account_needed_do_this">Bu işlem için hesabınız olması gerekmektedir...</string>
+    <string name="account_needed_view_content">Bu sayfayı görmek için giriş yapınız yada üye olunuz.</string>
+    <string name="purchase_layer">Katman satın al</string>
+    <string name="error_retrieving_providers">Ödeme sağlayıcılarına erişilemiyor</string>
+    <string name="initiating_payment">Ödeme yapılandırılıyor...</string>
+    <string name="error_initiating_payment">Ödeme yapılandırılamadı</string>
+    <string name="purchase_failed_description">Özür dileriz ödeme işlemi gerçekleştirilemdi.</string>
+    <string name="purchase_failed_description2">Üzgünüz, bir şeyler yanlış gitti ve alışverişinizi tamamlayamadık. Lütfen tekrar deneyin.</string>
+    <string name="try_purchase_again" formatted="false">%paymentprovider% ile tekrar deneyiniz</string>
+    <string name="choose_another_payment_provider">Farklı bir ödeme sağlayıcı seçiniz</string>
+    <string name="purchase_succeeded_description">Başarılı! Katmanı satın aldığınız için teşekkürler</string>
+    <string name="payment_provider_limitation">"Şu anda, eğer paypal hesabınız varsa sadece Amerika, ıngiltere, Avustralya, veya Canada'dan alışveriş yapabilirsiniz.
+
+Diğer ülkeler de yakında eklenecektir…"</string>
+    <string name="pay_with">İle öde</string>
+    <string name="purchase_message_one" formatted="false">Katmanı %layername% yayımcıdan %publisher% satın almak üzeresiniz. Ödeme işlemlerine geçmek için aşağıyı tıklayınız.</string>
+    <string name="purchase_message_more" formatted="false">Katmanı %layername% yayımcıdan %publisher% satın almak üzeresiniz Ödeme işlemlerine geçmek için ödeme şeklinizi seçiniz</string>
+    <string name="welcome_skip_dialog_title">Hesap oluşturulmamış</string>
+    <string name="welcome_skip_dialog_message">Başka bir zaman hesap oluşturmak istermiziniz?</string>
+    <string name="welcome_skip_dialog_message2">Bu,ücretli katmanları satın almayı gerektirir.</string>
+    <string name="welcome_skip_dialog_remind">Daha sonra hatırlat</string>
+    <string name="welcome_skip_dialog_dontask">Tekrar sorma</string>
+    <string name="ratings_rate_layer">Katmanı oyla</string>
+    <string name="ratings_stars_1">Nefret ettim</string>
+    <string name="ratings_stars_2">Sevmedim</string>
+    <string name="ratings_stars_3">Fena değil</string>
+    <string name="ratings_stars_4">Sevdim</string>
+    <string name="ratings_stars_5">Bayıldım</string>
+    <string name="ratings_rate">Derece</string>
+    <string name="layer_report_problem">Problem Rapor Et</string>
+    <string name="nearby">Yakında</string>
+    <string name="details">Detaylar</string>
+    <string name="favorite_spot">Noktalarıma ekle</string>
+    <string name="unfavorite_spot">Noktalarımdan cıkar</string>
+    <string name="open_layer">Katmanı Aç</string>
+    <string name="loading_more2">yükleniyor...</string>
+    <string name="loading_more">Fazla Bilgi Yükleniyor...</string>
+    <string name="hide_this_layer">Katmanı gizle</string>
+    <string name="unhide_this_layer">Katmanı göster</string>
+    <string name="no_description">Açıklama Yok</string>
+    <string name="poidetails_more_items_message" formatted="false">Bu katmanda senin etrafında bunun gibi %num% parça daha var</string>
+    <string name="poidetails_one_more_item_message">Bu katmanda senin etrafında bunun gibi 1 parça daha var</string>
+    <string name="spot_actions">Nokta işlemleri</string>
+    <string name="filter_title">Filtreler</string>
+    <string name="filter_select_all">Hepsini Seç</string>
+    <string name="filter_item_categories">Kategoriler</string>
+    <string name="filter_item_categories_empty">Herhangi bir kategori seçilmedi</string>
+    <string name="filter_item_categories_more" formatted="false">%0%, %1% ve %n% diğeri seçildi</string>
+    <string name="filter_item_categories_all">Tüm kategoriler seçildi</string>
+    <string name="filter_item_hidden_layer">Gizli katmanlar</string>
+    <string name="filter_item_hidden_layer_empty">Gizli katman yok</string>
+    <string name="filter_item_hidden_layer_more" formatted="false">%0%, %1% ve %n% diğeri gizlendi</string>
+    <string name="filter_item_hidden_layer_unhide">Gizlemeyi kaldırmak için katmana tıklayın</string>
+    <string name="filter_item_range">Özel Mesafe</string>
+    <string name="filter_item_range_default">Varsayılan mesafeyi kullan</string>
+    <string name="filter_item_range_message" formatted="false">%value% değerinden ilerideki noktaları gösterme</string>
+    <string name="filter_item_paid">Ücretli içeriği göster</string>
+    <string name="filter_item_paid_true">Ücretli katmanlardan noktalar göster</string>
+    <string name="filter_item_paid_false">Ücretli katmanlardan noktaları gösterme</string>
+    <string name="filter_reset">Filtreleri sıfırla</string>
+    <string name="custom_filter_range_settings">@string/status_range</string>
+    <string name="custom_filter_range_text" formatted="false">%value% yarıçapı içinde yer alan noktalar gösteriliyor.</string>
+    <string name="custom_filter_layer_settings">Katman ayarları</string>
+    <string name="custom_filter_camera_settings">Kamera görünümü ayarları</string>
+    <string name="custom_filter_camera_bird_eye">Kuş bakışı görünüm</string>
+    <string name="custom_filter_camera_hide_grid">@string/prefs_hide_grid</string>
+    <string name="notification_auto_refresh">Yenilemek icin tıklayın</string>
+    <string name="poi" />
+    <string name="prefs_developer_enable" />
+    <string name="prefs_developer_id" />
+    <string name="help">yardım</string>
+    <string name="user_create_privacy" />
+    <string name="prefs_developer_key" />
+    <string name="prefs_developer_enable_summary" />
+    <string name="select_layer" />
+    <string name="welcome_title">Layar gerçeklik tarayıcısına hoşgeldiniz</string>
+    <string name="welcome_intro">Layar gerçeklik tarayıcısı , çıplak gözle göremediklerinizi gösteren çok güzel bir Arttırılmış gerçeklik uygulamasıdır.</string>
+    <string name="welcome_tip1">Seçtiğiniz katmanlarla arttırılmış olan <b>dünyayı görün</b>.</string>
+    <string name="welcome_tip2">Ücretli ve ücretsiz yüzlerce katmandan oluşan bir katalog.</string>
+    <string name="welcome_tip3">Tüm özellikleri kullanabilmek için <b>Hesap</b> oluşturun.</string>
+    <string name="welcome_tip4"><b>Yakında</b>.Layar Stream ile yakındaki noktaları arayın ve keşfedin.</string>
+    <string name="welcome_skip2"><u>"Layar'ı Başlat"</u></string>
+    <string name="welcome_start_app">Layar > yi kullanarak başla;</string>
+    <string name="welcome_back_app">Layar > ye geri dön;</string>
+    <string name="ws_text_000">Layar etrafınınzdaki dünya hakkında bilgi sahibi olmanıza yardım eder.</string>
+    <string name="ws_text_001">Katalogta keşfedilmeyi bekleyen 2000den fazla katman var.</string>
+    <string name="ws_text_002">Dünyanıza bambaşka bir yoldan bakmak için, katmanınızı seçin ve cihazınız tutun!</string>
+    <string name="ws_title_0031">Favoriler</string>
+    <string name="ws_title_0032">Ekranlar</string>
+    <string name="ws_title_0033">Paylaşım</string>
+    <string name="ws_text_0031">Kullanışlı bir listede favorileriniz kaydedin ve daha sonra onlara geri dönün</string>
+    <string name="ws_text_0032">Kameranızla bir enstantane yakalayın ve nerede isterseniz paylaşın!</string>
+    <string name="ws_text_0033">Sosyal medya, e posta ve SMS yoluyla, favori katmanınızın yaygınlaşmasını sağlayın.</string>
+</resources>

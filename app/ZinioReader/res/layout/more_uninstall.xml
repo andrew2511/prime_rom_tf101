@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="true" android:textSize="18.0sp" android:textColor="@color/more_item_text_color" android:id="@id/more_uninstall" android:background="@color/invisible" android:paddingLeft="28.0dip" android:paddingTop="14.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/uninstall" />
+    <View android:id="@id/more_uninstall_line" android:background="@drawable/lib_item_divider" android:layout_width="wrap_content" android:layout_height="4.0dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="14.0dip" />
+</merge>

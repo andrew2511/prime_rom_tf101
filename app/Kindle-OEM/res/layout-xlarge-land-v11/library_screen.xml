@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.library.ui.LibraryScreen android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amazon.kcp.library.ui.SnowView android:id="@id/snow_view" android:visibility="gone" style="@style/fill" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/library_filter_container" android:layout_width="wrap_content" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:text="@string/lib_title" style="@style/library_type_label" />
+            <fragment android:layout_width="@dimen/lib_states_width" android:layout_height="fill_parent" class="com.amazon.kcp.library.UnifiedLibraryActivity$LibraryFilterListFragment" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/book_list_stub" android:layout="@layout/library_books_list" android:inflatedId="@id/book_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ViewStub android:id="@id/book_grid_stub" android:layout="@layout/library_books_grid" android:inflatedId="@id/book_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ViewStub android:id="@id/book_gallery_stub" android:layout="@layout/library_books_gallery" android:inflatedId="@id/book_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/library_state_menu_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/empty_home_tip_stub" android:layout="@layout/empty_home_tip" android:inflatedId="@id/empty_home_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/empty_ai_tip_stub" android:layout="@layout/empty_ai_tip" android:inflatedId="@id/empty_ai_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/sync_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.amazon.kcp.library.ui.LibraryScreen>

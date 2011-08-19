@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Maps Navigatie</string>
+    <string name="da_net_fail_title">Netwerkfout</string>
+    <string name="da_net_fail_body">Deze toepassing vereist een werkende gegevensverbinding.</string>
+    <string name="da_beta">Bèta</string>
+    <string name="da_destination">Bestemming</string>
+    <string name="da_toward">richting %1$s</string>
+    <string name="da_onto">naar %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"vervolgens
+%1$s"</string>
+    <string name="da_continue_for_distance">Rechtdoor voor %1$s</string>
+    <string name="da_destination_will_be_on_the_left">uw bestemming bevindt zich aan de linkerkant.</string>
+    <string name="da_destination_will_be_on_the_right">uw bestemming bevindt zich aan de rechterkant.</string>
+    <string name="da_you_will_reach_destination">u arriveert op uw bestemming.</string>
+    <string name="da_destination_on_the_left">Uw bestemming bevindt zich aan de linkerkant.</string>
+    <string name="da_destination_on_the_right">Uw bestemming bevindt zich aan de rechterkant.</string>
+    <string name="da_destination_reached">U bent gearriveerd.</string>
+    <string name="da_speech_lost_gps">GPS-signaal verloren</string>
+    <string name="da_speech_lost_data_connection">Dataverbinding verbroken</string>
+    <string name="da_speech_navigation_resumed">Navigatie hervat</string>
+    <string name="da_speech_please_describe_problem">Beschrijf het probleem</string>
+    <string name="da_on_left">aan linkerkant</string>
+    <string name="da_on_right">aan rechterkant</string>
+    <string name="da_stay_on_road_primary">Blijf op %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s naar %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s naar %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mijl</string>
+    <string name="da_distance_format_miles_compressed">{0} mijl</string>
+    <string name="da_distance_format_feet_abbreviated">{0} vt</string>
+    <string name="da_distance_format_feet_compressed">{0} vt</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0}yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s uur</string>
+    <string name="da_time_format_hours" formatted="false">%1$s uur %2$s min.</string>
+    <string name="da_time_format_minutes">%1$s min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigatie</string>
+    <string name="da_search_label">Zoeken</string>
+    <string name="da_layers">Lagen</string>
+    <string name="da_agreement">"Google Maps Navigatie verkeert in het bètastadium. Wees voorzichtig.
+
+Gebruik deze toepassing niet tijdens het rijden. Verkeersgegevens zijn niet real-time en routebeschrijvingen zijn mogelijk onjuist, gevaarlijk, verboden of hebben betrekking op veerboten. Houd u aan de verkeersregels.
+
+Houd uw ogen op de weg!"</string>
+    <string name="da_agreement_with_walking">"Google Maps Navigatie verkeert in het bètastadium. Wees voorzichtig.
+
+Gebruik deze toepassing niet tijdens het rijden. Verkeersgegevens zijn niet real-time en routebeschrijvingen zijn mogelijk onjuist, gevaarlijk, verboden of hebben betrekking op veerboten. Voor wandelroutes kunnen stoepen of voetpaden ontbreken. Houd u aan de verkeersregels.
+
+Houd uw ogen op de weg!"</string>
+    <string name="da_disclaimer_checkbox">Dit bericht de volgende keer weergeven</string>
+    <string name="da_show_list">Routebeschrijving</string>
+    <string name="da_route_overview">Routegegevens</string>
+    <string name="da_show_map">Kaart weergeven</string>
+    <string name="da_satellite">Satelliet</string>
+    <string name="da_traffic_view">Verkeersoverzicht</string>
+    <string name="da_no_traffic_here">Geen verkeersinfo hier</string>
+    <string name="da_traffic">Verkeer</string>
+    <string name="da_area_view">Gebiedsweergave</string>
+    <string name="da_mute">Geluid uit</string>
+    <string name="da_unmute">Geluid aan</string>
+    <string name="da_settings">Instellingen</string>
+    <string name="da_help">Help</string>
+    <string name="da_terms_privacy_notices">Voorwaarden en privacy</string>
+    <string name="da_terms_and_conditions">Algemene voorwaarden</string>
+    <string name="da_privacy_policy">Privacybeleid</string>
+    <string name="da_legal_notices">Juridische informatie</string>
+    <string name="da_navigation_suspended">Navigatie opgeschort</string>
+    <string name="da_exit_navigation">Navigatie afsluiten</string>
+    <string name="da_email_me_when_resolved">Stuur mij een e-mail als het is opgelost</string>
+    <string name="da_problem_reported">Probleem gemeld</string>
+    <string name="da_one_button_map_issue_reporting">Sneltoets voor melding probleem</string>
+    <string name="da_attention">Waarschuwing</string>
+    <string name="da_rmi_warning">"Met 'Een probleem melden' kunt u een kort spraakbericht opnemen met een beschrijving van een probleem met de kaart of met de route. Na vijftien seconden wordt uw bericht automatisch naar Google verzonden, samen met uw huidige locatie en route.
+
+Een éénkliks sneltoets kan worden ingeschakeld in de toepassingsinstellingen.
+
+ Als u ervoor kiest een e-mailupdate te ontvangen wanneer het probleem is opgelost, wordt uw e-mailadres samen met de locatie en uw opmerkingen opgeslagen totdat het probleem is opgelost."</string>
+    <string name="da_report_a_problem">Een probleem melden</string>
+    <string name="da_report_a_problem_dialog_title">Een probleem melden</string>
+    <string name="da_rmi_preference_trackball_summary">Indien ingeschakeld, wordt het melden van het probleem gestart als u op de trackball drukt.</string>
+    <string name="da_rmi_preference_camera_summary">Indien ingeschakeld, wordt het melden van het probleem gestart als u op de cameratoets drukt.</string>
+    <string name="da_rmi_preference_no_button_summary">Geen fysieke toetsen beschikbaar.</string>
+    <string name="da_rmi_preference_bad_location_summary">Het melden van problemen is niet beschikbaar op uw huidige locatie.</string>
+    <string name="da_destination_not_here_warning">Hartelijk dank voor de melding dat we over de verkeerde locatie voor uw bestemming beschikken. Uw huidige bestemming en locatie worden naar Google verzonden om de nauwkeurigheid van onze gegevens te verbeteren.</string>
+    <string name="da_destination_not_here_title">Een probleem melden</string>
+    <string name="da_searching_for_gps">Zoeken naar GPS...</string>
+    <string name="da_data_connection_lost">Dataverbinding verbroken...</string>
+    <string name="da_follow_the_route">De route volgen</string>
+    <string name="da_waiting_for_directions">Routebeschrijving ophalen</string>
+    <string name="da_waiting_for_walking_directions">Wandelroute ophalen</string>
+    <string name="da_waiting_for_location">Wacht op locatie</string>
+    <string name="da_checking_navigation_availability">Beschikbaarheid van navigatie controleren</string>
+    <string name="da_loading_route_details">Routedetails worden geladen</string>
+    <string name="da_loading_image">Afbeelding wordt geladen</string>
+    <string name="da_waiting_for_alternates">Er wordt naar alternatieve routes gezocht</string>
+    <string name="da_waiting_for_details">Bezig met laden</string>
+    <string name="da_no_details">Geen details beschikbaar</string>
+    <string name="da_gps_is_disabled">GPS is uitgeschakeld</string>
+    <string name="da_turn_on_gps">Locatie-instellingen weergeven?</string>
+    <string name="da_voice_guidance">Spraakbegeleiding</string>
+    <string name="da_install_voice_guidance_prompt">Voor navigatie met spraakbegeleiding moet u tekst-naar-spraak-ondersteuning installeren via Android Market.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Overslaan</string>
+    <string name="da_dialog_cancel">Annuleren</string>
+    <string name="da_dialog_done">Gereed</string>
+    <string name="da_dialog_accept">Accepteren</string>
+    <string name="da_dialog_install">Installeren</string>
+    <string name="da_dialog_dont_accept">Niet accepteren</string>
+    <string name="da_dialog_go">Ga</string>
+    <string name="da_dialog_get_directions">Routebeschrijving</string>
+    <string name="da_map">Kaart</string>
+    <string name="da_clear_layers">Kaart wissen</string>
+    <string name="da_layer_name_parking">Parkeerterrein</string>
+    <string name="da_layer_name_attractions">Attracties</string>
+    <string name="da_layer_name_gas_stations">Tankstations</string>
+    <string name="da_layer_name_restaurants">Restaurants</string>
+    <string name="da_layer_name_supermarkets">Supermarkten</string>
+    <string name="da_layer_name_atms_and_banks">Pinautomaten en banken</string>
+    <string name="da_layer_name_convenience_stores">Buurtwinkels</string>
+    <string name="da_query_banks_and_atms">Banken en pinautomaten</string>
+    <string name="da_rerouting">Route wordt gewijzigd...</string>
+    <string name="da_via">Via %s</string>
+    <string name="da_to_destination">naar %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Feedback registreren</string>
+    <string name="da_destination_not_here">Bestemming niet hier</string>
+    <string name="da_new_destination">Volgende bestemming</string>
+    <string name="da_reroute_to_destination">Terug naar bestemming</string>
+    <string name="da_change_destination">Bestemming instellen</string>
+    <string name="da_search_for_destination">Zoeken...</string>
+    <string name="da_point_on_map">Punt op kaart</string>
+    <string name="da_volume">Navigatievolume</string>
+    <string name="da_exit">Afsluiten</string>
+    <string name="da_did_you_mean">Bedoelde u:</string>
+    <string name="da_did_you_say">Zei u:</string>
+    <string name="da_for_your_end_point">Voor uw eindpunt</string>
+    <string name="da_unnamed_road">Weg zonder naam</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, vervolgens %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Over %1$s meter</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Over anderhalve kilometer</string>
+    <string name="da_speech_continue_for_x_meters">Blijf %1$s meter doorrijden</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Blijf anderhalve kilometer doorrijden</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Blijf %1$s meter doorrijden op %2$s</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Blijf anderhalve kilometer doorrijden op %1$s</string>
+    <string name="da_speech_generic_continue">Ga rechtdoor</string>
+    <string name="da_speech_in_x_feet">Over %1$s voet</string>
+    <string name="da_speech_in_x_yards">Over %1$s meter</string>
+    <string name="da_speech_in_a_quarter_mile">Over een kwart mijl</string>
+    <string name="da_speech_in_a_half_mile">Over een halve mijl</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Over driekwart mijl</string>
+    <string name="da_speech_in_one_and_a_half_miles">Over anderhalve mijl</string>
+    <string name="da_speech_continue_for_x_feet">Blijf %1$s centimeter/meter doorrijden</string>
+    <string name="da_speech_continue_for_x_yards">Blijf %1$s meter doorrijden</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Blijf een kwart kilometer doorrijden</string>
+    <string name="da_speech_continue_for_a_half_mile">Blijf een halve kilometer doorrijden</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Blijf driekwart kilometer doorrijden</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Blijf anderhalve kilometer doorrijden</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Blijf %1$s centimeter/meter doorrijden op %2$s</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Blijf %1$s meter doorrijden op %2$s</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Blijf een kwart kilometer doorrijden op %1$s</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Blijf een halve kilometer doorrijden op %1$s</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Blijf driekwart kilometer doorrijden op %1$s</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Blijf anderhalve kilometer doorrijden op %1$s</string>
+    <string name="da_route_prefixes">N,NO,O,ZO,Z,ZW,W,NW</string>
+    <string name="da_route_suffixes">Straat,Weg,Laan,Singel,Pad,Boulevard</string>
+    <string name="da_no_route">Geen route gevonden</string>
+    <string name="da_route_not_found">We hebben geen route naar uw bestemming kunnen vinden.</string>
+    <string name="da_destination_not_found">We konden de bestemming niet verstaan.</string>
+    <string name="da_navigation_not_supported">Er is geen navigatie naar uw bestemming beschikbaar.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps Navigatie is nog niet beschikbaar op deze locatie.</string>
+    <string name="da_launch_maps">Google Maps starten</string>
+    <string name="da_no_image_available">Geen afbeelding beschikbaar.</string>
+    <string name="da_image_error">Fout bij laden van afbeelding.</string>
+    <string name="da_no_alternate_routes">We hebben geen alternatieve routes naar uw bestemming kunnen vinden.</string>
+    <string name="da_picker_type_destination">Bestemming typen</string>
+    <string name="da_picker_speak_destination">Bestemming inspreken</string>
+    <string name="da_picker_contacts">Contacten</string>
+    <string name="da_picker_starred_items">Plaatsen met ster</string>
+    <string name="da_picker_new_contact">Nieuw contact</string>
+    <string name="da_picker_recent_destinations">Recente bestemmingen</string>
+    <string name="da_picker_choose_destination">Bestemming kiezen</string>
+    <string name="da_navigate_to">Navigeren naar</string>
+    <string name="da_picker_search_hint">Bestemming</string>
+    <string name="da_route_options">Routeopties</string>
+    <string name="da_updating_directions">Routebeschrijving bijwerken</string>
+    <string name="da_picker_no_starred_items">"U heeft geen plaatsen met ster.
+
+Plaatsen met ster worden automatisch gesynchroniseerd met maps.google.nl.
+
+U kunt een ster toevoegen aan zoekresultaten in Google Maps door op het sterpictogram in de buurt van het adres te tikken."</string>
+    <string name="da_picker_no_contacts">"U heeft geen contacten met adressen.
+
+U kunt nieuwe contacten toevoegen of adressen voor bestaande contacten instellen in de toepassing Contacten."</string>
+    <string name="da_driving">Auto</string>
+    <string name="da_walking">Lopen</string>
+    <string name="da_quoted_text">"'%1$s'"</string>
+    <string name="da_more_info">Meer informatie</string>
+    <string name="da_search_maps">Zoeken</string>
+    <string name="da_walking_warning">Wandelroute (bèta): pas op</string>
+    <string name="da_calibrate_compass_title">Kompaskalibratie</string>
+    <string name="da_calibrate_compass">Uw kompas is niet geijkt. Als u het kompas wilt ijken, draait u een paar keren achtjes met de telefoon.</string>
+    <string name="da_confirm_exit_title">Navigatie afsluiten?</string>
+    <string name="da_confirm_exit_text">Hiermee wordt alle routebegeleiding beëindigd.</string>
+    <string name="da_route_includes_tolls">Route bevat tolwegen</string>
+    <string name="da_avoid_tolls">Tolwegen vermijden</string>
+    <string name="da_avoiding_tolls">Tolwegen vermeden</string>
+    <string name="da_avoiding_highways">Autosnelwegen vermeden</string>
+    <string name="da_route_includes_unavoidable_tolls">Deze route bevat tolwegen.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Deze route bevat tolwegen. Schakel routes met tolwegen uit bij %1$s%2$s hieronder.</string>
+    <string name="da_seasonally_closed">Route kan in bepaalde seizoenen gesloten zijn</string>
+    <string name="da_direction_north">naar het noorden</string>
+    <string name="da_direction_north_west">naar het noordwesten</string>
+    <string name="da_direction_west">naar het westen</string>
+    <string name="da_direction_south_west">naar het zuidwesten</string>
+    <string name="da_direction_south">naar het zuiden</string>
+    <string name="da_direction_south_east">naar het zuidoosten</string>
+    <string name="da_direction_east">naar het oosten</string>
+    <string name="da_direction_north_east">naar het noordoosten</string>
+    <string name="da_step_depart">Ga %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Ga %1$s op %2$s</string>
+    <string name="da_step_slight_left">Flauwe bocht naar links</string>
+    <string name="da_step_slight_right">Flauwe bocht naar rechts</string>
+    <string name="da_step_turn_left">Sla linksaf</string>
+    <string name="da_step_turn_right">Sla rechtsaf</string>
+    <string name="da_step_sharp_left">Scherpe bocht naar links</string>
+    <string name="da_step_sharp_right">Scherpe bocht naar rechts</string>
+    <string name="da_step_slight_left_onto">Flauwe bocht naar links: %1$s</string>
+    <string name="da_step_slight_right_onto">Flauwe bocht naar rechts: %1$s</string>
+    <string name="da_step_turn_left_onto">Sla linksaf: %1$s</string>
+    <string name="da_step_turn_right_onto">Sla rechtsaf: %1$s</string>
+    <string name="da_step_sharp_left_onto">Scherpe bocht naar links: %1$s</string>
+    <string name="da_step_sharp_right_onto">Scherpe bocht naar rechts: %1$s</string>
+    <string name="da_step_fork_left">Houd links aan bij de splitsing</string>
+    <string name="da_step_fork_right">Houd rechts aan bij de splitsing</string>
+    <string name="da_step_continue_onto">Blijf op %1$s</string>
+    <string name="da_step_continue_straight">Ga rechtdoor</string>
+    <string name="da_step_u_turn">Keer op de weg</string>
+    <string name="da_step_take_the_ramp">Neem de oprit</string>
+    <string name="da_step_take_the_ramp_onto">Neem de oprit naar %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Neem de oprit aan de linkerzijde</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Neem de oprit aan de linkerkant naar %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Neem de oprit aan de rechterkant</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Neem de oprit aan de rechterkant naar %1$s</string>
+    <string name="da_step_take_the_exit">Neem de afrit</string>
+    <string name="da_step_take_the_exit_on_the_left">Neem de afrit aan de linkerkant</string>
+    <string name="da_step_take_the_exit_on_the_right">Neem de afrit aan de rechterkant</string>
+    <string name="da_step_take_the_exit_onto">Neem de afrit naar %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Neem de afrit aan de linkerkant naar %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Neem de afrit aan de rechterkant naar %1$s</string>
+    <string name="da_step_take_exit_n">Neem afrit %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Beeldmateriaal ©%2$d %3$s, Kaartgegevens ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Beeldmateriaal ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Kaartgegevens ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Thuis</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Routebeschrijving &amp; Navigatie</string>
+    <string name="EXIT_COMMAND">Afsluiten</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} vraagt u in te checken</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Latitude-verzoek voor inchecken</string>
+    <string name="GOHOME_DESTINATION_HINT">Een adres invoeren</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Pictogram snelkoppeling</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Opslaan</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Bestemming</string>
+    <string name="GOHOME_SHORTCUT_NAME">Naam snelkoppeling</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Gedetailleerde navigatie</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Instellingen openen</string>
+    <string name="HOTPOT_LOADING">Laden...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">"Voor de widget Plaatsen beoordelen moet u 'Draadloze netwerken gebruiken' (in 'Instellingen voor locatie en beveiliging') en 'Wi-Fi' (in 'Draadloze en netwerkinstellingen') inschakelen."</string>
+    <string name="HOTPOT_LOCATION_DISABLED">"Schakel 'Draadloze netwerken gebruiken' in 'Instellingen voor locatie en beveiliging' in om de widget Plaatsen beoordelen te gebruiken."</string>
+    <string name="HOTPOT_NO_LOCATION">Geen locatiegegevens</string>
+    <string name="HOTPOT_SEARCH">Zoeken</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Gezocht naar: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Nogmaals zoeken</string>
+    <string name="HOTPOT_SELECT_PLACE">Selecteer een plaats om te beoordelen</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Selecteer een plaats: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Onbekende locatie</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Locatie vernieuwen...</string>
+    <string name="HOTPOT_WIDGET_NAME">Plaatsen beoordelen</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Openbaar posten als {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Meer zeggen</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Bijgewerkt op {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"Schakel 'Wi-Fi' in 'Draadloze en netwerkinstellingen' in om de locatienauwkeurigheid van de widget Plaatsen beoordelen te verbeteren."</string>
+    <string name="HOTPOT_YOU_RATED">"Uw beoordeling: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">In {0} en gedeeld met {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Ingecheckt bij {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Inchecken bij {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Hier inchecken?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Tik om u aan te melden bij Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Laatst bijgewerkt: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Onbekende locatie</string>
+    <string name="LOADING">Laden</string>
+    <string name="MAPS_APP_NAME">Maps</string>
+    <string name="NEED_NET_BODY">Dit programma kan niet worden gebruikt totdat u toestemming geeft om de gegevens over het netwerk te ontvangen en versturen.</string>
+    <string name="NEED_NET_TITLE">Netwerktoegang vereist</string>
+    <string name="NETWORK_DATA_ERROR">Voor deze toepassing is een gegevensverbinding vereist. Neem contact op met uw serviceprovider.</string>
+    <string name="NET_FAIL_BODY">Deze toepassing vereist een werkende gegevensverbinding.</string>
+    <string name="NET_FAIL_TITLE">Netwerkfout</string>
+    <string name="NET_UNAVAILABLE_TITLE">Netwerk niet beschikbaar</string>
+    <string name="PLACES_APP_NAME">Plaatsen</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">"'bijvoorbeeld spaghetti bolognese, cocktails, muziek'"</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">"'Wat valt er op?'"</string>
+    <string name="RATINGS_OPTIN_CANCEL">Annuleren</string>
+    <string name="RATINGS_OPTIN_CLOSE">Sluiten</string>
+    <string name="RATINGS_OPTIN_FAILED">Update is mislukt. Probeer het later opnieuw.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Maak het sociaal!&lt;/b> Ga naar &lt;b>{0}&lt;/b> op uw computer om vrienden toe te voegen en hun favoriete plaatsen te ontdekken.</string>
+    <string name="RATINGS_OPTIN_HEADING">Stel uw openbare bijnaam voor Google Places in.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Naam of bijnaam: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Beoordeel uw favoriete restaurants, cafés en andere plaatsen om aanbevelingen in de zoekresultaten te ontvangen op basis van uw persoonlijke voorkeuren.</string>
+    <string name="RATINGS_OPTIN_SAVE">Aan de slag</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Uw beoordelingen van plaatsen zijn &lt;b>openbaar beschikbaar op internet&lt;/b> met deze bijnaam. &lt;a href=#>Meer informatie&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Openbaar posten op internet als {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Openbaar posten op internet.</string>
+    <string name="RATINGS_RATE_PLACES">Waarom plaatsen beoordelen?</string>
+    <string name="RATINGS_SET_APPEARANCE">Weergave instellen</string>
+    <string name="RATINGS_WAIT">Even geduld...</string>
+    <string name="SEARCH_HINT">Zoeken</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Eindpunt</string>
+    <string name="TRAFFIC_WIDGET_NAME">Verkeer</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Naam widget</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Opslaan</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Vertrekpunt</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Ernstige fout.Sluit af en start opnieuw op.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Onbekende fout</string>
+    <string name="UPGRADE_BODY">U moet een nieuwe versie installeren om het programma te kunnen gebruiken.</string>
+    <string name="UPGRADE_TITLE">Software-upgrade</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Interactieve achtergrond in Maps</string>
+    <string name="WALLPAPER_MAP_MODE">Kaartmodus</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normaal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelliet</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">"De kaartmodus, bijv. 'Satelliet'"</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Terrein</string>
+    <string name="WALLPAPER_SETTINGS">Interactieve achtergrondinstellingen voor Maps</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Verkeer weergeven</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Bekijk het actuele weer op de kaart. Hiervoor moet u de weerwidget hebben geïnstalleerd.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Weer</string>
+</resources>

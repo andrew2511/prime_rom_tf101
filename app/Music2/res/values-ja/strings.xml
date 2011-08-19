@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s、%2$s</string>
+    <string name="no_network_connection">ネットワーク接続がありません</string>
+    <string name="authentication_failure_no_network">ミュージックのアカウントを認証するにはインターネットに接続する必要があります。</string>
+    <string name="authentication_failure">認証できませんでした</string>
+    <string name="authentication_failure_error">ミュージックのアカウントを認証できません。</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">キャンセル</string>
+    <string name="save_button_text">保存</string>
+    <string name="not_save_button_text">保存しない</string>
+    <string name="shuffle_all">すべてシャッフル</string>
+    <string name="play_all">すべて再生</string>
+    <string name="songs_all">すべての曲</string>
+    <string name="shuffle">シャッフル</string>
+    <string name="search">検索</string>
+    <string name="settings">設定</string>
+    <string name="library_options">ライブラリオプション</string>
+    <string name="manage_music">オフラインで使用する</string>
+    <string name="available_offline">オフラインで利用可能</string>
+    <string name="hide_labels">ラベルを表示しない</string>
+    <string name="show_labels">ラベルを表示</string>
+    <string name="refresh">更新</string>
+    <string name="shop_artist">アーティスト別に探す</string>
+    <string name="show_offline_music_only">オフライン曲のみを表示</string>
+    <string name="gadget_all_songs_by_artist">%sのすべての曲</string>
+    <string name="list_title_all_songs_by_artist">"%s
+のすべての曲"</string>
+    <string name="new_playlist_title">プレイリストの名前</string>
+    <string name="add_to_playlist_title">プレイリストの名前</string>
+    <string name="rename_playlist_title">プレイリスト「%s」の名前を変更</string>
+    <string name="all_music">すべての音楽</string>
+    <string name="only_kept">オフラインのみ</string>
+    <string name="search_section_header_artists">アーティスト</string>
+    <string name="search_section_header_albums">アルバム</string>
+    <string name="search_section_header_songs">曲</string>
+    <string name="search_section_header_playlists">プレイリスト</string>
+    <string name="shuffle_all_songs">すべてシャッフル</string>
+    <string name="stream_settings">ストリーミング設定</string>
+    <string name="streamed_music_category">ストリーミング音楽</string>
+    <string name="refresh_title">更新</string>
+    <string name="refresh_summary">ミュージックベータ版からの音楽を更新します</string>
+    <string name="account_settings_title">Googleアカウント</string>
+    <string name="no_account_selected_summary">タップしてアカウントを選択します</string>
+    <string name="account_selected_summary">%sを使用してミュージックベータ版に接続</string>
+    <string name="hide_when_not_connected_title">利用できない音楽は表示しない</string>
+    <string name="hide_when_not_connected_summary">オフラインで利用できる音楽のみを表示する</string>
+    <string name="stream_only_on_wifi_title">Wi-Fi接続時のみ</string>
+    <string name="stream_only_on_wifi_summary">Wi-Fi接続時のみ音楽をストリーミングする</string>
+    <string name="offlinedl_only_on_wifi_title">Wi-Fi接続時のみダウンロード</string>
+    <string name="offlinedl_only_on_wifi_summary">Wi-Fi接続時のみオフライン用音楽をダウンロードする</string>
+    <string name="cache_streamed_title">音楽をキャッシュ保存</string>
+    <string name="cache_streamed_summary">ストリーミングした音楽を一時的に保存する</string>
+    <string name="download_queue_title">ダウンロードキュー</string>
+    <string name="download_queue_summary">現在ダウンロード中の曲を表示する</string>
+    <string name="help_title">ヘルプ</string>
+    <string name="help_summary">音楽アプリとGoogleのミュージックベータ版の使用方法</string>
+    <string name="library_help_title">ヘルプ</string>
+    <string name="library_help_summary">接続のトラブルシューティング</string>
+    <string name="add_account_title">アカウントの追加</string>
+    <string name="accounts_title">アカウント</string>
+    <string name="account_status_connected">接続されました</string>
+    <string name="account_status_not_connected">接続されていません</string>
+    <string name="show_no_downloads_title">ダウンロード用のキューに曲がありません</string>
+    <string name="music_version_title">ミュージックのバージョン</string>
+    <string name="music_version_summary">不明なバージョン</string>
+    <string name="list_status_summary_no_items">アイテムがありません</string>
+    <string name="list_status_summary_loading">読み込み中...</string>
+    <string name="stream_accounts_title">ストリーミング用のアカウント</string>
+    <string name="library_status_title">ストリーミングライブラリのステータス</string>
+    <string name="nowplaying_title">再生中</string>
+    <string name="artists_title">アーティスト</string>
+    <string name="albums_title">アルバム</string>
+    <string name="genres_title">ジャンル</string>
+    <string name="tracks_title">曲</string>
+    <string name="playlists_title">プレイリスト</string>
+    <string name="recent_title">新着</string>
+    <string name="search_title">検索</string>
+    <string name="no_tracks_title">曲がありません</string>
+    <string name="no_videos_title">動画がありません</string>
+    <string name="delete_playlist_menu">削除</string>
+    <string name="edit_playlist_menu">編集</string>
+    <string name="rename_playlist_menu">名前を変更</string>
+    <string name="playlist_delete_confirmation">プレイリスト「%s」を削除します。</string>
+    <string name="delete_playlist_button_confirm">削除</string>
+    <string name="playlist_deleted_message">プレイリストを削除しました。</string>
+    <string name="playlist_created_message">プレイリスト「%s」を作成しました</string>
+    <string name="playlist_renamed_message">プレイリストの名前を「%s」に変更しました</string>
+    <string name="recentlyadded">最近追加したアイテム</string>
+    <string name="recentlyadded_title">最近追加したアイテム</string>
+    <string name="podcasts_listitem">ポッドキャスト</string>
+    <string name="podcasts_title">ポッドキャスト</string>
+    <string name="unknown_artist_name">不明なアーティスト</string>
+    <string name="unknown_album_name">不明なアルバム</string>
+    <string name="unknown_playlist_name">不明なプレイリスト</string>
+    <string name="shuffle_on_notif">シャッフルをONにしました。</string>
+    <string name="shuffle_off_notif">シャッフルをOFFにしました。</string>
+    <string name="repeat_off_notif">繰り返しをOFFにしました。</string>
+    <string name="repeat_current_notif">現在の曲を繰り返し再生します。</string>
+    <string name="repeat_all_notif">全曲繰り返しで再生します。</string>
+    <string name="play_selection">再生</string>
+    <string name="add_to_playlist">プレイリストに追加</string>
+    <string name="rename_playlist_menu_item">名前を変更</string>
+    <string name="add_to_playlist_selector_title">プレイリストに追加</string>
+    <string name="queue">現在のプレイリスト</string>
+    <string name="new_playlist_for_content">新しいプレイリスト...</string>
+    <string name="new_empty_playlist">新しいプレイリスト</string>
+    <string name="new_playlist_name_template">プレイリスト%d</string>
+    <string name="playlist_too_many_songs">曲が多すぎます。各プレイリストの上限は%d曲です。</string>
+    <string name="emptyplaylist">選択したプレイリストは空です。</string>
+    <string name="playlist_edit_label">名前</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">名前を変更</string>
+    <string name="service_start_error_title">再生エラー</string>
+    <string name="service_start_error_msg">再生できません。</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">完了</string>
+    <string name="weekpicker_title">期間の設定</string>
+    <string name="save_as_playlist">プレイリストとして保存</string>
+    <string name="musicbrowserlabel">音楽</string>
+    <string name="musicshortcutlabel">ミュージックプレイリスト</string>
+    <string name="mediaplaybacklabel">音楽</string>
+    <string name="playback_failed">リクエストされたトラックの再生エラー</string>
+    <string name="cancel">キャンセル</string>
+    <string name="remove_from_playlist">プレイリストから削除</string>
+    <string name="streamloadingtext">%sに接続中</string>
+    <string name="mediasearch">%sの検索:</string>
+    <string name="search_hint">音楽を検索</string>
+    <string name="working_artists">アーティスト...</string>
+    <string name="working_albums">アルバム...</string>
+    <string name="working_songs">曲...</string>
+    <string name="working_playlists">再生リスト...</string>
+    <string name="working_genres">ジャンル...</string>
+    <string name="loading">読み込み中</string>
+    <string name="sort_by_track">トラック</string>
+    <string name="music_picker_title">音楽トラックを選択</string>
+    <string name="gadget_track">トラック%d</string>
+    <string name="fail_to_start_stream">要求されたストリームを再生できませんでした。</string>
+    <string name="search_settings_description">アーティスト、アルバム、トラック</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">音楽ライブラリ</string>
+    <string name="music_shop">ショップ</string>
+    <string name="pick">選択</string>
+    <string name="artist_unknown">アーティストが不明です</string>
+    <string name="playlists_label">プレイリスト</string>
+    <string name="playlist_label">プレイリスト</string>
+    <string name="faux_art_all_songs_label">すべての曲</string>
+    <string name="faux_art_playlist_label">プレイリスト</string>
+    <string name="loading_new">新しい音楽を読み込み中</string>
+    <string name="no_items">コレクションにアイテムがありません</string>
+    <string name="buffering">バッファリング中</string>
+    <string name="keep_on_phone">オフラインで利用可能</string>
+    <string name="sort_order_prompt">並べ替え順を選択</string>
+    <string name="provider_label">音楽</string>
+    <string name="tutorial_set_up_usb">詳細</string>
+    <string name="no_music_heading">音楽ライブラリに曲がありません</string>
+    <string name="no_music_setup_uploader_heading">ワイヤレスで音楽をストリーミング</string>
+    <string name="no_music_setup_uploader_body">Googleのミュージックベータ版を使用すると、個人の音楽コレクションをストリーミング再生できるようになります。</string>
+    <string name="no_music_setup_usb_heading">携帯端末に音楽をコピーできます</string>
+    <string name="no_music_setup_usb_body">USBケーブルで端末に音楽をコピーできます。</string>
+    <string name="no_local_music_heading">ローカルに保存された音楽はありません</string>
+    <string name="no_local_music_body">オフライン専用モードにつき端末に保存されている曲だけが表示されます。オフラインで利用できる曲を変更するには、[オフラインで使用する]オプションを使用します。</string>
+    <string name="no_music_learn_more">詳細</string>
+    <string name="tutorial_set_up_streaming">ストリーミングを設定</string>
+    <string name="no_playlists_heading">ライブラリにプレイリストがありません。</string>
+    <string name="no_playlists_body">プレイリストを作成するには、曲をリスト表示し、曲のコンテキストメニューから[プレイリストに追加]を選択します。</string>
+    <string name="tutorial_account_heading">ようこそ</string>
+    <string name="tutorial_account_body">Googleのミュージックベータ版にご招待いたします。このプレーヤーを使用すると、ミュージックベータ版に追加した曲や、Android搭載端末にコピーしたその他の音楽に簡単にアクセスできます。</string>
+    <string name="tutorial_account_list_header">Googleアカウントを選択して、このプレーヤーをミュージックベータ版にリンクしてください:</string>
+    <string name="tutorial_done_heading">ぜひお楽しみください</string>
+    <string name="tutorial_done_body">"ミュージックプレーヤーは現在Googleアカウントにリンクされています。
+
+ミュージックベータ版に音楽コレクションを既に追加している場合は、コレクションがこのプレーヤーに表示されるようになります。
+
+ミュージックベータ版に音楽を追加する必要がある場合は、パソコンから次のウェブサイトにアクセスしてください:"</string>
+    <string name="tutorial_back">戻る</string>
+    <string name="tutorial_skip">スキップ</string>
+    <string name="tutorial_next">次へ</string>
+    <string name="tutorial_done">終了</string>
+    <string name="help_heading">ヘルプ</string>
+    <string name="spinner_carousel">新着</string>
+    <string name="spinner_album">アルバム</string>
+    <string name="spinner_artist">アーティスト</string>
+    <string name="spinner_songs">曲</string>
+    <string name="spinner_playlists">再生リスト</string>
+    <string name="spinner_genres">ジャンル</string>
+    <string name="sort_by_title">曲名順</string>
+    <string name="sort_by_artist">アーティスト順</string>
+    <string name="sort_by_album">アルバム名順</string>
+    <string name="more_by_artist">このアーティストの他の作品</string>
+    <string name="make_available_offline">オフラインで使用する</string>
+    <string name="search_web">ウェブを検索</string>
+    <string name="manage_done">完了</string>
+    <string name="too_many_items_title">アイテムが多すぎます</string>
+    <string name="too_many_items_body">保存するアイテムが多すぎます。領域を空けるためにアイテムの一部の選択を解除してください。</string>
+    <string name="save_manage_music_change_title">変更を保存しますか？</string>
+    <string name="save_manage_music_change_body">変更を保存して、選択した音楽をオフラインで利用できるようにしますか？</string>
+    <string name="not_all_items_can_be_kept_body">保存するアイテムが多すぎます。一部のアイテムはダウンロードされません。</string>
+    <string name="free_space_overfull">メモリが満杯（%s以上）</string>
+    <string name="free_space">%s空き</string>
+    <string name="stream_error_no_space_available">空き容量が不足しています</string>
+    <string name="stream_error_server_not_found">サーバーに接続できませんでした</string>
+    <string name="stream_error_only_on_wifi">この曲の再生には、Wi-Fiネットワーク接続が必要です</string>
+    <string name="stream_error_no_connection">この曲の再生にはオンライン接続が必要です</string>
+    <string name="stream_error_unauthorized">ユーザー名またはパスワードが無効です</string>
+    <string name="stream_error_another_stream_being_played">別の携帯端末でコレクションを再生しているため、音楽が一時停止しました。</string>
+    <string name="stream_error_rate_limit_reached">音楽は現在ご利用になれません。コレクションを同時に再生できる端末は1つだけです。</string>
+    <string name="stream_error_device_not_authorized">このアカウントには8台のパソコンや端末が接続されています。もう1台追加する前に、1台の許可を取り消してください。</string>
+    <string name="stream_error_another_stream_being_played_short">音楽が一時停止しました</string>
+    <string name="stream_error_rate_limit_reached_short">音楽が一時的に利用できません</string>
+    <string name="stream_error_device_not_authorized_short">このアカウントに接続している端末が多すぎます</string>
+    <string name="hide_now_playing_bar">再生中バーを隠す</string>
+    <string name="show_now_playing_bar">再生中バーを表示</string>
+    <string name="show_options">表示オプション</string>
+    <string name="hide_options">非表示オプション</string>
+    <string name="all_songs_in_genre">"次のジャンルのすべての曲
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s、%d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">曲をダウンロード中</string>
+    <string name="notification_downloading_when_on_wifi">オフライン再生用に選択された曲は、Wi-Fiネットワークへの接続後に読み込まれます。</string>
+    <string name="notification_downloading_excessive_errors">現在は曲をダウンロードできません。インターネット接続を確認してください。</string>
+    <string name="notification_downloading_done">選択した曲がオフラインで利用できるようになりました</string>
+    <string name="carousel_label_shuffle_all">すべてシャッフル</string>
+    <string name="song_label">曲</string>
+    <string name="artist_label">アーティスト</string>
+    <string name="album_label">アルバム</string>
+    <string name="effectspanel">サウンド効果</string>
+    <string name="menu_make_instant_mix">インスタントミックス</string>
+    <string name="instant_mix_default_name">%sのミックス</string>
+    <string name="creating_instant_mix">"インスタントミックスを
+プレイリストに追加中"</string>
+    <string name="creating_instant_mix_with_seed">"%sを基に
+インスタントミックスを
+プレイリストに追加中"</string>
+    <string name="create_instant_mix_failed">インスタントミックスを作成できません。もう一度お試しください。</string>
+    <string name="create_instant_mix_failed_insufficient_results">コレクションに類似の曲が少ないため、「%s」のインスタントミックスを作成できませんでした。別の曲でインスタントミックスの作成をお試しください。</string>
+    <string name="create_instant_mix_sync_timeout">"インスタントミックスが
+作成され、まもなく
+プレイリストに表示されます。"</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">削除</string>
+    <string name="confirm_delete_local_only">「%s」を削除してもよろしいですか？</string>
+    <string name="confirm_delete_has_remote">「%s」はサイドローディングされただけでなく、Googleミュージックにもアップロードされています。サイドローディングのアイテムのみ削除されますが、削除してもよろしいですか？</string>
+</resources>

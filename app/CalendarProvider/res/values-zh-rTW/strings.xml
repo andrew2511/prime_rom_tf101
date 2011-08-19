@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">日曆儲存空間</string>
+    <string name="calendar_default_name">預設</string>
+    <string name="calendar_info">日曆資訊</string>
+    <string name="calendar_info_error">錯誤</string>
+    <string name="calendar_info_no_calendars">沒有日曆</string>
+    <string name="calendar_info_events">活動數：%1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">活動數：%1$d；未儲存活動數：%2$d</string>
+    <string name="provider_label">日曆</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Joan mapara</string>
+    <string name="report_inappropriate_image">Eman irudiaren berri</string>
+    <string name="toggle_compass_mode">Iparrorratz-modua</string>
+    <string name="compass_mode_on">Iparrorratz-modua aktibatuta.</string>
+    <string name="compass_mode_off">Iparrorratz-modua desaktibatuta.</string>
+    <string name="waiting_for_network">Datu-konexioa galduta, berriro saiatzen…</string>
+    <string name="panorama_disabled">Argazkia ez dago erabilgarri</string>
+    <string name="service_unavailable">Street View zerbitzua ez dago erabilgarri.</string>
+    <string name="loading">Kargatzen</string>
+    <string name="no_panorama_data">Ez dago datu panoramikorik zehaztuta.</string>
+    <string name="invalid_panorama_data">Irudi panoramiko baliogabea</string>
+    <string name="click_to_go_toast">Arrastatu Pegman joan nahi duzun tokira.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Programa honek datu-konexioa behar du eta automatikoki saiatuko da berriro konektatzen. Egiaztatu seinalearen indarra. Hegaldi modua aktibatuta al duzu? Ibiltaritza-datuak desgaituta al dituzu?</string>
+    <string name="whats_new_header">Zer berri Street View zerbitzuan?</string>
+    <string name="whats_new_c2g">Zoaz nahi duzun tokira. Arrastatu Pegman beheko ezkerreko aldetik eta jaregin nahi duzun tokian.</string>
+    <string name="terms_and_privacy">Baldintzak eta pribatutasuna</string>
+    <string name="terms_and_conditions">Zehaztapenak eta baldintzak</string>
+    <string name="privacy_policy">Pribatutasun-gidalerroak</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/note_dialog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/note_bar" android:background="@drawable/asus_ep_bar_title" android:paddingLeft="45.0px" android:paddingTop="29.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/note_title" android:singleLine="true" />
+    <ScrollView android:id="@id/translate_scv1" android:background="@drawable/asus_ep_bar_window_center" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_alignParentLeft="true">
+        <EditText android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/note_input_text" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:background="@drawable/asus_ep_bottom_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <Button android:textSize="16.0px" android:textColor="#ffffffff" android:id="@id/note_dialog_save" android:background="@drawable/asus_ep_btn" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note_save_btn" />
+    </LinearLayout>
+</LinearLayout>

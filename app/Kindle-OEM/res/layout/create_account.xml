@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/sign_in_create_account"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/sign_in_forgot" android:focusable="true" android:clickable="true" android:onClick="onClickHandler" style="@style/sign_in_account_button.top">
+        <TextView android:duplicateParentState="true" android:text="@string/forgot_password" style="@style/sign_in_account_links" />
+    </LinearLayout>
+    <View style="@style/sign_in_link_rule" />
+    <LinearLayout android:id="@id/sign_in_jp_customer" android:focusable="true" android:clickable="true" android:onClick="onClickHandler" style="@style/sign_in_account_button">
+        <TextView android:duplicateParentState="true" android:text="@string/login_jp_customer" style="@style/sign_in_account_links" />
+    </LinearLayout>
+    <View style="@style/sign_in_link_rule" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sign_in_create_account" android:focusable="true" android:clickable="true" android:onClick="onClickHandler" style="@style/sign_in_account_button.bottom">
+        <TextView android:duplicateParentState="true" android:text="@string/no_account" style="@style/sign_in_account_links" />
+        <TextView android:duplicateParentState="true" android:text="@string/login_create_account" style="@style/sign_in_account_links.sublink" />
+    </LinearLayout>
+</LinearLayout>

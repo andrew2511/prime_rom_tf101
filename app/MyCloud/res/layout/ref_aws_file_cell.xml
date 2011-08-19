@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/cellbox">
+        <ImageView style="@style/file_img" />
+        <TextView style="@style/mycontent_row_txt" />
+    </LinearLayout>
+</merge>

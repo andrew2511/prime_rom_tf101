@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Синхронизация ПК</string>
+    <string name="searchingPCSideSyncTool">Поиск %s на вашем компьютере...</string>
+    <string name="connectionFailMessage" formatted="false">Приложение %s не установлено или не запущено на вашем компьютере. Загрузите приложение %s со страницы поддержки ASUS по адресу http://support.asus.com. (Примечание. иолько для Windows.) Нажмите кнопку \"%s\" для выхода или кнопку \"%s\" повторного подключения к %s.</string>
+    <string name="connectionFailTitle">Подключение не удалось</string>
+    <string name="tryAgain">Повторите попытку</string>
+    <string name="cancel">Отмена</string>
+</resources>

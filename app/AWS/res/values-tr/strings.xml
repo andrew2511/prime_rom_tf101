@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Msg_SpaceOver">"Yeterli depolama alanı olmadığı için yüklenemedi! Lütfen depolama kapasitenizi yükseltin veya ASUS WebStorage'daki gereksiz dosyaları silin."</string>
+    <string name="home_title">ASUS WebStorage’e Hoş Geldiniz</string>
+    <string name="common_register_ID_fail">Hesap büyük ve küçük harfe duyarlı harf ve sayılardan oluşan 3-16 karakter içermelidir.</string>
+    <string name="common_register_pwd_fail">"Bu, ileride ASUS WebStorage'da oturum açmak için kullanacağınız paroladır. Parola, büyük ve küçük harfe duyarlı harf ve sayılardan oluşan 6-12 karakter içermelidir."</string>
+    <string name="common_login_username">WebStorage ID</string>
+    <string name="present_accname">WebStorage ID</string>
+    <string name="present_sotring_by_date">Değiştirildiği Tarih</string>
+</resources>

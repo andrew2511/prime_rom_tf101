@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Nessuna</item>
+        <item>Chat audio</item>
+        <item>Chat video</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Sempre</item>
+        <item>Solo in modalità silenziosa</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Apri finestra di dialogo</item>
+        <item>Notifica nella barra di Sistema</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Apri finestra di dialogo</item>
+        <item>Notifica nella barra di Sistema</item>
+        <item>Non attive</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Felice</item>
+        <item>Triste</item>
+        <item>Occhiolino</item>
+        <item>Linguaccia</item>
+        <item>Sorpreso</item>
+        <item>Bacio</item>
+        <item>Urlo</item>
+        <item>Fico</item>
+        <item>Fatti, non parole</item>
+        <item>Gaffe</item>
+        <item>Imbarazzato</item>
+        <item>Angelo</item>
+        <item>Indeciso</item>
+        <item>Piango</item>
+        <item>Labbra cucite</item>
+        <item>Risata</item>
+        <item>Confuso</item>
+        <item>Ghigno</item>
+        <item>Arrabbiato</item>
+        <item>Impassibile</item>
+        <item>Cuore</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Sempre</item>
+        <item>Mai</item>
+        <item>Automaticamente</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>I più contattati</item>
+        <item>Tutti</item>
+        <item>Alcuni</item>
+        <item>Solo i ragazzi simpatici</item>
+    </string-array>
+</resources>

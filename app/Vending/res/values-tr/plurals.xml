@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_restored_success_message">
+        <item quantity="other">%1$d Uygulama yeniden yüklendi.</item>
+        <item quantity="one">%1$d Uygulama yeniden yüklendi.</item>
+    </plurals>
+    <plurals name="info_ratercount_label">
+        <item quantity="other">%1$s oylama</item>
+        <item quantity="one">%1$s oylama</item>
+    </plurals>
+    <plurals name="search_complete_title">
+        <item quantity="other">\"%1$2$s\" için %2$1$d sonuç</item>
+        <item quantity="one">\"%1$2$s\" için %2$1$d sonuç</item>
+    </plurals>
+</resources>

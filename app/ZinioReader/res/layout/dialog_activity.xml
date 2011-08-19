@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/pop_up_bg" android:paddingTop="18.0dip" android:paddingBottom="13.329987dip" android:layout_width="400.65625dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/zinio_dialog_icon_sd" android:layout_width="26.659973dip" android:layout_height="26.659973dip" android:layout_marginLeft="13.329987dip" android:layout_marginRight="13.329987dip" android:src="@drawable/pop_up_icon" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="17.779999sp" android:textColor="#ffffffff" android:id="@id/zinio_dialog_title_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.629974dip" android:layout_toRightOf="@id/zinio_dialog_icon_sd" />
+        <ImageView android:id="@id/zinio_dialog_upper_hr_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.329987dip" android:layout_marginRight="13.329987dip" android:layout_marginBottom="13.329987dip" android:src="@drawable/pop_up_hr" android:layout_below="@id/zinio_dialog_title_sd" />
+        <RelativeLayout android:id="@id/zinio_dialog_content_sd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.329987dip" android:layout_marginRight="13.329987dip" android:layout_marginBottom="13.329987dip" android:layout_below="@id/zinio_dialog_upper_hr_sd">
+            <TextView android:id="@id/zinio_dialog_message_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/ZinioDialogText" />
+        </RelativeLayout>
+        <ImageView android:id="@id/zinio_dialog_lower_hr_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.329987dip" android:layout_marginRight="13.329987dip" android:layout_marginBottom="13.329987dip" android:src="@drawable/pop_up_hr" android:layout_below="@id/zinio_dialog_content_sd" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.329987dip" android:layout_marginRight="13.329987dip" android:layout_marginBottom="13.329987dip" android:weightSum="1.0" android:layout_below="@id/zinio_dialog_lower_hr_sd">
+            <Button android:textColor="#ffffffff" android:id="@id/zinio_dialog_positive_button_sd" android:background="@drawable/zinio_dialog_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.3299866dip" android:text="@string/ok" android:singleLine="true" android:layout_weight="0.5" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="help_dialog_text_color">#ffffffff</color>
+    <color name="help_gallery_background">#00000000</color>
+    <color name="disambig_item_text">#ffffffff</color>
+    <color name="disambig_item_subtext">#ffaaaaaa</color>
+</resources>

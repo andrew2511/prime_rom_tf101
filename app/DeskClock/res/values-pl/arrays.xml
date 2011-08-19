@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Ten alarm włączy się za mniej niż 1 minutę.</item>
+        <item>Ten alarm włączy się za %1$s.</item>
+        <item>Ten alarm włączy się za %2$s.</item>
+        <item>Ten alarm włączy się za %1$1$s i %2$2$s.</item>
+        <item>Ten alarm włączy się za %3$s.</item>
+        <item>Ten alarm włączy się za %1$1$s i %2$3$s.</item>
+        <item>Ten alarm włączy się za %1$2$s i %2$3$s.</item>
+        <item>Ten alarm włączy się za %1$1$s, %2$2$s i %3$3$s.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Wyłączone</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Brak</item>
+        <item>Uśpij</item>
+        <item>Wyłącz</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

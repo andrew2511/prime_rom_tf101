@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Kontaktlager</string>
+    <string name="provider_label">Kontakter</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Det er ikke nok minne for å oppgradere kontaktene</string>
+    <string name="upgrade_out_of_memory_notification_title">Oppgraderer lagrede kontakter</string>
+    <string name="upgrade_out_of_memory_notification_text">Velg for å fullføre oppgraderingen.</string>
+    <string name="default_directory">Kontakter</string>
+    <string name="local_invisible_directory">Andre</string>
+</resources>

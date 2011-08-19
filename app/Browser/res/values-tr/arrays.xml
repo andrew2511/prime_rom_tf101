@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_development_ua_choices">
+        <item>Tablet</item>
+        <item>Masaüstü</item>
+        <item>Cep Telefonu</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Her zaman açık</item>
+        <item>İsteğe bağlı</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Çok Küçük</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Çok büyük</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Uzak</item>
+        <item>Orta</item>
+        <item>Kapat</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Çince (GBK)</item>
+        <item>Çince (Big5)</item>
+        <item>Japonca (ISO-2022-JP)</item>
+        <item>Japonca (SHIFT_JIS)</item>
+        <item>Japonca (EUC-JP)</item>
+        <item>Korece (EUC-KR)</item>
+    </string-array>
+</resources>

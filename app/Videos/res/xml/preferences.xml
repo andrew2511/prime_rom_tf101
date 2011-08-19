@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_warning_streaming_bandwidth_title" android:key="warning_streaming_bandwidth" android:summary="@string/pref_warning_streaming_bandwidth_summary" android:defaultValue="true" />
+    <ListPreference android:entries="@array/download_policy_entries" android:title="@string/pref_download_policy_title" android:key="download_policy" android:summary="@string/pref_download_policy_summary" android:defaultValue="ask" android:entryValues="@array/download_policy_values" />
+    <ListPreference android:entries="@array/subtitles_size_entries" android:title="@string/pref_subtitles_size_title" android:key="subtitles_size" android:summary="@string/pref_subtitles_size_summary" android:defaultValue="2" android:entryValues="@array/subtitles_size_values" />
+</PreferenceScreen>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preload_book_title">
+        <item>10年外企，我跟日本人那些事儿</item>
+        <item>20岁去爱，30岁被爱</item>
+        <item>三国演义</item>
+        <item>世说新语</item>
+        <item>二十年目睹之怪现状</item>
+        <item>于丹《庄子》心得</item>
+        <item>你不可不知的人性①</item>
+        <item>你不可不知的人性②</item>
+        <item>儒林外史</item>
+        <item>初刻拍案惊奇</item>
+        <item>别拿投资当回事</item>
+        <item>双鲤迢迢一纸书</item>
+        <item>古文观止</item>
+        <item>后宫：甄嬛传1</item>
+        <item>吕氏春秋</item>
+        <item>壹百度</item>
+        <item>夜谭十记</item>
+        <item>官场现形记</item>
+        <item>封神演义</item>
+        <item>态度决定高度：来自各界领袖的74封信</item>
+        <item>我和父亲季羡林</item>
+        <item>战国策</item>
+        <item>拿什么拯救中国经济？</item>
+        <item>搜神记</item>
+        <item>星期一是礼拜几</item>
+        <item>李白全集</item>
+        <item>杨娃娃的婚姻报告书</item>
+        <item>林语堂文集：京华烟云 上 下</item>
+        <item>桃花扇</item>
+        <item>梦溪笔谈</item>
+        <item>水浒全传</item>
+        <item>沉思录</item>
+        <item>清风卷帘海棠红</item>
+        <item>滇西密传1：欲火菩提</item>
+        <item>滇西密传2：危途奇踪</item>
+        <item>潜伏在办公室 第一季</item>
+        <item>潜伏在办公室 第二季</item>
+        <item>灯火阑珊处</item>
+        <item>红楼梦</item>
+        <item>红楼眼神</item>
+        <item>绝版中国：永远的敦煌</item>
+        <item>聊斋志异</item>
+        <item>蒋介石日记揭秘(上下册)</item>
+        <item>西岭雪探秘红楼梦</item>
+        <item>西游记</item>
+        <item>赚钱就这么简单</item>
+        <item>遇见未知的自己</item>
+        <item>道德经</item>
+        <item>镜花缘</item>
+        <item>马云点评创业</item>
+        <item>高级跳</item>
+        <item>Eee Pad ユーザーマニュアル</item>
+    </string-array>
+    <string-array name="preload_book_author">
+        <item>洪湖浪</item>
+        <item>苏芩</item>
+        <item>【明】罗贯中</item>
+        <item>【南朝宋】刘义庆</item>
+        <item>【清】吴趼人</item>
+        <item>于丹</item>
+        <item>（美）刘墉/著</item>
+        <item>（美）刘墉/著</item>
+        <item>【清】吴敬梓</item>
+        <item>【明】方原</item>
+        <item>王宏新</item>
+        <item>梨魄</item>
+        <item>【清】吴楚材、吴调侯</item>
+        <item>吴雪岚</item>
+        <item>【秦】吕不韦</item>
+        <item>朱光</item>
+        <item>马识途</item>
+        <item>【清】李宝嘉</item>
+        <item>【明】许仲琳</item>
+        <item>（美）多尔曼</item>
+        <item>季承</item>
+        <item>【汉】刘向</item>
+        <item>叶檀</item>
+        <item>【晋】干宝</item>
+        <item>巫昂</item>
+        <item>（唐）李白</item>
+        <item>吴小军</item>
+        <item>林语堂</item>
+        <item>【清】孔尚任</item>
+        <item>【宋】沈括</item>
+        <item>【明】施耐庵，罗贯中</item>
+        <item>（古罗马）马可·奥勒留</item>
+        <item>靡宝</item>
+        <item>枕上晨钟</item>
+        <item>枕上晨钟</item>
+        <item>陆琪</item>
+        <item>陆琪</item>
+        <item>青衫落拓</item>
+        <item>【清】曹雪芹，高鹗</item>
+        <item>刘心武</item>
+        <item>艾绍强</item>
+        <item>【清】蒲松龄</item>
+        <item>张秀章</item>
+        <item>西岭雪</item>
+        <item>【明】吴承恩</item>
+        <item>刘克亚</item>
+        <item>张德芬</item>
+        <item>【周】李耳</item>
+        <item>【清】李汝珍</item>
+        <item>《赢在中国》项目组</item>
+        <item>黄丹丹</item>
+        <item>ASUS</item>
+    </string-array>
+    <string-array name="preload_book_doc_lang">
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>jp</item>
+    </string-array>
+    <string-array name="highlight_dialog_items">
+        <item>Remove Highlight</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Add Highlight</item>
+        <item>Translation</item>
+        <item>Text to Speech</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>English</item>
+        <item>French</item>
+        <item>Japenese</item>
+        <item>Chinese Traditional</item>
+        <item>German</item>
+        <item>Chinese Simplified</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>English to Chinese</item>
+        <item>English to French</item>
+        <item>English to Russian</item>
+    </string-array>
+</resources>

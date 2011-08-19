@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_data_store_version">0</string>
+    <string name="def_client_id">android-google</string>
+    <string name="def_voicesearch_client_id">ms-android-google</string>
+    <string name="def_maps_client_id">Sieć</string>
+    <string name="def_youtube_client_id">mvapp-android-google</string>
+    <string name="def_market_client_id">am-google</string>
+    <string name="def_rlz">nieznane</string>
+    <string name="sharedUserLabel">Usługi Google</string>
+    <string name="gls_label">Konta Google</string>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">^1 – witamy!</string>
+    <string name="next_button_label">Dalej</string>
+    <string name="back_button_label">Wróć</string>
+    <string name="sign_in_button_label">Zaloguj się</string>
+    <string name="create_button_label">Utwórz konto</string>
+    <string name="skip_button_label">Pomiń</string>
+    <string name="first_name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="done">OK</string>
+    <string name="cancel_button_label">Anuluj</string>
+    <string name="done_button_label">Zakończ konfigurację</string>
+    <string name="try_again_button_label">Spróbuj ponownie</string>
+    <string name="close_button_label">Zamknij</string>
+    <string name="edit_text_help">Dotknij dowolnego pola tekstowego, aby rozpocząć wpisywanie</string>
+    <string name="add_a_google_account">Dodaj konto Google</string>
+    <string name="no_sim_setup_wireless">Karta SIM nie jest zainstalowana, więc nie można nawiązać połączenia z siecią komórkową na potrzeby usług głosowych lub transmisji danych. Karta SIM nie jest natomiast niezbędna do nawiązania połączenia z siecią Wi-Fi.</string>
+    <string name="setup_wifi_button_label">Połącz z siecią Wi-Fi</string>
+    <string name="setup_wizard_title">Kreator konfiguracji</string>
+    <string name="captcha_title">Należy wprowadzić CAPTCHA</string>
+    <string name="choose_account_title">Wybierz konto</string>
+    <string name="show_error_title">Wystąpił błąd</string>
+    <string name="close_and_launch_title">Zamykanie Kreatora konfiguracji</string>
+    <string name="server_error">Wystąpił problem podczas komunikowania się z serwerami Google.</string>
+    <string name="server_error_help">Spróbuj ponownie później.</string>
+    <string name="network_unreliable">Nie można nawiązać stabilnego połączenia z serwerem.</string>
+    <string name="network_unreliable_help">Może to być tymczasowy problem lub urządzenie z systemem Android może nie być przystosowane do usług transmisji danych. Jeśli problem nadal występuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="invalid_login_character">Nieprawidłowy znak. Dozwolone są tylko znaki 0-9, a-z, A-Z i kropki.</string>
+    <string name="invalid_password_character">Nieprawidłowy znak w haśle.</string>
+    <string name="add_apn">Ustawienia łączności bezprzewodowej</string>
+    <string name="setup_google_account_title">Skonfiguruj konto Google</string>
+    <string name="setup_complete_title">Konfiguracja ukończona</string>
+    <string name="cant_be_blank">Pole nie może być puste.</string>
+    <string name="calendar">Kalendarz Google</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="url_load_unsuccessful_message">Urządzenie nie ma połączenia z usługą transmisji danych. Aby wyświetlić te informacje teraz, przejdź do strony %s na dowolnym komputerze połączonym z internetem.</string>
+    <string name="field_cant_be_blank">To pole nie może być puste</string>
+    <string name="field_invalid_domain">To nie jest prawidłowa nazwa domeny</string>
+    <string name="field_invalid_user">To nie jest prawidłowa nazwa użytkownika</string>
+    <string name="field_invalid_user_domain">Wprowadź tylko swoją nazwę użytkownika, bez adresu e-mail</string>
+    <string name="setup_device_title">Konfigurowanie konta ^1</string>
+    <string name="dont_have_an_account">Nie masz konta Google?</string>
+    <string name="create_one_now">Utwórz je teraz. To łatwe.</string>
+    <string name="already_have_an_account">Czy masz już konto Google?</string>
+    <string name="sign_in_with_google_account">Zaloguj się na konto Google, którego chcesz używać z tym urządzeniem.</string>
+    <string name="skip_message">Chcesz później skonfigurować konto?</string>
+    <string name="delayed_gaia_agreement">Kontynuując, zgadzasz się na następujące Polityki prywatności: <annotation id="google_privacy">Google</annotation> i <annotation id="android_privacy">dodatkową</annotation>.</string>
+    <string name="open_keyboard_message">Aby rozpocząć, otwórz klawiaturę.</string>
+    <string name="open_keyboard_message_to_continue">Aby kontynuować, otwórz klawiaturę.</string>
+    <string name="emergency_dial">Połączenie alarmowe</string>
+    <string name="change_language">Zmień język</string>
+    <string name="close_keyboard_message">Aby kontynuować, zamknij klawiaturę.</string>
+    <string name="communicating_message">Urządzenie z systemem Android musi skomunikować się z serwerami Google, aby skonfigurować konto. Może to potrwać do 5 minut.</string>
+    <string name="communicating_message_domain">Urządzenie z systemem Android musi skomunikować się z serwerami Google, aby uzyskać informacje o domenie. Może to potrwać do 5 minut.</string>
+    <string name="login_title">Wprowadź adres e-mail i hasło</string>
+    <string name="login_task_title">Logowanie</string>
+    <string name="username">Nazwa użytkownika</string>
+    <string name="domain_name">example.com</string>
+    <string name="password">Hasło</string>
+    <string name="sign_in_agreement">Logując się, zgadzasz się na następujące Polityki prywatności: <annotation id="google_privacy">Google</annotation> i <annotation id="android_privacy">dodatkową</annotation>.</string>
+    <string name="create_prompt">Nie masz konta Google? <annotation id="create_account">Utwórz je teraz</annotation>.</string>
+    <string name="create">Utwórz</string>
+    <string name="create_message">Potrzebujesz konta Google?</string>
+    <string name="now_signing_in">Trwa logowanie…</string>
+    <string name="now_verifying_domain">Trwa znajdowanie domeny…</string>
+    <string name="sign_in_with_google_account_short">Zaloguj się na swoje konto Google:</string>
+    <string name="browser_sign_in_explanation">Skorzystaj z tego ekranu w przypadku specjalnej procedury logowania, która wymaga przeglądarki internetowej.</string>
+    <string name="gls_browser_login_intro_message">To urządzenie z systemem Android nie może uzyskać dostępu do konta Google lub konta Aplikacji Google. Wymagana jest ponowna autoryzacja.</string>
+    <string name="enter_domain_name">Wprowadź nazwę domeny swojej firmy:</string>
+    <string name="enter_user_name">Wprowadź swoją nazwę użytkownika i hasło w domenie ^1:</string>
+    <string name="inactive_domain">Nie można użyć tego konta, ponieważ znajduje się ono w nieaktywnej domenie. Skontaktuj się z administratorem domeny <b>^1</b> lub zaloguj się przy użyciu innego konta.</string>
+    <string name="invalid_username">Wprowadzony tekst nie jest prawidłową nazwą użytkownika.</string>
+    <string name="web_login_error_title">Niestety...</string>
+    <string name="web_login_error_desc">"Wystąpił problem podczas nawiązywania połączenia z serwerami Twojej firmy w domenie ^1.
+
+Informacje o błędzie:
+"</string>
+    <string name="web_login_error_redirects">Na stronie internetowej logowania nastąpiło zbyt wiele przekierowań</string>
+    <string name="web_login_error_http">Błąd HTTP ^1: ^2</string>
+    <string name="captcha_message_string">Weryfikacja</string>
+    <string name="captcha_instructions">Ze względów bezpieczeństwa przed ponowną próbą zalogowania wprowadź wyraz widoczny poniżej.</string>
+    <string name="create_google_account">Utwórz nowe konto Google</string>
+    <string name="example_usernames">np. JNowak, Jan.Nowak</string>
+    <string name="create_account_agreement">Tworząc to konto, zgadzasz się na następujące Polityki prywatności: <annotation id="google_privacy">Google</annotation> i <annotation id="android_privacy">dodatkową</annotation>.</string>
+    <string name="background_task_error">Nowe konto Gmail zostało pomyślnie utworzone, ale wystąpił problem z dodaniem go do Twoich kont na tym urządzeniu. Możesz spróbować ponownie, spróbować zrobić to ręcznie, logując się na nowe konto, bądź pominąć tworzenie konta.</string>
+    <string name="retry_button_label">Ponów próbę</string>
+    <string name="login_button_label">Zaloguj się ręcznie</string>
+    <string name="account_already_has_gmail">Na koncie jest już Gmail.</string>
+    <string name="error_account_disabled">"To konto zostało wyłączone. 
+
+ (Aby uzyskać szczegółowe informacje, odwiedź adres http://google.com/accounts za pomocą przeglądarki)."</string>
+    <string name="no_network">Brak połączenia sieciowego.</string>
+    <string name="no_network_help">Może to być chwilowy problem lub usługa transmisji danych jest niedostępna w tym urządzeniu. Spróbuj ponownie po nawiązaniu połączenia z siecią komórkową lub połącz się z siecią Wi-Fi.</string>
+    <string name="no_network_help_wifi_only">Może to być tymczasowy problem. Spróbuj ponownie lub połącz się z inną siecią Wi-Fi.</string>
+    <string name="error_login_failed">"Nazwa użytkownika i hasło nie pasują do siebie. Spróbuj ponownie. 
+
+(Aby odzyskać informacje o koncie, odwiedź adres http://www.google.com/accounts/recovery, używając przeglądarki)."</string>
+    <string name="error_account_not_verified">"To konto nie zostało zweryfikowane. Sprawdź pocztę e-mail i użyj linku, aby zweryfikować konto. 
+
+(Aby odzyskać informacje o koncie, odwiedź stronę http://www.google.com/accounts/recovery przy użyciu komputera)."</string>
+    <string name="add_account_init">Trwa ładowanie strony tworzenia konta...</string>
+    <string name="add_account_init_for_update_credentials">Ładowanie strony aktualizacji danych uwierzytelniających...</string>
+    <string name="add_account_init_for_add_account">Ładowanie strony dodawania konta...</string>
+    <string name="add_account_pageload" />
+    <string name="add_account_final">Trwa tworzenie nowego konta...</string>
+    <string name="add_account_final_adding">Dodawanie konta...</string>
+    <string name="add_account_final_updating">Aktualizowanie danych uwierzytelniających...</string>
+    <string name="add_account_init_waiting_for_network">Oczekiwanie na dostępność sieci...</string>
+    <string name="creating_account">Trwa tworzenie konta…</string>
+    <string name="checking_account">Trwa sprawdzanie dostępności nazwy użytkownika…</string>
+    <string name="try_a_different_username">Spróbuj użyć innej nazwy użytkownika</string>
+    <string name="is_not_available">Nazwa <b>^1</b> jest niedostępna.</string>
+    <string name="hint_size"><b>^1</b> zawiera mniej niż 6 lub więcej niż 30 znaków.</string>
+    <string name="hint_numbers_only"><b>^1</b> nie zawiera żadnych liter.</string>
+    <string name="hint_illegal_chars"><b>^1</b>" może zawierać tylko litery,
+cyfry i kropki."</string>
+    <string name="doesnt_use_gmail">Na koncie <b>^1</b> nie ma Gmaila</string>
+    <string name="sign_in">Zaloguj się</string>
+    <string name="sign_in_browser">Logowanie do przeglądarki</string>
+    <string name="here_are_alternatives">Oto kilka możliwości:</string>
+    <string name="alternatives_list_title">Sugerowane nazwy użytkownika</string>
+    <string name="choose_a_password"><b>"Wprowadź
+hasło"</b></string>
+    <string name="confirm_password"><b>"Potwierdź
+hasło"</b></string>
+    <string name="password_strength"><b>"Siła
+hasła"</b></string>
+    <string name="too_short">Za krótkie</string>
+    <string name="security_question"><b>"Pytanie
+ochronne"</b></string>
+    <string name="security_questions_title">Pytania zabezpieczające</string>
+    <string name="answer"><b>Odpowiedź</b></string>
+    <string name="password_mismatch">Hasła nie pasują do siebie. Wpisz je ponownie.</string>
+    <string name="your_account_was_created">Konto zostało utworzone.</string>
+    <string name="eight_chars_min">(minimum 8 znaków)</string>
+    <string name="verify_your_profile">Zweryfikuj profil</string>
+    <string name="signed_in">Zalogowano</string>
+    <string name="error_not_logged_in">Użytkownik nie jest zalogowany.</string>
+    <string name="error_username_unavailable">Nazwa użytkownika jest niedostępna.</string>
+    <string name="error_bad_password">Hasło jest zbyt słabe lub zawiera nieprawidłowe znaki. Spróbuj ponownie.</string>
+    <string name="error_bad_username">Nieprawidłowa nazwa użytkownika.</string>
+    <string name="loading">Wczytywanie...</string>
+    <string name="existing_account_error_title">Konto już istnieje</string>
+    <string name="existing_account_error_text">Konto ^1 już istnieje w tym urządzeniu z systemem Android.</string>
+    <string name="submission_title">Niestety…</string>
+    <string name="submission_error_text">Wystąpił błąd. Spróbuj ponownie.</string>
+    <string name="sync_intro_title">Synchronizacja konta</string>
+    <string name="account_linked_message"><font height="24">Twoje konto Google zostało dodane.</font></string>
+    <string name="syncing_message"><font size="17">"Aplikacje Google synchronizują teraz dane. 
+"<font height="17">"
+"</font>%iNa pasku stanu w górnej części ekranu wyświetlana jest ikona synchronizacji wskazująca, że trwa synchronizacja danych z konta Google. Pierwsza synchronizacja może potrwać kilka minut, w zależności od liczby kontaktów, wiadomości e-mail, wydarzeń kalendarza i danych innych aplikacji Google.</font></string>
+    <string name="i_agree_next">Zgadzam się, dalej</string>
+    <string name="android_privacy_policy_title">Dodatkowa Polityka prywatności</string>
+    <string name="google_terms_of_service_title">Warunki korzystania z usługi Google</string>
+    <string name="google_privacy_policy_title">Polityka prywatności Google</string>
+    <string name="account_intro_title">Zaloguj się na swoje konto Google</string>
+    <string name="common_message">"Wiele usług Google i funkcji systemu Android wymaga konta Google.
+
+Dotknij przycisku "<b>Dalej</b>, aby zalogować się na swoje obecne konto Google lub utworzyć nowe konto. Możesz także wybrać opcję <b>Pomiń</b>, aby po prostu przejść do korzystania z urządzenia z systemem Android. Na konto Google możesz zalogować się później, wybierając w Ustawieniach opcję <b>Konta i synchronizacja</b>.</string>
+    <string name="add_account_message"><font fgcolor="#ffffffff">Dodawanie konta</font>" 
+
+Możesz korzystać z więcej niż jednego konta Google (na przykład z kont domowego i służbowego). Dodanie konta Google wymaga wykonania zaledwie kilku czynności. 
+
+Dotknij przycisku „Dalej”, aby kontynuować, lub naciśnij przycisk Wróć, aby zakończyć."</string>
+    <string name="wait_for_device_country_title">Konfiguracja konta</string>
+    <string name="wait_for_device_country_msg">Zbieranie informacji o telefonie. To może potrwać do 30 sekund.</string>
+    <string name="reactivate_account_message">"Należy dodać konto poczty Google. 
+
+Masz już nazwę użytkownika poczty Google ("<b>^1</b>") powiązaną z tym kontem, ale nie jest ona obecnie aktywna. 
+
+Dotknij opcji „Dalej”, aby ponownie aktywować tę nazwę użytkownika i jej używać. 
+
+Ewentualnie, jeśli chcesz używać innego konta, naciśnij przycisk „Wróć” i zaloguj się na inne konto lub utwórz nowe konto."</string>
+    <string name="reactivating_account">Trwa ponowna aktywacja konta…</string>
+    <string name="your_account_was_reactivated">Konto zostało aktywowane.</string>
+    <string name="account_recovery_info">Następujące informacje pomogą odzyskać utracone hasło</string>
+    <string name="secondary_email_label"><b>"Adres
+pomocniczy"</b></string>
+    <string name="invalid_email">"Wprowadzony adres e-mail jest nieprawidłowy.
+ Przykład: jan@example.com"</string>
+    <string name="invalid_email_primary">Adres pomocniczy nie może być taki sam jak ten, który dodajesz</string>
+    <string name="backup_consent_title">Utwórz kopię zapasową moich ustawień</string>
+    <string name="backup_consent_message">Możesz skorzystać z konta Google, aby utworzyć kopię zapasową aplikacji, ustawień (takich jak hasła sieci Wi-Fi i zakładki) oraz innych danych. Jeśli przy użyciu tego konta została poprzednio utworzona kopia zapasowa danych, możesz ją teraz przywrócić na urządzenie.</string>
+    <string name="backup_consent_message_no_restore">Możesz używać swojego konta Google do tworzenia kopii zapasowej aplikacji, ustawień (na przykład zakładek i haseł Wi-Fi) i innych danych.</string>
+    <string name="backup_consent_howto_disable_message">Ustawienia tworzenia kopii zapasowej danych możesz zmienić za pomocą opcji Prywatność w aplikacji Ustawienia.</string>
+    <string name="backup_consent_yes_agree">Przechowuj dane z tego urządzenia w kopii zapasowej na moim koncie Google</string>
+    <string name="restore_consent_yes_agree">Przywróć dane z mojego konta Google na to urządzenie</string>
+    <string name="restore_disable">Wyłącz funkcję przywracania</string>
+    <string name="restore_enable">Włącz funkcję przywracania</string>
+    <string name="restore_enabled">Jeśli wcześniej utworzono kopię zapasową ustawień, zostaną one przywrócone.</string>
+    <string name="restore_disabled">Ustawienia nie zostaną przywrócone z kopii zapasowej.</string>
+    <string name="restoring_title">Przywracanie...</string>
+    <string name="restoring_message">Trwa przywracanie danych. To może potrwać kilka minut.</string>
+    <string name="restored_title">Przywrócono</string>
+    <string name="restored_message" />
+    <string name="webview_progress_title">Trwa łączenie z domeną...</string>
+    <string name="webview_progress_verbose_message">"Serwery Twojej firmy wysyłają informacje o logowaniu. Może to potrwać kilka minut.
+Po zakończeniu operacji zostanie wyświetlona firmowa strona logowania."</string>
+    <string name="enterprise_unmanaged_domain">Aplikacje Google nie są używane w tej domenie. Sprawdź nazwę domeny i spróbuj ponownie.</string>
+    <string name="gls_notification_title">Zaloguj się na swoje konto</string>
+    <string name="gls_notification_new_account">Wymagane konto ^1</string>
+    <string name="gls_notification_new_account_youtube">Wymagane konto YouTube</string>
+    <string name="gls_notification_login_error">Dotknij, aby zalogować się na swoje konto.</string>
+    <string name="gls_ui_add_account_title">Konfiguracja konta</string>
+    <string name="gls_ui_google_account_subtitle">Konto Google</string>
+    <string name="gls_ui_activity_title">Logowanie do Google</string>
+    <string name="gls_ui_activity_title_browser_signin">Logowanie do przeglądarki</string>
+    <string name="gls_ui_activity_title_enterprise">Logowanie na serwer firmy</string>
+    <string name="gls_ui_activity_title_youtube">Logowanie do YouTube</string>
+    <string name="gls_ui_activity_authenticating">Trwa uwierzytelnianie…</string>
+    <string name="gls_captcha_activity_message">Wpisz znaki, które widzisz na obrazku:</string>
+    <string name="gls_captcha_activity_ok_button">Gotowe</string>
+    <string name="gls_error_activity_message">Wystąpił błąd sieci podczas próby zalogowania się na konto użytkownika <b>^1</b>. Ponów próbę teraz lub naciśnij przycisk Wróć, aby anulować.</string>
+    <string name="gls_error_activity_retry_button">Spróbuj ponownie</string>
+    <string name="gls_dmagent_activity_message">" Twoja domena wymaga zarządzania telefonem komórkowym. Zainstaluj aplikację Google Apps Device Policy, aby wymuszać zasady bezpieczeństwa wymagane przez konto "<b>^1</b>.</string>
+    <string name="gls_dmagent_activity_retry_button">Pobierz</string>
+    <string name="gls_login_activity_username_label">Nazwa użytkownika</string>
+    <string name="gls_login_activity_password_label">Hasło</string>
+    <string name="gls_login_activity_ok_button">Zaloguj się</string>
+    <string name="gls_login_activity_loginfail_text_both">Nazwa użytkownika lub hasło jest nieprawidłowe. Wymagane jest konto w domenie <b>^1</b>. Spróbuj ponownie.</string>
+    <string name="gls_login_activity_loginfail_text_pwonly">Wprowadzone hasło jest nieprawidłowe lub Twoje konto zostało zmienione. Ponownie wprowadź swoje hasło.</string>
+    <string name="gls_login_activity_loginfail_text_pwmissing">Wpisz hasło do tego konta.</string>
+    <string name="gls_enterprise_login_activity_msg">"Zaloguj się na konto swojej firmy w domenie ^1, aby przeprowadzić uwierzytelnianie.
+Dotknij przycisku Zaloguj się, aby otworzyć firmową stronę internetową logowania."</string>
+    <string name="gls_login_activity_badaccount_text">W tej sytuacji nie możesz użyć tego konta. Spróbuj użyć innego konta.</string>
+    <string name="gls_login_activity_newaccount_text">Zaloguj się na swoje konto <b>^1</b>.</string>
+    <string name="gls_login_activity_youtube_domain">YouTube</string>
+    <string name="gls_login_activity_gmail_domain">Gmail</string>
+    <string name="gls_login_activity_googlemail_domain">Google Mail</string>
+    <string name="gls_login_activity_create_youtube">Nie masz konta YouTube? Dotknij <a href="http://www.youtube.com/signup">tutaj</a>, aby je utworzyć.</string>
+    <string name="gls_webview_progress_title">Trwa łączenie z domeną...</string>
+    <string name="gls_webview_progress_verbose_message">"Serwery Twojej firmy przesyłają dane logowania. Może to potrwać kilka minut.
+Po ukończeniu operacji zostanie wyświetlona firmowa strona logowania."</string>
+    <string name="gls_sign_in_button_label">Zaloguj się</string>
+    <string name="gls_back_button_label">Wróć</string>
+    <string name="gls_cancel_button_label">Anuluj</string>
+    <string name="gls_exit_account_setup_button_label">Zakończ konfigurację</string>
+    <string name="gls_reauthorize_button_label">Autoryzuj ponownie</string>
+    <string name="gls_sign_in_message">Urządzenie z systemem Android musi skomunikować się z serwerami Google, aby skonfigurować konto. Może to potrwać do 5 minut.</string>
+    <string name="gls_sign_in_title">Trwa logowanie...</string>
+    <string name="permlab_googleAuthPassword">dostęp do haseł do kont Google</string>
+    <string name="permdesc_googleAuthPassword">Zezwala aplikacjom na uzyskiwanie bezpośredniego dostępu do haseł do skonfigurowanych kont Google.</string>
+    <string name="header_data_and_synchronization">Dane i synchronizacja</string>
+    <string name="permlab_googleMailSwitch">wybieranie marki Gmail lub Google Mail</string>
+    <string name="permdesc_googleMailSwitch">Zezwala aplikacjom na przełączanie wyświetlanej nazwy między markami „Gmail” i „Google Mail”.</string>
+    <string name="sync_item_title">Synchronizuj aplikację %s</string>
+    <string name="grant_credentials_permission_message_header">Co najmniej jedna z następujących aplikacji żąda uprawnień dostępu do Twojego konta – teraz i w przyszłości.</string>
+    <string name="grant_credentials_permission_message_footer">Chcesz zezwolić na to żądanie?</string>
+    <string name="grant_permissions_header_text">Żądanie dostępu</string>
+    <string name="allow">Zezwól</string>
+    <string name="deny">Odmów</string>
+    <string name="permission_request_notification_title">Prośba o pozwolenie</string>
+    <string name="permission_request_notification_with_subtitle">"Prośba o pozwolenie
+dotyczące konta %s"</string>
+    <string name="notification_title">Błąd logowania na konto %1$s</string>
+</resources>

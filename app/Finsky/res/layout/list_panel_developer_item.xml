@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DetailsPage_TableEntry"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/list_panel_developer_prompt_text_size" android:textStyle="bold" android:id="@id/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/icon" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:typeface="sans" android:textColor="@color/bucket_header_info" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/icon" android:layout_below="@id/prompt" />
+</RelativeLayout>

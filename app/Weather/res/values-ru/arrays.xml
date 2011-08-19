@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 ч.</item>
+        <item>2 ч.</item>
+        <item>4 ч.</item>
+        <item>8 ч.</item>
+        <item>12 ч.</item>
+        <item>Вручную</item>
+    </string-array>
+</resources>

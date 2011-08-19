@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aws_acc_app_about">ASUS Web Storage per Android</string>
+    <string name="aws_acc_app_about_copyright">Copyright c 2011 eCareme Technologies, Inc. Tutti i diritti riservati.</string>
+    <string name="aws_acc_app_name">ID ASUS WebStorage</string>
+    <string name="aws_acc_intro_text">L’account ASUS WebStorage permette di accedere contemporaneamente ai servizi cloud! Archiviazione dei dati, musica cloud e foto cloud, accedi a tutto con un account!</string>
+    <string name="aws_acc_intro_check">Non mostrare questo messaggio in futuro</string>
+    <string name="aws_acc_intro_butt">Avanti</string>
+    <string name="aws_acc_username">Nome utente:</string>
+    <string name="aws_acc_username_hint">3-16 caratteri, consistenti di lettere e numeri.</string>
+    <string name="aws_acc_password">Password:</string>
+    <string name="aws_acc_password_hint">6-12 caratteri, consistenti di lettere e numeri.</string>
+    <string name="aws_acc_login_header" />
+    <string name="aws_acc_forgetpass">Recupera la Password</string>
+    <string name="aws_acc_forgetid" />
+    <string name="aws_acc_gotoregist" />
+    <string name="aws_acc_login_butt">Accesso</string>
+    <string name="aws_acc_register_title">Crea un account</string>
+    <string name="aws_acc_register_header">Dopo avere eseguito la registrazione come membro ASUS WebStoarge, ti è garantita una vasta gamma di servizi, da produttivi ad intrattenimento. Grazie al costante sviluppo ed aggiornamento, ASUS WebStorage ti garantisce servizi cloud all’avanguardia.</string>
+    <string name="aws_acc_password_confirm">Conferma password:</string>
+    <string name="aws_acc_password_confirm_hint">Inserisci di nuovo la password</string>
+    <string name="aws_acc_email">E-mail:</string>
+    <string name="aws_acc_email_hint">sample@dominio.com</string>
+    <string name="aws_acc_email_confirm">Conferma e-mail</string>
+    <string name="aws_acc_email_confirm_hint">"Inserisci di nuovo l'indirizzo e-mail"</string>
+    <string name="aws_acc_register_check">I accept (Accetto)</string>
+    <string name="aws_acc_register_eula">EULA</string>
+    <string name="aws_acc_register_eula_chk">"Selezionando 'I accept' (Accetto), accetti i &lt;a href=\"https://service.asuswebstorage.com/eula/\">Terms of Service&lt;/a> (Condizioni del servizio)"</string>
+    <string name="aws_acc_register_butt">Registra</string>
+    <string name="aws_acc_register_activated_message">L’account illimitato di un anno è stato attivato. Per registrare un nuovo account gratuito premi Register (Registrazione); se sei già un utente ASUS WebStorage premi Login (Accesso) per accedere.</string>
+    <string name="aws_acc_accinfo_header">Informazioni account</string>
+    <string name="aws_acc_accinfo_name">Nome account:</string>
+    <string name="aws_acc_accinfo_capacity">Capacità:</string>
+    <string name="aws_acc_accinfo_duedate">Data d scadenza:</string>
+    <string name="aws_acc_accinfo_butt">Divertiti!</string>
+    <string name="aws_acc_authenticating">Autenticazione…</string>
+    <string name="aws_acc_registering">Invio registrazione al server...</string>
+    <string name="aws_acc_spin_cancel_butt">Annulla</string>
+    <string name="aws_acc_spin_preparing">Preparazione …</string>
+    <string name="aws_acc_spin_connecting">Collegamento al server...</string>
+    <string name="aws_acc_register_not_validated">Nome account, password o e-mail non valida</string>
+    <string name="aws_acc_register_not_available">Questo nome account esiste già.</string>
+    <string name="aws_acc_otp_na">Per fornire un maggiore livello di protezione, notare che l’applicazione mobile ASUS WebStorage non supporta al momento l’autenticazione OTP (One Time Password). Se hai l’abitudine di eseguire l’accesso usando dispositivi mobili, raccomandiamo di rimuovere temporaneamente le tue Credenziali dal nostro Centro assistenza clienti</string>
+    <string name="aws_acc_login_fail">"Autenticazione non riuscita!
+Nome utente o password sbagliata. Riprovare."</string>
+    <string name="aws_acc_network_fail">Impossibile stabilire la connessione al server. Riprovare.</string>
+    <string name="aws_acc_password_confirm_fail">Le password non sono identiche. Confermare di nuovo la password.</string>
+    <string name="aws_acc_email_confirm_fail">E-mail sbagliata. Inserire di nuovo l’indirizzo e-mail</string>
+    <string name="aws_acc_email_incorrect">Formato e-mail non corretto. Inserire di nuovo l’indirizzo e-mail</string>
+    <string name="my_cloud_title">MyCloud</string>
+    <string name="my_cloud_welcome">Ciao, %user name%</string>
+    <string name="my_cloud_logout_btn">Disconnessione</string>
+    <string name="my_cloud_mycontent_tabbtn">My Content</string>
+    <string name="my_cloud_mydevice_tabbtn">My Device</string>
+    <string name="my_cloud_atvibe_tabbtn">\@Vibe</string>
+    <string name="my_cloud_nobody">Per avviare ASUS WebStorage su PAD, fare clic su</string>
+    <string name="my_cloud_nobody_learnmore">&lt;a href=\"http://www.asuswebstorage.com/\">Informazioni su&lt;/a></string>
+    <string name="my_cloud_nobody_btn">Avvia WebStorage</string>
+    <string name="my_cloud_nobody_title">ASUS WebStorage tiene tutto sempre aggiornato</string>
+    <string name="my_cloud_nobody_msg">ASUS WebStorage sincronizza automaticamente i file caricati sul cloud. Puoi accedere e modificare facilmente lo stesso file in qualsiasi momento dal PC di casa, dell’ufficio e dall’Eee PAD.</string>
+    <string name="my_cloud_nobody_dlmsg">Per sincronizzare i file del PC di casa, dell’ufficio e dell’Eee PAD, scarica la Suite Eee PAD PC più recente dall’indirizzo &lt;font color=\"#0eacf5\">http://eee.asus.com/eeepad&lt;/font></string>
+    <string name="my_cloud_nobody_dlurl">http://eee.asus.com/eeepad</string>
+    <string name="my_cloud_mydevice_message">In Device Pool puoi trovare cartelle, usare applicazioni ed anche controllare facilmente in remoto un dispositivo.</string>
+    <string name="my_cloud_mydevice_btn">Avvia la ricerca di tutti i dispositivi disponibili</string>
+    <string name="my_cloud_mycontent_search_hint">Parola chiave</string>
+    <string name="my_cloud_mycontent_photo_btn">Foto</string>
+    <string name="my_cloud_mycontent_music_btn">Musica</string>
+    <string name="my_cloud_mycontent_file_btn">File</string>
+    <string name="my_cloud_mycontent_more_btn">Altro...</string>
+    <string name="my_cloud_mycontent_recent_photos">[Foto recenti]</string>
+    <string name="t_title_1">Benvenuto su MyCloud</string>
+    <string name="t_body_1">Eee Pad può raggiungere il mondo oltre ogni tua aspettativa! Grazie a tre funzioni esclusive, MyCloud è il tuo portale personal sul cloud computing ASUS. Ti dà l’accesso remoto ai contenuti e documenti archiviati sul cloud, oppure un collegamento diretto al PC o Mac di casa da ovunque ci sia una connessione ad Internet. I tre portali MyCloud includono:</string>
+    <string name="t_title_1_1">MyContent</string>
+    <string name="t_body_1_1">Ti stai ancora portando dietro tutta la tua musica, video e documenti? MyContent libera il tuo spazio d’archiviazione locale e mette i tuoi file multimediali nelle mani sicure di ASUS WebStorage. Non ti succederà mai più di dimenticare o perdere i tuoi dati, e puoi anche riprodurli direttamente dal cloud!</string>
+    <string name="t_title_1_2">MyDesktop</string>
+    <string name="t_body_1_2">Temi di perdere la familiarità col tuo PC o Mac? Forse hai bisogno di Microsoft Office oppure ti piacerebbe controllare il tuo PC Home Theatre dal divano? MyDesktop crea un portale a qualsiasi PC o Mac, per permetterti di accedere al desktop come se fossi seduto proprio davanti al tuo PC!</string>
+    <string name="t_title_1_3">\@Vibe</string>
+    <string name="t_body_1_3">ASUS @Vibe è un servizio cloud che ti dà l’accesso al volo a radio Internet, musica e video. Grandi nuovi supporti multimediali aspettano solo di essere scoperti.</string>
+    <string name="t_title_2">Suite Eee Pad PC</string>
+    <string name="t_body_2_1">Mentre l’Eee Pad è fornito con l’applicazione MyCloud pre-installata, il PC o Mac necessita della Suite Eee Pad PC per accedere.</string>
+    <string name="t_body_2_2">La Suite Eee Pad PC include MyDesktop PC server, ASUS WebStorage (versione Windows) ed ASUS Sync: Il kit essenziale e completo per collegarsi e sincronizzare i dati con MyCloud ed Eee Pad.</string>
+    <string name="t_body_2_3">&lt;font color=\"#0eacf5\">Scaricare sul PC o Mac la versione più recente dal sito www.asus.com/support.&lt;/font></string>
+    <string name="t_title_3">ASUS WebStorage illimitato per te!</string>
+    <string name="t_body_3_1">MyContent permette di archiviare, riprodurre e recuperare tutti i file multimediali e documenti in modo sicuro e diretto dal cloud. Crea subito un account ASUS WebStorage ed ottieni &lt;font color=\"#0eacf5\">spazio d’archiviazione illimitato&lt;/font> gratuitamente per un anno. Carica ed esegui in modo sicuro il backup dei dati su ASUS WebStorage, e poi accedi ai tuoi contenuti virtuali da ovunque: PC, Eee Pad oppure dal web!</string>
+    <string name="t_body_3_2">Se si possiede già un account ASUS Webstorage o un account @vibe, eseguire l’accesso; altrimenti creare un account gratuito da qui. Il nuovo account può essere utilizzato per il servizio ASUS Webstorage e asus@vibe.</string>
+    <string name="t_body_3_sign">Ho un account</string>
+    <string name="t_body_3_new">Crea un account</string>
+    <string name="t_body_3_new_note">* Se vuoi attivare il tuo spazio d’archiviazione illimitato per 1 anno, devi creare un nuovo account su Eee PAD.</string>
+    <string name="t_back_btn">Indietro</string>
+    <string name="t_next_btn">Avanti</string>
+</resources>

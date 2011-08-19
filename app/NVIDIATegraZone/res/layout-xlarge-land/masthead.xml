@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:background="@drawable/tab_landscape_masthead_bg_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/masthead" android:background="@drawable/tab_landscape_masthead" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <ImageView android:layout_gravity="center" android:background="@drawable/tab_landscape_masthead_bg_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/spotlightTab" android:background="@drawable/tab_landscape_nav_spotlight_static" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <TextView android:id="@id/spotlightTabLabel" android:layout_marginBottom="2.0px" android:text="@string/tabs_spotlight" style="@style/tabLabel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/gamesTab" android:background="@drawable/tab_landscape_nav_active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <TextView android:id="@id/gamesTabLabel" android:layout_marginBottom="2.0px" android:text="@string/tabs_games" style="@style/tabLabel" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/tab_landscape_masthead_bg_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/tabLine" android:layout_below="@id/tabs" style="@style/tabBottomBar" />
+</LinearLayout>

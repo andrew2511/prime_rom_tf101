@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/da_routeContainer" android:background="@drawable/da_route_selector_bg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/da_primary_text" android:ellipsize="end" android:gravity="center" android:id="@id/da_viaText" android:layout_width="fill_parent" android:layout_height="24.0dip" android:singleLine="true" />
+    <TextView android:textSize="24.0dip" android:textColor="@color/da_primary_text" android:id="@id/da_distanceText" android:layout_width="wrap_content" android:layout_height="29.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <TextView android:textSize="24.0dip" android:textColor="@color/da_primary_text" android:id="@id/da_durationText" android:layout_width="wrap_content" android:layout_height="29.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <ProgressBar android:id="@id/da_progressBar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" style="?android:attr/progressBarStyleSmall" />
+</LinearLayout>

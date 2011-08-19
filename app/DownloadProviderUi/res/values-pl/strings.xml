@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_paused">Wstrzymane</string>
+    <string name="download_item_resumable">Z możliwością wznowienia</string>
+    <string name="download_item_not_resumable">Bez możliwości wznowienia</string>
+    <string name="app_label">Pobrane</string>
+    <string name="download_title_sorted_by_date">Pobrane pliki – sortowanie wg daty</string>
+    <string name="download_title_sorted_by_size">Pobrane pliki – sortowanie wg rozmiaru</string>
+    <string name="no_downloads">Brak pobranych plików.</string>
+    <string name="missing_title">&lt;Nieznane></string>
+    <string name="button_sort_by_size">Sortuj według rozmiaru</string>
+    <string name="button_sort_by_date">Sortuj według daty</string>
+    <string name="download_queued">W kolejce</string>
+    <string name="download_running">W toku</string>
+    <string name="download_success">Ukończono</string>
+    <string name="download_error">Błąd</string>
+    <string name="dialog_title_not_available">Niepowodzenie pobierania</string>
+    <string name="dialog_failed_body">Czy chcesz ponowić próbę pobrania tego pliku później czy też usunąć go z kolejki?</string>
+    <string name="dialog_title_queued_body">Plik jeszcze niedostępny</string>
+    <string name="dialog_queued_body">Ten plik jest w kolejce do pobrania w przyszłości.</string>
+    <string name="dialog_file_missing_body">Nie można znaleźć pobranego pliku.</string>
+    <string name="dialog_insufficient_space_on_external">Nie można ukończyć pobierania. Brak wystarczającej ilości miejsca w pamięci zewnętrznej.</string>
+    <string name="dialog_insufficient_space_on_cache">Nie można ukończyć pobierania. Brak wystarczającej ilości miejsca w wewnętrznej pamięci pobierania.</string>
+    <string name="dialog_cannot_resume">Pobieranie przerwane. Nie może zostać wznowione.</string>
+    <string name="dialog_file_already_exists">Nie można pobrać. Plik docelowy już istnieje.</string>
+    <string name="dialog_media_not_found">Nie można pobrać. Zewnętrzny nośnik nie jest dostępny.</string>
+    <string name="download_no_application_title">Nie można otworzyć pliku</string>
+    <string name="remove_download">Usuń</string>
+    <string name="delete_download">Usuń</string>
+    <string name="keep_queued_download">Zachowaj</string>
+    <string name="cancel_running_download">Anuluj</string>
+    <string name="retry_download">Ponów próbę</string>
+    <string name="deselect_all">Usuń zazn. wszystkich</string>
+    <string name="select_all">Zaznacz wszystkie</string>
+    <string name="selected_count" formatted="false">Wybrano %1$d z %2$d</string>
+    <string name="download_share_dialog">Udostępnij przez</string>
+</resources>

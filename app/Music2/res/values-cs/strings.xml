@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Žádné připojení k síti</string>
+    <string name="authentication_failure_no_network">K ověření účtu pro službu Music musíte být připojeni k internetu.</string>
+    <string name="authentication_failure">Ověření se nezdařilo</string>
+    <string name="authentication_failure_error">Účet nelze pro službu Music ověřit.</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Zrušit</string>
+    <string name="save_button_text">Uložit</string>
+    <string name="not_save_button_text">Neukládat</string>
+    <string name="shuffle_all">Náhodně – aktuální seznam</string>
+    <string name="play_all">Přehrát vše</string>
+    <string name="songs_all">Všechny skladby</string>
+    <string name="shuffle">Náhodně</string>
+    <string name="search">Vyhledávání</string>
+    <string name="settings">Nastavení</string>
+    <string name="library_options">Možnosti knihovny</string>
+    <string name="manage_music">Zpřístupnit offline</string>
+    <string name="available_offline">Dostupné v režimu offline</string>
+    <string name="hide_labels">Skrýt štítky</string>
+    <string name="show_labels">Zobrazit štítky</string>
+    <string name="refresh">Obnovit</string>
+    <string name="shop_artist">Nákup podle autora</string>
+    <string name="show_offline_music_only">Zobrazit jen hudbu offline</string>
+    <string name="gadget_all_songs_by_artist">Všechny skladby interpreta %s</string>
+    <string name="list_title_all_songs_by_artist">"Všechny skladby od autora: 
+%s"</string>
+    <string name="new_playlist_title">Název seznamu skladeb</string>
+    <string name="add_to_playlist_title">Název seznamu skladeb</string>
+    <string name="rename_playlist_title">Přejmenovat seznam skladeb %s na</string>
+    <string name="all_music">Veškerá hudba</string>
+    <string name="only_kept">Pouze offline</string>
+    <string name="search_section_header_artists">INTERPRETI</string>
+    <string name="search_section_header_albums">ALBA</string>
+    <string name="search_section_header_songs">SKLADBY</string>
+    <string name="search_section_header_playlists">SEZNAMY SKLADEB</string>
+    <string name="shuffle_all_songs">Náhodně – vše</string>
+    <string name="stream_settings">Nastavení streamování</string>
+    <string name="streamed_music_category">Hudba přenášená datovým proudem</string>
+    <string name="refresh_title">Aktualizovat</string>
+    <string name="refresh_summary">Obnovit hudbu ze služby Music Beta</string>
+    <string name="account_settings_title">Účet Google</string>
+    <string name="no_account_selected_summary">Dotykem vyberte účet</string>
+    <string name="account_selected_summary">Připojit ke službě Music Beta pomocí účtu %s</string>
+    <string name="hide_when_not_connected_title">Skrýt nedostupnou hudbu</string>
+    <string name="hide_when_not_connected_summary">V režimu offline zobrazovat pouze dostupnou hudbu</string>
+    <string name="stream_only_on_wifi_title">Streamovat hudbu pouze prostřednictvím Wi-Fi</string>
+    <string name="stream_only_on_wifi_summary">Streamovat hudbu pouze během připojení k síti Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_title">Stahovat pouze prostřednictvím Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Stahovat hudbu pro použití v režimu offline pouze během připojení k síti Wi-Fi.</string>
+    <string name="cache_streamed_title">Mezipaměť hudby</string>
+    <string name="cache_streamed_summary">Dočasně uchovávat hudbu přenášenou datovými proudy</string>
+    <string name="download_queue_title">Fronta stahování</string>
+    <string name="download_queue_summary">Zobrazuje skladby, které jsou právě stahovány</string>
+    <string name="help_title">Nápověda</string>
+    <string name="help_summary">Jak používat aplikaci Hudba a službu Music Beta společnosti Google</string>
+    <string name="library_help_title">Nápověda</string>
+    <string name="library_help_summary">Odstraňování problémů s připojením</string>
+    <string name="add_account_title">Přidat účet</string>
+    <string name="accounts_title">Účty</string>
+    <string name="account_status_connected">připojeno</string>
+    <string name="account_status_not_connected">nepřipojeno</string>
+    <string name="show_no_downloads_title">Ve frontě ke stažení nejsou žádné skladby</string>
+    <string name="music_version_title">Verze aplikace Hudba</string>
+    <string name="music_version_summary">Neznámá verze</string>
+    <string name="list_status_summary_no_items">Žádné položky</string>
+    <string name="list_status_summary_loading">Načítání...</string>
+    <string name="stream_accounts_title">Účty datových proudů</string>
+    <string name="library_status_title">Stav knihovny datových proudů</string>
+    <string name="nowplaying_title">Nyní se přehrává</string>
+    <string name="artists_title">Interpreti</string>
+    <string name="albums_title">Alba</string>
+    <string name="genres_title">Žánry</string>
+    <string name="tracks_title">Skladby</string>
+    <string name="playlists_title">Seznamy stop</string>
+    <string name="recent_title">Nejnovější</string>
+    <string name="search_title">Hledat</string>
+    <string name="no_tracks_title">Žádné skladby</string>
+    <string name="no_videos_title">Žádná videa</string>
+    <string name="delete_playlist_menu">Smazat</string>
+    <string name="edit_playlist_menu">Upravit</string>
+    <string name="rename_playlist_menu">Přejmenovat</string>
+    <string name="playlist_delete_confirmation">Seznam skladeb %s bude smazán.</string>
+    <string name="delete_playlist_button_confirm">Smazat</string>
+    <string name="playlist_deleted_message">Seznam stop byl smazán.</string>
+    <string name="playlist_created_message">Seznam skladeb %s byl vytvořen.</string>
+    <string name="playlist_renamed_message">Seznam skladeb byl přejmenován na %s</string>
+    <string name="recentlyadded">Nedávno přidané</string>
+    <string name="recentlyadded_title">Nedávno přidané</string>
+    <string name="podcasts_listitem">Podcasty</string>
+    <string name="podcasts_title">Podcasty</string>
+    <string name="unknown_artist_name">Neznámý interpret</string>
+    <string name="unknown_album_name">Neznámé album</string>
+    <string name="unknown_playlist_name">Neznámý seznam skladeb</string>
+    <string name="shuffle_on_notif">Náhodné přehrávání je zapnuto.</string>
+    <string name="shuffle_off_notif">Náhodné přehrávání je vypnuto.</string>
+    <string name="repeat_off_notif">Opakování je vypnuto.</string>
+    <string name="repeat_current_notif">Opakování aktuální skladby.</string>
+    <string name="repeat_all_notif">Opakování všech skladeb.</string>
+    <string name="play_selection">Přehrát</string>
+    <string name="add_to_playlist">Přidat do seznamu stop</string>
+    <string name="rename_playlist_menu_item">Přejmenovat</string>
+    <string name="add_to_playlist_selector_title">Přidat do seznamu skladeb</string>
+    <string name="queue">Aktuální seznam stop</string>
+    <string name="new_playlist_for_content">Nový seznam skladeb...</string>
+    <string name="new_empty_playlist">Nový seznam skladeb</string>
+    <string name="new_playlist_name_template">Seznam skladeb %d</string>
+    <string name="playlist_too_many_songs">Příliš mnoho skladeb. Maximum je %d na seznam.</string>
+    <string name="emptyplaylist">Vybraný seznam stop je prázdný.</string>
+    <string name="playlist_edit_label">NÁZEV</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">Přejmenovat</string>
+    <string name="service_start_error_title">Problém s přehráváním</string>
+    <string name="service_start_error_msg">Skladbu nelze přehrát.</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">Hotovo</string>
+    <string name="weekpicker_title">Nastavit čas</string>
+    <string name="save_as_playlist">Uložit jako seznam stop</string>
+    <string name="musicbrowserlabel">Hudba</string>
+    <string name="musicshortcutlabel">Seznam skladeb</string>
+    <string name="mediaplaybacklabel">Hudba</string>
+    <string name="playback_failed">Při přehrávání požadované stopy došlo k chybě</string>
+    <string name="cancel">Zrušit</string>
+    <string name="remove_from_playlist">Odstranit ze seznamu stop</string>
+    <string name="streamloadingtext">Připojování k proudu %s</string>
+    <string name="mediasearch">Vyhledat výraz „%s“ pomocí:</string>
+    <string name="search_hint">Vyhledat hudbu</string>
+    <string name="working_artists">Interpreti…</string>
+    <string name="working_albums">Alba…</string>
+    <string name="working_songs">Skladby…</string>
+    <string name="working_playlists">Seznamy stop…</string>
+    <string name="working_genres">Žánry...</string>
+    <string name="loading">Načítání</string>
+    <string name="sort_by_track">Stopy</string>
+    <string name="music_picker_title">Vyberte hudební stopu</string>
+    <string name="gadget_track">Stopa %d</string>
+    <string name="fail_to_start_stream">Přehrání požadovaného datového proudu se nezdařilo.</string>
+    <string name="search_settings_description">Interpreti, alba a stopy</string>
+    <string name="fast_scroll_alphabet">" AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ"</string>
+    <string name="music_library">Hudební knihovna</string>
+    <string name="music_shop">Obchod</string>
+    <string name="pick">Vybrat</string>
+    <string name="artist_unknown">Neznámý interpret</string>
+    <string name="playlists_label">Seznamy stop</string>
+    <string name="playlist_label">Seznam stop</string>
+    <string name="faux_art_all_songs_label">Všechny skladby</string>
+    <string name="faux_art_playlist_label">Seznam skladeb</string>
+    <string name="loading_new">Načítání nové hudby</string>
+    <string name="no_items">Vaše sbírka neobsahuje žádné položky</string>
+    <string name="buffering">Načítání</string>
+    <string name="keep_on_phone">Dostupné v režimu offline</string>
+    <string name="sort_order_prompt">Vyberte řazení</string>
+    <string name="provider_label">Hudba</string>
+    <string name="tutorial_set_up_usb">Další informace</string>
+    <string name="no_music_heading">Hudební knihovna je prázdná</string>
+    <string name="no_music_setup_uploader_heading">Přenášejte hudbu bezdrátově</string>
+    <string name="no_music_setup_uploader_body">Se službou Music Beta společnosti Google můžete přenášet hudbu datovými proudy.</string>
+    <string name="no_music_setup_usb_heading">Zkopírujte hudbu do svého zařízení.</string>
+    <string name="no_music_setup_usb_body">Zkopírujte hudbu do svého telefonu pomocí kabelu USB.</string>
+    <string name="no_local_music_heading">Žádná místní hudba</string>
+    <string name="no_local_music_body">Jste v režimu pouze offline, a proto se zobrazuje pouze hudba uložená v zařízení. Pokud chcete změnit, jaký obsah bude dostupný v režimu offline, použijte možnost Zpřístupnit offline.</string>
+    <string name="no_music_learn_more">Další informace</string>
+    <string name="tutorial_set_up_streaming">Nastavit streamování</string>
+    <string name="no_playlists_heading">V knihovně nemáte žádné seznamy skladeb.</string>
+    <string name="no_playlists_body">Seznam skladeb vytvoříte tak, že přejdete do seznamového zobrazení Skladby a v kontextové nabídce skladby vyberete položku Přidat do seznamu skladeb.</string>
+    <string name="tutorial_account_heading">Vítáme vás</string>
+    <string name="tutorial_account_body">Byli jste pozváni do služby Music Beta společnosti Google. Tento přehrávač slouží k okamžitému přístupu ke skladbám, které přidáte do služby Music Beta, a k další hudbě, kterou jste zkopírovali do svého zařízení Android.</string>
+    <string name="tutorial_account_list_header">Začněte výběrem účtu Google, pomocí kterého propojíte tento přehrávač se službou Music Beta:</string>
+    <string name="tutorial_done_heading">Bavte se</string>
+    <string name="tutorial_done_body">"Tento přehrávač je nyní propojen s účtem Google.
+
+Pokud jste již do služby Music Beta přidali svoji hudební sbírku, začne se zobrazovat v tomto přehrávači.
+
+Pokud potřebujete hudbu do služby Music Beta teprve přidat, začněte návštěvou našich webových stránek ve svém počítači:"</string>
+    <string name="tutorial_back">Zpět</string>
+    <string name="tutorial_skip">Přeskočit</string>
+    <string name="tutorial_next">Další</string>
+    <string name="tutorial_done">Hotovo</string>
+    <string name="help_heading">Nápověda</string>
+    <string name="spinner_carousel">Nejnovější</string>
+    <string name="spinner_album">Alba</string>
+    <string name="spinner_artist">Interpreti</string>
+    <string name="spinner_songs">Skladby</string>
+    <string name="spinner_playlists">Seznamy stop</string>
+    <string name="spinner_genres">Žánry</string>
+    <string name="sort_by_title">Seřadit A–Z</string>
+    <string name="sort_by_artist">Seřadit podle interpreta</string>
+    <string name="sort_by_album">Seřadit podle alba</string>
+    <string name="more_by_artist">Další od interpreta</string>
+    <string name="make_available_offline">Zpřístupnit offline</string>
+    <string name="search_web">Vyhledávat na webu</string>
+    <string name="manage_done">Hotovo</string>
+    <string name="too_many_items_title">Příliš mnoho položek</string>
+    <string name="too_many_items_body">K zachování bylo vybráno příliš mnoho položek. Zrušte výběr některých položek, abyste uvolnili prostor.</string>
+    <string name="save_manage_music_change_title">Uložit změny?</string>
+    <string name="save_manage_music_change_body">Chcete provedené změny uložit a zpřístupnit vybranou hudbu v režimu offline?</string>
+    <string name="not_all_items_can_be_kept_body">K zachování bylo vybráno příliš mnoho položek. Nebudou staženy všechny.</string>
+    <string name="free_space_overfull">Úložiště je plné (přebývá %s)</string>
+    <string name="free_space">%s ZDARMA</string>
+    <string name="stream_error_no_space_available">Není k dispozici žádné místo.</string>
+    <string name="stream_error_server_not_found">Nepodařilo se připojit k serveru.</string>
+    <string name="stream_error_only_on_wifi">Pro přehrání této písničky musíte být připojeni k síti Wi-Fi.</string>
+    <string name="stream_error_no_connection">Pokud chcete přehrát tuto skladbu, musíte být připojeni k internetu.</string>
+    <string name="stream_error_unauthorized">Neplatné uživatelské jméno/heslo</string>
+    <string name="stream_error_another_stream_being_played">Přehrávání hudby je dočasně pozastaveno, protože sbírku právě posloucháte v jiném zařízení.</string>
+    <string name="stream_error_rate_limit_reached">Hudba je dočasně nedostupná. Sbírku nelze přehrávat v několika zařízeních zároveň.</string>
+    <string name="stream_error_device_not_authorized">K účtu je připojeno 8 počítačů nebo zařízení. Než přidáte další počítač nebo zařízení, musíte nejprve zrušit autorizaci jednoho ze stávajících počítačů nebo zařízení.</string>
+    <string name="stream_error_another_stream_being_played_short">Přehrávání hudby je dočasně pozastaveno.</string>
+    <string name="stream_error_rate_limit_reached_short">Hudba je dočasně nedostupná.</string>
+    <string name="stream_error_device_not_authorized_short">K účtu je připojeno příliš mnoho zařízení.</string>
+    <string name="hide_now_playing_bar">Skrýt lištu přehrávání</string>
+    <string name="show_now_playing_bar">Lišta přehrávání</string>
+    <string name="show_options">Zobrazit možnosti</string>
+    <string name="hide_options">Skrýt možnosti</string>
+    <string name="all_songs_in_genre">"Všechny skladby žánru
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Zpřístupnění hudby offline</string>
+    <string name="notification_downloading_when_on_wifi">Skladby označené pro režim offline se načtou, jakmile se připojíte k síti Wi-Fi.</string>
+    <string name="notification_downloading_excessive_errors">V tuto chvíli není možné stahovat skladby. Zkontrolujte připojení k internetu.</string>
+    <string name="notification_downloading_done">Vybrané skladby jsou nyní k dispozici offline.</string>
+    <string name="carousel_label_shuffle_all">Náhodné přehrávání – vše</string>
+    <string name="song_label">SKLADBA</string>
+    <string name="artist_label">INTERPRET</string>
+    <string name="album_label">ALBUM</string>
+    <string name="effectspanel">Zvukové efekty</string>
+    <string name="menu_make_instant_mix">Vytvořit rychlý mix</string>
+    <string name="instant_mix_default_name">%s Mix</string>
+    <string name="creating_instant_mix">"Přidávání rychlého mixu
+do seznamů skladeb."</string>
+    <string name="creating_instant_mix_with_seed">"Přidávání rychlého mixu
+do seznamů skladeb podle
+%s"</string>
+    <string name="create_instant_mix_failed">Rychlý mix se nepodařilo vytvořit. Zkuste to prosím znovu.</string>
+    <string name="create_instant_mix_failed_insufficient_results">Ze skladby „%s“ nelze rychlý mix vytvořit, protože ve sbírce není dostatek podobných skladeb. Zkuste prosím vytvořit rychlý mix z jiné skladby.</string>
+    <string name="create_instant_mix_sync_timeout">"Rychlý mix byl
+vytvořen a brzy se zobrazí
+v seznamu skladeb."</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">Smazat</string>
+    <string name="confirm_delete_local_only">Opravdu chcete smazat titul %s?</string>
+    <string name="confirm_delete_has_remote">Titul %s se stáhl a nahrál do služby Google Music. Smazány budou pouze stažené položky. Jste si jisti, že je chcete smazat?</string>
+</resources>

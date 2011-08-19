@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arc_layout_gravity">
+        <flag name="top" value="0x00000001" />
+        <flag name="bottom" value="0x00000002" />
+        <flag name="fill" value="0x00000003" />
+        <flag name="flush_fill" value="0x00000004" />
+        <flag name="center" value="0x00000005" />
+    </attr>
+    <attr name="arc_span">
+        <flag name="exact" value="0x00000001" />
+        <flag name="proportionate" value="0x00000002" />
+    </attr>
+</resources>

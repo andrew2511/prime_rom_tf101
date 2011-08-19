@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InputMethods xt9:defaultLanguageId="@integer/english_language_id"
+  xmlns:xt9="http://schemas.android.com/apk/res/com.nuance.xt9.input">
+    <Language xt9:langId="@integer/german_language_id" xt9:langName="@string/german" xt9:defaultInputMode="ambig" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="ambig">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="abc" xt9:enableTrace="false">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/handwriting" xt9:enabled="true">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/english_language_id" xt9:langName="@string/english" xt9:defaultInputMode="ambig">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="ambig">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="abc" xt9:enableTrace="false">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/handwriting" xt9:enabled="true">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/spanish_language_id" xt9:langName="@string/spanish" xt9:defaultInputMode="ambig" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="ambig">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="abc" xt9:enableTrace="false">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/handwriting" xt9:enabled="true">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/french_language_id" xt9:langName="@string/french" xt9:defaultInputMode="ambig" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="ambig">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="abc" xt9:enableTrace="false">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/handwriting" xt9:enabled="true">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/italian_language_id" xt9:langName="@string/italian" xt9:defaultInputMode="ambig" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="ambig">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="abc" xt9:enableTrace="false">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/full_keyboard" xt9:layout="@xml/kbd_qwerty" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/handwriting" xt9:enabled="true">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/chinese_simp_language_id" xt9:langName="@string/chinese_simp" xt9:defaultInputMode="pinyin" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="pinyin" xt9:inputModeName="@string/pinyin">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/chs_full_keyboard" xt9:layout="@xml/kbd_qwerty_pinyin" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="stroke" xt9:inputModeName="@string/simp_stroke">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/chs_full_keyboard" xt9:layout="@xml/kbd_qwerty_stroke" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/chs_handwriting">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/chinese_handwriting_key_pad" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="chinese_trace" xt9:inputModeName="@string/chs_trace">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/chs_full_keyboard" xt9:layout="@xml/kbd_qwerty_pinyin" />
+        </InputMode>
+    </Language>
+    <Language xt9:langId="@integer/chinese_trad_language_id" xt9:langName="@string/chinese_trad" xt9:defaultInputMode="bpmf" xt9:enabled="false">
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="bpmf" xt9:inputModeName="@string/bopomofo">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/cht_full_keyboard" xt9:layout="@xml/kbd_qwerty_bpmf" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="pinyin" xt9:inputModeName="@string/pinyin">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/cht_full_keyboard" xt9:layout="@xml/kbd_qwerty_pinyin" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="stroke" xt9:inputModeName="@string/trad_stroke">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/cht_full_keyboard" xt9:layout="@xml/kbd_qwerty_stroke" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="cangjie" xt9:inputModeName="@string/cangjie">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/cht_full_keyboard" xt9:layout="@xml/kbd_qwerty_cangjie" />
+        </InputMode>
+        <InputMode xt9:defaultLayoutId="@integer/full_keyboard_id" xt9:inputMode="quick_cangjie" xt9:inputModeName="@string/quick_cangjie">
+            <Layout xt9:layoutId="@integer/full_keyboard_id" xt9:layoutName="@string/cht_full_keyboard" xt9:layout="@xml/kbd_qwerty_cangjie" />
+        </InputMode>
+        <InputMode xt9:inputMode="handwriting" xt9:inputModeName="@string/cht_handwriting">
+            <Layout xt9:layoutId="@integer/handwriting_id" xt9:layoutName="@string/handwriting" xt9:layout="@xml/chinese_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+</InputMethods>

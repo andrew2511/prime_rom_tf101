@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d de %2$2$d llibres</item>
+        <item quantity="one">Un llibre</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">"La lectura simultània d'aquest llibre està limitada a %1$d dispositius o equips, i has arribat a aquest límit. Tanca el llibre als altres lectors, espera una estona i torna-ho a provar."</item>
+        <item quantity="one">"La lectura simultània d'aquest llibre està limitada a un dispositiu o equip, i has arribat a aquest límit. Tanca el llibre als altres lectors, espera una estona i torna-ho a provar."</item>
+    </plurals>
+</resources>

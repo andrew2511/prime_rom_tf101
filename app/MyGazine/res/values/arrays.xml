@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="avai_widths_1">
+        <item>480.0dip</item>
+    </array>
+    <array name="avai_widths_2">
+        <item>384.0dip</item>
+    </array>
+    <string-array name="scale_type_entry">
+        <item>Fit size</item>
+        <item>Full size (The picture may be cropped)</item>
+    </string-array>
+    <string-array name="slide_show_picture_number_value">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="slide_show_interval">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="slide_show_interval_value">
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="date_format_value">
+        <item>MM/dd/yy</item>
+        <item>yyyy/MM/dd</item>
+        <item>dd MMMM,yyyy</item>
+        <item>MMMM dd,yyyy</item>
+    </string-array>
+    <string-array name="scale_type_value">
+        <item>fitCenter</item>
+        <item>centerCrop</item>
+    </string-array>
+</resources>

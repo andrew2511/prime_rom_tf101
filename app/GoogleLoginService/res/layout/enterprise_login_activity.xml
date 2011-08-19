@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/webview_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <LinearLayout android:orientation="horizontal" android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/webview_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/webview_lock_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="6.0dip" android:layout_weight="0.0" android:layout_alignParentRight="true" />
+            </LinearLayout>
+            <View android:background="#cceeeeee" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <WebView android:id="@id/webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/webview_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/setupWizardTitle" android:id="@id/progress_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="11.0dip" android:text="@string/webview_progress_title" />
+            <View android:layout_gravity="center" android:background="@color/divider_color" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="14.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/verbose_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="@string/webview_progress_verbose_message" />
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/webview_progress_bar" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/nowebview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/setupWizardTitle" android:id="@id/login_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/welcome_message" />
+                <View android:layout_gravity="center" android:background="@color/divider_color" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="14.0dip" />
+                <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/setupWizardBodyTextPrimary" android:id="@id/sign_in_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/sign_in_with_google_account_short" />
+                    <TextView android:textAppearance="@style/setupWizardBodyTextPrimary" android:textColor="@color/error_message_foreground" android:id="@id/error_message_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.google.android.gsf.login.EditTextWithHelp android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:hint="@string/username" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textEmailAddress" />
+                    <EditText android:id="@id/password" android:padding="5.0dip" android:nextFocusDown="@id/next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:hint="@string/password" android:password="true" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textPassword" android:imeOptions="actionDone" />
+                    <TextView android:textAppearance="@style/setupWizardTextSecondarySmall" android:id="@id/sign_in_agreement" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_in_agreement" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bottom_bar" android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:gravity="center" android:id="@id/cancel_button" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/cancel_button_label" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/back_button_label" android:drawableLeft="@drawable/ic_btn_back" android:drawablePadding="3.0dip" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/next_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sign_in_button_label" android:drawableRight="@drawable/ic_btn_next" android:drawablePadding="3.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

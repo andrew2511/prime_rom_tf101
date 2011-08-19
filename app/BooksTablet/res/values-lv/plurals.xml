@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d grāmatas no %2$2$d</item>
+        <item quantity="one">Viena grāmata</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Diemžēl vienlaicīgā lasīšana šai grāmatai ir ierobežota līdz %1$d ierīcēm vai datoriem, un šis ierobežojums ir sasniegts. Lūdzu, izvēlieties šo grāmatu citos lasītājos, gaidiet dažas minūtes un mēģiniet vēlreiz.</item>
+        <item quantity="one">Diemžēl vienlaicīgā lasīšana šai grāmatai ir ierobežota līdz vienai ierīcei vai datoram, un šis ierobežojums ir sasniegts. Lūdzu, izvēlieties šo grāmatu citos lasītājos, gaidiet dažas minūtes un mēģiniet vēlreiz.</item>
+    </plurals>
+</resources>

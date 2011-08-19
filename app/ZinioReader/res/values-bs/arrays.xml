@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Stavke možete da razvrstate po datumu ili naslovu. Odaberite one s kartica na vrhu zaslona.</item>
+        <item>"Želite da pročitate više?
+Odaberite gumb za kupovinu na dnu zaslona da idete na onlajn trgovinu za posljednje publikacije i članke."</item>
+        <item>Odaberite izbornik da vidite više opcija - poput kupovine, više, obriši i odjavi se.</item>
+        <item>Odaberite stavku za automatsko učitavanje dok čitate ili možete da odaberete gumb za učitavanje kako biste ga lokalno pohranili za čitanje kasnije.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/screenshot_take_bar" android:background="#79000000" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Theme.Translucent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/screenshot_button_take" android:background="@drawable/btn_bottom" android:layout_width="100.0dip" android:layout_height="wrap_content" android:src="@drawable/menu_camera" style="@style/BaseButton" />
+</RelativeLayout>

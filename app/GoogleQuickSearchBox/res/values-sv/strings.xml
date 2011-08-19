@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sök på Google</string>
+    <string name="remove_from_history">Ta bort från sökhistoriken</string>
+    <string name="remove_from_history_failed">Det gick inte att ta bort objektet från historiken</string>
+    <string name="menu_settings">Sökinställningar</string>
+    <string name="search_settings">Inst. för Sök på Google</string>
+    <string name="google_settings_category_title">Sök på Google</string>
+    <string name="device_settings_category_title">Enhetssökning</string>
+    <string name="search_sources">Sökbara objekt</string>
+    <string name="search_sources_summary">Välj vad du vill söka efter med telefonen</string>
+    <string name="clear_shortcuts">Rensa genvägar</string>
+    <string name="clear_shortcuts_summary">Ta bort genvägar till nyligen valda sökförslag</string>
+    <string name="clear_shortcuts_prompt">"Du tar bort alla genvägar till nyligen valda förslag.
+
+(Om du vill ta bort Webbläsarhistoriken använder du inställningarna i webbläsaren.)"</string>
+    <string name="clear_shortcuts_agree">Rensa genvägar</string>
+    <string name="clear_shortcuts_disagree">Ta inte bort genvägar</string>
+    <string name="menu_help">Hjälp</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Sök på Google</string>
+    <string name="google_search_description">Sökförslag på Google</string>
+    <string name="first_run_title">Sök på Google</string>
+    <string name="tos_button_text">Läs användarvillkor</string>
+    <string name="yes_agree_use_location">Använd Min plats för sökresultat och andra tjänster från Google.</string>
+    <string name="first_run_tos">Regleras av Google Mobiles användarvillkor.</string>
+    <string name="use_location_title">Använd Min plats</string>
+    <string name="search_history">Anpassad sökning</string>
+    <string name="search_history_summary_no_account">Inget konto är konfigurerat</string>
+    <string name="search_history_summary_enabled">Använder sökhistorik och andra anpassningar för %1$s</string>
+    <string name="search_history_summary_disabled">Sökhistorik och andra anpassade inställningar används inte</string>
+    <string name="manage_search_history">Hantera sökhistorik</string>
+    <string name="manage_search_history_summary_no_account">Inget konto är konfigurerat</string>
+    <string name="manage_search_history_summary">Logga in som %1$s i webbläsaren och öppna webbhistoriken</string>
+    <string name="select_google_account">Google-konto</string>
+    <string name="select_google_account_summary_no_accounts">Inga konton har konfigurerats</string>
+    <string name="settings_tos_title">Användarvillkor</string>
+    <string name="manage_search_history_authenticating_title">Loggar in</string>
+    <string name="manage_search_history_authenticating_message">Loggar in som %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Avbryt</string>
+    <string name="use_google_com">Använd alltid google.com</string>
+    <string name="current_search_base_url">Använder %1$s</string>
+    <string name="fetching_search_base_url">Hämtar sökadress...</string>
+    <string name="use_psychic">Aktivera Instant</string>
+    <string name="use_psychic_summary_on">Instant är aktivt (skriv för att söka)</string>
+    <string name="use_psychic_summary_off">Instant är inaktivt (tryck på Retur för att söka)</string>
+    <string name="web_suggest_updating">uppdaterar...</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+</resources>

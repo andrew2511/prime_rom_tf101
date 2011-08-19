@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@android:color/black" android:gravity="center_vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:text="@string/quickcontact_no_data"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

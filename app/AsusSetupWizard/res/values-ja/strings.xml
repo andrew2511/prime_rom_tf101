@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">インターネット接続</string>
+    <string name="mobile_wifi_title">モバイルネットワークとWi-Fi</string>
+    <string name="wifi_title">Wi-Fi接続のみ</string>
+    <string name="setup_wizard_title">セットアップウィザード</string>
+    <string name="next_button_label">次へ</string>
+    <string name="welecome_title">ようこそ</string>
+    <string name="btn_start_text">開始</string>
+</resources>

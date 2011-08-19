@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:paddingLeft="68.0px" android:paddingTop="11.5px" android:paddingBottom="11.5px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/srs_logo" android:layout_alignParentLeft="true" />
+</LinearLayout>

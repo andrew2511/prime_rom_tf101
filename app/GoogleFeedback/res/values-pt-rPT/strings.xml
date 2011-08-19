@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Agente Feedback do Market</string>
+    <string name="feedback">Comentários</string>
+    <string name="report_feedback">Comunicar erro</string>
+    <string name="report_error_in">Comunicar erro no %s</string>
+    <string name="system_log">Registo do sistema</string>
+    <string name="event_log">Registo de eventos</string>
+    <string name="preview">Pré-visualização</string>
+    <string name="back">Anterior</string>
+    <string name="cancel">Cancelar</string>
+    <string name="send">Enviar</string>
+    <string name="preview_feedback">Pré-visualizar comentários</string>
+    <string name="no_data">Sem dados</string>
+    <string name="fetching_system_log">A obter registo do sistema...</string>
+    <string name="fetching_event_log">A obter registo de eventos...</string>
+    <string name="privacy">Privacidade</string>
+    <string name="include_system_data">Incluir dados do sistema</string>
+    <string name="this_will_help">Partilhe os dados do sistema com a Google para melhor diagnosticar o problema.</string>
+    <string name="privacy_policy"><a href="notused">Política de privacidade</a></string>
+    <string name="unknown_app">Aplicação desconhecida</string>
+    <string name="cant_save_report">Não foi possível guardar o relatório de erros. Não existe espaço disponível no aparelho.</string>
+    <string name="report_being_sent">Obrigado, o seu relatório está a ser enviado.</string>
+    <string name="optional_description">Descrição (opcional)</string>
+    <string name="tos_activity_title">Google jurídico</string>
+    <string name="tos_activity_unsuccessful_message">O seu telefone não está ligado a um serviço de dados. Para ver estas informações agora, navegue para %s em qualquer computador ligado à internet.</string>
+    <string name="tos_accept">Aceitar</string>
+    <string name="tos_decline">Recusar</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/view_chooser" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/feedback_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:gravity="top" android:id="@id/feedback" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:hint="@string/optional_description" android:minLines="3" android:capitalize="sentences" android:autoText="true" android:layout_weight="1.0" android:inputType="textMultiLine" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/include_system_data" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/legal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/this_will_help" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/privacy_policy" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" />
+                </LinearLayout>
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/send_system_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:checked="true" />
+            </LinearLayout>
+            <ImageView android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <include layout="@layout/button_bar" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" style="?android:attr/progressBarStyleLarge" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

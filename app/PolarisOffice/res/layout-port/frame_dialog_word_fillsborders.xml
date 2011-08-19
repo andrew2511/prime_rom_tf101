@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="400.0px" android:layout_height="wrap_content" android:layout_marginBottom="29.0px">
+            <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_word_fillborders_fill_color" />
+            <LinearLayout android:id="@id/holder_spinner_word_fillsborders_fillcolor" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_spiner_height" android:layout_marginBottom="@dimen/dialog_common_fillsborder_spiner_portmarginbottom" />
+            <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_word_fillborders_border_style" />
+            <LinearLayout android:id="@id/holder_spinner_word_fillsborders_borderstyle" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_spiner_height" android:layout_marginBottom="@dimen/dialog_common_fillsborder_spiner_portmarginbottom" />
+            <TextView android:textSize="@dimen/dialog_common_label_text_size" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_label_text_layout_height" android:layout_marginBottom="@dimen/dialog_common_label_text_margin_bottom" android:text="@string/string_word_fillborders_border_color" />
+            <LinearLayout android:id="@id/holder_spinner_word_fillsborders_bordercolor" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_spiner_height" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_top" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_marginBottom="36.0px" android:layout_alignParentLeft="true" />
+            <LinearLayout android:id="@id/holder_border_word_fillsborders_border" android:layout_width="247.0px" android:layout_height="195.0px" android:layout_marginLeft="8.0px" android:layout_marginBottom="7.0px" android:layout_toRightOf="@id/holder_togglebutton_word_fillsborders_border_top" android:layout_alignTop="@id/holder_togglebutton_word_fillsborders_border_top" />
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_middle" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_marginBottom="36.0px" android:layout_below="@id/holder_togglebutton_word_fillsborders_border_top" android:layout_alignParentLeft="true" />
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_bottom" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_below="@id/holder_togglebutton_word_fillsborders_border_middle" android:layout_alignBottom="@id/holder_border_word_fillsborders_border" android:layout_alignParentLeft="true" />
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_left" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_marginRight="17.0px" android:layout_below="@id/holder_border_word_fillsborders_border" android:layout_alignLeft="@id/holder_border_word_fillsborders_border" android:layout_alignParentBottom="true" />
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_center" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_marginRight="17.0px" android:layout_toRightOf="@id/holder_togglebutton_word_fillsborders_border_left" android:layout_alignParentBottom="true" />
+            <LinearLayout android:id="@id/holder_togglebutton_word_fillsborders_border_right" android:layout_width="71.0px" android:layout_height="42.0px" android:layout_toRightOf="@id/holder_togglebutton_word_fillsborders_border_center" android:layout_alignRight="@id/holder_border_word_fillsborders_border" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

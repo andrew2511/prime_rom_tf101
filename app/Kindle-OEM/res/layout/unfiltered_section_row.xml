@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.periodicals.ui.SectionRowView android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_focusable_section_row" android:paddingLeft="@dimen/article_list_side_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/article_list_side_padding" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" kindle:textScaleFactor="0.85"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:kindle="http://schemas.android.com/apk/res/com.amazon.kindle">
+    <LinearLayout android:orientation="vertical" android:paddingRight="14.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/section_row_title_text_selector" android:ellipsize="end" android:id="@id/section_row_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" android:includeFontPadding="false" style="@style/periodical_section_title" />
+        <TextView android:textColor="@color/section_row_articles_text_selector" android:id="@id/section_row_articles" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" style="@style/periodical_section_articles" />
+    </LinearLayout>
+    <ImageView android:id="@id/section_row_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow" />
+</com.amazon.kcp.periodicals.ui.SectionRowView>

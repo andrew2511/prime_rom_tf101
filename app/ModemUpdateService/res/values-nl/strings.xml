@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Update modemfirmware gelukt</string>
+    <string name="update_fail">Update modemfirmware mislukt</string>
+    <string name="update_quz" formatted="false">"Het updateproces zal ongeveer 3-5 minuten duren en 15% of meer batterijvermogen vereisen.
+
+Controleer of het batterijvermogen hoger is dan 15% voordat u de update uitvoert.
+
+Wilt u nu een update uitvoeren van de modemfirmware?"</string>
+    <string name="notify_title">Asus-updateservice</string>
+    <string name="notify">De update voor de modemfirmware is beschikbaar.</string>
+    <string name="warning_title">Waarschuwing</string>
+    <string name="warning">"Schakel het apparaat NIET uit tijdens de update.
+
+Elke onverwachte onderbreking zal onherstelbare schade veroorzaken.
+
+Wilt u uw modemfirmware nu updaten?"</string>
+    <string name="battery_low" formatted="false">"Het proces vereist 15% of meer batterijvermogen.
+
+Controleer of het batterijvermogen hoger is dan 15% voordat u de update start."</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

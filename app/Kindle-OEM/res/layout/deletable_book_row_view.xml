@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.library.ui.DeleteBookRowView android:layout_width="fill_parent" android:layout_height="@dimen/library_book_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/lib_book_row_cover_container" android:layout_width="@dimen/library_book_row_cover_container_width" android:layout_height="@dimen/library_book_row_height" android:layout_marginLeft="@dimen/library_book_row_margin_left" layout="@layout/row_cover_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/lib_book_row_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/lib_book_row_checkbox" android:layout_toRightOf="@id/lib_book_row_cover_container" android:layout_centerVertical="true">
+        <TextView android:id="@id/lib_book_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/library_book_row_text.title" />
+        <TextView android:id="@id/lib_book_row_author" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/lib_book_row_title" style="@style/library_book_row_text.author" />
+    </LinearLayout>
+    <CheckBox android:id="@id/lib_book_row_checkbox" android:paddingRight="@dimen/default_padding" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.amazon.kcp.library.ui.DeleteBookRowView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google Books</string>
+    <string name="loading">Chargiar…</string>
+    <string name="menu_search">Tschertgar</string>
+    <string name="menu_accounts">Contos</string>
+    <string name="menu_refresh">Actualisar</string>
+    <string name="menu_reader_settings">Parameters da lectura</string>
+    <string name="menu_search_inside">"Tschertgar en l'intern"</string>
+    <string name="menu_about_the_book">Davart il cudesch</string>
+    <string name="menu_help">Agid</string>
+    <string name="menu_keep_on_device">"Preservar sin l'apparat"</string>
+    <string name="pref_text_settings">Parameters da text</string>
+    <string name="pref_brightness">Clerezza</string>
+    <string name="pref_themes">Designs</string>
+    <string name="pref_typeface">Scrittira</string>
+    <string name="pref_text_size">Grondezza dal text</string>
+    <string name="pref_line_height">Autezza da la lingia</string>
+    <string name="pref_show">Modus da lectura</string>
+    <string name="pref_mode_flowing_text">Text current</string>
+    <string name="pref_mode_image">Modus da maletg</string>
+    <string name="pref_brightness_auto">auto</string>
+    <string name="pref_themes_day">Di</string>
+    <string name="pref_themes_night">Notg</string>
+    <string name="pref_font_droid_sans">Droid Sans</string>
+    <string name="pref_font_droid_serif">Droid Serif</string>
+    <string name="pref_line_height_1">1</string>
+    <string name="pref_line_height_1_5">1.5</string>
+    <string name="pref_line_height_2">2</string>
+    <string name="pref_brightness_min">10%</string>
+    <string name="pref_brightness_max">100%</string>
+</resources>

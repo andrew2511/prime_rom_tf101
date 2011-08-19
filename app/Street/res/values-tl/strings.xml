@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Pumunta sa mapa</string>
+    <string name="report_inappropriate_image">Iulat ang larawan</string>
+    <string name="toggle_compass_mode">Mode na compass</string>
+    <string name="compass_mode_on">Naka-on ang mode na compass</string>
+    <string name="compass_mode_off">Naka-off ang mode na compass.</string>
+    <string name="waiting_for_network">Nawala ang koneksyon sa data, muling sinusubukan…</string>
+    <string name="panorama_disabled">Hindi na magagamit ang larawan</string>
+    <string name="service_unavailable">Hindi magagamit ang serbisyong View ng Kalye</string>
+    <string name="loading">Naglo-load</string>
+    <string name="no_panorama_data">Walang nakatakdang data ng panorama.</string>
+    <string name="invalid_panorama_data">Hindi wastong panorama.</string>
+    <string name="click_to_go_toast">I-drag ang Pegman kung saan mo gustong pumunta.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Nangangailangan ang programang ito ng koneksyon ng data, at awtomatikong muling susubukan. Pakitingnan ang lakas ng iyong signal. Naka-on ba ang mode ng airplane? Di ba pinagana ang data sa pag-roam?</string>
+    <string name="whats_new_header">Anong bago sa Street View?</string>
+    <string name="whats_new_c2g">Lumipad sa kahit saan na nakikita mo. I-drag si Pegman mula sa ibabang kaliwa at i-drop sya kung saan mo gustong pumunta.</string>
+    <string name="terms_and_privacy">Mga Tuntunin &amp; Privacy</string>
+    <string name="terms_and_conditions">Mga Tuntunin at Kondisyon</string>
+    <string name="privacy_policy">Patakaran sa Privacy</string>
+</resources>

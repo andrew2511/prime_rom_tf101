@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>なし</item>
+        <item>音声チャット</item>
+        <item>ビデオチャット</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>常に使用</item>
+        <item>マナーモード時のみ</item>
+        <item>使用しない</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>ダイアログを開く</item>
+        <item>システムバーでの通知</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>ダイアログを開く</item>
+        <item>システムバーでの通知</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>ハッピー</item>
+        <item>悲しい</item>
+        <item>ウィンク</item>
+        <item>アッカンベー</item>
+        <item>びっくり</item>
+        <item>キス</item>
+        <item>おーい</item>
+        <item>COOL</item>
+        <item>気持ち悪い</item>
+        <item>失言</item>
+        <item>恥ずかしい</item>
+        <item>無邪気</item>
+        <item>迷った</item>
+        <item>しくしく</item>
+        <item>口にチャック</item>
+        <item>笑</item>
+        <item>どうしよう</item>
+        <item>ニヤニヤ</item>
+        <item>怒</item>
+        <item>ポーカーフェイス</item>
+        <item>ハート</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>常に使用</item>
+        <item>表示しない</item>
+        <item>自動表示</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>よく使う連絡先</item>
+        <item>すべて</item>
+        <item>一部</item>
+        <item>指定の連絡先のみ</item>
+    </string-array>
+</resources>

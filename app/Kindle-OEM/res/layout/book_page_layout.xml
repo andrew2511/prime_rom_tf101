@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.BookPageLayout
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amazon.kcp.reader.ui.PageRenderView android:id="@id/page_render_view" style="@style/wrap" />
+    <ImageView android:layout_gravity="top|right|center" android:id="@id/bookmark" android:visibility="invisible" android:src="@drawable/bookmark_default" style="@style/wrap" />
+    <include android:id="@id/object_selection_view" layout="@layout/object_selection_view" style="@style/fill" />
+</com.amazon.kcp.reader.ui.BookPageLayout>

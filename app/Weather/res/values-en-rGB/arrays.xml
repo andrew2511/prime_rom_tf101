@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 hr</item>
+        <item>2 hrs</item>
+        <item>4 hrs</item>
+        <item>8 hrs</item>
+        <item>12 hrs</item>
+        <item>Manual</item>
+    </string-array>
+</resources>

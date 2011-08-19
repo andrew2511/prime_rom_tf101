@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Impostazioni widget meteo</string>
+    <string name="refreshBtn">Aggiorna</string>
+    <string name="saveBtn">Salva</string>
+    <string name="cancelBtn">Annulla</string>
+    <string name="nocityfound">Nessuna città trovata</string>
+    <string name="humidity">Umidità</string>
+    <string name="winds">Venti</string>
+    <string name="infor1">Non disponibile</string>
+    <string name="searchlistviewtitle">Seleziona una città</string>
+    <string name="wait">Attendere...</string>
+    <string name="refreshFail">Aggiornamento non riuscito.Riprovare.</string>
+    <string name="searchFail">Ricerca non riuscita.Riprovare.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SW</string>
+    <string name="dirWSW">WSW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">Inserire una città:</string>
+    <string name="manualtitle">Imposta posizione manualmente</string>
+    <string name="refreshprogresstitle">Aggiorna informazioni meteo</string>
+    <string name="refreshprogresscontent">Aggiornamento in corso.Attendere...</string>
+    <string name="searchprogresstitle">Cerca città</string>
+    <string name="searchprogresscontent">Ricerca in corso.Attendere...</string>
+    <string name="no_network">Rete non disponibile. Impossibile aggiornare le informazioni meteo.</string>
+    <string name="no_provider">Non tutte le informazioni sulla posizione sono attualmente disponibili. Attivare le reti wireless e i satelliti GPS in Posizione e nelle impostazioni di protezione per una rapida ed accurata rilevazione della posizione.</string>
+    <string name="title_location">Posizione</string>
+    <string name="content_autorefreshed">Aggiornamento automatico posizione</string>
+    <string name="content_manual">Ricerca manuale</string>
+    <string name="title_updatefreq">Frequenza di aggiornamento</string>
+    <string name="content_updatetime">Ultimo aggiornamento</string>
+    <string name="content_selectfreq">Seleziona frequenza di aggiornamento</string>
+    <string name="title_others">Altro</string>
+    <string name="content_tempunit">Unità Temperatura</string>
+</resources>

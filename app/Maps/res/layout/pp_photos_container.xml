@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/photo_container" android:paddingRight="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/photo_frame" android:background="@color/selectable_background" android:padding="2.0px" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/photo_innerframe" android:background="@color/selectable_background_black" android:padding="1.0px" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/photo" android:background="@color/white" android:layout_width="@dimen/photos_thumbnail_width" android:layout_height="@dimen/photos_thumbnail_height" android:scaleType="fitXY" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:ellipsize="end" android:layout_gravity="center" android:id="@id/attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

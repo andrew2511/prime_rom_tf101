@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CallDetailActivityTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactDetailActivityTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactEditorActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/TransparentActionBarStyle</item>
+    </style>
+    <style name="BackgroundOnly" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="ContactBrowserTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/TransparentActionBarStyle</item>
+        <item name="contact_filter_popup_width">320.0dip</item>
+        <item name="list_item_height">66.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">20.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_fading_edge_length">5.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">18.0dip</item>
+        <item name="list_item_photo_size">64.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff729a27</item>
+        <item name="list_item_header_text_indent">77.0dip</item>
+        <item name="list_item_header_text_color">?color/section_header_text_color</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+    </style>
+    <style name="ContactPickerTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="list_item_height">66.0dip</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_padding_right">24.0dip</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_gap_between_image_and_text">16.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">30.0dip</item>
+        <item name="list_item_photo_size">64.0dip</item>
+        <item name="list_item_header_text_indent">77.0dip</item>
+        <item name="list_item_header_text_color">?color/section_header_text_color</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+    </style>
+    <style name="ContactsPreferencesTheme" parent="@android:style/Theme.Holo.Light" />
+    <style name="CustomContactListFilterTheme" parent="@android:style/Theme.Holo.Light.Dialog" />
+    <style name="ContactPickerLayout" parent="@style/ContactPickerTheme">
+        <item name="android:layout_width">480.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CustomContactListFilterView" parent="@style/CustomContactListFilterTheme">
+        <item name="android:layout_width">400.0dip</item>
+        <item name="android:layout_height">400.0dip</item>
+    </style>
+    <style name="DirectoryHeader" parent="@style/ContactBrowserTheme">
+        <item name="android:background">@drawable/directory_bg_holo</item>
+    </style>
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="TransparentActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

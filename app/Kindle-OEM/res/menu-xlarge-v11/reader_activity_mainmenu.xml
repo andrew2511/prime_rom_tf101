@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_ab_brightness" android:id="@id/menuitem_colormode_brightness" android:title="@string/colors_and_brightness" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_ab_fonts" android:id="@id/menuitem_fontsize" android:title="@string/font_size_options" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_ab_search" android:id="@id/menuitem_search" android:title="@string/menuitem_search" android:showAsAction="ifRoom" android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@id/menuitem_reader_store" android:title="@string/menuitem_reader_store" />
+    <item android:icon="@drawable/ic_menu_goto" android:id="@id/menuitem_goto" android:title="@string/menuitem_goto">
+        <menu>
+            <item android:id="@id/menuitem_cover" android:title="@string/goto_cover" />
+            <item android:id="@id/menuitem_toc" android:title="@string/goto_toc" />
+            <item android:id="@id/menuitem_beginning" android:title="@string/goto_beginning" />
+            <item android:id="@id/menuitem_location" android:title="@string/goto_location" />
+        </menu>
+    </item>
+    <item android:id="@id/menuitem_notes" android:title="@string/goto_notes" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/menuitem_sync" android:title="@string/menuitem_sync" />
+    <item android:id="@id/menuitem_xlarge_bookmark" android:title="@string/menuitem_add_bookmark" />
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/menuitem_share_progress" android:title="@string/menuitem_share_progress" />
+</menu>

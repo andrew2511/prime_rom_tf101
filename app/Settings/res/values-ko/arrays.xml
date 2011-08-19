@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>미국</item>
+        <item>유럽</item>
+        <item>아프리카</item>
+        <item>아시아</item>
+        <item>호주</item>
+        <item>태평양</item>
+        <item>전체</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>애니메이션 없음</item>
+        <item>일부 애니메이션</item>
+        <item>전체 애니메이션</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>창 애니메이션이 표시되지 않습니다.</item>
+        <item>일부 창 애니메이션이 표시됩니다.</item>
+        <item>모든 창 애니메이션이 표시됨</item>
+    </string-array>
+    <array name="screen_timeout_entries">
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+        <item>@string/never_timeout_entry</item>
+    </array>
+    <string-array name="lock_after_timeout_entries">
+        <item>즉시</item>
+        <item>5초</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>매우 느림</item>
+        <item>느림</item>
+        <item>보통</item>
+        <item>빠름</item>
+        <item>매우 빠름</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>매우 낮음</item>
+        <item>낮음</item>
+        <item>보통</item>
+        <item>높음</item>
+        <item>매우 높음</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>미국 영어</item>
+        <item>영국 영어</item>
+        <item>프랑스어</item>
+        <item>독일어</item>
+        <item>이탈리아어</item>
+        <item>스페인어</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>검색 중...</item>
+        <item>연결 중…</item>
+        <item>인증하는 중...</item>
+        <item>IP 주소를 가져오는 중...</item>
+        <item>연결됨</item>
+        <item>일시 정지됨</item>
+        <item>연결을 끊는 중…</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>검색 중...</item>
+        <item>%1$s에 연결 중...</item>
+        <item>%1$s에서 인증하는 중...</item>
+        <item>%1$s에서 IP 주소를 가져오는 중...</item>
+        <item>%1$s에 연결됨</item>
+        <item>일시 정지됨</item>
+        <item>%1$s에서 연결을 끊는 중...</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>개방형</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2분</item>
+        <item>5분</item>
+        <item>1시간</item>
+        <item>선택 안함</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>나쁨</item>
+        <item>양호함</item>
+        <item>좋음</item>
+        <item>우수함</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>화면이 꺼질 때(모바일 데이터 사용량이 더 많음)</item>
+        <item>전원에 연결되었을 때는 절전 모드로 전환되지 않음</item>
+        <item>절전 모드로 전환 안함(배터리 전원이 더 많이 소모됨)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>화면이 꺼질 때</item>
+        <item>전원 연결 시 사용 안함</item>
+        <item>사용 안함(배터리 소모 큼)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>자동</item>
+        <item>5GHz 전용</item>
+        <item>2.4GHz 전용</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>사용 시간</item>
+        <item>계수 시작</item>
+        <item>애플리케이션 이름</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>없음</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>수동</item>
+        <item>WPS 누름 버튼</item>
+        <item>액세스 포인트의 WPS 핀</item>
+        <item>이 기기의 WPS 핀</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>고정</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>없음</item>
+        <item>수동</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>사용 안함</item>
+        <item>알리미</item>
+        <item>진동</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>없음</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP 또는 CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>내부 기기 저장용량</item>
+        <item>이동식 SD 카드</item>
+        <item>시스템에서 결정</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>항상</item>
+        <item>선택 안함</item>
+        <item>무음 모드일 때만</item>
+        <item>무음 모드가 아닐 때만</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>짧게</item>
+        <item>보통</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>확인 안함</item>
+        <item>DRM 콘텐츠만 확인</item>
+        <item>항상 확인</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP 확인 사용 안함</item>
+        <item>DRM 콘텐츠에 대해서만 HDCP 확인 사용</item>
+        <item>항상 HDCP 확인 사용</item>
+    </string-array>
+</resources>

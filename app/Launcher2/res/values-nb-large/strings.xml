@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Velg bakgrunn</string>
+    <string name="wallpaper_chooser_empty">Ingen bakgrunner er tilgjengelige</string>
+    <string name="wallpaper_cancel">Avbryt</string>
+</resources>

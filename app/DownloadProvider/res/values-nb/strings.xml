@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Nedlaster</string>
+    <string name="permlab_downloadManager">Få tilgang til nedlasteren.</string>
+    <string name="permdesc_downloadManager">Gir applikasjonen tilgang til nedlasteren, og å bruke den til å laste ned filer. Ondsinnede applikasjoner kan bruke dette til å forstyrre nedlastinger og få tilgang til privat informasjon.</string>
+    <string name="permlab_downloadManagerAdvanced">Avansert nedlastingsfunksjonalitet.</string>
+    <string name="permdesc_downloadManagerAdvanced">Gir applikasjonen tilgang til avanserte funksjoner i nedlastingsoversikten. Skadelige applikasjoner kan bruke dette til å forstyrre nedlastinger og gi tilgang til privat informasjon.</string>
+    <string name="permlab_downloadCompletedIntent">Sende nedlastingsvarslinger</string>
+    <string name="permdesc_downloadCompletedIntent">Lar applikasjonen sende varslinger om ferdige nedlastinger. Ondsinnede applikasjoner kan bruke dette for å forvirre andre applikasjoner som laster ned filer.</string>
+    <string name="permdesc_seeAllExternal">"Programmet viser alle nedlastinger til minnekort, uavhengig av hvilket program  som lastet dem ned."</string>
+    <string name="permlab_downloadCacheNonPurgeable">Reserver lagringsplass i nedlastingsbufferen</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Gir programmet mulighet til å laste ned filer til nedlastingsbufferen, slik at de ikke slettes automatisk når nedlastingsbehandlingen trenger mer lagringsplass.</string>
+    <string name="permlab_downloadWithoutNotification">last ned filer uten varsling</string>
+    <string name="permdesc_downloadWithoutNotification">Gjør at programmet kan laste ned filer via nedlastingsbehandlingen, uten at brukeren varsles.</string>
+    <string name="permlab_accessAllDownloads">Tilgang til alle systemnedlastinger</string>
+    <string name="permdesc_accessAllDownloads">Tillater applikasjonen å vise og endre alle igangsatt av andre applikasjoner i systemet.</string>
+    <string name="download_unknown_title">&lt;Uten navn></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" og %d til"</string>
+    <string name="notification_download_complete">Ferdig nedlasting</string>
+    <string name="notification_download_failed">Mislykket nedlasting</string>
+    <string name="notification_need_wifi_for_size">Str. krever Wi-Fi</string>
+    <string name="wifi_required_title">Nedlastingen er for stor for operatørnettverket</string>
+    <string name="wifi_required_body" formatted="false">"Du må bruke Wi-Fi for å fullføre nedlastingen på %s . 
+
+Klikk på %s  for å starte nedlastingen neste gang du er koblet til et Wi-Fi-nettverk."</string>
+    <string name="wifi_recommended_title">Vil du sette nedlastingen i kø til senere?</string>
+    <string name="wifi_recommended_body" formatted="false">"Nedlasting av denne %s  store filen på mobilnettverket kan gi økt batteribruk og ekstrakostnader fra operatør.
+
+ Klikk på %s for å laste ned filen ved neste tilkobling til et Wi-Fi-nettverk."</string>
+    <string name="button_queue_for_wifi">Kø</string>
+    <string name="button_cancel_download">Avbryt</string>
+    <string name="button_start_now">Start nå</string>
+</resources>

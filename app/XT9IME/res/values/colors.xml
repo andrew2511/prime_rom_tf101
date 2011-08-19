@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="key_text_color">#ff000000</color>
+    <color name="candidate_recommended">#ff0084d1</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#30000000</color>
+    <color name="background_dark">#ff1a1a1a</color>
+    <color name="guide_line_color">#ffff8000</color>
+    <color name="pen_color_blue">#ff00cc00</color>
+    <color name="pen_color">#ff000000</color>
+</resources>

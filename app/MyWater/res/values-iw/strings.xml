@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">טפט live ברירת המחדל של ASUS</string>
+    <string name="mywater_setting">הגדרות ASUS MyWater</string>
+    <string name="enable_rotation">אפשר סיבוב המים</string>
+    <string name="enable_rotation_description">המים יסתובבו יחד עם סיבוב ההתקן.</string>
+</resources>

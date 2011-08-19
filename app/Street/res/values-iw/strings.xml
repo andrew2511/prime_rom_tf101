@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">תצוגת רחוב</string>
+    <string name="go_to_map">עבור למפה</string>
+    <string name="report_inappropriate_image">דווח על תמונה</string>
+    <string name="toggle_compass_mode">מצב מצפן</string>
+    <string name="compass_mode_on">מצב מצפן מופעל.</string>
+    <string name="compass_mode_off">מצב מצפן מושבת.</string>
+    <string name="waiting_for_network">החיבור לנתונים אבד, מנסה שנית…</string>
+    <string name="panorama_disabled">התמונה כבר אינה זמינה</string>
+    <string name="service_unavailable">"שירות 'תצוגת הרחוב' אינו זמין."</string>
+    <string name="loading">טוען</string>
+    <string name="no_panorama_data">לא הוגדרו נתוני פנורמה.</string>
+    <string name="invalid_panorama_data">פנורמה לא חוקית.</string>
+    <string name="click_to_go_toast">גרור את Pegman למקום שאליו ברצונך להגיע.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">תוכנית זו דורשת חיבור נתונים, ותנסה להתחבר שוב באופן אוטומטי. בדוק את עוצמת האות. האם מצב טיסה מופעל? האם נדידת נתונים מושבתת?</string>
+    <string name="whats_new_header">"מה חדש ב'תצוגת רחוב'?"</string>
+    <string name="whats_new_c2g">טוס לכל מקום שאתה רואה. גרור את איש המקל לפינה השמאלית התחתונה והנח אותו במקום שאליו ברצונך להגיע.</string>
+    <string name="terms_and_privacy">תנאים ופרטיות</string>
+    <string name="terms_and_conditions">תנאים והגבלות</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+</resources>

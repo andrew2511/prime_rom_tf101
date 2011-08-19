@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_videochat_options">
+        <item>Brak</item>
+        <item>Czat audio</item>
+        <item>Czat wideo</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Zawsze</item>
+        <item>Tylko po wyciszeniu</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="prefEntries_video_notifications">
+        <item>Otwórz okno dialogowe</item>
+        <item>Powiadomienie na pasku systemowym</item>
+    </string-array>
+    <string-array name="prefEntries_text_notifications">
+        <item>Otwórz okno dialogowe</item>
+        <item>Powiadomienie na pasku systemu</item>
+        <item>Wyłączone</item>
+    </string-array>
+    <string-array name="smiley_names">
+        <item>Wesoły</item>
+        <item>Smutny</item>
+        <item>Mruga</item>
+        <item>Pokazuje język</item>
+        <item>Zaskoczony</item>
+        <item>Całuje</item>
+        <item>Krzyczy</item>
+        <item>Na luzie</item>
+        <item>Pazerny</item>
+        <item>Nietaktowny</item>
+        <item>Zawstydzony</item>
+        <item>Anioł</item>
+        <item>Niezdecydowany</item>
+        <item>Płacze</item>
+        <item>Milczy jak grób</item>
+        <item>Śmieje się</item>
+        <item>Zmieszany</item>
+        <item>Zniesmaczony</item>
+        <item>Szalony</item>
+        <item>Twarz pokerzysty</item>
+        <item>Serce</item>
+    </string-array>
+    <string-array name="buddy_show_choices">
+        <item>Zawsze</item>
+        <item>Nigdy</item>
+        <item>Automatycznie</item>
+    </string-array>
+    <string-array name="roster_filter">
+        <item>Najpopularniejsze</item>
+        <item>Wszystkie</item>
+        <item>Niektóre</item>
+        <item>Tylko The cool kids</item>
+    </string-array>
+</resources>

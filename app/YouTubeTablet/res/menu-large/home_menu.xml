@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/optional_icons">
+        <item android:id="@id/menu_login" android:orderInCategory="50" android:title="@string/login" android:showAsAction="never" />
+        <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/menu_logout" android:orderInCategory="50" android:title="@string/logout" android:showAsAction="never" />
+    </group>
+</menu>

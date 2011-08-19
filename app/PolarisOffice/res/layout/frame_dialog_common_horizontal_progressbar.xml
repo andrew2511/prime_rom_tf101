@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="153.0px" android:layout_marginTop="@dimen/dialog_common_filesave_titlespacer_height" android:minWidth="327.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="510.0px" android:layout_height="25.0px">
+        <TextView android:textSize="18.0px" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/common_horizontal_progressbar_text_1" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0px" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center" android:id="@id/common_horizontal_progressbar_text_2" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="24.0px" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="19.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_common_horizontal_progressbar" android:layout_width="fill_parent" android:layout_height="20.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="26.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_common_horizontal_progressbar_button_1" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+</LinearLayout>

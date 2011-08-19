@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/movie_info_status" layout="@layout/status" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/movie_info" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/movie_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <ImageView android:id="@id/thumbnail" android:background="#ff000000" android:layout_width="@dimen/watch_poster_art_width" android:layout_height="@dimen/watch_poster_art_height" android:layout_marginRight="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/thumbnail" android:layout_centerVertical="true">
+                    <TextView android:id="@id/duration_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duration_label" style="@style/Metadata_Label" />
+                    <TextView android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+                    <TextView android:id="@id/release_date_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/release_date_label" style="@style/Metadata_Label" />
+                    <TextView android:id="@id/release_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+                    <TextView android:id="@id/genres_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/genres_label" style="@style/Metadata_Label" />
+                    <TextView android:id="@id/genres" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:id="@id/actors_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/actors_label" style="@style/Metadata_Label" />
+            <TextView android:id="@id/actors" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+            <TextView android:id="@id/directors_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/directors_label" style="@style/Metadata_Label" />
+            <TextView android:id="@id/directors" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+            <TextView android:id="@id/writers_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writers_label" style="@style/Metadata_Label" />
+            <TextView android:id="@id/writers" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+            <TextView android:id="@id/producers_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/producers_label" style="@style/Metadata_Label" />
+            <TextView android:id="@id/producers" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Metadata_Content" />
+        </LinearLayout>
+    </ScrollView>
+</merge>

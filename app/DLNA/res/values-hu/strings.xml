@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Vissza</string>
+    <string name="localdevice">Helyi</string>
+    <string name="playto">Lejátszás itt:</string>
+    <string name="chooserenderdevice">Válasszon egy eszközt a megjelenítéshez</string>
+    <string name="mediatype">Médiatípus</string>
+    <string name="choosemediatype">Kérjük, válasszon egy médiatípust</string>
+    <string name="musictype">Zene</string>
+    <string name="imagetype">Fotó</string>
+    <string name="videotype">Videó</string>
+    <string name="cant_connect_to_server">Nem sikerült a kiszolgálóhoz kapcsolódni. Kérjük, ellenőrizze a kapcsolatot.</string>
+    <string name="internet_exception">Nincs hálózati kapcsolat</string>
+    <string name="internet_exception_message">Kérjük, ellenőrizze a hálózati kapcsolatot…</string>
+    <string name="nodlnadevice">Kapcsolja be az ugyanazon a Wi-Fi haozaton belul talalhato DLNA-kepes eszkozoket.</string>
+    <string name="notagain">Ne mutassa ezt az uzenetet ujra.</string>
+    <string name="shardms">Meg akarja osztani mediafajljait mas eszkozokkel?</string>
+    <string name="server">Szerver</string>
+    <string name="settings">Beallitasok</string>
+    <string name="dms">Digitalis mediaszerver</string>
+    <string name="dmssettings">Digitális médiaszerver beállítások</string>
+    <string name="enable">Engedélyezés</string>
+    <string name="disable">Letiltás</string>
+    <string name="sharemediatype">Válassza ki a megosztandó médiatípusokat</string>
+    <string name="selectplayer">Jelölje ki a lejátszó eszközt</string>
+    <string name="shareto">Megosztás módja</string>
+    <string name="dms_settings_adv">Speciális beállítások</string>
+    <string name="desc_share">Megosztott mappa módosítása</string>
+    <string name="title_share">Megosztott mappa</string>
+    <string name="desc_friendlyname">Az eszköz megjelenített nevének módosítása</string>
+    <string name="title_friendlyname">Megjelenített név</string>
+    <string name="msgbox_title_error">Hiba</string>
+    <string name="msgbox_msg_error_no_wifi">Előbb kapcsolja be a Wi-Fi szolgáltatást.</string>
+    <string name="msgbox_msg_error_friendlyname">A megjelenített név nem módosítható.</string>
+    <string name="msgbox_msg_error_sharefolder">A megosztott mappa nem módosítható.</string>
+    <string name="msgbox_msg_error_mediatype">A megosztott médiatípus nem módosítható.</string>
+    <string name="enable_dms">Digitális médiaszerver engedélyezése</string>
+    <string name="disable_dms">Digitális médiaszerver letiltása</string>
+    <string name="about_title">Névjegy</string>
+    <string name="toast_srvbusy">A kiszolgáló foglalt. Kérjük, próbálja újra később.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Most hallható</string>
+    <string name="play_all">Összes lejátszása</string>
+    <string name="party_shuffle">Keverés bulihoz</string>
+    <string name="shuffle_all">Keverés</string>
+    <string name="wifi_quick_toggle_summary">Wi-Fi bekapcsolása</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="slide_show">Diavetítés</string>
+    <string name="wait">Kérjük, várjon...</string>
+    <string name="fail_to_load">Nem sikerült betölteni</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Belső tárhely</string>
+</resources>

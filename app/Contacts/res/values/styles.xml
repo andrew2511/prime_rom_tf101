@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CallDetailActivityTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactDetailActivityTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ContactEditorActivityTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="BackgroundOnly">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="FullyTranslucent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="FullyTranslucent.QuickContact" parent="@style/FullyTranslucent">
+        <item name="android:windowAnimationStyle">@style/DummyAnimation</item>
+    </style>
+    <style name="QuickContact" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="QuickContactAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickcontact_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickcontact_above_exit</item>
+    </style>
+    <style name="QuickContactBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickcontact_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickcontact_below_exit</item>
+    </style>
+    <style name="ContactsSearchAnimation">
+        <item name="android:windowEnterAnimation">@anim/search_bar_enter</item>
+        <item name="android:windowExitAnimation">@anim/search_bar_exit</item>
+    </style>
+    <style name="DummyAnimation">
+        <item name="android:windowExitAnimation">@anim/dummy_animation</item>
+    </style>
+    <style name="ContactBrowserTheme" parent="@android:style/Theme">
+        <item name="contact_filter_popup_width">320.0dip</item>
+        <item name="list_item_height">?android:listPreferredItemHeight</item>
+        <item name="list_section_header_height">32.0dip</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/section_header</item>
+        <item name="list_item_divider">@drawable/list_item_divider</item>
+        <item name="list_item_padding_top">4.0dip</item>
+        <item name="list_item_padding_right">11.0dip</item>
+        <item name="list_item_padding_bottom">4.0dip</item>
+        <item name="list_item_padding_left">4.0dip</item>
+        <item name="list_item_fading_edge_length">5.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">5.0dip</item>
+        <item name="list_item_photo_size">56.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff729a27</item>
+        <item name="list_item_header_text_indent">56.0dip</item>
+        <item name="list_item_header_text_color">?color/section_header_text_color</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+    </style>
+    <style name="ContactPickerTheme" parent="@android:style/Theme">
+        <item name="section_header_background">@drawable/section_header</item>
+        <item name="list_item_divider">@drawable/list_item_divider</item>
+        <item name="list_item_padding_top">4.0dip</item>
+        <item name="list_item_padding_right">11.0dip</item>
+        <item name="list_item_padding_bottom">4.0dip</item>
+        <item name="list_item_padding_left">4.0dip</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_vertical_divider_margin">5.0dip</item>
+        <item name="list_item_presence_icon_margin">5.0dip</item>
+        <item name="list_item_photo_size">56.0dip</item>
+        <item name="list_item_prefix_highlight_color">#ff729a27</item>
+        <item name="list_item_header_text_indent">56.0dip</item>
+        <item name="list_item_header_text_color">?color/section_header_text_color</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+    </style>
+    <style name="JoinContactActivityTheme" parent="@style/ContactPickerTheme" />
+    <style name="ContactsPreferencesTheme" parent="@android:style/Theme" />
+    <style name="CustomContactListFilterTheme" parent="@android:style/Theme" />
+    <style name="ContactPickerLayout" parent="@style/ContactPickerTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CustomContactListFilterView" parent="@style/CustomContactListFilterTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DirectoryHeader" parent="@style/ContactBrowserTheme">
+        <item name="android:background">@drawable/directory_bg</item>
+    </style>
+    <style name="NonPhoneActivityTheme" parent="@android:style/Theme.Translucent" />
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Dialog" />
+    <style name="SectionDivider">
+        <item name="android:background">#ff7e7e87</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="ContactDetailHeaderTextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="hotpot_slide_out_animation_ms">500</item>
+    <item type="raw" name="hotpot_transition_ended_delay_ms">300</item>
+    <item type="raw" name="hotpot_slide_in_animation_ms">300</item>
+    <item type="raw" name="places_slide_in_animation_ms">300</item>
+</resources>

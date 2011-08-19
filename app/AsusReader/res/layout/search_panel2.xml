@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_panel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/search_result_list" android:background="@drawable/asus_ep_text_normal" android:padding="6.0px" android:visibility="visible" android:layout_width="400.0px" android:layout_height="500.0px" android:cacheColorHint="#ffffffff" android:divider="@null" android:dividerHeight="12.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:headerDividersEnabled="false" />
+</RelativeLayout>

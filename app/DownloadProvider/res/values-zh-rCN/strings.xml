@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">下载管理器</string>
+    <string name="permlab_downloadManager">访问下载管理器。</string>
+    <string name="permdesc_downloadManager">允许应用程序访问下载管理器以及用它下载文件。恶意应用程序可借此干扰下载，以及访问隐私信息。</string>
+    <string name="permlab_downloadManagerAdvanced">高级下载管理器功能。</string>
+    <string name="permdesc_downloadManagerAdvanced">允许应用程序使用下载管理器的高级功能。恶意应用程序可能会借此中断下载以及访问私密信息。</string>
+    <string name="permlab_downloadCompletedIntent">发送下载通知。</string>
+    <string name="permdesc_downloadCompletedIntent">允许应用程序发送关于已完成下载的通知。恶意应用程序可借此干扰下载文件的其他应用程序。</string>
+    <string name="permdesc_seeAllExternal">无论下载到 SD 卡的内容是由什么应用程序下载的，都允许该应用程序查看所有这些内容。</string>
+    <string name="permlab_downloadCacheNonPurgeable">保留下载缓存中的空间</string>
+    <string name="permdesc_downloadCacheNonPurgeable">允许应用程序将文件下载到下载缓存（系统不会因为下载管理器需要更多空间而自动删除下载缓存）。</string>
+    <string name="permlab_downloadWithoutNotification">直接下载文件而不显示通知</string>
+    <string name="permdesc_downloadWithoutNotification">允许应用程序在不向用户显示任何通知的情况下，通过下载管理器下载文件。</string>
+    <string name="permlab_accessAllDownloads">访问所有系统下载内容</string>
+    <string name="permdesc_accessAllDownloads">允许该应用程序查看和修改由系统中的任意程序所发起的所有下载。</string>
+    <string name="download_unknown_title">&lt;未命名></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" 还有 %d 项"</string>
+    <string name="notification_download_complete">下载完成</string>
+    <string name="notification_download_failed">下载失败</string>
+    <string name="notification_need_wifi_for_size">此大小的文件需要通过 Wi-Fi 下载</string>
+    <string name="wifi_required_title">文件太大，不适于通过运营商网络下载</string>
+    <string name="wifi_required_body" formatted="false">"您必须使用 Wi-Fi 才能完成此 %s  文件的下载。
+
+点击%s 可在下次连接到 Wi-Fi 网络时开始此下载。"</string>
+    <string name="wifi_recommended_title">稍后再加入下载队列吗？</string>
+    <string name="wifi_recommended_body" formatted="false">"立即开始此 %s  文件的下载可能会缩短电池的使用时间并/或导致超额使用移动数据连接（这会导致移动运营商依照流量套餐中的超额规定向您收费）。
+
+点击下面的%s可在下次连接到 Wi-Fi 网络时开始此下载。"</string>
+    <string name="button_queue_for_wifi">排队</string>
+    <string name="button_cancel_download">取消</string>
+    <string name="button_start_now">立即开始</string>
+</resources>

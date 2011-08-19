@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_list_pane_width">208.0dip</dimen>
+    <dimen name="label_list_unread_text_view_width">48.0dip</dimen>
+    <dimen name="label_list_minimum_height">48.0dip</dimen>
+    <dimen name="label_list_right_margin">0.0dip</dimen>
+    <dimen name="label_list_label_name_left_margin">8.0dip</dimen>
+    <dimen name="label_list_label_unread_count_right_margin">24.0dip</dimen>
+    <dimen name="label_list_label_color_width">24.0dip</dimen>
+    <dimen name="label_list_special_label_icon_size">24.0dip</dimen>
+    <dimen name="account_width">210.0dip</dimen>
+    <dimen name="accountname_width">188.0dip</dimen>
+    <dimen name="breadcrumb_width">128.0dip</dimen>
+    <dimen name="search_view_width">400.0dip</dimen>
+    <dimen name="new_message_notification_margin_left">168.0dip</dimen>
+    <dimen name="new_message_notification_margin_right">168.0dip</dimen>
+    <dimen name="new_message_notification_margin_bottom">16.0dip</dimen>
+    <dimen name="new_message_notification_width">464.0dip</dimen>
+</resources>

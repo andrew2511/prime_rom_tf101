@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/photo_row" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/widget31" android:layout_width="171.0px" android:layout_height="226.0px" android:layout_x="0.0px" android:layout_y="0.0px">
+            <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/TextView01" android:background="@drawable/asus_ep_mycloud_androidgallery_bg" android:paddingLeft="10.0sp" android:paddingRight="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0sp" android:text="Video &amp; Photo" />
+            <TextView android:textSize="44.0sp" android:textColor="#ffffffff" android:id="@id/widget32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gallery" />
+            <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/Button01" android:background="@drawable/rollover_more" android:paddingLeft="40.0sp" android:paddingRight="40.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0sp" android:text="More.." android:onClick="startPixWe" />
+        </LinearLayout>
+        <LinearLayout style="@style/cellbox">
+            <ImageButton android:id="@id/ip1" style="@style/photo_img" />
+            <TextView android:id="@id/tp1" style="@style/mycontent_row_txt" />
+        </LinearLayout>
+        <LinearLayout style="@style/cellbox">
+            <ImageButton android:id="@id/ip2" style="@style/photo_img" />
+            <TextView android:id="@id/tp2" style="@style/mycontent_row_txt" />
+        </LinearLayout>
+        <LinearLayout style="@style/cellbox">
+            <ImageButton android:id="@id/ip3" style="@style/photo_img" />
+            <TextView android:id="@id/tp3" style="@style/mycontent_row_txt" />
+        </LinearLayout>
+        <LinearLayout style="@style/cellbox">
+            <ImageButton android:id="@id/ip4" style="@style/photo_img" />
+            <TextView android:id="@id/tp4" style="@style/mycontent_row_txt" />
+        </LinearLayout>
+        <LinearLayout style="@style/cellbox">
+            <ImageButton android:id="@id/ip5" style="@style/photo_img" />
+            <TextView android:id="@id/tp5" style="@style/mycontent_row_txt" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

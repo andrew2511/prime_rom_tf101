@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">percet vesz igénybe.</string>
+    <string name="postpone">Elhalasztás</string>
+    <string name="update">Frissítés</string>
+    <string name="asus_received_title">A Asus frissítő szolgáltatása</string>
+    <string name="received_message">Új frissítés áll rendelkezésre.</string>
+    <string name="firmware_update_title">Firmware frissítése</string>
+    <string name="firmware_update_fail">"A frissítés sikertelen.
+
+Az eszköz visszaállítja az eredeti konfigurációt."</string>
+    <string name="low_battery_title">A rendszerfrissítés leállítása</string>
+    <string name="low_battery_warning">"Az akkumulátor üzemidejének 50%-ra van szükség ahhoz, hogy a rendszer folytatni tudja a frissítési műveletet.
+Kérjük, hogy a rendszerfrissítés előtt töltse fel az akkumulátort."</string>
+    <string name="confirmDownload_text1">Szeretné letölteni a következő rendszerfrissítést?</string>
+    <string name="confirmDownload_textok">A frissítés elfogadásához nyomja meg a YES (Igen) opciót.</string>
+    <string name="confirmDownload_textcancel">A frissítés elvetéséhez nyomja meg a NO (Nem) opciót.</string>
+    <string name="confirmDownload_textwifi">Azt javasoljuk, hogy a frissítés letöltéséhez használjon ingyenes WiFi hotspot szolgáltatást vagy korlátlan adatletöltési lehetőséget.</string>
+    <string name="confirmDownload_textwifi2">Ha ilyen nem áll rendelkezésre, valószínűleg a normál adatletöltési díjat kell kifizetnie a szolgáltatónak.</string>
+    <string name="btn_text_later">Később</string>
+    <string name="confirmDownload_dialog_title">Vigyázat, a barangoló mód aktív.</string>
+    <string name="update_dialog_text">"Egy új szoftverfrissítés lett letöltve a telefonjához. Szeretné most telepíteni? 
+"</string>
+    <string name="downloading">Firmware letöltése...</string>
+    <string name="install_time">Becsült telepítési idő:</string>
+    <string name="install">Telepítés</string>
+    <string name="received_ticker">Új frissítés áll rendelkezésre.</string>
+    <string name="dl_received_ticker">Új frissítés áll rendelkezésre.</string>
+    <string name="dl_received_message">A rendszer frissítést talált. Nyomja meg itt a letöltés megkezdéséhez.</string>
+    <string name="postponetime_text">Elhalasztási idő:</string>
+    <string name="reach_max_net_fail">A kiszolgálón megszakadt a letöltés. Kérjük, próbálja újra később.</string>
+    <string name="dlg_title_checking">Az adatok épségének ellenőrzése.</string>
+    <string name="dlg_msg_checking">A firmware-fájl épségének ellenőrzése</string>
+    <string name="cannot_set_to_browser">Nem lehet beállítani a böngészőhöz.</string>
+    <string name="upgrade_error">Frissítési hiba. Kérjük, töltse le ismét a frissítőcsomagot.</string>
+    <string name="start_to_download">A kritikus fontosságú frissítőcsomag letöltésének megkezdése.</string>
+    <string name="start_to_upgrade">Frissítőcsomag telepítésének megkezdése.</string>
+    <string name="Start_NI_DmSession">Hálózati kezdő DM munkamenet. Elfogadja?</string>
+    <string name="prepare_dm_download">Letöltés előkészítése...</string>
+    <string name="download_finished">A firmware letöltése befejeződött...</string>
+    <string name="download_notification_title">A T-Mobile frissítő szolgáltatása</string>
+    <string name="download_in_progress">Az új firmware letöltése folyamatban van</string>
+    <string name="out_of_mem_warning">"Nincs elegendő szabad hely a telefonon.
+Kérjük, távolítson el néhány alkalmazást, majd próbálja újra."</string>
+    <string name="btn_register">C2DM regisztrálása</string>
+    <string name="btn_unregister">C2DM eltávolítása</string>
+    <string name="ui_alert_input_hint">Kérjük, írjon be szöveget</string>
+    <string name="ui_alert_input_numeric_hint">Kérjük, írjon be számértéket</string>
+    <string name="ui_alert_input_phone_number_hint">Telefonszám</string>
+</resources>

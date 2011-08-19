@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">返回</string>
+    <string name="localdevice">我的设备</string>
+    <string name="playto">播放至</string>
+    <string name="chooserenderdevice">请选择播放设备</string>
+    <string name="mediatype">媒体类型</string>
+    <string name="choosemediatype">请选择媒体类型</string>
+    <string name="musictype">音乐</string>
+    <string name="imagetype">相片</string>
+    <string name="videotype">影片</string>
+    <string name="cant_connect_to_server">无法连接服务器，请检查您的网络连接。</string>
+    <string name="internet_exception">无网络连接</string>
+    <string name="internet_exception_message">请确认您的网络连接…</string>
+    <string name="nodlnadevice">请开启DLNA使设备可使用相同的WiFi连接</string>
+    <string name="notagain">不要再显示此信息</string>
+    <string name="shardms">您确定要与其他设备共享多媒体文件吗？</string>
+    <string name="server">服务器</string>
+    <string name="settings">设置</string>
+    <string name="dms">数字多媒体服务器</string>
+    <string name="dmssettings">数字多媒体服务器设置</string>
+    <string name="enable">开启</string>
+    <string name="disable">关闭</string>
+    <string name="sharemediatype">选择共享媒体类型</string>
+    <string name="selectplayer">选择播放设备</string>
+    <string name="shareto">选择共享方式</string>
+    <string name="dms_settings_adv">高级设置</string>
+    <string name="desc_share">更改共享文件夹</string>
+    <string name="title_share">共享文件夹</string>
+    <string name="desc_friendlyname">重新命名设备名称</string>
+    <string name="title_friendlyname">显示名称</string>
+    <string name="msgbox_title_error">错误</string>
+    <string name="msgbox_msg_error_no_wifi">请先开启WiFi无线网络</string>
+    <string name="msgbox_msg_error_friendlyname">无法重新命名设备</string>
+    <string name="msgbox_msg_error_sharefolder">无法更改共享文件夹</string>
+    <string name="msgbox_msg_error_mediatype">无法更改共享媒体类型</string>
+    <string name="enable_dms">允许数字媒体服务器</string>
+    <string name="disable_dms">关闭数字媒体服务器</string>
+    <string name="about_title">关于</string>
+    <string name="toast_srvbusy">服务器忙线中，请稍后再试</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">正在播放</string>
+    <string name="play_all">全部播放</string>
+    <string name="party_shuffle">派对随机播放</string>
+    <string name="shuffle_all">全部随机播放</string>
+    <string name="wifi_quick_toggle_summary">打开 Wi-Fi</string>
+    <string name="yes">是</string>
+    <string name="no">无</string>
+    <string name="slide_show">播放幻灯片</string>
+    <string name="wait">请稍候...</string>
+    <string name="fail_to_load">未能载入</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">内部存储空间</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Перегляд вулиць</string>
+    <string name="go_to_map">До мапи</string>
+    <string name="report_inappropriate_image">Повідомити про неприпустиме зображення</string>
+    <string name="toggle_compass_mode">Режим \"Компас\"</string>
+    <string name="compass_mode_on">Режим \"Компас\" увімкнено.</string>
+    <string name="compass_mode_off">Режим \"Компас\" вимкнено.</string>
+    <string name="waiting_for_network">Передав. даних втрачено, повт. спроба…</string>
+    <string name="panorama_disabled">Зображення недоступне</string>
+    <string name="service_unavailable">Перегляд вулиць недоступний.</string>
+    <string name="loading">Завантаження</string>
+    <string name="no_panorama_data">Дані панорами не задано.</string>
+    <string name="invalid_panorama_data">Недійсний дані панорами.</string>
+    <string name="click_to_go_toast">Перетягн. фігурку людини в обране місце.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Для цієї програми потрібне передавання даних. Спробу буде повторено автоматично. Перевірте рівень сигналу. Режим для літака ввімкн.? Дані роумінгу вимкн.?</string>
+    <string name="whats_new_header">Що нового в Перегляді вулиць?</string>
+    <string name="whats_new_c2g">Перенесіться, куди забажаєте. Перетягніть чоловічка з нижнього лівого кутка в потрібне місце.</string>
+    <string name="terms_and_privacy">Умови та конфіденційність</string>
+    <string name="terms_and_conditions">Загальні положення та умови</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+</resources>

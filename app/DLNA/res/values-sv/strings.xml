@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNet</string>
+    <string name="back">Tillbaka</string>
+    <string name="localdevice">Lokal</string>
+    <string name="playto">Spela till</string>
+    <string name="chooserenderdevice">Välj en enhet som skall visas</string>
+    <string name="mediatype">Mediatyp</string>
+    <string name="choosemediatype">Välj en av mediatyperna</string>
+    <string name="musictype">Musik</string>
+    <string name="imagetype">Bild</string>
+    <string name="videotype">Video</string>
+    <string name="cant_connect_to_server">Kunde inte ansluta till servern. Kontrollera din anslutning.</string>
+    <string name="internet_exception">Ingen nätverksanslutning</string>
+    <string name="internet_exception_message">Kontrollera din nätverksanslutning…</string>
+    <string name="nodlnadevice">Slå på DNLA-aktiverade enheter inom samma WiFi-nätverk.</string>
+    <string name="notagain">Visa inte det här meddelandet igen</string>
+    <string name="shardms">Vill du dela dina mediafiler till andra enheter?</string>
+    <string name="server">Server</string>
+    <string name="settings">Inställningar</string>
+    <string name="dms">Digital mediaserver</string>
+    <string name="dmssettings">Inställningar för digital mediaserver</string>
+    <string name="enable">Aktivera</string>
+    <string name="disable">Inaktivera</string>
+    <string name="sharemediatype">Välj mediatyper att dela</string>
+    <string name="selectplayer">Välj enhet att spela upp</string>
+    <string name="shareto">Dela via</string>
+    <string name="dms_settings_adv">Avancerade inställningar</string>
+    <string name="desc_share">Byt delad mapp</string>
+    <string name="title_share">Delad mapp</string>
+    <string name="desc_friendlyname">Ändra enhetens visade namn</string>
+    <string name="title_friendlyname">Visat namn</string>
+    <string name="msgbox_title_error">Fel</string>
+    <string name="msgbox_msg_error_no_wifi">Aktivera först WiFi.</string>
+    <string name="msgbox_msg_error_friendlyname">Det går inte att ändra det visade namnet.</string>
+    <string name="msgbox_msg_error_sharefolder">Det går inte att ändra byta delad mapp.</string>
+    <string name="msgbox_msg_error_mediatype">Det går inte att ändra delad mediatyp.</string>
+    <string name="enable_dms">Aktivera digital mediaserver</string>
+    <string name="disable_dms">Avaktivera digital mediaserver</string>
+    <string name="about_title">Om</string>
+    <string name="toast_srvbusy">Servern är upptagen försök igen senare.</string>
+    <string name="symbol">></string>
+    <string name="nowplaying">Nu spelas</string>
+    <string name="play_all">Spela alla</string>
+    <string name="party_shuffle">Blanda alla spår</string>
+    <string name="shuffle_all">Blanda hela listan</string>
+    <string name="wifi_quick_toggle_summary">Aktivera Wi-Fi</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="slide_show">Bildspel</string>
+    <string name="wait">Vänta…</string>
+    <string name="fail_to_load">Kunde inte hämtas</string>
+    <string name="durationformatshort" formatted="false">%2$d:%5$02d</string>
+    <string name="durationformatlong" formatted="false">%1$d:%3$02d:%5$02d</string>
+    <string name="internal_memory">Intern lagring</string>
+</resources>

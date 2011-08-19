@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 שעה</item>
+        <item>2 שעות</item>
+        <item>4 שעות</item>
+        <item>8 שעות</item>
+        <item>12 שעות</item>
+        <item>ידני</item>
+    </string-array>
+</resources>

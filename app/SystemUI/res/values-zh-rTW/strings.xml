@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">系統 UI</string>
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_do_not_disturb_button">勿干擾</string>
+    <string name="status_bar_please_disturb_button">顯示通知</string>
+    <string name="status_bar_no_notifications_title">沒有通知</string>
+    <string name="status_bar_ongoing_events_title">進行中</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    <string name="battery_low_title">請連接充電器</string>
+    <string name="battery_low_subtitle">電池電量即將不足。</string>
+    <string name="battery_low_percent_format">還剩 %d%%</string>
+    <string name="invalid_charger">"不支援 USB 充電。
+僅能使用隨附的充電器。"</string>
+    <string name="battery_low_why">電池使用狀況</string>
+    <string name="status_bar_settings_settings_button">設定</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">飛行模式</string>
+    <string name="status_bar_settings_auto_rotation">自動旋轉螢幕</string>
+    <string name="status_bar_settings_mute_label">關閉</string>
+    <string name="status_bar_settings_auto_brightness_label">自動</string>
+    <string name="status_bar_settings_notifications">通知</string>
+    <string name="recent_tasks_title">最新的</string>
+    <string name="recent_tasks_empty">沒有最近用過的應用程式。</string>
+    <string name="recent_tasks_app_label">應用程式</string>
+    <string name="bluetooth_tethered">已透過 Bluetooth 進行網路共用</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">設定輸入方式</string>
+    <string name="status_bar_use_physical_keyboard">使用實體鍵盤</string>
+    <string name="usb_device_permission_prompt">允許 %1$s 應用程式存取 USB 裝置嗎？</string>
+    <string name="usb_accessory_permission_prompt">允許 %1$s 應用程式存取 USB 配件嗎？</string>
+    <string name="usb_device_confirm_prompt">連接這個 USB 裝置時啟用 %1$s 嗎？</string>
+    <string name="usb_accessory_confirm_prompt">連接這個 USB 配件時啟用 %1$s 嗎？</string>
+    <string name="usb_accessory_uri_prompt">已安裝的應用程式均無法存取這類 USB 配件，如要進一步瞭解這個配件，請造訪 %1$s</string>
+    <string name="title_usb_accessory">USB 配件</string>
+    <string name="label_view">查看</string>
+    <string name="always_use_device">預設用於這個 USB 裝置</string>
+    <string name="always_use_accessory">預設用於這個 USB 配件</string>
+</resources>

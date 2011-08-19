@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_bar_height">38.0dip</dimen>
+    <dimen name="home_icon_padding">8.0dip</dimen>
+    <dimen name="album_art_thumb_width">128.0dip</dimen>
+    <dimen name="album_art_thumb_height">128.0dip</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ExistFile" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paste_exist_replace" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ExistOldIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="74.0px" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/ExistOldSize" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/ExistOldDate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paste_exist_to" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ExistNewIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="74.0px" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/ExistNewSize" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/ExistNewDate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:id="@id/ExistCheckBox" android:paddingLeft="70.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/check_button" android:text="@string/paste_exist_apply" />
+</LinearLayout>

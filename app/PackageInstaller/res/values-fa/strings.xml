@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نصب کننده بسته</string>
+    <string name="install">نصب</string>
+    <string name="done">انجام شد</string>
+    <string name="security_settings_desc">اجازه می دهد این برنامه:</string>
+    <string name="cancel">لغو</string>
+    <string name="unknown">ناشناس</string>
+    <string name="installing">در حال نصب…</string>
+    <string name="install_done">برنامه کاربردی نصب شد</string>
+    <string name="install_confirm_question">می خواهید این برنامه را نصب کنید؟</string>
+    <string name="install_failed">برنامه کاربردی نصب نشد</string>
+    <string name="install_failed_invalid_apk">این بسته به نظر می رسد خراب است.</string>
+    <string name="install_failed_inconsistent_certificates">بسته فعلی با همین نام اما با امضای مختلف قبلاً نصب شده است.</string>
+    <string name="install_failed_older_sdk">این بسته فقط در نسخه های جدیدتر Android کار می کند.</string>
+    <string name="install_failed_cpu_abi_incompatible">این برنامه با این CPU رایانه لوحی سازگار نیست.</string>
+    <string name="install_failed_msg">%1$s در این رایانه لوحی نصب نشد.</string>
+    <string name="launch">باز کردن</string>
+    <string name="unknown_apps_dlg_title">نصب مسدود شد</string>
+    <string name="unknown_apps_dlg_text">برای حفظ ایمنی، رایانه لوحی شما طوری تنظیم شده که نصب برنامه های کاربردی که از Android Market دریافت نشده اند را مسدود کند.</string>
+    <string name="ok">تأیید</string>
+    <string name="settings">تنظیمات</string>
+    <string name="manage_applications">مدیریت برنامه های کاربردی</string>
+    <string name="dlg_app_replacement_title">جایگزین کردن برنامه</string>
+    <string name="dlg_app_replacement_statement">"برنامه ای که شما در حال نصب آن هستید با یک برنامه دیگر جایگزین می شود.
+
+تمام داده های کاربری قبلی ذخیره خواهند شد."</string>
+    <string name="dlg_sys_app_replacement_statement">"این یک برنامه سیستمی است. هنوز می خواهید آن را جایگزین کنید؟
+
+تمام اطلاعات کاربری قبلی ذخیره خواهند شد."</string>
+    <string name="out_of_space_dlg_title">فضا کافی نیست</string>
+    <string name="out_of_space_dlg_text">%1$s نصب نشد. مقداری از فضا را آزاد کرده و دوباره امتحان کنید.</string>
+    <string name="dlg_ok">تأیید</string>
+    <string name="app_not_found_dlg_title">برنامه کاربردی یافت نشد</string>
+    <string name="app_not_found_dlg_text">این برنامه در لیست برنامه های نصب شده یافت نشد.</string>
+    <string name="uninstall_application_title">حذف نصب برنامه</string>
+    <string name="uninstall_update_title">حذف نصب نسخه به روز</string>
+    <string name="uninstall_activity_text">%1$s قسمتی از برنامه زیر است:</string>
+    <string name="uninstall_application_text">این برنامه کاربردی حذف نصب می شود.</string>
+    <string name="uninstall_update_text">یک نسخه کارخانه جایگزین برنامه می شود.</string>
+    <string name="uninstalling">در حال حذف نصب...</string>
+    <string name="uninstall_done">حذف نصب انجام شد</string>
+    <string name="uninstall_failed">حذف نصب ناموفق بود</string>
+    <string name="uninstall_failed_device_policy_manager">حذف نصب ممکن نیست: این بسته یک سرپرست دستگاه فعال است.</string>
+    <string name="manage_device_administrators">مدیریت سرپرستان دستگاه</string>
+    <string name="uninstall_failed_msg">%1$s نمی تواند حذف نصب شود</string>
+    <string name="Parse_error_dlg_title">خطای تجزیه</string>
+    <string name="Parse_error_dlg_text">مشکلی در تجزیه بسته وجود دارد.</string>
+</resources>

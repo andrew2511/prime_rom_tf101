@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/setupWizardOuterFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/Title" android:gravity="center_vertical" android:id="@id/account_intro_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin_left" android:minHeight="@dimen/title_height" android:text="@string/account_intro_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:id="@id/top_divider" android:layout_below="@id/account_intro_title" style="@style/TopDivider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/top_divider" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/optional_message" android:layout_marginBottom="64.0dip" style="@style/DescriptionText" />
+        <TextView android:id="@id/common_message" android:layout_below="@id/optional_message" style="@style/DescriptionText" />
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" android:layout_above="@id/skip_button" android:layout_alignLeft="@id/messages" style="@style/BottomDivider" />
+    <Button android:id="@id/skip_button" android:layout_marginRight="@dimen/button_horizontal_margin" android:text="@string/skip_button_label" android:layout_toLeftOf="@id/next_button" android:layout_alignBottom="@id/next_button" style="@style/Button" />
+    <Button android:id="@id/next_button" android:text="@string/next_button_label" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Button" />
+</RelativeLayout>

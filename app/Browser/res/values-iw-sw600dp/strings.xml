@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">כרטיסייה חדשה</string>
+    <string name="new_incognito_tab">כרטיסייה חדשה של גלישה בסתר</string>
+    <string name="active_tabs">כרטיסיות</string>
+    <string name="open_all_in_new_window">פתח הכל בכרטיסיות חדשות</string>
+    <string name="contextmenu_openlink_newwindow">פתח בכרטיסיה חדשה</string>
+    <string name="contextmenu_openlink_newwindow_background">פתח בכרטיסיית רקע חדשה</string>
+    <string name="pref_content_open_in_background_summary">פתח כרטיסיות חדשות מאחורי הכרטיסייה הנוכחית</string>
+</resources>

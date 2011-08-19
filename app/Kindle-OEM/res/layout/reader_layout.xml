@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/fill"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pages_container" style="@style/fill" />
+    <com.amazon.kcp.reader.ui.MagnifyingGlass android:id="@id/magnifying_glass" android:visibility="gone" android:layout_marginBottom="25.0dip" style="@style/wrap" />
+    <FrameLayout android:layout_gravity="bottom|right|center" android:id="@id/orientation_lock_container" style="@style/wrap">
+        <ImageView android:id="@id/orientation_lock_view" android:paddingLeft="30.0dip" android:paddingTop="30.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" style="@style/wrap" />
+    </FrameLayout>
+    <include android:id="@id/view_options" android:visibility="gone" layout="@layout/view_options" />
+</FrameLayout>

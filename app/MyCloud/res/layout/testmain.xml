@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="getInfo" android:onClick="getInfo" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="renewToken" android:onClick="renewToken" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="getInfoNoCallback" android:onClick="getInfoNoCallback" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="logout" android:onClick="logout" />
+    <TextView android:id="@id/accountInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="[EMPTY]" />
+</LinearLayout>

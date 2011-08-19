@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>As publicações podem ser classificadas por data ou título. Selecione essas opções nas guias encontradas na parte superior da tela.</item>
+        <item>"Precisa ler mais?
+Selecione o botão para comprar na parte inferior da tela e acesse a loja on-line com as publicações e os artigos mais recentes."</item>
+        <item>Selecione o menu para ver mais opções - como comprar, mais, excluir e sair.</item>
+        <item>Selecione uma publicação a ser baixada automaticamente enquanto você lê OU selecione o botão de download para salvá-la localmente e ler quando desejar.</item>
+    </string-array>
+</resources>

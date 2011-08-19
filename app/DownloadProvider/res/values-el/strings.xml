@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Πρόγραμμα διαχείρισης λήψεων</string>
+    <string name="permlab_downloadManager">Πρόσβαση στο πρόγραμμα διαχείρισης λήψεων.</string>
+    <string name="permdesc_downloadManager">Επιτρέπει στην εφαρμογή την πρόσβαση στο πρόγραμμα διαχείρισης λήψεων και τη χρήση του για τη λήψη αρχείων. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να διακόψουν λήψεις και για να αποκτήσουν πρόσβαση σε προσωπικές πληροφορίες.</string>
+    <string name="permlab_downloadManagerAdvanced">Σύνθετες λειτουργίες προγράμματος διαχείρισης λήψεων.</string>
+    <string name="permdesc_downloadManagerAdvanced">Επιτρέπει στην εφαρμογή την πρόσβαση στις σύνθετες λειτουργίες των προγραμμάτων διαχείρισης λήψεων. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να διακόψουν λήψεις και για να αποκτήσουν πρόσβαση σε προσωπικές πληροφορίες.</string>
+    <string name="permlab_downloadCompletedIntent">Αποστολή ειδοποιήσεων λήψης.</string>
+    <string name="permdesc_downloadCompletedIntent">Επιτρέπει στην εφαρμογή να στέλνει ειδοποιήσεις σχετικά με τις ολοκληρωμένες λήψεις. Κακόβουλες εφαρμογές μπορούν να το χρησιμοποιήσουν για να μπερδέψουν άλλες εφαρμογές που πραγματοποιούν λήψεις αρχείων.</string>
+    <string name="permdesc_seeAllExternal">Επιτρέπει στην εφαρμογή την εμφάνιση όλων των λήψεων στην κάρτα SD, ανεξάρτητα από την εφαρμογή που πραγματοποίησε τις λήψεις τους.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Διατηρήστε χώρο στην προσωρινή μνήμη λήψης</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Επιτρέπει στην εφαρμογή τη λήψη αρχείων στην προσωρινή μνήμη λήψης, η οποία δεν είναι δυνατό να διαγραφεί αυτόματα όταν παρουσιαστεί έλλειψη χώρου στον διαχειριστή λήψης.</string>
+    <string name="permlab_downloadWithoutNotification">λήψη αρχείων χωρίς ειδοποίηση</string>
+    <string name="permdesc_downloadWithoutNotification">Επιτρέπει στην εφαρμογή τη λήψη αρχείων μέσω του διαχειριστή λήψης χωρίς την εμφάνιση καμίας ειδοποίησης στο χρήστη.</string>
+    <string name="permlab_accessAllDownloads">Πρόσβαση σε όλα τα στοιχεία λήψης</string>
+    <string name="permdesc_accessAllDownloads">Επιτρέπει στην εφαρμογή την παρακολούθηση και την τροποποίηση όλων όσων εκκινούνται από οποιαδήποτε εφαρμογή στο σύστημα.</string>
+    <string name="download_unknown_title">&lt;Χωρίς τίτλο></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" και %d ακόμα"</string>
+    <string name="notification_download_complete">Ολοκλήρωση λήψης</string>
+    <string name="notification_download_failed">Ανεπιτυχής λήψη</string>
+    <string name="notification_need_wifi_for_size">Μέγ. λήψης απαιτεί Wi-Fi</string>
+    <string name="wifi_required_title">Πολύ μεγάλο αρχείο λήψης για δίκτυο παρόχου.</string>
+    <string name="wifi_required_body" formatted="false">"Πρέπει να χρησιμοποιήσετε WiFi για να ολοκληρώσετε τη λήψη %s . 
+
+Κάντε κλικ στο %s  για να ξεκινήσετε τη λήψη την επόμενη φορά που θα συνδεθείτε σε δίκτυο WiFi."</string>
+    <string name="wifi_recommended_title">Προσθήκη στην ουρά για να κάνετε λήψη αργότερα;</string>
+    <string name="wifi_recommended_body" formatted="false">"Η έναρξη της λήψης %s  τώρα, ίσως μειώσει τη διάρκεια ζωής της μπαταρίας ή/και να καταλήξει σε μεγάλη χρήση της σύνδ. δεδομ. κιν. τηλεφ. και να επιφέρει χρεώσεις, ανάλογα με το πρόγρ. δεδομ.
+
+ Κάντε κλικ στο στοιχείο %s παρακάτω, για να ξεκινήσετε τη λήψη όταν θα συνδεθείτε σε δίκτυο WiFi."</string>
+    <string name="button_queue_for_wifi">Ουρά</string>
+    <string name="button_cancel_download">Άκυρο</string>
+    <string name="button_start_now">Έναρξη τώρα</string>
+</resources>

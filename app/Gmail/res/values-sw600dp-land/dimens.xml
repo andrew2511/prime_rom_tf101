@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_width">352.0dip</dimen>
+    <dimen name="accountname_width">316.0dip</dimen>
+    <dimen name="breadcrumb_width">256.0dip</dimen>
+    <dimen name="new_message_notification_margin_left">32.0dip</dimen>
+    <dimen name="new_message_notification_margin_right">32.0dip</dimen>
+    <dimen name="new_message_notification_margin_bottom">12.0dip</dimen>
+    <dimen name="new_message_notification_width">896.0dip</dimen>
+</resources>

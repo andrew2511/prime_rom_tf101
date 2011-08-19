@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">마켓 피드백 에이전트</string>
+    <string name="feedback">의견</string>
+    <string name="report_feedback">오류 신고</string>
+    <string name="report_error_in">%s에 대한 오류 신고</string>
+    <string name="system_log">시스템 로그</string>
+    <string name="event_log">이벤트 로그</string>
+    <string name="preview">미리보기</string>
+    <string name="back">뒤로</string>
+    <string name="cancel">취소</string>
+    <string name="send">보내기</string>
+    <string name="preview_feedback">의견 미리보기</string>
+    <string name="no_data">데이터가 없습니다.</string>
+    <string name="fetching_system_log">시스템 로그를 가져오는 중...</string>
+    <string name="fetching_event_log">이벤트 로그를 가져오는 중...</string>
+    <string name="privacy">공개여부</string>
+    <string name="include_system_data">시스템 데이터 포함</string>
+    <string name="this_will_help">문제 진단에 도움이 되도록 시스템 데이터를 Google과 공유하세요.</string>
+    <string name="privacy_policy"><a href="notused">개인정보 보호정책</a></string>
+    <string name="unknown_app">알 수 없는 애플리케이션</string>
+    <string name="cant_save_report">오류 보고서를 저장할 수 없습니다. 기기에 남은 공간이 없습니다.</string>
+    <string name="report_being_sent">감사합니다. 신고를 전송하는 중입니다.</string>
+    <string name="optional_description">설명(선택 사항)</string>
+    <string name="tos_activity_title">Google 법적 고지</string>
+    <string name="tos_activity_unsuccessful_message">휴대전화가 데이터 서비스에 연결되어 있지 않습니다. 정보를 보려면 인터넷에 연결된 컴퓨터에서 %s 페이지를 찾아보세요.</string>
+    <string name="tos_accept">수락</string>
+    <string name="tos_decline">거부</string>
+</resources>

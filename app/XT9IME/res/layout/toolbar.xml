@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.xt9.input.ToolBar android:gravity="center_vertical" android:id="@id/tool_bar" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_language_cycle" android:background="@drawable/tool_bar_language_cycle_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_hwr_keyboard_toggle_button" android:background="@drawable/tool_bar_keyboard_background" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_keyboard_cycling_button" android:background="@drawable/tool_bar_keyboard_cycling_background" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_fullscreen_hwr_toggle_button" android:background="@drawable/tool_bar_fullscreen_hwr_up_background" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_settings" android:background="@drawable/tool_bar_settings_background" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_slide_open" android:background="@drawable/tool_bar_slide_open_background" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:gravity="center" android:id="@id/tool_bar_slide_close" android:background="@drawable/tool_bar_slide_close_background" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.nuance.xt9.input.ToolBar>

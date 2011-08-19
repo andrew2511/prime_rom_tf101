@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">דקות</string>
+    <string name="postpone">דחה</string>
+    <string name="update">עדכן</string>
+    <string name="firmware_update_title">עדכון קושחה</string>
+    <string name="firmware_update_fail">"העדכון נכשל.
+
+הגדרת התצורה המקורית של המכשיר תשוחזר."</string>
+    <string name="low_battery_warning">"כדי להמשיך בעדכון ודא שקיבולת הסוללה היא לפחות %1$d%%.
+טען את הסוללה לפני שתבצע עדכון מערכת."</string>
+    <string name="confirmDownload_textok">"שדרוג זה משפר את היציבות ולא יפגע בנתונים שלך, מומלץ לשדרג לגרסה זו.
+לחץ כן כדי לקבל את העדכון."</string>
+    <string name="confirmDownload_textcancel">לחץ על NO (לא) כדי להתעלם מהעדכון.</string>
+    <string name="confirmDownload_textwifi">מומלץ להוריד את העדכון באמצעות נקודת חיבור אלחוטית שאינה מחויבת בתשלום.</string>
+    <string name="confirmDownload_textwifi2">אם תלחץ לאחר מ כן, תוכל להמשיך בהורדה בכל עת על ידי לחיצה על הודעת המערכת.</string>
+    <string name="btn_text_later">מאוחר יותר</string>
+    <string name="confirmDownload_dialog_title">זהירות, אתה במצב נדידה.</string>
+    <string name="downloading">הורדת קושחה...</string>
+    <string name="install_time">זמן התקנה משוער:</string>
+    <string name="postponetime_text">דחה למשך:</string>
+    <string name="install">התקן</string>
+    <string name="reach_max_net_fail">ההורדה בוטלה על-ידי השרת, נסה שוב מאוחר יותר.</string>
+    <string name="dlg_title_checking">בדיקת תקינות.</string>
+    <string name="dlg_msg_checking">בודק את תקינות קובץ הקושחה.</string>
+    <string name="cannot_set_to_browser">לא ניתן להגדיר בדפדפן.</string>
+    <string name="upgrade_error">שגיאת שדרוג. הורד שוב את חבילת העדכון.</string>
+    <string name="start_to_download">התחל בהודרת חבילת עדכונים קריטיים.</string>
+    <string name="start_to_upgrade">התחל בשדרוג חבילת העדכון.</string>
+    <string name="start_NI_dmSession">הרשת התחילה בחיבור DM, לקבל?</string>
+    <string name="download_finished">הורדת הקושחה הסתיימה...</string>
+    <string name="download_in_progress">מתבצעת הורדת קושחה חדשה</string>
+    <string name="out_of_mem_warning">"אין מספיק מקום,
+הסר מספר יישומים ונסה שוב."</string>
+    <string name="ui_alert_input_hint">הזן טקסט</string>
+    <string name="ui_alert_input_numeric_hint">הזן מספר</string>
+    <string name="ui_alert_input_phone_number_hint">הזן מספר טלפון</string>
+    <string name="check_for_update">בדוק עדכון</string>
+    <string name="no_new_fota_update">כרגע אין עדכון זמין עבור המכשיר שברשותך.</string>
+    <string name="ok">אישור</string>
+    <string name="yes">אישור</string>
+    <string name="no">ביטול</string>
+    <string name="confirm_download_btn_Yes">כן</string>
+    <string name="confirm_download_btn_No">לא</string>
+    <string name="confirm_update_title">עדכון קושחת ASUS.</string>
+    <string name="asus_received_title">שירות עדכון קושחה עבור מערכת Asus</string>
+    <string name="received_message">עדכון קושחה חדש זמין עבור המערכת. לחץ לעדכון.</string>
+    <string name="low_battery_title">עדכון הקושחה עבור המערכת בוטל</string>
+    <string name="dl_received_ticker">עדכון קושחה חדש זמין עבור המערכת.</string>
+    <string name="dl_received_message">עדכון קושחה חדש זמין עבור המערכת. לחץ להורדה.</string>
+    <string name="confirmDownload_text1">האם אתה רוצה להוריד את עדכון הקושחה עבור המערכת?</string>
+    <string name="received_ticker">עדכון קושחה חדש זמין עבור המערכת.</string>
+    <string name="update_dialog_text">"עדכון הקושחה החדש עבור המכשיר שלך ירד בהצלחה. להתקין עכשיו? 
+"</string>
+    <string name="prepare_dm_download">מתכונן להורדת הקושחה עבור המערכת...</string>
+    <string name="system_update_activity">עדכון קושחה עבור המערכת</string>
+    <string name="has_new_fota_update">קיים עדכון קושחה עבור המכשיר שלך. בדוק את ההודעות.</string>
+    <string name="update_dialog_text2">עדכון קושחה זה משפר את היציבות ולא ימחק את הנתונים שלך. אנו ממליצים לשדרג לגרסה זו.</string>
+</resources>

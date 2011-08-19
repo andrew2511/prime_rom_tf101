@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_orientation">
+        <item name="android:screenOrientation">unspecified</item>
+    </style>
+    <style name="Theme.WallpaperPicker" parent="@android:style/Theme.Holo.Dialog.NoFrame" />
+    <style name="Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait" parent="@style/WorkspaceIcon">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape" parent="@style/WorkspaceIcon">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="TabIndicator.Wide" parent="@style/TabIndicator">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+    </style>
+    <style name="CustomizeTabIndicator.Wide" parent="@style/TabIndicator.Wide" />
+</resources>

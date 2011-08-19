@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.googlenav.ui.android.GmmListView android:id="@id/listView" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:headerDividersEnabled="false" />
+    <include layout="@layout/list_button_panel" />
+    <TextView android:textColor="@color/grey" android:ellipsize="end" android:gravity="center" android:id="@id/footer" android:background="@drawable/footer_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

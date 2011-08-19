@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/alarm_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_clock_strip_alarm" android:layout_weight="0.25" android:contentDescription="@string/alarm_button_description" style="@style/ButtonStripLeft" />
+    <ImageButton android:id="@id/gallery_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_clock_strip_gallery" android:layout_weight="0.25" android:contentDescription="@string/gallery_button_description" style="@style/ButtonStripMiddle" />
+    <ImageButton android:id="@id/music_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_clock_strip_music" android:layout_weight="0.25" android:contentDescription="@string/music_button_description" style="@style/ButtonStripMiddle" />
+    <ImageButton android:id="@id/home_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_clock_strip_home" android:layout_weight="0.25" android:contentDescription="@string/home_button_description" style="@style/ButtonStripRight" />
+</LinearLayout>

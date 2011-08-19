@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0sp" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+        <ImageButton android:id="@id/Logo" android:background="@drawable/logo" android:layout_width="162.0sp" android:layout_height="29.0sp" android:layout_marginLeft="5.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentRight="true">
+        <ImageButton android:id="@id/GoSearch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0sp">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:id="@id/mPath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/dialog_upload_confirm_title" />
+        <Spinner android:id="@id/spinner1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:drawSelectorOnTop="true" />
+        <TextView android:textSize="18.0sp" android:id="@id/mSumPath" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text=".." />
+        <TextView android:textSize="18.0sp" android:textColor="#ffff0000" android:id="@id/mAlert" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/capture_file_filesize_limitation" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+        <Button android:textSize="20.0sp" android:id="@id/rulesave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/app_submit" android:layout_weight="1.0" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+        <Button android:textSize="20.0sp" android:id="@id/rulecancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/aty_upload_cancel_butt" android:layout_weight="1.0" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </LinearLayout>
+</RelativeLayout>

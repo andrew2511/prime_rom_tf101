@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Preference.Spinner" parent="@style/Preference">
+        <item name="android:minHeight">30.0dip</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="Preference.CheckBox" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+    <style name="Preference.RadioGroup" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="Preference.RadioGroup.WithText" parent="@style/Preference.RadioGroup">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Preference.RadioButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_radiotext</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">35.0dip</item>
+        <item name="android:drawablePadding">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Preference.RadioButton.IconOnly" parent="@style/Preference.RadioButton">
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="Preference.Button" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Preference.Item" parent="@style/Preference">
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Preference.Item.Radio" parent="@style/Preference.Item">
+        <item name="android:layout_marginLeft">-4.0dip</item>
+    </style>
+    <style name="Preference.Title" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">@dimen/settings_column_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/settings_column_padding</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">@dimen/settings_column_padding</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="Preference.Subtitle" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+    </style>
+</resources>

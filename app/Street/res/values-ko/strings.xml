@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">스트리트 뷰</string>
+    <string name="go_to_map">지도로 이동</string>
+    <string name="report_inappropriate_image">이미지 신고</string>
+    <string name="toggle_compass_mode">나침반 모드</string>
+    <string name="compass_mode_on">나침반 모드를 사용합니다.</string>
+    <string name="compass_mode_off">나침반 모드 사용 안함</string>
+    <string name="waiting_for_network">데이터 연결이 끊겨 재시도하고 있습니다.</string>
+    <string name="panorama_disabled">사진이 더 이상 제공되지 않습니다.</string>
+    <string name="service_unavailable">스트리트 뷰 서비스를 사용할 수 없습니다.</string>
+    <string name="loading">로드 중</string>
+    <string name="no_panorama_data">파노라마 데이터 집합이 없습니다.</string>
+    <string name="invalid_panorama_data">잘못된 파노라마입니다.</string>
+    <string name="click_to_go_toast">목표 지점으로 Pegman을 드래그하세요.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">프로그램을 실행하려면 데이터 접속이 필요하며 자동으로 연결을 다시 시도합니다. 신호 강도를 확인하시고 비행 모드가 아닌지, 데이터 로밍이 사용 중지되지 않았는지 확인하세요.</string>
+    <string name="whats_new_header">스트리트 뷰의 새로운 기능</string>
+    <string name="whats_new_c2g">원하는 곳으로 어디든지 이동해 보세요. 왼쪽 하단의 페그맨을 드래그하여 원하는 장소에 놓으면 됩니다.</string>
+    <string name="terms_and_privacy">이용약관 및 개인정보 보호</string>
+    <string name="terms_and_conditions">"이용약관
+"</string>
+    <string name="privacy_policy">개인정보취급방침</string>
+</resources>

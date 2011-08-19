@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Kiemelés eltávolítása</item>
+        <item>Mégse</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Kiemelés hozzáadása</item>
+        <item>Fordítás</item>
+        <item>Szöveg beszéddé alakítása</item>
+        <item>Mégse</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Angol</item>
+        <item>Francia</item>
+        <item>Japán</item>
+        <item>Kínai</item>
+        <item>Német</item>
+        <item>Egyszerűsített kínai</item>
+        <item>Orosz</item>
+        <item>Spanyol</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Angolról kínaira</item>
+        <item>Angolról franciára</item>
+        <item>Angolról oroszra</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Launcher</string>
+    <string name="TITLE_DETECTED">Järjestelmän päivitystiedosto tunnistettu</string>
+    <string name="TITLE_SYSTEM_UPDATE">Järjestelmän päivitys</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Järjestelmän päivitys käytettävissä</string>
+    <string name="MSG_PRELIMINARY">"Järjestelmän päivitys kestää noin 10 minuuttia. Et voi käyttää laitetta päivityksen aikana, hätäpuhelu mukaan lukien.
+
+Liitä virtajohto tai varmista, että akkutehoa on jäljellä vähintään 15 %.
+
+Haluatko jatkaa järjestelmän päivitystä?"</string>
+    <string name="BUTTON_CANCEL">Peruuta</string>
+    <string name="MSG_RESUME">Käynnistä järjestelmän päivitys koskettamalla.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Järjestelmän päivitys päättyi</string>
+    <string name="MSG_UPDATE_DONE">Järjestelmän päivitys onnistui.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Päivitystiedostoa ei ole.</string>
+    <string name="MSG_UPDATE_FAIL">Järjestelmän päivitys epäonnistui.</string>
+    <string name="MSG_UPDATE_RESTORE">Järjestelmä palautettiin aiempiin määrityksiin</string>
+    <string name="MSG_BATTERY_LOW">"Järjestelmän päivitys keskeytyi akun alhaisen varauksen vuoksi.
+
+Liitä virtajohto ennen järjestelmän päivitystä."</string>
+    <string name="TITLE_SELECT_FILE">Valitse päivityspaketti</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Päivityspaketti ei ole yhteensopiva nykyisen ohjelmistosi kanssa. Tarkista ohjelmistoversiosi ja versionumerosi Asetuksista ja yritä korjata päivityspaketti.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Päivityspaketti on vanhempi kuin nykyinen ohjelmistoversiosi. Yritä uudempaa päivityspakettia.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Tuntematon virhe.</string>
+</resources>

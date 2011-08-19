@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="8.1.1" package="com.asus.DLNA"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:label="@string/app_name" android:icon="@drawable/asus_ep_apic_mynet" android:hardwareAccelerated="true">
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name=".DLNA" android:launchMode="singleTask" android:screenOrientation="sensorLandscape" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:name="com.asus.Viewer.MovieView" android:screenOrientation="sensorLandscape" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.asus.Viewer.MOVIEVIEWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" android:scheme="http" />
+                <data android:mimeType="video/*" android:scheme="content" />
+                <data android:mimeType="video/*" android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Holo.NoActionBar" android:name="com.asus.Viewer.ViewImage" android:screenOrientation="sensorLandscape" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.asus.Viewer.PHOTOVIEWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" android:scheme="http" />
+                <data android:mimeType="image/*" android:scheme="content" />
+                <data android:mimeType="image/*" android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".BootDLNA">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/settings" android:name="com.asus.DMS.Settings" android:screenOrientation="sensorLandscape" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <service android:name="com.asus.DMS.DLNAServerService" android:enabled="true" />
+        <service android:name=".MusicPlaybackService" />
+    </application>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+</manifest>

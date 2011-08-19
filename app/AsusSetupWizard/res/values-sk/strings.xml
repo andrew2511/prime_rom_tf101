@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internetové pripojenie</string>
+    <string name="mobile_wifi_title">Mobilná sieť a WiFi</string>
+    <string name="wifi_title">Len WiFi pripojenie</string>
+    <string name="setup_wizard_title">Sprievodca inštaláciou</string>
+    <string name="next_button_label">Ďalej</string>
+    <string name="welecome_title">Vitajte</string>
+    <string name="btn_start_text">Spustiť</string>
+</resources>

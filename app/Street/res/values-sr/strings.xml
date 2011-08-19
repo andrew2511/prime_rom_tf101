@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Приказ улице</string>
+    <string name="go_to_map">Иди на мапу</string>
+    <string name="report_inappropriate_image">Пријави слику</string>
+    <string name="toggle_compass_mode">Режим компаса</string>
+    <string name="compass_mode_on">Режим компаса је укључен.</string>
+    <string name="compass_mode_off">Режим компаса је искључен.</string>
+    <string name="waiting_for_network">Изгубљена је веза са подацима, нови покушај је у току…</string>
+    <string name="panorama_disabled">Слика више није доступна</string>
+    <string name="service_unavailable">Услуга Приказ улице није доступна.</string>
+    <string name="loading">Учитавање</string>
+    <string name="no_panorama_data">Нису постављени подаци за панораму.</string>
+    <string name="invalid_panorama_data">Неважећа панорама.</string>
+    <string name="click_to_go_toast">Превуците човечуљка тамо где хоћете да идете.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Овом програму је потребна веза са подацима и аутоматски ће покушати поново. Проверите јачину сигнала. Да ли је укључен режим рада у авиону? Да ли је онемогућен роминг?</string>
+    <string name="whats_new_header">Шта је ново у Приказу улице?</string>
+    <string name="whats_new_c2g">Летите до било ког места које видите. Превуците човечуљка из доњег левог угла на место где желите да одете.</string>
+    <string name="terms_and_privacy">Услови и Приватност</string>
+    <string name="terms_and_conditions">Услови и одредбе</string>
+    <string name="privacy_policy">Политика приватности</string>
+</resources>

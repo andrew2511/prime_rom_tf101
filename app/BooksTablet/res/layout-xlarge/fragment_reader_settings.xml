@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/settings_panel" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/title_show" android:text="@string/pref_show" style="@style/Preference.Title" />
+        <FrameLayout android:id="@id/item_reading_mode" android:layout_alignLeft="@id/title_show" android:layout_alignTop="@id/item_theme" android:layout_alignRight="@id/title_show" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_reading_mode" />
+        </FrameLayout>
+        <TextView android:id="@id/title_brightness" android:text="@string/pref_brightness" android:layout_toRightOf="@id/title_show" style="@style/Preference.Title" />
+        <TextView android:id="@id/subtitle_theme" android:text="@string/pref_themes" android:layout_below="@id/title_brightness" android:layout_alignLeft="@id/title_brightness" android:layout_alignRight="@id/title_brightness" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_theme" android:layout_below="@id/subtitle_theme" android:layout_alignLeft="@id/title_brightness" android:layout_alignRight="@id/title_brightness" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_theme" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/item_brightness" android:layout_below="@id/item_theme" android:layout_alignLeft="@id/title_brightness" android:layout_alignRight="@id/title_brightness" style="@style/Preference.Item">
+            <include layout="@layout/pref_brightness" />
+        </FrameLayout>
+        <TextView android:id="@id/title_text_settings" android:text="@string/pref_text_settings" android:layout_toRightOf="@id/title_brightness" style="@style/Preference.Title" />
+        <TextView android:id="@id/subtitle_text_size" android:text="@string/pref_text_size" android:layout_below="@id/title_text_settings" android:layout_alignLeft="@id/title_text_settings" android:layout_alignRight="@id/title_text_settings" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_text_size" android:layout_alignLeft="@id/title_text_settings" android:layout_alignTop="@id/item_theme" android:layout_alignRight="@id/title_text_settings" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_text_size" />
+        </FrameLayout>
+        <TextView android:id="@id/subtitle_typeface" android:text="@string/pref_typeface" android:layout_below="@id/item_text_size" android:layout_alignLeft="@id/title_text_settings" android:layout_alignRight="@id/title_text_settings" style="@style/Preference.Subtitle" />
+        <FrameLayout android:id="@id/item_typeface" android:layout_below="@id/subtitle_typeface" android:layout_alignLeft="@id/title_text_settings" android:layout_alignRight="@id/title_text_settings" style="@style/Preference.Item">
+            <include layout="@layout/pref_typeface" />
+        </FrameLayout>
+        <TextView android:id="@id/title_line_height" android:text="@string/pref_line_height" android:layout_toRightOf="@id/title_text_settings" style="@style/Preference.Title" />
+        <FrameLayout android:id="@id/item_line_height" android:layout_alignLeft="@id/title_line_height" android:layout_alignTop="@id/item_theme" android:layout_alignRight="@id/title_line_height" style="@style/Preference.Item.Radio">
+            <include layout="@layout/pref_line_height" />
+        </FrameLayout>
+        <Button android:id="@id/btn_done" android:layout_marginBottom="12.0dip" android:text="@string/pref_done" android:layout_alignRight="@id/title_line_height" android:layout_alignBottom="@id/item_brightness" style="@style/Preference.Button" />
+    </RelativeLayout>
+</FrameLayout>

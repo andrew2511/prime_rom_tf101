@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.reader.ui.ViewOptions android:layout_gravity="bottom|center" android:id="@id/view_options" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/view_options_content" android:nextFocusLeft="@id/brightness_slider" android:nextFocusRight="@id/font_size1" android:nextFocusUp="@id/brightness_slider" android:nextFocusDown="@id/font_size1" style="@style/view_options_background">
+        <include layout="@layout/text_sizes" />
+        <View style="@style/view_options_rule" />
+        <include layout="@layout/color_options" />
+        <View style="@style/view_options_rule" />
+        <include layout="@layout/brightness_slider" />
+    </LinearLayout>
+</com.amazon.kcp.reader.ui.ViewOptions>

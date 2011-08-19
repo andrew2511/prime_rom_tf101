@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Visualització de carrer</string>
+    <string name="go_to_map">Vés al mapa</string>
+    <string name="report_inappropriate_image">"Informa d'una imatge"</string>
+    <string name="toggle_compass_mode">Mode brúixola</string>
+    <string name="compass_mode_on">Mode brúixola activat.</string>
+    <string name="compass_mode_off">Mode brúixola desactivat.</string>
+    <string name="waiting_for_network">"S'ha perdut la connexió a dades, s'està tornant a intentar…"</string>
+    <string name="panorama_disabled">La imatge ja no està disponible.</string>
+    <string name="service_unavailable">El servei Street View no està disponible.</string>
+    <string name="loading">S’està carregant</string>
+    <string name="no_panorama_data">"No s'han establert dades de panorama."</string>
+    <string name="invalid_panorama_data">Panorama no vàlid.</string>
+    <string name="click_to_go_toast">"Arrossegueu l'homenet taronja allà on vulgueu anar."</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">"Aquest programa necessita una connexió a dades i ho tornarà a intentar de manera automàtica. Comproveu la intensitat del senyal. El mode d'avió està activat? Les dades d'itinerància estan desactivades?"</string>
+    <string name="whats_new_header">Novetats de la Visualització de carrer</string>
+    <string name="whats_new_c2g">"Aneu a qualsevol lloc que vegeu. Arrossegueu l'homenet taronja de la part inferior esquerra i deixeu-lo anar on vulgueu."</string>
+    <string name="terms_and_privacy">Condicions i privadesa</string>
+    <string name="terms_and_conditions">"Condicions d'ús"</string>
+    <string name="privacy_policy">Política de privadesa</string>
+</resources>

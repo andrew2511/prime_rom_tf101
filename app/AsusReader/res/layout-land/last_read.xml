@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.LastRead android:background="@drawable/asus_ep_folder_lastest_read" android:layout_width="375.0px" android:layout_height="335.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:textColor="#ff464646" android:id="@id/latest_read_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginBottom="292.0px" android:text="@string/now_reading" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/latest_read_cover" android:layout_width="127.0px" android:layout_height="197.0px" android:layout_marginLeft="62.0px" android:layout_marginBottom="68.0px" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="24.0px" android:textColor="#ff7d7d7d" android:id="@id/latest_read_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="31.0px" android:layout_marginBottom="17.0px" android:maxWidth="310.0px" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</com.asus.reader.ui.LastRead>

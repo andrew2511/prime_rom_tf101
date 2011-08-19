@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:text="@string/whats_new_300" style="@style/whats_new_version" />
+        <TableLayout style="@style/bullets_table">
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_0" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_1" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_2" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_3" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_4" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_5" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_300_6" style="@style/bullet_text" />
+            </TableRow>
+        </TableLayout>
+        <TextView android:text="@string/whats_new_200" style="@style/whats_new_version" />
+        <TableLayout style="@style/bullets_table">
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_200_0" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_200_1" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_200_2" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_200_3" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_200_4" style="@style/bullet_text" />
+            </TableRow>
+        </TableLayout>
+        <TextView android:text="@string/whats_new_110" style="@style/whats_new_version" />
+        <TableLayout style="@style/bullets_table">
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_0" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_1" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_2" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_3" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_4" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_110_5" style="@style/bullet_text" />
+            </TableRow>
+        </TableLayout>
+        <TextView android:text="@string/whats_new_100" style="@style/whats_new_version" />
+        <TableLayout style="@style/bullets_table"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_0" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_1" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_2" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_3" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_4" style="@style/bullet_text" />
+            </TableRow>
+            <TableRow style="@style/bullet_row">
+                <ImageView style="@style/bullet_image" />
+                <TextView android:text="@string/whats_new_100_5" style="@style/bullet_text" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

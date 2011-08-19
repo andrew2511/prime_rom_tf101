@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/appMinisiteView" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/mainAppBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header" layout="@layout/masthead" />
+    <LinearLayout android:id="@id/topCapsule" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_below="@id/header" />
+    <ScrollView android:background="@android:drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topCapsule">
+        <LinearLayout android:orientation="vertical" android:id="@id/minisiteBody" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/minisiteBody">
+            <LinearLayout android:orientation="vertical" android:id="@id/descriptionSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/descriptionArea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/description" android:paddingRight="10.0dip" android:text="..." android:lines="4" style="@style/minisiteBody.bodyText" />
+                    <LinearLayout android:gravity="right" android:layout_gravity="right" android:id="@id/descriptionMoreLinkArea" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                        <TextView android:gravity="bottom" android:id="@id/descriptionMoreLink" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="19.0dip" android:text="@string/appminisite_description_more" style="@style/greenLink" />
+                        <ImageView android:layout_gravity="top|center" android:layout_width="15.0dip" android:layout_height="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/green_down_arrow" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/featuresArea" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/featuresLabel" android:text="@string/appminisite_features" style="@style/SectionHeading" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/featuresList" android:paddingLeft="34.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                        <TextView android:id="@id/quote" android:text="" style="@style/minisiteBody.quoteText" />
+                        <TextView android:id="@id/quoteSource" android:layout_marginBottom="10.0dip" android:text="" style="@style/minisiteBody.quoteText" />
+                        <LinearLayout android:gravity="right" android:layout_gravity="right" android:id="@id/descriptionLessLinkArea" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                            <TextView android:gravity="bottom" android:id="@id/descriptionLessLink" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="19.0dip" android:text="@string/appminisite_description_less" style="@style/greenLink" />
+                            <ImageView android:layout_gravity="top|center" android:layout_width="15.0dip" android:layout_height="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/green_up_arrow" android:scaleType="fitXY" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/screenshotsSection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <ImageView android:id="@id/backgroundGradient" android:background="@drawable/phone_screenshot_stage_highlight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+                <TextView android:id="@id/screenshotLabel" android:paddingBottom="20.0dip" android:text="@string/appminisite_images_and_videos" android:layout_alignParentTop="true" style="@style/SectionHeading" />
+                <Gallery android:id="@id/galleryFlow" android:layout_width="fill_parent" android:layout_height="170.0dip" android:spacing="20.0dip" android:layout_below="@id/screenshotLabel" />
+            </RelativeLayout>
+            <ImageView android:id="@id/dividerLine" style="@style/genericDivider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/additionsBox" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/dividerLine" android:layout_marginBottom="10.0dip" style="@style/genericDivider" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/desk_clock" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="0.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:id="@id/nextAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:drawableLeft="@drawable/ic_lock_idle_alarm" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="0.0" layout="@layout/desk_clock_battery" />
+                <ImageButton android:id="@id/nightmode_button" android:nextFocusDown="@id/alarm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_round_brightness" android:layout_weight="0.0" android:contentDescription="@string/nightmode_button_description" style="@style/RoundTouchButton" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0" layout="@layout/desk_clock_time_date" />
+                <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="3.0" layout="@layout/desk_clock_weather" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/desk_clock_buttons" />
+    </LinearLayout>
+    <View android:id="@id/window_tint" android:background="#cc000000" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

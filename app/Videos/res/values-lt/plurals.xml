@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Baigiasi po %1$d d.</item>
+        <item quantity="one">Gal. l. baig. po 1 d.</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Baigiasi po %1$d val.</item>
+        <item quantity="one">Gal. l. baig. po 1 val.</item>
+    </plurals>
+</resources>

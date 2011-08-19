@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/headerButtonPanel" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <include android:id="@id/headerButton1" layout="@layout/template_header_button" />
+        <include android:id="@id/headerButton2" layout="@layout/template_header_button" />
+        <include android:id="@id/headerButton3" layout="@layout/template_header_button" />
+        <include android:id="@id/headerButton4" layout="@layout/template_header_button" />
+    </LinearLayout>
+    <View android:id="@id/header_line" android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+</merge>

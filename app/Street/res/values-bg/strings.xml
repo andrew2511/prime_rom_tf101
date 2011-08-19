@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Градски изглед</string>
+    <string name="go_to_map">Към картата</string>
+    <string name="report_inappropriate_image">Подаване на сигнал за изображение</string>
+    <string name="toggle_compass_mode">Режим „Компас“</string>
+    <string name="compass_mode_on">Режимът „Компас“ е включен.</string>
+    <string name="compass_mode_off">Режимът „Компас“ е изключен.</string>
+    <string name="waiting_for_network">Няма връзка за данни. Повторен опит...</string>
+    <string name="panorama_disabled">Вече няма достъп до снимката</string>
+    <string name="service_unavailable">Няма достъп до услугата „Градски изглед“.</string>
+    <string name="loading">Зарежда се</string>
+    <string name="no_panorama_data">Не са зададени данни за панорама.</string>
+    <string name="invalid_panorama_data">Невалидни данни за панорама.</string>
+    <string name="click_to_go_toast">Сложете човечето, където искате да отидете.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Програмата изисква връзка за данни и ще направи авт. повторен опит. Проверете силата на сигнала. Вкл. ли е самолетният режим? Деактивиран ли е роумингът за данни?</string>
+    <string name="whats_new_header">Новите неща в Градски изглед</string>
+    <string name="whats_new_c2g">Полетете накъдето ви видят очите. Плъзнете човечето от мястото му долу вляво и го поставете там, където искате да отидете.</string>
+    <string name="terms_and_privacy">Условия и поверителност</string>
+    <string name="terms_and_conditions">Общи условия</string>
+    <string name="privacy_policy">Декларация за поверителност</string>
+</resources>

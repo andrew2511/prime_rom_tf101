@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>4小时</item>
+        <item>8小时</item>
+        <item>12小时</item>
+        <item>手动</item>
+    </string-array>
+</resources>

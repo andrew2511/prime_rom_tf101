@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/awsbgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/logo" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/h_splash2" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="50.0dip" android:layout_weight="1.0">
+            <EditText android:id="@id/username_edit" android:background="@drawable/bg_input1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/common_login_usernamehint" />
+            <EditText android:id="@id/password_edit" android:background="@drawable/bg_input1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/common_login_pwdhint" android:password="true" />
+            <Button android:id="@id/rulesave" android:text="@string/common_login_butt" android:onClick="loginFunction" style="@style/SettingBlueBtn" />
+            <LinearLayout android:layout_marginBottom="20.0dip" style="@style/SettingLine" />
+            <TextView android:layout_gravity="left" android:text="@string/common_new_txt" style="@style/SettingSubTitle" />
+            <Button android:layout_gravity="left" android:id="@id/goReg" android:text="@string/common_create_new_id" android:onClick="goReg" style="@style/SettingGreenBtn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ตัวเริ่มการอัปเดต</string>
+    <string name="TITLE_DETECTED">ตรวจพบไฟล์อัปเดตระบบ</string>
+    <string name="TITLE_SYSTEM_UPDATE">อัปเดตระบบ</string>
+    <string name="BUTTON_OK">ตกลง</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">มีการอัปเดตระบบ</string>
+    <string name="MSG_PRELIMINARY">"การอัปเดตระบบจะใช้เวลาโดยประมาณ 10 นาที คุณจะไม่สามารถใช้อุปกรณ์ของคุณระหว่างการอัปเดตได้ รวมทั้งการโทรฉุกเฉิน
+
+โปรดเชื่อมต่อสายไฟ หรือตรวจให้แน่ใจว่าพลังงานแบตเตอรี่เหลืออย่างน้อย 15%
+
+แน่ใจหรือไม่ว่าคุณต้องการดำเนินการอัปเดตระบบ?"</string>
+    <string name="BUTTON_CANCEL">ยกเลิก</string>
+    <string name="MSG_RESUME">แตะเพื่อเริ่มการอัปเดตระบบ</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">สิ้นสุดการอัปเดตระบบ</string>
+    <string name="MSG_UPDATE_DONE">อัปเดตระบบสำเร็จ</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">ไม่มีไฟล์อัปเดต</string>
+    <string name="MSG_UPDATE_FAIL">การอัปเดตระบบล้มเหลว</string>
+    <string name="MSG_UPDATE_RESTORE">ระบบจะกลับสู่ค่าที่กำหนดไว้ก่อนหน้านี้</string>
+    <string name="MSG_BATTERY_LOW">"กระบวนการอัปเดตหยุดเนื่องจากแบตเตอรี่เหลือน้อย
+
+โปรดเชื่อมต่อสายไฟ ก่อนที่จะอัปเดตระบบ"</string>
+    <string name="TITLE_SELECT_FILE">เลือกแพคเกจการอัปเดต</string>
+    <string name="MSG_UPDATE_FAIL_SKU">ชุดอัพเดตไม่สามารถใช้กับซอฟต์แวร์ปัจจุบันของคุณได้ โปรดตรวจสอบเวอร์ชันของซอฟต์แวร์ และหมายเลขเวอร์ชันในการตั้งค่า แล้วลองชุดอัพเดตที่ถูกต้อง</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">ชุดอัพเดตเป็นรุ่นก่อนซอฟต์แวร์เวอร์ชันปัจจุบันของคุณ โปรดลองชุดอัพเดตที่ใหม่กว่านี้</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+</resources>

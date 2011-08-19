@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/purchase_dialog" android:paddingLeft="@dimen/purchase_page_margin" android:paddingRight="@dimen/purchase_page_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.WebViewLayout android:id="@id/web_view_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.finsky.layout.WebViewLayout>
+    <include layout="@layout/purchase_summary" />
+</FrameLayout>

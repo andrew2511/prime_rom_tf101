@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_development_ua_choices">
+        <item>Tablet PC</item>
+        <item>Stolový PC</item>
+        <item>Mobilný telefón</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vždy zapnuté</item>
+        <item>Na požiadanie</item>
+        <item>Vypnuté</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Malé</item>
+        <item>Malý</item>
+        <item>Normálna</item>
+        <item>Veľké</item>
+        <item>Veľmi veľký</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Ďaleko</item>
+        <item>Stredné</item>
+        <item>Zavrieť</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Čínština (GBK)</item>
+        <item>Čínština (Big5)</item>
+        <item>Japončina (ISO-2022-JP)</item>
+        <item>Japončina (SHIFT_JIS)</item>
+        <item>Japončina (EUC-JP)</item>
+        <item>Kórejčina (EUC–KR)</item>
+    </string-array>
+</resources>

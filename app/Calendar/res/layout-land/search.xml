@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="invisible" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.02" />
+    <FrameLayout android:id="@id/search_results" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_weight="0.35" />
+    <FrameLayout android:id="@id/event_info" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_weight="0.5" />
+    <View android:visibility="invisible" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.03" />
+</LinearLayout>

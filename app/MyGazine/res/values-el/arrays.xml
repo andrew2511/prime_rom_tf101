@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>Προσαρμογή μεγέθους</item>
+        <item>Πλήρες μέγεθος (Η φωτογραφία μπορεί να περικοπεί)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">De tekst die u selecteert is langer dan de limiet, een deel van de inhoud kan ingekort worden.</string>
+    <string name="post_successfully">Succesvol plaatsen</string>
+</resources>

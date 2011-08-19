@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="186.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_info" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="-7.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:background="@drawable/panel_bg_market_widget_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentLeft="true">
+            <RelativeLayout android:background="@drawable/overlay_panel_stripes_market_widget_holo" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/widget_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/widget_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/widget_rating" android:layout_below="@id/widget_price" android:layout_alignParentRight="true" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/widget_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/widget_price" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:id="@id/widget_creator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="96.0dip" android:singleLine="true" android:layout_below="@id/widget_name" />
+            </RelativeLayout>
+        </FrameLayout>
+        <ImageView android:id="@id/widget_logo" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="10.0dip" android:src="@mipmap/ic_launcher_marketplace" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/widget_image_min_height" android:layout_above="@id/widget_info">
+        <ImageView android:gravity="center" android:id="@id/widget_image" android:background="@drawable/widget_image_frame" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/panel_background" android:scaleType="centerCrop" android:cropToPadding="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/widget_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">لقطة شاشة</string>
+    <string name="screenshot_dialog_message">تم حفظ اللقطة. استمرار في وضع اللقطة؟</string>
+    <string name="screenshot_dialog_yes">نعم</string>
+    <string name="screenshot_dialog_no">لا</string>
+    <string name="screenshot_toast_message_saved">تم حفظ اللقطة.</string>
+    <string name="screenshot_toast_message_failed">تعذر حفظ اللقطة عند استخدام وضع نقل الملفات.</string>
+    <string name="screenshot_toast_message_failed_save">تعذر حفظ اللقطة.</string>
+    <string name="screenshot_toast_message_full">تعذر حفظ اللقطة. الذاكرة غير كافية.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d din %2$2$d (de) cărţi</item>
+        <item quantity="one">O singură carte</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Citirea concomitentă a acestei cărţi este limitată la %1$d dispozitive sau computere, iar dvs. aţi atins această limită. Închideţi această carte în alte cititoare, aşteptaţi câteva minute şi încercaţi din nou.</item>
+        <item quantity="one">Citirea concomitentă a acestei cărţi este limitată la un singur dispozitiv sau computer, iar dvs. aţi atins această limită. Închideţi această carte în alte cititoare, aşteptaţi câteva minute şi încercaţi din nou.</item>
+    </plurals>
+</resources>

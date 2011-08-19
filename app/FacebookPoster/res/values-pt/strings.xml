@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">O comrpimento do texto que você selecionou excede o limite, algum conteúdo pode ser truncado.</string>
+    <string name="post_successfully">Enviado com sucesso</string>
+</resources>

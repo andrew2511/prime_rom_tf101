@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Изтича след %1$d дни</item>
+        <item quantity="one">Изтича след 1 ден</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Изтича след %1$d часа</item>
+        <item quantity="one">Изтича след 1 час</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ff7e7e87" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+    <view android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" class="com.android.contacts.list.ContactEntryListView" />
+    <ViewStub android:id="@id/footer_stub" android:layout="@layout/footer_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

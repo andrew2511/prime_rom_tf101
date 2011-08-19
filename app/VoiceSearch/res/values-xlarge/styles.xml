@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="positioned_dialog">
+        <item name="android:layout_gravity">top|left|center</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="help_dialog" parent="@style/positioned_dialog">
+        <item name="android:layout_width">600.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30.0dip</item>
+    </style>
+    <style name="disambig_dialog" parent="@style/positioned_dialog">
+        <item name="android:layout_width">@dimen/recognition_dialog_width</item>
+        <item name="android:layout_height">600.0dip</item>
+    </style>
+</resources>

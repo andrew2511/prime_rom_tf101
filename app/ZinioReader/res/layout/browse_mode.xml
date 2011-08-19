@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/browse_mode_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zinio.mobile.android.view.issue.SmartSurfaceView android:id="@android:attr/theme" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/view_group" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="9.0sp" android:gravity="center" android:layout_gravity="left" android:id="@id/page_number_left" android:background="@drawable/folio_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" android:minHeight="15.0dip" />
+    <TextView android:textSize="9.0sp" android:gravity="center" android:layout_gravity="right" android:id="@id/page_number_right" android:background="@drawable/folio_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" android:minHeight="15.0dip" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/download_progress" android:background="#ff000000" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="13.0dip" android:layout_marginBottom="52.0dip">
+        <ProgressBar android:id="@id/download_progress_bar" android:background="#ff000000" android:focusable="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:max="100" android:progress="0" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <include layout="@layout/browse_title_bar" />
+    <include layout="@layout/issue_bottom_toolbar" />
+    <Gallery android:gravity="center_vertical" android:id="@id/page_thumbnails" android:background="#55000000" android:visibility="visible" android:drawingCacheQuality="high" android:animationCache="true" android:layout_width="fill_parent" android:layout_height="100.0dip" android:spacing="0.0dip" />
+    <Button android:textSize="13.0sp" android:textColor="#ffd1d1d1" android:layout_gravity="bottom|left|center" android:id="@id/text_mode_single" android:background="@drawable/btn_text_background" android:focusable="false" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_marginLeft="13.0dip" android:layout_marginBottom="10.0dip" android:text="@string/text" />
+    <include layout="@layout/download_notification_bar" />
+    <include layout="@layout/bottom_toolbar" />
+</FrameLayout>

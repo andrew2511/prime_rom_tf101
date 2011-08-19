@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Через %1$s километров</item>
+        <item quantity="one">Через один километр</item>
+        <item quantity="few">Через %1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Продолжайте движение %1$s километров</item>
+        <item quantity="one">Продолжайте движение один километр</item>
+        <item quantity="few">Продолжайте движение %1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Продолжайте движение по %1$2$s %2$1$s километров</item>
+        <item quantity="one">Продолжайте движение по %2$s один километр</item>
+        <item quantity="few">Продолжайте движение по %1$2$s %2$1$s километра</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Через %1$s миль</item>
+        <item quantity="one">Через одну милю</item>
+        <item quantity="few">Через %1$s мили</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Продолжайте движение %1$s мил.</item>
+        <item quantity="one">Продолжайте движение одну милю</item>
+        <item quantity="few">Продолжайте движение %1$s мили</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Продолжайте движение по %1$2$s %2$1$s миль</item>
+        <item quantity="one">Продолжайте движение по %2$s одну милю</item>
+        <item quantity="few">Продолжайте движение по %1$2$s %2$1$s мили</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">Отзывов: %1$s</item>
+        <item quantity="one">Отзывов: %1$s</item>
+        <item quantity="few">Отзывов: %1$s</item>
+    </plurals>
+</resources>

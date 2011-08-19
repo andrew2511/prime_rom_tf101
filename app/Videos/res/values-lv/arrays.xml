@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtitles_size_entries">
+        <item>Mazs</item>
+        <item>Vidējs</item>
+        <item>Liels</item>
+        <item>Ļoti liels</item>
+    </string-array>
+</resources>

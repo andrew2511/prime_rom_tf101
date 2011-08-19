@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_mylib_subtitle" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@drawable/menu_item_text" android:id="@id/mylib_tb_sortbydate_btn" android:background="@drawable/bg_tb_left_btn_samsung" android:layout_width="140.0dip" android:layout_height="fill_parent" android:text="@string/btn_most_current" />
+    <Button android:textColor="@drawable/menu_item_text" android:id="@id/mylib_tb_sortbytitle_btn" android:background="@drawable/bg_tb_right_btn_samsung" android:layout_width="140.0dip" android:layout_height="wrap_content" android:text="@string/btn_by_title" />
+</LinearLayout>

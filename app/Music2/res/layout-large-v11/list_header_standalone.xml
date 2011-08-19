@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/normal_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shuffle_all_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_shuffle_list" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/shuffle_all_songs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shuffle" android:singleLine="true" android:layout_toRightOf="@id/shuffle_all_icon" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/sortChooserContainer" android:paddingRight="@dimen/context_menu_button_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <include layout="@layout/list_item_separator" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/sortChooser" android:background="@drawable/btn_titlebar_dropdown" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:drawSelectorOnTop="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

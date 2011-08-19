@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paketin asentaja</string>
+    <string name="install">Asenna</string>
+    <string name="done">Valmis</string>
+    <string name="security_settings_desc">Anna sovellukselle lupa:</string>
+    <string name="cancel">Peruuta</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="installing">Asennetaan…</string>
+    <string name="install_done">Sovellus asennettu</string>
+    <string name="install_confirm_question">Haluatko asentaa tämän sovelluksen?</string>
+    <string name="install_failed">Sovellusta ei asennettu</string>
+    <string name="install_failed_invalid_apk">Paketti vaikuttaa olevan vahingoittunut.</string>
+    <string name="install_failed_inconsistent_certificates">Olet jo asentanut samannimisen paketin, jonka allekirjoitus on ristiriidassa tämän paketin kanssa.</string>
+    <string name="install_failed_older_sdk">Paketti toimii vain uudemmissa Android-versioissa.</string>
+    <string name="install_failed_cpu_abi_incompatible">Sovellus ei ole yhteensopiva tablet-laitteen prosessorin kanssa.</string>
+    <string name="install_failed_msg">Sovelluksen %1$s asentaminen tähän tablet-laitteeseen epäonnistui.</string>
+    <string name="launch">Avaa</string>
+    <string name="unknown_apps_dlg_title">Asennus estetty</string>
+    <string name="unknown_apps_dlg_text">Turvallisuussyistä tablet-laitteesi on asetettu estämään muiden kuin Android Marketista hankittujen sovellusten asentaminen.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Asetukset</string>
+    <string name="manage_applications">Hallinnoi sovelluksia</string>
+    <string name="dlg_app_replacement_title">Vaihda sovellus</string>
+    <string name="dlg_app_replacement_statement">"Asentamasi sovellus korvaa toisen sovelluksen.
+
+Kaikki edelliset käyttäjätiedot tallennetaan."</string>
+    <string name="dlg_sys_app_replacement_statement">"Tämä on järjestelmäsovellus. Haluatko varmasti korvata sen?
+
+Kaikki edelliset käyttäjätiedot tallennetaan."</string>
+    <string name="out_of_space_dlg_title">Tallennustila loppu</string>
+    <string name="out_of_space_dlg_text">Sovelluksen %1$s asentaminen epäonnistui. Vapauta tallennustilaa ja yritä uudelleen.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Sovellusta ei löydy</string>
+    <string name="app_not_found_dlg_text">Sovellusta ei löydy asennettujen sovelluksien luettelosta.</string>
+    <string name="uninstall_application_title">Poista sovellus</string>
+    <string name="uninstall_update_title">Poista päivitys</string>
+    <string name="uninstall_activity_text">%1$s on osa seuraavaa sovellusta:</string>
+    <string name="uninstall_application_text">Sovellus poistetaan.</string>
+    <string name="uninstall_update_text">Sovellus korvataan tehdasversiolla.</string>
+    <string name="uninstalling">Poistetaan...</string>
+    <string name="uninstall_done">Poisto valmis</string>
+    <string name="uninstall_failed">Poistaminen epäonnistui.</string>
+    <string name="uninstall_failed_device_policy_manager">Pakettia ei voi poistaa, koska se on aktiivinen laitteen ylläpitäjä.</string>
+    <string name="manage_device_administrators">Hallinnoi laitteen ylläpitäjiä</string>
+    <string name="uninstall_failed_msg">Sovelluksen %1$s poistaminen epäonnistui</string>
+    <string name="Parse_error_dlg_title">Jäsennysvirhe</string>
+    <string name="Parse_error_dlg_text">Paketin jäsentämisessä esiintyi ongelma.</string>
+</resources>

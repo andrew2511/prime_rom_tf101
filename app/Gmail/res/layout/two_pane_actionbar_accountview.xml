@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/title" android:visibility="gone" android:layout_width="@dimen/account_width" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <Spinner android:id="@id/dropdown" android:background="@drawable/spinner_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dropDownWidth="480.0dip" />
+</FrameLayout>

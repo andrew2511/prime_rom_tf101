@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_cell_background_x" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="@dimen/category_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/imageBox" android:layout_width="@dimen/category_item_icon_size" android:layout_height="@dimen/category_item_icon_size" android:layout_margin="5.0dip">
+        <ImageView android:id="@id/categoryImage" android:layout_centerInParent="true" style="@style/LogoImage" />
+        <ProgressBar android:id="@id/imageThrobber" android:layout_centerInParent="true" style="@style/Throbber.Black" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@id/categoryTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/CategoriesTitleText" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/categoryDescription" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DetailsText" />
+</LinearLayout>

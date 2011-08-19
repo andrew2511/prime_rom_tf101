@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Core Apps</string>
+    <string name="contactsList">Kontakter</string>
+    <string name="launcherDialer">Telefon</string>
+    <string name="shortcutContact">Kontakt</string>
+    <string name="shortcutDialContact">Direktval</string>
+    <string name="shortcutMessageContact">Direktmeddelande</string>
+    <string name="shortcutActivityTitle">Välj genväg till kontakten</string>
+    <string name="callShortcutActivityTitle">Välj ett nummer som du vill ringa</string>
+    <string name="messageShortcutActivityTitle">Välj ett nummer för meddelandet</string>
+    <string name="contactPickerActivityTitle">Markera en kontakt</string>
+    <string name="starredList">Stjärnmärkta</string>
+    <string name="frequentList">Ofta</string>
+    <string name="strequentList">Favoriter</string>
+    <string name="viewContactTitle">Kontaktuppgifter</string>
+    <string name="viewContactDesription">Visa kontakt</string>
+    <string name="editContactDescription">Redigera kontakt</string>
+    <string name="insertContactDescription">Skapa kontakt</string>
+    <string name="searchHint">Sök efter kontakter</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_newContact">Ny kontakt</string>
+    <string name="menu_viewContact">Visa kontakt</string>
+    <string name="menu_callNumber">Ring %s</string>
+    <string name="menu_addStar">Lägg till i Favoriter</string>
+    <string name="menu_removeStar">Ta bort från Favoriter</string>
+    <string name="menu_editContact">Redigera kontakt</string>
+    <string name="menu_deleteContact">Ta bort kontakt</string>
+    <string name="menu_call">Ring upp kontakt</string>
+    <string name="menu_sendSMS">Skicka SMS till kontakt</string>
+    <string name="menu_makeDefaultEmail">Använd som standardadress</string>
+    <string name="menu_splitAggregate">Dela upp</string>
+    <string name="menu_renameGroup">Byt namn på grupp</string>
+    <string name="menu_deleteGroup">Ta bort grupp</string>
+    <string name="menu_new_contact_action_bar">Ny</string>
+    <string name="splitConfirmation_title">Dela upp kontakt</string>
+    <string name="splitConfirmation">Vill du dela upp den här kontakten i flera kontakter, en för varje uppsättning kontaktinformation som kombinerats i den?</string>
+    <string name="menu_joinAggregate">Slå ihop</string>
+    <string name="titleJoinContactDataWith">Kombinera kontakter</string>
+    <string name="blurbJoinContactDataWith">Välj en kontakt som du vill slå ihop med %s.</string>
+    <string name="showAllContactsJoinItem">Visa alla kontakter</string>
+    <string name="separatorJoinAggregateSuggestions">Föreslagna kontakter</string>
+    <string name="separatorJoinAggregateAll">Alla kontakter</string>
+    <string name="contactsJoinedMessage">Deltagande kontakter</string>
+    <string name="menu_contactOptions">Alternativ</string>
+    <string name="contactOptionsTitle">Alternativ</string>
+    <string name="deleteConfirmation_title">Ta bort</string>
+    <string name="readOnlyContactWarning">Det går inte att ta bort kontakter från skrivskyddade konton, men du kan dölja dem i kontaktlistan.</string>
+    <string name="readOnlyContactDeleteConfirmation">Den här kontakten har information från flera konton. Information från skrivskyddade konton döljs i kontaktlistan, men tas inte bort.</string>
+    <string name="multipleContactDeleteConfirmation">Om du tar bort den här kontakten tar du bort information från flera konton.</string>
+    <string name="deleteConfirmation">Kontakten kommer att tas bort.</string>
+    <string name="menu_done">Färdig</string>
+    <string name="menu_doNotSave">Avbryt</string>
+    <string name="editContact_title_edit">Redigera kontakt</string>
+    <string name="editContact_title_insert">Ny kontakt</string>
+    <string name="label_phonetic_name">Fonetiskt</string>
+    <string name="label_notes">Anteckningar</string>
+    <string name="label_sip_address">Internetsamtal</string>
+    <string name="label_ringtone">Ringsignal</string>
+    <string name="ghostData_phonetic_name">Fonetiskt namn</string>
+    <string name="ghostData_company">Företag</string>
+    <string name="ghostData_title">Titel</string>
+    <string name="invalidContactMessage">Kontakten finns inte.</string>
+    <string name="pickerNewContactHeader">Skapa ny kontakt</string>
+    <string name="phoneLabelsGroup">Telefon</string>
+    <string name="emailLabelsGroup">E-post</string>
+    <string name="imLabelsGroup">Chatt</string>
+    <string name="postalLabelsGroup">Adress</string>
+    <string name="photoPickerNotFoundText">Det finns inga bilder på pekdatorn.</string>
+    <string name="attach_photo_dialog_title">Kontaktbild</string>
+    <string name="customLabelPickerTitle">Anpassat etikettsnamn</string>
+    <string name="menu_displayGroup">Visningsalternativ</string>
+    <string name="send_to_voicemail_checkbox">Skicka samtal direkt till röstbrevlåda</string>
+    <string name="default_ringtone">Standardinställning</string>
+    <string name="removePhoto">Ta bort foto</string>
+    <string name="noContacts">Inga kontakter.</string>
+    <string name="noMatchingContacts">Inga matchande kontakter hittades.</string>
+    <string name="noContactsWithPhoneNumbers">Inga kontakter med telefonnummer.</string>
+    <string name="showFilterPhones">Bara kontakter med telefoner</string>
+    <string name="showFilterPhonesDescrip">Visa bara kontakter med telefonnummer</string>
+    <string name="headerContactGroups">Välj kontakter att visa</string>
+    <string name="savingContact">Sparar kontakt...</string>
+    <string name="savingDisplayGroups">Sparar visningsalternativ ...</string>
+    <string name="contactSavedToast">Kontakt sparad.</string>
+    <string name="contactSavedErrorToast">Fel: det går inte att spara kontakter.</string>
+    <string name="listTotalPhoneContactsZero">Inga kontakter med telefonnummer</string>
+    <string name="listTotalAllContactsZero">Inga kontakter</string>
+    <string name="listTotalAllContactsZeroCustom">Det finns inga synliga kontakter</string>
+    <string name="listTotalAllContactsZeroStarred">Inga stjärnmärkta kontakter</string>
+    <string name="listTotalAllContactsZeroGroup">Inga kontakter i %s</string>
+    <string name="foundTooManyContacts">mer än %d hittades</string>
+    <string name="listFoundAllContactsZero">Hittades inte</string>
+    <string name="contactsIconLabel">Kontakter</string>
+    <string name="contactsFavoritesLabel">Favoriter</string>
+    <string name="dialerIconLabel">Telefon</string>
+    <string name="recentCallsIconLabel">Samtalshistorik</string>
+    <string name="liveFolderAll">Alla kontakter</string>
+    <string name="liveFolderFavorites">Stjärnmärkta kontakter</string>
+    <string name="liveFolderPhone">Kontakter med telefonnummer</string>
+    <string name="menu_sendTextMessage">Skicka SMS</string>
+    <string name="recentCalls_callNumber">Ring %s</string>
+    <string name="recentCalls_editNumberBeforeCall">Redigera nummer före samtal</string>
+    <string name="recentCalls_addToContact">Lägg till i Kontakter</string>
+    <string name="recentCalls_removeFromRecentList">Ta bort från samtalshistorik</string>
+    <string name="recentCalls_deleteAll">Rensa samtalshistorik</string>
+    <string name="recentCalls_empty">Samtalshistoriken är tom.</string>
+    <string name="clearCallLogConfirmation_title">Rensa samtalshistorik</string>
+    <string name="clearCallLogConfirmation">Vill du rensa samtalshistoriken?</string>
+    <string name="imei">IMEI-kod</string>
+    <string name="meid">MEID</string>
+    <string name="voicemail">Röstbrevlåda</string>
+    <string name="unknown">Okänd</string>
+    <string name="private_num">Privat nummer</string>
+    <string name="payphone">Telefonautomat</string>
+    <string name="dialerKeyboardHintText">Använd tangentbordet när du ringer</string>
+    <string name="dialerDialpadHintText">Ring/lägga till</string>
+    <string name="simContacts_emptyLoading">Läser in från SIM-kort…</string>
+    <string name="simContacts_title">Kontakter från SIM-kort</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">Du har inga kontakter att visa. (Om du nyss lade till ett konto kan det ta några minuter innan kontakterna synkroniserats.)</string>
+    <string name="noContactsHelpTextForCreateShortcut">Du har inga kontakter att visa.</string>
+    <string name="noContactsHelpText">"Det finns inga kontakter att visa.
+
+Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SIM- eller SD-kortet
+"</li></font></b></string>
+    <string name="noContactsHelpTextWithSync">"Det finns inga kontakter att visa (om du nyss har lagt till ett konto kan det ta några minuter att synkronisera kontakter).
+
+Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SIM-kortet eller SD-kortet
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpText">"Det finns inga kontakter att visa.
+
+Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SD-kortet
+"</li></font></b></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Det finns inga kontakter att visa (om du nyss har lagt till ett konto kan det ta några minuter att synkronisera kontakter).
+
+Om du vill lägga till kontakter trycker du på "<b><font fgcolor="#ffffffff">Meny</font></b>" och sedan på:
+ 
+"<b><font fgcolor="#ffffffff"><li>"Konton om du vill lägga till eller konfigurera ett konto med kontakter som kan synkroniseras till pekdatorn
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Visningsalternativ om du vill ändra vilka kontakter som är synliga
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Ny kontakt om du vill skapa en ny kontakt från grunden
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>"Importera/exportera om du vill importera kontakter från SD-kortet
+"</li></font></b></string>
+    <string name="noFavoritesHelpText">"Du har inte några favoriter.
+
+Så här lägger du till kontakter i favoritlistan:
+
+        "<li>Tryck på fliken <b>Kontakter</b>"
+"</li>" 
+"<li>"Tryck på den kontakt du vill lägga till i favoriterna
+"</li>" 
+"<li>"Tryck på stjärnan bredvid kontaktens namn
+"</li></string>
+    <string name="liveFolder_all_label">Alla kontakter</string>
+    <string name="liveFolder_favorites_label">Stjärnmärkt</string>
+    <string name="liveFolder_phones_label">Telefoner</string>
+    <string name="dialer_useDtmfDialpad">Använda tonvalstelefon</string>
+    <string name="dialer_returnToInCallScreen">Återvänd till pågående samtal</string>
+    <string name="dialer_addAnotherCall">Lägg t. samt.</string>
+    <string name="callDetailTitle">Samtalsinfo</string>
+    <string name="toast_call_detail_error">Det gick inte att läsa information om samtalet.</string>
+    <string name="type_incoming">Inkommande samtal</string>
+    <string name="type_outgoing">Utgående samtal</string>
+    <string name="type_missed">Missat samtal</string>
+    <string name="actionIncomingCall">Inkommande samtal</string>
+    <string name="callBack">Ring upp</string>
+    <string name="callAgain">Ring igen</string>
+    <string name="returnCall">Ring upp</string>
+    <string name="callDetailsDurationFormat" formatted="false">%s minuter %s sekunder</string>
+    <string name="favoritesFrquentSeparator">Ofta kontaktade</string>
+    <string name="add_contact_dlg_title">Lägg till kontakt</string>
+    <string name="add_contact_dlg_message_fmt">Vill du lägga till %s i Kontakter?</string>
+    <string name="description_image_button_one">ett</string>
+    <string name="description_image_button_two">två</string>
+    <string name="description_image_button_three">tre</string>
+    <string name="description_image_button_four">fyra</string>
+    <string name="description_image_button_five">fem</string>
+    <string name="description_image_button_six">sex</string>
+    <string name="description_image_button_seven">sju</string>
+    <string name="description_image_button_eight">åtta</string>
+    <string name="description_image_button_nine">nio</string>
+    <string name="description_image_button_star">Stjärna</string>
+    <string name="description_image_button_zero">noll</string>
+    <string name="description_image_button_pound">pund</string>
+    <string name="description_voicemail_button">röstbrevlåda</string>
+    <string name="description_dial_button">ring</string>
+    <string name="description_delete_button">backsteg</string>
+    <string name="description_digits_edittext">nummer att ringa</string>
+    <string name="description_contact_photo">kontaktbild</string>
+    <string name="description_minus_button">minus</string>
+    <string name="description_plus_button">plus</string>
+    <string name="searching_vcard_title">Söker efter vCard</string>
+    <string name="import_from_sim">Importera från SIM-kort</string>
+    <string name="share_visible_contacts">Dela synliga kontakter</string>
+    <string name="import_one_vcard_string">Importera en vCard-fil</string>
+    <string name="import_multiple_vcard_string">Importera flera vCard-filer</string>
+    <string name="import_all_vcard_string">Importera alla vCard-filer</string>
+    <string name="fail_reason_io_error">I/O-fel</string>
+    <string name="fail_reason_low_memory_during_import">Det finns för lite minne (filen kan vara för stor)</string>
+    <string name="fail_reason_vcard_parse_error">Det gick inte att analysera vCard av okänd anledning</string>
+    <string name="fail_reason_not_supported">Formatet stöds inte.</string>
+    <string name="vcard_import_failed">Det gick inte att importera vCard</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Det går inte att samla in metainformation för den eller de givna vCard-filerna.</string>
+    <string name="fail_reason_failed_to_read_files">En eller flera filer kunde inte importeras: (%s).</string>
+    <string name="fail_reason_unknown">Okänt fel</string>
+    <string name="select_vcard_title">Välj vCard-fil</string>
+    <string name="caching_vcard_title">Cachelagrar vCard i lokalt tillfälligt utrymme</string>
+    <string name="caching_vcard_message">Importfunktionen cachelagrar vCard-fil(er) i lokalt tillfälligt utrymme. Den faktiska importen börjar snart.</string>
+    <string name="progress_notifier_message" formatted="false">Importerar %s/%s: %s</string>
+    <string name="importing_vcard_description">Importerar %s</string>
+    <string name="reading_vcard_failed_title">Det går inte att läsa vCard-data</string>
+    <string name="reading_vcard_canceled_title">Läsning av vCard-data avbröts</string>
+    <string name="importing_vcard_finished_title">vCard-filen %s har importerats</string>
+    <string name="importing_vcard_canceled_title">Importen av %s avbröts</string>
+    <string name="vcard_import_will_start_message">%s importeras snart.</string>
+    <string name="vcard_import_will_start_message_with_default_name">Filen kommer snart att importeras.</string>
+    <string name="vcard_import_request_rejected_message">Begäran om vCard-import avvisades. Försök igen vid ett senare tillfälle.</string>
+    <string name="vcard_export_will_start_message">%s exporteras snart.</string>
+    <string name="vcard_export_request_rejected_message">Begäran om vCard-export avvisades. Försök igen vid ett senare tillfälle.</string>
+    <string name="vcard_unknown_filename">kontakt</string>
+    <string name="percentage">%s%%</string>
+    <string name="confirm_export_title">Bekräfta export</string>
+    <string name="confirm_export_message">Vill du exportera kontaktlistan till \"%s\"?</string>
+    <string name="exporting_contact_failed_title">Det gick inte att exportera kontaktdata</string>
+    <string name="exporting_contact_failed_message">"Det gick inte att exportera kontaktdata.
+Orsak: \"%s\""</string>
+    <string name="fail_reason_no_exportable_contact">Det finns ingen kontakt som kan exporteras</string>
+    <string name="fail_reason_too_long_filename">Det obligatoriska filnamnet är för långt (\"%s\")</string>
+    <string name="exporting_vcard_finished_title">%s har exporterats</string>
+    <string name="exporting_vcard_canceled_title">Exporten av %s avbröts</string>
+    <string name="exporting_contact_list_title">Exporterar kontaktuppgifter</string>
+    <string name="exporting_contact_list_message">Exporterar kontaktuppgifter till: %s</string>
+    <string name="fail_reason_could_not_initialize_exporter">Det gick inte att starta exportverktyget: %s</string>
+    <string name="fail_reason_error_occurred_during_export">Ett fel uppstod under export: %s</string>
+    <string name="composer_failed_to_get_database_infomation">Det gick inte att hämta databasinformation</string>
+    <string name="composer_has_no_exportable_contact">Det finns inga kontakter som kan exporteras. Om du vet att du har kontakter på pekdatorn kan problemet vara att en leverantör förhindrar att kontakterna exporteras från pekdatorn.</string>
+    <string name="composer_not_initialized">vCard-kompositören är inte korrekt initierad</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Det gick inte att öppna %s: %s</string>
+    <string name="exporting_contact_list_progress" formatted="false">%s av %s kontakter</string>
+    <string name="cancel_import_confirmation_title">Avbryter vCard-import</string>
+    <string name="cancel_import_confirmation_message">Vill du avbryta importen av %s?</string>
+    <string name="cancel_export_confirmation_title">Avbryter vCard-export</string>
+    <string name="cancel_export_confirmation_message">Vill du avbryta exporten av %s?</string>
+    <string name="cancel_vcard_import_or_export_failed">vCard-import/-export kunde inte avbrytas</string>
+    <string name="search_settings_description">Dina kontakters namn</string>
+    <string name="add_2sec_pause">Lägg till en paus på 2 sek.</string>
+    <string name="add_wait">Lägg till väntetid</string>
+    <string name="call_disambig_title">Ring upp med</string>
+    <string name="sms_disambig_title">Skicka SMS med</string>
+    <string name="make_primary">Kom ihåg det här valet</string>
+    <string name="quickcontact_missing_app">Ingen app som kan hantera åtgärden hittades</string>
+    <string name="quickcontact_remember_choice">Kom ihåg det här valet</string>
+    <string name="quickcontact_missing_name">Okänd</string>
+    <string name="quickcontact_no_data">Inga data</string>
+    <string name="quickcontact_clear_defaults_description">Rensa info</string>
+    <string name="quickcontact_clear_defaults_caption">Standardinställningar för kontakten:</string>
+    <string name="quickcontact_clear_defaults_button">Ta bort</string>
+    <string name="menu_accounts">Konton</string>
+    <string name="menu_import_export">Importera/exportera</string>
+    <string name="dialog_import_export">Importera/exportera kontakter</string>
+    <string name="menu_share">Dela kontakt</string>
+    <string name="share_via">Dela kontakt via</string>
+    <string name="share_error">Den här kontakten kan inte delas.</string>
+    <string name="nameLabelsGroup">Namn</string>
+    <string name="nicknameLabelsGroup">Smeknamn</string>
+    <string name="organizationLabelsGroup">Organisation</string>
+    <string name="websiteLabelsGroup">Webbplats</string>
+    <string name="eventLabelsGroup">Händelse</string>
+    <string name="relationLabelsGroup">Relation</string>
+    <string name="groupsLabel">Grupper</string>
+    <string name="type_short_home">H</string>
+    <string name="type_short_mobile">M</string>
+    <string name="type_short_work">A</string>
+    <string name="type_short_pager">P</string>
+    <string name="type_short_other">A</string>
+    <string name="dialog_new_contact_account">Skapa kontakt under konto</string>
+    <string name="menu_sync_remove">Ta bort synkgrupp</string>
+    <string name="dialog_sync_add">Lägg till synkgrupp</string>
+    <string name="display_more_groups">Fler grupper …</string>
+    <string name="display_ungrouped">Alla andra kontakter</string>
+    <string name="display_all_contacts">Alla kontakter</string>
+    <string name="display_warn_remove_ungrouped">Om du tar bort \"%s\" från synkroniseringen tas även alla kontakter som inte tillhör grupper bort från synkroniseringen.</string>
+    <string name="account_phone">Bara pekdator (osynkad)</string>
+    <string name="call_custom">Ring %s</string>
+    <string name="call_home">Ring hem</string>
+    <string name="call_mobile">Ring mobilen</string>
+    <string name="call_work">Ring – arbete</string>
+    <string name="call_fax_work">Ring – arbetsfax</string>
+    <string name="call_fax_home">Ring upp hemfax</string>
+    <string name="call_pager">Ring personsökare</string>
+    <string name="call_other">Ring</string>
+    <string name="call_callback">Ring upp återuppringningsnummer</string>
+    <string name="call_car">Ring bilen</string>
+    <string name="call_company_main">Ring företagets växel</string>
+    <string name="call_isdn">Ring upp ISDN</string>
+    <string name="call_main">Ring upp primärt nummer</string>
+    <string name="call_other_fax">Samtal till fax</string>
+    <string name="call_radio">Ring radio</string>
+    <string name="call_telex">Ring upp telex</string>
+    <string name="call_tty_tdd">Ring upp TTY/TDD</string>
+    <string name="call_work_mobile">Ring upp jobbmobil</string>
+    <string name="call_work_pager">Ring upp jobbpersonsökare</string>
+    <string name="call_assistant">Ring %s</string>
+    <string name="call_mms">Samtal – MMS</string>
+    <string name="sms_custom">Skicka SMS till %s</string>
+    <string name="sms_home">SMS – hem</string>
+    <string name="sms_mobile">SMS – mobil</string>
+    <string name="sms_work">SMS – arbete</string>
+    <string name="sms_fax_work">SMS – arbetsfax</string>
+    <string name="sms_fax_home">SMS – hemfax</string>
+    <string name="sms_pager">SMS – personsökare</string>
+    <string name="sms_other">Text</string>
+    <string name="sms_callback">Skicka SMS till återuppringningsnummer</string>
+    <string name="sms_car">SMS – bil</string>
+    <string name="sms_company_main">SMS – jobbväxel</string>
+    <string name="sms_isdn">Skicka SMS till ISDN</string>
+    <string name="sms_main">Skicka SMS till primärt nummer</string>
+    <string name="sms_other_fax">Text till fax</string>
+    <string name="sms_radio">SMS – radio</string>
+    <string name="sms_telex">Skicka SMS till telex</string>
+    <string name="sms_tty_tdd">Skicka SMS till TTY/TDD</string>
+    <string name="sms_work_mobile">Skicka SMS till jobbmobil</string>
+    <string name="sms_work_pager">Skicka SMS till jobbpersonsökare</string>
+    <string name="sms_assistant">Skicka SMS till %s</string>
+    <string name="sms_mms">Skicka MMS</string>
+    <string name="email_home">E-postadress – hem</string>
+    <string name="email_mobile">Skicka e-post till mobil</string>
+    <string name="email_work">E-postadress – arbete</string>
+    <string name="email_other">E-post</string>
+    <string name="email_custom">Skicka e-post till %s</string>
+    <string name="email">E-post</string>
+    <string name="map_home">Visa hemadress</string>
+    <string name="map_work">Visa jobbadress</string>
+    <string name="map_other">Visa adress</string>
+    <string name="map_custom">Visa adress, %s</string>
+    <string name="chat_aim">Chatta med AIM</string>
+    <string name="chat_msn">Chatta med Windows Live</string>
+    <string name="chat_yahoo">Chatta med Yahoo</string>
+    <string name="chat_skype">Chatta med Skype</string>
+    <string name="chat_qq">Chatta med QQ</string>
+    <string name="chat_gtalk">Chatta med Google Talk</string>
+    <string name="chat_icq">Chatta med ICQ</string>
+    <string name="chat_jabber">Chatta med Jabber</string>
+    <string name="chat">Chatt</string>
+    <string name="postal_address">Adress</string>
+    <string name="postal_street">Gata</string>
+    <string name="postal_pobox">Postbox</string>
+    <string name="postal_neighborhood">Område</string>
+    <string name="postal_city">Stad</string>
+    <string name="postal_region">Delstat</string>
+    <string name="postal_postcode">Postnummer</string>
+    <string name="postal_country">Land</string>
+    <string name="full_name">Namn</string>
+    <string name="name_given">Förnamn</string>
+    <string name="name_family">Efternamn</string>
+    <string name="name_prefix">Namnprefix</string>
+    <string name="name_middle">Mellannamn</string>
+    <string name="name_suffix">Namnsuffix</string>
+    <string name="name_phonetic_given">Fonetiskt förnamn</string>
+    <string name="name_phonetic_middle">Fonetiskt mellannamn</string>
+    <string name="name_phonetic_family">Fonetiskt efternamn</string>
+    <string name="name_phonetic">Fonetiskt namn</string>
+    <string name="account_type_format">%1$s-kontakt</string>
+    <string name="from_account_format">från %1$s</string>
+    <string name="use_photo_as_primary">Använd det här fotot</string>
+    <string name="contact_read_only">Kontaktinformation för %1$s kan inte redigeras i den här enheten.</string>
+    <string name="no_contact_details">Det finns ingen mer information för kontakten</string>
+    <string name="display_options_sort_list_by">Sortera lista efter</string>
+    <string name="display_options_sort_by_given_name">Förnamn</string>
+    <string name="display_options_sort_by_family_name">Efternamn</string>
+    <string name="display_options_view_names_as">Visa kontaktnamn som</string>
+    <string name="display_options_view_given_name_first">Förnamn först</string>
+    <string name="display_options_view_family_name_first">Efternamn först</string>
+    <string name="search_bar_hint">Sök efter kontakter</string>
+    <string name="search_for_all_contacts">Sök efter alla kontakter</string>
+    <string name="take_photo">Ta en bild</string>
+    <string name="take_new_photo">Ta ny bild</string>
+    <string name="pick_photo">Välj ett foto från galleriet</string>
+    <string name="pick_new_photo">Välj nytt foto från galleriet</string>
+    <string name="locale_change_in_progress">Kontaktlistan uppdateras så att språkändringen visas.</string>
+    <string name="upgrade_in_progress">Kontaktlistan uppdateras.</string>
+    <string name="upgrade_out_of_memory">"Kontakter håller på att uppgraderas. 
+
+Uppgraderingsprocessen kräver ungefär %s MB internt lagringsutrymme.
+
+Välj ett av följande alternativ:"</string>
+    <string name="upgrade_out_of_memory_uninstall">Avinstallera några appar</string>
+    <string name="upgrade_out_of_memory_retry">Försök uppgradera igen</string>
+    <string name="search_results_searching">Söker...</string>
+    <string name="menu_display_selected">Visa markerade</string>
+    <string name="menu_display_all">Visa alla</string>
+    <string name="menu_select_all">Markera alla</string>
+    <string name="menu_select_none">Avmarkera alla</string>
+    <string name="no_contacts_selected">Inga kontakter har markerats.</string>
+    <string name="add_field">Lägg till ett fält</string>
+    <string name="contact_status_update_attribution">via %1$s</string>
+    <string name="contact_status_update_attribution_with_date" formatted="false">%1$s via %2$s</string>
+    <string name="description_star">favorit</string>
+    <string name="edit_contact">Redigera kontakt</string>
+    <string name="local_invisible_directory">Övrigt</string>
+    <string name="aggregation_suggestion_join_dialog_title">Kombinera kontakter</string>
+    <string name="aggregation_suggestion_join_dialog_message">Vill du kombinera kontakten med den markerade kontakten?</string>
+    <string name="aggregation_suggestion_edit_dialog_title">Redigera valda kontakter</string>
+    <string name="aggregation_suggestion_edit_dialog_message">Vill du fortsätta att redigera den markerade kontakten? Information som du har angett hittills kommer att kopieras.</string>
+    <string name="menu_copyContact">Kopiera till mina kontakter</string>
+    <string name="contact_directory_description">Katalog %1$s</string>
+    <string name="search_label">Söker bland alla kontakter</string>
+    <string name="directory_search_label">Katalog</string>
+    <string name="local_search_label">Kontakter</string>
+    <string name="toast_making_personal_copy">En personlig kopia skapas</string>
+    <string name="list_filter_prompt">Välj kontaktlista</string>
+    <string name="list_filter_all_accounts">Alla kontakter</string>
+    <string name="list_filter_all_starred">Stjärnmärkt</string>
+    <string name="list_filter_custom">Anpassad</string>
+    <string name="list_filter_customize">Anpassa...</string>
+    <string name="list_filter_phones">Kontakter med telefonnummer</string>
+    <string name="list_filter_single">Kontakt</string>
+    <string name="custom_list_filter">Definiera anpassad visning</string>
+    <string name="activity_title_settings">Inställningar</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="preference_displayOptions">Visa alternativ</string>
+    <string name="organization_company_and_title" formatted="false">%2$s, %1$s</string>
+    <string name="hint_findContacts">Sök efter kontakter</string>
+    <string name="non_phone_caption">Telefonnummer</string>
+    <string name="non_phone_add_to_contacts">Lägg till i Kontakter</string>
+    <string name="non_phone_close">Stäng</string>
+    <string name="widget_name_and_phonetic" formatted="false">%1$s (%2$s)</string>
+    <string name="date_year_toggle">Ange ett år</string>
+    <string name="social_widget_label">Kontakt</string>
+    <string name="social_widget_loading">Läser in...</string>
+    <string name="contacts_unavailable_create_contact">Skapa en ny kontakt</string>
+    <string name="contacts_unavailable_add_account">Logga in på ett konto</string>
+    <string name="contacts_unavailable_import_contacts">Importera kontakter från en fil</string>
+    <string name="create_group_dialog_title">Skapa ny grupp</string>
+    <string name="create_group_item_label">[Skapa ny grupp]</string>
+    <string name="rename_group_dialog_title">Byt namn på grupp</string>
+    <string name="delete_group_dialog_title">Radera grupp</string>
+    <string name="delete_group_dialog_message">Vill du ta bort gruppen %1$s? Kontakterna i gruppen tas inte bort.</string>
+    <string name="toast_join_with_empty_contact">Ange ett namn för kontakten innan du slår ihop den med en annan kontakt.</string>
+    <string name="indicator_joined_contact">Hopslagen kontakt</string>
+    <string name="toast_text_copied">Texten har kopierats</string>
+    <string name="cancel_confirmation_dialog_title">Ignorera ändringar</string>
+    <string name="cancel_confirmation_dialog_message">Vill du ignorera ändringarna?</string>
+    <string name="discard">Ignorera</string>
+</resources>

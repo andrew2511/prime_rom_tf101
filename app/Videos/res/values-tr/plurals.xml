@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Süre sonu: %1$d gün</item>
+        <item quantity="one">Süre 1 gün içn dolyr</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Süre sonu: %1$d saat</item>
+        <item quantity="one">Süre 1 sa içn doluyr</item>
+    </plurals>
+</resources>

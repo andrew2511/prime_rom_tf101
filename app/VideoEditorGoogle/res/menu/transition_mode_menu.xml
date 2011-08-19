@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_edit" android:id="@id/action_change_transition" android:title="@string/editor_change_transition" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/action_remove_transition" android:title="@string/remove" />
+</menu>

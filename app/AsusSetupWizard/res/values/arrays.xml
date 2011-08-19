@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="intent_connection_entries">
+        <item>@string/mobile_wifi_title</item>
+        <item>@string/wifi_title</item>
+    </array>
+</resources>

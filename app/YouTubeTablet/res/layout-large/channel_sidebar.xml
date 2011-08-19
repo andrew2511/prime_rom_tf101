@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/channel_sidebar_border"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/channel_avatar" android:layout_width="@dimen/avatar_width" android:layout_height="@dimen/avatar_height" android:layout_margin="16.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:textColor="@color/white" android:id="@id/channel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/extra_small_font_size" android:id="@id/channel_views" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/channel_stats_views_empty" android:singleLine="true" />
+    <TextView android:textSize="@dimen/extra_small_font_size" android:id="@id/channel_uploaded" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/channel_stats_uploaded_empty" android:singleLine="true" />
+    <TextView android:textSize="@dimen/extra_small_font_size" android:id="@id/channel_subscribers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/channel_stats_subscriptions_empty" android:singleLine="true" />
+    <View android:id="@id/sidebar_separator" android:background="@color/sidebar_divider" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="4.0dip" />
+    <ListView android:id="@id/sidebar_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" style="@style/Sidebar" />
+</LinearLayout>

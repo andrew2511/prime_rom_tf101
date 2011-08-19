@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preloaded_app_service_name">Asus Preloaded Reader</string>
+    <string name="downloaded_app_service_name">Asus Downloaded Reader</string>
+    <string name="base_url">null</string>
+    <string name="ignore_minimum_requirements">true</string>
+    <string name="library_layout">grid</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">ZSProvider</string>
+    <string name="platform">Platform</string>
+    <string name="use_skin_input">Use Skin</string>
+    <string name="toast_mes">Settings saved</string>
+    <string name="production">Production</string>
+    <string name="staging">Staging</string>
+    <string name="staging_production">Mismatch between Production/Staging</string>
+    <string name="pick_platform">Pick Platform</string>
+    <string name="encrypted_production_server">a6HxZxPHQWccc5B3/WbQbCscxCbK0ehOUGzNOM/If2RQqly3IuvXng5ecQtlpscjrw3h5Zx5bARwqoWSv2YjKvg0O1plIlhtMsgIPEK5y1db8Cw5R54h+CiNMA6N/YfN0HXW71JOjRqVwcNu600xOyFUVGML0PDmf1BePo2LsMI=</string>
+    <string name="encrypted_staging_server">OWvNrTSK+lTZEwCmeUpHry5a6R5iWx/3QurAE3xsf+kV8XgOggW1ztIKct4nOHXPbQ+3g4iOgsqpD7vX9PRW8HgZ8AfyMUQ3zm/9gajK8jNty1k7FA/Q96iPhMSTG77ew7Htvg72f/9jmvPNhGzUPA8lOabYnZoa6cLcuNztWGQ=</string>
+    <string name="default_tablet_production">Default Tablet Production</string>
+    <string name="default_smartphone_production">Default Smartphone Production</string>
+    <string name="default_staging">Default Tablet Staging</string>
+    <string name="default_tablet_layout">Grid</string>
+    <string name="default_smartphone_layout">List</string>
+    <string name="default_ignore">true</string>
+    <string name="dell_production">DELL Production</string>
+    <string name="dell_staging">DELL Staging</string>
+    <string name="dell_layout">List</string>
+    <string name="dell_ignore">true</string>
+    <string name="samsung_production">Samsung Production</string>
+    <string name="samsung_staging">Samsung Staging</string>
+    <string name="samsung_layout">List</string>
+    <string name="samsung_ignore">true</string>
+    <string name="default_dlname">Android Demo Reader</string>
+    <string name="default_plname">Android Demo Reader</string>
+    <string name="dell_dlname">DELL Downloaded Reader</string>
+    <string name="dell_plname">DELL Preloaded Reader</string>
+    <string name="samsung_dlname">Samsung Reader</string>
+    <string name="samsung_plname">Samsung Preloaded Reader</string>
+    <string name="ignore_minimum_input">Ignore Minimum Requirements</string>
+</resources>

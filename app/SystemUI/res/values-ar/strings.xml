@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">واجهة مستخدم النظام</string>
+    <string name="status_bar_clear_all_button">محو</string>
+    <string name="status_bar_do_not_disturb_button">عدم الإزعاج</string>
+    <string name="status_bar_please_disturb_button">إظهار التنبيهات</string>
+    <string name="status_bar_no_notifications_title">ليس هناك أي تنبيهات</string>
+    <string name="status_bar_ongoing_events_title">مستمر</string>
+    <string name="status_bar_latest_events_title">التنبيهات</string>
+    <string name="battery_low_title">الرجاء توصيل الشاحن</string>
+    <string name="battery_low_subtitle">انخفضت طاقة البطارية.</string>
+    <string name="battery_low_percent_format">المتبقي: %d%%</string>
+    <string name="invalid_charger">"شحن USB غير معتمد.
+استخدم الشاحن الموفر فقط."</string>
+    <string name="battery_low_why">استخدام البطارية</string>
+    <string name="status_bar_settings_settings_button">الإعدادات</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">وضع الطائرة</string>
+    <string name="status_bar_settings_auto_rotation">التدوير التلقائي للشاشة</string>
+    <string name="status_bar_settings_mute_label">كتم</string>
+    <string name="status_bar_settings_auto_brightness_label">تلقائي</string>
+    <string name="status_bar_settings_notifications">التنبيهات</string>
+    <string name="recent_tasks_title">حديثة</string>
+    <string name="recent_tasks_empty">ليس هناك أية تطبيقات حديثة.</string>
+    <string name="recent_tasks_app_label">التطبيقات</string>
+    <string name="bluetooth_tethered">تم إنشاء الاتصال بالإنترنت عن طريق البلوتوث.</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">تهيئة طرق الإدخال</string>
+    <string name="status_bar_use_physical_keyboard">استخدام لوحة المفاتيح الفعلية</string>
+    <string name="usb_device_permission_prompt">هل تريد السماح للتطبيق %1$s بالدخول إلى جهاز USB؟</string>
+    <string name="usb_accessory_permission_prompt">هل تريد السماح للتطبيق %1$s بالدخول إلى ملحق USB؟</string>
+    <string name="usb_device_confirm_prompt">هل تريد فتح %1$s عند توصيل جهاز USB هذا؟</string>
+    <string name="usb_accessory_confirm_prompt">هل تريد فتح %1$s عند توصيل ملحق USB هذا؟</string>
+    <string name="usb_accessory_uri_prompt">لا يعمل أي تطبيق مثبت مع ملحق UEB هذا. تعرف على المزيد عن هذا الملحق على %1$s.</string>
+    <string name="title_usb_accessory">ملحق USB</string>
+    <string name="label_view">عرض</string>
+    <string name="always_use_device">الاستخدام بشكل افتراضي لجهاز USB هذا</string>
+    <string name="always_use_accessory">الاستخدام بشكل افتراضي لملحق USB هذا</string>
+</resources>

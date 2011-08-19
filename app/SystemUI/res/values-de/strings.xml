@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">System-UI</string>
+    <string name="status_bar_clear_all_button">Löschen</string>
+    <string name="status_bar_do_not_disturb_button">Bitte nicht stören</string>
+    <string name="status_bar_please_disturb_button">Benachrichtigungen zeigen</string>
+    <string name="status_bar_no_notifications_title">Keine Benachrichtigungen</string>
+    <string name="status_bar_ongoing_events_title">Aktuell</string>
+    <string name="status_bar_latest_events_title">Benachrichtigungen</string>
+    <string name="battery_low_title">Ladegerät anschließen</string>
+    <string name="battery_low_subtitle">Akku ist fast leer.</string>
+    <string name="battery_low_percent_format">Noch %d%%</string>
+    <string name="invalid_charger">"USB-Aufladung wird nicht unterstützt.
+Verwenden Sie das mitgelieferte Aufladegerät."</string>
+    <string name="battery_low_why">Akkuverbrauch</string>
+    <string name="status_bar_settings_settings_button">Einstellungen</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_airplane">Flugmodus</string>
+    <string name="status_bar_settings_auto_rotation">Bildschirm automatisch drehen</string>
+    <string name="status_bar_settings_mute_label">STUMM</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Benachrichtigungen</string>
+    <string name="recent_tasks_title">Zuletzt verwendet</string>
+    <string name="recent_tasks_empty">Keine zuletzt verwendeten Anwendungen</string>
+    <string name="recent_tasks_app_label">Google Apps</string>
+    <string name="bluetooth_tethered">Bluetooth-Tethering aktiv</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Eingabemethoden konfigurieren</string>
+    <string name="status_bar_use_physical_keyboard">Physische Tastatur</string>
+    <string name="usb_device_permission_prompt">Anwendung %1$s Zugriff auf USB-Gerät gewähren?</string>
+    <string name="usb_accessory_permission_prompt">Anwendung %1$s Zugriff auf USB-Zubehör gewähren?</string>
+    <string name="usb_device_confirm_prompt">%1$s öffnen, wenn dieses USB-Gerät verbunden ist?</string>
+    <string name="usb_accessory_confirm_prompt">%1$s öffnen, wenn dieses USB-Zubehör verbunden ist?</string>
+    <string name="usb_accessory_uri_prompt">Keine installierten Anwendungen für dieses USB-Zubehör. Weitere Informationen unter %1$s</string>
+    <string name="title_usb_accessory">USB-Zubehör</string>
+    <string name="label_view">Anzeigen</string>
+    <string name="always_use_device">Standardmäßig für dieses USB-Gerät verwenden</string>
+    <string name="always_use_accessory">Standardmäßig für dieses USB-Zubehör verwenden</string>
+</resources>

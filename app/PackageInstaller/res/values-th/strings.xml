@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">โปรแกรมติดตั้งแพคเกจ</string>
+    <string name="install">ติดตั้ง</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="security_settings_desc">อนุญาตให้แอปพลิเคชัน:</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="unknown">ไม่ทราบ</string>
+    <string name="installing">กำลังติดตั้ง...</string>
+    <string name="install_done">ติดตั้งแอปพลิเคชันแล้ว</string>
+    <string name="install_confirm_question">คุณต้องการติดตั้งแอปพลิเคชันนี้หรือไม่</string>
+    <string name="install_failed">ไม่ได้ติดตั้งแอปพลิเคชัน</string>
+    <string name="install_failed_invalid_apk">แพคเกจเกิดความเสียหาย</string>
+    <string name="install_failed_inconsistent_certificates">มีแพคเกจชื่อเดียวกันซึ่งมีลายเซ็นที่ขัดแย้งติดตั้งไว้อยู่แล้ว</string>
+    <string name="install_failed_older_sdk">แพคเกจนี้จะทำงานบน Android รุ่นใหม่กว่านี้เท่านั้น</string>
+    <string name="install_failed_cpu_abi_incompatible">แอปพลิเคชันนี้ไม่สามารถใช้งานร่วมกับ CPU ของแท็บเล็ตนี้ได้</string>
+    <string name="install_failed_msg">ไม่สามารถติดตั้ง %1$s บนแท็บเล็ตนี้</string>
+    <string name="launch">เปิด</string>
+    <string name="unknown_apps_dlg_title">ปิดกั้นการติดตั้งไว้</string>
+    <string name="unknown_apps_dlg_text">เพื่อความปลอดภัย แท็บเล็ตของคุณถูกตั้งค่าให้ปิดกั้นการติดตั้งแอปพลิเคชันที่ไม่ได้มาจาก Android Market</string>
+    <string name="ok">ตกลง</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="manage_applications">จัดการแอปพลิเคชัน</string>
+    <string name="dlg_app_replacement_title">แทนที่แอปพลิเคชัน</string>
+    <string name="dlg_app_replacement_statement">"แอปพลิเคชันที่คุณกำลังติดตั้งจะไปแทนที่แอปพลิเคชันอื่น
+
+ข้อมูลผู้ใช้ก่อนหน้านี้ทั้งหมดจะได้รับการบันทึกไว้"</string>
+    <string name="dlg_sys_app_replacement_statement">"นี่เป็นแอปพลิเคชันของระบบ คุณยังต้องการเปลี่ยนอีกหรือไม่
+
+ข้อมูลผู้ใช้ก่อนหน้านี้ทั้งหมดจะได้รับการบันทึกไว้"</string>
+    <string name="out_of_space_dlg_title">ไม่มีพื้นที่</string>
+    <string name="out_of_space_dlg_text">ติดตั้ง %1$s ไม่ได้ เพิ่มพื้นที่ว่างแล้วลองอีกครั้ง</string>
+    <string name="dlg_ok">ตกลง</string>
+    <string name="app_not_found_dlg_title">ไม่พบแอปพลิเคชัน</string>
+    <string name="app_not_found_dlg_text">ไม่พบแอปพลิเคชันในรายการแอปพลิเคชันที่ติดตั้งไว้</string>
+    <string name="uninstall_application_title">ถอนการติดตั้งแอปพลิเคชัน</string>
+    <string name="uninstall_update_title">ถอนการติดตั้งอัปเดต</string>
+    <string name="uninstall_activity_text">%1$s เป็นส่วนหนึ่งของแอปพลิเคชันต่อไปนี้:</string>
+    <string name="uninstall_application_text">แอปพลิเคชันจะถูกถอนการติดตั้ง</string>
+    <string name="uninstall_update_text">แอปพลิเคชันจะถูกแทนที่ด้วยรุ่นที่ได้จากโรงงาน</string>
+    <string name="uninstalling">กำลังถอนการติดตั้ง...</string>
+    <string name="uninstall_done">ถอนการติดตั้งเสร็จแล้ว</string>
+    <string name="uninstall_failed">ถอนการติดตั้งไม่สำเร็จ</string>
+    <string name="uninstall_failed_device_policy_manager">ไม่สามารถถอนการติดตั้งเนื่องจากแพคเกจนี้เป็นโปรแกรมควบคุมอุปกรณ์ที่ใช้งานอยู่</string>
+    <string name="manage_device_administrators">จัดการโปรแกรมควบคุมอุปกรณ์</string>
+    <string name="uninstall_failed_msg">ไม่สามารถถอดการติดตั้ง %1$s</string>
+    <string name="Parse_error_dlg_title">ข้อผิดพลาดในการแยกวิเคราะห์</string>
+    <string name="Parse_error_dlg_text">พบปัญหาในการแยกวิเคราะห์แพคเกจ</string>
+</resources>

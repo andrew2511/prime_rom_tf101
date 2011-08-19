@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Προεπιλεγμένη ζωντανή ταπετσαρία της ASUS.</string>
+    <string name="mywater_setting">Οι Ρυθμίσεις ASUS MyWater</string>
+    <string name="enable_rotation">Ενεργοποίηση περιστροφής νερού</string>
+    <string name="enable_rotation_description">Το νερό θα περιστρέφεται μαζί με την περιστροφή της συσκευής.</string>
+</resources>

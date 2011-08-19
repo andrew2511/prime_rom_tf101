@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/launchArea" android:background="@drawable/list_cell_background_button_x" android:focusable="true" android:clickable="true" android:longClickable="true" android:layout_width="@dimen/launch_area_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/launchAction" android:background="@null" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_icon" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/launchPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/gallery_launch" android:shadowColor="@color/default_text_shadow_color" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

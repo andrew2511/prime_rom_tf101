@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Launcher</string>
+    <string name="TITLE_DETECTED">检测到系统更新文件</string>
+    <string name="TITLE_SYSTEM_UPDATE">系统更新</string>
+    <string name="BUTTON_OK">确定</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">有新的系统更新</string>
+    <string name="MSG_PRELIMINARY">"系统更新需要大约10分钟的时间。在更新时您将无法使用您的设备，包括紧急电话也无法使用。
+
+系统需要至少15%的电池电力运行更新工作，请在更新前确认电池电量或对电池充电。
+
+您确定要运行系统更新吗？"</string>
+    <string name="BUTTON_CANCEL">取消</string>
+    <string name="MSG_RESUME">请点击以运行更新</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">系统更新中止</string>
+    <string name="MSG_UPDATE_DONE">系统更新已完成</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">更新文件不存在</string>
+    <string name="MSG_UPDATE_FAIL">系统更新失败</string>
+    <string name="MSG_UPDATE_RESTORE">系统已恢复至先前的配置</string>
+    <string name="MSG_BATTERY_LOW">"系统更新因电池电力过低而中止。
+
+请在更新前连接电源线。"</string>
+    <string name="TITLE_SELECT_FILE">请选择更新软件包</string>
+    <string name="MSG_UPDATE_FAIL_SKU">更新文件不适用于目前版本，请于 设置 中确认目前版本与版本编号后再更新正确的版本。</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">更新文件比目前的版本旧，请再尝试下载新版的更新文件。</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">未知的错误</string>
+</resources>

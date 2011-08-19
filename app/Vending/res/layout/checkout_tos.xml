@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="480.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/progress" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:max="10000" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loading" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/tos_section" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:background="@android:color/white" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/logo_google" />
+            <TextView android:textStyle="bold" android:id="@id/tos_leading_section" android:background="@android:color/white" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <WebView android:id="@id/tos_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

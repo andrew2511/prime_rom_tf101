@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lanceur de mise à jour</string>
+    <string name="TITLE_DETECTED">Fichier firmware détecté</string>
+    <string name="TITLE_SYSTEM_UPDATE">Mise à jour</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Mise à jour disponible</string>
+    <string name="MSG_PRELIMINARY">"Le processus de mise à jour va prendre environ 10 minutes. Vous ne pourrez pas utiliser votre appareil pendant le processus de mise à jour (appels d'urgence inclus).
+
+Veuillez connecter l'adaptateur secteur à votre appareil ou vous assurer que le niveau de charge de la batterie est d'au moins 15%.
+
+Souhaitez-vous démarrer la mise à jour ?"</string>
+    <string name="BUTTON_CANCEL">Annuler</string>
+    <string name="MSG_RESUME">Appuyez pour démarrer</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Mise à jour annulée</string>
+    <string name="MSG_UPDATE_DONE">Mise à jour du système terminée.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Fichier inexistant.</string>
+    <string name="MSG_UPDATE_FAIL">Échec de mise à jour.</string>
+    <string name="MSG_UPDATE_RESTORE">La configuration antérieure va être restaurée</string>
+    <string name="MSG_BATTERY_LOW">"Mise à jour arrêtée car niveau de charge de batterie insuffisant.
+
+Connectez l'adaptateur secteur."</string>
+    <string name="TITLE_SELECT_FILE">Sélectionnez une mise à jour</string>
+    <string name="MSG_UPDATE_FAIL_SKU">"Le pack de mise à jour n'est pas compatible avec votre version de logiciel actuelle. Veuillez vérifier la version de votre logiciel dans la page Paramètres et installer la mise à jour appropriée."</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Le pack de mise à jour est plus ancien que votre version de logiciel actuelle. Veuillez installer un pack de mise à jour plus récent.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Erreur inconnue</string>
+</resources>

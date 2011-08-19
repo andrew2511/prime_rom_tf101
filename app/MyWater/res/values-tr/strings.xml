@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS varsayılan canlı duvar kağıdı.</string>
+    <string name="mywater_setting">ASUS MyWater Ayarları</string>
+    <string name="enable_rotation">Su dönüşünü etkinleştir</string>
+    <string name="enable_rotation_description">Su, aygıt döndükçe döner.</string>
+</resources>

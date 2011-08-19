@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Počet konverzací ke smazání: %1$d. Opravdu je chcete smazat?</item>
+        <item quantity="one">Chcete tuto konverzaci smazat?</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">Mají být tyto koncepty (celkem %1$d) zrušeny?</item>
+        <item quantity="one">Chcete tento koncept zrušit?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Chcete tyto %1$d konverzace archivovat?</item>
+        <item quantity="one">Chcete tuto konverzaci archivovat?</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Koncepty</item>
+        <item quantity="one">Koncept</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">+ další (%s)</item>
+        <item quantity="one">+ další (%s)</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">Počet ignorovaných konverzací: %1$d.</item>
+        <item quantity="one">Je ignorována %1$d konverzace.</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">Probíhá nahlášení následujícího počtu konverzací jako spam: %1$d.</item>
+        <item quantity="one">Probíhá nahlášení %1$d konverzace jako spam.</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">Archivace %1$d konverzací</item>
+        <item quantity="one">Archivování %1$d konverzace</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">Mazání %1$d konverzací</item>
+        <item quantity="one">Mazání %1$d konverzace</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">Označování %1$d konverzací jako přečtených</item>
+        <item quantity="one">Označování %1$d konverzace jako přečtené</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">Označování %1$d konverzací jako nepřečtené</item>
+        <item quantity="one">Označování %1$d konverzace jako nepřečtené</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">Označování %1$d konverzací hvězdičkou</item>
+        <item quantity="one">Označování %1$d konverzace hvězdičkou</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">Zrušení označení hvězdičkou (počet konverzací: %1$d).</item>
+        <item quantity="one">Zrušení označení hvězdičkou (%1$d konverzace).</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">Čeká se na akci s %1$d konverzacemi.</item>
+        <item quantity="one">Čeká se na akci s %1$d konverzací.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Počet ignorovaných konverzací: %1$d.</item>
+        <item quantity="one">Ignorována %1$d konverzace.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Počet konverzací nahlášených jako spam: %1$d.</item>
+        <item quantity="one">%1$d konverzace nahlášena jako spam.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Počet archivovaných konverzací: %1$d.</item>
+        <item quantity="one">Archivována %1$d konverzace.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">Konverzace (%1$d) byly přesunuty do Doručené pošty.</item>
+        <item quantity="one">%1$d konverzace byla přidána do Doručené pošty.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Počet smazaných konverzací: %1$d.</item>
+        <item quantity="one">Smazána %1$d konverzace.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">Konverzace (%1$1$d) byly přidány do štítků %2$2$s.</item>
+        <item quantity="one">Konverzace (%1$1$d) byly přesunuty do štítku %2$2$s.</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">Počet konverzací označených jako důležité: %1$d</item>
+        <item quantity="one">Počet konverzací označených jako důležité: %1$d</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">Počet konverzací označených jako nedůležité: %1$d</item>
+        <item quantity="one">Počet konverzací označených jako nedůležité: %1$d</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">Počet konverzací označených jako přečtené: %1$d.</item>
+        <item quantity="one">%1$d konverzace označena jako přečtená.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">Počet konverzací označených jako nepřečtené: %1$d</item>
+        <item quantity="one">Počet konverzací označených jako nepřečtené: %1$d</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">Štítky byly změněny u %1$d konverzací.</item>
+        <item quantity="one">U konverzace byly změněny štítky.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Počet dnů k synchronizaci: %1$d</item>
+        <item quantity="one">Synchronizovat %1$d den.</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">Počet nepřečtených konverzací: %1$d</item>
+        <item quantity="one">Počet nepřečtených konverzací: %1$d</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">dní: %d</item>
+        <item quantity="one">Jeden den</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dny</item>
+        <item quantity="one">Den</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">Počet účtů: %1$d</item>
+        <item quantity="one">Účet %1$d</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Přesunout konverzace (celkem %1$d)</item>
+        <item quantity="one">Přesunout konverzaci</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Chyba přílohy v účtu %s</item>
+        <item quantity="one">Chyba přílohy</item>
+    </plurals>
+</resources>

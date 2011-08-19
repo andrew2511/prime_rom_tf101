@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">forsøk igjen</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">Nettforbindelsen er utstabil, vil du forsøke igjen eller bruke programmet i off-linemodus?</string>
+    <string name="cancel">avbryt</string>
+    <string name="change_password">endre passord</string>
+    <string name="close">lukk</string>
+    <string name="confirm_new_password">bekreft nytt passord</string>
+    <string name="create_account">opprett konto</string>
+    <string name="create_an_account">opprett en konto</string>
+    <string name="date">dato</string>
+    <string name="delete">slett</string>
+    <string name="delete_all">slett alt</string>
+    <string name="delete_mode_caption">Slettemodus - trykk på ett for å slette</string>
+    <string name="email_address">e-postadresse</string>
+    <string name="exit">gå ut</string>
+    <string name="faq">FAQ</string>
+    <string name="first_name">fornavn</string>
+    <string name="free">ledig</string>
+    <string name="forgot_password">glemt passord</string>
+    <string name="last_name">etternavn</string>
+    <string name="learn_more">finn ut mer</string>
+    <string name="legal_notices">juridiske merknader</string>
+    <string name="library">bibliotek</string>
+    <string name="manage_tips">administrere tips</string>
+    <string name="more">mer</string>
+    <string name="more_options">flere alternativ</string>
+    <string name="my_magazines">Mine blader - trykk for å se, eller laste ned</string>
+    <string name="new_password">nytt passord (5-20 tegn)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">gammelt passord</string>
+    <string name="password">passord</string>
+    <string name="required">nødvendig</string>
+    <string name="required_first_name">nødvendig fornavn</string>
+    <string name="required_last_name">nødvendig etternavn</string>
+    <string name="required_email_address">nødvendig e-postadresse</string>
+    <string name="required_password">nødvendig passord</string>
+    <string name="retype_password">skriv passordet igjen</string>
+    <string name="sign_in">logg inn</string>
+    <string name="sign_out">logg ut</string>
+    <string name="share">del</string>
+    <string name="shop">butikk</string>
+    <string name="text">tekst</string>
+    <string name="title">tittel</string>
+    <string name="turn_on_wifi">Slå på WiFi</string>
+    <string name="uninstall">avinstaller</string>
+    <string name="welcome_to_zinio">velkommen til zinio</string>
+    <string name="email_non_lower_case">E-post</string>
+    <string name="sd_card_non_lower_case">SD-kort</string>
+    <string name="show_password_non_lower_case">Vis passord</string>
+    <string name="show_tips_non_lower_case">Vis tips</string>
+    <string name="forgot_password_underlined"><u>Glemt passordet?</u></string>
+    <string name="terms_of_service_underlined"><u>Servicebetingelser</u></string>
+    <string name="label_share_email1">les en artikkel fra</string>
+    <string name="label_share_email2">"og ønsker å dele den med deg!
+
+Den opprinnelige artikkelen vedlagt denne meldingen.
+
+Gå til www.zinio.com for flere publikasjoner"</string>
+    <string name="label_receive_from_partners">"Send meg flere tilbud fra Zinio's tiltrodde partnere."</string>
+    <string name="label_receive_from_zinio">Send meg en e-post om spesielle tilbud fra Zinio.</string>
+    <string name="label_status_calculating">Beregner...</string>
+    <string name="label_status_new">Ny</string>
+    <string name="label_status_not_downloaded">Ikke nedlastet</string>
+    <string name="label_status_downloading">%s%% Nedlastet</string>
+    <string name="label_tip_hide">Slå av tips. De kan bli administrert via Fler innstillinger.</string>
+    <string name="toast_change_password_success">Passordet er endret.</string>
+    <string name="toast_issue_download_complete_left">Nedlast for</string>
+    <string name="toast_issue_download_complete_right">fullstendig</string>
+    <string name="toast_no_articles">Ingen artikler på den aktuelle siden</string>
+    <string name="toast_register_success">Kontoen er opprettet.</string>
+    <string name="toast_no_email_client">Merk: E-postklient ikke konfigurert</string>
+    <string name="progress_dialog_wait_msg">Vennligst vent...</string>
+    <string name="dialog_warning_title">Advarsel</string>
+    <string name="dialog_no_connectivity_warning">Denne skjermen krever internett-tilgang. Vennligst kontroller din internett-tilkobling eller flymodus-innstilling.</string>
+    <string name="dialog_passwords_not_matching_warning">Passordet samsvarer ikke.</string>
+    <string name="dialog_password_length_warning">Passordet skal inneholde mellom 5 og 20 tegn.</string>
+    <string name="dialog_service_exception_warning">Det oppsto et problem med serveren. Vennligst prøv igjen senere.</string>
+    <string name="dialog_uninstall_warning">Dette vil slette alle bibliotekdata i Zinio, og de kan ikke gjenvinnes. Du må laste ned publikasjonene dine igjen.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Du er ikke tilkoblet og kan ikke laste ned noen publikasjoner.
+
+Du kan laste ned publikasjoner når tilkoblingen er etablert igjen."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Gammelt og nytt passord må være forskjellige.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Gammelt passord er feil.</string>
+    <string name="dialog_library_no_connectivity_warning">"Forbindelse er nødvendig for å laste ned publikasjoner.
+
+Du kan fremdeles lese det som er tilgjengelig nå i biblioteket ditt, og du kan laste ned publikasjoner når forbindelsen er gjenopprettet."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Brukernavnet eller passordet ditt var feil.
+
+Prøv igjen."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Denne kontoen har nådd maksimalt antall autoriserte enheter. Fjern autorisasjonen for en enhet og prøv igjen.</string>
+    <string name="dialog_register_account_already_exists">E-postadressen eksisterer allerede. Velg en annen.</string>
+    <string name="dialog_register_empty_email_error">Vennligst tast inn en e-postadresse.</string>
+    <string name="dialog_register_first_name_short_error">Vennligst tast inn et fornavn.</string>
+    <string name="dialog_register_first_name_long_error">Fornavnet må ikke ha mer enn 80 tegn.</string>
+    <string name="dialog_register_invalid_email_error">Tast inn en gyldig e-postadresse.</string>
+    <string name="dialog_register_last_name_short_error">Vennligst tast inn et etternavn.</string>
+    <string name="dialog_register_last_name_long_error">Fornavnet må ikke ha mer enn 80 tegn.</string>
+    <string name="dialog_register_other_error">Det har oppstått en feil. Forsøk igjen.</string>
+    <string name="dialog_register_password_empty">Vennligst tast inn et nytt passord.</string>
+    <string name="dialog_sign_out_disabled_warning">Det finnes ingen innlogget bruker å logge ut.</string>
+    <string name="dialog_app_version_not_supported_title">Oppgradering tilgjengelig</string>
+    <string name="dialog_app_version_not_supported_msg">En nyere versjon av Zinio Reader er tilgjengelig. Denne versjonen støttes ikke lenger. Oppgrader til den nyeste Zinio Reader</string>
+    <string name="dialog_delete_all_title">Slett alle</string>
+    <string name="dialog_delete_all_msg">"Du har angitt at du vil slette alle publikasjoner fra biblioteket ditt.
+
+Vær ikke redd, du vil ikke miste noen ting permanent.
+
+Slettingen fjerner det bare fra enheten din. Du vil kunne last ned publikasjonen igjen hvis det er nødvendig."</string>
+    <string name="dialog_not_enough_space_title">Ikke nok plass</string>
+    <string name="dialog_not_enough_space_msg">Denne enheten har ikke nok diskplass til å laste ned den valgte publikasjonen. Frigi opp til minst %d MB og prøv igjen.</string>
+    <string name="dialog_sd_card_not_available_title">SD-kortet er ikke tilgjengelig</string>
+    <string name="dialog_sd_card_not_available_msg">SD-kortet er fjernet. Zinio-applikasjonen vil bli avsluttet. Sett inn et SD-kort og start applikasjonen igjen.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD-kortet er fullt</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD-kortet er fullt. Frigjør noe plass.</string>
+    <string name="dialog_shop_no_connectivity_title">Butikken ikke tilgjengelig</string>
+    <string name="dialog_shop_no_connectivity_msg">Forbindelse er nødvendig for å få tilgang til butikken. Vennligst kontroller din internett-tilkobling eller flymodus-innstilling.</string>
+    <string name="dialog_sign_out_title">Logg ut</string>
+    <string name="dialog_sign_out_msg">"Er du sikker på at du vil logge ut?
+
+Du vil bli spurt om å logge på igjen for å få tilgang til Zinio-applikasjonen."</string>
+    <string name="dialog_tip_title">Tips</string>
+    <string name="dialog_manage_tips_title">Administrere tips</string>
+    <string name="non_supported_device_tip_title">Velkommen til Zinio!</string>
+    <string name="non_supported_device_tip_msg">"Zinios rikholdige innhold leses best på enheter som har en skjerm på 800x480 piksler.
+
+Du kan fortsette å bruke applikasjonen, men vær oppmerksom på at opplevelsen ikke vil være optimal."</string>
+    <string name="no_text_tip_msg">Noen publikasjoner har ikke tekstartikler. Innholdsfortegnelsen eller den visuelle indeksen kan brukes til å finne siden du ser etter.</string>
+    <string name="page_tip0_1">"Berør én gang for å se verktøylinjemenyen.
+Du kan velge en visuell eller en tekstbasert innholdsfortegnelse."</string>
+    <string name="page_tip1">"Tips for å starte opp:
+
+*Bla sidene ved å sveipe til høyre eller venstre
+* Berør dobbelt for å zoome
+* velg 'tekst'-knappen som du ser på den første siden til en artikkel, for å lese."</string>
+    <string name="wifi_connection_tip">"3G-nettverksforbindelse er oppdaget.
+
+Publikasjoner kan fremdeles bli lastet ned via 3G, men vi anbefaler wifi for en optimal opplevelse."</string>
+    <string name="dialog_available_memory_not_enough_title">Utilstrekkelig stabelstørrelse</string>
+    <string name="dialog_available_memory_not_enough_msg">Utilstrekkelig heapsize.</string>
+    <string name="dialog_delete_title">Slett</string>
+    <string name="delete_done">Ferdig</string>
+    <string name="dialog_delete_from_library">Er du sikker på at du vil slette %s?</string>
+    <string name="internet_connection_tip">Det er nødvendig med en internettforbindelse for å laste ned publikasjoner. Vennligst koble til internett og prøv igjen.</string>
+    <string name="dialog_change_password_old_password_empty">Vennligst skriv inn gammelt passord.</string>
+    <string name="server_error_app_version_not_supported_message">Oppgradering tilgjengelig En nyere versjon av Zinio Reader er tilgjengelig. Denne versjonen støttes ikke lenger. Oppgrader til den nyeste Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Brukernavnet eller passordet ditt var feil.
+
+Prøv igjen. Gammelt passord er feil."</string>
+    <string name="server_error_device_not_authorized">Denne innretningen har ikke blitt korrekt autorisert for bruk med din Zinio-konto. For å autorisere innretningen din på nytt, logg ut av appen og logg inn igjen. Dersom du fremdeles har problemer, kontakt Zinio kundestøtte.</string>
+    <string name="server_error_invalid_login">E-postadresse er ugyldig. Tast inn en gyldig e-postadresse.</string>
+    <string name="server_error_invalid_new_password">Passordet er ugyldig, vennligst velg et annet.</string>
+    <string name="server_error_issue_not_supported_for_device">Ugyldig utgave. Kontakt kundeservice på support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Denne kontoen har nådd maksimalt antall autoriserte enheter. Fjern autorisasjonen for en enhet og prøv igjen.</string>
+    <string name="server_error_packing_list_not_found">Pakkseddel mangler. Kontakt kundeservice på support@zinio.com.</string>
+    <string name="server_error_login_exists">E-postadressen eksisterer allerede. Velg en annen.</string>
+    <string name="server_error_system_error">En serverfeil har oppstått. Vennligst prøv igjen senere.</string>
+    <string name="server_error_system_not_available">Deler av appen kan være utilgjengelig nå. Dersom det er noe du ikke får adgang til, prøv igjen senere.</string>
+    <string name="server_error_no_items_in_library">Du har ikke noen titler nå. Tilgjengelige titler kan finnes under kategorien Kjøp.</string>
+    <string name="server_error_user_not_entitled">Bruker ikke berettiget. Kontakt kundeservice på support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Vil du gradere Zinio Reader nå?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Det utløpte nummeret er fjernet og vil bli lastet ned på nytt.</string>
+    <string name="dialog_review_msg">Dine tilbakemeldinger er viktige for oss, vi vil gjerne ha dine kommentarer nå.</string>
+    <string name="dialog_review_title">Vennligst legg igjen dine kommentarer.</string>
+    <string name="server_error_invalid_newstand">Ugyldig aviskiosk. Kontakt kundeservice på support@zinio.com.</string>
+</resources>

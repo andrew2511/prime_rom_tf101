@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_development_ua_choices">
+        <item>Версия для планшетного ПК</item>
+        <item>Версия для настольного ПК</item>
+        <item>Версия для мобильного телефона</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Да</item>
+        <item>По требованию</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Мелкий</item>
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+        <item>Огромный</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Крупный</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Китайская (GBK)</item>
+        <item>Китайская (Big5)</item>
+        <item>Японская (ISO-2022-JP)</item>
+        <item>Японская (SHIFT_JIS)</item>
+        <item>Японская (EUC-JP)</item>
+        <item>Корейская (EUC-KR)</item>
+    </string-array>
+</resources>

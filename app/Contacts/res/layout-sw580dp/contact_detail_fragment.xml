@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contact_detail" android:background="@drawable/panel_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.contacts.detail.ContactDetailHeaderView android:id="@id/contact_header_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" ex:layout_narrowParentWidth="300.0dip" ex:layout_narrowMarginLeft="5.0dip" ex:layout_narrowMarginRight="16.0dip" ex:layout_wideParentWidth="800.0dip" ex:layout_wideMarginLeft="80.0dip" ex:layout_wideMarginRight="48.0dip" />
+    </com.android.contacts.widget.InterpolatingLayout>
+    <include android:id="@android:id/empty" android:visibility="gone" layout="@layout/contact_detail_empty" />
+    <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@android:color/transparent" ex:layout_narrowParentWidth="300.0dip" ex:layout_narrowMarginLeft="5.0dip" ex:layout_narrowPaddingRight="16.0dip" ex:layout_wideParentWidth="800.0dip" ex:layout_wideMarginLeft="64.0dip" ex:layout_widePaddingRight="48.0dip" />
+    </com.android.contacts.widget.InterpolatingLayout>
+    <Button android:layout_gravity="right" android:id="@id/copyLocal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/menu_copyContact" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">İndirme Yöneticisi</string>
+    <string name="permlab_downloadManager">İndirme yöneticisine erişin.</string>
+    <string name="permdesc_downloadManager">Uygulamaya indirme yöneticisine erişme ve bunu dosyaları indirmek için kullanma izni verir. Kötü amaçlı uygulamalar bunu indirme işlemlerini bozmak ve özel bilgilere erişmek için kullanabilir.</string>
+    <string name="permlab_downloadManagerAdvanced">Gelişmiş indirme yöneticisi işlevleri.</string>
+    <string name="permdesc_downloadManagerAdvanced">Uygulamaya indirme yöneticisinin gelişmiş işlevlerine erişme izni verir. Kötü niyetli uygulamalar, indirme işlemlerini bozmak ve özel bilgilere erişmek için bunu kullanabilir.</string>
+    <string name="permlab_downloadCompletedIntent">İndirme bildirimleri gönder.</string>
+    <string name="permdesc_downloadCompletedIntent">Uygulamaya tamamlanan indirme işlemleri ile ilgili bildirimler gönderme izni verir. Kötü amaçlı uygulamalar bunu dosya indiren diğer uygulamaları yanıltmak için kullanabilir.</string>
+    <string name="permdesc_seeAllExternal">Uygulamanın SD karta yapılan tüm indirmeleri, indirme işlemini yapan uygulamadan bağımsız olarak görmesine izin verir.</string>
+    <string name="permlab_downloadCacheNonPurgeable">İndirme önbelleğinde alan ayır</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Uygulamanın dosyaları, indirme önbelleğine indirmesine izin verir. İndirme önbelleği indirme yöneticisi daha fazla alana ihtiyaç duyduğunda otomatik olarak silinemez.</string>
+    <string name="permlab_downloadWithoutNotification">dosyaları bildirimde bulunmadan indir</string>
+    <string name="permdesc_downloadWithoutNotification">Uygulamanın dosyaları, kullanıcıya herhangi bir bildirim göstermeden indirme yöneticisi ile indirmesine izin verir.</string>
+    <string name="permlab_accessAllDownloads">Tüm sistem indirmelerine erişim</string>
+    <string name="permdesc_accessAllDownloads">Uygulamanın, sistemdeki herhangi bir uygulama tarafından başlatılan tüm işlemleri görüntülemesine ve değiştirmesine olanak tanır.</string>
+    <string name="download_unknown_title">&lt;Adsız></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" ve %d adet daha"</string>
+    <string name="notification_download_complete">İndirme işlemi tamamlandı</string>
+    <string name="notification_download_failed">İndirme işlemi başarısız</string>
+    <string name="notification_need_wifi_for_size">İndr boyutu Kablsz bağ gerkt</string>
+    <string name="wifi_required_title">İndirme boyutu operatör ağı için çok büyük</string>
+    <string name="wifi_required_body" formatted="false">"%s  boyutundaki bu indirmeyi tamamlamak için Kablosuz bağlantı kullanmalısınız. 
+
+Bu indirmeyi Kablosuz ağa bağlandığınızda başlatmak için %s  düğmesini tıklayın."</string>
+    <string name="wifi_recommended_title">Daha sonra indirmek için kuyruğa alınsın mı?</string>
+    <string name="wifi_recommended_body" formatted="false">"%s  boyutundaki bu indirmeyi şimdi başlatmanız pil ömrünü kısaltabilir ve/veya mobil veri bağlantınızın aşırı kullanılmasına yol açıp tarifenize göre mobil operatörünüzün sizden ek ücret almasına neden olabilir.
+
+ Bunu Kablosuz ağa bağlandığınızda başlatmak için aşağıdaki %s düğmesini tıklayın."</string>
+    <string name="button_queue_for_wifi">Kuyruğa al</string>
+    <string name="button_cancel_download">İptal</string>
+    <string name="button_start_now">Şimdi başlat</string>
+</resources>

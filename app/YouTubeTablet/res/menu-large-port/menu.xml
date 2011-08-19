@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_search_holo_dark" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="always" />
+    <group android:id="@id/optional_icons">
+        <item android:icon="@drawable/ic_menu_settings_holo_dark" android:id="@id/menu_settings" android:orderInCategory="100" android:title="@string/menu_settings" android:showAsAction="never" />
+        <item android:icon="@drawable/ic_menu_help_holo_dark" android:id="@id/menu_help" android:orderInCategory="101" android:title="@string/menu_help" android:showAsAction="never" />
+    </group>
+    <item android:id="@id/menu_feedback" android:orderInCategory="102" android:title="@string/menu_feedback" android:showAsAction="never" />
+</menu>

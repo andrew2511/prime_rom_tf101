@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_last" android:id="@id/menu_last" android:title="last" android:showAsAction="always" />
+    <item android:icon="@drawable/icon_refresh" android:id="@id/menu_refresh" android:title="refresh" android:showAsAction="always" />
+    <item android:icon="@drawable/icon_next" android:id="@id/menu_next" android:title="next" android:showAsAction="always" />
+</menu>

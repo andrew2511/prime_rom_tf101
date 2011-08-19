@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Přejít na mapu</string>
+    <string name="report_inappropriate_image">Nahlásit obrázek</string>
+    <string name="toggle_compass_mode">Režim kompasu</string>
+    <string name="compass_mode_on">Režim kompasu je zapnutý.</string>
+    <string name="compass_mode_off">Režim kompasu je vypnutý.</string>
+    <string name="waiting_for_network">Datové spojení bylo přerušeno, probíhá další pokus…</string>
+    <string name="panorama_disabled">Obrázek již není k dispozici</string>
+    <string name="service_unavailable">Funkce Street View není dostupná.</string>
+    <string name="loading">Nahrávání</string>
+    <string name="no_panorama_data">Nejsou nastavena žádná panoramatická data.</string>
+    <string name="invalid_panorama_data">Neplatné panorama.</string>
+    <string name="click_to_go_toast">Přetáhněte panáčka tam, kam chcete jít.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Tento program požaduje datové připojení a bude automaticky zkoušet je znovu navázat. Zkontrolujte sílu signálu. Není zapnutý režim Letadlo? Není zakázáno datové připojení při roamingu?</string>
+    <string name="whats_new_header">Co je nového ve funkci Street View?</string>
+    <string name="whats_new_c2g">Přeleťte, kamkoli chcete. Přetáhněte panáčka z levé dolní části a umístěte jej, kam chcete.</string>
+    <string name="terms_and_privacy">Smluvní podmínky a ochrana osobních údajů</string>
+    <string name="terms_and_conditions">Smluvní podmínky</string>
+    <string name="privacy_policy">Zásady ochrany osobních údajů</string>
+</resources>

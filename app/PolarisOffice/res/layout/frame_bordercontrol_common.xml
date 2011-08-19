@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_bordercontrol_common" android:background="@drawable/border_preview" android:paddingRight="2.0px" android:paddingBottom="3.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:id="@id/border_borderline_left" android:background="@color/bordercontrol_common_border" android:layout_width="@dimen/border_borderline_width" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:id="@id/border_borderline_center" android:background="@color/bordercontrol_common_border" android:layout_width="@dimen/border_borderline_width" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="right" android:id="@id/border_borderline_right" android:background="@color/bordercontrol_common_border" android:layout_width="@dimen/border_borderline_width" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="top" android:id="@id/border_borderline_top" android:background="@color/bordercontrol_common_border" android:layout_width="fill_parent" android:layout_height="@dimen/border_borderline_height" />
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@id/border_borderline_middle" android:background="@color/bordercontrol_common_border" android:layout_width="fill_parent" android:layout_height="@dimen/border_borderline_height" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/border_borderline_bottom" android:background="@color/bordercontrol_common_border" android:layout_width="fill_parent" android:layout_height="@dimen/border_borderline_height" />
+</FrameLayout>

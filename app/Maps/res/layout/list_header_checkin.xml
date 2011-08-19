@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listHeader" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="58.0dip">
+        <com.google.googlenav.ui.android.TemplateView android:gravity="center_vertical" android:id="@id/header1" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="7.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <include layout="@layout/template_text_parent" />
+            <include layout="@layout/template_right_image" />
+        </com.google.googlenav.ui.android.TemplateView>
+    </LinearLayout>
+    <View android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

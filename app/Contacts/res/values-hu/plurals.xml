@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d névjegy</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d névjegy, %2$2$d telefonszámmal</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d névjegy telefonszámmal</item>
+        <item quantity="one">1 névjegy telefonszámmal</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d névjegy</item>
+        <item quantity="one">1 névjegy</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d találat</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d találat</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">%d címzett kiválasztva</item>
+        <item quantity="one">1 címzett kiválasztva</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">egyesítve %0$d forrásból</item>
+        <item quantity="one">nincs egyesítve</item>
+    </plurals>
+</resources>

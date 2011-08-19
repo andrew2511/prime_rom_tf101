@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button">false</item>
+    <item type="id" name="SearchCity">false</item>
+    <item type="id" name="cityFindListView">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="EditText">false</item>
+    <item type="id" name="ImgBtn">false</item>
+    <item type="id" name="ImgView">false</item>
+    <item type="id" name="radiobutton">false</item>
+    <item type="id" name="TitleText">false</item>
+    <item type="id" name="accuIcon">false</item>
+    <item type="id" name="relativeLayout2">false</item>
+    <item type="id" name="saveBtn">false</item>
+    <item type="id" name="widget_layout">false</item>
+    <item type="id" name="widget_bgimage">false</item>
+    <item type="id" name="widget_noinfoimage">false</item>
+    <item type="id" name="widget_location">false</item>
+    <item type="id" name="widget_location_long">false</item>
+    <item type="id" name="widget_state">false</item>
+    <item type="id" name="widget_state_long">false</item>
+    <item type="id" name="widget_description">false</item>
+    <item type="id" name="widget_lastupdate">false</item>
+    <item type="id" name="widget_degree">false</item>
+    <item type="id" name="widget_unit">false</item>
+</resources>

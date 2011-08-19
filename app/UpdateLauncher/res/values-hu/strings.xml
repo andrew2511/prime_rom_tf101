@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Frissítésindító</string>
+    <string name="TITLE_DETECTED">Rendszerfrissítő fájl észlelve</string>
+    <string name="TITLE_SYSTEM_UPDATE">Rendszerfrissítés</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Rendszerfrissítés áll rendelkezésre</string>
+    <string name="MSG_PRELIMINARY">"A rendszerfrissítés kb. 10 percet vesz igénybe. A frissítési művelet közben nem tudja használni a készüléket, és segélyhívásokat sem kezdeményezhet.
+
+Kérjük, csatlakoztassa a tápkábelt, vagy győződjön meg arról, hogy az akkumulátor töltöttségi szintje legalább 15 %.
+
+Szeretné folytatni a rendszerfrissítést?"</string>
+    <string name="BUTTON_CANCEL">Mégse</string>
+    <string name="MSG_RESUME">Érintse meg a rendszerfrissítés indításához.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Rendszerfrissítés leállítva</string>
+    <string name="MSG_UPDATE_DONE">A rendszerfrissítés sikerült.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">A frissítőfájl nem létezik.</string>
+    <string name="MSG_UPDATE_FAIL">A rendszerfrissítés sikertelen.</string>
+    <string name="MSG_UPDATE_RESTORE">A rendszer visszaállítja az előző konfigurációt.</string>
+    <string name="MSG_BATTERY_LOW">"A rendszerfrissítés az akkumulátor alacsony töltöttségi szintje miatt leállt.
+
+Kérjük, hogy a rendszerfrissítés előtt csatlakoztassa a tápkábelt."</string>
+    <string name="TITLE_SELECT_FILE">Frissítőcsomag kijelölése</string>
+    <string name="MSG_UPDATE_FAIL_SKU">A frissítőcsomag nem kompatibilis a szoftver jelenlegi verziójával. Kérjük, ellenőrizze a szoftver verzióját és verziószámát a Beállítások részben, majd próbálja újra a műveletet a megfelelő frissítőcsomaggal.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">A frissítőcsomag korábbi, mint az Ön által jelenleg használt szoftver verziója. Kérjük, próbálja újra a műveletet egy újabb frissítőcsomaggal.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Ismeretlen hiba.</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">minúty</string>
+    <string name="postpone">Odložiť</string>
+    <string name="update">Akutalizovať</string>
+    <string name="firmware_update_title">Aktualizácia firmvéru</string>
+    <string name="firmware_update_fail">"Aktualizácia zlyhala.
+
+Vaše zariadenie sa obnoví do pôvodnej konfigurácie."</string>
+    <string name="low_battery_warning">"Na pokračovanie aktualizovania systému je potrebné, aby batéria bola nabitá minimálne na %1$d %%.
+Pred aktualizovaním systému nabite batériu."</string>
+    <string name="confirmDownload_textok">"Táto aktualizácia zlepšuje stabilitu a nemala by odstrániť žiadne z vašich údajov; dôrazne vám odporúčame inovovať na túto verziu.
+Stlačením ÁNO prijmite aktualizáciu."</string>
+    <string name="confirmDownload_textcancel">Na odmietnutie aktualizácie stlačte tlačidlo NIE.</string>
+    <string name="confirmDownload_textwifi">Na prevzatie aktualizácie vám odporúčame použiť bezplatný prístupový bod Wi-Fi.</string>
+    <string name="confirmDownload_textwifi2">Ak stlačíte Neskôr, preberanie môžete vykonať kedykoľvek po stlačení oznámenia.</string>
+    <string name="btn_text_later">Neskôr</string>
+    <string name="confirmDownload_dialog_title">Pozor, práve používate roaming.</string>
+    <string name="downloading">Preberá sa firmvér...</string>
+    <string name="install_time">Odhadovaný čas inštalácie:</string>
+    <string name="postponetime_text">Doba odkladu:</string>
+    <string name="install">Inštalovať</string>
+    <string name="reach_max_net_fail">Server prerušil preberanie, skúste neskôr, prosím.</string>
+    <string name="dlg_title_checking">Kontrola integrity.</string>
+    <string name="dlg_msg_checking">Prebieha kontrola integrity vášho súboru firmvéru.</string>
+    <string name="cannot_set_to_browser">Nedá sa nastaviť na prehľadávač .</string>
+    <string name="upgrade_error">Chyba pri aktualizovaní, opravný balík musíte znovu prevziať.</string>
+    <string name="start_to_download">Spustite prebranie veľmi dôležitého opravného balíka.</string>
+    <string name="start_to_upgrade">Spustite inovovanie opravného balíka.</string>
+    <string name="start_NI_dmSession">Sieť spúšťa reláciu DM, má sa prijať?</string>
+    <string name="download_finished">Preberanie firmvéru sa skončilo...</string>
+    <string name="download_in_progress">Prebieha prebranie nového firmvéru</string>
+    <string name="out_of_mem_warning">"Nedostatok voľného miesta,
+prosím, odinštalujte niektoré aplikácie a skúste znovu."</string>
+    <string name="ui_alert_input_hint">Prosím, napíšte text</string>
+    <string name="ui_alert_input_numeric_hint">Prosím, zadajte čísla</string>
+    <string name="ui_alert_input_phone_number_hint">Prosím, zadajte telefónne číslo</string>
+    <string name="check_for_update">Kontrola aktualizácie</string>
+    <string name="no_new_fota_update">Momentálne nie je pre vaše zariadenie k dispozícii žiadna aktualizácia.</string>
+    <string name="ok">OK</string>
+    <string name="yes">OK</string>
+    <string name="no">Zrušiť</string>
+    <string name="confirm_download_btn_Yes">Áno</string>
+    <string name="confirm_download_btn_No">Nie</string>
+    <string name="confirm_update_title">Aktualizácia ASUS Firmware.</string>
+    <string name="asus_received_title">Služba aktualizácie systémového firmvéru Asus</string>
+    <string name="received_message">K dispozícii je nová aktualizácia systémového firmvéru; po stlačení vykonáte inováciu.</string>
+    <string name="low_battery_title">Aktualizácia systémového firmvéru bola ukončená</string>
+    <string name="dl_received_ticker">K dispozícii je nová aktualizácia systémového firmvéru.</string>
+    <string name="dl_received_message">K dispozícii je nová aktualizácia systémového firmvéru; po stlačení vykonáte preberanie.</string>
+    <string name="confirmDownload_text1">Chcete prevziať nasledovnú aktualizáciu systémového firmvéru?</string>
+    <string name="received_ticker">K dispozícii je nová aktualizácia systémového firmvéru.</string>
+    <string name="update_dialog_text">"Prevzatie novej aktualizácie systémového firmvéru pre vaše zariadenie bolo úspešné. Inštalovať teraz? 
+"</string>
+    <string name="prepare_dm_download">Pripravuje sa prevzatie systémového firmvéru...</string>
+    <string name="system_update_activity">Aktualizácia systémového firmvéru</string>
+    <string name="has_new_fota_update">K dispozícii je aktualizácia systémového firmvéru pre vaše zariadenie. Prosím, skontrolujte oznámenia.</string>
+    <string name="update_dialog_text2">Táto aktualizácia systémového firmvéru vylepšuje stabilitu a nemala by odstrániť žiadne vaše údaje; odporúčame vám vykonať inováciu na túto verziu.</string>
+</resources>

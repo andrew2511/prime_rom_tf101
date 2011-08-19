@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/book_mainscreen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/content_screen" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/control_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/library_button" android:background="@drawable/asus_ep_reader_library" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/option_menu_item_left_margin" android:layout_marginTop="@dimen/option_menu_item_top_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageButton android:id="@id/cut_button" android:background="@drawable/asus_ep_reader_cut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/option_menu_item_top_margin" android:layout_marginRight="@dimen/option_menu_item_right_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/plus_button" android:background="@drawable/asus_ep_reader_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/option_menu_item_top_margin" android:layout_marginRight="@dimen/option_menu_item_margin" android:layout_toLeftOf="@id/cut_button" android:layout_alignParentTop="true" />
+        <ImageButton android:id="@id/updown_button" android:background="@drawable/asus_ep_reader_updown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/option_menu_item_top_margin" android:layout_marginRight="@dimen/option_menu_group_item_distance" android:layout_toLeftOf="@id/plus_button" android:layout_alignParentTop="true" />
+        <ImageButton android:id="@id/move_button" android:background="@drawable/asus_ep_reader_move" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/option_menu_item_top_margin" android:layout_marginRight="@dimen/option_menu_item_margin" android:layout_toLeftOf="@id/updown_button" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/page_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.asus.reader.ui.PageSeekBar2 android:id="@id/page_seekBar" android:layout_width="1280.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/navigation_progress_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/dictionaryLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

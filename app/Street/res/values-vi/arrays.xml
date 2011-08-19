@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>B</item>
+        <item>ĐB</item>
+        <item>Đ</item>
+        <item>ĐN</item>
+        <item>N</item>
+        <item>TN</item>
+        <item>T</item>
+        <item>TB</item>
+    </string-array>
+</resources>

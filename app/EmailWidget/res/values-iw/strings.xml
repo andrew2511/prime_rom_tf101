@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">אמיילים</string>
+    <string name="multiple_mails">אמייל</string>
+    <string name="go_to">עבור לד. נכנס</string>
+</resources>

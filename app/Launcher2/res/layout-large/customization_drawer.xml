@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.CustomizeTrayTabHost
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TabWidget android:layout_gravity="center_horizontal" android:id="@android:id/tabs" android:background="@drawable/tab_unselected_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tabStripEnabled="false" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.launcher2.CustomizePagedView android:id="@id/customization_drawer_tab_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:pageLayoutWidthGap="@dimen/customization_drawer_contents_pageLayoutWidthGap" launcher:pageLayoutHeightGap="@dimen/customization_drawer_contents_pageLayoutHeightGap" launcher:pageLayoutPaddingTop="@dimen/customization_drawer_contents_pageLayoutPaddingTop" launcher:pageLayoutPaddingBottom="@dimen/customization_drawer_contents_pageLayoutPaddingBottom" launcher:pageLayoutPaddingLeft="@dimen/customization_drawer_contents_pageLayoutPaddingLeft" launcher:pageLayoutPaddingRight="@dimen/customization_drawer_contents_pageLayoutPaddingRight" launcher:wallpaperCellSpanX="@integer/customization_drawer_contents_wallpaperCellSpanX" launcher:wallpaperCellCountX="@integer/customization_drawer_contents_wallpaperCellCountX" launcher:widgetCellCountX="@integer/customization_drawer_contents_widgetCellCountX" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.launcher2.CustomizeTrayTabHost>

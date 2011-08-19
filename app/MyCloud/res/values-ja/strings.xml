@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aws_acc_app_about">ASUS WebStorage（Android用）</string>
+    <string name="aws_acc_app_about_copyright">Copyright c 2011 eCareme Technologies, Inc. 無断複写・転載禁止</string>
+    <string name="aws_acc_app_name">ASUS WebStorage ID</string>
+    <string name="aws_acc_intro_text">ASUS WebStorageアカウントにより、クラウドサービスへの同時アクセスが可能になります。 データストレージ、クラウドステレオ、クラウドギャラリーまで1つのアカウントで、すべてにアクセスできます。</string>
+    <string name="aws_acc_intro_check">次からこのメッセージを表示しない</string>
+    <string name="aws_acc_intro_butt">次へ</string>
+    <string name="aws_acc_username">ユーザー名：</string>
+    <string name="aws_acc_username_hint">文字と数字から成る3～16文字</string>
+    <string name="aws_acc_password">パスワード：</string>
+    <string name="aws_acc_password_hint">文字と数字から成る6～12文字</string>
+    <string name="aws_acc_login_header" />
+    <string name="aws_acc_forgetpass">パスワードの再入手</string>
+    <string name="aws_acc_forgetid" />
+    <string name="aws_acc_gotoregist" />
+    <string name="aws_acc_login_butt">ログイン</string>
+    <string name="aws_acc_register_title">アカウントを作成</string>
+    <string name="aws_acc_register_header">ASUS WebStoargeのメンバーとして登録されたら、生産活動からエンターテインメントまでさまざまなサービスを受けられます。 継続的な開発と更新により、ASUS WebStorageは、究極のクラウドサービス体験の享受を確保します。</string>
+    <string name="aws_acc_password_confirm">パスワードの確認：</string>
+    <string name="aws_acc_password_confirm_hint">パスワードの再入力</string>
+    <string name="aws_acc_email">Eメール：</string>
+    <string name="aws_acc_email_hint">sample@domain.com</string>
+    <string name="aws_acc_email_confirm">Eメールの確認</string>
+    <string name="aws_acc_email_confirm_hint">Eメールアドレスの再入力</string>
+    <string name="aws_acc_register_check">同意する</string>
+    <string name="aws_acc_register_eula">EULA</string>
+    <string name="aws_acc_register_eula_chk">"'同意する'にチェックを入れることにより、&lt;a href=\"https://service.asusWebStorage.com/eula/\">規約&lt;/a>に同意することになります。"</string>
+    <string name="aws_acc_register_butt">登録</string>
+    <string name="aws_acc_register_activated_message">1年間の無制限のアカウントが有効になりました。 新しい無料アカウントを登録するには、「登録」を押すか、またはすでにASUS WebStorageのユーザーである場合は、「ログイン」を押して入ります。</string>
+    <string name="aws_acc_accinfo_header">アカウント情報</string>
+    <string name="aws_acc_accinfo_name">アカウント名：</string>
+    <string name="aws_acc_accinfo_capacity">容量：</string>
+    <string name="aws_acc_accinfo_duedate">有効期限：</string>
+    <string name="aws_acc_accinfo_butt">お楽しみください！</string>
+    <string name="aws_acc_authenticating">認証中...</string>
+    <string name="aws_acc_registering">登録をサーバーに送信中...</string>
+    <string name="aws_acc_spin_cancel_butt">キャンセル</string>
+    <string name="aws_acc_spin_preparing">準備中...</string>
+    <string name="aws_acc_spin_connecting">サーバーに接続</string>
+    <string name="aws_acc_register_not_validated">アカウント名、パスワード、またはEメールが有効ではありません</string>
+    <string name="aws_acc_register_not_available">このアカウント名はすでに存在しています。</string>
+    <string name="aws_acc_otp_na">より高いセキュリティレベルを実現するために、ASUS WebStorage携帯アプリケーションは現段階で、ワンタイムパスワード（OTP）認証をサポートしていないことに留意してください。 携帯機器からログインすることが多い場合は、弊社の顧客センターから一時的にクレデンシャルIDを削除することをお勧めします。</string>
+    <string name="aws_acc_login_fail">"認証に失敗しました！
+ユーザー名またはパスワードが不正確です。 再度お試しください。"</string>
+    <string name="aws_acc_network_fail">サーバーに接続できません。 再度お試しください。</string>
+    <string name="aws_acc_password_confirm_fail">パスワードが一致していません。 パスワードを再度確認してください。</string>
+    <string name="aws_acc_email_confirm_fail">不正確なEメールです。 再度Eメールアドレスを入力してください</string>
+    <string name="aws_acc_email_incorrect">不正確なEメールの形式です。 再度Eメールアドレスを入力してください</string>
+    <string name="my_cloud_title">MyCloud</string>
+    <string name="my_cloud_welcome">こんにちは、%user name%</string>
+    <string name="my_cloud_logout_btn">ログアウト</string>
+    <string name="my_cloud_mycontent_tabbtn">My Content</string>
+    <string name="my_cloud_mydevice_tabbtn">My Device</string>
+    <string name="my_cloud_atvibe_tabbtn">\@Vibe</string>
+    <string name="my_cloud_nobody">Pad上でASUS WebStorageを開始するには、</string>
+    <string name="my_cloud_nobody_learnmore">&lt;a href=\"http://www.asusWebStorage.com/\">詳細&lt;/a>をクリックしてください。</string>
+    <string name="my_cloud_nobody_btn">WebStorageの起動</string>
+    <string name="my_cloud_nobody_title">ASUS WebStorageは、すべてを最新の状態に維持します</string>
+    <string name="my_cloud_nobody_msg">ASUS WebStorageは、クラウドにアップロードしたファイルを自動的に同期します。 自宅のPC、事務所のノートPC、およびEee PADからいつでも同じファイルに容易にアクセスして、修正できます。</string>
+    <string name="my_cloud_nobody_dlmsg">自宅のPC、事務所のノートPC、およびEee PADからファイルを同期するには、最新のEee PAD PCスイートをダウンロードしてください。 &lt;font color=\"#0eacf5\">http://eee.asus.com/eeepad&lt;/font></string>
+    <string name="my_cloud_nobody_dlurl">http://eee.asus.com/eeepad</string>
+    <string name="my_cloud_mydevice_message">簡単な設定で、リモートデバイスをリモートコントロールすることが出来ます。</string>
+    <string name="my_cloud_mydevice_btn">すべての利用可能なデバイスのスキャンを開始</string>
+    <string name="my_cloud_mycontent_search_hint">キーワード</string>
+    <string name="my_cloud_mycontent_photo_btn">写真</string>
+    <string name="my_cloud_mycontent_music_btn">音楽</string>
+    <string name="my_cloud_mycontent_file_btn">ファイル</string>
+    <string name="my_cloud_mycontent_more_btn">詳細...</string>
+    <string name="my_cloud_mycontent_recent_photos">[最近の写真]</string>
+    <string name="t_title_1">MyCloudへようこそ</string>
+    <string name="t_body_1">ご使用のEee Padは世界の果てまで到達することができます。 MyCloudは、3つの他に類を見ない機能を備えた、ASUSのクラウドコンピューティングイニシアチブへのパーソナルポータルです。 インターネット接続のある場所から、クラウドに保存されたメディアや文書へのリモートアクセス、または、自宅のPCやMacへの直接接続が可能になります。 3つのMyCloudポータルには以下が含まれます。</string>
+    <string name="t_title_1_1">MyContent</string>
+    <string name="t_body_1_1">まだ、すべての音楽、ビデオ、および文書を持ち歩いていますか？ MyContentは、ローカルのストレージを解放し、メディアを安全なASUSのWebStorageに投げ込みます。 二度とデータを忘れたり、なくしたりすることがなくなり、クラウドから直接再生することさえできます。</string>
+    <string name="t_title_1_2">MyDesktop</string>
+    <string name="t_body_1_2">非常に慣れ親しんだPCまたはMacの体験を失うことを恐れていますか？ おそらく、Microsoft Officeを必要としているか、ソファから自宅のシアターPCをリモートコントロールしたいのではないでしょうか？ MyDesktopは、すべてのPCまたはMacへのポータルを作成し、PCの前に座っているかのように、デスクトップPCにアクセスできます。</string>
+    <string name="t_title_1_3">\@Vibe</string>
+    <string name="t_body_1_3">ASUS @Vibeは、人気のインターネットラジオ、音楽、およびビデオへのアクセスを可能にするクラウドサービスです。 すばらしい新しいメディアが待ち構えています。</string>
+    <string name="t_title_2">Eee Pad PCスイート</string>
+    <string name="t_body_2_1">Eee PadがMyCloudアプリケーションをプリロードされている一方で、PCやMacは、加入するために追加のEee Pad PCスイートを必要とします。</string>
+    <string name="t_body_2_2">Eee Pad PCスイートには、MyDesktop PCサーバー、ASUS WebStorage（Windows版）、およびASUS Syncが含まれます。 データをMyCloudおよびEee Padに接続および同期するためにすべて不可欠なキットです。</string>
+    <string name="t_body_2_3">&lt;font color=\"#0eacf5\">www.asus.com/supportから最新のバージョンをご使用のPCまたはMacにダウンロードしてください。&lt;/font></string>
+    <string name="t_title_3">無制限のASUS WebStorageをお客様に！</string>
+    <string name="t_body_3_1">MyContentにより、すべてのメディアおよび文書を安全に直接クラウドに保存、再生および取得できます。 今すぐASUS WebStorageアカウントを作成して、1年間無料の&lt;font color=\"#0eacf5\">無制限のストレージスペース&lt;/font>を取得してください。 データをASUS WebStorage上にアップロードして、安全にバックアップしてから、PC、Eee Pad、またはウェブ上から バーチャルコンテンツにアクセスします。</string>
+    <string name="t_body_3_2">すでにASUS Webstorageアカウントあるいは@vibeアカウントをお持ちの場合は下部からサインインしてください。アカウントをお持ちでない場合は、無料アカウントをこちらから作成してください。新しいアカウントはASUS Webstorageおよびasus@vibeサービスにてご利用頂けます。</string>
+    <string name="t_body_3_sign">私はアカウントを持っています</string>
+    <string name="t_body_3_new">アカウントを作成</string>
+    <string name="t_body_3_new_note">*1年間の無制限のストレージスペースを有効にしたい場合は、Eee Pad上で新しいアカウントを作成する必要があります。</string>
+    <string name="t_back_btn">戻る</string>
+    <string name="t_next_btn">次へ</string>
+</resources>

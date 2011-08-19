@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Skjermbilde</string>
+    <string name="screenshot_dialog_message">Skjermbildet er lagret. Forbli i skjermbildemodus?</string>
+    <string name="screenshot_dialog_yes">Ja</string>
+    <string name="screenshot_dialog_no">Nr.</string>
+    <string name="screenshot_toast_message_saved">Skjermbildet er lagret.</string>
+    <string name="screenshot_toast_message_failed">Kunne ikke lagre et skjermbilde mens Filoverføringsmodus er aktiv.</string>
+    <string name="screenshot_toast_message_failed_save">Kunne ikke lagre skjermbildet.</string>
+    <string name="screenshot_toast_message_full">Kunne ikke lagre skjermbildet. Ikke nok minne.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">下載管理員</string>
+    <string name="permlab_downloadManager">存取下載管理員。</string>
+    <string name="permdesc_downloadManager">允許應用程式存取下載管理員，並使用它下載檔案。請注意：惡意程式可能使用此功能，影響下載並存取個人資料。</string>
+    <string name="permlab_downloadManagerAdvanced">下載管理員進階功能。</string>
+    <string name="permdesc_downloadManagerAdvanced">允許應用程式存取下載管理員的進階功能 (惡意應用程式可能會利用此功能讓下載發生錯誤並存取私人資訊)。</string>
+    <string name="permlab_downloadCompletedIntent">傳送下載通知。</string>
+    <string name="permdesc_downloadCompletedIntent">下載完成時，允許應用程式送出通知。請注意：惡意程式可能使用此功能干擾其他下載檔案的應用程式。</string>
+    <string name="permdesc_seeAllExternal">允許應用程式查看 SD 卡中的所有下載項目，無論這些項目是透過何種應用程式進行下載。</string>
+    <string name="permlab_downloadCacheNonPurgeable">保留下載快取空間</string>
+    <string name="permdesc_downloadCacheNonPurgeable">允許應用程式將檔案下載至下載快取空間，確保檔案不會因為下載管理員需要更多空間而遭到自動刪除。</string>
+    <string name="permlab_downloadWithoutNotification">不顯示通知，直接下載檔案</string>
+    <string name="permdesc_downloadWithoutNotification">允許應用程式不需通知使用者，即可透過下載管理員下載檔案。</string>
+    <string name="permlab_accessAllDownloads">存取所有系統下載內容</string>
+    <string name="permdesc_accessAllDownloads">可讓應用程式檢視與修改系統上任一應用程式所下載的所有內容。</string>
+    <string name="download_unknown_title">&lt;未命名></string>
+    <string name="notification_filename_separator">"， "</string>
+    <string name="notification_filename_extras">" 以及其他 %d 個"</string>
+    <string name="notification_download_complete">完成下載</string>
+    <string name="notification_download_failed">下載失敗</string>
+    <string name="notification_need_wifi_for_size">這個檔案較大，需要 Wi-Fi 才能下載</string>
+    <string name="wifi_required_title">檔案過大，無法透過行動電話業者的網路下載</string>
+    <string name="wifi_required_body" formatted="false">"您必須使用 WiFi 才能完整下載這個 %s  的檔案。
+
+請按一下 [%s ]，在下次連上 WiFi 網路時再進行下載。"</string>
+    <string name="wifi_recommended_title">排入佇列以供日後下載？</string>
+    <string name="wifi_recommended_body" formatted="false">"現在下載這個 %s  的檔案，可能會減少電池可使用的時間，並/或過度使用行動數據連線，導致電信業者向您收費。
+
+請按下方的 [%s]，可在下次連上 WiFi 網路時才下載。"</string>
+    <string name="button_queue_for_wifi">佇列</string>
+    <string name="button_cancel_download">取消</string>
+    <string name="button_start_now">立即開始</string>
+</resources>

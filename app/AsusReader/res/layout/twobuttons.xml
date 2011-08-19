@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.twoButtons android:paddingLeft="50.0px" android:paddingTop="0.0px" android:paddingRight="50.0px" android:paddingBottom="8.0px" android:layout_width="576.0px" android:layout_height="99.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="18.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/positive_button" android:background="@drawable/asus_ep_btn" android:paddingLeft="45.0px" android:paddingRight="45.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="52.0px" android:layout_marginTop="13.0px" android:layout_alignParentTop="true" />
+    <Button android:textSize="18.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/negative_button" android:background="@drawable/asus_ep_btn" android:paddingLeft="45.0px" android:paddingRight="45.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="52.0px" android:layout_marginTop="13.0px" android:layout_alignParentTop="true" />
+    <Button android:textSize="18.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/natural_button" android:background="@drawable/asus_ep_btn" android:paddingLeft="45.0px" android:paddingRight="45.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="52.0px" android:layout_marginTop="13.0px" android:layout_alignParentTop="true" />
+</com.asus.reader.ui.twoButtons>

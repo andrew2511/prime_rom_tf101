@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotpot_widget_separator_open" />
+    <RelativeLayout android:id="@id/hotpot_star_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="9.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/hotpot_posting_as" android:paddingLeft="3.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/hotpot_posting_as">
+            <ImageView android:id="@id/hotpot_star_1" android:paddingRight="@dimen/hotpot_star_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/hotpot_star_off" />
+            <ImageView android:id="@id/hotpot_star_2" android:paddingLeft="@dimen/hotpot_star_side_padding" android:paddingRight="@dimen/hotpot_star_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/hotpot_star_off" />
+            <ImageView android:id="@id/hotpot_star_3" android:paddingLeft="@dimen/hotpot_star_side_padding" android:paddingRight="@dimen/hotpot_star_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/hotpot_star_off" />
+            <ImageView android:id="@id/hotpot_star_4" android:paddingLeft="@dimen/hotpot_star_side_padding" android:paddingRight="@dimen/hotpot_star_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/hotpot_star_off" />
+            <ImageView android:id="@id/hotpot_star_5" android:paddingLeft="@dimen/hotpot_star_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/hotpot_star_off" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotpot_widget_separator_closed" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hotpot_action_ratepage" android:background="@android:color/transparent" android:focusable="true" android:layout_width="@dimen/hotpot_rhs_button" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/hotpot_widget_label_size" android:textColor="#ff000000" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HOTPOT_WIDGET_SAYMORE" />
+        <ImageView android:id="@id/hotpot_saymore_button" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotpot_appwidget_button_saymore" />
+    </LinearLayout>
+</LinearLayout>

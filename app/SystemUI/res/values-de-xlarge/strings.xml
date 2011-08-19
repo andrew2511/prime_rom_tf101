@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Alle löschen</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Keine Internetverbindung</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Mit WLAN verbunden</string>
+    <string name="gps_notification_searching_text">Suche nach GPS</string>
+    <string name="gps_notification_found_text">Standort durch GPS festgelegt</string>
+    <string name="notifications_off_title">Benachrichtigungen aus</string>
+    <string name="notifications_off_text">Tippen Sie hier, um Benachrichtigungen wieder einzuschalten.</string>
+</resources>

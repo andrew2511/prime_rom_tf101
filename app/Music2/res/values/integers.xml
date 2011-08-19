@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_activityDefaultDur">220</integer>
+    <integer name="config_activityShortDur">150</integer>
+    <integer name="grid_label_font_opacity_pile">255</integer>
+    <integer name="grid_label_secondary_font_opacity_pile">255</integer>
+    <integer name="grid_label_tertiary_font_opacity_pile">191</integer>
+    <integer name="grid_label_max_lines_pile">1</integer>
+    <integer name="grid_label_background_color_pile">0</integer>
+    <integer name="grid_label_font_opacity_item">255</integer>
+    <integer name="grid_label_secondary_font_opacity_item">255</integer>
+    <integer name="grid_label_tertiary_font_opacity_item">191</integer>
+    <integer name="grid_label_max_lines_item">2</integer>
+    <integer name="grid_label_background_color_item">0</integer>
+    <integer name="grid_label_font_opacity_pile_expanded">255</integer>
+    <integer name="grid_label_secondary_font_opacity_pile_expanded">255</integer>
+    <integer name="grid_label_tertiary_font_opacity_pile_expanded">191</integer>
+    <integer name="grid_label_max_lines_pile_expanded">1</integer>
+    <integer name="grid_label_background_color_pile_expanded">0</integer>
+    <integer name="grid_label_font_opacity_item_expanded">255</integer>
+    <integer name="grid_label_secondary_font_opacity_item_expanded">255</integer>
+    <integer name="grid_label_tertiary_font_opacity_item_expanded">191</integer>
+    <integer name="grid_label_max_lines_item_expanded">2</integer>
+    <integer name="grid_label_background_color_item_expanded">0</integer>
+    <integer name="max_outstanding_album_texture_requests">10</integer>
+    <integer name="available_mode_genres_in_landscape">2</integer>
+    <integer name="available_mode_artists_in_landscape">2</integer>
+    <integer name="available_mode_playlists_in_landscape">2</integer>
+    <integer name="available_mode_albums_in_landscape">2</integer>
+    <integer name="music_album_wall_style">0</integer>
+</resources>

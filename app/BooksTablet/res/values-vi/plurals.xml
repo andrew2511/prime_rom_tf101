@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d trong tổng số %2$2$d sách</item>
+        <item quantity="one">Một sách</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">Rất tiếc, việc đọc đồng thời sách này được giới hạn cho %1$d thiết bị hoặc máy tính và bạn đã đạt giới hạn này. Vui lòng đóng sách này lại trong trình đọc khác, chờ vài phút rồi thử lại.</item>
+        <item quantity="one">Rất tiếc, việc đọc đồng thời sách này được giới hạn cho một thiết bị hoặc máy tính và bạn đã đạt giới hạn này. Vui lòng đóng sách này lại trong trình đọc khác, chờ vài phút rồi thử lại.</item>
+    </plurals>
+</resources>

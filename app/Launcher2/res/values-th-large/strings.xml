@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">เลือกวอลเปเปอร์</string>
+    <string name="wallpaper_chooser_empty">ไม่มีวอลเปเปอร์ให้ใช้งาน</string>
+    <string name="wallpaper_cancel">ยกเลิก</string>
+</resources>

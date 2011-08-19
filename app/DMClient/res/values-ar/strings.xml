@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">دقائق</string>
+    <string name="postpone">تأجيل</string>
+    <string name="update">تحديث</string>
+    <string name="firmware_update_title">تحديث البرامج الثابتة</string>
+    <string name="firmware_update_fail">"فشل التحديث.
+
+سيقوم الجهاز باستعادة التهيئة الأصلية."</string>
+    <string name="low_battery_warning">"يتطلب النظام %1$d%% على الأقل من عمر البطارية لإتمام عملية تحديث النظام.
+الرجاء شحن البطارية قبل تحديث النظام."</string>
+    <string name="confirmDownload_textok">"يؤدي هذا التحديث إلى تحسين الاستقرار وعدم مسح أي من البيانات، لذا نوصي بشدة على التحديث إلى هذا الإصدار.
+ اضغط YES (نعم) لقبول التحديث."</string>
+    <string name="confirmDownload_textcancel">اضغط على لا لتجاهل التحديث.</string>
+    <string name="confirmDownload_textwifi">إننا نوصي باستخدام نقطة وصول Wi-Fi لتحميل التحديث.</string>
+    <string name="confirmDownload_textwifi2">في حال الضغط لاحقًا، يمكنك استكمال التحميل في أي وقت بالضغط على الإشعار.</string>
+    <string name="btn_text_later">لاحقاً</string>
+    <string name="confirmDownload_dialog_title">تنبيه: إنك في وضع التجوال حاليًا.</string>
+    <string name="downloading">جار تنزيل البرامج الثابتة...</string>
+    <string name="install_time">وقت التثبيت المقدر:</string>
+    <string name="postponetime_text">مدة التأجيل:</string>
+    <string name="install">تثبيت</string>
+    <string name="reach_max_net_fail">تم إيقاف التنزيل من قبل الخادم، الرجاء إعادة المحاولة لاحقًا.</string>
+    <string name="dlg_title_checking">فحص التكامل.</string>
+    <string name="dlg_msg_checking">فحص تكامل ملف البرامج الثابتة.</string>
+    <string name="cannot_set_to_browser">لا يمكن التعيين إلى المتصفح.</string>
+    <string name="upgrade_error">خطأ في الترقية، الرجاء تنزيل حزمة التحديثات مرة أخرى.</string>
+    <string name="start_to_download">بدء تنزيل حزمة تحديثات هامة.</string>
+    <string name="start_to_upgrade">بدء ترقية حزمة التحديثات.</string>
+    <string name="start_NI_dmSession">تقوم الشبكة بتشغيل جلسة DM، هل توافق على ذلك؟</string>
+    <string name="download_finished">تم الانتهاء من تنزيل البرامج الثابتة...</string>
+    <string name="download_in_progress">تنزيل البرامج الثابتة الجديدة قيد التنفيذ</string>
+    <string name="out_of_mem_warning">"مساحة غير كافية،
+يرجى إزالة تثبيت بعض التطبيقات وإعادة المحاولة."</string>
+    <string name="ui_alert_input_hint">الرجاء إدخال نص</string>
+    <string name="ui_alert_input_numeric_hint">الرجاء إدخال رقم</string>
+    <string name="ui_alert_input_phone_number_hint">الرجاء إدخال رقم هاتف</string>
+    <string name="check_for_update">التحقق من التحديث</string>
+    <string name="no_new_fota_update">لا يتوفر أي تحديث للجهاز حاليًا.</string>
+    <string name="ok">موافق</string>
+    <string name="yes">موافق</string>
+    <string name="no">إلغاء</string>
+    <string name="confirm_download_btn_Yes">نعم</string>
+    <string name="confirm_download_btn_No">لا</string>
+    <string name="confirm_update_title">تحديث برامج ASUS الثابتة.</string>
+    <string name="asus_received_title">خدمة تحديث برامج نظام Asus الثابتة</string>
+    <string name="received_message">يتوافر تحديث جديد لبرامج النظام الثابتة، اضغط للتحديث.</string>
+    <string name="low_battery_title">تم إنهاء تحديث برامج النظام الثابتة</string>
+    <string name="dl_received_ticker">يتوافر تحديث جديد لبرامج النظام الثابتة.</string>
+    <string name="dl_received_message">يتوافر تحديث جديد لبرامج النظام الثابتة، اضغط للتنزيل.</string>
+    <string name="confirmDownload_text1">هل ترغب في تنزيل التحديث التالي لبرامج النظام الثابتة؟</string>
+    <string name="received_ticker">يتوافر تحديث جديد لبرامج النظام الثابتة.</string>
+    <string name="update_dialog_text">"تم تنزيل تحديث برامج النظام الثابتة الجديد الخاصة بالجهاز. التثبيت الآن؟ 
+"</string>
+    <string name="prepare_dm_download">جارٍ الإعداد لتنزيل البرامج الثابتة للنظام...</string>
+    <string name="system_update_activity">تحديث برامج النظام الثابتة</string>
+    <string name="has_new_fota_update">يوجد تحديث لبرامج النظام الثابتة لجهازك. يرجى التحقق من الإشعارات.</string>
+    <string name="update_dialog_text2">يعمل هذا التحديث لبرامج النظام الثابتة على تحسين الاستقرار في حين أنه لا يؤدي إلى مسح أيٍ من البيانات، لذا نوصي بضرورة الترقية إلى هذا الإصدار.</string>
+</resources>

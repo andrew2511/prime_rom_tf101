@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">מפות Google</string>
+    <string name="da_google_maps_navigation">ניווט במפות Google</string>
+    <string name="da_net_fail_title">כשל רשת</string>
+    <string name="da_net_fail_body">יישום זה דורש חיבור נתונים פעיל.</string>
+    <string name="da_beta">ביטא</string>
+    <string name="da_destination">יעד</string>
+    <string name="da_toward">לכיוון %1$s</string>
+    <string name="da_onto">אל %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"לאחר מכן
+%1$s"</string>
+    <string name="da_continue_for_distance">המשך למרחק %1$s</string>
+    <string name="da_destination_will_be_on_the_left">היעד שלך יהיה משמאל.</string>
+    <string name="da_destination_will_be_on_the_right">היעד שלך יהיה מימין.</string>
+    <string name="da_you_will_reach_destination">תגיע ליעד שלך.</string>
+    <string name="da_destination_on_the_left">היעד שלך נמצא משמאל.</string>
+    <string name="da_destination_on_the_right">היעד שלך נמצא מימין.</string>
+    <string name="da_destination_reached">הגעת.</string>
+    <string name="da_speech_lost_gps">אות GPS אבד</string>
+    <string name="da_speech_lost_data_connection">חיבור נתונים אבד</string>
+    <string name="da_speech_navigation_resumed">הניווט חודש</string>
+    <string name="da_speech_please_describe_problem">תאר את הבעיה</string>
+    <string name="da_on_left">משמאל</string>
+    <string name="da_on_right">מימין</string>
+    <string name="da_stay_on_road_primary">הישאר ב-%1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s עד %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s עד %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} מייל</string>
+    <string name="da_distance_format_miles_compressed">{0} מייל</string>
+    <string name="da_distance_format_feet_abbreviated">{0} רגל</string>
+    <string name="da_distance_format_feet_compressed">{0} רגל</string>
+    <string name="da_distance_format_yards_abbreviated">"{0} י'"</string>
+    <string name="da_distance_format_yards_compressed">"{0} י'"</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} ק\"מ</string>
+    <string name="da_distance_format_kilometers_compressed">{0} ק\"מ</string>
+    <string name="da_distance_format_meters_abbreviated">"{0} מ'"</string>
+    <string name="da_distance_format_meters_compressed">"{0} מ'"</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s ימים %2$s שעות</string>
+    <string name="da_time_format_hours" formatted="false">%1$s שעות %2$s דקות</string>
+    <string name="da_time_format_minutes">%1$s דקות</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">ניווט</string>
+    <string name="da_search_label">חיפוש</string>
+    <string name="da_layers">שכבות</string>
+    <string name="da_agreement">"Google Maps Navigation הוא בגרסת ביטא. שים לב.
+
+אל תשתמש ביישום זה בשעת נהיגה. נתוני התנועה אינם בזמן אמת, והמסלול עלול להיות שגוי, מסוכן, מבוטל או שיכלול מעבורות. ציית לחוקים הקיימים.
+
+אל תוריד את העיניים מהכביש!"</string>
+    <string name="da_agreement_with_walking">"Google Maps Navigation הוא בגרסת ביטא. שים לב.
+
+אל תשתמש ביישום זה בשעת נהיגה. נתוני התנועה אינם בזמן אמת, והמסלול עלול להיות שגוי, מסוכן, מבוטל או שיכלול מעבורות. ייתכן שבנתיבי הליכה לא יהיו מדרכות או שבילים להולכי רגל. ציית לחוקים הקיימים.
+
+אל תוריד את העיניים מהכביש!"</string>
+    <string name="da_disclaimer_checkbox">הצג הודעה זו בפעם הבאה</string>
+    <string name="da_show_list">רשימת הוראות נסיעה</string>
+    <string name="da_route_overview">מידע על נתיב</string>
+    <string name="da_show_map">הצג מפה</string>
+    <string name="da_satellite">לוויין</string>
+    <string name="da_traffic_view">תצוגת תנועה</string>
+    <string name="da_no_traffic_here">אין כאן מידע על תנועה</string>
+    <string name="da_traffic">תנועה</string>
+    <string name="da_area_view">תצוגה אזורית</string>
+    <string name="da_mute">השתק</string>
+    <string name="da_unmute">בטל השתקה</string>
+    <string name="da_settings">הגדרות</string>
+    <string name="da_help">עזרה</string>
+    <string name="da_terms_privacy_notices">תנאים, פרטיות והודעות</string>
+    <string name="da_terms_and_conditions">תנאים והגבלות</string>
+    <string name="da_privacy_policy">מדיניות פרטיות</string>
+    <string name="da_legal_notices">הודעות משפטיות</string>
+    <string name="da_navigation_suspended">הניווט מושהה</string>
+    <string name="da_exit_navigation">צא מניווט</string>
+    <string name="da_email_me_when_resolved">שלח לי דוא\"ל כשהבעיה תיפתר</string>
+    <string name="da_problem_reported">הבעיה דווחה</string>
+    <string name="da_one_button_map_issue_reporting">דווח על בעיה בלחיצה אחת</string>
+    <string name="da_attention">שים לב</string>
+    <string name="da_rmi_warning">"דיווח על בעיות מאפשר לך להקליט הודעה קולית קצרה המתארת בעיה במפה או על הנתיב שלך. כעבור 15 שניות, ההודעה שלך תישלח אוטומטית ל-Google ביחד עם המיקום הנוכחי והנתיב שלך.
+
+קיצור הדרך A ניתן להפעלה בלחיצה אחת בהגדרות היישום.
+
+ אם תבחר לקבל עדכוני דוא\"ל לכשתיפתר הבעיה, כתובת הדוא\"ל שלך תאוחסן עם המיקום וההערות שלך עד שתיפתר הבעיה."</string>
+    <string name="da_report_a_problem">דווח על בעיה</string>
+    <string name="da_report_a_problem_dialog_title">דווח על בעיה</string>
+    <string name="da_rmi_preference_trackball_summary">אם מופעל, לחיצה על כדור העקיבה תפעיל את דיווח הבעיות.</string>
+    <string name="da_rmi_preference_camera_summary">אם מופעל, לחיצה על לחצן המצלמה תפעיל את דיווח הבעיות.</string>
+    <string name="da_rmi_preference_no_button_summary">אין לחצנים פיזיים זמינים.</string>
+    <string name="da_rmi_preference_bad_location_summary">דיווח בעיות אינו זמין במיקום הנוכחי שלך.</string>
+    <string name="da_destination_not_here_warning">תודה שדיווחת שיש לנו מיקום שגוי עבור היעד שלך. היעד הנוכחי והמיקום הנוכחי שלך יישלחו ל-Google במטרה לשפר את דיוק הנתונים שלנו.</string>
+    <string name="da_destination_not_here_title">דווח על בעיה</string>
+    <string name="da_searching_for_gps">מחפש אחר GPS...</string>
+    <string name="da_data_connection_lost">חיבור נתונים אבד...</string>
+    <string name="da_follow_the_route">סע בנתיב</string>
+    <string name="da_waiting_for_directions">קבל הוראות נסיעה</string>
+    <string name="da_waiting_for_walking_directions">קבלת מסלול הליכה</string>
+    <string name="da_waiting_for_location">ממתין למיקום</string>
+    <string name="da_checking_navigation_availability">בדיקת יכולת ניווט</string>
+    <string name="da_loading_route_details">טוען פרטי נתיב</string>
+    <string name="da_loading_image">טוען תמונה</string>
+    <string name="da_waiting_for_alternates">מחפש נתיבים חלופיים</string>
+    <string name="da_waiting_for_details">טוען</string>
+    <string name="da_no_details">פרטים אינם זמינים</string>
+    <string name="da_gps_is_disabled">GPS אינו פעיל</string>
+    <string name="da_turn_on_gps">להציג הגדרות מיקום?</string>
+    <string name="da_voice_guidance">הדרכה קולית</string>
+    <string name="da_install_voice_guidance_prompt">לניווט בהדרכה קולית, עליך להתקין תמיכת טקסט-לדיבור מ-Android Market.</string>
+    <string name="da_dialog_ok">אישור</string>
+    <string name="da_dialog_skip">דלג</string>
+    <string name="da_dialog_cancel">ביטול</string>
+    <string name="da_dialog_done">בוצע</string>
+    <string name="da_dialog_accept">קבל</string>
+    <string name="da_dialog_install">התקן</string>
+    <string name="da_dialog_dont_accept">אינני מקבל</string>
+    <string name="da_dialog_go">התחל</string>
+    <string name="da_dialog_get_directions">קבל מסלול</string>
+    <string name="da_map">מפה</string>
+    <string name="da_clear_layers">נקה מפה</string>
+    <string name="da_layer_name_parking">חנייה</string>
+    <string name="da_layer_name_attractions">אתרי תיירות</string>
+    <string name="da_layer_name_gas_stations">תחנות דלק</string>
+    <string name="da_layer_name_restaurants">מסעדות</string>
+    <string name="da_layer_name_supermarkets">סופרמרקטים</string>
+    <string name="da_layer_name_atms_and_banks">כספומטים ובנקים</string>
+    <string name="da_layer_name_convenience_stores">מינימרקטים</string>
+    <string name="da_query_banks_and_atms">בנקים וכספומטים</string>
+    <string name="da_rerouting">מנתב מחדש...</string>
+    <string name="da_via">דרך %s</string>
+    <string name="da_to_destination">אל %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">הקלט משוב</string>
+    <string name="da_destination_not_here">היעד לא נמצא כאן</string>
+    <string name="da_new_destination">היעד הבא</string>
+    <string name="da_reroute_to_destination">חזרה ליעד</string>
+    <string name="da_change_destination">הגדר יעד</string>
+    <string name="da_search_for_destination">חיפוש...</string>
+    <string name="da_point_on_map">נקודה במפה</string>
+    <string name="da_volume">עוצמת קול של ניווט</string>
+    <string name="da_exit">יציאה</string>
+    <string name="da_did_you_mean">האם התכוונת ל:</string>
+    <string name="da_did_you_say">האם אמרת:</string>
+    <string name="da_for_your_end_point">עבור נקודת הסיום שלך</string>
+    <string name="da_unnamed_road">דרך ללא שם</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, לאחר מכן %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">בעוד %1$s מטרים</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">בעוד קילומטר וחצי</string>
+    <string name="da_speech_continue_for_x_meters">המשך למרחק %1$s מטרים</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">המשך למרחק קילומטר וחצי</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">המשך ב-%2$s למרחק %1$s מטרים</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">המשך ב-%1$s למרחק קילומטר וחצי</string>
+    <string name="da_speech_generic_continue">המשך ישר</string>
+    <string name="da_speech_in_x_feet">בעוד %1$s רגל</string>
+    <string name="da_speech_in_x_yards">בעוד %1$s יארדים</string>
+    <string name="da_speech_in_a_quarter_mile">בעוד רבע מייל</string>
+    <string name="da_speech_in_a_half_mile">בעוד חצי מייל</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">בעוד שלושת-רבעי המייל</string>
+    <string name="da_speech_in_one_and_a_half_miles">בעוד מייל וחצי</string>
+    <string name="da_speech_continue_for_x_feet">המשך למרחק %1$s רגל</string>
+    <string name="da_speech_continue_for_x_yards">המשך למרחק %1$s יארדים</string>
+    <string name="da_speech_continue_for_a_quarter_mile">המשך למרחק רבע מייל</string>
+    <string name="da_speech_continue_for_a_half_mile">המשך למרחק חצי מייל</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">המשך למרחק שלושת רבעי מייל</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">המשך למרחק מייל וחצי</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">המשך ב-%2$s עוד %1$s רגל</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">המשך ב-%2$s עוד %1$s יארדים</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">המשך ב-%1$s למרחק רבע מייל</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">המשך ב-%1$s למרחק חצי מייל</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">המשך ב-%1$s למרחק שלושת רבעי מייל</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">המשך ב-%1$s למרחק מייל וחצי</string>
+    <string name="da_route_prefixes">צפון, צפון מזרח, מזרח, דרום מזרח, דרום, דרום מערב, מערב, צפון מערב</string>
+    <string name="da_route_suffixes">"צ', צ'מז', מז', ד'מז', דר', דר'מע', מע', צפ'מע', שד', שד', מעק', כיכ', מח', כיכ', דר', כמ', כמ', כמ', נת', שד', מק', דר', רח', כמ', דר'"</string>
+    <string name="da_no_route">לא נמצא נתיב</string>
+    <string name="da_route_not_found">לא מצאנו נתיב ליעד שלך.</string>
+    <string name="da_destination_not_found">לא הצלחנו להבין את היעד.</string>
+    <string name="da_navigation_not_supported">הניווט ליעד שלך אינו זמין.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps Navigation אינו זמין עדיין במיקום זה.</string>
+    <string name="da_launch_maps">"הפעל את 'מפות Google'"</string>
+    <string name="da_no_image_available">אין תמונה זמינה.</string>
+    <string name="da_image_error">שגיאה בטעינת תמונה.</string>
+    <string name="da_no_alternate_routes">לא יכולנו למצוא נתיבים חלופיים ליעד שלך.</string>
+    <string name="da_picker_type_destination">הקלד יעד</string>
+    <string name="da_picker_speak_destination">אמור יעד</string>
+    <string name="da_picker_contacts">אנשי קשר</string>
+    <string name="da_picker_starred_items">מקומות המסומנים בכוכבים</string>
+    <string name="da_picker_new_contact">איש קשר חדש</string>
+    <string name="da_picker_recent_destinations">יעדים אחרונים</string>
+    <string name="da_picker_choose_destination">בחר יעד</string>
+    <string name="da_navigate_to">נווט אל</string>
+    <string name="da_picker_search_hint">יעד</string>
+    <string name="da_route_options">אפשרויות נתיב</string>
+    <string name="da_updating_directions">מעדכן מסלול</string>
+    <string name="da_picker_no_starred_items">"אין לך מקומות המסומנים בכוכב.
+
+מקומות המסומנים בכוכב מסונכרנים באופן אוטומטי עם maps.google.com.
+
+תוכל לסמן תוצאות חיפוש בכוכב ב'מפות Google' על ידי לחיצה על סמל הכוכב לצד הכתובת."</string>
+    <string name="da_picker_no_contacts">"אין לך אנשי קשר עם כתובות.
+
+תוכל להוסיף אנשי קשר חדשים או להגדיר כתובות של אנשי קשר קיימים ביישום 'אנשי הקשר'."</string>
+    <string name="da_driving">נסיעה</string>
+    <string name="da_walking">הליכה</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">עוד מידע</string>
+    <string name="da_search_maps">"חפש ב'מפות Google'"</string>
+    <string name="da_walking_warning">הליכה (ביטא): נקוט זהירות</string>
+    <string name="da_calibrate_compass_title">כיול מצפן</string>
+    <string name="da_calibrate_compass">המצפן שלך אינו מכויל. כדי לכייל אותו, הנע את ההתקן בצורת 8 מספר פעמים.</string>
+    <string name="da_confirm_exit_title">לצאת מניווט?</string>
+    <string name="da_confirm_exit_text">פעולה זו תסיים את ההכוונה.</string>
+    <string name="da_route_includes_tolls">הנתיב כולל כבישי אגרה</string>
+    <string name="da_avoid_tolls">הימנע מכבישי אגרה</string>
+    <string name="da_avoiding_tolls">הימנעות מכבישי אגרה</string>
+    <string name="da_avoiding_highways">הימנעות מכבישים מהירים</string>
+    <string name="da_route_includes_unavoidable_tolls">נתיב זה כולל כבישי אגרה.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">נתיב זה כולל כבישי אגרה. השבת נתיבי אגרה באפשרות %1$s%2$s בהמשך.</string>
+    <string name="da_seasonally_closed">הנתיב עלול להיות סגור בעונה זו</string>
+    <string name="da_direction_north">צפונה</string>
+    <string name="da_direction_north_west">צפון מערבה</string>
+    <string name="da_direction_west">מערבה</string>
+    <string name="da_direction_south_west">דרום מערב</string>
+    <string name="da_direction_south">דרומה</string>
+    <string name="da_direction_south_east">דרום מזרחה</string>
+    <string name="da_direction_east">מזרח</string>
+    <string name="da_direction_north_east">צפון מזרחה</string>
+    <string name="da_step_depart">סע לכיוון %1$s</string>
+    <string name="da_step_depart_on" formatted="false">סע לכיוון %1$s ברחוב %2$s</string>
+    <string name="da_step_slight_left">פניה קלה שמאלה</string>
+    <string name="da_step_slight_right">פניה קלה ימינה</string>
+    <string name="da_step_turn_left">פנה שמאלה</string>
+    <string name="da_step_turn_right">פנה ימינה</string>
+    <string name="da_step_sharp_left">פניה חדה שמאלה</string>
+    <string name="da_step_sharp_right">פניה חדה ימינה</string>
+    <string name="da_step_slight_left_onto">פניה קלה שמאלה אל %1$s</string>
+    <string name="da_step_slight_right_onto">פניה קלה ימינה אל %1$s</string>
+    <string name="da_step_turn_left_onto">פנה שמאלה אל %1$s</string>
+    <string name="da_step_turn_right_onto">פנה ימינה אל %1$s</string>
+    <string name="da_step_sharp_left_onto">פנייה חדה שמאלה אל %1$s</string>
+    <string name="da_step_sharp_right_onto">פניה חדה ימינה אל %1$s</string>
+    <string name="da_step_fork_left">היצמד לשמאל במזלג</string>
+    <string name="da_step_fork_right">היצמד לימין במזלג</string>
+    <string name="da_step_continue_onto">המשך אל %1$s</string>
+    <string name="da_step_continue_straight">המשך ישר</string>
+    <string name="da_step_u_turn">בצע פניית פרסה</string>
+    <string name="da_step_take_the_ramp">השתמש ברמפה</string>
+    <string name="da_step_take_the_ramp_onto">פנה ברמפה לכיוון %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">השתמש ברמפה משמאל</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">פנה ברמפה משמאל לכיוון %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">השתמש ברמפה מימין</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">פנה ברמפה מימין לכיוון %1$s</string>
+    <string name="da_step_take_the_exit">צא ביציאה</string>
+    <string name="da_step_take_the_exit_on_the_left">צא ביציאה משמאל</string>
+    <string name="da_step_take_the_exit_on_the_right">צא ביציאה מימין</string>
+    <string name="da_step_take_the_exit_onto">צא ביציאה לכיוון %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">צא ביציאה משמאל לכיוון %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">צא ביציאה מצד ימין לכיוון %1$s</string>
+    <string name="da_step_take_exit_n">צא ביציאה %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Imagery ©%2$d %3$s, נתוני מפות ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Imagery ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - נתוני מפות ©%2$d %3$s</string>
+</resources>

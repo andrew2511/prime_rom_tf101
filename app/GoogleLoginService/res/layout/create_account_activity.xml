@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/title_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/setupWizardTitle" android:textColor="@color/title_color" android:id="@id/create_google_account_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_google_account" />
+                <View android:layout_gravity="center" android:background="@color/divider_color" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <com.google.android.gsf.login.EditTextWithHelp android:id="@id/first_name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:hint="@string/first_name" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textPersonName|textCapWords" />
+                <EditText android:id="@id/last_name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:hint="@string/last_name" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textPersonName|textCapWords" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <EditText android:id="@id/username_edit" android:nextFocusDown="@id/next_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/username" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="30" android:layout_weight="1.0" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gmail_host_name" />
+                </LinearLayout>
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center" android:id="@id/example_usernames_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/example_usernames" />
+                <TextView android:textAppearance="@style/setupWizardTextSecondarySmall" android:id="@id/agreement_label" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_account_agreement" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@android:drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/back_button_label" android:drawableLeft="@drawable/ic_btn_back" android:drawablePadding="3.0dip" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/next_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/next_button_label" android:drawableRight="@drawable/ic_btn_next" android:drawablePadding="3.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

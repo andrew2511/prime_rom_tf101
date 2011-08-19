@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorIconOverlay">#ffffffff</color>
+    <color name="textColorIconOverlayShadow">#ff000000</color>
+    <color name="quickcontact_disambig">#fff2f2f2</color>
+    <color name="quickcontact_disambig_divider">#ffafafaf</color>
+    <color name="edit_divider">#ff666666</color>
+    <color name="background_secondary">#ff202020</color>
+    <color name="translucent_search_background">#cc000000</color>
+    <color name="section_header_text_color">#ff999999</color>
+    <color name="filter_selector_selected_background">#66ffffff</color>
+    <color name="editor_label_text_color">#ff7f7f7f</color>
+    <color name="contact_detail_header_divider_color">#ff999999</color>
+    <color name="detail_item_type_color">#ffb4b4b4</color>
+    <item type="color" name="tab_indicator_text">false</item>
+</resources>

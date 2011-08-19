@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">علامة تبويب جديدة</string>
+    <string name="new_incognito_tab">علامة تبويب جديدة للتصفح المتخفي</string>
+    <string name="active_tabs">علامات التبويب</string>
+    <string name="open_all_in_new_window">فتح الكل في علامات تبويب جديدة</string>
+    <string name="contextmenu_openlink_newwindow">فتح في علامة تبويب جديدة</string>
+    <string name="contextmenu_openlink_newwindow_background">فتح في علامة تبويب جديدة في الخلفية</string>
+    <string name="pref_content_open_in_background_summary">فتح علامات تبويب جديدة وراء علامة التبويب الحالية</string>
+</resources>

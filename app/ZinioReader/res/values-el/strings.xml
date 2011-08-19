@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">νέα δοκιμή</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">Η σύνδεση δικτύου είναι ασταθής, θέλετε να δοκιμάσετε πάλι ή να χρησιμοποιήσετε την εφαρμογή offline;</string>
+    <string name="cancel">άκυρο</string>
+    <string name="change_password">αλλαγή κωδικού</string>
+    <string name="close">κλείσιμο</string>
+    <string name="confirm_new_password">επιβεβαίωση νέου κωδικού</string>
+    <string name="create_account">δημιουργία λογαριασμού</string>
+    <string name="create_an_account">δημιουργήστε ένα λογαριασμό</string>
+    <string name="date">ημερομηνία</string>
+    <string name="delete">διαγραφή</string>
+    <string name="delete_all">διαγραφή όλων</string>
+    <string name="delete_mode_caption">Λειτουργία διαγραφής - αγγίξτε το στοιχείο για να διαγραφεί</string>
+    <string name="email_address">διεύθυνση e-mail</string>
+    <string name="exit">έξοδος</string>
+    <string name="faq">Συχνές Ερωτήσεις</string>
+    <string name="first_name">μικρό όνομα</string>
+    <string name="free">δωρεάν</string>
+    <string name="forgot_password">ξέχασα τον κωδικό</string>
+    <string name="last_name">επώνυμο</string>
+    <string name="learn_more">Μάθετε περισσότερα</string>
+    <string name="legal_notices">νομικές επισημάνσεις</string>
+    <string name="library">βιβλιοθήκη</string>
+    <string name="manage_tips">διαχείριση συμβουλών</string>
+    <string name="more">περισσότερα</string>
+    <string name="more_options">περισσότερες επιλογές</string>
+    <string name="my_magazines">Τα περιοδικά μου - αγγίξτε για προβολή ή μεταφόρτωση</string>
+    <string name="new_password">νέος κωδικός (5-20 χαρακτήρες)</string>
+    <string name="ok">ΟΚ</string>
+    <string name="old_password">παλιός κωδικός</string>
+    <string name="password">κωδικός</string>
+    <string name="required">απαιτείται</string>
+    <string name="required_first_name">απαιτούμενο μικρό όνομα</string>
+    <string name="required_last_name">απαιτούμενο επώνυμο</string>
+    <string name="required_email_address">απαιτούμενη διεύθυνση e-mail</string>
+    <string name="required_password">απαιτούμενος κωδικός</string>
+    <string name="retype_password">πληκτρολογήστε πάλι τον κωδικό</string>
+    <string name="sign_in">σύνδεση χρήστη</string>
+    <string name="sign_out">Αποσύνδεση χρήστη</string>
+    <string name="share">κοινή χρήση</string>
+    <string name="shop">κατάστημα</string>
+    <string name="text">κείμενο</string>
+    <string name="title">τίτλος</string>
+    <string name="turn_on_wifi">Ενεργοποίηση WiFi</string>
+    <string name="uninstall">απεγκατάσταση</string>
+    <string name="welcome_to_zinio">καλώς ήρθατε στο zinio</string>
+    <string name="email_non_lower_case">E-mail</string>
+    <string name="sd_card_non_lower_case">Κάρτα SD</string>
+    <string name="show_password_non_lower_case">Εμφάνιση Κωδικού</string>
+    <string name="show_tips_non_lower_case">Εμφάνιση συμβουλών</string>
+    <string name="forgot_password_underlined"><u>Ξεχάσατε τον κωδικό;</u></string>
+    <string name="terms_of_service_underlined"><u>Όροι της υπηρεσίας</u></string>
+    <string name="label_share_email1">διάβασε ένα άρθρο από</string>
+    <string name="label_share_email2">"και θα ήθελε να το μοιραστεί μαζί σας!
+
+Το πρωτότυπο του άρθρου περιλαμβάνεται συνημμένο σε αυτό το μήνυμα.
+
+Για περισσότερες δημοσιεύσεις αποκτήστε την ψηφιακή εμπειρία του www.zinio.com"</string>
+    <string name="label_receive_from_partners">Παρακαλώ να μου στέλνετε ειδικές προσφορές από τους αξιόπιστους εταίρους της Zinio.</string>
+    <string name="label_receive_from_zinio">Παρακαλώ να μου στέλνετε e-mail σχετικά με ειδικές προσφορές από τη Zinio.</string>
+    <string name="label_status_calculating">Υπολογίζεται...</string>
+    <string name="label_status_new">Δημιουργία</string>
+    <string name="label_status_not_downloaded">Δεν μεταφορτώθηκε</string>
+    <string name="label_status_downloading">%s%% μεταφορτώθηκε</string>
+    <string name="label_tip_hide">Απενεργοποιήστε τις συμβουλές. Η διαχείρισή τους μπορεί να γίνει στις Περισσότερες ρυθμίσεις.</string>
+    <string name="toast_change_password_success">Ο κωδικός άλλαξε με επιτυχία.</string>
+    <string name="toast_issue_download_complete_left">Μεταφόρτωση για</string>
+    <string name="toast_issue_download_complete_right">ολοκληρώθηκε</string>
+    <string name="toast_no_articles">Κανένα άρθρο στην τρέχουσα σελίδα.</string>
+    <string name="toast_register_success">Δημιουργήθηκε λογαριασμός με επιτυχία.</string>
+    <string name="toast_no_email_client">Προσοχή: Δεν έχουν διαμορφωθεί οι παράμετροι της εφαρμογής e-mail</string>
+    <string name="progress_dialog_wait_msg">Περιμένετε…</string>
+    <string name="dialog_warning_title">Προειδοποίηση</string>
+    <string name="dialog_no_connectivity_warning">Αυτή η οθόνη απαιτεί πρόσβαση στο Internet. Ελέγξτε τη δυνατότητα σύνδεσής σας ή τη ρύθμιση λειτουργίας αεροπλάνου.</string>
+    <string name="dialog_passwords_not_matching_warning">Οι κωδικοί δεν συμφωνούν.</string>
+    <string name="dialog_password_length_warning">Ο κωδικός θα πρέπει να περιέχει 5 έως 20 χαρακτήρες.</string>
+    <string name="dialog_service_exception_warning">Προέκυψε θέμα με το διακομιστή. Δοκιμάστε πάλι λίγο αργότερα.</string>
+    <string name="dialog_uninstall_warning">Έτσι θα διαγραφούν όλα τα δεδομένα βιβλιοθήκης Zinio και δεν θα είναι εφικτή η ανάκτησή τους. θα χρειαστεί να μεταφορτώσετε πάλι τις δημοσιεύεις σας.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Δεν έχετε δυνατότητα σύνδεσης και δεν μπορείτε να μεταφορτώσετε δημοσιεύσεις.
+
+Μπορείτε να μεταφορτώσετε τις δημοσιεύσεις σας όταν έχει αποκατασταθεί η δυνατότητα σύνδεσης."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Ο παλιός και ο νέος κωδικός πρέπει να είναι διαφορετικοί.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Ο παλιός κωδικός είναι λάθος.</string>
+    <string name="dialog_library_no_connectivity_warning">"Απαιτείται σύνδεση, για τη μεταφόρτωση δημοσιεύσεων.
+
+Μπορείτε ακόμη να διαβάσετε όσες δημοσιεύσεις διαθέτει η βιβλιοθήκη σας και να μεταφορτώσετε δημοσιεύσεις όταν αποκατασταθεί η δυνατότητα σύνδεσης."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Το όνομα χρήστη ή ο κωδικός που δώσατε ήταν λάθος.
+
+Δοκιμάστε πάλι."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Αυτός ο λογαριασμός έφθασε στο μέγιστο αριθμό εξουσιοδοτημένων συσκευών. Αφαιρέστε την εξουσιοδότηση από μία συσκευή και δοκιμάστε πάλι.</string>
+    <string name="dialog_register_account_already_exists">Η διεύθυνση e-mail ήδη υπάρχει. Επιλέξτε μια διαφορετική.</string>
+    <string name="dialog_register_empty_email_error">Καταχωρίστε μια διεύθυνση e-mail.</string>
+    <string name="dialog_register_first_name_short_error">Καταχωρίστε ένα μικρό όνομα.</string>
+    <string name="dialog_register_first_name_long_error">Το μικρό όνομα πρέπει να είναι έως 80 χαρακτήρες.</string>
+    <string name="dialog_register_invalid_email_error">Καταχωρίστε μια έγκυρη διεύθυνση e-mail.</string>
+    <string name="dialog_register_last_name_short_error">Καταχωρίστε ένα επώνυμο.</string>
+    <string name="dialog_register_last_name_long_error">Το επώνυμο πρέπει να είναι έως 80 χαρακτήρες.</string>
+    <string name="dialog_register_other_error">Προέκυψε κάποιο σφάλμα. Δοκιμάστε πάλι.</string>
+    <string name="dialog_register_password_empty">Καταχωρίστε ένα νέο κωδικό.</string>
+    <string name="dialog_sign_out_disabled_warning">Δεν έχει συνδεθεί χρήστης για να αποσυνδεθεί.</string>
+    <string name="dialog_app_version_not_supported_title">Διατίθεται αναβάθμιση</string>
+    <string name="dialog_app_version_not_supported_msg">Διατίθεται νεότερη έκδοση του Zinio Reader. Αυτή η έκδοση δεν υποστηρίζεται πλέον. Παρακαλούμε αναβαθμίστε στην τελευταία έκδοση του Zinio Reader</string>
+    <string name="dialog_delete_all_title">Διαγραφή όλων</string>
+    <string name="dialog_delete_all_msg">"Δηλώσατε ότι θέλετε να διαγράψετε όλες τις δημοσιεύσεις από τη βιβλιοθήκη σας.
+
+Μην ανησυχείτε, δεν θα χάσετε μόνιμα τίποτα.
+
+Η διαγραφή απλά αφαιρεί τις δημοσιεύσεις από τη συσκευή σας. Θα μπορέσετε να μεταφορτώσετε τη δημοσίευση πάλι αν χρειαστεί."</string>
+    <string name="dialog_not_enough_space_title">Ανεπαρκής χώρος</string>
+    <string name="dialog_not_enough_space_msg">Η συσκευή αυτή δεν έχει αρκετό χώρο στο δίσκο για μεταφόρτωση της επιλεγμένης δημοσίευσης. Ελευθερώστε τουλάχιστον %d MB και δοκιμάστε πάλι.</string>
+    <string name="dialog_sd_card_not_available_title">Δεν διατίθεται κάρτα SD</string>
+    <string name="dialog_sd_card_not_available_msg">Η κάρτα SD αφαιρέθηκε. Η εφαρμογή Zinio θα κλείσει. Εισάγετε μια κάρτα SD και αρχίστε πάλι την εφαρμογή.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Η κάρτα SD είναι πλήρης</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">Η κάρτα SD είναι πλήρης. Παρακαλούμε ελευθερώστε λίγο χώρο.</string>
+    <string name="dialog_shop_no_connectivity_title">Το κατάστημα δεν είναι διαθέσιμο</string>
+    <string name="dialog_shop_no_connectivity_msg">Απαιτείται σύνδεση για πρόσβαση στο κατάστημα. Ελέγξτε τη δυνατότητα σύνδεσής σας ή τη ρύθμιση λειτουργίας αεροπλάνου.</string>
+    <string name="dialog_sign_out_title">Αποσύνδεση χρήστη</string>
+    <string name="dialog_sign_out_msg">"Σίγουρα θέλετε να αποσυνδεθείτε ως χρήστης;
+
+Θα σας ζητηθεί να συνδεθείτε πάλι ως χρήστης αν θέλετε πρόσβαση στην εφαρμογή Zinio."</string>
+    <string name="dialog_tip_title">Συμβουλή</string>
+    <string name="dialog_manage_tips_title">Διαχείριση συμβουλών</string>
+    <string name="non_supported_device_tip_title">Καλώς ήρθατε στο Zinio</string>
+    <string name="non_supported_device_tip_msg">"Το πλούσιο περιεχόμενο του Zinio διαβάζεται καλύτερα σε συσκευές με οθόνη τουλ. 800x480.
+
+Μπορείτε να συνεχίσετε τη χρήση της συσκευής έχοντας υπόψη σας ότι δεν θα έχετε τη βέλτιστη εμπειρία χρήσης."</string>
+    <string name="no_text_tip_msg">Ορισμένες δημοσιεύσεις δεν περιέχουν άρθρα με κείμενο. Ο Πίνακας περιεχομένων ή το Οπτικό ευρετήριο μπορεί να σας βοηθήσει να βρείτε τη σελίδα που ζητάτε.</string>
+    <string name="page_tip0_1">"Αγγίξτε μία φορά για να δείτε το μενού της γραμμής εργαλείων.
+Μπορείτε να επιλέξετε Πίνακα περιεχομένων οπτικό ή βασισμένο σε κείμενο."</string>
+    <string name="page_tip1">"Συμβουλές για το ξεκίνημα:
+
+* Γυρίζετε τη σελίδα με σύρσιμο του δακτύλου (swipe) προς τα δεξιά ή αριστερά
+* Διπλό άγγιγμα στην οθόνη για ζουμ
+* Για ανάγνωση επιλέξτε το κουμπί 'κείμενο' που φαίνεται στην πρώτη σελίδα του άρθρου."</string>
+    <string name="wifi_connection_tip">"Ανιχνεύτηκε σύνδεση δικτύου 3G.
+
+Οι δημοσιεύσεις μπορούν να μεταφορτωθούν και μέσω 3G, αλλά για βέλτιστη εμπειρία χρήσης συνιστάται σύνδεση wifi."</string>
+    <string name="dialog_available_memory_not_enough_title">Ανεπαρκές μέγεθος στοίβας</string>
+    <string name="dialog_available_memory_not_enough_msg">Ανεπαρκές μέγεθος σωρού.</string>
+    <string name="dialog_delete_title">Διαγραφή</string>
+    <string name="delete_done">Τέλος</string>
+    <string name="dialog_delete_from_library">Σίγουρα θέλετε να διαγράψετε το %s;</string>
+    <string name="internet_connection_tip">Απαιτείται σύνδεση με το Διαδίκτυο για μεταφόρτωση δημοσιεύσεων. Ενεργοποιήστε τη σύνδεση με το Διαδίκτυο και δοκιμάστε πάλι.</string>
+    <string name="dialog_change_password_old_password_empty">Καταχωρίστε τον παλιό κωδικό.</string>
+    <string name="server_error_app_version_not_supported_message">Διατίθεται αναβάθμιση Διατίθεται νεότερη έκδοση του Zinio Reader. Αυτή η έκδοση δεν υποστηρίζεται πλέον. Παρακαλούμε αναβαθμίστε στην τελευταία έκδοση του Zinio Reader</string>
+    <string name="server_error_authentication_failed">"Το όνομα χρήστη ή ο κωδικός που δώσατε ήταν λάθος.
+
+Δοκιμάστε πάλι. Ο παλιός κωδικός είναι λάθος."</string>
+    <string name="server_error_device_not_authorized">Αυτή η συσκευή δεν έχει εξουσιοδοτηθεί κατάλληλα για χρήση με το λογαριασμό σας Zinio. Για να εξουσιοδοτηθεί πάλι η συσκευή σας, αποσυνδεθείτε από την εφαρμογή και συνδεθείτε πάλι. Αν συνεχίσετε να έχετε πρόβλημα, επικοινωνήστε με την υποστήριξη πελατών της Zinio.</string>
+    <string name="server_error_invalid_login">Η διεύθυνση e-mail δεν είναι έγκυρη. Καταχωρίστε μια έγκυρη διεύθυνση e-mail.</string>
+    <string name="server_error_invalid_new_password">Ο κωδικός δεν είναι έγκυρος, επιλέξτε άλλον.</string>
+    <string name="server_error_issue_not_supported_for_device">Μη έγκυρο τεύχος. Επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών στο support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Αυτός ο λογαριασμός έφθασε στο μέγιστο αριθμό εξουσιοδοτημένων συσκευών. Αφαιρέστε την εξουσιοδότηση από μία συσκευή και δοκιμάστε πάλι.</string>
+    <string name="server_error_packing_list_not_found">Η λίστα συσκευασίας λείπει. Επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών στο support@zinio.com.</string>
+    <string name="server_error_login_exists">Η διεύθυνση e-mail ήδη υπάρχει. Επιλέξτε μια διαφορετική.</string>
+    <string name="server_error_system_error">Προέκυψε σφάλμα διακομιστή. Δοκιμάστε πάλι αργότερα.</string>
+    <string name="server_error_system_not_available">Μέρη της εφαρμογής μπορεί να μην είναι διαθέσιμα προς το παρόν. Αν δεν μπορείτε να έχετε πρόσβαση σε κάτι, δοκιμάστε πάλι αργότερα.</string>
+    <string name="server_error_no_items_in_library">Προς το παρόν δεν έχετε τίτλους. Διαθέσιμους τίτλους θα βρείτε στην καρτέλα Αγορές.</string>
+    <string name="server_error_user_not_entitled">Χρήστης μη εξουσιοδοτημένος. Επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών στο support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Θα θέλατε να αξιολογήσετε το Zinio Reader τώρα;</string>
+    <string name="dialog_review_msg">Η γνώμη σας είναι σημαντική για μάς, παρακαλούμε να αναφέρετε τα σχόλιά σας τώρα.</string>
+    <string name="dialog_review_title">Παρακαλούμε αναφέρετε τα σχόλιά σας.</string>
+    <string name="server_error_invalid_newstand">Μη έγκυρο πρακτορείο τύπου. Επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών στο support@zinio.com.</string>
+</resources>

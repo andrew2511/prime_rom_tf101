@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Ta bort marking</item>
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Lägg till markering</item>
+        <item>Översättning</item>
+        <item>Text-till-tal</item>
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Engelska</item>
+        <item>Franska</item>
+        <item>Japanska</item>
+        <item>Kinesiska</item>
+        <item>Tyska</item>
+        <item>Förenklad kinesiska</item>
+        <item>Ryska</item>
+        <item>Spanska</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Engelska till kinesiska</item>
+        <item>Engelska till franska</item>
+        <item>Engelska till ryska</item>
+    </string-array>
+</resources>

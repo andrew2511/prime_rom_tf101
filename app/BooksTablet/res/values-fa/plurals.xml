@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">%1$1$d از %2$2$d کتاب</item>
+        <item quantity="one">یک کتاب</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">متأسفم، فقط در %1$d دستگاه یا رایانه می توانید این کتاب را به صورت همزمان بخوانید و شما از این تعداد مجاز فراتر رفته اید. لطفاً کتاب را در خواننده های دیگر ببندید، چند دقیقه صبر کنید و دوباره امتحان کنید.</item>
+        <item quantity="one">متأسفم، این کتاب را فقط می توانید از طریق یک دستگاه یا رایانه به صورت همزمان بخوانید و شما از این تعداد مجاز فراتر رفته اید. لطفاً کتاب را در خواننده های دیگر ببندید، چند دقیقه صبر کنید و دوباره امتحان کنید.</item>
+    </plurals>
+</resources>

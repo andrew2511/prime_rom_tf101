@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vid="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <View android:id="@id/popup_placement" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.google.android.youtube.core.honeycomb.ui.PagedCarouselView android:id="@id/my_rentals" android:layout_width="fill_parent" android:layout_height="436.0dip" android:layout_alignParentTop="true" vid:textWhenEmpty="@string/no_my_purchases_found" vid:statusView="@layout/movie_grid_status_item" vid:renderscript="@raw/carousel2" vid:rowCount="1" vid:slotCount="102" vid:visibleSlots="4" vid:cameraZ="-40.1" vid:radius="50.0" vid:cardWidth="164.0dip" vid:cardHeight="335.0dip" vid:detailWidth="220.0dip" vid:detailHeight="116.0dip" vid:splitDetailViews="true" />
+    <com.google.android.youtube.core.ui.PagedGridView android:id="@id/top_rentals" android:layout_width="fill_parent" android:layout_height="@dimen/more_movies_grid_height" android:layout_marginLeft="48.0dip" android:layout_marginRight="37.0dip" android:layout_marginBottom="11.0dip" android:layout_alignParentBottom="true" vid:textWhenEmpty="@string/no_suggestions_found" vid:statusView="@layout/movie_grid_status_item" vid:maxItems="@integer/more_movies_count" vid:horizontalSpacing="@dimen/movie_grid_horizontal_spacing" vid:verticalSpacing="@dimen/movie_grid_vertical_spacing" vid:numColumns="@integer/more_movies_grid_columns" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/top_rentals_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginBottom="-8.0dip" android:text="@string/top_rentals" android:layout_above="@id/top_rentals" />
+    <include android:visibility="gone" layout="@layout/offline_footer" />
+</RelativeLayout>

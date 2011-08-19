@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <ImageView android:id="@id/appTopDivider" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true" style="@style/genericDivider" />
+    <com.nvidia.tegrazone.components.GFWebImageView android:id="@id/icon" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" droidfu:autoLoad="false" droidfu:progressDrawable="@drawable/default_appicon_95" />
+    <LinearLayout android:orientation="vertical" android:id="@id/newsInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/firstAppLine" android:text="" android:layout_toRightOf="@id/icon" style="@style/developerTitle" />
+        <TextView android:id="@id/secondAppLine" android:text="" style="@style/appTitle" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reviewInfo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+            <TextView android:id="@id/thirdAppLine" android:text="" style="@style/appcapsuleReviews" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="19.0sp" android:textStyle="bold" android:id="@id/priceLine" android:paddingRight="25.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/appcapsulePrice" />
+</RelativeLayout>

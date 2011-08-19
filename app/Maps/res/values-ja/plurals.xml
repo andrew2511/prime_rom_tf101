@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">およそ%1$sキロ先</item>
+        <item quantity="one">1km先</item>
+        <item quantity="few">およそ%1$sキロ先</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">そのまま%1$sキロ走行</item>
+        <item quantity="one">そのまま1キロ直進です</item>
+        <item quantity="few">そのまま%1$sキロ走行</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">そのまま%1$2$sを%2$1$sキロ走行</item>
+        <item quantity="one">そのまま%2$sを1キロ直進です</item>
+        <item quantity="few">そのまま%1$2$sを%2$1$sキロ走行</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">およそ%1$sマイル先</item>
+        <item quantity="one">1マイル先</item>
+        <item quantity="few">およそ%1$sマイル先</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">そのまま%1$sマイル走行</item>
+        <item quantity="one">そのまま1マイル直進です</item>
+        <item quantity="few">そのまま%1$sマイル走行</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">そのまま%1$2$sを%2$1$sマイル走行</item>
+        <item quantity="one">そのまま%2$sを1マイル直進です</item>
+        <item quantity="few">そのまま%1$2$sを%2$1$sマイル走行</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s人のクチコミ</item>
+        <item quantity="one">%1$s人のクチコミ</item>
+        <item quantity="few">%1$s人のクチコミ</item>
+    </plurals>
+</resources>

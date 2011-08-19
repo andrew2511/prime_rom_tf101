@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/fill_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/sign_in.port"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sign_in_logo" android:src="@drawable/kindle_logo" style="@style/kindle_logo_port" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="21.0dip" layout="@layout/sign_in" />
+        <include android:layout_width="300.0dip" android:layout_height="wrap_content" layout="@layout/create_account" />
+    </LinearLayout>
+</ScrollView>

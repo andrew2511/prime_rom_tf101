@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/frame_toolbar_slide_maintoolbar" android:background="@drawable/toolbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_save" android:layout_width="@dimen/toolbar_common_portrait_buttonfirst_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_word_imagebutton_undo" android:layout_width="@dimen/toolbar_common_portrait_buttonlast_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_word_imagebutton_redo" android:layout_width="@dimen/toolbar_common_portrait_buttonlast_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_clipboard" android:layout_width="@dimen/toolbar_common_portrait_buttonlast_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_slideshow" android:layout_width="@dimen/toolbar_common_portrait_buttonlast_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_textbox" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_fontsize" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_fontstyle" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_fontcolor" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_alignment" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_bulletlist" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_numberedlist" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_linespacing" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_insert" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_shape" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_fillcolor" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_bordercolor" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holder_slide_imagebutton_cell" android:layout_width="@dimen/toolbar_common_portrait_button_layout_width" android:layout_height="fill_parent" />
+</LinearLayout>

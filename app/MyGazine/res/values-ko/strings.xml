@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">웹사이트</string>
+    <string name="music_title_str">음악</string>
+    <string name="web_tag_str">URL 없음</string>
+    <string name="music_tag_album">앨범 없음</string>
+    <string name="music_tag_song">노래 없음</string>
+    <string name="music_tag_artist">아티스트 없음</string>
+    <string name="date_text_str">날짜 없음</string>
+    <string name="cal_event_str">최신 이벤트 없음</string>
+    <string name="weather_info_str">날씨 정보 없음</string>
+    <string name="weather_content_str">날씨 목록 없음</string>
+    <string name="photo_date_str">사진 날짜 없음</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">바람 ENE</string>
+    <string name="humidity">습도</string>
+    <string name="email_unit">Emails</string>
+    <string name="email_unit_single">Email</string>
+    <string name="event_unit">Events</string>
+    <string name="event_unit_single">Event</string>
+    <string name="book_unit">Books</string>
+    <string name="book_unit_single">Book</string>
+    <string name="weather_city_str">도시 없음</string>
+    <string name="date_format_title">날짜 형식</string>
+    <string name="preference_header_title">기본 설정</string>
+    <string name="slideshow_header_title">슬라이드 쇼</string>
+    <string name="picture_number_title">슬라이드 쇼 사진 번호</string>
+    <string name="slide_show_interval_title">슬라이드 쇼 간격</string>
+    <string name="transition_effect_title">전환 효과</string>
+    <string name="enable">사용</string>
+    <string name="disable">사용 안 함</string>
+    <string name="app_settings">ASUS MyZine 설정</string>
+    <string name="unit_picture">장</string>
+    <string name="unit_second">초</string>
+    <string name="Image_headline">이미지</string>
+    <string name="display_headline">디스플레이</string>
+    <string name="date_headline">날짜</string>
+    <string name="logo_display_title">ASUS MyZine 로고</string>
+    <string name="date_display_title">날짜/시간</string>
+    <string name="photo_date_display_title">이미지 제작 날짜</string>
+    <string name="event_display_title">예정된 행사</string>
+    <string name="weather_display_title">날씨 상태</string>
+    <string name="scale_type_title">이미지 프레젠테이션</string>
+</resources>

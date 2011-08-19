@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Caduca en %1$d días.</item>
+        <item quantity="one">Caduca en un día.</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Caduca en %1$d horas.</item>
+        <item quantity="one">Caduca en una hora.</item>
+    </plurals>
+</resources>

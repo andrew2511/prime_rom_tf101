@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/magazine_publication" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/magazine_page_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/magazine_issue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/magazine_publication" android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">خلفية ASUS الافتراضية الحية</string>
+    <string name="mywater_setting">إعدادات ASUS MyWater</string>
+    <string name="enable_rotation">تمكين دوران المياه</string>
+    <string name="enable_rotation_description">سيتم دوران المياه مع دوران الجهاز.</string>
+</resources>

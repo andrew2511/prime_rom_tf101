@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d개의 항목이 선택됨</item>
+        <item quantity="one">%1$d개의 항목이 선택됨</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d개의 앨범이 선택됨</item>
+        <item quantity="one">%1$d개의 앨범이 선택됨</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">오프라인에서 앨범 사용 가능</item>
+        <item quantity="one">오프라인에서 앨범 사용 가능</item>
+    </plurals>
+</resources>

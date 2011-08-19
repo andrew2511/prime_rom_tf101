@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">újra</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">Nem elég stabil a hálózati kapcsolat; megpróbálja újból, vagy offline módban használja az alkalmazást?</string>
+    <string name="cancel">mégse</string>
+    <string name="change_password">jelszó módosítása</string>
+    <string name="close">bezárás</string>
+    <string name="confirm_new_password">új jelszó megerősítése</string>
+    <string name="create_account">fiók létrehozása</string>
+    <string name="create_an_account">fiók létrehozása</string>
+    <string name="date">dátum</string>
+    <string name="delete">törlés</string>
+    <string name="delete_all">összes törlése</string>
+    <string name="delete_mode_caption">Törlési mód – érintse meg a törölni kívánt elemet</string>
+    <string name="email_address">e-mail cím</string>
+    <string name="exit">kilépés</string>
+    <string name="faq">GYIK</string>
+    <string name="first_name">keresztnév</string>
+    <string name="free">ingyenes</string>
+    <string name="forgot_password">elfelejtett jelszó</string>
+    <string name="last_name">vezetéknév</string>
+    <string name="learn_more">Részletek</string>
+    <string name="legal_notices">jogi nyilatkozatok</string>
+    <string name="library">könyvtár</string>
+    <string name="manage_tips">kezelési tippek</string>
+    <string name="more">bővebben</string>
+    <string name="more_options">további lehetőségek</string>
+    <string name="my_magazines">Saját folyóiratok – érintse meg a megtekintéshez vagy letöltéshez</string>
+    <string name="new_password">új jelszó (5-20 karakter)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">régi jelszó</string>
+    <string name="password">jelszó</string>
+    <string name="required">kötelező</string>
+    <string name="required_first_name">kötelező keresztnév</string>
+    <string name="required_last_name">kötelező vezetéknév</string>
+    <string name="required_email_address">kötelező e-mail cím</string>
+    <string name="required_password">kötelező jelszó</string>
+    <string name="retype_password">jelszó ismételt megadása</string>
+    <string name="sign_in">bejelentkezés</string>
+    <string name="sign_out">kijelentkezés</string>
+    <string name="share">megosztás</string>
+    <string name="shop">vásárlás</string>
+    <string name="text">szöveg</string>
+    <string name="title">cím</string>
+    <string name="turn_on_wifi">WiFi bekapcsolása</string>
+    <string name="uninstall">eltávolítása</string>
+    <string name="welcome_to_zinio">üdvözli a zinio</string>
+    <string name="email_non_lower_case">E-mail</string>
+    <string name="sd_card_non_lower_case">SD kártya</string>
+    <string name="show_password_non_lower_case">Jelszó megjelenítése</string>
+    <string name="show_tips_non_lower_case">Tippek megjelenítése</string>
+    <string name="forgot_password_underlined"><u>Elfelejtette a jelszavát?</u></string>
+    <string name="terms_of_service_underlined"><u>Szolgáltatási feltételek</u></string>
+    <string name="label_share_email1">egy cikket olvasott ettől:</string>
+    <string name="label_share_email2">"és meg szeretné osztani Önnel!
+
+Az eredeti cikk ehhez az üzenethez van csatolva.
+
+További kiadványok a www.zinio.com címen találhatók"</string>
+    <string name="label_receive_from_partners">Kérek különleges ajánlatokat a Zinio megbízható partnereitől.</string>
+    <string name="label_receive_from_zinio">Kérek e-mailben különleges ajánlatokat a Ziniótól.</string>
+    <string name="label_status_calculating">Számítás...</string>
+    <string name="label_status_new">Új</string>
+    <string name="label_status_not_downloaded">Nincs letöltve</string>
+    <string name="label_status_downloading">%s%% letöltve</string>
+    <string name="label_tip_hide">Tippek kikapcsolása. A További beállításokban kezelhetők.</string>
+    <string name="toast_change_password_success">A jelszó módosítása megtörtént.</string>
+    <string name="toast_issue_download_complete_left">A következő letöltése:</string>
+    <string name="toast_issue_download_complete_right">kész</string>
+    <string name="toast_no_articles">Nincsenek cikkek az aktuális oldalon.</string>
+    <string name="toast_register_success">A fiók sikeresen létrejött.</string>
+    <string name="toast_no_email_client">Figyelem: Az e-mail kliens nincs konfigurálva</string>
+    <string name="progress_dialog_wait_msg">Kérem, várjon...</string>
+    <string name="dialog_warning_title">Figyelmeztetés</string>
+    <string name="dialog_no_connectivity_warning">Ehhez a képernyőhöz internetkapcsolat szükséges. Ellenőrizze a kapcsolatot vagy a repülőgépes üzemmódot.</string>
+    <string name="dialog_passwords_not_matching_warning">A jelszavak nem egyeznek.</string>
+    <string name="dialog_password_length_warning">A jelszónak 5-20 karakterből kell állnia.</string>
+    <string name="dialog_service_exception_warning">Probléma a kiszolgálóval. Kérem, próbálja újból.</string>
+    <string name="dialog_uninstall_warning">Ezzel törlődnek a Zinio könyvtár adatai, és nem állíthatók vissza. Újra le kell majd töltenie a kiadványokat.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Nincs csatlakozás, ezért nem tölthetők le a kiadványok.
+
+A kiadványok a kapcsolat helyreállítása után tölthetők le."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">A régi és az új jelszó nem egyezhet meg.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">A régi jelszó nem megfelelő.</string>
+    <string name="dialog_library_no_connectivity_warning">"Csatlakozás szükséges a kiadványok letöltéséhez.
+
+A könyvtárban lévő anyagokat így is el tudja olvasni, a kiadványokat pedig letöltheti a csatlakozás helyreállítása után."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"A felhasználónév és a jelszó helytelen.
+
+Kérem, próbálja újból."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Ez a fiók elérte az engedélyezett készülékek maximális számát. Törölje az egyik készülék engedélyét, és próbálja újból.</string>
+    <string name="dialog_register_account_already_exists">Ez az e-mail cím már létezik. Válasszon egy másikat.</string>
+    <string name="dialog_register_empty_email_error">Írjon be egy e-mail címet.</string>
+    <string name="dialog_register_first_name_short_error">Írja be a keresztnevet.</string>
+    <string name="dialog_register_first_name_long_error">A keresztnév nem lehet 80 karakternél hosszabb.</string>
+    <string name="dialog_register_invalid_email_error">Írjon be egy valós e-mail címet.</string>
+    <string name="dialog_register_last_name_short_error">Írja be a vezetéknevet.</string>
+    <string name="dialog_register_last_name_long_error">A vezetéknév nem lehet 80 karakternél hosszabb.</string>
+    <string name="dialog_register_other_error">Hiba történt. Kérem, próbálja újból.</string>
+    <string name="dialog_register_password_empty">Írjon be egy új jelszót.</string>
+    <string name="dialog_sign_out_disabled_warning">Nincs bejelentkezett felhasználó.</string>
+    <string name="dialog_app_version_not_supported_title">Verziófrissítés elérhető</string>
+    <string name="dialog_app_version_not_supported_msg">A Zinio Reader újabb verziója már elérhető. Ez a verzió a továbbiakban már nem támogatott. Frissítse a Zinio Reader alkalmazást a legújabb verzióra</string>
+    <string name="dialog_delete_all_title">Összes törlése</string>
+    <string name="dialog_delete_all_msg">"Jelezte, hogy az összes kiadványt törölni szeretné a könyvtárból.
+
+Ne aggódjon, nem veszik el minden végleg.
+
+A törlés csak a készülékről távolítja el őket. Szükség esetén ismét letöltheti a kívánt kiadványt."</string>
+    <string name="dialog_not_enough_space_title">Nincs elég hely</string>
+    <string name="dialog_not_enough_space_msg">Ez a készülék nem rendelkezik elegendő lemezterülettel a kiválasztott kiadvány letöltéséhez. Szabadítson fel legalább %d MB-ot, és próbálja újból.</string>
+    <string name="dialog_sd_card_not_available_title">Az SD kártya nem érhető el.</string>
+    <string name="dialog_sd_card_not_available_msg">Az SD kártyát eltávolították. A Zinio alkalmazás kilép. Helyezzen be egy SD kártyát, és indítsa újra az alkalmazást.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Az SD kártya megtelt</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">Az SD kártya megtelt. Szabadítson fel helyet.</string>
+    <string name="dialog_shop_no_connectivity_title">Az üzlet nem érhető el</string>
+    <string name="dialog_shop_no_connectivity_msg">Az üzlet eléréséhez kapcsolat szükséges. Ellenőrizze a kapcsolatot vagy a repülőgépes üzemmódot.</string>
+    <string name="dialog_sign_out_title">Kijelentkezés</string>
+    <string name="dialog_sign_out_msg">"Biztosan ki szeretne jelentkezni?
+
+Ismét be kell majd jelentkeznie a Zinio alkalmazás megnyitásához."</string>
+    <string name="dialog_tip_title">Tipp</string>
+    <string name="dialog_manage_tips_title">Kezelési tippek</string>
+    <string name="non_supported_device_tip_title">Üdvözli a Zinio</string>
+    <string name="non_supported_device_tip_msg">"A Zinio gazdag kínálata legalább 800x480 felbontású képernyőt használó készülékeken olvasható a legjobban.
+
+Folytathatja az alkalmazás használatát, de vegye figyelembe, hogy az olvasási élmény nem biztos, hogy optimális lesz."</string>
+    <string name="no_text_tip_msg">Néhány kiadvány nem rendelkezik szöveges cikkekkel. A Tartalomjegyzék vagy a Vizuális tárgymutató használható a keresett oldal megtalálásához.</string>
+    <string name="page_tip0_1">"Egyszer koppintson az eszköztár menü megjelenítéséhez.
+Vizuális vagy szöveges tartalomjegyzék közül választhat."</string>
+    <string name="page_tip1">"Tippek a kezdéshez:
+
+* Jobbra vagy balra csúsztatva lapozhat
+* A nagyításhoz duplán koppintson a képernyőre
+* Az olvasáshoz válassza ki a 'szöveg' gombot, amely a cikk első oldalán látható."</string>
+    <string name="wifi_connection_tip">"3G hálózati csatlakozás észlelve.
+
+A kiadványok letölthetők 3G-n keresztül is, de a legjobb élményhez wifi ajánlott."</string>
+    <string name="dialog_available_memory_not_enough_title">Nem elegendő Halom mérete</string>
+    <string name="dialog_available_memory_not_enough_msg">Elégtelen halomméret.</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <string name="delete_done">Kész</string>
+    <string name="dialog_delete_from_library">Biztosan törölni kívánja a következőt: %s?</string>
+    <string name="internet_connection_tip">A publikációk letöltéséhez internetkapcsolat szükséges. Kapcsolja be az internetkapcsolatot, és próbálja újra.</string>
+    <string name="dialog_change_password_old_password_empty">Adja meg a régi jelszót.</string>
+    <string name="server_error_app_version_not_supported_message">Verziófrissítés elérhető. A Zinio Reader újabb verziója már elérhető. Ez a verzió a továbbiakban már nem támogatott. Frissítse a Zinio Reader alkalmazást a legújabb verzióra</string>
+    <string name="server_error_authentication_failed">"A felhasználónév és a jelszó helytelen.
+
+Kérem, próbálja újból. A régi jelszó nem megfelelő."</string>
+    <string name="server_error_device_not_authorized">Az eszköz nem lett megfelelően engedélyezve az Ön Zinio fiókjával való használatra. Az eszköz újraengedélyezéséhez lépjen ki az alkalmazásból, majd lépjen vissza. Ha a probléma továbbra is fennáll, forduljon a Zinio ügyfélszolgálatához.</string>
+    <string name="server_error_invalid_login">Érvénytelen e-mail cím. Érvényes e-mail címet adjon meg.</string>
+    <string name="server_error_invalid_new_password">Érvénytelen jelszó, válasszon másikat.</string>
+    <string name="server_error_issue_not_supported_for_device">Érvénytelen szám. Forduljon az ügyfélszolgálathoz a következő címen: support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Ez a fiók elérte az engedélyezett készülékek maximális számát. Törölje az egyik készülék engedélyét, és próbálja újból.</string>
+    <string name="server_error_packing_list_not_found">Hiányzó csomaglista. Forduljon az ügyfélszolgálathoz a következő címen: support@zinio.com.</string>
+    <string name="server_error_login_exists">Ez az e-mail cím már létezik. Válasszon egy másikat.</string>
+    <string name="server_error_system_error">Kiszolgálóhiba történt. Próbálkozzon később.</string>
+    <string name="server_error_system_not_available">Előfordulhat, hogy az alkalmazás részei pillanatnyilag elérhetetlenek. Ha valamit nem tud elérni, próbálkozzon később.</string>
+    <string name="server_error_no_items_in_library">Jelenleg nincs megadva cím. Az elérhető címeket a Shop fülön találja.</string>
+    <string name="server_error_user_not_entitled">A felhasználónak nincs jogosultsága. Forduljon az ügyfélszolgálathoz a következő címen: support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Szeretné most minősíteni a Zinio Readert?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Az elavult szám el lett távolítva, és újra le lesz töltve.</string>
+    <string name="dialog_review_msg">A véleménye fontos számunkra – írja le most a megjegyzéseit.</string>
+    <string name="dialog_review_title">Írja le a megjegyzéseit.</string>
+    <string name="server_error_invalid_newstand">Érvénytelen újságos bolt. Forduljon az ügyfélszolgálathoz a következő címen: support@zinio.com.</string>
+</resources>

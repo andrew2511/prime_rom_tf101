@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update-startprogramma</string>
+    <string name="TITLE_DETECTED">Bestand systeemupdate gedetecteerd</string>
+    <string name="TITLE_SYSTEM_UPDATE">Systeemupdate</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Systeemupdate beschikbaar</string>
+    <string name="MSG_PRELIMINARY">"Het uitvoeren van de systeemupdate duurt ongeveer 10 minuten. U kunt uw apparaat niet gebruiken tijdens de update, inclusief noodoproepen.
+
+Sluit een stroomsnoer aan of zorg ervoor dat de batterij tenminste halfvol is.
+
+Wilt u verdergaan met de systeemupdate?"</string>
+    <string name="BUTTON_CANCEL">Annuleren</string>
+    <string name="MSG_RESUME">Tik hier op om de systeemupdate te starten.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Systeemupdate beëindigd</string>
+    <string name="MSG_UPDATE_DONE">Systeemupdate is succesvol uitgevoerd.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Updatebestand bestaat niet.</string>
+    <string name="MSG_UPDATE_FAIL">Systeemupdate mislukt.</string>
+    <string name="MSG_UPDATE_RESTORE">Systeem wordt teruggezet naar vorige configuratie</string>
+    <string name="MSG_BATTERY_LOW">"Updateproces van systeem wordt gestopt omdat de batterij bijna leeg is.
+
+Sluit een stroomsnoer aan voorafgaand aan de systeemupdate."</string>
+    <string name="TITLE_SELECT_FILE">Selecteer updatepakket</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Het updatepakket is niet compatibel met uw huidige software; controleer uw softwareversie en versienummer in Instellingen en probeer het updatepakket te corrigeren.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Het updatepakket heeft een lagere versie dan uw huidige software; probeer een nieuwer updatepakket.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Onbekende fout.</string>
+</resources>

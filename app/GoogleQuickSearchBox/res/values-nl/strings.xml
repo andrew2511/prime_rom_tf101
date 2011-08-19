@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google Zoeken</string>
+    <string name="remove_from_history">Verwijderen uit zoekgeschiedenis</string>
+    <string name="remove_from_history_failed">Verwijderen van item uit geschiedenis mislukt</string>
+    <string name="menu_settings">Zoekinstellingen</string>
+    <string name="search_settings">Google-zoekinstellingen</string>
+    <string name="google_settings_category_title">Google Zoeken</string>
+    <string name="device_settings_category_title">Zoeken op apparaat</string>
+    <string name="search_sources">Doorzoekbare items</string>
+    <string name="search_sources_summary">Kies wat u op de telefoon wilt zoeken</string>
+    <string name="clear_shortcuts">Snelkoppelingen wissen</string>
+    <string name="clear_shortcuts_summary">Snelkoppelingen naar recent geselecteerde zoeksuggesties wissen</string>
+    <string name="clear_shortcuts_prompt">"Hiermee worden snelkoppelingen naar recent geselecteerde zoeksuggesties gewist.
+
+(Als u uw browsergeschiedenis wilt wissen, gebruikt u de instellingen in uw browser.)"</string>
+    <string name="clear_shortcuts_agree">Snelkoppelingen wissen</string>
+    <string name="clear_shortcuts_disagree">Snelkoppelingen niet wissen</string>
+    <string name="menu_help">Help</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Google Zoeken</string>
+    <string name="google_search_description">Zoeksuggesties van Google</string>
+    <string name="first_run_title">Google Zoeken</string>
+    <string name="tos_button_text">Servicevoorwaarden lezen</string>
+    <string name="yes_agree_use_location">"'Mijn locatie' gebruiken voor zoekresultaten van Google en andere Google-services."</string>
+    <string name="first_run_tos">Onderhevig aan de Servicevoorwaarden van Google Mobile.</string>
+    <string name="use_location_title">"'Mijn locatie' gebruiken"</string>
+    <string name="search_history">Gepersonaliseerd zoeken</string>
+    <string name="search_history_summary_no_account">Er is geen account geconfigureerd</string>
+    <string name="search_history_summary_enabled">Zoekgeschiedenis en andere personalisaties voor %1$s gebruiken</string>
+    <string name="search_history_summary_disabled">Zoekgeschiedenis en andere personalisaties worden niet gebruikt</string>
+    <string name="manage_search_history">Zoekgeschiedenis beheren</string>
+    <string name="manage_search_history_summary_no_account">Er is geen account geconfigureerd</string>
+    <string name="manage_search_history_summary">Meld u aan als %1$s in de browser en open Webgeschiedenis</string>
+    <string name="select_google_account">Google-account</string>
+    <string name="select_google_account_summary_no_accounts">Geen accounts geconfigureerd</string>
+    <string name="settings_tos_title">Servicevoorwaarden</string>
+    <string name="manage_search_history_authenticating_title">Aanmelden</string>
+    <string name="manage_search_history_authenticating_message">Aanmelden als %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Annuleren</string>
+    <string name="use_google_com">Altijd google.com gebruiken</string>
+    <string name="current_search_base_url">%1$s gebruiken</string>
+    <string name="fetching_search_base_url">URL van zoekmachine ophalen...</string>
+    <string name="use_psychic">Instant inschakelen</string>
+    <string name="use_psychic_summary_on">Instant is ingeschakeld (typ om te zoeken)</string>
+    <string name="use_psychic_summary_off">Instant is uitgeschakeld (druk op Enter om te zoeken)</string>
+    <string name="web_suggest_updating">bijwerken...</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+</resources>

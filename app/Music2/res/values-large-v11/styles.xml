@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MediaButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BufferingProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_xlarge_holo</item>
+    </style>
+    <style name="MediaButton.PlayPauseButtonMedium" parent="@style/MediaButton">
+        <item name="pauseImage">@drawable/btn_playback_pause_med</item>
+        <item name="playImage">@drawable/btn_playback_play_med</item>
+        <item name="stopImage">@drawable/btn_playback_stop_med</item>
+    </style>
+    <style name="MediaButton.PreviousMed" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_rew_med</item>
+    </style>
+    <style name="MediaButton.NextMed" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_ff_med</item>
+    </style>
+    <style name="MediaButton.PlayMed" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_play_med</item>
+    </style>
+    <style name="MediaButton.PauseMed" parent="@style/MediaButton">
+        <item name="android:src">@drawable/btn_playback_pause_med</item>
+    </style>
+    <style name="TopDivider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+    </style>
+</resources>

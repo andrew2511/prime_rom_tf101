@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">Synchronizovanie informácií PC</string>
+    <string name="searchingPCSideSyncTool">Prebieha vyhľadávanie %s vo vašom počítači...</string>
+    <string name="connectionFailMessage" formatted="false">Vo vašom počítači nemáte nainštalovanú aplikáciu %s alebo nie je spustená. Prevezmite si, prosím %s z internetovej stránky Podpora ASUS – http://support.asus.com. (Poznámka: len pre Windows.) Ukončiť môžete stlačením tlačidla %s alebo tlačidla %s a znovu pripojte k %s.</string>
+    <string name="connectionFailTitle">Spojenie zlyhalo</string>
+    <string name="tryAgain">Skúste znovu</string>
+    <string name="cancel">Zrušiť</string>
+</resources>

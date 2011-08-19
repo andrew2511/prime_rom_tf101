@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.3">
+        <fragment android:name="com.google.android.talk.PreferencesActivity$AccountsFragment" android:id="@id/accounts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:layout_gravity="bottom" android:id="@id/add_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="20.0dip" android:text="@string/add_account" android:layout_weight="0.0" android:onClick="addAccountClick" />
+    </LinearLayout>
+    <fragment android:name="com.google.android.talk.PreferencesActivity$SettingsFragment" android:id="@id/settings" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.7" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syncNotificationDescription">פרטי Sync PC</string>
+    <string name="searchingPCSideSyncTool">מחפש %s במחשב שלך...</string>
+    <string name="connectionFailMessage" formatted="false">%s לא מותקן או לא הופעל במחשב. הורד את %s מדף התמיכה של ASUS - http://support.asus.com. (הערה: עבור Windows בלבד.) תוכל ללחוץ על לחצן \"%s\" כדי לצאת או \"%s\" כדי להתחבר מחדש אל %s.</string>
+    <string name="connectionFailTitle">ההתחברות נכשלה</string>
+    <string name="tryAgain">נסה שנית</string>
+    <string name="cancel">ביטול</string>
+</resources>

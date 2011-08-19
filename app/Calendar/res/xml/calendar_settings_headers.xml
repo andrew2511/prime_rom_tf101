@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/menu_general_preferences" android:fragment="com.android.calendar.GeneralPreferences" />
+    <header android:title="@string/menu_about_preferences" android:fragment="com.android.calendar.AboutPreferences" />
+</preference-headers>

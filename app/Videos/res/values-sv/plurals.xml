@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">Går ut om %1$d dagar</item>
+        <item quantity="one">Går ut om 1 dag</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">Går ut om %1$d timmar</item>
+        <item quantity="one">Går ut om 1 timme</item>
+    </plurals>
+</resources>

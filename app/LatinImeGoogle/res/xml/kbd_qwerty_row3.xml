@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Row latin:keyWidth="10.000002%p">
+        <Key latin:keyWidth="14.999998%p" latin:keyEdgeFlags="left" latin:keyStyle="shiftKeyStyle" />
+        <Key latin:popupCharacters="@string/alternates_for_z" latin:keyLabel="z" />
+        <Key latin:keyLabel="x" />
+        <Key latin:popupCharacters="@string/alternates_for_c" latin:keyLabel="c" />
+        <Key latin:popupCharacters="@string/alternates_for_v" latin:keyLabel="v" />
+        <Key latin:keyLabel="b" />
+        <Key latin:popupCharacters="@string/alternates_for_n" latin:keyLabel="n" />
+        <Key latin:keyLabel="m" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" />
+    </Row>
+</merge>

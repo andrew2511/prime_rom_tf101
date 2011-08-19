@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mp3_dialog_items">
+        <item>加到播放清單</item>
+        <item>分享</item>
+    </string-array>
+    <string-array name="plalist_dialog_items">
+        <item>刪除</item>
+    </string-array>
+    <string-array name="plalist_mp3_dialog_items">
+        <item>刪除</item>
+        <item>分享</item>
+    </string-array>
+    <string-array name="currentplalist_dialog_items">
+        <item>刪除</item>
+        <item>加到播放清單</item>
+    </string-array>
+    <string-array name="common_home_disp">
+        <item>瀏覽 MySyncFolder</item>
+        <item>已儲存的搜尋條件</item>
+        <item>瀏覽星號標記</item>
+        <item>更多瀏覽...</item>
+        <item>上傳相片/錄音/隨手記與檔案</item>
+        <item>群組分享夾</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="common_more_disp">
+        <item>我的收藏</item>
+        <item>已備份的項目</item>
+        <item>我的收藏</item>
+        <item>已備份的項目</item>
+        <item>我的收藏</item>
+        <item>已備份的項目</item>
+        <item>我的收藏</item>
+        <item>已備份的項目1</item>
+        <item>我的收藏</item>
+        <item>已備份的項目2</item>
+    </string-array>
+    <string-array name="capture_selector_disp">
+        <item>拍照上傳</item>
+        <item>攝影上傳</item>
+        <item>錄音上傳</item>
+        <item>隨手記上傳</item>
+        <item>SD 檔案上傳</item>
+    </string-array>
+    <string-array name="register_switch_disp">
+        <item>註冊新帳號</item>
+        <item>我已有帳號</item>
+    </string-array>
+    <string-array name="register_mac_switch_disp">
+        <item>註冊新帳號</item>
+        <item>我已有帳號</item>
+        <item>Change MAC add.</item>
+    </string-array>
+    <string-array name="share_content_disp">
+        <item>我用MEar聽%1$s http://www.asuswestorage.com/mear/ “雲”上的音樂隨身聽比較厲害嗎? 試一下就知道</item>
+        <item>我用MEar聽%1$s http://www.asuswestorage.com/mear/ 音樂就是想到一定要聽到，試試新的、雲端的音樂隨身聽！</item>
+        <item>我用MEar聽%1$s http://www.asuswestorage.com/mear/ 這樣的幸福哪裡找? 隨時都能聆聽想要的音樂…</item>
+        <item>我用MEar聽%1$s http://www.asuswestorage.com/mear/ MP3只要用”MEar”播過一次，就能隨身帶著走…</item>
+    </string-array>
+</resources>

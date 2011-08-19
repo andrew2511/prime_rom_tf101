@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d kontakter</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d kontaktpersoner, %2$2$d med telefoner</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontaktpersoner med telefonnumre</item>
+        <item quantity="one">1 kontakt med telefonnummer</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontaktpersoner</item>
+        <item quantity="one">1 kontaktperson</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d fundet</item>
+        <item quantity="one">1 fundet</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d fundet</item>
+        <item quantity="one">1 fundet</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">%d modtagere er valgt</item>
+        <item quantity="one">1 modtager er valgt</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">flettet fra %0$d kilder</item>
+        <item quantity="one">blev ikke flettet</item>
+    </plurals>
+</resources>

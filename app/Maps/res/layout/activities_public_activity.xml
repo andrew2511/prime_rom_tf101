@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/listParent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.googlenav.ui.android.GmmListView android:id="@id/list" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <LinearLayout android:orientation="vertical" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/activities_composition_ui" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/emptyMessage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

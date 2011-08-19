@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Vybrali jste délku textu vyšší než je limit, část obsahu může být oříznuta.</string>
+    <string name="post_successfully">Úspěšně uloženo</string>
+</resources>

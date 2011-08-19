@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frame_panel_common_bookmark" android:background="@drawable/bookclip_list_bg" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/find_bg" android:layout_width="@dimen/panel_common_bookmark_bookmarkinput_layout_width" android:layout_height="@dimen/panel_common_bookmark_bookmarkinput_layout_height" android:layout_marginTop="-1.0px">
+        <LinearLayout android:orientation="horizontal" android:id="@id/holder_edit_common_bookmarkname" android:layout_width="@dimen/edit_common_bookmark_bookmarkinput_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/edit_common_bookmark_bookmarkinput_margine_left" android:layout_marginRight="@dimen/edit_common_bookmark_bookmarkinput_margine_right" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/holder_imagebutton_common_addbookmark" android:layout_width="@dimen/edit_common_bookmark_bookmarkaddbutton_width" android:layout_height="fill_parent" android:layout_marginRight="@dimen/edit_common_bookmark_bookmarkaddbutton_margine_right" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/holder_listcontrol_common_bookmarklist" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

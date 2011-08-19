@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Buka peta</string>
+    <string name="report_inappropriate_image">Laporkan gambar</string>
+    <string name="toggle_compass_mode">Modus kompas</string>
+    <string name="compass_mode_on">Modus kompas hidup.</string>
+    <string name="compass_mode_off">Modus kompas mati.</string>
+    <string name="waiting_for_network">Koneksi data hilang, mencoba lagi…</string>
+    <string name="panorama_disabled">Gambar tak lagi tersedia</string>
+    <string name="service_unavailable">Layanan Street View tidak tersedia.</string>
+    <string name="loading">Memuat</string>
+    <string name="no_panorama_data">Data panorama belum ditetapkan.</string>
+    <string name="invalid_panorama_data">Panorama tidak valid.</string>
+    <string name="click_to_go_toast">Seret Pegman ke tujuan Anda.</string>
+    <string name="street_range_name_format" formatted="false">%2$s %1$s</string>
+    <string name="network_unavailable">Program ini memerlukan koneksi data, dan akan mencoba lagi secara otomatis. Periksa kekuatan sinyal. Apakah mode pesawat aktif? Apakah data roaming dinonaktifkan?</string>
+    <string name="whats_new_header">Yang baru di Street View</string>
+    <string name="whats_new_c2g">Terbanglah sejauh mata dapat memandang. Tarik Pegman dari sisi kiri bawah dan letakkan di tempat yang ingin dituju.</string>
+    <string name="terms_and_privacy">Ketentuan &amp; Privasi</string>
+    <string name="terms_and_conditions">"Persyaratan dan Ketentuan
+"</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">письмо</string>
+    <string name="multiple_mails">письма</string>
+    <string name="go_to">Входящие</string>
+</resources>

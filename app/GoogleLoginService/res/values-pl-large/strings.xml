@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Gotowe</string>
+    <string name="signed_in">Logowanie pomyślne</string>
+    <string name="account_linked_message">Zalogowano się na konto %s i dane są synchronizowane.</string>
+    <string name="account_setup_title">Konto Google</string>
+    <string name="account_created_message">Utworzono nowe konto: %s</string>
+    <string name="login_activity_title">Zaloguj się na konto Google</string>
+    <string name="show_error_activity_title">Nieudane logowanie na konto Google</string>
+    <string name="login_activity_task_title">Logowanie...</string>
+    <string name="sync_intro_activity_title_first_account">Tworzenie i przywracanie kopii zapasowej</string>
+    <string name="sync_intro_activity_title_first_created_account">Konto zostało utworzone</string>
+    <string name="sync_intro_activity_title">Pomyślne logowanie na konto</string>
+</resources>

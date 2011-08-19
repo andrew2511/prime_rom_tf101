@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Össz.törl.</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nincs internetkapcs.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi csatlakozva</string>
+    <string name="gps_notification_searching_text">GPS keresése</string>
+    <string name="gps_notification_found_text">A GPS beállította a helyet</string>
+    <string name="notifications_off_title">Értesítések kikapcsolva</string>
+    <string name="notifications_off_text">Itt érintse meg az értesítések bekapcsolásához.</string>
+</resources>

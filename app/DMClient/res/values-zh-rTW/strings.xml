@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">分鐘</string>
+    <string name="postpone">稍後安裝</string>
+    <string name="update">更新</string>
+    <string name="firmware_update_title">韌體更新</string>
+    <string name="firmware_update_fail">"更新失敗。
+
+您的裝置將回復前次設定值。"</string>
+    <string name="low_battery_warning">"系統需要至少%1$d%%的電力執行更新工作，
+請在執行更新前為您的裝置充電。"</string>
+    <string name="confirmDownload_textok">"本次更新增進穩定性且不會清除任何資料，建議進行更新。
+請按下『是』開始下載更新，"</string>
+    <string name="confirmDownload_textcancel">請點選『否』以放棄更新。</string>
+    <string name="confirmDownload_textwifi">您可以使用Wifi進行下載以減少電信上網傳輸費用。</string>
+    <string name="confirmDownload_textwifi2">如果您選擇稍後下載，您還是可以在透過點選通知區，再次啟動下載。</string>
+    <string name="btn_text_later">稍後下載</string>
+    <string name="confirmDownload_dialog_title">注意，您正在漫遊中。</string>
+    <string name="downloading">下載韌體中...</string>
+    <string name="install_time">預估安裝時間：</string>
+    <string name="postponetime_text">若您選擇稍後安裝，等待多久後再度提醒您:</string>
+    <string name="install">立即安裝</string>
+    <string name="reach_max_net_fail">伺服器未回應，請稍後再試。</string>
+    <string name="dlg_title_checking">完整性檢查</string>
+    <string name="dlg_msg_checking">檢查韌體檔案</string>
+    <string name="cannot_set_to_browser">無法設定至瀏覽器</string>
+    <string name="upgrade_error">更新錯誤，請重新下載更新檔案。</string>
+    <string name="start_to_download">開始下載主要更新軟體</string>
+    <string name="start_to_upgrade">開始更新新版軟體</string>
+    <string name="start_NI_dmSession">是否同意連線裝置管理伺服器？</string>
+    <string name="download_finished">韌體下載完成...</string>
+    <string name="download_in_progress">新韌體正在下載中</string>
+    <string name="out_of_mem_warning">"剩餘儲存空間不足，
+請移除其他應用程式後，稍後再試。"</string>
+    <string name="ui_alert_input_hint">請輸入文字</string>
+    <string name="ui_alert_input_numeric_hint">請輸入數字</string>
+    <string name="ui_alert_input_phone_number_hint">請輸入電話號碼</string>
+    <string name="check_for_update">檢查更新</string>
+    <string name="no_new_fota_update">您的裝置目前不需要更新。</string>
+    <string name="ok">確定</string>
+    <string name="yes">確定</string>
+    <string name="no">取消</string>
+    <string name="confirm_download_btn_Yes">是</string>
+    <string name="confirm_download_btn_No">否</string>
+    <string name="confirm_update_title">華碩系統韌體更新</string>
+    <string name="asus_received_title">華碩系統更新服務</string>
+    <string name="received_message">有新的韌體更新檔案可供安裝，按此處繼續安裝步驟</string>
+    <string name="low_battery_title">系統電量不足</string>
+    <string name="dl_received_ticker">有新的韌體更新檔案可供下載</string>
+    <string name="dl_received_message">請點選此處下載韌體更新</string>
+    <string name="confirmDownload_text1">您確定要下載以下的韌體更新嗎？</string>
+    <string name="received_ticker">有新的韌體更新檔案可供安裝</string>
+    <string name="update_dialog_text">"系統韌體更新檔案已下載，是否要立即安裝？
+"</string>
+    <string name="prepare_dm_download">準備下載系統韌體更新檔案...</string>
+    <string name="system_update_activity">系統韌體更新</string>
+    <string name="has_new_fota_update">您的裝置有新的韌體更新可供下載，請點選通知區，繼續接下來的動作。</string>
+    <string name="update_dialog_text2">本次韌體更新增進穩定性且不會清除任何資料，建議您立即進行更新。</string>
+</resources>

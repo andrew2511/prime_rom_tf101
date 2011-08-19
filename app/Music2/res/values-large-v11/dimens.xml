@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_list_item_height">62.5dip</dimen>
+    <dimen name="popup_menu_item_text_size">18.0sp</dimen>
+    <dimen name="list_menu_item_height">48.0dip</dimen>
+    <dimen name="top_bar_height">56.0dip</dimen>
+    <dimen name="manage_music_height">64.0dip</dimen>
+    <dimen name="now_playing_bar_height">132.0dip</dimen>
+    <dimen name="max_album_art_size">416.0dip</dimen>
+    <dimen name="grid_max_overscroll_x">0.0dip</dimen>
+    <dimen name="grid_max_overscroll_y">200.0dip</dimen>
+    <dimen name="grid_margin_width">32.0dip</dimen>
+    <dimen name="grid_margin_height">32.0dip</dimen>
+    <dimen name="expand_banner_height">48.0dip</dimen>
+    <dimen name="popup_menu_title_text_size">18.0sp</dimen>
+    <dimen name="context_menu_button_padding">12.0dip</dimen>
+</resources>

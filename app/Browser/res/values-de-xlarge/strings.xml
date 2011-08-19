@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Neuer Tab</string>
+    <string name="new_incognito_tab">Neuer Inkognito-Tab</string>
+    <string name="active_tabs">Tabs</string>
+    <string name="open_all_in_new_window">Alle in jeweils neuem Tab öffnen</string>
+    <string name="contextmenu_openlink_newwindow">In neuem Tab öffnen</string>
+    <string name="contextmenu_openlink_newwindow_background">In neuem Hintergrundtab öffnen</string>
+    <string name="pref_content_open_in_background_summary">Neue Tabs hinter dem aktuellen Tab öffnen</string>
+</resources>

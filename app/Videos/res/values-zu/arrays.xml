@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subtitles_size_entries">
+        <item>Ncane</item>
+        <item>Okulingene</item>
+        <item>Okukhulu</item>
+        <item>Kukhulu Kakhulu</item>
+    </string-array>
+</resources>

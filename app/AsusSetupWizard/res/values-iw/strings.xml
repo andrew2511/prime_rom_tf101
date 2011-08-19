@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">חיבור לאינטרנט</string>
+    <string name="mobile_wifi_title">רשת סלולרית ואלחוטית</string>
+    <string name="wifi_title">חיבור אלחוטי בלבד</string>
+    <string name="setup_wizard_title">אשף הגדרות</string>
+    <string name="next_button_label">הבא</string>
+    <string name="welecome_title">ברוכים הבאים</string>
+    <string name="btn_start_text">התחל</string>
+</resources>

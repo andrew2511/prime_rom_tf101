@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Isu boleh disusun mengikut tarikh atau tajuk. Pilih ini dari tab di bahagian atas skrin.</item>
+        <item>"Perlukan lagi untuk dibaca?
+Pilih butang kedai di bahagian bawah skrin untuk pergi ke kedai dalam talian untuk penerbitan dan rencana yang terkini."</item>
+        <item>Pilih menu untuk melihat lebih banyak pilihan - seperti kedai, lagi, padam dan daftar keluar.</item>
+        <item>Pilih isu untuk memuat turun secara automatik semasa anda membaca ATAU anda boleh memilih butang muat turun untuk menyimpannya secara setempat untuk dibaca kemudian.</item>
+    </string-array>
+</resources>

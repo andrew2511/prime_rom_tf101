@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlarmClockTheme" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="SetAlarmTheme" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="AlarmAlertTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="AlarmAlertFullScreenTheme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+</resources>

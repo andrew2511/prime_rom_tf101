@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_correction_threshold_values">
+        <item></item>
+        <item>0.22</item>
+        <item>0</item>
+    </string-array>
+    <array name="settings_key_modes_values">
+        <item>@string/settings_key_mode_auto</item>
+        <item>@string/settings_key_mode_always_show</item>
+        <item>@string/settings_key_mode_always_hide</item>
+    </array>
+    <array name="settings_key_modes">
+        <item>@string/settings_key_mode_auto_name</item>
+        <item>@string/settings_key_mode_always_show_name</item>
+        <item>@string/settings_key_mode_always_hide_name</item>
+    </array>
+    <array name="prefs_suggestion_visibility_values">
+        <item>@string/prefs_suggestion_visibility_show_value</item>
+        <item>@string/prefs_suggestion_visibility_show_only_portrait_value</item>
+        <item>@string/prefs_suggestion_visibility_hide_value</item>
+    </array>
+    <array name="prefs_suggestion_visibilities">
+        <item>@string/prefs_suggestion_visibility_show_name</item>
+        <item>@string/prefs_suggestion_visibility_show_only_portrait_name</item>
+        <item>@string/prefs_suggestion_visibility_hide_name</item>
+    </array>
+    <array name="auto_correction_threshold_mode_indexes">
+        <item>@string/auto_correction_threshold_mode_index_off</item>
+        <item>@string/auto_correction_threshold_mode_index_modest</item>
+        <item>@string/auto_correction_threshold_mode_index_aggeressive</item>
+    </array>
+    <array name="auto_correction_threshold_modes">
+        <item>@string/auto_correction_threshold_mode_off</item>
+        <item>@string/auto_correction_threshold_mode_modest</item>
+        <item>@string/auto_correction_threshold_mode_aggeressive</item>
+    </array>
+    <array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </array>
+    <array name="voice_input_modes">
+        <item>@string/voice_input_modes_main_keyboard</item>
+        <item>@string/voice_input_modes_symbols_keyboard</item>
+        <item>@string/voice_input_modes_off</item>
+    </array>
+    <array name="voice_input_modes_summary">
+        <item>@string/voice_input_modes_summary_main_keyboard</item>
+        <item>@string/voice_input_modes_summary_symbols_keyboard</item>
+        <item>@string/voice_input_modes_summary_off</item>
+    </array>
+    <array name="keyboard_layout_modes">
+        <item>@string/layout_basic</item>
+        <item>@string/layout_high_contrast</item>
+        <item>@string/layout_stone_normal</item>
+        <item>@string/layout_stone_bold</item>
+        <item>@string/layout_gingerbread</item>
+        <item>@string/layout_honeycomb</item>
+    </array>
+    <string-array name="keyboard_layout_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="subtype_locale_exception_keys">
+        <item>en_US</item>
+        <item>en_GB</item>
+    </string-array>
+    <string-array name="subtype_locale_exception_values">
+        <item>English (US)</item>
+        <item>English (UK)</item>
+    </string-array>
+    <array name="key_descriptions">
+        <item>@integer/key_tab</item>
+        <item>@string/description_tab_key</item>
+        <item>@integer/key_return</item>
+        <item>@string/description_return_key</item>
+        <item>@integer/key_space</item>
+        <item>@string/description_space_key</item>
+        <item>@integer/key_shift</item>
+        <item>@string/description_shift_key</item>
+        <item>@integer/key_switch_alpha_symbol</item>
+        <item>@string/description_switch_alpha_symbol_key</item>
+        <item>@integer/key_delete</item>
+        <item>@string/description_delete_key</item>
+        <item>@integer/key_settings</item>
+        <item>@string/description_settings_key</item>
+        <item>@integer/key_voice</item>
+        <item>@string/description_voice_key</item>
+    </array>
+    <string-array name="wordlist_whitelist">
+        <item>255</item>
+        <item>ill</item>
+        <item>"I'll"</item>
+        <item>255</item>
+        <item>thisd</item>
+        <item>"this'd"</item>
+    </string-array>
+</resources>

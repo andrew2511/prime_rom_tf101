@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0;format-detection=no;target-densitydpi=device-dpi;user-scalable=no;"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="util.js"></script>
+    <script type="text/javascript" src="reader.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<div id="debug"></div>
+
+<!-- offscreen div to keep custom fonts warm in webcore cache -->
+<div style="position: absolute; top: -1024px; left: -1024px;">
+<div style="font-family:'Merriweather';">Lorem Ipsum</div>
+<div style="font-family:'Vollkorn';">Lorem Ipsum</div>
+<div style="font-family:'Vollkorn'; font-style:italic;">Lorem Ipsum</div>
+<div style="font-family:'OFLGoudyStMTT'">Lorem Ipsum</div>
+<div style="font-family:'OFLGoudyStMTT'; font-style:italic;">Lorem Ipsum</div>
+</div>
+
+<script type="text/javascript">
+    bridge.onJsApiReady();
+</script>
+</body>
+</html>

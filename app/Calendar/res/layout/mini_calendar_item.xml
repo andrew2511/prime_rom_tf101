@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/color" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="8.0dip" android:cropToPadding="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/calendar" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="3.0dip" android:singleLine="true" style="@style/TextAppearance.SelectCalendar_Name" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/status" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/calendar" android:layout_alignLeft="@id/calendar" />
+</RelativeLayout>

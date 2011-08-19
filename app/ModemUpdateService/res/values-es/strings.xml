@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Actualización del firmware del módem correcta</string>
+    <string name="update_fail">Error al actualizar el firmware del módem</string>
+    <string name="update_quz" formatted="false">"El proceso de actualización tardará aproximadamente entre 3 y 5 minutos y requiere que la batería tenga una carga de, al menos, el 15%.
+
+Asegúrese de que la carga de la batería es superior al 15% antes de actualizar.
+
+¿Desea actualizar el firmware del módem ahora?"</string>
+    <string name="notify_title">Servicio de actualización de Asus</string>
+    <string name="notify">La actualización del firmware del módem está disponible.</string>
+    <string name="warning_title">Advertencia</string>
+    <string name="warning">"NO apague el dispositivo durante la actualización.
+
+Cualquier interrupción inesperada causará un daño irreversible.
+
+¿Desea actualizar el firmware del módem ahora?"</string>
+    <string name="battery_low" formatted="false">"El proceso requiere que la carga de la batería sea de, al menos, el 15%.
+
+Asegúrese de que la carga de la batería es superior al 15% antes de iniciar la actualización."</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">Aceptar</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

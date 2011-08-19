@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="promo_item_height">220.0dip</dimen>
+    <dimen name="promo_flyover_contents_width">132.0dip</dimen>
+    <dimen name="promo_flyover_top_bottom_padding">10.0dip</dimen>
+    <dimen name="promo_flyover_buy_button_bottom_margin">16.0dip</dimen>
+    <dimen name="browse_item_width">315.0dip</dimen>
+    <dimen name="category_item_height">54.0dip</dimen>
+    <dimen name="category_item_width">314.0dip</dimen>
+    <dimen name="bucket_entry_height">114.0dip</dimen>
+    <dimen name="bucket_entry_icon_height">100.0dip</dimen>
+    <dimen name="bucket_entry_icon_width">100.0dip</dimen>
+    <dimen name="bucket_entry_width">306.0dip</dimen>
+    <dimen name="bucket_row_height">114.0dip</dimen>
+    <dimen name="category_list_title_size">22.0sp</dimen>
+    <dimen name="category_list_text_entry_size">18.0sp</dimen>
+    <dimen name="category_list_entry_vertical_padding">6.0dip</dimen>
+    <dimen name="promo_width">772.0dip</dimen>
+    <dimen name="promo_height">376.0dip</dimen>
+    <dimen name="thumbnail_width">145.0dip</dimen>
+    <dimen name="thumbnail_height">145.0dip</dimen>
+    <dimen name="summary_width">380.0dip</dimen>
+    <dimen name="summary_height">360.0dip</dimen>
+    <dimen name="summary_panel_margin_top">72.0dip</dimen>
+    <dimen name="summary_panel_margin_left">64.0dip</dimen>
+    <dimen name="summary_panel_margin_bottom">16.0dip</dimen>
+    <dimen name="summary_thumbnail_width">165.0dip</dimen>
+    <dimen name="summary_thumbnail_height">185.0dip</dimen>
+    <dimen name="summary_thumbnail_price_margin">10.0dip</dimen>
+    <dimen name="details_button_margin_bottom">6.0dip</dimen>
+    <dimen name="content_filter_text_size">18.0sp</dimen>
+    <dimen name="details_summary_title_text_size">28.0sp</dimen>
+    <dimen name="details_thumbnail_padding_bottom">30.0dip</dimen>
+    <dimen name="item_description_width">300.0dip</dimen>
+    <dimen name="list_panel_developer_prompt_text_size">18.0sp</dimen>
+    <dimen name="content_entry_title_text_size">18.0sp</dimen>
+</resources>

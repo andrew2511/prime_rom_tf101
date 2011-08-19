@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google-Suche</string>
+    <string name="remove_from_history">Aus Suchverlauf entfernen</string>
+    <string name="remove_from_history_failed">Element konnte nicht aus Verlauf entfernt werden</string>
+    <string name="menu_settings">Sucheinstellungen</string>
+    <string name="search_settings">Google-Sucheinstellungen</string>
+    <string name="google_settings_category_title">Google-Suche</string>
+    <string name="device_settings_category_title">Gerätesuche</string>
+    <string name="search_sources">Durchsuchbare Elemente</string>
+    <string name="search_sources_summary">Auswahl für die Suche auf dem Telefon</string>
+    <string name="clear_shortcuts">Verknüpfungen löschen</string>
+    <string name="clear_shortcuts_summary">Verknüpfungen zu zuletzt ausgewählten Suchvorschlägen löschen</string>
+    <string name="clear_shortcuts_prompt">"Hiermit werden alle Verknüpfungen zu zuletzt ausgewählten Suchvorschlägen gelöscht.
+
+(Löschen Sie Ihren Browserverlauf über die Browsereinstellungen.)"</string>
+    <string name="clear_shortcuts_agree">Verknüpfungen löschen</string>
+    <string name="clear_shortcuts_disagree">Verknüpfungen nicht löschen</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Google-Suche</string>
+    <string name="google_search_description">Google-Suchvorschläge</string>
+    <string name="first_run_title">Google-Suche</string>
+    <string name="tos_button_text">Nutzungsbedingungen lesen</string>
+    <string name="yes_agree_use_location">Standort für Google-Suchergebnisse und andere Google-Dienste verwenden</string>
+    <string name="first_run_tos">Unterliegt den Nutzungsbedingungen für mobile Google-Dienste</string>
+    <string name="use_location_title">Standort verwenden</string>
+    <string name="search_history">Personalisierte Suche</string>
+    <string name="search_history_summary_no_account">Kein Konto konfiguriert</string>
+    <string name="search_history_summary_enabled">Verwendung des Suchverlaufs und anderer Personalisierungen für %1$s</string>
+    <string name="search_history_summary_disabled">Suchverlauf und andere Personalisierungen werden nicht verwendet.</string>
+    <string name="manage_search_history">Suchverlauf verwalten</string>
+    <string name="manage_search_history_summary_no_account">Kein Konto konfiguriert</string>
+    <string name="manage_search_history_summary">Als %1$s im Browser anmelden und Webprotokoll öffnen</string>
+    <string name="select_google_account">Google-Konto</string>
+    <string name="select_google_account_summary_no_accounts">Keine Konten konfiguriert</string>
+    <string name="settings_tos_title">Nutzungsbedingungen</string>
+    <string name="manage_search_history_authenticating_title">Anmeldung...</string>
+    <string name="manage_search_history_authenticating_message">Anmelden als %1$s...</string>
+    <string name="manage_search_history_authenticating_cancel">Abbrechen</string>
+    <string name="use_google_com">Immer google.com verwenden</string>
+    <string name="current_search_base_url">Mit %1$s</string>
+    <string name="fetching_search_base_url">Such-URL wird abgerufen...</string>
+    <string name="use_psychic">Google Instant aktivieren</string>
+    <string name="use_psychic_summary_on">Google Instant ist an. (Zur Suche Text eingeben)</string>
+    <string name="use_psychic_summary_off">Google Instant ist aus. (Zur Suche Eingabetaste drücken)</string>
+    <string name="web_suggest_updating">Aktualisierung läuft...</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+</resources>

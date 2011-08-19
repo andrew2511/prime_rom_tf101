@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_count">
+        <item quantity="other">계정 %1$d개</item>
+        <item quantity="one">계정 %1$d개</item>
+    </plurals>
+    <plurals name="new_chats_count">
+        <item quantity="other">읽지 않은 채팅 %1$d개</item>
+        <item quantity="one">읽지 않은 채팅 %1$d개</item>
+    </plurals>
+    <plurals name="messages_read">
+        <item quantity="other">읽은 메시지 %s개</item>
+        <item quantity="one">읽은 메시지 %s개</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@android:id/list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="91.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="86.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_3" android:gravity="center" android:id="@id/playingName" android:background="@drawable/bg_player1" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentLeft="true" style="?android:attr/progressBarStyleHorizontal" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/LinearLayout02" android:background="@drawable/bg_player2" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_centerHorizontal="true">
+            <ImageButton android:id="@id/btn_play" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:src="@drawable/btn_playing" />
+            <ImageButton android:id="@id/btn_pre" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_pre" />
+            <ImageButton android:id="@id/btn_next" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/btn_next" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/btn_shuffle" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/btn_random0" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/btn_repeat" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_cycle0" />
+            <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                <ImageButton android:id="@id/btn_playlist" android:background="@drawable/player_up" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Firmwareopdatering til modem blev hentet</string>
+    <string name="update_fail">Firmwareopdatering til modem mislykkedes</string>
+    <string name="update_quz" formatted="false">"Opdateringsprocessen tager ca. 3-5 miutter, og kræver mindst 15% batteriniveau.
+
+Sørg venligst for, at batteriniveauet er højere end 15% før du starter opdateringen.
+
+Ønsker du at opgradere firmwaret til dit modem nu?"</string>
+    <string name="notify_title">"Asus' opdateringstjeneste"</string>
+    <string name="notify">Der en firmwareopgradering til dit modem tilgængelig nu.</string>
+    <string name="warning_title">Advarsel</string>
+    <string name="warning">"UNDGÅ at slukke for enheden mens opgraderingen er i gang.
+
+Enhver uforventet forstyrrelse kan forårsage uopretlig skade.
+
+Ønsker du, at opdatere firmwaret til dit modem nu?"</string>
+    <string name="battery_low" formatted="false">"Processen kræver mindst 15% batteriniveau.
+
+Sørg venligst for, at batteriniveauet er højere end 15% før du starter opdateringen."</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

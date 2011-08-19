@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aktualisierungs-Launcher</string>
+    <string name="TITLE_DETECTED">Systemaktualisierungsdatei erkannt</string>
+    <string name="TITLE_SYSTEM_UPDATE">Systemaktualisierung</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Systemaktualisierung verfügbar</string>
+    <string name="MSG_PRELIMINARY">"Die Systemaktualisierung dauert ca. 10 Minuten. Sie können Ihr Gerät inklusive der Notruf-Funktion während der Aktualisierung nicht benutzen.
+
+Bitte schließen Sie das Netzkabel an oder stellen sicher, dass die Akkulaufzeit mindestens 15 % beträgt.
+
+Möchten Sie mit der Systemaktualisierung fortfahren?"</string>
+    <string name="BUTTON_CANCEL">Abbrechen</string>
+    <string name="MSG_RESUME">Zum Start der Systemaktualisierung berühren.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Systemaktualisierung abgeschlossen</string>
+    <string name="MSG_UPDATE_DONE">System wurde erfolgreich aktualisiert.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Aktualisierungsdatei existiert nicht.</string>
+    <string name="MSG_UPDATE_FAIL">Systemaktualisierung fehlgeschlagen.</string>
+    <string name="MSG_UPDATE_RESTORE">System auf vorherige Konfiguration zurückgesetzt</string>
+    <string name="MSG_BATTERY_LOW">"Systemaktualisierung wird aufgrund des geringen Akkustands beendet.
+
+Bitte schließen Sie vor der Systemaktualisierung das Netzkabel an."</string>
+    <string name="TITLE_SELECT_FILE">Aktualisierungspaket wählen</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Das Aktualisierungspaket ist mit Ihrer derzeitigen Software nicht kompatibel. Bitte überprüfen Sie in den Einstellungen Ihre Software-Version und -Nummer und verwenden Sie das richtige Aktualisierungspaket.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Das Aktualisierungspaket ist älter als Ihre derzeitige update package is prior to your current software version, please try a newer update package.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Unbekannter Fehler.</string>
+</resources>

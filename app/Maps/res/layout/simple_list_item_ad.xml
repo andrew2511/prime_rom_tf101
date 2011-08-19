@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="left|center" android:id="@id/listItemAd" android:background="@color/ad_background_color" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sponsoredLink" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_image" android:layout_below="@id/sponsoredLink" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:id="@id/merchantRating" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <TextView android:id="@id/creativeLine1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/merchantRating" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:id="@id/creativeLine2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/creativeLine1" />
+    <TextView android:id="@id/linkText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/creativeLine2" />
+    <ImageView android:gravity="right|center" android:id="@id/right_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

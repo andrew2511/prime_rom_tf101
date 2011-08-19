@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/translate_dialog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/translate_sub_title1" android:paddingLeft="62.0px" android:paddingTop="19.0px" android:paddingBottom="6.0px" android:layout_width="fill_parent" android:layout_height="76.0px" android:maxWidth="470.0px" android:text="@string/translate_sub_title1" android:singleLine="true" />
+    <ScrollView android:id="@id/translate_scv1" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_below="@id/translate_sub_title1" android:layout_alignParentLeft="true">
+        <TextView android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/translate_dialog_be_translated" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+    </ScrollView>
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:id="@id/translate_sub_title2" android:paddingLeft="62.0px" android:paddingTop="19.0px" android:paddingBottom="6.0px" android:layout_width="fill_parent" android:layout_height="76.0px" android:maxWidth="470.0px" android:text="@string/translate_sub_title2" android:singleLine="true" />
+    <ScrollView android:id="@id/translate_scv2" android:paddingLeft="50.0px" android:paddingRight="50.0px" android:layout_width="fill_parent" android:layout_height="170.0px" android:layout_below="@id/translate_sub_title2" android:layout_alignParentLeft="true">
+        <TextView android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/translate_dialog_translate_lang" android:background="@drawable/asus_ep_text" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="170.0px" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="55.0px"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/translate_copy" android:layout_width="310.0px" android:layout_height="fill_parent" android:text="@string/translate_copy" style="@style/HoloButton" />
+        <Button android:textSize="20.0px" android:textColor="#ffffffff" android:id="@id/translate_lang_btn" android:layout_width="310.0px" android:layout_height="fill_parent" android:text="@string/translate_lang_btn" style="@style/HoloButton" />
+    </LinearLayout>
+</LinearLayout>

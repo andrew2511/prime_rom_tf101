@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/splashtopremote_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/about" />
+    </LinearLayout>
+    <TextView android:textSize="9.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/version_info" android:layout_width="fill_parent" android:layout_marginTop="3.0dip" android:text="@string/version_info" style="@style/view_help" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/copyright" android:layout_width="fill_parent" android:layout_marginTop="6.0dip" android:text="@string/copyright1" style="@style/view_help" />
+    <TextView android:textColor="@color/black" android:id="@id/copyright" android:layout_marginTop="16.0dip" android:text="@string/copyright2" style="@style/view_help" />
+    <TextView android:textColor="@color/black" android:id="@id/copyright" android:layout_marginTop="6.0dip" android:text="@string/copyright3" style="@style/view_help" />
+    <TextView android:textColor="@color/black" android:autoLink="web" android:id="@id/copyright" android:layout_marginTop="6.0dip" android:text="@string/copyright4" style="@style/view_help" />
+</LinearLayout>

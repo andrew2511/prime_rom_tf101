@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">Počet výsledků: %1$d</item>
+        <item quantity="one">Počet výsledků: %1$d</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">přibližný počet nalezených výsledků: %1$d</item>
+        <item quantity="one">nalezen přibližně %1$d výsledek</item>
+    </plurals>
+</resources>

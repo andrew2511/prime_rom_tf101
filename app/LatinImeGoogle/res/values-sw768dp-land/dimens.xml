@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboardHeight">58.0mm</dimen>
+    <dimen name="key_bottom_gap">1.5999756mm</dimen>
+    <dimen name="key_horizontal_gap">1.5999756mm</dimen>
+    <dimen name="popup_key_height">13.0mm</dimen>
+    <dimen name="keyboard_top_padding">1.0999756mm</dimen>
+    <dimen name="keyboard_bottom_padding">0.0mm</dimen>
+    <dimen name="key_preview_height">13.0mm</dimen>
+    <dimen name="key_letter_size">28.0dip</dimen>
+    <dimen name="key_label_text_size">20.0dip</dimen>
+    <dimen name="key_label_horizontal_alignment_padding">18.0dip</dimen>
+    <dimen name="candidate_strip_padding">40.0mm</dimen>
+</resources>

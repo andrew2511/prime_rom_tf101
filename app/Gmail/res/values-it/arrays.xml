@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Rispondi</item>
+        <item>Rispondi a tutti</item>
+        <item>Inoltra</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Archivia</item>
+        <item>Elimina</item>
+        <item>Invia</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Conversazione più recente</item>
+        <item>Conversazione meno recente</item>
+        <item>Elenco conversazioni</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Mostra conversazione più recente dopo eliminazione ecc.</item>
+        <item>Mostra conversazione meno recente dopo eliminazione ecc.</item>
+        <item>Mostra elenco conversazioni dopo eliminazione ecc.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Molto piccole</item>
+        <item>Piccole</item>
+        <item>Normali</item>
+        <item>Grandi</item>
+        <item>Molto grandi</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Mostra contenuti dei messaggi con testo molto piccolo</item>
+        <item>Mostra contenuti dei messaggi con testo piccolo</item>
+        <item>Mostra contenuti dei messaggi con testo normale</item>
+        <item>Mostra contenuti dei messaggi con testo grande</item>
+        <item>Mostra contenuti dei messaggi con testo molto grande</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Sempre</item>
+        <item>Solo in modalità silenziosa</item>
+        <item>Mai</item>
+    </string-array>
+</resources>

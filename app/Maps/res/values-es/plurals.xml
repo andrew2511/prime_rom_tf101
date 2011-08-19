@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">A %1$s kilómetros</item>
+        <item quantity="one">Dentro de un kilómetro</item>
+        <item quantity="few">A %1$s kilómetros</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Continúa %1$s kilómetros.</item>
+        <item quantity="one">Continúa un kilómetro.</item>
+        <item quantity="few">Continúa %1$s kilómetros.</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Continúa por %1$2$s %2$1$s kilómetros.</item>
+        <item quantity="one">Continúa por %2$s un kilómetro.</item>
+        <item quantity="few">Continúa por %1$2$s %2$1$s kilómetros.</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">En %1$s millas</item>
+        <item quantity="one">Dentro de una milla</item>
+        <item quantity="few">En %1$s millas</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Continúa %1$s millas.</item>
+        <item quantity="one">Continúa una milla.</item>
+        <item quantity="few">Continúa %1$s millas.</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Continúa por %1$2$s %2$1$s millas.</item>
+        <item quantity="one">Continúa por %2$s una milla.</item>
+        <item quantity="few">Continúa por %1$2$s %2$1$s millas.</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s comentarios</item>
+        <item quantity="one">%1$s comentario</item>
+        <item quantity="few">%1$s comentarios</item>
+    </plurals>
+</resources>

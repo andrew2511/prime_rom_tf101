@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <include layout="@layout/all_apps" />
+    <com.android.launcher2.Workspace android:id="@id/workspace" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="true" launcher:defaultScreen="2" launcher:cellCountX="4" launcher:cellCountY="4">
+        <include android:id="@id/cell1" layout="@layout/workspace_screen" />
+        <include android:id="@id/cell2" layout="@layout/workspace_screen" />
+        <include android:id="@id/cell3" layout="@layout/workspace_screen" />
+        <include android:id="@id/cell4" layout="@layout/workspace_screen" />
+        <include android:id="@id/cell5" layout="@layout/workspace_screen" />
+    </com.android.launcher2.Workspace>
+    <com.android.launcher2.ClippedImageView android:layout_gravity="bottom|left|center" android:id="@id/previous_screen" android:focusable="true" android:clickable="true" android:layout_width="93.0dip" android:layout_height="@dimen/button_bar_height" android:layout_marginLeft="6.0dip" android:src="@drawable/home_arrows_left" android:scaleType="center" android:onClick="previousScreen" launcher:ignoreZone="56.0dip" />
+    <com.android.launcher2.ClippedImageView android:layout_gravity="bottom|right|center" android:id="@id/next_screen" android:focusable="true" android:clickable="true" android:layout_width="93.0dip" android:layout_height="@dimen/button_bar_height" android:layout_marginRight="6.0dip" android:src="@drawable/home_arrows_right" android:scaleType="center" android:onClick="nextScreen" launcher:ignoreZone="-56.0dip" />
+    <com.android.launcher2.DeleteZone android:layout_gravity="right|center" android:id="@id/delete_zone" android:paddingLeft="@dimen/delete_zone_padding" android:visibility="invisible" android:layout_width="@dimen/delete_zone_size" android:layout_height="@dimen/delete_zone_size" android:layout_marginBottom="@dimen/half_status_bar_height" android:scaleType="center" android:drawableLeft="@drawable/delete_zone_selector" launcher:direction="vertical" />
+    <RelativeLayout android:layout_gravity="right|center" android:id="@id/all_apps_button_cluster" android:layout_width="@dimen/button_bar_height_portrait" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/half_status_bar_height">
+        <com.android.launcher2.HandleView android:id="@id/all_apps_button" android:src="@drawable/all_apps_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" launcher:direction="vertical" style="@style/HotseatButton" />
+        <ImageView android:id="@id/hotseat_left" android:src="@drawable/hotseat_phone" android:layout_below="@id/all_apps_button" android:onClick="launchHotSeat" style="@style/HotseatButton.Left" />
+        <ImageView android:id="@id/hotseat_right" android:src="@drawable/hotseat_browser" android:layout_above="@id/all_apps_button" android:onClick="launchHotSeat" style="@style/HotseatButton.Right" />
+    </RelativeLayout>
+</com.android.launcher2.DragLayer>

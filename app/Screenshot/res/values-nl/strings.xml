@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Screenshot</string>
+    <string name="screenshot_dialog_message">Screenshot is opgeslagen. In screenshotmodus blijven?</string>
+    <string name="screenshot_dialog_yes">Ja</string>
+    <string name="screenshot_dialog_no">Nee</string>
+    <string name="screenshot_toast_message_saved">Screenshot is opgeslagen.</string>
+    <string name="screenshot_toast_message_failed">Opslaan screenshot in modus bestandoverdracht mislukt.</string>
+    <string name="screenshot_toast_message_failed_save">Opslaan screenshot mislukt.</string>
+    <string name="screenshot_toast_message_full">Opslaan screenshot mislukt. Onvoldoende geheugen.</string>
+</resources>

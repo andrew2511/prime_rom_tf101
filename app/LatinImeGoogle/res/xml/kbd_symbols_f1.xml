@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case latin:hasVoiceKey="true">
+            <Key latin:keyStyle="micKeyStyle" />
+        </case>
+        <default>
+            <Key latin:keyLabel="," latin:keyStyle="settingsPopupStyle" />
+        </default>
+    </switch>
+</merge>

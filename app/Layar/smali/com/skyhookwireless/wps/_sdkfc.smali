@@ -1,0 +1,202 @@
+.class public final Lcom/skyhookwireless/wps/_sdkfc;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static _sdke:Z
+
+
+# instance fields
+.field private final _sdka:Ljava/lang/String;
+
+.field private final _sdkb:J
+
+.field private final _sdkc:J
+
+.field private final _sdkd:Lcom/skyhookwireless/wps/TilingListener;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;JJLcom/skyhookwireless/wps/TilingListener;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    iput-wide p2, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    iput-wide p4, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+
+    iput-object p6, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkd:Lcom/skyhookwireless/wps/TilingListener;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public _sdka()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public _sdkb()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    return-wide v0
+.end method
+
+.method public _sdkc()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+
+    return-wide v0
+.end method
+
+.method public _sdkd()Lcom/skyhookwireless/wps/TilingListener;
+    .locals 1
+
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkd:Lcom/skyhookwireless/wps/TilingListener;
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 5
+
+    const/4 v4, 0x0
+
+    if-nez p1, :cond_0
+
+    move v0, v4
+
+    :goto_0
+    return v0
+
+    :cond_0
+    :try_start_0
+    check-cast p1, Lcom/skyhookwireless/wps/_sdkfc;
+
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p1, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    if-nez v0, :cond_2
+
+    :cond_1
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    iget-object v1, p1, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    if-eq v0, v1, :cond_3
+
+    move v0, v4
+
+    goto :goto_0
+
+    :cond_2
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    iget-object v1, p1, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    move v0, v4
+
+    goto :goto_0
+
+    :cond_3
+    iget-wide v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    iget-wide v2, p1, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_4
+
+    iget-wide v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+
+    iget-wide v2, p1, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+    :try_end_0
+    .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_4
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_4
+    move v0, v4
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    move v0, v4
+
+    goto :goto_0
+.end method
+
+.method public hashCode()I
+    .locals 6
+
+    const/16 v5, 0x20
+
+    const/16 v0, 0x11
+
+    mul-int/lit8 v0, v0, 0x25
+
+    iget-object v0, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdka:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    add-int/lit16 v0, v0, 0x275
+
+    mul-int/lit8 v0, v0, 0x25
+
+    iget-wide v1, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    iget-wide v3, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkb:J
+
+    ushr-long/2addr v3, v5
+
+    xor-long/2addr v1, v3
+
+    long-to-int v1, v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x25
+
+    iget-wide v1, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+
+    iget-wide v3, p0, Lcom/skyhookwireless/wps/_sdkfc;->_sdkc:J
+
+    ushr-long/2addr v3, v5
+
+    xor-long/2addr v1, v3
+
+    long-to-int v1, v1
+
+    add-int/2addr v0, v1
+
+    return v0
+.end method

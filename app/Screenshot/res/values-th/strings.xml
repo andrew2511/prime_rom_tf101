@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">ภาพถ่ายหน้าจอ</string>
+    <string name="screenshot_dialog_message">ภาพถ่ายหน้าจอถูกบันทึกแล้ว อยู่ในโหมดภาพถ่ายหน้าจอต่อ?</string>
+    <string name="screenshot_dialog_yes">ใช่</string>
+    <string name="screenshot_dialog_no">ไม่</string>
+    <string name="screenshot_toast_message_saved">ภาพถ่ายหน้าจอถูกบันทึกแล้ว</string>
+    <string name="screenshot_toast_message_failed">ไม่สามารถบันทึกภาพถ่ายหน้าจอในขณะที่อยู่ในโหมดถ่ายโอนไฟล์ได้</string>
+    <string name="screenshot_toast_message_failed_save">ไม่สามารถบันทึกภาพถ่ายหน้าจอ</string>
+    <string name="screenshot_toast_message_full">ไม่สามารถบันทึกภาพถ่ายหน้าจอ หน่วยความจำไม่เพียงพอ</string>
+</resources>

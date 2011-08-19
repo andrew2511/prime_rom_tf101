@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <Row latin:keyWidth="9.000004%p" latin:rowEdgeFlags="top">
+        <Key latin:popupCharacters="@string/alternates_for_a" latin:keyEdgeFlags="left" latin:keyLabel="a" />
+        <Key latin:popupCharacters="@string/alternates_for_z" latin:keyLabel="z" />
+        <Key latin:popupCharacters="@string/alternates_for_e" latin:keyLabel="e" />
+        <Key latin:popupCharacters="@string/alternates_for_r" latin:keyLabel="r" />
+        <Key latin:popupCharacters="@string/alternates_for_t" latin:keyLabel="t" />
+        <Key latin:popupCharacters="@string/alternates_for_y" latin:keyLabel="y" />
+        <Key latin:popupCharacters="@string/alternates_for_u" latin:keyLabel="u" />
+        <Key latin:popupCharacters="@string/alternates_for_i" latin:keyLabel="i" />
+        <Key latin:popupCharacters="@string/alternates_for_o" latin:keyLabel="o" />
+        <Key latin:popupCharacters="@string/alternates_for_p" latin:keyLabel="p" />
+        <Key latin:keyWidth="-10.000002%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" latin:keyXPos="-10.000002%p" />
+    </Row>
+    <Row latin:keyWidth="9.000004%p">
+        <Key latin:popupCharacters="@string/alternates_for_q" latin:keyEdgeFlags="left" latin:keyLabel="q" />
+        <Key latin:popupCharacters="@string/alternates_for_s" latin:keyLabel="s" />
+        <Key latin:popupCharacters="@string/alternates_for_d" latin:keyLabel="d" />
+        <Key latin:keyLabel="f" />
+        <Key latin:popupCharacters="@string/alternates_for_g" latin:keyLabel="g" />
+        <Key latin:keyLabel="h" />
+        <Key latin:keyLabel="j" />
+        <Key latin:popupCharacters="@string/alternates_for_k" latin:keyLabel="k" />
+        <Key latin:popupCharacters="@string/alternates_for_l" latin:keyLabel="l" />
+        <Key latin:keyLabel="m" />
+        <Key latin:keyWidth="-14.600002%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" latin:keyXPos="-14.600002%p" />
+    </Row>
+    <Row latin:keyWidth="8.899999%p">
+        <Key latin:keyWidth="10.000002%p" latin:keyEdgeFlags="left" latin:keyStyle="shiftKeyStyle" />
+        <Key latin:popupCharacters="@string/alternates_for_w" latin:keyLabel="w" />
+        <Key latin:keyLabel="x" />
+        <Key latin:popupCharacters="@string/alternates_for_c" latin:keyLabel="c" />
+        <Key latin:popupCharacters="@string/alternates_for_v" latin:keyLabel="v" />
+        <Key latin:keyLabel="b" />
+        <Key latin:popupCharacters="@string/alternates_for_n" latin:keyLabel="n" />
+        <Key latin:keyLabel="'" />
+        <switch>
+            <case latin:mode="email">
+                <Key latin:keyLabel="," />
+                <Key latin:keyLabel="." />
+            </case>
+            <default>
+                <Key latin:popupCharacters="!" latin:keyLabel="," latin:manualTemporaryUpperCaseCode="33" latin:keyHintIcon="@drawable/key_hint_exclamation_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_exclamation_large_holo" />
+                <Key latin:popupCharacters="\?" latin:keyLabel="." latin:manualTemporaryUpperCaseCode="63" latin:keyHintIcon="@drawable/key_hint_question_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_question_large_holo" />
+            </default>
+        </switch>
+        <include latin:keyboardLayout="@xml/kbd_row3_right" />
+    </Row>
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row4" />
+</merge>

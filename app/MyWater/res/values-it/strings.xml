@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Sfondo animato predefinito ASUS</string>
+    <string name="mywater_setting">Impostazioni ASUS MyWater</string>
+    <string name="enable_rotation">Abilita effetto movimento</string>
+    <string name="enable_rotation_description">"La superficie dell'acqua segue il movimento di rotazione del dispositivo."</string>
+</resources>

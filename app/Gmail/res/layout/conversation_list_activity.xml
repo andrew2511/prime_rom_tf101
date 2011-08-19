@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/custom_title" />
+    <fragment android:name="com.google.android.gm.ConversationListFragment" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/footer_organize" android:background="@android:drawable/bottom_bar" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/conv_notification_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/action_bar_height" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_status_view" android:background="@drawable/banner_background_search" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/notification_view_height" android:minHeight="@dimen/notification_view_height">
+            <com.google.android.gm.SearchStatusTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/search_status_text_view" android:paddingLeft="8.0dip" android:paddingTop="@dimen/searchStatusTopPadding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/search_results_header" android:layout_weight="0.8" gradientWidth="@dimen/searchStatusGradientWidth" gradientStartColor="@color/searchStatusGradientStart" gradientEndColor="@color/searchStatusGradientEnd" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/white" android:gravity="right|center" android:id="@id/search_result_count_view" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" />
+        </LinearLayout>
+        <view android:id="@id/conv_undo_view" android:background="@drawable/banner_background_undo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/undo_view_height" android:minHeight="@dimen/undo_view_height" android:layout_below="@id/search_status_view" class="com.google.android.gm.UndoBarView">
+            <include layout="@layout/undo_bar" />
+        </view>
+    </RelativeLayout>
+</LinearLayout>

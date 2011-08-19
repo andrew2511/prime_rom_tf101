@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bubbleTemplate" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <com.google.googlenav.ui.android.TemplateView android:id="@id/bubbleContent1" android:background="@drawable/popup_pointer_button_top" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxTextWidth="@dimen/bubble_text_width">
+        <include layout="@layout/template_left_image_thumbnail" />
+        <include layout="@layout/template_text_parent" />
+        <include layout="@layout/template_flush_right_image" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/disclosure_button" android:background="@drawable/selected_background" android:paddingLeft="1.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expander_ic_minimized" android:scaleType="center" />
+    </com.google.googlenav.ui.android.TemplateView>
+    <com.google.googlenav.ui.android.TemplateView android:id="@id/bubbleContent2" android:background="@drawable/popup_pointer_button_bottom" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxTextWidth="@dimen/bubble_text_width">
+        <include layout="@layout/template_left_image" />
+        <include layout="@layout/template_text_parent" />
+        <include layout="@layout/template_flush_right_image" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/disclosure_button" android:background="@drawable/selected_background" android:paddingLeft="1.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expander_ic_minimized" android:scaleType="center" />
+    </com.google.googlenav.ui.android.TemplateView>
+    <com.google.googlenav.ui.android.TemplateViewWithImageDivider android:id="@id/bubbleWithClickableIcons" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxTextWidth="@dimen/bubble_text_width">
+        <ImageView android:gravity="center" android:layout_gravity="left|center" android:id="@id/left_image" android:background="@drawable/selected_background" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="9.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        <ImageView android:id="@id/left_image_divider" android:paddingRight="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bubble_divider" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/text_parent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/right_image_divider" android:paddingLeft="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bubble_divider" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/right_image" android:background="@drawable/selected_background" android:paddingLeft="9.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/disclosure_button" android:background="@drawable/selected_background" android:paddingLeft="1.0dip" android:paddingTop="2.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expander_ic_minimized" android:scaleType="center" />
+    </com.google.googlenav.ui.android.TemplateViewWithImageDivider>
+</LinearLayout>

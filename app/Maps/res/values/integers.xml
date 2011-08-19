@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="da_mylocation_dot_opaque_percent">53</integer>
+    <integer name="da_mylocation_chevron_opaque_percent">27</integer>
+    <integer name="da_mylocation_chevron_margin_percent">13</integer>
+    <integer name="da_mylocation_chevron_margin_walking_percent">33</integer>
+    <integer name="vm_mylocation_dot_opaque_percent">40</integer>
+    <integer name="vm_mylocation_chevron_opaque_percent">27</integer>
+</resources>

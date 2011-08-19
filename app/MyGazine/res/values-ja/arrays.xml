@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>画面の大きさに合わせる</item>
+        <item>フルサイズ（トリミングされる場合あり）</item>
+    </string-array>
+</resources>

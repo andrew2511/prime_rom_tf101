@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Remover realce</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Adicionar realce</item>
+        <item>Tradução</item>
+        <item>Texto para voz</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Inglês</item>
+        <item>Francês</item>
+        <item>Japonês</item>
+        <item>Chinês</item>
+        <item>Alemão</item>
+        <item>Chinês simplificado</item>
+        <item>Russo</item>
+        <item>Espanhol</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Inglês para Chinês</item>
+        <item>Inglês para Francês</item>
+        <item>Inglês para Russo</item>
+    </string-array>
+</resources>

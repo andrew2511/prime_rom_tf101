@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/two_panel_periodical_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/mast_head_fragment" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" class="com.amazon.kcp.periodicals.fragments.MastHeadFragment" />
+        <View android:background="@color/periodical_view_separator_color" android:layout_width="fill_parent" android:layout_height="@dimen/periodical_view_separator_size" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <FrameLayout android:id="@id/sections_list_fragment" android:layout_width="600.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/periodical_view_separator_color" android:layout_width="@dimen/periodical_view_separator_size" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+            <FrameLayout android:id="@id/articles_list_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/text_sizes_dropdown" layout="@layout/text_sizes" />
+    <include android:id="@id/brightness_textcolors_options" layout="@layout/brightness_textcolors_layout" />
+</FrameLayout>

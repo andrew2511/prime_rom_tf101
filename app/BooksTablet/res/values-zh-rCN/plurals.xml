@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloading_books">
+        <item quantity="other">正在下载第 %1$1$d 本（共 %2$2$d 本）</item>
+        <item quantity="one">一本书</item>
+    </plurals>
+    <plurals name="concurrent_access_denied_message">
+        <item quantity="other">抱歉，此图书只能同时在 %1$d 台设备或计算机上阅读，而您已达到该限制。请在其他阅读器中关闭此图书，过几分钟后重试。</item>
+        <item quantity="one">抱歉，此图书只能同时在一台设备或计算机上阅读，而您已达到该限制。请在其他阅读器中关闭此图书，过几分钟后重试。</item>
+    </plurals>
+</resources>

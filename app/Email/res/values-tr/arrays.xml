@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>İletilerin içeriğini çok küçük boyutlu metin ile görüntüle</item>
+        <item>İletilerin içeriğini küçük boyutlu metin ile görüntüle</item>
+        <item>İletilerin içeriğini normal boyutlu metin ile görüntüle</item>
+        <item>İletilerin içeriğini büyük boyutlu metin ile görüntüle</item>
+        <item>İletilerin içeriğini çok büyük boyutlu metin ile görüntüle</item>
+    </string-array>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_messages">
+        <item quantity="other">ย้ายข้อความ</item>
+        <item quantity="one">ย้ายข้อความ</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="other">%1$1$d ยังไม่ได้อ่าน (%2$2$s)</item>
+        <item quantity="one">%1$1$d ฉบับที่ยังไม่ได้อ่าน (%2$2$s)</item>
+        <item quantity="few">%1$1$d ยังไม่ได้อ่าน (%2$2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="other">ในบัญชี %d บัญชี</item>
+        <item quantity="few">ในบัญชี %d บัญชี</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="other">%1$d บัญชี</item>
+        <item quantity="one">%1$d บัญชี</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d รายการที่เลือกไว้</item>
+        <item quantity="one">%d รายการที่เลือกไว้</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="other">เอกสารแนบ %1$d</item>
+        <item quantity="one">เอกสารแนบ %1$d</item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="other">ยกเลิกข้อความเหล่านี้หรือไม่</item>
+        <item quantity="one">ยกเลิกข้อความนี้หรือไม่</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="other">ข้อความถูกลบแล้ว</item>
+        <item quantity="one">ลบข้อความแล้ว</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="other">%1$1$d ข้อความถูกย้ายไปที่ %2$2$s</item>
+        <item quantity="one">%1$1$d ข้อความถูกย้ายไปที่ %2$2$s</item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="other">%dไบต์</item>
+        <item quantity="one">%dไบต์</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="other">%dKB</item>
+        <item quantity="one">%dKB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="other">%dMB</item>
+        <item quantity="one">%dMB</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="other">%dGB</item>
+        <item quantity="one">%dGB</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">ผลลัพธ์ %1$1$d รายการจาก %2$2$s รายการ</item>
+        <item quantity="one">ผลลัพธ์ %1$1$d รายการจาก %2$2$s รายการ</item>
+    </plurals>
+</resources>

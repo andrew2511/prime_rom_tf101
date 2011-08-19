@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" package="com.android.wallpaper.livepicker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <original-package android:name="com.android.wallpaper.livepicker" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT" />
+    <uses-permission android:name="android.permission.BIND_WALLPAPER" />
+    <application android:label="@string/application_name" android:icon="@drawable/ic_launcher_live_wallpaper">
+        <activity android:theme="@style/LivePickerTheme" android:label="@string/live_wallpaper_picker_label" android:icon="@drawable/ic_launcher_live_wallpaper" android:name="LiveWallpaperActivity" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.LIVE_WALLPAPER_CHOOSER" />
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview" android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        <activity android:theme="@style/Preview" android:label="@string/live_wallpaper_preview_title" android:icon="@drawable/ic_launcher_live_wallpaper" android:name="LiveWallpaperPreview" />
+    </application>
+</manifest>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/ic_apps_books</item>
+        <item name="android:background">@null</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.PageTurn" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="Animation.ReaderSettings" parent="@style/Animation">
+        <item name="android:fragmentOpenEnterAnimation">@animator/fade_in</item>
+        <item name="android:fragmentCloseEnterAnimation">@animator/fade_out</item>
+        <item name="android:fragmentCloseExitAnimation">@animator/fade_out</item>
+    </style>
+    <style name="List" />
+    <style name="List.Navigation" parent="@style/List">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+    </style>
+    <style name="List.Navigation.Title" parent="@style/List.Navigation">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="List.Navigation.Position" parent="@style/List.Navigation">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="List.Search" parent="@style/List">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+    </style>
+    <style name="List.Search.Snippet" parent="@style/List.Search">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+    <style name="List.Search.Position" parent="@style/List.Search">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">top</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="List.Search.Empty" parent="@style/List.Search">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="List.VolumeSuggest" parent="@style/List" />
+    <style name="List.VolumeSuggest.Title" parent="@style/List.VolumeSuggest">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="List.VolumeSuggest.Creator" parent="@style/List.VolumeSuggest">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TabText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Scrub" />
+    <style name="Scrub.Callout" parent="@style/Scrub">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:maxWidth">300.0dip</item>
+        <item name="android:minWidth">300.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Scrub.Summary" parent="@style/Scrub">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Preference" />
+    <style name="Preference.Column" parent="@style/Preference">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/settings_column_padding</item>
+        <item name="android:layout_marginTop">@dimen/settings_column_padding</item>
+        <item name="android:layout_marginBottom">@dimen/settings_column_padding</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Preference.Column.Last" parent="@style/Preference.Column">
+        <item name="android:layout_marginRight">@dimen/settings_column_padding</item>
+    </style>
+    <style name="Preference.Spinner" parent="@style/Preference">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="Preference.CheckBox" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="Preference.RadioGroup" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="Preference.RadioGroup.WithText" parent="@style/Preference.RadioGroup">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Preference.RadioButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_radiotext</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Preference.RadioButton.IconOnly" parent="@style/Preference.RadioButton">
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="Preference.Button" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Preference.Item" parent="@style/Preference">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Preference.Item.Radio" parent="@style/Preference.Item" />
+    <style name="Preference.Title" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Preference.Subtitle" parent="@style/Preference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="Theme" parent="@android:style/Theme.Holo">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="carouselBackgroundDrawable">@drawable/carousel_bg_dark</item>
+        <item name="actionBarDrawable">@drawable/actionbar_panel_dark</item>
+        <item name="navigationColor">@color/navigation_dark</item>
+        <item name="menuShopDrawable">@drawable/ic_market_dark</item>
+        <item name="menuAboutDrawable">@drawable/ic_menu_about_dark</item>
+        <item name="menuAccountsDrawable">@drawable/ic_menu_accounts_dark</item>
+        <item name="menuDeleteDrawable">@drawable/ic_menu_delete_dark</item>
+        <item name="menuPinDrawable">@drawable/ic_menu_pin_dark</item>
+        <item name="menuSearchDrawable">@drawable/ic_menu_search_dark</item>
+        <item name="menuSettingsDrawable">@drawable/ic_menu_settings_dark</item>
+        <item name="menuTocDrawable">@drawable/ic_menu_toc_dark</item>
+        <item name="scrubberDrawable">@drawable/scrubber_dark</item>
+        <item name="scrubberCalloutDrawable">@drawable/scrubber_callout_dark</item>
+        <item name="scrubberTrackDrawable">@drawable/scrubber_track_dark</item>
+        <item name="nightMode">true</item>
+    </style>
+    <style name="Theme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="carouselBackgroundDrawable">@drawable/carousel_bg</item>
+        <item name="actionBarDrawable">@drawable/actionbar_panel_light</item>
+        <item name="navigationColor">@color/navigation_light</item>
+        <item name="menuShopDrawable">@drawable/ic_market_light</item>
+        <item name="menuAboutDrawable">@drawable/ic_menu_about_light</item>
+        <item name="menuAccountsDrawable">@drawable/ic_menu_accounts_light</item>
+        <item name="menuDeleteDrawable">@drawable/ic_menu_delete_light</item>
+        <item name="menuPinDrawable">@drawable/ic_menu_pin_light</item>
+        <item name="menuSearchDrawable">@drawable/ic_menu_search_light</item>
+        <item name="menuSettingsDrawable">@drawable/ic_menu_settings_light</item>
+        <item name="menuTocDrawable">@drawable/ic_menu_toc_light</item>
+        <item name="scrubberDrawable">@drawable/scrubber_light</item>
+        <item name="scrubberCalloutDrawable">@drawable/scrubber_callout_light</item>
+        <item name="scrubberTrackDrawable">@drawable/scrubber_track_light</item>
+        <item name="nightMode">false</item>
+    </style>
+</resources>

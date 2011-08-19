@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/zip_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/postal_code" android:layout_weight="2.0" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/city_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/city" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/zip_entry" android:nextFocusDown="@id/city_entry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2.0" android:inputType="textPostalAddress|textCapWords" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <EditText android:id="@id/city_entry" android:nextFocusUp="@id/zip_entry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2.0" android:inputType="textPostalAddress" />
+    </LinearLayout>
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/address1_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:text="@string/billing_address" />
+    <EditText android:id="@id/address1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/address2_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:text="@string/address_continued" />
+    <EditText android:id="@id/address2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+    <EditText android:id="@id/state_entry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress|textCapWords" />
+</merge>

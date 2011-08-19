@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.GroupMembershipView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/kind_header" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="?android:scrollbarSize" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/kind_title" android:ellipsize="marquee" android:id="@id/kind_title" android:focusable="true" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <Button android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="left" android:id="@id/group_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.contacts.editor.GroupMembershipView>

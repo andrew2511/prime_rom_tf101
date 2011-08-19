@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_star_holo_light" android:id="@id/star" android:title="@string/star" android:alphabeticShortcut="@string/trigger_star_char" />
+    <item android:icon="@drawable/ic_spam_normal_holo_light" android:id="@id/report_spam" android:title="@string/report_spam" />
+    <item android:icon="@drawable/ic_menu_mute" android:id="@id/mute" android:title="@string/mute" />
+    <item android:icon="@drawable/ic_menu_mark_read_holo_light" android:id="@id/read_unread" android:title="@string/read_unread" />
+    <item android:icon="@drawable/ic_menu_gmail_deselect_mail" android:id="@id/deselect_all" android:title="@string/deselect_all" />
+</menu>

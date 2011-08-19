@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">ตกลงเข้าร่วม: %s</string>
+    <string name="meeting_declined">ปฏิเสธ: %s</string>
+    <string name="meeting_tentative">ชั่วคราว: %s</string>
+    <string name="meeting_canceled">ยกเลิกแล้ว: %s</string>
+    <string name="meeting_updated">อัปเดต: %s</string>
+    <string name="meeting_when">เวลา: %s</string>
+    <string name="meeting_where">สถานที่: %s</string>
+    <string name="meeting_recurring">เวลา: %s (เกิดซ้ำ)</string>
+    <string name="notification_exchange_calendar_added">เพิ่มปฏิทิน Exchange แล้ว</string>
+    <string name="app_name">บริการแลกเปลี่ยน</string>
+    <string name="exception_cancel">กิจกรรมถูกยกเลิกแล้วในวันที่: %s</string>
+    <string name="exception_updated">วันที่ของกิจกรรมนี้ถูกเปลี่ยนเป็น: %s</string>
+</resources>

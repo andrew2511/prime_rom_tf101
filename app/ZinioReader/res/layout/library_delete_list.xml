@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/library_delete" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/buttons" android:background="@drawable/bottom_bar" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="13.329987sp" android:textColor="#ffffffff" android:id="@id/button_delete" android:background="@drawable/button_delete" android:padding="0.0dip" android:layout_width="98.0dip" android:layout_height="35.329987dip" android:layout_marginRight="3.3299866dip" android:text="@string/delete" />
+            <Button android:textSize="13.329987sp" android:textColor="#ffffffff" android:id="@id/btn_cancel" android:background="@drawable/button_cancel" android:padding="0.0dip" android:layout_width="98.0dip" android:layout_height="35.329987dip" android:layout_marginLeft="3.3299866dip" android:text="@string/cancel" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/storage_progress" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="-4.0dip" android:layout_above="@id/buttons">
+            <ImageView android:gravity="center_vertical" android:id="@id/memory_icon" android:focusable="false" android:layout_width="15.609985dip" android:layout_height="13.329987dip" android:layout_marginLeft="13.329987dip" android:layout_marginTop="3.3299866dip" android:src="@drawable/memory_icon" android:layout_alignParentLeft="true" />
+            <ProgressBar android:id="@id/storage_meter" android:layout_width="fill_parent" android:layout_height="13.329987dip" android:layout_marginLeft="13.329987dip" android:layout_marginTop="3.3299866dip" android:layout_marginRight="13.329987dip" android:max="100" android:progress="34" android:progressDrawable="@drawable/progressbar_library_delete" android:layout_toLeftOf="@id/storage_label" android:layout_toRightOf="@id/memory_icon" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="7.779999sp" android:textColor="#ffc3c3c3" android:gravity="center_vertical" android:id="@id/storage_label" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="13.329987dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ListView android:textColor="#fff4f4f4" android:id="@android:id/list" android:paddingTop="13.329987dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00ffffff" android:cacheColorHint="#00000000" android:divider="#00000000" android:layout_above="@id/storage_progress" android:layout_below="@id/sort_buttons" />
+    </RelativeLayout>
+    <com.zinio.mobile.android.view.BottomToolbarActivity android:gravity="center" android:layout_gravity="bottom" android:id="@id/bottom_toolbar" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="#ffffffff" android:id="@id/deleteall_button" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/delete_all" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.zinio.mobile.android.view.BottomToolbarActivity>
+</RelativeLayout>

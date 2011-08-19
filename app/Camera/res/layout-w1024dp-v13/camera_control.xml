@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/control_panel" android:layout_width="@dimen/camera_control_width" android:layout_height="fill_parent" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+    <include android:id="@id/zoom_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zoom_picker_margin_top" android:layout_marginRight="@dimen/zoom_picker_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/zoom_picker" />
+    <com.android.camera.ui.IndicatorWheel android:id="@id/indicator_wheel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.android.camera.ShutterButton android:id="@id/shutter_button" android:background="@drawable/btn_shutter" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ic_camera_shutter" android:scaleType="center" />
+    </com.android.camera.ui.IndicatorWheel>
+    <com.android.camera.SwitcherSet android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/camera_switch" android:padding="14.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mode_switcher_margin_right" android:layout_marginBottom="@dimen/mode_switcher_margin_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <RadioButton android:id="@id/switch_off_button" android:background="@drawable/btn_ic_mode_switch_video" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@android:color/transparent" />
+        <com.android.camera.HorizontalSwitcher android:id="@id/switcher" android:background="@drawable/toggle_switch_bg_holo_dark" android:layout_width="50.0dip" android:layout_height="18.0dip" android:layout_marginLeft="@dimen/mode_switcher_inner_margin" android:layout_marginRight="@dimen/mode_switcher_inner_margin" android:src="@drawable/toggle_switch_control_holo_dark" />
+        <RadioButton android:id="@id/switch_on_button" android:background="@drawable/btn_ic_mode_switch_camera" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@android:color/transparent" />
+    </com.android.camera.SwitcherSet>
+    <com.android.camera.ui.CameraPicker android:id="@id/camera_picker" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/camera_switcher_margin_right" android:layout_marginBottom="@dimen/camera_switcher_margin_bottom" android:layout_toLeftOf="@id/camera_switch" android:layout_alignParentBottom="true" />
+</RelativeLayout>

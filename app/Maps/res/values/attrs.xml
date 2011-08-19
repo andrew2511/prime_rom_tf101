@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="maxTextWidth" format="dimension" />
+    <attr name="desiredTextSize" format="dimension" />
+    <attr name="minTextSize" format="dimension" />
+    <attr name="da_desiredTextSize" format="dimension" />
+    <attr name="da_minTextSize" format="dimension" />
+    <attr name="da_title" format="string" />
+    <attr name="da_image" format="reference" />
+</resources>

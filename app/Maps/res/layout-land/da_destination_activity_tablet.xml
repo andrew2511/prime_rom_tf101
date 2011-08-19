@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/da_destination_activity_background_tablet" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <include android:id="@id/buttons" layout="@layout/da_destination_activity_btn_group_tablet" />
+    <ListView android:layout_gravity="left" android:id="@android:id/list" android:layout_width="350.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/da_destination_activity_btn_margin_tablet" android:layout_toRightOf="@id/buttons" android:layout_alignTop="@id/buttons" android:layout_alignBottom="@id/buttons" />
+</RelativeLayout>

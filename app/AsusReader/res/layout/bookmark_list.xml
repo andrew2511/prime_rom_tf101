@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bookmark_dialog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/title_bar" android:background="@drawable/asus_ep_bar_title" android:paddingLeft="45.0px" android:paddingTop="29.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bookmark_list_title" android:singleLine="true" />
+    <ListView android:id="@id/bookmark_list" android:background="@drawable/asus_ep_bar_window_center" android:focusable="true" android:layout_width="576.0px" android:layout_height="500.0px" android:drawSelectorOnTop="false" />
+    <LinearLayout android:gravity="center_horizontal" android:background="@drawable/asus_ep_bottom_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bookmark_list" android:layout_alignParentLeft="true" />
+</LinearLayout>

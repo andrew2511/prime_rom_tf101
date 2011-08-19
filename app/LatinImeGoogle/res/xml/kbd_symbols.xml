@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="10.000002%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_currency_key_styles" />
+    <Row latin:rowEdgeFlags="top">
+        <Key latin:popupCharacters="¹,½,⅓,¼,⅛" latin:keyEdgeFlags="left" latin:keyLabel="1" />
+        <Key latin:popupCharacters="²,⅔" latin:keyLabel="2" />
+        <Key latin:popupCharacters="³,¾,⅜" latin:keyLabel="3" />
+        <Key latin:popupCharacters="⁴" latin:keyLabel="4" />
+        <Key latin:popupCharacters="⅝" latin:keyLabel="5" />
+        <Key latin:keyLabel="6" />
+        <Key latin:popupCharacters="⅞" latin:keyLabel="7" />
+        <Key latin:keyLabel="8" />
+        <Key latin:keyLabel="9" />
+        <Key latin:keyWidth="0.0%p" latin:popupCharacters="ⁿ,∅" latin:keyEdgeFlags="right" latin:keyLabel="0" />
+    </Row>
+    <Row>
+        <Key latin:keyEdgeFlags="left" latin:keyLabel="\@" />
+        <Key latin:keyLabel="\#" />
+        <Key latin:keyStyle="currencyKeyStyle" />
+        <Key latin:popupCharacters="‰" latin:keyLabel="%" />
+        <Key latin:keyLabel="&amp;" />
+        <Key latin:popupCharacters="†,‡,★" latin:keyLabel="*" />
+        <Key latin:popupCharacters="_,–,—" latin:keyLabel="-" />
+        <Key latin:popupCharacters="±" latin:keyLabel="+" />
+        <Key latin:popupCharacters="[,{,&lt;" latin:keyLabel="(" />
+        <Key latin:keyWidth="0.0%p" latin:popupCharacters="],},>" latin:keyEdgeFlags="right" latin:keyLabel=")" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="14.999998%p" latin:keyEdgeFlags="left" latin:keyStyle="altKeyStyle" />
+        <Key latin:popupCharacters="¡" latin:keyLabel="!" />
+        <Key latin:popupCharacters="“,”,«,»" latin:maxPopupKeyboardColumn="6" latin:keyLabel="&quot;" />
+        <Key latin:popupCharacters="‘,’,‚,‛" latin:keyLabel="'" />
+        <Key latin:keyLabel=":" />
+        <Key latin:keyLabel=";" />
+        <Key latin:keyLabel="/" />
+        <Key latin:popupCharacters="¿" latin:keyLabel="\?" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" />
+    </Row>
+    <include latin:keyboardLayout="@xml/kbd_symbols_row4" />
+</Keyboard>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case latin:passwordInput="true">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_dollar" latin:keyLabel="$" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="ca" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="CY">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="fi" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="fr" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="de" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="el" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="IE">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="it" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="LU">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="MT">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="ME">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="nl" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="pt" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="sk" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="sl" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:languageCode="es" latin:countryCode="">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_euro" latin:keyLabel="€" latin:styleName="currencyKeyStyle" />
+        </case>
+        <case latin:countryCode="GB">
+            <key-style latin:popupCharacters="@string/alternates_for_currency_pound" latin:keyLabel="£" latin:styleName="currencyKeyStyle" />
+        </case>
+        <default>
+            <key-style latin:popupCharacters="@string/alternates_for_currency_dollar" latin:keyLabel="$" latin:styleName="currencyKeyStyle" />
+        </default>
+    </switch>
+</merge>

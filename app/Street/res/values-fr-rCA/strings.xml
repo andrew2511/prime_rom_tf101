@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Afficher la carte</string>
+    <string name="report_inappropriate_image">"Signaler l'image"</string>
+    <string name="toggle_compass_mode">Mode Boussole</string>
+    <string name="compass_mode_on">Mode Boussole activé.</string>
+    <string name="compass_mode_off">Mode Boussole désactivé.</string>
+    <string name="waiting_for_network">Connexion de données perdue. Reconnexion en cours…</string>
+    <string name="panorama_disabled">"L'image n'est plus disponible."</string>
+    <string name="service_unavailable">Service Street View non disponible.</string>
+    <string name="loading">Chargement en cours</string>
+    <string name="no_panorama_data">"Aucune donnée de panorama n'est configurée."</string>
+    <string name="invalid_panorama_data">Panorama incorrect.</string>
+    <string name="click_to_go_toast">"Faites glisser l'icône de personnage là où vous désirez aller."</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Ce programme nécessite une connexion de données; il tentera automatiquement de se reconnecter. Veuillez vérifier la puissance du signal. Le mode avion est-il actif? Le transfert de données en itinérance est-il désactivé?</string>
+    <string name="whats_new_header">Quelles sont les nouveautés de Street View?</string>
+    <string name="whats_new_c2g">"Rendez-vous à n'importe quel lieu affiché. Prenez Pegman dans le coin inférieur gauche et déposez-le là où vous voulez aller."</string>
+    <string name="terms_and_privacy">Modalités et confidentialité</string>
+    <string name="terms_and_conditions">Conditions générales</string>
+    <string name="privacy_policy">Règles de confidentialité</string>
+</resources>

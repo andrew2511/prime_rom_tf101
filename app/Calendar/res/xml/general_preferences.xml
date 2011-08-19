@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_general_title">
+        <CheckBoxPreference android:title="@string/preferences_hide_declined_title" android:key="preferences_hide_declined" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/preferences_show_week_num_title" android:key="preferences_show_week_num" android:defaultValue="false" />
+        <ListPreference android:entries="@array/preferences_week_start_day_labels" android:title="@string/preferences_week_start_day_title" android:key="preferences_week_start_day" android:defaultValue="@string/preferences_week_start_day_default" android:dialogTitle="@string/preferences_week_start_day_dialog" android:entryValues="@array/preferences_week_start_day_values" />
+        <CheckBoxPreference android:title="@string/preferences_use_home_tz_title" android:key="preferences_home_tz_enabled" android:summary="@string/preferences_use_home_tz_descrip" android:defaultValue="false" />
+        <ListPreference android:entries="@array/timezone_labels" android:title="@string/preferences_home_tz_title" android:key="preferences_home_tz" android:dependency="preferences_home_tz_enabled" android:defaultValue="@string/preferences_home_tz_default" android:dialogTitle="@string/preferences_home_tz_title" android:entryValues="@array/timezone_values" />
+        <PreferenceScreen android:title="@string/preferences_clear_search_history_title" android:key="preferences_clear_search_history" android:summary="@string/preferences_clear_search_history_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_reminder_title" android:key="preferences_alerts_category">
+        <CheckBoxPreference android:title="@string/preferences_alerts_title" android:key="preferences_alerts" android:defaultValue="true" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <ListPreference android:entries="@array/prefEntries_alerts_vibrateWhen" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_vibrateWhen_title" android:key="preferences_alerts_vibrateWhen" android:summary="@string/preferences_alerts_vibrateWhen_summary" android:defaultValue="@string/prefDefault_alerts_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_alerts_vibrateWhen" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_popup_title" android:key="preferences_alerts_popup" android:defaultValue="false" />
+        <ListPreference android:entries="@array/preferences_default_reminder_labels" android:title="@string/preferences_default_reminder_title" android:key="preferences_default_reminder" android:defaultValue="@string/preferences_default_reminder_default" android:dialogTitle="@string/preferences_default_reminder_dialog" android:entryValues="@array/preferences_default_reminder_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

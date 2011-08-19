@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Nuvažiavę %1$s kilometrus (-ą)</item>
+        <item quantity="one">Nuvažiavę vieną kilometrą</item>
+        <item quantity="few">Nuvažiavę %1$s kilometrus</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Toliau važiuokite dar %1$s kilometrus (-ą)</item>
+        <item quantity="one">Toliau važiuokite dar vieną kilometrą</item>
+        <item quantity="few">Toliau važiuokite dar %1$s kilometrus</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Toliau važiuokite %1$2$s dar %2$1$s kilometrus</item>
+        <item quantity="one">Toliau važiuokite %2$s dar vieną kilometrą</item>
+        <item quantity="few">Toliau važiuokite %1$2$s dar %2$1$s kilometrus</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Nuvažiavę %1$s mylias (-ią)</item>
+        <item quantity="one">Nuvažiavę vieną mylią</item>
+        <item quantity="few">Nuvažiavę %1$s mylias</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Toliau važiuokite dar %1$s mylias (-ią)</item>
+        <item quantity="one">Toliau važiuokite dar vieną mylią</item>
+        <item quantity="few">Toliau važiuokite dar %1$s mylias (-ią)</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Toliau važiuokite %1$2$s dar %2$1$s mylias (-ią)</item>
+        <item quantity="one">Toliau važiuokite %2$s dar vieną mylią</item>
+        <item quantity="few">Toliau važiuokite %1$2$s dar %2$1$s mylias (-ią)</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s atsiliepimai (-ų)</item>
+        <item quantity="one">%1$s atsiliepimas</item>
+        <item quantity="few">%1$s atsiliepimai</item>
+    </plurals>
+</resources>

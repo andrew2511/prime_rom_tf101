@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="highlight_dialog_items">
+        <item>Markierung entfernen</item>
+        <item>Abbrechen</item>
+    </string-array>
+    <string-array name="selection_dialog_items">
+        <item>Markierung hinzufügen</item>
+        <item>Übersetzung</item>
+        <item>Text-zu-Sprache</item>
+        <item>Abbrechen</item>
+    </string-array>
+    <string-array name="translate_dialog_items">
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Japanisch</item>
+        <item>Chinesisch</item>
+        <item>Deutsch</item>
+        <item>Chinesisch einfach</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+    </string-array>
+    <string-array name="translate_options">
+        <item>Englisch nach Chinesisch</item>
+        <item>Englisch nach Französisch</item>
+        <item>Englisch nach Russisch</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="playhead_edge">#c0cccccc</color>
+    <color name="playhead_fill">#800667c8</color>
+    <color name="audio_waveform">#ffcf8104</color>
+    <color name="audio_loop_separator">#40cf8104</color>
+    <color name="playhead_tick_color">#80cccccc</color>
+    <color name="orange">#ffcf8104</color>
+</resources>

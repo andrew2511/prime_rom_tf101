@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:padding="@dimen/listcontrol_filemanager_item_icon_padding" android:layout_width="@dimen/listcontrol_filemanager_item_icon_layout_width" android:layout_height="@dimen/listcontrol_filemanager_item_icon_layout_width" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/listcontrol_filemanager_item_filename_text_size" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listcontrol_filemanager_item_filename_text_layout_margin_left" android:singleLine="true" />
+        <TextView android:textSize="@dimen/listcontrol_filemanager_item_date_text_size" android:textColor="@color/listview_filemanager_filelist_item" android:gravity="left" android:layout_gravity="left" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listcontrol_filemanager_item_filename_text_layout_margin_left" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/listcontrol_filemanager_item_filesize_text_size" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listcontrol_filemanager_item_filesize_layout_margin_right" android:singleLine="true" />
+</LinearLayout>

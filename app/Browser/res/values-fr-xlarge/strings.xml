@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nouvel onglet</string>
+    <string name="new_incognito_tab">Nouvel onglet Navigation privée</string>
+    <string name="active_tabs">Onglets</string>
+    <string name="open_all_in_new_window">Toujours ouvrir dans un nouvel onglet</string>
+    <string name="contextmenu_openlink_newwindow">Ouvrir dans un nouvel onglet</string>
+    <string name="contextmenu_openlink_newwindow_background">"Ouvrir dans un nouvel onglet d'arrière-plan"</string>
+    <string name="pref_content_open_in_background_summary">Ouvrir nouveaux onglets derrière onglet actuel</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Επιλογή ταπετσαρίας</string>
+    <string name="wallpaper_chooser_empty">Δεν υπάρχουν διαθέσιμες ταπετσαρίες</string>
+    <string name="wallpaper_cancel">Ακύρωση</string>
+</resources>

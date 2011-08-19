@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weathertitle">Configuração do widget de clima</string>
+    <string name="refreshBtn">Atualizar</string>
+    <string name="saveBtn">Salvar</string>
+    <string name="cancelBtn">Cancelar</string>
+    <string name="nocityfound">Nenhuma cidade encontrada</string>
+    <string name="humidity">Umidade</string>
+    <string name="winds">Ventos</string>
+    <string name="infor1">Não disponível</string>
+    <string name="searchlistviewtitle">Escolher uma cidade</string>
+    <string name="wait">Aguarde...</string>
+    <string name="refreshFail">Falha ao atualizar. Tente novamente.</string>
+    <string name="searchFail">Falha ao pesquisar. Tente novamente.</string>
+    <string name="dirN">N</string>
+    <string name="dirNNE">NNE</string>
+    <string name="dirNE">NE</string>
+    <string name="dirENE">ENE</string>
+    <string name="dirE">E</string>
+    <string name="dirESE">ESE</string>
+    <string name="dirSE">SE</string>
+    <string name="dirSSE">SSE</string>
+    <string name="dirS">S</string>
+    <string name="dirSSW">SSW</string>
+    <string name="dirSW">SW</string>
+    <string name="dirWSW">WSW</string>
+    <string name="dirW">W</string>
+    <string name="dirWNW">WNW</string>
+    <string name="dirNW">NW</string>
+    <string name="dirNNW">NNW</string>
+    <string name="entercityname">Insira uma cidade:</string>
+    <string name="manualtitle">Definir local manualmente</string>
+    <string name="refreshprogresstitle">Atualizar informações climáticas</string>
+    <string name="refreshprogresscontent">Atualizar agora. Aguarde...</string>
+    <string name="searchprogresstitle">Procurar cidade</string>
+    <string name="searchprogresscontent">Procurar agora. Aguarde...</string>
+    <string name="no_network">Rede não disponível. Informações climáticas não podem ser atualizadas.</string>
+    <string name="no_provider">Nem todos as informações de localização estão atualmente habilitadas. Ligue a rede sem fio e satélites GPS na Configuração de Localização e Segurança para detecção de localização mais rápida e precisa.</string>
+    <string name="title_location">Local</string>
+    <string name="content_autorefreshed">Atualizar automaticamente minha localização atual</string>
+    <string name="content_manual">Pesquisa manual</string>
+    <string name="title_updatefreq">Frequência de atualização</string>
+    <string name="content_updatetime">Hora da última atualização</string>
+    <string name="content_selectfreq">Selecionar a frequência de atualização</string>
+    <string name="title_others">Outros</string>
+    <string name="content_tempunit">Unidade de temperatura</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Отзывы о Маркете</string>
+    <string name="feedback">Отзыв</string>
+    <string name="report_feedback">Сообщить об ошибке</string>
+    <string name="report_error_in">Сообщить об ошибке (%s)</string>
+    <string name="system_log">Журнал системы</string>
+    <string name="event_log">Журнал событий</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="send">Отправить</string>
+    <string name="preview_feedback">Предварительный просмотр отзыва</string>
+    <string name="no_data">Нет данных</string>
+    <string name="fetching_system_log">Получение журнала системы...</string>
+    <string name="fetching_event_log">Получение журнала событий...</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="include_system_data">Включить системные данные</string>
+    <string name="this_will_help">Разрешить службам Google доступ к системным данным для диагностики проблемы.</string>
+    <string name="privacy_policy"><a href="notused">Политика конфиденциальности</a></string>
+    <string name="unknown_app">Неизвестная программа</string>
+    <string name="cant_save_report">Невозможно сохранить отчет об ошибке</string>
+    <string name="report_being_sent">Отчет отправляется.</string>
+    <string name="optional_description">Описание (необязательно)</string>
+    <string name="tos_activity_title">Информация Google</string>
+    <string name="tos_activity_unsuccessful_message">Телефон не подключен к службе передачи данных. Чтобы просмотреть эту информацию, откройте страницу %s на любом компьютере, подключенном к Интернету.</string>
+    <string name="tos_accept">Принять</string>
+    <string name="tos_decline">Отклонить</string>
+</resources>

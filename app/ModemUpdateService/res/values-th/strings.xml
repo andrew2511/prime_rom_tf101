@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">อัปเดตเฟิร์มแวร์โมเด็มสำเร็จ</string>
+    <string name="update_fail">อัปเดตเฟิร์มแวร์โมเด็มล้มเหลว</string>
+    <string name="update_quz" formatted="false">"กระบวนการอัปเดตจะใช้เวลาประมาณ 3-5 นาที และใช้พลังงานแบตเตอรี่ 15% หรือสูงกว่า
+
+ให้แน่ใจว่าพลังงานแบตเตอรี่มีเหลือมากกว่า 15% ก่อนที่จะอัปเดต
+
+แน่ใจว่าต้องการอัปเดตเฟิร์มแวร์โมเด็มเดี๋ยวนี้หรือไม่?"</string>
+    <string name="notify_title">บริการอัปเดตของ Asus</string>
+    <string name="notify">มีอัปเดตเฟิร์มแวร์โมเด็ม</string>
+    <string name="warning_title">คำเตือน</string>
+    <string name="warning">"อย่าปิดเครื่องอุปกรณ์ในขณะที่กำลังอัปเดต
+
+การขัดจังหวะใดๆ โดยไม่ได้คาดหมาย อาจทำให้เกิดความเสียหายที่ไม่สามารถเรียกคืนได้
+
+คุณต้องการอัปเดตเฟิร์มแวร์โมเด็มของคุณเดี๋ยวนี้หรือไม่?"</string>
+    <string name="battery_low" formatted="false">"กระบวนการจะใช้พลังงานแบตเตอรี่ 15% หรือสูงกว่า
+
+ให้แน่ใจว่าพลังงานแบตเตอรี่มีเหลือมากกว่า 15% ก่อนที่จะเริ่มอัปเดต"</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="ok">ตกลง</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

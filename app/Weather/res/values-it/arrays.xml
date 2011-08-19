@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>4 ore</item>
+        <item>8 ore</item>
+        <item>12 ore</item>
+        <item>Manuale</item>
+    </string-array>
+    <string-array name="setting_text">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

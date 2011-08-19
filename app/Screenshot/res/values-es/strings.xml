@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Captura de pantalla</string>
+    <string name="screenshot_dialog_message">Captura de pantalla guardada. ¿Desea permanecer en el modo de captura de pantalla?</string>
+    <string name="screenshot_dialog_yes">Sí</string>
+    <string name="screenshot_dialog_no">No</string>
+    <string name="screenshot_toast_message_saved">Captura de pantalla guardada.</string>
+    <string name="screenshot_toast_message_failed">No se pudo guardar una captura de pantalla en el modo de transferencia de archivos.</string>
+    <string name="screenshot_toast_message_failed_save">No se pudo guardar la captura de pantalla.</string>
+    <string name="screenshot_toast_message_full">No se pudo guardar la captura de pantalla. Memoria insuficiente.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:paddingTop="6.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/info_filter_reason" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingRight="@dimen/asset_info_horizontal_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_bullet_key_permission" />
+    <FrameLayout android:id="@id/info_description_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foregroundGravity="fill_horizontal|bottom|center">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/info_description" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingRight="@dimen/asset_info_horizontal_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    </FrameLayout>
+    <include android:id="@id/info_description_zippy" layout="@layout/more_button" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorTertiary" android:id="@id/info_version_size" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingTop="10.0dip" android:paddingRight="@dimen/asset_info_horizontal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorTertiary" android:id="@id/info_downloads_ratings" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/info_screenshot_th_layout_portraits" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingTop="10.0dip" android:paddingRight="@dimen/asset_info_horizontal_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView style="@style/AssetInfoScreenshot" />
+        <ImageView style="@style/AssetInfoScreenshot" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/info_screenshot_th_layout_portraits_row2" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingTop="10.0dip" android:paddingRight="@dimen/asset_info_horizontal_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView style="@style/AssetInfoScreenshot" />
+        <ImageView style="@style/AssetInfoScreenshot" />
+        <ImageView style="@style/AssetInfoScreenshot" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/info_screenshot_th_layout_portraits_row3" android:paddingLeft="@dimen/asset_info_horizontal_padding" android:paddingTop="10.0dip" android:paddingRight="@dimen/asset_info_horizontal_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView style="@style/AssetInfoScreenshot" />
+        <ImageView style="@style/AssetInfoScreenshot" />
+        <ImageView style="@style/AssetInfoScreenshot" />
+    </LinearLayout>
+</LinearLayout>

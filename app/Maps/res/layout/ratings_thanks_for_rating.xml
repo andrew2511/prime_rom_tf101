@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/rating_summary" android:padding="@dimen/default_gratisfaction_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlacePagePrimary" />
+    <View android:background="@color/black" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:id="@id/recommendations_explanation" android:padding="@dimen/default_gratisfaction_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlacePageSecondary" />
+    <com.google.googlenav.ui.android.GmmListView android:id="@id/listView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/black_transparent" android:layout_weight="1.0" />
+    <include android:id="@id/need_more_ratings" android:padding="@dimen/default_gratisfaction_padding" android:visibility="gone" layout="@layout/ratings_need_more_ratings" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/back_to_place" android:background="@drawable/btn_default" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

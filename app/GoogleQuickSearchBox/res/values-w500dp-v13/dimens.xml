@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_box_padding_left">8.0dip</dimen>
+    <dimen name="suggestions_padding_left">8.0dip</dimen>
+    <dimen name="suggestions_padding_right">68.0dip</dimen>
+    <dimen name="suggestions_first_sepatator_height">28.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="false" android:id="@id/menuitem_feedback_send" android:title="@string/send" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/feedback_cancel" android:title="@string/discard" android:showAsAction="ifRoom|withText" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">התקבלה: %s</string>
+    <string name="meeting_declined">נדחה: %s</string>
+    <string name="meeting_tentative">טנטטיבי: %s</string>
+    <string name="meeting_canceled">בוטל: %s</string>
+    <string name="meeting_updated">עודכן: %s</string>
+    <string name="meeting_when">מתי: %s</string>
+    <string name="meeting_where">היכן: %s</string>
+    <string name="meeting_recurring">מתי: %s (אירוע חוזר)</string>
+    <string name="notification_exchange_calendar_added">נוסף לוח שנה של Exchange</string>
+    <string name="app_name">שירותי Exchange</string>
+    <string name="exception_cancel">אירוע זה בוטל לתאריך: %s</string>
+    <string name="exception_updated">הפרטים של אירוע זה השתנו עבור: %s</string>
+</resources>

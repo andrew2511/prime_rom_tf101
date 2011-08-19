@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ime_settings" android:key="ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/configuration_screen_title">
+        <CheckBoxPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:summary="@string/auto_cap_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/auto_punctuation" android:key="auto_punctuation" android:summary="@string/auto_punctuation_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <com.nuance.xt9.input.AboutPreference android:title="@string/about" />
+    </PreferenceCategory>
+</PreferenceScreen>

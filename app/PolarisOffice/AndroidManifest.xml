@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="-756326696" android:versionName="3.0 - build 5r6216FV06" package="com.infraware.PolarisOfficeForTablet"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@android:style/Theme.Holo" android:label="@string/app_name" android:icon="@drawable/launcher" android:name="com.infraware.PolarisOffice" android:debuggable="false" android:hardwareAccelerated="true">
+        <activity android:label="@string/app_name" android:icon="@drawable/launcher" android:name="com.infraware.splash.SplashActivity" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.viewer.UxViewerActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.sheet.UxSheetEditorActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.slide.UxSlideEditorActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.word.UxWordEditorActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.filemanager.FmFileListActivity" android:launchMode="singleTask" android:configChanges="locale|keyboard|keyboardHidden|orientation" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.filemanager.FmFileSyncActivity" android:screenOrientation="landscape" android:configChanges="locale|keyboard|keyboardHidden|orientation" />
+        <activity android:label="@string/app_name" android:icon="@drawable/launcher_small" android:name="com.infraware.filemanager.FmAccountListActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" />
+        <activity android:label="SlideShow" android:icon="@drawable/launcher_small" android:name="com.infraware.slide.UxSlideShowActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Setting" android:icon="@drawable/launcher_small" android:name="com.infraware.filemanager.FmSettingActivity" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_LATEST_VERSION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_DOWNLOAD_COMPLETE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_DISABLE_CONFIRM_VERSION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_CONNECTION_ERROR" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_NETWORK_ERROR" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_FILE_WRITE_ERROR" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.infraware.polaris.office.ACTION_USER_CANCEL" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.infraware.filemanager.FmUpdateService" android:enabled="true" />
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.filemanager.FmLauncherActivity" android:configChanges="keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="application/x-hwp" />
+                <data android:mimeType="application/haansofthwp" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:icon="@drawable/launcher_small" android:name="com.infraware.registration.UserRegistrationActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/launcher_small" android:name="com.infraware.slide.UxSlideEditorShowActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+    </application>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="12" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

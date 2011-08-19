@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMKlient</string>
+    <string name="minutes">minuter</string>
+    <string name="postpone">Skjut upp</string>
+    <string name="update">Uppdatera</string>
+    <string name="asus_received_title">Asus uppdateringsservice</string>
+    <string name="received_message">Ny uppdatering tillgänglig.</string>
+    <string name="firmware_update_title">Uppdatering av fast programvara</string>
+    <string name="firmware_update_fail">"Uppdatering misslyckades.
+
+Din enhet kommer att återställas till ursprunglig konfiguration."</string>
+    <string name="low_battery_title">Systemuppdatering avslutad</string>
+    <string name="low_battery_warning">"Systemkrav minst 50 % batterilivslängd för att fortsätta med systemuppdateringsprocessen.
+Ladda batteriet innan systemuppdateringen."</string>
+    <string name="confirmDownload_text1">Vill du ladda ned följande systemuppgradering?</string>
+    <string name="confirmDownload_textok">Tryck på YES (ja) för att acceptera denna uppdatering.</string>
+    <string name="confirmDownload_textcancel">Tryck på NO (nej) för att avvisa denna uppdatering.</string>
+    <string name="confirmDownload_textwifi">Vi rekommenderar att en gratis WiFi hotspot används eller en obegränsad datametod för att ladda ned denna uppdatering.</string>
+    <string name="confirmDownload_textwifi2">Om inte kan vanlig dataanslutningsavgifter debiteras.</string>
+    <string name="btn_text_later">Senare</string>
+    <string name="confirmDownload_dialog_title">Varning du är roaming.</string>
+    <string name="update_dialog_text">"En ny programuppdatering för din telefon har laddats ned. Installera nu? 
+"</string>
+    <string name="downloading">Nedladdning fast program...</string>
+    <string name="install_time">Uppskattad installationstid:</string>
+    <string name="install">Installera</string>
+    <string name="received_ticker">Ny uppdatering tillgänglig.</string>
+    <string name="dl_received_ticker">Ny uppdatering tillgänglig.</string>
+    <string name="dl_received_message">Det finns en uppdatering, tryck här för att ladda ned.</string>
+    <string name="postponetime_text">Uppskjuten tid:</string>
+    <string name="reach_max_net_fail">Nedladdning avbruten från server, försök igen.</string>
+    <string name="dlg_title_checking">Integritetskontroll.</string>
+    <string name="dlg_msg_checking">Kontrollerar integriteten för fasta programmets fil.</string>
+    <string name="cannot_set_to_browser">Kannte ställa in till webbläsare.</string>
+    <string name="upgrade_error">Uppgraderingsfel, ladda ned uppgraderingspaketet igen.</string>
+    <string name="start_to_download">Börja att ladda ned viktiga uppdateringspaket.</string>
+    <string name="start_to_upgrade">Börja uppgradera uppdateringspaket.</string>
+    <string name="Start_NI_DmSession">Nätverks första DMSession, acceptera?</string>
+    <string name="prepare_dm_download">Förbereder nedladdning...</string>
+    <string name="download_finished">Nedladdning av fast program avslutad...</string>
+    <string name="download_notification_title">T-Mobile uppdateringsservice</string>
+    <string name="download_in_progress">Nedladdning av nytt fast program pågår</string>
+    <string name="out_of_mem_warning">Inte tillräckligt med ledigt utrymme på telefonen,vinstallera några program och försök igen.</string>
+    <string name="btn_register">registrera C2DM</string>
+    <string name="btn_unregister">avregistrera C2DM</string>
+    <string name="ui_alert_input_hint">Mata in text</string>
+    <string name="ui_alert_input_numeric_hint">Mata in siffror</string>
+    <string name="ui_alert_input_phone_number_hint">Telefonnummer</string>
+</resources>

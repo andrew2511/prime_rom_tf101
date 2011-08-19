@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/da_navigationRootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/da_mapFrame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/da_top_bar_height" android:layout_alignParentTop="true" />
+</RelativeLayout>

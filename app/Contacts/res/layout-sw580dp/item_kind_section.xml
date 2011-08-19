@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.KindSectionView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff7f7f7f" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/kind_title" android:layout_width="@dimen/editor_title_label_width" android:layout_height="@dimen/editor_min_line_item_height" android:singleLine="true" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/kind_editors" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/kind_plus_container" android:layout_width="wrap_content" android:layout_height="@dimen/editor_min_line_item_height">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/kind_plus" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/editor_round_button_padding_left" android:paddingTop="@dimen/editor_round_button_padding_top" android:paddingRight="@dimen/editor_round_button_padding_right" android:paddingBottom="@dimen/editor_round_button_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_add_field_holo_light" android:contentDescription="@string/description_plus_button" />
+    </FrameLayout>
+</com.android.contacts.editor.KindSectionView>

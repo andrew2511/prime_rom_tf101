@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_common_search_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/holder_imagebutton_common_find_option" android:layout_width="@dimen/toolbar_common_search_common_button_layout_width" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:layout_weight="0.0" />
+    <LinearLayout android:id="@id/holder_edit_common_replace_from_text" android:layout_width="326.0px" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:layout_weight="1.0" />
+    <ImageView android:layout_width="29.0px" android:layout_height="fill_parent" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:src="@drawable/replace_ico_to" android:scaleType="center" android:layout_weight="0.0" />
+    <LinearLayout android:id="@id/holder_edit_common_replace_to_text" android:layout_width="326.0px" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/holder_imagebutton_common_find_next" android:layout_width="@dimen/toolbar_common_search_common_button_layout_width" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:layout_weight="0.0" />
+    <LinearLayout android:id="@id/holder_imagebutton_common_replace" android:layout_width="120.0px" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_marginRight="@dimen/toolbar_common_search_common_view_spacer_width" android:layout_weight="0.0" />
+    <LinearLayout android:id="@id/holder_imagebutton_common_replaceall" android:layout_width="150.0px" android:layout_height="@dimen/toolbar_common_search_common_view_layout_height" android:layout_weight="0.0" />
+</LinearLayout>

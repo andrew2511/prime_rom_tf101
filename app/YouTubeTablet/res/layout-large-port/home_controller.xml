@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.youtube.core.honeycomb.ui.PagedCarouselView android:id="@id/carousel" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/video_status_item" yt:maxItems="40" yt:rowCount="4" yt:rowSpacing="0.0375" yt:slotCount="18" yt:visibleSlots="2" yt:cameraZ="12.0" yt:radius="5.8" yt:cardWidth="250.0dip" yt:cardHeight="215.0dip" yt:background="@drawable/bg_yt_home_holo"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube" />

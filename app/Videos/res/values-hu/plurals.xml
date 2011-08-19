@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">%1$d nap múlva lejár</item>
+        <item quantity="one">Lejár 1 nap múlva</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">%1$d óra múlva lejár</item>
+        <item quantity="one">1 óra múlva lejár</item>
+    </plurals>
+</resources>

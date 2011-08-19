@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="@drawable/group_bg" android:paddingLeft="14.0px" android:paddingTop="17.0px" android:paddingRight="14.0px" android:paddingBottom="18.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_marginBottom="11.0px">
+            <LinearLayout android:id="@id/holder_imagebutton_sheet_chartinsert_vbar" android:layout_width="150.0px" android:layout_height="130.0px" android:layout_marginRight="12.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_sheet_chartinsert_hbar" android:layout_width="150.0px" android:layout_height="130.0px" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow>
+            <LinearLayout android:id="@id/holder_imagebutton_sheet_chartinsert_pie" android:layout_width="150.0px" android:layout_height="130.0px" android:layout_marginRight="12.0px" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/holder_imagebutton_sheet_chartinsert_line" android:layout_width="150.0px" android:layout_height="130.0px" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

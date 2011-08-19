@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Svar</item>
+        <item>Besvar alle</item>
+        <item>Videresend</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Arkiver</item>
+        <item>Slet</item>
+        <item>Send</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Nyere samtale</item>
+        <item>Ældre samtale</item>
+        <item>Samtaleliste</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Vis nyere samtale efter sletning, arkivering osv.</item>
+        <item>Vis ældre samtale efter sletning, arkivering osv.</item>
+        <item>Vis samtalelisten efter sletning, aktivering osv.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Lillebitte</item>
+        <item>Lille</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Kæmpestor</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Vis indholdet i beskeden som lillebitte tekst</item>
+        <item>Vis indholdet i beskeden som lille tekst</item>
+        <item>Vis indholdet i beskeden som normal tekst</item>
+        <item>Vis indholdet i beskeden som stor tekst</item>
+        <item>Vis indholdet i beskeden som kæmpestor tekst</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Altid</item>
+        <item>Kun ved lydløs</item>
+        <item>Aldrig</item>
+    </string-array>
+</resources>

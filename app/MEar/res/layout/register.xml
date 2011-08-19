@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="@drawable/bg_index1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/TextView01" android:background="@drawable/bg_title" android:paddingLeft="15.0dip" android:paddingTop="0.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="@string/app_name" />
+    <ScrollView android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textColor="@color/white" android:id="@id/TextView02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="With a ASUS WebStorage MEar Account, get 1GB free could service" />
+            <EditText android:textSize="16.0sp" android:id="@id/username_edit" android:background="@drawable/bg_input" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:hint="@string/common_login_usernamehint" android:singleLine="true" />
+            <EditText android:textSize="16.0sp" android:id="@id/password_edit" android:background="@drawable/bg_input" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:hint="@string/common_login_pwdhint" android:password="true" android:singleLine="true" />
+            <EditText android:textSize="16.0sp" android:id="@id/password_edit_confirm" android:background="@drawable/bg_input" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:hint="@string/common_login_pwdhint_confirm" android:password="true" android:singleLine="true" />
+            <EditText android:textSize="16.0sp" android:id="@id/email_edit" android:background="@drawable/bg_input" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:hint="@string/common_login_emailhint" android:password="false" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="left" android:id="@id/btn_cancel" android:background="@drawable/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="90.0dip" android:text="@string/app_cancel" />
+                <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/rulesave" android:background="@drawable/btn_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/common_register_butt" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

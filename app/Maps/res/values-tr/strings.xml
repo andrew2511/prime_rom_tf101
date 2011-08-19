@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Haritalar</string>
+    <string name="da_google_maps_navigation">Google Haritalar Navigasyon</string>
+    <string name="da_net_fail_title">Şebeke hatası</string>
+    <string name="da_net_fail_body">Bu uygulama çalışan bir veri bağlantısı gerektirir.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Hedef</string>
+    <string name="da_toward">%1$sadlı yola doğru</string>
+    <string name="da_onto">%1$s yoluna</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"sonra 
+%1$s"</string>
+    <string name="da_continue_for_distance">%1$s devam edin</string>
+    <string name="da_destination_will_be_on_the_left">hedefiniz solda kalacak.</string>
+    <string name="da_destination_will_be_on_the_right">hedefiniz sağda kalacak.</string>
+    <string name="da_you_will_reach_destination">hedefinize ulaşacaksınız.</string>
+    <string name="da_destination_on_the_left">Hedefiniz soldadır.</string>
+    <string name="da_destination_on_the_right">Hedefiniz sağdadır.</string>
+    <string name="da_destination_reached">İstediğiniz yere geldiniz.</string>
+    <string name="da_speech_lost_gps">GPS sinyali kayboldu</string>
+    <string name="da_speech_lost_data_connection">Veri bağlantısı kesildi</string>
+    <string name="da_speech_navigation_resumed">Gezinmeye devam ediliyor</string>
+    <string name="da_speech_please_describe_problem">Lütfen sorunu açıklayın</string>
+    <string name="da_on_left">solda</string>
+    <string name="da_on_right">sağda</string>
+    <string name="da_stay_on_road_primary">%1$s adlı yolda kalın</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%2$s adlı yola %1$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%2$s konumuna %1$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} km</string>
+    <string name="da_distance_format_miles_compressed">{0} mil</string>
+    <string name="da_distance_format_feet_abbreviated">{0} m</string>
+    <string name="da_distance_format_feet_compressed">{0} m</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0} yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s gün %2$s sa.</string>
+    <string name="da_time_format_hours" formatted="false">%1$s sa. %2$s sn.</string>
+    <string name="da_time_format_minutes">%1$s dk</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigasyon</string>
+    <string name="da_search_label">Ara</string>
+    <string name="da_layers">Katmanlar</string>
+    <string name="da_agreement">"Google Haritalar Navigasyon beta sürümündedir. Dikkatli olun.
+
+Sürüş esnasında bu uygulamaya müdahale etmeyin. Trafik verileri gerçek zamanlı değildir ve yol tarifleri yanlış, tehlikeli, yasaklanmış olabilir ya da feribotlar içeriyor olabilir. Geçerli yasalara uyun.
+
+Gözünüzü yoldan ayırmayın!"</string>
+    <string name="da_agreement_with_walking">"Google Haritalar Navigasyon beta sürümündedir. Dikkatli olun.
+
+Sürüş esnasında bu uygulamaya müdahale etmeyin. Trafik verileri gerçek zamanlı değildir ve yol tarifleri yanlış, tehlikeli, yasaklanmış olabilir ya da feribotlar içeriyor olabilir. Yürüyüş rotalarında, olmayan kaldırımlar veya yaya yolları bulunabilir. Geçerli yasalara uyun.
+
+Gözünüzü yoldan ayırmayın!"</string>
+    <string name="da_disclaimer_checkbox">Bu mesajı sonraki seferde göster</string>
+    <string name="da_show_list">Yol Tarifleri Listesi</string>
+    <string name="da_route_overview">Yol bilgileri</string>
+    <string name="da_show_map">Haritayı Göster</string>
+    <string name="da_satellite">Uydu</string>
+    <string name="da_traffic_view">Trafik görünümü</string>
+    <string name="da_no_traffic_here">Burada trafik bilgisi yok</string>
+    <string name="da_traffic">Trafik</string>
+    <string name="da_area_view">Alan Görünümü</string>
+    <string name="da_mute">Sessiz</string>
+    <string name="da_unmute">Sesi Aç</string>
+    <string name="da_settings">Ayarlar</string>
+    <string name="da_help">Yardım</string>
+    <string name="da_terms_privacy_notices">Şartlar ve Gizlilik</string>
+    <string name="da_terms_and_conditions">Şartlar ve Koşullar</string>
+    <string name="da_privacy_policy">Gizlilik Politikası</string>
+    <string name="da_legal_notices">Yasal Bildirimler</string>
+    <string name="da_navigation_suspended">Navigasyon askıya alındı</string>
+    <string name="da_exit_navigation">"Navigasyon'dan çık"</string>
+    <string name="da_email_me_when_resolved">Sorun çözüldüğünde bana e-posta gönder</string>
+    <string name="da_problem_reported">Sorun bildirildi</string>
+    <string name="da_one_button_map_issue_reporting">Tek tıkla sorunu bildir</string>
+    <string name="da_attention">Dikkat</string>
+    <string name="da_rmi_warning">"'Sorun bildir' işlevi haritayla veya rotanızla ilgili yaşadığınız bir sorunun ne olduğunu açıklayan kısa bir sesli mesaj kaydetmenize olanak sağlar. 15 saniye sonra mesajınız, mevcut konumunuzla birlikte Google'a otomatik olarak gönderilir.
+
+Uygulama ayarlarınızda tek tıklamalı bir kısayol etkinleştirilebilir.
+
+ Sorun çözüldüğünde e-posta güncellemeleri almak isterseniz, e-posta adresiniz, konumunuzla ve yorumlarınızla birlikte sorun çözülene kadar saklanır."</string>
+    <string name="da_report_a_problem">Sorun Bildir</string>
+    <string name="da_report_a_problem_dialog_title">Sorun bildir</string>
+    <string name="da_rmi_preference_trackball_summary">Etkinleştirilmişse, iztopuna basılması sorun bildirme işlemini başlatır.</string>
+    <string name="da_rmi_preference_camera_summary">Etkinleştirilmişse, kamera düğmesine basılması sorun bildirme işlemini başlatır.</string>
+    <string name="da_rmi_preference_no_button_summary">Kullanılabilir fiziksel düğme yok.</string>
+    <string name="da_rmi_preference_bad_location_summary">Şu anki konumunuzda sorun bildirme özelliği kullanılamıyor.</string>
+    <string name="da_destination_not_here_warning">"Varış yeriniz olarak yanlış konum belirlemiş olduğumuzu bildirdiğiniz için teşekkür ederiz. Verilerimizin doğruluğunu iyileştirmek için mevcut varış yeriniz ve konumunuz Google'a gönderilecek."</string>
+    <string name="da_destination_not_here_title">Sorun bildirin</string>
+    <string name="da_searching_for_gps">GPS arıyor...</string>
+    <string name="da_data_connection_lost">Veri bağlantısı kesildi...</string>
+    <string name="da_follow_the_route">Yolu izle</string>
+    <string name="da_waiting_for_directions">Arabayla gitmek için yol tarifleri alınıyor</string>
+    <string name="da_waiting_for_walking_directions">Yaya yol tarifi alınıyor</string>
+    <string name="da_waiting_for_location">Konum bekleniyor</string>
+    <string name="da_checking_navigation_availability">Gezinme özelliğinin uygunluğu denetleniyor</string>
+    <string name="da_loading_route_details">Yol ayrıntıları yükleniyor</string>
+    <string name="da_loading_image">Resim yükleniyor</string>
+    <string name="da_waiting_for_alternates">Alternatif yollar aranıyor</string>
+    <string name="da_waiting_for_details">Yükleniyor</string>
+    <string name="da_no_details">Ayrıntı mevcut değil</string>
+    <string name="da_gps_is_disabled">GPS devre dışı</string>
+    <string name="da_turn_on_gps">Konum ayarları gösterilsin mi?</string>
+    <string name="da_voice_guidance">Sesli rehber</string>
+    <string name="da_install_voice_guidance_prompt">"Sesli navigasyon için, Android Market'tan metin okuma desteği yüklemeniz gerekir."</string>
+    <string name="da_dialog_ok">Tamam</string>
+    <string name="da_dialog_skip">Atla</string>
+    <string name="da_dialog_cancel">İptal</string>
+    <string name="da_dialog_done">Bitti</string>
+    <string name="da_dialog_accept">Kabul et</string>
+    <string name="da_dialog_install">Yükle</string>
+    <string name="da_dialog_dont_accept">Kabul Etme</string>
+    <string name="da_dialog_go">Git</string>
+    <string name="da_dialog_get_directions">Yol Tarifi Al</string>
+    <string name="da_map">Harita</string>
+    <string name="da_clear_layers">Haritayı Temizle</string>
+    <string name="da_layer_name_parking">Park yeri</string>
+    <string name="da_layer_name_attractions">Turistik Yerler</string>
+    <string name="da_layer_name_gas_stations">Benzin İstasyonları</string>
+    <string name="da_layer_name_restaurants">Restoranlar</string>
+    <string name="da_layer_name_supermarkets">Süpermarketler</string>
+    <string name="da_layer_name_atms_and_banks">"ATM'ler ve Bankalar"</string>
+    <string name="da_layer_name_convenience_stores">Marketler</string>
+    <string name="da_query_banks_and_atms">"Bankalar ve ATM'ler"</string>
+    <string name="da_rerouting">Yeni yollar belirleniyor...</string>
+    <string name="da_via">%s üzerinden</string>
+    <string name="da_to_destination">%s adresine</string>
+    <string name="da_via_name_separator">" ve "</string>
+    <string name="da_record_feedback">Geribildirim Kaydet</string>
+    <string name="da_destination_not_here">Varış yeri burası değil</string>
+    <string name="da_new_destination">Sonraki Hedef</string>
+    <string name="da_reroute_to_destination">Hedefe Dön</string>
+    <string name="da_change_destination">Hedefi Ayarla</string>
+    <string name="da_search_for_destination">Ara...</string>
+    <string name="da_point_on_map">Haritadaki nokta</string>
+    <string name="da_volume">Gezinme Sesi</string>
+    <string name="da_exit">Çıkış</string>
+    <string name="da_did_you_mean">Bunu mu demek istediniz:</string>
+    <string name="da_did_you_say">Şunu mu dediniz:</string>
+    <string name="da_for_your_end_point">Bitiş noktanız için</string>
+    <string name="da_unnamed_road">İsimsiz yol</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, ardından %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s metre sonra</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Bir buçuk kilometre sonra</string>
+    <string name="da_speech_continue_for_x_meters">%1$s metre devam edin</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Bir buçuk kilometre devam edin</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">%2$s üzerinde %1$s metre devam edin</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">%1$s üzerinde bir buçuk kilometre devam edin</string>
+    <string name="da_speech_generic_continue">Düz devam edin</string>
+    <string name="da_speech_in_x_feet">%1$s fit sonra</string>
+    <string name="da_speech_in_x_yards">%1$s yarda sonra</string>
+    <string name="da_speech_in_a_quarter_mile">Çeyrek mil sonra</string>
+    <string name="da_speech_in_a_half_mile">Yarım mil sonra</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Dörtte üç mil sonra</string>
+    <string name="da_speech_in_one_and_a_half_miles">Bir buçuk mil sonra</string>
+    <string name="da_speech_continue_for_x_feet">%1$s fit devam edin</string>
+    <string name="da_speech_continue_for_x_yards">%1$s yarda devam edin</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Çeyrek mil devam edin</string>
+    <string name="da_speech_continue_for_a_half_mile">Yarım mil devam edin</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Dörtte üç mil devam edin</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Bir buçuk mil devam edin</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">%2$s üzerinde %1$s fit devam edin</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">%2$s üzerinde %1$s yarda devam edin</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">%1$s üzerinde çeyrek mil devam edin</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">%1$s üzerinde yarım mil devam edin</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">%1$s üzerinde dörtte üç mil devam edin</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">%1$s üzerinde bir buçuk mil devam edin</string>
+    <string name="da_route_prefixes">K,KD,D,GD,G,GB,B,KB</string>
+    <string name="da_route_suffixes">K,KD,D,GD,G,GB,B,KB,Cad,Blvr,Yan,Myd,Aln,Arç,Trcy,Çvy,Oty,Şrt,Ağçy,Özş,Sk,Otobn,Yol</string>
+    <string name="da_no_route">Güzergah bulunamadı</string>
+    <string name="da_route_not_found">Hedefinize giden bir güzergah bulunamadı.</string>
+    <string name="da_destination_not_found">Hedef anlaşılamadı.</string>
+    <string name="da_navigation_not_supported">Hedefiniz için navigasyon özelliği mevcut değil.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Haritalar Navigasyon bu konumda henüz kullanılamıyor.</string>
+    <string name="da_launch_maps">"Haritalar'ı Başlat"</string>
+    <string name="da_no_image_available">Kullanılabilir resim yok.</string>
+    <string name="da_image_error">Resim yüklenirken hata oluştu.</string>
+    <string name="da_no_alternate_routes">Hedefinize giden alternatif yol bulunamadı.</string>
+    <string name="da_picker_type_destination">Hedefi Yazın</string>
+    <string name="da_picker_speak_destination">Hedefi Söyleyin</string>
+    <string name="da_picker_contacts">Kişiler</string>
+    <string name="da_picker_starred_items">Yıldızlı Yerler</string>
+    <string name="da_picker_new_contact">Yeni Kişi</string>
+    <string name="da_picker_recent_destinations">En Son Bakılan Hedef Yerler</string>
+    <string name="da_picker_choose_destination">Hedef Yer Seçin</string>
+    <string name="da_navigate_to">Şuraya git:</string>
+    <string name="da_picker_search_hint">Hedef</string>
+    <string name="da_route_options">Rota seçenekleri</string>
+    <string name="da_updating_directions">Yol tarifleri güncelleniyor</string>
+    <string name="da_picker_no_starred_items">"Yıldızlı yeriniz yok.
+
+Yıldızlı yerler maps.google.com ile otomatik olarak senkronize edilir.
+
+Google Haritalar'da adresin yanındaki yıldız simgesine hafifçe vurarak arama sonuçlarına yıldız ekleyebilirsiniz."</string>
+    <string name="da_picker_no_contacts">"Adresi olan kişiniz yok.
+
+Yeni kişiler ekleyebilir veya Kişiler uygulamasında mevcut kişiler için adresler belirleyebilirsiniz."</string>
+    <string name="da_driving">Sürüş</string>
+    <string name="da_walking">Yürüyüş</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">Daha fazla bilgi</string>
+    <string name="da_search_maps">Haritalarda Ara</string>
+    <string name="da_walking_warning">Yaya (beta): dikkatli kullanın</string>
+    <string name="da_calibrate_compass_title">Pusula ayarı</string>
+    <string name="da_calibrate_compass">Pusulanız kalibre edilmemiş. Kalibre etmek için lütfen cihazınızı 8 deseni çizecek şekilde birkaç kez hareket ettirin.</string>
+    <string name="da_confirm_exit_title">Gezinmeden çıkılsın mı?</string>
+    <string name="da_confirm_exit_text">Bu işlem, tüm rota yardımını sonlandıracaktır.</string>
+    <string name="da_route_includes_tolls">Rota ücretli geçiş içeriyor</string>
+    <string name="da_avoid_tolls">Ücretli geçişleri kullanma</string>
+    <string name="da_avoiding_tolls">Ücretli geçişler kullanılmadan</string>
+    <string name="da_avoiding_highways">Otoyollar kullanılmadan</string>
+    <string name="da_route_includes_unavoidable_tolls">Bu rota ücretli geçiş içeriyor.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Bu rota ücretli geçiş içeriyor. Ücretli geçişi aşağıda %1$s%2$s içinde devre dışı bırakın.</string>
+    <string name="da_seasonally_closed">Rota, sezona göre kapalı olabilir</string>
+    <string name="da_direction_north">kuzey</string>
+    <string name="da_direction_north_west">kuzeybatı</string>
+    <string name="da_direction_west">batı</string>
+    <string name="da_direction_south_west">güneybatı</string>
+    <string name="da_direction_south">güney</string>
+    <string name="da_direction_south_east">güneydoğu</string>
+    <string name="da_direction_east">doğu</string>
+    <string name="da_direction_north_east">kuzeydoğu</string>
+    <string name="da_step_depart">%1$s istikametinde ilerleyin</string>
+    <string name="da_step_depart_on" formatted="false">%2$s üzerinde %1$s istikametinde ilerleyin</string>
+    <string name="da_step_slight_left">Sola hafif dönüş</string>
+    <string name="da_step_slight_right">Sağa hafif dönüş</string>
+    <string name="da_step_turn_left">Sola dönün</string>
+    <string name="da_step_turn_right">Sağa dönün</string>
+    <string name="da_step_sharp_left">Sola keskin dönüş</string>
+    <string name="da_step_sharp_right">Sağa keskin dönüş</string>
+    <string name="da_step_slight_left_onto">%1$s yönünde sola hafif dönüş</string>
+    <string name="da_step_slight_right_onto">%1$s yönünde sağa hafif dönüş</string>
+    <string name="da_step_turn_left_onto">%1$s yönünde sola dönün</string>
+    <string name="da_step_turn_right_onto">%1$s yönünde sağa dönün</string>
+    <string name="da_step_sharp_left_onto">%1$s yönünde sola keskin dönüş</string>
+    <string name="da_step_sharp_right_onto">%1$s yönünde sağa keskin dönüş</string>
+    <string name="da_step_fork_left">Yol ayrımında soldan devam edin</string>
+    <string name="da_step_fork_right">Yol ayrımında sağdan devam edin</string>
+    <string name="da_step_continue_onto">%1$s yönüne devam edin</string>
+    <string name="da_step_continue_straight">Düz devam edin</string>
+    <string name="da_step_u_turn">U dönüşü yapın</string>
+    <string name="da_step_take_the_ramp">Rampaya girin</string>
+    <string name="da_step_take_the_ramp_onto">%1$s yönünde rampaya girin</string>
+    <string name="da_step_take_the_ramp_on_the_left">Soldaki rampaya girin</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">%1$s yönünde soldaki rampaya girin</string>
+    <string name="da_step_take_the_ramp_on_the_right">Sağdaki rampaya girin</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">%1$s yönünde sağdaki rampaya girin</string>
+    <string name="da_step_take_the_exit">Çıkışa girin</string>
+    <string name="da_step_take_the_exit_on_the_left">Soldaki çıkışa girin</string>
+    <string name="da_step_take_the_exit_on_the_right">Sağdaki çıkışa girin</string>
+    <string name="da_step_take_the_exit_onto">%1$s yönünde çıkışa girin</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">%1$s yönünde soldaki çıkışa girin</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">%1$s yönünde sağdaki çıkışa girin</string>
+    <string name="da_step_take_exit_n">%1$s numaralı çıkışa girin</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - Görüntüler ©%2$d %3$s, Harita verileri ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Görüntüler ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Harita verileri ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Ev</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Yol Tarifleri ve Gezinme</string>
+    <string name="EXIT_COMMAND">Çıkış</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} check-in yapmanızı istiyor</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Latitude check-in isteği</string>
+    <string name="GOHOME_DESTINATION_HINT">Bir adres girin</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Kısayol simgesi</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Kaydet</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Hedef</string>
+    <string name="GOHOME_SHORTCUT_NAME">Kısayol adı</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Adım adım navigasyon</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Ayarları Aç</string>
+    <string name="HOTPOT_LOADING">Yükleniyor...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">"Yerleri Oylayın widget'ı hem Kablosuz ağları kullanı (Konum ve Güvenlik ayarlarında) hem de Kablosuz'u (Kablosuz ve ağ ayarlarında) etkinleştirmenizi gerektirir."</string>
+    <string name="HOTPOT_LOCATION_DISABLED">"Yerleri Oylayın widget'ını kullanabilmek için lütfen Konum ve Güvenlik ayarlarında Kablosuz ağları kullanı etkinleştirin."</string>
+    <string name="HOTPOT_NO_LOCATION">Konum bilgisi yok</string>
+    <string name="HOTPOT_SEARCH">arama yapın</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Aranılan: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Tekrar Ara</string>
+    <string name="HOTPOT_SELECT_PLACE">Derecelendirilecek yeri seçin</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Bir yer seçin: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Bilinmeyen konum</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Konum Yenileniyor...</string>
+    <string name="HOTPOT_WIDGET_NAME">Yerleri Derecelendir</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">{0} adıyla herkese açık olarak yayınlanıyor</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Daha fazlasını söyleyin</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Son güncelleme: {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"Yerleri Oyla widget'inin konum doğruluğunu iyileştirmek için lütfen Kablosuz ve ağ ayarlarında Kablosuz'u açın"</string>
+    <string name="HOTPOT_YOU_RATED">"Değerlendirmeniz: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">{0} adlı yerde ve {1} ile paylaştı</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Şuraya check-in yaptınız: {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">{0} adlı yere giriş mi yapıyorsunuz?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Bu yere giriş mi yapıyorsunuz?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">"Latitude'ta oturum açmak için dokunun"</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Son Güncelleme: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Bilinmeyen konum</string>
+    <string name="LOADING">Yükleniyor</string>
+    <string name="MAPS_APP_NAME">Google Haritalar</string>
+    <string name="NEED_NET_BODY">Bu uygulama siz şebekeden veri alışverişi için izin vermeden kullanılamaz.</string>
+    <string name="NEED_NET_TITLE">Şebeke erişimi gerekli</string>
+    <string name="NETWORK_DATA_ERROR">Bu uygulama bir veri bağlantısı gerektiriyor. Lütfen operatörünüzle irtibat kurun.</string>
+    <string name="NET_FAIL_BODY">Bu uygulama çalışan bir veri bağlantısı gerektirir.</string>
+    <string name="NET_FAIL_TITLE">Şebeke hatası</string>
+    <string name="NET_UNAVAILABLE_TITLE">Şebekeye Erişilemiyor</string>
+    <string name="PLACES_APP_NAME">Rehber</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">ör. Mantı, Kokteyl, Müzik</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Neleri öne çıkıyor?</string>
+    <string name="RATINGS_OPTIN_CANCEL">İptal</string>
+    <string name="RATINGS_OPTIN_CLOSE">Kapat</string>
+    <string name="RATINGS_OPTIN_FAILED">Güncellenemedi, lütfen daha sonra tekrar deneyin.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Sosyalleşin!&lt;/b> Arkadaşlar eklemek ve arkadaşlarınızın sevdikleri yerleri keşfetmek için bilgisayarınızda &lt;b>{0}&lt;/b> adresine gidin.</string>
+    <string name="RATINGS_OPTIN_HEADING">Herkese açık Google Rehber takma adınızı seçin.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Ad veya takma ad: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Arama sonuçlarında kişisel zevklerinize dayalı öneriler almak için favori restoranlarınızı, kafelerinizi ve diğer yerlerinizi oylayın.</string>
+    <string name="RATINGS_OPTIN_SAVE">Başlarken</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Oylarınız bu takma adla &lt;b>web üzerinde herkese açıktır&lt;/b>. &lt;a href=#>Daha fazla bilgi edinin&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">"Web'de {0} adıyla herkese açık olarak yayınlanıyor"</string>
+    <string name="RATINGS_POSTING_PUBLICLY">"Web'de herkese açık olarak yayınlanıyor."</string>
+    <string name="RATINGS_RATE_PLACES">Yerleri oylamak ne işe yarar?</string>
+    <string name="RATINGS_SET_APPEARANCE">Görünümü ayarla</string>
+    <string name="RATINGS_WAIT">Lütfen bekleyin...</string>
+    <string name="SEARCH_HINT">Haritalarda Ara</string>
+    <string name="SHORT_APP_NAME">Google Haritalar</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Varış noktası</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trafik</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Widget adı</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Kaydet</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Başlangıç noktası</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Ciddi hata. Lütfen çıkın ve yeniden başlatın.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Bilinmeyen hata</string>
+    <string name="UPGRADE_BODY">Bu uygulamayı kullanmak için yeni bir sürümü yüklemelisiniz.</string>
+    <string name="UPGRADE_TITLE">Yazılım Sürümünü Yükseltme</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Google Haritalar animasyonlu duvar kağıdı</string>
+    <string name="WALLPAPER_MAP_MODE">Harita modu</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Uydu</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Harita modu; örn., Uydu</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Arazi</string>
+    <string name="WALLPAPER_SETTINGS">Google Haritalar animasyonlu duvar kağıdı ayarları</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Trafiği göster</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">"Şu anki hava durumunu haritada göster. Hava durumu widget'ının yüklü olması gerekir."</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Hava durumu</string>
+</resources>

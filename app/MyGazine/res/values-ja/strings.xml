@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">ウェブサイト</string>
+    <string name="music_title_str">音楽</string>
+    <string name="web_tag_str">URLなし</string>
+    <string name="music_tag_album">アルバムなし</string>
+    <string name="music_tag_song">曲なし</string>
+    <string name="music_tag_artist">アーティストなし</string>
+    <string name="date_text_str">日付なし</string>
+    <string name="cal_event_str">最近のイベントなし</string>
+    <string name="weather_info_str">お天気情報なし</string>
+    <string name="weather_content_str">お天気コンテンツなし</string>
+    <string name="photo_date_str">画像の日付なし</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">風力</string>
+    <string name="humidity">湿度</string>
+    <string name="email_unit">Eメール</string>
+    <string name="email_unit_single">Eメール</string>
+    <string name="event_unit">イベント</string>
+    <string name="event_unit_single">イベント</string>
+    <string name="book_unit">ブック</string>
+    <string name="book_unit_single">ブック</string>
+    <string name="weather_city_str">都市なし</string>
+    <string name="date_format_title">日付の表示方式</string>
+    <string name="preference_header_title">プリファレンス</string>
+    <string name="slideshow_header_title">スライドショー</string>
+    <string name="picture_number_title">スライドショーの画像数</string>
+    <string name="slide_show_interval_title">スライドショーの間隔</string>
+    <string name="transition_effect_title">トランジションエフェクト</string>
+    <string name="enable">有効</string>
+    <string name="disable">無効</string>
+    <string name="app_settings">ASUS MyZine の設定</string>
+    <string name="unit_picture">枚</string>
+    <string name="unit_second">秒</string>
+    <string name="Image_headline">画像</string>
+    <string name="display_headline">ディスプレイ</string>
+    <string name="date_headline">日付</string>
+    <string name="logo_display_title">ASUS MyZine ロゴ</string>
+    <string name="date_display_title">日/時間</string>
+    <string name="photo_date_display_title">画像の日付の作成</string>
+    <string name="event_display_title">予定されているイベント</string>
+    <string name="weather_display_title">天気の状態</string>
+    <string name="scale_type_title">画像のプレゼンテーション</string>
+</resources>

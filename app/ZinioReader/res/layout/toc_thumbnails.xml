@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="fill" android:id="@id/pages_grid" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="0.0dip" android:verticalSpacing="5.0dip" android:stretchMode="columnWidth" />
+    <com.zinio.mobile.android.view.TransparentRelativePanel android:layout_gravity="right" android:id="@id/scroll_overlay" android:paddingTop="55.0dip" android:paddingBottom="45.0dip" android:visibility="gone" android:fadingEdgeLength="5.0px" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+    <include layout="@layout/bottom_toolbar" />
+</RelativeLayout>

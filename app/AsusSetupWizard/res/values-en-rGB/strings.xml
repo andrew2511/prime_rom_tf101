@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internet Connection</string>
+    <string name="mobile_wifi_title">Mobile network and WiFi</string>
+    <string name="wifi_title">WiFi connection only</string>
+    <string name="setup_wizard_title">Setup Wizard</string>
+    <string name="next_button_label">Next</string>
+    <string name="welecome_title">Welcome</string>
+    <string name="btn_start_text">Start</string>
+</resources>

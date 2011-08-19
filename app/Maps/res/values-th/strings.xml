@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google แผนที่</string>
+    <string name="da_google_maps_navigation">การนำทางของ Google แผนที่</string>
+    <string name="da_net_fail_title">เครือข่ายล้มเหลว</string>
+    <string name="da_net_fail_body">แอปพลิเคชันนี้จำเป็นต้องใช้การเชื่อมต่อข้อมูลที่พร้อมใช้งาน</string>
+    <string name="da_beta">เบต้า</string>
+    <string name="da_destination">จุดหมาย</string>
+    <string name="da_toward">ตรงไปยัง%1$s</string>
+    <string name="da_onto">ไปยัง %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"จากนั้น 
+%1$s"</string>
+    <string name="da_continue_for_distance">ขับต่อไปอีก %1$s</string>
+    <string name="da_destination_will_be_on_the_left">จุดหมายของคุณจะอยู่ทางซ้าย</string>
+    <string name="da_destination_will_be_on_the_right">จุดหมายของคุณจะอยู่ทางขวา</string>
+    <string name="da_you_will_reach_destination">คุณจะถึงจุดหมาย</string>
+    <string name="da_destination_on_the_left">จุดหมายของคุณอยู่ทางซ้าย</string>
+    <string name="da_destination_on_the_right">จุดหมายของคุณอยู่ทางขวา</string>
+    <string name="da_destination_reached">คุณมาถึงแล้ว</string>
+    <string name="da_speech_lost_gps">ไม่มีสัญญาณ GPS</string>
+    <string name="da_speech_lost_data_connection">การเชื่อมต่อข้อมูลขาดหายไป</string>
+    <string name="da_speech_navigation_resumed">กลับสู่การนำทาง</string>
+    <string name="da_speech_please_describe_problem">โปรดอธิบายปัญหาที่คุณพบ</string>
+    <string name="da_on_left">ทางซ้าย</string>
+    <string name="da_on_right">ทางขวา</string>
+    <string name="da_stay_on_road_primary">ขับไปตาม %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">อีก %1$s จะถึง%2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">อีก %1$s จะถึง%2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} ไมล์</string>
+    <string name="da_distance_format_miles_compressed">{0} ไมล์</string>
+    <string name="da_distance_format_feet_abbreviated">{0} ฟุต</string>
+    <string name="da_distance_format_feet_compressed">{0} ฟุต</string>
+    <string name="da_distance_format_yards_abbreviated">{0} หลา</string>
+    <string name="da_distance_format_yards_compressed">{0} หลา</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} กม.</string>
+    <string name="da_distance_format_kilometers_compressed">{0} กม.</string>
+    <string name="da_distance_format_meters_abbreviated">{0} ม.</string>
+    <string name="da_distance_format_meters_compressed">{0} ม.</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s วัน %2$s ชม.</string>
+    <string name="da_time_format_hours" formatted="false">%1$s ชม. %2$s นาที</string>
+    <string name="da_time_format_minutes">%1$s นาที</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">การนำทาง</string>
+    <string name="da_search_label">ค้นหา</string>
+    <string name="da_layers">เลเยอร์</string>
+    <string name="da_agreement">"การนำทางของ Google แผนที่ยังเป็นรุ่นเบต้า โปรดใช้อย่างระมัดระวัง 
+
+อย่าดำเนินการใดๆ กับแอปพลิเคชันนี้ในขณะขับขี่ ข้อมูลการจราจรไม่ใช่ข้อมูลตามเวลาจริง และเส้นทางอาจไม่ถูกต้อง มีอันตราย ถูกห้ามใช้ หรืออาจรวมการใช้เรือข้ามฟาก โปรดปฏิบัติตามกฎหมายที่เกี่ยวข้อง
+
+อย่าละสายตาจากถนน"</string>
+    <string name="da_agreement_with_walking">"การนำทางของ Google แผนที่ยังเป็นรุ่นเบต้า โปรดใช้อย่างระมัดระวัง
+
+อย่าดำเนินการใดๆ กับแอปพลิเคชันนี้ในขณะขับขี่ ข้อมูลการจราจรไม่ใช่ข้อมูลตามเวลาจริง และเส้นทางอาจไม่ถูกต้อง มีอันตราย ถูกห้ามใช้ หรือรวมการใช้เรือข้ามฟาก เส้นทางเดินเท้าอาจไม่มีทางเท้าหรือทางคนเดิน โปรดปฏิบัติตามกฎหมายที่เกี่ยวข้อง
+
+อย่าละสายตาจากถนน"</string>
+    <string name="da_disclaimer_checkbox">แสดงข้อความนี้ในครั้งถัดไป</string>
+    <string name="da_show_list">รายการเส้นทาง</string>
+    <string name="da_route_overview">ข้อมูลเส้นทาง</string>
+    <string name="da_show_map">แสดงแผนที่</string>
+    <string name="da_satellite">ดาวเทียม</string>
+    <string name="da_traffic_view">มุมมองการจราจร</string>
+    <string name="da_no_traffic_here">ไม่มีข้อมูลการจราจรที่นี่</string>
+    <string name="da_traffic">การจราจร</string>
+    <string name="da_area_view">มุมมองพื้นที่</string>
+    <string name="da_mute">ปิดเสียง</string>
+    <string name="da_unmute">ยกเลิกการปิดเสียง</string>
+    <string name="da_settings">การตั้งค่า</string>
+    <string name="da_help">ความช่วยเหลือ</string>
+    <string name="da_terms_privacy_notices">ข้อกำหนดและข้อมูลส่วนบุคคล</string>
+    <string name="da_terms_and_conditions">ข้อกำหนดในการให้บริการ</string>
+    <string name="da_privacy_policy">นโยบายส่วนบุคคล</string>
+    <string name="da_legal_notices">ประกาศทางกฎหมาย</string>
+    <string name="da_navigation_suspended">การนำทางหยุดทำงานชั่วคราว</string>
+    <string name="da_exit_navigation">ออกจากการนำทาง</string>
+    <string name="da_email_me_when_resolved">ส่งอีเมลให้ฉันเมื่อปัญหาได้รับการแก้ไข</string>
+    <string name="da_problem_reported">รายงานปัญหาแล้ว</string>
+    <string name="da_one_button_map_issue_reporting">1-คลิกรายงานปัญหา</string>
+    <string name="da_attention">โปรดทราบ</string>
+    <string name="da_rmi_warning">"ด้วยการรายงานปัญหา คุณสามารถบันทึกข้อความเสียงสั้นๆ โดยอธิบายปัญหาที่พบเกี่ยวกับแผนที่หรือเส้นทางของคุณ เมื่อผ่านไป 15 วินาที ข้อความของคุณจะถูกส่งไปยัง Google พร้อมกับตำแหน่งปัจจุบันและเส้นทางของคุณ
+
+อาจมีการเปิดใช้งานทางลัดการคลิกหนึ่งครั้งในการตั้งค่าแอปพลิเคชันของคุณ
+
+ หากคุณเลือกรับอีเมลกิจกรรมล่าสุดเมื่อปัญหาได้รับการแก้ไข จะมีการจัดเก็บที่อยู่อีเมล ตำแหน่ง และความคิดเห็นของคุณไว้จนกระทั่งปัญหาได้รับการแก้ไข"</string>
+    <string name="da_report_a_problem">รายงานปัญหา</string>
+    <string name="da_report_a_problem_dialog_title">รายงานปัญหา</string>
+    <string name="da_rmi_preference_trackball_summary">หากมีการเปิดใช้งาน การกดแทร็กบอลจะเป็นการเริ่มรายงานปัญหา</string>
+    <string name="da_rmi_preference_camera_summary">หากมีการเปิดใช้งาน การกดปุ่มกล้องจะเป็นการเริ่มรายงานปัญหา</string>
+    <string name="da_rmi_preference_no_button_summary">ไม่มีปุ่มจริงที่พร้อมใช้งาน</string>
+    <string name="da_rmi_preference_bad_location_summary">การรายงานปัญหาไม่มีให้บริการในสถานที่ในปัจจุบันของคุณ</string>
+    <string name="da_destination_not_here_warning">ขอขอบคุณที่รายงานว่าเรามีตำแหน่งไม่ถูกต้องสำหรับจุดหมายของคุณ จุดหมายและตำแหน่งปัจจุบันของคุณจะส่งไปยัง Google เพื่อช่วยปรับปรุงความถูกต้องของข้อมูลของเรา</string>
+    <string name="da_destination_not_here_title">รายงานปัญหา</string>
+    <string name="da_searching_for_gps">กำลังค้นหา GPS...</string>
+    <string name="da_data_connection_lost">การเชื่อมต่อข้อมูลขาดหายไป...</string>
+    <string name="da_follow_the_route">ไปตามเส้นทาง</string>
+    <string name="da_waiting_for_directions">กำลังรอรับเส้นทางการขับขี่</string>
+    <string name="da_waiting_for_walking_directions">กำลังค้นหาเส้นทางเดินเท้า</string>
+    <string name="da_waiting_for_location">กำลังรอตำแหน่ง</string>
+    <string name="da_checking_navigation_availability">การตรวจสอบความพร้อมใช้งานการนำทาง</string>
+    <string name="da_loading_route_details">กำลังโหลดรายละเอียดเส้นทาง</string>
+    <string name="da_loading_image">กำลังโหลดภาพ</string>
+    <string name="da_waiting_for_alternates">กำลังค้นหาเส้นทางอื่น</string>
+    <string name="da_waiting_for_details">กำลังโหลด</string>
+    <string name="da_no_details">ไม่พบรายละเอียด</string>
+    <string name="da_gps_is_disabled">GPS ถูกปิดการใช้งาน</string>
+    <string name="da_turn_on_gps">ต้องการแสดงการตั้งค่าสถานที่หรือไม่</string>
+    <string name="da_voice_guidance">การนำทางด้วยเสียง</string>
+    <string name="da_install_voice_guidance_prompt">สำหรับการนำทางด้วยเสียง คุณจำเป็นต้องติดตั้งการสนับสนุนข้อความให้เป็นคำพูดจาก Android Market</string>
+    <string name="da_dialog_ok">ตกลง</string>
+    <string name="da_dialog_skip">ข้าม</string>
+    <string name="da_dialog_cancel">ยกเลิก</string>
+    <string name="da_dialog_done">เสร็จสิ้น</string>
+    <string name="da_dialog_accept">ยอมรับ</string>
+    <string name="da_dialog_install">ติดตั้ง</string>
+    <string name="da_dialog_dont_accept">ไม่ยอมรับ</string>
+    <string name="da_dialog_go">ไป</string>
+    <string name="da_dialog_get_directions">ขอเส้นทาง</string>
+    <string name="da_map">แผนที่</string>
+    <string name="da_clear_layers">ล้างข้อมูลในแผนที่</string>
+    <string name="da_layer_name_parking">ที่จอดรถ</string>
+    <string name="da_layer_name_attractions">สิ่งที่น่าสนใจ</string>
+    <string name="da_layer_name_gas_stations">ปั๊มน้ำมัน</string>
+    <string name="da_layer_name_restaurants">ร้านอาหาร</string>
+    <string name="da_layer_name_supermarkets">ซูเปอร์มาร์เก็ต</string>
+    <string name="da_layer_name_atms_and_banks">ATM และธนาคาร</string>
+    <string name="da_layer_name_convenience_stores">ร้านสะดวกซื้อ</string>
+    <string name="da_query_banks_and_atms">ธนาคารและตู้ ATM</string>
+    <string name="da_rerouting">กำลังกำหนดเส้นทางใหม่...</string>
+    <string name="da_via">ผ่าน%s</string>
+    <string name="da_to_destination">ไปยัง %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">บันทึกข้อเสนอแนะ</string>
+    <string name="da_destination_not_here">จุดหมายไม่ใช่ที่นี่</string>
+    <string name="da_new_destination">จุดหมายถัดไป</string>
+    <string name="da_reroute_to_destination">กลับสู่จุดหมาย</string>
+    <string name="da_change_destination">ตั้งค่าปลายทาง</string>
+    <string name="da_search_for_destination">ค้นหา...</string>
+    <string name="da_point_on_map">ตำแหน่งบนแผนที่</string>
+    <string name="da_volume">ระดับเสียงของระบบนำทาง</string>
+    <string name="da_exit">ออกจากระบบ</string>
+    <string name="da_did_you_mean">หรือคุณหมายถึง:</string>
+    <string name="da_did_you_say">คุณพูดว่า:</string>
+    <string name="da_for_your_end_point">ตัวเลือกปลายทาง</string>
+    <string name="da_unnamed_road">ถนนไม่มีชื่อ</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s จากนั้น %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">อีก %1$s เมตร</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">อีกหนึ่งกิโลเมตรครึ่ง</string>
+    <string name="da_speech_continue_for_x_meters">ขับต่อไปอีก %1$s เมตร</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">ขับต่อไปอีก 1.5 กิโลเมตร</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">ขับต่อไปบน %2$s อีก %1$s เมตร</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">ขับต่อไปบน %1$s อีก 1.5 กิโลเมตร</string>
+    <string name="da_speech_generic_continue">ตรงไป</string>
+    <string name="da_speech_in_x_feet">อีก %1$s ฟุต</string>
+    <string name="da_speech_in_x_yards">อีก %1$s หลา</string>
+    <string name="da_speech_in_a_quarter_mile">อีก 0.25 ไมล์</string>
+    <string name="da_speech_in_a_half_mile">อีก 0.50 ไมล์</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">อีก 0.75 ไมล์</string>
+    <string name="da_speech_in_one_and_a_half_miles">อีก 1.5 ไมล์</string>
+    <string name="da_speech_continue_for_x_feet">ขับต่อไปอีก %1$s ฟุต</string>
+    <string name="da_speech_continue_for_x_yards">ขับต่อไปอีก %1$s หลา</string>
+    <string name="da_speech_continue_for_a_quarter_mile">ขับต่อไปอีก 0.25 ไมล์</string>
+    <string name="da_speech_continue_for_a_half_mile">ขับต่อไปอีก 0.50 ไมล์</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">ขับต่อไปอีก 0.75 ไมล์</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">ขับต่อไปอีก 1.5 ไมล์</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">ขับต่อไปบน %2$s อีก %1$s ฟุต</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">ขับต่อไปบน %2$s อีก %1$s หลา</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">ขับต่อไปบน %1$s อีก 0.25 ไมล์</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">ขับต่อไปบน %1$s อีก 0.50 ไมล์</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">ขับต่อไปบน %1$s อีก 0.75 ไมล์</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">ขับต่อไปบน %1$s อีก 1.5 ไมล์</string>
+    <string name="da_route_prefixes">น, ตอ/น, ตอ, ตอ/ต, ต, ตต/ต, ตต, ตต/น</string>
+    <string name="da_route_suffixes">ถนน</string>
+    <string name="da_no_route">ไม่พบเส้นทาง</string>
+    <string name="da_route_not_found">เราไม่พบเส้นทางสู่จุดหมายของคุณ</string>
+    <string name="da_destination_not_found">เราไม่สามารถค้นหาจุดหมายของคุณได้</string>
+    <string name="da_navigation_not_supported">การนำทางสู่จุดหมายของคุณไม่เปิดใช้งาน</string>
+    <string name="da_navigation_not_supported_at_current_loc">การนำทางของ Google แผนที่ไม่พร้อมให้บริการในสถานที่นี้</string>
+    <string name="da_launch_maps">เปิดแผนที่</string>
+    <string name="da_no_image_available">ไม่พบภาพ</string>
+    <string name="da_image_error">เกิดข้อผิดพลาดขณะโหลดภาพ</string>
+    <string name="da_no_alternate_routes">เราไม่พบเส้นทางอื่นไปยังจุดหมายของคุณ</string>
+    <string name="da_picker_type_destination">ประเภทของปลายทาง</string>
+    <string name="da_picker_speak_destination">ปลายทางการสนทนา</string>
+    <string name="da_picker_contacts">ที่อยู่ติดต่อ</string>
+    <string name="da_picker_starred_items">สถานที่ที่ติดดาว</string>
+    <string name="da_picker_new_contact">ที่อยู่ติดต่อใหม่</string>
+    <string name="da_picker_recent_destinations">จุดหมายล่าสุด</string>
+    <string name="da_picker_choose_destination">เลือกจุดหมาย</string>
+    <string name="da_navigate_to">นำทางไปที่</string>
+    <string name="da_picker_search_hint">ปลายทาง</string>
+    <string name="da_route_options">ตัวเลือกเส้นทาง</string>
+    <string name="da_updating_directions">กำลังอัปเดตเส้นทาง</string>
+    <string name="da_picker_no_starred_items">"คุณยังไม่มีรายการที่ติดดาว
+
+รายการที่ติดดาวจะซิงค์ข้อมูลกับ maps.google.co.th โดยอัตโนมัติ
+
+คุณสามารถติดดาวผลการค้นหาใน Google แผนที่ได้โดยแตะที่ไอคอนรูปดาวที่อยู่ใกล้กับที่อยู่นั้น"</string>
+    <string name="da_picker_no_contacts">"คุณยังไม่ได้เพิ่มที่อยู่สำหรับที่อยู่ติดต่อใดๆ
+
+คุณสามารถเพิ่มที่อยู่ติดต่อใหม่หรือกำหนดที่อยู่สำหรับที่อยู่ติดต่อเดิมได้ในแอปพลิเคชันที่อยู่ติดต่อ"</string>
+    <string name="da_driving">การขับขี่</string>
+    <string name="da_walking">เดินเท้า</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">ข้อมูลเพิ่มเติม</string>
+    <string name="da_search_maps">ค้นหาแผนที่</string>
+    <string name="da_walking_warning">เดินเท้า (เบต้า): ใช้ความระมัดระวัง</string>
+    <string name="da_calibrate_compass_title">การปรับเทียบเข็มทิศ</string>
+    <string name="da_calibrate_compass">คุณยังไม่ได้ปรับเทียบเข็มทิศของคุณ ในการปรับเทียบเข็มทิศ โปรดขยับอุปกรณ์เป็นรูปเลข 8 สองถึงสามครั้ง</string>
+    <string name="da_confirm_exit_title">ออกจากการนำทาง?</string>
+    <string name="da_confirm_exit_text">การแนะนำเส้นทางทั้งหมดจะสิ้นสุดลง</string>
+    <string name="da_route_includes_tolls">เส้นทางมีทางพิเศษ</string>
+    <string name="da_avoid_tolls">เลี่ยงค่าผ่านทาง</string>
+    <string name="da_avoiding_tolls">เลี่ยงทางพิเศษ</string>
+    <string name="da_avoiding_highways">เลี่ยงทางหลวง</string>
+    <string name="da_route_includes_unavoidable_tolls">เส้นทางนี้รวมค่าผ่านทาง</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">เส้นทางนี้รวมค่าผ่านทาง ปิดการใช้งานเส้นทางที่ต้องจ่ายค่าผ่านทางใน %1$s%2$s ด้านล่างนี้</string>
+    <string name="da_seasonally_closed">เส้นทางอาจปิดตามฤดูกาล</string>
+    <string name="da_direction_north">เหนือ</string>
+    <string name="da_direction_north_west">ตะวันตกเฉียงเหนือ</string>
+    <string name="da_direction_west">ตะวันตก</string>
+    <string name="da_direction_south_west">ตะวันตกเฉียงใต้</string>
+    <string name="da_direction_south">ใต้</string>
+    <string name="da_direction_south_east">ตะวันออกเฉียงใต้</string>
+    <string name="da_direction_east">ตะวันออก</string>
+    <string name="da_direction_north_east">ตะวันออกเฉียงเหนือ</string>
+    <string name="da_step_depart">มุ่งไปทาง %1$s</string>
+    <string name="da_step_depart_on" formatted="false">มุ่งไปทาง %1$s บน %2$s</string>
+    <string name="da_step_slight_left">เบี่ยงซ้าย</string>
+    <string name="da_step_slight_right">เบี่ยงขวา</string>
+    <string name="da_step_turn_left">เลี้ยวซ้าย</string>
+    <string name="da_step_turn_right">เลี้ยวขวา</string>
+    <string name="da_step_sharp_left">หักซ้าย</string>
+    <string name="da_step_sharp_right">หักขวา</string>
+    <string name="da_step_slight_left_onto">เบี่ยงซ้ายเข้าสู่ %1$s</string>
+    <string name="da_step_slight_right_onto">เบี่ยงซ้ายเข้าสู่ %1$s</string>
+    <string name="da_step_turn_left_onto">เลี้ยวซ้ายเข้าสู่ %1$s</string>
+    <string name="da_step_turn_right_onto">เลี้ยวขวาเข้าสู่ %1$s</string>
+    <string name="da_step_sharp_left_onto">หักซ้ายเข้าสู่ %1$s</string>
+    <string name="da_step_sharp_right_onto">หักขวาเข้าสู่ %1$s</string>
+    <string name="da_step_fork_left">ชิดซ้ายตรงทางแยก</string>
+    <string name="da_step_fork_right">ชิดขวาตรงทางแยก</string>
+    <string name="da_step_continue_onto">ขับต่อไปบน %1$s</string>
+    <string name="da_step_continue_straight">ขับตรงต่อไป</string>
+    <string name="da_step_u_turn">กลับรถ</string>
+    <string name="da_step_take_the_ramp">ใช้ทางลาด</string>
+    <string name="da_step_take_the_ramp_onto">ใช้ทางลาดไปยัง %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">ใช้ทางลาดด้านซ้าย</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">ใช้ทางลาดด้านซ้ายไปยัง %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">ใช้ทางลาดด้านขวา</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">ใช้ทางลาดด้านขวาไปยัง %1$s</string>
+    <string name="da_step_take_the_exit">ใช้ทางออก</string>
+    <string name="da_step_take_the_exit_on_the_left">ใช้ทางออกด้านซ้าย</string>
+    <string name="da_step_take_the_exit_on_the_right">ใช้ทางออกด้านขวา</string>
+    <string name="da_step_take_the_exit_onto">ใช้ทางออกไปยัง %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">ใช้ทางออกด้านซ้ายไปยัง %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">ใช้ทางออกด้านขวาไปยัง %1$s</string>
+    <string name="da_step_take_exit_n">ใช้ทางออก %1$s</string>
+    <string name="dav_map_copyrights_google_only">%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - ภาพ ©%2$d%3$s, ข้อมูลแผนที่ ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - ภาพ ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - ข้อมูลแผนที่ ©%2$d%3$s</string>
+</resources>

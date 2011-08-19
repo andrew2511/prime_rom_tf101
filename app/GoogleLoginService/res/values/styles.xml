@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="setupWizardBodyTextPrimary" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardBodyTextSecondary" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTextPrimarySmall" parent="@android:attr/textAppearanceSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTextSecondarySmall" parent="@android:attr/textAppearanceSmall">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">@color/highlight_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+    <style name="setupWizardTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+    <style name="setupWizardTextPrimaryGreen">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+    <style name="setupWizardTitleDivider">
+        <item name="android:background">@color/title_color</item>
+    </style>
+    <style name="BrowserTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+    </style>
+    <style name="AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@android:layout/simple_dropdown_item_1line</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@android:drawable/spinner_dropdown_background</item>
+    </style>
+    <style name="CustomTitle" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/setups_bg_default</item>
+        <item name="android:windowTitleSize">60.0dip</item>
+    </style>
+    <style name="LoginActivity" parent="@style/CustomTitle">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="NoTitleInXL" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_default</item>
+    </style>
+    <style name="CaptchaActivity" parent="@style/CustomTitle">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="InvisibleCustomTitle" parent="@style/CustomTitle">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="Theme.InvisibleDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="gls_baseStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="gls_topHeader" parent="@style/gls_baseStyle">
+        <item name="android:textAppearance">@style/gls_TextAppearance.topHeader</item>
+    </style>
+    <style name="gls_header" parent="@style/gls_topHeader">
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="gls_baseEditText" parent="@style/gls_baseStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+    <style name="gls_baseButton" parent="@style/gls_baseStyle">
+        <item name="android:minWidth">100.0dip</item>
+    </style>
+    <style name="gls_TextAppearance" parent="@android:style/TextAppearance" />
+    <style name="gls_TextAppearance.topHeader" parent="@style/gls_TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="gls_enterpriseSignInTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+    <style name="gls_enterpriseSignInText" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="gls_BrowserTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+    </style>
+    <style name="gls_browserAddAccountProgressText" parent="@android:attr/textAppearanceMedium">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/browser_progress_color</item>
+    </style>
+    <style name="gls_AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@android:layout/simple_dropdown_item_1line</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@android:drawable/spinner_dropdown_background</item>
+    </style>
+    <style name="AccountIntroActivity" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="WaitForDeviceCountryActivity" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="LoginActivityTask" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/setups_bg_account</item>
+    </style>
+    <style name="setupWizardOuterFrame">
+        <item name="android:paddingLeft">@dimen/screen_margin_sides</item>
+        <item name="android:paddingTop">@dimen/screen_margin_top</item>
+        <item name="android:paddingRight">@dimen/screen_margin_sides</item>
+        <item name="android:paddingBottom">@dimen/screen_margin_bottom</item>
+    </style>
+    <style name="LoginActivityOuterFrame" parent="@style/setupWizardOuterFrame">
+        <item name="android:paddingTop">@dimen/login_screen_margin_top</item>
+        <item name="android:paddingBottom">@dimen/login_screen_margin_bottom</item>
+    </style>
+    <style name="CaptchaActivityOuterFrame">
+        <item name="android:paddingLeft">@dimen/screen_margin_sides</item>
+        <item name="android:paddingTop">@dimen/captcha_screen_margin_top</item>
+        <item name="android:paddingRight">@dimen/screen_margin_sides</item>
+        <item name="android:paddingBottom">@dimen/captcha_screen_margin_bottom</item>
+    </style>
+    <style name="Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="DescriptionText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/description_margin_sides</item>
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/description_margin_sides</item>
+        <item name="android:lineSpacingExtra">5.0sp</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+    <style name="Button">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:minWidth">208.0dip</item>
+    </style>
+    <style name="TopDivider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3.0dip</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+    </style>
+    <style name="PreferenceDivider" parent="@style/TopDivider">
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="BottomDivider" parent="@style/TopDivider">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+    </style>
+</resources>

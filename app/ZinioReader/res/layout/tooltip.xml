@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/tooltip_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/tooltip_content" android:paddingBottom="3.0dip" android:inflatedId="@id/view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/tooltip_hide_panel" android:background="#7f000000" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view_stub">
+        <CheckBox android:id="@id/tooltip_hide" android:background="@drawable/checkbox" android:layout_width="43.0dip" android:layout_height="36.0dip" android:button="@color/invisible" android:layout_centerVertical="true" android:soundEffectsEnabled="true" />
+        <TextView android:textSize="11.0sp" android:textColor="#ffacacac" android:id="@id/tooltip_hide_text" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_tip_hide" android:layout_toRightOf="@id/tooltip_hide" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

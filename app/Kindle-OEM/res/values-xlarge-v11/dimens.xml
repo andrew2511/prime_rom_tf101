@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="library_grid_cover_width">150.0dip</dimen>
+    <dimen name="library_grid_cover_height">210.0dip</dimen>
+    <dimen name="library_grid_horizontal_spacing">20.0dip</dimen>
+    <dimen name="library_grid_vertical_spacing">30.0dip</dimen>
+    <dimen name="library_book_row_reading_progress_dot_spacing">1.0dip</dimen>
+    <dimen name="article_list_thumbnail_width">160.0dip</dimen>
+    <dimen name="article_list_thumbnail_height">160.0dip</dimen>
+    <dimen name="periodical_top_margin">80.0dip</dimen>
+    <dimen name="reader_horizontal_margin">75.0dip</dimen>
+    <dimen name="reader_title_offset_from_top">25.0dip</dimen>
+    <dimen name="reader_top_margin">80.0dip</dimen>
+    <dimen name="reader_bottom_margin">80.0dip</dimen>
+    <dimen name="reader_bookmark_corner_size">175.0dip</dimen>
+    <dimen name="reader_softback_textsize">20.0sp</dimen>
+    <dimen name="reader_bookmark_offset_from_edge">21.0dip</dimen>
+    <dimen name="transient_screen_cover_size">500.0dip</dimen>
+    <dimen name="transient_screen_progress_size">300.0dip</dimen>
+    <dimen name="lib_states_width">300.0dip</dimen>
+    <dimen name="feedback_screen_height">500.0dip</dimen>
+    <dimen name="feedback_screen_width">650.0dip</dimen>
+    <dimen name="feedback_screen_top_margin">2.0dip</dimen>
+</resources>

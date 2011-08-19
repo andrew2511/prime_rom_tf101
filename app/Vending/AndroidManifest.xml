@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="6005012" android:versionName="5.0.12" package="com.android.vending"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
+    <support-screens android:smallScreens="false" android:normalScreens="false" android:largeScreens="true" android:xlargeScreens="true" />
+    <permission android:label="@string/perm_check_license_label" android:name="com.android.vending.CHECK_LICENSE" android:protectionLevel="normal" android:permissionGroup="android.permission-group.NETWORK" android:description="@string/perm_check_license_desc" />
+    <permission android:label="@string/perm_billing_label" android:name="com.android.vending.BILLING" android:protectionLevel="normal" android:permissionGroup="android.permission-group.NETWORK" android:description="@string/perm_billing_desc" />
+    <permission android:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <permission android:name="com.android.vending.permission.UPDATE_MARKET_FAILURE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" />
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SEND" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.INTENT_VENDING_ONLY" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.android" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.androidsecure" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierra" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierraqa" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.sierrasandbox" />
+    <uses-permission android:name="com.google.android.gtalkservice.permission.GTALK_SERVICE" />
+    <uses-permission android:name="com.google.android.gtalkservice.permission.SEND_HEARTBEAT" />
+    <uses-permission android:name="com.android.vending.permission.UPDATE_MARKET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.settings.permission.WRITE_GSETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <application android:theme="@style/MyAppsTheme" android:label="@string/application_name" android:icon="@mipmap/ic_launcher_marketplace" android:name=".VendingApplication" android:backupAgent=".VendingBackupAgent" android:killAfterRestore="false" android:restoreNeedsApplication="true" android:restoreAnyVersion="true" android:hardwareAccelerated="true">
+        <activity android:name=".AssetOverviewActivity" />
+        <activity android:name=".CommentsActivity" android:configChanges="orientation" />
+        <activity android:name="SimilarAssetListActivity" android:configChanges="orientation" />
+        <activity android:name=".AssetPermissionsSubActivity" android:configChanges="orientation" />
+        <activity android:name=".UninstallActivity" android:configChanges="orientation" />
+        <activity android:name=".FlagContentActivity" android:configChanges="orientation" />
+        <activity android:name=".MyDownloadsActivity" android:launchMode="singleInstance" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.RUN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.CustomDialog" android:name=".ConfirmPermissionsActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:name=".billing.BuyPageActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:theme="@style/Theme.PurchaseDialog" android:name=".billing.InAppBuyPageActivity" android:screenOrientation="sensorLandscape" android:configChanges="orientation" />
+        <activity android:theme="@style/Theme.PurchaseDialog" android:name=".billing.AddCreditCardActivity" android:screenOrientation="sensorLandscape" android:configChanges="orientation" />
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name=".billing.CarrierTosAndAddressActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name=".billing.CarrierBillingAddressEditActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name=".billing.CarrierPasswordActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:name=".billing.GermanDirectDebitActivity" android:screenOrientation="sensorLandscape" />
+        <activity android:name=".SettingsActivity" android:configChanges="orientation" />
+        <activity android:name=".TosActivity" android:configChanges="orientation" />
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name=".FullImageGalleryActivity" android:configChanges="orientation" />
+        <receiver android:name=".DownloadManagerBroadcastReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:exported="true" />
+        <receiver android:name=".InitializeMarketAction$DownloadBroadcastReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:exported="true" />
+        <receiver android:name=".PackageMonitorReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".InstallAssetReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="INSTALL_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.REMOTE_INTENT" />
+                <category android:name="INSTALL_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GTALK_DATA_MESSAGE_RECEIVED" />
+                <category android:name="INSTALL_ASSET" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".RemoveAssetReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="REMOVE_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.REMOTE_INTENT" />
+                <category android:name="REMOVE_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GTALK_DATA_MESSAGE_RECEIVED" />
+                <category android:name="REMOVE_ASSET" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".UpdatesAvailableReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="UPDATES_AVAILABLE" />
+                <action android:name="com.android.vending.UPDATES_AVAILABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.vending.UPDATES_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".DeclineAssetReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="DECLINE_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.REMOTE_INTENT" />
+                <category android:name="DECLINE_ASSET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GTALK_DATA_MESSAGE_RECEIVED" />
+                <category android:name="DECLINE_ASSET" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".InvalidateAuthTokenReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.android.vending.INVALIDATE_AUTH_TOKEN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".DeviceConfigurationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".VendingDoctorReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.android.vending.DOCTOR_FIX_DOWNLOAD_COMPLETES" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".billing.BillingTickleReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.android.vending.billing.IN_APP_NOTIFY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AccountsChangedReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".billing.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".SelfUpdateCheckReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.SELF_UPDATE_CHECK" />
+            </intent-filter>
+        </receiver>
+        <service android:label="@string/application_name" android:name=".util.WorkService" />
+        <service android:label="@string/local_db_sync_service_name" android:name=".LocalDbSyncService" />
+        <service android:name=".licensing.LicensingService" android:permission="com.android.vending.CHECK_LICENSE">
+            <intent-filter>
+                <action android:name="com.android.vending.licensing.ILicensingService" />
+            </intent-filter>
+        </service>
+        <service android:name=".billing.MarketBillingService">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.MarketBillingService.BIND_INTERNAL" />
+            </intent-filter>
+        </service>
+        <service android:name=".util.AlarmService" />
+        <meta-data android:name="android.app.default_searchable" android:value=".SearchAssetListActivity" />
+        <provider android:name="SuggestionsProvider" android:authorities="com.android.vending.SuggestionsProvider" />
+    </application>
+</manifest>

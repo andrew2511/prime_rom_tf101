@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ratingsText" android:paddingBottom="10.0dip" android:text="@string/ratings_capsule_heading" style="@style/capsuleTitle" />
+    <ImageView android:id="@id/openRatings" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_carrot_symbol" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ratingsInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ratingsText" android:layout_centerVertical="true">
+        <TextView android:id="@id/ratingsLabel" android:layout_marginLeft="5.0dip" android:text="" style="@style/capsuleLabel" />
+        <RatingBar android:id="@id/capsule_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="1.0" android:isIndicator="true" style="@style/ratingStarsSmall" />
+    </LinearLayout>
+</RelativeLayout>

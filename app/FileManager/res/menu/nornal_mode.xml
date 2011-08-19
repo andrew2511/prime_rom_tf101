@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_ep_paste_icon_new" android:id="@id/paste_action" android:title="@string/action_paste" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_search_icon_new" android:id="@id/search_action" android:visible="false" android:title="@string/action_search" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_create_new_folder_icon_new" android:id="@id/add_folder_action" android:title="@string/action_add_folder" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/asus_ep_select_all" android:id="@id/select_all_action" android:title="@string/select_all" android:showAsAction="always|withText" />
+    <item android:id="@id/hide_system_file_action" android:title="@string/action_hind_system_file" android:showAsAction="never" />
+    <item android:id="@id/about_action" android:title="@string/action_about" android:showAsAction="never" />
+</menu>

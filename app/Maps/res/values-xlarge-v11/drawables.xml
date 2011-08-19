@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="btn_compass_mode">@drawable/btn_compass_mode_tablet</drawable>
+    <drawable name="btn_compass_tilt">@drawable/btn_compass_tilt_tablet</drawable>
+    <drawable name="btn_show_myl">@drawable/btn_show_myl_tablet</drawable>
+    <drawable name="da_btn_show_map">@drawable/da_btn_show_map_tablet</drawable>
+    <drawable name="da_mode_drive_large">@drawable/da_mode_drive_large_tablet</drawable>
+    <drawable name="da_mode_walk_large">@drawable/da_mode_walk_large_tablet</drawable>
+    <drawable name="directions_map_pins">@drawable/directions_map_pins_tablet</drawable>
+    <drawable name="friend_placard">@drawable/friend_placard_tablet</drawable>
+    <drawable name="ic_menu_directions">@drawable/ic_menu_directions_tablet</drawable>
+    <drawable name="ic_menu_latitude">@drawable/ic_menu_latitude_tablet</drawable>
+    <drawable name="ic_menu_layers">@drawable/ic_menu_layers_tablet</drawable>
+    <drawable name="ic_menu_mylocation">@drawable/ic_menu_mylocation_tablet</drawable>
+    <drawable name="ic_menu_places">@drawable/ic_menu_places_tablet</drawable>
+</resources>

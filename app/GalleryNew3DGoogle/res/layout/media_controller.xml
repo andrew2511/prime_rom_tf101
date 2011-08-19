@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/prev" style="@android:style/MediaButton.Previous" />
+        <ImageButton android:id="@id/rew" style="@android:style/MediaButton.Rew" />
+        <ImageButton android:id="@id/pause" style="@style/MediaButton.Play" />
+        <ImageButton android:id="@id/ffwd" style="@android:style/MediaButton.Ffwd" />
+        <ImageButton android:id="@id/next" style="@android:style/MediaButton.Next" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/media_control_bg" android:layout_width="fill_parent" android:layout_height="50.0px">
+        <TextView android:textSize="18.0sp" android:textColor="#ffcccccc" android:gravity="right" android:layout_gravity="bottom|left|center" android:id="@id/time_current" android:layout_width="60.0px" android:layout_height="wrap_content" />
+        <SeekBar android:id="@id/mediacontroller_progress" android:paddingLeft="24.0px" android:paddingRight="24.0px" android:layout_width="0.0px" android:layout_height="50.0px" android:thumb="@drawable/player_scrubber" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffcccccc" android:gravity="left" android:layout_gravity="bottom|right|center" android:id="@id/time" android:layout_width="60.0px" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

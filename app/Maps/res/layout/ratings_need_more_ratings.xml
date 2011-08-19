@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:padding="@dimen/default_gratisfaction_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hotpot_icon" android:padding="@dimen/default_gratisfaction_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/positive_rating_on" />
+    <TextView android:gravity="center" android:id="@id/rate_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/PlacePageSecondary" />
+</LinearLayout>

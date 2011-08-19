@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/popup_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="DialogWithoutFooter" parent="@style/Dialog">
+        <item name="android:windowBackground">@drawable/popup_nobtn_bg</item>
+    </style>
+    <style name="Context" parent="@style/Dialog">
+        <item name="android:windowBackground">@drawable/context_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ContextSpinner" parent="@style/Context">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="ContextButton" parent="@style/ContextSpinner">
+        <item name="android:windowBackground">@drawable/context_btn_bg</item>
+    </style>
+</resources>

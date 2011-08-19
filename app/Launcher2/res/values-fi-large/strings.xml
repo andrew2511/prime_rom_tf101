@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Valitse taustakuva</string>
+    <string name="wallpaper_chooser_empty">Ei taustakuvia saatavilla</string>
+    <string name="wallpaper_cancel">Peruuta</string>
+</resources>

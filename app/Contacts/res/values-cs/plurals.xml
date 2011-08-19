@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">Počet kontaktů: %0$d</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">Počet kontaktů: %1$1$d, z toho %2$2$d s telefonními čísly</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Počet kontaktů s telefonními čísly: %d</item>
+        <item quantity="one">1 kontakt s telefonním číslem</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Počet kontaktů: %d</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Počet nalezených položek: %d</item>
+        <item quantity="one">Počet nalezených položek: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Počet nalezených položek: %d</item>
+        <item quantity="one">Počet nalezených položek: 1</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">Počet vybraných příjemců: %d</item>
+        <item quantity="one">Počet vybraných příjemců: 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">sloučeno ze %0$d zdrojů</item>
+        <item quantity="one">sloučení se nezdařilo</item>
+    </plurals>
+</resources>

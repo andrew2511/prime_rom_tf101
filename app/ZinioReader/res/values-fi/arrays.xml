@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="read_tooltip_texts">
+        <item>Julkaisuja voidaan lajitella päivämäärän tai otsikon mukaan. Valitse nämä tabulaattoreista kuvaruudun yläosassa.</item>
+        <item>"Tarvitsetko enemmän lukemista?
+Valitse osta-nappi kuvaruudun alaosasta mennäksesi online-kauppaan uusimpia julkaisuja ja artikkeleita varten."</item>
+        <item>Valitse valikko nähdäksesi enemmän vaihtoehtoja - kuten osta, enemmän, poista, kirjaudu ulos.</item>
+        <item>Valitse julkaisu latautumaan automaattisesti samalla kun luet TAI voit valita lataus-napin tallettaaksesi sen paikallisesti myöhempää lukemista varten.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ra_ic_menu_details" android:id="@id/ra_agency_info" />
+    <item android:icon="@drawable/ra_ic_menu_reroute" android:id="@id/ra_update_route" />
+    <item android:icon="@drawable/ra_ic_menu_reverse_directions" android:id="@id/ra_reverse_directions" />
+</menu>

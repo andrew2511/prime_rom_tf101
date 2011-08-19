@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Прошивка модема успешно обновлена</string>
+    <string name="update_fail">Ошибка обновления прошивки модема</string>
+    <string name="update_quz" formatted="false">"Процесс обновления займет около 3-5 минут, для него требуется уровень заряда аккумулятора от 15%. 
+
+ Перед обновлением убедитесь, что заряд аккумулятора составляет более 15%. 
+
+ Обновить прошивку модема сейчас?"</string>
+    <string name="notify_title">Служба обновления Asus</string>
+    <string name="notify">Доступно обновление прошивки модема.</string>
+    <string name="warning_title">Внимание</string>
+    <string name="warning">"Не выключайте устройство при выполнении обновления. 
+
+ Любое неожиданное прерывание процесса может привести к повреждениям. 
+
+ Обновить прошивку модема сейчас?"</string>
+    <string name="battery_low" formatted="false">"Для процесса обновления требуется уровень заряда аккумулятора от 15%. 
+
+ Перед обновлением убедитесь, что заряд аккумулятора составляет более 15%."</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_width">224.0dip</dimen>
+    <dimen name="search_view_width">500.0dip</dimen>
+</resources>

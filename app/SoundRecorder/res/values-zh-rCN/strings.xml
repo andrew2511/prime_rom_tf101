@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">录音机</string>
+    <string name="record_your_message">录下您的留言</string>
+    <string name="message_recorded">信息已录制</string>
+    <string name="review_message">查看信息</string>
+    <string name="recording">录音</string>
+    <string name="recording_stopped">录音停止</string>
+    <string name="storage_is_full">存储空间已满</string>
+    <string name="max_length_reached">已达到长度上限</string>
+    <string name="min_available">还剩 %d 分钟</string>
+    <string name="sec_available">还剩 %d 秒</string>
+    <string name="accept">使用此录音</string>
+    <string name="discard">放弃</string>
+    <string name="button_ok">确定</string>
+    <string name="audio_db_artist_name">您的录音</string>
+    <string name="audio_db_album_name">录音</string>
+    <string name="audio_db_playlist_name">我的录音</string>
+    <string name="error_app_internal">内部应用程序错误</string>
+    <string name="error_mediadb_new_record">无法保存录制的音频</string>
+    <string name="save">保存</string>
+</resources>

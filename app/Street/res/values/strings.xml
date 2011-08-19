@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Street View</string>
+    <string name="go_to_map">Go to map</string>
+    <string name="report_inappropriate_image">Report image</string>
+    <string name="toggle_compass_mode">Compass mode</string>
+    <string name="compass_mode_on">Compass mode on.</string>
+    <string name="compass_mode_off">Compass mode off.</string>
+    <string name="waiting_for_network">Data connection lost, retrying…</string>
+    <string name="panorama_disabled">Picture no longer available</string>
+    <string name="service_unavailable">Street View service unavailable.</string>
+    <string name="loading">Loading</string>
+    <string name="no_panorama_data">No panorama data set.</string>
+    <string name="invalid_panorama_data">Invalid panorama.</string>
+    <string name="click_to_go_toast">Drag Pegman where you want to go.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">This program requires a data connection, and will retry automatically. Please check your signal strength. Is airplane mode on? Is roaming data disabled?</string>
+    <string name="whats_new_header">"What's new in Street View?"</string>
+    <string name="whats_new_c2g">Fly anywhere you can see. Drag Pegman from the bottom left and drop him where you want to go.</string>
+    <string name="terms_and_privacy">Terms &amp; Privacy</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+</resources>

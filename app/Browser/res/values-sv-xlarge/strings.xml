@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Ny flik</string>
+    <string name="new_incognito_tab">Ny inkognitoflik</string>
+    <string name="active_tabs">Flikar</string>
+    <string name="open_all_in_new_window">Öppna alla på en ny flik</string>
+    <string name="contextmenu_openlink_newwindow">Öppna i ny flik</string>
+    <string name="contextmenu_openlink_newwindow_background">Öppna i ny flik i bakgrunden</string>
+    <string name="pref_content_open_in_background_summary">Öppna nya flikar bakom den aktiva</string>
+</resources>

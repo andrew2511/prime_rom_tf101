@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/panel_region" android:background="@drawable/asus_ep_dragbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/scrollindicator" android:layout_width="22.0dip" android:layout_height="15.0dip" android:layout_marginBottom="-10.0dip" android:src="@drawable/asus_ep_dragbar_triangular_down" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/server_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/playto_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/panel" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="100.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <ImageButton android:id="@id/prev" android:background="@drawable/ctl_btn_bg_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_previous" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/rew" android:background="@drawable/ctl_btn_bg_mid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_rewind" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/stop" android:background="@drawable/ctl_btn_bg_mid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_stop" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/pause" android:background="@drawable/ctl_btn_bg_mid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/asus_ep_music_m_play" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/ffwd" android:background="@drawable/ctl_btn_bg_mid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_ff" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/next" android:background="@drawable/ctl_btn_bg_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_next" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="100.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <ImageButton android:id="@id/mute" android:background="@drawable/ctl_btn_bg_left" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_mute" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/voldown" android:background="@drawable/ctl_btn_bg_left" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_voldown" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/volup" android:background="@drawable/ctl_btn_bg_mid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_voup" android:layout_weight="1.0" />
+            <Button android:id="@id/playto" android:background="@drawable/ctl_btn_bg_playto" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/playto" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="100.0dip" android:paddingTop="3.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <SeekBar android:id="@id/seekbar" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:maxHeight="22.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/progress_horizontal" android:progressDrawable="@drawable/progress_horizontal" android:minHeight="22.0dip" android:thumb="@drawable/seek_thumb" android:thumbOffset="25.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="0.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/time_current" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:shadowColor="#ff01b0f1" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textStyle="bold" android:gravity="right" android:layout_gravity="bottom" android:id="@id/total_time" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:shadowColor="@android:color/white" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

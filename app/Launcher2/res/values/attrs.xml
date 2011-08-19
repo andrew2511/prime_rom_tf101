@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="defaultScreen" format="integer" />
+    <attr name="cellCountX" format="integer" />
+    <attr name="cellCountY" format="integer" />
+    <attr name="cellWidth" format="dimension" />
+    <attr name="cellHeight" format="dimension" />
+    <attr name="xAxisStartPadding" format="dimension" />
+    <attr name="xAxisEndPadding" format="dimension" />
+    <attr name="yAxisStartPadding" format="dimension" />
+    <attr name="yAxisEndPadding" format="dimension" />
+    <attr name="widthGap" format="dimension" />
+    <attr name="heightGap" format="dimension" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeTextColor" format="color" />
+    <attr name="strokeWidth" format="float" />
+    <attr name="blurColor" format="color" />
+    <attr name="outlineColor" format="color" />
+    <attr name="pageLayoutWidthGap" format="dimension" />
+    <attr name="pageLayoutHeightGap" format="dimension" />
+    <attr name="pageLayoutPaddingTop" format="dimension" />
+    <attr name="pageLayoutPaddingBottom" format="dimension" />
+    <attr name="pageLayoutPaddingLeft" format="dimension" />
+    <attr name="pageLayoutPaddingRight" format="dimension" />
+    <attr name="pageLayoutMaxHeight" format="dimension" />
+    <attr name="pageSpacing" format="dimension" />
+    <attr name="wallpaperCellSpanX" format="integer" />
+    <attr name="wallpaperCellCountX" format="integer" />
+    <attr name="widgetCellCountX" format="integer" />
+    <attr name="className" format="string" />
+    <attr name="packageName" format="string" />
+    <attr name="screen" format="string" />
+    <attr name="x" format="string" />
+    <attr name="y" format="string" />
+    <attr name="spanX" format="string" />
+    <attr name="spanY" format="string" />
+    <attr name="icon" format="reference" />
+    <attr name="title" format="reference" />
+    <attr name="uri" format="string" />
+    <attr name="ignoreZone" format="dimension" />
+</resources>

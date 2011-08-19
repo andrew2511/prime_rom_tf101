@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/issue_bottom_toolbar" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/toc_articles" android:background="@drawable/toc_articles_btn" android:focusable="false" android:layout_width="42.0dip" android:layout_height="39.0dip" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/toc_thumbnails" android:background="@drawable/toc_thumbnails_btn" android:focusable="false" android:layout_width="42.0dip" android:layout_height="39.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/toc_articles" android:layout_centerVertical="true" />
+    <Button android:textSize="13.0sp" android:textColor="#ffd1d1d1" android:id="@id/text_mode" android:background="@drawable/btn_text_background" android:focusable="false" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_marginLeft="13.0dip" android:text="@string/text" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Gränssnitt</string>
+    <string name="status_bar_clear_all_button">Ta bort</string>
+    <string name="status_bar_do_not_disturb_button">Stör ej</string>
+    <string name="status_bar_please_disturb_button">Visa aviseringar</string>
+    <string name="status_bar_no_notifications_title">Inga aviseringar</string>
+    <string name="status_bar_ongoing_events_title">Pågående</string>
+    <string name="status_bar_latest_events_title">Meddelanden</string>
+    <string name="battery_low_title">Anslut laddaren</string>
+    <string name="battery_low_subtitle">Batteriet håller på att ta slut.</string>
+    <string name="battery_low_percent_format">%d%% återstår</string>
+    <string name="invalid_charger">"Det går inte att ladda via USB.
+Använd endast den laddare som levererades med telefonen."</string>
+    <string name="battery_low_why">Batteriförbrukning</string>
+    <string name="status_bar_settings_settings_button">Inställningar</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Flygplansläge</string>
+    <string name="status_bar_settings_auto_rotation">Rotera skärmen automatiskt</string>
+    <string name="status_bar_settings_mute_label">TYST</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Aviseringar</string>
+    <string name="recent_tasks_title">Senaste</string>
+    <string name="recent_tasks_empty">Inga nya appar.</string>
+    <string name="recent_tasks_app_label">Appar</string>
+    <string name="bluetooth_tethered">Internetdelning via Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfigurera inmatningsmetoder</string>
+    <string name="status_bar_use_physical_keyboard">Använd fysiska tangenter</string>
+    <string name="usb_device_permission_prompt">Vill du tillåta att programmet %1$s använder USB-enheten?</string>
+    <string name="usb_accessory_permission_prompt">Vill du tillåta att programmet %1$s använder USB-tillbehöret?</string>
+    <string name="usb_device_confirm_prompt">Vill du öppna %1$s när den här USB-enheten ansluts?</string>
+    <string name="usb_accessory_confirm_prompt">Vill du öppna %1$s när det här USB-tillbehöret ansluts?</string>
+    <string name="usb_accessory_uri_prompt">Inga program fungerar med det här USB-tillbehöret. Läs mer om det på %1$s</string>
+    <string name="title_usb_accessory">USB-tillbehör</string>
+    <string name="label_view">Visa</string>
+    <string name="always_use_device">Använd som standard för den här USB-enheten</string>
+    <string name="always_use_accessory">Använd som standard för det här USB-tillbehöret</string>
+</resources>

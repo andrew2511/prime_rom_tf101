@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/adHeader" android:background="@drawable/sponsored_link_header_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <CheckBox android:layout_gravity="top|right|center" android:id="@id/star" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:button="@drawable/starring_icon" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/addressLine1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/addressLine2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.google.googlenav.ui.view.android.DistanceView android:id="@id/distance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" />
+                    <com.google.googlenav.ui.view.android.HeadingView android:id="@id/heading" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/addressLine3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/placemarkNote" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:ellipsize="end" android:id="@id/ratingSummaryAndPriceOrClosed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/offers" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/openState" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="top|right|center" android:background="@color/photo_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip">
+            <ImageView android:id="@id/right_image" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="54.0dip" android:layout_margin="1.0px" android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:id="@id/snippet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/justificationPhoto" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="1.0px" />
+        <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/justificationOrAwards" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+</LinearLayout>

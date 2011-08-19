@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">riprova</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">"La connessione di rete non è stabile. Riprovare o utilizzare l'applicazione in modalità off-line?"</string>
+    <string name="cancel">annulla</string>
+    <string name="change_password">cambia password</string>
+    <string name="close">chiudi</string>
+    <string name="confirm_new_password">conferma nuova password</string>
+    <string name="create_account">crea account</string>
+    <string name="create_an_account">crea un account</string>
+    <string name="date">data</string>
+    <string name="delete">elimina</string>
+    <string name="delete_all">elimina tutto</string>
+    <string name="delete_mode_caption">"Modalità eliminazione: toccare l'elemento da eliminare"</string>
+    <string name="email_address">indirizzo e-mail</string>
+    <string name="exit">esci</string>
+    <string name="faq">Domande frequenti</string>
+    <string name="first_name">nome</string>
+    <string name="free">gratuito</string>
+    <string name="forgot_password">password dimenticata</string>
+    <string name="last_name">cognome</string>
+    <string name="learn_more">altre info</string>
+    <string name="legal_notices">note legali</string>
+    <string name="library">libreria</string>
+    <string name="manage_tips">gestisci suggerimenti</string>
+    <string name="more">altro</string>
+    <string name="more_options">altre opzioni</string>
+    <string name="my_magazines">Le mie riviste: toccare per visualizzare o scaricare</string>
+    <string name="new_password">nuova password (5-20 caratteri)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">vecchia password</string>
+    <string name="password">password</string>
+    <string name="required">obbligatorio</string>
+    <string name="required_first_name">nome obbligatorio</string>
+    <string name="required_last_name">cognome obbligatorio</string>
+    <string name="required_email_address">indirizzo e-mail obbligatorio</string>
+    <string name="required_password">password obbligatoria</string>
+    <string name="retype_password">ridigita password</string>
+    <string name="sign_in">accedi</string>
+    <string name="sign_out">disconnetti</string>
+    <string name="share">condividi</string>
+    <string name="shop">acquista</string>
+    <string name="text">testo</string>
+    <string name="title">titolo</string>
+    <string name="turn_on_wifi">Attiva WiFi</string>
+    <string name="uninstall">disinstalla</string>
+    <string name="welcome_to_zinio">benvenuto in Zinio</string>
+    <string name="email_non_lower_case">E-mail</string>
+    <string name="sd_card_non_lower_case">Scheda SD</string>
+    <string name="show_password_non_lower_case">Mostra password</string>
+    <string name="show_tips_non_lower_case">Mostra suggerimenti</string>
+    <string name="forgot_password_underlined"><u>Password dimenticata?</u></string>
+    <string name="terms_of_service_underlined"><u>Condizioni del servizio</u></string>
+    <string name="label_share_email1">letto un articolo da</string>
+    <string name="label_share_email2">"e vorrebbe condividerlo.
+
+L'articolo originale è allegato a questo messaggio.
+
+Per ulteriori pubblicazioni, passa al digitale all'indirizzo www.zinio.com"</string>
+    <string name="label_receive_from_partners">Inviami offerte speciali di partner attendibili di Zinio.</string>
+    <string name="label_receive_from_zinio">Inviami tramite e-mail offerte speciali di Zinio.</string>
+    <string name="label_status_calculating">Calcolo in corso...</string>
+    <string name="label_status_new">Nuovo</string>
+    <string name="label_status_not_downloaded">Non scaricato</string>
+    <string name="label_status_downloading">%s%% Scaricato</string>
+    <string name="label_tip_hide">Disattiva suggerimenti. È possibile gestirli tramite Altre impostazioni.</string>
+    <string name="toast_change_password_success">Password modificata correttamente.</string>
+    <string name="toast_issue_download_complete_left">Download di</string>
+    <string name="toast_issue_download_complete_right">completo</string>
+    <string name="toast_no_articles">Nessun articolo nella pagina corrente.</string>
+    <string name="toast_register_success">Creazione account completata.</string>
+    <string name="toast_no_email_client">Avviso: Client e-mail non configurato</string>
+    <string name="progress_dialog_wait_msg">Attendere...</string>
+    <string name="dialog_warning_title">Attenzione</string>
+    <string name="dialog_no_connectivity_warning">"Questa schermata richiede l'accesso a Internet. Verificare la connessione o l'impostazione della modalità aereo."</string>
+    <string name="dialog_passwords_not_matching_warning">Le password non corrispondono.</string>
+    <string name="dialog_password_length_warning">La password deve contenere da 5 a 20 caratteri.</string>
+    <string name="dialog_service_exception_warning">Si è verificato un problema con il server. Riprovare tra poco.</string>
+    <string name="dialog_uninstall_warning">Verranno eliminati tutti i dati della libreria Zinio e non saranno ripristinabili. Sarà necessario scaricare nuovamente le pubblicazioni.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Non si dispone di connessione e non si è in grado di scaricare pubblicazioni.
+
+Sarà possibile scaricare pubblicazioni una volta ripristinata la connessione."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">È necessario che la vecchia password e quella nuova siano diverse.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">"Modalità Eliminazione - toccare l'elemento per eliminarlo"</string>
+    <string name="dialog_library_no_connectivity_warning">"È necessaria la connessione per scaricare pubblicazioni.
+
+Sarà sempre possibile leggere ciò che è attualmente disponibile nella libreria e scaricare pubblicazioni una volta ripristinata la connessione."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Nome utente o password non corretta.
+
+Riprovare."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">"Questo account ha raggiunto il numero massimo di dispositivi autorizzati. Rimuovere l'autorizzazione di un dispositivo e riprovare."</string>
+    <string name="dialog_register_account_already_exists">"L'indirizzo e-mail esiste già. Selezionarne un altro."</string>
+    <string name="dialog_register_empty_email_error">Immettere un indirizzo e-mail.</string>
+    <string name="dialog_register_first_name_short_error">Immettere un nome.</string>
+    <string name="dialog_register_first_name_long_error">Il nome non deve superare 80 caratteri.</string>
+    <string name="dialog_register_invalid_email_error">Immettere un indirizzo e-mail valido.</string>
+    <string name="dialog_register_last_name_short_error">Immettere un cognome.</string>
+    <string name="dialog_register_last_name_long_error">Il cognome non deve superare 80 caratteri.</string>
+    <string name="dialog_register_other_error">Si è verificato un errore. Riprovare in seguito.</string>
+    <string name="dialog_register_password_empty">Immettere una nuova password.</string>
+    <string name="dialog_sign_out_disabled_warning">Nessun utente connesso da disconnettere.</string>
+    <string name="dialog_app_version_not_supported_title">Upgrade disponibile</string>
+    <string name="dialog_app_version_not_supported_msg">"È disponibile una nuova versione di Zinio Reader. Questa versione non è più supportata. Effettuare l'upgrade alla versione più recente di Zinio Reader"</string>
+    <string name="dialog_delete_all_title">Elimina tutto</string>
+    <string name="dialog_delete_all_msg">"È stato indicato che si desidera eliminare tutte le pubblicazioni dalla libreria.
+
+Non andrà perso nulla in modo definitivo.
+
+L'eliminazione rimuove la pubblicazione dal solo dispositivo. Se necessario, sarà possibile scaricare nuovamente la pubblicazione."</string>
+    <string name="dialog_not_enough_space_title">Spazio non sufficiente</string>
+    <string name="dialog_not_enough_space_msg">Lo spazio su disco di questo dispositivo non è sufficiente per scaricare la pubblicazione selezionata. Liberare almeno %d MB e riprovare.</string>
+    <string name="dialog_sd_card_not_available_title">Scheda SD non disponibile</string>
+    <string name="dialog_sd_card_not_available_msg">"La scheda SD è stata rimossa. Si sta per uscire dall'applicazione Zinio. Inserire una scheda SD e avviare nuovamente l'applicazione."</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">Scheda SD piena</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">La scheda SD è piena. Liberare dello spazio.</string>
+    <string name="dialog_shop_no_connectivity_title">Edicola non disponibile</string>
+    <string name="dialog_shop_no_connectivity_msg">"È necessaria la connessione per accedere all'edicola. Verificare la connessione o l'impostazione della modalità aereo."</string>
+    <string name="dialog_sign_out_title">Disconnetti</string>
+    <string name="dialog_sign_out_msg">"Disconnettersi?
+
+Verrà richiesto di ripetere l'accesso per accedere all'applicazione Zinio."</string>
+    <string name="dialog_tip_title">Suggerimento</string>
+    <string name="dialog_manage_tips_title">Gestisci suggerimenti</string>
+    <string name="non_supported_device_tip_title">Benvenuto in Zinio</string>
+    <string name="non_supported_device_tip_msg">"La lettura del contenuto multimediale di Zinio è migliore in dispositivi con uno schermo almeno 800x480.
+
+È possibile continuare a utilizzare l'applicazione, ma tenere presente che l'esperienza potrebbe non essere ottimale."</string>
+    <string name="no_text_tip_msg">Alcune pubblicazioni non contengono articoli di testo. È possibile utilizzare il Sommario o il Sommario visivo per trovare la pagina desiderata.</string>
+    <string name="page_tip0_1">"Toccare una volta per visualizzare il menu della barra degli strumenti.
+È possibile scegliere un Sommario visivo o basato sul testo."</string>
+    <string name="page_tip1">"Suggerimenti per iniziare:
+
+* Girare la pagina scorrendo a destra o a sinistra
+* Toccare due volte lo schermo per applicare lo zoom
+* Per leggere, selezionare il pulsante 'testo', visibile nella prima pagina dell'articolo."</string>
+    <string name="wifi_connection_tip">"Rilevata connessione di rete 3G.
+
+È ancora possibile scaricare le pubblicazioni sulla rete 3G,ma per un'esperienza ottimale è consigliabile il wifi."</string>
+    <string name="dialog_available_memory_not_enough_title">Dimensioni heap insufficienti</string>
+    <string name="dialog_available_memory_not_enough_msg">Dimensioni heap insufficienti.</string>
+    <string name="dialog_delete_title">Elimina</string>
+    <string name="delete_done">Fine</string>
+    <string name="dialog_delete_from_library">Eliminare %s?</string>
+    <string name="internet_connection_tip">Per il download delle pubblicazioni è necessaria una connessione Internet. Attivare la connessione Internet e riprovare.</string>
+    <string name="dialog_change_password_old_password_empty">Immettere una password.</string>
+    <string name="server_error_app_version_not_supported_message">"Upgrade disponibile. È disponibile una nuova versione di Zinio Reader. Questa versione non è più supportata. Effettuare l'upgrade alla versione più recente di Zinio Reader."</string>
+    <string name="server_error_authentication_failed">"Nome utente o password non corretta.
+
+Riprovare. Modalità Eliminazione - toccare l'elemento per eliminarlo"</string>
+    <string name="server_error_device_not_authorized">"Questo dispositivo non è stato autorizzato per l'utilizzo con questo account Zinio. Per autorizzare nuovamente il dispositivo, disconnettersi dall'app, quindi riconnettersi. Se il problema persiste, contattare il Supporto clienti Zinio."</string>
+    <string name="server_error_invalid_login">Indirizzo e-mail non valido. Immettere un indirizzo e-mail valido.</string>
+    <string name="server_error_invalid_new_password">"La password non è valida, selezionarne un'altra."</string>
+    <string name="server_error_issue_not_supported_for_device">"Numero non valido. Contattare il servizio clienti all'indirizzo support@zinio.com."</string>
+    <string name="server_error_max_user_devices_reached">"Questo account ha raggiunto il numero massimo di dispositivi autorizzati. Rimuovere l'autorizzazione di un dispositivo e riprovare."</string>
+    <string name="server_error_packing_list_not_found">"Distinta merce mancante. Contattare il servizio clienti all'indirizzo support@zinio.com."</string>
+    <string name="server_error_login_exists">"L'indirizzo e-mail esiste già. Selezionarne un altro."</string>
+    <string name="server_error_system_error">Si è verificato un errore del server. Riprovare in seguito.</string>
+    <string name="server_error_system_not_available">"Alcune parti dell'app potrebbero non essere disponibili in questo momento. Se non è possibile accedere ad alcune parti, riprovare più tardi."</string>
+    <string name="server_error_no_items_in_library">Non si dispone di alcun titolo. I titoli disponibili sono elencati nella scheda degli acquisti.</string>
+    <string name="server_error_user_not_entitled">"Utente non autorizzato. Contattare il servizio clienti all'indirizzo support@zinio.com."</string>
+    <string name="dialog_market_rating_msg">Valutare ora Zinio Reader?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Il numero non aggiornato verrà rimosso e riscaricato.</string>
+    <string name="dialog_review_msg">I vostri commenti sono importanti, comunicateceli ora.</string>
+    <string name="dialog_review_title">Comunicateci i vostri commenti.</string>
+    <string name="server_error_invalid_newstand">"Edicola non valida. Contattare il servizio clienti all'indirizzo support@zinio.com."</string>
+    <string name="forgot_password_underline"><u>Password dimenticata?</u></string>
+</resources>

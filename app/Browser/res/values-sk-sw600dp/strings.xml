@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_tab">Nová karta</string>
+    <string name="new_incognito_tab">Nová karta v režime inkognito</string>
+    <string name="active_tabs">Karty</string>
+    <string name="open_all_in_new_window">Otvoriť všetky na nových kartách</string>
+    <string name="contextmenu_openlink_newwindow">Otvoriť na novej karte</string>
+    <string name="contextmenu_openlink_newwindow_background">Otvoriť na novej karte na pozadí</string>
+    <string name="pref_content_open_in_background_summary">Otvárať nové karty za aktuálnou kartou</string>
+</resources>

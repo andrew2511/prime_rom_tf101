@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="35.0px" android:paddingTop="6.0px" android:paddingRight="34.0px" android:paddingBottom="7.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/holder_togglebutton_word_columns_one" android:layout_width="114.0px" android:layout_height="wrap_content" android:layout_marginRight="62.0px" />
+    <LinearLayout android:id="@id/holder_togglebutton_word_columns_two" android:layout_width="114.0px" android:layout_height="wrap_content" android:layout_marginRight="62.0px" />
+    <LinearLayout android:id="@id/holder_togglebutton_word_columns_three" android:layout_width="114.0px" android:layout_height="wrap_content" />
+</LinearLayout>

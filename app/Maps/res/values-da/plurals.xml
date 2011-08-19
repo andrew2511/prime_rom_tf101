@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="da_speech_in_x_kilometers">
+        <item quantity="other">Om %1$s kilometer</item>
+        <item quantity="one">Om en kilometer</item>
+        <item quantity="few">Om %1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_kilometers">
+        <item quantity="other">Fortsæt i %1$s kilometer</item>
+        <item quantity="one">Fortsæt en kilometer</item>
+        <item quantity="few">Fortsæt i %1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_kilometers">
+        <item quantity="other">Fortsæt ad %1$2$s i %2$1$s kilometer</item>
+        <item quantity="one">Fortsæt en kilometer ad %2$s</item>
+        <item quantity="few">Fortsæt ad %1$2$s i %2$1$s kilometer</item>
+    </plurals>
+    <plurals name="da_speech_in_x_miles">
+        <item quantity="other">Om %1$s mil</item>
+        <item quantity="one">Om en mil</item>
+        <item quantity="few">Om %1$s mil</item>
+    </plurals>
+    <plurals name="da_speech_continue_for_x_miles">
+        <item quantity="other">Fortsæt i %1$s mil</item>
+        <item quantity="one">Fortsæt en mil</item>
+        <item quantity="few">Fortsæt i %1$s mil</item>
+    </plurals>
+    <plurals name="da_speech_continue_on_road_for_x_miles">
+        <item quantity="other">Fortsæt ad %1$2$s i %2$1$s mil</item>
+        <item quantity="one">Fortsæt en mil ad %2$s</item>
+        <item quantity="few">Fortsæt ad %1$2$s i %2$1$s mil</item>
+    </plurals>
+    <plurals name="da_review_count">
+        <item quantity="other">%1$s anmeldelser</item>
+        <item quantity="one">%1$s anmeldelse</item>
+        <item quantity="few">%1$s anmeldelser</item>
+    </plurals>
+</resources>

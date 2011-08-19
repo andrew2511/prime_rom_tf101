@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">mail</string>
+    <string name="multiple_mails">mails</string>
+    <string name="go_to">Ga naar inbox</string>
+</resources>

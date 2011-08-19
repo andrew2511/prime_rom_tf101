@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/asset_snippet" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/title_bar_shadow" android:layout_weight="1.0">
+        <ScrollView android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/security_settings_desc" android:paddingLeft="19.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_desc" />
+                <LinearLayout android:orientation="vertical" android:id="@id/security_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/buttons" android:background="@drawable/bottombar_portrait_565" android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <View android:id="@id/buttons_spacer_left" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/ok_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/done" android:layout_weight="2.0" />
+        <Button android:id="@id/cancel_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="2.0" />
+        <View android:id="@id/buttons_spacer_right" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

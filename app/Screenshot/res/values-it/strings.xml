@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">Schermata</string>
+    <string name="screenshot_dialog_message">La schermata è stata salvata. Desiderate mantenere la modalità schermata?</string>
+    <string name="screenshot_dialog_yes">Sì</string>
+    <string name="screenshot_dialog_no">No</string>
+    <string name="screenshot_toast_message_saved">La schermata è stata salvata.</string>
+    <string name="screenshot_toast_message_failed">Errore nel salvataggio di una schermata in modalità Trasferimento File.</string>
+    <string name="screenshot_toast_message_failed_save">Errore nel salvataggio della schermata.</string>
+    <string name="screenshot_toast_message_full">Errore nel salvataggio della schermata. Memoria insufficiente.</string>
+</resources>

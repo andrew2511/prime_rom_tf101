@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.reader.ui.HeaderView android:layout_width="fill_parent" android:layout_height="74.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0px" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/header_text" android:layout_width="wrap_content" android:layout_height="74.0px" android:layout_marginLeft="44.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:textSize="16.0px" android:textColor="#ffffffff" android:id="@id/clear_button" android:background="@drawable/asus_ep_btn" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="119.0px" android:layout_height="50.0px" android:layout_marginTop="12.0px" android:layout_marginRight="29.0px" android:text="@string/clear" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="onClick" />
+</com.asus.reader.ui.HeaderView>

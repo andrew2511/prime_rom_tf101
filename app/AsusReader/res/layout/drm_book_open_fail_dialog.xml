@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="500.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:layout_width="500.0px" android:layout_height="wrap_content" android:text="@string/dialog_message_book_open_fail" />
+    <Button android:id="@id/id_confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_drm_setting_confirm" />
+</LinearLayout>

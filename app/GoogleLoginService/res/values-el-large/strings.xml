@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Τέλος</string>
+    <string name="signed_in">Επιτυχής σύνδεση</string>
+    <string name="account_linked_message">Έχει γίνει σύνδεση στον λογαριασμό %s και εκτελείται συγχρονισμός δεδομένων.</string>
+    <string name="account_setup_title">Λογαριασμός Google</string>
+    <string name="account_created_message">Δημιουργήθηκε νέος λογαριασμός: %s</string>
+    <string name="login_activity_title">Συνδεθείτε με τον Λογαριασμό σας Google.</string>
+    <string name="show_error_activity_title">Αποτυχία σύνδεσης στον Λογαριασμό Google</string>
+    <string name="login_activity_task_title">Σύνδεση...</string>
+    <string name="sync_intro_activity_title_first_account">Δημιουργία αντιγρ. ασφαλείας και επαναφ.</string>
+    <string name="sync_intro_activity_title_first_created_account">Δημιουργήθηκε λογαριασμός</string>
+    <string name="sync_intro_activity_title">Επιτυχής σύνδεση στον λογαριασμό</string>
+</resources>

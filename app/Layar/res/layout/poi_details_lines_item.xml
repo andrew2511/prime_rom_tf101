@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_cell_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left" android:id="@id/spotlight_features" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/spotlight_details_actions">
+        <include layout="@layout/list_divider" />
+        <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/poiFeatureVideo" android:visibility="gone" android:src="@drawable/ic_feature_video" style="@style/LogoImage" />
+            <ImageView android:id="@id/poiFeatureSound" android:visibility="gone" android:src="@drawable/ic_feature_sound" style="@style/LogoImage" />
+            <ImageView android:id="@id/poiFeatureImage" android:visibility="gone" android:src="@drawable/ic_feature_image" style="@style/LogoImage" />
+            <ImageView android:id="@id/poiFeature3D" android:visibility="gone" android:src="@drawable/ic_feature_3d" style="@style/LogoImage" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/list_divider" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/spotlight_lines" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/spotlight_details_lines_portrait">
+        <RelativeLayout android:id="@id/poiLinesImageBox" android:background="@null" android:layout_width="@dimen/poi_image_width" android:layout_height="@dimen/poi_image_height" android:layout_margin="5.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/poiLinesImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/poiLinesImageThrobber" android:layout_centerInParent="true" style="@style/Throbber.Black" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/poiLines" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/poiLinesImageBox" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true">
+            <TextView android:id="@id/poiLine2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DescriptionText" />
+            <TextView android:id="@id/poiLine3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DescriptionText" />
+            <TextView android:id="@id/poiLine4" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DescriptionText" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

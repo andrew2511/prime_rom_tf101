@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">אתר אינטרנט</string>
+    <string name="music_title_str">מוזיקה</string>
+    <string name="web_tag_str">אין URL</string>
+    <string name="music_tag_album">אין אלבום</string>
+    <string name="music_tag_song">אין שיר</string>
+    <string name="music_tag_artist">אין אמן</string>
+    <string name="date_text_str">אין תאריך</string>
+    <string name="cal_event_str">אין ארוע אחרון</string>
+    <string name="weather_info_str">אין מידע על מזג אוויר</string>
+    <string name="weather_content_str">אין תוכן על מזג אוויר</string>
+    <string name="photo_date_str">אין תאריך תצלום</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">רוח ENE</string>
+    <string name="humidity">לחות</string>
+    <string name="email_unit">דברי דואל</string>
+    <string name="email_unit_single">דואל</string>
+    <string name="event_unit">אירועים</string>
+    <string name="event_unit_single">אירוע</string>
+    <string name="book_unit">ספרים</string>
+    <string name="book_unit_single">ספר</string>
+    <string name="weather_city_str">אין עיר</string>
+    <string name="date_format_title">תבנית תאריך</string>
+    <string name="preference_header_title">העדפות</string>
+    <string name="slideshow_header_title">מצגת שקופיות</string>
+    <string name="picture_number_title">מספר תמונה במצגת שקופיות</string>
+    <string name="slide_show_interval_title">מרווח מצגת שקופיות</string>
+    <string name="transition_effect_title">אפקט מעבר</string>
+    <string name="enable">אפשר</string>
+    <string name="disable">חסום</string>
+    <string name="app_settings">הגדרות ASUS MyZine</string>
+    <string name="unit_picture">תמונות</string>
+    <string name="unit_second">שניות</string>
+    <string name="Image_headline">תמונה</string>
+    <string name="display_headline">תצוגה</string>
+    <string name="date_headline">תאריך</string>
+    <string name="logo_display_title">לוגו ASUS MyZine</string>
+    <string name="date_display_title">תאריך / שעה</string>
+    <string name="photo_date_display_title">תאריך יצירת התמונות</string>
+    <string name="event_display_title">אירוע קרוב</string>
+    <string name="weather_display_title">תחנת מזג האוויר</string>
+    <string name="scale_type_title">מצגת תמונות</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="bottom|right|center" android:src="@drawable/bg_treeboy_png8" />
+    </item>
+    <item>
+        <bitmap android:gravity="left|center" android:src="@drawable/splash_k4a" />
+    </item>
+</layer-list>

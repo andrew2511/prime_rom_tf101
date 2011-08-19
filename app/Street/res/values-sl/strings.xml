@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Pogled ulic</string>
+    <string name="go_to_map">Pojdi na zemljevid</string>
+    <string name="report_inappropriate_image">Prijavi sliko</string>
+    <string name="toggle_compass_mode">Kompas</string>
+    <string name="compass_mode_on">Funkcija kompasa je vklopljena.</string>
+    <string name="compass_mode_off">Funkcija kompasa je izklopljena.</string>
+    <string name="waiting_for_network">Podatkovna povezava je prekinjena, ponovni poskus …</string>
+    <string name="panorama_disabled">Slika več ni na voljo</string>
+    <string name="service_unavailable">Storitev Pogled ulic ni na voljo.</string>
+    <string name="loading">Nalaganje</string>
+    <string name="no_panorama_data">Panoramski podatki niso nastavljeni.</string>
+    <string name="invalid_panorama_data">Neveljavna panorama</string>
+    <string name="click_to_go_toast">Povlecite Pegmana, kamor želite iti.</string>
+    <string name="street_range_name_format" formatted="false">%1$s %2$s</string>
+    <string name="network_unavailable">Ta program potrebuje podatkovno povezavo in jo bo samodejno znova poskusil vzpostaviti. Preverite moč signala. Ali je morda vklopljen letalski način ali izklopljeno podatkovno gostovanje?</string>
+    <string name="whats_new_header">Kaj je novega v Pogledu ulic?</string>
+    <string name="whats_new_c2g">Poletite, kamor vam seže pogled. Možica povlecite s spodnjega levega kota in ga spustite na želenem cilju.</string>
+    <string name="terms_and_privacy">Določila in zasebnost</string>
+    <string name="terms_and_conditions">Določila in pogoji</string>
+    <string name="privacy_policy">Pravilnik o zasebnosti</string>
+</resources>

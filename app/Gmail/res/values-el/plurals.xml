@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Θέλετε να διαγράψετε αυτές τις %1$d συνομιλίες;</item>
+        <item quantity="one">Θέλετε να διαγράψετε αυτήν τη συνομιλία;</item>
+    </plurals>
+    <plurals name="confirm_discard_conversation">
+        <item quantity="other">Θέλετε να απορρίψετε αυτά τα %1$d πρόχειρα;</item>
+        <item quantity="one">Θέλετε να απορρίψετε αυτό το πρόχειρο;</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Θέλετε να αρχειοθετήσετε αυτές τις %1$d συνομιλίες;</item>
+        <item quantity="one">Θέλετε να αρχειοθετήσετε αυτή τη συνομιλία;</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Πρόχειρα</item>
+        <item quantity="one">Πρόχειρο</item>
+    </plurals>
+    <plurals name="more_recipients">
+        <item quantity="other">+ %s περισσότεροι</item>
+        <item quantity="one">+ %s περισσότεροι</item>
+    </plurals>
+    <plurals name="conversation_muting">
+        <item quantity="other">Σίγαση %1$d συνομιλιών.</item>
+        <item quantity="one">Σίγαση %1$d συνομιλίας.</item>
+    </plurals>
+    <plurals name="conversation_spamming">
+        <item quantity="other">Αναφορά %1$d συνομιλιών ως ανεπιθύμητες.</item>
+        <item quantity="one">Αναφορά %1$d συνομιλίας ως ανεπιθύμητης.</item>
+    </plurals>
+    <plurals name="conversation_archiving">
+        <item quantity="other">Αρχειοθέτηση %1$d συνομιλιών.</item>
+        <item quantity="one">Αρχειοθέτηση %1$d συνομιλιών.</item>
+    </plurals>
+    <plurals name="conversation_deleting">
+        <item quantity="other">Διαγραφή %1$d συνομιλιών.</item>
+        <item quantity="one">Διαγραφή %1$d συνομιλίας.</item>
+    </plurals>
+    <plurals name="conversation_marking_read">
+        <item quantity="other">Επισήμανση %1$d συνομιλιών ως αναγνωσμένες.</item>
+        <item quantity="one">Επισύναψη %1$d συνομιλιών ως αναγνωσμένες.</item>
+    </plurals>
+    <plurals name="conversation_marking_unread">
+        <item quantity="other">Επισήμανση %1$d συνομιλιών ως μη αναγνωσμένες.</item>
+        <item quantity="one">Επισήμανση %1$d συνομιλιών ως μη αναγνωσμένες.</item>
+    </plurals>
+    <plurals name="conversation_starring">
+        <item quantity="other">Προσθήκη αστεριού σε %1$d συνομιλίες.</item>
+        <item quantity="one">Προσθήκη αστεριού σε %1$d συνομιλία.</item>
+    </plurals>
+    <plurals name="conversation_unstarring">
+        <item quantity="other">Κατάργηση αστεριών για %1$d συζητήσεις.</item>
+        <item quantity="one">Κατάργηση αστεριών για %1$d συζητήσεις.</item>
+    </plurals>
+    <plurals name="conversation_unknown_operation">
+        <item quantity="other">Αναμονή λειτουργίας σε %1$d συνομιλίες.</item>
+        <item quantity="one">Αναμονή λειτουργίας σε %1$d συνομιλία.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Τέθηκαν σε σίγαση %1$d συνομιλίες.</item>
+        <item quantity="one">Σίγαση %1$d συνομιλίας.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Αναφορά %1$d συνομιλιών ως ανεπιθύμητες.</item>
+        <item quantity="one">%1$d συνομιλία αναφέρθηκε ως ανεπιθύμητη.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Αρχειοθετήθηκαν %1$d συνομιλίες.</item>
+        <item quantity="one">Αρχειοθέτηση %1$d συνομιλίας.</item>
+    </plurals>
+    <plurals name="conversation_moved_to_inbox">
+        <item quantity="other">Μεταφέρθηκαν %1$d συνομιλίες στα Εισερχόμενα.</item>
+        <item quantity="one">Μεταφέρθηκε %1$d συνομιλία στα Εισερχόμενα.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Εντοπίστηκαν %1$d συνομιλίες.</item>
+        <item quantity="one">Διαγράφτηκε %1$d συνομιλία.</item>
+    </plurals>
+    <plurals name="conversation_moved">
+        <item quantity="other">Μεταφέρθηκαν %1$1$d συνομιλίες στα %2$2$s.</item>
+        <item quantity="one">Μεταφορά %1$1$d συνομιλιών στην ετικέτα %2$2$s.</item>
+    </plurals>
+    <plurals name="conversation_marked_important">
+        <item quantity="other">Επισημάνθηκαν %1$d συνομιλίες ως σημαντικές.</item>
+        <item quantity="one">Επισημάνθηκε %1$d συνομιλία ως σημαντική.</item>
+    </plurals>
+    <plurals name="conversation_marked_not_important">
+        <item quantity="other">Επισημάνθηκαν %1$d συνομιλίες ως μη σημαντικές.</item>
+        <item quantity="one">Επισημάνθηκαν %1$d συνομιλίες ως μη σημαντικές.</item>
+    </plurals>
+    <plurals name="conversation_marked_read">
+        <item quantity="other">%1$d συνομιλίες επισημάνθηκαν ως αναγνωσμένες.</item>
+        <item quantity="one">%1$d συνομιλία επισημάνθηκε ως αναγνωσμένη.</item>
+    </plurals>
+    <plurals name="conversation_marked_unread">
+        <item quantity="other">Επισήμανση %1$d συνομιλιών ως μη αναγνωσμένες.</item>
+        <item quantity="one">Επισημάνθηκαν %1$d συνομιλίες ως μη αναγνωσμένες.</item>
+    </plurals>
+    <plurals name="conversation_label_changed">
+        <item quantity="other">Ετικέτες %1$d συνομιλιών που έχουν αλλάξει.</item>
+        <item quantity="one">Ετικέτες συνομιλίας που έχουν αλλάξει.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Συγχρονισμός %1$d ημερών.</item>
+        <item quantity="one">Συγχρονισμός %1$d ημέρας.</item>
+    </plurals>
+    <plurals name="new_mail_expanded_body">
+        <item quantity="other">%1$d μη αναγνωσμένες συνομιλίες</item>
+        <item quantity="one">%1$d μη αναγνωσμένη συνομιλία</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">Μία ημέρα</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Ημέρες</item>
+        <item quantity="one">Ημέρα</item>
+    </plurals>
+    <plurals name="account_count">
+        <item quantity="other">%1$d λογαριασμοί</item>
+        <item quantity="one">%1$d λογαριασμός</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Μετακίνηση %1$d συνομιλιών</item>
+        <item quantity="one">Μετακίνηση συνομιλίας</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Η επισύναψη απέτυχε %s</item>
+        <item quantity="one">Η επισύναψη απέτυχε</item>
+    </plurals>
+</resources>

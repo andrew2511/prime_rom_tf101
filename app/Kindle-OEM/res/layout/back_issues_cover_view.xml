@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amazon.kcp.library.ui.BackIssuesCoverView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lib_grid_back_issues_frame" android:layout_width="@dimen/library_grid_cover_width" android:layout_height="@dimen/library_grid_cover_height" android:layout_centerInParent="true">
+        <TextView android:gravity="bottom|center" android:id="@id/lib_grid_back_issues_title" android:text="@string/lib_grid_back_issues_title" style="@style/cover_title_tag" />
+        <TextView android:gravity="top|center" android:id="@id/back_issues_count_tag" style="@style/cover_subtitle" />
+    </FrameLayout>
+</com.amazon.kcp.library.ui.BackIssuesCoverView>

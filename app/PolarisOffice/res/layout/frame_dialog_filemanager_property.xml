@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="376.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dialog_common_filesave_titlespacer_height" android:minWidth="@dimen/dialog_common_filesave_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_property_item_layout_height">
+        <ImageView android:layout_gravity="left|center" android:id="@id/property_fileicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_file_folder" />
+        <ScrollView android:layout_gravity="center_vertical" android:id="@id/property_filename_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dialog_common_property_item_filename_text_size" android:id="@id/property_filename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_common_property_item_filename_layout_margin_left" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:background="#ff363636" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_property_item_layout_height">
+        <TextView android:textSize="@dimen/dialog_common_property_item_title_text_size" android:textColor="#ff959595" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="@string/string_filemanager_contextmenu_property_type" android:layout_weight="7.0" />
+        <TextView android:textSize="@dimen/dialog_common_property_item_content_text_size" android:textColor="#ffffffff" android:gravity="top" android:id="@id/property_type" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="9.0" />
+    </LinearLayout>
+    <LinearLayout android:background="#ff363636" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_property_item_layout_height">
+        <TextView android:textSize="@dimen/dialog_common_property_item_title_text_size" android:textColor="#ff959595" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="@string/string_filemanager_contextmenu_property_location" android:layout_weight="7.0" />
+        <ScrollView android:id="@id/property_location_scrollview" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="9.0">
+            <TextView android:textSize="@dimen/dialog_common_property_item_content_text_size" android:textColor="#ffffffff" android:gravity="top" android:id="@id/property_location" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:background="#ff363636" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/property_size_block" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_property_item_layout_height">
+        <TextView android:textSize="@dimen/dialog_common_property_item_title_text_size" android:textColor="#ff959595" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="@string/string_filemanager_contextmenu_property_size" android:layout_weight="7.0" />
+        <TextView android:textSize="@dimen/dialog_common_property_item_content_text_size" android:textColor="#ffffffff" android:id="@id/property_size" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="9.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/property_size_separator" android:background="#ff363636" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_common_property_item_layout_height">
+        <TextView android:textSize="@dimen/dialog_common_property_item_title_text_size" android:textColor="#ff959595" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="@string/string_filemanager_contextmenu_property_modified" android:layout_weight="7.0" />
+        <TextView android:textSize="@dimen/dialog_common_property_item_content_text_size" android:textColor="#ffffffff" android:id="@id/property_modified" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="9.0" />
+    </LinearLayout>
+</LinearLayout>

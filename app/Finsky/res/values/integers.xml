@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="search_num_rows">2</integer>
+    <integer name="search_num_cols">4</integer>
+    <integer name="browse_num_cols_no_categories">4</integer>
+    <integer name="browse_num_cols_with_categories">3</integer>
+    <integer name="browse_num_rows">1</integer>
+    <integer name="creator_related_items_row_count">1</integer>
+    <integer name="video_column_count">2</integer>
+    <integer name="trailer_column_count">2</integer>
+    <integer name="details_summary_title_num_lines">3</integer>
+</resources>

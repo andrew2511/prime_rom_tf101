@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">yritä uudelleen</string>
+    <string name="offline">offline</string>
+    <string name="retry_offline_content">Epävakaa verkkoyhteys, haluatko yrittää uudelleen tai siirtyä offline-tilaan?</string>
+    <string name="cancel">peruuta</string>
+    <string name="change_password">muuta salasanaa</string>
+    <string name="close">sulje</string>
+    <string name="confirm_new_password">vahvista uusi salasana</string>
+    <string name="create_account">luo käyttäjätili</string>
+    <string name="create_an_account">luo käyttäjätili</string>
+    <string name="date">päivämäärä</string>
+    <string name="delete">poista</string>
+    <string name="delete_all">poista kaikki</string>
+    <string name="delete_mode_caption">Poistotila -napsauta kohdetta poistaaksesi sen</string>
+    <string name="email_address">sähköpostiosoite</string>
+    <string name="exit">poistu</string>
+    <string name="faq">UKK</string>
+    <string name="first_name">etunimi</string>
+    <string name="free">ilmainen</string>
+    <string name="forgot_password">olen unohtanut salasanan</string>
+    <string name="last_name">sukunimi</string>
+    <string name="learn_more">lue lisää</string>
+    <string name="legal_notices">lain mukainen tiedotus</string>
+    <string name="library">kirjasto</string>
+    <string name="manage_tips">hallinnoi vihjeitä</string>
+    <string name="more">lisää</string>
+    <string name="more_options">lisää vaihtoehtoja</string>
+    <string name="my_magazines">Aikakauslehteni -napsauta katsellaksesi lehtiä tai lataa tiedosto</string>
+    <string name="new_password">uusi salasana (5-20 merkkiä)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">vanha salasana</string>
+    <string name="password">salasana</string>
+    <string name="required">vaadittu</string>
+    <string name="required_first_name">vaadittu etunimi</string>
+    <string name="required_last_name">vaadittu sukunimi</string>
+    <string name="required_email_address">vaadittu sähköpostiosoite</string>
+    <string name="required_password">vaadittu salasana</string>
+    <string name="retype_password">kirjoita salasana uudelleen</string>
+    <string name="sign_in">kirjaudu sisään</string>
+    <string name="sign_out">kirjaudu ulos</string>
+    <string name="share">jaa</string>
+    <string name="shop">osta</string>
+    <string name="text">teksti</string>
+    <string name="title">nimi</string>
+    <string name="turn_on_wifi">WiFi päälle</string>
+    <string name="uninstall">poista asennus</string>
+    <string name="welcome_to_zinio">tervetuloa zinioon</string>
+    <string name="email_non_lower_case">Sähköposti</string>
+    <string name="sd_card_non_lower_case">SD-kortti</string>
+    <string name="show_password_non_lower_case">Näytä salasana</string>
+    <string name="show_tips_non_lower_case">Näytä vihjeet</string>
+    <string name="forgot_password_underlined"><u>Oletko unohtanut salasanan?</u></string>
+    <string name="terms_of_service_underlined"><u>Palvelun ehdot</u></string>
+    <string name="label_share_email1">luin artikkelin</string>
+    <string name="label_share_email2">"ja haluaisin jakaa sen kanssasi !
+
+Alkuperäinen artikkeli on tämän viestin liitteenä.
+
+Nähdäksesi lisää digitaalisia julkaisuja, mene osoitteeseen www.zinio.com"</string>
+    <string name="label_receive_from_partners">Lähettäkää minulle erikoistarjouksia Zinion luotettavilta kumppaneilta.</string>
+    <string name="label_receive_from_zinio">Lähettäkää minulle sähköpostilla Zinion erikoistarjouksia.</string>
+    <string name="label_status_calculating">Lasketaan...</string>
+    <string name="label_status_new">Uusi</string>
+    <string name="label_status_not_downloaded">Ei ladattu</string>
+    <string name="label_status_downloading">%s%% Ladattu</string>
+    <string name="label_tip_hide">Vihjeet pois päältä Niitä voidaan hallinnoida Lisää asetuksia-kohdassa.</string>
+    <string name="toast_change_password_success">Salasanan vaihto onnistui.</string>
+    <string name="toast_issue_download_complete_left">Lataa</string>
+    <string name="toast_issue_download_complete_right">kokonainen</string>
+    <string name="toast_no_articles">Ei artikkeleja nykyisellä sivulla.</string>
+    <string name="toast_register_success">Tilin luominen onnistui.</string>
+    <string name="toast_no_email_client">Ilmoitus: Sähköpostiohjelmaa ei määritetty</string>
+    <string name="progress_dialog_wait_msg">Odota...</string>
+    <string name="dialog_warning_title">Varoitus</string>
+    <string name="dialog_no_connectivity_warning">Tämä näyttö vaatii pääsyn internetiin. Tarkista yhteytesi tai lentokoneasetukset.</string>
+    <string name="dialog_passwords_not_matching_warning">Salasanat eivät täsmää.</string>
+    <string name="dialog_password_length_warning">Salasanan tulee sisältää 5-20 merkkiä.</string>
+    <string name="dialog_service_exception_warning">Havaittiin ongelma serverin kanssa. Yritä uudestaan hetken päästä.</string>
+    <string name="dialog_uninstall_warning">Tämä poistaa kaiken Ziniokirjaston tiedot ja niitä ei voi palauttaa. Sinun tarvitsee ladata julkaisut uudelleen.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"Et ole yhteydessä internetiin etkä voi ladata julkaisuja. 
+
+Voit ladata julkaisusi kun yhteys on muodostettu uudelleen."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Vanhan ja uuden salasanan tulee erota toisistaan.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Vanha salasana on virheellinen.</string>
+    <string name="dialog_library_no_connectivity_warning">"Yhteys vaaditaan julkaisujen lataamiseksi.
+
+Voit vielä lukea kirjastossa tällä hetkellä saatavilla olevia julkaisuja ja ladata julkaisuja kun yhteys on muodostettu uudelleen."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Käyttäjätunnuksesi tai salasanasi oli virheellinen.
+
+Yritä uudelleen."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Tällä tilillä on maksimimäärä sille hyväksyttyjä laitteita. Poista laite ja yritä uudelleen.</string>
+    <string name="dialog_register_account_already_exists">Sähköpostiosoite on jo olemassa. Valitse toinen.</string>
+    <string name="dialog_register_empty_email_error">Syötä sähköpostiosoite.</string>
+    <string name="dialog_register_first_name_short_error">Syötä etunimi.</string>
+    <string name="dialog_register_first_name_long_error">Etunimen tulee olla maksimissaan 80 merkkiä pitkä.</string>
+    <string name="dialog_register_invalid_email_error">Syötä kelvollinen sähköpostiosoite.</string>
+    <string name="dialog_register_last_name_short_error">Syötä sukunimi.</string>
+    <string name="dialog_register_last_name_long_error">Sukunimen tulee olla maksimissaan 80 merkkiä pitkä.</string>
+    <string name="dialog_register_other_error">Tapahtui virhe Yritä uudestaan.</string>
+    <string name="dialog_register_password_empty">Syötä uusi salasana.</string>
+    <string name="dialog_sign_out_disabled_warning">Ei sisäänkirjautunutta käyttäjää, joka kirjautuu ulos.</string>
+    <string name="dialog_app_version_not_supported_title">Päivitys saatavilla</string>
+    <string name="dialog_app_version_not_supported_msg">Zinio Readerista on saatavilla uudempi versio. Tätä versiota ei enää tueta. Päivitä Zinio Readerisi uusimpaan versioon</string>
+    <string name="dialog_delete_all_title">Poista kaikki</string>
+    <string name="dialog_delete_all_msg">"Olet ilmoittanut että haluat poistaa kaikki julkaisut kirjastostasi.
+
+Ole huoleti, et menetä mitään lopullisesti, 
+
+Poistaminen vain poistaa sen laitteeltasi. Pystyt lataamaan julkaisun uudestaan mikäli tarpeen."</string>
+    <string name="dialog_not_enough_space_title">Tila ei riitä</string>
+    <string name="dialog_not_enough_space_msg">Tässä laitteessa ei ole riittävästi levytilaa valitun julkaisun lataamiseksi. Vapauta vähintään %d MB ja yritä uudelleen.</string>
+    <string name="dialog_sd_card_not_available_title">SD-korttia ei saatavilla</string>
+    <string name="dialog_sd_card_not_available_msg">SD-kortti on poistettu. Zinio-sovellus suljetaan. Aseta SD-kortti sisään ja käynnistä sovellus uudestaan.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD-kortti on täynnä</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD-kortti on täynnä. Vapauta tilaa.</string>
+    <string name="dialog_shop_no_connectivity_title">Kauppa ei ole saatavissa</string>
+    <string name="dialog_shop_no_connectivity_msg">Yhteys vaaditaan kauppaan sisäänmenemiseksi. Tarkista yhteytesi tai lentokoneasetukset.</string>
+    <string name="dialog_sign_out_title">Kirjaudu ulos</string>
+    <string name="dialog_sign_out_msg">"Oletko varma että haluat kirjautua ulos?
+
+Sinua pyydetään kirjautumaan sisään uudelleen käyttääksesi Zinio-sovellusta."</string>
+    <string name="dialog_tip_title">Vihje</string>
+    <string name="dialog_manage_tips_title">Hallinnoi vihjeitä</string>
+    <string name="non_supported_device_tip_title">Tervetuloa Zinioon</string>
+    <string name="non_supported_device_tip_msg">"Zinion multimediasisältö on parhaimmillaan luettuna laitteilla, joilla on vähintään 800x480 näyttö 
+
+Voit jatkaa sovelluksen käyttöä, mutta huomaa että kokemus ei ehkä ole optimaalinen."</string>
+    <string name="no_text_tip_msg">Joissakin julkaisuissa ei ole tekstiartikkeleita. Sisällysluetteloa tai visuaalista hakemistoa voidaan käyttää sen sivun etsinnässä, jota etsit.</string>
+    <string name="page_tip0_1">"Napauta kerran nähdäksesi työkaluvalikon.
+Voit valita visuaalisen tai tekstipohjaisen sisällysluettelon."</string>
+    <string name="page_tip1">"Vihjeitä aloittamiseen:
+
+* Käännä sivua vetämällä oikealle tai vasemmalle
+* Kaksoisnapauta tarkentaaksesi
+* Valitse 'teksti' painike joka näkyy artikkelin ensimmäisellä sivulla, lukeaksesi."</string>
+    <string name="wifi_connection_tip">"3G verkkoyhteys havaittu.
+
+Julkaisuja voi edelleen ladata 3G:n kautta, mutta optimaalisen elämyksen saamiseksi suositellaan wifiä."</string>
+    <string name="dialog_available_memory_not_enough_title">Riittämätön keon koko</string>
+    <string name="dialog_available_memory_not_enough_msg">Riittämätön serverin muisti.</string>
+    <string name="dialog_delete_title">Poista</string>
+    <string name="delete_done">Valmis</string>
+    <string name="dialog_delete_from_library">Oletko varma, että haluat poistaa %s?</string>
+    <string name="internet_connection_tip">Julkaisujen lataamiseen vaaditaan internet-yhteys. Yhdistä internetiin ja yritä uudestaan.</string>
+    <string name="dialog_change_password_old_password_empty">Syötä vanha salasana.</string>
+    <string name="server_error_app_version_not_supported_message">Päivitys saatavilla Zinio Readerista on saatavilla uudempi versio. Tätä versiota ei enää tueta. Päivitä Zinio Readerisi uusimpaan versioon</string>
+    <string name="server_error_authentication_failed">"Käyttäjätunnuksesi tai salasanasi oli virheellinen.
+
+Yritä uudelleen. Vanha salasana on virheellinen."</string>
+    <string name="server_error_device_not_authorized">Tätä laitetta ei ole varsinaisesti hyväksytty käytettäväksi Zinio tilisi kanssa. Hyväksyäksesi laitteen uudestaan, kirjaudu ulos sovelluksesta ja kirjaudu sitten uudestaan sisään. Jos vaikeutesi jatkuvat, ota yhteyttä Zinion asiakaspalveluun.</string>
+    <string name="server_error_invalid_login">Sähköpostiosoite ei ole voimassa. Sähköpostiosoite ei ole voimassa.</string>
+    <string name="server_error_invalid_new_password">Syötä voimassa oleva sähköpostiosoite.</string>
+    <string name="server_error_issue_not_supported_for_device">Numero ei ole voimassa. Ota yhteys asiakaspalveluunsupport@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Tällä tilillä on maksimimäärä sille hyväksyttyjä laitteita. Poista laite ja yritä uudelleen.</string>
+    <string name="server_error_packing_list_not_found">Pakkauslista puuttuu. Ota yhteys asiakaspalveluunsupport@zinio.com.</string>
+    <string name="server_error_login_exists">Sähköpostiosoite on jo olemassa. Valitse toinen.</string>
+    <string name="server_error_system_error">On tapahtunut palvelinvirhe. Yritä myöhemmin uudestaan.</string>
+    <string name="server_error_system_not_available">Sovellus ei ole juuri nyt saatavilla. Mikäli et pääse eteenpäin, yritä myöhemmin uudestaan.</string>
+    <string name="server_error_no_items_in_library">Sinulla ei ole otsikkoja tällä hetkellä. Saatavilla olevat nimikkeet voidaan löytää Ostokset-välilehdeltä.</string>
+    <string name="server_error_user_not_entitled">Käyttäjällä ei ole pääsyoikeutta. Ota yhteys asiakaspalveluunsupport@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Haluisitko antaa arviointisi Zinio Reader -lukijasta?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Vanhentunut numero poistetaan ja ladataan uudestaan.</string>
+    <string name="dialog_review_msg">Palautteesi on meille tärkeää, anna kommenttisi nyt.</string>
+    <string name="dialog_review_title">Anna kommenttisi.</string>
+    <string name="server_error_invalid_newstand">Lehtikioski ei ole voimassa. Ota yhteys asiakaspalveluunsupport@zinio.com.</string>
+</resources>

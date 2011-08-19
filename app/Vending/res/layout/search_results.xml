@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:vending="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.vending.velvet.SlimFlatView android:nextFocusDown="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/slim_title" />
+        </com.android.vending.velvet.SlimFlatView>
+        <FrameLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/title_bar_shadow" android:layout_weight="1.0">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/asset_list_no_loading" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fullscreen_loading_indicator" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SizedText_Minor">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="SizedText_Major">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="SizedSearchView">
+        <item name="android:iconifiedByDefault">false</item>
+    </style>
+</resources>

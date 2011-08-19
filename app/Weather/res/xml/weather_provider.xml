@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:gravity="top|left|center" android:minWidth="294.0dip" android:minHeight="220.0dip" android:initialLayout="@layout/widgetlayout" android:previewImage="@drawable/asus_ep_widget_thumbnail_weather"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

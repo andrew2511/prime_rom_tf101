@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modem Donanım Yazılımı güncellemesi başarılı</string>
+    <string name="update_fail">Modem Donanım Yazılımı güncellemesi yapılamadı</string>
+    <string name="update_quz" formatted="false">"Güncelleme işlemi yaklaşık 3-5 dakika sürer ve %15 ya da daha fazla pil ömrü gerektirir.
+üncellemeden önce lütfen pilinizin ömrünün %15'den fazla olduğundan emin olun.
+
+Modeminizin Donanım Yazılımını şimdi güncellemek istiyor musunuz?"</string>
+    <string name="notify_title">Asus Güncelleme Hizmeti</string>
+    <string name="notify">Modem Donanım Yazılımı Güncellemesi mevcut.</string>
+    <string name="warning_title">Uyarı</string>
+    <string name="warning">"Güncelleme sırasında aygıtınızı KAPATMAYIN.
+
+Beklenmeyen bir kesilme geri dönülemez hasara yol açabilir.
+
+Modem Donanım Yazılımınızı şimdi güncellemek ister misiniz?"</string>
+    <string name="battery_low" formatted="false">"İşlem %15 ya da daha fazla Pil ömrü gerektirir.
+
+Güncellemeye başlamadan önce lütfen pil ömrünün %15'den fazla olduğundan emin olun."</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="ok">Tamam</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

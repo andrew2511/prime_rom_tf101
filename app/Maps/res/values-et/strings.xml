@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">"Navigeerimine Google Maps'is"</string>
+    <string name="da_net_fail_title">Võrgutõrge</string>
+    <string name="da_net_fail_body">See rakendus vajab toimivat andmesideühendust.</string>
+    <string name="da_beta">BEETA</string>
+    <string name="da_destination">Sihtkoht</string>
+    <string name="da_toward">%1$s poole</string>
+    <string name="da_onto">%1$s peale</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"siis
+%1$s"</string>
+    <string name="da_continue_for_distance">Jätka %1$s</string>
+    <string name="da_destination_will_be_on_the_left">sihtkoht jääb vasakule.</string>
+    <string name="da_destination_will_be_on_the_right">sihtkoht jääb paremale.</string>
+    <string name="da_you_will_reach_destination">saabute sihtkohta.</string>
+    <string name="da_destination_on_the_left">Sihtkoht jääb vsakule.</string>
+    <string name="da_destination_on_the_right">Sihtkoht jääb paremale.</string>
+    <string name="da_destination_reached">Olete kohale jõudnud.</string>
+    <string name="da_speech_lost_gps">GPS-signaali pole</string>
+    <string name="da_speech_lost_data_connection">Andmeühendus katkes</string>
+    <string name="da_speech_navigation_resumed">Navigeerimine taastus</string>
+    <string name="da_speech_please_describe_problem">Palun kirjeldage probleemi</string>
+    <string name="da_on_left">vasakul</string>
+    <string name="da_on_right">paremal</string>
+    <string name="da_stay_on_road_primary">Püsi teel %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">Asukohast %1$s sihtkohta %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s pärast %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0}mi</string>
+    <string name="da_distance_format_feet_abbreviated">{0} jalga</string>
+    <string name="da_distance_format_feet_compressed">{0}jalga</string>
+    <string name="da_distance_format_yards_abbreviated">{0} jardi</string>
+    <string name="da_distance_format_yards_compressed">{0} jardi</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s päeva %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$s minutit</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigeerimine</string>
+    <string name="da_search_label">Otsing</string>
+    <string name="da_layers">Kihid</string>
+    <string name="da_agreement">"Google Maps Navigation töötab beetaversioonis. Olge kasutamisel ettevaatlik.
+
+Ärge kasutage rakendust autojuhtimise ajal. Liiklusinfo ei tööta reaalajas ning suunised võivad olla valed, ohtlikud, keelatud ning hõlmata üleveokohti. Pidage kinni kehtivatest seadustest.
+
+Jälgige teed!"</string>
+    <string name="da_agreement_with_walking">"Google Maps Navigation töötab beetaversioonis. Olge kasutamisel ettevaatlik.
+
+Ärge kasutage rakendust autojuhtimise ajal. Liiklusinfo ei tööta reaalajas ning suunised võivad olla valed, ohtlikud, keelatud ning hõlmata üleveokohti. Kõndimismarsruutidel võivad puududa kõnniteed või jalakäijate rajad. Pidage kinni kehtivatest seadustest.
+
+Jälgige teed!"</string>
+    <string name="da_disclaimer_checkbox">Näita seda teadet järgmine kord</string>
+    <string name="da_show_list">Juhiste loend</string>
+    <string name="da_route_overview">Marsruudi teave</string>
+    <string name="da_show_map">Kuva kaart</string>
+    <string name="da_satellite">Satelliit</string>
+    <string name="da_traffic_view">Liiklusvaade</string>
+    <string name="da_no_traffic_here">Puudub liiklusteave</string>
+    <string name="da_traffic">Liiklus</string>
+    <string name="da_area_view">Piirkonna kuva</string>
+    <string name="da_mute">Vaigista</string>
+    <string name="da_unmute">Lõpeta vaigistamine</string>
+    <string name="da_settings">Seaded</string>
+    <string name="da_help">Spikker</string>
+    <string name="da_terms_privacy_notices">Tingimused ja privaatsus</string>
+    <string name="da_terms_and_conditions">Nõuded ja tingimused</string>
+    <string name="da_privacy_policy">Privaatsuspoliitika</string>
+    <string name="da_legal_notices">Juriidilised märkused</string>
+    <string name="da_navigation_suspended">Navigeerimine seisatud</string>
+    <string name="da_exit_navigation">Välju Navigeerimisest</string>
+    <string name="da_email_me_when_resolved">Soovin e-kirja, kui probleem on lahendatud</string>
+    <string name="da_problem_reported">Probleemist on teatatud</string>
+    <string name="da_one_button_map_issue_reporting">Ühe klõpsuga probleemist teatamine</string>
+    <string name="da_attention">Tähelepanu</string>
+    <string name="da_rmi_warning">"Probleemist teavitamine võimaldab teil salvestada lühida häälsõnumi, mis kirjeldab teie probleemi seoses kaardi või teie marsruudiga. 15 sekundi möödudes saadetakse teie sõnum koos teie hetke asukoha ja marsruudiga automaatselt Google'ile.
+
+Saate lubada rakeduse seadetest 1-klõpsega otsetee.
+
+ Kui te soovite probleemi lahendamisest e-posti teel teavitamist, siis salvestatakse koos asukoha ja teie kommentaaridega ka teie e-posti aadress kuni probleemi lahendamiseni."</string>
+    <string name="da_report_a_problem">Probleemist teatamine</string>
+    <string name="da_report_a_problem_dialog_title">Probleemist teatamine</string>
+    <string name="da_rmi_preference_trackball_summary">Sisselülitatult algatab juhtkuuli vajutamine probleemist teatamise.</string>
+    <string name="da_rmi_preference_camera_summary">Sisselülitatult algatab kaameranupule vajutamine probleemist teatamise.</string>
+    <string name="da_rmi_preference_no_button_summary">Füüsilisi nuppe pole saadaval.</string>
+    <string name="da_rmi_preference_bad_location_summary">Teie praeguses asukohas pole probleemist teatamine saadaval.</string>
+    <string name="da_destination_not_here_warning">"Täname teid teavitamast, et meil on teie sihtkohaks vale asukoht. Teie praegune sihtkoht ja asukoht saadetakse Google'ile, et parandada andmete täpsust."</string>
+    <string name="da_destination_not_here_title">Probleemist teatamine</string>
+    <string name="da_searching_for_gps">GPS-i otsimine...</string>
+    <string name="da_data_connection_lost">Andmeühendus katkes...</string>
+    <string name="da_follow_the_route">Järgi marsruuti</string>
+    <string name="da_waiting_for_directions">Sõidujuhiste hankimine</string>
+    <string name="da_waiting_for_walking_directions">Käimise juhiste toomine</string>
+    <string name="da_waiting_for_location">Asukoha ootamine</string>
+    <string name="da_checking_navigation_availability">Navigeerimise võimalikkuse kontrollimine</string>
+    <string name="da_loading_route_details">Marsruudi detailide laadimine</string>
+    <string name="da_loading_image">Kujutise laadimine</string>
+    <string name="da_waiting_for_alternates">Alternatiivsete marsruutide otsimine</string>
+    <string name="da_waiting_for_details">Laadimine</string>
+    <string name="da_no_details">Üksikasju pole saadaval</string>
+    <string name="da_gps_is_disabled">GPS on keelatud</string>
+    <string name="da_turn_on_gps">Näidata asukoha seadeid?</string>
+    <string name="da_voice_guidance">Hääljuhtimine</string>
+    <string name="da_install_voice_guidance_prompt">Hääljuhendusega navigeerimiseks peate Android Marketist installima tekst-kõneks toe.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Jäta vahele</string>
+    <string name="da_dialog_cancel">Loobu</string>
+    <string name="da_dialog_done">Valmis</string>
+    <string name="da_dialog_accept">Nõustu</string>
+    <string name="da_dialog_install">Installi</string>
+    <string name="da_dialog_dont_accept">Ära nõustu</string>
+    <string name="da_dialog_go">Mine</string>
+    <string name="da_dialog_get_directions">Hangi juhised</string>
+    <string name="da_map">Kaardivaade</string>
+    <string name="da_clear_layers">Tühjenda kaart</string>
+    <string name="da_layer_name_parking">Parkimine</string>
+    <string name="da_layer_name_attractions">Atraktsioonid</string>
+    <string name="da_layer_name_gas_stations">Bensiinijaamad</string>
+    <string name="da_layer_name_restaurants">Restoranid</string>
+    <string name="da_layer_name_supermarkets">Kaubanduskeskused</string>
+    <string name="da_layer_name_atms_and_banks">Pangaautomaadid &amp; pangad</string>
+    <string name="da_layer_name_convenience_stores">Esmatarbekaupade poed</string>
+    <string name="da_query_banks_and_atms">Pangad ja pangaautomaadid</string>
+    <string name="da_rerouting">Marsruudi muutmine...</string>
+    <string name="da_via">%s kaudu</string>
+    <string name="da_to_destination">Asukohast sihtkohta %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Lindista tagasiside</string>
+    <string name="da_destination_not_here">Sihtkoht ei ole siin</string>
+    <string name="da_new_destination">Järgmine sihtkoht</string>
+    <string name="da_reroute_to_destination">Tagasi sihtkohta</string>
+    <string name="da_change_destination">Määra sihtkoht</string>
+    <string name="da_search_for_destination">Otsing...</string>
+    <string name="da_point_on_map">Kuva kaardil</string>
+    <string name="da_volume">Navigatsiooni helitugevus</string>
+    <string name="da_exit">Välju</string>
+    <string name="da_did_you_mean">Kas mõtlesite:</string>
+    <string name="da_did_you_say">Kas te ütlesite:</string>
+    <string name="da_for_your_end_point">Lõpp-punkti jaoks</string>
+    <string name="da_unnamed_road">Ilma nimeta tee</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, seejärel %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s meetri pärast</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Poolteise kilomeetri pärast</string>
+    <string name="da_speech_continue_for_x_meters">Jätkake %1$s meetrit</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Jätkake poolteist kilomeetrit</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Liikuge mööda %2$s %1$s meetrit</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Liikuge mööda %1$s poolteist kilomeetrit</string>
+    <string name="da_speech_generic_continue">Liikuge otse</string>
+    <string name="da_speech_in_x_feet">%1$s jala pärast</string>
+    <string name="da_speech_in_x_yards">%1$s jardi pärast</string>
+    <string name="da_speech_in_a_quarter_mile">Veerand miili pärast</string>
+    <string name="da_speech_in_a_half_mile">Poole miili pärast</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Kolmveerand miili pärast</string>
+    <string name="da_speech_in_one_and_a_half_miles">Poolteise miili pärast</string>
+    <string name="da_speech_continue_for_x_feet">Jätkake %1$s jalga</string>
+    <string name="da_speech_continue_for_x_yards">Jätkake %1$s jardi</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Jätkake veerand miili</string>
+    <string name="da_speech_continue_for_a_half_mile">Jätkake pool miili</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Jätkake kolmveerand miili</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Jätkake poolteist miili</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Liikuge mööda %2$s %1$s jalga</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Liikuge mööda %2$s %1$s jardi</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Liikuge mööda %1$s veerand miili</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Liikuge mööda %1$s pool miili</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Liikuge mööda %1$s kolmveerand miili</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Liikuge mööda %1$s poolteist miili</string>
+    <string name="da_route_prefixes">N,NE,E,SE,S,SW,W,NW</string>
+    <string name="da_route_suffixes">N,NE,E,SE,S,SW,W,NW,tee,pst,ümbersõit,ring,mk,tee,kiirtee,mnt,mnt,rada,jalgrada,koht,tee,tn,läbisõidutee,tee</string>
+    <string name="da_no_route">Marsruuti ei leitud</string>
+    <string name="da_route_not_found">Me ei leidnud ühtki marsruuti teie sihtkohta.</string>
+    <string name="da_destination_not_found">Me ei saanud sihtkohast aru.</string>
+    <string name="da_navigation_not_supported">Antud sihtkohta navigeerimist ei saa kasutada.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Mapsi navigeerimine ei ole selles asukohas veel saadaval.</string>
+    <string name="da_launch_maps">Käivita Maps</string>
+    <string name="da_no_image_available">Kujutist pole saadaval.</string>
+    <string name="da_image_error">Viga kujutise laadimisel.</string>
+    <string name="da_no_alternate_routes">Me ei leidnud alternatiivseid marsruute teie sihtkohta.</string>
+    <string name="da_picker_type_destination">Trüki sihtkoht</string>
+    <string name="da_picker_speak_destination">Öelge sihtkoht</string>
+    <string name="da_picker_contacts">Kontaktid</string>
+    <string name="da_picker_starred_items">Tärniga tähistatud kohad</string>
+    <string name="da_picker_new_contact">Uus kontakt</string>
+    <string name="da_picker_recent_destinations">Hiljutised sihtpunktid</string>
+    <string name="da_picker_choose_destination">Vali sihtpunkt</string>
+    <string name="da_navigate_to">Navigeeri asukohta</string>
+    <string name="da_picker_search_hint">Sihtkoht</string>
+    <string name="da_route_options">Marsruudi valikud</string>
+    <string name="da_updating_directions">Juhiste värskendamine</string>
+    <string name="da_picker_no_starred_items">"Teil puuduvad tärniga tähistatud kohad.
+
+Tärniga tähistatud kohad sünkroonitakse veebilehega maps.google.com automaatselt.
+
+Otsingutulemuste Google Mapsis tärniga tähistamiseks puudutage aadressi kõrval asuvat tärni ikooni."</string>
+    <string name="da_picker_no_contacts">"Teil ei ole aadressiga kontakte.
+
+Võite lisada uued kontaktid või määrata aadressid olemasolevatele kontaktidele Kontaktide rakenduses."</string>
+    <string name="da_driving">Sõit</string>
+    <string name="da_walking">Kõndimine</string>
+    <string name="da_quoted_text">\"%1$s\"</string>
+    <string name="da_more_info">Rohkem infot</string>
+    <string name="da_search_maps">Otsige Mapsist</string>
+    <string name="da_walking_warning">Kõndimine (beeta): kasutage ettevaatlikult</string>
+    <string name="da_calibrate_compass_title">Kompassi kalibreerimine</string>
+    <string name="da_calibrate_compass">Teie telefoni kompass on kalibreerimata. Kalibreerimiseks tehke telefoniga mõned korrad 8-kujulisi liigutusi.</string>
+    <string name="da_confirm_exit_title">Väljuda navigeerimisest?</string>
+    <string name="da_confirm_exit_text">See peatab marsruudi juhendamise.</string>
+    <string name="da_route_includes_tolls">Marsruut sisaldab teemakse</string>
+    <string name="da_avoid_tolls">Väldi teemakse</string>
+    <string name="da_avoiding_tolls">Teemaksude vältimine</string>
+    <string name="da_avoiding_highways">Maanteede vältimine</string>
+    <string name="da_route_includes_unavoidable_tolls">See marsruut sisaldab teemakse.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">See marsruut sisaldab teemakse. Keela teemaksud %1$s%2$s jaoks.</string>
+    <string name="da_seasonally_closed">Marsruut võib olla sesoonselt suletud</string>
+    <string name="da_direction_north">põhja</string>
+    <string name="da_direction_north_west">loodesse</string>
+    <string name="da_direction_west">läände</string>
+    <string name="da_direction_south_west">edelasse</string>
+    <string name="da_direction_south">lõunasse</string>
+    <string name="da_direction_south_east">kagusse</string>
+    <string name="da_direction_east">itta</string>
+    <string name="da_direction_north_east">kirdesse</string>
+    <string name="da_step_depart">Liikuge %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Minge %1$s mööda teed: %2$s</string>
+    <string name="da_step_slight_left">Kerge pööre vasakule</string>
+    <string name="da_step_slight_right">Kerge pööre paremale</string>
+    <string name="da_step_turn_left">Pöörake vasakule</string>
+    <string name="da_step_turn_right">Pöörake paremale</string>
+    <string name="da_step_sharp_left">Järsk pööre vasakule</string>
+    <string name="da_step_sharp_right">Järsk pööre paremale</string>
+    <string name="da_step_slight_left_onto">Kerge pööre vasakule teele: %1$s</string>
+    <string name="da_step_slight_right_onto">Kerge pööre paremale teele: %1$s</string>
+    <string name="da_step_turn_left_onto">Pöörake vasakule teele: %1$s</string>
+    <string name="da_step_turn_right_onto">Pöörake paremale teele: %1$s</string>
+    <string name="da_step_sharp_left_onto">Järsk pööre vasakule teele: %1$s</string>
+    <string name="da_step_sharp_right_onto">Järsk pööre paremale teele: %1$s</string>
+    <string name="da_step_fork_left">Hoidke harul vasakule</string>
+    <string name="da_step_fork_right">Hoidke harul paremale</string>
+    <string name="da_step_continue_onto">Minge edasi teele: %1$s</string>
+    <string name="da_step_continue_straight">Liikuge otse</string>
+    <string name="da_step_u_turn">Tehke U-pööre</string>
+    <string name="da_step_take_the_ramp">Minge pealesõidule</string>
+    <string name="da_step_take_the_ramp_onto">Pöörake %1$s pealesõidule</string>
+    <string name="da_step_take_the_ramp_on_the_left">Minge pealesõidule vasakul</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Pöörake vasakule %1$s pealesõidule</string>
+    <string name="da_step_take_the_ramp_on_the_right">Minge pealesõidule paremal</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Pöörake paremale %1$s pealesõidule</string>
+    <string name="da_step_take_the_exit">Minge mahasõidule</string>
+    <string name="da_step_take_the_exit_on_the_left">Minge mahasõidule vasakul</string>
+    <string name="da_step_take_the_exit_on_the_right">Minge mahasõidule paremal</string>
+    <string name="da_step_take_the_exit_onto">Pöörake %1$s mahasõidule</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Pöörake vasakule %1$s mahasõidule</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Pöörake paremale %1$s mahasõidule</string>
+    <string name="da_step_take_exit_n">Minge mahasõidule %1$s</string>
+    <string name="dav_map_copyrights_google_only">© %1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">© %1$d Google — Imagery © %2$d %3$s, Kaardiandmed © %4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">© %1$d Google — Imagery © %2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">© %1$d Google — Kaardiandmed © %2$d %3$s</string>
+</resources>

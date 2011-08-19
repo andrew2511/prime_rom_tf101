@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Память календаря</string>
+    <string name="calendar_default_name">По умолчанию</string>
+    <string name="calendar_info">Сведения о календаре</string>
+    <string name="calendar_info_error">Ошибка</string>
+    <string name="calendar_info_no_calendars">Нет календарей</string>
+    <string name="calendar_info_events">Мероприятий: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">Мероприятий: %1$d; не сохранено: %2$d</string>
+    <string name="provider_label">Календарь</string>
+</resources>

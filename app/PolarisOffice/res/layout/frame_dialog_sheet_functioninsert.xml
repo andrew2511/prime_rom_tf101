@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/holder_edit_sheet_functioninsert_function" android:background="@drawable/context_sub_bg" android:layout_width="fill_parent" android:layout_height="63.0px" />
+    <TextView android:textSize="@dimen/dialog_sheet_functioninsert_subtitle_text_size" android:textColor="#ffc8c8c8" android:gravity="center_vertical" android:background="@drawable/context_subtitle_bg" android:paddingLeft="@dimen/dialog_sheet_functioninsert_subtitle_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_sheet_functioninsert_subtitle_layout_height" android:text="@string/string_sheet_functioninsert_category" />
+    <LinearLayout android:id="@id/holder_spinner_sheet_functioninsert_category" android:background="@drawable/context_sub_bg" android:layout_width="fill_parent" android:layout_height="63.0px" />
+    <TextView android:textSize="@dimen/dialog_sheet_functioninsert_subtitle_text_size" android:textColor="#ffc8c8c8" android:gravity="center_vertical" android:background="@drawable/context_subtitle_bg" android:paddingLeft="@dimen/dialog_sheet_functioninsert_subtitle_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_sheet_functioninsert_subtitle_layout_height" android:text="@string/string_sheet_contextmenu_insert_function" />
+    <LinearLayout android:id="@id/holder_listcontrol_sheet_functioninsert_functions" android:layout_width="500.0px" android:layout_height="fill_parent" android:minHeight="500.0px" />
+</LinearLayout>

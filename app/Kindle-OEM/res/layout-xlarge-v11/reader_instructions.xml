@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout style="@style/bullets_table"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow style="@style/bullet_row">
+            <ImageView style="@style/bullet_image.reader_mode" />
+            <TextView android:text="@string/reader_instructions_turn" style="@style/bullet_text.reader_mode" />
+        </TableRow>
+        <TableRow style="@style/bullet_row">
+            <ImageView style="@style/bullet_image.reader_mode" />
+            <TextView android:text="@string/reader_instructions_center" style="@style/bullet_text.reader_mode" />
+        </TableRow>
+        <TableRow style="@style/bullet_row">
+            <ImageView style="@style/bullet_image.reader_mode" />
+            <TextView android:text="@string/reader_instructions_notes" style="@style/bullet_text.reader_mode" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>อเมริกา</item>
+        <item>ยุโรป</item>
+        <item>แอฟริกา</item>
+        <item>เอเชีย</item>
+        <item>ออสเตรเลีย</item>
+        <item>แปซิฟิก</item>
+        <item>ทั้งหมด</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>ไม่มีภาพเคลื่อนไหว</item>
+        <item>ภาพเคลื่อนไหวบางอย่าง</item>
+        <item>ภาพเคลื่อนไหวทั้งหมด</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>แสดงภาพเคลื่อนไหวบนหน้าต่างบางภาพ</item>
+        <item>แสดงภาพเคลื่อนไหวบนหน้าต่างบางภาพ</item>
+        <item>แสดงภาพเคลื่อนไหวบนหน้าต่างทั้งหมด</item>
+    </string-array>
+    <array name="screen_timeout_entries">
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+        <item>@string/never_timeout_entry</item>
+    </array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ทันที</item>
+        <item>5 วินาที</item>
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ช้ามาก</item>
+        <item>ช้า</item>
+        <item>ปกติ</item>
+        <item>เร็ว</item>
+        <item>เร็วมาก</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>ต่ำมาก</item>
+        <item>ต่ำ</item>
+        <item>ปกติ</item>
+        <item>สูง</item>
+        <item>สูงมาก</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>อังกฤษแบบอเมริกัน</item>
+        <item>อังกฤษแบบอังกฤษ</item>
+        <item>ฝรั่งเศส</item>
+        <item>เยอรมัน</item>
+        <item>อิตาลี</item>
+        <item>สเปน</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>กำลังตรวจสอบความถูกต้อง…</item>
+        <item>กำลังรับที่อยู่ IP…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อ...</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อไปยัง %1$s...</item>
+        <item>กำลังตรวจสอบสิทธิ์กับ%1$s...</item>
+        <item>กำลังรับที่อยู่ IP จาก %1$s…</item>
+        <item>เชื่อมต่อกับ %1$s แล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อจาก %1$s</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>เปิด</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>ไม่ใช้</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>แย่</item>
+        <item>พอใช้</item>
+        <item>ดี</item>
+        <item>ยอดเยี่ยม</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>เมื่อหน้าจอปิด (ใช้ข้อมูลมือถือมากขึ้น)</item>
+        <item>ไม่ใช้เมื่อเสียบปลั๊ก</item>
+        <item>ไม่ใช้ (ใช้พลังงานแบตเตอรี่มากขึ้น)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>เมื่อปิดหน้าจอ</item>
+        <item>ไม่ใช้เมื่อเสียบปลั๊ก</item>
+        <item>ไม่ใช้ (ใช้พลังงานแบตเตอรี่มากขึ้น)</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>อัตโนมัติ</item>
+        <item>5 GHz เท่านั้น</item>
+        <item>2.4 GHz เท่านั้น</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>เวลาการใช้งาน</item>
+        <item>จำนวนการเริ่มใช้งาน</item>
+        <item>ชื่อแอปพลิเคชัน</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ไม่มี</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>ด้วยตนเอง</item>
+        <item>ปุ่มกด WPS</item>
+        <item>WPS PIN จากจุดเข้าใช้งาน</item>
+        <item>WPS PIN จากอุปกรณ์นี้</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>คงที่</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ไม่มี</item>
+        <item>ด้วยตนเอง</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>ปิด</item>
+        <item>การเตือน</item>
+        <item>สั่น</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ไม่มี</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP หรือ CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ที่จัดเก็บข้อมูลอุปกรณ์ภายใน</item>
+        <item>การ์ด SD แบบนำออกได้</item>
+        <item>ให้ระบบเลือก</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>ทุกครั้ง</item>
+        <item>ไม่เคย</item>
+        <item>เฉพาะในโหมดปิดเสียงเรียกเข้า</item>
+        <item>เฉพาะเมื่อไม่อยู่ในโหมดปิดเสียงเรียกเข้า</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>สั้น</item>
+        <item>ปานกลาง</item>
+        <item>ยาว</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ไม่ต้องตรวจสอบ</item>
+        <item>ตรวจสอบเนื้อหา DRM เท่านั้น</item>
+        <item>ตรวจสอบทุกครั้ง</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ห้ามใช้การตรวจสอบ HDCP</item>
+        <item>ใช้การตรวจสอบ HDCP สำหรับเนื้อหา DRM เท่านั้น</item>
+        <item>ใช้การตรวจสอบ HDCP เสมอ</item>
+    </string-array>
+</resources>

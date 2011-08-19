@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/offer_view_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/progressbar_loading_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <WebView android:id="@id/offer_details" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</ViewSwitcher>

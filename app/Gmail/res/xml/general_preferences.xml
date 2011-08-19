@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/preference_confirm_before_delete_title" android:key="confirm-actions-delete" android:summary="@string/preference_confirm_before_delete_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/preference_confirm_before_archive_title" android:key="confirm-actions-archive" android:summary="@string/preference_confirm_before_archive_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/preference_confirm_before_send_title" android:key="confirm-actions-send" android:summary="@string/preference_confirm_before_send_summary" android:defaultValue="true" />
+    <ListPreference android:entries="@array/prefEntries_autoAdvance" android:title="@string/preference_advance_to_title" android:key="auto-advance" android:defaultValue="@string/prefDefault_autoAdvance" android:dialogTitle="@string/prefDialogTitle_autoAdvance" android:entryValues="@array/prefValues_autoAdvance" />
+    <ListPreference android:entries="@array/prefEntries_messageTextSizeName" android:title="@string/preferences_message_text_size_title" android:key="message-text" android:defaultValue="@string/prefDefault_messageTextSize" android:dialogTitle="@string/prefDialogTitle_messageTextSize" android:entryValues="@array/prefValues_messageTextSize" />
+    <PreferenceScreen android:title="@string/clear_history_title" android:key="clear-search-history" android:summary="@string/clear_history_summary" />
+    <PreferenceScreen android:title="@string/clear_display_images_whitelist_title" android:key="clear-display-images-whitelist" android:summary="@string/clear_display_images_whitelist_summary" />
+</PreferenceScreen>

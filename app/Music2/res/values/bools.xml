@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="phone_uses_3D_in_landscape">true</bool>
+    <bool name="grid_scroll_horizontal">true</bool>
+    <bool name="grid_scroll_overlay_follows_thumb">false</bool>
+    <bool name="grid_expanded_cluster_label_horizontal">false</bool>
+    <bool name="grid_expand_label_vertical">false</bool>
+    <bool name="grid_cluster_expand_label_vertical">true</bool>
+    <bool name="grid_label_show_song_count">false</bool>
+    <bool name="grid_label_show_menu_mark">false</bool>
+    <bool name="grid_label_multiline_pile">false</bool>
+    <bool name="grid_label_multiline_item">true</bool>
+    <bool name="grid_label_multiline_pile_expanded">false</bool>
+    <bool name="grid_label_multiline_item_expanded">true</bool>
+</resources>

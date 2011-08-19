@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Naptár tárolása</string>
+    <string name="calendar_default_name">Alapértelmezett</string>
+    <string name="calendar_info">Naptárinfó</string>
+    <string name="calendar_info_error">Hiba</string>
+    <string name="calendar_info_no_calendars">Nincs naptár</string>
+    <string name="calendar_info_events">Események: %1$d</string>
+    <string name="calendar_info_events_dirty" formatted="false">Események: %1$d, nem mentett események: %2$d</string>
+    <string name="provider_label">Naptár</string>
+</resources>

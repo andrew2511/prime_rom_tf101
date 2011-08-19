@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dm_config version="1">
+    <string name="fumoHandler">DefaultFumoHandler</string>
+    <bool name="allowShowMoreInfoOnError">false</bool>
+    <bool name="allowFotaPolling">true</bool>
+</dm_config>

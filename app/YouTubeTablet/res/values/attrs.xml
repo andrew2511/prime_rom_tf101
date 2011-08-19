@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cacheColorHint" format="color" />
+    <attr name="textWhenEmpty" format="string" />
+    <attr name="statusView" format="reference" />
+    <attr name="maxItems" format="integer" min="1" />
+    <attr name="divider" format="reference|color" />
+    <attr name="choiceMode">
+        <enum name="none" value="0" />
+        <enum name="singleChoice" value="1" />
+        <enum name="multipleChoice" value="2" />
+    </attr>
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="stretchMode">
+        <enum name="none" value="0" />
+        <enum name="spacingWidth" value="1" />
+        <enum name="columnWidth" value="2" />
+        <enum name="spacingWidthUniform" value="3" />
+    </attr>
+    <attr name="columnWidth" format="dimension" />
+    <attr name="numColumns" format="integer" min="0">
+        <enum name="auto_fit" value="-1" />
+    </attr>
+    <attr name="gravity" format="integer" />
+    <attr name="tabBackground" format="reference" />
+    <attr name="renderscript" format="reference" />
+    <attr name="rowCount" format="integer" />
+    <attr name="rowSpacing" format="float" />
+    <attr name="slotCount" format="integer" />
+    <attr name="visibleSlots" format="integer" />
+    <attr name="cameraZ" format="float" />
+    <attr name="radius" format="float" />
+    <attr name="cardWidth" format="dimension" />
+    <attr name="cardHeight" format="dimension" />
+    <attr name="detailWidth" format="dimension" />
+    <attr name="detailHeight" format="dimension" />
+    <attr name="background" format="reference" />
+    <attr name="splitDetailViews" format="boolean" />
+</resources>

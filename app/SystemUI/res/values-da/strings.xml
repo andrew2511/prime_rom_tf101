@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">System-UI</string>
+    <string name="status_bar_clear_all_button">Ryd</string>
+    <string name="status_bar_do_not_disturb_button">Forstyr ikke</string>
+    <string name="status_bar_please_disturb_button">Vis meddelelser</string>
+    <string name="status_bar_no_notifications_title">Ingen meddelelser</string>
+    <string name="status_bar_ongoing_events_title">I gang</string>
+    <string name="status_bar_latest_events_title">Meddelelser</string>
+    <string name="battery_low_title">Forbind oplader</string>
+    <string name="battery_low_subtitle">Batteriet er ved at være fladt.</string>
+    <string name="battery_low_percent_format">%d%% tilbage</string>
+    <string name="invalid_charger">"Opladning via USB understøttes ikke.
+Brug kun den medfølgende oplader."</string>
+    <string name="battery_low_why">Batteriforbrug</string>
+    <string name="status_bar_settings_settings_button">Indstillinger</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Flytilstand</string>
+    <string name="status_bar_settings_auto_rotation">Automatisk skærmrotation</string>
+    <string name="status_bar_settings_mute_label">LYDLØS</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Meddelelser</string>
+    <string name="recent_tasks_title">Seneste</string>
+    <string name="recent_tasks_empty">Der er ingen nye applikationer.</string>
+    <string name="recent_tasks_app_label">Programmer</string>
+    <string name="bluetooth_tethered">Bluetooth-tethering anvendt</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfigurer inputmetoder</string>
+    <string name="status_bar_use_physical_keyboard">Brug fysisk tastatur</string>
+    <string name="usb_device_permission_prompt">Vil du tillade, at applikationen %1$s får adgang til USB-enheden?</string>
+    <string name="usb_accessory_permission_prompt">Vil du tillade, at applikationen %1$s får adgang til USB-ekstraudstyret?</string>
+    <string name="usb_device_confirm_prompt">Vil du åbne %1$s, når denne USB-enhed er tilsluttet?</string>
+    <string name="usb_accessory_confirm_prompt">Vil du åbne %1$s, når dette USB-ekstraudstyr er tilsluttet?</string>
+    <string name="usb_accessory_uri_prompt">Ingen inst. applikationer virker med USB-ekstraudstyret. Få oplysninger om ekstraudstyret på %1$s</string>
+    <string name="title_usb_accessory">USB-ekstraudstyr</string>
+    <string name="label_view">Vis</string>
+    <string name="always_use_device">Brug som standard til denne USB-enhed</string>
+    <string name="always_use_accessory">Brug som standard til dette USB-tilbehør</string>
+</resources>

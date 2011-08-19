@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NsongsMalbums" formatted="false">%1$s, %2$s</string>
+    <string name="no_network_connection">Ingen nätverksanslutning</string>
+    <string name="authentication_failure_no_network">Du måste ansluta till Internet om du vill autentisera ditt konto för Musik.</string>
+    <string name="authentication_failure">Det gick inte att autentisera</string>
+    <string name="authentication_failure_error">Det gick inte att autentisera ditt konto för Musik.</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Avbryt</string>
+    <string name="save_button_text">Spara</string>
+    <string name="not_save_button_text">Spara inte</string>
+    <string name="shuffle_all">Blanda hela listan</string>
+    <string name="play_all">Spela alla</string>
+    <string name="songs_all">Alla låtar</string>
+    <string name="shuffle">Blanda</string>
+    <string name="search">Sök</string>
+    <string name="settings">Inställningar</string>
+    <string name="library_options">Biblioteksalternativ</string>
+    <string name="manage_music">Gör tillgänglig offline</string>
+    <string name="available_offline">Tillgänglig offline</string>
+    <string name="hide_labels">Dölj etiketter</string>
+    <string name="show_labels">Visa etiketter</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="shop_artist">Handla efter artist</string>
+    <string name="show_offline_music_only">Visa bara offline-musik</string>
+    <string name="gadget_all_songs_by_artist">Alla låtar skrivna av %s</string>
+    <string name="list_title_all_songs_by_artist">"Alla låtar av
+%s"</string>
+    <string name="new_playlist_title">Spellistans namn</string>
+    <string name="add_to_playlist_title">Spellistans namn</string>
+    <string name="rename_playlist_title">Ändra namnet %s till</string>
+    <string name="all_music">All musik</string>
+    <string name="only_kept">Endast offline</string>
+    <string name="search_section_header_artists">ARTISTER</string>
+    <string name="search_section_header_albums">ALBUM</string>
+    <string name="search_section_header_songs">LÅTAR</string>
+    <string name="search_section_header_playlists">SPELLISTOR</string>
+    <string name="shuffle_all_songs">Blanda alla spår</string>
+    <string name="stream_settings">Inställningar för direktuppspelning</string>
+    <string name="streamed_music_category">Direktuppspelad musik</string>
+    <string name="refresh_title">Uppdatera</string>
+    <string name="refresh_summary">Uppdatera musik från Musik Beta</string>
+    <string name="account_settings_title">Google-konto</string>
+    <string name="no_account_selected_summary">Tryck om du vill välja konto</string>
+    <string name="account_selected_summary">Anslut till betaversionen av Musik med hjälp av %s</string>
+    <string name="hide_when_not_connected_title">Dölj musik som inte är tillgänglig</string>
+    <string name="hide_when_not_connected_summary">Visa enbart tillgänglig musik när du är offline</string>
+    <string name="stream_only_on_wifi_title">Direktuppspela musik endast via Wi-Fi</string>
+    <string name="stream_only_on_wifi_summary">Direktuppspela bara musik via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_title">Hämta bara via Wi-Fi</string>
+    <string name="offlinedl_only_on_wifi_summary">Hämta bara musik som ska kunna spelas upp offline via Wi-Fi</string>
+    <string name="cache_streamed_title">Cachelagra musik</string>
+    <string name="cache_streamed_summary">Lagra direktuppspelad musik temporärt</string>
+    <string name="download_queue_title">Hämta kö...</string>
+    <string name="download_queue_summary">Visa de låtar som hämtas för tillfället</string>
+    <string name="help_title">Hjälp</string>
+    <string name="help_summary">Så här använder du Musik-appen och betaversionen av Musik från Google</string>
+    <string name="library_help_title">Hjälp</string>
+    <string name="library_help_summary">Felsökning av anslutningsproblem</string>
+    <string name="add_account_title">Lägg till konto</string>
+    <string name="accounts_title">Konton</string>
+    <string name="account_status_connected">anslutet</string>
+    <string name="account_status_not_connected">inte anslutet</string>
+    <string name="show_no_downloads_title">Inga låtar i kö för hämtning</string>
+    <string name="music_version_title">Musikversion</string>
+    <string name="music_version_summary">Okänd version</string>
+    <string name="list_status_summary_no_items">Inga objekt</string>
+    <string name="list_status_summary_loading">Läser in...</string>
+    <string name="stream_accounts_title">Konto för direktuppspelning</string>
+    <string name="library_status_title">Status för direktuppspelat bibliotek</string>
+    <string name="nowplaying_title">Nu spelas</string>
+    <string name="artists_title">Artister</string>
+    <string name="albums_title">Album</string>
+    <string name="genres_title">Genrer</string>
+    <string name="tracks_title">Låtar</string>
+    <string name="playlists_title">Spellistor</string>
+    <string name="recent_title">Senaste</string>
+    <string name="search_title">Sök</string>
+    <string name="no_tracks_title">Inga låtar</string>
+    <string name="no_videos_title">Inga videor</string>
+    <string name="delete_playlist_menu">Ta bort</string>
+    <string name="edit_playlist_menu">Redigera</string>
+    <string name="rename_playlist_menu">Byt namn</string>
+    <string name="playlist_delete_confirmation">Spellistan %s tas bort.</string>
+    <string name="delete_playlist_button_confirm">Ta bort</string>
+    <string name="playlist_deleted_message">Spellista har tagits bort.</string>
+    <string name="playlist_created_message">Spellistan %s har skapats</string>
+    <string name="playlist_renamed_message">Nytt namn på spellista: %s</string>
+    <string name="recentlyadded">Nyligen tillagda</string>
+    <string name="recentlyadded_title">Nyligen tillagda</string>
+    <string name="podcasts_listitem">Podsändningar</string>
+    <string name="podcasts_title">Podsändningar</string>
+    <string name="unknown_artist_name">Okänd artist</string>
+    <string name="unknown_album_name">Okänt album</string>
+    <string name="unknown_playlist_name">Okänd spellista</string>
+    <string name="shuffle_on_notif">Blandar spår.</string>
+    <string name="shuffle_off_notif">Blandar inte spår.</string>
+    <string name="repeat_off_notif">Upprepning är aktiverat.</string>
+    <string name="repeat_current_notif">Upprepa aktuell låt.</string>
+    <string name="repeat_all_notif">Upprepa alla låtar.</string>
+    <string name="play_selection">Spela</string>
+    <string name="add_to_playlist">Lägg till i spellista</string>
+    <string name="rename_playlist_menu_item">Byt namn</string>
+    <string name="add_to_playlist_selector_title">Lägg till i spellistan</string>
+    <string name="queue">Aktuell spellista</string>
+    <string name="new_playlist_for_content">Ny spellista...</string>
+    <string name="new_empty_playlist">Ny spellista</string>
+    <string name="new_playlist_name_template">Spellista %d</string>
+    <string name="playlist_too_many_songs">Det finns för många låtar. Gränsen är %d per spellista.</string>
+    <string name="emptyplaylist">Den valda spellistan är tom.</string>
+    <string name="playlist_edit_label">NAMN</string>
+    <string name="create_playlist_create_text">OK</string>
+    <string name="rename_playlist_rename_text">Byt namn</string>
+    <string name="service_start_error_title">Problem med uppspelningen</string>
+    <string name="service_start_error_msg">Det gick tyvärr inte att spela låten.</string>
+    <string name="service_start_error_button">OK</string>
+    <string name="weekpicker_set">Färdig</string>
+    <string name="weekpicker_title">Ange tid</string>
+    <string name="save_as_playlist">Spara som spellista</string>
+    <string name="musicbrowserlabel">Musik</string>
+    <string name="musicshortcutlabel">Musikspellista</string>
+    <string name="mediaplaybacklabel">Musik</string>
+    <string name="playback_failed">Ett fel uppstod vid uppspelningen</string>
+    <string name="cancel">Avbryt</string>
+    <string name="remove_from_playlist">Ta bort från spellista</string>
+    <string name="streamloadingtext">Ansluter till %s</string>
+    <string name="mediasearch">Sök efter %s med:</string>
+    <string name="search_hint">Sök efter musik</string>
+    <string name="working_artists">Artister…</string>
+    <string name="working_albums">Album…</string>
+    <string name="working_songs">Låtar…</string>
+    <string name="working_playlists">Spellistor…</string>
+    <string name="working_genres">Genrer</string>
+    <string name="loading">Läser in</string>
+    <string name="sort_by_track">Spår</string>
+    <string name="music_picker_title">Välj musikspår</string>
+    <string name="gadget_track">Spår %d</string>
+    <string name="fail_to_start_stream">Det gick inte att spela upp den begärda strömmen.</string>
+    <string name="search_settings_description">Artister, album och låtar</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="music_library">Musikbibliotek</string>
+    <string name="music_shop">Butik</string>
+    <string name="pick">Välj</string>
+    <string name="artist_unknown">Okänd artist</string>
+    <string name="playlists_label">Spellistor</string>
+    <string name="playlist_label">Spellista</string>
+    <string name="faux_art_all_songs_label">Alla låtar</string>
+    <string name="faux_art_playlist_label">Spellista</string>
+    <string name="loading_new">Läser in ny musik</string>
+    <string name="no_items">Det finns inga objekt i din samling</string>
+    <string name="buffering">Buffrar</string>
+    <string name="keep_on_phone">Tillgänglig offline</string>
+    <string name="sort_order_prompt">Välj en sorteringsordning</string>
+    <string name="provider_label">Musik</string>
+    <string name="tutorial_set_up_usb">Läs mer</string>
+    <string name="no_music_heading">Musikbiblioteket är tomt</string>
+    <string name="no_music_setup_uploader_heading">Spela din musik trådlöst via direktuppspelning</string>
+    <string name="no_music_setup_uploader_body">Lyssna på din musiksamling via direktuppspelning med betaversionen av Musik från Google.</string>
+    <string name="no_music_setup_usb_heading">Kopiera musik till enheten</string>
+    <string name="no_music_setup_usb_body">Kopiera musik till telefonen via en USB-kabel.</string>
+    <string name="no_local_music_heading">Ingen lokal musik</string>
+    <string name="no_local_music_body">Enheten är i offlineläge så endast den musik som är lagrad på enheten visas. Om du vill ändra vad som är tillgängligt när enheten inte är ansluten använder du alternativet Gör tillgänglig offline där du kan göra dina val.</string>
+    <string name="no_music_learn_more">Läs mer</string>
+    <string name="tutorial_set_up_streaming">Konfigurera strömning</string>
+    <string name="no_playlists_heading">Det finns inga spellistor i biblioteket.</string>
+    <string name="no_playlists_body">Du kan skapa en spellista från listan över låtar genom att öppna snabbmenyn för någon av låtarna och välja Lägg till i spellista.</string>
+    <string name="tutorial_account_heading">Välkommen</string>
+    <string name="tutorial_account_body">Google har bjudit in dig till betaversionen av Musik. Du kan använda den här spelaren om du vill ha direktåtkomst till musiken du lägger till och låtarna som du har kopierat till Android-enheten.</string>
+    <string name="tutorial_account_list_header">Börja med att välja ett Google-konto för att koppla spelaren till betaversionen av Musik:</string>
+    <string name="tutorial_done_heading">Mycket nöje</string>
+    <string name="tutorial_done_body">"Musikspelaren är nu kopplad till ditt Google-konto.
+
+Om du redan har lagt till din musik i betaversionen av Musik börjar den visas i den här spelaren.
+
+Om du inte har lagt till någon musik än kan du börja med att besöka vår webbplats från datorn:"</string>
+    <string name="tutorial_back">Tillbaka</string>
+    <string name="tutorial_skip">Hoppa över</string>
+    <string name="tutorial_next">Nästa</string>
+    <string name="tutorial_done">Klar</string>
+    <string name="help_heading">Hjälp</string>
+    <string name="spinner_carousel">Senaste</string>
+    <string name="spinner_album">Album</string>
+    <string name="spinner_artist">Artister</string>
+    <string name="spinner_songs">Låtar</string>
+    <string name="spinner_playlists">Spellistor</string>
+    <string name="spinner_genres">Genrer</string>
+    <string name="sort_by_title">Sortera A–Z</string>
+    <string name="sort_by_artist">Sortera efter artist</string>
+    <string name="sort_by_album">Sortera efter album</string>
+    <string name="more_by_artist">Mer från artisten</string>
+    <string name="make_available_offline">Gör tillgänglig offline</string>
+    <string name="search_web">Sök på webben</string>
+    <string name="manage_done">Klar</string>
+    <string name="too_many_items_title">För många objekt</string>
+    <string name="too_many_items_body">Antalet markerade objekt är för stort för att sparas. Frigör utrymme genom att avmarkera några objekt.</string>
+    <string name="save_manage_music_change_title">Vill du spara ändringarna?</string>
+    <string name="save_manage_music_change_body">Vill du spara ändringarna och göra den markerade musiken tillgänglig offline?</string>
+    <string name="not_all_items_can_be_kept_body">Antalet markerade objekt är för stort för att sparas. Alla objekt kan inte hämtas.</string>
+    <string name="free_space_overfull">Fullt (%s för mycket)</string>
+    <string name="free_space">%s LEDIGT</string>
+    <string name="stream_error_no_space_available">Det finns ingen plats</string>
+    <string name="stream_error_server_not_found">Det gick inte att ansluta till servern.</string>
+    <string name="stream_error_only_on_wifi">Enheten måste vara ansluten till ett Wi-Fi-nätverk om du ska kunna spela upp låten</string>
+    <string name="stream_error_no_connection">Enheten måste vara online om du ska kunna spela upp låten</string>
+    <string name="stream_error_unauthorized">Ogiltigt användarnamn eller lösenord</string>
+    <string name="stream_error_another_stream_being_played">Musiken har pausats eftersom att du lyssnar på samlingen från en annan enhet.</string>
+    <string name="stream_error_rate_limit_reached">Musiken är inte tillgänglig för närvarande. Kontrollera att du bara spelar upp musiksamlingen på en enhet åt gången.</string>
+    <string name="stream_error_device_not_authorized">Åtta datorer och enheter är anslutna till kontot. Du måste avauktorisera en av dem innan du kan lägga till en ny.</string>
+    <string name="stream_error_another_stream_being_played_short">Musiken har pausats tillfälligt</string>
+    <string name="stream_error_rate_limit_reached_short">Musiken är inte tillgänglig för tillfället</string>
+    <string name="stream_error_device_not_authorized_short">För många enheter är kopplade till kontot</string>
+    <string name="hide_now_playing_bar">Dölj fältet Spelas nu</string>
+    <string name="show_now_playing_bar">Visa fältet Spelas nu</string>
+    <string name="show_options">Visa alternativ</string>
+    <string name="hide_options">Dölj alternativ</string>
+    <string name="all_songs_in_genre">"Alla låtar från genren
+%s"</string>
+    <string name="wall_album_label_with_year" formatted="false">"%s
+%s
+%s, %d"</string>
+    <string name="wall_album_label_no_year" formatted="false">"%s
+%s
+%s"</string>
+    <string name="wall_artist_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_genre_label" formatted="false">"%s
+%s"</string>
+    <string name="wall_playlist_label" formatted="false">"%s
+%s"</string>
+    <string name="notification_downloading_offline_music">Gör musik tillgänglig offline</string>
+    <string name="notification_downloading_when_on_wifi">Låtar som är markerade som offline hämtas när du ansluter till ett Wi-Fi-nätverk.</string>
+    <string name="notification_downloading_excessive_errors">Det gick inte att hämta låtarna nu. Kontrollera Internetanslutningen.</string>
+    <string name="notification_downloading_done">Utvalda låtar finns nu tillgängliga offline</string>
+    <string name="carousel_label_shuffle_all">Blanda alla låtar</string>
+    <string name="song_label">LÅT</string>
+    <string name="artist_label">ARTIST</string>
+    <string name="album_label">ALBUM</string>
+    <string name="effectspanel">Ljudeffekter</string>
+    <string name="menu_make_instant_mix">Skapa en snabbmix</string>
+    <string name="instant_mix_default_name">%s-mix</string>
+    <string name="creating_instant_mix">"En snabbmix läggs till
+i Spellistor"</string>
+    <string name="creating_instant_mix_with_seed">"En snabbmix som bygger på
+%släggs till
+i Spellistor"</string>
+    <string name="create_instant_mix_failed">Det gick inte att skapa en snabbmix. Försök igen</string>
+    <string name="create_instant_mix_failed_insufficient_results">Det fanns för få liknande låtar i samlingen för att en snabbmix skulle kunna skapas av %s. Försök skapa en snabbmix av en annan låt.</string>
+    <string name="create_instant_mix_sync_timeout">"Snabbmixen har
+skapats och visas i
+spellistorna inom kort."</string>
+    <string name="create_instant_mix_btn_ok">OK</string>
+    <string name="delete">Ta bort</string>
+    <string name="confirm_delete_local_only">Vill du ta bort \"%s\"?</string>
+    <string name="confirm_delete_has_remote">\"%s\" har lästs in på sidan och överförts till Google Musik. Bara objekt som har lästs in på sidan kommer att tas bort. Vill du ta bort dem?</string>
+</resources>

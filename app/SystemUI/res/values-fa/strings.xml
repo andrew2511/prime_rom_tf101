@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">رابط کاربر سیستم</string>
+    <string name="status_bar_clear_all_button">پاک کردن</string>
+    <string name="status_bar_do_not_disturb_button">مزاحم نشوید</string>
+    <string name="status_bar_please_disturb_button">نمایش اعلان ها</string>
+    <string name="status_bar_no_notifications_title">اعلانی موجود نیست</string>
+    <string name="status_bar_ongoing_events_title">در حال انجام</string>
+    <string name="status_bar_latest_events_title">اعلان ها</string>
+    <string name="battery_low_title">لطفاً شارژر را وصل کنید</string>
+    <string name="battery_low_subtitle">باتری در حال کم شدن است.</string>
+    <string name="battery_low_percent_format">%d%% باقیمانده است</string>
+    <string name="invalid_charger">"شارژ USB پشتیبانی نمی شود.
+فقط از شارژر ارائه شده استفاده کنید."</string>
+    <string name="battery_low_why">استفاده از باتری</string>
+    <string name="status_bar_settings_settings_button">تنظیمات</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">حالت هواپیما</string>
+    <string name="status_bar_settings_auto_rotation">چرخش خودکار صفحه</string>
+    <string name="status_bar_settings_mute_label">بیصدا</string>
+    <string name="status_bar_settings_auto_brightness_label">خودکار</string>
+    <string name="status_bar_settings_notifications">اعلان ها</string>
+    <string name="recent_tasks_title">اخیر</string>
+    <string name="recent_tasks_empty">برنامه اخیری موجود نیست.</string>
+    <string name="recent_tasks_app_label">برنامه های کاربردی</string>
+    <string name="bluetooth_tethered">اتصال اینترنتی با بلوتوث تلفن همراه</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">پیکربندی روش های ورودی</string>
+    <string name="status_bar_use_physical_keyboard">از صفحه کلید فیزیکی استفاده کنید</string>
+    <string name="usb_device_permission_prompt">به برنامه %1$s اجازه می دهید به دستگاه USB وصل شود؟</string>
+    <string name="usb_accessory_permission_prompt">به برنامه %1$s اجازه می دهید به وسیله جانبی USB وصل شود؟</string>
+    <string name="usb_device_confirm_prompt">وقتی این دستگاه USB وصل است، %1$s باز شود؟</string>
+    <string name="usb_accessory_confirm_prompt">وقتی این وسیله جانبی USB وصل است، %1$s باز شود؟</string>
+    <string name="usb_accessory_uri_prompt">برنامه های نصب شده با این وسیله جانبی USB کار می کنند. در %1$sراجع به این لوازم جانبی بیشتر بیاموزید</string>
+    <string name="title_usb_accessory">لوازم جانبی USB</string>
+    <string name="label_view">مشاهده</string>
+    <string name="always_use_device">استفاده به صورت پیش فرض برای این دستگاه USB</string>
+    <string name="always_use_accessory">استفاده به صورت پیش فرض برای این دستگاه USB</string>
+</resources>

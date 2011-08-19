@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pageturn_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/reader_scrub_bar" />
+    <FrameLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/texture_stub" />
+        <include layout="@layout/texture_loading" />
+        <include layout="@layout/texture_start" />
+        <include layout="@layout/texture_gap" />
+        <include layout="@layout/texture_end" />
+    </FrameLayout>
+</RelativeLayout>

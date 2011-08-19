@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMClient</string>
+    <string name="minutes">分钟</string>
+    <string name="postpone">延期</string>
+    <string name="update">更新</string>
+    <string name="firmware_update_title">固件更新</string>
+    <string name="firmware_update_fail">"更新失败。
+
+您的设备将恢复至原配置。"</string>
+    <string name="low_battery_warning">"系统需要至少%1$d%%的电池电力运行更新工作。
+请在运行更新前对电池充电。"</string>
+    <string name="confirmDownload_textok">"此更新可增进系统稳定性，且不会损害您的数据，建议您下载并进行更新。
+请点击 是 下载进行更新。"</string>
+    <string name="confirmDownload_textcancel">点击否放弃更新。</string>
+    <string name="confirmDownload_textwifi">建议您使用免费WiFi连接下载更新</string>
+    <string name="confirmDownload_textwifi2">若您点击 稍后，之后您可以随时点击此信息下载更新</string>
+    <string name="btn_text_later">以后</string>
+    <string name="confirmDownload_dialog_title">注意，您正在漫游中。</string>
+    <string name="downloading">下载固件中...</string>
+    <string name="install_time">预估安装时间：</string>
+    <string name="postponetime_text">延期时间：</string>
+    <string name="install">安装</string>
+    <string name="reach_max_net_fail">服务器未回应，请稍后再试。</string>
+    <string name="dlg_title_checking">完整性检查</string>
+    <string name="dlg_msg_checking">检查固件文件</string>
+    <string name="cannot_set_to_browser">无法设置至浏览器</string>
+    <string name="upgrade_error">更新错误，请重新下载更新文件。</string>
+    <string name="start_to_download">开始下载主要更新软件</string>
+    <string name="start_to_upgrade">开始升级新版软件</string>
+    <string name="start_NI_dmSession">是否同意连接设备管理服务器?</string>
+    <string name="download_finished">固件下载完成...</string>
+    <string name="download_in_progress">新固件正在下载中</string>
+    <string name="out_of_mem_warning">"剩余保存空间不足，
+请删除其他应用程序后再试。"</string>
+    <string name="ui_alert_input_hint">请输入文字</string>
+    <string name="ui_alert_input_numeric_hint">请输入数字</string>
+    <string name="ui_alert_input_phone_number_hint">请输入电话号码</string>
+    <string name="check_for_update">检查更新</string>
+    <string name="no_new_fota_update">您的设备目前不需要更新。</string>
+    <string name="ok">确定</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="confirm_download_btn_Yes">是</string>
+    <string name="confirm_download_btn_No">否</string>
+    <string name="confirm_update_title">ASUS固件更新</string>
+    <string name="asus_received_title">Asus系统固件更新服务</string>
+    <string name="received_message">检测到固件更新文件，请点击进行更新</string>
+    <string name="low_battery_title">系统固件更新结束</string>
+    <string name="dl_received_ticker">检测到固件更新文件</string>
+    <string name="dl_received_message">检测到固件更新文件，请点击进行更新</string>
+    <string name="confirmDownload_text1">是否下载固件更新文件？</string>
+    <string name="received_ticker">检测到固件更新文件</string>
+    <string name="update_dialog_text">"系统固件更新文件已下载，是否要立即安装？
+"</string>
+    <string name="prepare_dm_download">准备下载系统固件更新文件...</string>
+    <string name="system_update_activity">系统固件更新</string>
+    <string name="has_new_fota_update">检测到固件更新文件，请由任务栏确认</string>
+    <string name="update_dialog_text2">系统固件更新可以增进设备的稳定性且不会丢失数据，建议您安装此更新</string>
+</resources>

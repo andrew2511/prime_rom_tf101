@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google 지도</string>
+    <string name="da_google_maps_navigation">Google 지도 내비게이션</string>
+    <string name="da_net_fail_title">네트워크 오류</string>
+    <string name="da_net_fail_body">이 애플리케이션을 사용하려면 데이터 연결이 필요합니다.</string>
+    <string name="da_beta">베타</string>
+    <string name="da_destination">목적지</string>
+    <string name="da_toward">%1$s 방면</string>
+    <string name="da_onto">%1$s 진입</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"후
+%1$s"</string>
+    <string name="da_continue_for_distance">%1$s 직진</string>
+    <string name="da_destination_will_be_on_the_left">목적지가 왼쪽에 있습니다.</string>
+    <string name="da_destination_will_be_on_the_right">목적지가 오른쪽에 있습니다.</string>
+    <string name="da_you_will_reach_destination">목적지에 도착합니다.</string>
+    <string name="da_destination_on_the_left">목적지가 왼쪽에 있습니다.</string>
+    <string name="da_destination_on_the_right">목적지가 오른쪽에 있습니다.</string>
+    <string name="da_destination_reached">도착했습니다.</string>
+    <string name="da_speech_lost_gps">GPS 신호가 끊어졌습니다.</string>
+    <string name="da_speech_lost_data_connection">데이터 연결이 끊어졌습니다</string>
+    <string name="da_speech_navigation_resumed">내비게이션 다시 시작</string>
+    <string name="da_speech_please_describe_problem">문제를 설명해 주세요.</string>
+    <string name="da_on_left">왼쪽</string>
+    <string name="da_on_right">오른쪽</string>
+    <string name="da_stay_on_road_primary">%1$s를 따라 직진</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%2$s까지 %1$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s 후 %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0}마일</string>
+    <string name="da_distance_format_miles_compressed">{0}마일</string>
+    <string name="da_distance_format_feet_abbreviated">{0}피트</string>
+    <string name="da_distance_format_feet_compressed">{0}피트</string>
+    <string name="da_distance_format_yards_abbreviated">{0}야드</string>
+    <string name="da_distance_format_yards_compressed">{0}야드</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0}km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0}m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">.</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s일 %2$s시간</string>
+    <string name="da_time_format_hours" formatted="false">%1$s시간 %2$s분</string>
+    <string name="da_time_format_minutes">%1$s분</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">내비게이션</string>
+    <string name="da_search_label">검색</string>
+    <string name="da_layers">레이어</string>
+    <string name="da_agreement">"Google 지도 내비게이션은 베타 버전이므로 주의하시기 바랍니다.
+
+운전 중에는 조작하지 마세요. 교통정보가 실시간으로 제공되지 않으므로 경로가 잘못되었거나 위험할 수 있으며, 차단된 도로이거나, 수상교통 정보일 수 있습니다. 교통법규를 지켜주세요.
+
+조심해서 안전 운전하세요."</string>
+    <string name="da_agreement_with_walking">"Google 지도 내비게이션은 베타 버전이므로 주의하시기 바랍니다.
+
+운전 중에는 조작하지 마세요. 교통정보가 실시간으로 제공되지 않으므로 경로가 잘못되었거나 위험할 수 있으며, 차단된 도로이거나, 수상교통 정보일 수 있습니다. 도보경로에 인도나 보도가 누락되었을 수 있습니다. 교통법규를 지켜주세요.
+
+도로에서는 안전에 주의하세요."</string>
+    <string name="da_disclaimer_checkbox">나중에 보기</string>
+    <string name="da_show_list">운전경로 목록</string>
+    <string name="da_route_overview">경로 정보</string>
+    <string name="da_show_map">지도 표시</string>
+    <string name="da_satellite">위성</string>
+    <string name="da_traffic_view">교통정보 보기</string>
+    <string name="da_no_traffic_here">교통정보 없음</string>
+    <string name="da_traffic">교통정보</string>
+    <string name="da_area_view">영역 보기</string>
+    <string name="da_mute">음소거</string>
+    <string name="da_unmute">음소거 해제</string>
+    <string name="da_settings">설정</string>
+    <string name="da_help">도움말</string>
+    <string name="da_terms_privacy_notices">이용약관, 개인정보 보호..</string>
+    <string name="da_terms_and_conditions">이용약관</string>
+    <string name="da_privacy_policy">개인정보 보호정책</string>
+    <string name="da_legal_notices">법적 고지</string>
+    <string name="da_navigation_suspended">내비게이션 일시중지됨</string>
+    <string name="da_exit_navigation">내비게이션 종료</string>
+    <string name="da_email_me_when_resolved">문제가 해결되면 이메일로 알림</string>
+    <string name="da_problem_reported">문제를 신고했습니다.</string>
+    <string name="da_one_button_map_issue_reporting">클릭 한 번으로 문제 신고</string>
+    <string name="da_attention">주의</string>
+    <string name="da_rmi_warning">"문제 신고를 사용하면 지도나 경로 관련 문제를 설명하는 짧은 음성메일을 녹음할 수 있습니다. 메일은 15초 후에 사용자의 현재 위치 및 경로와 함께 Google에 자동으로 전송됩니다.
+
+애플리케이션 설정에서 클릭 한 번으로 바로가기를 사용하도록 설정할 수 있습니다.
+
+문제 해결 시 이메일 업데이트를 수신하도록 선택한 경우 사용자의 위치, 댓글 및 메일 주소가 문제가 해결될 때까지 저장됩니다."</string>
+    <string name="da_report_a_problem">문제 신고</string>
+    <string name="da_report_a_problem_dialog_title">문제 신고</string>
+    <string name="da_rmi_preference_trackball_summary">사용하도록 설정한 경우 트랙볼을 누르면 문제가 신고됩니다.</string>
+    <string name="da_rmi_preference_camera_summary">사용하도록 설정한 경우 카메라 버튼을 누르면 문제가 신고됩니다.</string>
+    <string name="da_rmi_preference_no_button_summary">사용할 수 있는 버튼이 없습니다.</string>
+    <string name="da_rmi_preference_bad_location_summary">현재 위치에서는 문제를 신고할 수 없습니다.</string>
+    <string name="da_destination_not_here_warning">목적지 위치가 잘못되었음을 신고해 주셔서 감사합니다. 데이터의 정확성을 개선하기 위해 현재 목적지와 위치가 Google로 전송됩니다.</string>
+    <string name="da_destination_not_here_title">문제 신고</string>
+    <string name="da_searching_for_gps">GPS 검색 중...</string>
+    <string name="da_data_connection_lost">데이터 연결이 끊어졌습니다...</string>
+    <string name="da_follow_the_route">경로 따라가기</string>
+    <string name="da_waiting_for_directions">운전경로를 가져오는 중</string>
+    <string name="da_waiting_for_walking_directions">도보 경로를 가져오는 중</string>
+    <string name="da_waiting_for_location">위치 확인 중</string>
+    <string name="da_checking_navigation_availability">내비게이션 사용 가능 여부 확인 중</string>
+    <string name="da_loading_route_details">경로 세부정보 로드 중</string>
+    <string name="da_loading_image">이미지 로드 중</string>
+    <string name="da_waiting_for_alternates">대체경로 검색 중</string>
+    <string name="da_waiting_for_details">로드 중</string>
+    <string name="da_no_details">상세정보 없음</string>
+    <string name="da_gps_is_disabled">GPS가 사용 중지되었습니다.</string>
+    <string name="da_turn_on_gps">위치 설정을 표시하시겠습니까?</string>
+    <string name="da_voice_guidance">음성 안내</string>
+    <string name="da_install_voice_guidance_prompt">음성 안내 내비게이션을 사용하려면 Android 마켓에서 TTS(text-to-speech) 지원 기능을 설치해야 합니다.</string>
+    <string name="da_dialog_ok">확인</string>
+    <string name="da_dialog_skip">건너뛰기</string>
+    <string name="da_dialog_cancel">취소</string>
+    <string name="da_dialog_done">완료</string>
+    <string name="da_dialog_accept">동의</string>
+    <string name="da_dialog_install">설치</string>
+    <string name="da_dialog_dont_accept">동의 안함</string>
+    <string name="da_dialog_go">실행</string>
+    <string name="da_dialog_get_directions">길찾기</string>
+    <string name="da_map">지도</string>
+    <string name="da_clear_layers">위치정보 지우기</string>
+    <string name="da_layer_name_parking">주차장</string>
+    <string name="da_layer_name_attractions">명소</string>
+    <string name="da_layer_name_gas_stations">주유소</string>
+    <string name="da_layer_name_restaurants">음식점</string>
+    <string name="da_layer_name_supermarkets">수퍼마켓</string>
+    <string name="da_layer_name_atms_and_banks">ATM &amp; 은행</string>
+    <string name="da_layer_name_convenience_stores">편의점</string>
+    <string name="da_query_banks_and_atms">은행 및 ATM</string>
+    <string name="da_rerouting">경로 재설정 중...</string>
+    <string name="da_via">%s 경유</string>
+    <string name="da_to_destination">목적지: %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">의견 녹음</string>
+    <string name="da_destination_not_here">잘못된 목적지 신고</string>
+    <string name="da_new_destination">다음 목적지</string>
+    <string name="da_reroute_to_destination">목적지로 돌아가기</string>
+    <string name="da_change_destination">목적지 설정</string>
+    <string name="da_search_for_destination">검색...</string>
+    <string name="da_point_on_map">지도 상의 지점</string>
+    <string name="da_volume">내비게이션 볼륨</string>
+    <string name="da_exit">종료</string>
+    <string name="da_did_you_mean">이것을 찾으셨나요?</string>
+    <string name="da_did_you_say">이것을 말씀하셨나요?</string>
+    <string name="da_for_your_end_point">도착지 상세설정</string>
+    <string name="da_unnamed_road">이름 없는 도로</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s 그리고 %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">%1$s미터 후</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">1.5킬로미터 후</string>
+    <string name="da_speech_continue_for_x_meters">%1$s미터 직진</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">1.5킬로미터 직진</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">%2$s에서 %1$s미터만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">%1$s에서 1.5킬로미터만큼 직진</string>
+    <string name="da_speech_generic_continue">직진하세요.</string>
+    <string name="da_speech_in_x_feet">%1$s피트 후</string>
+    <string name="da_speech_in_x_yards">%1$s야드 후</string>
+    <string name="da_speech_in_a_quarter_mile">0.25마일 후</string>
+    <string name="da_speech_in_a_half_mile">0.5마일 후</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">3/4마일 후</string>
+    <string name="da_speech_in_one_and_a_half_miles">1.5마일 후</string>
+    <string name="da_speech_continue_for_x_feet">%1$s피트 직진</string>
+    <string name="da_speech_continue_for_x_yards">%1$s야드 직진</string>
+    <string name="da_speech_continue_for_a_quarter_mile">0.25마일 직진</string>
+    <string name="da_speech_continue_for_a_half_mile">0.5마일 직진</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">0.75마일 직진</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">1.5마일 직진</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">%2$s에서 %1$s피트만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">%2$s에서 %1$s야드만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">%1$s에서 0.25마일만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">%1$s에서 0.5마일만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">%1$s에서 0.75마일만큼 직진</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">%1$s에서 1.5마일만큼 직진</string>
+    <string name="da_route_prefixes">북,북동,동,남동,남,남서,서,북서</string>
+    <string name="da_route_suffixes">북,북동,동,남동,남,남서,서,북서,로,거리,로터리,시,방향,고속도로,국도,차선,길목</string>
+    <string name="da_no_route">경로 없음</string>
+    <string name="da_route_not_found">목적지에 대한 경로를 찾을 수 없습니다.</string>
+    <string name="da_destination_not_found">목적지 정보를 알 수 없습니다.</string>
+    <string name="da_navigation_not_supported">목적지에 대해 탐색할 수 없습니다.</string>
+    <string name="da_navigation_not_supported_at_current_loc">아직 Google 지도 내비게이션을 사용할 수 없는 위치입니다.</string>
+    <string name="da_launch_maps">지도 실행</string>
+    <string name="da_no_image_available">이미지가 없습니다.</string>
+    <string name="da_image_error">이미지 로드 중에 오류가 발생했습니다.</string>
+    <string name="da_no_alternate_routes">목적지에 대한 대체경로를 찾을 수 없습니다.</string>
+    <string name="da_picker_type_destination">목적지 입력</string>
+    <string name="da_picker_speak_destination">목적지 말하기</string>
+    <string name="da_picker_contacts">연락처</string>
+    <string name="da_picker_starred_items">별표 표시된 장소</string>
+    <string name="da_picker_new_contact">새 연락처</string>
+    <string name="da_picker_recent_destinations">최근 도착지</string>
+    <string name="da_picker_choose_destination">목적지 선택</string>
+    <string name="da_navigate_to">탐색</string>
+    <string name="da_picker_search_hint">목적지</string>
+    <string name="da_route_options">경로 옵션</string>
+    <string name="da_updating_directions">길찾기를 업데이트하는 중</string>
+    <string name="da_picker_no_starred_items">"별표 표시된 장소가 없습니다.
+
+별표 표시된 장소는 maps.google.com과 자동으로 동기화됩니다.
+
+주소 옆의 별표 아이콘을 눌러 Google 지도의 검색결과에 별표를 표시할 수 있습니다."</string>
+    <string name="da_picker_no_contacts">"주소가 있는 연락처가 없습니다.
+
+주소록 애플리케이션에 새 연락처를 추가하거나 기존 연락처에 주소를 설정할 수 있습니다."</string>
+    <string name="da_driving">운전</string>
+    <string name="da_walking">도보</string>
+    <string name="da_quoted_text">“%1$s”</string>
+    <string name="da_more_info">추가 정보</string>
+    <string name="da_search_maps">지도검색</string>
+    <string name="da_walking_warning">도보 길찾기(베타): 아직 부족한 부분이 있을 수 있으니 유의하시기 바랍니다</string>
+    <string name="da_calibrate_compass_title">나침반 보정</string>
+    <string name="da_calibrate_compass">휴대전화의 나침반이 보정되어 있지 않습니다. 보정하려면 숫자 8 모양으로 휴대전화를 2~3회 흔드세요.</string>
+    <string name="da_confirm_exit_title">내비게이션을 종료하시겠습니까?</string>
+    <string name="da_confirm_exit_text">경로 안내를 종료합니다.</string>
+    <string name="da_route_includes_tolls">경로에 유료도로가 있음</string>
+    <string name="da_avoid_tolls">유료도로 제외</string>
+    <string name="da_avoiding_tolls">유료도로 제외</string>
+    <string name="da_avoiding_highways">고속도로 제외</string>
+    <string name="da_route_includes_unavoidable_tolls">경로에 유료도로가 있습니다.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">경로에 유료도로가 있습니다. 아래의 %1$s%2$s에서 유료도로를 사용 중지하세요.</string>
+    <string name="da_seasonally_closed">계절에 따라 경로가 폐쇄될 수 있음</string>
+    <string name="da_direction_north">북쪽</string>
+    <string name="da_direction_north_west">북서쪽</string>
+    <string name="da_direction_west">서쪽</string>
+    <string name="da_direction_south_west">남서쪽</string>
+    <string name="da_direction_south">남쪽</string>
+    <string name="da_direction_south_east">남동쪽</string>
+    <string name="da_direction_east">동쪽</string>
+    <string name="da_direction_north_east">북동쪽</string>
+    <string name="da_step_depart">%1$s 방향으로</string>
+    <string name="da_step_depart_on" formatted="false">%2$s에서 %1$s 방향으로</string>
+    <string name="da_step_slight_left">약간 좌회전</string>
+    <string name="da_step_slight_right">약간 우회전</string>
+    <string name="da_step_turn_left">좌회전</string>
+    <string name="da_step_turn_right">우회전</string>
+    <string name="da_step_sharp_left">좌회전</string>
+    <string name="da_step_sharp_right">우회전</string>
+    <string name="da_step_slight_left_onto">%1$s(으)로 약간 좌회전</string>
+    <string name="da_step_slight_right_onto">%1$s(으)로 약간 우회전</string>
+    <string name="da_step_turn_left_onto">%1$s(으)로 좌회전</string>
+    <string name="da_step_turn_right_onto">%1$s(으)로 우회전</string>
+    <string name="da_step_sharp_left_onto">%1$s(으)로 좌회전</string>
+    <string name="da_step_sharp_right_onto">%1$s(으)로 우회전</string>
+    <string name="da_step_fork_left">분기점에서 왼쪽으로</string>
+    <string name="da_step_fork_right">분기점에서 오른쪽으로</string>
+    <string name="da_step_continue_onto">%1$s(으)로 계속 진행</string>
+    <string name="da_step_continue_straight">계속 직진</string>
+    <string name="da_step_u_turn">U턴</string>
+    <string name="da_step_take_the_ramp">진입로 이용</string>
+    <string name="da_step_take_the_ramp_onto">%1$s 방향 진입로 이용</string>
+    <string name="da_step_take_the_ramp_on_the_left">왼쪽 진입로 이용</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">%1$s 방향 왼쪽 진입로 이용</string>
+    <string name="da_step_take_the_ramp_on_the_right">오른쪽 진입로 이용</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">%1$s 방향 오른쪽 진입로 이용</string>
+    <string name="da_step_take_the_exit">출구 이용</string>
+    <string name="da_step_take_the_exit_on_the_left">왼쪽 출구 이용</string>
+    <string name="da_step_take_the_exit_on_the_right">오른쪽 출구 이용</string>
+    <string name="da_step_take_the_exit_onto">%1$s 방향 출구 이용</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">%1$s 방향 왼쪽 출구 이용</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">%1$s 방향 오른쪽 출구 이용</string>
+    <string name="da_step_take_exit_n">%1$s번 출구 이용</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">© %1$d Google - 이미지 © %2$d %3$s ,지도 데이터 ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - 이미지 ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - 지도 데이터 ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">집</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">길찾기 및 내비게이션</string>
+    <string name="EXIT_COMMAND">종료</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0}에서 내게 체크인하도록 초대합니다.</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">위치찾기 체크인 요청</string>
+    <string name="GOHOME_DESTINATION_HINT">주소 입력</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">바로가기 아이콘</string>
+    <string name="GOHOME_SAVE_SHORTCUT">저장</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">목적지</string>
+    <string name="GOHOME_SHORTCUT_NAME">바로가기 이름</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">단계별 안내 내비게이션</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">설정 열기</string>
+    <string name="HOTPOT_LOADING">로드 중...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">"장소 평가 위젯을 사용하려면 위치 및 보안 설정에서 '무선 네트워크 사용' 및 무선 및 네트워크 설정에서 Wi-Fi를 사용하도록 설정해야 합니다."</string>
+    <string name="HOTPOT_LOCATION_DISABLED">"장소 평가 위젯을 사용하려면 위치 및 보안 설정에서 '무선 네트워크 사용'을 활성화하세요."</string>
+    <string name="HOTPOT_NO_LOCATION">위치 정보 없음</string>
+    <string name="HOTPOT_SEARCH">검색</string>
+    <string name="HOTPOT_SEARCHED_FOR">"검색 완료: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">다시 검색</string>
+    <string name="HOTPOT_SELECT_PLACE">평가할 장소를 선택하세요.</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"장소 선택: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">알 수 없는 위치</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">위치를 새로고침하는 중...</string>
+    <string name="HOTPOT_WIDGET_NAME">장소 평가</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">{0}(으)로 공개 게시 중</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">평가하기</string>
+    <string name="HOTPOT_WIDGET_UPDATED">마지막 업데이트 후 경과시간: {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"장소 평가 위젯의 위치 정확도를 개선하려면 Wi-Fi 무선 네트워크 설정을 사용하세요. "</string>
+    <string name="HOTPOT_YOU_RATED">"사용자 평가: "</string>
+    <string name="LATITUDE_APP_NAME">위치찾기</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">장소: {0}, 공유 대상: {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">{0}에 체크인함</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">{0}에서 체크인하시겠습니까?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">체크인하시겠습니까?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">위치찾기에 로그인하려면 누르세요.</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">최종 업데이트: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">알 수 없는 위치</string>
+    <string name="LOADING">로드 중</string>
+    <string name="MAPS_APP_NAME">지도</string>
+    <string name="NEED_NET_BODY">네트워크를 통해 데이터를 보내고 받을 권한을 부여하기 전까지는 이 애플리케이션을 사용할 수 없습니다.</string>
+    <string name="NEED_NET_TITLE">네트워크 액세스 필요</string>
+    <string name="NETWORK_DATA_ERROR">이 애플리케이션을 사용하려면 데이터 연결이 필요합니다. 이동통신사에 문의하세요.</string>
+    <string name="NET_FAIL_BODY">이 애플리케이션을 사용하려면 데이터 연결이 필요합니다.</string>
+    <string name="NET_FAIL_TITLE">네트워크 오류</string>
+    <string name="NET_UNAVAILABLE_TITLE">네트워크를 사용할 수 없음</string>
+    <string name="PLACES_APP_NAME">지역 정보</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">예: 스파게티 볼로네즈, 칵테일, 음악</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">눈에 가장 띄는 것은 무엇입니까?</string>
+    <string name="RATINGS_OPTIN_CANCEL">취소</string>
+    <string name="RATINGS_OPTIN_CLOSE">닫기</string>
+    <string name="RATINGS_OPTIN_FAILED">업데이트하지 못했습니다. 나중에 시도해 주세요.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>소셜 기능 활용하기&lt;/b> 컴퓨터에서 &lt;b>{0}&lt;/b>로 이동하여 친구를 추가하고 친구가 좋아하는 장소를 알아보세요.</string>
+    <string name="RATINGS_OPTIN_HEADING">공개 Google 지역 정보 닉네임을 설정하세요.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"이름 또는 닉네임: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">좋아하는 음식점, 카페 및 다른 장소를 평가하고 검색결과에서 내 개인 취향에 맞는 추천을 받아보세요.</string>
+    <string name="RATINGS_OPTIN_SAVE">시작하기</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">장소에 대한 평가가 닉네임과 함께 &lt;b>웹에 공개&lt;/b>됩니다. &lt;a href=#>자세히 알아보기&lt;/a></string>
+    <string name="RATINGS_POSTING_AS">웹에 {0}(으)로 공개 게시 중입니다.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">웹에 공개 게시 중입니다.</string>
+    <string name="RATINGS_RATE_PLACES">장소를 평가하는 이유</string>
+    <string name="RATINGS_SET_APPEARANCE">프로필 설정</string>
+    <string name="RATINGS_WAIT">잠시 기다려 주세요...</string>
+    <string name="SEARCH_HINT">지도검색</string>
+    <string name="SHORT_APP_NAME">Google 지도</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">도착 지점</string>
+    <string name="TRAFFIC_WIDGET_NAME">교통정보</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">위젯 이름</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">저장</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">출발 지점</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">"심각한 오류가 발생했습니다.  종료한 다음 다시 시작하세요."</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">알 수 없는 오류</string>
+    <string name="UPGRADE_BODY">이 애플리케이션을 사용하려면 새 버전을 설치해야 합니다.</string>
+    <string name="UPGRADE_TITLE">소프트웨어 업그레이드</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">지도 라이브 배경화면</string>
+    <string name="WALLPAPER_MAP_MODE">지도 모드</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">보통</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">위성</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">지도 모드(예: 위성)</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">지형</string>
+    <string name="WALLPAPER_SETTINGS">지도 라이브 배경화면 설정</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">교통정보 표시</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">지도에 현재 날씨를 표시합니다. 날씨 위젯을 설치해야 합니다.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">날씨</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/buttonBar" android:layout_alignParentBottom="true" style="@style/ButtonsBar">
+        <Button android:id="@id/done" android:text="@string/continueButton" style="@style/FullRowButton" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/grayedArea" android:background="@color/detail_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:gravity="left|center" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/twitter_email_info" android:layout_alignParentTop="true" style="@style/DefaultText" />
+        <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/user_email" android:singleLine="true" android:layout_below="@id/info" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/grayedArea" layout="@layout/divider" />
+</RelativeLayout>

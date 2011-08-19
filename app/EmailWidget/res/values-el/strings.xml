@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">Mail</string>
+    <string name="multiple_mails">Mails</string>
+    <string name="go_to">Στα Εισερχ.</string>
+</resources>

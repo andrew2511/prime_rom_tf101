@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aws_acc_app_about">Android 版 ASUS Web Storage</string>
+    <string name="aws_acc_app_about_copyright">版权所有 © 2011 eCareme Technologies, Inc. 保留所有权利。</string>
+    <string name="aws_acc_app_name">ASUS WebStorage ID</string>
+    <string name="aws_acc_intro_text">利用 ASUS WebStorage 帐户，可以灵活地同时访问多项云服务！ 从数据存储、云立体声到云图库，一个帐户，全部访问！</string>
+    <string name="aws_acc_intro_check">下次不再显示此消息</string>
+    <string name="aws_acc_intro_butt">下一个</string>
+    <string name="aws_acc_username">用户名:</string>
+    <string name="aws_acc_username_hint">3-16 个字符，包括字母和数字</string>
+    <string name="aws_acc_password">密码：</string>
+    <string name="aws_acc_password_hint">6-12 个字符，包括字母和数字</string>
+    <string name="aws_acc_login_header" />
+    <string name="aws_acc_forgetpass">取回我的密码</string>
+    <string name="aws_acc_forgetid" />
+    <string name="aws_acc_gotoregist" />
+    <string name="aws_acc_login_butt">登录</string>
+    <string name="aws_acc_register_title">创建帐户</string>
+    <string name="aws_acc_register_header">一旦您注册成为 ASUS WebStoarge 会员，即有资格享受多项服务；从工作到娱乐。 通过不断的开发和更新，ASUS WebStorage 定能让您持续地享受完美体验。</string>
+    <string name="aws_acc_password_confirm">密码确认：</string>
+    <string name="aws_acc_password_confirm_hint">再次输入密码</string>
+    <string name="aws_acc_email">电子邮件：</string>
+    <string name="aws_acc_email_hint">sample@domain.com</string>
+    <string name="aws_acc_email_confirm">电子邮件确认</string>
+    <string name="aws_acc_email_confirm_hint">再次输入电子邮件地址</string>
+    <string name="aws_acc_register_check">我同意</string>
+    <string name="aws_acc_register_eula">EULA</string>
+    <string name="aws_acc_register_eula_chk">"一旦选择'我同意'，即表明您同意&lt;a href=\"https://service.asuswebstorage.com/eula/\">服务条款&lt;/a>"</string>
+    <string name="aws_acc_register_butt">注册</string>
+    <string name="aws_acc_register_activated_message">一年无限帐户已激活。 如要注册一个新的免费帐户，请按“注册”；如果您已经是 ASUS WebStorage 用户，请按“登录”进入。</string>
+    <string name="aws_acc_accinfo_header">帐户信息</string>
+    <string name="aws_acc_accinfo_name">帐户名称：</string>
+    <string name="aws_acc_accinfo_capacity">容量：</string>
+    <string name="aws_acc_accinfo_duedate">过期日期：</string>
+    <string name="aws_acc_accinfo_butt">来体验吧!</string>
+    <string name="aws_acc_authenticating">正在验证...</string>
+    <string name="aws_acc_registering">正在向服务器发送注册信息...</string>
+    <string name="aws_acc_spin_cancel_butt">取消</string>
+    <string name="aws_acc_spin_preparing">正在准备...</string>
+    <string name="aws_acc_spin_connecting">连接到服务器</string>
+    <string name="aws_acc_register_not_validated">帐户名称、密码或电子邮件无效</string>
+    <string name="aws_acc_register_not_available">此帐户名称已存在。</string>
+    <string name="aws_acc_otp_na">请注意，为了提供更高安全级别，ASUS WebStorage 移动应用在目前阶段不支持一次性密码 (OTP) 验证。 如果您希望使用移动设备登录，我们建议您暂时从我们的客服中心删除您的凭证 ID</string>
+    <string name="aws_acc_login_fail">"验证失败!
+用户名称或密码不正确。 请再试一次。"</string>
+    <string name="aws_acc_network_fail">无法连接到服务器。 请再试一次。</string>
+    <string name="aws_acc_password_confirm_fail">密码不一样。 请重新确认您的密码。</string>
+    <string name="aws_acc_email_confirm_fail">电子邮件不正确。 请重新输入您的电子邮件地址</string>
+    <string name="aws_acc_email_incorrect">电子邮件格式不正确。 请重新输入您的电子邮件地址</string>
+    <string name="my_cloud_title">MyCloud</string>
+    <string name="my_cloud_logout_btn">注销</string>
+    <string name="my_cloud_mycontent_tabbtn">My Content</string>
+    <string name="my_cloud_mydevice_tabbtn">My Device</string>
+    <string name="my_cloud_atvibe_tabbtn">\@Vibe</string>
+    <string name="my_cloud_nobody">如要在 PAD 上启动您的 ASUS WebStorage，请单击</string>
+    <string name="my_cloud_nobody_learnmore">&lt;a href=\"http://www.asuswebstorage.com/\">了解更多&lt;/a></string>
+    <string name="my_cloud_nobody_btn">启动 WebStorage</string>
+    <string name="my_cloud_nobody_title">ASUS WebStorage 总是保持最新内容</string>
+    <string name="my_cloud_nobody_msg">ASUS WebStorage 自动同步您上传到云端的文件。您可以方便地随时从家庭 PC、办公室笔记本电脑和 Eee PAD 访问和修改同一文件。</string>
+    <string name="my_cloud_nobody_dlmsg">为了从家庭 PC、办公室笔记本电脑和 Eee PAD 同步您的文件，请下载最新的 Eee PAD PC Suite： &lt;font color=\"#0eacf5\">http://eee.asus.com/eeepad&lt;/font></string>
+    <string name="my_cloud_nobody_dlurl">http://eee.asus.com/eeepad</string>
+    <string name="my_cloud_mydevice_message">在设备池中，您可以轻松地查找文件夹、使用应用程序、甚至遥控远程设备。</string>
+    <string name="my_cloud_mydevice_btn">开始扫描所有可用的设备</string>
+    <string name="my_cloud_mycontent_search_hint">关键字</string>
+    <string name="my_cloud_mycontent_photo_btn">照片</string>
+    <string name="my_cloud_mycontent_music_btn">音乐</string>
+    <string name="my_cloud_mycontent_file_btn">文件</string>
+    <string name="my_cloud_mycontent_more_btn">更多..</string>
+    <string name="my_cloud_mycontent_recent_photos">[最新照片]</string>
+    <string name="t_title_1">欢迎使用 MyCloud</string>
+    <string name="t_body_1">您的 Eee Pad 能带您进入超乎想象的世界！ MyCloud 有三项独特功能，可作为您的个人门户，带您走进 ASUS 云计算世界。 它能让您远程访问您云端存储的媒体和文档，或从有 Internet 连接的任何地方直接连接到您的家庭 PC 或 Mac。 三个 MyCloud 门户包括：</string>
+    <string name="t_title_1_1">MyContent</string>
+    <string name="t_body_1_1">您还随身携带您的所有音乐、视频和文档吗? MyContent 可释放您的本地存储，将您的媒体投入 ASUS Webstorage 这个安全之所。 您再也不会忘记或丢失数据，您甚至可以直接从云端播放!</string>
+    <string name="t_title_1_2">MyDesktop</string>
+    <string name="t_body_1_2">您担心失去那熟悉的 PC 或 Mac 体验? 是不是您需要 Microsoft Office 或者坐在沙发上遥控您的家庭影院 PC? MyDesktop 可创建通向任何 PC 或 Mac 的门户，让您像坐在桌子前面一样访问桌面！</string>
+    <string name="t_title_1_3">\@Vibe</string>
+    <string name="t_body_1_3">ASUS @Vibe 是一项能够让您随时访问 Internet 广播、音乐和视频的云服务。 全新的媒体正等待您去发现。</string>
+    <string name="t_title_2">Eee Pad PC Suite</string>
+    <string name="t_body_2_1">虽然您的 Eee Pad 预装了 MyCloud 应用程序，但您的 PC 或 Mac 仍需要另外安装 Eee Pad PC suite。</string>
+    <string name="t_body_2_2">Eee Pad PC suite 包括 MyDesktop PC 服务器、ASUS Webstorage（Windows 版）和 ASUS Sync： 所有基本组件，可连接 MyCloud 和您的 Eee Pad 以同步数据。</string>
+    <string name="t_body_2_3">&lt;font color=\"#0eacf5\">请从 www.asus.com/support 下载最新版本到您的 PC 或 Mac。&lt;/font></string>
+    <string name="t_title_3">为您准备的无限 ASUS Webstorage!</string>
+    <string name="t_body_3_1">MyContent 让您安全直接地在云端存储、播放和取回您的所有媒体和文档。 现在创建 ASUS Webstorage 帐户，即可获得&lt;font color=\"#0eacf5\">无限存储空间&lt;/font>，免费使用一年。 将数据上传到 ASUS Webstorage 并安全地备份后，即可从任何地方访问您的虚拟内容： 您 PC、Eee Pad 或在 Web 上!</string>
+    <string name="t_body_3_2">如果您已经有一个 ASUS Webstorage 帐户或 @vibe 帐户，请在下面登录；否则，请在此创建您的免费帐户。您的新帐户可以用于 ASUS Webstorage 和 asus@vibe 服务。</string>
+    <string name="t_body_3_sign">我已经有帐户</string>
+    <string name="t_body_3_new">创建帐户</string>
+    <string name="t_body_3_new_note">* 如果您希望激活您的 1 年无限存储空间，需要在 Eee PAD 上创建一个新帐户。</string>
+    <string name="t_back_btn">返回</string>
+    <string name="t_next_btn">下一步</string>
+</resources>

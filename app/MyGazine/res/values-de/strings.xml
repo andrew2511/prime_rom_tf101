@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEBSEITE</string>
+    <string name="music_title_str">MUSIK</string>
+    <string name="web_tag_str">Keine URL</string>
+    <string name="music_tag_album">Kein Album</string>
+    <string name="music_tag_song">Kein Titel</string>
+    <string name="music_tag_artist">Kein Künstler</string>
+    <string name="date_text_str">Kein Datum</string>
+    <string name="cal_event_str">Kein neustes Ereignis</string>
+    <string name="weather_info_str">Keine Wetterinformation</string>
+    <string name="weather_content_str">Kein Wetterinhalt</string>
+    <string name="photo_date_str">Kein Fotodatum</string>
+    <string name="miles_per_hour">mph</string>
+    <string name="windspeed">Wind ENE</string>
+    <string name="humidity">Luftfeuchtigkeit</string>
+    <string name="email_unit">E-Mails</string>
+    <string name="email_unit_single">E-Mail</string>
+    <string name="event_unit">Ereignisse</string>
+    <string name="event_unit_single">Ereignis</string>
+    <string name="book_unit">Bücher</string>
+    <string name="book_unit_single">Buch</string>
+    <string name="weather_city_str">Keine Stadt</string>
+    <string name="date_format_title">Datumsformat</string>
+    <string name="preference_header_title">Eigenschaften</string>
+    <string name="slideshow_header_title">Diashow</string>
+    <string name="picture_number_title">Diashow Bildnummer</string>
+    <string name="slide_show_interval_title">Diashow Intervall</string>
+    <string name="transition_effect_title">Übergangseffekt</string>
+    <string name="enable">Aktivieren</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="app_settings">ASUS MyZine-Einstellungen</string>
+    <string name="unit_picture">Bilder</string>
+    <string name="unit_second">Sekunden</string>
+    <string name="Image_headline">Bild</string>
+    <string name="display_headline">Anzeige</string>
+    <string name="date_headline">Datum</string>
+    <string name="logo_display_title">ASUS MyZine-Logo</string>
+    <string name="date_display_title">Datum/Uhrzeit</string>
+    <string name="photo_date_display_title">Datum für Bild erstellen</string>
+    <string name="event_display_title">Upcoming event</string>
+    <string name="weather_display_title">Weather status</string>
+    <string name="scale_type_title">Picture presentation</string>
+</resources>

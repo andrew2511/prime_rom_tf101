@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Systeem-UI</string>
+    <string name="status_bar_clear_all_button">Wissen</string>
+    <string name="status_bar_do_not_disturb_button">Niet storen</string>
+    <string name="status_bar_please_disturb_button">Meldingen weergeven</string>
+    <string name="status_bar_no_notifications_title">Geen meldingen</string>
+    <string name="status_bar_ongoing_events_title">Actief</string>
+    <string name="status_bar_latest_events_title">Meldingen</string>
+    <string name="battery_low_title">Sluit de oplader aan</string>
+    <string name="battery_low_subtitle">De accu raakt leeg.</string>
+    <string name="battery_low_percent_format">%d%% resterend</string>
+    <string name="invalid_charger">"Opladen via USB niet ondersteund.
+Gebruik alleen de bijgeleverde oplader."</string>
+    <string name="battery_low_why">Accugebruik</string>
+    <string name="status_bar_settings_settings_button">Instellingen</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Vliegmodus</string>
+    <string name="status_bar_settings_auto_rotation">Scherm automatisch draaien</string>
+    <string name="status_bar_settings_mute_label">DEMPEN</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Meldingen</string>
+    <string name="recent_tasks_title">Recent</string>
+    <string name="recent_tasks_empty">Geen recente toepassingen.</string>
+    <string name="recent_tasks_app_label">Apps</string>
+    <string name="bluetooth_tethered">Bluetooth getetherd</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Invoermethoden configureren</string>
+    <string name="status_bar_use_physical_keyboard">Fysiek toetsenbord gebruiken</string>
+    <string name="usb_device_permission_prompt">De applicatie %1$s toegang tot het USB-apparaat geven?</string>
+    <string name="usb_accessory_permission_prompt">De applicatie %1$s toegang tot het USB-accessoire geven?</string>
+    <string name="usb_device_confirm_prompt">%1$s openen wanneer dit USB-apparaat wordt aangesloten?</string>
+    <string name="usb_accessory_confirm_prompt">%1$s openen wanneer dit USB-accessoire wordt aangesloten?</string>
+    <string name="usb_accessory_uri_prompt">Er zijn geen geïnstalleerde applicaties die werken met dit USB-accessoire. Meer informatie over dit accessoire vindt u op %1$s</string>
+    <string name="title_usb_accessory">USB-accessoire</string>
+    <string name="label_view">Weergeven</string>
+    <string name="always_use_device">Standaard gebruiken voor dit USB-apparaat</string>
+    <string name="always_use_accessory">Standaard gebruiken voor dit USB-accessoire</string>
+</resources>

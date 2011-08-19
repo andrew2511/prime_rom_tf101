@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/introd_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="430.0dip">
+        <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="Welcome to MyCloud!\nYou need an existing WebStorage Account or to create a new account to sign on." style="@style/introd_text" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/no_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="Do not show again." />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="400.0dip" android:layout_marginRight="15.0dip" android:text="OK" android:layout_weight="1.0" android:onClick="gotoTour3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

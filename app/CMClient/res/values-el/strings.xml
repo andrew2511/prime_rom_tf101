@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMClient</string>
+    <string name="minutes">λεπτά</string>
+    <string name="postpone">Αναβολή</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="asus_received_title">Υπηρεσία ενημέρωσης Asus</string>
+    <string name="received_message">Διατίθεται νέα ενημέρωση</string>
+    <string name="firmware_update_title">Ενημέρωση υλικολογισμικού</string>
+    <string name="firmware_update_fail">"Η ενημέρωση απέτυχε.
+
+Η συσκευή σας θα ανακτήσει την αρχική διαμόρφωση."</string>
+    <string name="low_battery_title">Τερματισμός Ενημέρωσης Συστήματος</string>
+    <string name="low_battery_warning">"Το σύστημα χρειάζεται τουλάχιστον το 50% της ζωής της για να προβεί στη διαδικασία ενημέρωσης του συστήματος.
+Φορτίστε τη μπαταρία πριν την ενημέρωση του συστήματος."</string>
+    <string name="confirmDownload_text1">Επιθυμείτε να λάβετε την παρακάτω αναβάθμιση συστήματος;</string>
+    <string name="confirmDownload_textok">Πατήστε ΝΑΙ για να αποδεχτείτε αυτή την ενημέρωση.</string>
+    <string name="confirmDownload_textcancel">Πιέστε ΟΧΙ για να παραλείψετε αυτή την ενημέρωση.</string>
+    <string name="confirmDownload_textwifi">Θα σας προτείναμε να χρησιμοποιήσετε ένα ελεύθερο hotspot Wi-Fi ή ένα σχέδιο απεριόριστων δεδομένων για να λάβετε αυτή την ενημέρωση.</string>
+    <string name="confirmDownload_textwifi2">Εάν όχι, ενδέχεται να χρεωθείτε με τις συνηθισμένες χρεώσεις σύνδεσης δεδομένων.</string>
+    <string name="btn_text_later">Αργότερα</string>
+    <string name="confirmDownload_dialog_title">Προσοχή, κάνετε περιαγωγή.</string>
+    <string name="update_dialog_text">"Έχει ληφθεί μια νέα ενημέρωση λογισμικού για το τηλέφωνό σας. Εγκατάσταση τώρα; 
+"</string>
+    <string name="downloading">Λήψη Υλικολογισμικού…</string>
+    <string name="install_time">Εκτιμώμενος Χρόνος εγκατάστασης:</string>
+    <string name="install">Εγκατάσταση</string>
+    <string name="received_ticker">Διατίθεται νέα ενημέρωση</string>
+    <string name="dl_received_ticker">Διατίθεται νέα ενημέρωση</string>
+    <string name="dl_received_message">Υπάρχει μία ενημέρωση, πατήστε εδώ για να τη λάβετε.</string>
+    <string name="postponetime_text">Χρόνος αναβολής:</string>
+    <string name="reach_max_net_fail">Εγκαταλείψτε τη λήψη από το διακομιστή, προσπαθήστε ξανά αργότερα.</string>
+    <string name="dlg_title_checking">Έλεγχος ακεραιότητας.</string>
+    <string name="dlg_msg_checking">Έλεγχος της ακεραιότητας του αρχείου υλικολογισμικού σας.</string>
+    <string name="cannot_set_to_browser">Δεν είναι δυνατή η ρύθμιση με το πρόγραμμα περιήγησης.</string>
+    <string name="upgrade_error">Σφάλμα αναβάθμισης, λάβετε ξανά το πακέτο αναβάθμισης.</string>
+    <string name="start_to_download">Έναρξη λήψης κρίσιμου πακέτου ενημέρωσης.</string>
+    <string name="start_to_upgrade">Έναρξη αναβάθμισης πακέτου ενημέρωσης.</string>
+    <string name="Start_NI_DmSession">Το Δίκτυο Ξεκινά το DMSession, Δέχεστε;</string>
+    <string name="prepare_dm_download">Γίνεται προετοιμασία για λήψη...</string>
+    <string name="download_finished">Ολοκληρώθηκε η λήψη Υλικολογισμικού…</string>
+    <string name="download_notification_title">Υπηρεσία ενημέρωσης T-Mobile</string>
+    <string name="download_in_progress">Λήψη νέου υλικολογισμικού σε εξέλιξη</string>
+    <string name="out_of_mem_warning">"Δεν υπάρχει αρκετός ελεύθερος χώρος στο τηλέφωνο,
+απεγκαταστήστε ορισμένες εφαρμογές και δοκιμάστε ξανά."</string>
+    <string name="btn_register">δηλώστε το C2DM</string>
+    <string name="btn_unregister">καταργήστε τη δήλωση για το C2DM</string>
+    <string name="ui_alert_input_hint">Εισάγετε κείμενο</string>
+    <string name="ui_alert_input_numeric_hint">Εισάγετε αριθμούς</string>
+    <string name="ui_alert_input_phone_number_hint">Αριθμός τηλεφώνου</string>
+</resources>

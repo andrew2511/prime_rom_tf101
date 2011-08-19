@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scale_type_entry">
+        <item>크기 맞추기</item>
+        <item>전체 크기(이미지가 수정될 수 있음)</item>
+    </string-array>
+</resources>

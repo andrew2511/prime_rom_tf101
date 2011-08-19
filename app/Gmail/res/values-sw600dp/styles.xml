@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="attachment_container">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ComposeActivity" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarTabTextStyle">@style/darkTabText</item>
+    </style>
+    <style name="EmailInput" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:maxLines">4</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:inputType">textMultiLine|textEmailAddress</item>
+        <item name="android:privateImeOptions">nm</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="AccountSelectionTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="darkTabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

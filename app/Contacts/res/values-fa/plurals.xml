@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="groupDescrip">
+        <item quantity="other">%0$d مخاطب</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">%1$1$d مخاطب، %2$2$d با شماره تلفن</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d مخاطب دارای شماره تلفن</item>
+        <item quantity="one">1 مخاطب با شماره تلفن</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d مخاطب</item>
+        <item quantity="one">1 مخاطب</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d یافت شد</item>
+        <item quantity="one">1 مورد پیدا شد</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d یافت شد</item>
+        <item quantity="one">1 مورد پیدا شد</item>
+    </plurals>
+    <plurals name="multiple_picker_title">
+        <item quantity="other">%d گیرنده انتخاب شد</item>
+        <item quantity="one">1 گیرنده انتخاب شد</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">ادغام شده از منابع %0$d</item>
+        <item quantity="one">ادغام نشد</item>
+    </plurals>
+</resources>

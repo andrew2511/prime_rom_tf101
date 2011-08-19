@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results_estimated_in_bucket">
+        <item quantity="other">%1$d resultat</item>
+        <item quantity="one">%1$d resultat</item>
+    </plurals>
+    <plurals name="search_results_found">
+        <item quantity="other">ungefär %1$d resultat hittades</item>
+        <item quantity="one">ungefär %1$d resultat hittades</item>
+    </plurals>
+</resources>

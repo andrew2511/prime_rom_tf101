@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exceed_limit">Dĺžka vami zvoleného textu presahuje medznú hodnotu a určitý obsah bude vynechaný.</string>
+    <string name="post_successfully">Uverejnenie príspevku bolo úspešné</string>
+</resources>

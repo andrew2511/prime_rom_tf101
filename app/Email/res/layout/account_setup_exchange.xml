@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <fragment android:id="@id/setup_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentTop="true" class="com.android.email.activity.setup.AccountSetupExchangeFragment" />
+        <Button android:id="@id/previous" android:layout_marginTop="16.0dip" android:text="@string/previous_action" android:layout_below="@id/setup_fragment" android:layout_alignParentLeft="true" style="@style/accountSetupButton" />
+        <Button android:id="@id/next" android:layout_marginTop="16.0dip" android:text="@string/next_action" android:layout_below="@id/setup_fragment" android:layout_alignParentRight="true" style="@style/accountSetupButton" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hotpot_widget_click" android:background="@android:color/transparent" android:focusable="true" android:layout_width="@dimen/hotpot_button" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/hotpot_widget_button" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotpot_widget_btn_rate_disabled" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/hotpot_widget_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/hotpot_widget_count2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/hotpot_widget_count1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/hotpot_widget_count0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/relatedTopDivider" android:layout_alignParentTop="true" style="@style/genericDivider" />
+    <TextView android:id="@id/relatedNewsText" android:text="@string/app_related_heading" style="@style/capsuleTitle" />
+    <ImageView android:id="@id/openRelated" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_carrot_symbol" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/relatedNewsLabel" android:layout_marginLeft="5.0dip" android:text="" android:layout_toRightOf="@id/relatedNewsText" android:layout_centerVertical="true" style="@style/capsuleLabel" />
+</RelativeLayout>

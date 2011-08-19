@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">ASUS-oletus-live-taustakuva.</string>
+    <string name="mywater_setting">ASUS MyWater -asetukset</string>
+    <string name="enable_rotation">Ota käyttöön veden kierto</string>
+    <string name="enable_rotation_description">Vesi kiertää laitteen kiertämisen mukana.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="video_grid_full_width_columns">3</integer>
+    <integer name="video_grid_sidebar_columns">2</integer>
+    <integer name="playlist_grid_columns">2</integer>
+    <integer name="subscription_grid_columns">1</integer>
+    <integer name="watch_related_columns">3</integer>
+    <integer name="subscription_avatar_visibility">0</integer>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinio</string>
+    <string name="retry">повторити</string>
+    <string name="offline">автономно</string>
+    <string name="retry_offline_content">"Мережеве з'єднання є нестабільним. Бажаєте повторити спробу або користуватись пристроєм в автономному режимі?"</string>
+    <string name="cancel">скасувати</string>
+    <string name="change_password">змінити пароль</string>
+    <string name="close">закрити</string>
+    <string name="confirm_new_password">введіть новий пароль ще раз</string>
+    <string name="create_account">створити обліковий запис</string>
+    <string name="create_an_account">створіть обліковий запис</string>
+    <string name="date">дата</string>
+    <string name="delete">видалити</string>
+    <string name="delete_all">видалити все</string>
+    <string name="delete_mode_caption">Режим видалення - доторкніться до елемента, щоб видалити</string>
+    <string name="email_address">адреса електронної пошти</string>
+    <string name="exit">вихід</string>
+    <string name="faq">Запитання й відповіді</string>
+    <string name="first_name">"ім'я"</string>
+    <string name="free">вiльно</string>
+    <string name="forgot_password">забули пароль?</string>
+    <string name="last_name">прізвище</string>
+    <string name="learn_more">докладніше</string>
+    <string name="legal_notices">юридичні відомості</string>
+    <string name="library">бібліотека</string>
+    <string name="manage_tips">керування підказками</string>
+    <string name="more">додатково</string>
+    <string name="more_options">додаткові опції</string>
+    <string name="my_magazines">мої журнали</string>
+    <string name="new_password">новий пароль (5-20 символів)</string>
+    <string name="ok">ok</string>
+    <string name="old_password">старий пароль</string>
+    <string name="password">пароль</string>
+    <string name="required">"обов'язкове поле"</string>
+    <string name="required_first_name">"потрібне ім'я"</string>
+    <string name="required_last_name">потрібне прізвище</string>
+    <string name="required_email_address">потрібна адреса ел. пошти</string>
+    <string name="required_password">потрібен пароль</string>
+    <string name="retype_password">введіть пароль ще раз</string>
+    <string name="sign_in">вхід до системи</string>
+    <string name="sign_out">вийти</string>
+    <string name="share">поділитися</string>
+    <string name="shop">магазин</string>
+    <string name="text">текст</string>
+    <string name="title">назва</string>
+    <string name="turn_on_wifi">Увімкніть WiFi</string>
+    <string name="uninstall">видалити</string>
+    <string name="welcome_to_zinio">ласкаво просимо до zinio</string>
+    <string name="email_non_lower_case">Ел. пошта</string>
+    <string name="sd_card_non_lower_case">SD-картка</string>
+    <string name="show_password_non_lower_case">Показувати пароль</string>
+    <string name="show_tips_non_lower_case">Показувати підказки</string>
+    <string name="forgot_password_underlined"><u>Забули пароль?</u></string>
+    <string name="terms_of_service_underlined"><u>Умови обслуговування</u></string>
+    <string name="label_share_email1">прочитав (-ла) статтю з</string>
+    <string name="label_share_email2">"та хотів (-ла) б поділитися нею з вами!
+
+Стаття додана до цього електронного повідомлення у вигляді вкладення.
+
+Щоб переглянути інші публікації, перейдіть на сайт цифрового читання www.zinio.com"</string>
+    <string name="label_receive_from_partners">Надсилайте мені спеціальні пропозиції від надійних партнерів Zinio.</string>
+    <string name="label_receive_from_zinio">Надсилайте мені електронною поштою спеціальні пропозиції від Zinio.</string>
+    <string name="label_status_calculating">Триває обчислення...</string>
+    <string name="label_status_new">Новинка</string>
+    <string name="label_status_not_downloaded">Не завантажено</string>
+    <string name="label_status_downloading">%s%% завантажено</string>
+    <string name="label_tip_hide">Вимкнути підказки. Керувати ними можна через меню Додаткові настройки.</string>
+    <string name="toast_change_password_success">Пароль успішно змінено.</string>
+    <string name="toast_issue_download_complete_left">Завантаження для</string>
+    <string name="toast_issue_download_complete_right">завершено</string>
+    <string name="toast_no_articles">На поточній сторінці немає статей.</string>
+    <string name="toast_register_success">Обліковий запис успішно створено.</string>
+    <string name="toast_no_email_client">Примітка: Поштовий клієнт не налаштовано</string>
+    <string name="progress_dialog_wait_msg">Чекайте...</string>
+    <string name="dialog_warning_title">Попередження</string>
+    <string name="dialog_no_connectivity_warning">Цей екран потребує доступу до Інтернету. Перевірте підключення та переконайтеся, що ви не в режимі В літаку.</string>
+    <string name="dialog_passwords_not_matching_warning">Паролі не збігаються.</string>
+    <string name="dialog_password_length_warning">Пароль має містити від 5 до 20 символів.</string>
+    <string name="dialog_service_exception_warning">Помилка на сервері. Повторіть спробу за деякий час.</string>
+    <string name="dialog_uninstall_warning">Це призведе до видалення всіх даних у бібліотеці Zinio, відновити іх буде неможливо. Вам потрібно буде завантажити свої публікації ще раз.</string>
+    <string name="dialog_browse_mode_no_connectivity_warning">"У вас немає підключення, тому ви не можете завантажувати публікації.
+
+Публікації можна буде завантажити після відновлення підключення."</string>
+    <string name="dialog_change_password_new_password_equal_to_old_warning">Старий і новий паролі не можуть бути однаковими.</string>
+    <string name="dialog_change_password_old_password_not_matching_warning">Старий пароль невірний.</string>
+    <string name="dialog_library_no_connectivity_warning">"Для завантаження публікацій потрібне підключення.
+
+Утім, ви можете читати публікації, які вже є у вашій бібліотеці, а також завантажувати нові публікації після відновлення підключення."</string>
+    <string name="dialog_login_incorrect_credentials_warning">"Ваше ім'я користувача або пароль неправильні.
+
+Повторіть спробу."</string>
+    <string name="dialog_login_max_user_devices_reached_warning">Для цього облікового запису досягнута максимальна кількість авторизованих пристроїв. Скасуйте авторизацію одного з пристроїв та повторіть спробу.</string>
+    <string name="dialog_register_account_already_exists">Ця адреса електронної пошти вже використовується. Виберіть іншу адресу.</string>
+    <string name="dialog_register_empty_email_error">Введіть адресу електронної пошти.</string>
+    <string name="dialog_register_first_name_short_error">"Введіть ім'я."</string>
+    <string name="dialog_register_first_name_long_error">"Ім'я не може містити більше 80 символів."</string>
+    <string name="dialog_register_invalid_email_error">Введіть дійсну адресу електронної пошти.</string>
+    <string name="dialog_register_last_name_short_error">Введіть прізвище.</string>
+    <string name="dialog_register_last_name_long_error">Прізвище не може містити більше 80 символів.</string>
+    <string name="dialog_register_other_error">Сталася помилка. Повторіть спробу.</string>
+    <string name="dialog_register_password_empty">Введіть новий пароль.</string>
+    <string name="dialog_sign_out_disabled_warning">Вийти з системи може тільки користувач, який увійшов до неї.</string>
+    <string name="dialog_app_version_not_supported_title">Доступне оновлення</string>
+    <string name="dialog_app_version_not_supported_msg">Доступна більш нова версія Zinio Reader. Дана версія надалі не підтримуватиметься. Будь ласка, оновіть Zinio Reader до останньої версії</string>
+    <string name="dialog_delete_all_title">Видалити все</string>
+    <string name="dialog_delete_all_msg">"Ви вказали, що бажаєте видалити всі публікації зі своєї бібліотеки.
+
+Не хвилюйтеся – ви нічого не втратите безповоротно.
+
+Ця дія лише призведе до видалення публікацій з вашого пристрою. При необхідності ви завжди зможете завантажити потрібну публікацію ще раз."</string>
+    <string name="dialog_not_enough_space_title">Недостатньо вільного місця</string>
+    <string name="dialog_not_enough_space_msg">На диску пристрою недостатньо вільного місця для завантаження вибраної публікації. Звільніть щонайменше %d Мбайт та повторіть спробу.</string>
+    <string name="dialog_sd_card_not_available_title">Картка SD недоступна</string>
+    <string name="dialog_sd_card_not_available_msg">Картку SD вийнято. Програма Zinio буде закрита. Вставте картку SD та запустіть програму ще раз.</string>
+    <string name="dialog_sd_card_memoryenoughstore_title">SD-картка заповнена</string>
+    <string name="dialog_sd_card_memoryenoughstore_msg">SD-картка заповнена. Звільніть, будь ласка, місце.</string>
+    <string name="dialog_shop_no_connectivity_title">Магазин недоступний.</string>
+    <string name="dialog_shop_no_connectivity_msg">Для доступу до магазину потрібне підключення. Перевірте підключення та переконайтеся, що ви не в режимі В літаку.</string>
+    <string name="dialog_sign_out_title">Вийти</string>
+    <string name="dialog_sign_out_msg">"Ви дійсно бажаєте вийти з системи?
+
+Для користування програмою Zinio вам потрібно буде увійти до системи повторно."</string>
+    <string name="dialog_tip_title">Підказка</string>
+    <string name="dialog_manage_tips_title">Керування підказками</string>
+    <string name="non_supported_device_tip_title">Ласкаво просимо до Zinio</string>
+    <string name="non_supported_device_tip_msg">"Мультимедійний вміст, який пропонується Zinio, найкраще читати на пристроях з екраном щонайменше 800x480 пікселів.
+
+Ви можете й далі користуватися програмою, але ваші враження можуть бути не такими яскравими, як при використанні екрана з більшою роздільною здатністю."</string>
+    <string name="no_text_tip_msg">У деяких виданнях немає статей у текстовій формі. Для пошуку потрібної сторінки можна використовувати Вміст або Візуальний індекс.</string>
+    <string name="page_tip0_1">"Щоб відобразити меню панелі інструментів, один раз торкніться екрана.
+Ви можете переглядати сторінку Вміст у графічній або у текстовій формі."</string>
+    <string name="page_tip1">"Підказки, які допоможуть вам почати роботу з програмою:
+
+* Гортайте сторінки, проводячи по екрану праворуч або ліворуч
+* Щоб змінити масштаб, двічі торкніться екрана
+* Для читання виберіть кнопку Текст на першій сторінці кожної статті."</string>
+    <string name="wifi_connection_tip">"Виявлено підключення до мережі 3G.
+
+Публікації можна завантажувати й через 3G, але для оптимальної швидкості рекомендуємо користуватися мережею WiFi."</string>
+    <string name="dialog_available_memory_not_enough_title">"Недостатній обсяг динамічної пам'яті"</string>
+    <string name="dialog_available_memory_not_enough_msg">"Недостатній обсяг динамічної пам'яті."</string>
+    <string name="dialog_delete_title">Видалити</string>
+    <string name="delete_done">Готово</string>
+    <string name="dialog_delete_from_library">Ви дійсно бажаєте видалити %s?</string>
+    <string name="internet_connection_tip">Для завантаження публікацій потрібне підключення до Інтернету. Увімкніть підключення до Інтернету та спробуйте знов.</string>
+    <string name="dialog_change_password_old_password_empty">Уведіть старий пароль.</string>
+    <string name="server_error_app_version_not_supported_message">Доступне оновлення Доступна більш нова версія Zinio Reader. Дана версія надалі не підтримуватиметься. Будь ласка, оновіть Zinio Reader до останньої версії</string>
+    <string name="server_error_authentication_failed">"Ваше ім'я користувача або пароль неправильні.
+
+Повторіть спробу. Старий пароль невірний."</string>
+    <string name="server_error_device_not_authorized">Цей пристрій не авторизований належним чином для використання з вашим обліковим записом Zinio. Для повторної авторизації вашого пристрою необхідно вийти з додатку та знову ввійти. Якщо проблема не зникне, зв’яжіться зі службою підтримки користувачів Zinio.</string>
+    <string name="server_error_invalid_login">Адреса електронної пошти недійсна. Будь ласка, вкажіть дійсну адресу.</string>
+    <string name="server_error_invalid_new_password">Пароль недійсний. Будь ласка, оберіть інший.</string>
+    <string name="server_error_issue_not_supported_for_device">Недійсне видання. Будь ласка, зверніться в службу підтримки за адресою support@zinio.com.</string>
+    <string name="server_error_max_user_devices_reached">Для цього облікового запису досягнута максимальна кількість авторизованих пристроїв. Скасуйте авторизацію одного з пристроїв та повторіть спробу.</string>
+    <string name="server_error_packing_list_not_found">Пакувальний лист відсутній. Будь ласка, зверніться в службу підтримки за адресою support@zinio.com.</string>
+    <string name="server_error_login_exists">Ця адреса електронної пошти вже використовується. Виберіть іншу адресу.</string>
+    <string name="server_error_system_error">Виникла помилка сервера. Будь ласка, спробуйте знову пізніше.</string>
+    <string name="server_error_system_not_available">Частини додатку можуть бути в даний момент відсутні. Якщо якісь розділи зараз недоступні, спробуйте знову пізніше.</string>
+    <string name="server_error_no_items_in_library">Наразі у вас немає видань. Доступні видання можна знайти у вкладці Магазин</string>
+    <string name="server_error_user_not_entitled">Недостатньо прав користувача. Будь ласка, зверніться в службу підтримки за адресою support@zinio.com.</string>
+    <string name="dialog_market_rating_msg">Чи не хотіли б ви оцінити Zinio Reader зараз?</string>
+    <string name="dialog_outofdate_issue_removed_msg">Застаріле видання видалене і буде завантажене знову.</string>
+    <string name="dialog_review_msg">Ваша зворотна реакція важлива для нас — будь ласка, залиште свої коментарі.</string>
+    <string name="dialog_review_title">Будь ласка, залиште свої коментарі.</string>
+    <string name="server_error_invalid_newstand">Недійсний газетний кіоск. Будь ласка, зверніться в службу підтримки за адресою support@zinio.com.</string>
+</resources>

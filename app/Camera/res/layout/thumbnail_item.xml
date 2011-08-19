@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.RotateImageView android:background="@drawable/border_last_picture" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

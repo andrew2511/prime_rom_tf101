@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_remaining">
+        <item quantity="other">%1$d 天後過期</item>
+        <item quantity="one">1 天後到期</item>
+    </plurals>
+    <plurals name="hours_remaining">
+        <item quantity="other">%1$d 小時後過期</item>
+        <item quantity="one">1 小時後到期</item>
+    </plurals>
+</resources>

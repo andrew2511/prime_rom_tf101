@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/popup_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip">
+        <ImageView android:layout_gravity="top" android:id="@id/icon" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_menu_generic" />
+        <TextView android:id="@id/dialogTitle" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ThemedListHeaderTitle" />
+        <ImageView android:layout_gravity="right" android:id="@id/dismiss" android:paddingTop="12.0dip" android:paddingRight="5.0dip" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dismiss_popup" />
+    </LinearLayout>
+    <ImageView android:gravity="fill_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" />
+</LinearLayout>

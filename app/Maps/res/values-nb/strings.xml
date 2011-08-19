@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Maps-navigasjon</string>
+    <string name="da_net_fail_title">Nettverksfeil</string>
+    <string name="da_net_fail_body">Dette programmet krever en fungerende datatilkobling.</string>
+    <string name="da_beta">BETA</string>
+    <string name="da_destination">Destinasjon</string>
+    <string name="da_toward">mot %1$s</string>
+    <string name="da_onto">på %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"deretter
+%1$s"</string>
+    <string name="da_continue_for_distance">Fortsett i %1$s</string>
+    <string name="da_destination_will_be_on_the_left">vil du se reisemålet til venstre.</string>
+    <string name="da_destination_will_be_on_the_right">vil du se reisemålet til høyre.</string>
+    <string name="da_you_will_reach_destination">ankommer du destinasjonen.</string>
+    <string name="da_destination_on_the_left">Reisemålet er til venstre.</string>
+    <string name="da_destination_on_the_right">Reisemålet er til høyre.</string>
+    <string name="da_destination_reached">Du er fremme.</string>
+    <string name="da_speech_lost_gps">GPS-signal borte</string>
+    <string name="da_speech_lost_data_connection">Brudd på dataforbindelse</string>
+    <string name="da_speech_navigation_resumed">Navigering gjenopptatt</string>
+    <string name="da_speech_please_describe_problem">Beskriv problemet</string>
+    <string name="da_on_left">til venstre</string>
+    <string name="da_on_right">til høyre</string>
+    <string name="da_stay_on_road_primary">Hold deg på %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s til %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s til %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} mi</string>
+    <string name="da_distance_format_miles_compressed">{0} eng. mil</string>
+    <string name="da_distance_format_feet_abbreviated">{0} ft</string>
+    <string name="da_distance_format_feet_compressed">{0} ft</string>
+    <string name="da_distance_format_yards_abbreviated">{0} yd</string>
+    <string name="da_distance_format_yards_compressed">{0} yd</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0} km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0} m</string>
+    <string name="da_distance_format_separator">,</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s d %2$s t</string>
+    <string name="da_time_format_hours" formatted="false">%1$s t %2$s min</string>
+    <string name="da_time_format_minutes">%1$s min</string>
+    <string name="da_time_format_clock" formatted="false">%1$s.%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s – %2$s</string>
+    <string name="da_navigation">Navigering</string>
+    <string name="da_search_label">Søk</string>
+    <string name="da_layers">Lag</string>
+    <string name="da_agreement">"Google Maps-navigering er i betaversjon. Vær forsiktig.
+
+Ikke bruk programmet mens du kjører. Trafikkdataene reflekterer ikke virkeligheten, og retningsangivelsene kan være feil eller forbudte. Overhold gjeldende lovgivning.
+
+Hold blikket på veien!"</string>
+    <string name="da_agreement_with_walking">"Google Maps-navigering er i betaversjon. Vær forsiktig.
+
+Ikke bruk programmet mens du kjører. Trafikkdataene leveres ikke direkte, og retningsangivelsene kan være feil, farlige eller forbudte. Fotgjengerruter kan mangle fortau eller gangstier. Overhold gjeldende lovgivning.
+
+Hold blikket på veien!"</string>
+    <string name="da_disclaimer_checkbox">Vis denne meldingen neste gang</string>
+    <string name="da_show_list">Liste over veibeskrivelser</string>
+    <string name="da_route_overview">Ruteinformasjon</string>
+    <string name="da_show_map">Vis kart</string>
+    <string name="da_satellite">Satellitt</string>
+    <string name="da_traffic_view">Trafikkvisning</string>
+    <string name="da_no_traffic_here">Ingen trafikkinformasjon tilgjengelig</string>
+    <string name="da_traffic">Trafikk</string>
+    <string name="da_area_view">Områdevisning</string>
+    <string name="da_mute">Lyd av</string>
+    <string name="da_unmute">Slå på lyd</string>
+    <string name="da_settings">Innstillinger</string>
+    <string name="da_help">Hjelp</string>
+    <string name="da_terms_privacy_notices">Vilkår og personvern</string>
+    <string name="da_terms_and_conditions">Vilkår</string>
+    <string name="da_privacy_policy">Personvern</string>
+    <string name="da_legal_notices">Juridiske merknader</string>
+    <string name="da_navigation_suspended">Navigasjon avbrutt</string>
+    <string name="da_exit_navigation">Avslutt navigasjon</string>
+    <string name="da_email_me_when_resolved">Send meg en e-postmelding når problemet er løst</string>
+    <string name="da_problem_reported">Problemet er rapportert</string>
+    <string name="da_one_button_map_issue_reporting">Snarvei til rapp. problem</string>
+    <string name="da_attention">Obs</string>
+    <string name="da_rmi_warning">"Når du bruker Rapporter et problem, kan du spille inn en kort talemelding hvor du beskriver hva som er problemet med kartet eller ruten. Etter 15 sekunder sendes meldingen til Google sammen med nåværende posisjon og rute. 
+
+ En hurtigsnarvei kan være aktivert i programinnstillingene.
+
+ Hvis du velger å motta e-postoppdateringer, vil e-postadressen bli lagret sammen med kommentarene og informasjonen om din nåværende posisjon inntil problemet er løst."</string>
+    <string name="da_report_a_problem">Rapporter et problem</string>
+    <string name="da_report_a_problem_dialog_title">Rapporter problem</string>
+    <string name="da_rmi_preference_trackball_summary">Hvis hurtigsnarveien er aktivert, kan du klikke styrekulen for å starte problemrapporteringen.</string>
+    <string name="da_rmi_preference_camera_summary">Hvis hurtigsnarveien er aktivert, kan du klikke på kameraknappen for å starte problemrapporteringen.</string>
+    <string name="da_rmi_preference_no_button_summary">Ingen fysiske knapper er tilgjengelige.</string>
+    <string name="da_rmi_preference_bad_location_summary">Problemrapportering er ikke tilgjengelig for din nåværende posisjon.</string>
+    <string name="da_destination_not_here_warning">Takk for rapporten om at vi har feil plassering for din destinasjon. Din nåværende destinasjon og posisjon blir sendt til Google, slik at vi kan forbedre nøyaktigheten til dataene.</string>
+    <string name="da_destination_not_here_title">Rapporter et problem</string>
+    <string name="da_searching_for_gps">Søker GPS-signal ...</string>
+    <string name="da_data_connection_lost">Brudd på dataforbindelse ...</string>
+    <string name="da_follow_the_route">Følg ruten</string>
+    <string name="da_waiting_for_directions">Henter kjøreanvisninger</string>
+    <string name="da_waiting_for_walking_directions">Henter veibeskrivelse for fotgjengere</string>
+    <string name="da_waiting_for_location">Venter på posisjon</string>
+    <string name="da_checking_navigation_availability">Navigasjonsmuligheter</string>
+    <string name="da_loading_route_details">Laster inn detaljer om ruten</string>
+    <string name="da_loading_image">Laster inn bilde</string>
+    <string name="da_waiting_for_alternates">Søker etter alternative ruter</string>
+    <string name="da_waiting_for_details">Laster inn</string>
+    <string name="da_no_details">Det er ingen tilgjengelige detaljer</string>
+    <string name="da_gps_is_disabled">GPS er slått av</string>
+    <string name="da_turn_on_gps">Vis posisjonsinnstillinger?</string>
+    <string name="da_voice_guidance">Talt veibeskrivelse</string>
+    <string name="da_install_voice_guidance_prompt">Hvis du ønsker talestyrt navigasjon, må du installere støtte for tekst-til-tale fra Android-markedet.</string>
+    <string name="da_dialog_ok">OK</string>
+    <string name="da_dialog_skip">Hopp over</string>
+    <string name="da_dialog_cancel">Avbryt</string>
+    <string name="da_dialog_done">Ferdig</string>
+    <string name="da_dialog_accept">Godta</string>
+    <string name="da_dialog_install">Installer</string>
+    <string name="da_dialog_dont_accept">Ikke godta</string>
+    <string name="da_dialog_go">Start</string>
+    <string name="da_dialog_get_directions">Hent veibeskrivelser</string>
+    <string name="da_map">Kart</string>
+    <string name="da_clear_layers">Tøm kartet</string>
+    <string name="da_layer_name_parking">Parkeringsplass</string>
+    <string name="da_layer_name_attractions">Attraksjoner</string>
+    <string name="da_layer_name_gas_stations">Bensinstasjoner</string>
+    <string name="da_layer_name_restaurants">Restauranter</string>
+    <string name="da_layer_name_supermarkets">Supermarkeder</string>
+    <string name="da_layer_name_atms_and_banks">Minibanker og banker</string>
+    <string name="da_layer_name_convenience_stores">Nærbutikker</string>
+    <string name="da_query_banks_and_atms">Banker og minibanker</string>
+    <string name="da_rerouting">Finner ny rute ...</string>
+    <string name="da_via">Via %s</string>
+    <string name="da_to_destination">til %s</string>
+    <string name="da_via_name_separator">" og "</string>
+    <string name="da_record_feedback">Mikrofonen lytter</string>
+    <string name="da_destination_not_here">Destinasjon er ikke her</string>
+    <string name="da_new_destination">Neste reisemål</string>
+    <string name="da_reroute_to_destination">Tilbake til reisemål</string>
+    <string name="da_change_destination">Velg destinasjon</string>
+    <string name="da_search_for_destination">Søk ...</string>
+    <string name="da_point_on_map">Punkt på kartet</string>
+    <string name="da_volume">Navigasjonsvolum</string>
+    <string name="da_exit">Avslutt</string>
+    <string name="da_did_you_mean">Mente du:</string>
+    <string name="da_did_you_say">Sa du:</string>
+    <string name="da_for_your_end_point">For sluttpunktet ditt</string>
+    <string name="da_unnamed_road">Vei uten navn</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, deretter %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Om %1$s meter</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Om en og en halv kilometer</string>
+    <string name="da_speech_continue_for_x_meters">Fortsett å kjøre %1$s meter</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Fortsett å kjøre én og en halv kilometer</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Fortsett på %2$s og kjør %1$s meter</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Fortsett på %1$s og kjør én og en halv kilometer</string>
+    <string name="da_speech_generic_continue">Fortsett rett frem</string>
+    <string name="da_speech_in_x_feet">Om %1$s fot</string>
+    <string name="da_speech_in_x_yards">Etter %1$s yards</string>
+    <string name="da_speech_in_a_quarter_mile">Om en kvart engelsk mil</string>
+    <string name="da_speech_in_a_half_mile">Om en halv engelsk mil</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Om trekvart engelsk mil</string>
+    <string name="da_speech_in_one_and_a_half_miles">Om en og en halv engelsk mil</string>
+    <string name="da_speech_continue_for_x_feet">Fortsett å kjøre %1$s fot</string>
+    <string name="da_speech_continue_for_x_yards">Fortsett å kjøre %1$s yards</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Fortsett å kjøre en kvart engelsk mil</string>
+    <string name="da_speech_continue_for_a_half_mile">Fortsett å kjøre en halv engelsk mil</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Fortsett å kjøre en trekvart engelsk mil</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Fortsett å kjøre én og en halv engelsk mil</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Fortsett på %2$s og kjør %1$s fot</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Fortsett på %2$s og kjør %1$s yards</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Fortsett på %1$s og kjør en kvart engelsk mil</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Fortsett på %1$s og kjør en halv engelsk mil</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Fortsett på %1$s og kjør en trekvart engelsk mil</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Fortsett på %1$s og kjør én og en halv engelsk mil</string>
+    <string name="da_route_prefixes">N,NØ,Ø,SØ,S,SV,V,NV</string>
+    <string name="da_route_suffixes">N,NØ,Ø,SØ,SV,V,NV,ave.,blvd.,omkj.,ring,torg.,drive,rv.,motorv.,fv.,veit,landev.,pl.,v.,gt.,gj.kj.,vei</string>
+    <string name="da_no_route">Finner ikke ruten</string>
+    <string name="da_route_not_found">Vi finner ingen rute til reisemålet.</string>
+    <string name="da_destination_not_found">Vi forstod ikke reisemålet.</string>
+    <string name="da_navigation_not_supported">Navigasjon til reisemålet er ikke tilgjengelig.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Google Maps-navigering er foreløpig ikke tilgjengelig for denne posisjonen.</string>
+    <string name="da_launch_maps">Start Google Maps</string>
+    <string name="da_no_image_available">Ingen tilgjengelige bilder.</string>
+    <string name="da_image_error">Feil under innlasting av bilde.</string>
+    <string name="da_no_alternate_routes">Vi kunne ikke finne noen alternative ruter til destinasjonen.</string>
+    <string name="da_picker_type_destination">Skriv inn destinasjon</string>
+    <string name="da_picker_speak_destination">Uttal destinasjon</string>
+    <string name="da_picker_contacts">Kontakter</string>
+    <string name="da_picker_starred_items">Stjernemerkede steder</string>
+    <string name="da_picker_new_contact">Ny kontakt</string>
+    <string name="da_picker_recent_destinations">Nylige destinasjoner</string>
+    <string name="da_picker_choose_destination">Velg destinasjon</string>
+    <string name="da_navigate_to">Naviger til</string>
+    <string name="da_picker_search_hint">Destinasjon</string>
+    <string name="da_route_options">Alternativer for rute</string>
+    <string name="da_updating_directions">Oppdaterer veibeskrivelse</string>
+    <string name="da_picker_no_starred_items">"Du har ingen stjernemerkede steder.
+
+Stjernemerkede steder synkroniseres automatisk med maps.google.com.
+
+Du kan stjernemerke søkeresultater i Google Maps ved å trykke på stjerneikonet ved adressen."</string>
+    <string name="da_picker_no_contacts">"Du har ingen kontakter med adresser.
+
+Du kan legge til nye kontakter eller angi adresser for eksisterende kontakter i kontaktprogrammet."</string>
+    <string name="da_driving">Med bil</string>
+    <string name="da_walking">Til fots</string>
+    <string name="da_quoted_text">«%1$s»</string>
+    <string name="da_more_info">Les mer</string>
+    <string name="da_search_maps">Søk i kartene</string>
+    <string name="da_walking_warning">Gåstrekning (beta): Vær forsiktig</string>
+    <string name="da_calibrate_compass_title">Kalibrering av kompass</string>
+    <string name="da_calibrate_compass">Kompasset er ikke kalibrert. Beveg enheten i et åttetallsmønster noen ganger for å kalibrere kompasset.</string>
+    <string name="da_confirm_exit_title">Avslutte navigasjon?</string>
+    <string name="da_confirm_exit_text">Ruteveiledningen blir nå avsluttet.</string>
+    <string name="da_route_includes_tolls">Bomringer</string>
+    <string name="da_avoid_tolls">Unngå bomringer</string>
+    <string name="da_avoiding_tolls">Unngå bomringer</string>
+    <string name="da_avoiding_highways">Unngå motorveier</string>
+    <string name="da_route_includes_unavoidable_tolls">Det er bomringer på denne strekningen.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Det er bomringer på strekningen. Deaktiver ruter med bomringer i %1$s%2$s nedenfor.</string>
+    <string name="da_seasonally_closed">Ruten kan være sesongstengt</string>
+    <string name="da_direction_north">nord</string>
+    <string name="da_direction_north_west">nordvest</string>
+    <string name="da_direction_west">vest</string>
+    <string name="da_direction_south_west">sørvest</string>
+    <string name="da_direction_south">sør</string>
+    <string name="da_direction_south_east">sørøst</string>
+    <string name="da_direction_east">øst</string>
+    <string name="da_direction_north_east">nordøst</string>
+    <string name="da_step_depart">Kjør mot %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Kjør %1$s på %2$s</string>
+    <string name="da_step_slight_left">Hold til venstre</string>
+    <string name="da_step_slight_right">Hold til høyre</string>
+    <string name="da_step_turn_left">Ta til venstre</string>
+    <string name="da_step_turn_right">Sving til høyre</string>
+    <string name="da_step_sharp_left">Skarp venstre</string>
+    <string name="da_step_sharp_right">Skarp høyre</string>
+    <string name="da_step_slight_left_onto">Hold til venstre inn på %1$s</string>
+    <string name="da_step_slight_right_onto">Hold til høyre inn på %1$s</string>
+    <string name="da_step_turn_left_onto">Sving til venstre inn på %1$s</string>
+    <string name="da_step_turn_right_onto">Ta til høyre inn på %1$s</string>
+    <string name="da_step_sharp_left_onto">Skarp venstre inn på %1$s</string>
+    <string name="da_step_sharp_right_onto">Skarp høyre inn på %1$s</string>
+    <string name="da_step_fork_left">Hold til venstre ved veiskillet</string>
+    <string name="da_step_fork_right">Hold til høyre ved veiskillet</string>
+    <string name="da_step_continue_onto">Fortsett inn på %1$s</string>
+    <string name="da_step_continue_straight">Fortsett rett frem</string>
+    <string name="da_step_u_turn">Foreta en U-sving</string>
+    <string name="da_step_take_the_ramp">Ta rampen</string>
+    <string name="da_step_take_the_ramp_onto">Ta rampen ut på %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Ta rampen til venstre</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Ta rampen til venstre ut på %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Ta rampen til høyre</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Ta rampen til høyre ut på %1$s</string>
+    <string name="da_step_take_the_exit">Ta avkjøringen</string>
+    <string name="da_step_take_the_exit_on_the_left">Ta avkjøringen til venstre</string>
+    <string name="da_step_take_the_exit_on_the_right">Ta avkjøringen til høyre</string>
+    <string name="da_step_take_the_exit_onto">Ta avkjøringen ut på %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Ta avkjøringen til venstre ut på %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Ta avkjøringen til høyre ut på %1$s</string>
+    <string name="da_step_take_exit_n">Ta avkjøring %1$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google – Bilder ©%2$d %3$s, Kartdata ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - Bilder ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google – Kartdata ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Hjemme</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Veibeskrivelser og navigasjon</string>
+    <string name="EXIT_COMMAND">Avslutt</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} vil at du skal sjekke inn</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Forespørsel om innsjekking i Latitude</string>
+    <string name="GOHOME_DESTINATION_HINT">Angi en adresse</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Snarveiikon</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Lagre</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Destinasjon</string>
+    <string name="GOHOME_SHORTCUT_NAME">Navn på snarvei</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Navigasjon sving-for-sving</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Åpne innstillinger</string>
+    <string name="HOTPOT_LOADING">Laster inn ...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Modulen «Vurder steder» krever at du aktiverer både «Bruk trådløse nettverk» (i Posisjons- og sikkerhetsinnstillinger) og Wi-Fi (i Trådløs- og nettverksinnstillinger).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Aktiver «Bruk trådløse nettverk» i Posisjons- og sikkerhetsinnstilinger for å bruke modulen Vurder steder.</string>
+    <string name="HOTPOT_NO_LOCATION">Ingen pos.informasjon</string>
+    <string name="HOTPOT_SEARCH">Søk</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Du søkte etter: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Søk på nytt</string>
+    <string name="HOTPOT_SELECT_PLACE">Velg steder å vurdere</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Velg et sted: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Ukjent posisjon</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Oppdaterer posisjon ...</string>
+    <string name="HOTPOT_WIDGET_NAME">Vurder steder</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Gjør offentlig tilgjengelig som {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Si mer</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Oppdatert {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">"Slå på Wi-Fi  og nettverksinnstillinger for å forbedre nøyaktigheten til plasseringen av modulen Vurder steder"</string>
+    <string name="HOTPOT_YOU_RATED">"Din vurdering: "</string>
+    <string name="LATITUDE_APP_NAME">Google Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">På {0}, og delt med {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Sjekket inn på {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Sjekke inn på {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Sjekke inn på?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Trykk for å logge deg på Google Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Sist oppdatert: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Ukjent posisjon</string>
+    <string name="LOADING">Laster</string>
+    <string name="MAPS_APP_NAME">Kart</string>
+    <string name="NEED_NET_BODY">Dette programmet kan ikke brukes før du har gitt tillatelse til å sende og motta data via nettverket.</string>
+    <string name="NEED_NET_TITLE">Trenger nettverkstilgang</string>
+    <string name="NETWORK_DATA_ERROR">Dette programmet krever dataforbindelse. Ta kontakt med leverandøren.</string>
+    <string name="NET_FAIL_BODY">Dette programmet krever en fungerende datatilkobling.</string>
+    <string name="NET_FAIL_TITLE">Nettverksfeil</string>
+    <string name="NET_UNAVAILABLE_TITLE">Nettverk ikke tilgjengelig</string>
+    <string name="PLACES_APP_NAME">Steder</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">«f.eks. spaghetti bolognese, cocktailer, musikk»</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">«Hva skiller seg ut?»</string>
+    <string name="RATINGS_OPTIN_CANCEL">Avbryt</string>
+    <string name="RATINGS_OPTIN_CLOSE">Lukk</string>
+    <string name="RATINGS_OPTIN_FAILED">Oppdateringen mislyktes. Prøv igjen senere.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Vær sosial!&lt;/b> Gå til &lt;b>{0}&lt;/b> på datamaskinen for å legge til venner og oppdage deres favorittsteder.</string>
+    <string name="RATINGS_OPTIN_HEADING">Angi et kallenavn som du vil bruke offentlig i Google Steder.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Navn eller kallenavn: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Vurder favorittrestauranter, kafeer og andre steder for å få anbefalinger i søkeresultatene basert på din personlige smak.</string>
+    <string name="RATINGS_OPTIN_SAVE">Kom i gang</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Stedsvurderingene dine er &lt;b>offentlig tilgjengelige på nettet&lt;/b> med dette kallenavnet. &lt;a href=#>Mer informasjon&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Offentlig tilgjengelig på nettet som {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Gjør offentlig tilgjengelig på nettet.</string>
+    <string name="RATINGS_RATE_PLACES">Hvorfor vurdere steder?</string>
+    <string name="RATINGS_SET_APPEARANCE">Angi synlighet</string>
+    <string name="RATINGS_WAIT">Vent litt</string>
+    <string name="SEARCH_HINT">Søk i kartene</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Sluttpunkt</string>
+    <string name="TRAFFIC_WIDGET_NAME">Trafikk</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Programsnutt</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Lagre</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Startpunkt</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Alvorlig feil. Avslutt og start på nytt.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Ukjent feil</string>
+    <string name="UPGRADE_BODY">Du må installere en ny versjon for å kunne bruke dette programmet.</string>
+    <string name="UPGRADE_TITLE">Programvareoppdatering</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Animert bakgrunn fra Maps</string>
+    <string name="WALLPAPER_MAP_MODE">Kartmodus</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normal</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satellitt</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Kartmodusen, for eksempel Satellitt</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Terreng</string>
+    <string name="WALLPAPER_SETTINGS">Innstillinger for Maps-bakgrunn</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Vis trafikk</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Vis på kartet hvordan været er nå. Du må ha værmodulen installert.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Vær</string>
+</resources>

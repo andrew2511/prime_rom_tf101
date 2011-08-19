@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="128.0dip" android:paddingTop="160.0dip" android:paddingRight="128.0dip" android:paddingBottom="96.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/systemUpdateTitle" android:id="@id/title" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:indeterminate="true" android:layout_below="@id/title" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/size" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/progress" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/size" android:layout_above="@id/progress" />
+    <Button android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Button" />
+    <TextView android:id="@id/button_qualifier" android:text="@string/system_update_activity_battery_low_text" android:layout_toLeftOf="@id/action_button" android:layout_alignParentBottom="true" style="@style/ButtonQualifier" />
+    <ScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_above="@id/action_button" android:layout_below="@id/progress">
+        <TextView android:textAppearance="@style/systemUpdateDescription" android:id="@id/description" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </ScrollView>
+</RelativeLayout>

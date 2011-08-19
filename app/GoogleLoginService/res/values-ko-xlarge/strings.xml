@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">완료</string>
+    <string name="username">이메일</string>
+    <string name="captcha_message_string">잘못된 시도 횟수가 너무 많습니다.</string>
+    <string name="signed_in">로그인 완료</string>
+    <string name="account_linked_message">%s에 로그인하여 데이터를 동기화하는 중입니다.</string>
+    <string name="account_setup_title">Google 계정</string>
+    <string name="account_created_message">만든 새 계정: %s</string>
+    <string name="login_activity_title">Google 계정으로 로그인</string>
+    <string name="show_error_activity_title">Google 계정 로그인 실패</string>
+    <string name="login_activity_task_title">로그인 중...</string>
+    <string name="sync_intro_activity_title_first_account">백업 및 복원</string>
+    <string name="sync_intro_activity_title_first_created_account">계정 생성됨</string>
+    <string name="sync_intro_activity_title">계정 로그인 완료</string>
+</resources>

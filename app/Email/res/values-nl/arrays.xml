@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Inhoud van berichten weergeven in tekst van minuscuul formaat</item>
+        <item>Inhoud van berichten weergeven in tekst van klein formaat</item>
+        <item>Inhoud van berichten weergeven in tekst van normaal formaat</item>
+        <item>Inhoud van berichten weergeven in tekst van groot formaat</item>
+        <item>Inhoud van berichten weergeven in tekst van enorm formaat</item>
+    </string-array>
+</resources>

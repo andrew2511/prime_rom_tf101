@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_myplaces" android:id="@id/menu_show_map" android:alphabeticShortcut="m" />
+    <item android:icon="@drawable/ic_menu_invite" android:id="@id/menu_invite" android:alphabeticShortcut="i" />
+    <item android:icon="@android:drawable/ic_lock_lock" android:id="@id/menu_privacy" android:alphabeticShortcut="p" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/menu_refresh" android:alphabeticShortcut="r" />
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Responder</item>
+        <item>Resp. a todos</item>
+        <item>Encaminhar</item>
+    </string-array>
+    <string-array name="prefEntries_confirmActions">
+        <item>Arquivar</item>
+        <item>Eliminar</item>
+        <item>Enviar</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Conversação mais recente</item>
+        <item>Conversação mais antiga</item>
+        <item>Lista de conversações</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Mostrar conversação recente após eliminar, arquivar, etc.</item>
+        <item>Mostrar conversação antiga após eliminar, arquivar, etc.</item>
+        <item>Mostrar lista de conversações após eliminar, arquivar, etc.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Muito pequeno</item>
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Muito grande</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Mostrar conteúdo das mens. em texto de tamanho muito pequeno</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho pequeno</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho normal</item>
+        <item>Mostrar conteúdo das mensagens em texto de tamanho grande</item>
+        <item>Mostrar conteúdo das mens. em texto de tamanho muito grande</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Sempre</item>
+        <item>Apenas quando está em silêncio</item>
+        <item>Nunca</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">עדכון קושחת המודם הסתיים בהצלחה</string>
+    <string name="update_fail">עדכון קושחת המודם נכשל</string>
+    <string name="update_quz" formatted="false">"תהליך העדכון ימשך כ-5-3 דקות ויש צורך שהסוללה תהיה טעונה בשיעור של 15% לפחות.
+
+ודא שהסוללה טעונה בשיעור הגבוה מ-15% לפני שתתחיל בעדכון.
+
+האם אתה רוצה לעדכן את קושחת המודם עכשיו?"</string>
+    <string name="notify_title">שירות העדכון של Asus</string>
+    <string name="notify">עדכון קושחה זמין עבור המודם.</string>
+    <string name="warning_title">אזהרה</string>
+    <string name="warning">"אין לכבות את המכשיר במהלך העדכון.
+
+כל הפרעה בלתי צפויה תגרום לנזק בלתי הפיך.r
+
+האם אתה רוצה לעדכן את קושחת המודם עכשיו?"</string>
+    <string name="battery_low" formatted="false">"תהליך העדכון דורש שהסוללה תהיה טעונה בשיעור של 15% או יותר.
+
+ודא שהסוללה טעונה בשיעור הגבוה מ-15% לפני תחילת העדכון."</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="ok">אישור</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

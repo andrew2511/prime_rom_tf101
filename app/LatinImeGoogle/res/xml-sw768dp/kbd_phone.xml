@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard latin:keyboardHeight="@dimen/keyboardHeight" latin:maxKeyboardHeight="50.0%p" latin:keyWidth="13.250006%p" latin:rowHeight="25.0%p" latin:horizontalGap="@dimen/key_horizontal_gap" latin:verticalGap="@dimen/key_bottom_gap" latin:popupKeyboardTemplate="@xml/kbd_popup_template" latin:maxPopupKeyboardColumn="@integer/config_max_popup_keyboard_column"
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <include latin:keyboardLayout="@xml/kbd_numkey_styles" />
+    <Row>
+        <Key latin:keyWidth="11.171997%p" latin:keyEdgeFlags="left" latin:keyLabelOption="alignLeft" latin:keyStyle="tabKeyStyle" />
+        <Key latin:keyWidth="8.046997%p" latin:code="45" latin:keyLabel=" - " latin:keyXPos="20.4%p" />
+        <Key latin:keyWidth="8.046997%p" latin:code="43" latin:keyLabel=" + " />
+        <Key latin:keyStyle="num1KeyStyle" latin:keyXPos="43.124996%p" />
+        <Key latin:keyStyle="num2KeyStyle" />
+        <Key latin:keyStyle="num3KeyStyle" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" latin:keyXPos="-11.171997%p" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="11.171997%p" latin:keyEdgeFlags="left" latin:keyStyle="moreKeyStyle" />
+        <Key latin:keyWidth="8.046997%p" latin:code="44" latin:keyLabel=" , " latin:keyXPos="20.4%p" />
+        <Key latin:keyWidth="8.046997%p" latin:code="46" latin:keyLabel=" . " />
+        <Key latin:keyStyle="num4KeyStyle" latin:keyXPos="43.124996%p" />
+        <Key latin:keyStyle="num5KeyStyle" />
+        <Key latin:keyStyle="num6KeyStyle" />
+        <Key latin:keyWidth="0.0%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" latin:keyXPos="-11.171997%p" />
+    </Row>
+    <Row>
+        <Key latin:keyWidth="8.046997%p" latin:code="40" latin:keyLabel=" ( " latin:keyXPos="20.4%p" />
+        <Key latin:keyWidth="8.046997%p" latin:code="41" latin:keyLabel=" ) " />
+        <Key latin:keyStyle="num7KeyStyle" latin:keyXPos="43.124996%p" />
+        <Key latin:keyStyle="num8KeyStyle" />
+        <Key latin:keyStyle="num9KeyStyle" />
+    </Row>
+    <Row>
+        <switch>
+            <case latin:hasSettingsKey="true">
+                <Key latin:keyWidth="8.046997%p" latin:keyStyle="settingsKeyStyle" />
+            </case>
+            <default>
+                <Spacer latin:keyWidth="8.046997%p" />
+            </default>
+        </switch>
+        <Key latin:keyWidth="16.084003%p" latin:keyStyle="nonSpecialBackgroundSpaceKeyStyle" latin:keyXPos="20.4%p" />
+        <Key latin:keyStyle="numStarKeyStyle" latin:keyXPos="43.124996%p" />
+        <Key latin:keyStyle="num0KeyStyle" />
+        <Key latin:keyStyle="numPoundKeyStyle" />
+        <switch>
+            <case latin:voiceKeyEnabled="true">
+                <Key latin:keyWidth="0.0%p" latin:keyStyle="micKeyStyle" latin:keyXPos="-8.046997%p" />
+            </case>
+        </switch>
+    </Row>
+</Keyboard>

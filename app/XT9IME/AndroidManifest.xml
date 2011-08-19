@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="@integer/version_code" android:versionName="@string/version_number" package="com.nuance.xt9.input"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="11" android:maxSdkVersion="11" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <application android:label="@string/ime_name" android:persistent="true">
+        <service android:label="@string/ime_name" android:name="IME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+        <activity android:label="@string/ime_settings" android:icon="@drawable/ic_dialog_keyboard" android:name="Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="InputSettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/about" android:name="About">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <service android:name="UserDictionaryService">
+            <intent-filter>
+                <action android:name="com.nuance.xt9.input.IUserDictionaryConfig" />
+                <action android:name="com.nuance.xt9.input.IUserDictionary" />
+            </intent-filter>
+        </service>
+        <receiver android:label="" android:name=".DockEventReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOCK_EVENT" />
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@android:style/Theme.Holo.Dialog" android:label="" android:name=".DockWarningActivity" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

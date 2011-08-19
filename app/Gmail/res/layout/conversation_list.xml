@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/between_chrome" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="104.0dip" android:text="@string/no_conversations" />
+    <com.google.android.gm.FadingListView android:id="@android:id/list" android:paddingTop="@dimen/action_bar_height" android:paddingBottom="@dimen/left_column_bottom_padding" android:fadingEdge="vertical" android:fadingEdgeLength="@dimen/right_column_fading_edge_length" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" style="?android:attr/listViewWhiteStyle" minTopFadingEdge="0.06" minBottomFadingEdge="0.0" />
+</FrameLayout>

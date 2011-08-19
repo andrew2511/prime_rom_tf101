@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/da_squeezedLabelContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <com.google.android.maps.driveabout.app.SqueezedLabelView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/da_labelTest" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="The quick brown fox jumps over the lazy dog." app:da_desiredTextSize="30.0dip" app:da_minTextSize="6.0dip" />
+    <com.google.android.maps.driveabout.app.SqueezedLabelView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="The quick brown fox jumps over the lazy dog." app:da_desiredTextSize="10.0dip" app:da_minTextSize="6.0dip" />
+</LinearLayout>

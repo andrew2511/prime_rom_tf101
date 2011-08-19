@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="freq_menu">
+        <item>1 시간</item>
+        <item>2 시간</item>
+        <item>4 시간</item>
+        <item>8 시간</item>
+        <item>12 시간</item>
+        <item>매뉴얼</item>
+    </string-array>
+</resources>

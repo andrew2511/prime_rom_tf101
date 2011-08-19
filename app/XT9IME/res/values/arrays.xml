@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entries_auto_correction_mode">
+        <item>@string/auto_correction_off</item>
+        <item>@string/auto_correction_low</item>
+        <item>@string/auto_correction_high</item>
+    </array>
+    <string-array name="entryValues_auto_correction_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="entries_word_completion_point">
+        <item>@string/word_completion_off</item>
+        <item>@string/word_completion_after_1</item>
+        <item>@string/word_completion_after_2</item>
+        <item>@string/word_completion_after_3</item>
+        <item>@string/word_completion_after_4</item>
+        <item>@string/word_completion_after_5</item>
+        <item>@string/word_completion_after_6</item>
+    </array>
+    <string-array name="entryValues_word_completion_point">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <integer-array name="config_hardwareKeyboardEnabledList">
+        <item>18</item>
+        <item>224</item>
+        <item>225</item>
+    </integer-array>
+</resources>

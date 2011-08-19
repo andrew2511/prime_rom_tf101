@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/panel_region" android:background="@drawable/asus_ep_dragbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/scrollindicator" android:layout_width="22.0dip" android:layout_height="15.0dip" android:layout_marginBottom="-10.0dip" android:src="@drawable/asus_ep_dragbar_triangular_down" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/server_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/playto_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/panel" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="100.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <ImageButton android:id="@id/prev" android:background="@drawable/ctl_btn_bg_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_previous" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/play" android:background="@drawable/ctl_btn_bg_mid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asus_ep_music_m_play" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/next" android:background="@drawable/ctl_btn_bg_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ctl_btn_next" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="100.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <Button android:id="@id/playto" android:background="@drawable/ctl_btn_bg_playto" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/playto" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

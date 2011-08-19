@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="da_primary_text">#ffffffff</color>
+    <color name="da_secondary_text">#a0ffffff</color>
+    <color name="da_text_shadow">#cc222222</color>
+    <color name="da_list_view_highlighed">#80008050</color>
+    <color name="da_list_header_background_grey">#ff828282</color>
+    <color name="da_splash_gradient_start">#ffffffff</color>
+    <color name="da_splash_gradient_end">#ff1da2ff</color>
+    <color name="da_splash_beta_text_color">#ff4f5b70</color>
+    <color name="da_warning_text">#ffff2b2b</color>
+    <color name="da_destination_list_primary_text">#ffffffff</color>
+    <color name="da_destination_list_secondary_text">#a0ffffff</color>
+    <color name="da_destination_activity_gradient_start">#ff000000</color>
+    <color name="da_destination_activity_gradient_center">#ff333366</color>
+    <color name="da_destination_list_header_text">#ff999999</color>
+    <color name="da_destination_button_background">#ff444466</color>
+</resources>

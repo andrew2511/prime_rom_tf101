@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="played_text">#7fffffff</color>
+    <color name="flash_to_when_paused_text">#ffffffff</color>
+    <color name="current_text">#7fffffff</color>
+    <color name="error_text">#ff6699ff</color>
+    <color name="divider_color">#20ffffff</color>
+</resources>

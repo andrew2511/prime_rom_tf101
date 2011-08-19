@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/directionsPanelTablet" android:background="@drawable/bottombar_portrait_565" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="4.0dip" android:paddingBottom="9.0dip" android:layout_width="400.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/DirectionsHeaderText" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/fromInputPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                <com.google.googlenav.suggest.android.SuggestView android:textSize="18.0sp" android:id="@id/fromField" android:nextFocusDown="@id/toField" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:freezesText="true" android:layout_weight="1.0" android:imeOptions="actionNext" />
+                <ImageButton android:id="@id/fromChooseButton" android:background="@drawable/btn_default" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/bookmark_icon_tablet" android:layout_weight="0.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/toInputPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                <com.google.googlenav.suggest.android.SuggestView android:textSize="18.0sp" android:id="@id/toField" android:nextFocusDown="@id/getDirectionsButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:freezesText="true" android:layout_weight="1.0" android:imeOptions="actionDone" />
+                <ImageButton android:id="@id/toChooseButton" android:background="@drawable/btn_default" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/bookmark_icon_tablet" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:layout_gravity="right|center" android:id="@id/switchStartEnd" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/switch_start_end_tablet" />
+    </LinearLayout>
+    <include layout="@layout/travel_type_tablet" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/getDirectionsButton" android:background="@drawable/btn_default" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+        <Button android:id="@id/cancel" android:background="@drawable/btn_default" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

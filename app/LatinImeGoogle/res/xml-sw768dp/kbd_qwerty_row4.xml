@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Row latin:keyWidth="8.046997%p">
+        <switch>
+            <case latin:hasSettingsKey="true">
+                <Key latin:keyWidth="8.046997%p" latin:keyStyle="settingsKeyStyle" />
+            </case>
+            <default>
+                <Spacer latin:keyWidth="8.046997%p" />
+            </default>
+        </switch>
+        <switch>
+            <case latin:languageCode="ru">
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyStyle="comKeyStyle" latin:keyXPos="15.156996%p" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:keyStyle="comKeyStyle" latin:keyXPos="15.156996%p" />
+                    </case>
+                    <case latin:imeAction="actionSearch">
+                        <Key latin:popupCharacters="+" latin:keyLabel=":" latin:manualTemporaryUpperCaseCode="43" latin:keyHintIcon="@drawable/key_hint_plus_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_plus_large_holo" latin:keyXPos="15.156996%p" />
+                    </case>
+                    <default>
+                        <Key latin:keyStyle="smileyKeyStyle" latin:keyXPos="15.156996%p" />
+                    </default>
+                </switch>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyLabel="\@" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:popupCharacters="_" latin:keyLabel="-" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" />
+                    </case>
+                    <default>
+                        <Key latin:popupCharacters="\@" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="64" latin:keyHintIcon="@drawable/key_hint_at_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_at_large_holo" />
+                    </default>
+                </switch>
+            </case>
+            <default>
+                <switch>
+                    <case latin:mode="url">
+                        <Key latin:keyWidth="16.084003%p" latin:keyStyle="comKeyStyle" latin:keyXPos="15.156996%p" />
+                    </case>
+                    <default>
+                        <switch>
+                            <case latin:mode="email">
+                                <Key latin:keyStyle="comKeyStyle" latin:keyXPos="15.156996%p" />
+                            </case>
+                            <case latin:imeAction="actionSearch">
+                                <Key latin:popupCharacters="+" latin:keyLabel=":" latin:manualTemporaryUpperCaseCode="43" latin:keyHintIcon="@drawable/key_hint_plus_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_plus_large_holo" latin:keyXPos="15.156996%p" />
+                            </case>
+                            <default>
+                                <Key latin:keyStyle="smileyKeyStyle" latin:keyXPos="15.156996%p" />
+                            </default>
+                        </switch>
+                        <switch>
+                            <case latin:mode="email">
+                                <Key latin:keyLabel="\@" />
+                            </case>
+                            <default>
+                                <Key latin:popupCharacters="\@" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="64" latin:keyHintIcon="@drawable/key_hint_at_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_at_large_holo" />
+                            </default>
+                        </switch>
+                    </default>
+                </switch>
+            </default>
+        </switch>
+        <Key latin:keyWidth="37.5%p" latin:keyStyle="spaceKeyStyle" latin:keyXPos="31.25%p" />
+        <switch>
+            <case latin:languageCode="ru">
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyLabel="-" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:popupCharacters=":" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="58" latin:keyHintIcon="@drawable/key_hint_colon_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_colon_large_holo" />
+                    </case>
+                    <default>
+                        <Key latin:popupCharacters="_" latin:keyLabel="\?" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" />
+                    </default>
+                </switch>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyLabel="_" />
+                    </case>
+                    <default>
+                        <Key latin:popupCharacters="'" latin:keyLabel="!" latin:manualTemporaryUpperCaseCode="34" latin:keyHintIcon="@drawable/key_hint_quote_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_quote_large_holo" />
+                    </default>
+                </switch>
+            </case>
+            <default>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyLabel="-" />
+                    </case>
+                    <case latin:mode="url">
+                        <Key latin:popupCharacters=":" latin:keyLabel="/" latin:manualTemporaryUpperCaseCode="58" latin:keyHintIcon="@drawable/key_hint_colon_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_colon_large_holo" />
+                    </case>
+                    <default>
+                        <Key latin:popupCharacters="&quot;" latin:keyLabel="'" latin:manualTemporaryUpperCaseCode="34" latin:keyHintIcon="@drawable/key_hint_quote_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_quote_large_holo" />
+                    </default>
+                </switch>
+                <switch>
+                    <case latin:mode="email">
+                        <Key latin:keyLabel="_" />
+                    </case>
+                    <default>
+                        <Key latin:popupCharacters="_" latin:keyLabel="-" latin:manualTemporaryUpperCaseCode="95" latin:keyHintIcon="@drawable/key_hint_underline_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_underline_large_holo" />
+                    </default>
+                </switch>
+            </default>
+        </switch>
+        <switch>
+            <case latin:voiceKeyEnabled="true">
+                <Key latin:keyWidth="0.0%p" latin:keyStyle="micKeyStyle" latin:keyXPos="-8.046997%p" />
+            </case>
+        </switch>
+    </Row>
+</merge>

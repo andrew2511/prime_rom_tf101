@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.maps">
+    <com.google.android.maps.driveabout.app.StepDescriptionView android:id="@id/da_stepDescriptionView" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.maps.driveabout.app.RouteSelectorView android:orientation="horizontal" android:id="@id/da_routeOverviewPanel" android:background="@drawable/da_top_panel_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/da_route_selector_height" />
+    <TextView android:textSize="@dimen/da_status_message_text" android:textColor="#ffffffff" android:gravity="center" android:id="@id/da_topStatusMessage" android:background="@drawable/da_top_panel_gray" android:layout_width="fill_parent" android:layout_height="@dimen/da_top_bar_height" android:singleLine="true" />
+    <LinearLayout android:gravity="center" android:id="@id/da_destinationButtonPanel" android:background="@drawable/da_top_panel_gray" android:paddingTop="5.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/da_top_bar_height">
+        <Button android:textSize="@dimen/da_top_bar_button_text_size" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/da_rerouteToDestinationButton" android:background="@drawable/da_on_map_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/da_reroute_to_destination" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/da_top_bar_button_text_size" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/da_destinationNotHereButton" android:background="@drawable/da_on_map_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/da_destination_not_here" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/da_top_bar_button_text_size" android:textColor="#ff000000" android:id="@id/da_exitButton" android:background="@drawable/da_on_map_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.1" />
+    </LinearLayout>
+</merge>

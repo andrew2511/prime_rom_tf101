@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/title_carrier" />
+    <FrameLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/title_bar_shadow">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/asset_list" />
+    </FrameLayout>
+</LinearLayout>

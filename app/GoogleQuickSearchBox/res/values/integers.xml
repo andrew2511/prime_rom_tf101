@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_suggestions_above_keyboard">2</integer>
+    <integer name="minimum_suggestions_above_summons">2</integer>
+    <integer name="maximum_suggestions_above_summons">4</integer>
+    <integer name="default_num_visible_suggestion_slots">4</integer>
+    <integer name="minimum_visible_summons">1</integer>
+    <integer name="max_promoted_suggestions">8</integer>
+    <integer name="max_promoted_summons">100</integer>
+    <integer name="max_suggestions_display_delay_millis">200</integer>
+    <integer name="max_local_history_suggestions">5</integer>
+    <integer name="max_local_history_for_partial_web">4</integer>
+    <integer name="max_local_history_for_full_web">2</integer>
+    <integer name="partial_web_threshold_local_history">3</integer>
+</resources>

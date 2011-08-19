@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:yt="http://schemas.android.com/apk/res/com.google.android.youtube">
+    <include layout="@layout/header" />
+    <com.google.android.youtube.app.ui.TabRow android:id="@id/tabrow" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:tabBackground="@drawable/tab_drawable" />
+    <com.google.android.youtube.app.ui.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/most_viewed" android:tag="@string/most_viewed_videos" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/top_rated" android:tag="@string/top_rated_videos" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/most_discussed" android:tag="@string/most_discussed_videos" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/list_status_item" />
+        <com.google.android.youtube.core.ui.PagedListView android:id="@id/top_favorited" android:tag="@string/top_favorited_videos" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:textWhenEmpty="@string/no_videos_found" yt:statusView="@layout/list_status_item" />
+    </com.google.android.youtube.app.ui.Workspace>
+</LinearLayout>

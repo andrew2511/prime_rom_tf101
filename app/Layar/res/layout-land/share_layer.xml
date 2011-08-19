@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/buttonBar" android:layout_alignParentBottom="true" style="@style/ButtonsBar">
+        <Button android:id="@id/shareButton" android:text="@string/share" style="@style/FullRowButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/buttonBar" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/messageArea" android:background="@color/detail_background" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/message_input_area" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/message_input" />
+                <RelativeLayout android:id="@id/imageBox" android:background="@null" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_below="@id/message_input_area" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/imageShareScreenIcon" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:maxWidth="66.0dip" android:maxHeight="66.0dip" />
+                    <ProgressBar android:id="@id/imageThrobber" android:layout_centerInParent="true" style="@style/Throbber.Black" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageBox" android:layout_alignTop="@id/imageBox" android:layout_alignBottom="@id/imageBox">
+                    <TextView android:ellipsize="end" android:id="@id/layerTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/DefaultText" />
+                    <TextView android:ellipsize="end" android:id="@id/layerDetails" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="3" android:layout_weight="1.0" style="@style/DefaultText" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <include android:layout_width="1.0dip" android:layout_height="fill_parent" layout="@layout/divider" />
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/location">
+            <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/location" layout="@layout/divider" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/location" android:background="@drawable/location_background" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip" android:layout_below="@id/messageArea">
+                <CheckBox android:id="@id/locationCheckbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/locationPin" android:background="@null" android:layout_width="24.0dip" android:layout_height="0.0dip" android:src="@drawable/location_pin" android:scaleType="center" android:layout_alignTop="@id/locationCheckbox" android:layout_alignBottom="@id/locationCheckbox" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="left|center" android:id="@id/locationText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/locationCheckbox" android:layout_toRightOf="@id/locationPin" android:layout_alignTop="@id/locationCheckbox" android:layout_alignBottom="@id/locationCheckbox" style="@style/DescriptionText" />
+            </RelativeLayout>
+            <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/location" layout="@layout/divider" />
+            <ScrollView android:background="@null" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@android:id/list" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

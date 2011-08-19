@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cepub_default_key_desc" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0px" android:paddingRight="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cepub_title_key" />
+        <EditText android:textSize="20.0px" android:textColor="#ff000000" android:id="@id/key_input_text" android:background="@drawable/asus_ep_text" android:layout_width="300.0px" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/register_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="11.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:text="@string/first_name" style="@style/TextView" />
+            <EditText android:id="@id/register_first_name" android:layout_width="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:hint="@string/required_first_name" android:maxLength="256" android:inputType="textCapWords|textNoSuggestions" style="@style/EditText" />
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:text="@string/last_name" style="@style/TextView" />
+            <EditText android:id="@id/register_last_name" android:layout_width="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:hint="@string/required_last_name" android:maxLength="256" android:inputType="textCapWords|textNoSuggestions" style="@style/EditText" />
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:text="@string/email_address" style="@style/TextView" />
+            <EditText android:id="@id/register_email" android:layout_width="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:hint="@string/required_email_address" android:maxLength="256" android:inputType="textEmailAddress" style="@style/EditText" />
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:text="@string/password" style="@style/TextView" />
+            <EditText android:id="@id/register_password" android:layout_width="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:hint="@string/required_password" android:maxLength="256" android:inputType="textPassword" style="@style/EditText" />
+            <TextView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:text="@string/retype_password" style="@style/TextView" />
+            <EditText android:id="@id/register_confirm_password" android:layout_width="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="3.0dip" android:hint="@string/retype_password" android:maxLength="256" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/EditText" />
+            <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/register_submit" android:background="@drawable/btn_form" android:layout_width="221.0dip" android:layout_height="55.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="20.0dip" android:text="@string/create_account" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/register_receive_from_zinio_panel" android:background="#80000000" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+                <CheckBox android:id="@id/register_receive_from_zinio" android:background="@drawable/checkbox" android:layout_width="43.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@color/invisible" android:soundEffectsEnabled="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffacacac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/label_receive_from_zinio" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/register_receive_from_partners_panel" android:background="#80000000" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                <CheckBox android:id="@id/register_receive_from_partners" android:background="@drawable/checkbox" android:layout_width="43.0dip" android:layout_height="36.0dip" android:button="@color/invisible" android:soundEffectsEnabled="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffacacac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/label_receive_from_partners" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/link_text_color" android:id="@id/register_terms_of_service" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="7.0dip" android:text="@string/terms_of_service_underlined" />
+        </LinearLayout>
+    </ScrollView>
+    <com.zinio.mobile.android.view.BottomToolbarActivity android:gravity="center" android:id="@id/bottom_toolbar_faq" android:background="@drawable/bottom_bar" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zinio.mobile.android.view.TransparentRelativePanel android:layout_gravity="right" android:id="@id/scroll_overlay" android:paddingTop="55.0dip" android:paddingBottom="45.0dip" android:visibility="gone" android:fadingEdgeLength="5.0px" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentRight="true" />
+        <Button android:textColor="#ffffffff" android:id="@id/faq_button" android:background="@drawable/button_cancel" android:focusable="false" android:layout_width="72.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/faq" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.zinio.mobile.android.view.BottomToolbarActivity>
+</RelativeLayout>

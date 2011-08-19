@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_share_holo_dark" android:id="@id/menu_share" android:title="@string/share" android:showAsAction="always|withText" />
+    <group android:id="@id/optional_icons">
+        <item android:icon="@drawable/ic_menu_favourite_holo_dark" android:id="@id/menu_favorite" android:title="@string/add_favorite" android:showAsAction="never" />
+        <item android:id="@id/menu_unfavorite" android:title="@string/remove_favorite" android:showAsAction="never" />
+        <item android:icon="@drawable/ic_menu_add_queue_holo_dark" android:id="@id/menu_save" android:title="@string/save_to_playlist" android:showAsAction="never" />
+        <item android:icon="@drawable/copy_url_drawable" android:id="@id/menu_copyurl" android:title="@string/copy_url_button_text" android:showAsAction="never" />
+        <item android:icon="@drawable/ic_menu_flag_holo_dark" android:id="@id/menu_flag" android:title="@string/flag" android:showAsAction="never" />
+    </group>
+</menu>

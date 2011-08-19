@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/cart_icon" android:id="@id/lib_menu_store" android:title="@string/lib_menu_store" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_menu_list" android:id="@id/lib_menu_view" android:title="string/lib_menu_view" android:showAsAction="ifRoom">
+        <menu>
+            <group android:id="@id/lib_menu_view_group" android:checkableBehavior="single">
+                <item android:icon="@drawable/ic_menu_list" android:id="@id/lib_menu_list" android:title="@string/lib_menu_list" android:showAsAction="ifRoom" />
+                <item android:icon="@drawable/ic_menu_grid" android:id="@id/lib_menu_grid" android:title="@string/lib_menu_grid" android:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@id/lib_menu_search" android:title="@string/lib_menu_search" android:showAsAction="ifRoom" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/lib_menu_sync" android:title="@string/lib_menu_sync_check" />
+    <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@id/lib_menu_sort_parent" android:title="@string/lib_menu_sort_recent">
+        <menu>
+            <group android:id="@id/lib_menu_sort_group" android:checkableBehavior="single">
+                <item android:id="@id/lib_menu_sort_recent" android:title="@string/sortby_recent_option" android:showAsAction="ifRoom" />
+                <item android:id="@id/lib_menu_sort_title" android:title="@string/sortby_title_option" android:showAsAction="ifRoom" />
+                <item android:id="@id/lib_menu_sort_author" android:title="@string/sortby_author_option" android:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@id/lib_menu_settings" android:title="@string/lib_menu_settings" />
+    <item android:id="@id/lib_menu_help" android:title="@string/lib_menu_help" />
+    <item android:id="@id/lib_menu_feedback" android:title="@string/lib_menu_feedback" />
+    <item android:id="@id/lib_menu_delete" android:title="@string/lib_menu_delete" />
+    <item android:id="@id/lib_menu_info" android:title="@string/lib_menu_info" />
+</menu>

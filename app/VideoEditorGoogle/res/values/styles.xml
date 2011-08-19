@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme" />
+    <style name="VideoEditorActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">useLogo|showHome</item>
+    </style>
+    <style name="Theme.VideoEditorHolo" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/activity_background</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/VideoEditorActionBarStyle</item>
+    </style>
+    <style name="media_timeline_item">
+        <item name="android:background">@drawable/timeline_item_selector</item>
+        <item name="android:paddingLeft">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:longClickable">true</item>
+    </style>
+    <style name="transition_timeline_item">
+        <item name="android:background">@drawable/transition_item_selector</item>
+        <item name="android:paddingLeft">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:longClickable">true</item>
+    </style>
+    <style name="overlay_timeline_item">
+        <item name="android:background">@drawable/timeline_item_selector</item>
+        <item name="android:paddingLeft">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:longClickable">true</item>
+    </style>
+    <style name="audio_timeline_item">
+        <item name="android:background">@drawable/timeline_transparent_normal_item_selector</item>
+        <item name="android:paddingLeft">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/timelime_item_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/timelime_item_vertical_padding</item>
+        <item name="android:longClickable">true</item>
+    </style>
+</resources>

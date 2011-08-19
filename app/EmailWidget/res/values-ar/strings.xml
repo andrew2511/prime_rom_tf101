@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="single_mail">رسائل</string>
+    <string name="multiple_mails">رسالة</string>
+    <string name="go_to">ذهاب للوارد</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ダウンロードマネージャー</string>
+    <string name="permlab_downloadManager">ダウンロードマネージャーにアクセスします。</string>
+    <string name="permdesc_downloadManager">ダウンロードマネージャーにアクセスしてファイルをダウンロードすることをアプリケーションに許可します。悪意のあるアプリケーションがこれを利用して、ダウンロードに深刻な影響を与えたり、個人データにアクセスしたりする恐れがあり。</string>
+    <string name="permlab_downloadManagerAdvanced">ダウンロードマネージャーの高度な機能です。</string>
+    <string name="permdesc_downloadManagerAdvanced">ダウンロードマネージャーの高度な機能にアプリケーションからアクセスできるようにします。これにより、悪意のあるアプリケーションがダウンロードに深刻な影響を与えたり個人情報にアクセスしたりできるようになります。</string>
+    <string name="permlab_downloadCompletedIntent">ダウンロード通知を送信します。</string>
+    <string name="permdesc_downloadCompletedIntent">ダウンロード完了の通知の送信をアプリケーションに許可します。悪意のあるアプリケーションがファイルをダウンロードする他のアプリケーションの処理を妨害する恐れがあります。</string>
+    <string name="permdesc_seeAllExternal">どのアプリケーションでダウンロードされたかにかかわらず、SDカードにダウンロードされたすべてのファイルの参照をアプリケーションに許可します。</string>
+    <string name="permlab_downloadCacheNonPurgeable">ダウンロードキャッシュの領域を予約</string>
+    <string name="permdesc_downloadCacheNonPurgeable">ダウンロードマネージャーで領域が不足しているときに、自動的に削除できないダウンロードキャッシュへのファイルのダウンロードをアプリケーションに許可します。</string>
+    <string name="permlab_downloadWithoutNotification">通知なしでファイルをダウンロードする</string>
+    <string name="permdesc_downloadWithoutNotification">ユーザー通知なしでのダウンロードマネージャー経由のファイルのダウンロードをアプリケーションに許可します。</string>
+    <string name="permlab_accessAllDownloads">すべてのシステムダウンロードにアクセス</string>
+    <string name="permdesc_accessAllDownloads">システム上のアプリケーションによるすべてのダウンロードの表示と変更をアプリケーションに許可します。</string>
+    <string name="download_unknown_title">&lt;無題></string>
+    <string name="notification_filename_separator">"、 "</string>
+    <string name="notification_filename_extras">" その他%d件"</string>
+    <string name="notification_download_complete">ダウンロード完了</string>
+    <string name="notification_download_failed">ダウンロードに失敗しました</string>
+    <string name="notification_need_wifi_for_size">Wi-Fiが必要なサイズです</string>
+    <string name="wifi_required_title">ダウンロードするサイズが大きすぎます</string>
+    <string name="wifi_required_body" formatted="false">"この%s のダウンロードを完了するにはWi-Fi接続が必要です。
+
+次にWi-Fiネットワークに接続したときに%s をタップしてこのダウンロードを開始してください。"</string>
+    <string name="wifi_recommended_title">キューに登録して後でダウンロードしますか？</string>
+    <string name="wifi_recommended_body" formatted="false">"この%s のダウンロードを開始すると電池消費量が増えたり、データ通信量が増えてご契約の通信プランによっては携帯通信会社の料金が発生したりする場合があります。
+
+次にWi-Fiネットワークに接続したときに下の%sをタップしてこのダウンロードを開始してください。"</string>
+    <string name="button_queue_for_wifi">キューに登録</string>
+    <string name="button_cancel_download">キャンセル</string>
+    <string name="button_start_now">今すぐ開始</string>
+</resources>

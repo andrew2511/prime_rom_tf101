@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/title_bar_background</item>
+    </style>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">43.0dip</item>
+        <item name="android:layout_span">2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_span">2</item>
+    </style>
+    <style name="ListHeaderTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3c3c3c</item>
+    </style>
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <style name="ScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="HorizontalScrollView" parent="@android:style/WindowTitleBackground">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+    <style name="ProgressBarHorizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
+        <item name="android:minHeight">2.0dip</item>
+    </style>
+    <style name="ProgressBarHorizontalThick" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">6.0dip</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
+        <item name="android:minHeight">6.0dip</item>
+    </style>
+    <style name="ZinioDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/invisible</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ZinioDialogText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffafafaf</item>
+        <item name="android:lineSpacingExtra">5.0sp</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="ZinioAppTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">10.0sp</item>
+        <item name="android:layout_span">2</item>
+    </style>
+    <style name="ZinioBlack" parent="@android:style/Theme.Black">
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scroll_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_vertical</item>
+        <item name="android:scrollbarTrackHorizontal">@null</item>
+        <item name="android:scrollbarTrackVertical">@null</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHorizontal</item>
+        <item name="android:scrollViewStyle">@style/ScrollView</item>
+        <item name="android:textViewStyle">@style/ZinioAppTitle</item>
+        <item name="android:horizontalScrollViewStyle">@style/HorizontalScrollView</item>
+    </style>
+    <style name="ZinioBlack.NoTitleBar" parent="@style/ZinioBlack">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

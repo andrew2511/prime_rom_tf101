@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/article_list_side_padding" android:paddingTop="9.0dip" android:paddingRight="@dimen/article_list_side_padding" android:paddingBottom="14.0dip" style="@style/fill_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/periodical_title_image" android:paddingBottom="9.0dip" style="@style/periodical_header" />
+    <TextView android:layout_gravity="center" android:id="@id/periodical_title_text" android:visibility="gone" style="@style/periodical_header_title" />
+    <TextView android:layout_gravity="center" android:id="@id/periodical_title_date" style="@style/periodical_header" />
+</LinearLayout>

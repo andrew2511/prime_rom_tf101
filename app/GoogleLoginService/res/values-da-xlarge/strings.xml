@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Udført</string>
+    <string name="username">E-mail</string>
+    <string name="captcha_message_string">For mange forkerte forsøg.</string>
+    <string name="signed_in">Login er gennemført</string>
+    <string name="account_linked_message">Er logget på %s og synkroniserer data.</string>
+    <string name="account_setup_title">Google-konto</string>
+    <string name="account_created_message">Nyoprettet konto: %s</string>
+    <string name="login_activity_title">Log ind med din Google-konto</string>
+    <string name="show_error_activity_title">Der opstod en fejl ved login på Google-konto</string>
+    <string name="login_activity_task_title">Logger ind...</string>
+    <string name="sync_intro_activity_title_first_account">Sikkerhedskopiering og gendannelse</string>
+    <string name="sync_intro_activity_title_first_created_account">Konto er oprettet</string>
+    <string name="sync_intro_activity_title">Kontologin er gennemført</string>
+</resources>

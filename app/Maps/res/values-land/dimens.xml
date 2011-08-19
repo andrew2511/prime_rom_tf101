@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="da_top_bar_height">48.0dip</dimen>
+    <dimen name="da_route_selector_height">62.0dip</dimen>
+    <dimen name="da_turn_layout_height">88.0dip</dimen>
+    <dimen name="da_compass_offset_with_turn_y">44.0dip</dimen>
+    <dimen name="da_status_message_text">28.0dip</dimen>
+    <dimen name="da_step_description_big_text">28.0dip</dimen>
+    <dimen name="da_camera_positioner_bottom_margin">0.0dip</dimen>
+    <dimen name="da_road_name_offset_from_center">20.0dip</dimen>
+    <dimen name="vs_recognition_dialog_marginTop">5.0dip</dimen>
+    <dimen name="vs_spinner_marginTop">91.0dip</dimen>
+    <dimen name="vs_help_dialog_marginTop">0.0dip</dimen>
+    <dimen name="vs_bubble_height">160.0dip</dimen>
+    <dimen name="vs_bubble_dialog_height">220.0dip</dimen>
+    <dimen name="vs_help_action_area_height">100.0dip</dimen>
+</resources>

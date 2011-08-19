@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Güncelleme Başlatıcı</string>
+    <string name="TITLE_DETECTED">Sistem Güncelleme Dosyası Algılandı</string>
+    <string name="TITLE_SYSTEM_UPDATE">Sistem Güncelleme</string>
+    <string name="BUTTON_OK">Tamam</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">Sistem Güncellemesi Mevcut</string>
+    <string name="MSG_PRELIMINARY">"Sistem Güncellemesi yaklaşık 10 dakika sürecek. Güncelleme sırasında acil aramalar da dahil olmak üzere aygıtınızı kullanamayacaksınız.
+
+Lütfen güç kablosunu bağlayın veya pil ömrünün en az %15 olduğundan emin olun.
+
+Sistem güncellemesine devam edilsin mi?"</string>
+    <string name="BUTTON_CANCEL">İptal</string>
+    <string name="MSG_RESUME">Sistem güncellemesini başlatmak için dokunun.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Sistem Güncellemesi Sonlandırıldı</string>
+    <string name="MSG_UPDATE_DONE">Sistem başarılı bir şekilde güncellendi.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Güncelleme dosyası yok.</string>
+    <string name="MSG_UPDATE_FAIL">Sistem güncellemesi başarısız oldu.</string>
+    <string name="MSG_UPDATE_RESTORE">Sistem önceki yapılandırmasına geri yüklendi</string>
+    <string name="MSG_BATTERY_LOW">"Sistem güncelleme işlemi düşük pil nedeniyle durduruldu.
+
+Lütfen sistem güncellemesinden önce güç kablosunu bağlayın."</string>
+    <string name="TITLE_SELECT_FILE">Güncelleme Paketini seçin</string>
+    <string name="MSG_UPDATE_FAIL_SKU">"Güncellenen paket mevcut yazılımınız ile uyumlu değil, lütfen yazılım sürümünüzü ve sürüm numaranızı Ayarlar'dan kontrol edin ve doğru güncelleme paketini deneyin."</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Güncelleme paketi mevcut yazılım sürümünüzden eski, lütfen daha yeni bir güncelleme paketi deneyin.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Bilinmeyen hata.</string>
+</resources>

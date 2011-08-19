@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/search_item" android:showAsAction="always" android:actionLayout="@layout/expanded_search_view_holder" />
+    <item android:id="@id/accounts_item" android:title="@string/menu_switch_accounts" />
+    <item android:id="@id/clear_search_history_item" android:title="@string/menu_clear_search_history" />
+    <item android:id="@id/my_collection" android:title="@string/menu_my_apps" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/share_item" android:title="@string/menu_share" android:showAsAction="always" />
+    <item android:id="@id/purchase_history" android:title="@string/menu_purchase_history" />
+    <item android:id="@id/content_filter" android:title="@string/menu_content_filter" />
+    <item android:id="@id/help" android:title="@string/menu_help" />
+    <item android:id="@id/contact_us" android:title="@string/menu_contact_us" />
+    <group>
+        <item android:id="@id/clear_cache_item" android:visible="false" android:title="@string/menu_clear_cache" />
+    </group>
+</menu>

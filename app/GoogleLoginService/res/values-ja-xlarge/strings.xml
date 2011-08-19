@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">完了</string>
+    <string name="username">メール</string>
+    <string name="captcha_message_string">所定の回数以上失敗しました。</string>
+    <string name="signed_in">ログインしました</string>
+    <string name="account_linked_message">%sにログインしてデータを同期しています。</string>
+    <string name="account_setup_title">Googleアカウント</string>
+    <string name="account_created_message">新しいアカウントが作成されました: %s</string>
+    <string name="login_activity_title">Googleアカウントでログイン</string>
+    <string name="show_error_activity_title">Googleアカウントのログインエラー</string>
+    <string name="login_activity_task_title">ログイン中...</string>
+    <string name="sync_intro_activity_title_first_account">バックアップと復元</string>
+    <string name="sync_intro_activity_title_first_created_account">アカウントが作成されました</string>
+    <string name="sync_intro_activity_title">アカウントにログインしました</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_font_size">12.0dip</dimen>
+    <dimen name="small_font_size">13.0dip</dimen>
+    <dimen name="medium_font_size">15.0dip</dimen>
+    <dimen name="large_font_size">17.0dip</dimen>
+    <dimen name="extra_large_font_size">20.0sp</dimen>
+    <dimen name="channel_sidebar_top_margin">16.0dip</dimen>
+    <dimen name="channel_grid_top_margin">2.0dip</dimen>
+    <dimen name="subscription_padding_left">80.0dip</dimen>
+    <dimen name="subscription_margin_left">48.0dip</dimen>
+    <dimen name="watch_side_margin">16.0dip</dimen>
+    <dimen name="watch_top_margin">8.0dip</dimen>
+</resources>

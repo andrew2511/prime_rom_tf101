@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hotpot_content_panel" android:background="@drawable/hotpot_widget_bg_open" android:layout_width="300.0dip" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/hotpot_counter_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include layout="@layout/hotpot_widget_counter" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/hotpot_counter_container">
+            <include layout="@layout/hotpot_widget_rate_panel" />
+        </FrameLayout>
+        <FrameLayout android:layoutAnimation="@anim/hotpot_widget_slide_out_to_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/hotpot_counter_container">
+            <include layout="@layout/hotpot_widget_place_panel" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

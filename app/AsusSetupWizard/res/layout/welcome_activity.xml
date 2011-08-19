@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_root" android:background="@drawable/setups_bg_welcome" android:paddingBottom="96.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="38.0dip" android:textColor="#ff99cc00" android:id="@id/title" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/welecome_title" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0dip" android:id="@id/localepicker" android:layout_width="288.0dip" android:layout_height="48.0dip" style="?android:attr/dropDownSpinnerStyle" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0dip" android:id="@id/layout_start" android:background="@drawable/btn_arrow_holo_dark" android:layout_width="178.0dip" android:layout_height="48.0dip" android:layout_marginLeft="48.0dip" android:text="@string/btn_start_text" />
+    </LinearLayout>
+</LinearLayout>

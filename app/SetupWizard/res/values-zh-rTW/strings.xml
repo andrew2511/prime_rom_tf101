@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">歡迎使用 ^1</string>
+    <string name="welcome_message_tablet">歡迎使用</string>
+    <string name="setup_wizard_title">設定精靈</string>
+    <string name="error_dialog_title">注意</string>
+    <string name="next_button_label">繼續</string>
+    <string name="back_button_label">返回</string>
+    <string name="skip_button_label">略過</string>
+    <string name="done">確定</string>
+    <string name="cancel_button_label">取消</string>
+    <string name="retry_button_label">重試</string>
+    <string name="done_button_label">完成設定</string>
+    <string name="try_again_button_label">再試一次</string>
+    <string name="close_button_label">關閉</string>
+    <string name="edit_text_help">輕觸任何文字方塊即可開始輸入</string>
+    <string name="add_a_google_account">新增 Google 帳戶</string>
+    <string name="add_apn">無線網路設定</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="setup_device_title">設定您的 ^1</string>
+    <string name="open_keyboard_message_to_continue">滑開鍵盤以繼續。</string>
+    <string name="emergency_dial">緊急撥號</string>
+    <string name="change_language">變更語言</string>
+    <string name="close_keyboard_message">推回鍵盤以繼續。</string>
+    <string name="is_not_available"><b>^1</b> 無法使用。</string>
+    <string name="hint_size"><b>^1</b> 包含少於 6 個字元或超過 30 個字元。</string>
+    <string name="hint_numbers_only"><b>^1</b> 不包含字母。</string>
+    <string name="hint_illegal_chars"><b>^1</b>" 只能使用字母、
+數字與句點。"</string>
+    <string name="android_privacy_policy_title">其他隱私權政策</string>
+    <string name="google_terms_of_service_title">Google 服務條款</string>
+    <string name="google_privacy_policy_title">Google 隱私權政策</string>
+    <string name="url_load_unsuccessful_message">您的手機尚未建立行動數據傳輸服務連線。如要查看這項資訊，請透過網路瀏覽器前往 %s。</string>
+    <string name="restore_disable">停用還原功能</string>
+    <string name="restore_enable">啟用還原功能</string>
+    <string name="restore_enabled">如果您先前已備份設定，系統將會予以還原。</string>
+    <string name="restore_disabled">無法從備份資料還原您的設定。</string>
+    <string name="webview_progress_title">正在連線到網域...</string>
+    <string name="webview_progress_verbose_message">"貴公司的伺服器正在傳送登入資訊至您的手機，請稍候數分鐘。
+傳送程序完成後，即會顯示貴公司的登入網頁。"</string>
+    <string name="enterprise_unmanaged_domain">這個網域並未使用「Google 應用服務」，請檢查網域名稱，然後再試一次。</string>
+    <string name="backup_and_restore">備份與還原</string>
+    <string name="you_can_use_your_google_account">您可以使用自己的「Google 帳戶」來備份應用程式、設定 (例如書籤與 Wi-Fi 密碼) 及其他資料。如果您之前曾使用這個帳戶進行備份，則可立即將備份內容還原至這個裝置。</string>
+    <string name="restore_from_my_google_account">從我的「Google 帳戶」還原至這個裝置</string>
+    <string name="keep_this_device_backed_up">使用我的「Google 帳戶」備份這個裝置上的資料</string>
+    <string name="touch_to_begin">按一下 android 開始。</string>
+    <string name="delayed_gaia_agreement">如果您繼續接下來的步驟，即表示您同意 <annotation id="google_privacy">Google</annotation> 隱私權政策和<annotation id="android_privacy">其他</annotation>的隱私權政策。</string>
+    <string name="select_language">語言：</string>
+    <string name="start">開始安裝</string>
+    <string name="activation_title">啟用行動數據傳輸服務</string>
+    <string name="activation_title_searching">正在搜尋服務...</string>
+    <string name="activation_title_activating">正在啟用 %s...</string>
+    <string name="activation_default_network_name">行動網路</string>
+    <string name="activation_text">"輕觸 [啟用] 立即啟用您的行動服務 (可能需要幾分鐘的時間)，
+
+或輕觸 [略過] 將手機設為使用 Wi-Fi 連線。"</string>
+    <string name="activation_text_standalone">輕觸 [啟用] 立即啟用您的行動服務 (可能需要幾分鐘的時間)。</string>
+    <string name="activation_title_confirm_skip">略過行動數據傳輸服務啟用程序？</string>
+    <string name="activation_skip_confirmation">"您確定要繼續進行操作，而不啟用行動數據傳輸服務嗎？
+
+如果確定要這麼做，則必須在下一個步驟中連上 Wi-Fi 網路。"</string>
+    <string name="activation_continue_skip_label">繼續</string>
+    <string name="activation_button_label">啟用</string>
+    <string name="activation_progress_before_connect">輕觸 [略過] 改用 Wi-Fi 連線完成設定。</string>
+    <string name="activation_progress">啟用程序需要幾分鐘的時間才能完成。您可以輕觸 [略過] 改用 Wi-Fi 連線完成設定程序。</string>
+    <string name="activation_progress_before_connect_standalone">啟用程序可能需要幾分鐘的時間才能完成。</string>
+    <string name="activation_progress_standalone">啟用程序可能需要幾分鐘的時間才能完成。</string>
+    <string name="activation_success_title">啟用程序完成</string>
+    <string name="activation_success_text">輕觸 [繼續] 開始進行設定。</string>
+    <string name="activation_success_text_standalone">"輕觸 [下一步] 即可繼續。
+
+啟用成功，但可能需要幾分鐘的時間才能連上行動數據網路。"</string>
+    <string name="activation_failure_title">啟用失敗</string>
+    <string name="activation_failure_text">"無法啟用行動數據傳輸服務。如要重試，請輕觸 [返回]。
+
+輕觸 [繼續] 將使用 Wi-Fi 連線進行設定。
+
+之後您可以從 [設定] 下的 [無線與網路] > [行動網路] 啟用行動數據傳輸服務。"</string>
+    <string name="activation_failure_text_standalone">"無法啟用行動數據傳輸服務。如要重新啟用，請輕觸 [再試一次]。
+
+之後您可以在 [設定] 的 [無線與網路] > [行動網路] 中啟用行動數據傳輸服務。"</string>
+    <string name="activation_cancel_title">已要求取消</string>
+    <string name="activation_cancel_text">正在取消啟用程序... 這可能需要 5 至 10 秒的時間。</string>
+    <string name="activation_canceled_title">已取消啟用程序</string>
+    <string name="activation_canceled_text">"您確定要取消啟用程序嗎？您必須先啟用行動網路傳輸服務，才能藉此連上網際網路。如要重試啟用程序，請輕觸 [返回]。
+
+輕觸 [繼續] 可完成設定程序，改用 Wi-Fi 連線。
+
+您日後可在 [設定] 中的 "<b>[無線與網路] > [行動網路]</b> 啟用行動網路傳輸服務。</string>
+    <string name="activation_canceled_text_standalone">"已取消啟用程序。
+
+稍後需要時，可以在 [設定] 的 [無線與網路] > [行動網路] 中啟用行動數據傳輸服務。"</string>
+    <string name="activation_spc_failure_text">"由於發生錯誤，您必須先關閉手機然後重新開機，才能完成啟用程序。手機將於 60 秒後自動關機，您也可以輕觸 [現在關機]。
+
+手機關機後，請按下 [電源] 按鈕重新開機。"</string>
+    <string name="shutdown_button_label">現在關機</string>
+    <string name="notification_update_title">您的帳戶已更新</string>
+    <string name="notification_update_message">輕觸此處重新執行設定精靈</string>
+    <string name="location_sharing_title">使用 Google 的定位服務</string>
+    <string name="location_sharing_message">Google 的定位服務會透過 Wi-Fi 和行動網路 (無需透過 GPS)，將您的概略位置提供給應用程式。您日後可以在 [位置與安全性] 中或「Google 搜尋」設定中變更這些設定。</string>
+    <string name="yes_agree">使用 Wi-Fi 和行動網路來判定我的位置。這會允許 Google 的定位服務收集匿名位置資料，即使您的裝置並未執行任何應用程式，仍會收集這些匿名資料。</string>
+    <string name="explain_yes_agree">允許 Google 的定位服務收集匿名位置資料。即使您的裝置並未執行任何應用程式，仍會收集這些匿名資料。</string>
+    <string name="yes_agree_use_location">讓「Google 搜尋」結果和其他 Google 服務使用「我的位置」資訊，以增進服務效能。</string>
+    <string name="explain_yes_agree_use_location">允許 Google 使用位置資訊來改善搜尋結果等服務。</string>
+</resources>

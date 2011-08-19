@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="#ffffffff" android:id="@id/textview_tbbtn_page" android:background="@drawable/but_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_page" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onBackToPageBtnClicked" />
+        <ImageView android:id="@id/textview_tbbtn_next" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onShowNextBtnClicked" />
+        <ImageView android:id="@id/textview_tbbtn_toc" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_toc" android:layout_toLeftOf="@id/textview_tbbtn_next" android:layout_centerVertical="true" android:onClick="onTOCBtnClicked" />
+        <ImageView android:id="@id/textview_tbbtn_prev" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_prev" android:layout_toLeftOf="@id/textview_tbbtn_toc" android:layout_centerVertical="true" android:onClick="onShowPrevBtnClicked" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/textview_tbbtn_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/btn_close" android:onClick="onCloseBtnClicked" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/textview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#ffffffff" android:shadowDy="1.0" android:shadowRadius="0.1" />
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/textview_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#ffffffff" android:shadowDy="1.0" android:shadowRadius="0.1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

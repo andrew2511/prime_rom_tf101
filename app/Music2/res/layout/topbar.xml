@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.music.TopBar android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/main_topbar" android:background="@drawable/titlebar_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/goBackView" android:background="@drawable/titlebar_btn" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_icon_padding" android:layout_marginRight="@dimen/home_icon_padding" android:src="@drawable/ic_launcher_musicplayer_small" android:scaleType="center" />
+    </LinearLayout>
+    <ImageButton android:id="@id/home_icon" android:background="@drawable/titlebar_btn" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/home_icon_padding" android:layout_marginRight="@dimen/home_icon_padding" android:src="@drawable/ic_launcher_musicplayer_small" android:scaleType="center" />
+    <EditText android:id="@id/search_field" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="500.0dip" android:minWidth="200.0dip" android:hint="@string/search_hint" android:singleLine="true" android:drawableLeft="@drawable/ic_context_menu_search_selected" android:layout_weight="1000.0" android:layout_centerVertical="true" android:inputType="textFilter" android:imeOptions="actionDone|flagNoExtractUi" />
+    <FrameLayout android:id="@id/modeselectorgroup" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left|center" android:id="@id/modeselector" android:background="@drawable/titlebar_btn" android:paddingLeft="7.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:minWidth="130.0dip" android:singleLine="true" android:drawableRight="@drawable/titlebar_pull_down_arrow" android:drawablePadding="16.0dip" style="@style/TextShadow" />
+    </FrameLayout>
+    <include layout="@layout/list_divider" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/music_library" android:singleLine="true" style="@style/TextShadow" />
+    <ImageButton android:id="@id/search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_context_menu_search_selected" android:layout_toLeftOf="@id/menu_button" android:layout_centerVertical="true" />
+    <View android:id="@id/topbar_placeholder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ProgressBar android:id="@id/sync_progress" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="32.0dip" android:indeterminate="true" />
+    <ToggleButton android:id="@id/toggle_button" android:background="@null" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="fill_parent" android:button="@drawable/toggle_btn" android:textOn="@null" android:textOff="@null" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/tracklistinggroup" android:background="@drawable/titlebar_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/list_divider" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_track_list" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/nowplayinggroup" android:background="@drawable/titlebar_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/list_divider" />
+        <com.google.android.music.widgets.NowPlayingAlbumArtImageView android:layout_gravity="center_vertical" android:id="@id/nowplayingicon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/donemanagemusicgroup" android:background="@drawable/titlebar_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/list_divider" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/donemanagemusic" android:layout_width="48.0dip" android:layout_height="26.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" android:text="@string/manage_done" />
+    </LinearLayout>
+</com.google.android.music.TopBar>

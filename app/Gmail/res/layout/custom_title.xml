@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/custom_title_root" android:background="@android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="?android:windowTitleSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title_left_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/title_right_text" android:layout_alignParentLeft="true" style="?android:attr/windowTitleStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/title_right_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/account_title_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <Button android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/account_title_button" android:background="@drawable/account_switcher_button" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.PreviewFrameLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/control_panel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/preview_border" android:background="@drawable/border_preview_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.FocusRectangle android:id="@id/focus_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:id="@id/zoom_ratio" android:layout_below="@id/review_control" android:layout_alignParentRight="true" style="@style/OnViewfinderLabel" />
+        <ImageView android:id="@id/onscreen_gps_indicator_no_signal" android:visibility="invisible" android:layout_margin="15.0dip" android:src="@drawable/ic_viewfinder_gps_no_signal" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/OnScreenGpsIndicator" />
+        <ImageView android:id="@id/onscreen_gps_indicator_on" android:visibility="invisible" android:layout_margin="15.0dip" android:src="@drawable/ic_viewfinder_gps_on" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/OnScreenGpsIndicator" />
+        <include layout="@layout/review_thumbnail" />
+        <include layout="@layout/review_control" />
+    </RelativeLayout>
+</com.android.camera.PreviewFrameLayout>

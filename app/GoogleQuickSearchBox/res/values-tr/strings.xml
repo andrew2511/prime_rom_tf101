@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google Arama</string>
+    <string name="remove_from_history">Arama geçmişinden kaldır</string>
+    <string name="remove_from_history_failed">Arama geçmişinden öğe kaldırma işlemi başarısız oldu</string>
+    <string name="menu_settings">Arama ayarları</string>
+    <string name="search_settings">Google Arama ayarları</string>
+    <string name="google_settings_category_title">Google Arama</string>
+    <string name="device_settings_category_title">Cihaz Arama</string>
+    <string name="search_sources">Aranabilir öğeler</string>
+    <string name="search_sources_summary">Telefonda ne aranacağını seçin</string>
+    <string name="clear_shortcuts">Kısayolları temizle</string>
+    <string name="clear_shortcuts_summary">Son seçilen arama önerilerinin kısayollarını temizle</string>
+    <string name="clear_shortcuts_prompt">"Bu, son seçilen arama önerilerinin kısayollarını temizler.
+
+(Tarayıcı geçmişinizi temizlemek için Tarayıcı ayarlarını kullanın.)"</string>
+    <string name="clear_shortcuts_agree">Kısayolları temizle</string>
+    <string name="clear_shortcuts_disagree">Kısayolları silme</string>
+    <string name="menu_help">Yardım</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_search_hint">Google Arama</string>
+    <string name="google_search_description">Google Arama önerileri</string>
+    <string name="first_run_title">Google Arama</string>
+    <string name="tos_button_text">Hizmet Şartlarını okuyun</string>
+    <string name="yes_agree_use_location">"Google Arama sonuçları ve diğer Google hizmetleri için Konumum'u kullan."</string>
+    <string name="first_run_tos">"Google Mobil Hizmet Şartları'na tabidir."</string>
+    <string name="use_location_title">"Konumum'u Kullan"</string>
+    <string name="search_history">Kişiselleştirilmiş arama</string>
+    <string name="search_history_summary_no_account">Yapılandırılmış hesap yok</string>
+    <string name="search_history_summary_enabled">%1$s için arama geçmişi ve diğer kişiselleştirmeler kullanılıyor</string>
+    <string name="search_history_summary_disabled">Arama geçmişi veya diğer kişiselleştirmeler kullanılmıyor</string>
+    <string name="manage_search_history">Arama geçmişini yönet</string>
+    <string name="manage_search_history_summary_no_account">Yapılandırılmış hesap yok</string>
+    <string name="manage_search_history_summary">Tarayıcıda %1$s olarak oturum aç ve Web Geçmişini etkinleştir</string>
+    <string name="select_google_account">Google Hesabı</string>
+    <string name="select_google_account_summary_no_accounts">Hiçbir hesap yapılandırılmadı</string>
+    <string name="settings_tos_title">Hizmet Şartları</string>
+    <string name="manage_search_history_authenticating_title">Oturum açma</string>
+    <string name="manage_search_history_authenticating_message">%1$s olarak oturum açılıyor...</string>
+    <string name="manage_search_history_authenticating_cancel">İptal</string>
+    <string name="use_google_com">Her zaman google.com adresini kullan</string>
+    <string name="current_search_base_url">%1$s kullanılıyor</string>
+    <string name="fetching_search_base_url">"Arama url'si alınıyor ..."</string>
+    <string name="use_psychic">"Anında Arama'yı etkinleştir"</string>
+    <string name="use_psychic_summary_on">Anında Arama açık (aramak için yazın)</string>
+    <string name="use_psychic_summary_off">Anında Arama kapalı (aramak için enter tuşuna basın)</string>
+    <string name="web_suggest_updating">güncelleniyor...</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+</resources>

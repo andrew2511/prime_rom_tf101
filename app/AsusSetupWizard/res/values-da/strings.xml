@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="internet_message">Internetforbindelse</string>
+    <string name="mobile_wifi_title">Mobilnetværk og Wi-Fi</string>
+    <string name="wifi_title">Kun Wi-Fi forbindelse</string>
+    <string name="setup_wizard_title">Opsætningsguide</string>
+    <string name="next_button_label">Næste</string>
+    <string name="welecome_title">Velkommen</string>
+    <string name="btn_start_text">Start</string>
+</resources>

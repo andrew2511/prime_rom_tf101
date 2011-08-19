@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">调制解调器固件更新成功</string>
+    <string name="update_fail">调制解调器固件更新失败</string>
+    <string name="update_quz">"系统更新需要约3至5分钟的时间，且电池电力至少要在15%以上。
+
+更新前请先确认电池电量。
+
+是否进行更新？"</string>
+    <string name="notify_title">Asus更新服务</string>
+    <string name="notify">检测到调制解调器固件更新文件</string>
+    <string name="warning_title">警告</string>
+    <string name="warning">"更新时请勿关闭设备电源。
+
+任何中断可能会造成系统丢失。
+
+是否进行更新？"</string>
+    <string name="battery_low">"系统更新需要至少15%的电池电力。
+
+更新前请先确认电池电量。"</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确认</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

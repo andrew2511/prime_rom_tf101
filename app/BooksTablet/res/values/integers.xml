@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="action_bar_anim_time">300</integer>
+    <integer name="action_bar_preview_time">3000</integer>
+</resources>

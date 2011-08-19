@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_success">Modemets inbyggnadsprogram har uppdaterats</string>
+    <string name="update_fail">Uppdateringen av modemets inbyggnadsprogram misslyckades</string>
+    <string name="update_quz" formatted="false">"Uppdateringsprocessen tar ungefär 3-5 minuter och kräver 15 % eller mer batteritid.
+
+Kontrollera att batteritiden är högre 15 % före uppdateringen.
+
+Vill du uppdatera ditt modems inbyggnadsprogram nu?"</string>
+    <string name="notify_title">Asus uppdateringsservice</string>
+    <string name="notify">Uppdatering av modemets inbyggnadsprogram finns tillgänglig.</string>
+    <string name="warning_title">Varning</string>
+    <string name="warning">"Stäng INTE av enheten under uppdatering.
+
+Alla oväntade avbrott orsakar oåterkallelig skada.
+
+Vill du uppdatera modemets inbyggnadsprogram nu?"</string>
+    <string name="battery_low" formatted="false">"Processen kräver 15 % eller mer batteritid.
+
+Kontrollera att batteritiden är högre än 15 % innan du börjar uppdatera."</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="ok">OK</string>
+    <string name="app_name">ModemUpdate</string>
+</resources>

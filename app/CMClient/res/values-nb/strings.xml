@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CM-klient</string>
+    <string name="minutes">minutter</string>
+    <string name="postpone">Utsett</string>
+    <string name="update">Oppdatering</string>
+    <string name="asus_received_title">Asus oppdateringsservice</string>
+    <string name="received_message">Ny oppdatering er tilgjengelig.</string>
+    <string name="firmware_update_title">Fastvareoppdatering</string>
+    <string name="firmware_update_fail">"Mislykket oppdatering.
+
+Enheten din gjenoppretter den originale konfigurasjonen."</string>
+    <string name="low_battery_title">Systemoppdateringen avsluttes</string>
+    <string name="low_battery_warning">"Systemet krever minst 50 % batterikapasitet for å kunne fortsette med systemoppdateringen.
+Lad batteriet før du oppdaterer systemet."</string>
+    <string name="confirmDownload_text1">Ønsker du å laste ned følgende systemoppgradering?</string>
+    <string name="confirmDownload_textok">Trykk på «Ja» for å godta denne oppdateringen.</string>
+    <string name="confirmDownload_textcancel">Trykk på «Nei» for å avslå denne oppdateringen.</string>
+    <string name="confirmDownload_textwifi">Vi anbefaler at du bruker et gratis WiFi-hotspot eller et ubegrenset abonnement for nedlasting av denne oppdateringen.</string>
+    <string name="confirmDownload_textwifi2">I motsatt fall kan du bli belastet for tilkoplingen.</string>
+    <string name="btn_text_later">Senere</string>
+    <string name="confirmDownload_dialog_title">Forsiktig, du bruker telefonen i utlandet.</string>
+    <string name="update_dialog_text">"En ny programvareoppdatering for telefonen din er blitt lastet ned. Installere nå? 
+"</string>
+    <string name="downloading">Fastvare lastes ned ...</string>
+    <string name="install_time">Anslått installeringstid:</string>
+    <string name="install">Installer</string>
+    <string name="received_ticker">Ny oppdatering er tilgjengelig.</string>
+    <string name="dl_received_ticker">Ny oppdatering er tilgjengelig.</string>
+    <string name="dl_received_message">En oppdatering finnes, trykk her for å laste ned.</string>
+    <string name="postponetime_text">Utsettelsestid:</string>
+    <string name="reach_max_net_fail">Nedlasting fra server avbrutt, prøv igjen senere.</string>
+    <string name="dlg_title_checking">Sikkerhetskontroll.</string>
+    <string name="dlg_msg_checking">Kontrollerer om fastvarefilen er komplett.</string>
+    <string name="cannot_set_to_browser">Kan ikke stille inn nettleser.</string>
+    <string name="upgrade_error">Oppgraderingsfeil, last ned oppgraderingspakken igjen.</string>
+    <string name="start_to_download">Begynn å laste ned den kritiske oppdateringspakken.</string>
+    <string name="start_to_upgrade">Begynn å oppgradere oppdateringspakken.</string>
+    <string name="Start_NI_DmSession">Nettverk første DM-økt, godta?</string>
+    <string name="prepare_dm_download">Forbereder nedlasting ...</string>
+    <string name="download_finished">Fastvarenedlasting ferdig ...</string>
+    <string name="download_notification_title">T-Mobile oppdateringsservice</string>
+    <string name="download_in_progress">Nedlasting av ny fastvare pågår</string>
+    <string name="out_of_mem_warning">"Ikke nok ledig plass på telefonen.
+Avinstaller noen applikasjoner og prøv igjen."</string>
+    <string name="btn_register">registrerer C2DM</string>
+    <string name="btn_unregister">avregistrerer C2DM</string>
+    <string name="ui_alert_input_hint">Skriv inn tekst</string>
+    <string name="ui_alert_input_numeric_hint">Skriv inn tall</string>
+    <string name="ui_alert_input_phone_number_hint">Telefonnummer</string>
+</resources>

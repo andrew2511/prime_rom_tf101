@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spouštěč aktualizace</string>
+    <string name="TITLE_DETECTED">Detekován soubor aktualizace systému</string>
+    <string name="TITLE_SYSTEM_UPDATE">Aktualizace systému</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="TITLE_SYSTEM_UPDATE_IS_AVAILABLE">K dispozici je aktualizace systému</string>
+    <string name="MSG_PRELIMINARY">"Aktualizace systému trvá přibližně 10 minut. Během aktualizace nebudete moci zařízení používat, ani k nouzovému volání.
+
+Připojte napájecí kabel nebo nabijte baterii nejméně na 15%.
+
+Chcete zahájit aktualizaci systému?"</string>
+    <string name="BUTTON_CANCEL">Zrušit</string>
+    <string name="MSG_RESUME">Klepnutím sem spustíte aktualizací systému.</string>
+    <string name="TITLE_SYSTEM_UPDATE_STOPPED">Aktualizace systému ukončena</string>
+    <string name="MSG_UPDATE_DONE">Systém byl úspěšně aktualizován.</string>
+    <string name="MSG_UPDATE_PKG_NOEXIST">Soubor aktualizace neexistuje.</string>
+    <string name="MSG_UPDATE_FAIL">Aktualizace systému selhala.</string>
+    <string name="MSG_UPDATE_RESTORE">Byla obnovena předchozí konfigurace systému.</string>
+    <string name="MSG_BATTERY_LOW">"Proces aktualizace systému se zastavil kvůli vybité baterii.
+
+Připojte napájecí kabel a poté aktualizujte systém."</string>
+    <string name="TITLE_SELECT_FILE">Vybrat balíček aktualizace</string>
+    <string name="MSG_UPDATE_FAIL_SKU">Tento aktualizační balíček není kompatibilní s vaším aktuálním softwarem, zkontrolujte verzi vašeho softwaru a číslo verze v Nastaveních a pokuste se opravit aktualizační balíček.</string>
+    <string name="MSG_UPDATE_FAIL_DOWNGRADE">Aktualizační balíček je starší, než aktuální verze vašeho softwaru, použijte novější aktualizační balíček.</string>
+    <string name="MSG_UPDATE_FAIL_UNKNOWN">Neznámá chyba.</string>
+</resources>

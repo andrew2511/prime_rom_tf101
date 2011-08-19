@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screenshot">螢幕截圖</string>
+    <string name="screenshot_dialog_message">螢幕截圖已儲存，繼續螢幕截圖模式？</string>
+    <string name="screenshot_dialog_yes">是</string>
+    <string name="screenshot_dialog_no">否</string>
+    <string name="screenshot_toast_message_saved">螢幕截圖已儲存</string>
+    <string name="screenshot_toast_message_failed">螢幕截圖在檔案傳輸模式下無法儲存</string>
+    <string name="screenshot_toast_message_failed_save">螢幕截圖無法儲存</string>
+    <string name="screenshot_toast_message_full">記憶體容量不足，螢幕截圖無法儲存。</string>
+</resources>

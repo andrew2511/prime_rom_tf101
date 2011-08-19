@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <include latin:keyboardLayout="@xml/kbd_key_styles" />
+    <Row latin:keyWidth="7.579005%p">
+        <Key latin:keyWidth="7.968998%p" latin:keyEdgeFlags="left" latin:keyLabelOption="alignLeft" latin:keyStyle="tabKeyStyle" />
+        <Key latin:keyLabel="й" />
+        <Key latin:keyLabel="ц" />
+        <Key latin:keyLabel="у" />
+        <Key latin:keyLabel="к" />
+        <Key latin:popupCharacters="@string/alternates_for_cyrillic_e" latin:keyLabel="е" />
+        <Key latin:keyLabel="н" />
+        <Key latin:keyLabel="г" />
+        <Key latin:keyLabel="ш" />
+        <Key latin:keyLabel="щ" />
+        <Key latin:keyLabel="з" />
+        <Key latin:keyLabel="х" />
+        <Key latin:keyWidth="-9.219003%p" latin:keyEdgeFlags="right" latin:keyStyle="deleteKeyStyle" latin:keyXPos="-9.219003%p" />
+    </Row>
+    <Row latin:keyWidth="7.500005%p">
+        <Key latin:keyWidth="9.219003%p" latin:keyEdgeFlags="left" latin:keyLabelOption="alignLeft" latin:keyStyle="toSymbolKeyStyle" />
+        <Key latin:keyLabel="ф" />
+        <Key latin:keyLabel="ы" />
+        <Key latin:keyLabel="в" />
+        <Key latin:keyLabel="а" />
+        <Key latin:keyLabel="п" />
+        <Key latin:keyLabel="р" />
+        <Key latin:keyLabel="о" />
+        <Key latin:keyLabel="л" />
+        <Key latin:keyLabel="д" />
+        <Key latin:keyLabel="ж" />
+        <Key latin:keyLabel="э" />
+        <Key latin:keyWidth="-15.704%p" latin:keyEdgeFlags="right" latin:keyStyle="returnKeyStyle" latin:keyXPos="-15.704%p" />
+    </Row>
+    <Row latin:keyWidth="7.500005%p">
+        <Key latin:keyWidth="12.399996%p" latin:keyEdgeFlags="left" latin:keyStyle="shiftKeyStyle" />
+        <Key latin:keyLabel="я" />
+        <Key latin:keyLabel="ч" />
+        <Key latin:keyLabel="с" />
+        <Key latin:keyLabel="м" />
+        <Key latin:keyLabel="и" />
+        <Key latin:keyLabel="т" />
+        <Key latin:popupCharacters="@string/alternates_for_cyrillic_soft_sign" latin:keyLabel="ь" />
+        <Key latin:keyLabel="б" />
+        <Key latin:keyLabel="ю" />
+        <Key latin:popupCharacters="," latin:keyLabel="." latin:manualTemporaryUpperCaseCode="44" latin:keyHintIcon="@drawable/key_hint_comma_holo" latin:manualTemporaryUpperCaseHintIcon="@drawable/key_hint_comma_large_holo" />
+        <Key latin:keyWidth="-13.750005%p" latin:keyEdgeFlags="right" latin:keyStyle="shiftKeyStyle" latin:keyXPos="-13.750005%p" />
+    </Row>
+    <include latin:keyboardLayout="@xml/kbd_qwerty_row4" />
+</merge>

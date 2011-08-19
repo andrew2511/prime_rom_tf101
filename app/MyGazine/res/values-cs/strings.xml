@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_title_str">WEB</string>
+    <string name="music_title_str">HUDBA</string>
+    <string name="web_tag_str">Žádné URL</string>
+    <string name="music_tag_album">Žádné album</string>
+    <string name="music_tag_song">Žádná skladba</string>
+    <string name="music_tag_artist">Žádný interpret</string>
+    <string name="date_text_str">Žádné datum</string>
+    <string name="cal_event_str">Žádná poslední událost</string>
+    <string name="weather_info_str">Žádné informace o počasí</string>
+    <string name="weather_content_str">Žádný obsah počasí</string>
+    <string name="photo_date_str">Žádné datum fotografie</string>
+    <string name="miles_per_hour">míle/h</string>
+    <string name="windspeed">Vítr VSV</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="email_unit">E-maily</string>
+    <string name="email_unit_single">E-mail</string>
+    <string name="event_unit">Události</string>
+    <string name="event_unit_single">Událost</string>
+    <string name="book_unit">Knihy</string>
+    <string name="book_unit_single">Kniha</string>
+    <string name="weather_city_str">Žádné město</string>
+    <string name="date_format_title">Formát data</string>
+    <string name="preference_header_title">Preference</string>
+    <string name="slideshow_header_title">Prezentace</string>
+    <string name="picture_number_title">Číslo snímku prezentace</string>
+    <string name="slide_show_interval_title">Interval prezentace</string>
+    <string name="transition_effect_title">Efekt přechodu</string>
+    <string name="enable">Povolit</string>
+    <string name="disable">Zakázat</string>
+    <string name="app_settings">Nastavení ASUS MyZine</string>
+    <string name="unit_picture">obrázky</string>
+    <string name="unit_second">sekundy</string>
+    <string name="Image_headline">Obrázek</string>
+    <string name="display_headline">Zobrazení</string>
+    <string name="date_headline">Datum</string>
+    <string name="logo_display_title">logo ASUS MyZine</string>
+    <string name="date_display_title">Datum/Čas</string>
+    <string name="photo_date_display_title">Datum vytvoření obrázků</string>
+    <string name="event_display_title">Nadcházející událost</string>
+    <string name="weather_display_title">Stav počasí</string>
+    <string name="scale_type_title">Prezentace obrázku</string>
+</resources>

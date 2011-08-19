@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ra_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:layout_gravity="fill_vertical" android:id="@id/ra_route_list" android:background="@color/ra_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@color/ra_white" android:divider="@android:drawable/divider_horizontal_bright" android:choiceMode="singleChoice" android:footerDividersEnabled="true" />
+    <ImageView android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

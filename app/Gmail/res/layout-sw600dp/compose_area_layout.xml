@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingTop="16.0dip" android:paddingRight="32.0dip" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/compose_recipients_wrapper" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/spinner_from_content" android:background="@android:color/white" style="@style/ComposeFieldLinearLayout">
+                <TextView android:id="@id/prompt" android:text="@string/from_account_heading" style="@style/ComposeHeading" />
+                <Spinner android:textSize="18.0sp" android:id="@id/from_picker" android:paddingLeft="0.0dip" android:paddingTop="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/static_from_content" style="@style/ComposeFieldLinearLayout">
+                <TextView android:id="@id/prompt" android:text="@string/from_account_heading" style="@style/ComposeHeading" />
+                <TextView android:textSize="18.0dip" android:ellipsize="end" android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/to_content" style="@style/ComposeFieldLinearLayout">
+                <TextView android:text="@string/to_heading" style="@style/ComposeHeading" />
+                <MultiAutoCompleteTextView android:id="@id/to" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/EmailInput" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/cc_content" android:visibility="gone" style="@style/ComposeFieldLinearLayout">
+                <TextView android:text="@string/cc_heading" style="@style/ComposeHeading" />
+                <MultiAutoCompleteTextView android:id="@id/cc" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/EmailInput" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/bcc_content" android:visibility="gone" style="@style/ComposeFieldLinearLayout">
+                <TextView android:text="@string/bcc_heading" style="@style/ComposeHeading" />
+                <MultiAutoCompleteTextView android:id="@id/bcc" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/EmailInput" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/subject_content" style="@style/ComposeFieldLinearLayout">
+                <TextView android:text="@string/subject_heading" style="@style/ComposeHeading" />
+                <EditText android:id="@id/subject_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textEmailSubject|textCapSentences|textAutoCorrect|textImeMultiLine" style="@style/PlainEditText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ComposeButtonColumn">
+            <LinearLayout android:id="@id/compose_buttons_spacer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/add_cc" android:visibility="gone" android:layout_marginLeft="16.0dip" android:text="@string/plus_cc_label" style="@style/ComposeButton" />
+            <Button android:id="@id/add_bcc" android:visibility="gone" android:layout_marginLeft="16.0dip" android:text="@string/plus_bcc_label" style="@style/ComposeButton" />
+            <ImageView android:gravity="left" android:layout_gravity="left|center" android:id="@id/add_attachment" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/ic_menu_attachment_normal_holo_light" android:text="@string/add_file_attachment" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gm.AttachmentsView android:orientation="vertical" android:id="@id/attachments" android:paddingLeft="0.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <FrameLayout android:id="@id/composearea_tap_trap_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="32.0dip" android:minHeight="32.0dip" />
+        <EditText android:gravity="top" android:id="@id/body_text" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/compose_activity_body_text_text" android:hint="@string/body_hint" android:minLines="3" android:layout_weight="1.0" android:inputType="textLongMessage|textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="actionDone" style="@style/PlainEditText" />
+    </LinearLayout>
+    <com.google.android.gm.QuotedTextView android:id="@id/quoted_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/composearea_tap_trap_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Zobrazit obsah zpráv velmi malým písmem</item>
+        <item>Zobrazit obsah zpráv malým písmem</item>
+        <item>Zobrazit obsah zpráv středně velkým písmem</item>
+        <item>Zobrazit obsah zpráv velkým textem</item>
+        <item>Zobrazit obsah zpráv velmi velkým písmem</item>
+    </string-array>
+</resources>

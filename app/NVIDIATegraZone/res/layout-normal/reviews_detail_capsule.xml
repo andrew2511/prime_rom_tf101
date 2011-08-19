@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/newsTopDivider" android:layout_alignParentTop="true" style="@style/genericDivider" />
+    <TextView android:id="@id/reviewIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:text="" style="@style/reviewsTitle" />
+    <TextView android:id="@id/reviewTitle" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="" android:layout_toRightOf="@id/reviewIndex" style="@style/reviewsTitle" />
+    <ImageView android:id="@id/openReviews" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:src="@drawable/phone_carrot_symbol" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/reviewDescription" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="2.0px" android:text="" android:layout_below="@id/reviewTitle" style="@style/reviewsDesc" />
+    <TextView android:id="@id/fullArticle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reviews_detail_capsule_full_article" android:layout_below="@id/reviewDescription" android:layout_alignLeft="@id/reviewDescription" style="@style/reviewsDesc.green" />
+</RelativeLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="da_google_maps">Google Maps</string>
+    <string name="da_google_maps_navigation">Google Maps navigācija</string>
+    <string name="da_net_fail_title">Tīkla kļūda</string>
+    <string name="da_net_fail_body">Šai lietojumprogrammai nepieciešams aktivizēts datu savienojums.</string>
+    <string name="da_beta">BETA versija</string>
+    <string name="da_destination">Galamērķis</string>
+    <string name="da_toward">%1$s virzienā</string>
+    <string name="da_onto">uz ielu %1$s</string>
+    <string name="da_name_delimiter">" / "</string>
+    <string name="da_list_delimiter">", "</string>
+    <string name="da_then_next_step">"pēc tam
+%1$s"</string>
+    <string name="da_continue_for_distance">Turpiniet braukt vēl %1$s</string>
+    <string name="da_destination_will_be_on_the_left">jūsu galamērķis atradīsies kreisajā pusē.</string>
+    <string name="da_destination_will_be_on_the_right">jūsu galamērķis atradīsies labajā pusē.</string>
+    <string name="da_you_will_reach_destination">ieradīsieties savā galamērķī.</string>
+    <string name="da_destination_on_the_left">Jūsu galamērķis atrodas kreisajā pusē.</string>
+    <string name="da_destination_on_the_right">Jūsu galamērķis atrodas labajā pusē.</string>
+    <string name="da_destination_reached">Esat sasniedzis galamērķi.</string>
+    <string name="da_speech_lost_gps">Zaudēts GPS signāls</string>
+    <string name="da_speech_lost_data_connection">Zaudēts datu savienojums</string>
+    <string name="da_speech_navigation_resumed">Navigācija atsākta</string>
+    <string name="da_speech_please_describe_problem">Lūdzu, raksturojiet problēmu</string>
+    <string name="da_on_left">kreisajā pusē</string>
+    <string name="da_on_right">labajā pusē</string>
+    <string name="da_stay_on_road_primary">Turpiniet braukt pa %1$s</string>
+    <string name="da_stay_on_road_secondary_road" formatted="false">%1$s līdz %2$s</string>
+    <string name="da_stay_on_road_secondary_maneuver" formatted="false">%1$s līdz %2$s</string>
+    <string name="da_distance_format_miles_abbreviated">{0} jūdzes</string>
+    <string name="da_distance_format_miles_compressed">{0}j.</string>
+    <string name="da_distance_format_feet_abbreviated">{0} pēdas</string>
+    <string name="da_distance_format_feet_compressed">{0}p.</string>
+    <string name="da_distance_format_yards_abbreviated">{0} jards</string>
+    <string name="da_distance_format_yards_compressed">{0} jards</string>
+    <string name="da_distance_format_kilometers_abbreviated">{0} km</string>
+    <string name="da_distance_format_kilometers_compressed">{0}km</string>
+    <string name="da_distance_format_meters_abbreviated">{0} m</string>
+    <string name="da_distance_format_meters_compressed">{0}m</string>
+    <string name="da_distance_format_separator">,</string>
+    <string name="da_distance_format_mode">metric</string>
+    <string name="da_time_format_days" formatted="false">%1$s dienas %2$s h</string>
+    <string name="da_time_format_hours" formatted="false">%1$s h %2$s min</string>
+    <string name="da_time_format_minutes">%1$s min.</string>
+    <string name="da_time_format_clock" formatted="false">%1$s:%2$s</string>
+    <string name="da_notification_step_format" formatted="false">%1$s - %2$s</string>
+    <string name="da_navigation">Navigācija</string>
+    <string name="da_search_label">Meklēt</string>
+    <string name="da_layers">Slāņi</string>
+    <string name="da_agreement">"Google Maps navigācija darbojas beta režīmā. Esiet piesardzīgs.
+
+Neizmantojiet lietojumprogrammu, vadot transportlīdzekli. Lietojumprogrammā nav sniegta reāllaika satiksmes informācija. Norādes var būt nepareizas vai bīstamas. Var tikt arī iekļauta prāmju satiksme. Ievērojiet piemērojamos likumus.
+
+Nenovērsiet uzmanību no ceļa!"</string>
+    <string name="da_agreement_with_walking">"Google Maps navigācija darbojas beta režīmā. Esiet piesardzīgs.
+
+Neizmantojiet lietojumprogrammu, vadot transportlīdzekli. Lietojumprogrammā nav sniegta reāllaika satiksmes informācija. Norādes var būt nepareizas vai bīstamas. Var tikt arī iekļauta prāmju satiksme. Gājēju maršrutos var nebūt norādītas ietves vai gājēju celiņi. Ievērojiet piemērojamos likumus.
+
+Nenovērsiet uzmanību no ceļa!"</string>
+    <string name="da_disclaimer_checkbox">Parādīt šo ziņojumu nākamreiz</string>
+    <string name="da_show_list">Norāžu saraksts</string>
+    <string name="da_route_overview">Maršruta informācija</string>
+    <string name="da_show_map">Rādīt karti</string>
+    <string name="da_satellite">Satelīts</string>
+    <string name="da_traffic_view">Satiksmes attēls</string>
+    <string name="da_no_traffic_here">Par šo apgabalu nav pieejama satiksmes informācija</string>
+    <string name="da_traffic">Satiksme</string>
+    <string name="da_area_view">Apgabala attēls</string>
+    <string name="da_mute">Izslēgt skaņu</string>
+    <string name="da_unmute">Ieslēgt skaņu</string>
+    <string name="da_settings">Iestatījumi</string>
+    <string name="da_help">Palīdzība</string>
+    <string name="da_terms_privacy_notices">Pak. snieg. not.</string>
+    <string name="da_terms_and_conditions">Pak. snieg. not.</string>
+    <string name="da_privacy_policy">Konfidencialitātes politika</string>
+    <string name="da_legal_notices">Juridiskā informācija</string>
+    <string name="da_navigation_suspended">Navigācija pārtraukta</string>
+    <string name="da_exit_navigation">Iziet no navigācijas</string>
+    <string name="da_email_me_when_resolved">Pēc problēmas novēršanas atsūtiet man e-pasta ziņojumu</string>
+    <string name="da_problem_reported">Ziņojums par problēmu ir nosūtīts</string>
+    <string name="da_one_button_map_issue_reporting">Vienreiz noklikšķiniet, lai ziņotu par problēmu</string>
+    <string name="da_attention">Uzmanību!</string>
+    <string name="da_rmi_warning">"Izmantojot opciju Ziņot par problēmu, varat ierakstīt īsu balss ziņojumu, kurā pastāstāt par problēmu saistībā ar karti vai savu maršrutu. Pēc 15 sekundēm šo ziņojumu kopā ar jūsu pašreizējo atrašanās vietu un maršrutu automātiski nosūtīs uzņēmumam Google.
+
+Lietojumprogrammas iestatījumos var iespējot saīsni, kas darbojas ar vienu klikšķi.
+
+ Ja izvēlaties saņemt atjauninājumus par problēmas atrisināšanu, jūsu e-pasta adrese tiks glabāta kopā ar jūsu atrašanās vietu un komentāriem, līdz problēma būs atrisināta."</string>
+    <string name="da_report_a_problem">Ziņot par problēmu</string>
+    <string name="da_report_a_problem_dialog_title">Ziņot par problēmu</string>
+    <string name="da_rmi_preference_trackball_summary">Ja opcija ir iespējota, pēc kursorbumbas nospiešanas varēsit sākt ziņot par problēmu.</string>
+    <string name="da_rmi_preference_camera_summary">Ja opcija ir iespējota, pēc kameras pogas nospiešanas varēsit sākt ziņot par problēmu.</string>
+    <string name="da_rmi_preference_no_button_summary">Nav pieejama neviena fiziska poga.</string>
+    <string name="da_rmi_preference_bad_location_summary">Ziņošana par problēmu nav pieejama jūsu pašreizējā atrašanās vietā.</string>
+    <string name="da_destination_not_here_warning">Paldies, ka paziņojāt par sava galamērķa nepareizu atrašanās vietu! Jūsu pašreizējais galamērķis un atrašanās vieta tiks nosūtīta vietnei Google, lai uzlabotu mūsu datu precizitāti.</string>
+    <string name="da_destination_not_here_title">Ziņot par problēmu</string>
+    <string name="da_searching_for_gps">Meklē GPS...</string>
+    <string name="da_data_connection_lost">Zaudēts datu savienojums...</string>
+    <string name="da_follow_the_route">Brauciet pa maršrutu</string>
+    <string name="da_waiting_for_directions">Notiek braukšanas norāžu saņemšana</string>
+    <string name="da_waiting_for_walking_directions">Notiek norāžu gājējiem saņemšana</string>
+    <string name="da_waiting_for_location">Notiek atrašanās vietas noteikšana</string>
+    <string name="da_checking_navigation_availability">Notiek navigācijas pieejamības pārbaude</string>
+    <string name="da_loading_route_details">Notiek maršruta detaļu ielāde</string>
+    <string name="da_loading_image">Notiek attēla ielāde</string>
+    <string name="da_waiting_for_alternates">Notiek citu maršrutu meklēšana</string>
+    <string name="da_waiting_for_details">Notiek ielāde</string>
+    <string name="da_no_details">Detaļas nav pieejamas</string>
+    <string name="da_gps_is_disabled">GPS ir atspējota</string>
+    <string name="da_turn_on_gps">Vai rādīt atrašanās vietu iestatījumus?</string>
+    <string name="da_voice_guidance">Balss norādes</string>
+    <string name="da_install_voice_guidance_prompt">Lai izmantotu ar balsi vadāmu navigāciju, no Android Market jāinstalē programma, kas atbalsta teksta pārveidošanu runā.</string>
+    <string name="da_dialog_ok">Labi</string>
+    <string name="da_dialog_skip">Izlaist</string>
+    <string name="da_dialog_cancel">Atcelt</string>
+    <string name="da_dialog_done">Paveikts</string>
+    <string name="da_dialog_accept">Pieņemt</string>
+    <string name="da_dialog_install">Instalēt</string>
+    <string name="da_dialog_dont_accept">Nepieņemt</string>
+    <string name="da_dialog_go">Sākt</string>
+    <string name="da_dialog_get_directions">Iegūt norādes</string>
+    <string name="da_map">Karte</string>
+    <string name="da_clear_layers">Notīrīt karti</string>
+    <string name="da_layer_name_parking">Autostāvvieta</string>
+    <string name="da_layer_name_attractions">Tūrisma vietas</string>
+    <string name="da_layer_name_gas_stations">Degvielas uzpildes stacijas</string>
+    <string name="da_layer_name_restaurants">Restorāni</string>
+    <string name="da_layer_name_supermarkets">Lielveikali</string>
+    <string name="da_layer_name_atms_and_banks">Bankomāti un bankas</string>
+    <string name="da_layer_name_convenience_stores">Diennakts veikali</string>
+    <string name="da_query_banks_and_atms">Bankas un bankomāti</string>
+    <string name="da_rerouting">Notiek jauna maršruta izstrādāšana...</string>
+    <string name="da_via">Pa %s</string>
+    <string name="da_to_destination">līdz %s</string>
+    <string name="da_via_name_separator">" &amp; "</string>
+    <string name="da_record_feedback">Ierakstiet atsauksmes</string>
+    <string name="da_destination_not_here">Galamērķis šeit neatrodas</string>
+    <string name="da_new_destination">Nākamais galamērķis</string>
+    <string name="da_reroute_to_destination">Atpakaļ uz galamērķi</string>
+    <string name="da_change_destination">Iestatīt galamērķi</string>
+    <string name="da_search_for_destination">Meklēt...</string>
+    <string name="da_point_on_map">Punkts kartē</string>
+    <string name="da_volume">Navigācijas skaļums</string>
+    <string name="da_exit">Iziet</string>
+    <string name="da_did_you_mean">Vai domājāt:</string>
+    <string name="da_did_you_say">Vai jūs teicāt:</string>
+    <string name="da_for_your_end_point">Galapunktam</string>
+    <string name="da_unnamed_road">Ceļš bez nosaukuma</string>
+    <string name="da_combined_maneuver" formatted="false">%1$s, pēc tam %2$s</string>
+    <string name="da_prepare_event" formatted="false">%1$s, %2$s</string>
+    <string name="da_speech_in_x_meters">Pēc %1$s metriem</string>
+    <string name="da_speech_in_one_and_a_half_kilometers">Pēc viena kilometra un 500 metriem</string>
+    <string name="da_speech_continue_for_x_meters">Turpiniet braukt %1$s metrus</string>
+    <string name="da_speech_continue_for_one_and_a_half_kilometers">Turpiniet braukt pusotru kilometru</string>
+    <string name="da_speech_continue_on_road_for_x_meters" formatted="false">Turpiniet braukt pa %2$s %1$s metrus</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_kilometers">Turpiniet braukt pa %1$s pusotru kilometru</string>
+    <string name="da_speech_generic_continue">Brauciet taisni</string>
+    <string name="da_speech_in_x_feet">Pēc %1$s pēdām</string>
+    <string name="da_speech_in_x_yards">Pēc %1$s jardiem</string>
+    <string name="da_speech_in_a_quarter_mile">Pēc ceturtdaļjūdzes</string>
+    <string name="da_speech_in_a_half_mile">Pēc pusjūdzes</string>
+    <string name="da_speech_in_three_quarters_of_a_mile">Pēc trīs ceturtdaļām jūdzes</string>
+    <string name="da_speech_in_one_and_a_half_miles">Pēc pusotras jūdzes</string>
+    <string name="da_speech_continue_for_x_feet">Turpiniet braukt %1$s pēdas</string>
+    <string name="da_speech_continue_for_x_yards">Turpiniet braukt %1$s jardus</string>
+    <string name="da_speech_continue_for_a_quarter_mile">Turpiniet braukt ceturtdaļjūdzi</string>
+    <string name="da_speech_continue_for_a_half_mile">Turpiniet braukt pusjūdzi</string>
+    <string name="da_speech_continue_for_three_quarters_of_a_mile">Turpiniet braukt trīs ceturtdaļjūdzes</string>
+    <string name="da_speech_continue_for_one_and_a_half_miles">Turpiniet braukt pusotru jūdzi</string>
+    <string name="da_speech_continue_on_road_for_x_feet" formatted="false">Turpiniet braukt pa %2$s %1$s pēdas</string>
+    <string name="da_speech_continue_on_road_for_x_yards" formatted="false">Turpiniet braukt pa %2$s %1$s jardus</string>
+    <string name="da_speech_continue_on_road_for_a_quarter_mile">Turpiniet braukt pa %1$s ceturtdaļjūdzi</string>
+    <string name="da_speech_continue_on_road_for_a_half_mile">Turpiniet braukt %1$s pusjūdzi</string>
+    <string name="da_speech_continue_on_road_for_three_quarters_of_a_mile">Turpiniet braukt pa %1$s trīs ceturtdaļjūdzes</string>
+    <string name="da_speech_continue_on_road_for_one_and_a_half_miles">Turpiniet braukt pa %1$s pusotru jūdzi</string>
+    <string name="da_route_prefixes">Z,ZA,A,DA,D,DR,R,ZR</string>
+    <string name="da_route_suffixes">Z,ZA,A,DA,D,DR,R,ZR,Avēn.,Bulv.,Apvedc.,Apl.,Lauk.,Piebr.c.,Ātrgait.automaģ.,Bezm.autoc.,Automaģ.,Josl.,Aleja,Līdz.,Šos.,Iela,Automaģ.,Ceļš</string>
+    <string name="da_no_route">Maršruts nav atrasts</string>
+    <string name="da_route_not_found">Maršrutu uz jūsu galamērķi nevarēja atrast.</string>
+    <string name="da_destination_not_found">Galamērķi nevarēja atrast.</string>
+    <string name="da_navigation_not_supported">Navigācija uz jūsu galamērķi nav pieejama.</string>
+    <string name="da_navigation_not_supported_at_current_loc">Šajā atrašanās vietā vēl nav pieejama Google Maps navigācija.</string>
+    <string name="da_launch_maps">Palaist pakalpojumu Maps</string>
+    <string name="da_no_image_available">Attēls nav pieejams.</string>
+    <string name="da_image_error">Ielādējot attēlu, radās kļūda.</string>
+    <string name="da_no_alternate_routes">Citus maršrutus uz jūsu galamērķi nevarēja atrast.</string>
+    <string name="da_picker_type_destination">Ievadīt galamērķi</string>
+    <string name="da_picker_speak_destination">Ierunājiet galamērķi</string>
+    <string name="da_picker_contacts">Kontaktpersonas</string>
+    <string name="da_picker_starred_items">Ar zvaigznīti</string>
+    <string name="da_picker_new_contact">Jauna kontaktpersona</string>
+    <string name="da_picker_recent_destinations">Nesenie galamērķi</string>
+    <string name="da_picker_choose_destination">Izvēlieties galamērķi</string>
+    <string name="da_navigate_to">Pārvietoties uz</string>
+    <string name="da_picker_search_hint">Galamērķis</string>
+    <string name="da_route_options">Maršruta opcijas</string>
+    <string name="da_updating_directions">Notiek norāžu atjaunināšana</string>
+    <string name="da_picker_no_starred_items">"Jums nav nevienas atzīmētas ar zvaigznīti vietas.
+
+Atzīmētas ar zvaigznīti vietas tiek automātiski sinhronizētas ar vietni maps.google.lv.
+
+Varat atzīmēt ar zvaigznīti rezultātus pakalpojumā Google Maps, pieskaroties zvaigznītes ikonai blakus adresei."</string>
+    <string name="da_picker_no_contacts">"Jums nav nevienas kontaktpersonas, kurai ir adrese.
+
+Lietotnē Kontaktpersonas varat pievienot jaunas kontaktpersonas vai iestatīt adreses esošajām kontaktpersonām."</string>
+    <string name="da_driving">Braukšana</string>
+    <string name="da_walking">Kājām</string>
+    <string name="da_quoted_text">%1$s</string>
+    <string name="da_more_info">Plašāka informācija</string>
+    <string name="da_search_maps">Meklēt Maps</string>
+    <string name="da_walking_warning">Iešana (beta): izmantojiet piesardzīgi</string>
+    <string name="da_calibrate_compass_title">Kompasa kalibrēšana</string>
+    <string name="da_calibrate_compass">Ierīces kompass nav kalibrēts. Lai to kalibrētu, lūdzu, ar ierīci vairākas reizes uzzīmējiet gaisā 8.</string>
+    <string name="da_confirm_exit_title">Vai iziet no navigācijas?</string>
+    <string name="da_confirm_exit_text">Maršruta norādes vairs netiks sniegtas.</string>
+    <string name="da_route_includes_tolls">Maršrutā ir maksas ceļi</string>
+    <string name="da_avoid_tolls">Izvairīties no maksas ceļiem</string>
+    <string name="da_avoiding_tolls">Maršrutā nav maksas ceļu</string>
+    <string name="da_avoiding_highways">Maršrutā nav šoseju</string>
+    <string name="da_route_includes_unavoidable_tolls">Šajā maršrutā ir maksas ceļi.</string>
+    <string name="da_route_includes_tolls_explanation" formatted="false">Šajā maršrutā ir maksas ceļi. Atspējot maršrutus ar maksas ceļiem varat sadaļā %1$s%2$s.</string>
+    <string name="da_seasonally_closed">Maršruts noteiktās sezonās var būt slēgts</string>
+    <string name="da_direction_north">uz ziemeļiem</string>
+    <string name="da_direction_north_west">uz ziemeļrietumiem</string>
+    <string name="da_direction_west">uz rietumiem</string>
+    <string name="da_direction_south_west">uz dienvidrietumiem</string>
+    <string name="da_direction_south">uz dienvidiem</string>
+    <string name="da_direction_south_east">uz dienvidaustrumiem</string>
+    <string name="da_direction_east">uz austrumiem</string>
+    <string name="da_direction_north_east">uz ziemeļaustrumiem</string>
+    <string name="da_step_depart">Dodieties virzienā %1$s</string>
+    <string name="da_step_depart_on" formatted="false">Dodieties virzienā %1$s uz ceļu %2$s</string>
+    <string name="da_step_slight_left">Mazliet pa kreisi</string>
+    <string name="da_step_slight_right">Mazliet pa labi</string>
+    <string name="da_step_turn_left">Pagriezieties pa kreisi</string>
+    <string name="da_step_turn_right">Pagriezieties pa labi</string>
+    <string name="da_step_sharp_left">Strauji pa kreisi</string>
+    <string name="da_step_sharp_right">Strauji pa labi</string>
+    <string name="da_step_slight_left_onto">Mazliet pa kreisi uz ceļu %1$s</string>
+    <string name="da_step_slight_right_onto">Mazliet pa labi uz ceļu %1$s</string>
+    <string name="da_step_turn_left_onto">Pagriezieties pa kreisi uz ceļu %1$s</string>
+    <string name="da_step_turn_right_onto">Pagriezieties pa labi uz ceļu %1$s</string>
+    <string name="da_step_sharp_left_onto">Strauji pa kreisi uz ceļu %1$s</string>
+    <string name="da_step_sharp_right_onto">Strauji pa labi uz ceļu %1$s</string>
+    <string name="da_step_fork_left">Ceļa atzarojumā turieties pa kreisi</string>
+    <string name="da_step_fork_right">Ceļa atzarojumā turieties pa labi</string>
+    <string name="da_step_continue_onto">Turpiniet pa ceļu %1$s</string>
+    <string name="da_step_continue_straight">Brauciet taisni</string>
+    <string name="da_step_u_turn">Veiciet U-veida pagriezienu</string>
+    <string name="da_step_take_the_ramp">Dodieties pa slīpni</string>
+    <string name="da_step_take_the_ramp_onto">Izvēlieties slīpni uz ceļa %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_left">Izvēlieties nobrauktuvi pa kreisi</string>
+    <string name="da_step_take_the_ramp_on_the_left_onto">Izvēlieties slīpni pa kreisi uz ceļa %1$s</string>
+    <string name="da_step_take_the_ramp_on_the_right">Izvēlieties slīpni pa labi</string>
+    <string name="da_step_take_the_ramp_on_the_right_onto">Izvēlieties slīpni pa labi uz ceļa %1$s</string>
+    <string name="da_step_take_the_exit">Izvēlieties nobrauktuvi</string>
+    <string name="da_step_take_the_exit_on_the_left">Izvēlieties nobrauktuvi pa kreisi</string>
+    <string name="da_step_take_the_exit_on_the_right">Izvēlieties nobrauktuvi pa labi</string>
+    <string name="da_step_take_the_exit_onto">Izvēlieties nobrauktuvi uz ceļa %1$s</string>
+    <string name="da_step_take_the_exit_on_the_left_onto">Izvēlieties nobrauktuvi pa kreisi uz ceļa %1$s</string>
+    <string name="da_step_take_the_exit_on_the_right_onto">Izvēlieties nobrauktuvi pa labi uz ceļa %1$s</string>
+    <string name="da_step_take_exit_n">Izvēlieties %1$s. nobrauktuvi</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_full" formatted="false">©%1$d Google - attēli ©%2$d %3$s, Kartes dati ©%4$d %5$s</string>
+    <string name="dav_map_copyrights_imagery_only" formatted="false">©%1$d Google - attēli ©%2$d %3$s</string>
+    <string name="dav_map_copyrights_map_data_only" formatted="false">©%1$d Google - Kartes dati ©%2$d %3$s</string>
+    <string name="CHECKINS_HOME_LOCATION">Sākums</string>
+    <string name="DIRECTIONS_ONLY_SHORTCUT_NAME">Norādes un navigācija</string>
+    <string name="EXIT_COMMAND">Iziet</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TICKER">{0} vēlas, lai jūs reģistrētos</string>
+    <string name="FRIENDS_PING_ME_NOTIFICATION_TITLE">Pakalpojuma Latitude reģistrācijas pieprasījums</string>
+    <string name="GOHOME_DESTINATION_HINT">Ievadiet adresi</string>
+    <string name="GOHOME_PICK_SHORTCUT_IMAGE">Saīsnes ikona</string>
+    <string name="GOHOME_SAVE_SHORTCUT">Saglabāt</string>
+    <string name="GOHOME_SHORTCUT_DESTINATION">Galamērķis</string>
+    <string name="GOHOME_SHORTCUT_NAME">Saīsnes nosaukums</string>
+    <string name="GOHOME_TURN_BY_TURN_LABEL">Pakāpeniska navigācija</string>
+    <string name="HOTPOT_GOTO_SETTINGS_PAGE">Atvērt sadaļu Iestatījumi</string>
+    <string name="HOTPOT_LOADING">Notiek ielāde...</string>
+    <string name="HOTPOT_LOCATION_AND_WIFI_DISABLED">Lai lietotu logrīku Vietu novērtēšana, ir jāiespējo gan opcija Izmantot bezvadu tīklus (sadaļā Atrašanās vietas un drošības iestatījumi), gan opcija Wi-Fi (sadaļā Bezvadu savienojuma un tīkla iestatījumi).</string>
+    <string name="HOTPOT_LOCATION_DISABLED">Lai izmantotu logrīku Vietu novērtēšana, sadaļā Atrašanās vietas un drošības iestatījumi iespējojiet opciju Izmantot bezvadu tīklus.</string>
+    <string name="HOTPOT_NO_LOCATION">Nav informācijas par atrašanās vietu</string>
+    <string name="HOTPOT_SEARCH">Meklēt</string>
+    <string name="HOTPOT_SEARCHED_FOR">"Tika meklēta vieta: "</string>
+    <string name="HOTPOT_SEARCH_AGAIN">Meklēt vēlreiz</string>
+    <string name="HOTPOT_SELECT_PLACE">Atlasiet vietas, kuras novērtēt</string>
+    <string name="HOTPOT_SNAP_TO_PLACE">"Atlasiet vietu: "</string>
+    <string name="HOTPOT_UNKNOWN_LOCATION">Nezināma atrašanās vieta</string>
+    <string name="HOTPOT_WAITING_FOR_LOCATION">Notiek atrašanās vietas atsvaidzināšana...</string>
+    <string name="HOTPOT_WIDGET_NAME">Novērtēt vietas</string>
+    <string name="HOTPOT_WIDGET_POSTING_AS">Publiski izlikt ar segvārdu {0}</string>
+    <string name="HOTPOT_WIDGET_SAYMORE">Pievienojiet komentāru</string>
+    <string name="HOTPOT_WIDGET_UPDATED">Atjaunināts pirms {0}</string>
+    <string name="HOTPOT_WIFI_DISABLED">Lūdzu, ieslēdziet Wi-Fi bezvadu un tīkla iestatījumos, lai uzlabotu Vietu vērtējuma logrīka vietu precizitāti.</string>
+    <string name="HOTPOT_YOU_RATED">"Jūsu vērtējums: "</string>
+    <string name="LATITUDE_APP_NAME">Latitude</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TICKER">Vietā {0}, un to redz {1}</string>
+    <string name="LATITUDE_AUTO_CHECKIN_NOTIFICATION_TITLE">Reģistrējies vietā {0}</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TICKER">Vai reģistrēties vietā {0}?</string>
+    <string name="LATITUDE_CHECKIN_NOTIFICATION_TITLE">Vai reģistrēties vietā?</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_ACTIVATE">Pieskarieties, lai pierakstītos pakalpojumā Latitude</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LAST_UPDATED_TIME_ABSOLUTE">Pēdējo reizi atjaunināts: {0}</string>
+    <string name="LATITUDE_WIDGET_FRIENDS_LOCATION_UNKNOWN">Nezināma atrašanās vieta</string>
+    <string name="LOADING">Notiek ielāde</string>
+    <string name="MAPS_APP_NAME">Maps</string>
+    <string name="NEED_NET_BODY">Šī lietotne nav izmantojama, kamēr nav dota atļauja tīklā sūtīt un saņemt datus.</string>
+    <string name="NEED_NET_TITLE">Nepieciešama pieeja tīklam</string>
+    <string name="NETWORK_DATA_ERROR">Šai lietojumprogrammai nepieciešams datu savienojums. Lūdzu, sazinieties ar savu pakalpojumu sniedzēju.</string>
+    <string name="NET_FAIL_BODY">Šai lietojumprogrammai nepieciešams aktivizēts datu savienojums.</string>
+    <string name="NET_FAIL_TITLE">Tīkla kļūda</string>
+    <string name="NET_UNAVAILABLE_TITLE">Tīkls nav pieejams</string>
+    <string name="PLACES_APP_NAME">Vietas</string>
+    <string name="RATINGS_CUSTOM_ASPECT_EXAMPLE_TEXT">Piemēram, spageti ar bolonēzes mērci, kokteiļi, mūzika</string>
+    <string name="RATINGS_CUSTOM_ASPECT_HINT_TEXT">Kas ir īpašs?</string>
+    <string name="RATINGS_OPTIN_CANCEL">Atcelt</string>
+    <string name="RATINGS_OPTIN_CLOSE">Aizvērt</string>
+    <string name="RATINGS_OPTIN_FAILED">Atjaunināšana neizdevās; lūdzu, mēģiniet vēlāk.</string>
+    <string name="RATINGS_OPTIN_GOTO_PLACES">&lt;b>Socializējieties!&lt;/b> Savā datorā dodieties uz &lt;b>{0}&lt;/b>, lai pievienotu draugus un atklātu viņu iecienītās vietas.</string>
+    <string name="RATINGS_OPTIN_HEADING">Sava publiskā segvārda izvēle pakalpojumā Google vietas.</string>
+    <string name="RATINGS_OPTIN_NICKNAME">"Vārds vai segvārds: "</string>
+    <string name="RATINGS_OPTIN_RATEPLACES_SUBHEADER">Novērtējiet savus iecienītākos restorānus, kafejnīcas un citas vietas, lai meklēšanas rezultātos saņemtu ieteikumus, kas atbilst jūsu gaumei.</string>
+    <string name="RATINGS_OPTIN_SAVE">Sākt</string>
+    <string name="RATINGS_OPTIN_SUBHEADING">Jūsu vietu vērtējumi ir &lt;b>publiski redzami tīmeklī&lt;/b> kopā ar šo segvārdu. &lt;a href=#>Uzziniet vairāk&lt;/a>.</string>
+    <string name="RATINGS_POSTING_AS">Tiks publiski izlikta tīmeklī ar segvārdu {0}.</string>
+    <string name="RATINGS_POSTING_PUBLICLY">Tiks publiski izlikta tīmeklī.</string>
+    <string name="RATINGS_RATE_PLACES">Kāpēc vērtēt vietas?</string>
+    <string name="RATINGS_SET_APPEARANCE">Iestatiet izskatu</string>
+    <string name="RATINGS_WAIT">Lūdzu, uzgaidiet...</string>
+    <string name="SEARCH_HINT">Meklēt Maps</string>
+    <string name="SHORT_APP_NAME">Google Maps</string>
+    <string name="TRAFFIC_WIDGET_END_LOCATION">Galapunkts</string>
+    <string name="TRAFFIC_WIDGET_NAME">Satiksme</string>
+    <string name="TRAFFIC_WIDGET_NAME_FIELD">Logrīka nosaukums</string>
+    <string name="TRAFFIC_WIDGET_SAVE_WIDGET">Saglabāt</string>
+    <string name="TRAFFIC_WIDGET_START_LOCATION">Sākumpunkts</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_BODY">Nopietna kļūda. Lūdzu izejiet un restartējiet.</string>
+    <string name="UNKNOWN_COMMUNICATION_FAILURE_TITLE">Nezināma kļūda</string>
+    <string name="UPGRADE_BODY">Lai izmantotu šo lietotni, jums ir jāinstalē jauna versija.</string>
+    <string name="UPGRADE_TITLE">Programmatūras atjaunināšana</string>
+    <string name="WALLPAPER_AUTHOR">Google</string>
+    <string name="WALLPAPER_DESCRIPTION">Maps tiešā fona tapete</string>
+    <string name="WALLPAPER_MAP_MODE">Kartes režīms</string>
+    <string name="WALLPAPER_MAP_MODE_NORMAL">Normāls</string>
+    <string name="WALLPAPER_MAP_MODE_SATELLITE">Satelīts</string>
+    <string name="WALLPAPER_MAP_MODE_SUMMARY">Kartes režīms, piem., Satelīts</string>
+    <string name="WALLPAPER_MAP_MODE_TERRAIN">Reljefs</string>
+    <string name="WALLPAPER_SETTINGS">Maps tiešās fona tapetes iestatījumi</string>
+    <string name="WALLPAPER_SHOW_TRAFFIC">Rādīt satiksmes informāciju</string>
+    <string name="WALLPAPER_WEATHER_ON_SUMMARY">Rādīt pašreizējos laikapstākļus kartē. Jābūt uzinstalētam laikapstākļu logrīkam.</string>
+    <string name="WALLPAPER_WEATHER_ON_TITLE">Laikapstākļi</string>
+</resources>

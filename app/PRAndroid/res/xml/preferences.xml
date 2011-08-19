@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/pref_accounts" android:key="accounts" android:summary="@string/pref_accounts_summary" />
+    <PreferenceScreen android:title="@string/pref_autodelivery" android:key="autodelivery" android:summary="@string/pref_autodelivery_summary" />
+    <PreferenceScreen android:title="@string/pref_dataaccess" android:key="dataaccess" android:summary="@string/pref_dataaccess_summary" />
+</PreferenceScreen>

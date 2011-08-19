@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/listOptionsHeader" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.googlenav.ui.android.TemplateView android:id="@id/title" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/template_left_image" />
+        <include layout="@layout/template_text_parent" />
+        <include layout="@layout/template_right_image" />
+    </com.google.googlenav.ui.android.TemplateView>
+    <com.google.googlenav.ui.android.FlowLayout android:gravity="left" android:id="@id/refinementButtons" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/filterButton1" layout="@layout/template_option_button" />
+        <include android:id="@id/filterButton2" layout="@layout/template_option_button" />
+        <include android:id="@id/filterButton3" layout="@layout/template_option_button" />
+        <include android:id="@id/filterButton4" layout="@layout/template_option_button" />
+        <include android:id="@id/optionsButton1" layout="@layout/template_option_button" />
+        <include android:id="@id/optionsButton2" layout="@layout/template_option_button" />
+        <include android:id="@id/optionsButton3" layout="@layout/template_option_button" />
+        <include android:id="@id/optionsButton4" layout="@layout/template_option_button" />
+    </com.google.googlenav.ui.android.FlowLayout>
+    <View android:background="@android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done_button_label">Fine</string>
+    <string name="signed_in">Accesso eseguito</string>
+    <string name="account_linked_message">Accesso a %s eseguito e sincronizzazione dei dati in corso.</string>
+    <string name="account_setup_title">Account Google</string>
+    <string name="account_created_message">Nuovo account creato: %s</string>
+    <string name="login_activity_title">Accedi con il tuo account Google</string>
+    <string name="show_error_activity_title">"Accesso all'account Google non riuscito"</string>
+    <string name="login_activity_task_title">Accesso in corso...</string>
+    <string name="sync_intro_activity_title_first_account">Backup e ripristino</string>
+    <string name="sync_intro_activity_title_first_created_account">Account creato</string>
+    <string name="sync_intro_activity_title">"Accesso all'account eseguito"</string>
+</resources>

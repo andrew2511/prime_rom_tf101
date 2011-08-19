@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Vis indholdet i beskeden som lillebitte tekst</item>
+        <item>Vis indholdet i beskeden som lille tekst</item>
+        <item>Vis indholdet i beskeden som normal tekst</item>
+        <item>Vis indholdet i beskeden som stor tekst</item>
+        <item>Vis indholdet i beskeden som kæmpestor tekst</item>
+    </string-array>
+</resources>

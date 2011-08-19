@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/header_bar" />
+    <FrameLayout android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/androidView_stub" android:layout="@layout/android_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/androidVectorView_stub" android:layout="@layout/android_vector_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/empty_background" android:background="@drawable/gray_tile_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/bubbleContainer_stub" android:layout="@layout/bubble_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/dialog_panel_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/dialog_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

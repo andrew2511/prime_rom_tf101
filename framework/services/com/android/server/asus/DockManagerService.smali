@@ -927,10 +927,8 @@
     .end local v2           #icon:I
     .end local v5           #v:Landroid/widget/ImageView;
     :goto_c9
-    invoke-virtual {v0, v13, v11}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 379
-    invoke-virtual {v0, v12, v11}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 381
     new-instance v3, Landroid/app/Notification;

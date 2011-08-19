@@ -267,7 +267,7 @@
     <string name="power_off">Выключение</string>
     <string name="shutdown_progress">Выключение...</string>
     <string name="shutdown_confirm">Планшетный ПК будет отключен.</string>
-    <string name="shutdown_confirm_question">Завершить работу?</string>
+    <string name="shutdown_confirm_question">Что бы Вы хотели сделать?</string>
     <string name="recent_tasks_title">Недавние</string>
     <string name="no_recent_tasks">Нет последних приложений.</string>
     <string name="global_actions">Настройки планшетного ПК</string>
@@ -987,4 +987,8 @@
     <string name="keyguard_password_enter_new_pin_code">Введите новый PIN-код</string>
     <string name="keyguard_password_verify_new_pin_code">Подтвердите новый PIN-код</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN-код не совпадает.</string>
+    <string name="buttonTxtContinue">Продолжать</string>
+    <string name="reboot_recovery">Восстановить</string>
+    <string name="shutdown">Выключить</string>
+    <string name="reboot">Перезагружать</string>
 </resources>

@@ -3247,6 +3247,10 @@
     <public type="string" name="keyguard_password_enter_new_pin_code" id="0x01040422" />
     <public type="string" name="keyguard_password_verify_new_pin_code" id="0x01040423" />
     <public type="string" name="keyguard_password_verify_new_pin_code_failed" id="0x01040424" />
+    <public type="string" name="buttonTxtContinue" id="0x01040425" />
+    <public type="string" name="reboot_recovery" id="0x01040426" />
+    <public type="string" name="shutdown" id="0x01040427" />
+    <public type="string" name="reboot" id="0x01040428" />
     <public type="dimen" name="app_icon_size" id="0x01050000" />
     <public type="dimen" name="thumbnail_height" id="0x01050001" />
     <public type="dimen" name="thumbnail_width" id="0x01050002" />

@@ -267,7 +267,7 @@
     <string name="power_off">Uitschakelen</string>
     <string name="shutdown_progress">Uitschakelen...</string>
     <string name="shutdown_confirm">Uw tablet wordt uitgeschakeld.</string>
-    <string name="shutdown_confirm_question">Wilt u afsluiten?</string>
+    <string name="shutdown_confirm_question">Wat zou je graag willen doen?</string>
     <string name="recent_tasks_title">Recent</string>
     <string name="no_recent_tasks">Geen recente toepassingen.</string>
     <string name="global_actions">Tabletopties</string>
@@ -990,4 +990,8 @@ Probeer het opnieuw."</string>
     <string name="keyguard_password_enter_new_pin_code">Typ nieuwe PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Nieuwe PIN-code bevestigen</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN-code komt niet overeen</string>
+    <string name="buttonTxtContinue">Voortzetten</string>
+    <string name="reboot_recovery">Herstel</string>
+    <string name="shutdown">Uitschakelen</string>
+    <string name="reboot">Herstart</string>
 </resources>

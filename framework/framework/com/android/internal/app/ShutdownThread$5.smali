@@ -1,4 +1,4 @@
-.class final Lcom/android/internal/app/ShutdownThread$1;
+.class final Lcom/android/internal/app/ShutdownThread$5;
 .super Ljava/lang/Object;
 .source "ShutdownThread.java"
 
@@ -28,7 +28,7 @@
 
     .prologue
     .line 116
-    iput-object p1, p0, Lcom/android/internal/app/ShutdownThread$1;->val$context:Landroid/content/Context;
+    iput-object p1, p0, Lcom/android/internal/app/ShutdownThread$5;->val$context:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,9 +44,9 @@
 
     .prologue
     .line 118
-    iget-object v0, p0, Lcom/android/internal/app/ShutdownThread$1;->val$context:Landroid/content/Context;
+    iget-object v0, p0, Lcom/android/internal/app/ShutdownThread$5;->val$context:Landroid/content/Context;
 
-    const/4 p1, 0x2
+    const/4 p1, 0x1
 
     sput p1, Lcom/android/internal/app/ShutdownThread;->mRebootTrigger:I
 

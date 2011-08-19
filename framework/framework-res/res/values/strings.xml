@@ -282,7 +282,7 @@
     <string name="power_off">Power off</string>
     <string name="shutdown_progress">Shutting down…</string>
     <string name="shutdown_confirm">Your tablet will shut down.</string>
-    <string name="shutdown_confirm_question">Would you like to shut down?</string>
+    <string name="shutdown_confirm_question">What would you like to do?</string>
     <string name="recent_tasks_title">Recent</string>
     <string name="no_recent_tasks">No recent applications.</string>
     <string name="global_actions">Tablet options</string>
@@ -1084,4 +1084,8 @@ Try again?"</string>
     <string name="keyguard_password_enter_new_pin_code">Enter New PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Confirm New PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN does not match.</string>
+    <string name="buttonTxtContinue">Continue</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="reboot">Reboot</string>
 </resources>

@@ -267,7 +267,7 @@
     <string name="power_off">Wyłącz</string>
     <string name="shutdown_progress">Wyłączanie...</string>
     <string name="shutdown_confirm">Tablet zostanie wyłączony.</string>
-    <string name="shutdown_confirm_question">Czy chcesz wyłączyć?</string>
+    <string name="shutdown_confirm_question">Co chcesz zrobić?</string>
     <string name="recent_tasks_title">Najnowsze</string>
     <string name="no_recent_tasks">Brak ostatnio używanych aplikacji.</string>
     <string name="global_actions">Opcje tabletu</string>
@@ -990,4 +990,8 @@ Czy chcesz kontynuować aktualizację systemu?"</string>
     <string name="keyguard_password_enter_new_pin_code">Wprowadź nowy PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Potwierdź nowy PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN nie pasuje.</string>
+    <string name="buttonTxtContinue">Kontynuować</string>
+    <string name="reboot_recovery">Odzysku</string>
+    <string name="shutdown">Wyłącz</string>
+    <string name="reboot">Reboot</string>
 </resources>

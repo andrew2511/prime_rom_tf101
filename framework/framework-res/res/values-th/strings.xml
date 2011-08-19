@@ -267,7 +267,7 @@
     <string name="power_off">ปิดเครื่อง</string>
     <string name="shutdown_progress">กำลังปิดระบบ...</string>
     <string name="shutdown_confirm">แท็บเล็ตของคุณจะปิดการทำงาน</string>
-    <string name="shutdown_confirm_question">คุณต้องการปิดการทำงานหรือไม่</string>
+    <string name="shutdown_confirm_question">สิ่งที่คุณต้องการจะทำอย่างไร</string>
     <string name="recent_tasks_title">เมื่อเร็วๆ นี้</string>
     <string name="no_recent_tasks">ไม่มีแอปพลิเคชันล่าสุด</string>
     <string name="global_actions">ตัวเลือกของแท็บเล็ต</string>
@@ -990,4 +990,8 @@
     <string name="keyguard_password_enter_new_pin_code">ป้อน PIN ใหม่</string>
     <string name="keyguard_password_verify_new_pin_code">ยืนยัน PIN ใหม่</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN ไม่ตรงกัน</string>
+    <string name="buttonTxtContinue">ต่อ</string>
+    <string name="reboot_recovery">กู้คืน</string>
+    <string name="shutdown">ปิด</string>
+    <string name="reboot">เริ่มต้นใหม่</string>
 </resources>

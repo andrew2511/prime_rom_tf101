@@ -61,6 +61,10 @@
     <public type="drawable" name="village_small" id="0x7f020082" />
     <public type="drawable" name="asus_default" id="0x7f020006" />
     <public type="drawable" name="asus_default_small" id="0x7f020007" />
+    <public type="drawable" name="earth" id="0x7f0200d6" />
+    <public type="drawable" name="earth_small" id="0x7f0200d7" />
+    <public type="drawable" name="stars" id="0x7f0200d8" />
+    <public type="drawable" name="stars_small" id="0x7f0200d9" />
     <public type="drawable" name="all_apps_button" id="0x7f020001" />
     <public type="drawable" name="box_launcher_top" id="0x7f020010" />
     <public type="drawable" name="delete_zone_selector" id="0x7f02001b" />

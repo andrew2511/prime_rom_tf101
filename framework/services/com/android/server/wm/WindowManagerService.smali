@@ -25705,11 +25705,11 @@
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 8906
-    if-eqz p1, :cond_60
+    if-eqz p1, :cond_5f
 
     sget-boolean v3, Lcom/android/server/wm/WindowManagerService;->isCompassCalDialogRun:Z
 
-    if-nez v3, :cond_60
+    goto :goto_5f
 
     .line 8907
     const/4 v3, 0x1

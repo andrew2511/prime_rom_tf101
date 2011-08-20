@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 172
+    .line 174
     iput-object p1, p0, Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-direct {p0}, Landroid/content/pm/IPackageDataObserver$Stub;-><init>()V
@@ -42,7 +42,7 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 174
+    .line 176
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-static {v1}, Lcom/android/settings/applications/InstalledAppDetails;->access$400(Lcom/android/settings/applications/InstalledAppDetails;)Landroid/os/Handler;
@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    .line 175
+    .line 177
     .local v0, msg:Landroid/os/Message;
     if-eqz p2, :cond_0
 
@@ -62,7 +62,7 @@
     :goto_0
     iput v1, v0, Landroid/os/Message;->arg1:I
 
-    .line 176
+    .line 178
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-static {v1}, Lcom/android/settings/applications/InstalledAppDetails;->access$400(Lcom/android/settings/applications/InstalledAppDetails;)Landroid/os/Handler;
@@ -71,10 +71,10 @@
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 177
+    .line 179
     return-void
 
-    .line 175
+    .line 177
     :cond_0
     const/4 v1, 0x2
 

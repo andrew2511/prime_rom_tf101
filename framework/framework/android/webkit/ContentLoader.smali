@@ -75,7 +75,7 @@
     .local v1, exMessage:Ljava/lang/String;
     iget-object v2, p0, Landroid/webkit/ContentLoader;->mContext:Landroid/content/Context;
 
-    const v3, 0x104010d
+    const v3, 0x104010a
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

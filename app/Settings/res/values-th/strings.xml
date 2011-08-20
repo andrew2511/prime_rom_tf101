@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">คุณไม่สามารถกำหนดค่าการเชื่อมต่อ WAPI CERT WLAN ระหว่างการติดตั้ง หลังจากการติดตั้ง คุณสามารถดำเนินการตั้งค่าใน Settings (การตั้งค่า), ภายใต้ <b>Wireless &amp; networks (เครือข่ายไร้สาย)</b></string>
     <string name="wifi_setup_status_wapi_cert_not_supported">ไม่สนับสนุน WAPI CERT</string>
     <string name="wifi_wapi_network_open">เปิด</string>
+    <string name="asus_wifi_setup_description_connected">"แตะ Next (ถัดไป) เพื่อทำการตั้งค่าต่อไป.
+
+แตะ Back (ย้อนกลับ) เพื่อไปยังเครือข่าย Wi-Fi อื่น."</string>
     <string name="yes">ใช่</string>
     <string name="no">ไม่</string>
     <string name="device_info_default">ไม่ทราบ</string>
@@ -1313,7 +1316,4 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="hdcp_checking_title">การตรวจสอบ HDCP</string>
     <string name="hdcp_checking_dialog_title">ตั้งค่าการตรวจสอบ HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"แตะ Next (ถัดไป) เพื่อทำการตั้งค่าต่อไป.
-
-แตะ Back (ย้อนกลับ) เพื่อไปยังเครือข่าย Wi-Fi อื่น."</string>
 </resources>

@@ -88,99 +88,99 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 7927
+    .line 7940
     invoke-direct {p0, p1}, Lcom/android/server/PackageManagerService$GrantedPermissions;-><init>(Lcom/android/server/PackageManagerService$GrantedPermissions;)V
 
-    .line 7891
+    .line 7904
     new-instance v0, Lcom/android/server/PackageManagerService$PackageSignatures;
 
     invoke-direct {v0}, Lcom/android/server/PackageManagerService$PackageSignatures;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
 
-    .line 7904
+    .line 7917
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
-    .line 7906
+    .line 7919
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
-    .line 7907
+    .line 7920
     iput v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
-    .line 7908
+    .line 7921
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
-    .line 7929
+    .line 7942
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->name:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->name:Ljava/lang/String;
 
-    .line 7930
+    .line 7943
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->realName:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->realName:Ljava/lang/String;
 
-    .line 7931
+    .line 7944
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePath:Ljava/io/File;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePath:Ljava/io/File;
 
-    .line 7932
+    .line 7945
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePathString:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePathString:Ljava/lang/String;
 
-    .line 7933
+    .line 7946
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePath:Ljava/io/File;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePath:Ljava/io/File;
 
-    .line 7934
+    .line 7947
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePathString:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePathString:Ljava/lang/String;
 
-    .line 7935
+    .line 7948
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->nativeLibraryPathString:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->nativeLibraryPathString:Ljava/lang/String;
 
-    .line 7936
+    .line 7949
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->timeStamp:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->timeStamp:J
 
-    .line 7937
+    .line 7950
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->firstInstallTime:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->firstInstallTime:J
 
-    .line 7938
+    .line 7951
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->lastUpdateTime:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->lastUpdateTime:J
 
-    .line 7939
+    .line 7952
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->versionCode:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->versionCode:I
 
-    .line 7941
+    .line 7954
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->uidError:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->uidError:Z
 
-    .line 7943
+    .line 7956
     new-instance v0, Lcom/android/server/PackageManagerService$PackageSignatures;
 
     iget-object v1, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
@@ -189,27 +189,27 @@
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
 
-    .line 7945
+    .line 7958
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->permissionsFixed:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->permissionsFixed:Z
 
-    .line 7946
+    .line 7959
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->haveGids:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->haveGids:Z
 
-    .line 7947
+    .line 7960
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->stopped:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->stopped:Z
 
-    .line 7948
+    .line 7961
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->notLaunched:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->notLaunched:Z
 
-    .line 7950
+    .line 7963
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clone()Ljava/lang/Object;
@@ -220,7 +220,7 @@
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
-    .line 7952
+    .line 7965
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clone()Ljava/lang/Object;
@@ -231,27 +231,27 @@
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
-    .line 7954
+    .line 7967
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
-    .line 7955
+    .line 7968
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
-    .line 7957
+    .line 7970
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->origPackage:Lcom/android/server/PackageManagerService$PackageSettingBase;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->origPackage:Lcom/android/server/PackageManagerService$PackageSettingBase;
 
-    .line 7959
+    .line 7972
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->installerPackageName:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installerPackageName:Ljava/lang/String;
 
-    .line 7960
+    .line 7973
     return-void
 .end method
 
@@ -268,48 +268,48 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 7917
+    .line 7930
     invoke-direct {p0, p7}, Lcom/android/server/PackageManagerService$GrantedPermissions;-><init>(I)V
 
-    .line 7891
+    .line 7904
     new-instance v0, Lcom/android/server/PackageManagerService$PackageSignatures;
 
     invoke-direct {v0}, Lcom/android/server/PackageManagerService$PackageSignatures;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
 
-    .line 7904
+    .line 7917
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
-    .line 7906
+    .line 7919
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
-    .line 7907
+    .line 7920
     iput v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
-    .line 7908
+    .line 7921
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
-    .line 7918
+    .line 7931
     iput-object p1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->name:Ljava/lang/String;
 
-    .line 7919
+    .line 7932
     iput-object p2, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->realName:Ljava/lang/String;
 
-    .line 7920
+    .line 7933
     invoke-virtual {p0, p3, p4, p5, p6}, Lcom/android/server/PackageManagerService$PackageSettingBase;->init(Ljava/io/File;Ljava/io/File;Ljava/lang/String;I)V
 
-    .line 7921
+    .line 7934
     return-void
 .end method
 
@@ -320,77 +320,77 @@
     .parameter "base"
 
     .prologue
-    .line 7996
+    .line 8009
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->grantedPermissions:Ljava/util/HashSet;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->grantedPermissions:Ljava/util/HashSet;
 
-    .line 7997
+    .line 8010
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->gids:[I
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->gids:[I
 
-    .line 7999
+    .line 8012
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->timeStamp:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->timeStamp:J
 
-    .line 8000
+    .line 8013
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->firstInstallTime:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->firstInstallTime:J
 
-    .line 8001
+    .line 8014
     iget-wide v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->lastUpdateTime:J
 
     iput-wide v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->lastUpdateTime:J
 
-    .line 8002
+    .line 8015
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->signatures:Lcom/android/server/PackageManagerService$PackageSignatures;
 
-    .line 8003
+    .line 8016
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->permissionsFixed:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->permissionsFixed:Z
 
-    .line 8004
+    .line 8017
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->haveGids:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->haveGids:Z
 
-    .line 8005
+    .line 8018
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->stopped:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->stopped:Z
 
-    .line 8006
+    .line 8019
     iget-boolean v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->notLaunched:Z
 
     iput-boolean v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->notLaunched:Z
 
-    .line 8007
+    .line 8020
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
-    .line 8008
+    .line 8021
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
-    .line 8009
+    .line 8022
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabled:I
 
-    .line 8010
+    .line 8023
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
-    .line 8011
+    .line 8024
     return-void
 .end method
 
@@ -399,7 +399,7 @@
     .parameter "componentName"
 
     .prologue
-    .line 8032
+    .line 8045
     iget-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -408,14 +408,14 @@
 
     if-eqz v0, :cond_a
 
-    .line 8033
+    .line 8046
     const/4 v0, 0x1
 
-    .line 8037
+    .line 8050
     :goto_9
     return v0
 
-    .line 8034
+    .line 8047
     :cond_a
     iget-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
@@ -425,12 +425,12 @@
 
     if-eqz v0, :cond_14
 
-    .line 8035
+    .line 8048
     const/4 v0, 0x2
 
     goto :goto_9
 
-    .line 8037
+    .line 8050
     :cond_14
     const/4 v0, 0x0
 
@@ -442,14 +442,14 @@
     .parameter "componentClassName"
 
     .prologue
-    .line 8020
+    .line 8033
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 8021
+    .line 8034
     .local v0, changed:Z
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
@@ -459,7 +459,7 @@
 
     or-int/2addr v0, v1
 
-    .line 8022
+    .line 8035
     return v0
 .end method
 
@@ -468,14 +468,14 @@
     .parameter "componentClassName"
 
     .prologue
-    .line 8014
+    .line 8027
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 8015
+    .line 8028
     .local v0, changed:Z
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
@@ -485,7 +485,7 @@
 
     or-int/2addr v0, v1
 
-    .line 8016
+    .line 8029
     return v0
 .end method
 
@@ -493,7 +493,7 @@
     .registers 2
 
     .prologue
-    .line 7985
+    .line 7998
     iget v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
     return v0
@@ -503,7 +503,7 @@
     .registers 2
 
     .prologue
-    .line 7977
+    .line 7990
     iget-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installerPackageName:Ljava/lang/String;
 
     return-object v0
@@ -517,33 +517,33 @@
     .parameter "pVersionCode"
 
     .prologue
-    .line 7964
+    .line 7977
     iput-object p1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePath:Ljava/io/File;
 
-    .line 7965
+    .line 7978
     invoke-virtual {p1}, Ljava/io/File;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->codePathString:Ljava/lang/String;
 
-    .line 7966
+    .line 7979
     iput-object p2, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePath:Ljava/io/File;
 
-    .line 7967
+    .line 7980
     invoke-virtual {p2}, Ljava/io/File;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->resourcePathString:Ljava/lang/String;
 
-    .line 7968
+    .line 7981
     iput-object p3, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->nativeLibraryPathString:Ljava/lang/String;
 
-    .line 7969
+    .line 7982
     iput p4, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->versionCode:I
 
-    .line 7970
+    .line 7983
     return-void
 .end method
 
@@ -552,14 +552,14 @@
     .parameter "componentClassName"
 
     .prologue
-    .line 8026
+    .line 8039
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->enabledComponents:Ljava/util/HashSet;
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 8027
+    .line 8040
     .local v0, changed:Z
     iget-object v1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->disabledComponents:Ljava/util/HashSet;
 
@@ -569,7 +569,7 @@
 
     or-int/2addr v0, v1
 
-    .line 8028
+    .line 8041
     return v0
 .end method
 
@@ -578,10 +578,10 @@
     .parameter "newStatus"
 
     .prologue
-    .line 7981
+    .line 7994
     iput p1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installStatus:I
 
-    .line 7982
+    .line 7995
     return-void
 .end method
 
@@ -590,10 +590,10 @@
     .parameter "packageName"
 
     .prologue
-    .line 7973
+    .line 7986
     iput-object p1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->installerPackageName:Ljava/lang/String;
 
-    .line 7974
+    .line 7987
     return-void
 .end method
 
@@ -602,9 +602,9 @@
     .parameter "newStamp"
 
     .prologue
-    .line 7989
+    .line 8002
     iput-wide p1, p0, Lcom/android/server/PackageManagerService$PackageSettingBase;->timeStamp:J
 
-    .line 7990
+    .line 8003
     return-void
 .end method

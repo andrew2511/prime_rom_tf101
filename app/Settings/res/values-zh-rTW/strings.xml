@@ -27,6 +27,12 @@
     <string name="wifi_setup_wapi_cert_not_supported">您無法在安裝期間設定 WAPI CERT WLAN 連線。如要設定 WAPI CERT WLAN 連線，請在安裝完成後前往 [設定] 的 [無線與網路] 之下進行設定。</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">不支援WAPI CERT</string>
     <string name="wifi_wapi_network_open">開放</string>
+    <string name="asus_wifi_setup_description_connected">"請點選下一步以進行安裝
+
+請點選以返回選擇不同的Wi-Fi無線網路"</string>
+    <string name="touchpad_mode_selector">觸控板指標樣式</string>
+    <string name="touchpad_mode_entry_android32">手勢模式</string>
+    <string name="touchpad_mode_entry_classic">滑鼠指標模式</string>
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="device_info_default">不明</string>
@@ -812,6 +818,8 @@
     <string name="screen_compatibility_text">這個應用程式可能與您的螢幕不相容；您可以在這裡進行設定，將應用程式調整成與您的螢幕相容。</string>
     <string name="ask_compatibility">啓動時詢問</string>
     <string name="enable_compatibility">調整應用程式大小</string>
+    <string name="resolution_backward">Android 相容模式</string>
+    <string name="resolution_backward_subtitle">執行解析度尚未支援 Andorid 最新版本的應用程式</string>
     <string name="unknown">不明</string>
     <string name="sort_order_alpha">按名稱排序</string>
     <string name="sort_order_size">依大小排序</string>
@@ -1313,7 +1321,4 @@
     <string name="select_all">全選</string>
     <string name="hdcp_checking_title">HDCP 檢查</string>
     <string name="hdcp_checking_dialog_title">設定 HDCP 檢查行為</string>
-    <string name="asus_wifi_setup_description_connected">"請點選下一步以進行安裝
-
-請點選以返回選擇不同的Wi-Fi無線網路"</string>
 </resources>

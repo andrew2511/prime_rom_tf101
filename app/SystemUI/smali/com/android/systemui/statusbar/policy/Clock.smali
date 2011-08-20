@@ -120,7 +120,7 @@
     if-eqz v7, :cond_2
 
     .line 142
-    const v16, 0x1040077
+    const v16, 0x1040074
 
     .line 147
     .local v16, res:I
@@ -266,7 +266,7 @@
     .end local v15           #quoted:Z
     .end local v16           #res:I
     :cond_2
-    const v16, 0x1040076
+    const v16, 0x1040073
 
     .restart local v16       #res:I
     goto :goto_0

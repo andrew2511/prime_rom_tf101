@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 1658
+    .line 1672
     iput-object p1, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,7 +40,7 @@
     .parameter "intent"
 
     .prologue
-    .line 1661
+    .line 1675
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v3
@@ -53,17 +53,17 @@
 
     if-eqz v3, :cond_1
 
-    .line 1663
+    .line 1677
     iget-object v3, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-static {v3}, Lcom/nuance/xt9/input/IME;->access$000(Lcom/nuance/xt9/input/IME;)V
 
-    .line 1687
+    .line 1701
     :cond_0
     :goto_0
     return-void
 
-    .line 1665
+    .line 1679
     :cond_1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -77,14 +77,14 @@
 
     if-eqz v3, :cond_2
 
-    .line 1667
+    .line 1681
     iget-object v3, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-virtual {v3}, Lcom/nuance/xt9/input/IME;->onDestroy()V
 
     goto :goto_0
 
-    .line 1670
+    .line 1684
     :cond_2
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -98,14 +98,14 @@
 
     if-eqz v3, :cond_4
 
-    .line 1671
+    .line 1685
     const-string v3, "symbol_table_text"
 
     invoke-virtual {p2, v3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 1672
+    .line 1686
     .local v2, text:Ljava/lang/String;
     iget-object v3, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
@@ -113,20 +113,20 @@
 
     move-result-object v0
 
-    .line 1673
+    .line 1687
     .local v0, ic:Landroid/view/inputmethod/InputConnection;
     if-eqz v2, :cond_0
 
     if-eqz v0, :cond_0
 
-    .line 1674
+    .line 1688
     iget-object v3, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-static {v3}, Lcom/nuance/xt9/input/IME;->access$100(Lcom/nuance/xt9/input/IME;)Lcom/nuance/xt9/input/InputView;
 
     move-result-object v1
 
-    .line 1675
+    .line 1689
     .local v1, inputView:Lcom/nuance/xt9/input/InputView;
     if-eqz v1, :cond_3
 
@@ -134,27 +134,27 @@
 
     if-eqz v3, :cond_3
 
-    .line 1676
+    .line 1690
     check-cast v1, Lcom/nuance/xt9/input/ChineseInputView;
 
     .end local v1           #inputView:Lcom/nuance/xt9/input/InputView;
     invoke-virtual {v1}, Lcom/nuance/xt9/input/ChineseInputView;->clearBPMFSpellBuffer()V
 
-    .line 1679
+    .line 1693
     :cond_3
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 1680
+    .line 1694
     const/4 v3, 0x1
 
     invoke-interface {v0, v2, v3}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1681
+    .line 1695
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto :goto_0
 
-    .line 1683
+    .line 1697
     .end local v0           #ic:Landroid/view/inputmethod/InputConnection;
     .end local v2           #text:Ljava/lang/String;
     :cond_4
@@ -170,7 +170,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1684
+    .line 1698
     iget-object v3, p0, Lcom/nuance/xt9/input/IME$5;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-static {v3}, Lcom/nuance/xt9/input/IME;->access$200(Lcom/nuance/xt9/input/IME;)V

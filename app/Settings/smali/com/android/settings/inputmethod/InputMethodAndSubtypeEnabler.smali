@@ -304,7 +304,7 @@
 
     .line 214
     .local v6, autoCB:Landroid/preference/CheckBoxPreference;
-    const v23, 0x7f080401
+    const v23, 0x7f08040d
 
     move-object v0, v6
 
@@ -345,7 +345,7 @@
 
     .line 219
     .local v5, activeInputMethodsCategory:Landroid/preference/PreferenceCategory;
-    const v23, 0x7f080400
+    const v23, 0x7f08040c
 
     move-object v0, v5
 
@@ -1548,7 +1548,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f0803dc
+    const v14, 0x7f0803e8
 
     const/4 v15, 0x1
 

@@ -79,7 +79,7 @@
 
     .prologue
     .line 79
-    const v0, 0x7f08018a
+    const v0, 0x7f080194
 
     return v0
 .end method

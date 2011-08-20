@@ -267,7 +267,7 @@
     <string name="power_off">Vypnúť</string>
     <string name="shutdown_progress">Prebieha vypínanie...</string>
     <string name="shutdown_confirm">Váš tablet bude vypnutý.</string>
-    <string name="shutdown_confirm_question">Čo by ste radi robili?</string>
+    <string name="shutdown_confirm_question">Chcete zariadenie vypnúť?</string>
     <string name="recent_tasks_title">Najnovšie</string>
     <string name="no_recent_tasks">Žiadne nedávno použité aplikácie.</string>
     <string name="global_actions">Možnosti tabletu</string>
@@ -988,8 +988,4 @@ Chcete pokračovať v aktualizácii systému?"</string>
     <string name="keyguard_password_enter_new_pin_code">Zadajte nový kód PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Potvrďte nový kód PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">Kód PIN sa nezhoduje</string>
-    <string name="buttonTxtContinue">Pokračovať</string>
-    <string name="reboot_recovery">Obnova</string>
-    <string name="shutdown">Vypnutie</string>
-    <string name="reboot">Reboot</string>
 </resources>

@@ -135,7 +135,7 @@
 
     .line 156
     .local v2, locationCat:Landroid/preference/PreferenceGroup;
-    const v8, 0x104001c
+    const v8, 0x1040019
 
     invoke-virtual {p0, v8}, Lcom/android/settings/SecuritySettings;->getString(I)Ljava/lang/String;
 
@@ -194,17 +194,17 @@
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
 
     .line 166
-    const v8, 0x7f08031d
+    const v8, 0x7f080327
 
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setTitle(I)V
 
     .line 167
-    const v8, 0x7f08031f
+    const v8, 0x7f080329
 
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setSummaryOn(I)V
 
     .line 168
-    const v8, 0x7f08031e
+    const v8, 0x7f080328
 
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setSummaryOff(I)V
 
@@ -248,7 +248,7 @@
     .line 180
     iget-object v8, p0, Lcom/android/settings/SecuritySettings;->mNetwork:Landroid/preference/CheckBoxPreference;
 
-    const v9, 0x7f080316
+    const v9, 0x7f080320
 
     invoke-virtual {v8, v9}, Landroid/preference/CheckBoxPreference;->setSummaryOn(I)V
 
@@ -1016,7 +1016,7 @@
     :cond_1
     iget-object v8, p0, Lcom/android/settings/SecuritySettings;->mLockAfter:Landroid/preference/ListPreference;
 
-    const v9, 0x7f08011c
+    const v9, 0x7f080126
 
     const/4 v10, 0x1
 

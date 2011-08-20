@@ -58,7 +58,7 @@
     .line 406
     new-instance v0, Landroid/app/Notification;
 
-    const v1, 0x108059f
+    const v1, 0x108059d
 
     const/4 v2, 0x0
 
@@ -161,7 +161,7 @@
 
     iget-object v0, v0, Lcom/android/server/vpn/VpnService;->mContext:Landroid/content/Context;
 
-    const v1, 0x10403f3
+    const v1, 0x10403f0
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
 
     iget-object v1, v1, Lcom/android/server/vpn/VpnService;->mContext:Landroid/content/Context;
 
-    const v2, 0x10403f1
+    const v2, 0x10403ee
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -294,7 +294,7 @@
 
     iget-object v1, v1, Lcom/android/server/vpn/VpnService;->mContext:Landroid/content/Context;
 
-    const v2, 0x10403f2
+    const v2, 0x10403ef
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -339,7 +339,7 @@
     .local v1, title:Ljava/lang/String;
     new-instance v0, Landroid/app/Notification;
 
-    const v2, 0x10805a0
+    const v2, 0x108059e
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 

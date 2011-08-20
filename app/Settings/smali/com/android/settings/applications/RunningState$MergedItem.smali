@@ -164,7 +164,7 @@
     iput v2, p0, Lcom/android/settings/applications/RunningState$MergedItem;->mLastNumServices:I
 
     .line 466
-    const v3, 0x7f0803ba
+    const v3, 0x7f0803c6
 
     .line 467
     .local v3, resid:I
@@ -173,7 +173,7 @@
     .line 468
     if-eq v2, v8, :cond_5
 
-    const v5, 0x7f0803bd
+    const v5, 0x7f0803c9
 
     move v3, v5
 
@@ -279,7 +279,7 @@
     .restart local v2       #numServices:I
     .restart local v3       #resid:I
     :cond_5
-    const v5, 0x7f0803bc
+    const v5, 0x7f0803c8
 
     move v3, v5
 
@@ -290,7 +290,7 @@
     if-eq v2, v8, :cond_1
 
     .line 472
-    const v3, 0x7f0803bb
+    const v3, 0x7f0803c7
 
     goto :goto_1
 

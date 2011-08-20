@@ -408,7 +408,7 @@
 
     .prologue
     .line 709
-    const v0, 0x108021c
+    const v0, 0x108021a
 
     invoke-virtual {p0, v0}, Landroid/app/WallpaperManager;->setResource(I)V
 

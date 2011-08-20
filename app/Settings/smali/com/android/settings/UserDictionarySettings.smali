@@ -149,7 +149,7 @@
     :array_0
     .array-data 0x4
         0x14t 0x0t 0x2t 0x1t
-        0xfat 0x0t 0xft 0x7ft
+        0xfct 0x0t 0xft 0x7ft
     .end array-data
 .end method
 
@@ -417,7 +417,7 @@
     .line 105
     iget-object v2, p0, Lcom/android/settings/UserDictionarySettings;->mView:Landroid/view/View;
 
-    const v3, 0x7f0f0074
+    const v3, 0x7f0f0076
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
 
     .line 106
     .local v0, emptyView:Landroid/widget/TextView;
-    const v2, 0x7f0803e7
+    const v2, 0x7f0803f3
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -555,7 +555,7 @@
 
     if-eqz v6, :cond_0
 
-    const v6, 0x7f0803e4
+    const v6, 0x7f0803f0
 
     :goto_0
     invoke-virtual {v3, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -606,7 +606,7 @@
     .line 205
     .end local v2           #dialog:Landroid/app/AlertDialog;
     :cond_0
-    const v6, 0x7f0803e3
+    const v6, 0x7f0803ef
 
     goto :goto_0
 .end method
@@ -622,7 +622,7 @@
     const/4 v2, 0x0
 
     .line 167
-    const v1, 0x7f0803e2
+    const v1, 0x7f0803ee
 
     invoke-interface {p1, v2, v3, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

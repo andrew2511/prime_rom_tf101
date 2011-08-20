@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 367
+    .line 415
     iput-object p1, p0, Lcom/asus/weather/WeatherService$MyLocationListener;->this$0:Lcom/asus/weather/WeatherService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .parameter "x1"
 
     .prologue
-    .line 367
+    .line 415
     invoke-direct {p0, p1}, Lcom/asus/weather/WeatherService$MyLocationListener;-><init>(Lcom/asus/weather/WeatherService;)V
 
     return-void
@@ -54,28 +54,28 @@
     .parameter "loc"
 
     .prologue
-    .line 371
+    .line 419
     if-eqz p1, :cond_0
 
-    .line 373
+    .line 421
     iget-object v0, p0, Lcom/asus/weather/WeatherService$MyLocationListener;->this$0:Lcom/asus/weather/WeatherService;
 
     const/4 v5, 0x1
 
     iput-boolean v5, v0, Lcom/asus/weather/WeatherService;->flagGetPositionDone:Z
 
-    .line 374
+    .line 422
     invoke-virtual {p1}, Landroid/location/Location;->getLatitude()D
 
     move-result-wide v1
 
-    .line 375
+    .line 423
     .local v1, geoLatitude:D
     invoke-virtual {p1}, Landroid/location/Location;->getLongitude()D
 
     move-result-wide v3
 
-    .line 376
+    .line 424
     .local v3, geoLongitude:D
     iget-object v0, p0, Lcom/asus/weather/WeatherService$MyLocationListener;->this$0:Lcom/asus/weather/WeatherService;
 
@@ -87,7 +87,7 @@
 
     invoke-virtual {v0, v5}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
 
-    .line 378
+    .line 426
     const-string v0, "[WeatherService]"
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -128,7 +128,7 @@
 
     invoke-static {v0, v5}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 380
+    .line 428
     iget-object v0, p0, Lcom/asus/weather/WeatherService$MyLocationListener;->this$0:Lcom/asus/weather/WeatherService;
 
     iget-object v5, p0, Lcom/asus/weather/WeatherService$MyLocationListener;->this$0:Lcom/asus/weather/WeatherService;
@@ -145,7 +145,7 @@
 
     invoke-static/range {v0 .. v5}, Lcom/asus/weather/WeatherService;->access$200(Lcom/asus/weather/WeatherService;DDLjava/lang/String;)V
 
-    .line 382
+    .line 430
     .end local v1           #geoLatitude:D
     .end local v3           #geoLongitude:D
     :cond_0
@@ -157,7 +157,7 @@
     .parameter "provider"
 
     .prologue
-    .line 386
+    .line 434
     return-void
 .end method
 
@@ -166,7 +166,7 @@
     .parameter "provider"
 
     .prologue
-    .line 390
+    .line 438
     return-void
 .end method
 
@@ -177,6 +177,6 @@
     .parameter "extras"
 
     .prologue
-    .line 395
+    .line 443
     return-void
 .end method

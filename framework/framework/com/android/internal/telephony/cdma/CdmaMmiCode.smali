@@ -131,7 +131,7 @@
     .line 250
     iget-object v0, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400ce
+    const v1, 0x10400cb
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -365,7 +365,7 @@
     .parameter "ar"
 
     .prologue
-    const v3, 0x10400b9
+    const v3, 0x10400b6
 
     .line 259
     new-instance v1, Ljava/lang/StringBuilder;
@@ -426,7 +426,7 @@
     .line 268
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x10400c3
+    const v3, 0x10400c0
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -452,7 +452,7 @@
     :cond_47
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x10400c0
+    const v3, 0x10400bd
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -503,7 +503,7 @@
     .line 284
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x10400be
+    const v3, 0x10400bb
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -762,7 +762,7 @@
     if-nez v4, :cond_23
 
     .line 204
-    const v4, 0x10400c4
+    const v4, 0x10400c1
 
     invoke-direct {p0, v4}, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->handlePasswordError(I)V
 
@@ -788,7 +788,7 @@
 
     .line 207
     :cond_2a
-    const v4, 0x10400c5
+    const v4, 0x10400c2
 
     invoke-direct {p0, v4}, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->handlePasswordError(I)V
     :try_end_30
@@ -814,7 +814,7 @@
     .line 220
     iget-object v4, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v5, 0x10400b9
+    const v5, 0x10400b6
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

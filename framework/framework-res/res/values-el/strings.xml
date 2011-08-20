@@ -267,7 +267,7 @@
     <string name="power_off">Απενεργοποίηση</string>
     <string name="shutdown_progress">Απενεργοποίηση...</string>
     <string name="shutdown_confirm">Το tablet σας θα απενεργοποιηθεί.</string>
-    <string name="shutdown_confirm_question">Τι θα θέλατε να κάνετε;</string>
+    <string name="shutdown_confirm_question">Θέλετε να γίνει τερματισμός λειτουργίας;</string>
     <string name="recent_tasks_title">Πρόσφατα</string>
     <string name="no_recent_tasks">Δεν υπάρχουν πρόσφατες εφαρμογές.</string>
     <string name="global_actions">Επιλογές tablet</string>
@@ -990,8 +990,4 @@
     <string name="keyguard_password_enter_new_pin_code">Εισάγετε νέο ΡΙΝ</string>
     <string name="keyguard_password_verify_new_pin_code">Επιβεβαίωση νέου ΡΙΝ</string>
     <string name="keyguard_password_verify_new_pin_code_failed">Το PIN δεν ταιριάζει.</string>
-    <string name="buttonTxtContinue">Συνεχίστε</string>
-    <string name="reboot_recovery">Ανάκτηση</string>
-    <string name="shutdown">Tερματισμός λειτουργίας</string>
-    <string name="reboot">Επανεκκίνηση</string>
 </resources>

@@ -328,32 +328,32 @@
 
     const/4 v2, 0x1
 
-    .line 402
+    .line 422
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 403
+    .line 423
     sparse-switch p1, :sswitch_data_0
 
-    .line 415
+    .line 435
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oEditor:Lcom/infraware/common/UxDocEditorBase;
 
     invoke-virtual {v0, p2}, Lcom/infraware/common/UxDocEditorBase;->processKeyEvent(Landroid/view/KeyEvent;)Z
 
     move-result v0
 
-    .line 418
+    .line 438
     :goto_0
     return v0
 
-    .line 405
+    .line 425
     :sswitch_0
     invoke-virtual {p0}, Lcom/infraware/common/UxEditorGestureDetector;->sendEmptyCommit()V
 
-    .line 406
+    .line 426
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
 
     const/16 v1, 0xa
@@ -362,10 +362,10 @@
 
     move v0, v2
 
-    .line 407
+    .line 427
     goto :goto_0
 
-    .line 409
+    .line 429
     :sswitch_1
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
 
@@ -375,10 +375,10 @@
 
     move v0, v2
 
-    .line 410
+    .line 430
     goto :goto_0
 
-    .line 412
+    .line 432
     :sswitch_2
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
 
@@ -388,16 +388,16 @@
 
     move v0, v2
 
-    .line 413
+    .line 433
     goto :goto_0
 
     :cond_0
     move v0, v3
 
-    .line 418
+    .line 438
     goto :goto_0
 
-    .line 403
+    .line 423
     nop
 
     :sswitch_data_0
@@ -414,7 +414,7 @@
     .parameter "a_oEvent"
 
     .prologue
-    .line 440
+    .line 460
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oEditor:Lcom/infraware/common/UxDocEditorBase;
 
     invoke-virtual {v0, p2}, Lcom/infraware/common/UxDocEditorBase;->processKeyShortcutEvent(Landroid/view/KeyEvent;)Z
@@ -430,7 +430,7 @@
     .parameter "event"
 
     .prologue
-    .line 423
+    .line 443
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v0
@@ -439,17 +439,17 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 424
+    .line 444
     packed-switch p1, :pswitch_data_0
 
-    .line 430
+    .line 450
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oEditor:Lcom/infraware/common/UxDocEditorBase;
 
     invoke-virtual {v0, p2}, Lcom/infraware/common/UxDocEditorBase;->processKeyEvent(Landroid/view/KeyEvent;)Z
 
     move-result v0
 
-    .line 433
+    .line 453
     :goto_0
     return v0
 
@@ -459,7 +459,7 @@
 
     goto :goto_0
 
-    .line 424
+    .line 444
     nop
 
     :pswitch_data_0
@@ -890,21 +890,21 @@
     .parameter "bShow"
 
     .prologue
-    .line 445
+    .line 465
     if-eqz p1, :cond_0
 
-    .line 446
+    .line 466
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oView:Lcom/infraware/common/UxSurfaceView;
 
     invoke-virtual {v0}, Lcom/infraware/common/UxSurfaceView;->showSoftInput()V
 
-    .line 451
+    .line 471
     :goto_0
     const/4 v0, 0x1
 
     return v0
 
-    .line 449
+    .line 469
     :cond_0
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oView:Lcom/infraware/common/UxSurfaceView;
 
@@ -1377,12 +1377,12 @@
 .end method
 
 .method public onTextChanged(ZLjava/lang/CharSequence;III)V
-    .locals 19
+    .locals 22
     .parameter "bComposing"
     .parameter "text"
     .parameter "start"
     .parameter "before"
-    .parameter "after"
+    .parameter "count"
 
     .prologue
     .line 290
@@ -1390,30 +1390,26 @@
 
     move-result v14
 
-    .line 291
+    .line 292
     .local v14, endPos:I
-    sub-int v11, p5, p4
-
-    .line 293
-    .local v11, compLen:I
     invoke-interface/range {p2 .. p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
-    move-result-object v18
+    move-result-object v20
 
-    .line 294
-    .local v18, strText:Ljava/lang/String;
+    .line 293
+    .local v20, strText:Ljava/lang/String;
     if-nez v14, :cond_0
 
     if-nez p4, :cond_0
 
-    .line 295
+    .line 294
     invoke-virtual/range {p0 .. p0}, Lcom/infraware/common/UxEditorGestureDetector;->sendEmptyCommit()V
 
-    .line 355
+    .line 375
     :goto_0
     return-void
 
-    .line 299
+    .line 298
     :cond_0
     move-object/from16 v0, p0
 
@@ -1437,19 +1433,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 301
+    .line 300
     invoke-virtual/range {p0 .. p0}, Lcom/infraware/common/UxEditorGestureDetector;->sendEmptyCommit()V
 
     goto :goto_0
 
-    .line 305
+    .line 304
     :cond_1
     if-nez p1, :cond_3
 
-    .line 306
+    .line 305
     if-nez p4, :cond_2
 
-    .line 308
+    .line 307
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
@@ -1460,13 +1456,13 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v18 .. v18}, Ljava/lang/String;->length()I
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/String;->length()I
 
     move-result v8
 
     move-object v0, v5
 
-    move-object/from16 v1, v18
+    move-object/from16 v1, v20
 
     move v2, v6
 
@@ -1476,7 +1472,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/infraware/evengine/ICoEngineInterface;->IInsertString(Ljava/lang/String;III)V
 
-    .line 313
+    .line 312
     :goto_1
     const-string v5, ""
 
@@ -1488,7 +1484,7 @@
 
     goto :goto_0
 
-    .line 310
+    .line 309
     :cond_2
     move-object/from16 v0, p0
 
@@ -1500,13 +1496,13 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v18 .. v18}, Ljava/lang/String;->length()I
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/String;->length()I
 
     move-result v8
 
     move-object v0, v5
 
-    move-object/from16 v1, v18
+    move-object/from16 v1, v20
 
     move v2, v6
 
@@ -1516,7 +1512,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/infraware/evengine/ICoEngineInterface;->IInsertString(Ljava/lang/String;III)V
 
-    .line 311
+    .line 310
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
@@ -1531,7 +1527,7 @@
 
     move-object v0, v5
 
-    move-object/from16 v1, v18
+    move-object/from16 v1, v20
 
     move v2, v6
 
@@ -1543,21 +1539,15 @@
 
     goto :goto_1
 
-    .line 315
+    .line 314
     :cond_3
-    const/4 v5, 0x1
-
-    sub-int v12, v14, v5
-
-    .line 316
-    .local v12, compPos:I
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
 
     move-object v5, v0
 
-    if-eqz v5, :cond_5
+    if-eqz v5, :cond_6
 
     move-object/from16 v0, p0
 
@@ -1571,45 +1561,49 @@
 
     move/from16 v17, v5
 
-    .line 317
+    .line 315
     .local v17, prevPos:I
     :goto_2
-    if-nez v11, :cond_6
+    sub-int v12, v17, p4
 
-    .line 318
-    const-string v5, "UxEditorGestureDetector"
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    const-string v7, "onTextChanged1  compLen="
-
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    const-string v7, " :"
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    move-object v0, v6
-
-    move-object/from16 v1, v18
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
+    .line 316
+    .local v12, compPos:I
+    sub-int v11, p5, p4
 
     .line 319
+    .local v11, compLen:I
+    if-nez v11, :cond_8
+
+    .line 320
+    if-gez v12, :cond_4
+
+    .line 321
+    invoke-static {v12}, Ljava/lang/Math;->abs(I)I
+
+    move-result v21
+
+    .line 322
+    .local v21, t:I
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
+
+    move-object v5, v0
+
+    const/4 v6, 0x5
+
+    invoke-virtual {v5, v6}, Lcom/infraware/evengine/ICoEngineInterface;->ICaretMove(I)V
+
+    .line 323
+    :goto_3
+    if-gtz v21, :cond_7
+
+    .line 327
+    const/4 v12, 0x0
+
+    .line 330
+    .end local v21           #t:I
+    :cond_4
     move-object/from16 v0, p2
 
     move v1, v12
@@ -1622,11 +1616,11 @@
 
     invoke-interface {v5}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
-    move-result-object v18
+    move-result-object v20
 
-    .line 348
-    :cond_4
-    :goto_3
+    .line 368
+    :cond_5
+    :goto_4
     const-string v5, "UxEditorGestureDetector"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1645,7 +1639,7 @@
 
     move-result-object v6
 
-    invoke-virtual/range {v18 .. v18}, Ljava/lang/String;->length()I
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/String;->length()I
 
     move-result v7
 
@@ -1661,7 +1655,7 @@
 
     move-object v0, v6
 
-    move-object/from16 v1, v18
+    move-object/from16 v1, v20
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1671,9 +1665,9 @@
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 349
+    .line 369
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
@@ -1682,13 +1676,13 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual/range {v18 .. v18}, Ljava/lang/String;->length()I
+    invoke-virtual/range {v20 .. v20}, Ljava/lang/String;->length()I
 
     move-result v7
 
     move-object v0, v5
 
-    move-object/from16 v1, v18
+    move-object/from16 v1, v20
 
     move v2, v6
 
@@ -1698,7 +1692,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/infraware/evengine/ICoEngineInterface;->IInsertString(Ljava/lang/String;III)V
 
-    .line 352
+    .line 372
     const/4 v5, 0x0
 
     move-object/from16 v0, p0
@@ -1707,7 +1701,7 @@
 
     invoke-virtual {v0, v1}, Lcom/infraware/common/UxEditorGestureDetector;->updateCaretPos(Z)V
 
-    .line 353
+    .line 373
     invoke-interface/range {p2 .. p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -1720,66 +1714,126 @@
 
     goto/16 :goto_0
 
-    .line 316
+    .line 314
+    .end local v11           #compLen:I
+    .end local v12           #compPos:I
     .end local v17           #prevPos:I
-    :cond_5
+    :cond_6
     const/4 v5, 0x0
 
     move/from16 v17, v5
 
-    goto/16 :goto_2
+    goto :goto_2
 
-    .line 322
+    .line 324
+    .restart local v11       #compLen:I
+    .restart local v12       #compPos:I
     .restart local v17       #prevPos:I
-    :cond_6
-    if-lez v11, :cond_9
+    .restart local v21       #t:I
+    :cond_7
+    move-object/from16 v0, p0
 
-    .line 323
-    sub-int v13, v14, v17
+    iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
+
+    move-object v5, v0
+
+    const/4 v6, 0x2
+
+    const/16 v7, 0x8
+
+    invoke-virtual {v5, v6, v7}, Lcom/infraware/evengine/ICoEngineInterface;->ICharInsert(II)V
 
     .line 325
-    .local v13, diff:I
-    const-string v5, "UxEditorGestureDetector"
+    add-int/lit8 v21, v21, -0x1
 
-    new-instance v6, Ljava/lang/StringBuilder;
+    goto :goto_3
 
-    const-string v7, "onTextChanged2-1 prevPos="
+    .line 331
+    .end local v21           #t:I
+    :cond_8
+    if-lez v11, :cond_e
 
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    .line 332
+    const-string v18, ""
 
-    move-object v0, v6
+    .line 333
+    .local v18, strCompare1:Ljava/lang/String;
+    move-object/from16 v19, v20
 
-    move/from16 v1, v17
+    .line 334
+    .local v19, strCompare2:Ljava/lang/String;
+    if-lez v17, :cond_9
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    .line 335
+    move-object/from16 v0, p0
 
-    move-result-object v6
+    iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
 
-    const-string v7, " diff="
+    move-object v5, v0
 
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const/4 v6, 0x0
 
-    move-result-object v6
+    const/4 v7, 0x1
 
-    invoke-virtual {v6, v13}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    sub-int v7, v17, v7
 
-    move-result-object v6
+    invoke-virtual {v5, v6, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v18
 
-    move-result-object v6
-
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 326
+    .line 336
+    :cond_9
     const/4 v5, 0x1
 
-    if-ne v13, v5, :cond_8
+    if-le v14, v5, :cond_a
 
-    .line 327
+    .line 337
+    const/4 v5, 0x0
+
+    const/4 v6, 0x2
+
+    sub-int v6, v14, v6
+
+    move-object/from16 v0, v20
+
+    move v1, v5
+
+    move v2, v6
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object v19
+
+    .line 339
+    :cond_a
+    move-object/from16 v0, v19
+
+    move-object/from16 v1, v18
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+
+    move-result v5
+
+    if-nez v5, :cond_d
+
+    .line 340
+    const/4 v5, 0x1
+
+    sub-int v12, v14, v5
+
+    .line 341
+    sub-int v13, v14, v17
+
+    .line 343
+    .local v13, diff:I
+    const/4 v5, 0x1
+
+    if-ne v13, v5, :cond_c
+
+    .line 344
     const/4 v5, 0x2
 
-    if-lt v14, v5, :cond_7
+    if-lt v14, v5, :cond_b
 
     move-object/from16 v0, p0
 
@@ -1787,9 +1841,9 @@
 
     move-object v5, v0
 
-    if-eqz v5, :cond_7
+    if-eqz v5, :cond_b
 
-    .line 328
+    .line 345
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
@@ -1800,9 +1854,9 @@
 
     move-result v5
 
-    if-lez v5, :cond_7
+    if-lez v5, :cond_b
 
-    .line 329
+    .line 346
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
@@ -1827,13 +1881,13 @@
 
     move-result v15
 
-    .line 330
+    .line 347
     .local v15, nCode1:I
     const/4 v5, 0x2
 
     sub-int v5, v14, v5
 
-    move-object/from16 v0, v18
+    move-object/from16 v0, v20
 
     move v1, v5
 
@@ -1841,58 +1895,25 @@
 
     move-result v16
 
-    .line 331
+    .line 348
     .local v16, nCode2:I
-    const-string v5, "UxEditorGestureDetector"
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    const-string v7, "onTextChanged2-2 nCode1="
-
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v6, v15}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    const-string v7, " nCode2="
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    move-object v0, v6
-
-    move/from16 v1, v16
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 332
     move v0, v15
 
     move/from16 v1, v16
 
-    if-eq v0, v1, :cond_7
+    if-eq v0, v1, :cond_b
 
-    .line 333
+    .line 349
     add-int/lit8 v12, v12, -0x1
 
-    .line 334
+    .line 350
     add-int/lit8 v11, v11, 0x1
 
-    .line 342
+    .line 358
     .end local v15           #nCode1:I
     .end local v16           #nCode2:I
-    :cond_7
-    :goto_4
+    :cond_b
+    :goto_5
     sub-int v5, v14, v11
 
     move-object/from16 v0, p2
@@ -1907,91 +1928,57 @@
 
     invoke-interface {v5}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
-    move-result-object v18
+    move-result-object v20
 
-    .line 344
-    const-string v5, "UxEditorGestureDetector"
+    goto/16 :goto_4
 
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    const-string v7, "onTextChanged2-4 compPos="
-
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v6, v12}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    const-string v7, " compLen="
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    const-string v7, " :"
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    move-object v0, v6
-
-    move-object/from16 v1, v18
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/16 :goto_3
-
-    .line 339
-    :cond_8
-    const-string v5, "UxEditorGestureDetector"
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    const-string v7, "onTextChanged2-3 prevPos="
-
-    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    move-object v0, v6
-
-    move/from16 v1, v17
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v5, v6}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 340
+    .line 356
+    :cond_c
     move/from16 v12, v17
 
-    goto :goto_4
+    goto :goto_5
 
-    .line 345
+    .line 361
     .end local v13           #diff:I
-    :cond_9
-    if-gez v11, :cond_4
+    :cond_d
+    move-object/from16 v0, p2
 
-    .line 346
-    sub-int v12, v17, p4
+    move v1, v12
 
-    goto/16 :goto_3
+    move v2, v14
+
+    invoke-interface {v0, v1, v2}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    move-result-object v5
+
+    invoke-interface {v5}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    move-result-object v20
+
+    goto/16 :goto_4
+
+    .line 365
+    .end local v18           #strCompare1:Ljava/lang/String;
+    .end local v19           #strCompare2:Ljava/lang/String;
+    :cond_e
+    if-gez v11, :cond_5
+
+    .line 366
+    move-object/from16 v0, p2
+
+    move v1, v12
+
+    move v2, v14
+
+    invoke-interface {v0, v1, v2}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    move-result-object v5
+
+    invoke-interface {v5}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    move-result-object v20
+
+    goto/16 :goto_4
 .end method
 
 .method public sendEmptyCommit()V
@@ -2000,7 +1987,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 394
+    .line 414
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2013,12 +2000,12 @@
 
     if-lez v0, :cond_0
 
-    .line 395
+    .line 415
     const-string v0, ""
 
     iput-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_szPrevText:Ljava/lang/String;
 
-    .line 396
+    .line 416
     iget-object v0, p0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
 
     const-string v1, ""
@@ -2027,7 +2014,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v3}, Lcom/infraware/evengine/ICoEngineInterface;->IInsertString(Ljava/lang/String;III)V
 
-    .line 398
+    .line 418
     :cond_0
     return-void
 .end method
@@ -2079,7 +2066,7 @@
     .parameter "bCommit"
 
     .prologue
-    .line 359
+    .line 379
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oEditor:Lcom/infraware/common/UxDocEditorBase;
@@ -2094,7 +2081,7 @@
 
     check-cast v2, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 360
+    .line 380
     .local v2, imm:Landroid/view/inputmethod/InputMethodManager;
     if-eqz v2, :cond_1
 
@@ -2110,7 +2097,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 361
+    .line 381
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oNativeInterface:Lcom/infraware/evengine/ICoEngineInterface;
@@ -2121,7 +2108,7 @@
 
     move-result-object v16
 
-    .line 362
+    .line 382
     .local v16, ev_caretPos:Lcom/infraware/evengine/EV$CARET_POS;
     move-object/from16 v0, v16
 
@@ -2131,7 +2118,7 @@
 
     add-int/lit8 v18, v3, 0x1
 
-    .line 363
+    .line 383
     .local v18, ev_paraPos:I
     move-object/from16 v0, v16
 
@@ -2139,29 +2126,29 @@
 
     move/from16 v17, v0
 
-    .line 364
+    .line 384
     .local v17, ev_colPos:I
     invoke-static/range {v17 .. v17}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v21
 
-    .line 365
+    .line 385
     .local v21, str_colPos:Ljava/lang/String;
     invoke-virtual/range {v21 .. v21}, Ljava/lang/String;->length()I
 
     move-result v19
 
-    .line 366
+    .line 386
     .local v19, length:I
     mul-int v3, v18, v19
 
     mul-int/lit8 v20, v3, 0xa
 
-    .line 367
+    .line 387
     .local v20, paraPos:I
     add-int v14, v20, v17
 
-    .line 368
+    .line 388
     .local v14, caretPos:I
     const-string v3, "UxEditorGestureDetector"
 
@@ -2213,22 +2200,22 @@
 
     invoke-static {v3, v4}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 370
+    .line 390
     move v10, v14
 
-    .line 371
+    .line 391
     .local v10, selStart:I
     move v11, v14
 
-    .line 372
+    .line 392
     .local v11, selEnd:I
     const/4 v6, -0x1
 
-    .line 373
+    .line 393
     .local v6, candStart:I
     const/4 v7, -0x1
 
-    .line 374
+    .line 394
     .local v7, candEnd:I
     move-object/from16 v0, p0
 
@@ -2240,7 +2227,7 @@
 
     move-result-object v15
 
-    .line 375
+    .line 395
     .local v15, editable:Landroid/text/Editable;
     invoke-interface {v15}, Landroid/text/Editable;->length()I
 
@@ -2250,27 +2237,27 @@
 
     if-nez p1, :cond_2
 
-    .line 376
+    .line 396
     invoke-static {v15}, Landroid/text/Selection;->getSelectionStart(Ljava/lang/CharSequence;)I
 
     move-result v10
 
-    .line 377
+    .line 397
     invoke-static {v15}, Landroid/text/Selection;->getSelectionEnd(Ljava/lang/CharSequence;)I
 
     move-result v11
 
-    .line 378
+    .line 398
     invoke-static {v15}, Lcom/infraware/common/EvInputConnection;->getComposingSpanStart(Landroid/text/Spannable;)I
 
     move-result v6
 
-    .line 379
+    .line 399
     invoke-static {v15}, Lcom/infraware/common/EvInputConnection;->getComposingSpanEnd(Landroid/text/Spannable;)I
 
     move-result v7
 
-    .line 387
+    .line 407
     :cond_0
     :goto_0
     const-string v3, "UxEditorGestureDetector"
@@ -2311,7 +2298,7 @@
 
     invoke-static {v3, v4}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 388
+    .line 408
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oView:Lcom/infraware/common/UxSurfaceView;
@@ -2326,7 +2313,7 @@
 
     invoke-virtual/range {v8 .. v13}, Landroid/view/inputmethod/InputMethodManager;->updateSelection(Landroid/view/View;IIII)V
 
-    .line 390
+    .line 410
     .end local v6           #candStart:I
     .end local v7           #candEnd:I
     .end local v10           #selStart:I
@@ -2342,7 +2329,7 @@
     :cond_1
     return-void
 
-    .line 381
+    .line 401
     .restart local v6       #candStart:I
     .restart local v7       #candEnd:I
     .restart local v10       #selStart:I
@@ -2364,7 +2351,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 382
+    .line 402
     invoke-static {v15}, Lcom/infraware/common/EvInputConnection;->getComposingSpanEnd(Landroid/text/Spannable;)I
 
     move-result v3
@@ -2373,7 +2360,7 @@
 
     sub-int v4, v3, v4
 
-    .line 383
+    .line 403
     .local v4, t:I
     const-string v3, "UxEditorGestureDetector"
 
@@ -2413,7 +2400,7 @@
 
     invoke-static {v3, v5}, Lcom/infraware/common/CoLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 384
+    .line 404
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/infraware/common/UxEditorGestureDetector;->m_oView:Lcom/infraware/common/UxSurfaceView;

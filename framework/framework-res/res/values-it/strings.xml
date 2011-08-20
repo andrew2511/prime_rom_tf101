@@ -267,7 +267,7 @@
     <string name="power_off">Spegni</string>
     <string name="shutdown_progress">Spegnimento...</string>
     <string name="shutdown_confirm">Il tablet verrà spento.</string>
-    <string name="shutdown_confirm_question">Quale operazione vuoi effettuare?</string>
+    <string name="shutdown_confirm_question">Spegnere?</string>
     <string name="recent_tasks_title">Recenti</string>
     <string name="no_recent_tasks">Nessuna applicazione recente.</string>
     <string name="global_actions">Opzioni tablet</string>
@@ -990,8 +990,4 @@ Riprovare."</string>
     <string name="keyguard_password_enter_new_pin_code">Inserire nuovo PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Confermare nuovo PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">Codice PIN non corretto.</string>
-    <string name="buttonTxtContinue">Continuare</string>
-    <string name="reboot_recovery">Recovery</string>
-    <string name="shutdown">Spegni</string>
-    <string name="reboot">Riavvia</string>
 </resources>

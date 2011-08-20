@@ -599,7 +599,7 @@
 
     iget v1, p2, Lcom/nuance/xt9/input/KeyboardEx$Row;->mode:I
 
-    const v2, 0x7f09003d
+    const v2, 0x7f09003e
 
     if-eq v1, v2, :cond_3
 

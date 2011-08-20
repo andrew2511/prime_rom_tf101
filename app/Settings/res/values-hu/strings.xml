@@ -27,6 +27,9 @@ Kérjük, ellenőrizze a tanúsítványok érvényességét"</string>
     <string name="wifi_setup_wapi_cert_not_supported">A WAPI CERT WLAN kapcsolat nem konfigurálható telepítés közben. A telepítés után ezt megteheti a Settings (Beállítások) menüben, a <b>Wireless &amp; networks</b> (Vezeték nélküli hálózatok) alatt.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">A WAPI CERT nem támogatott</string>
     <string name="wifi_wapi_network_open">Megnyitás</string>
+    <string name="asus_wifi_setup_description_connected">"Érintse meg a Tovább gombot a beállítás folytatásához.
+
+Érintse meg a Vissza gombot, ha másik Wi-Fi hálózathoz akar csatlakozni."</string>
     <string name="yes">Igen</string>
     <string name="no">Nem</string>
     <string name="device_info_default">Ismeretlen</string>
@@ -1313,7 +1316,4 @@ Folytatja?"</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="hdcp_checking_title">HDCP ellenőrzés</string>
     <string name="hdcp_checking_dialog_title">HDCP-ellenőrzés beállítása</string>
-    <string name="asus_wifi_setup_description_connected">"Érintse meg a Tovább gombot a beállítás folytatásához.
-
-Érintse meg a Vissza gombot, ha másik Wi-Fi hálózathoz akar csatlakozni."</string>
 </resources>

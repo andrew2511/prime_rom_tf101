@@ -723,7 +723,7 @@
 
     iget-object v5, p0, Lcom/android/server/WiredAccessoryObserver;->mContext:Landroid/content/Context;
 
-    const v6, 0x1040411
+    const v6, 0x104040e
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -735,7 +735,7 @@
 
     iget-object v5, p0, Lcom/android/server/WiredAccessoryObserver;->mContext:Landroid/content/Context;
 
-    const v6, 0x1040412
+    const v6, 0x104040f
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -898,7 +898,7 @@
 
     iget-object v5, p0, Lcom/android/server/WiredAccessoryObserver;->mContext:Landroid/content/Context;
 
-    const v6, 0x1040413
+    const v6, 0x1040410
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -910,7 +910,7 @@
 
     iget-object v5, p0, Lcom/android/server/WiredAccessoryObserver;->mContext:Landroid/content/Context;
 
-    const v6, 0x1040414
+    const v6, 0x1040411
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

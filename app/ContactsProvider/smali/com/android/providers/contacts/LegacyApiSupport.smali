@@ -1286,7 +1286,7 @@
 
     const-string v3, ""
 
-    const v4, 0x10400ad
+    const v4, 0x10400aa
 
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

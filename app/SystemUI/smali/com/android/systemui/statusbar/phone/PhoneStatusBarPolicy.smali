@@ -581,7 +581,7 @@
 
     const-string v4, "battery"
 
-    const v5, 0x10804da
+    const v5, 0x10804d8
 
     invoke-virtual {v3, v4, v5, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
@@ -767,7 +767,7 @@
 
     const-string v4, "sync_active"
 
-    const v5, 0x10804b6
+    const v5, 0x10804b4
 
     invoke-virtual {v3, v4, v5, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
@@ -776,7 +776,7 @@
 
     const-string v4, "sync_failing"
 
-    const v5, 0x10804b7
+    const v5, 0x10804b5
 
     invoke-virtual {v3, v4, v5, v7}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 
@@ -2178,7 +2178,7 @@
 
     const-string v3, "gps"
 
-    const v4, 0x10804e2
+    const v4, 0x10804e0
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 

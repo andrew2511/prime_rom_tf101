@@ -407,7 +407,7 @@
 
     .line 237
     .local v0, defaultCharset:Ljava/lang/String;
-    const v2, 0x1040020
+    const v2, 0x104001d
 
     :try_start_dc
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

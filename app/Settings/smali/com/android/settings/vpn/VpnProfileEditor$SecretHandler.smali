@@ -104,7 +104,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0804f2
+    const v3, 0x7f0804fe
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->setHint(I)V
@@ -140,7 +140,7 @@
     .line 210
     .restart local v0       #pref:Landroid/preference/EditTextPreference;
     :cond_1
-    const v3, 0x7f0804f3
+    const v3, 0x7f0804ff
 
     goto :goto_1
 .end method
@@ -183,7 +183,7 @@
 
     if-nez v3, :cond_0
 
-    const v3, 0x7f0804ea
+    const v3, 0x7f0804f6
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
     .line 244
     .end local v1           #formatString:Ljava/lang/String;
     :cond_0
-    const v3, 0x7f0804e9
+    const v3, 0x7f0804f5
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -280,7 +280,7 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0804b8
+    const v2, 0x7f0804c4
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

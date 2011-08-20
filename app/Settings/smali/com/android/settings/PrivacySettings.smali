@@ -136,7 +136,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/PrivacySettings;->mConfigure:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f080514
+    const v1, 0x7f080520
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -164,7 +164,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080518
+    const v2, 0x7f080524
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -184,7 +184,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080517
+    const v2, 0x7f080523
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

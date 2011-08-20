@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 2445
+    .line 2654
     iput-object p1, p0, Landroid/net/wifi/WifiStateMachine$DriverStoppingState;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     invoke-direct {p0}, Lcom/android/internal/util/HierarchicalState;-><init>()V
@@ -38,7 +38,7 @@
     .registers 3
 
     .prologue
-    .line 2449
+    .line 2658
     const v0, 0xc365
 
     invoke-virtual {p0}, Landroid/net/wifi/WifiStateMachine$DriverStoppingState;->getName()Ljava/lang/String;
@@ -47,7 +47,7 @@
 
     invoke-static {v0, v1}, Landroid/util/EventLog;->writeEvent(ILjava/lang/String;)I
 
-    .line 2450
+    .line 2659
     return-void
 .end method
 
@@ -56,33 +56,33 @@
     .parameter "message"
 
     .prologue
-    .line 2454
+    .line 2663
     iget v0, p1, Landroid/os/Message;->what:I
 
     sparse-switch v0, :sswitch_data_22
 
-    .line 2474
+    .line 2683
     const/4 v0, 0x0
 
-    .line 2477
+    .line 2686
     :goto_6
     return v0
 
-    .line 2456
+    .line 2665
     :sswitch_7
     iget-object v0, p0, Landroid/net/wifi/WifiStateMachine$DriverStoppingState;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     iget-object v1, p0, Landroid/net/wifi/WifiStateMachine$DriverStoppingState;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     #getter for: Landroid/net/wifi/WifiStateMachine;->mDriverStoppedState:Lcom/android/internal/util/HierarchicalState;
-    invoke-static {v1}, Landroid/net/wifi/WifiStateMachine;->access$7100(Landroid/net/wifi/WifiStateMachine;)Lcom/android/internal/util/HierarchicalState;
+    invoke-static {v1}, Landroid/net/wifi/WifiStateMachine;->access$7600(Landroid/net/wifi/WifiStateMachine;)Lcom/android/internal/util/HierarchicalState;
 
     move-result-object v1
 
     #calls: Landroid/net/wifi/WifiStateMachine;->transitionTo(Lcom/android/internal/util/HierarchicalState;)V
-    invoke-static {v0, v1}, Landroid/net/wifi/WifiStateMachine;->access$7200(Landroid/net/wifi/WifiStateMachine;Lcom/android/internal/util/HierarchicalState;)V
+    invoke-static {v0, v1}, Landroid/net/wifi/WifiStateMachine;->access$7700(Landroid/net/wifi/WifiStateMachine;Lcom/android/internal/util/HierarchicalState;)V
 
-    .line 2476
+    .line 2685
     :goto_12
     const v0, 0xc366
 
@@ -90,21 +90,21 @@
 
     invoke-static {v0, v1}, Landroid/util/EventLog;->writeEvent(II)I
 
-    .line 2477
+    .line 2686
     const/4 v0, 0x1
 
     goto :goto_6
 
-    .line 2471
+    .line 2680
     :sswitch_1c
     iget-object v0, p0, Landroid/net/wifi/WifiStateMachine$DriverStoppingState;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     #calls: Landroid/net/wifi/WifiStateMachine;->deferMessage(Landroid/os/Message;)V
-    invoke-static {v0, p1}, Landroid/net/wifi/WifiStateMachine;->access$7300(Landroid/net/wifi/WifiStateMachine;Landroid/os/Message;)V
+    invoke-static {v0, p1}, Landroid/net/wifi/WifiStateMachine;->access$7800(Landroid/net/wifi/WifiStateMachine;Landroid/os/Message;)V
 
     goto :goto_12
 
-    .line 2454
+    .line 2663
     :sswitch_data_22
     .sparse-switch
         0x1000d -> :sswitch_1c

@@ -239,7 +239,7 @@
     .line 214
     iget-object v0, p0, Lcom/android/settings/wifi/WifiApEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b4
+    const v1, 0x7f0801be
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -254,7 +254,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/android/settings/wifi/WifiApEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b2
+    const v1, 0x7f0801bc
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -282,7 +282,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/android/settings/wifi/WifiApEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b3
+    const v1, 0x7f0801bd
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -522,7 +522,7 @@
     .line 184
     iget-object v13, p0, Lcom/android/settings/wifi/WifiApEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0801b4
+    const v14, 0x7f0801be
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -646,7 +646,7 @@
     :cond_3
     iget-object v4, p0, Lcom/android/settings/wifi/WifiApEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v5, 0x7f0801b4
+    const v5, 0x7f0801be
 
     invoke-virtual {v4, v5}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -715,7 +715,7 @@
     .line 156
     iget-object v1, p0, Lcom/android/settings/wifi/WifiApEnabler;->mContext:Landroid/content/Context;
 
-    const v2, 0x1040370
+    const v2, 0x104036d
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -727,7 +727,7 @@
 
     iget-object v2, p0, Lcom/android/settings/wifi/WifiApEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f080201
+    const v3, 0x7f08020b
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -401,7 +401,7 @@
 
     .line 161
     .local v0, assets:Landroid/content/res/AssetManager;
-    const v1, 0x102026c
+    const v1, 0x1020268
 
     invoke-virtual {p0, v1}, Lcom/android/internal/widget/DigitalClock;->findViewById(I)Landroid/view/View;
 
@@ -423,7 +423,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
     .line 163
-    const v1, 0x102026d
+    const v1, 0x1020269
 
     invoke-virtual {p0, v1}, Lcom/android/internal/widget/DigitalClock;->findViewById(I)Landroid/view/View;
 

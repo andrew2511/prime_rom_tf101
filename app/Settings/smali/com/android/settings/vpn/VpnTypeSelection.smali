@@ -105,7 +105,7 @@
 
     .line 61
     .local v2, displayName:Ljava/lang/String;
-    const v9, 0x7f0804ca
+    const v9, 0x7f0804d6
 
     invoke-virtual {v0, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

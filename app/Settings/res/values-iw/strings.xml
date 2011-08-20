@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">"לא ניתן להגדיר חיבור WLAN של WAPI CERT במהלך ההתקנה. לאחר ההתקנה, תוכל להגדיר את החיבור ב'הגדרות', בקטע "<b>אלחוטי ורשתות</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT אינו נתמך</string>
     <string name="wifi_wapi_network_open">פתח</string>
+    <string name="asus_wifi_setup_description_connected">"גע ב- Next כדי להמשיך בהתקנה.
+
+גע ב-Back לרשת Wi-Fi שונה."</string>
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="device_info_default">לא ידוע</string>
@@ -1313,7 +1316,4 @@
     <string name="select_all">בחר הכל</string>
     <string name="hdcp_checking_title">בדיקת HDCP</string>
     <string name="hdcp_checking_dialog_title">הגדר אופן בדיקת HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"גע ב- Next כדי להמשיך בהתקנה.
-
-גע ב-Back לרשת Wi-Fi שונה."</string>
 </resources>

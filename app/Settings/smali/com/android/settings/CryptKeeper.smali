@@ -144,7 +144,7 @@
 
     .line 328
     :cond_0
-    const v2, 0x7f080134
+    const v2, 0x7f08013e
 
     invoke-virtual {p0, v2}, Lcom/android/settings/CryptKeeper;->getText(I)Ljava/lang/CharSequence;
 
@@ -370,7 +370,7 @@
 
     .line 286
     .local v1, tv:Landroid/widget/TextView;
-    const v3, 0x7f080136
+    const v3, 0x7f080140
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -386,7 +386,7 @@
 
     .line 289
     .restart local v1       #tv:Landroid/widget/TextView;
-    const v3, 0x7f080137
+    const v3, 0x7f080141
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -450,7 +450,7 @@
 
     .line 310
     :goto_1
-    const v5, 0x7f080133
+    const v5, 0x7f08013d
 
     invoke-virtual {p0, v5}, Lcom/android/settings/CryptKeeper;->getText(I)Ljava/lang/CharSequence;
 

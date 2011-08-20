@@ -21,5 +21,6 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/pointer_settings_category" android:key="pointer_settings_category">
         <com.android.settings.PointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:dialogTitle="@string/pointer_speed" />
+        <ListPreference android:entries="@array/touchpad_mode_selector_entries" android:title="@string/touchpad_mode_selector" android:key="touchpad_mode_selector" android:defaultValue="@string/touchpad_mode_value_android32" android:entryValues="@array/touchpad_mode_selector_values" />
     </PreferenceCategory>
 </PreferenceScreen>

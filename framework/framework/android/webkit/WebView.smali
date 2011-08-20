@@ -6197,7 +6197,7 @@
 
     move-result-object v0
 
-    const v1, 0x1080503
+    const v1, 0x1080501
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -11300,9 +11300,6 @@
 .method private native nativeFocusCandidateIsRtlText()Z
 .end method
 
-.method private native nativeFocusCandidateIsTextInput()Z
-.end method
-
 .method private native nativeFocusCandidateNodeBounds()Landroid/graphics/Rect;
 .end method
 
@@ -11779,7 +11776,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_19
+    if-eqz v0, :cond_1f
 
     const/4 v0, 0x0
 
@@ -11787,15 +11784,22 @@
 
     move-result v0
 
-    if-eqz v0, :cond_19
+    if-eqz v0, :cond_1f
 
     invoke-virtual {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsPassword()Z
 
     move-result v0
 
-    if-eqz v0, :cond_19
+    if-nez v0, :cond_19
+
+    invoke-virtual {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsTextInput()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1f
 
     .line 4096
+    :cond_19
     iget-object v0, p0, Landroid/webkit/WebView;->mWebTextView:Landroid/webkit/WebTextView;
 
     const/4 v1, 0x1
@@ -11803,7 +11807,7 @@
     invoke-virtual {v0, v1}, Landroid/webkit/WebTextView;->setInPassword(Z)V
 
     .line 4098
-    :cond_19
+    :cond_1f
     return-void
 .end method
 
@@ -11816,15 +11820,22 @@
 
     move-result v0
 
-    if-eqz v0, :cond_12
+    if-eqz v0, :cond_18
 
     invoke-virtual {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsPassword()Z
 
     move-result v0
 
-    if-eqz v0, :cond_12
+    if-nez v0, :cond_12
+
+    invoke-virtual {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsTextInput()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_18
 
     .line 4086
+    :cond_12
     iget-object v0, p0, Landroid/webkit/WebView;->mWebTextView:Landroid/webkit/WebTextView;
 
     const/4 v1, 0x0
@@ -11832,7 +11843,7 @@
     invoke-virtual {v0, v1}, Landroid/webkit/WebTextView;->setInPassword(Z)V
 
     .line 4088
-    :cond_12
+    :cond_18
     return-void
 .end method
 
@@ -15654,7 +15665,7 @@
     .line 5080
     iget-object v3, p0, Landroid/webkit/WebView;->mContext:Landroid/content/Context;
 
-    const v4, 0x1040317
+    const v4, 0x1040314
 
     const/4 v5, 0x0
 
@@ -18101,6 +18112,9 @@
 .end method
 
 .method native nativeFocusCandidateIsPassword()Z
+.end method
+
+.method native nativeFocusCandidateIsTextInput()Z
 .end method
 
 .method native nativeFocusCandidateLineHeight()I
@@ -20859,19 +20873,19 @@
 
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x10402de
+    const v4, 0x10402db
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    const v4, 0x1040312
+    const v4, 0x104030f
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    const v4, 0x1040313
+    const v4, 0x1040310
 
     new-instance v5, Landroid/webkit/WebView$5;
 
@@ -20881,7 +20895,7 @@
 
     move-result-object v3
 
-    const v4, 0x1040314
+    const v4, 0x1040311
 
     new-instance v5, Landroid/webkit/WebView$4;
 
@@ -20891,7 +20905,7 @@
 
     move-result-object v3
 
-    const v4, 0x1040315
+    const v4, 0x1040312
 
     new-instance v5, Landroid/webkit/WebView$3;
 
@@ -22082,7 +22096,7 @@
 
     if-eqz v7, :cond_22
 
-    invoke-direct {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsTextInput()Z
+    invoke-virtual {p0}, Landroid/webkit/WebView;->nativeFocusCandidateIsTextInput()Z
 
     move-result v7
 

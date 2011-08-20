@@ -78,7 +78,7 @@
     .line 132
     iget-object v2, p0, Lcom/android/settings/MasterClear;->mContentView:Landroid/view/View;
 
-    const v3, 0x7f0f0088
+    const v3, 0x7f0f008a
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -98,7 +98,7 @@
     .line 134
     iget-object v2, p0, Lcom/android/settings/MasterClear;->mContentView:Landroid/view/View;
 
-    const v3, 0x7f0f0086
+    const v3, 0x7f0f0088
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
     .line 135
     iget-object v2, p0, Lcom/android/settings/MasterClear;->mContentView:Landroid/view/View;
 
-    const v3, 0x7f0f0087
+    const v3, 0x7f0f0089
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -134,7 +134,7 @@
     .line 146
     iget-object v2, p0, Lcom/android/settings/MasterClear;->mContentView:Landroid/view/View;
 
-    const v3, 0x7f0f0085
+    const v3, 0x7f0f0087
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -147,7 +147,7 @@
     .line 149
     iget-object v2, p0, Lcom/android/settings/MasterClear;->mContentView:Landroid/view/View;
 
-    const v3, 0x7f0f0082
+    const v3, 0x7f0f0084
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -192,7 +192,7 @@
 
     move-object/from16 v22, v0
 
-    const v23, 0x7f0f0083
+    const v23, 0x7f0f0085
 
     invoke-virtual/range {v22 .. v23}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
 
     move-object/from16 v22, v0
 
-    const v23, 0x7f0f0084
+    const v23, 0x7f0f0086
 
     invoke-virtual/range {v22 .. v23}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -604,13 +604,13 @@
 
     invoke-direct {v1, v2, p0}, Lcom/android/settings/ChooseLockSettingsHelper;-><init>(Landroid/app/Activity;Landroid/app/Fragment;)V
 
-    const v2, 0x7f0802e6
+    const v2, 0x7f0802f0
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    const v3, 0x7f0802e7
+    const v3, 0x7f0802f1
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -646,7 +646,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setFragment(Ljava/lang/String;)V
 
     .line 100
-    const v1, 0x7f0802e9
+    const v1, 0x7f0802f3
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 

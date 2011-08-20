@@ -74,7 +74,7 @@
     iput-object v0, p0, Lcom/android/settings/applications/RunningProcessesView$ViewHolder;->description:Landroid/widget/TextView;
 
     .line 163
-    const v0, 0x7f0f00d7
+    const v0, 0x7f0f00d9
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0803b2
+    const v6, 0x7f0803be
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

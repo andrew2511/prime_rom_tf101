@@ -164,7 +164,7 @@
     .line 194
     const/16 v1, 0xb
 
-    const v2, 0x1090084
+    const v2, 0x1090083
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -531,7 +531,7 @@
     .line 588
     const/16 v19, 0x0
 
-    const v20, 0x1080406
+    const v20, 0x1080404
 
     move-object/from16 v0, p5
 
@@ -547,7 +547,7 @@
     .local v9, fullDark:I
     const/16 v19, 0x1
 
-    const v20, 0x108040e
+    const v20, 0x108040c
 
     move-object/from16 v0, p5
 
@@ -563,7 +563,7 @@
     .local v16, topDark:I
     const/16 v19, 0x2
 
-    const v20, 0x1080403
+    const v20, 0x1080401
 
     move-object/from16 v0, p5
 
@@ -579,7 +579,7 @@
     .local v7, centerDark:I
     const/16 v19, 0x3
 
-    const v20, 0x1080400
+    const v20, 0x10803fe
 
     move-object/from16 v0, p5
 
@@ -595,7 +595,7 @@
     .local v4, bottomDark:I
     const/16 v19, 0x4
 
-    const v20, 0x1080405
+    const v20, 0x1080403
 
     move-object/from16 v0, p5
 
@@ -611,7 +611,7 @@
     .local v8, fullBright:I
     const/16 v19, 0x5
 
-    const v20, 0x108040d
+    const v20, 0x108040b
 
     move-object/from16 v0, p5
 
@@ -627,7 +627,7 @@
     .local v15, topBright:I
     const/16 v19, 0x6
 
-    const v20, 0x1080402
+    const v20, 0x1080400
 
     move-object/from16 v0, p5
 
@@ -643,7 +643,7 @@
     .local v6, centerBright:I
     const/16 v19, 0x7
 
-    const v20, 0x10803ff
+    const v20, 0x10803fd
 
     move-object/from16 v0, p5
 
@@ -659,7 +659,7 @@
     .local v3, bottomBright:I
     const/16 v19, 0x8
 
-    const v20, 0x1080401
+    const v20, 0x10803ff
 
     move-object/from16 v0, p5
 

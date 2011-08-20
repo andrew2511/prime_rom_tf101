@@ -32,7 +32,7 @@
     .registers 1
 
     .prologue
-    .line 906
+    .line 926
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +45,7 @@
     .parameter "source"
 
     .prologue
-    .line 908
+    .line 928
     new-instance v0, Landroid/app/ActivityManager$ProcessErrorStateInfo;
 
     const/4 v1, 0x0
@@ -60,7 +60,7 @@
     .parameter "x0"
 
     .prologue
-    .line 906
+    .line 926
     invoke-virtual {p0, p1}, Landroid/app/ActivityManager$ProcessErrorStateInfo$1;->createFromParcel(Landroid/os/Parcel;)Landroid/app/ActivityManager$ProcessErrorStateInfo;
 
     move-result-object v0
@@ -73,7 +73,7 @@
     .parameter "size"
 
     .prologue
-    .line 911
+    .line 931
     new-array v0, p1, [Landroid/app/ActivityManager$ProcessErrorStateInfo;
 
     return-object v0
@@ -84,7 +84,7 @@
     .parameter "x0"
 
     .prologue
-    .line 906
+    .line 926
     invoke-virtual {p0, p1}, Landroid/app/ActivityManager$ProcessErrorStateInfo$1;->newArray(I)[Landroid/app/ActivityManager$ProcessErrorStateInfo;
 
     move-result-object v0

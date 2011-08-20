@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:sharedUserId="android.uid.system" android:versionCode="13" android:versionName="3.2-US_epad-8.6.5.6-20110726" android:sharedUserLabel="@string/android_system_label" package="android"
+<manifest android:sharedUserId="android.uid.system" android:versionCode="13" android:versionName="3.2-TW_epad-8.6.5.9-20110816" android:sharedUserLabel="@string/android_system_label" package="android"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="13" />
     <eat-comment />

@@ -44,10 +44,24 @@ Please check validity of certificates"</string>
     <string name="asus_unmount_inform_text">External storage will be unmounted.</string>
     <string name="asus_sd_format">Erase external storage</string>
     <string name="asus_sd_format_summary">Erases all data on the external storage, such as music and photos</string>
+    <string name="unlock_set_asus_unlock_settings_title">ASUS Lock Screen</string>
+    <string name="unlock_set_asus_unlock_settings_summary">Set ASUS LockScreen</string>
+    <string name="lockscreen_settings_hint">Drag icons to replace on ASUS Lock Screen.</string>
+    <string name="unlock_set_unlock_mode_asus_lock">Asus Lock Screen</string>
+    <string name="asusep_lockscreen_silent">Silent</string>
+    <string name="asus_wifi_setup_description_connected">"Touch Next to continue with setup.
+
+Touch Back to a different Wi-Fi network."</string>
+    <string name="asus_wifi_setup_description_connecting">Connection may need a few minutes ...</string>
+    <string name="touchpad_mode_selector">Touchpad pointer style</string>
+    <string name="touchpad_mode_entry_android32">Gesture mode</string>
+    <string name="touchpad_mode_entry_classic">Mouse cursor mode</string>
     <string name="input_method_selector_show_automatically_value">0</string>
     <string name="input_method_selector_always_show_value">1</string>
     <string name="input_method_selector_always_hide_value">2</string>
     <string name="input_method_selector_visibility_default_value">0</string>
+    <string name="touchpad_mode_value_android32">0</string>
+    <string name="touchpad_mode_value_classic">1</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="device_info_default">Unknown</string>
@@ -915,6 +929,8 @@ Ready to start? Touch “Next”."</string>
     <string name="screen_compatibility_text">This application may not be designed for your screen; you can control how it adjusts to your screen here.</string>
     <string name="ask_compatibility">Ask when launched</string>
     <string name="enable_compatibility">Scale application</string>
+    <string name="resolution_backward">Android Compatibility mode</string>
+    <string name="resolution_backward_subtitle">Run apps with resolutions not yet supported with the lastest Android update</string>
     <string name="unknown">Unknown</string>
     <string name="sort_order_alpha">Sort by name</string>
     <string name="sort_order_size">Sort by size</string>

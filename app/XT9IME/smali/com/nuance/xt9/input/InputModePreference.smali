@@ -184,7 +184,7 @@
     iput-object v0, p0, Lcom/nuance/xt9/input/InputModePreference;->mMoreSettings:Landroid/widget/ImageView;
 
     .line 49
-    const v0, 0x7f09002e
+    const v0, 0x7f09002f
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

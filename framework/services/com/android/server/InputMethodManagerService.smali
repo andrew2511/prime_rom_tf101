@@ -3119,7 +3119,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v35, 0x1040396
+    const v35, 0x1040393
 
     invoke-virtual/range {v34 .. v35}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -3201,7 +3201,7 @@
 
     move-object/from16 v34, v0
 
-    const v35, 0x1040397
+    const v35, 0x1040394
 
     new-instance v36, Lcom/android/server/InputMethodManagerService$6;
 
@@ -8548,7 +8548,7 @@
 
     const-string v2, "android.intent.extra.client_label"
 
-    const v3, 0x10403c0
+    const v3, 0x10403bd
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 

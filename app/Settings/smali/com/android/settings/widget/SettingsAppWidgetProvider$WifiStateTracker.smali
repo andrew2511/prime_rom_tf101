@@ -132,7 +132,7 @@
 
     .prologue
     .line 323
-    const v0, 0x7f0f0103
+    const v0, 0x7f0f0105
 
     return v0
 .end method
@@ -161,7 +161,7 @@
 
     .prologue
     .line 324
-    const v0, 0x7f0f0104
+    const v0, 0x7f0f0106
 
     return v0
 .end method

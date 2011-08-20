@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080356
+    const v2, 0x7f080360
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -91,7 +91,7 @@
 
     iget-object v2, p0, Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment$3;->this$0:Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment;
 
-    const v3, 0x7f080357
+    const v3, 0x7f080361
 
     const/4 v4, 0x1
 

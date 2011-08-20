@@ -53,7 +53,7 @@
     .locals 1
 
     .prologue
-    .line 435
+    .line 437
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -65,7 +65,7 @@
 
     invoke-virtual {p0}, Lcom/android/soundrecorder/RecorderService;->delete()V
 
-    .line 436
+    .line 438
     return-void
 .end method
 
@@ -73,7 +73,16 @@
     .locals 1
 
     .prologue
-    .line 443
+    .line 445
+    iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 446
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -87,14 +96,22 @@
 
     move-result v0
 
+    .line 447
+    :goto_0
     return v0
+
+    .restart local p0
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method
 
 .method public progress()I
     .locals 1
 
     .prologue
-    .line 447
+    .line 451
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -117,7 +134,7 @@
     .parameter "sampleLength"
 
     .prologue
-    .line 467
+    .line 471
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -129,7 +146,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/android/soundrecorder/RecorderService;->restoreState(Ljava/lang/String;I)V
 
-    .line 468
+    .line 472
     return-void
 .end method
 
@@ -137,7 +154,7 @@
     .locals 1
 
     .prologue
-    .line 455
+    .line 459
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -158,7 +175,7 @@
     .locals 1
 
     .prologue
-    .line 451
+    .line 455
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -179,7 +196,7 @@
     .locals 1
 
     .prologue
-    .line 463
+    .line 467
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -191,7 +208,7 @@
 
     invoke-virtual {p0}, Lcom/android/soundrecorder/RecorderService;->startPlayback()V
 
-    .line 464
+    .line 468
     return-void
 .end method
 
@@ -226,6 +243,15 @@
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 428
+    iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+
     move-result-object p0
 
     .end local p0
@@ -235,7 +261,15 @@
 
     move-result v0
 
+    .line 429
+    :goto_0
     return v0
+
+    .restart local p0
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
 .end method
 
 .method public stop()V
@@ -262,7 +296,7 @@
     .locals 1
 
     .prologue
-    .line 459
+    .line 463
     iget-object v0, p0, Lcom/android/soundrecorder/RecorderService$ServiceStub;->mService:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -274,6 +308,6 @@
 
     invoke-virtual {p0}, Lcom/android/soundrecorder/RecorderService;->stopRecorderService()V
 
-    .line 460
+    .line 464
     return-void
 .end method

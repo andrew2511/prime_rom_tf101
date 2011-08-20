@@ -676,7 +676,7 @@
 
     const-string v2, "secure"
 
-    const v3, 0x10804ed
+    const v3, 0x10804eb
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;II)V
 

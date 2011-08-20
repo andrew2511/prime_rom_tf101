@@ -71,7 +71,7 @@
     .local v0, enabled:I
     iget-object v3, p0, Lcom/android/settings/OwnerInfoSettings;->mView:Landroid/view/View;
 
-    const v4, 0x7f0f008c
+    const v4, 0x7f0f008e
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -84,7 +84,7 @@
     .line 50
     iget-object v3, p0, Lcom/android/settings/OwnerInfoSettings;->mView:Landroid/view/View;
 
-    const v4, 0x7f0f008d
+    const v4, 0x7f0f008f
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

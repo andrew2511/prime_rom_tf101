@@ -30,8 +30,6 @@
 
 .field private static mRebootReason:Ljava/lang/String;
 
-.field public static mRebootTrigger:I
-
 .field private static final sInstance:Lcom/android/internal/app/ShutdownThread;
 
 .field private static sIsStarted:Z
@@ -167,7 +165,7 @@
 
     .line 184
     .local v1, pd:Landroid/app/ProgressDialog;
-    const v2, 0x104011a
+    const v2, 0x1040117
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -176,7 +174,7 @@
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 185
-    const v2, 0x104011b
+    const v2, 0x1040118
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -484,33 +482,9 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 440
-    sget v1, Lcom/android/internal/app/ShutdownThread;->mRebootTrigger:I
-
-    const/4 v2, 0x1
-
-    if-eq v1, v2, :cond_30
-
-    const/4 v2, 0x2
-
-    if-eq v1, v2, :cond_37
-
     invoke-static {}, Landroid/os/Power;->shutdown()V
 
     .line 441
-    return-void
-
-    :cond_30
-    const-string v4, "recovery"
-
-    invoke-static {v4}, Landroid/os/Power;->reboot(Ljava/lang/String;)V
-
-    return-void
-
-    :cond_37
-    const-string v4, "now"
-
-    invoke-static {v4}, Landroid/os/Power;->reboot(Ljava/lang/String;)V
-
     return-void
 
     .line 418
@@ -629,7 +603,7 @@
 
     if-ne v2, v4, :cond_9c
 
-    const v4, 0x104011d
+    const v4, 0x104011a
 
     move v3, v4
 
@@ -678,7 +652,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040115
+    const v5, 0x1040117
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -688,7 +662,7 @@
 
     move-result-object v4
 
-    const v5, 0x104042b
+    const v5, 0x1040013
 
     new-instance v6, Lcom/android/internal/app/ShutdownThread$1;
 
@@ -698,21 +672,9 @@
 
     move-result-object v4
 
-    const v5, 0x1040429
+    const v5, 0x1040009
 
-    new-instance v6, Lcom/android/internal/app/ShutdownThread$5;
-
-    invoke-direct {v6, p0}, Lcom/android/internal/app/ShutdownThread$5;-><init>(Landroid/content/Context;)V
-
-    invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
-
-    move-result-object v4
-
-    const v5, 0x104042a
-
-    new-instance v6, Lcom/android/internal/app/ShutdownThread$6;
-
-    invoke-direct {v6, p0}, Lcom/android/internal/app/ShutdownThread$6;-><init>(Landroid/content/Context;)V
+    const/4 v6, 0x0
 
     invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -784,7 +746,7 @@
     .line 104
     .restart local v2       #longPressBehavior:I
     :cond_9c
-    const v4, 0x104011c
+    const v4, 0x1040119
 
     move v3, v4
 

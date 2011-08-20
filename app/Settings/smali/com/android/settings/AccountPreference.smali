@@ -182,7 +182,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 104
-    const v0, 0x7f080552
+    const v0, 0x7f08055e
 
     .line 105
     .local v0, res:I
@@ -215,7 +215,7 @@
     .line 95
     .end local v0           #res:I
     :pswitch_0
-    const v0, 0x7f080550
+    const v0, 0x7f08055c
 
     .line 96
     .restart local v0       #res:I
@@ -224,7 +224,7 @@
     .line 98
     .end local v0           #res:I
     :pswitch_1
-    const v0, 0x7f080551
+    const v0, 0x7f08055d
 
     .line 99
     .restart local v0       #res:I
@@ -233,7 +233,7 @@
     .line 101
     .end local v0           #res:I
     :pswitch_2
-    const v0, 0x7f080552
+    const v0, 0x7f08055e
 
     .line 102
     .restart local v0       #res:I

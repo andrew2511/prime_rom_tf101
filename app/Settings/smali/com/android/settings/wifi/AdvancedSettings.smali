@@ -103,7 +103,7 @@
     .locals 7
 
     .prologue
-    const v6, 0x7f08029a
+    const v6, 0x7f0802a4
 
     .line 101
     iget-object v5, p0, Lcom/android/settings/wifi/AdvancedSettings;->mWifiManager:Landroid/net/wifi/WifiManager;
@@ -326,7 +326,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0801eb
+    const v3, 0x7f0801f5
 
     invoke-static {v2, v3, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

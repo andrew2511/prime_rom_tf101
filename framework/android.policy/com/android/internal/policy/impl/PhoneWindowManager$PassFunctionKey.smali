@@ -30,15 +30,15 @@
     .parameter "keyEvent"
 
     .prologue
-    .line 2721
+    .line 2727
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$PassFunctionKey;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2722
+    .line 2728
     iput-object p2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$PassFunctionKey;->mKeyEvent:Landroid/view/KeyEvent;
 
-    .line 2723
+    .line 2729
     return-void
 .end method
 
@@ -50,34 +50,34 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 2726
+    .line 2732
     invoke-static {}, Landroid/app/ActivityManagerNative;->isSystemReady()Z
 
     move-result v0
 
     if-eqz v0, :cond_2c
 
-    .line 2727
+    .line 2733
     new-instance v1, Landroid/content/Intent;
 
     const-string v0, "com.asus.keyboard.action.FUNCTION_KEY"
 
     invoke-direct {v1, v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 2728
+    .line 2734
     .local v1, intent:Landroid/content/Intent;
     const/16 v0, 0x20
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 2729
+    .line 2735
     const-string v0, "android.intent.extra.KEY_EVENT"
 
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$PassFunctionKey;->mKeyEvent:Landroid/view/KeyEvent;
 
     invoke-virtual {v1, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 2730
+    .line 2736
     iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$PassFunctionKey;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iget-object v0, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
@@ -98,7 +98,7 @@
 
     invoke-virtual/range {v0 .. v7}, Landroid/content/Context;->sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
 
-    .line 2733
+    .line 2739
     .end local v1           #intent:Landroid/content/Intent;
     :cond_2c
     return-void

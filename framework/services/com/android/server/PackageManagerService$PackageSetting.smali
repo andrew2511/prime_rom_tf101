@@ -28,25 +28,25 @@
     .parameter "orig"
 
     .prologue
-    .line 8061
+    .line 8074
     invoke-direct {p0, p1}, Lcom/android/server/PackageManagerService$PackageSettingBase;-><init>(Lcom/android/server/PackageManagerService$PackageSettingBase;)V
 
-    .line 8063
+    .line 8076
     iget v0, p1, Lcom/android/server/PackageManagerService$PackageSetting;->userId:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$PackageSetting;->userId:I
 
-    .line 8064
+    .line 8077
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSetting;->pkg:Landroid/content/pm/PackageParser$Package;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSetting;->pkg:Landroid/content/pm/PackageParser$Package;
 
-    .line 8065
+    .line 8078
     iget-object v0, p1, Lcom/android/server/PackageManagerService$PackageSetting;->sharedUser:Lcom/android/server/PackageManagerService$SharedUserSetting;
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$PackageSetting;->sharedUser:Lcom/android/server/PackageManagerService$SharedUserSetting;
 
-    .line 8066
+    .line 8079
     return-void
 .end method
 
@@ -61,10 +61,10 @@
     .parameter "pkgFlags"
 
     .prologue
-    .line 8052
+    .line 8065
     invoke-direct/range {p0 .. p7}, Lcom/android/server/PackageManagerService$PackageSettingBase;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;Ljava/io/File;Ljava/lang/String;II)V
 
-    .line 8054
+    .line 8067
     return-void
 .end method
 
@@ -74,7 +74,7 @@
     .registers 3
 
     .prologue
-    .line 8070
+    .line 8083
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

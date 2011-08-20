@@ -435,7 +435,7 @@
     const/4 v3, 0x0
 
     .line 1697
-    const-string v0, "photo"
+    const-string/jumbo v0, "photo"
 
     invoke-static {p1, v0}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
@@ -443,17 +443,17 @@
 
     .line 1698
     .local v1, photoUri:Landroid/net/Uri;
-    if-nez v1, :cond_c
+    if-nez v1, :cond_d
 
     move-object v0, v3
 
     .line 1714
-    :cond_b
-    :goto_b
+    :cond_c
+    :goto_c
     return-object v0
 
     .line 1701
-    :cond_c
+    :cond_d
     const/4 v0, 0x1
 
     new-array v2, v0, [Ljava/lang/String;
@@ -474,82 +474,82 @@
 
     .line 1704
     .local v6, cursor:Landroid/database/Cursor;
-    if-eqz v6, :cond_22
+    if-eqz v6, :cond_23
 
-    :try_start_1c
+    :try_start_1d
     invoke-interface {v6}, Landroid/database/Cursor;->moveToNext()Z
-    :try_end_1f
-    .catchall {:try_start_1c .. :try_end_1f} :catchall_42
+    :try_end_20
+    .catchall {:try_start_1d .. :try_end_20} :catchall_43
 
     move-result v0
 
-    if-nez v0, :cond_29
+    if-nez v0, :cond_2a
 
     .line 1713
-    :cond_22
-    if-eqz v6, :cond_27
+    :cond_23
+    if-eqz v6, :cond_28
 
     .line 1714
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_27
+    :cond_28
     move-object v0, v3
 
-    goto :goto_b
+    goto :goto_c
 
     .line 1707
-    :cond_29
+    :cond_2a
     const/4 v0, 0x0
 
-    :try_start_2a
+    :try_start_2b
     invoke-interface {v6, v0}, Landroid/database/Cursor;->getBlob(I)[B
-    :try_end_2d
-    .catchall {:try_start_2a .. :try_end_2d} :catchall_42
+    :try_end_2e
+    .catchall {:try_start_2b .. :try_end_2e} :catchall_43
 
     move-result-object v7
 
     .line 1708
     .local v7, data:[B
-    if-nez v7, :cond_37
+    if-nez v7, :cond_38
 
     .line 1713
-    if-eqz v6, :cond_35
+    if-eqz v6, :cond_36
 
     .line 1714
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_35
+    :cond_36
     move-object v0, v3
 
-    goto :goto_b
+    goto :goto_c
 
     .line 1711
-    :cond_37
-    :try_start_37
+    :cond_38
+    :try_start_38
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v0, v7}, Ljava/io/ByteArrayInputStream;-><init>([B)V
-    :try_end_3c
-    .catchall {:try_start_37 .. :try_end_3c} :catchall_42
+    :try_end_3d
+    .catchall {:try_start_38 .. :try_end_3d} :catchall_43
 
     .line 1713
-    if-eqz v6, :cond_b
+    if-eqz v6, :cond_c
 
     .line 1714
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    goto :goto_b
+    goto :goto_c
 
     .line 1713
     .end local v7           #data:[B
-    :catchall_42
+    :catchall_43
     move-exception v0
 
-    if-eqz v6, :cond_48
+    if-eqz v6, :cond_49
 
     .line 1714
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_48
+    :cond_49
     throw v0
 .end method

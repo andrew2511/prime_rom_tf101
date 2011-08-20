@@ -900,7 +900,7 @@
     .line 465
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f0802d4
+    const v6, 0x7f0802de
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -922,7 +922,7 @@
     .line 467
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f0802d5
+    const v6, 0x7f0802df
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -943,7 +943,7 @@
     .line 469
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f0802d6
+    const v6, 0x7f0802e0
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -968,7 +968,7 @@
     .line 471
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f0802d7
+    const v6, 0x7f0802e1
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1245,7 +1245,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f080523
+    const v8, 0x7f08052f
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1547,7 +1547,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0802bb
+    const v4, 0x7f0802c5
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1970,7 +1970,7 @@
 
     invoke-direct {v1, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0802d3
+    const v2, 0x7f0802dd
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -2023,7 +2023,7 @@
     if-nez v0, :cond_0
 
     .line 334
-    const v0, 0x7f0802cf
+    const v0, 0x7f0802d9
 
     invoke-interface {p1, v2, v3, v2, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2037,7 +2037,7 @@
     :cond_0
     const/4 v0, 0x2
 
-    const v1, 0x7f0802d1
+    const v1, 0x7f0802db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2050,7 +2050,7 @@
     .line 339
     const/4 v0, 0x3
 
-    const v1, 0x7f0802d2
+    const v1, 0x7f0802dc
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

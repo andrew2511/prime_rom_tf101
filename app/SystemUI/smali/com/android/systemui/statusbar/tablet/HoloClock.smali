@@ -131,7 +131,7 @@
 
     if-eqz v5, :cond_0
 
-    const v5, 0x1040077
+    const v5, 0x1040074
 
     move v2, v5
 
@@ -198,7 +198,7 @@
     .end local v3           #result:Ljava/lang/String;
     .end local v4           #sdf:Ljava/text/SimpleDateFormat;
     :cond_0
-    const v5, 0x1040076
+    const v5, 0x1040073
 
     move v2, v5
 

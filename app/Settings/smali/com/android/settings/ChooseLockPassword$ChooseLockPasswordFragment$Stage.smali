@@ -46,7 +46,7 @@
     .locals 16
 
     .prologue
-    const v5, 0x7f080157
+    const v5, 0x7f080161
 
     const/4 v15, 0x2
 
@@ -59,9 +59,9 @@
 
     const-string v1, "Introduction"
 
-    const v3, 0x7f080330
+    const v3, 0x7f08033a
 
-    const v4, 0x7f080332
+    const v4, 0x7f08033c
 
     invoke-direct/range {v0 .. v5}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment$Stage;-><init>(Ljava/lang/String;IIII)V
 
@@ -72,11 +72,11 @@
 
     const-string v7, "NeedToConfirm"
 
-    const v9, 0x7f080333
+    const v9, 0x7f08033d
 
-    const v10, 0x7f080335
+    const v10, 0x7f08033f
 
-    const v11, 0x7f080161
+    const v11, 0x7f08016b
 
     invoke-direct/range {v6 .. v11}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment$Stage;-><init>(Ljava/lang/String;IIII)V
 
@@ -87,9 +87,9 @@
 
     const-string v10, "ConfirmWrong"
 
-    const v12, 0x7f080336
+    const v12, 0x7f080340
 
-    const v13, 0x7f080337
+    const v13, 0x7f080341
 
     move v11, v15
 

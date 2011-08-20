@@ -267,7 +267,7 @@
     <string name="power_off">Desligar</string>
     <string name="shutdown_progress">Encerrando…</string>
     <string name="shutdown_confirm">Seu tablet será desligado.</string>
-    <string name="shutdown_confirm_question">O que você gostaria de fazer?</string>
+    <string name="shutdown_confirm_question">Gostaria de desligar?</string>
     <string name="recent_tasks_title">Recente</string>
     <string name="no_recent_tasks">Nenhum aplicativo recente.</string>
     <string name="global_actions">Opções do tablet</string>
@@ -990,8 +990,4 @@ Favor tente mais tarde."</string>
     <string name="keyguard_password_enter_new_pin_code">Digitar Novo PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Confirmar Novo PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN não combina.</string>
-    <string name="buttonTxtContinue">Continuar</string>
-    <string name="reboot_recovery">Recuperação</string>
-    <string name="shutdown">Desligar</string>
-    <string name="reboot">Reiniciar</string>
 </resources>

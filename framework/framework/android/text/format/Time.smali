@@ -539,7 +539,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x104003a
+    const v5, 0x1040037
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x104003b
+    const v5, 0x1040038
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -559,7 +559,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x104003c
+    const v5, 0x1040039
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -569,7 +569,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x104003d
+    const v5, 0x104003a
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -579,7 +579,7 @@
 
     const/4 v4, 0x4
 
-    const v5, 0x104003e
+    const v5, 0x104003b
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x104003f
+    const v5, 0x104003c
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -599,7 +599,7 @@
 
     const/4 v4, 0x6
 
-    const v5, 0x1040040
+    const v5, 0x104003d
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -609,7 +609,7 @@
 
     const/4 v4, 0x7
 
-    const v5, 0x1040041
+    const v5, 0x104003e
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -619,7 +619,7 @@
 
     const/16 v4, 0x8
 
-    const v5, 0x1040042
+    const v5, 0x104003f
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -629,7 +629,7 @@
 
     const/16 v4, 0x9
 
-    const v5, 0x1040043
+    const v5, 0x1040040
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -639,7 +639,7 @@
 
     const/16 v4, 0xa
 
-    const v5, 0x1040044
+    const v5, 0x1040041
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -649,7 +649,7 @@
 
     const/16 v4, 0xb
 
-    const v5, 0x1040045
+    const v5, 0x1040042
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -666,7 +666,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x104002e
+    const v5, 0x104002b
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -676,7 +676,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x104002f
+    const v5, 0x104002c
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -686,7 +686,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x1040030
+    const v5, 0x104002d
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x1040031
+    const v5, 0x104002e
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -706,7 +706,7 @@
 
     const/4 v4, 0x4
 
-    const v5, 0x1040032
+    const v5, 0x104002f
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -716,7 +716,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x1040033
+    const v5, 0x1040030
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -726,7 +726,7 @@
 
     const/4 v4, 0x6
 
-    const v5, 0x1040034
+    const v5, 0x1040031
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -736,7 +736,7 @@
 
     const/4 v4, 0x7
 
-    const v5, 0x1040035
+    const v5, 0x1040032
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -746,7 +746,7 @@
 
     const/16 v4, 0x8
 
-    const v5, 0x1040036
+    const v5, 0x1040033
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -756,7 +756,7 @@
 
     const/16 v4, 0x9
 
-    const v5, 0x1040037
+    const v5, 0x1040034
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -766,7 +766,7 @@
 
     const/16 v4, 0xa
 
-    const v5, 0x1040038
+    const v5, 0x1040035
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -776,7 +776,7 @@
 
     const/16 v4, 0xb
 
-    const v5, 0x1040039
+    const v5, 0x1040036
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -793,7 +793,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x1040022
+    const v5, 0x104001f
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -803,7 +803,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x1040023
+    const v5, 0x1040020
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -813,7 +813,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x1040024
+    const v5, 0x1040021
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -823,7 +823,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x1040025
+    const v5, 0x1040022
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -833,7 +833,7 @@
 
     const/4 v4, 0x4
 
-    const v5, 0x1040026
+    const v5, 0x1040023
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -843,7 +843,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x1040027
+    const v5, 0x1040024
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -853,7 +853,7 @@
 
     const/4 v4, 0x6
 
-    const v5, 0x1040028
+    const v5, 0x1040025
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -863,7 +863,7 @@
 
     const/4 v4, 0x7
 
-    const v5, 0x1040029
+    const v5, 0x1040026
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -873,7 +873,7 @@
 
     const/16 v4, 0x8
 
-    const v5, 0x104002a
+    const v5, 0x1040027
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -883,7 +883,7 @@
 
     const/16 v4, 0x9
 
-    const v5, 0x104002b
+    const v5, 0x1040028
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -893,7 +893,7 @@
 
     const/16 v4, 0xa
 
-    const v5, 0x104002c
+    const v5, 0x1040029
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -903,7 +903,7 @@
 
     const/16 v4, 0xb
 
-    const v5, 0x104002d
+    const v5, 0x104002a
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -920,7 +920,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x1040059
+    const v5, 0x1040056
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -930,7 +930,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x104005a
+    const v5, 0x1040057
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -940,7 +940,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x104005b
+    const v5, 0x1040058
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -950,7 +950,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x104005c
+    const v5, 0x1040059
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -960,7 +960,7 @@
 
     const/4 v4, 0x4
 
-    const v5, 0x104005d
+    const v5, 0x104005a
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -970,7 +970,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x104005e
+    const v5, 0x104005b
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -980,7 +980,7 @@
 
     const/4 v4, 0x6
 
-    const v5, 0x104005f
+    const v5, 0x104005c
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -997,7 +997,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x1040052
+    const v5, 0x104004f
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1007,7 +1007,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x1040053
+    const v5, 0x1040050
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1017,7 +1017,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x1040054
+    const v5, 0x1040051
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1027,7 +1027,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x1040055
+    const v5, 0x1040052
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1037,7 +1037,7 @@
 
     const/4 v4, 0x4
 
-    const v5, 0x1040056
+    const v5, 0x1040053
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1047,7 +1047,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x1040057
+    const v5, 0x1040054
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1057,7 +1057,7 @@
 
     const/4 v4, 0x6
 
-    const v5, 0x1040058
+    const v5, 0x1040055
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1068,7 +1068,7 @@
     sput-object v3, Landroid/text/format/Time;->sLongWeekdays:[Ljava/lang/String;
 
     .line 363
-    const v3, 0x104007c
+    const v3, 0x1040079
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1077,7 +1077,7 @@
     sput-object v3, Landroid/text/format/Time;->sTimeOnlyFormat:Ljava/lang/String;
 
     .line 364
-    const v3, 0x104007b
+    const v3, 0x1040078
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1086,7 +1086,7 @@
     sput-object v3, Landroid/text/format/Time;->sDateOnlyFormat:Ljava/lang/String;
 
     .line 365
-    const v3, 0x104007d
+    const v3, 0x104007a
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1095,7 +1095,7 @@
     sput-object v3, Landroid/text/format/Time;->sDateTimeFormat:Ljava/lang/String;
 
     .line 366
-    const v3, 0x104006e
+    const v3, 0x104006b
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1104,7 +1104,7 @@
     sput-object v3, Landroid/text/format/Time;->sAm:Ljava/lang/String;
 
     .line 367
-    const v3, 0x104006f
+    const v3, 0x104006c
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -64,7 +64,7 @@
 
     iget-object v3, v3, Lcom/nuance/xt9/input/IME;->mKeyboardContainer:Landroid/view/View;
 
-    const v4, 0x7f090030
+    const v4, 0x7f090031
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

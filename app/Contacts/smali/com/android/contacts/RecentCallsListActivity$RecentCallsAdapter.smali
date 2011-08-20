@@ -1086,7 +1086,7 @@
     .local v1, views:Lcom/android/contacts/RecentCallsListActivity$RecentCallsListItemViews;
     if-eqz p5, :cond_0
 
-    const v2, 0x108026f
+    const v2, 0x108026d
 
     move v0, v2
 
@@ -1135,7 +1135,7 @@
     .line 582
     .end local v0           #groupIndicator:I
     :cond_0
-    const v2, 0x1080270
+    const v2, 0x108026e
 
     move v0, v2
 

@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 500
+    .line 539
     iput-object p1, p0, Landroid/net/wifi/WifiStateMachine$1;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,28 +40,51 @@
     .parameter "intent"
 
     .prologue
-    .line 504
-    const-string v2, "availableArray"
+    .line 542
+    iget-object v0, p0, Landroid/net/wifi/WifiStateMachine$1;->this$0:Landroid/net/wifi/WifiStateMachine;
 
-    invoke-virtual {p2, v2}, Landroid/content/Intent;->getStringArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
+    #getter for: Landroid/net/wifi/WifiStateMachine;->mEnableRssiPolling:Z
+    invoke-static {v0}, Landroid/net/wifi/WifiStateMachine;->access$000(Landroid/net/wifi/WifiStateMachine;)Z
 
-    move-result-object v1
+    move-result v0
 
-    .line 506
-    .local v1, available:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/String;>;"
-    const-string v2, "activeArray"
+    if-nez v0, :cond_29
 
-    invoke-virtual {p2, v2}, Landroid/content/Intent;->getStringArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
+    .line 543
+    invoke-static {}, Landroid/net/wifi/WifiStateMachine;->access$100()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_15
+
+    .line 544
+    const-string v0, "WifiStateMachine"
+
+    const-string v1, "mAdHocWakeLock.acquire(60000);"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 545
+    :cond_15
+    iget-object v0, p0, Landroid/net/wifi/WifiStateMachine$1;->this$0:Landroid/net/wifi/WifiStateMachine;
+
+    #getter for: Landroid/net/wifi/WifiStateMachine;->mAdHocWakeLock:Landroid/os/PowerManager$WakeLock;
+    invoke-static {v0}, Landroid/net/wifi/WifiStateMachine;->access$200(Landroid/net/wifi/WifiStateMachine;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v0
 
-    .line 508
-    .local v0, active:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/String;>;"
-    iget-object v2, p0, Landroid/net/wifi/WifiStateMachine$1;->this$0:Landroid/net/wifi/WifiStateMachine;
+    const-wide/32 v1, 0xea60
 
-    #calls: Landroid/net/wifi/WifiStateMachine;->updateTetherState(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
-    invoke-static {v2, v1, v0}, Landroid/net/wifi/WifiStateMachine;->access$000(Landroid/net/wifi/WifiStateMachine;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/PowerManager$WakeLock;->acquire(J)V
 
-    .line 510
+    .line 546
+    iget-object v0, p0, Landroid/net/wifi/WifiStateMachine$1;->this$0:Landroid/net/wifi/WifiStateMachine;
+
+    const v1, 0x1005c
+
+    invoke-virtual {v0, v1}, Landroid/net/wifi/WifiStateMachine;->sendMessage(I)V
+
+    .line 548
+    :cond_29
     return-void
 .end method

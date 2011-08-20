@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 2043
+    .line 2247
     iput-object p1, p0, Landroid/net/wifi/WifiStateMachine$DriverFailedState;->this$0:Landroid/net/wifi/WifiStateMachine;
 
     invoke-direct {p0}, Lcom/android/internal/util/HierarchicalState;-><init>()V
@@ -38,7 +38,7 @@
     .registers 4
 
     .prologue
-    .line 2046
+    .line 2250
     const-string v0, "WifiStateMachine"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -65,7 +65,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2047
+    .line 2251
     const v0, 0xc365
 
     invoke-virtual {p0}, Landroid/net/wifi/WifiStateMachine$DriverFailedState;->getName()Ljava/lang/String;
@@ -74,7 +74,7 @@
 
     invoke-static {v0, v1}, Landroid/util/EventLog;->writeEvent(ILjava/lang/String;)I
 
-    .line 2048
+    .line 2252
     return-void
 .end method
 
@@ -83,7 +83,7 @@
     .parameter "message"
 
     .prologue
-    .line 2052
+    .line 2256
     const/4 v0, 0x0
 
     return v0

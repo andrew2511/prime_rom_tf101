@@ -151,7 +151,7 @@
 
     .prologue
     .line 406
-    const v0, 0x7f0f0106
+    const v0, 0x7f0f0108
 
     return v0
 .end method
@@ -180,7 +180,7 @@
 
     .prologue
     .line 407
-    const v0, 0x7f0f0107
+    const v0, 0x7f0f0109
 
     return v0
 .end method

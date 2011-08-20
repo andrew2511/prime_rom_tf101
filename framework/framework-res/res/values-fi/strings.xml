@@ -267,7 +267,7 @@
     <string name="power_off">Virta pois</string>
     <string name="shutdown_progress">Suljetaan...</string>
     <string name="shutdown_confirm">Tablet-laitteesi sammutetaan.</string>
-    <string name="shutdown_confirm_question">Mitä haluaisit tehdä?</string>
+    <string name="shutdown_confirm_question">Haluatko sammuttaa laitteen?</string>
     <string name="recent_tasks_title">Viimeisimmät</string>
     <string name="no_recent_tasks">Ei viimeaikaisia sovelluksia.</string>
     <string name="global_actions">Tablet-laitteen asetukset</string>
@@ -990,8 +990,4 @@ Haluatko jatkaa järjestelmän päivitystä?"</string>
     <string name="keyguard_password_enter_new_pin_code">Anna uusi PIN</string>
     <string name="keyguard_password_verify_new_pin_code">Vahvista uusi PIN</string>
     <string name="keyguard_password_verify_new_pin_code_failed">PIN ei vastaa.</string>
-    <string name="buttonTxtContinue">Jatka</string>
-    <string name="reboot_recovery">Elpyminen</string>
-    <string name="shutdown">Sulkeminen</string>
-    <string name="reboot">Käynnistä</string>
 </resources>

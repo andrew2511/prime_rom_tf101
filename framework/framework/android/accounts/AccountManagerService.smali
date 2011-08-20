@@ -1457,7 +1457,7 @@
     .local v3, n:Landroid/app/Notification;
     iget-object v8, p0, Landroid/accounts/AccountManagerService;->mContext:Landroid/content/Context;
 
-    const v9, 0x10403bf
+    const v9, 0x10403bc
 
     const/4 v10, 0x1
 
@@ -1650,7 +1650,7 @@
     .local v2, n:Landroid/app/Notification;
     iget-object v5, p0, Landroid/accounts/AccountManagerService;->mContext:Landroid/content/Context;
 
-    const v6, 0x104010f
+    const v6, 0x104010c
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

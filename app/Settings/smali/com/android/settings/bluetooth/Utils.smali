@@ -31,25 +31,25 @@
 
     .line 43
     :pswitch_0
-    const v0, 0x7f080082
+    const v0, 0x7f08008c
 
     goto :goto_0
 
     .line 45
     :pswitch_1
-    const v0, 0x7f080085
+    const v0, 0x7f08008f
 
     goto :goto_0
 
     .line 47
     :pswitch_2
-    const v0, 0x7f080083
+    const v0, 0x7f08008d
 
     goto :goto_0
 
     .line 49
     :pswitch_3
-    const v0, 0x7f080084
+    const v0, 0x7f08008e
 
     goto :goto_0
 
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080176
+    const v2, 0x7f080180
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

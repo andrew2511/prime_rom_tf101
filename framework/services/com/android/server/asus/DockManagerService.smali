@@ -715,9 +715,9 @@
     .prologue
     const/4 v14, 0x2
 
-    const v13, 0x10202c3
+    const v13, 0x10202bf
 
-    const v12, 0x10202c2
+    const v12, 0x10202be
 
     const/4 v11, 0x4
 
@@ -802,7 +802,7 @@
 
     move-result-object v6
 
-    const v7, 0x109008b
+    const v7, 0x109008a
 
     invoke-direct {v0, v6, v7}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -817,7 +817,7 @@
 
     iget-object v7, p0, Lcom/android/server/asus/DockManagerService;->mContext:Landroid/content/Context;
 
-    const v8, 0x104040d
+    const v8, 0x104040a
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -830,7 +830,7 @@
 
     iget-object v7, p0, Lcom/android/server/asus/DockManagerService;->mContext:Landroid/content/Context;
 
-    const v8, 0x104040e
+    const v8, 0x104040b
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -852,7 +852,7 @@
     .line 361
     iget-object v6, p0, Lcom/android/server/asus/DockManagerService;->mContext:Landroid/content/Context;
 
-    const v7, 0x10403fa
+    const v7, 0x10403f7
 
     const/4 v8, 0x1
 
@@ -875,7 +875,7 @@
     invoke-virtual {v0, v13, v6}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 363
-    const v2, 0x10805a9
+    const v2, 0x10804bc
 
     .line 364
     .local v2, icon:I
@@ -884,7 +884,7 @@
     if-ne v6, v14, :cond_a9
 
     .line 365
-    const v2, 0x10805aa
+    const v2, 0x10804ca
 
     .line 367
     :cond_a9
@@ -927,8 +927,10 @@
     .end local v2           #icon:I
     .end local v5           #v:Landroid/widget/ImageView;
     :goto_c9
+    invoke-virtual {v0, v13, v11}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 379
+    invoke-virtual {v0, v12, v11}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 381
     new-instance v3, Landroid/app/Notification;
@@ -975,7 +977,7 @@
     invoke-virtual {v0, v13, v6}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 374
-    const v6, 0x10804da
+    const v6, 0x10804d8
 
     invoke-virtual {v0, v12, v6}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -1438,14 +1440,14 @@
     monitor-enter v4
 
     .line 842
-    const v3, 0x104041b
+    const v3, 0x1040418
 
     .line 843
     .local v3, title:I
     if-eqz p2, :cond_95
 
     .line 844
-    const v2, 0x104041f
+    const v2, 0x104041c
 
     .line 848
     .local v2, message:I
@@ -1565,7 +1567,7 @@
     .end local v1           #dialog:Landroid/app/AlertDialog;
     .end local v2           #message:I
     :cond_95
-    const v2, 0x104041e
+    const v2, 0x104041b
 
     .restart local v2       #message:I
     goto :goto_2d
@@ -2321,7 +2323,7 @@
     .line 488
     iget-object v1, p0, Lcom/android/server/asus/DockManagerService;->mContext:Landroid/content/Context;
 
-    const v2, 0x1040420
+    const v2, 0x104041d
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2398,7 +2400,7 @@
     if-eqz v0, :cond_67
 
     .line 632
-    const v1, 0x10804bb
+    const v1, 0x10804b9
 
     .line 633
     .local v1, iconId:I
@@ -2442,9 +2444,9 @@
     invoke-virtual {v5, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 644
-    const v2, 0x104041b
+    const v2, 0x1040418
 
-    const v3, 0x104041c
+    const v3, 0x1040419
 
     const/16 v4, 0x10
 
@@ -2532,18 +2534,18 @@
     if-eqz v0, :cond_4a
 
     .line 666
-    const v2, 0x104041b
+    const v2, 0x1040418
 
     .line 667
     .local v2, titleId:I
     if-eqz p1, :cond_4b
 
     .line 668
-    const v1, 0x10804bc
+    const v1, 0x10804ba
 
     .line 669
     .local v1, iconId:I
-    const v3, 0x1040420
+    const v3, 0x104041d
 
     .line 675
     .local v3, messageId:I
@@ -2581,11 +2583,11 @@
     .line 671
     .restart local v2       #titleId:I
     :cond_4b
-    const v1, 0x10804bd
+    const v1, 0x10804bb
 
     .line 672
     .restart local v1       #iconId:I
-    const v3, 0x1040421
+    const v3, 0x104041e
 
     .restart local v3       #messageId:I
     goto :goto_37
@@ -3174,7 +3176,7 @@
     if-eqz v5, :cond_b1
 
     .line 721
-    const v2, 0x10804ba
+    const v2, 0x10804b8
 
     .line 722
     .local v2, icondId:I
@@ -3229,23 +3231,23 @@
 
     move-result-object v5
 
-    const v6, 0x1090090
+    const v6, 0x109008f
 
     invoke-direct {v1, v5, v6}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
     .line 733
     .local v1, expandedView:Landroid/widget/RemoteViews;
-    const v5, 0x10202c7
+    const v5, 0x10202c3
 
     invoke-virtual {v1, v5, v8}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 734
-    const v5, 0x10202c9
+    const v5, 0x10202c5
 
     invoke-virtual {v1, v5, v8}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
     .line 736
-    const v5, 0x10202c5
+    const v5, 0x10202c1
 
     invoke-virtual {v1, v5, v2}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -3254,7 +3256,7 @@
 
     iget-object v6, p0, Lcom/android/server/asus/DockManagerService;->mContext:Landroid/content/Context;
 
-    const v7, 0x104041d
+    const v7, 0x104041a
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3263,14 +3265,14 @@
     invoke-virtual {v1, v5, v6}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 738
-    const v5, 0x10202c8
+    const v5, 0x10202c4
 
     const/4 v6, 0x0
 
     invoke-virtual {v1, v5, v4, v0, v6}, Landroid/widget/RemoteViews;->setProgressBar(IIIZ)V
 
     .line 739
-    const v5, 0x10202c6
+    const v5, 0x10202c2
 
     int-to-long v6, v0
 

@@ -114,7 +114,7 @@
     .parameter "text"
     .parameter "start"
     .parameter "before"
-    .parameter "after"
+    .parameter "count"
 
     .prologue
     const/4 v1, 0x0

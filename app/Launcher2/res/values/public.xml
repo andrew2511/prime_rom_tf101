@@ -61,10 +61,6 @@
     <public type="drawable" name="village_small" id="0x7f020082" />
     <public type="drawable" name="asus_default" id="0x7f020006" />
     <public type="drawable" name="asus_default_small" id="0x7f020007" />
-    <public type="drawable" name="earth" id="0x7f0200d6" />
-    <public type="drawable" name="earth_small" id="0x7f0200d7" />
-    <public type="drawable" name="stars" id="0x7f0200d8" />
-    <public type="drawable" name="stars_small" id="0x7f0200d9" />
     <public type="drawable" name="all_apps_button" id="0x7f020001" />
     <public type="drawable" name="box_launcher_top" id="0x7f020010" />
     <public type="drawable" name="delete_zone_selector" id="0x7f02001b" />
@@ -371,8 +367,6 @@
     <public type="id" name="wallpaper_list" id="0x7f080039" />
     <public type="id" name="wallpaper_chooser_fragment" id="0x7f08003a" />
     <public type="id" name="wallpaper_image" id="0x7f08003b" />
-    <public type="id" name="cell6" id="0x7f08003c" />
-    <public type="id" name="cell7" id="0x7f08003d" />
     <public type="color" name="window_background" id="0x7f090000" />
     <public type="color" name="grid_dark_background" id="0x7f090001" />
     <public type="color" name="bubble_dark_background" id="0x7f090002" />

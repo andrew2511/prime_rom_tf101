@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 3304
+    .line 3310
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iput p2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->val$visibility:I
@@ -46,14 +46,14 @@
     .registers 6
 
     .prologue
-    .line 3306
+    .line 3312
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iget-object v3, v3, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarService:Lcom/android/internal/statusbar/IStatusBarService;
 
     if-nez v3, :cond_14
 
-    .line 3307
+    .line 3313
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     const-string v4, "statusbar"
@@ -68,7 +68,7 @@
 
     iput-object v4, v3, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarService:Lcom/android/internal/statusbar/IStatusBarService;
 
-    .line 3310
+    .line 3316
     :cond_14
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
@@ -76,12 +76,12 @@
 
     if-eqz v3, :cond_2a
 
-    .line 3312
+    .line 3318
     invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     move-result-wide v1
 
-    .line 3314
+    .line 3320
     .local v1, origId:J
     :try_start_1e
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
@@ -95,23 +95,23 @@
     .catchall {:try_start_1e .. :try_end_27} :catchall_36
     .catch Landroid/os/RemoteException; {:try_start_1e .. :try_end_27} :catch_2b
 
-    .line 3319
+    .line 3325
     invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    .line 3322
+    .line 3328
     .end local v1           #origId:J
     :cond_2a
     :goto_2a
     return-void
 
-    .line 3315
+    .line 3321
     .restart local v1       #origId:J
     :catch_2b
     move-exception v3
 
     move-object v0, v3
 
-    .line 3317
+    .line 3323
     .local v0, e:Landroid/os/RemoteException;
     :try_start_2d
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$13;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
@@ -122,7 +122,7 @@
     :try_end_32
     .catchall {:try_start_2d .. :try_end_32} :catchall_36
 
-    .line 3319
+    .line 3325
     invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     goto :goto_2a

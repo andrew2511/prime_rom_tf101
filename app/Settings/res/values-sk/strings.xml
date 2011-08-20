@@ -27,6 +27,9 @@ Prosím, skontrolujte platnosť certifikátov"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Počas inštalácie nemôžete nakonfigurovať pripojenie WAPI CERT WLAN. Po inštalácii to môžete vykonať v ponuke Nastavenia, v položke <b>Bezdrôtová komunikácia a siete</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT nie je podporovaný</string>
     <string name="wifi_wapi_network_open">Otvorený</string>
+    <string name="asus_wifi_setup_description_connected">"Dotknite sa tlačidla Ďalej pre pokračovanie v inštalácii.
+
+Dotknite sa tlačidla Ďalej pre inú Wi-Fi sieť."</string>
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="device_info_default">Neznáme</string>
@@ -1312,7 +1315,4 @@ Pokračovať?"</string>
     <string name="select_all">Vybrať všetko</string>
     <string name="hdcp_checking_title">Kontrola HDCP</string>
     <string name="hdcp_checking_dialog_title">Nastaviť spôsob kontroly HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"Dotknite sa tlačidla Ďalej pre pokračovanie v inštalácii.
-
-Dotknite sa tlačidla Ďalej pre inú Wi-Fi sieť."</string>
 </resources>

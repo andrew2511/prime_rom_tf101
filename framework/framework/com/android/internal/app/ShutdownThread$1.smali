@@ -46,10 +46,6 @@
     .line 118
     iget-object v0, p0, Lcom/android/internal/app/ShutdownThread$1;->val$context:Landroid/content/Context;
 
-    const/4 p1, 0x2
-
-    sput p1, Lcom/android/internal/app/ShutdownThread;->mRebootTrigger:I
-
     #calls: Lcom/android/internal/app/ShutdownThread;->beginShutdownSequence(Landroid/content/Context;)V
     invoke-static {v0}, Lcom/android/internal/app/ShutdownThread;->access$000(Landroid/content/Context;)V
 

@@ -353,4 +353,12 @@
         <item>@string/input_method_selector_always_show_value</item>
         <item>@string/input_method_selector_always_hide_value</item>
     </array>
+    <array name="touchpad_mode_selector_values">
+        <item>@string/touchpad_mode_value_android32</item>
+        <item>@string/touchpad_mode_value_classic</item>
+    </array>
+    <array name="touchpad_mode_selector_entries">
+        <item>@string/touchpad_mode_entry_android32</item>
+        <item>@string/touchpad_mode_entry_classic</item>
+    </array>
 </resources>

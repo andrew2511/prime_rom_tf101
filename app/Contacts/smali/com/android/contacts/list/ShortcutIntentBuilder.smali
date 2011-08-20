@@ -999,7 +999,7 @@
 
     move-result-object v6
 
-    const v7, 0x1080436
+    const v7, 0x1080434
 
     iget v8, p0, Lcom/android/contacts/list/ShortcutIntentBuilder;->mIconDensity:I
 

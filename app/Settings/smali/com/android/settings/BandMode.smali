@@ -359,7 +359,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f0800dc
+    const v2, 0x7f0800e6
 
     invoke-virtual {p0, v2}, Lcom/android/settings/BandMode;->getString(I)Ljava/lang/String;
 
@@ -408,7 +408,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800dd
+    const v2, 0x7f0800e7
 
     invoke-virtual {p0, v2}, Lcom/android/settings/BandMode;->getString(I)Ljava/lang/String;
 
@@ -459,7 +459,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800de
+    const v2, 0x7f0800e8
 
     invoke-virtual {p0, v2}, Lcom/android/settings/BandMode;->getString(I)Ljava/lang/String;
 
@@ -481,7 +481,7 @@
 
     .prologue
     .line 117
-    const v2, 0x7f0800db
+    const v2, 0x7f0800e5
 
     invoke-virtual {p0, v2}, Lcom/android/settings/BandMode;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/BandMode;->setContentView(I)V
 
     .line 64
-    const v0, 0x7f0800da
+    const v0, 0x7f0800e4
 
     invoke-virtual {p0, v0}, Lcom/android/settings/BandMode;->getString(I)Ljava/lang/String;
 

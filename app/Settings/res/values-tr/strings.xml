@@ -27,6 +27,9 @@ Lütfen sertifikaların doğruluğunu kontrol edin"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Kurulum sırasında Kablosuz WAPI CERT bağlantısı yapılandıramazsınız. Kurulumdan sonra Kablosuz ve Ağlar altında Ayarlar bölümünden bunu yapabilirsiniz.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT desteklenmiyor</string>
     <string name="wifi_wapi_network_open">Aç</string>
+    <string name="asus_wifi_setup_description_connected">"Kuruluma devam etmek için İleri'ye dokunun.
+
+Farklı bir Wi-Fi ağı için Geri'ye dokunun."</string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="device_info_default">Bilinmiyor</string>
@@ -1310,7 +1313,4 @@ Devam etmek istiyor musunuz?"</string>
     <string name="select_all">Tümünü Seç</string>
     <string name="hdcp_checking_title">HDCP denetimi</string>
     <string name="hdcp_checking_dialog_title">HDCP denetimini ayarla</string>
-    <string name="asus_wifi_setup_description_connected">"Kuruluma devam etmek için İleri'ye dokunun.
-
-Farklı bir Wi-Fi ağı için Geri'ye dokunun."</string>
 </resources>

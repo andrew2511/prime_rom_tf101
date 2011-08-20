@@ -96,7 +96,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
     .line 153
-    const v1, 0x7f080092
+    const v1, 0x7f08009c
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
     if-eqz v1, :cond_0
 
     .line 158
-    const v1, 0x7f080098
+    const v1, 0x7f0800a2
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -144,7 +144,7 @@
     if-nez v1, :cond_1
 
     .line 164
-    const v1, 0x7f080095
+    const v1, 0x7f08009f
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -154,7 +154,7 @@
 
     .line 170
     :goto_1
-    const v1, 0x7f08002e
+    const v1, 0x7f080038
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
     invoke-virtual {v0, v1, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 171
-    const v1, 0x7f08002f
+    const v1, 0x7f080039
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     .line 167
     :cond_1
-    const v1, 0x7f080094
+    const v1, 0x7f08009e
 
     const/4 v2, 0x1
 

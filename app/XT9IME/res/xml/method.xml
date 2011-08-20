@@ -15,10 +15,12 @@
     <subtype android:label="@string/subtype_mode_bpmf_keyboard" android:icon="@drawable/xt9_bpmf" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="bpmf" />
     <subtype android:label="@string/subtype_mode_cangjie_tw_keyboard" android:icon="@drawable/xt9_cangjie" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="cangjie" />
     <subtype android:label="@string/subtype_mode_quick_cangjie_tw_keyboard" android:icon="@drawable/xt9_cangjie" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="quick_cangjie" />
+    <subtype android:label="@string/subtype_mode_handwriting_tw_keyboard" android:icon="@drawable/xt9_handwrite_tc" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="handwriting" />
     <subtype android:label="@string/subtype_mode_pinyin_tw_keyboard" android:icon="@drawable/xt9_pinyin" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="pinyin" />
     <subtype android:label="@string/subtype_mode_stroke_tw_keyboard" android:icon="@drawable/xt9_stroke_cht" android:imeSubtypeLocale="zh_TW" android:imeSubtypeMode="stroke" />
     <subtype android:label="@string/subtype_mode_pinyin_cn_keyboard" android:icon="@drawable/xt9_pinyin" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="pinyin" />
     <subtype android:label="@string/subtype_mode_stroke_cn_keyboard" android:icon="@drawable/xt9_stroke" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="stroke" />
+    <subtype android:label="@string/subtype_mode_handwriting_cn_keyboard" android:icon="@drawable/xt9_handwrite_sc" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="handwriting" />
     <subtype android:label="@string/subtype_mode_trace_cn_keyboard" android:icon="@drawable/xt9_hau" android:imeSubtypeLocale="zh_CN" android:imeSubtypeMode="chinese_trace" />
     <subtype android:label="@string/subtype_mode_ru_keyboard" android:icon="@drawable/xt9_ru" android:imeSubtypeLocale="ru_RU" android:imeSubtypeMode="keyboard" />
     <subtype android:label="@string/subtype_mode_es_ES_keyboard" android:icon="@drawable/xt9_es" android:imeSubtypeLocale="es_ES" android:imeSubtypeMode="keyboard" />

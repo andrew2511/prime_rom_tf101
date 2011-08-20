@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 2393
+    .line 2407
     iput-object p1, p0, Lcom/nuance/xt9/input/IME$11;->this$0:Lcom/nuance/xt9/input/IME;
 
     iput-object p2, p0, Lcom/nuance/xt9/input/IME$11;->val$imeWindow:Landroid/app/Dialog;
@@ -47,18 +47,18 @@
     .parameter "dialog"
 
     .prologue
-    .line 2396
+    .line 2410
     iget-object v0, p0, Lcom/nuance/xt9/input/IME$11;->val$imeWindow:Landroid/app/Dialog;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    .line 2397
+    .line 2411
     iget-object v0, p0, Lcom/nuance/xt9/input/IME$11;->val$imeWindow:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->hide()V
 
-    .line 2398
+    .line 2412
     return-void
 .end method

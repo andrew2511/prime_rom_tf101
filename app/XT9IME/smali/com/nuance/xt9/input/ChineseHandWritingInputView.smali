@@ -1397,7 +1397,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003b
+    const v4, 0x7f09003c
 
     .line 184
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseHandWritingInputView;->mEmailKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1445,7 +1445,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003c
+    const v4, 0x7f09003d
 
     .line 200
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseHandWritingInputView;->mImKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1493,7 +1493,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f090039
+    const v4, 0x7f09003a
 
     .line 176
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseHandWritingInputView;->mNormalKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1541,7 +1541,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003a
+    const v4, 0x7f09003b
 
     .line 192
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseHandWritingInputView;->mUrlKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;

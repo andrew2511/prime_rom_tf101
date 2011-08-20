@@ -124,7 +124,7 @@
     .line 66
     iget-object v4, p0, Landroid/webkit/DateSorter;->mLabels:[Ljava/lang/String;
 
-    const v5, 0x1040071
+    const v5, 0x104006e
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -139,7 +139,7 @@
     .line 67
     iget-object v4, p0, Landroid/webkit/DateSorter;->mLabels:[Ljava/lang/String;
 
-    const v5, 0x1040070
+    const v5, 0x104006d
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -183,7 +183,7 @@
 
     const/4 v5, 0x3
 
-    const v6, 0x104031f
+    const v6, 0x104031c
 
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     const/4 v5, 0x4
 
-    const v6, 0x1040320
+    const v6, 0x104031d
 
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -73,7 +73,7 @@
 
     .prologue
     .line 89
-    const v2, 0x7f0804d8
+    const v2, 0x7f0804e4
 
     iget-object v0, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mProfile:Landroid/net/vpn/L2tpIpsecProfile;
 
@@ -106,7 +106,7 @@
     .line 102
     iget-object v0, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mCaCertificate:Landroid/preference/ListPreference;
 
-    const v1, 0x7f0804d9
+    const v1, 0x7f0804e5
 
     iget-object v2, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mProfile:Landroid/net/vpn/L2tpIpsecProfile;
 
@@ -170,7 +170,7 @@
 
     .prologue
     .line 70
-    const v2, 0x7f0804d5
+    const v2, 0x7f0804e1
 
     iget-object v0, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mProfile:Landroid/net/vpn/L2tpIpsecProfile;
 
@@ -203,7 +203,7 @@
     .line 83
     iget-object v0, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mUserCertificate:Landroid/preference/ListPreference;
 
-    const v1, 0x7f0804d6
+    const v1, 0x7f0804e2
 
     iget-object v2, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mProfile:Landroid/net/vpn/L2tpIpsecProfile;
 
@@ -269,7 +269,7 @@
     .line 61
     iget-object v1, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mUserCertificate:Landroid/preference/ListPreference;
 
-    const v2, 0x7f0804d7
+    const v2, 0x7f0804e3
 
     invoke-virtual {p0, v1, v2}, Lcom/android/settings/vpn/L2tpIpsecEditor;->validate(Landroid/preference/Preference;I)Ljava/lang/String;
 
@@ -282,7 +282,7 @@
     .line 64
     iget-object v1, p0, Lcom/android/settings/vpn/L2tpIpsecEditor;->mCaCertificate:Landroid/preference/ListPreference;
 
-    const v2, 0x7f0804da
+    const v2, 0x7f0804e6
 
     invoke-virtual {p0, v1, v2}, Lcom/android/settings/vpn/L2tpIpsecEditor;->validate(Landroid/preference/Preference;I)Ljava/lang/String;
 

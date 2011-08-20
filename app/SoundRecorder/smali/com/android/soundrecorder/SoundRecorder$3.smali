@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 951
+    .line 958
     iput-object p1, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
     .parameter "arg1"
 
     .prologue
-    .line 953
+    .line 960
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     invoke-static {p2}, Lcom/android/soundrecorder/IRecorderService$Stub;->asInterface(Landroid/os/IBinder;)Lcom/android/soundrecorder/IRecorderService;
@@ -52,14 +52,14 @@
 
     iput-object v6, v5, Lcom/android/soundrecorder/SoundRecorder;->mRecordService:Lcom/android/soundrecorder/IRecorderService;
 
-    .line 955
+    .line 962
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     iget-object v5, v5, Lcom/android/soundrecorder/SoundRecorder;->serviceState:Landroid/os/Bundle;
 
     if-eqz v5, :cond_0
 
-    .line 957
+    .line 964
     :try_start_0
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
@@ -71,7 +71,7 @@
 
     move-result-object v3
 
-    .line 958
+    .line 965
     .local v3, samplePath:Ljava/lang/String;
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
@@ -85,7 +85,7 @@
 
     move-result v2
 
-    .line 959
+    .line 966
     .local v2, sampleLength:I
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
@@ -95,7 +95,7 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 966
+    .line 973
     .end local v2           #sampleLength:I
     .end local v3           #samplePath:Ljava/lang/String;
     :cond_0
@@ -113,7 +113,7 @@
 
     if-ne v5, v6, :cond_1
 
-    .line 967
+    .line 974
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     const-string v6, "BYRATE_PER_SECOND"
@@ -124,7 +124,7 @@
 
     move-result-object v4
 
-    .line 968
+    .line 975
     .local v4, settings:Landroid/content/SharedPreferences;
     const-string v5, "bytes_per_second"
 
@@ -134,7 +134,7 @@
 
     move-result v1
 
-    .line 969
+    .line 976
     .local v1, getBytesPerSecond:I
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
@@ -144,7 +144,7 @@
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 975
+    .line 982
     .end local v1           #getBytesPerSecond:I
     .end local v4           #settings:Landroid/content/SharedPreferences;
     :cond_1
@@ -159,34 +159,34 @@
 
     invoke-virtual {v5, v6}, Lcom/android/soundrecorder/VUMeter;->setRecorderService(Lcom/android/soundrecorder/IRecorderService;)V
 
-    .line 976
+    .line 983
     iget-object v5, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     invoke-static {v5}, Lcom/android/soundrecorder/SoundRecorder;->access$100(Lcom/android/soundrecorder/SoundRecorder;)V
 
-    .line 977
+    .line 984
     return-void
 
-    .line 960
+    .line 967
     :catch_0
     move-exception v5
 
     move-object v0, v5
 
-    .line 961
+    .line 968
     .local v0, e:Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->printStackTrace()V
 
     goto :goto_0
 
-    .line 971
+    .line 978
     .end local v0           #e:Landroid/os/RemoteException;
     :catch_1
     move-exception v5
 
     move-object v0, v5
 
-    .line 972
+    .line 979
     .restart local v0       #e:Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->printStackTrace()V
 
@@ -198,13 +198,13 @@
     .parameter "arg0"
 
     .prologue
-    .line 980
+    .line 987
     iget-object v0, p0, Lcom/android/soundrecorder/SoundRecorder$3;->this$0:Lcom/android/soundrecorder/SoundRecorder;
 
     const/4 v1, 0x0
 
     iput-object v1, v0, Lcom/android/soundrecorder/SoundRecorder;->mRecordService:Lcom/android/soundrecorder/IRecorderService;
 
-    .line 981
+    .line 988
     return-void
 .end method

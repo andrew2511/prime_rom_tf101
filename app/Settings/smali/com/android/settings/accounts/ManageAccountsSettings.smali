@@ -184,7 +184,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080545
+    const v3, 0x7f080551
 
     invoke-virtual {p1}, Lcom/android/settings/AccountPreference;->getAccount()Landroid/accounts/Account;
 
@@ -620,7 +620,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f08054b
+    const v2, 0x7f080557
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -632,7 +632,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08054c
+    const v2, 0x7f080558
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -680,7 +680,7 @@
     .line 215
     const/4 v1, 0x1
 
-    const v2, 0x7f080547
+    const v2, 0x7f080553
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

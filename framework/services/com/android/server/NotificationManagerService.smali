@@ -1715,7 +1715,7 @@
     .prologue
     const/4 v11, 0x0
 
-    const v10, 0x1040393
+    const v10, 0x1040390
 
     const/4 v9, 0x0
 
@@ -1778,7 +1778,7 @@
 
     .line 1135
     .local v5, title:Ljava/lang/CharSequence;
-    const v6, 0x1040394
+    const v6, 0x1040391
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1800,7 +1800,7 @@
     .line 1140
     iget-object v6, p0, Lcom/android/server/NotificationManagerService;->mAdbNotification:Landroid/app/Notification;
 
-    const v7, 0x10804b9
+    const v7, 0x10804b7
 
     iput v7, v6, Landroid/app/Notification;->icon:I
 

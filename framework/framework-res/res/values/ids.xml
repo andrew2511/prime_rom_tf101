@@ -91,10 +91,6 @@
     <item type="id" name="show_more_text">false</item>
     <item type="id" name="show_more_icon">false</item>
     <item type="id" name="non_dangerous_perms_list">false</item>
-    <item type="id" name="compass_layout_root">false</item>
-    <item type="id" name="image">false</item>
-    <item type="id" name="mGestureTitle">false</item>
-    <item type="id" name="mGestureSummary">false</item>
     <item type="id" name="headerText">false</item>
     <item type="id" name="passwordEntry">false</item>
     <item type="id" name="emergencyCall">false</item>

@@ -401,11 +401,11 @@
 
     const v3, 0x1080032
 
-    const v4, 0x1040123
+    const v4, 0x1040120
 
-    const v5, 0x1040124
+    const v5, 0x1040121
 
-    const v6, 0x1040125
+    const v6, 0x1040122
 
     move-object v1, p0
 
@@ -416,15 +416,15 @@
     .line 155
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$2;
 
-    const v2, 0x10802cd
+    const v2, 0x10802cb
 
-    const v3, 0x10802ce
+    const v3, 0x10802cc
 
-    const v4, 0x1040126
+    const v4, 0x1040123
 
-    const v5, 0x1040127
+    const v5, 0x1040124
 
-    const v6, 0x1040128
+    const v6, 0x1040125
 
     move-object v1, p0
 
@@ -453,7 +453,7 @@
 
     const v3, 0x1080030
 
-    const v4, 0x1040122
+    const v4, 0x104011f
 
     invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$3;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    const v1, 0x1040120
+    const v1, 0x104011d
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

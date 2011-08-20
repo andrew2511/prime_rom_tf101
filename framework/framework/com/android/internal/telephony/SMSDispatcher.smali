@@ -899,7 +899,7 @@
     return-object v1
 
     :cond_b
-    const v1, 0x1040372
+    const v1, 0x104036f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1534,7 +1534,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x1040373
+    const v5, 0x1040370
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1558,7 +1558,7 @@
 
     move-result-object v5
 
-    const v6, 0x1040374
+    const v6, 0x1040371
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1576,7 +1576,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040375
+    const v5, 0x1040372
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1588,7 +1588,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040376
+    const v5, 0x1040373
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

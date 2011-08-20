@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">لا يمكنك تهيئة اتصال WAPI CERT WLAN أثناء الإعداد. بعد انتهاء الإعداد، يمكنك إجراء هذا في الإعدادات، تحت قسم <b>الشبكات &amp;اللاسلكية</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT غير مدعومة</string>
     <string name="wifi_wapi_network_open">فتح</string>
+    <string name="asus_wifi_setup_description_connected">"المس زر التالي لمواصلة الإعداد.
+
+المس زر رجوع للانتقال إلى شبكة Wi-Fi مختلفة."</string>
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="device_info_default">غير معروف</string>
@@ -1313,7 +1316,4 @@
     <string name="select_all">تحديد الكل</string>
     <string name="hdcp_checking_title">التحقق من HDCP</string>
     <string name="hdcp_checking_dialog_title">تعيين سلوك التحقق من HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"المس زر التالي لمواصلة الإعداد.
-
-المس زر رجوع للانتقال إلى شبكة Wi-Fi مختلفة."</string>
 </resources>

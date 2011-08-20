@@ -216,7 +216,7 @@
 
     .line 110
     :cond_3
-    const v2, 0x10402a7
+    const v2, 0x10402a4
 
     invoke-virtual {p0, v2}, Lcom/android/systemui/statusbar/phone/CarrierLabel;->setText(I)V
 

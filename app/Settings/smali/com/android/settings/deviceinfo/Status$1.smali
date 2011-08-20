@@ -136,7 +136,7 @@
     .line 168
     iget-object v6, p0, Lcom/android/settings/deviceinfo/Status$1;->this$0:Lcom/android/settings/deviceinfo/Status;
 
-    const v7, 0x7f080062
+    const v7, 0x7f08006c
 
     invoke-virtual {v6, v7}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     if-ne v2, v10, :cond_2
 
-    const v8, 0x7f080063
+    const v8, 0x7f08006d
 
     :goto_0
     invoke-virtual {v7, v8}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
@@ -207,7 +207,7 @@
     .restart local v4       #status:I
     .restart local v5       #statusString:Ljava/lang/String;
     :cond_2
-    const v8, 0x7f080064
+    const v8, 0x7f08006e
 
     goto :goto_0
 
@@ -221,7 +221,7 @@
     .line 176
     iget-object v6, p0, Lcom/android/settings/deviceinfo/Status$1;->this$0:Lcom/android/settings/deviceinfo/Status;
 
-    const v7, 0x7f080065
+    const v7, 0x7f08006f
 
     invoke-virtual {v6, v7}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
 
@@ -240,7 +240,7 @@
     .line 178
     iget-object v6, p0, Lcom/android/settings/deviceinfo/Status$1;->this$0:Lcom/android/settings/deviceinfo/Status;
 
-    const v7, 0x7f080066
+    const v7, 0x7f080070
 
     invoke-virtual {v6, v7}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
     .line 180
     iget-object v6, p0, Lcom/android/settings/deviceinfo/Status$1;->this$0:Lcom/android/settings/deviceinfo/Status;
 
-    const v7, 0x7f080067
+    const v7, 0x7f080071
 
     invoke-virtual {v6, v7}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
     :cond_6
     iget-object v6, p0, Lcom/android/settings/deviceinfo/Status$1;->this$0:Lcom/android/settings/deviceinfo/Status;
 
-    const v7, 0x7f080061
+    const v7, 0x7f08006b
 
     invoke-virtual {v6, v7}, Lcom/android/settings/deviceinfo/Status;->getString(I)Ljava/lang/String;
 

@@ -108,6 +108,8 @@
     <item type="id" name="screen_compatibility_section">false</item>
     <item type="id" name="ask_compatibility_cb">false</item>
     <item type="id" name="enable_compatibility_cb">false</item>
+    <item type="id" name="resolution_backward_cb">false</item>
+    <item type="id" name="resolution_backward_title">false</item>
     <item type="id" name="permissions_section">false</item>
     <item type="id" name="security_settings_list">false</item>
     <item type="id" name="intent">false</item>

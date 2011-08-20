@@ -450,7 +450,7 @@
     iput-object v4, p0, Lcom/android/browser/PieControl;->mShowTabs:Lcom/android/browser/view/PieItem;
 
     .line 91
-    const v4, 0x10802fb
+    const v4, 0x10802f9
 
     invoke-direct {p0, v4, v7}, Lcom/android/browser/PieControl;->makeItem(II)Lcom/android/browser/view/PieItem;
 

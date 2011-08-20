@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 747
+    .line 643
     iput-object p1, p0, Landroid/hardware/SensorManager$1;->this$0:Landroid/hardware/SensorManager;
 
     invoke-direct {p0}, Landroid/view/IRotationWatcher$Stub;-><init>()V
@@ -39,11 +39,11 @@
     .parameter "rotation"
 
     .prologue
-    .line 749
+    .line 645
     iget-object v0, p0, Landroid/hardware/SensorManager$1;->this$0:Landroid/hardware/SensorManager;
 
     invoke-virtual {v0, p1}, Landroid/hardware/SensorManager;->onRotationChanged(I)V
 
-    .line 750
+    .line 646
     return-void
 .end method

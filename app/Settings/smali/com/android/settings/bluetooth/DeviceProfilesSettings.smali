@@ -126,7 +126,7 @@
     if-eqz v5, :cond_0
 
     .line 240
-    const v5, 0x7f08008a
+    const v5, 0x7f080094
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -170,7 +170,7 @@
     invoke-static {v5, v6}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 245
-    const v2, 0x7f080081
+    const v2, 0x7f08008b
 
     .line 247
     :cond_1
@@ -493,7 +493,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080192
+    const v2, 0x7f08019c
 
     const/4 v3, 0x1
 
@@ -794,7 +794,7 @@
 
     .line 330
     .restart local v0       #autoConnectPref:Landroid/preference/CheckBoxPreference;
-    const v3, 0x1090065
+    const v3, 0x1090064
 
     invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setLayoutResource(I)V
 
@@ -806,7 +806,7 @@
     invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
 
     .line 332
-    const v3, 0x7f080099
+    const v3, 0x7f0800a3
 
     invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setTitle(I)V
 
@@ -1066,7 +1066,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080192
+    const v5, 0x7f08019c
 
     const/4 v6, 0x1
 

@@ -270,6 +270,8 @@
 
 .field public static final TIME_12_24:Ljava/lang/String; = "time_12_24"
 
+.field public static final TOUCHPAD_MODE:Ljava/lang/String; = "touchpad_mode"
+
 .field public static final TRANSITION_ANIMATION_SCALE:Ljava/lang/String; = "transition_animation_scale"
 
 .field public static final TTY_MODE:Ljava/lang/String; = "tty_mode"
@@ -761,7 +763,7 @@
 
     sput-object v0, Landroid/provider/Settings$System;->DEFAULT_ALARM_ALERT_URI:Landroid/net/Uri;
 
-    .line 1822
+    .line 1832
     const/16 v0, 0x3b
 
     new-array v0, v0, [Ljava/lang/String;

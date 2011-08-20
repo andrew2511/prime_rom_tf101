@@ -109,7 +109,7 @@
 
     .prologue
     .line 137
-    const v0, 0x7f0f00af
+    const v0, 0x7f0f00b1
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 140
-    const v0, 0x7f0f00b0
+    const v0, 0x7f0f00b2
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 144
-    const v0, 0x7f0f00b1
+    const v0, 0x7f0f00b3
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 147
-    const v0, 0x7f0f00b2
+    const v0, 0x7f0f00b4
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -188,7 +188,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 150
-    const v0, 0x7f0f00b3
+    const v0, 0x7f0f00b5
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 153
-    const v0, 0x7f0f00b4
+    const v0, 0x7f0f00b6
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -280,7 +280,7 @@
     .parameter "exclList"
 
     .prologue
-    const v10, 0x7f0800b9
+    const v10, 0x7f0800c3
 
     .line 202
     sget-object v9, Lcom/android/settings/ProxySelector;->HOSTNAME_PATTERN:Ljava/util/regex/Pattern;
@@ -305,7 +305,7 @@
 
     if-nez v9, :cond_0
 
-    const v9, 0x7f0800b5
+    const v9, 0x7f0800bf
 
     .line 230
     :goto_0
@@ -343,7 +343,7 @@
 
     if-nez v9, :cond_1
 
-    const v9, 0x7f0800b6
+    const v9, 0x7f0800c0
 
     goto :goto_0
 
@@ -370,7 +370,7 @@
     if-nez v9, :cond_3
 
     .line 213
-    const v9, 0x7f0800b7
+    const v9, 0x7f0800c1
 
     goto :goto_0
 
@@ -390,7 +390,7 @@
     if-nez v9, :cond_4
 
     .line 218
-    const v9, 0x7f0800b8
+    const v9, 0x7f0800c2
 
     goto :goto_0
 
@@ -612,13 +612,13 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f0800b3
+    const v5, 0x7f0800bd
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v4
 
-    const v5, 0x7f0800b4
+    const v5, 0x7f0800be
 
     invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

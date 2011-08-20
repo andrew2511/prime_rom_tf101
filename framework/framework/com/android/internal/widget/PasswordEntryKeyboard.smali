@@ -235,7 +235,7 @@
 
     .line 76
     .local v0, res:Landroid/content/res/Resources;
-    const v1, 0x1080534
+    const v1, 0x1080532
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -244,7 +244,7 @@
     iput-object v1, p0, Lcom/android/internal/widget/PasswordEntryKeyboard;->mShiftIcon:Landroid/graphics/drawable/Drawable;
 
     .line 77
-    const v1, 0x1080535
+    const v1, 0x1080533
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

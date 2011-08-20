@@ -35,33 +35,33 @@
 
 .field public static final candidates:I = 0x7f090018
 
-.field public static final chinese_handwriting_area:I = 0x7f090029
+.field public static final chinese_handwriting_area:I = 0x7f09002a
 
-.field public static final chinese_handwriting_container:I = 0x7f090028
+.field public static final chinese_handwriting_container:I = 0x7f090029
 
-.field public static final chinese_handwriting_key_area:I = 0x7f09002a
+.field public static final chinese_handwriting_key_area:I = 0x7f09002b
 
-.field public static final chkNotAgain:I = 0x7f09002b
+.field public static final chkNotAgain:I = 0x7f09002c
 
-.field public static final closeButton:I = 0x7f09002c
+.field public static final closeButton:I = 0x7f09002d
 
 .field public static final copyright:I = 0x7f090010
 
 .field public static final keyboardViewEx:I = 0x7f090004
 
-.field public static final keys_substitution:I = 0x7f09003d
+.field public static final keys_substitution:I = 0x7f09003e
 
 .field public static final left:I = 0x7f090002
 
-.field public static final message:I = 0x7f09002d
+.field public static final message:I = 0x7f09002e
 
-.field public static final mode_email:I = 0x7f09003b
+.field public static final mode_email:I = 0x7f09003c
 
-.field public static final mode_im:I = 0x7f09003c
+.field public static final mode_im:I = 0x7f09003d
 
-.field public static final mode_normal:I = 0x7f090039
+.field public static final mode_normal:I = 0x7f09003a
 
-.field public static final mode_url:I = 0x7f09003a
+.field public static final mode_url:I = 0x7f09003b
 
 .field public static final phrase_candidate_left:I = 0x7f090023
 
@@ -75,15 +75,17 @@
 
 .field public static final phrase_layout_window:I = 0x7f090021
 
+.field public static final phrase_phonetic_symbols:I = 0x7f090028
+
 .field public static final phrase_shiftnum_left:I = 0x7f090027
 
-.field public static final pref_language_enable_widget:I = 0x7f09002e
+.field public static final pref_language_enable_widget:I = 0x7f09002f
 
 .field public static final product_version:I = 0x7f090005
 
 .field public static final right:I = 0x7f090003
 
-.field public static final scrollView:I = 0x7f09002f
+.field public static final scrollView:I = 0x7f090030
 
 .field public static final settings_more:I = 0x1010000
 
@@ -113,27 +115,27 @@
 
 .field public static final t9write_core_version_info_frame:I = 0x7f09000c
 
-.field public static final tool_bar:I = 0x7f090031
+.field public static final tool_bar:I = 0x7f090032
 
 .field public static final tool_bar_frame:I = 0x7f090015
 
-.field public static final tool_bar_fullscreen_hwr_toggle_button:I = 0x7f090035
+.field public static final tool_bar_fullscreen_hwr_toggle_button:I = 0x7f090036
 
-.field public static final tool_bar_hwr_keyboard_toggle_button:I = 0x7f090033
+.field public static final tool_bar_hwr_keyboard_toggle_button:I = 0x7f090034
 
-.field public static final tool_bar_keyboard_cycling_button:I = 0x7f090034
+.field public static final tool_bar_keyboard_cycling_button:I = 0x7f090035
 
-.field public static final tool_bar_language_cycle:I = 0x7f090032
+.field public static final tool_bar_language_cycle:I = 0x7f090033
 
-.field public static final tool_bar_settings:I = 0x7f090036
+.field public static final tool_bar_settings:I = 0x7f090037
 
-.field public static final tool_bar_slide_close:I = 0x7f090038
+.field public static final tool_bar_slide_close:I = 0x7f090039
 
-.field public static final tool_bar_slide_open:I = 0x7f090037
+.field public static final tool_bar_slide_open:I = 0x7f090038
 
 .field public static final top:I = 0x7f090000
 
-.field public static final txtPageIndicator:I = 0x7f090030
+.field public static final txtPageIndicator:I = 0x7f090031
 
 .field public static final xt9_core_version:I = 0x7f090008
 

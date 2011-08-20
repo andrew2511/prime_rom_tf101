@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 775
+    .line 794
     iput-object p1, p0, Lcom/android/settings/applications/InstalledAppDetails$2;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,7 +40,7 @@
     .parameter "intent"
 
     .prologue
-    .line 778
+    .line 797
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails$2;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails$2;->getResultCode()I
@@ -54,10 +54,10 @@
     :goto_0
     invoke-static {v0, v1}, Lcom/android/settings/applications/InstalledAppDetails;->access$1100(Lcom/android/settings/applications/InstalledAppDetails;Z)V
 
-    .line 779
+    .line 798
     return-void
 
-    .line 778
+    .line 797
     :cond_0
     const/4 v1, 0x0
 

@@ -1070,7 +1070,7 @@
 
     iget v4, v6, Lcom/nuance/xt9/input/KeyboardEx$Row;->mode:I
 
-    const v9, 0x7f09003d
+    const v9, 0x7f09003e
 
     if-eq v4, v9, :cond_1
 
@@ -1116,7 +1116,7 @@
     :cond_2
     iget v4, v6, Lcom/nuance/xt9/input/KeyboardEx$Row;->mode:I
 
-    const v9, 0x7f09003d
+    const v9, 0x7f09003e
 
     if-ne v4, v9, :cond_0
 
@@ -1142,7 +1142,7 @@
     .line 1061
     iget v4, v6, Lcom/nuance/xt9/input/KeyboardEx$Row;->mode:I
 
-    const v9, 0x7f09003d
+    const v9, 0x7f09003e
 
     if-ne v4, v9, :cond_5
 

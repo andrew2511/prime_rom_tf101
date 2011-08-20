@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 76
+    .line 82
     iput-object p1, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
@@ -39,17 +39,17 @@
     .parameter "msg"
 
     .prologue
-    .line 79
+    .line 85
     iget v0, p1, Landroid/os/Message;->what:I
 
     packed-switch v0, :pswitch_data_0
 
-    .line 94
+    .line 100
     :goto_0
     :pswitch_0
     return-void
 
-    .line 81
+    .line 87
     :pswitch_1
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
@@ -57,7 +57,7 @@
 
     goto :goto_0
 
-    .line 84
+    .line 90
     :pswitch_2
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
@@ -65,7 +65,7 @@
 
     goto :goto_0
 
-    .line 87
+    .line 93
     :pswitch_3
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
@@ -73,13 +73,13 @@
 
     goto :goto_0
 
-    .line 90
+    .line 96
     :pswitch_4
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
     invoke-static {v0}, Lcom/nuance/xt9/input/ChineseInputView;->access$300(Lcom/nuance/xt9/input/ChineseInputView;)Z
 
-    .line 91
+    .line 97
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$1;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
     const/4 v1, 0x1
@@ -90,7 +90,7 @@
 
     goto :goto_0
 
-    .line 79
+    .line 85
     nop
 
     :pswitch_data_0

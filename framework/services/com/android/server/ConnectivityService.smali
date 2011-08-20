@@ -403,7 +403,7 @@
 
     move-result-object v27
 
-    const v28, 0x104001f
+    const v28, 0x104001c
 
     invoke-virtual/range {v27 .. v28}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

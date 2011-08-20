@@ -98,7 +98,7 @@
 
     if-eqz v0, :cond_51
 
-    const v2, 0x10802cb
+    const v2, 0x10802c9
 
     :goto_29
     iget-object v3, p0, Lcom/android/internal/policy/impl/LockScreen$SlidingTabMethods;->this$0:Lcom/android/internal/policy/impl/LockScreen;
@@ -110,7 +110,7 @@
 
     if-eqz v3, :cond_59
 
-    const v3, 0x1080362
+    const v3, 0x1080360
 
     :goto_34
     iget-object v4, p0, Lcom/android/internal/policy/impl/LockScreen$SlidingTabMethods;->this$0:Lcom/android/internal/policy/impl/LockScreen;
@@ -122,7 +122,7 @@
 
     if-eqz v4, :cond_5d
 
-    const v4, 0x108034b
+    const v4, 0x1080349
 
     :goto_3f
     iget-object v5, p0, Lcom/android/internal/policy/impl/LockScreen$SlidingTabMethods;->this$0:Lcom/android/internal/policy/impl/LockScreen;
@@ -134,7 +134,7 @@
 
     if-eqz v5, :cond_61
 
-    const v5, 0x108035e
+    const v5, 0x108035c
 
     :goto_4a
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/android/internal/widget/SlidingTab;->setRightTabResources(IIII)V
@@ -154,27 +154,27 @@
     .line 152
     .restart local v0       #vibe:Z
     :cond_51
-    const v2, 0x10802c8
+    const v2, 0x10802c6
 
     goto :goto_29
 
     :cond_55
-    const v2, 0x10802c9
+    const v2, 0x10802c7
 
     goto :goto_29
 
     :cond_59
-    const v3, 0x108035f
+    const v3, 0x108035d
 
     goto :goto_34
 
     :cond_5d
-    const v4, 0x108034a
+    const v4, 0x1080348
 
     goto :goto_3f
 
     :cond_61
-    const v5, 0x108035d
+    const v5, 0x108035b
 
     goto :goto_4a
 .end method
@@ -222,7 +222,7 @@
 
     if-eqz v1, :cond_2e
 
-    const v1, 0x10402ce
+    const v1, 0x10402cb
 
     :goto_1f
     invoke-virtual {v0, v1}, Lcom/android/internal/widget/SlidingTab;->setRightHintText(I)V
@@ -247,7 +247,7 @@
 
     .line 205
     :cond_2e
-    const v1, 0x10402cf
+    const v1, 0x10402cc
 
     goto :goto_1f
 .end method
@@ -373,7 +373,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040124
+    const v5, 0x1040121
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -393,7 +393,7 @@
 
     if-eqz v4, :cond_ba
 
-    const v4, 0x10802cf
+    const v4, 0x10802cd
 
     move v2, v4
 
@@ -498,7 +498,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040125
+    const v5, 0x1040122
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -511,7 +511,7 @@
     .line 189
     .restart local v0       #message:Ljava/lang/String;
     :cond_ba
-    const v4, 0x10802d0
+    const v4, 0x10802ce
 
     move v2, v4
 

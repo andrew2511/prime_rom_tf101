@@ -4,13 +4,13 @@
 
 
 # static fields
-.field public static final KEYBOARDMODE_EMAIL:I = 0x7f09003b
+.field public static final KEYBOARDMODE_EMAIL:I = 0x7f09003c
 
-.field public static final KEYBOARDMODE_IM:I = 0x7f09003c
+.field public static final KEYBOARDMODE_IM:I = 0x7f09003d
 
-.field public static final KEYBOARDMODE_NORMAL:I = 0x7f090039
+.field public static final KEYBOARDMODE_NORMAL:I = 0x7f09003a
 
-.field public static final KEYBOARDMODE_URL:I = 0x7f09003a
+.field public static final KEYBOARDMODE_URL:I = 0x7f09003b
 
 .field public static final MODE_EMAIL:I = 0x5
 
@@ -186,7 +186,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 183
-    const v2, 0x7f090039
+    const v2, 0x7f09003a
 
     .line 187
     .local v2, keyboardModeId:I
@@ -256,7 +256,7 @@
     .end local v1           #keyboardLayoutName:Ljava/lang/String;
     .end local v2           #keyboardModeId:I
     :pswitch_0
-    const v2, 0x7f09003a
+    const v2, 0x7f09003b
 
     .line 174
     .restart local v2       #keyboardModeId:I
@@ -265,7 +265,7 @@
     .line 176
     .end local v2           #keyboardModeId:I
     :pswitch_1
-    const v2, 0x7f09003c
+    const v2, 0x7f09003d
 
     .line 177
     .restart local v2       #keyboardModeId:I
@@ -274,7 +274,7 @@
     .line 179
     .end local v2           #keyboardModeId:I
     :pswitch_2
-    const v2, 0x7f09003b
+    const v2, 0x7f09003c
 
     .line 180
     .restart local v2       #keyboardModeId:I
@@ -1148,7 +1148,7 @@
     .parameter "state"
 
     .prologue
-    const v6, 0x7f090039
+    const v6, 0x7f09003a
 
     const/4 v7, 0x0
 

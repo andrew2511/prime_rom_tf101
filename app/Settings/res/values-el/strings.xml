@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">Δεν είναι δυνατή η διαμόρφωση μίας σύνδεσης WAPI CERT WLAN κατά την εγκατάσταση. Μετά από την εγκατάσταση, μπορείτε να την πραγματοποιήσετε στις Ρυθμίσεις, στο <b>Ασύρματα &amp; δίκτυα</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">Το WAPI CERT δεν υποστηρίζεται</string>
     <string name="wifi_wapi_network_open">Άνοιγμα</string>
+    <string name="asus_wifi_setup_description_connected">"Πατήστε Επόμενο για να συνεχίσετε με τη ρύθμιση.
+
+Πατήστε Πίσω σε διαφορετικό δίκτυο Wi-Fi."</string>
     <string name="yes">Ναι</string>
     <string name="no">Όχι</string>
     <string name="device_info_default">Άγνωστο</string>
@@ -1306,7 +1309,4 @@
     <string name="select_all">Επιλογή όλων</string>
     <string name="hdcp_checking_title">Έλεγχος HDCP</string>
     <string name="hdcp_checking_dialog_title">Ρύθμιση συμπεριφοράς ελέγχου HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"Πατήστε Επόμενο για να συνεχίσετε με τη ρύθμιση.
-
-Πατήστε Πίσω σε διαφορετικό δίκτυο Wi-Fi."</string>
 </resources>

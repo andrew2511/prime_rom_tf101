@@ -72,7 +72,7 @@
 
     .line 48
     .local v0, enabled:Z
-    const v3, 0x7f0804de
+    const v3, 0x7f0804ea
 
     invoke-virtual {p0, v1, v3}, Lcom/android/settings/vpn/PptpEditor;->setCheckBoxTitle(Landroid/preference/CheckBoxPreference;I)V
 
@@ -108,7 +108,7 @@
     .local v0, c:Landroid/content/Context;
     if-eqz p2, :cond_0
 
-    const v2, 0x7f0804ee
+    const v2, 0x7f0804fa
 
     :goto_0
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -123,7 +123,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0804df
+    const v4, 0x7f0804eb
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
     .line 67
     .end local v1           #formatString:Ljava/lang/String;
     :cond_0
-    const v2, 0x7f0804ef
+    const v2, 0x7f0804fb
 
     goto :goto_0
 .end method

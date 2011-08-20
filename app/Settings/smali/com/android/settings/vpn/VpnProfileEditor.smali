@@ -66,9 +66,9 @@
 
     .prologue
     .line 119
-    const v2, 0x7f0804e3
+    const v2, 0x7f0804ef
 
-    const v3, 0x7f0804e4
+    const v3, 0x7f0804f0
 
     iget-object v0, p0, Lcom/android/settings/vpn/VpnProfileEditor;->mProfile:Landroid/net/vpn/VpnProfile;
 
@@ -132,7 +132,7 @@
     .line 187
     iget-object v0, p0, Lcom/android/settings/vpn/VpnProfileEditor;->mName:Landroid/preference/EditTextPreference;
 
-    const v1, 0x7f0804d1
+    const v1, 0x7f0804dd
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/android/settings/vpn/VpnProfileEditor;->setSummary(Landroid/preference/Preference;ILjava/lang/String;)V
 
@@ -158,9 +158,9 @@
 
     .prologue
     .line 101
-    const v2, 0x7f0804e7
+    const v2, 0x7f0804f3
 
-    const v3, 0x7f0804e8
+    const v3, 0x7f0804f4
 
     iget-object v0, p0, Lcom/android/settings/vpn/VpnProfileEditor;->mProfile:Landroid/net/vpn/VpnProfile;
 
@@ -341,7 +341,7 @@
 
     .line 179
     .local v0, c:Landroid/content/Context;
-    const v2, 0x7f0804ec
+    const v2, 0x7f0804f8
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -404,7 +404,7 @@
     .local v0, c:Landroid/content/Context;
     if-eqz p4, :cond_0
 
-    const v2, 0x7f0804ea
+    const v2, 0x7f0804f6
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -446,7 +446,7 @@
     .line 169
     .end local v1           #formatString:Ljava/lang/String;
     :cond_0
-    const v2, 0x7f0804eb
+    const v2, 0x7f0804f7
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -471,7 +471,7 @@
     .line 91
     iget-object v1, p0, Lcom/android/settings/vpn/VpnProfileEditor;->mName:Landroid/preference/EditTextPreference;
 
-    const v2, 0x7f0804d2
+    const v2, 0x7f0804de
 
     invoke-virtual {p0, v1, v2}, Lcom/android/settings/vpn/VpnProfileEditor;->validate(Landroid/preference/Preference;I)Ljava/lang/String;
 
@@ -489,7 +489,7 @@
     :cond_0
     iget-object v1, p0, Lcom/android/settings/vpn/VpnProfileEditor;->mServerName:Landroid/preference/EditTextPreference;
 
-    const v2, 0x7f0804e5
+    const v2, 0x7f0804f1
 
     invoke-virtual {p0, v1, v2}, Lcom/android/settings/vpn/VpnProfileEditor;->validate(Landroid/preference/Preference;I)Ljava/lang/String;
 
@@ -534,7 +534,7 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f0804b8
+    const v4, 0x7f0804c4
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -591,7 +591,7 @@
     .line 154
     .restart local v3       #value:Ljava/lang/String;
     :cond_1
-    const v4, 0x7f0804b9
+    const v4, 0x7f0804c5
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

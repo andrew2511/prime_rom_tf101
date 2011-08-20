@@ -4366,7 +4366,7 @@
 
     .line 1735
     .local v1, details:Ljava/lang/CharSequence;
-    const v6, 0x10400db
+    const v6, 0x10400d8
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4462,7 +4462,7 @@
     const/16 v3, 0x378
 
     .line 1741
-    const v6, 0x10400dc
+    const v6, 0x10400d9
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4480,7 +4480,7 @@
 
     .line 1747
     :pswitch_a8
-    const v6, 0x10400df
+    const v6, 0x10400dc
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4491,7 +4491,7 @@
 
     .line 1750
     :pswitch_b0
-    const v6, 0x10400de
+    const v6, 0x10400db
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4502,7 +4502,7 @@
 
     .line 1753
     :pswitch_b8
-    const v6, 0x10400dd
+    const v6, 0x10400da
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -8408,7 +8408,7 @@
 
     move-result-object v6
 
-    const v7, 0x10402b8
+    const v7, 0x10402b5
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

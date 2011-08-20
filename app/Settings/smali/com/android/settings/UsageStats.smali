@@ -141,7 +141,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/UsageStats;->setContentView(I)V
 
     .line 230
-    const v0, 0x7f0f00f5
+    const v0, 0x7f0f00f7
 
     invoke-virtual {p0, v0}, Lcom/android/settings/UsageStats;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
     invoke-virtual {v0, p0}, Landroid/widget/Spinner;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     .line 233
-    const v0, 0x7f0f00f6
+    const v0, 0x7f0f00f8
 
     invoke-virtual {p0, v0}, Lcom/android/settings/UsageStats;->findViewById(I)Landroid/view/View;
 

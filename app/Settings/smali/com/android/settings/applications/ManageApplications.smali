@@ -385,7 +385,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080364
+    const v3, 0x7f08036e
 
     const/4 v4, 0x0
 
@@ -684,7 +684,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08039b
+    const v1, 0x7f0803a7
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -697,7 +697,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08039a
+    const v1, 0x7f0803a6
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -827,7 +827,7 @@
     .line 675
     const/4 v0, 0x4
 
-    const v1, 0x7f08037e
+    const v1, 0x7f08038a
 
     invoke-interface {p1, v4, v0, v3, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -840,7 +840,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f08037f
+    const v2, 0x7f08038b
 
     invoke-interface {p1, v4, v0, v1, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -851,7 +851,7 @@
     .line 681
     const/4 v0, 0x6
 
-    const v1, 0x7f080380
+    const v1, 0x7f08038c
 
     invoke-interface {p1, v4, v0, v5, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -862,7 +862,7 @@
     .line 683
     const/4 v0, 0x7
 
-    const v1, 0x7f080381
+    const v1, 0x7f08038d
 
     invoke-interface {p1, v4, v0, v5, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -905,7 +905,7 @@
     .line 562
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mRootView:Landroid/view/View;
 
-    const v5, 0x7f0f007c
+    const v5, 0x7f0f007e
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -916,7 +916,7 @@
     .line 563
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mRootView:Landroid/view/View;
 
-    const v5, 0x7f0f0076
+    const v5, 0x7f0f0078
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -986,7 +986,7 @@
     .line 578
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mListContainer:Landroid/view/View;
 
-    const v5, 0x7f0f0077
+    const v5, 0x7f0f0079
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -999,7 +999,7 @@
     .line 579
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mListContainer:Landroid/view/View;
 
-    const v5, 0x7f0f0079
+    const v5, 0x7f0f007b
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1012,7 +1012,7 @@
     .line 580
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mListContainer:Landroid/view/View;
 
-    const v5, 0x7f0f0078
+    const v5, 0x7f0f007a
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1025,7 +1025,7 @@
     .line 581
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mListContainer:Landroid/view/View;
 
-    const v5, 0x7f0f007a
+    const v5, 0x7f0f007c
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1038,7 +1038,7 @@
     .line 582
     iget-object v4, p0, Lcom/android/settings/applications/ManageApplications;->mRootView:Landroid/view/View;
 
-    const v5, 0x7f0f007b
+    const v5, 0x7f0f007d
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1097,7 +1097,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080386
+    const v6, 0x7f080392
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1138,7 +1138,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080385
+    const v6, 0x7f080391
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1186,7 +1186,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080388
+    const v6, 0x7f080394
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1228,7 +1228,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080387
+    const v6, 0x7f080393
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1939,7 +1939,7 @@
 
     move-result-object v16
 
-    const v17, 0x7f08038c
+    const v17, 0x7f080398
 
     invoke-virtual/range {v16 .. v17}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -2166,7 +2166,7 @@
 
     move-result-object v17
 
-    const v18, 0x7f0803b7
+    const v18, 0x7f0803c3
 
     const/16 v19, 0x1
 
@@ -2235,7 +2235,7 @@
 
     move-result-object v17
 
-    const v18, 0x7f0803b6
+    const v18, 0x7f0803c2
 
     const/16 v19, 0x1
 
@@ -2284,7 +2284,7 @@
 
     move-result-object v16
 
-    const v17, 0x7f08038b
+    const v17, 0x7f080397
 
     invoke-virtual/range {v16 .. v17}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

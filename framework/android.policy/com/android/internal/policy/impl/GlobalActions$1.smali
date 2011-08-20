@@ -165,7 +165,7 @@
 
     if-ne v0, v2, :cond_19
 
-    const v0, 0x10802d1
+    const v0, 0x10802cf
 
     :goto_16
     iput v0, p0, Lcom/android/internal/policy/impl/GlobalActions$1;->mEnabledIconResId:I

@@ -3,6 +3,14 @@
 .source "BPMFSpellBuffer.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+    }
+.end annotation
+
+
 # static fields
 .field public static final BPMF_NORMAL_MODE:I = 0x0
 
@@ -13,6 +21,8 @@
 
 # instance fields
 .field private mBPMFString:Ljava/lang/String;
+
+.field private mListener:Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
 
 .field private mSlectionMode:I
 
@@ -31,29 +41,29 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 17
+    .line 24
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 11
+    .line 16
     const-string v0, ""
 
     iput-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
-    .line 12
+    .line 17
     iput-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
 
-    .line 13
+    .line 18
     iput-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInterSection:Ljava/lang/CharSequence;
 
-    .line 14
+    .line 19
     iput-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextFinalSection:Ljava/lang/CharSequence;
 
-    .line 15
+    .line 20
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 18
+    .line 25
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -66,7 +76,7 @@
 
     iput-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
 
-    .line 19
+    .line 26
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -79,7 +89,7 @@
 
     iput-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInterSection:Ljava/lang/CharSequence;
 
-    .line 20
+    .line 27
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -92,7 +102,7 @@
 
     iput-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextFinalSection:Ljava/lang/CharSequence;
 
-    .line 21
+    .line 28
     return-void
 .end method
 
@@ -101,7 +111,7 @@
     .parameter "bpmfseq"
 
     .prologue
-    .line 254
+    .line 276
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -112,7 +122,7 @@
 
     if-ge v0, v2, :cond_2
 
-    .line 255
+    .line 277
     const/4 v1, 0x0
 
     .local v1, j:I
@@ -125,7 +135,7 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 256
+    .line 278
     invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
@@ -140,6 +150,76 @@
 
     move v2, v1
 
+    .line 283
+    .end local v1           #j:I
+    :goto_2
+    return v2
+
+    .line 277
+    .restart local v1       #j:I
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_1
+
+    .line 276
+    :cond_1
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    .line 283
+    .end local v1           #j:I
+    :cond_2
+    const/4 v2, -0x1
+
+    goto :goto_2
+.end method
+
+.method private hasInitSection(Ljava/lang/CharSequence;)I
+    .locals 4
+    .parameter "bpmfseq"
+
+    .prologue
+    .line 254
+    const/4 v0, 0x0
+
+    .local v0, i:I
+    :goto_0
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    move-result v2
+
+    if-ge v0, v2, :cond_2
+
+    .line 255
+    const/4 v1, 0x0
+
+    .local v1, j:I
+    :goto_1
+    iget-object v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
+
+    invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
+
+    move-result v2
+
+    if-ge v1, v2, :cond_1
+
+    .line 256
+    invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
+
+    move-result v2
+
+    iget-object v3, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
+
+    invoke-interface {v3, v1}, Ljava/lang/CharSequence;->charAt(I)C
+
+    move-result v3
+
+    if-ne v2, v3, :cond_0
+
+    move v2, v1
+
     .line 261
     .end local v1           #j:I
     :goto_2
@@ -166,82 +246,12 @@
     goto :goto_2
 .end method
 
-.method private hasInitSection(Ljava/lang/CharSequence;)I
-    .locals 4
-    .parameter "bpmfseq"
-
-    .prologue
-    .line 232
-    const/4 v0, 0x0
-
-    .local v0, i:I
-    :goto_0
-    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
-
-    move-result v2
-
-    if-ge v0, v2, :cond_2
-
-    .line 233
-    const/4 v1, 0x0
-
-    .local v1, j:I
-    :goto_1
-    iget-object v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
-
-    invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
-
-    move-result v2
-
-    if-ge v1, v2, :cond_1
-
-    .line 234
-    invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
-
-    move-result v2
-
-    iget-object v3, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
-
-    invoke-interface {v3, v1}, Ljava/lang/CharSequence;->charAt(I)C
-
-    move-result v3
-
-    if-ne v2, v3, :cond_0
-
-    move v2, v1
-
-    .line 239
-    .end local v1           #j:I
-    :goto_2
-    return v2
-
-    .line 233
-    .restart local v1       #j:I
-    :cond_0
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_1
-
-    .line 232
-    :cond_1
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_0
-
-    .line 239
-    .end local v1           #j:I
-    :cond_2
-    const/4 v2, -0x1
-
-    goto :goto_2
-.end method
-
 .method private hasInterSection(Ljava/lang/CharSequence;)I
     .locals 4
     .parameter "bpmfseq"
 
     .prologue
-    .line 243
+    .line 265
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -252,7 +262,7 @@
 
     if-ge v0, v2, :cond_2
 
-    .line 244
+    .line 266
     const/4 v1, 0x0
 
     .local v1, j:I
@@ -265,7 +275,7 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 245
+    .line 267
     invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
@@ -280,25 +290,25 @@
 
     move v2, v1
 
-    .line 250
+    .line 272
     .end local v1           #j:I
     :goto_2
     return v2
 
-    .line 244
+    .line 266
     .restart local v1       #j:I
     :cond_0
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 243
+    .line 265
     :cond_1
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 250
+    .line 272
     .end local v1           #j:I
     :cond_2
     const/4 v2, -0x1
@@ -311,7 +321,7 @@
     .parameter "bpmfchar"
 
     .prologue
-    .line 223
+    .line 245
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -324,7 +334,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 224
+    .line 246
     iget-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextFinalSection:Ljava/lang/CharSequence;
 
     invoke-interface {v1, v0}, Ljava/lang/CharSequence;->charAt(I)C
@@ -333,20 +343,20 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 225
+    .line 247
     const/4 v1, 0x1
 
-    .line 228
+    .line 250
     :goto_1
     return v1
 
-    .line 223
+    .line 245
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 228
+    .line 250
     :cond_1
     const/4 v1, 0x0
 
@@ -358,7 +368,7 @@
     .parameter "bpmfchar"
 
     .prologue
-    .line 205
+    .line 227
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -371,7 +381,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 206
+    .line 228
     iget-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
 
     invoke-interface {v1, v0}, Ljava/lang/CharSequence;->charAt(I)C
@@ -380,20 +390,20 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 207
+    .line 229
     const/4 v1, 0x1
 
-    .line 210
+    .line 232
     :goto_1
     return v1
 
-    .line 205
+    .line 227
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 210
+    .line 232
     :cond_1
     const/4 v1, 0x0
 
@@ -405,7 +415,7 @@
     .parameter "bpmfchar"
 
     .prologue
-    .line 214
+    .line 236
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -418,7 +428,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 215
+    .line 237
     iget-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInterSection:Ljava/lang/CharSequence;
 
     invoke-interface {v1, v0}, Ljava/lang/CharSequence;->charAt(I)C
@@ -427,20 +437,20 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 216
+    .line 238
     const/4 v1, 0x1
 
-    .line 219
+    .line 241
     :goto_1
     return v1
 
-    .line 214
+    .line 236
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 219
+    .line 241
     :cond_1
     const/4 v1, 0x0
 
@@ -456,10 +466,10 @@
     .prologue
     const/4 v6, -0x1
 
-    .line 24
+    .line 31
     const/4 v1, -0x1
 
-    .line 25
+    .line 32
     .local v1, location:I
     invoke-direct {p0, p1}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->isInitSection(C)Z
 
@@ -467,7 +477,7 @@
 
     if-eqz v5, :cond_2
 
-    .line 26
+    .line 33
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     invoke-direct {p0, v5}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->hasInitSection(Ljava/lang/CharSequence;)I
@@ -476,14 +486,14 @@
 
     if-eq v1, v6, :cond_1
 
-    .line 28
+    .line 35
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInitialSection:Ljava/lang/CharSequence;
 
     invoke-interface {v5, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v4
 
-    .line 29
+    .line 36
     .local v4, old:C
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
@@ -493,13 +503,13 @@
 
     iput-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
-    .line 57
+    .line 64
     .end local v4           #old:C
     :cond_0
     :goto_0
     return-void
 
-    .line 31
+    .line 38
     :cond_1
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -523,7 +533,7 @@
 
     goto :goto_0
 
-    .line 33
+    .line 40
     :cond_2
     invoke-direct {p0, p1}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->isInterSection(C)Z
 
@@ -531,7 +541,7 @@
 
     if-eqz v5, :cond_6
 
-    .line 34
+    .line 41
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     invoke-direct {p0, v5}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->hasInterSection(Ljava/lang/CharSequence;)I
@@ -540,7 +550,7 @@
 
     if-eq v1, v6, :cond_3
 
-    .line 35
+    .line 42
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     iget-object v6, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextInterSection:Ljava/lang/CharSequence;
@@ -557,7 +567,7 @@
 
     goto :goto_0
 
-    .line 37
+    .line 44
     :cond_3
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
@@ -565,7 +575,7 @@
 
     move-result v2
 
-    .line 38
+    .line 45
     .local v2, locationA:I
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
@@ -573,13 +583,13 @@
 
     move-result v3
 
-    .line 39
+    .line 46
     .local v3, locationC:I
     if-eq v2, v6, :cond_4
 
     if-eq v3, v6, :cond_4
 
-    .line 40
+    .line 47
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -632,13 +642,13 @@
 
     goto :goto_0
 
-    .line 43
+    .line 50
     :cond_4
     if-eq v2, v6, :cond_5
 
     if-ne v3, v6, :cond_5
 
-    .line 44
+    .line 51
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -661,7 +671,7 @@
 
     goto/16 :goto_0
 
-    .line 46
+    .line 53
     :cond_5
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -685,7 +695,7 @@
 
     goto/16 :goto_0
 
-    .line 49
+    .line 56
     .end local v2           #locationA:I
     .end local v3           #locationC:I
     :cond_6
@@ -695,7 +705,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 50
+    .line 57
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     invoke-direct {p0, v5}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->hasFinalSection(Ljava/lang/CharSequence;)I
@@ -704,14 +714,14 @@
 
     if-eq v1, v6, :cond_7
 
-    .line 51
+    .line 58
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mTextFinalSection:Ljava/lang/CharSequence;
 
     invoke-interface {v5, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v0
 
-    .line 52
+    .line 59
     .local v0, ch:C
     iget-object v5, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
@@ -723,7 +733,7 @@
 
     goto/16 :goto_0
 
-    .line 54
+    .line 61
     .end local v0           #ch:C
     :cond_7
     new-instance v5, Ljava/lang/StringBuilder;
@@ -753,12 +763,23 @@
     .locals 1
 
     .prologue
-    .line 75
+    .line 82
     const-string v0, ""
 
     iput-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
-    .line 76
+    .line 84
+    iget-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mListener:Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+
+    if-eqz v0, :cond_0
+
+    .line 85
+    iget-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mListener:Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+
+    invoke-interface {v0}, Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;->onSpellBufferCleared()V
+
+    .line 87
+    :cond_0
     return-void
 .end method
 
@@ -766,7 +787,7 @@
     .locals 1
 
     .prologue
-    .line 60
+    .line 67
     iget-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     return-object v0
@@ -776,7 +797,7 @@
     .locals 1
 
     .prologue
-    .line 84
+    .line 95
     iget-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -786,11 +807,21 @@
     return v0
 .end method
 
+.method public getOnSpellBufferClearedListener()Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+    .locals 1
+
+    .prologue
+    .line 223
+    iget-object v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mListener:Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+
+    return-object v0
+.end method
+
 .method public getSelectionMode()I
     .locals 1
 
     .prologue
-    .line 201
+    .line 215
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     return v0
@@ -803,34 +834,34 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 171
+    .line 185
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     if-ne v0, v1, :cond_0
 
-    .line 172
+    .line 186
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 173
+    .line 187
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 174
+    .line 188
     invoke-virtual {p1}, Lcom/nuance/xt9/input/ChineseInput;->clearAllKeys()Z
 
-    .line 179
+    .line 193
     :goto_0
     return v1
 
-    .line 176
+    .line 190
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->removeLastBMPFString()V
 
     goto :goto_0
 .end method
 
-.method public handleDPadUpDownKey(ILcom/nuance/xt9/input/CandidatesListView;Lcom/nuance/xt9/input/ChineseInputView;)Z
+.method public handleDPadDownKey(ILcom/nuance/xt9/input/CandidatesListView;Lcom/nuance/xt9/input/ChineseInputView;)Z
     .locals 3
     .parameter "keyCode"
     .parameter "currCandidate"
@@ -839,7 +870,7 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 140
+    .line 159
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     if-eq v0, v2, :cond_0
@@ -848,39 +879,55 @@
 
     const/4 v1, 0x2
 
-    if-ne v0, v1, :cond_2
+    if-ne v0, v1, :cond_1
 
-    .line 141
+    .line 160
     :cond_0
-    const/16 v0, 0x13
-
-    if-ne p1, v0, :cond_1
-
-    .line 142
-    invoke-virtual {p2}, Lcom/nuance/xt9/input/CandidatesListView;->turnToPreviousPageCycle()V
-
-    move v0, v2
-
-    .line 149
-    :goto_0
-    return v0
-
-    .line 144
-    :cond_1
-    const/16 v0, 0x14
-
-    if-ne p1, v0, :cond_2
-
-    .line 145
     invoke-virtual {p2}, Lcom/nuance/xt9/input/CandidatesListView;->turnToNextPageCycle()V
 
     move v0, v2
 
-    .line 146
-    goto :goto_0
+    .line 163
+    :goto_0
+    return v0
 
-    .line 149
-    :cond_2
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public handleDPadUpKey(ILcom/nuance/xt9/input/CandidatesListView;Lcom/nuance/xt9/input/ChineseInputView;)Z
+    .locals 3
+    .parameter "keyCode"
+    .parameter "currCandidate"
+    .parameter "inputView"
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 151
+    iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
+
+    if-eq v0, v2, :cond_0
+
+    iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
+
+    const/4 v1, 0x2
+
+    if-ne v0, v1, :cond_1
+
+    .line 152
+    :cond_0
+    invoke-virtual {p2}, Lcom/nuance/xt9/input/CandidatesListView;->turnToPreviousPageCycle()V
+
+    move v0, v2
+
+    .line 155
+    :goto_0
+    return v0
+
+    :cond_1
     const/4 v0, 0x0
 
     goto :goto_0
@@ -896,7 +943,7 @@
 
     const/4 v1, 0x1
 
-    .line 127
+    .line 138
     invoke-virtual {p1}, Lcom/nuance/xt9/input/CandidatesListView;->isEnableHighlight()Z
 
     move-result v0
@@ -909,7 +956,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 128
+    .line 139
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     if-eq v0, v1, :cond_0
@@ -918,22 +965,22 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 129
+    .line 140
     :cond_0
     iput v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 130
+    .line 141
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 131
+    .line 142
     invoke-virtual {p1}, Lcom/nuance/xt9/input/CandidatesListView;->selectActiveWord()V
 
-    .line 132
+    .line 143
     invoke-virtual {p2}, Lcom/nuance/xt9/input/ChineseInput;->clearAllKeys()Z
 
     move v0, v1
 
-    .line 136
+    .line 147
     :goto_0
     return v0
 
@@ -958,7 +1005,7 @@
 
     const/4 v3, 0x1
 
-    .line 100
+    .line 111
     iget v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     if-ne v2, v3, :cond_0
@@ -971,11 +1018,11 @@
 
     move v2, v3
 
-    .line 123
+    .line 134
     :goto_0
     return v2
 
-    .line 102
+    .line 113
     :cond_0
     iget v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
@@ -991,11 +1038,11 @@
 
     if-eqz v2, :cond_5
 
-    .line 106
+    .line 117
     :cond_1
     sub-int v0, p1, v5
 
-    .line 107
+    .line 118
     .local v0, index:I
     if-lt p1, v5, :cond_4
 
@@ -1009,12 +1056,12 @@
 
     if-ge v0, v2, :cond_4
 
-    .line 110
+    .line 121
     invoke-virtual {p3, v0}, Lcom/nuance/xt9/input/CandidatesListView;->getNumericIndexWord(I)I
 
     move-result v1
 
-    .line 111
+    .line 122
     .local v1, numericIndex:I
     const/4 v2, -0x1
 
@@ -1035,29 +1082,29 @@
 
     if-eqz v2, :cond_4
 
-    .line 115
+    .line 126
     :cond_3
     iput v4, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 116
+    .line 127
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 117
+    .line 128
     const/4 v2, 0x0
 
     invoke-virtual {p4, v1, v2, p3}, Lcom/nuance/xt9/input/ChineseInputView;->handleSelectWord(ILjava/lang/CharSequence;Landroid/view/View;)V
 
-    .line 118
+    .line 129
     invoke-virtual {p5}, Lcom/nuance/xt9/input/ChineseInput;->clearAllKeys()Z
 
     .end local v1           #numericIndex:I
     :cond_4
     move v2, v3
 
-    .line 121
+    .line 132
     goto :goto_0
 
-    .line 123
+    .line 134
     .end local v0           #index:I
     :cond_5
     const/4 v2, 0x0
@@ -1073,26 +1120,26 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 161
+    .line 175
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     const/4 v1, 0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 162
+    .line 176
     iput v2, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 163
+    .line 177
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 164
+    .line 178
     invoke-virtual {p1}, Lcom/nuance/xt9/input/CandidatesListView;->selectActiveWord()V
 
-    .line 165
+    .line 179
     invoke-virtual {p2}, Lcom/nuance/xt9/input/ChineseInput;->clearAllKeys()Z
 
-    .line 167
+    .line 181
     :cond_0
     return v2
 .end method
@@ -1101,12 +1148,12 @@
     .locals 1
 
     .prologue
-    .line 196
+    .line 210
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 197
+    .line 211
     const/4 v0, 0x1
 
     return v0
@@ -1120,7 +1167,7 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 153
+    .line 167
     iget v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
     if-eq v0, v2, :cond_0
@@ -1131,13 +1178,13 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 154
+    .line 168
     :cond_0
     invoke-virtual {p1}, Lcom/nuance/xt9/input/CandidatesListView;->turnToNextPageCycle()V
 
     move v0, v2
 
-    .line 157
+    .line 171
     :goto_0
     return v0
 
@@ -1156,16 +1203,16 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 183
+    .line 197
     const/4 v3, 0x1
 
-    .line 184
+    .line 198
     .local v3, success:Z
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->getBMPFStringLength()I
 
     move-result v2
 
-    .line 185
+    .line 199
     .local v2, length:I
     const/4 v1, 0x0
 
@@ -1173,7 +1220,7 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 186
+    .line 200
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->getBMPFString()Ljava/lang/String;
 
     move-result-object v4
@@ -1182,7 +1229,7 @@
 
     move-result v0
 
-    .line 187
+    .line 201
     .local v0, chr:C
     invoke-static {v0}, Ljava/lang/Character;->toLowerCase(C)C
 
@@ -1194,12 +1241,12 @@
 
     and-int/2addr v3, v4
 
-    .line 185
+    .line 199
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 189
+    .line 203
     .end local v0           #chr:C
     :cond_0
     invoke-virtual {p2, p1}, Lcom/nuance/xt9/input/ChineseInput;->addTone(I)Z
@@ -1208,7 +1255,7 @@
 
     and-int/2addr v3, v4
 
-    .line 190
+    .line 204
     if-eqz v3, :cond_1
 
     const/4 v4, 0x1
@@ -1216,13 +1263,13 @@
     :goto_1
     iput v4, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 192
+    .line 206
     return v3
 
     :cond_1
     move v4, v5
 
-    .line 190
+    .line 204
     goto :goto_1
 .end method
 
@@ -1234,23 +1281,23 @@
     .parameter "chineseInput"
 
     .prologue
-    .line 90
+    .line 101
     const/4 v0, 0x2
 
     iput v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 91
+    .line 102
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 92
+    .line 103
     const/4 v0, 0x0
 
     invoke-virtual {p3, p1, v0, p2}, Lcom/nuance/xt9/input/ChineseInputView;->handleSelectWord(ILjava/lang/CharSequence;Landroid/view/View;)V
 
-    .line 93
+    .line 104
     invoke-virtual {p4}, Lcom/nuance/xt9/input/ChineseInput;->clearAllKeys()Z
 
-    .line 94
+    .line 105
     return-void
 .end method
 
@@ -1258,18 +1305,18 @@
     .locals 4
 
     .prologue
-    .line 68
+    .line 75
     iget-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 69
+    .line 76
     .local v0, length:I
     if-lez v0, :cond_0
 
-    .line 70
+    .line 77
     iget-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -1284,7 +1331,7 @@
 
     iput-object v1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
-    .line 72
+    .line 79
     :cond_0
     return-void
 .end method
@@ -1293,15 +1340,15 @@
     .locals 1
 
     .prologue
-    .line 79
+    .line 90
     invoke-virtual {p0}, Lcom/nuance/xt9/input/BPMFSpellBuffer;->clearBuffer()V
 
-    .line 80
+    .line 91
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mSlectionMode:I
 
-    .line 81
+    .line 92
     return-void
 .end method
 
@@ -1310,9 +1357,21 @@
     .parameter "bpmfstr"
 
     .prologue
-    .line 64
+    .line 71
     iput-object p1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mBPMFString:Ljava/lang/String;
 
-    .line 65
+    .line 72
+    return-void
+.end method
+
+.method public setOnSpellBufferClearedListener(Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;)V
+    .locals 0
+    .parameter "listener"
+
+    .prologue
+    .line 219
+    iput-object p1, p0, Lcom/nuance/xt9/input/BPMFSpellBuffer;->mListener:Lcom/nuance/xt9/input/BPMFSpellBuffer$OnSpellBufferClearedListener;
+
+    .line 220
     return-void
 .end method

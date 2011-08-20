@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">セットアップ中はWLAN CERT Wi-Fi 接続の設定はできません。セットアップ終了後、<b>無線とネットワーク</b>の設定で設定することができます。</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERTはサポート対象外</string>
     <string name="wifi_wapi_network_open">オープン</string>
+    <string name="asus_wifi_setup_description_connected">"「次へ」をタッチし、セットアップを続行します。
+
+「戻る」をタッチし、他のWi-Fi ネットワークに接続します。"</string>
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="device_info_default">不明</string>
@@ -1313,7 +1316,4 @@ Androidマーケットから携帯端末用のスクリーンリーダーをダ�
     <string name="select_all">すべて選択</string>
     <string name="hdcp_checking_title">HDCPチェック</string>
     <string name="hdcp_checking_dialog_title">HDCPチェック動作を設定</string>
-    <string name="asus_wifi_setup_description_connected">"「次へ」をタッチし、セットアップを続行します。
-
-「戻る」をタッチし、他のWi-Fi ネットワークに接続します。"</string>
 </resources>

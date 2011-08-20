@@ -119,7 +119,7 @@
     if-nez v2, :cond_31
 
     .line 75
-    const v2, 0x108020e
+    const v2, 0x108020c
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -143,7 +143,7 @@
     if-nez v2, :cond_45
 
     .line 80
-    const v2, 0x108020f
+    const v2, 0x108020d
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -167,7 +167,7 @@
     if-nez v2, :cond_59
 
     .line 85
-    const v2, 0x1080210
+    const v2, 0x108020e
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

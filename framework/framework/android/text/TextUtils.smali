@@ -1383,7 +1383,7 @@
 
     .line 998
     .local v1, r:Landroid/content/res/Resources;
-    const v2, 0x10400b8
+    const v2, 0x10400b5
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

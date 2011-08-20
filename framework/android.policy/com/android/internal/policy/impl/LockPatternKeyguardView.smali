@@ -950,7 +950,7 @@
     .local v2, timeoutInSeconds:I
     iget-object v3, p0, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->mContext:Landroid/content/Context;
 
-    const v4, 0x10402c1
+    const v4, 0x10402be
 
     const/4 v5, 0x3
 
@@ -1067,7 +1067,7 @@
 
     .line 718
     .local v3, timeoutInSeconds:I
-    const v2, 0x10402be
+    const v2, 0x10402bb
 
     .line 719
     .local v2, messageId:I
@@ -1091,7 +1091,7 @@
     if-ne v4, v5, :cond_76
 
     .line 722
-    const v2, 0x10402c0
+    const v2, 0x10402bd
 
     .line 727
     :cond_1c
@@ -1197,7 +1197,7 @@
     .end local v0           #dialog:Landroid/app/AlertDialog;
     .end local v1           #message:Ljava/lang/String;
     :cond_76
-    const v2, 0x10402bf
+    const v2, 0x10402bc
 
     goto :goto_1c
 .end method

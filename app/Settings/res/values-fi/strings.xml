@@ -27,6 +27,9 @@ Tarkista sertifikaattien kelvollisuus"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Et voi määrittää WAPI CERT WLAN -yhteyttä asetuksen aikana. Voit tehdä sen asetuksen jälkeen Asetukset-kohdan valinnoilla <b>Langaton &amp; verkot</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT ei tuettu</string>
     <string name="wifi_wapi_network_open">Avaa</string>
+    <string name="asus_wifi_setup_description_connected">"Jatka asennusta koskettamalla Seuraava-painiketta.
+
+Kosketa Takaisin-näppäintä siirtyäksesi eri Wi-Fi-verkkoon."</string>
     <string name="yes">Kyllä</string>
     <string name="no">Ei</string>
     <string name="device_info_default">Tuntematon</string>
@@ -1313,7 +1316,4 @@ Jatketaanko?"</string>
     <string name="select_all">Valitse kaikki</string>
     <string name="hdcp_checking_title">HDCP-tarkistus</string>
     <string name="hdcp_checking_dialog_title">Aseta HDCP-tarkistus</string>
-    <string name="asus_wifi_setup_description_connected">"Jatka asennusta koskettamalla Seuraava-painiketta.
-
-Kosketa Takaisin-näppäintä siirtyäksesi eri Wi-Fi-verkkoon."</string>
 </resources>

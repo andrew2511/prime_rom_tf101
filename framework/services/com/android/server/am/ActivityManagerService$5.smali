@@ -33,7 +33,7 @@
     .parameter
 
     .prologue
-    .line 3085
+    .line 3097
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$5;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iput-object p2, p0, Lcom/android/server/am/ActivityManagerService$5;->val$cur:Lcom/android/server/am/ActivityRecord;
@@ -51,12 +51,12 @@
     .registers 7
 
     .prologue
-    .line 3088
+    .line 3100
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$5;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     monitor-enter v1
 
-    .line 3089
+    .line 3101
     :try_start_3
     new-instance v0, Lcom/android/server/am/LaunchWarningWindow;
 
@@ -70,11 +70,11 @@
 
     invoke-direct {v0, v2, v3, v4}, Lcom/android/server/am/LaunchWarningWindow;-><init>(Landroid/content/Context;Lcom/android/server/am/ActivityRecord;Lcom/android/server/am/ActivityRecord;)V
 
-    .line 3090
+    .line 3102
     .local v0, d:Landroid/app/Dialog;
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 3091
+    .line 3103
     iget-object v2, p0, Lcom/android/server/am/ActivityManagerService$5;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v2, v2, Lcom/android/server/am/ActivityManagerService;->mHandler:Landroid/os/Handler;
@@ -87,13 +87,13 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3100
+    .line 3112
     monitor-exit v1
 
-    .line 3101
+    .line 3113
     return-void
 
-    .line 3100
+    .line 3112
     .end local v0           #d:Landroid/app/Dialog;
     :catchall_23
     move-exception v2

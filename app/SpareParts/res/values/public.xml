@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="mipmap" name="app_icon" id="0x7f020000" />
+    <public type="layout" name="spare_parts" id="0x7f030000" />
+    <public type="xml" name="spare_parts" id="0x7f040000" />
+    <public type="array" name="entries_animations" id="0x7f050000" />
+    <public type="array" name="entryvalues_animations" id="0x7f050001" />
+    <public type="array" name="entries_font_size" id="0x7f050002" />
+    <public type="array" name="entryvalues_font_size" id="0x7f050003" />
+    <public type="array" name="entries_end_button" id="0x7f050004" />
+    <public type="array" name="entryvalues_end_button" id="0x7f050005" />
+    <public type="string" name="app_label" id="0x7f060000" />
+    <public type="string" name="device_info_title" id="0x7f060001" />
+    <public type="string" name="title_battery_history" id="0x7f060002" />
+    <public type="string" name="summary_battery_history" id="0x7f060003" />
+    <public type="string" name="title_battery_information" id="0x7f060004" />
+    <public type="string" name="summary_battery_information" id="0x7f060005" />
+    <public type="string" name="title_usage_statistics" id="0x7f060006" />
+    <public type="string" name="summary_usage_statistics" id="0x7f060007" />
+    <public type="string" name="general_title" id="0x7f060008" />
+    <public type="string" name="title_window_animations" id="0x7f060009" />
+    <public type="string" name="summary_window_animations" id="0x7f06000a" />
+    <public type="string" name="dialog_title_window_animations" id="0x7f06000b" />
+    <public type="string" name="title_transition_animations" id="0x7f06000c" />
+    <public type="string" name="summary_transition_animations" id="0x7f06000d" />
+    <public type="string" name="dialog_title_transition_animations" id="0x7f06000e" />
+    <public type="string" name="title_fancy_ime_animations" id="0x7f06000f" />
+    <public type="string" name="summary_on_fancy_ime_animations" id="0x7f060010" />
+    <public type="string" name="summary_off_fancy_ime_animations" id="0x7f060011" />
+    <public type="string" name="title_haptic_feedback" id="0x7f060012" />
+    <public type="string" name="summary_on_haptic_feedback" id="0x7f060013" />
+    <public type="string" name="summary_off_haptic_feedback" id="0x7f060014" />
+    <public type="string" name="title_font_size" id="0x7f060015" />
+    <public type="string" name="summary_font_size" id="0x7f060016" />
+    <public type="string" name="dialog_title_font_size" id="0x7f060017" />
+    <public type="string" name="title_end_button" id="0x7f060018" />
+    <public type="string" name="summary_end_button" id="0x7f060019" />
+    <public type="string" name="dialog_title_end_button" id="0x7f06001a" />
+    <public type="string" name="applications_title" id="0x7f06001b" />
+    <public type="string" name="compatibility_mode_title" id="0x7f06001c" />
+    <public type="string" name="compatibility_mode_summary_on" id="0x7f06001d" />
+    <public type="string" name="compatibility_mode_summary_off" id="0x7f06001e" />
+    <public type="id" name="window_animation_scale" id="0x7f070000" />
+    <public type="id" name="transition_animation_scale" id="0x7f070001" />
+</resources>

@@ -8,7 +8,7 @@
     <string name="notagain">Do not show this message again.</string>
     <string name="pref_fast_scroller">Fast Scroller</string>
     <string name="pref_fast_scroller_summary">Fast scroll web page by touching the right edge of screen</string>
-    <string name="homepage_base">http://www.asus.com</string>
+    <string name="homepage_base">http://www.google.com</string>
     <string name="pref_default_text_encoding_default">Latin-1</string>
     <string name="application_name">Browser</string>
     <string name="choose_upload">Choose file for upload</string>

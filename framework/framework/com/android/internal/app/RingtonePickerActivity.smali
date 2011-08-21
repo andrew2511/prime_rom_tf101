@@ -119,7 +119,7 @@
 
     .prologue
     .line 215
-    const v0, 0x104036b
+    const v0, 0x1040368
 
     invoke-direct {p0, p1, v0}, Lcom/android/internal/app/RingtonePickerActivity;->addStaticItem(Landroid/widget/ListView;I)I
 
@@ -134,7 +134,7 @@
 
     .prologue
     .line 219
-    const v0, 0x104036d
+    const v0, 0x104036a
 
     invoke-direct {p0, p1, v0}, Lcom/android/internal/app/RingtonePickerActivity;->addStaticItem(Landroid/widget/ListView;I)I
 
@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x1090088
+    const v2, 0x1090087
 
     const/4 v3, 0x0
 
@@ -616,7 +616,7 @@
     if-nez v4, :cond_ab
 
     .line 164
-    const v4, 0x104036e
+    const v4, 0x104036b
 
     invoke-virtual {p0, v4}, Lcom/android/internal/app/RingtonePickerActivity;->getString(I)Ljava/lang/String;
 

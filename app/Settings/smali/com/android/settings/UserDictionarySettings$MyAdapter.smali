@@ -59,7 +59,7 @@
 
     .line 281
     .local v1, wordColIndex:I
-    const v2, 0x1040398
+    const v2, 0x1040395
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

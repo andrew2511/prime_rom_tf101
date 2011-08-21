@@ -630,25 +630,25 @@
     .end annotation
 
     .prologue
-    .line 826
+    .line 832
     invoke-direct {p0, p1}, Lcom/android/providers/downloads/ui/DownloadList;->findCommonString(Ljava/util/Collection;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 827
+    .line 833
     if-eqz v0, :cond_0
 
-    .line 842
+    .line 848
     :goto_0
     return-object v0
 
-    .line 832
+    .line 838
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 833
+    .line 839
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -666,7 +666,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 834
+    .line 840
     const/4 v3, 0x0
 
     const/16 v4, 0x2f
@@ -683,16 +683,16 @@
 
     goto :goto_1
 
-    .line 836
+    .line 842
     :cond_1
     invoke-direct {p0, v1}, Lcom/android/providers/downloads/ui/DownloadList;->findCommonString(Ljava/util/Collection;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 837
+    .line 843
     if-eqz v0, :cond_2
 
-    .line 838
+    .line 844
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -713,7 +713,7 @@
 
     goto :goto_0
 
-    .line 842
+    .line 848
     :cond_2
     const-string v0, "*/*"
 
@@ -735,15 +735,15 @@
     .end annotation
 
     .prologue
-    .line 845
+    .line 851
     .local p1, set:Ljava/util/Collection;,"Ljava/util/Collection<Ljava/lang/String;>;"
     const/4 v3, 0x0
 
-    .line 846
+    .line 852
     .local v3, str:Ljava/lang/String;
     const/4 v0, 0x1
 
-    .line 847
+    .line 853
     .local v0, found:Z
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -764,16 +764,16 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 848
+    .line 854
     .local v2, s:Ljava/lang/String;
     if-nez v3, :cond_1
 
-    .line 849
+    .line 855
     move-object v3, v2
 
     goto :goto_0
 
-    .line 850
+    .line 856
     :cond_1
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -781,10 +781,10 @@
 
     if-nez v4, :cond_0
 
-    .line 851
+    .line 857
     const/4 v0, 0x0
 
-    .line 855
+    .line 861
     .end local v2           #s:Ljava/lang/String;
     :cond_2
     if-eqz v0, :cond_3
@@ -2702,7 +2702,7 @@
 
     move-result v0
 
-    if-le v0, v7, :cond_2
+    if-le v0, v7, :cond_3
 
     .line 800
     const-string v0, "android.intent.action.SEND_MULTIPLE"
@@ -2730,12 +2730,13 @@
 
     move-result-object v4
 
+    :cond_0
     :goto_0
     invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
     invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -2751,39 +2752,46 @@
     .line 805
     invoke-virtual {v0}, Lcom/android/providers/downloads/ui/DownloadList$SelectionObjAttrs;->getMimeType()Ljava/lang/String;
 
-    move-result-object v0
+    move-result-object v6
 
     .line 806
-    new-instance v6, Ljava/io/File;
+    invoke-virtual {v0}, Lcom/android/providers/downloads/ui/DownloadList$SelectionObjAttrs;->getFileName()Ljava/lang/String;
 
-    invoke-direct {v6, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    move-result-object v0
 
-    invoke-static {v6}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+    if-eqz v0, :cond_0
 
-    move-result-object v5
+    .line 809
+    new-instance v0, Ljava/io/File;
 
-    invoke-virtual {v2, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-direct {v0, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 807
-    invoke-virtual {v3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 810
+    invoke-virtual {v3, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 809
-    :cond_0
+    .line 812
+    :cond_1
     const-string v0, "android.intent.extra.STREAM"
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putParcelableArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;
 
-    .line 810
+    .line 813
     invoke-direct {p0, v3}, Lcom/android/providers/downloads/ui/DownloadList;->findCommonMimeType(Ljava/util/ArrayList;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 820
-    :cond_1
+    .line 826
+    :cond_2
     const v0, 0x7f060021
 
     invoke-virtual {p0, v0}, Lcom/android/providers/downloads/ui/DownloadList;->getText(I)Ljava/lang/CharSequence;
@@ -2792,14 +2800,17 @@
 
     invoke-static {v1, v0}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
-    .line 821
+    .line 827
     invoke-virtual {p0, v1}, Lcom/android/providers/downloads/ui/DownloadList;->startActivity(Landroid/content/Intent;)V
 
-    .line 822
-    return v7
+    move v0, v7
 
-    .line 814
-    :cond_2
+    .line 828
+    :goto_1
+    return v0
+
+    .line 817
+    :cond_3
     iget-object v0, p0, Lcom/android/providers/downloads/ui/DownloadList;->mSelectedIds:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -2810,12 +2821,12 @@
 
     move-result-object v2
 
-    :goto_1
+    :goto_2
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -2823,12 +2834,25 @@
 
     check-cast v0, Lcom/android/providers/downloads/ui/DownloadList$SelectionObjAttrs;
 
-    .line 815
+    .line 818
+    invoke-virtual {v0}, Lcom/android/providers/downloads/ui/DownloadList$SelectionObjAttrs;->getFileName()Ljava/lang/String;
+
+    move-result-object v3
+
+    if-nez v3, :cond_4
+
+    .line 819
+    const/4 v0, 0x0
+
+    goto :goto_1
+
+    .line 821
+    :cond_4
     const-string v3, "android.intent.action.SEND"
 
     invoke-virtual {v1, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 816
+    .line 822
     const-string v3, "android.intent.extra.STREAM"
 
     new-instance v4, Ljava/io/File;
@@ -2845,12 +2869,12 @@
 
     invoke-virtual {v1, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 817
+    .line 823
     invoke-virtual {v0}, Lcom/android/providers/downloads/ui/DownloadList$SelectionObjAttrs;->getMimeType()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    goto :goto_1
+    goto :goto_2
 .end method

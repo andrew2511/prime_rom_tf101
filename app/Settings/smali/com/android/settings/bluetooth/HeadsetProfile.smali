@@ -355,7 +355,7 @@
 
     .prologue
     .line 178
-    const v0, 0x7f08018e
+    const v0, 0x7f080198
 
     return v0
 .end method
@@ -376,7 +376,7 @@
 
     .prologue
     .line 174
-    const v0, 0x7f080189
+    const v0, 0x7f080193
 
     return v0
 .end method
@@ -433,13 +433,13 @@
 
     .line 185
     :pswitch_1
-    const v1, 0x7f0801a1
+    const v1, 0x7f0801ab
 
     goto :goto_0
 
     .line 188
     :pswitch_2
-    const v1, 0x7f08019a
+    const v1, 0x7f0801a4
 
     goto :goto_0
 

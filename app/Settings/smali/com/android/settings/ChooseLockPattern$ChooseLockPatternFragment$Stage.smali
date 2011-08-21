@@ -65,13 +65,13 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f080343
+    const v3, 0x7f08034d
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
     sget-object v5, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$RightButtonMode;->ContinueDisabled:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$RightButtonMode;
 
-    const v6, 0x7f080344
+    const v6, 0x7f08034e
 
     const/4 v7, 0x1
 
@@ -86,7 +86,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f080355
+    const v3, 0x7f08035f
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Gone:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -107,7 +107,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f080346
+    const v3, 0x7f080350
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Retry:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -128,7 +128,7 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f080347
+    const v3, 0x7f080351
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Retry:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -149,7 +149,7 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f080348
+    const v3, 0x7f080352
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -170,7 +170,7 @@
 
     const/4 v2, 0x5
 
-    const v3, 0x7f080341
+    const v3, 0x7f08034b
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -191,7 +191,7 @@
 
     const/4 v2, 0x6
 
-    const v3, 0x7f080349
+    const v3, 0x7f080353
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 

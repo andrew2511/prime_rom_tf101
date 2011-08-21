@@ -368,7 +368,7 @@
 
     .line 506
     .local v0, resources:Landroid/content/res/Resources;
-    const v1, 0x104001c
+    const v1, 0x1040019
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -377,7 +377,7 @@
     iput-object v1, p0, Lcom/android/server/LocationManagerService;->mNetworkLocationProviderPackageName:Ljava/lang/String;
 
     .line 508
-    const v1, 0x104001d
+    const v1, 0x104001a
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

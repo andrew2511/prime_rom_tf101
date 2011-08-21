@@ -20,6 +20,7 @@
             </FrameLayout>
             <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asus_ep_line_02" />
         </LinearLayout>
+        <TextView android:textSize="18.0px" android:layout_gravity="center" android:id="@id/phrase_phonetic_symbols" android:paddingLeft="4.0px" android:paddingRight="4.0px" android:layout_width="26.0px" android:layout_height="fill_parent" />
         <com.nuance.xt9.input.CandidatesListView android:id="@id/phrase_candidates" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
         <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
             <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asus_ep_line_02" />

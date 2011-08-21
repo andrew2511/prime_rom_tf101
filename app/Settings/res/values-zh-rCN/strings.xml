@@ -27,6 +27,9 @@
     <string name="wifi_setup_wapi_cert_not_supported">您无法在设置过程中配置 WAPI CERT WLAN 连接。设置完毕后，您可以在“设置”中的“无线和网络”下进行配置。</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">不支持WAPI CERT</string>
     <string name="wifi_wapi_network_open">开放</string>
+    <string name="asus_wifi_setup_description_connected">"请点击下一步以进行安装
+
+请点击以返回选择不同的Wi-Fi无线网络"</string>
     <string name="yes">是</string>
     <string name="no">无</string>
     <string name="device_info_default">未知</string>
@@ -1313,7 +1316,4 @@ Google 的这款同步数据工具可让您随时随地访问您的联系人、�
     <string name="select_all">全选</string>
     <string name="hdcp_checking_title">HDCP 检查</string>
     <string name="hdcp_checking_dialog_title">设置 HDCP 检查行为</string>
-    <string name="asus_wifi_setup_description_connected">"请点击下一步以进行安装
-
-请点击以返回选择不同的Wi-Fi无线网络"</string>
 </resources>

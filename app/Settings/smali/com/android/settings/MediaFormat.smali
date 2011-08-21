@@ -94,7 +94,7 @@
     .line 119
     iget-object v0, p0, Lcom/android/settings/MediaFormat;->mFinalView:Landroid/view/View;
 
-    const v1, 0x7f0f008a
+    const v1, 0x7f0f008c
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
     .line 142
     iget-object v0, p0, Lcom/android/settings/MediaFormat;->mInitialView:Landroid/view/View;
 
-    const v1, 0x7f0f008b
+    const v1, 0x7f0f008d
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -183,13 +183,13 @@
 
     invoke-direct {v0, p0}, Lcom/android/settings/ChooseLockSettingsHelper;-><init>(Landroid/app/Activity;)V
 
-    const v1, 0x7f0802f0
+    const v1, 0x7f0802fa
 
     invoke-virtual {p0, v1}, Lcom/android/settings/MediaFormat;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    const v2, 0x7f0802f1
+    const v2, 0x7f0802fb
 
     invoke-virtual {p0, v2}, Lcom/android/settings/MediaFormat;->getText(I)Ljava/lang/CharSequence;
 

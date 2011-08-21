@@ -1074,7 +1074,7 @@
     .line 404
     iget-object v1, p0, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v2, 0x1090075
+    const v2, 0x1090074
 
     const/4 v3, 0x0
 

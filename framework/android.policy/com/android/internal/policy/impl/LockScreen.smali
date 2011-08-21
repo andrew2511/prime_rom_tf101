@@ -150,7 +150,7 @@
     if-eq v1, v2, :cond_f1
 
     .line 292
-    const v1, 0x1090050
+    const v1, 0x109004f
 
     invoke-virtual {v0, v1, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -167,7 +167,7 @@
     iput-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mStatusView:Lcom/android/internal/policy/impl/StatusView;
 
     .line 299
-    const v1, 0x1020274
+    const v1, 0x1020270
 
     invoke-virtual {p0, v1}, Lcom/android/internal/policy/impl/LockScreen;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     iput-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mScreenLocked:Landroid/widget/TextView;
 
     .line 301
-    const v1, 0x1020273
+    const v1, 0x102026f
 
     invoke-virtual {p0, v1}, Lcom/android/internal/policy/impl/LockScreen;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     iput-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mEmergencyCallText:Landroid/widget/TextView;
 
     .line 302
-    const v1, 0x1020262
+    const v1, 0x102025e
 
     invoke-virtual {p0, v1}, Lcom/android/internal/policy/impl/LockScreen;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
     .line 303
     iget-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mEmergencyCallButton:Landroid/widget/Button;
 
-    const v2, 0x10402ac
+    const v2, 0x10402a9
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -266,7 +266,7 @@
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mSilentMode:Z
 
     .line 322
-    const v1, 0x1020275
+    const v1, 0x1020271
 
     invoke-virtual {p0, v1}, Lcom/android/internal/policy/impl/LockScreen;->findViewById(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
     iput-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mSlidingTab:Lcom/android/internal/widget/SlidingTab;
 
     .line 323
-    const v1, 0x1020276
+    const v1, 0x1020272
 
     invoke-virtual {p0, v1}, Lcom/android/internal/policy/impl/LockScreen;->findViewById(I)Landroid/view/View;
 
@@ -300,20 +300,20 @@
     .line 326
     iget-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mSlidingTab:Lcom/android/internal/widget/SlidingTab;
 
-    const v2, 0x10402cd
+    const v2, 0x10402ca
 
     invoke-virtual {v1, v2}, Lcom/android/internal/widget/SlidingTab;->setLeftHintText(I)V
 
     .line 327
     iget-object v1, p0, Lcom/android/internal/policy/impl/LockScreen;->mSlidingTab:Lcom/android/internal/widget/SlidingTab;
 
-    const v2, 0x10802ca
+    const v2, 0x10802c8
 
-    const v3, 0x1080360
+    const v3, 0x108035e
 
-    const v4, 0x1080341
+    const v4, 0x108033f
 
-    const v5, 0x1080354
+    const v5, 0x1080352
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/android/internal/widget/SlidingTab;->setLeftTabResources(IIII)V
 
@@ -346,7 +346,7 @@
 
     .line 294
     :cond_f1
-    const v1, 0x1090051
+    const v1, 0x1090050
 
     invoke-virtual {v0, v1, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -821,7 +821,7 @@
 
     move-result-object v0
 
-    const v1, 0x10400a8
+    const v1, 0x10400a5
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1000,9 +1000,9 @@
     .parameter "status"
 
     .prologue
-    const v7, 0x10402b7
+    const v7, 0x10402b4
 
-    const v3, 0x10402b5
+    const v3, 0x10402b2
 
     const/4 v6, 0x4
 
@@ -1114,7 +1114,7 @@
 
     move-result-object v2
 
-    const v3, 0x10402b9
+    const v3, 0x10402b6
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1129,7 +1129,7 @@
     .line 526
     iget-object v0, p0, Lcom/android/internal/policy/impl/LockScreen;->mScreenLocked:Landroid/widget/TextView;
 
-    const v1, 0x10402aa
+    const v1, 0x10402a7
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1237,7 +1237,7 @@
 
     move-result-object v2
 
-    const v3, 0x10402bc
+    const v3, 0x10402b9
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1278,7 +1278,7 @@
 
     move-result-object v2
 
-    const v3, 0x10402ba
+    const v3, 0x10402b7
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1293,7 +1293,7 @@
     .line 579
     iget-object v0, p0, Lcom/android/internal/policy/impl/LockScreen;->mScreenLocked:Landroid/widget/TextView;
 
-    const v1, 0x10402bb
+    const v1, 0x10402b8
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

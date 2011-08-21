@@ -33,7 +33,7 @@
 
     const/4 v2, 0x0
 
-    .line 6090
+    .line 6117
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -42,7 +42,7 @@
 
     sput-object v0, Lcom/android/settings/R$styleable;->BatteryHistoryChart:[I
 
-    .line 6177
+    .line 6204
     new-array v0, v3, [I
 
     const v1, 0x7f010001
@@ -51,7 +51,7 @@
 
     sput-object v0, Lcom/android/settings/R$styleable;->IconPreferenceScreen:[I
 
-    .line 6202
+    .line 6229
     const/4 v0, 0x2
 
     new-array v0, v0, [I
@@ -60,7 +60,7 @@
 
     sput-object v0, Lcom/android/settings/R$styleable;->PercentageBarChart:[I
 
-    .line 6250
+    .line 6277
     new-array v0, v3, [I
 
     const/high16 v1, 0x7f01
@@ -71,7 +71,7 @@
 
     return-void
 
-    .line 6090
+    .line 6117
     nop
 
     :array_0
@@ -87,7 +87,7 @@
         0x64t 0x1t 0x1t 0x1t
     .end array-data
 
-    .line 6202
+    .line 6229
     :array_1
     .array-data 0x4
         0x2t 0x0t 0x1t 0x7ft
@@ -99,7 +99,7 @@
     .locals 0
 
     .prologue
-    .line 6063
+    .line 6090
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -145,6 +145,8 @@
 
 .field public static final IS_IMMERSIVE_TRANSACTION:I = 0x6f
 
+.field public static final IS_PACKAGES_IN_RESOLUTION_BACKWARD_PACKAGES_TRANSACTION:I = 0x83
+
 .field public static final IS_TOP_ACTIVITY_IMMERSIVE_TRANSACTION:I = 0x71
 
 .field public static final IS_USER_A_MONKEY_TRANSACTION:I = 0x68
@@ -186,6 +188,8 @@
 .field public static final REGISTER_RECEIVER_TRANSACTION:I = 0xc
 
 .field public static final REMOVE_CONTENT_PROVIDER_TRANSACTION:I = 0x45
+
+.field public static final REMOVE_RECENT_TASKS_TRANSACTION:I = 0x82
 
 .field public static final REPORT_THUMBNAIL_TRANSACTION:I = 0x1c
 
@@ -296,6 +300,8 @@
 .field public static final WAKING_UP_TRANSACTION:I = 0x29
 
 .field public static final WILL_ACTIVITY_BE_VISIBLE_TRANSACTION:I = 0x6a
+
+.field public static final WRITE_RESOLUTION_BACKWARD_PACKAGES_TRANSACTION:I = 0x84
 
 .field public static final descriptor:Ljava/lang/String; = "android.app.IActivityManager"
 
@@ -806,6 +812,14 @@
 .end method
 
 .method public abstract isImmersive(Landroid/os/IBinder;)Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract isPkgInResolutionBackwardPkgs(Ljava/lang/String;)Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;
@@ -1332,6 +1346,14 @@
 .end method
 
 .method public abstract willActivityBeVisible(Landroid/os/IBinder;)Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract writeResolutionBackwardPackages(Ljava/lang/String;Z)V
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;

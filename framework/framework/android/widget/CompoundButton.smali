@@ -161,7 +161,7 @@
     if-eqz v3, :cond_23
 
     .line 217
-    const v1, 0x10403b7
+    const v1, 0x10403b4
 
     .line 221
     :goto_e
@@ -195,7 +195,7 @@
     .line 219
     .restart local v1       #resourceId:I
     :cond_23
-    const v1, 0x10403b8
+    const v1, 0x10403b5
 
     goto :goto_e
 .end method

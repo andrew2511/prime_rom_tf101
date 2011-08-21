@@ -1679,7 +1679,7 @@
     .parameter "text"
     .parameter "start"
     .parameter "before"
-    .parameter "after"
+    .parameter "count"
 
     .prologue
     .line 681

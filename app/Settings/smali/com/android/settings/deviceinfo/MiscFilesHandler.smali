@@ -94,12 +94,12 @@
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->setFinishOnTouchOutside(Z)V
 
     .line 62
-    const v1, 0x7f08056e
+    const v1, 0x7f08057a
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->setTitle(I)V
 
     .line 63
-    const v1, 0x7f08056f
+    const v1, 0x7f08057b
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->getString(I)Ljava/lang/String;
 
@@ -108,7 +108,7 @@
     iput-object v1, p0, Lcom/android/settings/deviceinfo/MiscFilesHandler;->mNumSelectedFormat:Ljava/lang/String;
 
     .line 64
-    const v1, 0x7f080570
+    const v1, 0x7f08057c
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->getString(I)Ljava/lang/String;
 

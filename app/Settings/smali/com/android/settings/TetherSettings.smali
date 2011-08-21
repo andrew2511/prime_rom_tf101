@@ -246,7 +246,7 @@
     .locals 9
 
     .prologue
-    const v6, 0x7f080204
+    const v6, 0x7f08020e
 
     const/4 v5, 0x2
 
@@ -319,7 +319,7 @@
     if-nez v3, :cond_0
 
     .line 166
-    const v3, 0x1040370
+    const v3, 0x104036d
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -594,7 +594,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f0801b3
+    const v17, 0x7f0801bd
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -630,7 +630,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080098
+    const v17, 0x7f0800a2
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -690,7 +690,7 @@
     if-le v0, v1, :cond_8
 
     .line 419
-    const v16, 0x7f08030a
+    const v16, 0x7f080314
 
     const/16 v17, 0x1
 
@@ -752,7 +752,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080309
+    const v17, 0x7f080313
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -769,7 +769,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f08030c
+    const v17, 0x7f080316
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -783,7 +783,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080308
+    const v17, 0x7f080312
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -819,7 +819,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f08030b
+    const v17, 0x7f080315
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1171,7 +1171,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080303
+    const v17, 0x7f08030d
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1215,7 +1215,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080302
+    const v17, 0x7f08030c
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1252,7 +1252,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080306
+    const v17, 0x7f080310
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1269,7 +1269,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080306
+    const v17, 0x7f080310
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1308,7 +1308,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080304
+    const v17, 0x7f08030e
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1344,7 +1344,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080305
+    const v17, 0x7f08030f
 
     invoke-virtual/range {v16 .. v17}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1443,7 +1443,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080204
+    const v3, 0x7f08020e
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1999,7 +1999,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f08030f
+    const v10, 0x7f080319
 
     invoke-virtual {v9, v10}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -2179,7 +2179,7 @@
     .parameter "preference"
 
     .prologue
-    const v10, 0x7f080306
+    const v10, 0x7f080310
 
     const/4 v12, 0x0
 
@@ -2390,7 +2390,7 @@
     .line 481
     iget-object v9, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v10, 0x7f080098
+    const v10, 0x7f0800a2
 
     invoke-virtual {v9, v10}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -2410,7 +2410,7 @@
     .line 485
     iget-object v9, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v10, 0x7f080308
+    const v10, 0x7f080312
 
     invoke-virtual {v9, v10}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -2470,7 +2470,7 @@
     .line 501
     iget-object v9, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v10, 0x7f08030c
+    const v10, 0x7f080316
 
     invoke-virtual {v9, v10}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -2480,7 +2480,7 @@
     :cond_a
     iget-object v9, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v10, 0x7f08030b
+    const v10, 0x7f080315
 
     invoke-virtual {v9, v10}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 

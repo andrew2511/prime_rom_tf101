@@ -118,8 +118,6 @@
 
 .field static final TRANSACTION_pauseKeyDispatching:I = 0xf
 
-.field static final TRANSACTION_popCompassCalibrationDialog:I = 0x4d
-
 .field static final TRANSACTION_prepareAppTransition:I = 0x19
 
 .field static final TRANSACTION_reenableKeyguard:I = 0x29
@@ -271,9 +269,9 @@
 
     .prologue
     .line 43
-    sparse-switch p1, :sswitch_data_a5e
+    sparse-switch p1, :sswitch_data_a3e
 
-    .line 901
+    .line 892
     invoke-super/range {p0 .. p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     move-result v4
@@ -4059,58 +4057,8 @@
 
     goto :goto_a33
 
-    .line 893
-    .end local v16           #_result:Z
-    :sswitch_a3e
-    const-string v4, "android.view.IWindowManager"
-
-    move-object/from16 v0, p2
-
-    move-object v1, v4
-
-    invoke-virtual {v0, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
-
-    .line 895
-    invoke-virtual/range {p2 .. p2}, Landroid/os/Parcel;->readInt()I
-
-    move-result v4
-
-    if-eqz v4, :cond_a5a
-
-    const/4 v4, 0x1
-
-    move v5, v4
-
-    .line 896
-    .local v5, _arg0:Z
-    :goto_a4e
-    move-object/from16 v0, p0
-
-    move v1, v5
-
-    invoke-virtual {v0, v1}, Landroid/view/IWindowManager$Stub;->popCompassCalibrationDialog(Z)V
-
-    .line 897
-    invoke-virtual/range {p3 .. p3}, Landroid/os/Parcel;->writeNoException()V
-
-    .line 898
-    const/4 v4, 0x1
-
-    goto/16 :goto_7
-
-    .line 895
-    .end local v5           #_arg0:Z
-    :cond_a5a
-    const/4 v4, 0x0
-
-    move v5, v4
-
-    goto :goto_a4e
-
     .line 43
-    nop
-
-    :sswitch_data_a5e
+    :sswitch_data_a3e
     .sparse-switch
         0x1 -> :sswitch_12
         0x2 -> :sswitch_35
@@ -4188,7 +4136,6 @@
         0x4a -> :sswitch_9f1
         0x4b -> :sswitch_a09
         0x4c -> :sswitch_a21
-        0x4d -> :sswitch_a3e
         0x5f4e5446 -> :sswitch_8
     .end sparse-switch
 .end method

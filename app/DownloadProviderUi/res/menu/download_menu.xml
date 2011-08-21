@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/share_download" android:showAsAction="always" />
-    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/delete_download" android:showAsAction="always" />
+    <item android:icon="@drawable/asus_ep_share_icon" android:id="@id/share_download" android:showAsAction="always" />
+    <item android:icon="@drawable/asus_ep_delete_icon" android:id="@id/delete_download" android:showAsAction="always" />
     <item android:icon="@drawable/asus_ep_select_all" android:id="@id/select_all" android:title="@string/select_all" android:showAsAction="always|withText" />
     <item android:icon="@drawable/asus_ep_deselect_all" android:id="@id/deselect_all" android:title="@string/deselect_all" android:showAsAction="always|withText" />
 </menu>

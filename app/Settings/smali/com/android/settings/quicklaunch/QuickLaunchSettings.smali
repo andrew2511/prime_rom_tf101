@@ -485,7 +485,7 @@
     invoke-virtual {v12, v14}, Lcom/android/settings/quicklaunch/ShortcutPreference;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 327
-    const v15, 0x7f0803f0
+    const v15, 0x7f0803fc
 
     const/16 v16, 0x1
 
@@ -882,7 +882,7 @@
 
     invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0803f1
+    const v1, 0x7f0803fd
 
     invoke-virtual {p0, v1}, Lcom/android/settings/quicklaunch/QuickLaunchSettings;->getString(I)Ljava/lang/String;
 
@@ -898,7 +898,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0803f2
+    const v1, 0x7f0803fe
 
     const/4 v2, 0x2
 
@@ -928,13 +928,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0803f3
+    const v1, 0x7f0803ff
 
     invoke-virtual {v0, v1, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f0803f4
+    const v1, 0x7f080400
 
     invoke-virtual {v0, v1, p0}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -1104,7 +1104,7 @@
 
     .line 165
     .local v1, alertDialog:Landroid/app/AlertDialog;
-    const v2, 0x7f0803f2
+    const v2, 0x7f0803fe
 
     const/4 v3, 0x2
 

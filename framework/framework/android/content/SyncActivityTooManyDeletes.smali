@@ -196,7 +196,7 @@
 
     move-result-object v9
 
-    const v10, 0x10403ee
+    const v10, 0x10403eb
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -210,7 +210,7 @@
 
     move-result-object v9
 
-    const v10, 0x10403ef
+    const v10, 0x10403ec
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -224,7 +224,7 @@
 
     move-result-object v9
 
-    const v10, 0x10403f0
+    const v10, 0x10403ed
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -271,7 +271,7 @@
 
     move-result-object v8
 
-    const v9, 0x10403ed
+    const v9, 0x10403ea
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

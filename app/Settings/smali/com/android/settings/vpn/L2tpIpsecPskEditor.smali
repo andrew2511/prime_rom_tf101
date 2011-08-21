@@ -28,9 +28,9 @@
     .line 53
     new-instance v0, Lcom/android/settings/vpn/L2tpIpsecPskEditor$1;
 
-    const v1, 0x7f0804e0
+    const v1, 0x7f0804ec
 
-    const v2, 0x7f0804e1
+    const v2, 0x7f0804ed
 
     invoke-direct {v0, p0, p1, v1, v2}, Lcom/android/settings/vpn/L2tpIpsecPskEditor$1;-><init>(Lcom/android/settings/vpn/L2tpIpsecPskEditor;Landroid/content/Context;II)V
 

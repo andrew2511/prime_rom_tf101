@@ -389,7 +389,7 @@
 
     .line 455
     .local v1, holder:Lcom/android/settings/applications/ManageApplications$AppViewHolder;
-    const v2, 0x7f0f007e
+    const v2, 0x7f0f0080
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
     iput-object v2, v1, Lcom/android/settings/applications/ManageApplications$AppViewHolder;->appName:Landroid/widget/TextView;
 
     .line 456
-    const v2, 0x7f0f007d
+    const v2, 0x7f0f007f
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -411,7 +411,7 @@
     iput-object v2, v1, Lcom/android/settings/applications/ManageApplications$AppViewHolder;->appIcon:Landroid/widget/ImageView;
 
     .line 457
-    const v2, 0x7f0f007f
+    const v2, 0x7f0f0081
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -422,7 +422,7 @@
     iput-object v2, v1, Lcom/android/settings/applications/ManageApplications$AppViewHolder;->appSize:Landroid/widget/TextView;
 
     .line 458
-    const v2, 0x7f0f0080
+    const v2, 0x7f0f0082
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
     iput-object v2, v1, Lcom/android/settings/applications/ManageApplications$AppViewHolder;->disabled:Landroid/widget/TextView;
 
     .line 459
-    const v2, 0x7f0f0081
+    const v2, 0x7f0f0083
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

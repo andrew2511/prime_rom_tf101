@@ -27,6 +27,7 @@
     <string name="wifi_setup_wapi_cert_not_supported">Вы не можете сконфигурировать подключение WLAN CERT Wi-Fi во время установки. После завершения установки, Вы можете сделать это в настройках беспроводной сети.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT не поддерживается</string>
     <string name="wifi_wapi_network_open">Открыть</string>
+    <string name="asus_wifi_setup_description_connecting">Подключение может занять несколько минут...</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="device_info_default">Неизвестно</string>
@@ -1311,5 +1312,4 @@
     <string name="select_all">Выбрать все</string>
     <string name="hdcp_checking_title">Проверка HDCP</string>
     <string name="hdcp_checking_dialog_title">Порядок проверки HDCP</string>
-    <string name="asus_wifi_setup_description_connecting">Подключение может занять несколько минут...</string>
 </resources>

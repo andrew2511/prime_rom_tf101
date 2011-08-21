@@ -101,7 +101,7 @@
     .line 159
     const/4 v0, -0x1
 
-    const v1, 0x1040379
+    const v1, 0x1040376
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -200,7 +200,7 @@
 
     if-lt v0, v1, :cond_0
 
-    const v0, 0x10301de
+    const v0, 0x10301dd
 
     move v2, v0
 

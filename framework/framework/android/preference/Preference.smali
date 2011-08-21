@@ -165,7 +165,7 @@
     iput-boolean v5, p0, Landroid/preference/Preference;->mShouldDisableView:Z
 
     .line 115
-    const v3, 0x1090063
+    const v3, 0x1090062
 
     iput v3, p0, Landroid/preference/Preference;->mLayoutResId:I
 

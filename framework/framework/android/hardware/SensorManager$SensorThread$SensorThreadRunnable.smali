@@ -27,12 +27,12 @@
     .parameter
 
     .prologue
-    .line 503
+    .line 468
     iput-object p1, p0, Landroid/hardware/SensorManager$SensorThread$SensorThreadRunnable;->this$0:Landroid/hardware/SensorManager$SensorThread;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 504
+    .line 469
     return-void
 .end method
 
@@ -40,14 +40,14 @@
     .registers 2
 
     .prologue
-    .line 510
+    .line 475
     invoke-static {}, Landroid/hardware/SensorManager;->sensors_create_queue()I
 
     move-result v0
 
     invoke-static {v0}, Landroid/hardware/SensorManager;->access$002(I)I
 
-    .line 511
+    .line 476
     const/4 v0, 0x1
 
     return v0
@@ -65,41 +65,41 @@
 
     const/4 v10, 0x1
 
-    .line 516
+    .line 481
     const/4 v9, 0x3
 
     new-array v8, v9, [F
 
-    .line 517
+    .line 482
     .local v8, values:[F
     new-array v6, v10, [I
 
-    .line 518
+    .line 483
     .local v6, status:[I
     new-array v7, v10, [J
 
-    .line 519
+    .line 484
     .local v7, timestamp:[J
     const/4 v9, -0x8
 
     invoke-static {v9}, Landroid/os/Process;->setThreadPriority(I)V
 
-    .line 521
+    .line 486
     invoke-direct {p0}, Landroid/hardware/SensorManager$SensorThread$SensorThreadRunnable;->open()Z
 
     move-result v9
 
     if-nez v9, :cond_15
 
-    .line 568
+    .line 533
     :goto_14
     return-void
 
-    .line 525
+    .line 490
     :cond_15
     monitor-enter p0
 
-    .line 527
+    .line 492
     :try_start_16
     iget-object v9, p0, Landroid/hardware/SensorManager$SensorThread$SensorThreadRunnable;->this$0:Landroid/hardware/SensorManager$SensorThread;
 
@@ -107,15 +107,15 @@
 
     iput-boolean v10, v9, Landroid/hardware/SensorManager$SensorThread;->mSensorsReady:Z
 
-    .line 528
+    .line 493
     invoke-virtual {p0}, Ljava/lang/Object;->notify()V
 
-    .line 529
+    .line 494
     monitor-exit p0
     :try_end_1f
     .catchall {:try_start_16 .. :try_end_1f} :catchall_6d
 
-    .line 533
+    .line 498
     :goto_1f
     invoke-static {}, Landroid/hardware/SensorManager;->access$000()I
 
@@ -125,17 +125,17 @@
 
     move-result v3
 
-    .line 535
+    .line 500
     .local v3, sensor:I
     aget v0, v6, v12
 
-    .line 536
+    .line 501
     .local v0, accuracy:I
     sget-object v9, Landroid/hardware/SensorManager;->sListeners:Ljava/util/ArrayList;
 
     monitor-enter v9
 
-    .line 537
+    .line 502
     if-eq v3, v11, :cond_36
 
     :try_start_2e
@@ -147,7 +147,7 @@
 
     if-eqz v10, :cond_70
 
-    .line 540
+    .line 505
     :cond_36
     if-ne v3, v11, :cond_58
 
@@ -159,7 +159,7 @@
 
     if-nez v10, :cond_58
 
-    .line 542
+    .line 507
     const-string v10, "SensorManager"
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -182,7 +182,7 @@
 
     invoke-static {v10, v11}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 545
+    .line 510
     :cond_58
     invoke-static {}, Landroid/hardware/SensorManager;->access$000()I
 
@@ -190,24 +190,24 @@
 
     invoke-static {v10}, Landroid/hardware/SensorManager;->sensors_destroy_queue(I)V
 
-    .line 546
+    .line 511
     const/4 v10, 0x0
 
     invoke-static {v10}, Landroid/hardware/SensorManager;->access$002(I)I
 
-    .line 547
+    .line 512
     iget-object v10, p0, Landroid/hardware/SensorManager$SensorThread$SensorThreadRunnable;->this$0:Landroid/hardware/SensorManager$SensorThread;
 
     const/4 v11, 0x0
 
     iput-object v11, v10, Landroid/hardware/SensorManager$SensorThread;->mThread:Ljava/lang/Thread;
 
-    .line 548
+    .line 513
     monitor-exit v9
 
     goto :goto_14
 
-    .line 565
+    .line 530
     :catchall_6a
     move-exception v10
 
@@ -217,7 +217,7 @@
 
     throw v10
 
-    .line 529
+    .line 494
     .end local v0           #accuracy:I
     .end local v3           #sensor:I
     :catchall_6d
@@ -230,7 +230,7 @@
 
     throw v9
 
-    .line 550
+    .line 515
     .restart local v0       #accuracy:I
     .restart local v3       #sensor:I
     :cond_70
@@ -243,18 +243,18 @@
 
     check-cast v4, Landroid/hardware/Sensor;
 
-    .line 551
+    .line 516
     .local v4, sensorObject:Landroid/hardware/Sensor;
     if-eqz v4, :cond_97
 
-    .line 554
+    .line 519
     sget-object v10, Landroid/hardware/SensorManager;->sListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
 
     move-result v5
 
-    .line 555
+    .line 520
     .local v5, size:I
     const/4 v1, 0x0
 
@@ -262,7 +262,7 @@
     :goto_81
     if-ge v1, v5, :cond_97
 
-    .line 556
+    .line 521
     sget-object v10, Landroid/hardware/SensorManager;->sListeners:Ljava/util/ArrayList;
 
     invoke-virtual {v10, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -271,7 +271,7 @@
 
     check-cast v2, Landroid/hardware/SensorManager$ListenerDelegate;
 
-    .line 557
+    .line 522
     .local v2, listener:Landroid/hardware/SensorManager$ListenerDelegate;
     invoke-virtual {v2, v4}, Landroid/hardware/SensorManager$ListenerDelegate;->hasSensor(Landroid/hardware/Sensor;)Z
 
@@ -279,16 +279,16 @@
 
     if-eqz v10, :cond_94
 
-    .line 560
+    .line 525
     invoke-virtual {v2, v4, v8, v7, v0}, Landroid/hardware/SensorManager$ListenerDelegate;->onSensorChangedLocked(Landroid/hardware/Sensor;[F[JI)V
 
-    .line 555
+    .line 520
     :cond_94
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_81
 
-    .line 565
+    .line 530
     .end local v1           #i:I
     .end local v2           #listener:Landroid/hardware/SensorManager$ListenerDelegate;
     .end local v5           #size:I

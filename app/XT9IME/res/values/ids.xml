@@ -36,6 +36,7 @@
     <item type="id" name="phrase_candidate_right_parent">false</item>
     <item type="id" name="phrase_candidate_right">false</item>
     <item type="id" name="phrase_shiftnum_left">false</item>
+    <item type="id" name="phrase_phonetic_symbols">false</item>
     <item type="id" name="chinese_handwriting_container">false</item>
     <item type="id" name="chinese_handwriting_area">false</item>
     <item type="id" name="chinese_handwriting_key_area">false</item>

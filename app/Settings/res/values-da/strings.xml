@@ -27,6 +27,9 @@ Tjek venligst certifikaternes gyldighed"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Det er ikke muligt, at konfigurere et WAPI CERT WLAN-tilslutning under opsætningen. Når du er færdig, kan du gøre dette i Indstillinger, under <b>Trådløs &amp; netværker</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT ikke understøttet</string>
     <string name="wifi_wapi_network_open">Åbn</string>
+    <string name="asus_wifi_setup_description_connected">"Tryk på Næste for at fortsætte med opsætningen.
+
+Tryk på Tilbage for at vælge et andet Wi-Fi-netværk."</string>
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
     <string name="device_info_default">Ukendte</string>
@@ -1313,7 +1316,4 @@ Fortsæt?"</string>
     <string name="select_all">Vælg alle</string>
     <string name="hdcp_checking_title">HDCP-kontrol</string>
     <string name="hdcp_checking_dialog_title">Indstil HDCP-kontroladfærd</string>
-    <string name="asus_wifi_setup_description_connected">"Tryk på Næste for at fortsætte med opsætningen.
-
-Tryk på Tilbage for at vælge et andet Wi-Fi-netværk."</string>
 </resources>

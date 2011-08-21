@@ -124,7 +124,7 @@
 
     .prologue
     .line 77
-    const v4, 0x7f0f00fc
+    const v4, 0x7f0f00fe
 
     invoke-virtual {p1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -134,7 +134,7 @@
 
     .line 78
     .local v3, usernameView:Landroid/widget/TextView;
-    const v4, 0x7f0f00fd
+    const v4, 0x7f0f00ff
 
     invoke-virtual {p1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -144,7 +144,7 @@
 
     .line 79
     .local v1, passwordView:Landroid/widget/TextView;
-    const v4, 0x7f0f00ff
+    const v4, 0x7f0f0101
 
     invoke-virtual {p1, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
 
     .line 97
     .local v4, v:Landroid/view/View;
-    const v5, 0x7f0f00fc
+    const v5, 0x7f0f00fe
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     .line 98
     .local v3, usernameView:Landroid/widget/TextView;
-    const v5, 0x7f0f00fd
+    const v5, 0x7f0f00ff
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
 
     .line 99
     .local v0, passwordView:Landroid/widget/TextView;
-    const v5, 0x7f0f00ff
+    const v5, 0x7f0f0101
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
 
     .prologue
     .line 63
-    const v3, 0x7f0f00fc
+    const v3, 0x7f0f00fe
 
     invoke-virtual {p1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -354,7 +354,7 @@
 
     .line 64
     .local v2, usernameView:Landroid/widget/TextView;
-    const v3, 0x7f0f00fd
+    const v3, 0x7f0f00ff
 
     invoke-virtual {p1, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     if-eqz v3, :cond_0
 
     .line 67
-    const v3, 0x7f0804a9
+    const v3, 0x7f0804b5
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
     if-eqz v3, :cond_1
 
     .line 69
-    const v3, 0x7f0804aa
+    const v3, 0x7f0804b6
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

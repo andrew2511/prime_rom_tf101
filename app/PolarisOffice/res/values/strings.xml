@@ -3,7 +3,7 @@
     <string name="app_name">Polaris Office</string>
     <string name="app_build_revision">Polaris Office 3.0</string>
     <string name="app_build_version_number">5r</string>
-    <string name="app_minor_version">6216</string>
+    <string name="app_minor_version">6512</string>
     <string name="app_code_type">FV</string>
     <string name="app_vender_number">06</string>
     <string name="no_sdcard">Please insert an SD card</string>

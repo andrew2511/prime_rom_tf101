@@ -64,7 +64,7 @@
     .line 128
     iget-object v1, p0, Lcom/android/settings/vpn/VpnProfileEditor$3;->this$0:Lcom/android/settings/vpn/VpnProfileEditor;
 
-    const v2, 0x7f0804e4
+    const v2, 0x7f0804f0
 
     invoke-virtual {v1, p1, v2, v0}, Lcom/android/settings/vpn/VpnProfileEditor;->setSummary(Landroid/preference/Preference;ILjava/lang/String;)V
 

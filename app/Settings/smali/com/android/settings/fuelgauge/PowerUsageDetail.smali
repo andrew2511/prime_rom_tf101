@@ -85,13 +85,13 @@
 
     :array_0
     .array-data 0x4
-        0x62t 0x4t 0x8t 0x7ft
-        0x63t 0x4t 0x8t 0x7ft
-        0x61t 0x4t 0x8t 0x7ft
-        0x67t 0x4t 0x8t 0x7ft
-        0x69t 0x4t 0x8t 0x7ft
-        0x65t 0x4t 0x8t 0x7ft
-        0x6ct 0x4t 0x8t 0x7ft
+        0x6et 0x4t 0x8t 0x7ft
+        0x6ft 0x4t 0x8t 0x7ft
+        0x6dt 0x4t 0x8t 0x7ft
+        0x73t 0x4t 0x8t 0x7ft
+        0x75t 0x4t 0x8t 0x7ft
+        0x71t 0x4t 0x8t 0x7ft
+        0x78t 0x4t 0x8t 0x7ft
     .end array-data
 .end method
 
@@ -174,7 +174,7 @@
 
     .line 394
     .local v0, actionButton:Landroid/widget/Button;
-    const v5, 0x7f0f008e
+    const v5, 0x7f0f0090
 
     invoke-virtual {v2, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -466,7 +466,7 @@
     .local v10, summary:Ljava/lang/String;
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f008e
+    const v12, 0x7f0f0090
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
     .line 192
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f0092
+    const v12, 0x7f0f0094
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -548,7 +548,7 @@
     .line 195
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f0094
+    const v12, 0x7f0f0096
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
     .line 196
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f00f3
+    const v12, 0x7f0f00f5
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -574,7 +574,7 @@
     .line 197
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f00f4
+    const v12, 0x7f0f00f6
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -594,7 +594,7 @@
     .line 200
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f0093
+    const v12, 0x7f0f0095
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -657,7 +657,7 @@
     .line 209
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f0095
+    const v12, 0x7f0f0097
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -670,7 +670,7 @@
     .line 210
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v12, 0x7f0f0096
+    const v12, 0x7f0f0098
 
     invoke-virtual {v11, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -703,7 +703,7 @@
     .line 217
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mForceStopButton:Landroid/widget/Button;
 
-    const v12, 0x7f08036d
+    const v12, 0x7f080377
 
     invoke-virtual {v11, v12}, Landroid/widget/Button;->setText(I)V
 
@@ -726,7 +726,7 @@
     .line 220
     iget-object v11, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mReportButton:Landroid/widget/Button;
 
-    const v12, 0x104034f
+    const v12, 0x104034c
 
     invoke-virtual {v11, v12}, Landroid/widget/Button;->setText(I)V
 
@@ -948,7 +948,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080223
+    const v3, 0x7f08022d
 
     move-object v4, v2
 
@@ -966,7 +966,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0801af
+    const v3, 0x7f0801b9
 
     move-object v4, v2
 
@@ -984,7 +984,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08016a
+    const v3, 0x7f080174
 
     move-object v4, v2
 
@@ -1002,7 +1002,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0800fd
+    const v3, 0x7f080107
 
     move-object v4, v2
 
@@ -1026,7 +1026,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080121
+    const v3, 0x7f08012b
 
     move-object v4, v2
 
@@ -1205,9 +1205,9 @@
     if-nez v1, :cond_6
 
     .line 344
-    const v6, 0x7f08045c
+    const v6, 0x7f080468
 
-    const v7, 0x7f08046d
+    const v7, 0x7f080479
 
     const/4 v8, 0x5
 
@@ -1223,9 +1223,9 @@
     if-eqz v6, :cond_0
 
     .line 351
-    const v6, 0x7f080121
+    const v6, 0x7f08012b
 
-    const v7, 0x7f08046e
+    const v7, 0x7f08047a
 
     const/4 v8, 0x6
 
@@ -1238,9 +1238,9 @@
 
     .line 357
     :pswitch_1
-    const v6, 0x7f08025b
+    const v6, 0x7f080265
 
-    const v7, 0x7f080466
+    const v7, 0x7f080472
 
     invoke-direct {p0, v6, v7, v9}, Lcom/android/settings/fuelgauge/PowerUsageDetail;->addControl(III)V
 
@@ -1252,9 +1252,9 @@
 
     .line 363
     :pswitch_2
-    const v6, 0x7f0801af
+    const v6, 0x7f0801b9
 
-    const v7, 0x7f080468
+    const v7, 0x7f080474
 
     const/4 v8, 0x2
 
@@ -1268,9 +1268,9 @@
 
     .line 369
     :pswitch_3
-    const v6, 0x7f08016a
+    const v6, 0x7f080174
 
-    const v7, 0x7f08046a
+    const v7, 0x7f080476
 
     const/4 v8, 0x3
 
@@ -1293,9 +1293,9 @@
     if-lez v6, :cond_0
 
     .line 376
-    const v6, 0x7f0800fd
+    const v6, 0x7f080107
 
-    const v7, 0x7f080464
+    const v7, 0x7f080470
 
     const/4 v8, 0x4
 
@@ -1435,7 +1435,7 @@
     invoke-virtual {v7, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 321
-    const v7, 0x7f0f0090
+    const v7, 0x7f0f0092
 
     invoke-virtual {v2, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1445,7 +1445,7 @@
 
     .line 322
     .local v4, labelView:Landroid/widget/TextView;
-    const v7, 0x7f0f0091
+    const v7, 0x7f0f0093
 
     invoke-virtual {v2, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1528,7 +1528,7 @@
 
     .line 304
     :pswitch_data_0
-    .packed-switch 0x7f080452
+    .packed-switch 0x7f08045e
         :pswitch_3
         :pswitch_0
         :pswitch_0
@@ -1563,7 +1563,7 @@
     :cond_1
     iget-object v8, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v9, 0x7f0f0099
+    const v9, 0x7f0f009b
 
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1681,7 +1681,7 @@
     invoke-virtual {v6, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 499
-    const v8, 0x7f0f0090
+    const v8, 0x7f0f0092
 
     invoke-virtual {v3, v8}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1809,7 +1809,7 @@
     .line 403
     iget-object v1, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v2, 0x7f0f0098
+    const v2, 0x7f0f009a
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1825,7 +1825,7 @@
     :cond_0
     iget-object v1, p0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v2, 0x7f0f0099
+    const v2, 0x7f0f009b
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2041,7 +2041,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080364
+    const v3, 0x7f08036e
 
     move-object v5, v4
 

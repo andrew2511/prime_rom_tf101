@@ -740,7 +740,7 @@
     invoke-virtual {v6, v7}, Landroid/view/Window;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 104
-    const v7, 0x1090072
+    const v7, 0x1090071
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->setContentView(I)V
 
@@ -765,7 +765,7 @@
     .line 112
     iget-object v8, p0, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->mIcons:[Landroid/widget/TextView;
 
-    const v7, 0x10202a5
+    const v7, 0x10202a1
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 
@@ -821,7 +821,7 @@
 
     const/4 v9, 0x4
 
-    const v7, 0x10202a6
+    const v7, 0x10202a2
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 
@@ -836,7 +836,7 @@
 
     const/4 v9, 0x5
 
-    const v7, 0x10202a7
+    const v7, 0x10202a3
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 
@@ -851,7 +851,7 @@
 
     const/4 v9, 0x6
 
-    const v7, 0x10202a8
+    const v7, 0x10202a4
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 
@@ -866,7 +866,7 @@
 
     const/4 v9, 0x7
 
-    const v7, 0x10202a9
+    const v7, 0x10202a5
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 
@@ -877,7 +877,7 @@
     aput-object v7, v8, v9
 
     .line 120
-    const v7, 0x10202a4
+    const v7, 0x10202a0
 
     invoke-virtual {p0, v7}, Lcom/android/internal/policy/impl/RecentApplicationsDialog;->findViewById(I)Landroid/view/View;
 

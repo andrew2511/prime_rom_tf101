@@ -64,7 +64,7 @@
     .line 110
     iget-object v1, p0, Lcom/android/settings/vpn/VpnProfileEditor$2;->this$0:Lcom/android/settings/vpn/VpnProfileEditor;
 
-    const v2, 0x7f0804e8
+    const v2, 0x7f0804f4
 
     const/4 v3, 0x0
 

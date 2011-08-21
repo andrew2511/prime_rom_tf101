@@ -397,7 +397,7 @@
 
     if-eqz v0, :cond_2
 
-    const v5, 0x7f08010d
+    const v5, 0x7f080117
 
     :goto_1
     invoke-virtual {v4, v5}, Landroid/widget/CompoundButton;->setText(I)V
@@ -509,7 +509,7 @@
 
     .line 140
     :cond_2
-    const v5, 0x7f08010e
+    const v5, 0x7f080118
 
     goto :goto_1
 

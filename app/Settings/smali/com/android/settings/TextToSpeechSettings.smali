@@ -313,7 +313,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f080498
+    const v14, 0x7f0804a4
 
     const/4 v15, 0x1
 
@@ -2676,7 +2676,7 @@
 
     move-result-object v18
 
-    const v19, 0x7f080491
+    const v19, 0x7f08049d
 
     invoke-virtual/range {v18 .. v19}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3632,7 +3632,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080496
+    const v5, 0x7f0804a2
 
     new-array v6, v9, [Ljava/lang/Object;
 

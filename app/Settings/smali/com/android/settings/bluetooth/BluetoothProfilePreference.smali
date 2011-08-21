@@ -81,7 +81,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 76
-    const v1, 0x7f0f009d
+    const v1, 0x7f0f009f
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x108026a
+    const v2, 0x1080268
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -130,7 +130,7 @@
 
     .line 80
     :cond_0
-    const v2, 0x1080271
+    const v2, 0x108026f
 
     goto :goto_0
 

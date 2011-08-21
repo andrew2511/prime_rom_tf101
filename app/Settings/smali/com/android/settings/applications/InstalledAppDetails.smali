@@ -83,6 +83,8 @@
 
 .field private mPm:Landroid/content/pm/PackageManager;
 
+.field private mResolutionBackwardCB:Landroid/widget/CheckBox;
+
 .field private mRootView:Landroid/view/View;
 
 .field private mScreenCompatSection:Landroid/view/View;
@@ -107,53 +109,53 @@
 
     const-wide/16 v1, -0x1
 
-    .line 78
+    .line 77
     invoke-direct {p0}, Landroid/app/Fragment;-><init>()V
 
-    .line 95
+    .line 94
     iput-boolean v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveInProgress:Z
 
-    .line 96
+    .line 95
     iput-boolean v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUpdatedSysApp:Z
 
-    .line 101
+    .line 103
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCanClearData:Z
 
-    .line 118
+    .line 120
     iput-boolean v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mHaveSizes:Z
 
-    .line 119
+    .line 121
     iput-wide v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCodeSize:J
 
-    .line 120
+    .line 122
     iput-wide v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastDataSize:J
 
-    .line 121
+    .line 123
     iput-wide v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastExternalSize:J
 
-    .line 122
+    .line 124
     iput-wide v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCacheSize:J
 
-    .line 123
+    .line 125
     iput-wide v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastTotalSize:J
 
-    .line 149
+    .line 151
     new-instance v0, Lcom/android/settings/applications/InstalledAppDetails$1;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/InstalledAppDetails$1;-><init>(Lcom/android/settings/applications/InstalledAppDetails;)V
 
     iput-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mHandler:Landroid/os/Handler;
 
-    .line 775
+    .line 794
     new-instance v0, Lcom/android/settings/applications/InstalledAppDetails$2;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/InstalledAppDetails$2;-><init>(Lcom/android/settings/applications/InstalledAppDetails;)V
 
     iput-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCheckKillProcessesReceiver:Landroid/content/BroadcastReceiver;
 
-    .line 802
+    .line 821
     return-void
 .end method
 
@@ -163,7 +165,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->processClearMsg(Landroid/os/Message;)V
 
     return-void
@@ -174,7 +176,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     return-object v0
@@ -186,7 +188,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->getMoveErrMsg(I)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -200,7 +202,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->updateForceStopButton(Z)V
 
     return-void
@@ -211,7 +213,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPm:Landroid/content/pm/PackageManager;
 
     return-object v0
@@ -222,7 +224,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     return-object v0
@@ -234,7 +236,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->processMoveMsg(Landroid/os/Message;)V
 
     return-void
@@ -245,7 +247,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mHandler:Landroid/os/Handler;
 
     return-object v0
@@ -256,7 +258,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->initiateClearUserData()V
 
     return-void
@@ -268,7 +270,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->uninstallPkg(Ljava/lang/String;)V
 
     return-void
@@ -281,7 +283,7 @@
     .parameter "x2"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1, p2}, Lcom/android/settings/applications/InstalledAppDetails;->setIntentAndFinish(ZZ)V
 
     return-void
@@ -292,7 +294,7 @@
     .parameter "x0"
 
     .prologue
-    .line 78
+    .line 77
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     return-object v0
@@ -304,7 +306,7 @@
     .parameter "x1"
 
     .prologue
-    .line 78
+    .line 77
     invoke-direct {p0, p1}, Lcom/android/settings/applications/InstalledAppDetails;->forceStopPackage(Ljava/lang/String;)V
 
     return-void
@@ -320,7 +322,7 @@
 
     const/4 v2, 0x0
 
-    .line 788
+    .line 807
     new-instance v1, Landroid/content/Intent;
 
     const-string v0, "android.intent.action.QUERY_PACKAGE_RESTART"
@@ -339,7 +341,7 @@
 
     invoke-direct {v1, v0, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 790
+    .line 809
     .local v1, intent:Landroid/content/Intent;
     const-string v0, "android.intent.extra.PACKAGES"
 
@@ -355,7 +357,7 @@
 
     invoke-virtual {v1, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 791
+    .line 810
     const-string v0, "android.intent.extra.UID"
 
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -366,7 +368,7 @@
 
     invoke-virtual {v1, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 792
+    .line 811
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
@@ -379,14 +381,14 @@
 
     if-nez v0, :cond_0
 
-    .line 795
+    .line 814
     invoke-direct {p0, v6}, Lcom/android/settings/applications/InstalledAppDetails;->updateForceStopButton(Z)V
 
-    .line 800
+    .line 819
     :goto_0
     return-void
 
-    .line 797
+    .line 816
     :cond_0
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
@@ -410,7 +412,7 @@
     .parameter "pkgName"
 
     .prologue
-    .line 764
+    .line 783
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v2
@@ -423,34 +425,34 @@
 
     check-cast v0, Landroid/app/ActivityManager;
 
-    .line 766
+    .line 785
     .local v0, am:Landroid/app/ActivityManager;
     invoke-virtual {v0, p1}, Landroid/app/ActivityManager;->forceStopPackage(Ljava/lang/String;)V
 
-    .line 767
+    .line 786
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     invoke-virtual {v2, p1}, Lcom/android/settings/applications/ApplicationsState;->invalidatePackage(Ljava/lang/String;)V
 
-    .line 768
+    .line 787
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     invoke-virtual {v2, p1}, Lcom/android/settings/applications/ApplicationsState;->getEntry(Ljava/lang/String;)Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     move-result-object v1
 
-    .line 769
+    .line 788
     .local v1, newEnt:Lcom/android/settings/applications/ApplicationsState$AppEntry;
     if-eqz v1, :cond_0
 
-    .line 770
+    .line 789
     iput-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
-    .line 772
+    .line 791
     :cond_0
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->checkForceStop()V
 
-    .line 773
+    .line 792
     return-void
 .end method
 
@@ -459,36 +461,22 @@
     .parameter "errCode"
 
     .prologue
-    .line 221
+    .line 223
     packed-switch p1, :pswitch_data_0
 
-    .line 235
+    .line 237
     const-string v0, ""
 
     :goto_0
     return-object v0
 
-    .line 223
+    .line 225
     :pswitch_0
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f0803a2
-
-    invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    goto :goto_0
-
-    .line 225
-    :pswitch_1
-    invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
-
-    move-result-object v0
-
-    const v1, 0x7f0803a3
+    const v1, 0x7f0803ae
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -497,12 +485,12 @@
     goto :goto_0
 
     .line 227
-    :pswitch_2
+    :pswitch_1
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f0803a4
+    const v1, 0x7f0803af
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -511,12 +499,12 @@
     goto :goto_0
 
     .line 229
-    :pswitch_3
+    :pswitch_2
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f0803a5
+    const v1, 0x7f0803b0
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -525,12 +513,12 @@
     goto :goto_0
 
     .line 231
-    :pswitch_4
+    :pswitch_3
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f0803a6
+    const v1, 0x7f0803b1
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -539,12 +527,26 @@
     goto :goto_0
 
     .line 233
+    :pswitch_4
+    invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    const v1, 0x7f0803b2
+
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 235
     :pswitch_5
     const-string v0, ""
 
     goto :goto_0
 
-    .line 221
+    .line 223
     nop
 
     :pswitch_data_0
@@ -563,21 +565,21 @@
     .parameter "size"
 
     .prologue
-    .line 197
+    .line 199
     const-wide/16 v0, -0x1
 
     cmp-long v0, p1, v0
 
     if-nez v0, :cond_0
 
-    .line 198
+    .line 200
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mInvalidSizeStr:Ljava/lang/CharSequence;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 200
+    .line 202
     :goto_0
     return-object v0
 
@@ -597,11 +599,11 @@
     .locals 4
 
     .prologue
-    const v3, 0x7f080375
+    const v3, 0x7f08037f
 
     const/4 v2, 0x0
 
-    .line 204
+    .line 206
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
@@ -614,24 +616,24 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 207
+    .line 209
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setText(I)V
 
-    .line 208
+    .line 210
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 209
+    .line 211
     iput-boolean v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCanClearData:Z
 
-    .line 218
+    .line 220
     :goto_0
     return-void
 
-    .line 211
+    .line 213
     :cond_0
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -641,14 +643,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 212
+    .line 214
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v1, 0x7f080382
+    const v1, 0x7f08038e
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
-    .line 216
+    .line 218
     :goto_1
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
@@ -656,7 +658,7 @@
 
     goto :goto_0
 
-    .line 214
+    .line 216
     :cond_1
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
@@ -673,29 +675,29 @@
 
     const/4 v4, 0x0
 
-    .line 239
+    .line 241
     invoke-static {}, Landroid/os/Environment;->isExternalStorageEmulated()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 240
+    .line 242
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     const/4 v3, 0x4
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 263
+    .line 265
     :goto_0
     return-void
 
-    .line 243
+    .line 245
     :cond_0
     const/4 v0, 0x0
 
-    .line 244
+    .line 246
     .local v0, dataOnly:Z
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPackageInfo:Landroid/content/pm/PackageInfo;
 
@@ -707,26 +709,26 @@
 
     move v0, v5
 
-    .line 245
+    .line 247
     :goto_1
     const/4 v1, 0x1
 
-    .line 246
+    .line 248
     .local v1, moveDisable:Z
     if-eqz v0, :cond_2
 
-    .line 247
+    .line 249
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v3, 0x7f08039e
+    const v3, 0x7f0803aa
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
-    .line 257
+    .line 259
     :goto_2
     if-eqz v1, :cond_5
 
-    .line 258
+    .line 260
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     invoke-virtual {v2, v4}, Landroid/widget/Button;->setEnabled(Z)V
@@ -737,10 +739,10 @@
     :cond_1
     move v0, v4
 
-    .line 244
+    .line 246
     goto :goto_1
 
-    .line 248
+    .line 250
     .restart local v1       #moveDisable:Z
     :cond_2
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -755,32 +757,32 @@
 
     if-eqz v2, :cond_3
 
-    .line 249
+    .line 251
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v3, 0x7f08039f
+    const v3, 0x7f0803ab
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
-    .line 251
+    .line 253
     const/4 v1, 0x0
 
     goto :goto_2
 
-    .line 253
+    .line 255
     :cond_3
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v3, 0x7f0803a0
+    const v3, 0x7f0803ac
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
-    .line 254
+    .line 256
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCanBeOnSdCardChecker:Lcom/android/settings/applications/CanBeOnSdCardChecker;
 
     invoke-virtual {v2}, Lcom/android/settings/applications/CanBeOnSdCardChecker;->init()V
 
-    .line 255
+    .line 257
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCanBeOnSdCardChecker:Lcom/android/settings/applications/CanBeOnSdCardChecker;
 
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -803,13 +805,13 @@
 
     goto :goto_3
 
-    .line 260
+    .line 262
     :cond_5
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     invoke-virtual {v2, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 261
+    .line 263
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     invoke-virtual {v2, v5}, Landroid/widget/Button;->setEnabled(Z)V
@@ -821,7 +823,7 @@
     .locals 3
 
     .prologue
-    .line 266
+    .line 268
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v1, v1, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
@@ -837,48 +839,48 @@
     :goto_0
     iput-boolean v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUpdatedSysApp:Z
 
-    .line 267
+    .line 269
     const/4 v0, 0x1
 
-    .line 268
+    .line 270
     .local v0, enabled:Z
     iget-boolean v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUpdatedSysApp:Z
 
     if-eqz v1, :cond_2
 
-    .line 269
+    .line 271
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
-    const v2, 0x7f080376
+    const v2, 0x7f080380
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
-    .line 304
+    .line 306
     :goto_1
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 305
+    .line 307
     if-eqz v0, :cond_0
 
-    .line 307
+    .line 309
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
     invoke-virtual {v1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 309
+    .line 311
     :cond_0
     return-void
 
-    .line 266
+    .line 268
     .end local v0           #enabled:Z
     :cond_1
     const/4 v1, 0x0
 
     goto :goto_0
 
-    .line 271
+    .line 273
     .restart local v0       #enabled:Z
     :cond_2
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -891,16 +893,16 @@
 
     if-eqz v1, :cond_3
 
-    .line 272
+    .line 274
     const/4 v0, 0x0
 
     goto :goto_1
 
-    .line 301
+    .line 303
     :cond_3
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
-    const v2, 0x7f080372
+    const v2, 0x7f08037c
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -913,19 +915,19 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 627
+    .line 646
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v3, v6}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 629
+    .line 648
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v3, v3, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
 
     iget-object v1, v3, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 630
+    .line 649
     .local v1, packageName:Ljava/lang/String;
     const-string v3, "InstalledAppDetails"
 
@@ -949,19 +951,19 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 631
+    .line 650
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataObserver:Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;
 
     if-nez v3, :cond_0
 
-    .line 632
+    .line 651
     new-instance v3, Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;
 
     invoke-direct {v3, p0}, Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;-><init>(Lcom/android/settings/applications/InstalledAppDetails;)V
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataObserver:Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;
 
-    .line 634
+    .line 653
     :cond_0
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
@@ -975,7 +977,7 @@
 
     check-cast v0, Landroid/app/ActivityManager;
 
-    .line 636
+    .line 655
     .local v0, am:Landroid/app/ActivityManager;
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataObserver:Lcom/android/settings/applications/InstalledAppDetails$ClearUserDataObserver;
 
@@ -983,11 +985,11 @@
 
     move-result v2
 
-    .line 637
+    .line 656
     .local v2, res:Z
     if-nez v2, :cond_1
 
-    .line 639
+    .line 658
     const-string v3, "InstalledAppDetails"
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1010,20 +1012,20 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 640
+    .line 659
     const/4 v3, 0x4
 
     invoke-direct {p0, v3, v6}, Lcom/android/settings/applications/InstalledAppDetails;->showDialogInner(II)V
 
-    .line 644
+    .line 663
     :goto_0
     return-void
 
-    .line 642
+    .line 661
     :cond_1
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v4, 0x7f08038d
+    const v4, 0x7f080399
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setText(I)V
 
@@ -1037,10 +1039,10 @@
     .prologue
     const/4 v4, 0x1
 
-    .line 583
+    .line 602
     iget v1, p1, Landroid/os/Message;->arg1:I
 
-    .line 584
+    .line 603
     .local v1, result:I
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -1048,18 +1050,18 @@
 
     iget-object v0, v2, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 585
+    .line 604
     .local v0, packageName:Ljava/lang/String;
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v3, 0x7f080375
+    const v3, 0x7f08037f
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
-    .line 586
+    .line 605
     if-ne v1, v4, :cond_0
 
-    .line 587
+    .line 606
     const-string v2, "InstalledAppDetails"
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1082,7 +1084,7 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 588
+    .line 607
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1093,14 +1095,14 @@
 
     invoke-virtual {v2, v3}, Lcom/android/settings/applications/ApplicationsState;->requestSize(Ljava/lang/String;)V
 
-    .line 592
+    .line 611
     :goto_0
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->checkForceStop()V
 
-    .line 593
+    .line 612
     return-void
 
-    .line 590
+    .line 609
     :cond_0
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
@@ -1114,10 +1116,10 @@
     .parameter "msg"
 
     .prologue
-    .line 608
+    .line 627
     iget v1, p1, Landroid/os/Message;->arg1:I
 
-    .line 609
+    .line 628
     .local v1, result:I
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -1125,18 +1127,18 @@
 
     iget-object v0, v2, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 611
+    .line 630
     .local v0, packageName:Ljava/lang/String;
     const/4 v2, 0x0
 
     iput-boolean v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveInProgress:Z
 
-    .line 612
+    .line 631
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 613
+    .line 632
     const-string v2, "InstalledAppDetails"
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1159,7 +1161,7 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 615
+    .line 634
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1170,14 +1172,14 @@
 
     invoke-virtual {v2, v3}, Lcom/android/settings/applications/ApplicationsState;->requestSize(Ljava/lang/String;)V
 
-    .line 619
+    .line 638
     :goto_0
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshUi()Z
 
-    .line 620
+    .line 639
     return-void
 
-    .line 617
+    .line 636
     :cond_0
     const/4 v2, 0x6
 
@@ -1192,38 +1194,38 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 596
+    .line 615
     iget-boolean v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveInProgress:Z
 
     if-nez v0, :cond_0
 
-    .line 597
+    .line 616
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->initUninstallButtons()V
 
-    .line 598
+    .line 617
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->initDataButtons()V
 
-    .line 599
+    .line 618
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->initMoveButton()V
 
-    .line 605
+    .line 624
     :goto_0
     return-void
 
-    .line 601
+    .line 620
     :cond_0
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v1, 0x7f0803a1
+    const v1, 0x7f0803ad
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
-    .line 602
+    .line 621
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 603
+    .line 622
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
@@ -1243,7 +1245,7 @@
 
     const/4 v4, 0x0
 
-    .line 528
+    .line 547
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->size:J
@@ -1262,7 +1264,7 @@
 
     if-nez v0, :cond_2
 
-    .line 530
+    .line 549
     :cond_0
     iput-wide v6, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastTotalSize:J
 
@@ -1272,59 +1274,59 @@
 
     iput-wide v6, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCodeSize:J
 
-    .line 531
+    .line 550
     iget-boolean v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mHaveSizes:Z
 
     if-nez v0, :cond_1
 
-    .line 532
+    .line 551
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mComputingStr:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 533
+    .line 552
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mDataSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mComputingStr:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 534
+    .line 553
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCacheSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mComputingStr:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 535
+    .line 554
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mTotalSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mComputingStr:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 537
+    .line 556
     :cond_1
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 538
+    .line 557
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 576
+    .line 595
     :goto_0
     return-void
 
-    .line 541
+    .line 560
     :cond_2
     iput-boolean v5, p0, Lcom/android/settings/applications/InstalledAppDetails;->mHaveSizes:Z
 
-    .line 542
+    .line 561
     iget-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCodeSize:J
 
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1335,14 +1337,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 543
+    .line 562
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->codeSize:J
 
     iput-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCodeSize:J
 
-    .line 544
+    .line 563
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1355,7 +1357,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 546
+    .line 565
     :cond_3
     iget-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastDataSize:J
 
@@ -1367,14 +1369,14 @@
 
     if-eqz v0, :cond_4
 
-    .line 547
+    .line 566
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->dataSize:J
 
     iput-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastDataSize:J
 
-    .line 548
+    .line 567
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mDataSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1387,7 +1389,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 550
+    .line 569
     :cond_4
     iget-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastExternalSize:J
 
@@ -1399,14 +1401,14 @@
 
     if-eqz v0, :cond_5
 
-    .line 551
+    .line 570
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->externalSize:J
 
     iput-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastExternalSize:J
 
-    .line 552
+    .line 571
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mExternalSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1419,7 +1421,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 554
+    .line 573
     :cond_5
     iget-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCacheSize:J
 
@@ -1431,14 +1433,14 @@
 
     if-eqz v0, :cond_6
 
-    .line 555
+    .line 574
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->cacheSize:J
 
     iput-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastCacheSize:J
 
-    .line 556
+    .line 575
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCacheSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1451,7 +1453,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 558
+    .line 577
     :cond_6
     iget-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastTotalSize:J
 
@@ -1463,14 +1465,14 @@
 
     if-eqz v0, :cond_7
 
-    .line 559
+    .line 578
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-wide v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->size:J
 
     iput-wide v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mLastTotalSize:J
 
-    .line 560
+    .line 579
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mTotalSize:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1483,7 +1485,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 563
+    .line 582
     :cond_7
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -1497,13 +1499,13 @@
 
     if-nez v0, :cond_9
 
-    .line 564
+    .line 583
     :cond_8
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 569
+    .line 588
     :goto_1
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -1513,33 +1515,33 @@
 
     if-gtz v0, :cond_a
 
-    .line 570
+    .line 589
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
     goto/16 :goto_0
 
-    .line 566
+    .line 585
     :cond_9
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 567
+    .line 586
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_1
 
-    .line 572
+    .line 591
     :cond_a
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 573
+    .line 592
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -1551,7 +1553,7 @@
     .locals 20
 
     .prologue
-    .line 428
+    .line 434
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveInProgress:Z
@@ -1560,20 +1562,20 @@
 
     if-eqz v17, :cond_0
 
-    .line 429
+    .line 435
     const/16 v17, 0x1
 
-    .line 516
+    .line 535
     :goto_0
     return v17
 
-    .line 431
+    .line 437
     :cond_0
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->getArguments()Landroid/os/Bundle;
 
     move-result-object v5
 
-    .line 432
+    .line 438
     .local v5, args:Landroid/os/Bundle;
     if-eqz v5, :cond_2
 
@@ -1589,12 +1591,12 @@
 
     move-object/from16 v13, v17
 
-    .line 433
+    .line 439
     .local v13, packageName:Ljava/lang/String;
     :goto_1
     if-nez v13, :cond_1
 
-    .line 434
+    .line 440
     if-nez v5, :cond_3
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
@@ -1607,12 +1609,12 @@
 
     move-object/from16 v11, v17
 
-    .line 436
+    .line 442
     .local v11, intent:Landroid/content/Intent;
     :goto_2
     if-eqz v11, :cond_1
 
-    .line 437
+    .line 443
     invoke-virtual {v11}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object v17
@@ -1621,7 +1623,7 @@
 
     move-result-object v13
 
-    .line 440
+    .line 446
     .end local v11           #intent:Landroid/content/Intent;
     :cond_1
     move-object/from16 v0, p0
@@ -1644,7 +1646,7 @@
 
     iput-object v0, v1, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
-    .line 442
+    .line 448
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -1653,12 +1655,12 @@
 
     if-nez v17, :cond_4
 
-    .line 443
+    .line 449
     const/16 v17, 0x0
 
     goto :goto_0
 
-    .line 432
+    .line 438
     .end local v13           #packageName:Ljava/lang/String;
     :cond_2
     const/16 v17, 0x0
@@ -1667,7 +1669,7 @@
 
     goto :goto_1
 
-    .line 434
+    .line 440
     .restart local v13       #packageName:Ljava/lang/String;
     :cond_3
     const-string v17, "intent"
@@ -1686,7 +1688,7 @@
 
     goto :goto_2
 
-    .line 448
+    .line 454
     :cond_4
     :try_start_0
     move-object/from16 v0, p0
@@ -1727,18 +1729,18 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 458
+    .line 464
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    .line 461
+    .line 467
     .local v15, prefActList:Ljava/util/List;,"Ljava/util/List<Landroid/content/ComponentName;>;"
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
 
-    .line 462
+    .line 468
     .local v12, intentList:Ljava/util/List;,"Ljava/util/List<Landroid/content/IntentFilter;>;"
     move-object/from16 v0, p0
 
@@ -1756,10 +1758,10 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/pm/PackageManager;->getPreferredActivities(Ljava/util/List;Ljava/util/List;Ljava/lang/String;)I
 
-    .line 464
+    .line 470
     const/4 v10, 0x0
 
-    .line 466
+    .line 472
     .local v10, hasUsbDefaults:Z
     :try_start_1
     move-object/from16 v0, p0
@@ -1778,7 +1780,7 @@
 
     move-result v10
 
-    .line 470
+    .line 476
     :goto_3
     move-object/from16 v0, p0
 
@@ -1794,7 +1796,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    .line 471
+    .line 477
     .local v7, autoLaunchView:Landroid/widget/TextView;
     invoke-interface {v15}, Ljava/util/List;->size()I
 
@@ -1804,8 +1806,8 @@
 
     if-nez v10, :cond_5
 
-    .line 473
-    const v17, 0x7f080378
+    .line 479
+    const v17, 0x7f080382
 
     move-object v0, v7
 
@@ -1813,7 +1815,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 474
+    .line 480
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
@@ -1824,7 +1826,7 @@
 
     invoke-virtual/range {v17 .. v18}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 482
+    .line 488
     :goto_4
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
@@ -1838,13 +1840,13 @@
 
     check-cast v4, Landroid/app/ActivityManager;
 
-    .line 484
+    .line 490
     .local v4, am:Landroid/app/ActivityManager;
     invoke-virtual {v4, v13}, Landroid/app/ActivityManager;->getPackageScreenCompatMode(Ljava/lang/String;)I
 
     move-result v8
 
-    .line 495
+    .line 504
     .local v8, compatMode:I
     move-object/from16 v0, p0
 
@@ -1852,18 +1854,72 @@
 
     move-object/from16 v17, v0
 
-    const/16 v18, 0x8
+    const/16 v18, 0x0
 
     invoke-virtual/range {v17 .. v18}, Landroid/view/View;->setVisibility(I)V
 
-    .line 499
+    .line 505
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mAskCompatibilityCB:Landroid/widget/CheckBox;
+
+    move-object/from16 v17, v0
+
+    const/16 v18, 0x8
+
+    invoke-virtual/range {v17 .. v18}, Landroid/widget/CheckBox;->setVisibility(I)V
+
+    .line 506
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mEnableCompatibilityCB:Landroid/widget/CheckBox;
+
+    move-object/from16 v17, v0
+
+    const/16 v18, 0x8
+
+    invoke-virtual/range {v17 .. v18}, Landroid/widget/CheckBox;->setVisibility(I)V
+
+    .line 507
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    move-object/from16 v17, v0
+
+    move-object/from16 v0, v17
+
+    move-object/from16 v1, p0
+
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    .line 508
+    invoke-virtual {v4, v13}, Landroid/app/ActivityManager;->isPkgInResolutionBackwardPkgs(Ljava/lang/String;)Z
+
+    move-result v17
+
+    if-eqz v17, :cond_6
+
+    .line 510
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    move-object/from16 v17, v0
+
+    const/16 v18, 0x1
+
+    invoke-virtual/range {v17 .. v18}, Landroid/widget/CheckBox;->setChecked(Z)V
+
+    .line 518
+    :goto_5
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mRootView:Landroid/view/View;
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0f006c
+    const v18, 0x7f0f006e
 
     invoke-virtual/range {v17 .. v18}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1871,7 +1927,7 @@
 
     check-cast v14, Landroid/widget/LinearLayout;
 
-    .line 500
+    .line 519
     .local v14, permsView:Landroid/widget/LinearLayout;
     new-instance v6, Landroid/widget/AppSecurityPermissions;
 
@@ -1887,15 +1943,15 @@
 
     invoke-direct {v0, v1, v2}, Landroid/widget/AppSecurityPermissions;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 501
+    .line 520
     .local v6, asp:Landroid/widget/AppSecurityPermissions;
     invoke-virtual {v6}, Landroid/widget/AppSecurityPermissions;->getPermissionCount()I
 
     move-result v17
 
-    if-lez v17, :cond_6
+    if-lez v17, :cond_7
 
-    .line 502
+    .line 521
     const/16 v17, 0x0
 
     move-object v0, v14
@@ -1904,8 +1960,8 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 504
-    const v17, 0x7f0f006d
+    .line 523
+    const v17, 0x7f0f006f
 
     move-object v0, v14
 
@@ -1917,23 +1973,23 @@
 
     check-cast v16, Landroid/widget/LinearLayout;
 
-    .line 506
+    .line 525
     .local v16, securityList:Landroid/widget/LinearLayout;
     invoke-virtual/range {v16 .. v16}, Landroid/widget/LinearLayout;->removeAllViews()V
 
-    .line 507
+    .line 526
     invoke-virtual {v6}, Landroid/widget/AppSecurityPermissions;->getPermissionsView()Landroid/view/View;
 
     move-result-object v17
 
     invoke-virtual/range {v16 .. v17}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 512
+    .line 531
     .end local v16           #securityList:Landroid/widget/LinearLayout;
-    :goto_5
+    :goto_6
     invoke-direct/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->checkForceStop()V
 
-    .line 513
+    .line 532
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mPackageInfo:Landroid/content/pm/PackageInfo;
@@ -1946,18 +2002,18 @@
 
     invoke-direct {v0, v1}, Lcom/android/settings/applications/InstalledAppDetails;->setAppLabelAndIcon(Landroid/content/pm/PackageInfo;)V
 
-    .line 514
+    .line 533
     invoke-direct/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshButtons()V
 
-    .line 515
+    .line 534
     invoke-direct/range {p0 .. p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshSizeInfo()V
 
-    .line 516
+    .line 535
     const/16 v17, 0x1
 
     goto/16 :goto_0
 
-    .line 452
+    .line 458
     .end local v4           #am:Landroid/app/ActivityManager;
     .end local v6           #asp:Landroid/widget/AppSecurityPermissions;
     .end local v7           #autoLaunchView:Landroid/widget/TextView;
@@ -1971,7 +2027,7 @@
 
     move-object/from16 v9, v17
 
-    .line 453
+    .line 459
     .local v9, e:Landroid/content/pm/PackageManager$NameNotFoundException;
     const-string v17, "InstalledAppDetails"
 
@@ -2019,12 +2075,12 @@
 
     invoke-static {v0, v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 454
+    .line 460
     const/16 v17, 0x0
 
     goto/16 :goto_0
 
-    .line 467
+    .line 473
     .end local v9           #e:Landroid/content/pm/PackageManager$NameNotFoundException;
     .restart local v10       #hasUsbDefaults:Z
     .restart local v12       #intentList:Ljava/util/List;,"Ljava/util/List<Landroid/content/IntentFilter;>;"
@@ -2034,7 +2090,7 @@
 
     move-object/from16 v9, v17
 
-    .line 468
+    .line 474
     .local v9, e:Landroid/os/RemoteException;
     const-string v17, "InstalledAppDetails"
 
@@ -2050,11 +2106,11 @@
 
     goto/16 :goto_3
 
-    .line 476
+    .line 482
     .end local v9           #e:Landroid/os/RemoteException;
     .restart local v7       #autoLaunchView:Landroid/widget/TextView;
     :cond_5
-    const v17, 0x7f080377
+    const v17, 0x7f080381
 
     move-object v0, v7
 
@@ -2062,7 +2118,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 477
+    .line 483
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
@@ -2073,7 +2129,7 @@
 
     invoke-virtual/range {v17 .. v18}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 478
+    .line 484
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
@@ -2088,12 +2144,26 @@
 
     goto/16 :goto_4
 
-    .line 509
+    .line 513
     .restart local v4       #am:Landroid/app/ActivityManager;
-    .restart local v6       #asp:Landroid/widget/AppSecurityPermissions;
     .restart local v8       #compatMode:I
-    .restart local v14       #permsView:Landroid/widget/LinearLayout;
     :cond_6
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    move-object/from16 v17, v0
+
+    const/16 v18, 0x0
+
+    invoke-virtual/range {v17 .. v18}, Landroid/widget/CheckBox;->setChecked(Z)V
+
+    goto/16 :goto_5
+
+    .line 528
+    .restart local v6       #asp:Landroid/widget/AppSecurityPermissions;
+    .restart local v14       #permsView:Landroid/widget/LinearLayout;
+    :cond_7
     const/16 v17, 0x8
 
     move-object v0, v14
@@ -2102,7 +2172,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    goto/16 :goto_5
+    goto/16 :goto_6
 .end method
 
 .method private setAppLabelAndIcon(Landroid/content/pm/PackageInfo;)V
@@ -2112,7 +2182,7 @@
     .prologue
     const/4 v8, 0x0
 
-    .line 364
+    .line 370
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mRootView:Landroid/view/View;
 
     const v4, 0x7f0f0055
@@ -2121,9 +2191,9 @@
 
     move-result-object v0
 
-    .line 365
+    .line 371
     .local v0, appSnippet:Landroid/view/View;
-    const v3, 0x7f0f007d
+    const v3, 0x7f0f007f
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2131,7 +2201,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    .line 366
+    .line 372
     .local v1, icon:Landroid/widget/ImageView;
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
@@ -2139,15 +2209,15 @@
 
     invoke-virtual {v3, v4}, Lcom/android/settings/applications/ApplicationsState;->ensureIcon(Lcom/android/settings/applications/ApplicationsState$AppEntry;)V
 
-    .line 367
+    .line 373
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v3, v3, Lcom/android/settings/applications/ApplicationsState$AppEntry;->icon:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 369
-    const v3, 0x7f0f007e
+    .line 375
+    const v3, 0x7f0f0080
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2155,7 +2225,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    .line 370
+    .line 376
     .local v2, label:Landroid/widget/TextView;
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -2163,8 +2233,8 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 372
-    const v3, 0x7f0f007f
+    .line 378
+    const v3, 0x7f0f0081
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2174,26 +2244,26 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppVersion:Landroid/widget/TextView;
 
-    .line 374
+    .line 380
     if-eqz p1, :cond_0
 
     iget-object v3, p1, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
 
     if-eqz v3, :cond_0
 
-    .line 375
+    .line 381
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppVersion:Landroid/widget/TextView;
 
     invoke-virtual {v3, v8}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 376
+    .line 382
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppVersion:Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v4
 
-    const v5, 0x7f08039d
+    const v5, 0x7f0803a9
 
     const/4 v6, 0x1
 
@@ -2213,11 +2283,11 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 381
+    .line 387
     :goto_0
     return-void
 
-    .line 379
+    .line 385
     :cond_0
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppVersion:Landroid/widget/TextView;
 
@@ -2234,31 +2304,31 @@
     .parameter "appChanged"
 
     .prologue
-    .line 521
+    .line 540
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    .line 522
+    .line 541
     .local v0, intent:Landroid/content/Intent;
     const-string v2, "chg"
 
     invoke-virtual {v0, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 523
+    .line 542
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v1
 
     check-cast v1, Landroid/preference/PreferenceActivity;
 
-    .line 524
+    .line 543
     .local v1, pa:Landroid/preference/PreferenceActivity;
     const/4 v2, -0x1
 
     invoke-virtual {v1, p0, v2, v0}, Landroid/preference/PreferenceActivity;->finishPreferencePanel(Landroid/app/Fragment;ILandroid/content/Intent;)V
 
-    .line 525
+    .line 544
     return-void
 .end method
 
@@ -2268,18 +2338,18 @@
     .parameter "moveErrorCode"
 
     .prologue
-    .line 647
+    .line 666
     invoke-static {p1, p2}, Lcom/android/settings/applications/InstalledAppDetails$MyAlertDialogFragment;->newInstance(II)Lcom/android/settings/applications/InstalledAppDetails$MyAlertDialogFragment;
 
     move-result-object v0
 
-    .line 648
+    .line 667
     .local v0, newFragment:Landroid/app/DialogFragment;
     const/4 v1, 0x0
 
     invoke-virtual {v0, p0, v1}, Landroid/app/DialogFragment;->setTargetFragment(Landroid/app/Fragment;I)V
 
-    .line 649
+    .line 668
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v1
@@ -2304,7 +2374,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/DialogFragment;->show(Landroid/app/FragmentManager;Ljava/lang/String;)V
 
-    .line 650
+    .line 669
     return-void
 .end method
 
@@ -2315,7 +2385,7 @@
     .prologue
     const/4 v4, 0x1
 
-    .line 757
+    .line 776
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2338,7 +2408,7 @@
 
     move-result-object v0
 
-    .line 758
+    .line 777
     .local v0, packageURI:Landroid/net/Uri;
     new-instance v1, Landroid/content/Intent;
 
@@ -2346,14 +2416,14 @@
 
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 759
+    .line 778
     .local v1, uninstallIntent:Landroid/content/Intent;
     invoke-virtual {p0, v1}, Lcom/android/settings/applications/InstalledAppDetails;->startActivity(Landroid/content/Intent;)V
 
-    .line 760
+    .line 779
     invoke-direct {p0, v4, v4}, Lcom/android/settings/applications/InstalledAppDetails;->setIntentAndFinish(ZZ)V
 
-    .line 761
+    .line 780
     return-void
 .end method
 
@@ -2362,17 +2432,17 @@
     .parameter "enabled"
 
     .prologue
-    .line 783
+    .line 802
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
     invoke-virtual {v0, p1}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 784
+    .line 803
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 785
+    .line 804
     return-void
 .end method
 
@@ -2382,24 +2452,28 @@
     .locals 0
 
     .prologue
-    .line 401
+    .line 407
     return-void
 .end method
 
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
-    .locals 4
+    .locals 6
     .parameter "buttonView"
     .parameter "isChecked"
 
     .prologue
-    .line 880
+    const/4 v5, 0x1
+
+    const/4 v4, 0x0
+
+    .line 899
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v2, v2, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
 
     iget-object v1, v2, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 881
+    .line 900
     .local v1, packageName:Ljava/lang/String;
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
@@ -2413,30 +2487,30 @@
 
     check-cast v0, Landroid/app/ActivityManager;
 
-    .line 883
+    .line 902
     .local v0, am:Landroid/app/ActivityManager;
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAskCompatibilityCB:Landroid/widget/CheckBox;
 
     if-ne p1, v2, :cond_1
 
-    .line 884
+    .line 903
     invoke-virtual {v0, v1, p2}, Landroid/app/ActivityManager;->setPackageAskScreenCompat(Ljava/lang/String;Z)V
 
-    .line 889
+    .line 922
     :cond_0
     :goto_0
     return-void
 
-    .line 885
+    .line 904
     :cond_1
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mEnableCompatibilityCB:Landroid/widget/CheckBox;
 
-    if-ne p1, v2, :cond_0
+    if-ne p1, v2, :cond_3
 
-    .line 886
+    .line 905
     if-eqz p2, :cond_2
 
-    const/4 v2, 0x1
+    move v2, v5
 
     :goto_1
     invoke-virtual {v0, v1, v2}, Landroid/app/ActivityManager;->setPackageScreenCompatMode(Ljava/lang/String;I)V
@@ -2444,9 +2518,49 @@
     goto :goto_0
 
     :cond_2
-    const/4 v2, 0x0
+    move v2, v4
 
     goto :goto_1
+
+    .line 907
+    :cond_3
+    iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    if-ne p1, v2, :cond_0
+
+    .line 910
+    iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    .line 911
+    invoke-virtual {v0, v1}, Landroid/app/ActivityManager;->isPkgInResolutionBackwardPkgs(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_0
+
+    .line 912
+    invoke-virtual {v0, v1, v5}, Landroid/app/ActivityManager;->writeResolutionBackwardPackages(Ljava/lang/String;Z)V
+
+    goto :goto_0
+
+    .line 915
+    :cond_4
+    invoke-virtual {v0, v1}, Landroid/app/ActivityManager;->isPkgInResolutionBackwardPkgs(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    .line 916
+    invoke-virtual {v0, v1, v4}, Landroid/app/ActivityManager;->writeResolutionBackwardPackages(Ljava/lang/String;Z)V
+
+    goto :goto_0
 .end method
 
 .method public onClick(Landroid/view/View;)V
@@ -2460,34 +2574,34 @@
 
     const/4 v7, 0x0
 
-    .line 827
+    .line 846
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v4, v4, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
 
     iget-object v3, v4, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 828
+    .line 847
     .local v3, packageName:Ljava/lang/String;
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_4
 
-    .line 829
+    .line 848
     iget-boolean v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUpdatedSysApp:Z
 
     if-eqz v4, :cond_1
 
-    .line 830
+    .line 849
     invoke-direct {p0, v9, v7}, Lcom/android/settings/applications/InstalledAppDetails;->showDialogInner(II)V
 
-    .line 876
+    .line 895
     .end local p0
     :cond_0
     :goto_0
     return-void
 
-    .line 832
+    .line 851
     .restart local p0
     :cond_1
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -2500,7 +2614,7 @@
 
     if-eqz v4, :cond_3
 
-    .line 833
+    .line 852
     new-instance v4, Lcom/android/settings/applications/InstalledAppDetails$DisableChanger;
 
     iget-object v5, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -2539,24 +2653,24 @@
 
     goto :goto_1
 
-    .line 837
+    .line 856
     :cond_3
     invoke-direct {p0, v3}, Lcom/android/settings/applications/InstalledAppDetails;->uninstallPkg(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 840
+    .line 859
     :cond_4
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_5
 
-    .line 841
+    .line 860
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPm:Landroid/content/pm/PackageManager;
 
     invoke-virtual {v4, v3}, Landroid/content/pm/PackageManager;->clearPackagePreferredActivities(Ljava/lang/String;)V
 
-    .line 843
+    .line 862
     :try_start_0
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUsbManager:Landroid/hardware/usb/IUsbManager;
 
@@ -2564,7 +2678,7 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 847
+    .line 866
     :goto_2
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
 
@@ -2572,13 +2686,13 @@
 
     goto :goto_0
 
-    .line 844
+    .line 863
     :catch_0
     move-exception v4
 
     move-object v0, v4
 
-    .line 845
+    .line 864
     .local v0, e:Landroid/os/RemoteException;
     const-string v4, "InstalledAppDetails"
 
@@ -2588,14 +2702,14 @@
 
     goto :goto_2
 
-    .line 848
+    .line 867
     .end local v0           #e:Landroid/os/RemoteException;
     :cond_5
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_7
 
-    .line 849
+    .line 868
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v4, v4, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
@@ -2604,14 +2718,14 @@
 
     if-eqz v4, :cond_6
 
-    .line 850
+    .line 869
     new-instance v1, Landroid/content/Intent;
 
     const-string v4, "android.intent.action.VIEW"
 
     invoke-direct {v1, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 851
+    .line 870
     .local v1, intent:Landroid/content/Intent;
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -2627,39 +2741,39 @@
 
     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 853
+    .line 872
     const/4 v4, -0x1
 
     invoke-virtual {p0, v1, v4}, Lcom/android/settings/applications/InstalledAppDetails;->startActivityForResult(Landroid/content/Intent;I)V
 
     goto :goto_0
 
-    .line 855
+    .line 874
     .end local v1           #intent:Landroid/content/Intent;
     :cond_6
     invoke-direct {p0, v8, v7}, Lcom/android/settings/applications/InstalledAppDetails;->showDialogInner(II)V
 
     goto :goto_0
 
-    .line 857
+    .line 876
     :cond_7
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_9
 
-    .line 859
+    .line 878
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheObserver:Lcom/android/settings/applications/InstalledAppDetails$ClearCacheObserver;
 
     if-nez v4, :cond_8
 
-    .line 860
+    .line 879
     new-instance v4, Lcom/android/settings/applications/InstalledAppDetails$ClearCacheObserver;
 
     invoke-direct {v4, p0}, Lcom/android/settings/applications/InstalledAppDetails$ClearCacheObserver;-><init>(Lcom/android/settings/applications/InstalledAppDetails;)V
 
     iput-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheObserver:Lcom/android/settings/applications/InstalledAppDetails$ClearCacheObserver;
 
-    .line 862
+    .line 881
     :cond_8
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPm:Landroid/content/pm/PackageManager;
 
@@ -2669,38 +2783,38 @@
 
     goto/16 :goto_0
 
-    .line 863
+    .line 882
     :cond_9
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_a
 
-    .line 864
+    .line 883
     const/4 v4, 0x5
 
     invoke-direct {p0, v4, v7}, Lcom/android/settings/applications/InstalledAppDetails;->showDialogInner(II)V
 
     goto/16 :goto_0
 
-    .line 866
+    .line 885
     :cond_a
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
     if-ne p1, v4, :cond_0
 
-    .line 867
+    .line 886
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPackageMoveObserver:Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;
 
     if-nez v4, :cond_b
 
-    .line 868
+    .line 887
     new-instance v4, Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;
 
     invoke-direct {v4, p0}, Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;-><init>(Lcom/android/settings/applications/InstalledAppDetails;)V
 
     iput-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPackageMoveObserver:Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;
 
-    .line 870
+    .line 889
     :cond_b
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
@@ -2716,15 +2830,15 @@
 
     move v2, v8
 
-    .line 872
+    .line 891
     .local v2, moveFlags:I
     :goto_3
     iput-boolean v8, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveInProgress:Z
 
-    .line 873
+    .line 892
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshButtons()V
 
-    .line 874
+    .line 893
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPm:Landroid/content/pm/PackageManager;
 
     iget-object v5, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
@@ -2743,7 +2857,7 @@
     :cond_c
     move v2, v9
 
-    .line 870
+    .line 889
     goto :goto_3
 .end method
 
@@ -2752,10 +2866,10 @@
     .parameter "icicle"
 
     .prologue
-    .line 314
+    .line 316
     invoke-super {p0, p1}, Landroid/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 316
+    .line 318
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -2770,7 +2884,7 @@
 
     iput-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
-    .line 317
+    .line 319
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -2781,14 +2895,14 @@
 
     iput-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mPm:Landroid/content/pm/PackageManager;
 
-    .line 318
+    .line 320
     const-string v1, "usb"
 
     invoke-static {v1}, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 319
+    .line 321
     .local v0, b:Landroid/os/IBinder;
     invoke-static {v0}, Landroid/hardware/usb/IUsbManager$Stub;->asInterface(Landroid/os/IBinder;)Landroid/hardware/usb/IUsbManager;
 
@@ -2796,14 +2910,14 @@
 
     iput-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUsbManager:Landroid/hardware/usb/IUsbManager;
 
-    .line 321
+    .line 323
     new-instance v1, Lcom/android/settings/applications/CanBeOnSdCardChecker;
 
     invoke-direct {v1}, Lcom/android/settings/applications/CanBeOnSdCardChecker;-><init>()V
 
     iput-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCanBeOnSdCardChecker:Lcom/android/settings/applications/CanBeOnSdCardChecker;
 
-    .line 322
+    .line 325
     return-void
 .end method
 
@@ -2814,11 +2928,11 @@
     .parameter "savedInstanceState"
 
     .prologue
-    const v6, 0x7f0f00f4
+    const v6, 0x7f0f00f6
 
-    const v5, 0x7f0f00f3
+    const v5, 0x7f0f00f5
 
-    .line 326
+    .line 329
     const v3, 0x7f040021
 
     const/4 v4, 0x0
@@ -2829,13 +2943,13 @@
 
     iput-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mRootView:Landroid/view/View;
 
-    .line 328
+    .line 331
     .local v2, view:Landroid/view/View;
     invoke-virtual {p0}, Lcom/android/settings/applications/InstalledAppDetails;->getActivity()Landroid/app/Activity;
 
     move-result-object v3
 
-    const v4, 0x7f08039a
+    const v4, 0x7f0803a6
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -2843,7 +2957,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mComputingStr:Ljava/lang/CharSequence;
 
-    .line 331
+    .line 334
     const v3, 0x7f0f0059
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2854,7 +2968,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mTotalSize:Landroid/widget/TextView;
 
-    .line 332
+    .line 335
     const v3, 0x7f0f005b
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2865,7 +2979,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppSize:Landroid/widget/TextView;
 
-    .line 333
+    .line 336
     const v3, 0x7f0f005e
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2876,7 +2990,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mDataSize:Landroid/widget/TextView;
 
-    .line 334
+    .line 337
     const v3, 0x7f0f0060
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2887,14 +3001,14 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mExternalSize:Landroid/widget/TextView;
 
-    .line 337
+    .line 340
     const v3, 0x7f0f0056
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 338
+    .line 341
     .local v0, btnPanel:Landroid/view/View;
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2904,14 +3018,14 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
-    .line 339
+    .line 342
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
-    const v4, 0x7f08036d
+    const v4, 0x7f080377
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setText(I)V
 
-    .line 340
+    .line 343
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -2920,21 +3034,21 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
-    .line 341
+    .line 344
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
     const/4 v4, 0x0
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 344
+    .line 347
     const v3, 0x7f0f0061
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 345
+    .line 348
     .local v1, data_buttons_panel:Landroid/view/View;
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2944,7 +3058,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    .line 346
+    .line 349
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -2953,7 +3067,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    .line 349
+    .line 352
     const v3, 0x7f0f0065
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2964,7 +3078,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mCacheSize:Landroid/widget/TextView;
 
-    .line 350
+    .line 353
     const v3, 0x7f0f0066
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2975,7 +3089,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearCacheButton:Landroid/widget/Button;
 
-    .line 352
+    .line 355
     const v3, 0x7f0f0068
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2986,7 +3100,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mActivitiesButton:Landroid/widget/Button;
 
-    .line 355
+    .line 358
     const v3, 0x7f0f0069
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2995,7 +3109,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mScreenCompatSection:Landroid/view/View;
 
-    .line 356
+    .line 359
     const v3, 0x7f0f006a
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3006,7 +3120,7 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAskCompatibilityCB:Landroid/widget/CheckBox;
 
-    .line 357
+    .line 360
     const v3, 0x7f0f006b
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3017,7 +3131,18 @@
 
     iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mEnableCompatibilityCB:Landroid/widget/CheckBox;
 
-    .line 359
+    .line 362
+    const v3, 0x7f0f006c
+
+    invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    check-cast v3, Landroid/widget/CheckBox;
+
+    iput-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mResolutionBackwardCB:Landroid/widget/CheckBox;
+
+    .line 365
     return-object v2
 .end method
 
@@ -3025,7 +3150,7 @@
     .locals 0
 
     .prologue
-    .line 405
+    .line 411
     return-void
 .end method
 
@@ -3033,10 +3158,10 @@
     .locals 0
 
     .prologue
-    .line 409
+    .line 415
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshUi()Z
 
-    .line 410
+    .line 416
     return-void
 .end method
 
@@ -3045,7 +3170,7 @@
     .parameter "packageName"
 
     .prologue
-    .line 418
+    .line 424
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mAppEntry:Lcom/android/settings/applications/ApplicationsState$AppEntry;
 
     iget-object v0, v0, Lcom/android/settings/applications/ApplicationsState$AppEntry;->info:Landroid/content/pm/ApplicationInfo;
@@ -3058,10 +3183,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 419
+    .line 425
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshSizeInfo()V
 
-    .line 421
+    .line 427
     :cond_0
     return-void
 .end method
@@ -3070,15 +3195,15 @@
     .locals 1
 
     .prologue
-    .line 395
+    .line 401
     invoke-super {p0}, Landroid/app/Fragment;->onPause()V
 
-    .line 396
+    .line 402
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     invoke-virtual {v0}, Lcom/android/settings/applications/ApplicationsState;->pause()V
 
-    .line 397
+    .line 403
     return-void
 .end method
 
@@ -3096,7 +3221,7 @@
     .end annotation
 
     .prologue
-    .line 414
+    .line 420
     .local p1, apps:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Lcom/android/settings/applications/ApplicationsState$AppEntry;>;"
     return-void
 .end method
@@ -3107,25 +3232,25 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 385
+    .line 391
     invoke-super {p0}, Landroid/app/Fragment;->onResume()V
 
-    .line 387
+    .line 393
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mState:Lcom/android/settings/applications/ApplicationsState;
 
     invoke-virtual {v0, p0}, Lcom/android/settings/applications/ApplicationsState;->resume(Lcom/android/settings/applications/ApplicationsState$Callbacks;)V
 
-    .line 388
+    .line 394
     invoke-direct {p0}, Lcom/android/settings/applications/InstalledAppDetails;->refreshUi()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 389
+    .line 395
     invoke-direct {p0, v1, v1}, Lcom/android/settings/applications/InstalledAppDetails;->setIntentAndFinish(ZZ)V
 
-    .line 391
+    .line 397
     :cond_0
     return-void
 .end method
@@ -3135,6 +3260,6 @@
     .parameter "running"
 
     .prologue
-    .line 425
+    .line 431
     return-void
 .end method

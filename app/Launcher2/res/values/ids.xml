@@ -58,6 +58,4 @@
     <item type="id" name="wallpaper_list">false</item>
     <item type="id" name="wallpaper_chooser_fragment">false</item>
     <item type="id" name="wallpaper_image">false</item>
-    <item type="id" name="cell6">false</item>
-    <item type="id" name="cell7">false</item>
 </resources>

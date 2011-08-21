@@ -538,7 +538,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0803be
+    const v3, 0x7f0803ca
 
     const/4 v6, 0x0
 
@@ -658,7 +658,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 470
-    const v2, 0x7f0f00d8
+    const v2, 0x7f0f00da
 
     invoke-virtual {p0, v2}, Lcom/android/settings/applications/RunningProcessesView;->findViewById(I)Landroid/view/View;
 
@@ -669,7 +669,7 @@
     iput-object v2, p0, Lcom/android/settings/applications/RunningProcessesView;->mColorBar:Lcom/android/settings/applications/LinearColorBar;
 
     .line 471
-    const v2, 0x7f0f00da
+    const v2, 0x7f0f00dc
 
     invoke-virtual {p0, v2}, Lcom/android/settings/applications/RunningProcessesView;->findViewById(I)Landroid/view/View;
 
@@ -689,7 +689,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 478
-    const v2, 0x7f0f00d9
+    const v2, 0x7f0f00db
 
     invoke-virtual {p0, v2}, Lcom/android/settings/applications/RunningProcessesView;->findViewById(I)Landroid/view/View;
 
@@ -1054,7 +1054,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0803b6
+    const v9, 0x7f0803c2
 
     const/4 v10, 0x1
 
@@ -1161,7 +1161,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0803b7
+    const v9, 0x7f0803c3
 
     const/4 v10, 0x1
 

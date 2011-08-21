@@ -466,16 +466,16 @@
 
     move-result-object v21
 
-    const v22, 0x10804fc
+    const v22, 0x10804fa
 
     invoke-virtual/range {v21 .. v22}, Landroid/app/NotificationManager;->cancel(I)V
 
     .line 559
-    const v21, 0x10403d7
+    const v21, 0x10403d4
 
-    const v22, 0x10403d8
+    const v22, 0x10403d5
 
-    const v23, 0x10804fc
+    const v23, 0x10804fa
 
     const/16 v24, 0x2
 
@@ -718,16 +718,16 @@
 
     move-result-object v21
 
-    const v22, 0x10804fc
+    const v22, 0x10804fa
 
     invoke-virtual/range {v21 .. v22}, Landroid/app/NotificationManager;->cancel(I)V
 
     .line 594
-    const v21, 0x10403d5
+    const v21, 0x10403d2
 
-    const v22, 0x10403d6
+    const v22, 0x10403d3
 
-    const v23, 0x10804fc
+    const v23, 0x10804fa
 
     const/16 v24, 0x0
 
@@ -778,7 +778,7 @@
 
     move-result-object v21
 
-    const v22, 0x10804fc
+    const v22, 0x10804fa
 
     invoke-virtual/range {v21 .. v22}, Landroid/app/NotificationManager;->cancel(I)V
 
@@ -885,7 +885,7 @@
 
     move-result-object v2
 
-    const v3, 0x10804fc
+    const v3, 0x10804fa
 
     invoke-virtual {v2, v3}, Landroid/app/NotificationManager;->cancel(I)V
 

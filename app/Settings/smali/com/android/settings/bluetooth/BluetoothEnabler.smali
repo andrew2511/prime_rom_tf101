@@ -118,7 +118,7 @@
     .line 131
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b4
+    const v1, 0x7f0801be
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -135,7 +135,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b2
+    const v1, 0x7f0801bc
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -170,7 +170,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothEnabler;->mCheckBox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801b3
+    const v1, 0x7f0801bd
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -246,7 +246,7 @@
     .line 97
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothEnabler;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0801b5
+    const v2, 0x7f0801bf
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 566
+    .line 546
     iput-object p1, p0, Lcom/android/server/wm/WindowManagerService$3;->this$0:Lcom/android/server/wm/WindowManagerService;
 
     invoke-direct {p0}, Lcom/android/internal/view/BaseInputHandler;-><init>()V
@@ -40,10 +40,10 @@
     .parameter "finishedCallback"
 
     .prologue
-    .line 569
+    .line 549
     const/4 v2, 0x0
 
-    .line 571
+    .line 551
     .local v2, handled:Z
     :try_start_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getSource()I
@@ -60,22 +60,22 @@
 
     if-eqz v5, :cond_2f
 
-    .line 573
+    .line 553
     const/4 v1, 0x0
 
-    .line 574
+    .line 554
     .local v1, endDrag:Z
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
     move-result v3
 
-    .line 575
+    .line 555
     .local v3, newX:F
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawY()F
 
     move-result v4
 
-    .line 577
+    .line 557
     .local v4, newY:F
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -83,12 +83,12 @@
 
     packed-switch v5, :pswitch_data_6a
 
-    .line 605
+    .line 585
     :goto_1f
     :pswitch_1f
     if-eqz v1, :cond_2e
 
-    .line 608
+    .line 588
     iget-object v5, p0, Lcom/android/server/wm/WindowManagerService$3;->this$0:Lcom/android/server/wm/WindowManagerService;
 
     iget-object v5, v5, Lcom/android/server/wm/WindowManagerService;->mWindowMap:Ljava/util/HashMap;
@@ -98,7 +98,7 @@
     .catchall {:try_start_1 .. :try_end_26} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_26} :catch_44
 
-    .line 609
+    .line 589
     :try_start_26
     iget-object v6, p0, Lcom/android/server/wm/WindowManagerService$3;->this$0:Lcom/android/server/wm/WindowManagerService;
 
@@ -106,16 +106,16 @@
 
     invoke-virtual {v6}, Lcom/android/server/wm/DragState;->endDragLw()V
 
-    .line 610
+    .line 590
     monitor-exit v5
     :try_end_2e
     .catchall {:try_start_26 .. :try_end_2e} :catchall_67
 
-    .line 613
+    .line 593
     :cond_2e
     const/4 v2, 0x1
 
-    .line 618
+    .line 598
     .end local v1           #endDrag:Z
     .end local v3           #newX:F
     .end local v4           #newY:F
@@ -123,10 +123,10 @@
     :goto_2f
     invoke-virtual {p2, v2}, Landroid/view/InputQueue$FinishedCallback;->finished(Z)V
 
-    .line 620
+    .line 600
     return-void
 
-    .line 585
+    .line 565
     .restart local v1       #endDrag:Z
     .restart local v3       #newX:F
     .restart local v4       #newY:F
@@ -141,7 +141,7 @@
     .catchall {:try_start_33 .. :try_end_38} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_33 .. :try_end_38} :catch_44
 
-    .line 587
+    .line 567
     :try_start_38
     iget-object v6, p0, Lcom/android/server/wm/WindowManagerService$3;->this$0:Lcom/android/server/wm/WindowManagerService;
 
@@ -149,7 +149,7 @@
 
     invoke-virtual {v6, v3, v4}, Lcom/android/server/wm/DragState;->notifyMoveLw(FF)V
 
-    .line 588
+    .line 568
     monitor-exit v5
 
     goto :goto_1f
@@ -167,7 +167,7 @@
     .catchall {:try_start_43 .. :try_end_44} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_43 .. :try_end_44} :catch_44
 
-    .line 615
+    .line 595
     .end local v1           #endDrag:Z
     .end local v3           #newX:F
     .end local v4           #newY:F
@@ -176,7 +176,7 @@
 
     move-object v0, v5
 
-    .line 616
+    .line 596
     .local v0, e:Ljava/lang/Exception;
     :try_start_46
     const-string v5, "WindowManager"
@@ -189,7 +189,7 @@
 
     goto :goto_2f
 
-    .line 618
+    .line 598
     .end local v0           #e:Ljava/lang/Exception;
     :catchall_4e
     move-exception v5
@@ -198,7 +198,7 @@
 
     throw v5
 
-    .line 594
+    .line 574
     .restart local v1       #endDrag:Z
     .restart local v3       #newX:F
     .restart local v4       #newY:F
@@ -213,7 +213,7 @@
     .catchall {:try_start_53 .. :try_end_58} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_53 .. :try_end_58} :catch_44
 
-    .line 595
+    .line 575
     :try_start_58
     iget-object v6, p0, Lcom/android/server/wm/WindowManagerService$3;->this$0:Lcom/android/server/wm/WindowManagerService;
 
@@ -223,7 +223,7 @@
 
     move-result v1
 
-    .line 596
+    .line 576
     monitor-exit v5
 
     goto :goto_1f
@@ -241,13 +241,13 @@
     .catchall {:try_start_64 .. :try_end_65} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_64 .. :try_end_65} :catch_44
 
-    .line 601
+    .line 581
     :pswitch_65
     const/4 v1, 0x1
 
     goto :goto_1f
 
-    .line 610
+    .line 590
     :catchall_67
     move-exception v6
 
@@ -262,7 +262,7 @@
     .catchall {:try_start_69 .. :try_end_6a} :catchall_4e
     .catch Ljava/lang/Exception; {:try_start_69 .. :try_end_6a} :catch_44
 
-    .line 577
+    .line 557
     :pswitch_data_6a
     .packed-switch 0x0
         :pswitch_1f

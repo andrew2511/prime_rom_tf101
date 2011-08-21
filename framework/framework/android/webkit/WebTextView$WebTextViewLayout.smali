@@ -36,10 +36,10 @@
     .parameter "lineHeight"
 
     .prologue
-    .line 461
+    .line 462
     invoke-direct/range {p0 .. p10}, Landroid/text/DynamicLayout;-><init>(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZLandroid/text/TextUtils$TruncateAt;I)V
 
-    .line 463
+    .line 464
     invoke-virtual {p3}, Landroid/text/TextPaint;->descent()F
 
     move-result v1
@@ -50,7 +50,7 @@
 
     sub-float v0, v1, v2
 
-    .line 464
+    .line 465
     .local v0, paintLineHeight:F
     const/high16 v1, -0x4080
 
@@ -58,23 +58,23 @@
 
     if-nez v1, :cond_19
 
-    .line 465
+    .line 466
     iput v0, p0, Landroid/webkit/WebTextView$WebTextViewLayout;->mLineHeight:F
 
-    .line 466
+    .line 467
     const/4 v1, 0x0
 
     iput v1, p0, Landroid/webkit/WebTextView$WebTextViewLayout;->mDifference:F
 
-    .line 473
+    .line 474
     :goto_18
     return-void
 
-    .line 468
+    .line 469
     :cond_19
     iput p11, p0, Landroid/webkit/WebTextView$WebTextViewLayout;->mLineHeight:F
 
-    .line 471
+    .line 472
     sub-float v1, p11, v0
 
     const/high16 v2, 0x4000
@@ -93,7 +93,7 @@
     .parameter "line"
 
     .prologue
-    .line 477
+    .line 478
     iget v0, p0, Landroid/webkit/WebTextView$WebTextViewLayout;->mLineHeight:F
 
     int-to-float v1, p1

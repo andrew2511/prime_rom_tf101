@@ -116,7 +116,7 @@
 
     .line 122
     .local v1, attributesArray:Landroid/content/res/TypedArray;
-    const v4, 0x109009a
+    const v4, 0x1090099
 
     invoke-virtual {v1, v7, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -140,7 +140,7 @@
     invoke-virtual {v2, v3, p0, v8}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 131
-    const v4, 0x10202cb
+    const v4, 0x10202c7
 
     invoke-virtual {p0, v4}, Landroid/widget/TimePicker;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
     invoke-virtual {v4, v5}, Landroid/widget/NumberPicker;->setOnValueChangedListener(Landroid/widget/NumberPicker$OnValueChangeListener;)V
 
     .line 146
-    const v4, 0x102027e
+    const v4, 0x102027a
 
     invoke-virtual {p0, v4}, Landroid/widget/TimePicker;->findViewById(I)Landroid/view/View;
 
@@ -178,13 +178,13 @@
     .line 148
     iget-object v4, p0, Landroid/widget/TimePicker;->mDivider:Landroid/widget/TextView;
 
-    const v5, 0x10400b0
+    const v5, 0x10400ad
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
     .line 152
     :cond_4f
-    const v4, 0x10202cc
+    const v4, 0x10202c8
 
     invoke-virtual {p0, v4}, Landroid/widget/TimePicker;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     iput-object v4, p0, Landroid/widget/TimePicker;->mAmPmStrings:[Ljava/lang/String;
 
     .line 184
-    const v4, 0x10202cd
+    const v4, 0x10202c9
 
     invoke-virtual {p0, v4}, Landroid/widget/TimePicker;->findViewById(I)Landroid/view/View;
 

@@ -23,7 +23,7 @@
 
     .prologue
     .line 92
-    const v0, 0x7f08032a
+    const v0, 0x7f080334
 
     const/4 v1, 0x1
 
@@ -65,7 +65,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/GeneralSourceCodeOffer;->setContentView(I)V
 
     .line 54
-    const v0, 0x7f0f0100
+    const v0, 0x7f0f0102
 
     invoke-virtual {p0, v0}, Lcom/android/settings/GeneralSourceCodeOffer;->findViewById(I)Landroid/view/View;
 

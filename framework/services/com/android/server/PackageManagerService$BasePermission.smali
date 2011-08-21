@@ -50,24 +50,24 @@
     .parameter "_type"
 
     .prologue
-    .line 7624
+    .line 7637
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7625
+    .line 7638
     iput-object p1, p0, Lcom/android/server/PackageManagerService$BasePermission;->name:Ljava/lang/String;
 
-    .line 7626
+    .line 7639
     iput-object p2, p0, Lcom/android/server/PackageManagerService$BasePermission;->sourcePackage:Ljava/lang/String;
 
-    .line 7627
+    .line 7640
     iput p3, p0, Lcom/android/server/PackageManagerService$BasePermission;->type:I
 
-    .line 7629
+    .line 7642
     const/4 v0, 0x2
 
     iput v0, p0, Lcom/android/server/PackageManagerService$BasePermission;->protectionLevel:I
 
-    .line 7630
+    .line 7643
     return-void
 .end method
 
@@ -77,7 +77,7 @@
     .registers 3
 
     .prologue
-    .line 7633
+    .line 7646
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

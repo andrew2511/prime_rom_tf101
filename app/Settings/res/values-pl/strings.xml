@@ -27,6 +27,9 @@ Sprawdź ważność certyfikatów"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Podczas ustawień nie można skonfigurować połączenia WAPI CERT WLAN. Po ustawieniach, można to zrobić w menu Ustawienia, w opcji <b>Sieci &amp; bezprzewode</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT nie jest obsługiwany</string>
     <string name="wifi_wapi_network_open">Otwórz</string>
+    <string name="asus_wifi_setup_description_connected">"Dotknij przycisk Dalej, aby kontynuować konfigurację.
+
+Dotknij przycisk Wstecz, aby połączyć się z inną siecią Wi-Fi."</string>
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="device_info_default">Nieznany</string>
@@ -1313,7 +1316,4 @@ Czy kontynuować?"</string>
     <string name="select_all">Zaznacz wszystko</string>
     <string name="hdcp_checking_title">Sprawdzanie HDCP</string>
     <string name="hdcp_checking_dialog_title">Ustaw zachowanie sprawdzania HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"Dotknij przycisk Dalej, aby kontynuować konfigurację.
-
-Dotknij przycisk Wstecz, aby połączyć się z inną siecią Wi-Fi."</string>
 </resources>

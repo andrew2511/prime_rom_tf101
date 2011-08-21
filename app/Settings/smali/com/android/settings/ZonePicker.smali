@@ -701,7 +701,7 @@
     .line 159
     const/4 v0, 0x1
 
-    const v1, 0x7f080117
+    const v1, 0x7f080121
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -714,7 +714,7 @@
     .line 161
     const/4 v0, 0x2
 
-    const v1, 0x7f080118
+    const v1, 0x7f080122
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

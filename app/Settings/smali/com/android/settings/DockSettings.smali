@@ -58,12 +58,12 @@
 
     .line 161
     .local v0, ab:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f080252
+    const v1, 0x7f08025c
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 162
-    const v1, 0x7f080253
+    const v1, 0x7f08025d
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -128,7 +128,7 @@
     .line 99
     iget-object v3, p0, Lcom/android/settings/DockSettings;->mAudioSettings:Landroid/preference/Preference;
 
-    const v4, 0x7f080251
+    const v4, 0x7f08025b
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -169,7 +169,7 @@
     iput-object p1, p0, Lcom/android/settings/DockSettings;->mDockIntent:Landroid/content/Intent;
 
     .line 104
-    const v2, 0x7f080251
+    const v2, 0x7f08025b
 
     .line 105
     .local v2, resId:I
@@ -185,21 +185,21 @@
 
     .line 107
     :pswitch_0
-    const v2, 0x7f08024f
+    const v2, 0x7f080259
 
     .line 108
     goto :goto_3
 
     .line 110
     :pswitch_1
-    const v2, 0x7f08024e
+    const v2, 0x7f080258
 
     .line 111
     goto :goto_3
 
     .line 113
     :pswitch_2
-    const v2, 0x7f080250
+    const v2, 0x7f08025a
 
     goto :goto_3
 
@@ -248,7 +248,7 @@
     .line 81
     iget-object v1, p0, Lcom/android/settings/DockSettings;->mAudioSettings:Landroid/preference/Preference;
 
-    const v2, 0x7f080250
+    const v2, 0x7f08025a
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setSummary(I)V
 

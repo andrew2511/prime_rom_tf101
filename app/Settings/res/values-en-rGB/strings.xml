@@ -27,6 +27,9 @@ Please check validity of certificates"</string>
     <string name="wifi_setup_wapi_cert_not_supported">You can not configure a WAPI CERT WLAN connection during setup. After setup, you can do that in Settings, under <b>Wireless &amp; networks</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT not supported</string>
     <string name="wifi_wapi_network_open">Open</string>
+    <string name="asus_wifi_setup_description_connected">"Touch Next to continue with setup.
+
+Touch Back to a different Wi-Fi network."</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="device_info_default">Unknown</string>
@@ -1313,7 +1316,4 @@ Proceed?"</string>
     <string name="select_all">Select All</string>
     <string name="hdcp_checking_title">HDCP checking</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behaviour</string>
-    <string name="asus_wifi_setup_description_connected">"Touch Next to continue with setup.
-
-Touch Back to a different Wi-Fi network."</string>
 </resources>

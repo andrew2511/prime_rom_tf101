@@ -128,7 +128,7 @@
     if-gt v4, v5, :cond_4a
 
     .line 539
-    const v4, 0x1080542
+    const v4, 0x1080540
 
     invoke-virtual {v2, v4}, Landroid/view/View;->setBackgroundResource(I)V
 

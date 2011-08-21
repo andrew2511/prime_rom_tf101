@@ -3984,7 +3984,7 @@
 
     .line 846
     .local v0, intent:Landroid/content/Intent;
-    const-string v1, "phoneinECMState"
+    const-string/jumbo v1, "phoneinECMState"
 
     iget-boolean v2, p0, Lcom/android/internal/telephony/cdma/CDMAPhone;->mIsPhoneInEcmState:Z
 

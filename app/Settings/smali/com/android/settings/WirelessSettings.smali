@@ -673,7 +673,7 @@
     if-eqz v5, :cond_c
 
     .line 165
-    const v19, 0x7f0802f8
+    const v19, 0x7f080302
 
     move-object v0, v12
 
@@ -682,7 +682,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 166
-    const v19, 0x7f0802ff
+    const v19, 0x7f080309
 
     move-object v0, v12
 
@@ -731,7 +731,7 @@
     if-eqz v14, :cond_d
 
     .line 168
-    const v19, 0x7f0802f8
+    const v19, 0x7f080302
 
     move-object v0, v12
 
@@ -740,7 +740,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 169
-    const v19, 0x7f0802fc
+    const v19, 0x7f080306
 
     move-object v0, v12
 
@@ -757,7 +757,7 @@
     if-eqz v5, :cond_e
 
     .line 171
-    const v19, 0x7f0802f8
+    const v19, 0x7f080302
 
     move-object v0, v12
 
@@ -766,7 +766,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 172
-    const v19, 0x7f0802fe
+    const v19, 0x7f080308
 
     move-object v0, v12
 
@@ -781,7 +781,7 @@
     if-eqz v17, :cond_f
 
     .line 174
-    const v19, 0x7f0802f5
+    const v19, 0x7f0802ff
 
     move-object v0, v12
 
@@ -790,7 +790,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 175
-    const v19, 0x7f0802fa
+    const v19, 0x7f080304
 
     move-object v0, v12
 
@@ -807,7 +807,7 @@
     if-eqz v5, :cond_10
 
     .line 177
-    const v19, 0x7f0802f7
+    const v19, 0x7f080301
 
     move-object v0, v12
 
@@ -816,7 +816,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 178
-    const v19, 0x7f0802fd
+    const v19, 0x7f080307
 
     move-object v0, v12
 
@@ -831,7 +831,7 @@
     if-eqz v14, :cond_11
 
     .line 180
-    const v19, 0x7f0802f4
+    const v19, 0x7f0802fe
 
     move-object v0, v12
 
@@ -840,7 +840,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 181
-    const v19, 0x7f0802f9
+    const v19, 0x7f080303
 
     move-object v0, v12
 
@@ -852,7 +852,7 @@
 
     .line 183
     :cond_11
-    const v19, 0x7f0802f6
+    const v19, 0x7f080300
 
     move-object v0, v12
 
@@ -861,7 +861,7 @@
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 184
-    const v19, 0x7f0802fb
+    const v19, 0x7f080305
 
     move-object v0, v12
 

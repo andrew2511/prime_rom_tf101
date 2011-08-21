@@ -552,7 +552,7 @@
     const/4 v3, 0x0
 
     .line 607
-    const-string v0, "photo"
+    const-string/jumbo v0, "photo"
 
     invoke-static {p1, v0}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
@@ -580,80 +580,80 @@
 
     .line 610
     .local v6, cursor:Landroid/database/Cursor;
-    if-eqz v6, :cond_1e
+    if-eqz v6, :cond_1f
 
-    :try_start_18
+    :try_start_19
     invoke-interface {v6}, Landroid/database/Cursor;->moveToNext()Z
-    :try_end_1b
-    .catchall {:try_start_18 .. :try_end_1b} :catchall_3e
+    :try_end_1c
+    .catchall {:try_start_19 .. :try_end_1c} :catchall_3f
 
     move-result v0
 
-    if-nez v0, :cond_25
+    if-nez v0, :cond_26
 
     .line 619
-    :cond_1e
-    if-eqz v6, :cond_23
+    :cond_1f
+    if-eqz v6, :cond_24
 
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_23
+    :cond_24
     move-object v0, v3
 
-    :cond_24
-    :goto_24
+    :cond_25
+    :goto_25
     return-object v0
 
     .line 613
-    :cond_25
+    :cond_26
     const/4 v0, 0x0
 
-    :try_start_26
+    :try_start_27
     invoke-interface {v6, v0}, Landroid/database/Cursor;->getBlob(I)[B
-    :try_end_29
-    .catchall {:try_start_26 .. :try_end_29} :catchall_3e
+    :try_end_2a
+    .catchall {:try_start_27 .. :try_end_2a} :catchall_3f
 
     move-result-object v7
 
     .line 614
     .local v7, data:[B
-    if-nez v7, :cond_33
+    if-nez v7, :cond_34
 
     .line 619
-    if-eqz v6, :cond_31
+    if-eqz v6, :cond_32
 
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_31
+    :cond_32
     move-object v0, v3
 
-    goto :goto_24
+    goto :goto_25
 
     .line 617
-    :cond_33
-    :try_start_33
+    :cond_34
+    :try_start_34
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v0, v7}, Ljava/io/ByteArrayInputStream;-><init>([B)V
-    :try_end_38
-    .catchall {:try_start_33 .. :try_end_38} :catchall_3e
+    :try_end_39
+    .catchall {:try_start_34 .. :try_end_39} :catchall_3f
 
     .line 619
-    if-eqz v6, :cond_24
+    if-eqz v6, :cond_25
 
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    goto :goto_24
+    goto :goto_25
 
     .end local v7           #data:[B
-    :catchall_3e
+    :catchall_3f
     move-exception v0
 
-    if-eqz v6, :cond_44
+    if-eqz v6, :cond_45
 
     invoke-interface {v6}, Landroid/database/Cursor;->close()V
 
-    :cond_44
+    :cond_45
     throw v0
 .end method
 
@@ -707,7 +707,7 @@
     const/4 v3, 0x0
 
     .line 593
-    const-string v2, "photo"
+    const-string/jumbo v2, "photo"
 
     invoke-static {p1, v2}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 

@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 3091
+    .line 3097
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$12;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,10 +41,10 @@
     .registers 3
 
     .prologue
-    .line 3093
+    .line 3099
     monitor-enter p0
 
-    .line 3095
+    .line 3101
     :try_start_1
     iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$12;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
@@ -52,20 +52,20 @@
 
     invoke-virtual {v0}, Lcom/android/internal/policy/impl/KeyguardViewMediator;->doKeyguardTimeout()V
 
-    .line 3096
+    .line 3102
     iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$12;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     const/4 v1, 0x0
 
     iput-boolean v1, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLockScreenTimerActive:Z
 
-    .line 3097
+    .line 3103
     monitor-exit p0
 
-    .line 3098
+    .line 3104
     return-void
 
-    .line 3097
+    .line 3103
     :catchall_f
     move-exception v0
 

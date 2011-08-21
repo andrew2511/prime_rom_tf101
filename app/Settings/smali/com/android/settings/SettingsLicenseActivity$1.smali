@@ -49,7 +49,7 @@
 
     iget-object v1, p0, Lcom/android/settings/SettingsLicenseActivity$1;->this$0:Lcom/android/settings/SettingsLicenseActivity;
 
-    const v2, 0x7f080329
+    const v2, 0x7f080333
 
     invoke-virtual {v1, v2}, Lcom/android/settings/SettingsLicenseActivity;->getString(I)Ljava/lang/String;
 

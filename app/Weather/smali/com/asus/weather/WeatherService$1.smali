@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 70
+    .line 76
     iput-object p1, p0, Lcom/asus/weather/WeatherService$1;->this$0:Lcom/asus/weather/WeatherService;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -38,11 +38,11 @@
     .locals 1
 
     .prologue
-    .line 73
+    .line 79
     iget-object v0, p0, Lcom/asus/weather/WeatherService$1;->this$0:Lcom/asus/weather/WeatherService;
 
     invoke-static {v0}, Lcom/asus/weather/WeatherService;->access$000(Lcom/asus/weather/WeatherService;)V
 
-    .line 74
+    .line 80
     return-void
 .end method

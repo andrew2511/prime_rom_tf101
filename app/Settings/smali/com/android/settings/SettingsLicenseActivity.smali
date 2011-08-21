@@ -30,7 +30,7 @@
 
     .prologue
     .line 118
-    const v0, 0x7f08032a
+    const v0, 0x7f080334
 
     const/4 v1, 0x1
 
@@ -420,7 +420,7 @@
 
     .line 111
     .local v13, p:Lcom/android/internal/app/AlertController$AlertParams;
-    const v1, 0x7f08032b
+    const v1, 0x7f080335
 
     invoke-virtual {p0, v1}, Lcom/android/settings/SettingsLicenseActivity;->getString(I)Ljava/lang/String;
 

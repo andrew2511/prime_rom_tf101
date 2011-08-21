@@ -63,7 +63,7 @@
 
     const-string v3, "PPTP"
 
-    const v4, 0x10403c6
+    const v4, 0x10403c3
 
     const-class v5, Landroid/net/vpn/PptpProfile;
 
@@ -78,7 +78,7 @@
 
     const-string v6, "L2TP"
 
-    const v7, 0x10403c7
+    const v7, 0x10403c4
 
     const-class v8, Landroid/net/vpn/L2tpProfile;
 
@@ -95,7 +95,7 @@
 
     const-string v6, "L2TP/IPSec PSK"
 
-    const v7, 0x10403c8
+    const v7, 0x10403c5
 
     const-class v8, Landroid/net/vpn/L2tpIpsecPskProfile;
 
@@ -112,7 +112,7 @@
 
     const-string v6, "L2TP/IPSec CRT"
 
-    const v7, 0x10403c9
+    const v7, 0x10403c6
 
     const-class v8, Landroid/net/vpn/L2tpIpsecProfile;
 

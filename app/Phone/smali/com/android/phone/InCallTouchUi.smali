@@ -380,11 +380,11 @@
 
     const v2, 0x7f020079
 
-    const v3, 0x1080360
+    const v3, 0x108035e
 
-    const v4, 0x1080339
+    const v4, 0x1080337
 
-    const v5, 0x108034c
+    const v5, 0x108034a
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/android/internal/widget/SlidingTab;->setLeftTabResources(IIII)V
 
@@ -393,11 +393,11 @@
 
     const v2, 0x7f02007a
 
-    const v3, 0x1080361
+    const v3, 0x108035f
 
-    const v4, 0x1080342
+    const v4, 0x1080340
 
-    const v5, 0x1080359
+    const v5, 0x1080357
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/android/internal/widget/SlidingTab;->setRightTabResources(IIII)V
 

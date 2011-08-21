@@ -24,14 +24,14 @@
     <item type="drawable" name="selected_day_background">#ff0092f4</item>
     <item type="drawable" name="screen_background_holo_light">#fff3f3f3</item>
     <item type="drawable" name="screen_background_holo_dark">#ff000000</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04c0">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04be">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04c1">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_04c3">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04c5">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04c6">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_04c8">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04ca">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04ce">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04cc">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04cf">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_04d1">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04d3">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_04d2">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_04d4">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_04d6">false</item>
 </resources>

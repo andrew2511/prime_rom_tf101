@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 1882
+    .line 1896
     iput-object p1, p0, Lcom/nuance/xt9/input/IME$8;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +44,7 @@
     .parameter "event"
 
     .prologue
-    .line 1885
+    .line 1899
     const/4 v0, 0x5
 
     if-ne p2, v0, :cond_0
@@ -57,10 +57,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 1887
+    .line 1901
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 1889
+    .line 1903
     :cond_0
     const/4 v0, 0x0
 

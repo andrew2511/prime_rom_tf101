@@ -45,9 +45,9 @@
     .parameter "view"
 
     .prologue
-    const v6, 0x7f0f00ac
+    const v6, 0x7f0f00ae
 
-    const v5, 0x7f0f00ab
+    const v5, 0x7f0f00ad
 
     const/16 v4, 0x8
 

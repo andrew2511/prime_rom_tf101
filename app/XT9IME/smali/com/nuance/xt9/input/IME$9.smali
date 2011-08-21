@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 1894
+    .line 1908
     iput-object p1, p0, Lcom/nuance/xt9/input/IME$9;->this$0:Lcom/nuance/xt9/input/IME;
 
     iput-object p2, p0, Lcom/nuance/xt9/input/IME$9;->val$listAdapter:Lcom/nuance/xt9/input/KeyboardLayoutListAdapter;
@@ -50,10 +50,10 @@
     .prologue
     const/16 v4, 0x65
 
-    .line 1897
+    .line 1911
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 1898
+    .line 1912
     iget-object v2, p0, Lcom/nuance/xt9/input/IME$9;->val$listAdapter:Lcom/nuance/xt9/input/KeyboardLayoutListAdapter;
 
     invoke-virtual {v2, p2}, Lcom/nuance/xt9/input/KeyboardLayoutListAdapter;->getItem(I)Ljava/lang/Object;
@@ -62,25 +62,25 @@
 
     check-cast v1, Landroid/view/View;
 
-    .line 1899
+    .line 1913
     .local v1, view:Landroid/view/View;
     invoke-virtual {v1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 1900
+    .line 1914
     .local v0, obj:Ljava/lang/Object;
     instance-of v2, v0, Lcom/nuance/xt9/input/InputMethods$Layout;
 
     if-eqz v2, :cond_0
 
-    .line 1901
+    .line 1915
     check-cast v0, Lcom/nuance/xt9/input/InputMethods$Layout;
 
     .end local v0           #obj:Ljava/lang/Object;
     invoke-virtual {v0}, Lcom/nuance/xt9/input/InputMethods$Layout;->saveAsCurrent()V
 
-    .line 1906
+    .line 1920
     iget-object v2, p0, Lcom/nuance/xt9/input/IME$9;->this$0:Lcom/nuance/xt9/input/IME;
 
     invoke-static {v2}, Lcom/nuance/xt9/input/IME;->access$500(Lcom/nuance/xt9/input/IME;)Ljava/util/Map;
@@ -101,14 +101,14 @@
 
     invoke-virtual {v2}, Lcom/nuance/xt9/input/InputView;->finishInput()V
 
-    .line 1907
+    .line 1921
     iget-object v2, p0, Lcom/nuance/xt9/input/IME$9;->this$0:Lcom/nuance/xt9/input/IME;
 
     iget-object v2, v2, Lcom/nuance/xt9/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v2, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1908
+    .line 1922
     iget-object v2, p0, Lcom/nuance/xt9/input/IME$9;->this$0:Lcom/nuance/xt9/input/IME;
 
     iget-object v2, v2, Lcom/nuance/xt9/input/IME;->mHandler:Landroid/os/Handler;
@@ -125,11 +125,11 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 1913
+    .line 1927
     :goto_0
     return-void
 
-    .line 1911
+    .line 1925
     .restart local v0       #obj:Ljava/lang/Object;
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;

@@ -80,7 +80,7 @@
     .line 4216
     sget-object v0, Landroid/provider/ContactsContract$Data;->CONTENT_URI:Landroid/net/Uri;
 
-    const-string v1, "phones"
+    const-string/jumbo v1, "phones"
 
     invoke-static {v0, v1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
@@ -206,128 +206,128 @@
     packed-switch p0, :pswitch_data_58
 
     .line 4309
-    const v0, 0x104025a
+    const v0, 0x1040257
 
     :goto_6
     return v0
 
     .line 4289
     :pswitch_7
-    const v0, 0x104025b
+    const v0, 0x1040258
 
     goto :goto_6
 
     .line 4290
     :pswitch_b
-    const v0, 0x104025c
+    const v0, 0x1040259
 
     goto :goto_6
 
     .line 4291
     :pswitch_f
-    const v0, 0x104025d
+    const v0, 0x104025a
 
     goto :goto_6
 
     .line 4292
     :pswitch_13
-    const v0, 0x104025e
+    const v0, 0x104025b
 
     goto :goto_6
 
     .line 4293
     :pswitch_17
-    const v0, 0x104025f
+    const v0, 0x104025c
 
     goto :goto_6
 
     .line 4294
     :pswitch_1b
-    const v0, 0x1040260
+    const v0, 0x104025d
 
     goto :goto_6
 
     .line 4295
     :pswitch_1f
-    const v0, 0x1040261
+    const v0, 0x104025e
 
     goto :goto_6
 
     .line 4296
     :pswitch_23
-    const v0, 0x1040262
+    const v0, 0x104025f
 
     goto :goto_6
 
     .line 4297
     :pswitch_27
-    const v0, 0x1040263
+    const v0, 0x1040260
 
     goto :goto_6
 
     .line 4298
     :pswitch_2b
-    const v0, 0x1040264
+    const v0, 0x1040261
 
     goto :goto_6
 
     .line 4299
     :pswitch_2f
-    const v0, 0x1040265
+    const v0, 0x1040262
 
     goto :goto_6
 
     .line 4300
     :pswitch_33
-    const v0, 0x1040266
+    const v0, 0x1040263
 
     goto :goto_6
 
     .line 4301
     :pswitch_37
-    const v0, 0x1040267
+    const v0, 0x1040264
 
     goto :goto_6
 
     .line 4302
     :pswitch_3b
-    const v0, 0x1040268
+    const v0, 0x1040265
 
     goto :goto_6
 
     .line 4303
     :pswitch_3f
-    const v0, 0x1040269
+    const v0, 0x1040266
 
     goto :goto_6
 
     .line 4304
     :pswitch_43
-    const v0, 0x104026a
+    const v0, 0x1040267
 
     goto :goto_6
 
     .line 4305
     :pswitch_47
-    const v0, 0x104026b
+    const v0, 0x1040268
 
     goto :goto_6
 
     .line 4306
     :pswitch_4b
-    const v0, 0x104026c
+    const v0, 0x1040269
 
     goto :goto_6
 
     .line 4307
     :pswitch_4f
-    const v0, 0x104026d
+    const v0, 0x104026a
 
     goto :goto_6
 
     .line 4308
     :pswitch_53
-    const v0, 0x104026e
+    const v0, 0x104026b
 
     goto :goto_6
 

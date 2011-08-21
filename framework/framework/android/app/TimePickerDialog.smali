@@ -72,14 +72,14 @@
     invoke-virtual {p0, v3}, Landroid/app/TimePickerDialog;->setIcon(I)V
 
     .line 97
-    const v3, 0x1040377
+    const v3, 0x1040374
 
     invoke-virtual {p0, v3}, Landroid/app/TimePickerDialog;->setTitle(I)V
 
     .line 99
     const/4 v3, -0x1
 
-    const v5, 0x1040379
+    const v5, 0x1040376
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -115,7 +115,7 @@
 
     .line 105
     .local v1, inflater:Landroid/view/LayoutInflater;
-    const v3, 0x109009b
+    const v3, 0x109009a
 
     invoke-virtual {v1, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -126,7 +126,7 @@
     invoke-virtual {p0, v2}, Landroid/app/TimePickerDialog;->setView(Landroid/view/View;)V
 
     .line 107
-    const v3, 0x10202ce
+    const v3, 0x10202ca
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

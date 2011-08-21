@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 2093
+    .line 2099
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iput-boolean p2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->val$topNeedsMenu:Z
@@ -46,14 +46,14 @@
     .registers 5
 
     .prologue
-    .line 2095
+    .line 2101
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iget-object v2, v2, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarService:Lcom/android/internal/statusbar/IStatusBarService;
 
     if-nez v2, :cond_14
 
-    .line 2100
+    .line 2106
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     const-string v3, "statusbar"
@@ -68,13 +68,13 @@
 
     iput-object v3, v2, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarService:Lcom/android/internal/statusbar/IStatusBarService;
 
-    .line 2103
+    .line 2109
     :cond_14
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
     iget-object v1, v2, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarService:Lcom/android/internal/statusbar/IStatusBarService;
 
-    .line 2104
+    .line 2110
     .local v1, sbs:Lcom/android/internal/statusbar/IStatusBarService;
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 
@@ -82,7 +82,7 @@
 
     if-eqz v2, :cond_23
 
-    .line 2106
+    .line 2112
     :try_start_1e
     iget-boolean v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->val$topNeedsMenu:Z
 
@@ -90,18 +90,18 @@
     :try_end_23
     .catch Landroid/os/RemoteException; {:try_start_1e .. :try_end_23} :catch_24
 
-    .line 2112
+    .line 2118
     :cond_23
     :goto_23
     return-void
 
-    .line 2107
+    .line 2113
     :catch_24
     move-exception v2
 
     move-object v0, v2
 
-    .line 2109
+    .line 2115
     .local v0, e:Landroid/os/RemoteException;
     iget-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager$7;->this$0:Lcom/android/internal/policy/impl/PhoneWindowManager;
 

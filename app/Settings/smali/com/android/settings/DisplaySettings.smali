@@ -315,10 +315,10 @@
     .locals 2
 
     .prologue
-    .line 343
+    .line 347
     const-string v0, "0"
 
-    .line 344
+    .line 348
     .local v0, cameraKeyProperty:Ljava/lang/String;
     const-string v1, "1"
 
@@ -347,7 +347,7 @@
 
     const/4 v3, 0x0
 
-    .line 257
+    .line 261
     iget-object v0, p0, Lcom/android/settings/DisplaySettings;->mAccelerometer:Landroid/preference/CheckBoxPreference;
 
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
@@ -367,7 +367,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
 
-    .line 261
+    .line 265
     iget-object v0, p0, Lcom/android/settings/DisplaySettings;->mScreenshot:Landroid/preference/CheckBoxPreference;
 
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
@@ -387,19 +387,19 @@
     :goto_1
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
 
-    .line 265
+    .line 269
     return-void
 
     :cond_0
     move v1, v3
 
-    .line 257
+    .line 261
     goto :goto_0
 
     :cond_1
     move v1, v3
 
-    .line 261
+    .line 265
     goto :goto_1
 .end method
 
@@ -408,7 +408,7 @@
     .parameter "value"
 
     .prologue
-    .line 268
+    .line 272
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
@@ -419,7 +419,7 @@
 
     move-result-object v1
 
-    .line 269
+    .line 273
     .local v1, summaries:[Ljava/lang/CharSequence;
     iget-object v3, p0, Lcom/android/settings/DisplaySettings;->mAnimations:Landroid/preference/ListPreference;
 
@@ -427,7 +427,7 @@
 
     move-result-object v2
 
-    .line 270
+    .line 274
     .local v2, values:[Ljava/lang/CharSequence;
     const/4 v0, 0x0
 
@@ -437,7 +437,7 @@
 
     if-ge v0, v3, :cond_0
 
-    .line 273
+    .line 277
     aget-object v3, v2, v0
 
     invoke-virtual {v3, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
@@ -446,18 +446,18 @@
 
     if-eqz v3, :cond_1
 
-    .line 274
+    .line 278
     iget-object v3, p0, Lcom/android/settings/DisplaySettings;->mAnimations:Landroid/preference/ListPreference;
 
     aget-object v4, v1, v0
 
     invoke-virtual {v3, v4}, Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 278
+    .line 282
     :cond_0
     return-void
 
-    .line 270
+    .line 274
     :cond_1
     add-int/lit8 v0, v0, 0x1
 
@@ -711,13 +711,33 @@
 
     invoke-direct {p0, v7}, Lcom/android/settings/DisplaySettings;->updateAnimationsSummary(Ljava/lang/Object;)V
 
-    .line 253
-    invoke-direct {p0}, Lcom/android/settings/DisplaySettings;->updateAccelerometerRotationCheckbox()V
-
     .line 254
+    :try_start_3
+    invoke-direct {p0}, Lcom/android/settings/DisplaySettings;->updateAccelerometerRotationCheckbox()V
+    :try_end_3
+    .catch Ljava/lang/NullPointerException; {:try_start_3 .. :try_end_3} :catch_2
+
+    .line 258
+    :goto_2
     return-void
 
+    .line 255
+    :catch_2
+    move-exception v3
+
+    .line 256
+    .local v3, e:Ljava/lang/NullPointerException;
+    const-string v7, "DisplaySettings"
+
+    const-string v8, "NullPointerException"
+
+    invoke-static {v7, v8, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    goto :goto_2
+
     .line 231
+    nop
+
     :array_0
     .array-data 0x4
         0x0t 0x0t 0x80t 0x3ft
@@ -884,7 +904,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f080265
+    const v8, 0x7f08026f
 
     const/4 v9, 0x1
 
@@ -1149,12 +1169,12 @@
 
     const/4 v7, 0x1
 
-    .line 299
+    .line 303
     invoke-virtual {p1}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 300
+    .line 304
     .local v2, key:Ljava/lang/String;
     const-string v4, "animations"
 
@@ -1164,7 +1184,7 @@
 
     if-eqz v4, :cond_2
 
-    .line 302
+    .line 306
     :try_start_0
     move-object v0, p2
 
@@ -1176,7 +1196,7 @@
 
     move-result v3
 
-    .line 303
+    .line 307
     .local v3, value:I
     iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mAnimationScales:[F
 
@@ -1184,7 +1204,7 @@
 
     if-lt v4, v7, :cond_0
 
-    .line 304
+    .line 308
     iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mAnimationScales:[F
 
     const/4 v5, 0x0
@@ -1195,7 +1215,7 @@
 
     aput v6, v4, v5
 
-    .line 306
+    .line 310
     :cond_0
     iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mAnimationScales:[F
 
@@ -1205,7 +1225,7 @@
 
     if-lt v4, v5, :cond_1
 
-    .line 307
+    .line 311
     iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mAnimationScales:[F
 
     const/4 v5, 0x1
@@ -1220,7 +1240,7 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 310
+    .line 314
     :cond_1
     :try_start_1
     iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mWindowManager:Landroid/view/IWindowManager;
@@ -1232,14 +1252,14 @@
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 313
+    .line 317
     :goto_0
     :try_start_2
     invoke-direct {p0, p2}, Lcom/android/settings/DisplaySettings;->updateAnimationsSummary(Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/lang/NumberFormatException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 320
+    .line 324
     .end local v3           #value:I
     :cond_2
     const-string v4, "screen_timeout"
@@ -1250,7 +1270,7 @@
 
     if-eqz v4, :cond_3
 
-    .line 321
+    .line 325
     check-cast p2, Ljava/lang/String;
 
     .end local p2
@@ -1258,7 +1278,7 @@
 
     move-result v3
 
-    .line 323
+    .line 327
     .restart local v3       #value:I
     :try_start_3
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
@@ -1269,7 +1289,7 @@
 
     invoke-static {v4, v5, v3}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
-    .line 325
+    .line 329
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v4
@@ -1285,18 +1305,18 @@
     :goto_1
     move v4, v7
 
-    .line 331
+    .line 335
     :goto_2
     return v4
 
-    .line 314
+    .line 318
     .restart local p2
     :catch_0
     move-exception v4
 
     move-object v1, v4
 
-    .line 315
+    .line 319
     .local v1, e:Ljava/lang/NumberFormatException;
     const-string v4, "DisplaySettings"
 
@@ -1306,10 +1326,10 @@
 
     move v4, v8
 
-    .line 316
+    .line 320
     goto :goto_2
 
-    .line 326
+    .line 330
     .end local v1           #e:Ljava/lang/NumberFormatException;
     .end local p2
     .restart local v3       #value:I
@@ -1318,7 +1338,7 @@
 
     move-object v1, v4
 
-    .line 327
+    .line 331
     .restart local v1       #e:Ljava/lang/NumberFormatException;
     const-string v4, "DisplaySettings"
 
@@ -1328,7 +1348,7 @@
 
     goto :goto_1
 
-    .line 311
+    .line 315
     .end local v1           #e:Ljava/lang/NumberFormatException;
     .restart local p2
     :catch_2
@@ -1347,12 +1367,12 @@
 
     const/4 v5, 0x1
 
-    .line 282
+    .line 286
     iget-object v2, p0, Lcom/android/settings/DisplaySettings;->mAccelerometer:Landroid/preference/CheckBoxPreference;
 
     if-ne p2, v2, :cond_2
 
-    .line 283
+    .line 287
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v2
@@ -1372,7 +1392,7 @@
     :goto_0
     invoke-static {v2, v3, v4}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
-    .line 295
+    .line 299
     :cond_0
     :goto_1
     return v5
@@ -1380,23 +1400,23 @@
     :cond_1
     move v4, v6
 
-    .line 283
+    .line 287
     goto :goto_0
 
-    .line 286
+    .line 290
     :cond_2
     iget-object v2, p0, Lcom/android/settings/DisplaySettings;->mScreenshot:Landroid/preference/CheckBoxPreference;
 
     if-ne p2, v2, :cond_4
 
-    .line 287
+    .line 291
     iget-object v2, p0, Lcom/android/settings/DisplaySettings;->mScreenshot:Landroid/preference/CheckBoxPreference;
 
     invoke-virtual {v2}, Landroid/preference/CheckBoxPreference;->isChecked()Z
 
     move-result v1
 
-    .line 288
+    .line 292
     .local v1, isScreenshot:Z
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -1418,21 +1438,21 @@
 
     goto :goto_2
 
-    .line 290
+    .line 294
     .end local v1           #isScreenshot:Z
     :cond_4
     iget-object v2, p0, Lcom/android/settings/DisplaySettings;->mDockBatterySaving:Landroid/preference/CheckBoxPreference;
 
     if-ne p2, v2, :cond_0
 
-    .line 291
+    .line 295
     iget-object v2, p0, Lcom/android/settings/DisplaySettings;->mDockBatterySaving:Landroid/preference/CheckBoxPreference;
 
     invoke-virtual {v2}, Landroid/preference/CheckBoxPreference;->isChecked()Z
 
     move-result v0
 
-    .line 292
+    .line 296
     .local v0, isBatterySaving:Z
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
 

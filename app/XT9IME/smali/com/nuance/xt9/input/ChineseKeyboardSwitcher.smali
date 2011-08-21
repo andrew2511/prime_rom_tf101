@@ -4,13 +4,13 @@
 
 
 # static fields
-.field public static final KEYBOARDMODE_EMAIL:I = 0x7f09003b
+.field public static final KEYBOARDMODE_EMAIL:I = 0x7f09003c
 
-.field public static final KEYBOARDMODE_IM:I = 0x7f09003c
+.field public static final KEYBOARDMODE_IM:I = 0x7f09003d
 
-.field public static final KEYBOARDMODE_NORMAL:I = 0x7f090039
+.field public static final KEYBOARDMODE_NORMAL:I = 0x7f09003a
 
-.field public static final KEYBOARDMODE_URL:I = 0x7f09003a
+.field public static final KEYBOARDMODE_URL:I = 0x7f09003b
 
 .field public static final MODE_EMAIL:I = 0x5
 
@@ -550,7 +550,7 @@
 
     .line 171
     :pswitch_0
-    const v3, 0x7f090039
+    const v3, 0x7f09003a
 
     invoke-direct {p0, v3}, Lcom/nuance/xt9/input/ChineseKeyboardSwitcher;->createChineseKeyboardLayout(I)Lcom/nuance/xt9/input/XT9Keyboard;
 
@@ -705,7 +705,7 @@
 
     .line 166
     :pswitch_3
-    const v3, 0x7f09003c
+    const v3, 0x7f09003d
 
     invoke-direct {p0, v3}, Lcom/nuance/xt9/input/ChineseKeyboardSwitcher;->createChineseKeyboardLayout(I)Lcom/nuance/xt9/input/XT9Keyboard;
 

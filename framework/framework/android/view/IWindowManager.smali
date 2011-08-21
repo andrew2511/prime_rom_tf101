@@ -403,14 +403,6 @@
     .end annotation
 .end method
 
-.method public abstract popCompassCalibrationDialog(Z)V
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-.end method
-
 .method public abstract prepareAppTransition(IZ)V
     .annotation system Ldalvik/annotation/Throws;
         value = {

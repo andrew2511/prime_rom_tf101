@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 6532
+    .line 6552
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$8$1;->this$1:Lcom/android/server/am/ActivityManagerService$8;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,14 +41,14 @@
     .registers 4
 
     .prologue
-    .line 6534
+    .line 6554
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$8$1;->this$1:Lcom/android/server/am/ActivityManagerService$8;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService$8;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     monitor-enter v0
 
-    .line 6535
+    .line 6555
     :try_start_5
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$8$1;->this$1:Lcom/android/server/am/ActivityManagerService$8;
 
@@ -58,12 +58,12 @@
 
     iput-boolean v2, v1, Lcom/android/server/am/ActivityManagerService;->mDidUpdate:Z
 
-    .line 6536
+    .line 6556
     monitor-exit v0
     :try_end_d
     .catchall {:try_start_5 .. :try_end_d} :catchall_20
 
-    .line 6537
+    .line 6557
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$8$1;->this$1:Lcom/android/server/am/ActivityManagerService$8;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService$8;->val$doneReceivers:Ljava/util/ArrayList;
@@ -71,7 +71,7 @@
     #calls: Lcom/android/server/am/ActivityManagerService;->writeLastDonePreBootReceivers(Ljava/util/ArrayList;)V
     invoke-static {v0}, Lcom/android/server/am/ActivityManagerService;->access$600(Ljava/util/ArrayList;)V
 
-    .line 6538
+    .line 6558
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$8$1;->this$1:Lcom/android/server/am/ActivityManagerService$8;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService$8;->this$0:Lcom/android/server/am/ActivityManagerService;
@@ -82,10 +82,10 @@
 
     invoke-virtual {v0, v1}, Lcom/android/server/am/ActivityManagerService;->systemReady(Ljava/lang/Runnable;)V
 
-    .line 6539
+    .line 6559
     return-void
 
-    .line 6536
+    .line 6556
     :catchall_20
     move-exception v1
 

@@ -36,21 +36,21 @@
     .parameter "thread"
 
     .prologue
-    .line 940
+    .line 954
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 944
+    .line 958
     iput-object p2, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mApp:Lcom/android/server/am/ProcessRecord;
 
-    .line 945
+    .line 959
     iput p3, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mPid:I
 
-    .line 946
+    .line 960
     iput-object p4, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mAppThread:Landroid/app/IApplicationThread;
 
-    .line 947
+    .line 961
     return-void
 .end method
 
@@ -60,12 +60,12 @@
     .registers 6
 
     .prologue
-    .line 953
+    .line 967
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     monitor-enter v0
 
-    .line 954
+    .line 968
     :try_start_3
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
@@ -77,13 +77,13 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/android/server/am/ActivityManagerService;->appDiedLocked(Lcom/android/server/am/ProcessRecord;ILandroid/app/IApplicationThread;)V
 
-    .line 955
+    .line 969
     monitor-exit v0
 
-    .line 956
+    .line 970
     return-void
 
-    .line 955
+    .line 969
     :catchall_10
     move-exception v1
 

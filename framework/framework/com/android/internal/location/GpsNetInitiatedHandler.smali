@@ -561,7 +561,7 @@
 
     .prologue
     .line 410
-    const v1, 0x10403e9
+    const v1, 0x10403e6
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -615,7 +615,7 @@
 
     .prologue
     .line 394
-    const v1, 0x10403e7
+    const v1, 0x10403e4
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -669,7 +669,7 @@
 
     .prologue
     .line 403
-    const v1, 0x10403e8
+    const v1, 0x10403e5
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -866,7 +866,7 @@
     .line 198
     iget-object v5, p0, Lcom/android/internal/location/GpsNetInitiatedHandler;->mNiNotification:Landroid/app/Notification;
 
-    const v6, 0x10804e2
+    const v6, 0x10804e0
 
     iput v6, v5, Landroid/app/Notification;->icon:I
 

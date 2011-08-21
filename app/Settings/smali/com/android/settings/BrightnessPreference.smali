@@ -428,7 +428,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
     .line 103
-    const v0, 0x7f0f009e
+    const v0, 0x7f0f00a0
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

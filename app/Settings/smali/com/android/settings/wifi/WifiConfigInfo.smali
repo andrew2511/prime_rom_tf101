@@ -47,7 +47,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/WifiConfigInfo;->setContentView(I)V
 
     .line 49
-    const v0, 0x7f0f0118
+    const v0, 0x7f0f011a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/WifiConfigInfo;->findViewById(I)Landroid/view/View;
 

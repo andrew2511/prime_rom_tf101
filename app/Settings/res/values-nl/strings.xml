@@ -27,6 +27,9 @@ Controleer de geldigheid van certificaten"</string>
     <string name="wifi_setup_wapi_cert_not_supported">U kunt geen WAPI CERT WLAN-verbinding configureren tijdens installatie. Dit kunt u na installatie doen in Instellingen, onder <b>Draadloze &amp; netwerken</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT niet ondersteund</string>
     <string name="wifi_wapi_network_open">Openen</string>
+    <string name="asus_wifi_setup_description_connected">"Raak Volgende aan om verder te gaan met set-up.
+
+Raak Vorige aan om naar een ander Wi-Fi-netwerk te gaan."</string>
     <string name="yes">Ja</string>
     <string name="no">Nee</string>
     <string name="device_info_default">Onbekend</string>
@@ -1313,7 +1316,4 @@ Doorgaan?"</string>
     <string name="select_all">Alles selecteren</string>
     <string name="hdcp_checking_title">HDCP-controle</string>
     <string name="hdcp_checking_dialog_title">HDCP-controlegedrag instellen</string>
-    <string name="asus_wifi_setup_description_connected">"Raak Volgende aan om verder te gaan met set-up.
-
-Raak Vorige aan om naar een ander Wi-Fi-netwerk te gaan."</string>
 </resources>

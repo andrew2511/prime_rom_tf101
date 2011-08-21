@@ -188,7 +188,7 @@
     .local v2, r:Landroid/content/res/Resources;
     const/4 v6, 0x0
 
-    const v7, 0x7f08004d
+    const v7, 0x7f080057
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -199,7 +199,7 @@
     .line 47
     const/4 v6, 0x1
 
-    const v7, 0x7f08004e
+    const v7, 0x7f080058
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -208,7 +208,7 @@
     aput-object v7, v4, v6
 
     .line 48
-    const v6, 0x7f08004f
+    const v6, 0x7f080059
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -248,7 +248,7 @@
     .line 56
     iget-object v6, p0, Lcom/android/settings/Display;->mPreview:Landroid/widget/TextView;
 
-    const v7, 0x7f080050
+    const v7, 0x7f08005a
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -267,7 +267,7 @@
 
     .line 59
     .local v3, save:Landroid/widget/Button;
-    const v6, 0x7f080051
+    const v6, 0x7f08005b
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

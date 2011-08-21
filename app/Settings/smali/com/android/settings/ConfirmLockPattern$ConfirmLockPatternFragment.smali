@@ -309,7 +309,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment;->mHeaderTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f08033f
+    const v1, 0x7f080349
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -319,7 +319,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment;->mFooterTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f080340
+    const v1, 0x7f08034a
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -375,7 +375,7 @@
     :cond_2
     iget-object v0, p0, Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment;->mHeaderTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f080341
+    const v1, 0x7f08034b
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -385,7 +385,7 @@
     :cond_3
     iget-object v0, p0, Lcom/android/settings/ConfirmLockPattern$ConfirmLockPatternFragment;->mFooterTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f080342
+    const v1, 0x7f08034c
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

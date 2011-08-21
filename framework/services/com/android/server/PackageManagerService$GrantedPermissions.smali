@@ -37,20 +37,20 @@
     .parameter "pkgFlags"
 
     .prologue
-    .line 7852
+    .line 7865
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7849
+    .line 7862
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->grantedPermissions:Ljava/util/HashSet;
 
-    .line 7853
+    .line 7866
     invoke-virtual {p0, p1}, Lcom/android/server/PackageManagerService$GrantedPermissions;->setFlags(I)V
 
-    .line 7854
+    .line 7867
     return-void
 .end method
 
@@ -59,22 +59,22 @@
     .parameter "base"
 
     .prologue
-    .line 7856
+    .line 7869
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7849
+    .line 7862
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->grantedPermissions:Ljava/util/HashSet;
 
-    .line 7857
+    .line 7870
     iget v0, p1, Lcom/android/server/PackageManagerService$GrantedPermissions;->pkgFlags:I
 
     iput v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->pkgFlags:I
 
-    .line 7858
+    .line 7871
     iget-object v0, p1, Lcom/android/server/PackageManagerService$GrantedPermissions;->grantedPermissions:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clone()Ljava/lang/Object;
@@ -85,12 +85,12 @@
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->grantedPermissions:Ljava/util/HashSet;
 
-    .line 7860
+    .line 7873
     iget-object v0, p1, Lcom/android/server/PackageManagerService$GrantedPermissions;->gids:[I
 
     if-eqz v0, :cond_26
 
-    .line 7861
+    .line 7874
     iget-object v0, p1, Lcom/android/server/PackageManagerService$GrantedPermissions;->gids:[I
 
     invoke-virtual {v0}, [I->clone()Ljava/lang/Object;
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->gids:[I
 
-    .line 7863
+    .line 7876
     :cond_26
     return-void
 .end method
@@ -113,13 +113,13 @@
     .parameter "pkgFlags"
 
     .prologue
-    .line 7866
+    .line 7879
     const v0, 0x20040001
 
     and-int/2addr v0, p1
 
     iput v0, p0, Lcom/android/server/PackageManagerService$GrantedPermissions;->pkgFlags:I
 
-    .line 7870
+    .line 7883
     return-void
 .end method

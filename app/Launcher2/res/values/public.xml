@@ -371,8 +371,6 @@
     <public type="id" name="wallpaper_list" id="0x7f080039" />
     <public type="id" name="wallpaper_chooser_fragment" id="0x7f08003a" />
     <public type="id" name="wallpaper_image" id="0x7f08003b" />
-    <public type="id" name="cell6" id="0x7f08003c" />
-    <public type="id" name="cell7" id="0x7f08003d" />
     <public type="color" name="window_background" id="0x7f090000" />
     <public type="color" name="grid_dark_background" id="0x7f090001" />
     <public type="color" name="bubble_dark_background" id="0x7f090002" />

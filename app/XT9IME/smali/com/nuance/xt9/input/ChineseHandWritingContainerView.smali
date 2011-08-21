@@ -52,7 +52,7 @@
     if-nez v1, :cond_0
 
     .line 29
-    const v1, 0x7f090029
+    const v1, 0x7f09002a
 
     invoke-virtual {p0, v1}, Lcom/nuance/xt9/input/ChineseHandWritingContainerView;->findViewById(I)Landroid/view/View;
 
@@ -63,7 +63,7 @@
     iput-object v1, p0, Lcom/nuance/xt9/input/ChineseHandWritingContainerView;->mHandwritingAreaFrame:Landroid/widget/FrameLayout;
 
     .line 30
-    const v1, 0x7f09002a
+    const v1, 0x7f09002b
 
     invoke-virtual {p0, v1}, Lcom/nuance/xt9/input/ChineseHandWritingContainerView;->findViewById(I)Landroid/view/View;
 

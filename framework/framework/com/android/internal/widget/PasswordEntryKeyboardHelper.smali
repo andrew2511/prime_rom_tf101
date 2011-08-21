@@ -153,7 +153,7 @@
     .registers 6
 
     .prologue
-    const v4, 0x10202ea
+    const v4, 0x10202e6
 
     const/4 v3, 0x1
 
@@ -252,7 +252,7 @@
     .parameter "viewHeight"
 
     .prologue
-    const v3, 0x10202ea
+    const v3, 0x10202e6
 
     const/4 v6, 0x1
 

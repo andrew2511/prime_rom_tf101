@@ -61,7 +61,7 @@
     .line 78
     iget-object v1, p0, Lcom/android/settings/vpn/L2tpIpsecEditor$1;->this$0:Lcom/android/settings/vpn/L2tpIpsecEditor;
 
-    const v2, 0x7f0804d6
+    const v2, 0x7f0804e2
 
     check-cast p2, Ljava/lang/String;
 

@@ -46,7 +46,7 @@
     .parameter "type"
 
     .prologue
-    const v1, 0x1040272
+    const v1, 0x104026f
 
     .line 5225
     if-nez p0, :cond_7
@@ -66,19 +66,19 @@
     packed-switch v0, :pswitch_data_1c
 
     .line 5233
-    const v0, 0x104026f
+    const v0, 0x104026c
 
     goto :goto_6
 
     .line 5230
     :pswitch_12
-    const v0, 0x1040271
+    const v0, 0x104026e
 
     goto :goto_6
 
     .line 5231
     :pswitch_16
-    const v0, 0x1040270
+    const v0, 0x104026d
 
     goto :goto_6
 

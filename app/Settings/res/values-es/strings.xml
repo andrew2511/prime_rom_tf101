@@ -27,6 +27,10 @@ Compruebe la validez de los certificados."</string>
     <string name="wifi_setup_wapi_cert_not_supported">No puede configurar una conexión WLAN CERT WAPI durante la configuración. Después de la configuración, puede realizar esa operación en Configuración, bajo <b>Conexión inalámbrica y redes</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">CERT WAPi no admitido</string>
     <string name="wifi_wapi_network_open">Abrir</string>
+    <string name="asus_wifi_setup_description_connected">"Toque Siguiente para continuar con la configuración.
+
+Toque Atrás para seleccionar una red Wi-Fi diferente."</string>
+    <string name="asus_wifi_setup_description_connecting">La conexión puede tardar varios minutos...</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="device_info_default">Desconocido</string>
@@ -1313,8 +1317,4 @@ un servicio de Google que te permite sincronizar datos para hacer posible el acc
     <string name="select_all">Seleccionar todo</string>
     <string name="hdcp_checking_title">Comprobación de HDCP</string>
     <string name="hdcp_checking_dialog_title">Definir comprobación HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"Toque Siguiente para continuar con la configuración.
-
-Toque Atrás para seleccionar una red Wi-Fi diferente."</string>
-    <string name="asus_wifi_setup_description_connecting">La conexión puede tardar varios minutos...</string>
 </resources>

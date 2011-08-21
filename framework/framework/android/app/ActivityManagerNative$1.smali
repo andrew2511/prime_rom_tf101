@@ -28,7 +28,7 @@
     .registers 1
 
     .prologue
-    .line 1469
+    .line 1489
     invoke-direct {p0}, Landroid/util/Singleton;-><init>()V
 
     return-void
@@ -40,20 +40,20 @@
     .registers 4
 
     .prologue
-    .line 1471
+    .line 1491
     const-string v2, "activity"
 
     invoke-static {v2}, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
 
     move-result-object v1
 
-    .line 1475
+    .line 1495
     .local v1, b:Landroid/os/IBinder;
     invoke-static {v1}, Landroid/app/ActivityManagerNative;->asInterface(Landroid/os/IBinder;)Landroid/app/IActivityManager;
 
     move-result-object v0
 
-    .line 1479
+    .line 1499
     .local v0, am:Landroid/app/IActivityManager;
     return-object v0
 .end method
@@ -62,7 +62,7 @@
     .registers 2
 
     .prologue
-    .line 1469
+    .line 1489
     invoke-virtual {p0}, Landroid/app/ActivityManagerNative$1;->create()Landroid/app/IActivityManager;
 
     move-result-object v0

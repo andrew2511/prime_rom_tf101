@@ -546,7 +546,7 @@
 
     .prologue
     .line 59
-    const v0, 0x7f090032
+    const v0, 0x7f090033
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -586,7 +586,7 @@
 
     .line 81
     :cond_0
-    const v0, 0x7f090037
+    const v0, 0x7f090038
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -626,7 +626,7 @@
 
     .line 99
     :cond_1
-    const v0, 0x7f090033
+    const v0, 0x7f090034
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -666,7 +666,7 @@
 
     .line 124
     :cond_2
-    const v0, 0x7f090035
+    const v0, 0x7f090036
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
 
     .line 148
     :cond_3
-    const v0, 0x7f090034
+    const v0, 0x7f090035
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -746,7 +746,7 @@
 
     .line 172
     :cond_4
-    const v0, 0x7f090036
+    const v0, 0x7f090037
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 
@@ -786,7 +786,7 @@
 
     .line 197
     :cond_5
-    const v0, 0x7f090038
+    const v0, 0x7f090039
 
     invoke-virtual {p0, v0}, Lcom/nuance/xt9/input/ToolBar;->findViewById(I)Landroid/view/View;
 

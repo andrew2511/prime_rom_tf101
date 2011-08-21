@@ -34,7 +34,7 @@
     .parameter
 
     .prologue
-    .line 416
+    .line 463
     iput-object p1, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +48,7 @@
     .parameter "x1"
 
     .prologue
-    .line 416
+    .line 463
     invoke-direct {p0, p1}, Lcom/android/server/wm/InputManager$Callbacks;-><init>(Lcom/android/server/wm/InputManager;)V
 
     return-void
@@ -62,7 +62,7 @@
     .parameter "injectorUid"
 
     .prologue
-    .line 473
+    .line 520
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mContext:Landroid/content/Context;
@@ -96,7 +96,7 @@
     .parameter "policyFlags"
 
     .prologue
-    .line 467
+    .line 514
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -117,7 +117,7 @@
     .registers 3
 
     .prologue
-    .line 486
+    .line 533
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mContext:Landroid/content/Context;
@@ -142,7 +142,7 @@
     .registers 3
 
     .prologue
-    .line 480
+    .line 527
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mContext:Landroid/content/Context;
@@ -167,7 +167,7 @@
     .registers 2
 
     .prologue
-    .line 554
+    .line 601
     invoke-static {}, Landroid/view/ViewConfiguration;->getDoubleTapTimeout()I
 
     move-result v0
@@ -179,16 +179,16 @@
     .registers 11
 
     .prologue
-    .line 498
+    .line 545
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 501
+    .line 548
     .local v5, names:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/String;>;"
     const/4 v6, 0x0
 
-    .line 503
+    .line 550
     .local v6, parser:Lorg/xmlpull/v1/XmlPullParser;
     new-instance v0, Ljava/io/File;
 
@@ -200,11 +200,11 @@
 
     invoke-direct {v0, v7, v8}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 504
+    .line 551
     .local v0, confFile:Ljava/io/File;
     const/4 v1, 0x0
 
-    .line 506
+    .line 553
     .local v1, confreader:Ljava/io/FileReader;
     :try_start_12
     new-instance v2, Ljava/io/FileReader;
@@ -215,7 +215,7 @@
     .catch Ljava/io/FileNotFoundException; {:try_start_12 .. :try_end_17} :catch_98
     .catch Ljava/lang/Exception; {:try_start_12 .. :try_end_17} :catch_5c
 
-    .line 507
+    .line 554
     .end local v1           #confreader:Ljava/io/FileReader;
     .local v2, confreader:Ljava/io/FileReader;
     :try_start_17
@@ -223,20 +223,20 @@
 
     move-result-object v6
 
-    .line 508
+    .line 555
     invoke-interface {v6, v2}, Lorg/xmlpull/v1/XmlPullParser;->setInput(Ljava/io/Reader;)V
 
-    .line 509
+    .line 556
     const-string v7, "devices"
 
     invoke-static {v6, v7}, Lcom/android/internal/util/XmlUtils;->beginDocument(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)V
 
-    .line 512
+    .line 559
     :cond_23
     :goto_23
     invoke-static {v6}, Lcom/android/internal/util/XmlUtils;->nextElement(Lorg/xmlpull/v1/XmlPullParser;)V
 
-    .line 513
+    .line 560
     const-string v7, "device"
 
     invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
@@ -253,7 +253,7 @@
 
     if-nez v7, :cond_45
 
-    .line 526
+    .line 573
     if-eqz v2, :cond_37
 
     :try_start_34
@@ -265,7 +265,7 @@
     :goto_37
     move-object v1, v2
 
-    .line 529
+    .line 576
     .end local v2           #confreader:Ljava/io/FileReader;
     .restart local v1       #confreader:Ljava/io/FileReader;
     :cond_38
@@ -285,7 +285,7 @@
 
     return-object p0
 
-    .line 516
+    .line 563
     .end local v1           #confreader:Ljava/io/FileReader;
     .restart local v2       #confreader:Ljava/io/FileReader;
     .restart local p0
@@ -299,11 +299,11 @@
 
     move-result-object v4
 
-    .line 517
+    .line 564
     .local v4, name:Ljava/lang/String;
     if-eqz v4, :cond_23
 
-    .line 518
+    .line 565
     invoke-virtual {v5, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_51
     .catchall {:try_start_46 .. :try_end_51} :catchall_91
@@ -312,14 +312,14 @@
 
     goto :goto_23
 
-    .line 521
+    .line 568
     .end local v4           #name:Ljava/lang/String;
     :catch_52
     move-exception v7
 
     move-object v1, v2
 
-    .line 526
+    .line 573
     .end local v2           #confreader:Ljava/io/FileReader;
     .restart local v1       #confreader:Ljava/io/FileReader;
     :goto_54
@@ -337,13 +337,13 @@
 
     goto :goto_38
 
-    .line 523
+    .line 570
     :catch_5c
     move-exception v7
 
     move-object v3, v7
 
-    .line 524
+    .line 571
     .local v3, e:Ljava/lang/Exception;
     :goto_5e
     :try_start_5e
@@ -381,7 +381,7 @@
     :try_end_80
     .catchall {:try_start_5e .. :try_end_80} :catchall_86
 
-    .line 526
+    .line 573
     if-eqz v1, :cond_38
 
     :try_start_82
@@ -428,7 +428,7 @@
     .restart local v1       #confreader:Ljava/io/FileReader;
     goto :goto_87
 
-    .line 523
+    .line 570
     .end local v1           #confreader:Ljava/io/FileReader;
     .restart local v2       #confreader:Ljava/io/FileReader;
     :catch_94
@@ -442,7 +442,7 @@
     .restart local v1       #confreader:Ljava/io/FileReader;
     goto :goto_5e
 
-    .line 521
+    .line 568
     :catch_98
     move-exception v7
 
@@ -453,7 +453,7 @@
     .registers 2
 
     .prologue
-    .line 549
+    .line 596
     invoke-static {}, Landroid/view/ViewConfiguration;->getHoverTapSlop()I
 
     move-result v0
@@ -465,7 +465,7 @@
     .registers 2
 
     .prologue
-    .line 544
+    .line 591
     invoke-static {}, Landroid/view/ViewConfiguration;->getHoverTapTimeout()I
 
     move-result v0
@@ -477,7 +477,7 @@
     .registers 2
 
     .prologue
-    .line 539
+    .line 586
     invoke-static {}, Landroid/view/ViewConfiguration;->getKeyRepeatDelay()I
 
     move-result v0
@@ -489,7 +489,7 @@
     .registers 2
 
     .prologue
-    .line 534
+    .line 581
     invoke-static {}, Landroid/view/ViewConfiguration;->getKeyRepeatTimeout()I
 
     move-result v0
@@ -501,7 +501,7 @@
     .registers 2
 
     .prologue
-    .line 559
+    .line 606
     invoke-static {}, Landroid/view/ViewConfiguration;->getLongPressTimeout()I
 
     move-result v0
@@ -513,10 +513,10 @@
     .registers 3
 
     .prologue
-    .line 564
+    .line 611
     const/4 v0, 0x0
 
-    .line 566
+    .line 613
     .local v0, result:I
     :try_start_1
     const-string v1, "windowsmgr.max_events_per_sec"
@@ -531,20 +531,20 @@
 
     move-result v0
 
-    .line 569
+    .line 616
     :goto_b
     const/4 v1, 0x1
 
     if-ge v0, v1, :cond_10
 
-    .line 570
+    .line 617
     const/16 v0, 0x37
 
-    .line 572
+    .line 619
     :cond_10
     return v0
 
-    .line 567
+    .line 614
     :catch_11
     move-exception v1
 
@@ -555,7 +555,7 @@
     .registers 2
 
     .prologue
-    .line 585
+    .line 632
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mContext:Landroid/content/Context;
@@ -574,7 +574,7 @@
     .registers 3
 
     .prologue
-    .line 577
+    .line 624
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -601,7 +601,7 @@
     .registers 3
 
     .prologue
-    .line 492
+    .line 539
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mContext:Landroid/content/Context;
@@ -629,7 +629,7 @@
     .parameter "policyFlags"
 
     .prologue
-    .line 460
+    .line 507
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -653,7 +653,7 @@
     .parameter "isScreenOn"
 
     .prologue
-    .line 447
+    .line 494
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -675,7 +675,7 @@
     .parameter "policyFlags"
 
     .prologue
-    .line 453
+    .line 500
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -698,7 +698,7 @@
     .parameter "inputWindowHandle"
 
     .prologue
-    .line 441
+    .line 488
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -720,7 +720,7 @@
     .parameter "whenNanos"
 
     .prologue
-    .line 425
+    .line 472
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -732,7 +732,7 @@
 
     invoke-virtual {v0}, Lcom/android/server/wm/InputMonitor;->notifyConfigurationChanged()V
 
-    .line 426
+    .line 473
     return-void
 .end method
 
@@ -741,7 +741,7 @@
     .parameter "inputWindowHandle"
 
     .prologue
-    .line 435
+    .line 482
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -753,7 +753,7 @@
 
     invoke-virtual {v0, p1}, Lcom/android/server/wm/InputMonitor;->notifyInputChannelBroken(Lcom/android/server/wm/InputWindowHandle;)V
 
-    .line 436
+    .line 483
     return-void
 .end method
 
@@ -763,7 +763,7 @@
     .parameter "lidOpen"
 
     .prologue
-    .line 430
+    .line 477
     iget-object v0, p0, Lcom/android/server/wm/InputManager$Callbacks;->this$0:Lcom/android/server/wm/InputManager;
 
     #getter for: Lcom/android/server/wm/InputManager;->mWindowManagerService:Lcom/android/server/wm/WindowManagerService;
@@ -775,6 +775,6 @@
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/android/server/wm/InputMonitor;->notifyLidSwitchChanged(JZ)V
 
-    .line 431
+    .line 478
     return-void
 .end method

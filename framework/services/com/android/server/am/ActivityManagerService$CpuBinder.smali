@@ -24,13 +24,13 @@
     .parameter "activityManagerService"
 
     .prologue
-    .line 1447
+    .line 1461
     invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
-    .line 1448
+    .line 1462
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$CpuBinder;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
 
-    .line 1449
+    .line 1463
     return-void
 .end method
 
@@ -43,14 +43,14 @@
     .parameter "args"
 
     .prologue
-    .line 1453
+    .line 1467
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$CpuBinder;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mProcessStatsThread:Ljava/lang/Thread;
 
     monitor-enter v0
 
-    .line 1454
+    .line 1468
     :try_start_5
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$CpuBinder;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
 
@@ -62,7 +62,7 @@
 
     invoke-virtual {p2, v1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 1455
+    .line 1469
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$CpuBinder;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v1, v1, Lcom/android/server/am/ActivityManagerService;->mProcessStats:Lcom/android/server/ProcessStats;
@@ -77,13 +77,13 @@
 
     invoke-virtual {p2, v1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 1457
+    .line 1471
     monitor-exit v0
 
-    .line 1458
+    .line 1472
     return-void
 
-    .line 1457
+    .line 1471
     :catchall_21
     move-exception v1
 

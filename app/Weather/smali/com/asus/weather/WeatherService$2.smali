@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 199
+    .line 205
     iput-object p1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 4
 
     .prologue
-    .line 202
+    .line 208
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     iget v2, v1, Lcom/asus/weather/WeatherService;->counts:I
@@ -50,14 +50,14 @@
 
     iput v2, v1, Lcom/asus/weather/WeatherService;->counts:I
 
-    .line 204
+    .line 210
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     iget-boolean v1, v1, Lcom/asus/weather/WeatherService;->flagGetPositionDone:Z
 
     if-nez v1, :cond_0
 
-    .line 206
+    .line 212
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     iget v1, v1, Lcom/asus/weather/WeatherService;->counts:I
@@ -66,7 +66,7 @@
 
     if-le v1, v2, :cond_1
 
-    .line 209
+    .line 215
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     iget-object v1, v1, Lcom/asus/weather/WeatherService;->locationListener:Landroid/location/LocationListener;
@@ -79,14 +79,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 212
+    .line 218
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "com.asus.weather.weatherIntentAction"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 213
+    .line 219
     .local v0, intent:Landroid/content/Intent;
     const-string v1, "CONTENT"
 
@@ -94,12 +94,12 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 214
+    .line 220
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     invoke-virtual {v1, v0}, Lcom/asus/weather/WeatherService;->sendBroadcast(Landroid/content/Intent;)V
 
-    .line 215
+    .line 221
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     iget-object v1, v1, Lcom/asus/weather/WeatherService;->mLocationManager:Landroid/location/LocationManager;
@@ -110,20 +110,20 @@
 
     invoke-virtual {v1, v2}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
 
-    .line 216
+    .line 222
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 
     const/4 v2, 0x0
 
     iput-object v2, v1, Lcom/asus/weather/WeatherService;->locationListener:Landroid/location/LocationListener;
 
-    .line 224
+    .line 230
     .end local v0           #intent:Landroid/content/Intent;
     :cond_0
     :goto_0
     return-void
 
-    .line 221
+    .line 227
     :cond_1
     iget-object v1, p0, Lcom/asus/weather/WeatherService$2;->this$0:Lcom/asus/weather/WeatherService;
 

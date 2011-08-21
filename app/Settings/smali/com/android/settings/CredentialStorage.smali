@@ -202,7 +202,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0804ff
+    const v3, 0x7f08050b
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -301,7 +301,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0804f9
+    const v3, 0x7f080505
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -369,7 +369,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080503
+    const v2, 0x7f08050f
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -427,7 +427,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0804fe
+    const v3, 0x7f08050a
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -472,7 +472,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0804fd
+    const v3, 0x7f080509
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -643,7 +643,7 @@
     invoke-virtual {v0}, Landroid/security/KeyStore;->reset()Z
 
     .line 183
-    const v0, 0x7f080509
+    const v0, 0x7f080515
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -853,7 +853,7 @@
     if-ne v2, v6, :cond_4
 
     .line 211
-    const v4, 0x7f08050a
+    const v4, 0x7f080516
 
     invoke-static {p0, v4, v8}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -911,7 +911,7 @@
     .line 199
     iget-object v4, p0, Lcom/android/settings/CredentialStorage;->mError:Landroid/widget/TextView;
 
-    const v5, 0x7f080504
+    const v5, 0x7f080510
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -963,7 +963,7 @@
     if-ne v2, v7, :cond_5
 
     .line 214
-    const v4, 0x7f080509
+    const v4, 0x7f080515
 
     invoke-static {p0, v4, v8}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -989,7 +989,7 @@
     .line 218
     iget-object v4, p0, Lcom/android/settings/CredentialStorage;->mError:Landroid/widget/TextView;
 
-    const v5, 0x7f080506
+    const v5, 0x7f080512
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -1010,7 +1010,7 @@
     .line 220
     iget-object v4, p0, Lcom/android/settings/CredentialStorage;->mError:Landroid/widget/TextView;
 
-    const v5, 0x7f080507
+    const v5, 0x7f080513
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -1020,7 +1020,7 @@
     :cond_7
     iget-object v4, p0, Lcom/android/settings/CredentialStorage;->mError:Landroid/widget/TextView;
 
-    const v5, 0x7f080508
+    const v5, 0x7f080514
 
     new-array v6, v6, [Ljava/lang/Object;
 

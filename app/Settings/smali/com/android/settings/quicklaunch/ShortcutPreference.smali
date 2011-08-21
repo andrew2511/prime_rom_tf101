@@ -78,7 +78,7 @@
     if-nez v2, :cond_0
 
     .line 56
-    const v2, 0x7f0803ee
+    const v2, 0x7f0803fa
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
     sput-object v2, Lcom/android/settings/quicklaunch/ShortcutPreference;->STRING_ASSIGN_APPLICATION:Ljava/lang/String;
 
     .line 57
-    const v2, 0x7f0803ef
+    const v2, 0x7f0803fb
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -322,7 +322,7 @@
     invoke-super {p0, p1}, Landroid/preference/Preference;->onBindView(Landroid/view/View;)V
 
     .line 106
-    const v4, 0x7f0f00ad
+    const v4, 0x7f0f00af
 
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

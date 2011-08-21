@@ -27,6 +27,10 @@ Verifique a validade dos certificados"</string>
     <string name="wifi_setup_wapi_cert_not_supported">Não é possível configurar uma ligação WLAN com WAPI CERT durante a configuração. Após a configuração, poderá fazê-lo nas Definições, em <b>Sem fios e redes</b>.</string>
     <string name="wifi_setup_status_wapi_cert_not_supported">WAPI CERT não suportado</string>
     <string name="wifi_wapi_network_open">Abrir</string>
+    <string name="asus_wifi_setup_description_connected">"Toque em Seguinte para continuar com a configuração.
+
+Toque em Voltar para seleccionar uma rede Wi-Fi diferente."</string>
+    <string name="asus_wifi_setup_description_connecting">A ligação poderá demorar alguns minutos…</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="device_info_default">Desconhecido</string>
@@ -1306,8 +1310,4 @@ Deseja continuar?"</string>
     <string name="select_all">Selecionar tudo</string>
     <string name="hdcp_checking_title">Verificação HDCP</string>
     <string name="hdcp_checking_dialog_title">Definir o comportamento da verificação HDCP</string>
-    <string name="asus_wifi_setup_description_connected">"Toque em Seguinte para continuar com a configuração.
-
-Toque em Voltar para seleccionar uma rede Wi-Fi diferente."</string>
-    <string name="asus_wifi_setup_description_connecting">A ligação poderá demorar alguns minutos…</string>
 </resources>

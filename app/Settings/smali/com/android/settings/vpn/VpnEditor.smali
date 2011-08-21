@@ -171,7 +171,7 @@
     .line 160
     if-eqz p2, :cond_0
 
-    const v1, 0x7f0804ca
+    const v1, 0x7f0804d6
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
     .line 160
     .end local v0           #formatString:Ljava/lang/String;
     :cond_0
-    const v1, 0x7f0804cb
+    const v1, 0x7f0804d7
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -576,14 +576,14 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0804bc
+    const v1, 0x7f0804c8
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f0804ad
+    const v1, 0x7f0804b9
 
     new-instance v2, Lcom/android/settings/vpn/VpnEditor$1;
 
@@ -593,7 +593,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804b0
+    const v1, 0x7f0804bc
 
     const/4 v2, 0x0
 
@@ -611,7 +611,7 @@
 
     .line 214
     :cond_0
-    const v1, 0x7f0804bd
+    const v1, 0x7f0804c9
 
     goto :goto_0
 
@@ -638,7 +638,7 @@
     .line 107
     const/4 v0, 0x1
 
-    const v1, 0x7f0804b1
+    const v1, 0x7f0804bd
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -655,7 +655,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0804b2
+    const v1, 0x7f0804be
 
     :goto_0
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
@@ -671,7 +671,7 @@
 
     .line 109
     :cond_0
-    const v1, 0x7f0804b3
+    const v1, 0x7f0804bf
 
     goto :goto_0
 .end method
@@ -728,7 +728,7 @@
     if-nez v2, :cond_1
 
     .line 124
-    const v2, 0x7f08056c
+    const v2, 0x7f080578
 
     invoke-static {v0, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

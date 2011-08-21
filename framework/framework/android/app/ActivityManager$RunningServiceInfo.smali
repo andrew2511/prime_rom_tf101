@@ -73,7 +73,7 @@
     .registers 1
 
     .prologue
-    .line 688
+    .line 708
     new-instance v0, Landroid/app/ActivityManager$RunningServiceInfo$1;
 
     invoke-direct {v0}, Landroid/app/ActivityManager$RunningServiceInfo$1;-><init>()V
@@ -87,10 +87,10 @@
     .registers 1
 
     .prologue
-    .line 647
+    .line 667
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 648
+    .line 668
     return-void
 .end method
 
@@ -99,13 +99,13 @@
     .parameter "source"
 
     .prologue
-    .line 697
+    .line 717
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 698
+    .line 718
     invoke-virtual {p0, p1}, Landroid/app/ActivityManager$RunningServiceInfo;->readFromParcel(Landroid/os/Parcel;)V
 
-    .line 699
+    .line 719
     return-void
 .end method
 
@@ -115,7 +115,7 @@
     .parameter "x1"
 
     .prologue
-    .line 543
+    .line 563
     invoke-direct {p0, p1}, Landroid/app/ActivityManager$RunningServiceInfo;-><init>(Landroid/os/Parcel;)V
 
     return-void
@@ -127,7 +127,7 @@
     .registers 2
 
     .prologue
-    .line 651
+    .line 671
     const/4 v0, 0x0
 
     return v0
@@ -142,35 +142,35 @@
 
     const/4 v2, 0x0
 
-    .line 672
+    .line 692
     invoke-static {p1}, Landroid/content/ComponentName;->readFromParcel(Landroid/os/Parcel;)Landroid/content/ComponentName;
 
     move-result-object v0
 
     iput-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->service:Landroid/content/ComponentName;
 
-    .line 673
+    .line 693
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->pid:I
 
-    .line 674
+    .line 694
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->uid:I
 
-    .line 675
+    .line 695
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->process:Ljava/lang/String;
 
-    .line 676
+    .line 696
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
@@ -182,14 +182,14 @@
     :goto_21
     iput-boolean v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->foreground:Z
 
-    .line 677
+    .line 697
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->activeSince:J
 
-    .line 678
+    .line 698
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
@@ -201,68 +201,68 @@
     :goto_30
     iput-boolean v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->started:Z
 
-    .line 679
+    .line 699
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientCount:I
 
-    .line 680
+    .line 700
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->crashCount:I
 
-    .line 681
+    .line 701
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->lastActivityTime:J
 
-    .line 682
+    .line 702
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->restarting:J
 
-    .line 683
+    .line 703
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->flags:I
 
-    .line 684
+    .line 704
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientPackage:Ljava/lang/String;
 
-    .line 685
+    .line 705
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientLabel:I
 
-    .line 686
+    .line 706
     return-void
 
     :cond_5d
     move v0, v2
 
-    .line 676
+    .line 696
     goto :goto_21
 
     :cond_5f
     move v0, v2
 
-    .line 678
+    .line 698
     goto :goto_30
 .end method
 
@@ -276,27 +276,27 @@
 
     const/4 v2, 0x0
 
-    .line 655
+    .line 675
     iget-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->service:Landroid/content/ComponentName;
 
     invoke-static {v0, p1}, Landroid/content/ComponentName;->writeToParcel(Landroid/content/ComponentName;Landroid/os/Parcel;)V
 
-    .line 656
+    .line 676
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->pid:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 657
+    .line 677
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->uid:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 658
+    .line 678
     iget-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->process:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 659
+    .line 679
     iget-boolean v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->foreground:Z
 
     if-eqz v0, :cond_4f
@@ -306,12 +306,12 @@
     :goto_1b
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 660
+    .line 680
     iget-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->activeSince:J
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 661
+    .line 681
     iget-boolean v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->started:Z
 
     if-eqz v0, :cond_51
@@ -321,53 +321,53 @@
     :goto_28
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 662
+    .line 682
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientCount:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 663
+    .line 683
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->crashCount:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 664
+    .line 684
     iget-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->lastActivityTime:J
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 665
+    .line 685
     iget-wide v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->restarting:J
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 666
+    .line 686
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->flags:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 667
+    .line 687
     iget-object v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientPackage:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 668
+    .line 688
     iget v0, p0, Landroid/app/ActivityManager$RunningServiceInfo;->clientLabel:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 669
+    .line 689
     return-void
 
     :cond_4f
     move v0, v2
 
-    .line 659
+    .line 679
     goto :goto_1b
 
     :cond_51
     move v0, v2
 
-    .line 661
+    .line 681
     goto :goto_28
 .end method

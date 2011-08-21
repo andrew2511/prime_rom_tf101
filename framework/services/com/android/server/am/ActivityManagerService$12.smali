@@ -37,7 +37,7 @@
     .parameter
 
     .prologue
-    .line 7978
+    .line 7998
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$12;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,14 +57,14 @@
 
     const/4 v2, -0x1
 
-    .line 7981
+    .line 8001
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->setAdj:I
 
     iget v1, p2, Lcom/android/server/am/ProcessRecord;->setAdj:I
 
     if-eq v0, v1, :cond_12
 
-    .line 7982
+    .line 8002
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->setAdj:I
 
     iget v1, p2, Lcom/android/server/am/ProcessRecord;->setAdj:I
@@ -73,17 +73,17 @@
 
     move v0, v2
 
-    .line 7993
+    .line 8013
     :goto_f
     return v0
 
     :cond_10
     move v0, v3
 
-    .line 7982
+    .line 8002
     goto :goto_f
 
-    .line 7984
+    .line 8004
     :cond_12
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->setSchedGroup:I
 
@@ -91,7 +91,7 @@
 
     if-eq v0, v1, :cond_22
 
-    .line 7985
+    .line 8005
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->setSchedGroup:I
 
     iget v1, p2, Lcom/android/server/am/ProcessRecord;->setSchedGroup:I
@@ -107,7 +107,7 @@
 
     goto :goto_f
 
-    .line 7987
+    .line 8007
     :cond_22
     iget-boolean v0, p1, Lcom/android/server/am/ProcessRecord;->keeping:Z
 
@@ -115,7 +115,7 @@
 
     if-eq v0, v1, :cond_30
 
-    .line 7988
+    .line 8008
     iget-boolean v0, p1, Lcom/android/server/am/ProcessRecord;->keeping:Z
 
     if-eqz v0, :cond_2e
@@ -129,7 +129,7 @@
 
     goto :goto_f
 
-    .line 7990
+    .line 8010
     :cond_30
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->pid:I
 
@@ -137,7 +137,7 @@
 
     if-eq v0, v1, :cond_40
 
-    .line 7991
+    .line 8011
     iget v0, p1, Lcom/android/server/am/ProcessRecord;->pid:I
 
     iget v1, p2, Lcom/android/server/am/ProcessRecord;->pid:I
@@ -153,7 +153,7 @@
 
     goto :goto_f
 
-    .line 7993
+    .line 8013
     :cond_40
     const/4 v0, 0x0
 
@@ -166,7 +166,7 @@
     .parameter "x1"
 
     .prologue
-    .line 7978
+    .line 7998
     check-cast p1, Lcom/android/server/am/ProcessRecord;
 
     .end local p1

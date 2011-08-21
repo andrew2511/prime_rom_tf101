@@ -161,7 +161,7 @@
     :cond_0
     iget-object v2, p0, Lcom/android/settings/AirplaneModeEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0800fa
+    const v3, 0x7f080104
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f0800fb
+    const v2, 0x7f080105
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
@@ -230,7 +230,7 @@
     .line 97
     .end local v0           #intent:Landroid/content/Intent;
     :cond_0
-    const v2, 0x7f0800fc
+    const v2, 0x7f080106
 
     goto :goto_0
 

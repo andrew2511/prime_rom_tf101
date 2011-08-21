@@ -507,7 +507,7 @@
 
     .line 248
     .local v2, id:I
-    const v3, 0x7f0f0175
+    const v3, 0x7f0f0177
 
     if-ne v2, v3, :cond_3
 
@@ -556,11 +556,11 @@
 
     .line 251
     :cond_3
-    const v3, 0x7f0f0168
+    const v3, 0x7f0f016a
 
     if-eq v2, v3, :cond_4
 
-    const v3, 0x7f0f0169
+    const v3, 0x7f0f016b
 
     if-ne v2, v3, :cond_5
 
@@ -572,7 +572,7 @@
 
     .line 253
     :cond_5
-    const v3, 0x7f0f016b
+    const v3, 0x7f0f016d
 
     if-ne v2, v3, :cond_1
 
@@ -887,7 +887,7 @@
     invoke-direct {p0}, Lcom/android/settings/Settings;->highlightHeader()V
 
     .line 73
-    const v0, 0x7f0800f6
+    const v0, 0x7f080100
 
     invoke-virtual {p0, v0}, Lcom/android/settings/Settings;->setTitle(I)V
 

@@ -240,7 +240,7 @@
 
     .line 87
     .restart local v2       #thumb:Landroid/graphics/drawable/Drawable;
-    const v3, 0x1080473
+    const v3, 0x1080471
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

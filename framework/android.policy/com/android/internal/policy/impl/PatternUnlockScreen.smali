@@ -152,7 +152,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 165
-    const v2, 0x1090053
+    const v2, 0x1090052
 
     invoke-virtual {v1, v2, p0, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -171,12 +171,12 @@
     .line 173
     iget-object v2, p0, Lcom/android/internal/policy/impl/PatternUnlockScreen;->mStatusView:Lcom/android/internal/policy/impl/StatusView;
 
-    const v3, 0x10402ab
+    const v3, 0x10402a8
 
     invoke-virtual {v2, v3, v5}, Lcom/android/internal/policy/impl/StatusView;->setHelpMessage(II)V
 
     .line 176
-    const v2, 0x102027d
+    const v2, 0x1020279
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
     iput-object v2, p0, Lcom/android/internal/policy/impl/PatternUnlockScreen;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
     .line 178
-    const v2, 0x1020278
+    const v2, 0x1020274
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -198,7 +198,7 @@
     iput-object v2, p0, Lcom/android/internal/policy/impl/PatternUnlockScreen;->mFooterNormal:Landroid/view/ViewGroup;
 
     .line 179
-    const v2, 0x102027a
+    const v2, 0x1020276
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
 
     .line 188
     .local v0, emergencyClick:Landroid/view/View$OnClickListener;
-    const v2, 0x1020279
+    const v2, 0x1020275
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -236,7 +236,7 @@
     invoke-virtual {v2, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 191
-    const v2, 0x102027c
+    const v2, 0x1020278
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     invoke-direct {p0}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->refreshEmergencyButtonText()V
 
     .line 196
-    const v2, 0x102027b
+    const v2, 0x1020277
 
     invoke-virtual {p0, v2}, Lcom/android/internal/policy/impl/PatternUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 197
     iget-object v2, p0, Lcom/android/internal/policy/impl/PatternUnlockScreen;->mForgotPatternButton:Landroid/widget/Button;
 
-    const v3, 0x10402c3
+    const v3, 0x10402c0
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -389,7 +389,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 168
-    const v2, 0x1090052
+    const v2, 0x1090051
 
     invoke-virtual {v1, v2, p0, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

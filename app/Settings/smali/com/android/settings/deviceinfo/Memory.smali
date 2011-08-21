@@ -197,7 +197,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/Memory;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f0802b5
+    const v4, 0x7f0802bf
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -210,7 +210,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/Memory;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f0802b6
+    const v4, 0x7f0802c0
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -595,7 +595,7 @@
     .parameter "id"
 
     .prologue
-    const v3, 0x7f080390
+    const v3, 0x7f08039c
 
     const/4 v2, 0x0
 
@@ -632,7 +632,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0800f5
+    const v1, 0x7f0800ff
 
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

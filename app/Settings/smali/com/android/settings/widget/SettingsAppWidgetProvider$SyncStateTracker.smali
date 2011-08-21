@@ -94,7 +94,7 @@
 
     .prologue
     .line 527
-    const v0, 0x7f0f010c
+    const v0, 0x7f0f010e
 
     return v0
 .end method
@@ -123,7 +123,7 @@
 
     .prologue
     .line 528
-    const v0, 0x7f0f010d
+    const v0, 0x7f0f010f
 
     return v0
 .end method

@@ -246,7 +246,7 @@
 
     .line 218
     .local v7, prefScreen:Landroid/preference/PreferenceScreen;
-    const v9, 0x7f080400
+    const v9, 0x7f08040c
 
     invoke-virtual {v7, v9}, Landroid/preference/PreferenceScreen;->setTitle(I)V
 
@@ -314,7 +314,7 @@
 
     .line 240
     .restart local v7       #prefScreen:Landroid/preference/PreferenceScreen;
-    const v9, 0x7f0803ff
+    const v9, 0x7f08040b
 
     invoke-virtual {v7, v9}, Landroid/preference/PreferenceScreen;->setTitle(I)V
 
@@ -599,7 +599,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0803dc
+    const v2, 0x7f0803e8
 
     new-array v3, v3, [Ljava/lang/Object;
 

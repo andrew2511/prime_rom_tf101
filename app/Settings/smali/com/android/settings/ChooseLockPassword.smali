@@ -69,7 +69,7 @@
     invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 73
-    const v1, 0x7f080330
+    const v1, 0x7f08033a
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockPassword;->getText(I)Ljava/lang/CharSequence;
 

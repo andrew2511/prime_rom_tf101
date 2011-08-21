@@ -230,7 +230,7 @@
     iput-boolean v4, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mBluetoothTethered:Z
 
     .line 101
-    const v3, 0x10804f8
+    const v3, 0x10804f6
 
     iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mBluetoothTetherIconId:I
 
@@ -384,7 +384,7 @@
     .line 153
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/NetworkController;->mContext:Landroid/content/Context;
 
-    const v4, 0x10402a7
+    const v4, 0x10402a4
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

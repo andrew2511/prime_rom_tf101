@@ -30,15 +30,15 @@
     .parameter "civ"
 
     .prologue
-    .line 64
+    .line 70
     iput-object p1, p0, Lcom/nuance/xt9/input/ChineseInputView$ChineseGetMoreWordsHandler;->this$0:Lcom/nuance/xt9/input/ChineseInputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 65
+    .line 71
     iput-object p2, p0, Lcom/nuance/xt9/input/ChineseInputView$ChineseGetMoreWordsHandler;->mCIV:Lcom/nuance/xt9/input/ChineseInputView;
 
-    .line 66
+    .line 72
     return-void
 .end method
 
@@ -48,11 +48,11 @@
     .locals 1
 
     .prologue
-    .line 68
+    .line 74
     iget-object v0, p0, Lcom/nuance/xt9/input/ChineseInputView$ChineseGetMoreWordsHandler;->mCIV:Lcom/nuance/xt9/input/ChineseInputView;
 
     invoke-virtual {v0}, Lcom/nuance/xt9/input/ChineseInputView;->postAddMoreSuggestions()V
 
-    .line 69
+    .line 75
     return-void
 .end method

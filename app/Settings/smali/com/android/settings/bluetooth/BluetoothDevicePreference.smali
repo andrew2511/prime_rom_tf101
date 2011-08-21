@@ -139,7 +139,7 @@
     if-eqz v4, :cond_0
 
     .line 202
-    const v4, 0x7f08008a
+    const v4, 0x7f080094
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -147,7 +147,7 @@
 
     .line 204
     :cond_0
-    const v4, 0x7f080081
+    const v4, 0x7f08008b
 
     const/4 v5, 0x1
 
@@ -411,19 +411,19 @@
 
     .line 238
     :pswitch_0
-    const v5, 0x7f080089
+    const v5, 0x7f080093
 
     goto :goto_0
 
     .line 240
     :pswitch_1
-    const v5, 0x7f080088
+    const v5, 0x7f080092
 
     goto :goto_0
 
     .line 242
     :pswitch_2
-    const v5, 0x7f080087
+    const v5, 0x7f080091
 
     goto :goto_0
 
@@ -460,7 +460,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080177
+    const v2, 0x7f080181
 
     invoke-static {v0, v1, v2}, Lcom/android/settings/bluetooth/Utils;->showError(Landroid/content/Context;Ljava/lang/String;I)V
 
@@ -646,7 +646,7 @@
     invoke-virtual {v0, v10}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 124
-    const v10, 0x7f0f009c
+    const v10, 0x7f0f009e
 
     invoke-virtual {p1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -704,7 +704,7 @@
 
     .line 139
     .local v6, inflater:Landroid/view/LayoutInflater;
-    const v10, 0x7f0f009a
+    const v10, 0x7f0f009c
 
     invoke-virtual {p1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -836,7 +836,7 @@
     invoke-virtual {v10, v11}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 131
-    const v10, 0x7f0f009b
+    const v10, 0x7f0f009d
 
     invoke-virtual {p1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <public type="drawable" name="asus_ep_deselect_all" id="0x7f020000" />
-    <public type="drawable" name="asus_ep_select_all" id="0x7f020001" />
-    <public type="drawable" name="ic_download_misc_file_type" id="0x7f020002" />
-    <public type="drawable" name="ic_launcher_drm_file" id="0x7f020003" />
-    <public type="drawable" name="ic_menu_desk_clock" id="0x7f020004" />
+    <public type="drawable" name="asus_ep_delete_icon" id="0x7f020000" />
+    <public type="drawable" name="asus_ep_deselect_all" id="0x7f020001" />
+    <public type="drawable" name="asus_ep_select_all" id="0x7f020002" />
+    <public type="drawable" name="asus_ep_share_icon" id="0x7f020003" />
+    <public type="drawable" name="ic_download_misc_file_type" id="0x7f020004" />
+    <public type="drawable" name="ic_launcher_drm_file" id="0x7f020005" />
+    <public type="drawable" name="ic_menu_desk_clock" id="0x7f020006" />
     <public type="mipmap" name="ic_launcher_download" id="0x7f030000" />
     <public type="layout" name="download_list" id="0x7f040000" />
     <public type="layout" name="download_list_item" id="0x7f040001" />

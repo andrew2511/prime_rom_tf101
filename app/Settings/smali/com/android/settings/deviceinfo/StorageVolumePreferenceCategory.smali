@@ -78,7 +78,7 @@
 
     new-instance v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v2, 0x7f0802a0
+    const v2, 0x7f0802aa
 
     invoke-direct {v1, v2, v5}, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;-><init>(II)V
 
@@ -86,7 +86,7 @@
 
     new-instance v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v2, 0x7f0802a2
+    const v2, 0x7f0802ac
 
     const v3, 0x7f0a0004
 
@@ -96,7 +96,7 @@
 
     new-instance v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v2, 0x7f0802a5
+    const v2, 0x7f0802af
 
     const v3, 0x7f0a0006
 
@@ -106,7 +106,7 @@
 
     new-instance v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v2, 0x7f0802a6
+    const v2, 0x7f0802b0
 
     const v3, 0x7f0a0007
 
@@ -116,7 +116,7 @@
 
     new-instance v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v2, 0x7f0802a4
+    const v2, 0x7f0802ae
 
     const v3, 0x7f0a0005
 
@@ -128,7 +128,7 @@
 
     new-instance v2, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v3, 0x7f0802a7
+    const v3, 0x7f0802b1
 
     const v4, 0x7f0a0008
 
@@ -140,7 +140,7 @@
 
     new-instance v2, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$CategoryInfo;
 
-    const v3, 0x7f08029f
+    const v3, 0x7f0802a9
 
     const v4, 0x7f0a0003
 
@@ -620,7 +620,7 @@
     .line 248
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f0802af
+    const v3, 0x7f0802b9
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -795,7 +795,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f0802ac
+    const v4, 0x7f0802b6
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -967,7 +967,7 @@
     invoke-virtual {v3, v5}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 189
-    const v5, 0x7f0802a1
+    const v5, 0x7f0802ab
 
     invoke-virtual {v3, v5}, Landroid/preference/Preference;->setSummary(I)V
 

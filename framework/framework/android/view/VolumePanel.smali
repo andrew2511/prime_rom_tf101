@@ -142,23 +142,23 @@
     .line 141
     :array_2a
     .array-data 0x4
-        0x96t 0x2t 0x8t 0x1t
-        0x9at 0x2t 0x8t 0x1t
-        0x9at 0x2t 0x8t 0x1t
-        0x9bt 0x2t 0x8t 0x1t
-        0x98t 0x2t 0x8t 0x1t
         0x94t 0x2t 0x8t 0x1t
+        0x98t 0x2t 0x8t 0x1t
+        0x98t 0x2t 0x8t 0x1t
+        0x99t 0x2t 0x8t 0x1t
+        0x96t 0x2t 0x8t 0x1t
+        0x92t 0x2t 0x8t 0x1t
     .end array-data
 
     .line 151
     :array_3a
     .array-data 0x4
-        0x96t 0x2t 0x8t 0x1t
+        0x94t 0x2t 0x8t 0x1t
+        0x98t 0x2t 0x8t 0x1t
+        0x98t 0x2t 0x8t 0x1t
         0x9at 0x2t 0x8t 0x1t
-        0x9at 0x2t 0x8t 0x1t
-        0x9ct 0x2t 0x8t 0x1t
-        0x99t 0x2t 0x8t 0x1t
-        0x95t 0x2t 0x8t 0x1t
+        0x97t 0x2t 0x8t 0x1t
+        0x93t 0x2t 0x8t 0x1t
     .end array-data
 .end method
 
@@ -206,7 +206,7 @@
 
     .line 181
     .local v0, inflater:Landroid/view/LayoutInflater;
-    const v4, 0x10900a1
+    const v4, 0x10900a0
 
     invoke-virtual {v0, v4, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -227,7 +227,7 @@
     .line 188
     iget-object v4, p0, Landroid/view/VolumePanel;->mView:Landroid/view/View;
 
-    const v5, 0x10202dd
+    const v5, 0x10202d9
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 189
     iget-object v4, p0, Landroid/view/VolumePanel;->mView:Landroid/view/View;
 
-    const v5, 0x10202df
+    const v5, 0x10202db
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -258,7 +258,7 @@
     .line 191
     iget-object v4, p0, Landroid/view/VolumePanel;->mView:Landroid/view/View;
 
-    const v5, 0x10202de
+    const v5, 0x10202da
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
     .line 193
     new-instance v4, Landroid/app/Dialog;
 
-    const v5, 0x10301db
+    const v5, 0x10301da
 
     invoke-direct {v4, p1, v5}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -509,7 +509,7 @@
     iput v3, v2, Landroid/view/VolumePanel$StreamControl;->streamType:I
 
     .line 251
-    const v3, 0x10900a2
+    const v3, 0x10900a1
 
     invoke-virtual {v1, v3, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -527,7 +527,7 @@
     .line 253
     iget-object v3, v2, Landroid/view/VolumePanel$StreamControl;->group:Landroid/view/ViewGroup;
 
-    const v4, 0x10202e0
+    const v4, 0x10202dc
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -571,7 +571,7 @@
     .line 259
     iget-object v3, v2, Landroid/view/VolumePanel$StreamControl;->group:Landroid/view/ViewGroup;
 
-    const v4, 0x10202c0
+    const v4, 0x10202bc
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1802,9 +1802,9 @@
     if-eqz v4, :cond_cb
 
     .line 419
-    const v4, 0x1080296
+    const v4, 0x1080294
 
-    const v5, 0x1080297
+    const v5, 0x1080295
 
     invoke-direct {p0, v4, v5}, Landroid/view/VolumePanel;->setMusicIcon(II)V
 
@@ -1812,9 +1812,9 @@
 
     .line 421
     :cond_cb
-    const v4, 0x108029b
+    const v4, 0x1080299
 
-    const v5, 0x108029c
+    const v5, 0x108029a
 
     invoke-direct {p0, v4, v5}, Landroid/view/VolumePanel;->setMusicIcon(II)V
 

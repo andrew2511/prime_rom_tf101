@@ -148,7 +148,7 @@
     .line 120
     iget-object v2, p0, Lcom/android/phone/InCallMenu;->mManageConference:Lcom/android/phone/InCallMenuItemView;
 
-    const v3, 0x10802db
+    const v3, 0x10802d9
 
     invoke-virtual {v2, v3}, Lcom/android/phone/InCallMenuItemView;->setIconResource(I)V
 

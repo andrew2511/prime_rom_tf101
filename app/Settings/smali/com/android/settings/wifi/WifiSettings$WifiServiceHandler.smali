@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 628
+    .line 630
     iput-object p1, p0, Lcom/android/settings/wifi/WifiSettings$WifiServiceHandler;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
@@ -38,7 +38,7 @@
     .parameter "x1"
 
     .prologue
-    .line 628
+    .line 630
     invoke-direct {p0, p1}, Lcom/android/settings/wifi/WifiSettings$WifiServiceHandler;-><init>(Lcom/android/settings/wifi/WifiSettings;)V
 
     return-void
@@ -51,23 +51,23 @@
     .parameter "msg"
 
     .prologue
-    .line 632
+    .line 634
     iget v2, p1, Landroid/os/Message;->what:I
 
     sparse-switch v2, :sswitch_data_0
 
-    .line 669
+    .line 671
     :cond_0
     :goto_0
     return-void
 
-    .line 634
+    .line 636
     :sswitch_0
     iget v2, p1, Landroid/os/Message;->arg1:I
 
     if-eqz v2, :cond_0
 
-    .line 638
+    .line 640
     const-string v2, "WifiSettings"
 
     const-string v3, "Failed to establish AsyncChannel connection"
@@ -76,17 +76,17 @@
 
     goto :goto_0
 
-    .line 642
+    .line 644
     :sswitch_1
     iget-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast v1, Landroid/net/wifi/WpsResult;
 
-    .line 643
+    .line 645
     .local v1, result:Landroid/net/wifi/WpsResult;
     if-eqz v1, :cond_0
 
-    .line 644
+    .line 646
     new-instance v2, Landroid/app/AlertDialog$Builder;
 
     iget-object v3, p0, Lcom/android/settings/wifi/WifiSettings$WifiServiceHandler;->this$0:Lcom/android/settings/wifi/WifiSettings;
@@ -97,7 +97,7 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f0801c6
+    const v3, 0x7f0801d0
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    .line 647
+    .line 649
     .local v0, dialog:Landroid/app/AlertDialog$Builder;
     sget-object v2, Lcom/android/settings/wifi/WifiSettings$2;->$SwitchMap$android$net$wifi$WpsResult$Status:[I
 
@@ -125,19 +125,19 @@
 
     packed-switch v2, :pswitch_data_0
 
-    .line 657
+    .line 659
     iget-object v2, v1, Landroid/net/wifi/WpsResult;->pin:Ljava/lang/String;
 
     if-eqz v2, :cond_0
 
-    .line 658
+    .line 660
     iget-object v2, p0, Lcom/android/settings/wifi/WifiSettings$WifiServiceHandler;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-virtual {v2}, Lcom/android/settings/wifi/WifiSettings;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v3, 0x7f0801c7
+    const v3, 0x7f0801d1
 
     const/4 v4, 0x1
 
@@ -155,34 +155,34 @@
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 660
+    .line 662
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
     goto :goto_0
 
-    .line 649
+    .line 651
     :pswitch_0
-    const v2, 0x7f0801c9
+    const v2, 0x7f0801d3
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
-    .line 650
+    .line 652
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
     goto :goto_0
 
-    .line 653
+    .line 655
     :pswitch_1
-    const v2, 0x7f0801c8
+    const v2, 0x7f0801d2
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
-    .line 654
+    .line 656
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
     goto :goto_0
 
-    .line 632
+    .line 634
     nop
 
     :sswitch_data_0
@@ -191,7 +191,7 @@
         0xb -> :sswitch_1
     .end sparse-switch
 
-    .line 647
+    .line 649
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_0

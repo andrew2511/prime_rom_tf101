@@ -167,7 +167,7 @@
 
     .line 184
     .local v1, pd:Landroid/app/ProgressDialog;
-    const v2, 0x104011a
+    const v2, 0x1040117
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -176,7 +176,7 @@
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 185
-    const v2, 0x104011b
+    const v2, 0x1040118
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -629,7 +629,7 @@
 
     if-ne v2, v4, :cond_9c
 
-    const v4, 0x104011d
+    const v4, 0x104011a
 
     move v3, v4
 
@@ -688,7 +688,7 @@
 
     move-result-object v4
 
-    const v5, 0x104042b
+    const v5, 0x1040428
 
     new-instance v6, Lcom/android/internal/app/ShutdownThread$1;
 
@@ -698,7 +698,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040429
+    const v5, 0x1040426
 
     new-instance v6, Lcom/android/internal/app/ShutdownThread$5;
 
@@ -708,7 +708,7 @@
 
     move-result-object v4
 
-    const v5, 0x104042a
+    const v5, 0x1040427
 
     new-instance v6, Lcom/android/internal/app/ShutdownThread$6;
 
@@ -784,7 +784,7 @@
     .line 104
     .restart local v2       #longPressBehavior:I
     :cond_9c
-    const v4, 0x104011c
+    const v4, 0x1040119
 
     move v3, v4
 

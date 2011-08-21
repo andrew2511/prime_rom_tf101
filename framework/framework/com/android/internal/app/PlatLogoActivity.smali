@@ -74,7 +74,7 @@
 
     .line 35
     .local v0, content:Landroid/widget/ImageView;
-    const v1, 0x10803f6
+    const v1, 0x10803f4
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

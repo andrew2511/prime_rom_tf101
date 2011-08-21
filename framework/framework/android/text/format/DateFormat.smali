@@ -874,7 +874,7 @@
     if-ltz v4, :cond_aa
 
     .line 299
-    const v5, 0x104007a
+    const v5, 0x1040077
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1052,7 +1052,7 @@
     .end local v2           #template:Ljava/lang/String;
     .end local v4           #year:I
     :cond_aa
-    const v5, 0x1040079
+    const v5, 0x1040076
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1167,7 +1167,7 @@
     if-eqz v0, :cond_13
 
     .line 254
-    const v1, 0x1040077
+    const v1, 0x1040074
 
     .line 259
     .local v1, res:I
@@ -1185,7 +1185,7 @@
     .line 256
     .end local v1           #res:I
     :cond_13
-    const v1, 0x1040076
+    const v1, 0x1040073
 
     .restart local v1       #res:I
     goto :goto_9

@@ -3179,7 +3179,7 @@
     if-ne v1, v4, :cond_19
 
     .line 839
-    const v3, 0x10402ad
+    const v3, 0x10402aa
 
     .line 840
     .local v3, textId:I
@@ -3200,11 +3200,11 @@
     .line 843
     .end local v3           #textId:I
     :cond_19
-    const v3, 0x10402ac
+    const v3, 0x10402a9
 
     .line 844
     .restart local v3       #textId:I
-    const v0, 0x10802c1
+    const v0, 0x10802bf
 
     .line 845
     .local v0, emergencyIcon:I

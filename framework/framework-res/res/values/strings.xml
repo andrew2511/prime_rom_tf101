@@ -23,11 +23,6 @@
     <string name="dialog_alert_title">Attention</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device.</string>
     <string name="selectTextMode">Select text...</string>
-    <string name="AsusCompassCalibration_lable">AsusCompassCalibration</string>
-    <string name="GestureTitle">Compass Interference</string>
-    <string name="GestureSummary">"Move away any interference 
-or re-calibrate by waving Eee 
-PAD in a figure motion."</string>
     <string name="config_tether_apndata" />
     <string name="default_wallpaper_component">@null</string>
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>

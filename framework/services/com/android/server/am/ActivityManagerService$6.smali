@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 3831
+    .line 3843
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$6;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,18 +40,18 @@
     .parameter "intent"
 
     .prologue
-    .line 3834
+    .line 3846
     const-string v0, "android.intent.extra.PACKAGES"
 
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v9
 
-    .line 3835
+    .line 3847
     .local v9, pkgs:[Ljava/lang/String;
     if-eqz v9, :cond_23
 
-    .line 3836
+    .line 3848
     move-object v6, v9
 
     .local v6, arr$:[Ljava/lang/String;
@@ -66,13 +66,13 @@
 
     aget-object v1, v6, v7
 
-    .line 3837
+    .line 3849
     .local v1, pkg:Ljava/lang/String;
     iget-object v10, p0, Lcom/android/server/am/ActivityManagerService$6;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     monitor-enter v10
 
-    .line 3838
+    .line 3850
     :try_start_12
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$6;->this$0:Lcom/android/server/am/ActivityManagerService;
 
@@ -91,15 +91,15 @@
 
     if-eqz v0, :cond_24
 
-    .line 3839
+    .line 3851
     const/4 v0, -0x1
 
     invoke-virtual {p0, v0}, Lcom/android/server/am/ActivityManagerService$6;->setResultCode(I)V
 
-    .line 3840
+    .line 3852
     monitor-exit v10
 
-    .line 3845
+    .line 3857
     .end local v1           #pkg:Ljava/lang/String;
     .end local v6           #arr$:[Ljava/lang/String;
     .end local v7           #i$:I
@@ -107,7 +107,7 @@
     :cond_23
     return-void
 
-    .line 3842
+    .line 3854
     .restart local v1       #pkg:Ljava/lang/String;
     .restart local v6       #arr$:[Ljava/lang/String;
     .restart local v7       #i$:I
@@ -115,12 +115,12 @@
     :cond_24
     monitor-exit v10
 
-    .line 3836
+    .line 3848
     add-int/lit8 v7, v7, 0x1
 
     goto :goto_b
 
-    .line 3842
+    .line 3854
     :catchall_28
     move-exception v0
 

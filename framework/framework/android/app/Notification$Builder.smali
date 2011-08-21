@@ -111,7 +111,7 @@
 
     if-nez v0, :cond_13
 
-    const v0, 0x109008c
+    const v0, 0x109008b
 
     :goto_e
     invoke-direct {p0, v0}, Landroid/app/Notification$Builder;->makeRemoteViews(I)Landroid/widget/RemoteViews;
@@ -121,7 +121,7 @@
     goto :goto_6
 
     :cond_13
-    const v0, 0x109008d
+    const v0, 0x109008c
 
     goto :goto_e
 .end method
@@ -131,7 +131,7 @@
     .parameter "resId"
 
     .prologue
-    const v5, 0x10202c4
+    const v5, 0x10202c0
 
     .line 919
     new-instance v0, Landroid/widget/RemoteViews;
@@ -314,7 +314,7 @@
 
     if-nez v0, :cond_17
 
-    const v0, 0x109008e
+    const v0, 0x109008d
 
     :goto_12
     invoke-direct {p0, v0}, Landroid/app/Notification$Builder;->makeRemoteViews(I)Landroid/widget/RemoteViews;
@@ -324,7 +324,7 @@
     goto :goto_6
 
     :cond_17
-    const v0, 0x109008f
+    const v0, 0x109008e
 
     goto :goto_12
 

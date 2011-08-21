@@ -77,8 +77,6 @@
 
 .field public static final Animation_ZoomButtons:I = 0x1030128
 
-.field public static final AsusCompassCalibrationTheme:I = 0x10301da
-
 .field public static final ButtonBar:I = 0x1030058
 
 .field public static final DialogWindowTitle:I = 0x103011a
@@ -163,7 +161,7 @@
 
 .field public static final SegmentedButton:I = 0x1030165
 
-.field public static final StatusBarNotificationText:I = 0x10301df
+.field public static final StatusBarNotificationText:I = 0x10301de
 
 .field public static final TextAppearance:I = 0x103003e
 
@@ -395,7 +393,7 @@
 
 .field public static final Theme_Holo_DialogWhenLarge_NoActionBar:I = 0x1030078
 
-.field public static final Theme_Holo_Dialog_Alert:I = 0x10301dd
+.field public static final Theme_Holo_Dialog_Alert:I = 0x10301dc
 
 .field public static final Theme_Holo_Dialog_MinWidth:I = 0x1030070
 
@@ -403,7 +401,7 @@
 
 .field public static final Theme_Holo_Dialog_NoActionBar_MinWidth:I = 0x1030072
 
-.field public static final Theme_Holo_Dialog_NoFrame:I = 0x10301dc
+.field public static final Theme_Holo_Dialog_NoFrame:I = 0x10301db
 
 .field public static final Theme_Holo_InputMethod:I = 0x103007f
 
@@ -415,7 +413,7 @@
 
 .field public static final Theme_Holo_Light_DialogWhenLarge_NoActionBar:I = 0x103007a
 
-.field public static final Theme_Holo_Light_Dialog_Alert:I = 0x10301de
+.field public static final Theme_Holo_Light_Dialog_Alert:I = 0x10301dd
 
 .field public static final Theme_Holo_Light_Dialog_MinWidth:I = 0x1030074
 
@@ -467,7 +465,7 @@
 
 .field public static final Theme_Panel:I = 0x1030059
 
-.field public static final Theme_Panel_Volume:I = 0x10301db
+.field public static final Theme_Panel_Volume:I = 0x10301da
 
 .field public static final Theme_SearchBar:I = 0x10301d1
 
@@ -981,7 +979,7 @@
     .registers 1
 
     .prologue
-    .line 16707
+    .line 16695
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

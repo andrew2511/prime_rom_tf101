@@ -97,7 +97,7 @@
     if-eq v3, v4, :cond_fb
 
     .line 91
-    const v3, 0x109004b
+    const v3, 0x109004a
 
     invoke-virtual {v1, v3, p0, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -154,7 +154,7 @@
     iput-object v3, p0, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->mKeyboardView:Lcom/android/internal/widget/PasswordEntryKeyboardView;
 
     .line 106
-    const v3, 0x1020264
+    const v3, 0x1020260
 
     invoke-virtual {p0, v3}, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
     iput-object v3, p0, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->mKeyboardViewAlpha:Lcom/android/internal/widget/PasswordEntryKeyboardView;
 
     .line 107
-    const v3, 0x1020227
+    const v3, 0x1020223
 
     invoke-virtual {p0, v3}, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
     invoke-virtual {v3, v4}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 119
-    const v3, 0x1020228
+    const v3, 0x1020224
 
     invoke-virtual {p0, v3}, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->findViewById(I)Landroid/view/View;
 
@@ -343,7 +343,7 @@
     .end local v0           #isPhysicalKbShowing:Z
     .end local v2           #quality:I
     :cond_fb
-    const v3, 0x109004a
+    const v3, 0x1090049
 
     invoke-virtual {v1, v3, p0, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -577,7 +577,7 @@
     .registers 7
 
     .prologue
-    const v5, 0x10402b0
+    const v5, 0x10402ad
 
     .line 218
     iget-object v3, p0, Lcom/android/internal/policy/impl/PasswordUnlockScreen;->mPasswordEntry:Landroid/widget/EditText;

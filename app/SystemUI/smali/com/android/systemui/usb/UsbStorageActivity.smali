@@ -443,21 +443,21 @@
     .line 160
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mIcon:Landroid/widget/ImageView;
 
-    const v1, 0x108059e
+    const v1, 0x108059c
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 161
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mBanner:Landroid/widget/TextView;
 
-    const v1, 0x1040388
+    const v1, 0x1040385
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 162
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mMessage:Landroid/widget/TextView;
 
-    const v1, 0x1040389
+    const v1, 0x1040386
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -484,21 +484,21 @@
     .line 167
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mIcon:Landroid/widget/ImageView;
 
-    const v1, 0x108059d
+    const v1, 0x108059b
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 168
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mBanner:Landroid/widget/TextView;
 
-    const v1, 0x1040380
+    const v1, 0x104037d
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 169
     iget-object v0, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mMessage:Landroid/widget/TextView;
 
-    const v1, 0x1040381
+    const v1, 0x104037e
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -681,7 +681,7 @@
 
     .line 125
     :cond_1
-    const v1, 0x104037f
+    const v1, 0x104037c
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->getString(I)Ljava/lang/String;
 
@@ -690,7 +690,7 @@
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 127
-    const v1, 0x10900a0
+    const v1, 0x109009f
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->setContentView(I)V
 
@@ -706,7 +706,7 @@
     iput-object v1, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mIcon:Landroid/widget/ImageView;
 
     .line 130
-    const v1, 0x10202da
+    const v1, 0x10202d6
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->findViewById(I)Landroid/view/View;
 
@@ -728,7 +728,7 @@
     iput-object v1, p0, Lcom/android/systemui/usb/UsbStorageActivity;->mMessage:Landroid/widget/TextView;
 
     .line 133
-    const v1, 0x10202db
+    const v1, 0x10202d7
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->findViewById(I)Landroid/view/View;
 
@@ -744,7 +744,7 @@
     invoke-virtual {v1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 135
-    const v1, 0x10202dc
+    const v1, 0x10202d8
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/usb/UsbStorageActivity;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
     .parameter "args"
 
     .prologue
-    const v3, 0x104038f
+    const v3, 0x104038c
 
     const/4 v2, 0x0
 
@@ -799,7 +799,7 @@
 
     invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x104038c
+    const v1, 0x1040389
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -819,7 +819,7 @@
 
     move-result-object v0
 
-    const v1, 0x104038d
+    const v1, 0x104038a
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -841,7 +841,7 @@
 
     invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x104038e
+    const v1, 0x104038b
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -851,7 +851,7 @@
 
     move-result-object v0
 
-    const v1, 0x1040383
+    const v1, 0x1040380
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

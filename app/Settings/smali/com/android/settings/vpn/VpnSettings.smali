@@ -1263,7 +1263,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804ad
+    const v1, 0x7f0804b9
 
     new-instance v2, Lcom/android/settings/vpn/VpnSettings$7;
 
@@ -1273,7 +1273,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804ae
+    const v1, 0x7f0804ba
 
     new-instance v2, Lcom/android/settings/vpn/VpnSettings$6;
 
@@ -1295,7 +1295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804ad
+    const v1, 0x7f0804b9
 
     new-instance v2, Lcom/android/settings/vpn/VpnSettings$5;
 
@@ -1333,7 +1333,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0804a6
+    const v2, 0x7f0804b2
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1365,7 +1365,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0804ac
+    const v2, 0x7f0804b8
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1409,7 +1409,7 @@
 
     .line 342
     :sswitch_0
-    const v0, 0x7f0804c1
+    const v0, 0x7f0804cd
 
     .line 356
     .local v0, msgId:I
@@ -1431,7 +1431,7 @@
     .line 346
     .end local v0           #msgId:I
     :sswitch_1
-    const v0, 0x7f0804c0
+    const v0, 0x7f0804cc
 
     .line 347
     .restart local v0       #msgId:I
@@ -1440,7 +1440,7 @@
     .line 350
     .end local v0           #msgId:I
     :sswitch_2
-    const v0, 0x7f0804c6
+    const v0, 0x7f0804d2
 
     .line 351
     .restart local v0       #msgId:I
@@ -1466,7 +1466,7 @@
     sparse-switch p1, :sswitch_data_0
 
     .line 333
-    const v0, 0x7f0804be
+    const v0, 0x7f0804ca
 
     .line 335
     .local v0, msgId:I
@@ -1488,7 +1488,7 @@
     .line 317
     .end local v0           #msgId:I
     :sswitch_0
-    const v0, 0x7f0804c3
+    const v0, 0x7f0804cf
 
     .line 318
     .restart local v0       #msgId:I
@@ -1497,7 +1497,7 @@
     .line 321
     .end local v0           #msgId:I
     :sswitch_1
-    const v0, 0x7f0804c4
+    const v0, 0x7f0804d0
 
     .line 322
     .restart local v0       #msgId:I
@@ -1506,7 +1506,7 @@
     .line 325
     .end local v0           #msgId:I
     :sswitch_2
-    const v0, 0x7f0804bf
+    const v0, 0x7f0804cb
 
     .line 326
     .restart local v0       #msgId:I
@@ -1515,7 +1515,7 @@
     .line 329
     .end local v0           #msgId:I
     :sswitch_3
-    const v0, 0x7f0804c5
+    const v0, 0x7f0804d1
 
     .line 330
     .restart local v0       #msgId:I
@@ -1542,13 +1542,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804c2
+    const v1, 0x7f0804ce
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f0804ad
+    const v1, 0x7f0804b9
 
     new-instance v2, Lcom/android/settings/vpn/VpnSettings$4;
 
@@ -1647,7 +1647,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0804bb
+    const v3, 0x7f0804c7
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1659,7 +1659,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0804ae
+    const v3, 0x7f0804ba
 
     invoke-virtual {v2, v3, v0}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -2076,7 +2076,7 @@
     packed-switch v1, :pswitch_data_0
 
     .line 966
-    const v1, 0x7f0804d0
+    const v1, 0x7f0804dc
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2087,7 +2087,7 @@
 
     .line 960
     :pswitch_0
-    const v1, 0x7f0804cd
+    const v1, 0x7f0804d9
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2097,7 +2097,7 @@
 
     .line 962
     :pswitch_1
-    const v1, 0x7f0804ce
+    const v1, 0x7f0804da
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2107,7 +2107,7 @@
 
     .line 964
     :pswitch_2
-    const v1, 0x7f0804cf
+    const v1, 0x7f0804db
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3075,7 +3075,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0804c7
+    const v3, 0x7f0804d3
 
     const/4 v6, 0x2
 
@@ -3331,7 +3331,7 @@
 
     .line 475
     .local v5, profile:Landroid/net/vpn/VpnProfile;
-    const v7, 0x7f0804ba
+    const v7, 0x7f0804c6
 
     invoke-virtual {v1, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3389,7 +3389,7 @@
     invoke-direct {p0, v4}, Lcom/android/settings/vpn/VpnSettings;->addProfile(Landroid/net/vpn/VpnProfile;)V
 
     .line 498
-    const v7, 0x7f0804d3
+    const v7, 0x7f0804df
 
     invoke-virtual {v1, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3471,7 +3471,7 @@
     invoke-direct {p0, v3, v4}, Lcom/android/settings/vpn/VpnSettings;->replaceProfile(ILandroid/net/vpn/VpnProfile;)V
 
     .line 502
-    const v7, 0x7f0804d4
+    const v7, 0x7f0804e0
 
     invoke-virtual {v1, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3604,7 +3604,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0804b8
+    const v5, 0x7f0804c4
 
     invoke-virtual {v1, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3626,7 +3626,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0804af
+    const v5, 0x7f0804bb
 
     new-instance v6, Lcom/android/settings/vpn/VpnSettings$11;
 
@@ -3898,7 +3898,7 @@
     .line 415
     .local v1, isNotConnect:Z
     :goto_1
-    const v4, 0x7f0804b4
+    const v4, 0x7f0804c0
 
     invoke-interface {p1, v6, v7, v6, v4}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -3918,7 +3918,7 @@
     .line 417
     const/4 v4, 0x2
 
-    const v5, 0x7f0804b5
+    const v5, 0x7f0804c1
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -3936,7 +3936,7 @@
     .line 420
     const/4 v4, 0x3
 
-    const v5, 0x7f0804b6
+    const v5, 0x7f0804c2
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -3947,7 +3947,7 @@
     .line 422
     const/4 v4, 0x4
 
-    const v5, 0x7f0804b7
+    const v5, 0x7f0804c3
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 

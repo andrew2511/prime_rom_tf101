@@ -351,7 +351,7 @@
 
     const/high16 v2, 0x800
 
-    const-string v3, "phone_in_call"
+    const-string/jumbo v3, "phone_in_call"
 
     invoke-direct {v1, v2, v3}, Landroid/os/BatteryStats$BitDescription;-><init>(ILjava/lang/String;)V
 
@@ -361,7 +361,7 @@
 
     const/high16 v2, 0x400
 
-    const-string v3, "phone_scanning"
+    const-string/jumbo v3, "phone_scanning"
 
     invoke-direct {v1, v2, v3}, Landroid/os/BatteryStats$BitDescription;-><init>(ILjava/lang/String;)V
 
@@ -523,7 +523,7 @@
 
     const/16 v4, 0x8
 
-    const-string v5, "phone_state"
+    const-string/jumbo v5, "phone_state"
 
     new-array v6, v6, [Ljava/lang/String;
 

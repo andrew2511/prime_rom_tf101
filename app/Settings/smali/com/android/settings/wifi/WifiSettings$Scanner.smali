@@ -26,12 +26,12 @@
     .parameter
 
     .prologue
-    .line 593
+    .line 595
     iput-object p1, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 594
+    .line 596
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->mRetry:I
@@ -45,7 +45,7 @@
     .parameter "x1"
 
     .prologue
-    .line 593
+    .line 595
     invoke-direct {p0, p1}, Lcom/android/settings/wifi/WifiSettings$Scanner;-><init>(Lcom/android/settings/wifi/WifiSettings;)V
 
     return-void
@@ -57,12 +57,12 @@
     .locals 1
 
     .prologue
-    .line 603
+    .line 605
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/WifiSettings$Scanner;->sendEmptyMessage(I)Z
 
-    .line 604
+    .line 606
     return-void
 .end method
 
@@ -75,7 +75,7 @@
 
     const/4 v2, 0x0
 
-    .line 614
+    .line 616
     iget-object v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-static {v0}, Lcom/android/settings/wifi/WifiSettings;->access$400(Lcom/android/settings/wifi/WifiSettings;)Landroid/net/wifi/WifiManager;
@@ -88,10 +88,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 615
+    .line 617
     iput v2, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->mRetry:I
 
-    .line 622
+    .line 624
     :cond_0
     iget-object v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
@@ -108,16 +108,16 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcom/android/settings/ProgressCategoryBase;->setProgress(Z)V
 
-    .line 624
+    .line 626
     const-wide/16 v0, 0x2710
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/android/settings/wifi/WifiSettings$Scanner;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 625
+    .line 627
     :goto_1
     return-void
 
-    .line 616
+    .line 618
     :cond_1
     iget v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->mRetry:I
 
@@ -129,17 +129,17 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 617
+    .line 619
     iput v2, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->mRetry:I
 
-    .line 618
+    .line 620
     iget-object v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-virtual {v0}, Lcom/android/settings/wifi/WifiSettings;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f0801b6
+    const v1, 0x7f0801c0
 
     invoke-static {v0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -152,7 +152,7 @@
     :cond_2
     move v1, v2
 
-    .line 622
+    .line 624
     goto :goto_0
 .end method
 
@@ -162,10 +162,10 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 607
+    .line 609
     iput v1, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->mRetry:I
 
-    .line 608
+    .line 610
     iget-object v0, p0, Lcom/android/settings/wifi/WifiSettings$Scanner;->this$0:Lcom/android/settings/wifi/WifiSettings;
 
     invoke-static {v0}, Lcom/android/settings/wifi/WifiSettings;->access$300(Lcom/android/settings/wifi/WifiSettings;)Lcom/android/settings/ProgressCategoryBase;
@@ -174,10 +174,10 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/ProgressCategoryBase;->setProgress(Z)V
 
-    .line 609
+    .line 611
     invoke-virtual {p0, v1}, Lcom/android/settings/wifi/WifiSettings$Scanner;->removeMessages(I)V
 
-    .line 610
+    .line 612
     return-void
 .end method
 
@@ -187,17 +187,17 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 597
+    .line 599
     invoke-virtual {p0, v1}, Lcom/android/settings/wifi/WifiSettings$Scanner;->hasMessages(I)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 598
+    .line 600
     invoke-virtual {p0, v1}, Lcom/android/settings/wifi/WifiSettings$Scanner;->sendEmptyMessage(I)Z
 
-    .line 600
+    .line 602
     :cond_0
     return-void
 .end method

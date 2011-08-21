@@ -458,7 +458,7 @@
 
     if-eqz v0, :cond_7
 
-    const v6, 0x7f080227
+    const v6, 0x7f080231
 
     :goto_3
     invoke-virtual {v5, v6}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
@@ -487,7 +487,7 @@
     .line 293
     .restart local v0       #isAlarmInclSilentMode:Z
     :cond_7
-    const v6, 0x7f080226
+    const v6, 0x7f080230
 
     goto :goto_3
 .end method

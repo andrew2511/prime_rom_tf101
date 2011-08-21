@@ -1384,7 +1384,7 @@
 
     move-object v12, v0
 
-    const v13, 0x104001b
+    const v13, 0x1040018
 
     invoke-virtual {v12, v13}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1736,7 +1736,7 @@
     .line 544
     const-string v12, "android.intent.extra.client_label"
 
-    const v13, 0x10403c3
+    const v13, 0x10403c0
 
     invoke-virtual {v6, v12, v13}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -1763,7 +1763,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x10403c4
+    const v17, 0x10403c1
 
     invoke-virtual/range {v16 .. v17}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

@@ -760,7 +760,7 @@
     if-eqz v6, :cond_1
 
     .line 241
-    const v6, 0x7f020003
+    const v6, 0x7f020005
 
     invoke-virtual {v1, v6}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -818,7 +818,7 @@
     if-nez v6, :cond_2
 
     .line 250
-    const v6, 0x7f020002
+    const v6, 0x7f020004
 
     invoke-virtual {v1, v6}, Landroid/widget/ImageView;->setImageResource(I)V
 

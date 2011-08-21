@@ -150,7 +150,7 @@
     .line 133
     iget-object v0, p0, Lcom/android/settings/nfc/NfcEnabler;->mCheckbox:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f0801ab
+    const v1, 0x7f0801b5
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 

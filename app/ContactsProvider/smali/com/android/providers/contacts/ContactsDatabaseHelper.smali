@@ -6914,7 +6914,7 @@
 
     iget-object v1, p0, Lcom/android/providers/contacts/ContactsDatabaseHelper;->mContext:Landroid/content/Context;
 
-    const v2, 0x10400aa
+    const v2, 0x10400a7
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6922,7 +6922,7 @@
 
     iget-object v2, p0, Lcom/android/providers/contacts/ContactsDatabaseHelper;->mContext:Landroid/content/Context;
 
-    const v3, 0x10400ac
+    const v3, 0x10400a9
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6930,7 +6930,7 @@
 
     iget-object v3, p0, Lcom/android/providers/contacts/ContactsDatabaseHelper;->mContext:Landroid/content/Context;
 
-    const v4, 0x10400ab
+    const v4, 0x10400a8
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6938,7 +6938,7 @@
 
     iget-object v4, p0, Lcom/android/providers/contacts/ContactsDatabaseHelper;->mContext:Landroid/content/Context;
 
-    const v5, 0x10400ad
+    const v5, 0x10400aa
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

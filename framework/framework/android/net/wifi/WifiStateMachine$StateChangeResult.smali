@@ -30,18 +30,18 @@
     .parameter "state"
 
     .prologue
-    .line 1593
+    .line 1796
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1594
+    .line 1797
     iput-object p3, p0, Landroid/net/wifi/WifiStateMachine$StateChangeResult;->state:Landroid/net/wifi/SupplicantState;
 
-    .line 1595
+    .line 1798
     iput-object p2, p0, Landroid/net/wifi/WifiStateMachine$StateChangeResult;->BSSID:Ljava/lang/String;
 
-    .line 1596
+    .line 1799
     iput p1, p0, Landroid/net/wifi/WifiStateMachine$StateChangeResult;->networkId:I
 
-    .line 1597
+    .line 1800
     return-void
 .end method

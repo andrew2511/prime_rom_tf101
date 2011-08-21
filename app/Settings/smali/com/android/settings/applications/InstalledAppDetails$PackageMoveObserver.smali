@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 188
+    .line 190
     iput-object p1, p0, Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-direct {p0}, Landroid/content/pm/IPackageMoveObserver$Stub;-><init>()V
@@ -45,7 +45,7 @@
     .end annotation
 
     .prologue
-    .line 190
+    .line 192
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-static {v1}, Lcom/android/settings/applications/InstalledAppDetails;->access$400(Lcom/android/settings/applications/InstalledAppDetails;)Landroid/os/Handler;
@@ -58,11 +58,11 @@
 
     move-result-object v0
 
-    .line 191
+    .line 193
     .local v0, msg:Landroid/os/Message;
     iput p2, v0, Landroid/os/Message;->arg1:I
 
-    .line 192
+    .line 194
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails$PackageMoveObserver;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
     invoke-static {v1}, Lcom/android/settings/applications/InstalledAppDetails;->access$400(Lcom/android/settings/applications/InstalledAppDetails;)Landroid/os/Handler;
@@ -71,6 +71,6 @@
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 193
+    .line 195
     return-void
 .end method

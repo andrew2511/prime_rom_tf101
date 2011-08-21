@@ -432,7 +432,7 @@
 
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothDiscoverableEnabler;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f080077
+    const v2, 0x7f080081
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -450,7 +450,7 @@
 
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothDiscoverableEnabler;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f080076
+    const v2, 0x7f080080
 
     const/4 v3, 0x1
 

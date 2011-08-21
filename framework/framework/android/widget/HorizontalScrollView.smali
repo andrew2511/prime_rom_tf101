@@ -4846,7 +4846,7 @@
 
     .line 1436
     .local v3, res:Landroid/content/res/Resources;
-    const v4, 0x10803ea
+    const v4, 0x10803e8
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4854,7 +4854,7 @@
 
     .line 1437
     .local v1, edge:Landroid/graphics/drawable/Drawable;
-    const v4, 0x10803eb
+    const v4, 0x10803e9
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

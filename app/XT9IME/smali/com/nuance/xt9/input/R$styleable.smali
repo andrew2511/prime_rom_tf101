@@ -311,7 +311,7 @@
 
     const/4 v2, 0x0
 
-    .line 2005
+    .line 2006
     const/16 v0, 0xa
 
     new-array v0, v0, [I
@@ -320,7 +320,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->InlineStringAlpha:[I
 
-    .line 2180
+    .line 2181
     const/4 v0, 0x6
 
     new-array v0, v0, [I
@@ -329,7 +329,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->InlineStringChinese:[I
 
-    .line 2295
+    .line 2296
     new-array v0, v3, [I
 
     const v1, 0x7f010060
@@ -338,7 +338,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->InlineStringKorean:[I
 
-    .line 2346
+    .line 2347
     const/16 v0, 0xc
 
     new-array v0, v0, [I
@@ -347,14 +347,14 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardEx:[I
 
-    .line 2574
+    .line 2575
     new-array v0, v4, [I
 
     fill-array-data v0, :array_3
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardEx_HardwareKey:[I
 
-    .line 2707
+    .line 2708
     const/16 v0, 0x16
 
     new-array v0, v0, [I
@@ -363,7 +363,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardEx_Key:[I
 
-    .line 3081
+    .line 3082
     const/16 v0, 0xb
 
     new-array v0, v0, [I
@@ -372,7 +372,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardEx_Row:[I
 
-    .line 3281
+    .line 3282
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -381,7 +381,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardEx_WritingPad:[I
 
-    .line 3451
+    .line 3452
     const/16 v0, 0x13
 
     new-array v0, v0, [I
@@ -390,7 +390,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->KeyboardViewEx:[I
 
-    .line 3753
+    .line 3754
     const/4 v0, 0x2
 
     new-array v0, v0, [I
@@ -399,7 +399,7 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->SymbolPage:[I
 
-    .line 3790
+    .line 3791
     new-array v0, v3, [I
 
     const v1, 0x7f010066
@@ -408,14 +408,14 @@
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->SymbolTable:[I
 
-    .line 3825
+    .line 3826
     new-array v0, v4, [I
 
     fill-array-data v0, :array_9
 
     sput-object v0, Lcom/nuance/xt9/input/R$styleable;->WordListView:[I
 
-    .line 3980
+    .line 3981
     const/16 v0, 0x1b
 
     new-array v0, v0, [I
@@ -426,7 +426,7 @@
 
     return-void
 
-    .line 2005
+    .line 2006
     nop
 
     :array_0
@@ -443,7 +443,7 @@
         0x5at 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 2180
+    .line 2181
     :array_1
     .array-data 0x4
         0x5bt 0x0t 0x1t 0x7ft
@@ -454,7 +454,7 @@
         0x60t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 2346
+    .line 2347
     :array_2
     .array-data 0x4
         0x2t 0x0t 0x1t 0x7ft
@@ -471,7 +471,7 @@
         0x1bt 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 2574
+    .line 2575
     :array_3
     .array-data 0x4
         0x20t 0x0t 0x1t 0x7ft
@@ -481,7 +481,7 @@
         0x35t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 2707
+    .line 2708
     :array_4
     .array-data 0x4
         0x2t 0x0t 0x1t 0x7ft
@@ -508,7 +508,7 @@
         0x2bt 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3081
+    .line 3082
     :array_5
     .array-data 0x4
         0x2t 0x0t 0x1t 0x7ft
@@ -524,7 +524,7 @@
         0x1ft 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3281
+    .line 3282
     :array_6
     .array-data 0x4
         0x2ct 0x0t 0x1t 0x7ft
@@ -537,7 +537,7 @@
         0x33t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3451
+    .line 3452
     :array_7
     .array-data 0x4
         0x0t 0x0t 0x1t 0x7ft
@@ -561,14 +561,14 @@
         0x12t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3753
+    .line 3754
     :array_8
     .array-data 0x4
         0x67t 0x0t 0x1t 0x7ft
         0x68t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3825
+    .line 3826
     :array_9
     .array-data 0x4
         0x61t 0x0t 0x1t 0x7ft
@@ -578,7 +578,7 @@
         0x65t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 3980
+    .line 3981
     :array_a
     .array-data 0x4
         0x36t 0x0t 0x1t 0x7ft
@@ -615,7 +615,7 @@
     .locals 0
 
     .prologue
-    .line 1976
+    .line 1977
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

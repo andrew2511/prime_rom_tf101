@@ -1256,7 +1256,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003b
+    const v4, 0x7f09003c
 
     .line 186
     iget-object v0, p0, Lcom/nuance/xt9/input/AlphaHandWritingInputView;->mEmailKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1304,7 +1304,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003c
+    const v4, 0x7f09003d
 
     .line 202
     iget-object v0, p0, Lcom/nuance/xt9/input/AlphaHandWritingInputView;->mImKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1352,7 +1352,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f090039
+    const v4, 0x7f09003a
 
     .line 178
     iget-object v0, p0, Lcom/nuance/xt9/input/AlphaHandWritingInputView;->mNormalKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;
@@ -1400,7 +1400,7 @@
     .parameter "inputFieldInfo"
 
     .prologue
-    const v4, 0x7f09003a
+    const v4, 0x7f09003b
 
     .line 194
     iget-object v0, p0, Lcom/nuance/xt9/input/AlphaHandWritingInputView;->mUrlKeyboard:Lcom/nuance/xt9/input/XT9Keyboard;

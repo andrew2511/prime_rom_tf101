@@ -230,7 +230,7 @@
 
     .line 621
     .local v0, views:Landroid/widget/RemoteViews;
-    const v1, 0x7f0f0102
+    const v1, 0x7f0f0104
 
     const/4 v2, 0x0
 
@@ -241,7 +241,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 623
-    const v1, 0x7f0f010e
+    const v1, 0x7f0f0110
 
     const/4 v2, 0x1
 
@@ -252,7 +252,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 626
-    const v1, 0x7f0f010b
+    const v1, 0x7f0f010d
 
     const/4 v2, 0x2
 
@@ -263,7 +263,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 629
-    const v1, 0x7f0f0108
+    const v1, 0x7f0f010a
 
     const/4 v2, 0x3
 
@@ -274,7 +274,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 631
-    const v1, 0x7f0f0105
+    const v1, 0x7f0f0107
 
     const/4 v2, 0x4
 
@@ -804,9 +804,9 @@
     .prologue
     const v3, 0x7f020014
 
-    const v2, 0x7f0f0110
+    const v2, 0x7f0f0112
 
-    const v1, 0x7f0f010f
+    const v1, 0x7f0f0111
 
     .line 658
     sget-object v0, Lcom/android/settings/widget/SettingsAppWidgetProvider;->sWifiState:Lcom/android/settings/widget/SettingsAppWidgetProvider$StateTracker;

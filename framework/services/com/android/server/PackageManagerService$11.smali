@@ -33,7 +33,7 @@
     .parameter
 
     .prologue
-    .line 10125
+    .line 10138
     iput-object p1, p0, Lcom/android/server/PackageManagerService$11;->this$0:Lcom/android/server/PackageManagerService;
 
     iput-boolean p2, p0, Lcom/android/server/PackageManagerService$11;->val$mediaStatus:Z
@@ -51,14 +51,14 @@
     .registers 4
 
     .prologue
-    .line 10127
+    .line 10140
     iget-object v0, p0, Lcom/android/server/PackageManagerService$11;->this$0:Lcom/android/server/PackageManagerService;
 
     iget-object v0, v0, Lcom/android/server/PackageManagerService;->mHandler:Lcom/android/server/PackageManagerService$PackageHandler;
 
     invoke-virtual {v0, p0}, Lcom/android/server/PackageManagerService$PackageHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 10128
+    .line 10141
     iget-object v0, p0, Lcom/android/server/PackageManagerService$11;->this$0:Lcom/android/server/PackageManagerService;
 
     iget-boolean v1, p0, Lcom/android/server/PackageManagerService$11;->val$mediaStatus:Z
@@ -68,6 +68,6 @@
     #calls: Lcom/android/server/PackageManagerService;->updateExternalMediaStatusInner(ZZ)V
     invoke-static {v0, v1, v2}, Lcom/android/server/PackageManagerService;->access$3900(Lcom/android/server/PackageManagerService;ZZ)V
 
-    .line 10129
+    .line 10142
     return-void
 .end method

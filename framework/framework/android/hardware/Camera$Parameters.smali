@@ -1628,7 +1628,7 @@
 
     .prologue
     .line 1862
-    const-string v0, "picture-format"
+    const-string/jumbo v0, "picture-format"
 
     invoke-virtual {p0, v0}, Landroid/hardware/Camera$Parameters;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1646,7 +1646,7 @@
 
     .prologue
     .line 1821
-    const-string v1, "picture-size"
+    const-string/jumbo v1, "picture-size"
 
     invoke-virtual {p0, v1}, Landroid/hardware/Camera$Parameters;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1946,7 +1946,7 @@
 
     .prologue
     .line 1873
-    const-string v5, "picture-format-values"
+    const-string/jumbo v5, "picture-format-values"
 
     invoke-virtual {p0, v5}, Landroid/hardware/Camera$Parameters;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1969,13 +1969,13 @@
     move-result-object v2
 
     .local v2, i$:Ljava/util/Iterator;
-    :cond_13
-    :goto_13
+    :cond_14
+    :goto_14
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v5
 
-    if-eqz v5, :cond_2d
+    if-eqz v5, :cond_2e
 
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -1991,7 +1991,7 @@
 
     .line 1877
     .local v0, f:I
-    if-eqz v0, :cond_13
+    if-eqz v0, :cond_14
 
     .line 1878
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2000,12 +2000,12 @@
 
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    goto :goto_13
+    goto :goto_14
 
     .line 1880
     .end local v0           #f:I
     .end local v3           #s:Ljava/lang/String;
-    :cond_2d
+    :cond_2e
     return-object v1
 .end method
 
@@ -2023,7 +2023,7 @@
 
     .prologue
     .line 1832
-    const-string v1, "picture-size-values"
+    const-string/jumbo v1, "picture-size-values"
 
     invoke-virtual {p0, v1}, Landroid/hardware/Camera$Parameters;->get(Ljava/lang/String;)Ljava/lang/String;
 
@@ -2834,7 +2834,7 @@
 
     .line 1852
     :cond_1f
-    const-string v1, "picture-format"
+    const-string/jumbo v1, "picture-format"
 
     invoke-virtual {p0, v1, v0}, Landroid/hardware/Camera$Parameters;->set(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -2881,7 +2881,7 @@
 
     .line 1811
     .local v0, v:Ljava/lang/String;
-    const-string v1, "picture-size"
+    const-string/jumbo v1, "picture-size"
 
     invoke-virtual {p0, v1, v0}, Landroid/hardware/Camera$Parameters;->set(Ljava/lang/String;Ljava/lang/String;)V
 
